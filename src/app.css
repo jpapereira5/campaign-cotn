@@ -1,0 +1,186 @@
+:root {
+  color-scheme: dark;
+  --bg: #15120f;
+  --bg-2: #1f1a15;
+  --bg-3: #2a231c;
+  --line: #3b3128;
+  --text: #ece3d4;
+  --muted: #a3968a;
+  --accent: #d9a441;
+  --accent-2: #8c5a2b;
+  --danger: #c2453a;
+  --ok: #6fbf73;
+  --radius: 10px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: var(--bg-3);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+button:hover {
+  border-color: var(--accent-2);
+  background: #332a21;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+button.primary {
+  background: var(--accent-2);
+  border-color: var(--accent);
+}
+
+button.primary:hover {
+  background: #a06a34;
+}
+
+button.danger:hover {
+  border-color: var(--danger);
+  color: #ffb3ad;
+}
+
+button.icon {
+  padding: 0.3rem 0.5rem;
+  line-height: 1;
+}
+
+input[type='text'],
+input[type='number'],
+select {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
+}
+
+input[type='text']:focus,
+input[type='number']:focus,
+select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+input[type='range'] {
+  accent-color: var(--accent);
+  width: 100%;
+}
+
+kbd {
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0 0.35em;
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  background: var(--bg);
+  font-family: ui-monospace, monospace;
+  font-size: 0.8em;
+  text-align: center;
+  color: var(--muted);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+/* Players stay in the DOM so audio plays, but take no space: this is an
+   audio-only board by design. Note the YouTube ToS ask for a visible player. */
+.player-host {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.player-host iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+/* Blinking orange: loading, not armed yet. */
+.status-dot.loading {
+  background: var(--accent);
+  animation: pulse 1s infinite alternate;
+}
+
+/* Steady orange: armed, buffered, ready to start without delay. Also while
+   fading out: the track is already on its way back to armed. */
+.status-dot.idle,
+.status-dot.stopping {
+  background: var(--accent);
+}
+
+/* Green: playing or fading in. */
+.status-dot.fading,
+.status-dot.playing {
+  background: var(--ok);
+  box-shadow: 0 0 6px var(--ok);
+}
+
+.status-dot.error {
+  background: var(--danger);
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

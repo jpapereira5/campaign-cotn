@@ -1,0 +1,6 @@
+node_modules
+dist
+*.local
+.DS_Store
+# Extracções do livro (citações): ficam fora do repo público
+research/
