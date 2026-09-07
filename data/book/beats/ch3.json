@@ -2,314 +2,675 @@
   {
     "id": "b-3-mouthers",
     "title": "No Time for Pleasantries: gibbering mouthers na rua",
-    "arcs": ["a-main", "a-rivals", "a-kryn"],
+    "arcs": [
+      "a-main",
+      "a-rivals",
+      "a-kryn"
+    ],
     "chapter": "ch3",
     "order": 10,
     "location": "l-bazzoxan-gate",
-    "participants": ["c-verin-thelyss", "c-naevyn-tasithar", "c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes"],
+    "participants": [
+      "c-verin-thelyss",
+      "c-naevyn-tasithar",
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes"
+    ],
     "summary": "Mal os PCs passam o portão, cinco gibbering mouthers andam à solta e um já devora um soldado. Verin grita para desembainharem ou se porem a salvo e para o procurarem no quartel depois. Os rostos cansados mostram que isto acontece a toda a hora.",
     "reveals": [],
     "requires": [],
     "choices": [
-      { "label": "Lutar", "outcome": "Verin e dois guardas orc ficam com os PCs; os rivais são mandados defender a enfermaria (resmungam até Ayo confirmar a ordem) e ficam a salvo, ávidos de notícias.", "leadsTo": ["b-3-rivals-shaken"] },
-      { "label": "Fugir", "outcome": "DC 20 Persuasion ou Perception por minuto para achar abrigo; cada falha faz sair um mouther escondido. Ayo fica gravemente ferida, Maggie carrega-a para a enfermaria, Dermot trata-a. Os rivais viram-se contra o líder aparente dos PCs e Maggie contra todos.", "leadsTo": ["b-3-rivals-shaken"] }
+      {
+        "label": "Lutar",
+        "outcome": "Verin e dois guardas orc ficam com os PCs; os rivais são mandados defender a enfermaria (resmungam até Ayo confirmar a ordem) e ficam a salvo, ávidos de notícias.",
+        "leadsTo": [
+          "b-3-rivals-shaken"
+        ]
+      },
+      {
+        "label": "Fugir",
+        "outcome": "DC 20 Persuasion ou Perception por minuto para achar abrigo; cada falha faz sair um mouther escondido. Ayo fica gravemente ferida, Maggie carrega-a para a enfermaria, Dermot trata-a. Os rivais viram-se contra o líder aparente dos PCs e Maggie contra todos.",
+        "leadsTo": [
+          "b-3-rivals-shaken"
+        ]
+      }
     ],
     "timer": "5 minutos até os alarmes pararem",
-    "notes": "Beat de chegada e primeiro teste da atitude dos rivais no capítulo. Se Aloysia estiver na vila, ela também combate os mouthers (o Remix usa isso para a colocar na enfermaria a tratar uma ferida). Naevyn é ferida neste ataque. A vila é contenção, não vitória: deixa isso claro pelo cansaço dos soldados.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-rivals-shaken",
     "title": "Rivais abalados",
-    "arcs": ["a-rivals"],
+    "arcs": [
+      "a-rivals"
+    ],
     "chapter": "ch3",
     "order": 20,
     "location": "l-bazzoxan-infirmary",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes"],
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes"
+    ],
     "summary": "Depois dos mouthers os rivais perdem a bravata: Galsariad torna-se quase insultuoso, Irvan retrai-se, Dermot agarra-se ao Luxon e a Ayo, Maggie cala-se e Ayo duvida da própria liderança.",
     "reveals": [],
-    "requires": ["b-3-mouthers"],
-    "choices": [
-      { "label": "Os PCs apoiam-nos", "outcome": "Oportunidade de subir a atitude; Ayo pode propor dividir tarefas na vila (Remix: dividir o grupo).", "leadsTo": ["b-3-ready-room-question"] },
-      { "label": "Os PCs ignoram-nos ou gozam", "outcome": "A atitude desce; os rivais ficam disponíveis para as ofertas que os PCs recusarem (Prolix ou Aloysia).", "leadsTo": ["b-3-make-an-enemy"] }
+    "requires": [
+      "b-3-mouthers"
     ],
-    "notes": "Estado permanente até Ank'Harel. Remix: usa os rivais para debater a agenda (o que fazer com a Jóia? entrar no Rise ou não?) e regista o modo em que estão (parceria, seguir os PCs, investigar sozinhos, sair, tomar a Jóia). Qualquer oferta de investigador recusada pelos PCs pode ser aceite pelos rivais: anota quem eles conhecem e de quem se tornam inimigos.",
+    "choices": [
+      {
+        "label": "Os PCs apoiam-nos",
+        "outcome": "Oportunidade de subir a atitude; Ayo pode propor dividir tarefas na vila.",
+        "leadsTo": [
+          "b-3-ready-room-question"
+        ]
+      },
+      {
+        "label": "Os PCs ignoram-nos ou gozam",
+        "outcome": "A atitude desce; os rivais ficam disponíveis para as ofertas que os PCs recusarem (Prolix ou Aloysia).",
+        "leadsTo": [
+          "b-3-aloysia-offer"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-crematorium-prolix",
     "title": "B2 Crematorium: o vrock, a caixa e Prolix",
-    "arcs": ["a-main", "a-allegiance", "a-consortium", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-allegiance",
+      "a-consortium",
+      "a-ruidium"
+    ],
     "chapter": "ch3",
     "order": 30,
     "location": "l-bazzoxan-crematorium",
-    "participants": ["c-reynard-allerton", "c-sebastian-allerton", "c-prolix-yusaf"],
+    "participants": [
+      "c-reynard-allerton",
+      "c-sebastian-allerton",
+      "c-prolix-yusaf"
+    ],
     "summary": "Reynard recruta braços para os corpos; o vrock que não se dissolve tem na goela uma onyx puzzle box. Prolix Yusaf aparece a reclamá-la e, com DC 12 Persuasion (+5 fica amigável), revela a Allegiance, o Consortium e que Aloysia caça algo no Rise.",
-    "reveals": ["r-faction-agendas", "r-go-to-ank-harel"],
+    "reveals": [
+      "r-faction-agendas",
+      "r-go-to-ank-harel"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Deixar Prolix ficar com a caixa", "outcome": "Oferece 200 gp mais a caixa e o conteúdo se os PCs descobrirem e travarem o plano de Aloysia.", "leadsTo": ["b-3-aloysia-offer", "b-3-make-an-enemy"] },
-      { "label": "Ficar com a caixa (DC 20 Int para abrir; spell scroll of bestow curse)", "outcome": "Prolix fica frio mas não desiste: pode voltar à carga na estalagem ou contratar os rivais.", "leadsTo": ["b-3-make-an-enemy"] },
-      { "label": "Mostrar a Jóia", "outcome": "Não a reconhece, mas esboça-a e convida a companhia ao Crystal Chateau em Ank'Harel; aponta Question como a pessoa esperta a consultar.", "leadsTo": ["b-3-ready-room-question", "b-3-next-steps-ank-harel"] }
+      {
+        "label": "Deixar Prolix ficar com a caixa",
+        "outcome": "Oferece 200 gp mais a caixa e o conteúdo se os PCs descobrirem e travarem o plano de Aloysia.",
+        "leadsTo": [
+          "b-3-aloysia-offer"
+        ]
+      },
+      {
+        "label": "Ficar com a caixa (DC 20 Int para abrir; spell scroll of bestow curse)",
+        "outcome": "Prolix fica frio mas não desiste: pode voltar à carga na estalagem ou contratar os rivais.",
+        "leadsTo": [
+          "b-3-aloysia-offer"
+        ]
+      },
+      {
+        "label": "Mostrar a Jóia",
+        "outcome": "Não a reconhece, mas esboça-a e convida a companhia ao Crystal Chateau em Ank'Harel; aponta Question como a pessoa esperta a consultar.",
+        "leadsTo": [
+          "b-3-ready-room-question",
+          "b-3-next-steps-ank-harel"
+        ]
+      }
     ],
-    "notes": "Remix: trata Prolix como uma revelação com três pistas (crematório, estalagem, a estudar um sacrifice engine) e não como cutscene; quando em dúvida, fá-lo aparecer. Key Info dele: a agenda de ruidium da Allegiance (armas para vender), que ele foi enviado sobretudo para espiar Aloysia (pode pedir aos PCs que lhe roubem as notas do quarto), e a oferta de regresso a Ank'Harel. Regista se os PCs o tornam amigo ou inimigo.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-infirmary",
     "title": "B3 Infirmary: a lenda de Bautha e o coelho de Naevyn",
-    "arcs": ["a-main", "a-lore", "a-consortium", "a-kryn"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-consortium",
+      "a-kryn"
+    ],
     "chapter": "ch3",
     "order": 40,
     "location": "l-bazzoxan-infirmary",
-    "participants": ["c-bautha-dyrr", "c-naevyn-tasithar"],
+    "participants": [
+      "c-bautha-dyrr",
+      "c-naevyn-tasithar"
+    ],
     "summary": "Bautha cura de graça e recorda a meio a lenda: um herói da Calamity pediu ajuda a três deuses; Avandra foi um deles, Sehanine talvez outro; e Avandra terá chorado por ele, não por ter morrido, mas por temer que a sua ajuda o tivesse roubado de um futuro. Naevyn pede que levem o seu coelho de olho-de-tigre ao Wall.",
-    "reveals": ["r-alyxian-three-prayers", "r-shrines", "r-jewel-three-prayers"],
+    "reveals": [
+      "r-alyxian-three-prayers",
+      "r-shrines",
+      "r-jewel-three-prayers"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Perguntar por Aloysia (DC 13 Persuasion)", "outcome": "Bautha conta que Aloysia se feriu a entrar sozinha no Rise e agora procura mercenários para o explorar por ela.", "leadsTo": ["b-3-aloysia-offer"] },
-      { "label": "Aceitar o pedido de Naevyn", "outcome": "Ela desvia o olhar e recusa explicar porquê; a resposta está com Kalym.", "leadsTo": ["b-3-wall-unforgotten"] }
+      {
+        "label": "Perguntar por Aloysia (DC 13 Persuasion)",
+        "outcome": "Bautha conta que Aloysia se feriu a entrar sozinha no Rise e agora procura mercenários para o explorar por ela.",
+        "leadsTo": [
+          "b-3-aloysia-offer"
+        ]
+      },
+      {
+        "label": "Aceitar o pedido de Naevyn",
+        "outcome": "Ela desvia o olhar e recusa explicar porquê; a resposta está com Kalym.",
+        "leadsTo": [
+          "b-3-wall-unforgotten"
+        ]
+      }
     ],
-    "notes": "Lore chave do capítulo: a frase sobre o luto de Avandra prefigura a tese de Torog em R16 e o Netherdeep. Bautha desaprova a presença Kryn e vê Prolix e Aloysia como ingénuos: boa voz para os PCs formarem opinião sobre os investigadores. Vende greater restoration por 500 gp (útil contra a corrupção do ruidium mais tarde). Remix: Aloysia pode estar aqui a tratar uma ferida dos mouthers.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-barracks-verin",
     "title": "B4 Gatehold Barracks: o briefing de Verin",
-    "arcs": ["a-main", "a-kryn", "a-cobalt", "a-consortium", "a-allegiance"],
+    "arcs": [
+      "a-main",
+      "a-kryn",
+      "a-cobalt",
+      "a-consortium",
+      "a-allegiance"
+    ],
     "chapter": "ch3",
     "order": 50,
     "location": "l-bazzoxan-barracks",
-    "participants": ["c-verin-thelyss"],
+    "participants": [
+      "c-verin-thelyss"
+    ],
     "summary": "Na sala de guerra Verin resume: a expedição da Cobalt Soul está no Rise com escolta; Aloysia foi repreendida por subornar soldados enquanto procura um antigo local sagrado no Rise; Prolix é suspeito de segundas intenções. Avisa que os corredores do Rise mudam e que quem se perder não será resgatado.",
-    "reveals": ["r-faction-agendas", "r-cyst-of-avandra", "r-go-to-bazzoxan"],
+    "reveals": [
+      "r-faction-agendas",
+      "r-cyst-of-avandra",
+      "r-go-to-bazzoxan"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Ganhar a confiança de Verin (DC 14 Persuasion)", "outcome": "Confessa que acredita que o Rise guarda a chave para quebrar o impasse; os PCs passam a ser a expedição que ele não pode enviar.", "leadsTo": ["b-3-gloomstalker-escape"] },
-      { "label": "Ouvir os boatos do refeitório", "outcome": "Question está no Ready Room; duas teorias sobre Aloysia: saqueadora ou peregrina religiosa.", "leadsTo": ["b-3-ready-room-question", "b-3-aloysia-offer"] }
+      {
+        "label": "Ganhar a confiança de Verin (DC 14 Persuasion)",
+        "outcome": "Confessa que acredita que o Rise guarda a chave para quebrar o impasse; os PCs passam a ser a expedição que ele não pode enviar.",
+        "leadsTo": [
+          "b-3-gloomstalker-escape"
+        ]
+      },
+      {
+        "label": "Ouvir os boatos do refeitório",
+        "outcome": "Question está no Ready Room; duas teorias sobre Aloysia: saqueadora ou peregrina religiosa.",
+        "leadsTo": [
+          "b-3-ready-room-question",
+          "b-3-aloysia-offer"
+        ]
+      }
     ],
-    "notes": "Verin é o mediador de informação: por ele os PCs devem sair com o mapa dos três investigadores (regra das três pistas por investigador). Remix: Aloysia pode estar aqui a exigir soldados. Se os PCs trouxeram uma commendation da patrulha do capítulo 2, Verin começa amigável. Área de treino disponível para cenas de rivalidade (tiro, luta).",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-temple-foghome",
     "title": "B5 Dilapidated Temple: Vision 2 no jardim de Foghome",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch3",
     "order": 60,
     "location": "l-bazzoxan-temple",
-    "participants": ["c-foghome"],
+    "participants": [
+      "c-foghome"
+    ],
     "summary": "Foghome sente na Jóia três fragmentos divinos, um acordado e dois adormecidos, e diz que algo semelhante aos Prime Deities acordou dentro do Rise. Na meditação da noite os PCs vêem Alyxian de joelhos no jardim, exausto, e cinco silhuetas que o abraçam antes de marchar para a batalha. Foghome conta a origem de Bazzoxan: Ghor Dranas e a fortaleza-guardiã.",
-    "reveals": ["r-jewel-three-prayers", "r-cyst-of-avandra", "r-shrines", "r-alyxian-three-prayers"],
+    "reveals": [
+      "r-jewel-three-prayers",
+      "r-cyst-of-avandra",
+      "r-shrines",
+      "r-alyxian-three-prayers"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Ler as cinco inscrições nas alcovas saudáveis", "outcome": "Mensagens dos companheiros de Alyxian (a bebida em Marquet, o duelo, as montanhas, o amor que fica): rostos para as cinco silhuetas.", "leadsTo": [] },
-      { "label": "DC 17 Religion no mosaico partido", "outcome": "O templo era de Avandra: Bazzoxan tem um templo dela à superfície e um local de oração dela no fundo do Rise.", "leadsTo": ["b-3-rise-entrance"] }
+      {
+        "label": "Ler as cinco inscrições nas alcovas saudáveis",
+        "outcome": "Mensagens dos companheiros de Alyxian (a bebida em Marquet, o duelo, as montanhas, o amor que fica): rostos para as cinco silhuetas.",
+        "leadsTo": []
+      },
+      {
+        "label": "DC 17 Religion no mosaico partido",
+        "outcome": "O templo era de Avandra: Bazzoxan tem um templo dela à superfície e um local de oração dela no fundo do Rise.",
+        "leadsTo": [
+          "b-3-rise-entrance"
+        ]
+      }
     ],
-    "notes": "Segunda das três visões (Universal Vision do Remix: se os rivais estiverem presentes, também a vêem). Foghome já viu a visão antes e não vê os PCs cair. Use este beat para plantar Lore de Alyxian que pague no Netherdeep (os cinco companheiros, Perigee se quiseres um rosto entre as silhuetas).",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-wall-unforgotten",
     "title": "B6 Wall of the Unforgotten: o coelho e os Motes",
-    "arcs": ["a-kryn", "a-lore"],
+    "arcs": [
+      "a-kryn",
+      "a-lore"
+    ],
     "chapter": "ch3",
     "order": 70,
     "location": "l-wall-of-the-unforgotten",
-    "participants": ["c-kalym-telaarin", "c-naevyn-tasithar"],
+    "participants": [
+      "c-kalym-telaarin",
+      "c-naevyn-tasithar"
+    ],
     "summary": "Kalym explica porque Naevyn quer o seu nome no muro: os soldados jovens de Bazzoxan não esperam viver o bastante para serem chorados e preparam o próprio memorial. Quem for respeitoso recebe um Mote of Possibility.",
     "reveals": [],
-    "requires": ["b-3-infirmary"],
-    "choices": [
-      { "label": "Colocar o coelho com respeito", "outcome": "Mote of Possibility para cada PC disposto (reacção: repetir um save falhado ou ataque falhado; 24 h).", "leadsTo": [] },
-      { "label": "Desrespeitar o muro", "outcome": "Kalym expulsa-os; sem Motes; a Watch fica mais fria.", "leadsTo": [] }
+    "requires": [
+      "b-3-infirmary"
     ],
-    "notes": "Coração emocional da vila; Kalym não tem informação útil sobre o Rise. Remix: Question pode estar aqui a deixar uma oferenda (fez e perdeu amigos em Bazzoxan), uma terceira pista para a encontrar. Os rivais podem cumprir aqui um objectivo próprio (Dermot e o Luxon).",
+    "choices": [
+      {
+        "label": "Colocar o coelho com respeito",
+        "outcome": "Mote of Possibility para cada PC disposto (reacção: repetir um save falhado ou ataque falhado; 24 h).",
+        "leadsTo": []
+      },
+      {
+        "label": "Desrespeitar o muro",
+        "outcome": "Kalym expulsa-os; sem Motes; a Watch fica mais fria.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-ready-room-question",
     "title": "B7 The Ready Room: o caderno de Question",
-    "arcs": ["a-main", "a-lore", "a-cobalt", "a-rivals"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-cobalt",
+      "a-rivals"
+    ],
     "chapter": "ch3",
     "order": 80,
     "location": "l-ready-room",
-    "participants": ["c-question", "c-delez-demona", "c-prima-demona", "c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes"],
+    "participants": [
+      "c-question",
+      "c-delez-demona",
+      "c-prima-demona",
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes"
+    ],
     "summary": "Question explica a ressonância mítica e mostra o caderno: a ilha sob Catha e Ruidus cheias (o Emerald Grotto), uma Jóia mais elaborada com três espirais e pedras (as formas Awakened e Exalted), uma decalcagem do símbolo de Avandra tirada de uma parede do Rise (R1) e a balada do halfway god três vezes fortalecido. Chama à Jóia uma Vestige perdida.",
-    "reveals": ["r-jewel-reactivate", "r-cyst-of-avandra", "r-jewel-properties", "r-alyxian-three-prayers", "r-faction-agendas"],
+    "reveals": [
+      "r-jewel-reactivate",
+      "r-cyst-of-avandra",
+      "r-jewel-properties",
+      "r-alyxian-three-prayers",
+      "r-faction-agendas"
+    ],
     "requires": [],
     "choices": [
-      { "label": "DC 11 Insight sobre Question", "outcome": "Está aterrorizada com o Rise: ouviu vozes, fingiu doença e deixou a expedição entrar sem ela.", "leadsTo": ["b-3-misty-chasm"] },
-      { "label": "Falar da Jóia ou da visão em voz alta", "outcome": "Aloysia, à escuta (passive Perception 12+ para a apanhar), aproxima-se com a sua oferta.", "leadsTo": ["b-3-aloysia-offer"] },
-      { "label": "Aceitar o pedido de Question (Remix)", "outcome": "Recuperar um caderno que ela julga roubado por outro investigador de Ank'Harel: intriga leve entre os três.", "leadsTo": ["b-3-make-an-enemy"] }
+      {
+        "label": "DC 11 Insight sobre Question",
+        "outcome": "Está aterrorizada com o Rise: ouviu vozes, fingiu doença e deixou a expedição entrar sem ela.",
+        "leadsTo": [
+          "b-3-misty-chasm"
+        ]
+      },
+      {
+        "label": "Falar da Jóia ou da visão em voz alta",
+        "outcome": "Aloysia, à escuta (passive Perception 12+ para a apanhar), aproxima-se com a sua oferta.",
+        "leadsTo": [
+          "b-3-aloysia-offer"
+        ]
+      },
+      {
+        "label": "Aceitar o pedido de Question",
+        "outcome": "Recuperar um caderno que ela julga roubado por outro investigador de Ank'Harel: intriga leve entre os três.",
+        "leadsTo": [
+          "b-3-aloysia-offer"
+        ]
+      }
     ],
-    "notes": "Maior lore dump do capítulo. Key Info de Question: a agenda da Cobalt Soul (o ruidium é perigoso, destruir ou selar), a localização do símbolo de Avandra dentro do Rise, e o convite para reportar ao Temple of the Mentor. Os rivais bebem aqui: cena natural para debate da agenda. Remix: Question pode também estar no Wall ou a estudar as gravuras do Rise.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-aloysia-offer",
     "title": "A oferta de Aloysia",
-    "arcs": ["a-main", "a-ruidium", "a-consortium", "a-rivals"],
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-consortium",
+      "a-rivals"
+    ],
     "chapter": "ch3",
     "order": 90,
     "location": "l-ready-room",
-    "participants": ["c-aloysia-telfan"],
+    "participants": [
+      "c-aloysia-telfan"
+    ],
     "summary": "Aloysia oferece 50 gp por PC (100 com DC 13 Persuasion) para a escoltarem a um antigo local de oração no fundo do Rise e admite procurar ruidium. As suas quatro crenças sobre o mineral são a primeira exposição real de ruidium, incluindo que o pendente é a chave para o obter.",
-    "reveals": ["r-ruidium-properties", "r-faction-agendas", "r-cyst-of-avandra", "r-ruidium-apotheon-sites"],
+    "reveals": [
+      "r-ruidium-properties",
+      "r-faction-agendas",
+      "r-cyst-of-avandra",
+      "r-ruidium-apotheon-sites"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Recusar", "outcome": "O charme desaparece e dá lugar a desdém frio; Aloysia vira-se para os rivais como músculo.", "leadsTo": ["b-3-make-an-enemy", "b-3-jewel-confrontation"] },
-      { "label": "Aceitar", "outcome": "Aloysia entra no Rise com a companhia; o Consortium torna-se aliado viável e ela tenta ficar com a Jóia em R16 pela palavra, não pela força.", "leadsTo": ["b-3-gloomstalker-escape", "b-3-prayer-site-avandra"] },
-      { "label": "Mencionar a visão ou mostrar a Jóia", "outcome": "Aloysia fixa-se em obter a Jóia para a facção: é isto que a põe em R16 com os rivais.", "leadsTo": ["b-3-make-an-enemy", "b-3-jewel-confrontation"] }
+      {
+        "label": "Recusar",
+        "outcome": "O charme desaparece e dá lugar a desdém frio; Aloysia vira-se para os rivais como músculo.",
+        "leadsTo": [
+          "b-3-aloysia-offer",
+          "b-3-jewel-confrontation"
+        ]
+      },
+      {
+        "label": "Aceitar",
+        "outcome": "Aloysia entra no Rise com a companhia; o Consortium torna-se aliado viável e ela tenta ficar com a Jóia em R16 pela palavra, não pela força.",
+        "leadsTo": [
+          "b-3-gloomstalker-escape",
+          "b-3-prayer-site-avandra"
+        ]
+      },
+      {
+        "label": "Mencionar a visão ou mostrar a Jóia",
+        "outcome": "Aloysia fixa-se em obter a Jóia para a facção: é isto que a põe em R16 com os rivais.",
+        "leadsTo": [
+          "b-3-aloysia-offer",
+          "b-3-jewel-confrontation"
+        ]
+      }
     ],
-    "portent": { "faction": "f-consortium", "text": "Aloysia contrata os rivais e entra no Rise pelo seu próprio caminho" },
-    "notes": "Anota as crenças de Aloysia com as marcas verdadeiro/falso do livro; deixa os jogadores discutir ruidium antes de Ank'Harel. Remix: Aloysia é uma revelação com três colocações (estalagem, quartel a exigir soldados, enfermaria); pode pedir aos PCs para distrair Prolix. Não trates o confronto de R16 como inevitável: se os PCs a aceitarem, o Consortium fica em jogo como aliado.",
-    "source": "book"
-  },
-  {
-    "id": "b-3-make-an-enemy",
-    "title": "Make an Enemy: quem tentará roubar a Jóia?",
-    "arcs": ["a-rivals", "a-consortium", "a-allegiance", "a-cobalt"],
-    "chapter": "ch3",
-    "order": 100,
-    "location": "l-bazzoxan",
-    "participants": ["c-aloysia-telfan", "c-prolix-yusaf", "c-question", "c-ayo-jabe", "c-galsariad-ardyth"],
-    "summary": "Beat de mesa do Remix: com três investigadores de objectivos em conflito, regista qual deles os PCs (e os rivais) tornaram amigo e qual tornaram inimigo. O inimigo tenta ficar com a Jóia; no livro é sempre Aloysia, mas pode ser qualquer um.",
-    "reveals": ["r-faction-agendas"],
-    "requires": [],
-    "choices": [
-      { "label": "Assalto aberto (livro)", "outcome": "O inimigo e os seus aliados (os rivais, soldados subornados) surgem em R16.", "leadsTo": ["b-3-jewel-confrontation"] },
-      { "label": "Golpe furtivo", "outcome": "Roubo nocturno no Ready Room; espalha provas para os PCs saberem quem foi. O culpado foge para Ank'Harel com uma tablet.", "leadsTo": ["b-3-aloysia-next-move"] },
-      { "label": "Deixar escorregar para Ank'Harel", "outcome": "O golpe acontece nos primeiros dias na cidade, com uma equipa de assalto da facção.", "leadsTo": ["b-4-choose-faction"] }
-    ],
-    "portent": { "faction": "f-consortium", "text": "Aloysia contrata os rivais; se os PCs a escolherem, o inimigo passa a ser Prolix ou Question" },
-    "notes": "Quatro perguntas de planeamento: onde o fazem, como (assalto ou heist), que aliados chamam (rivais, NPCs da vila, equipas de Ank'Harel via teleporte) e como fogem para Ank'Harel. Os rivais aceitam qualquer oferta que os PCs recusem: podem estar ao serviço de outro investigador e produzir uma luta por procuração dentro do Rise. Se as escolhas dos PCs são grandes, o contragolpe deve ser grande.",
+    "portent": {
+      "faction": "f-consortium",
+      "text": "Aloysia contrata os rivais e entra no Rise pelo seu próprio caminho"
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-gloomstalker-escape",
     "title": "Escadaria do Rise: a fuga dos gloomstalkers",
-    "arcs": ["a-main", "a-kryn"],
+    "arcs": [
+      "a-main",
+      "a-kryn"
+    ],
     "chapter": "ch3",
     "order": 110,
     "location": "l-betrayers-rise",
-    "participants": ["c-verin-thelyss"],
+    "participants": [
+      "c-verin-thelyss"
+    ],
     "summary": "Ao subir a escadaria íngreme até ao portão de ónix, dois gloomstalkers irrompem. Depois de os verem combater, os soldados da Aurora Watch passam a respeitar a companhia e deixam-na entrar no Rise quando quiser. Os PCs chegam ao 6.º nível.",
     "reveals": [],
     "requires": [],
     "choices": [
-      { "label": "Vencer os gloomstalkers", "outcome": "Acesso livre ao Rise; três orc knights da Watch ficam gravemente feridos em R1.", "leadsTo": ["b-3-who-has-the-jewel"] }
+      {
+        "label": "Vencer os gloomstalkers",
+        "outcome": "Acesso livre ao Rise; três orc knights da Watch ficam gravemente feridos em R1.",
+        "leadsTo": [
+          "b-3-who-has-the-jewel"
+        ]
+      }
     ],
-    "notes": "Sem a luta, chegar a 30 pés do portão exige DC 15 Deception/Intimidation/Persuasion e Str combinada 44 para o abrir. Remix, opção Multiple Entrances: este portão é o que tem a Jóia desenhada por perto; os outros levam a outros complexos.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-who-has-the-jewel",
     "title": "Quem tem a Jóia? (portão estrutural)",
-    "arcs": ["a-main", "a-rivals"],
+    "arcs": [
+      "a-main",
+      "a-rivals"
+    ],
     "chapter": "ch3",
     "order": 120,
     "location": "l-betrayers-rise",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes"],
-    "summary": "A porta de Avandra em R1 só abre com a Jóia. Se os rivais a tiverem, os PCs têm de a recuperar por furtividade, força ou negociação, ou entrar com eles.",
-    "reveals": ["r-jewel-properties"],
-    "requires": ["b-3-gloomstalker-escape"],
-    "choices": [
-      { "label": "Os PCs têm a Jóia", "outcome": "Entram directamente.", "leadsTo": ["b-3-rise-entrance"] },
-      { "label": "Negociar com os rivais", "outcome": "Entrar juntos: os rivais são os heróis da história ou parceiros; melhor cenário para o Remix (Rivals in charge).", "leadsTo": ["b-3-rise-entrance"] },
-      { "label": "Roubar ou tomar à força", "outcome": "Pecado imperdoável do Remix ao contrário: os rivais tornam-se hostis de vez.", "leadsTo": ["b-3-rise-entrance", "b-3-jewel-confrontation"] }
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes"
     ],
-    "notes": "Se os rivais entrarem primeiro com a Jóia, os PCs podem seguir o rasto; os Shifting Halls justificam versões diferentes do Rise. Remix: se os rivais estão em modo 5 (tomar a Jóia e mandar), deixa os rivais atribuírem aos PCs um objectivo importante.",
+    "summary": "A porta de Avandra em R1 só abre com a Jóia. Se os rivais a tiverem, os PCs têm de a recuperar por furtividade, força ou negociação, ou entrar com eles.",
+    "reveals": [
+      "r-jewel-properties"
+    ],
+    "requires": [
+      "b-3-gloomstalker-escape"
+    ],
+    "choices": [
+      {
+        "label": "Os PCs têm a Jóia",
+        "outcome": "Entram directamente.",
+        "leadsTo": [
+          "b-3-rise-entrance"
+        ]
+      },
+      {
+        "label": "Negociar com os rivais",
+        "outcome": "Entrar juntos: os rivais são os heróis da história ou parceiros.",
+        "leadsTo": [
+          "b-3-rise-entrance"
+        ]
+      },
+      {
+        "label": "Roubar ou tomar à força",
+        "outcome": "Os rivais tornam-se hostis de vez.",
+        "leadsTo": [
+          "b-3-rise-entrance",
+          "b-3-jewel-confrontation"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-rise-entrance",
     "title": "R1 Entrance: a ponte, as vozes e a porta de Avandra",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch3",
     "order": 130,
     "location": "l-rise-r1-entrance",
-    "participants": ["c-avandra"],
+    "participants": [
+      "c-avandra"
+    ],
     "summary": "Ponte ensanguentada sobre a misty chasm; vozes prometem quebrá-los juntos e não os deixar cair. A porta dupla com o símbolo arranhado de Avandra brilha a 20 pés da Jóia e abre ao seu toque.",
-    "reveals": ["r-cyst-of-avandra", "r-jewel-properties"],
-    "requires": ["b-3-who-has-the-jewel"],
+    "reveals": [
+      "r-cyst-of-avandra",
+      "r-jewel-properties"
+    ],
+    "requires": [
+      "b-3-who-has-the-jewel"
+    ],
     "choices": [
-      { "label": "Tocar a porta com a Jóia", "outcome": "Abre; começa a exploração.", "leadsTo": ["b-3-hall-of-holes"] },
-      { "label": "Sair e voltar mais tarde", "outcome": "Retreat and Reinforcements: após 8 horas fora, d6 por área explorada; 6 = repovoada.", "leadsTo": [] }
+      {
+        "label": "Tocar a porta com a Jóia",
+        "outcome": "Abre; começa a exploração.",
+        "leadsTo": [
+          "b-3-hall-of-holes"
+        ]
+      },
+      {
+        "label": "Sair e voltar mais tarde",
+        "outcome": "Retreat and Reinforcements: após 8 horas fora, d6 por área explorada; 6 = repovoada.",
+        "leadsTo": []
+      }
     ],
     "timer": "8 horas fora → reforços (d6 por área, 6 repovoa)",
-    "notes": "As vozes do abismo prefiguram o desespero sedutor do Netherdeep; Question ouviu-as e fugiu. Aqui ela tirou a decalcagem do símbolo de Avandra. Remix, opção Guide: um dos investigadores conduz a companhia em tempo abstracto (montagem) até à imagem da Jóia, à entrada do Cyst; opção Pointcrawl: o Rise é um deserto de vaults vazios com meia dúzia de micro-dungeons.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-hall-of-holes",
     "title": "R2 Hall of Holes: a Battle of the Barbed Fields",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch3",
     "order": 140,
     "location": "l-rise-r2-hall-of-holes",
-    "participants": ["c-sehanine", "c-avandra"],
-    "summary": "Baixos-relevos (DC 15 History) mostram a batalha da Calamity nos Barbed Fields, com Alyxian ladeado por Sehanine e Avandra. Três gibbering mouthers escorrem dos buracos da parede.",
-    "reveals": ["r-alyxian-three-prayers", "r-shrines", "r-jewel-three-prayers"],
-    "requires": ["b-3-rise-entrance"],
-    "choices": [
-      { "label": "Estudar as gravuras antes ou depois do combate", "outcome": "Identificam Alyxian da visão entre duas deusas: confirma que os deuses o fortaleceram mais do que uma vez.", "leadsTo": ["b-3-vestibule-choice"] }
+    "participants": [
+      "c-sehanine",
+      "c-avandra"
     ],
-    "notes": "Remix: o Rise é um dos nove pontos de Lore de Alyxian; acrescenta aqui Perigee ou os cinco companheiros nas gravuras para pagar no Netherdeep. Se quiseres a Revelação 2 do Remix (a Jóia desenhada nas paredes), é aqui que a companhia a encontra.",
+    "summary": "Baixos-relevos (DC 15 History) mostram a batalha da Calamity nos Barbed Fields, com Alyxian ladeado por Sehanine e Avandra. Três gibbering mouthers escorrem dos buracos da parede.",
+    "reveals": [
+      "r-alyxian-three-prayers",
+      "r-shrines",
+      "r-jewel-three-prayers"
+    ],
+    "requires": [
+      "b-3-rise-entrance"
+    ],
+    "choices": [
+      {
+        "label": "Estudar as gravuras antes ou depois do combate",
+        "outcome": "Identificam Alyxian da visão entre duas deusas: confirma que os deuses o fortaleceram mais do que uma vez.",
+        "leadsTo": [
+          "b-3-vestibule-choice"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-vestibule-choice",
     "title": "R3 Vestibule: skull vase, escombros ou a devouring wall",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch3",
     "order": 150,
     "location": "l-rise-r3-vestibule",
-    "participants": ["c-tharizdun", "c-torog"],
+    "participants": [
+      "c-tharizdun",
+      "c-torog"
+    ],
     "summary": "A encruzilhada do Rise. O skull vase de Tharizdun pede que se lance ao Oblivion algo de valor; o corredor NE está desabado; a devouring wall na alcova NW exige fazer as pazes com a morte.",
     "reveals": [],
-    "requires": ["b-3-hall-of-holes"],
+    "requires": [
+      "b-3-hall-of-holes"
+    ],
     "choices": [
-      { "label": "Oferecer algo valioso ao skull vase", "outcome": "Abre o túnel para a rota da Basilica (R9/R10 → R12).", "leadsTo": ["b-3-basilica"] },
-      { "label": "Limpar os escombros (1 hora)", "outcome": "Leva ao Spiders' Chancel (R8), onde está o mantra que resolve a Basilica.", "leadsTo": ["b-3-spiders-chancel"] },
-      { "label": "Enfrentar a devouring wall (DC 15 Wis)", "outcome": "Passagem para R4 e a rota do sangue (R5/R6); vantagem contra frightened ou desvantagem em death saves por 24 h.", "leadsTo": ["b-3-flagellants-path"] }
+      {
+        "label": "Oferecer algo valioso ao skull vase",
+        "outcome": "Abre o túnel para a rota da Basilica (R9/R10 → R12).",
+        "leadsTo": [
+          "b-3-basilica"
+        ]
+      },
+      {
+        "label": "Limpar os escombros (1 hora)",
+        "outcome": "Leva ao Spiders' Chancel (R8), onde está o mantra que resolve a Basilica.",
+        "leadsTo": [
+          "b-3-spiders-chancel"
+        ]
+      },
+      {
+        "label": "Enfrentar a devouring wall (DC 15 Wis)",
+        "outcome": "Passagem para R4 e a rota do sangue (R5/R6); vantagem contra frightened ou desvantagem em death saves por 24 h.",
+        "leadsTo": [
+          "b-3-flagellants-path"
+        ]
+      }
     ],
     "timer": "1 hora para limpar os escombros",
-    "notes": "As rotas convergem em R12. Custo em tempo conta para o relógio de reforços. Se um investigador guia a companhia (Remix, opção Guide), cada um pode propor uma rota diferente.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-spiders-chancel",
     "title": "R8 Spiders' Chancel: driders e o mantra dos quatro deuses",
-    "arcs": ["a-main", "a-kryn", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-kryn",
+      "a-lore"
+    ],
     "chapter": "ch3",
     "order": 160,
     "location": "l-rise-r8-spiders-chancel",
-    "participants": ["c-rise-driders", "c-lolth"],
-    "summary": "Dois driders (antigos drow da Aurora Watch mutados por Lolth) e duas aranhas fiendish. O mural invisível e cantante esconde livros abissais sobre os pactos dos demon lords com os Betrayer Gods e o mantra Lolth, Gruumsh, Tharizdun, Torog. Uma sword of vengeance num cadáver da Watch.",
-    "reveals": ["r-alyxian-gruumsh"],
-    "requires": ["b-3-vestibule-choice"],
-    "choices": [
-      { "label": "Ler a biblioteca abissal", "outcome": "Mantra para R9 e lore sobre os Betrayer Gods; os livros são valiosos para qualquer um dos três investigadores.", "leadsTo": ["b-3-basilica"] },
-      { "label": "Levar a sword of vengeance", "outcome": "Arma amaldiçoada ligada a um fantasma; tentação para Galsariad ou para um PC.", "leadsTo": [] }
+    "participants": [
+      "c-rise-driders",
+      "c-lolth"
     ],
-    "notes": "Os driders são o custo humano da política Kryn: mostra os emblemas da Watch para Verin sentir. Remix: ligação entre salas (o mantra aqui resolve a Basilica ali) é o que faz o Rise parecer um ambiente total.",
+    "summary": "Dois driders (antigos drow da Aurora Watch mutados por Lolth) e duas aranhas fiendish. O mural invisível e cantante esconde livros abissais sobre os pactos dos demon lords com os Betrayer Gods e o mantra Lolth, Gruumsh, Tharizdun, Torog. Uma sword of vengeance num cadáver da Watch.",
+    "reveals": [
+      "r-alyxian-gruumsh"
+    ],
+    "requires": [
+      "b-3-vestibule-choice"
+    ],
+    "choices": [
+      {
+        "label": "Ler a biblioteca abissal",
+        "outcome": "Mantra para R9 e lore sobre os Betrayer Gods; os livros são valiosos para qualquer um dos três investigadores.",
+        "leadsTo": [
+          "b-3-basilica"
+        ]
+      },
+      {
+        "label": "Levar a sword of vengeance",
+        "outcome": "Arma amaldiçoada ligada a um fantasma; tentação para Galsariad ou para um PC.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-flagellants-path",
     "title": "R5-R6 Flagellant's Path e Cloister: o canister de sangue",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch3",
     "order": 170,
     "location": "l-rise-r5-flagellants-path",
-    "participants": ["c-torog"],
+    "participants": [
+      "c-torog"
+    ],
     "summary": "Entre estátuas de Torog, o corredor de lâminas (DC 20 Dex, 5d6) tem de infligir 70 de dano cortante para encher o canister e abrir as portas norte. No Cloister, três flameskulls guardam quatro frascos de sangue que valem 5 cada.",
     "reveals": [],
-    "requires": ["b-3-vestibule-choice"],
+    "requires": [
+      "b-3-vestibule-choice"
+    ],
     "choices": [
-      { "label": "Pagar com o próprio sangue", "outcome": "Rápido mas caro em HP; a armadilha reinicia após 1 hora.", "leadsTo": ["b-3-torog-threshold"] },
-      { "label": "Usar os frascos de R6", "outcome": "20 de dano poupado; combate com os flameskulls.", "leadsTo": ["b-3-torog-threshold"] }
+      {
+        "label": "Pagar com o próprio sangue",
+        "outcome": "Rápido mas caro em HP; a armadilha reinicia após 1 hora.",
+        "leadsTo": [
+          "b-3-torog-threshold"
+        ]
+      },
+      {
+        "label": "Usar os frascos de R6",
+        "outcome": "20 de dano poupado; combate com os flameskulls.",
+        "leadsTo": [
+          "b-3-torog-threshold"
+        ]
+      }
     ],
     "timer": "a armadilha reinicia após 1 hora",
     "notes": "Rota mais curta e mais sangrenta; boa para grupos que fizeram as pazes com a morte em R3.",
@@ -318,17 +679,38 @@
   {
     "id": "b-3-basilica",
     "title": "R9-R10 Basilica of Revelry e Supplicant's Pit",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch3",
     "order": 180,
     "location": "l-rise-r9-basilica",
-    "participants": ["c-lolth", "c-gruumsh", "c-tharizdun", "c-torog"],
+    "participants": [
+      "c-lolth",
+      "c-gruumsh",
+      "c-tharizdun",
+      "c-torog"
+    ],
     "summary": "Quatro chamas dançantes (succubus/incubus) procuram par; o vitral de nove símbolos abre na sequência Lolth, Gruumsh, Tharizdun, Torog. No Supplicant's Pit (DC 14 Wis ou rastejar), as correntes de escuridão mandam aprisionar quem não resiste; o buraco cai 100 pés até R12.",
     "reveals": [],
-    "requires": ["b-3-vestibule-choice"],
+    "requires": [
+      "b-3-vestibule-choice"
+    ],
     "choices": [
-      { "label": "Com o mantra de R8", "outcome": "Resolvem o mosaico sem dançar com as chamas.", "leadsTo": ["b-3-torog-threshold"] },
-      { "label": "Sem o mantra", "outcome": "Tentativa e erro contra as chamas; dano e tempo.", "leadsTo": ["b-3-torog-threshold"] }
+      {
+        "label": "Com o mantra de R8",
+        "outcome": "Resolvem o mosaico sem dançar com as chamas.",
+        "leadsTo": [
+          "b-3-torog-threshold"
+        ]
+      },
+      {
+        "label": "Sem o mantra",
+        "outcome": "Tentativa e erro contra as chamas; dano e tempo.",
+        "leadsTo": [
+          "b-3-torog-threshold"
+        ]
+      }
     ],
     "notes": "Os nove símbolos apresentam os Betrayer Gods para o epílogo do capítulo 7 (as ofertas dos deuses traidores se Alyxian for libertado).",
     "source": "book"
@@ -336,52 +718,99 @@
   {
     "id": "b-3-torog-threshold",
     "title": "R12 Threshold of the Excoriated: a maldição de Torog",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch3",
     "order": 190,
     "location": "l-rise-r12-threshold",
-    "participants": ["c-torog"],
+    "participants": [
+      "c-torog"
+    ],
     "summary": "A estátua acorrentada lamenta; as portas de ferro no seu peito só abrem destruídas as três Arms of Torog (70/40/20 pés) com pústulas. Quem falha DC 16 Cha sofre a curse of Torog's hunger, que só R16 quebra.",
     "reveals": [],
-    "requires": ["b-3-vestibule-choice"],
+    "requires": [
+      "b-3-vestibule-choice"
+    ],
     "choices": [
-      { "label": "Destruir as três Arms", "outcome": "Portas abertas; as pústulas voltam a formar-se após 1 hora e trancam tudo de novo.", "leadsTo": ["b-3-lightless-labyrinth"] }
+      {
+        "label": "Destruir as três Arms",
+        "outcome": "Portas abertas; as pústulas voltam a formar-se após 1 hora e trancam tudo de novo.",
+        "leadsTo": [
+          "b-3-lightless-labyrinth"
+        ]
+      }
     ],
     "timer": "pústulas reformam-se após 1 hora",
-    "notes": "Remix (Torog's Commandments): põe aqui a estátua de Torog ajoelhado com o mandamento inscrito (exaltar os lugares onde a luz não toca) ou permite aqui o DC 14 Religion, para que R13 exija juntar informação de duas salas. A maldição dá peso ao alívio de R16.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-lightless-labyrinth",
     "title": "R13 Lightless Labyrinth: seguir o escuro",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch3",
     "order": 200,
     "location": "l-rise-r13-labyrinth",
-    "participants": ["c-torog"],
+    "participants": [
+      "c-torog"
+    ],
     "summary": "Bifurcações triplas de violeta, vermelho e escuridão. O caminho certo é sempre o escuro, segundo o mandamento de Torog.",
     "reveals": [],
-    "requires": ["b-3-torog-threshold"],
-    "choices": [
-      { "label": "Seguir sempre a escuridão", "outcome": "Chegam ao Blood Font.", "leadsTo": ["b-3-blood-font"] },
-      { "label": "Seguir a luz", "outcome": "Perdem tempo e encontros; o relógio de reforços avança.", "leadsTo": ["b-3-blood-font"] }
+    "requires": [
+      "b-3-torog-threshold"
     ],
-    "notes": "Se usaste o Remix em R12, a solução vem de lá; senão, DC 14 Religion + DC 10 Insight aqui.",
+    "choices": [
+      {
+        "label": "Seguir sempre a escuridão",
+        "outcome": "Chegam ao Blood Font.",
+        "leadsTo": [
+          "b-3-blood-font"
+        ]
+      },
+      {
+        "label": "Seguir a luz",
+        "outcome": "Perdem tempo e encontros; o relógio de reforços avança.",
+        "leadsTo": [
+          "b-3-blood-font"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-blood-font",
     "title": "R14 Blood Font of the Ruiner",
-    "arcs": ["a-main", "a-kryn"],
+    "arcs": [
+      "a-main",
+      "a-kryn"
+    ],
     "chapter": "ch3",
     "order": 210,
     "location": "l-rise-r14-blood-font",
-    "participants": ["c-rise-war-chiefs", "c-gruumsh"],
+    "participants": [
+      "c-rise-war-chiefs",
+      "c-gruumsh"
+    ],
     "summary": "Dois orc war chiefs fiendish, outrora soldados da Aurora Watch, rezam a Gruumsh. A sala sela-se e enche-se de sangue a ferver, 5 pés por minuto até 45 pés.",
-    "reveals": ["r-alyxian-gruumsh"],
-    "requires": ["b-3-lightless-labyrinth"],
+    "reveals": [
+      "r-alyxian-gruumsh"
+    ],
+    "requires": [
+      "b-3-lightless-labyrinth"
+    ],
     "choices": [
-      { "label": "Matar os chefes antes de o sangue subir", "outcome": "A sala esvazia; caminho para a Misty Chasm.", "leadsTo": ["b-3-misty-chasm"] }
+      {
+        "label": "Matar os chefes antes de o sangue subir",
+        "outcome": "A sala esvazia; caminho para a Misty Chasm.",
+        "leadsTo": [
+          "b-3-misty-chasm"
+        ]
+      }
     ],
     "timer": "sangue sobe 5 pés/minuto (até 45 pés)",
     "notes": "Gruumsh é o deus cuja lança fez o deserto e o Netherdeep: primeira aparição do Ruiner como antagonista cósmico. Mais emblemas da Watch para Verin.",
@@ -390,92 +819,218 @@
   {
     "id": "b-3-misty-chasm",
     "title": "R15 Misty Chasm: o rosto de Gruumsh e os colegas de Question",
-    "arcs": ["a-main", "a-cobalt", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-cobalt",
+      "a-lore"
+    ],
     "chapter": "ch3",
     "order": 220,
     "location": "l-rise-r15-misty-chasm",
-    "participants": ["c-cobalt-expedition", "c-question", "c-gruumsh"],
-    "summary": "Abismo de 1000 pés sob o rosto pétreo e dentado de Gruumsh; atravessá-lo abre um rift abissal e liberta um vrock. No fundo jazem os dois colegas de Question de azul Cobalt Soul, com um cloak of protection e um driftglobe rachado.",
-    "reveals": ["r-alyxian-gruumsh"],
-    "requires": ["b-3-blood-font"],
-    "choices": [
-      { "label": "Recuperar os corpos ou as insígnias", "outcome": "Question fica determinada a que a morte deles não seja em vão e recruta os PCs para a Cobalt Soul.", "leadsTo": ["b-3-next-steps-ank-harel"] },
-      { "label": "Ignorar os corpos", "outcome": "Question saberá na mesma pela Watch; a relação com ela arrefece.", "leadsTo": [] }
+    "participants": [
+      "c-cobalt-expedition",
+      "c-question",
+      "c-gruumsh"
     ],
-    "notes": "Se Question guia a companhia (Remix, opção Guide), este é o momento em que a sua cobardia e o seu luto se cruzam: joga-o com peso. O portento da Cobalt Soul no capítulo cumpre-se aqui.",
+    "summary": "Abismo de 1000 pés sob o rosto pétreo e dentado de Gruumsh; atravessá-lo abre um rift abissal e liberta um vrock. No fundo jazem os dois colegas de Question de azul Cobalt Soul, com um cloak of protection e um driftglobe rachado.",
+    "reveals": [
+      "r-alyxian-gruumsh"
+    ],
+    "requires": [
+      "b-3-blood-font"
+    ],
+    "choices": [
+      {
+        "label": "Recuperar os corpos ou as insígnias",
+        "outcome": "Question fica determinada a que a morte deles não seja em vão e recruta os PCs para a Cobalt Soul.",
+        "leadsTo": [
+          "b-3-next-steps-ank-harel"
+        ]
+      },
+      {
+        "label": "Ignorar os corpos",
+        "outcome": "Question saberá na mesma pela Watch; a relação com ela arrefece.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-prayer-site-avandra",
     "title": "R16 Prayer Site of Avandra: Vision 3 e a Jóia Awakened",
-    "arcs": ["a-main", "a-lore", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-ruidium"
+    ],
     "chapter": "ch3",
     "order": 230,
     "location": "l-prayer-site-avandra",
-    "participants": ["c-alyxian", "c-avandra", "c-torog"],
+    "participants": [
+      "c-alyxian",
+      "c-avandra",
+      "c-torog"
+    ],
     "summary": "A Jóia puxa o portador para o altar de cristal no fundo da cratera âmbar. A curse of Torog quebra-se, a Jóia entra no Awakened State e os PCs chegam ao 7.º nível. Alyxian mostra a companhia a marchar para o Rise, a sua prece a Avandra, a taunt de Torog e a sua prisão numa cidade afogada de brilho carmesim que mortais colhem enquanto o deixam no escuro.",
-    "reveals": ["r-alyxian-ruidus-birth", "r-alyxian-three-prayers", "r-netherdeep-prison", "r-netherdeep-leaking", "r-go-to-ank-harel", "r-shrines", "r-jewel-reactivate", "r-alyxian-bad-luck"],
-    "requires": ["b-3-rise-entrance"],
+    "reveals": [
+      "r-alyxian-ruidus-birth",
+      "r-alyxian-three-prayers",
+      "r-netherdeep-prison",
+      "r-netherdeep-leaking",
+      "r-go-to-ank-harel",
+      "r-shrines",
+      "r-jewel-reactivate",
+      "r-alyxian-bad-luck"
+    ],
+    "requires": [
+      "b-3-rise-entrance"
+    ],
     "choices": [
-      { "label": "Três perguntas a Alyxian", "outcome": "Nascimento sob Ruidus e a escolha de proteger os outros; as três preces e os três locais (costa de Wildemount, Betrayers' Rise, templo de Corellon numa cidade de elfos e orcs nas selvas de Marquet); a prisão subaquática e a colheita do brilho como tortura.", "leadsTo": ["b-3-jewel-confrontation"] }
+      {
+        "label": "Três perguntas a Alyxian",
+        "outcome": "Nascimento sob Ruidus e a escolha de proteger os outros; as três preces e os três locais (costa de Wildemount, Betrayers' Rise, templo de Corellon numa cidade de elfos e orcs nas selvas de Marquet); a prisão subaquática e a colheita do brilho como tortura.",
+        "leadsTo": [
+          "b-3-jewel-confrontation"
+        ]
+      }
     ],
     "timer": "3 perguntas → a visão termina com a chegada de novos actores",
-    "notes": "A última cena da visão é Cael Morrow: descreve-a bem, os PCs vão reconhecê-la no capítulo 4. Remix: se os rivais estão presentes (Universal Vision), todos a vêem. O Cyst of Avandra é o nome enigmático do Remix para este local. Aqui deve estar a resposta às três perguntas da campanha (o que é a Jóia, o que é o ruidium, quem é Alyxian) já bem esboçada.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-jewel-confrontation",
     "title": "Confrontation for the Jewel",
-    "arcs": ["a-main", "a-rivals", "a-consortium", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-rivals",
+      "a-consortium",
+      "a-ruidium"
+    ],
     "chapter": "ch3",
     "order": 240,
     "location": "l-prayer-site-avandra",
-    "participants": ["c-aloysia-telfan", "c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes"],
-    "summary": "A visão desvanece e Aloysia surge à beira da cratera com os rivais, transportados por uma força mágica da sua versão do Rise. Felicita os heróis e pede a Jóia para que ninguém derrame mais sangue. O desfecho decide-se pela atitude agregada dos rivais (Ayo desempata).",
-    "reveals": ["r-faction-agendas", "r-ruidium-properties"],
-    "requires": ["b-3-prayer-site-avandra"],
-    "choices": [
-      { "label": "Rivais amigáveis", "outcome": "Ayo felicita os PCs; os rivais deixam-nos ficar com a Jóia e oferecem ajuda para voltar. Aloysia fica chocada com a traição.", "leadsTo": ["b-3-aloysia-next-move"] },
-      { "label": "Rivais indiferentes", "outcome": "Os rivais tentam deixar os PCs inconscientes, tirar a Jóia e entregá-la a Aloysia.", "leadsTo": ["b-3-aloysia-next-move"] },
-      { "label": "Rivais hostis", "outcome": "Ayo rosna que a caçada acabou; os rivais atacam para matar.", "leadsTo": ["b-3-aloysia-next-move"] }
+    "participants": [
+      "c-aloysia-telfan",
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes"
     ],
-    "portent": { "faction": "f-consortium", "text": "Aloysia leva a Jóia para Ank'Harel e os rivais com ela" },
-    "notes": "Remix: este cutscene assume que os PCs recusaram Aloysia, têm a Jóia e não estão com os rivais, e tira o Consortium de jogo; substitui-o pelo inimigo emergente de b-3-make-an-enemy. Se Aloysia morreu antes, outro occult initiate ocupa o lugar. Se os rivais entraram com os PCs, joga isto como debate da agenda (o que fazer com a Jóia?) em vez de emboscada. Anota o modo dos rivais para Ank'Harel.",
+    "summary": "A visão desvanece e Aloysia surge à beira da cratera com os rivais, transportados por uma força mágica da sua versão do Rise. Felicita os heróis e pede a Jóia para que ninguém derrame mais sangue. O desfecho decide-se pela atitude agregada dos rivais (Ayo desempata).",
+    "reveals": [
+      "r-faction-agendas",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-3-prayer-site-avandra"
+    ],
+    "choices": [
+      {
+        "label": "Rivais amigáveis",
+        "outcome": "Ayo felicita os PCs; os rivais deixam-nos ficar com a Jóia e oferecem ajuda para voltar. Aloysia fica chocada com a traição.",
+        "leadsTo": [
+          "b-3-aloysia-next-move"
+        ]
+      },
+      {
+        "label": "Rivais indiferentes",
+        "outcome": "Os rivais tentam deixar os PCs inconscientes, tirar a Jóia e entregá-la a Aloysia.",
+        "leadsTo": [
+          "b-3-aloysia-next-move"
+        ]
+      },
+      {
+        "label": "Rivais hostis",
+        "outcome": "Ayo rosna que a caçada acabou; os rivais atacam para matar.",
+        "leadsTo": [
+          "b-3-aloysia-next-move"
+        ]
+      }
+    ],
+    "portent": {
+      "faction": "f-consortium",
+      "text": "Aloysia leva a Jóia para Ank'Harel e os rivais com ela"
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-aloysia-next-move",
     "title": "Aloysia's Next Move: earthquake e as tablets",
-    "arcs": ["a-main", "a-consortium", "a-rivals"],
+    "arcs": [
+      "a-main",
+      "a-consortium",
+      "a-rivals"
+    ],
     "chapter": "ch3",
     "order": 250,
     "location": "l-prayer-site-avandra",
-    "participants": ["c-aloysia-telfan", "c-ayo-jabe"],
+    "participants": [
+      "c-aloysia-telfan",
+      "c-ayo-jabe"
+    ],
     "summary": "Com a Jóia, Aloysia teleporta-se para Ank'Harel e convida os rivais. Sem ela, desata a ranger, lê o scroll of earthquake (DC 13 Dex, 5d6), deixa cair duas tablets de teleporte, sela a saída com um pedregulho e foge com a terceira.",
-    "reveals": ["r-go-to-ank-harel"],
-    "requires": ["b-3-jewel-confrontation"],
+    "reveals": [
+      "r-go-to-ank-harel"
+    ],
+    "requires": [
+      "b-3-jewel-confrontation"
+    ],
     "choices": [
-      { "label": "Usar as tablets caídas", "outcome": "Chegam ao círculo de teleporte do Consortium em Ank'Harel: é a saída pretendida.", "leadsTo": ["b-3-next-steps-ank-harel"] },
-      { "label": "Escavar o pedregulho", "outcome": "Str combinada 70 durante 10 horas (ou 50 durante 20); o relógio de reforços do Rise corre.", "leadsTo": ["b-3-verin-farewell"] }
+      {
+        "label": "Usar as tablets caídas",
+        "outcome": "Chegam ao círculo de teleporte do Consortium em Ank'Harel: é a saída pretendida.",
+        "leadsTo": [
+          "b-3-next-steps-ank-harel"
+        ]
+      },
+      {
+        "label": "Escavar o pedregulho",
+        "outcome": "Str combinada 70 durante 10 horas (ou 50 durante 20); o relógio de reforços do Rise corre.",
+        "leadsTo": [
+          "b-3-verin-farewell"
+        ]
+      }
     ],
     "timer": "pedregulho: Str 70 → 10 horas, Str 50 → 20 horas",
-    "portent": { "faction": "f-consortium", "text": "Se Aloysia leva a Jóia, o Consortium tem a chave do ruidium e os rivais como agentes" },
-    "notes": "Aloysia sobrevive ao capítulo de qualquer forma (missão B2 do Consortium). Se um PC a matar aqui, regista como os amigos dela na facção reagem em Ank'Harel (Remix). As tablets são a ponte mais directa para o capítulo 4.",
+    "portent": {
+      "faction": "f-consortium",
+      "text": "Se Aloysia leva a Jóia, o Consortium tem a chave do ruidium e os rivais como agentes"
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-3-verin-farewell",
     "title": "Regresso a Bazzoxan: a bênção de Verin",
-    "arcs": ["a-kryn", "a-main"],
+    "arcs": [
+      "a-kryn",
+      "a-main"
+    ],
     "chapter": "ch3",
     "order": 260,
     "location": "l-bazzoxan-barracks",
-    "participants": ["c-verin-thelyss"],
+    "participants": [
+      "c-verin-thelyss"
+    ],
     "summary": "De volta à vila, Verin identifica a tablet de Aloysia como ligada a Marquet e diz acreditar que os destinos dos PCs estão entrelaçados com forças divinas que não se podem ignorar.",
-    "reveals": ["r-go-to-ank-harel"],
-    "requires": ["b-3-jewel-confrontation"],
+    "reveals": [
+      "r-go-to-ank-harel"
+    ],
+    "requires": [
+      "b-3-jewel-confrontation"
+    ],
     "choices": [
-      { "label": "Contar a Verin o que viram no Rise", "outcome": "Ele percebe que a resposta ao impasse está em Marquet, não em Xhorhas; deixa-os partir com a bênção da Watch.", "leadsTo": ["b-3-next-steps-ank-harel"] }
+      {
+        "label": "Contar a Verin o que viram no Rise",
+        "outcome": "Ele percebe que a resposta ao impasse está em Marquet, não em Xhorhas; deixa-os partir com a bênção da Watch.",
+        "leadsTo": [
+          "b-3-next-steps-ank-harel"
+        ]
+      }
     ],
     "notes": "Fecha o arco Kryn do capítulo. Se os PCs devolveram emblemas da Watch dos driders e dos war chiefs, dá a Verin um momento de luto e gratidão.",
     "source": "book"
@@ -483,20 +1038,52 @@
   {
     "id": "b-3-next-steps-ank-harel",
     "title": "Next Steps: três caminhos para Ank'Harel",
-    "arcs": ["a-main", "a-allegiance", "a-consortium", "a-cobalt"],
+    "arcs": [
+      "a-main",
+      "a-allegiance",
+      "a-consortium",
+      "a-cobalt"
+    ],
     "chapter": "ch3",
     "order": 270,
     "location": "l-bazzoxan",
-    "participants": ["c-prolix-yusaf", "c-question", "c-aloysia-telfan"],
-    "summary": "Três rotas para a Jewel of Hope: as tablets deixadas por Aloysia; a tablet de Prolix, que leva os PCs e Question e os apresenta à Allegiance; ou o convite de Question para reportar à Cobalt Soul (ela e Prolix já combinaram voltar juntos).",
-    "reveals": ["r-go-to-ank-harel", "r-faction-agendas"],
-    "requires": ["b-3-prayer-site-avandra"],
-    "choices": [
-      { "label": "Tablets de Aloysia", "outcome": "Aterram no círculo do Consortium; começam na órbita da facção que os atacou (ou aliou).", "leadsTo": ["b-4-choose-faction"] },
-      { "label": "Com Prolix", "outcome": "Chegam ao Crystal Chateau; a Allegiance é a porta de entrada.", "leadsTo": ["b-4-choose-faction"] },
-      { "label": "Com Question", "outcome": "Chegam ao Temple of the Mentor; a Cobalt Soul é a porta de entrada.", "leadsTo": ["b-4-choose-faction"] }
+    "participants": [
+      "c-prolix-yusaf",
+      "c-question",
+      "c-aloysia-telfan"
     ],
-    "notes": "Teste de calibração do Remix antes de partir: os jogadores já têm opiniões fortes e diferentes sobre Alyxian? Têm perguntas que querem responder? Conhecem as três facções e as suas agendas de ruidium? Se não, faz os investigadores dizê-lo às claras agora. Os rivais partem para a facção oposta à dos PCs; anota quem eles seguem.",
+    "summary": "Três rotas para a Jewel of Hope: as tablets deixadas por Aloysia; a tablet de Prolix, que leva os PCs e Question e os apresenta à Allegiance; ou o convite de Question para reportar à Cobalt Soul (ela e Prolix já combinaram voltar juntos).",
+    "reveals": [
+      "r-go-to-ank-harel",
+      "r-faction-agendas"
+    ],
+    "requires": [
+      "b-3-prayer-site-avandra"
+    ],
+    "choices": [
+      {
+        "label": "Tablets de Aloysia",
+        "outcome": "Aterram no círculo do Consortium; começam na órbita da facção que os atacou (ou aliou).",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      },
+      {
+        "label": "Com Prolix",
+        "outcome": "Chegam ao Crystal Chateau; a Allegiance é a porta de entrada.",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      },
+      {
+        "label": "Com Question",
+        "outcome": "Chegam ao Temple of the Mentor; a Cobalt Soul é a porta de entrada.",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   }
 ]

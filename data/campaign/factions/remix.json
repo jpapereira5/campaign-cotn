@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f-cerberus-assembly",
+    "name": "Cerberus Assembly (Volstruckers)",
+    "motto": "",
+    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. Interessados na Jóia e no que ela abre; um agente actua em Bazzoxan em conluio com Aloysia.",
+    "publicFace": "Académicos e conselheiros do Império; os Volstruckers não existem oficialmente.",
+    "leaders": [],
+    "allies": [
+      "f-dwendalian-empire"
+    ],
+    "enemies": [
+      "f-kryn"
+    ],
+    "portents": [
+      {
+        "chapter": "ch3",
+        "text": "DM: Um agente Volstrucker segue os PCs até Bazzoxan e, com Aloysia, tenta roubar a Jóia em R16."
+      },
+      {
+        "chapter": "ch4",
+        "text": "DM: Se o agente escapar, a Assembly sabe da Jóia e de Ank'Harel; Laurin Ophidas (membro caído, segundo o livro) é um fio solto na cidade."
+      }
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "f-rivals",
+    "agenda": "Companhia de aventureiros sem nome liderada por Ayo Jabe: provar que são os heróis, ganhar a Jóia e a glória. Crescem em poder e ambição a par dos PCs (tier 1 caps. 1-2, tier 2 caps. 3-4, tier 3 caps. 5-7). Podem tornar-se amigos, amantes, clientes de Aloysia ou inimigos mortais. PROPOSTA (Remix). Princípio da Oposição: seja qual for a posição dos PCs (para onde ir, o que fazer, porquê, como, quem é Alyxian e o que merece), os rivais defendem a oposta. A atitude decide só o tom: hostil = negociação agressiva; amigável = debate; indiferente = discussão. Cinco modos de acção: parceria; seguem os PCs; independentes; saem da campanha; tomam a Jóia.",
+    "publicFace": "Cinco aventureiros de Jigow: Ayo, Dermot, Galsariad, Irvan e Maggie. Atitude inicial indiferente; só se anotam as relações hostis e amigáveis que nascem. PROPOSTA (Remix). Se não há forma de os rivais discordarem numa secção, os jogadores não têm informação suficiente para ter opinião."
+  }
+]

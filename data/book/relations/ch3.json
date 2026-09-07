@@ -1,58 +1,338 @@
 [
-  { "from": "c-verin-thelyss", "to": "c-prolix-yusaf", "type": "knows", "label": "suspeita que o arqueólogo tem outros motivos", "source": "book" },
-  { "from": "c-verin-thelyss", "to": "c-aloysia-telfan", "type": "enemy", "label": "mandou-a repreender por subornar soldados", "source": "book" },
-  { "from": "c-verin-thelyss", "to": "f-aurora-watch", "type": "memberOf", "label": "Taskhand, comandante de Bazzoxan", "source": "book" },
-  { "from": "c-verin-thelyss", "to": "f-kryn", "type": "memberOf", "label": "oficial da Kryn Dynasty", "source": "book" },
-  { "from": "c-verin-thelyss", "to": "c-foghome", "type": "ally", "label": "hospeda o firbolg que alimenta a Watch", "source": "book" },
-  { "from": "c-verin-thelyss", "to": "c-naevyn-tasithar", "type": "protects", "label": "comandante da batedora ferida", "source": "book" },
-
-  { "from": "c-prolix-yusaf", "to": "c-aloysia-telfan", "type": "spiesOn", "label": "enviado pela Allegiance para vigiar a agente do Consortium", "source": "book" },
-  { "from": "c-prolix-yusaf", "to": "f-allegiance", "type": "memberOf", "label": "agente académico do Crystal Chateau", "source": "book" },
-  { "from": "c-prolix-yusaf", "to": "c-question", "type": "knows", "label": "debateram a história da Calamity; combinam voltar juntos a Ank'Harel", "source": "book" },
-  { "from": "c-prolix-yusaf", "to": "c-bautha-dyrr", "type": "knows", "label": "paciente da enfermaria", "source": "book" },
-  { "from": "c-prolix-yusaf", "to": "f-rivals", "type": "wantsFrom", "label": "pode contratá-los para travar Aloysia se os PCs recusarem (Remix: qualquer oferta recusada vai para os rivais)", "condition": "se os PCs recusarem a oferta de Prolix", "source": "book" },
-
-  { "from": "c-aloysia-telfan", "to": "f-consortium", "type": "memberOf", "label": "iniciada oculta; recrutadora", "source": "book" },
-  { "from": "c-aloysia-telfan", "to": "f-rivals", "type": "wantsFrom", "label": "contrata-os como músculo para chegar ao local de oração", "fromBeat": "b-3-make-an-enemy", "condition": "se os PCs recusarem a oferta ou revelarem a Jóia", "source": "book" },
-  { "from": "c-aloysia-telfan", "to": "f-rivals", "type": "ally", "label": "os rivais entregam-lhe a Jóia em R16", "fromBeat": "b-3-jewel-confrontation", "condition": "se os rivais forem indiferentes ou hostis", "source": "book" },
-  { "from": "f-rivals", "to": "c-aloysia-telfan", "type": "betrays", "label": "os rivais deixam os PCs ficar com a Jóia; Aloysia fica chocada", "fromBeat": "b-3-jewel-confrontation", "condition": "se os rivais forem amigáveis", "source": "book" },
-  { "from": "c-aloysia-telfan", "to": "c-prolix-yusaf", "type": "rival", "label": "agentes de facções rivais no mesmo corredor do Ready Room", "source": "book" },
-  { "from": "c-aloysia-telfan", "to": "c-bautha-dyrr", "type": "knows", "label": "tratada por Bautha depois de se ferir sozinha no Rise", "source": "book" },
-  { "from": "c-aloysia-telfan", "to": "c-question", "type": "spiesOn", "label": "escuta a conversa dos PCs com Question no Ready Room", "source": "book" },
-
-  { "from": "c-question", "to": "f-cobalt-soul", "type": "memberOf", "label": "operativa monástica da expedição de Ank'Harel", "source": "book" },
-  { "from": "c-question", "to": "c-cobalt-expedition", "type": "family", "label": "colegas que entraram no Rise sem ela; culpa e luto", "source": "book" },
-  { "from": "c-cobalt-expedition", "to": "f-cobalt-soul", "type": "memberOf", "label": "expedição sobre as batalhas da Calamity", "source": "book" },
-
-  { "from": "c-bautha-dyrr", "to": "c-naevyn-tasithar", "type": "protects", "label": "trata a batedora ferida", "source": "book" },
-  { "from": "c-bautha-dyrr", "to": "f-kryn", "type": "enemy", "label": "desaprova a reclamação militar: baixas inúteis", "source": "book" },
-  { "from": "c-bautha-dyrr", "to": "c-prolix-yusaf", "type": "knows", "label": "vê-o como imprudente e ingénuo", "source": "book" },
-  { "from": "c-bautha-dyrr", "to": "c-aloysia-telfan", "type": "knows", "label": "vê-a como imprudente; sabe que procura mercenários", "source": "book" },
-
-  { "from": "c-foghome", "to": "c-melora", "type": "serves", "label": "seguidor da Wild Mother; jardineiro no templo de Avandra", "source": "book" },
-  { "from": "c-foghome", "to": "c-avandra", "type": "serves", "label": "honra a Change Bringer cuidando do seu antigo templo", "source": "book" },
-
-  { "from": "c-naevyn-tasithar", "to": "f-aurora-watch", "type": "memberOf", "label": "batedora", "source": "book" },
-  { "from": "c-naevyn-tasithar", "to": "c-kalym-telaarin", "type": "wantsFrom", "label": "quer o seu coelho de olho-de-tigre no Wall of the Unforgotten", "source": "book" },
-  { "from": "c-kalym-telaarin", "to": "f-aurora-watch", "type": "memberOf", "label": "guardião do memorial", "source": "book" },
-  { "from": "c-kalym-telaarin", "to": "f-luxon", "type": "memberOf", "label": "sacerdote do Luxon", "source": "book" },
-
-  { "from": "c-reynard-allerton", "to": "c-sebastian-allerton", "type": "family", "label": "irmão mais novo", "source": "book" },
-  { "from": "c-delez-demona", "to": "c-prima-demona", "type": "family", "label": "irmãos e sócios do Ready Room", "source": "book" },
-
-  { "from": "c-rise-driders", "to": "c-lolth", "type": "serves", "label": "mutados pela magia demoníaca da Spider Queen", "source": "book" },
-  { "from": "c-rise-driders", "to": "f-aurora-watch", "type": "betrays", "label": "antigos guerreiros drow da Watch", "source": "book" },
-  { "from": "c-rise-war-chiefs", "to": "c-gruumsh", "type": "serves", "label": "rezam ao Ruiner no Blood Font", "source": "book" },
-  { "from": "c-rise-war-chiefs", "to": "f-aurora-watch", "type": "betrays", "label": "outrora soldados valentes da Watch", "source": "book" },
-
-  { "from": "f-allegiance", "to": "f-cobalt-soul", "type": "ally", "label": "aliados firmes; partilham bibliotecas", "source": "book" },
-  { "from": "f-consortium", "to": "f-sentinels", "type": "ally", "label": "aliança ténue: o Consortium financia os Sentinels", "source": "book" },
-  { "from": "f-allegiance", "to": "f-consortium", "type": "enemy", "label": "corrida ao ruidium e a Cael Morrow", "source": "book" },
-  { "from": "f-allegiance", "to": "f-sentinels", "type": "enemy", "label": "os Sentinels querem a escavação fechada", "source": "book" },
-  { "from": "f-cobalt-soul", "to": "f-consortium", "type": "enemy", "label": "a Cobalt Soul investiga as armas de ruidium do Consortium", "source": "book" },
-  { "from": "f-hands-of-ord", "to": "f-veil", "type": "enemy", "label": "ordem contra caos; as Hands nunca conseguiram travar a Veil", "source": "book" },
-  { "from": "f-cobalt-soul", "to": "f-hands-of-ord", "type": "ally", "label": "aliados firmes; a Cobalt Soul entrega-lhes os detidos", "source": "book" },
-  { "from": "f-sentinels", "to": "f-allegiance", "type": "spiesOn", "label": "Lymmle Wist infiltrada há meses", "source": "book" },
-  { "from": "f-consortium", "to": "f-allegiance", "type": "spiesOn", "label": "Galeokaerda infiltrada na escavação", "source": "book" },
-  { "from": "f-scarbearers", "to": "f-allegiance", "type": "serves", "label": "contratados para guardar a Maw of Cael Morrow", "source": "book" }
+  {
+    "from": "c-verin-thelyss",
+    "to": "c-prolix-yusaf",
+    "type": "knows",
+    "label": "suspeita que o arqueólogo tem outros motivos",
+    "source": "book"
+  },
+  {
+    "from": "c-verin-thelyss",
+    "to": "c-aloysia-telfan",
+    "type": "enemy",
+    "label": "mandou-a repreender por subornar soldados",
+    "source": "book"
+  },
+  {
+    "from": "c-verin-thelyss",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Taskhand, comandante de Bazzoxan",
+    "source": "book"
+  },
+  {
+    "from": "c-verin-thelyss",
+    "to": "f-kryn",
+    "type": "memberOf",
+    "label": "oficial da Kryn Dynasty",
+    "source": "book"
+  },
+  {
+    "from": "c-verin-thelyss",
+    "to": "c-foghome",
+    "type": "ally",
+    "label": "hospeda o firbolg que alimenta a Watch",
+    "source": "book"
+  },
+  {
+    "from": "c-verin-thelyss",
+    "to": "c-naevyn-tasithar",
+    "type": "protects",
+    "label": "comandante da batedora ferida",
+    "source": "book"
+  },
+  {
+    "from": "c-prolix-yusaf",
+    "to": "c-aloysia-telfan",
+    "type": "spiesOn",
+    "label": "enviado pela Allegiance para vigiar a agente do Consortium",
+    "source": "book"
+  },
+  {
+    "from": "c-prolix-yusaf",
+    "to": "f-allegiance",
+    "type": "memberOf",
+    "label": "agente académico do Crystal Chateau",
+    "source": "book"
+  },
+  {
+    "from": "c-prolix-yusaf",
+    "to": "c-question",
+    "type": "knows",
+    "label": "debateram a história da Calamity; combinam voltar juntos a Ank'Harel",
+    "source": "book"
+  },
+  {
+    "from": "c-prolix-yusaf",
+    "to": "c-bautha-dyrr",
+    "type": "knows",
+    "label": "paciente da enfermaria",
+    "source": "book"
+  },
+  {
+    "from": "c-prolix-yusaf",
+    "to": "f-rivals",
+    "type": "wantsFrom",
+    "label": "pode contratá-los para travar Aloysia se os PCs recusarem",
+    "condition": "se os PCs recusarem a oferta de Prolix",
+    "source": "book"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "f-consortium",
+    "type": "memberOf",
+    "label": "iniciada oculta; recrutadora",
+    "source": "book"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "f-rivals",
+    "type": "wantsFrom",
+    "label": "contrata-os como músculo para chegar ao local de oração",
+    "fromBeat": "b-3-aloysia-offer",
+    "condition": "se os PCs recusarem a oferta ou revelarem a Jóia",
+    "source": "book"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "f-rivals",
+    "type": "ally",
+    "label": "os rivais entregam-lhe a Jóia em R16",
+    "fromBeat": "b-3-jewel-confrontation",
+    "condition": "se os rivais forem indiferentes ou hostis",
+    "source": "book"
+  },
+  {
+    "from": "f-rivals",
+    "to": "c-aloysia-telfan",
+    "type": "betrays",
+    "label": "os rivais deixam os PCs ficar com a Jóia; Aloysia fica chocada",
+    "fromBeat": "b-3-jewel-confrontation",
+    "condition": "se os rivais forem amigáveis",
+    "source": "book"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "c-prolix-yusaf",
+    "type": "rival",
+    "label": "agentes de facções rivais no mesmo corredor do Ready Room",
+    "source": "book"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "c-bautha-dyrr",
+    "type": "knows",
+    "label": "tratada por Bautha depois de se ferir sozinha no Rise",
+    "source": "book"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "c-question",
+    "type": "spiesOn",
+    "label": "escuta a conversa dos PCs com Question no Ready Room",
+    "source": "book"
+  },
+  {
+    "from": "c-question",
+    "to": "f-cobalt-soul",
+    "type": "memberOf",
+    "label": "operativa monástica da expedição de Ank'Harel",
+    "source": "book"
+  },
+  {
+    "from": "c-question",
+    "to": "c-cobalt-expedition",
+    "type": "family",
+    "label": "colegas que entraram no Rise sem ela; culpa e luto",
+    "source": "book"
+  },
+  {
+    "from": "c-cobalt-expedition",
+    "to": "f-cobalt-soul",
+    "type": "memberOf",
+    "label": "expedição sobre as batalhas da Calamity",
+    "source": "book"
+  },
+  {
+    "from": "c-bautha-dyrr",
+    "to": "c-naevyn-tasithar",
+    "type": "protects",
+    "label": "trata a batedora ferida",
+    "source": "book"
+  },
+  {
+    "from": "c-bautha-dyrr",
+    "to": "f-kryn",
+    "type": "enemy",
+    "label": "desaprova a reclamação militar: baixas inúteis",
+    "source": "book"
+  },
+  {
+    "from": "c-bautha-dyrr",
+    "to": "c-prolix-yusaf",
+    "type": "knows",
+    "label": "vê-o como imprudente e ingénuo",
+    "source": "book"
+  },
+  {
+    "from": "c-bautha-dyrr",
+    "to": "c-aloysia-telfan",
+    "type": "knows",
+    "label": "vê-a como imprudente; sabe que procura mercenários",
+    "source": "book"
+  },
+  {
+    "from": "c-foghome",
+    "to": "c-melora",
+    "type": "serves",
+    "label": "seguidor da Wild Mother; jardineiro no templo de Avandra",
+    "source": "book"
+  },
+  {
+    "from": "c-foghome",
+    "to": "c-avandra",
+    "type": "serves",
+    "label": "honra a Change Bringer cuidando do seu antigo templo",
+    "source": "book"
+  },
+  {
+    "from": "c-naevyn-tasithar",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "batedora",
+    "source": "book"
+  },
+  {
+    "from": "c-naevyn-tasithar",
+    "to": "c-kalym-telaarin",
+    "type": "wantsFrom",
+    "label": "quer o seu coelho de olho-de-tigre no Wall of the Unforgotten",
+    "source": "book"
+  },
+  {
+    "from": "c-kalym-telaarin",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "guardião do memorial",
+    "source": "book"
+  },
+  {
+    "from": "c-kalym-telaarin",
+    "to": "f-luxon",
+    "type": "memberOf",
+    "label": "sacerdote do Luxon",
+    "source": "book"
+  },
+  {
+    "from": "c-reynard-allerton",
+    "to": "c-sebastian-allerton",
+    "type": "family",
+    "label": "irmão mais novo",
+    "source": "book"
+  },
+  {
+    "from": "c-delez-demona",
+    "to": "c-prima-demona",
+    "type": "family",
+    "label": "irmãos e sócios do Ready Room",
+    "source": "book"
+  },
+  {
+    "from": "c-rise-driders",
+    "to": "c-lolth",
+    "type": "serves",
+    "label": "mutados pela magia demoníaca da Spider Queen",
+    "source": "book"
+  },
+  {
+    "from": "c-rise-driders",
+    "to": "f-aurora-watch",
+    "type": "betrays",
+    "label": "antigos guerreiros drow da Watch",
+    "source": "book"
+  },
+  {
+    "from": "c-rise-war-chiefs",
+    "to": "c-gruumsh",
+    "type": "serves",
+    "label": "rezam ao Ruiner no Blood Font",
+    "source": "book"
+  },
+  {
+    "from": "c-rise-war-chiefs",
+    "to": "f-aurora-watch",
+    "type": "betrays",
+    "label": "outrora soldados valentes da Watch",
+    "source": "book"
+  },
+  {
+    "from": "f-allegiance",
+    "to": "f-cobalt-soul",
+    "type": "ally",
+    "label": "aliados firmes; partilham bibliotecas",
+    "source": "book"
+  },
+  {
+    "from": "f-consortium",
+    "to": "f-sentinels",
+    "type": "ally",
+    "label": "aliança ténue: o Consortium financia os Sentinels",
+    "source": "book"
+  },
+  {
+    "from": "f-allegiance",
+    "to": "f-consortium",
+    "type": "enemy",
+    "label": "corrida ao ruidium e a Cael Morrow",
+    "source": "book"
+  },
+  {
+    "from": "f-allegiance",
+    "to": "f-sentinels",
+    "type": "enemy",
+    "label": "os Sentinels querem a escavação fechada",
+    "source": "book"
+  },
+  {
+    "from": "f-cobalt-soul",
+    "to": "f-consortium",
+    "type": "enemy",
+    "label": "a Cobalt Soul investiga as armas de ruidium do Consortium",
+    "source": "book"
+  },
+  {
+    "from": "f-hands-of-ord",
+    "to": "f-veil",
+    "type": "enemy",
+    "label": "ordem contra caos; as Hands nunca conseguiram travar a Veil",
+    "source": "book"
+  },
+  {
+    "from": "f-cobalt-soul",
+    "to": "f-hands-of-ord",
+    "type": "ally",
+    "label": "aliados firmes; a Cobalt Soul entrega-lhes os detidos",
+    "source": "book"
+  },
+  {
+    "from": "f-sentinels",
+    "to": "f-allegiance",
+    "type": "spiesOn",
+    "label": "Lymmle Wist infiltrada há meses",
+    "source": "book"
+  },
+  {
+    "from": "f-consortium",
+    "to": "f-allegiance",
+    "type": "spiesOn",
+    "label": "Galeokaerda infiltrada na escavação",
+    "source": "book"
+  },
+  {
+    "from": "f-scarbearers",
+    "to": "f-allegiance",
+    "type": "serves",
+    "label": "contratados para guardar a Maw of Cael Morrow",
+    "source": "book"
+  }
 ]

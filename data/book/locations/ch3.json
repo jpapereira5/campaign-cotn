@@ -1,28 +1,175 @@
 [
-  { "id": "l-bazzoxan", "chapter": "ch3", "name": "Bazzoxan", "summary": "Vila-fortaleza da Aurora Watch encaixada numa cordilheira vermelho-ferrugem a norte dos Barbed Fields. Antiga vila mineira, arruinada quando exploradores acordaram um portal para o Abyss nas profundezas do Betrayers' Rise. Dois sacrifice engines (poços de 30 pés com lâminas giratórias) onde a Watch empurra demónios. Ataques como o dos gibbering mouthers são rotina; a missão aqui é contenção, não vitória." },
-  { "id": "l-bazzoxan-gate", "parent": "l-bazzoxan", "chapter": "ch3", "name": "B1 Gate of Bazzoxan", "summary": "Portão de rodas, correntes e roldanas. Recepção diferente se os PCs chegam com escolta da Aurora Watch ou sozinhos (mercenários?)." },
-  { "id": "l-bazzoxan-crematorium", "parent": "l-bazzoxan", "chapter": "ch3", "name": "B2 Crematorium", "summary": "Reynard e Sebastian Allerton queimam os mortos. O vrock que não se dissolve tem na goela eyes of the eagle, três anéis e a onyx puzzle box (DC 20 Int; spell scroll of bestow curse). Colocação de Prolix (também: estalagem, ou a estudar um sacrifice engine)." },
-  { "id": "l-bazzoxan-infirmary", "parent": "l-bazzoxan", "chapter": "ch3", "name": "B3 Infirmary", "summary": "Bautha Dyrr cura de graça; Naevyn Tasithar convalesce. Lenda das três preces e o luto de Avandra; DC 13 Persuasion revela que Aloysia se feriu no Rise e procura mercenários. Colocação alternativa de Aloysia (a tratar uma ferida)." },
-  { "id": "l-bazzoxan-barracks", "parent": "l-bazzoxan", "chapter": "ch3", "name": "B4 Gatehold Barracks", "summary": "Sala de guerra de Verin (briefing sobre a expedição Cobalt Soul, Aloysia e Prolix), refeitório com boatos, área de treino (tiro, sparring, luta) e dormitórios interditos. Colocação alternativa de Aloysia (a exigir soldados a Verin)." },
-  { "id": "l-bazzoxan-temple", "parent": "l-bazzoxan", "chapter": "ch3", "name": "B5 Dilapidated Temple", "summary": "Antigo templo de Avandra (DC 17 Religion no mosaico partido), hoje quinta sem sol de Foghome. Meditação da noite = Vision 2. Cinco inscrições dos companheiros de Alyxian nas alcovas onde as plantas crescem melhor." },
-  { "id": "l-wall-of-the-unforgotten", "parent": "l-bazzoxan", "chapter": "ch3", "name": "B6 Wall of the Unforgotten", "summary": "Memorial da Aurora Watch guardado por Kalym Telaarin. Entregar o coelho de Naevyn rende Motes of Possibility. Colocação alternativa de Question (a deixar uma oferenda a amigos perdidos)." },
-  { "id": "l-ready-room", "parent": "l-bazzoxan", "chapter": "ch3", "name": "B7 The Ready Room", "summary": "Única estalagem, dos irmãos Delez e Prima Demona; preços a dobrar. Os rivais bebem aqui; Question desenha no caderno; Prolix e Aloysia dormem aqui e Aloysia escuta as conversas (passive Perception 12+ para a apanhar)." },
-
-  { "id": "l-betrayers-rise", "chapter": "ch3", "name": "Betrayers' Rise", "summary": "Fortaleza-guardiã da citadela dos Betrayer Gods (Ghor Dranas, hoje Rosohna), tomada pelos campeões dos Prime Deities. Escadaria íngreme; portão de ónix com cobre e prata (Str combinada 44; DC 15 social para chegar a 30 pés). Shifting Halls: o interior é diferente para cada grupo. Retreat and Reinforcements: após 8 horas fora, d6 por área explorada, 6 = repovoada. Torog's Commandments do Remix: liga R12 a R13." },
-  { "id": "l-rise-r1-entrance", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R1 Entrance", "summary": "Ponte manchada de sangue sobre a misty chasm; vozes sussurram que juntos os podem quebrar. Porta dupla com o símbolo arranhado de Avandra: brilha a 20 pés da Jóia e só abre ao seu toque. Aqui Question tirou a decalcagem do símbolo." },
-  { "id": "l-rise-r2-hall-of-holes", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R2 Hall of Holes", "summary": "Baixos-relevos da Battle of the Barbed Fields (DC 15 History) com Alyxian ladeado por Sehanine e Avandra. Três gibbering mouthers escorrem dos buracos da parede." },
-  { "id": "l-rise-r3-vestibule", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R3 Vestibule", "summary": "Encruzilhada do Rise. Alcova NW: a devouring wall (DC 15 Wis para fazer as pazes com a morte → R4; vantagem contra frightened 24 h). Skull vase de Tharizdun: sacrificar algo valioso abre o túnel para a rota da Basilica. Corredor NE desabado: 1 hora a limpar → R8." },
-  { "id": "l-rise-r4-path-of-emptiness", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R4 Path of Emptiness", "summary": "Silêncio ensurdecedor; porta secreta de sentido único." },
-  { "id": "l-rise-r5-flagellants-path", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R5 Flagellant's Path", "summary": "Estátuas de Torog the Crawling King; corredor de lâminas (DC 20 Dex, 5d6) que tem de infligir 70 de dano cortante para encher o canister de cristal com sangue e abrir as portas norte. Reinicia após 1 hora." },
-  { "id": "l-rise-r6-cloister", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R6 Cloister of Penitence", "summary": "Três flameskulls (restos de torturadores dos Betrayer Gods); cadáver com 22 gp e quatro frascos de sangue (5 de dano cada para o canister de R5)." },
-  { "id": "l-rise-r7-stairs-down", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R7 Stairs Down", "summary": "Poço de 100 pés; o lamento de R12 cresce à medida que se desce." },
-  { "id": "l-rise-r8-spiders-chancel", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R8 Spiders' Chancel", "summary": "Dois driders (ex-Aurora Watch, mutados por Lolth) e duas aranhas gigantes fiendish. Mural invisível e cantante esconde livros abissais sobre as alianças dos demon lords com os Betrayer Gods e o mantra dos quatro deuses que resolve R9. Sword of vengeance num cadáver da Watch." },
-  { "id": "l-rise-r9-basilica", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R9 Basilica of Revelry", "summary": "Quatro chamas dançantes (succubus/incubus) à procura de par; mosaico de vitral com nove símbolos. Sequência: Lolth → Gruumsh → Tharizdun → Torog." },
-  { "id": "l-rise-r10-supplicants-pit", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R10 Supplicant's Pit", "summary": "DC 14 Wis ou rastejar; correntes de escuridão que mandam aprisionar quem não resiste. O buraco cai 100 pés até R12." },
-  { "id": "l-rise-r11-stairs-up", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R11 Stairs Up", "summary": "Outro extremo do poço de 100 pés." },
-  { "id": "l-rise-r12-threshold", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R12 Threshold of the Excoriated", "summary": "Estátua acorrentada que lamenta, com portas de ferro no peito; curse of Torog's hunger (DC 16 Cha); três Arms of Torog (70/40/20 pés) com pústulas: destruir as três abre as portas (voltam a formar-se após 1 hora). Remix: inscrever aqui o mandamento de Torog que resolve R13." },
-  { "id": "l-rise-r13-labyrinth", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R13 Lightless Labyrinth", "summary": "Bifurcações triplas de violeta, vermelho e escuridão. Seguir sempre o caminho escuro (mandamento de Torog: exaltar os lugares onde a luz não toca)." },
-  { "id": "l-rise-r14-blood-font", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R14 Blood Font of the Ruiner", "summary": "Dois orc war chiefs fiendish rezam a Gruumsh. A sala sela-se e enche-se de sangue a ferver: 5 pés por minuto, até 45 pés." },
-  { "id": "l-rise-r15-misty-chasm", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R15 Misty Chasm", "summary": "Abismo de 1000 pés sob o rosto pétreo e dentado de Gruumsh; atravessá-lo abre um rift abissal e liberta um vrock. No fundo, os corpos dos dois colegas de Question (cloak of protection, driftglobe rachado)." },
-  { "id": "l-prayer-site-avandra", "parent": "l-betrayers-rise", "chapter": "ch3", "name": "R16 Prayer Site of Avandra (Cyst of Avandra)", "summary": "Cratera de cristal âmbar com 30 pés de fundo e um altar de cristal. Colocar a Jóia → Vision 3 → Awakened State; termina a curse of Torog; nível 7. Aloysia e os rivais surgem à beira da cratera para o Confrontation for the Jewel. O Remix chama-lhe Cyst of Avandra: um quisto de bem dentro do mal do Rise." }
+  {
+    "id": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "Bazzoxan",
+    "summary": "Vila-fortaleza da Aurora Watch encaixada numa cordilheira vermelho-ferrugem a norte dos Barbed Fields. Antiga vila mineira, arruinada quando exploradores acordaram um portal para o Abyss nas profundezas do Betrayers' Rise. Dois sacrifice engines (poços de 30 pés com lâminas giratórias) onde a Watch empurra demónios. Ataques como o dos gibbering mouthers são rotina; a missão aqui é contenção, não vitória."
+  },
+  {
+    "id": "l-bazzoxan-gate",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "B1 Gate of Bazzoxan",
+    "summary": "Portão de rodas, correntes e roldanas. Recepção diferente se os PCs chegam com escolta da Aurora Watch ou sozinhos (mercenários?)."
+  },
+  {
+    "id": "l-bazzoxan-crematorium",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "B2 Crematorium",
+    "summary": "Reynard e Sebastian Allerton queimam os mortos. O vrock que não se dissolve tem na goela eyes of the eagle, três anéis e a onyx puzzle box (DC 20 Int; spell scroll of bestow curse). Colocação de Prolix (também: estalagem, ou a estudar um sacrifice engine)."
+  },
+  {
+    "id": "l-bazzoxan-infirmary",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "B3 Infirmary",
+    "summary": "Bautha Dyrr cura de graça; Naevyn Tasithar convalesce. Lenda das três preces e o luto de Avandra; DC 13 Persuasion revela que Aloysia se feriu no Rise e procura mercenários. Colocação alternativa de Aloysia (a tratar uma ferida)."
+  },
+  {
+    "id": "l-bazzoxan-barracks",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "B4 Gatehold Barracks",
+    "summary": "Sala de guerra de Verin (briefing sobre a expedição Cobalt Soul, Aloysia e Prolix), refeitório com boatos, área de treino (tiro, sparring, luta) e dormitórios interditos. Colocação alternativa de Aloysia (a exigir soldados a Verin)."
+  },
+  {
+    "id": "l-bazzoxan-temple",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "B5 Dilapidated Temple",
+    "summary": "Antigo templo de Avandra (DC 17 Religion no mosaico partido), hoje quinta sem sol de Foghome. Meditação da noite = Vision 2. Cinco inscrições dos companheiros de Alyxian nas alcovas onde as plantas crescem melhor."
+  },
+  {
+    "id": "l-wall-of-the-unforgotten",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "B6 Wall of the Unforgotten",
+    "summary": "Memorial da Aurora Watch guardado por Kalym Telaarin. Entregar o coelho de Naevyn rende Motes of Possibility. Colocação alternativa de Question (a deixar uma oferenda a amigos perdidos)."
+  },
+  {
+    "id": "l-ready-room",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "name": "B7 The Ready Room",
+    "summary": "Única estalagem, dos irmãos Delez e Prima Demona; preços a dobrar. Os rivais bebem aqui; Question desenha no caderno; Prolix e Aloysia dormem aqui e Aloysia escuta as conversas (passive Perception 12+ para a apanhar)."
+  },
+  {
+    "id": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "Betrayers' Rise",
+    "summary": "Fortaleza-guardiã da citadela dos Betrayer Gods (Ghor Dranas, hoje Rosohna), tomada pelos campeões dos Prime Deities. Escadaria íngreme; portão de ónix com cobre e prata (Str combinada 44; DC 15 social para chegar a 30 pés). Shifting Halls: o interior é diferente para cada grupo. Retreat and Reinforcements: após 8 horas fora, d6 por área explorada, 6 = repovoada."
+  },
+  {
+    "id": "l-rise-r1-entrance",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R1 Entrance",
+    "summary": "Ponte manchada de sangue sobre a misty chasm; vozes sussurram que juntos os podem quebrar. Porta dupla com o símbolo arranhado de Avandra: brilha a 20 pés da Jóia e só abre ao seu toque. Aqui Question tirou a decalcagem do símbolo."
+  },
+  {
+    "id": "l-rise-r2-hall-of-holes",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R2 Hall of Holes",
+    "summary": "Baixos-relevos da Battle of the Barbed Fields (DC 15 History) com Alyxian ladeado por Sehanine e Avandra. Três gibbering mouthers escorrem dos buracos da parede."
+  },
+  {
+    "id": "l-rise-r3-vestibule",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R3 Vestibule",
+    "summary": "Encruzilhada do Rise. Alcova NW: a devouring wall (DC 15 Wis para fazer as pazes com a morte → R4; vantagem contra frightened 24 h). Skull vase de Tharizdun: sacrificar algo valioso abre o túnel para a rota da Basilica. Corredor NE desabado: 1 hora a limpar → R8."
+  },
+  {
+    "id": "l-rise-r4-path-of-emptiness",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R4 Path of Emptiness",
+    "summary": "Silêncio ensurdecedor; porta secreta de sentido único."
+  },
+  {
+    "id": "l-rise-r5-flagellants-path",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R5 Flagellant's Path",
+    "summary": "Estátuas de Torog the Crawling King; corredor de lâminas (DC 20 Dex, 5d6) que tem de infligir 70 de dano cortante para encher o canister de cristal com sangue e abrir as portas norte. Reinicia após 1 hora."
+  },
+  {
+    "id": "l-rise-r6-cloister",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R6 Cloister of Penitence",
+    "summary": "Três flameskulls (restos de torturadores dos Betrayer Gods); cadáver com 22 gp e quatro frascos de sangue (5 de dano cada para o canister de R5)."
+  },
+  {
+    "id": "l-rise-r7-stairs-down",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R7 Stairs Down",
+    "summary": "Poço de 100 pés; o lamento de R12 cresce à medida que se desce."
+  },
+  {
+    "id": "l-rise-r8-spiders-chancel",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R8 Spiders' Chancel",
+    "summary": "Dois driders (ex-Aurora Watch, mutados por Lolth) e duas aranhas gigantes fiendish. Mural invisível e cantante esconde livros abissais sobre as alianças dos demon lords com os Betrayer Gods e o mantra dos quatro deuses que resolve R9. Sword of vengeance num cadáver da Watch."
+  },
+  {
+    "id": "l-rise-r9-basilica",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R9 Basilica of Revelry",
+    "summary": "Quatro chamas dançantes (succubus/incubus) à procura de par; mosaico de vitral com nove símbolos. Sequência: Lolth → Gruumsh → Tharizdun → Torog."
+  },
+  {
+    "id": "l-rise-r10-supplicants-pit",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R10 Supplicant's Pit",
+    "summary": "DC 14 Wis ou rastejar; correntes de escuridão que mandam aprisionar quem não resiste. O buraco cai 100 pés até R12."
+  },
+  {
+    "id": "l-rise-r11-stairs-up",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R11 Stairs Up",
+    "summary": "Outro extremo do poço de 100 pés."
+  },
+  {
+    "id": "l-rise-r12-threshold",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R12 Threshold of the Excoriated",
+    "summary": "Estátua acorrentada que lamenta, com portas de ferro no peito; curse of Torog's hunger (DC 16 Cha); três Arms of Torog (70/40/20 pés) com pústulas: destruir as três abre as portas (voltam a formar-se após 1 hora)."
+  },
+  {
+    "id": "l-rise-r13-labyrinth",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R13 Lightless Labyrinth",
+    "summary": "Bifurcações triplas de violeta, vermelho e escuridão. Seguir sempre o caminho escuro (mandamento de Torog: exaltar os lugares onde a luz não toca)."
+  },
+  {
+    "id": "l-rise-r14-blood-font",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R14 Blood Font of the Ruiner",
+    "summary": "Dois orc war chiefs fiendish rezam a Gruumsh. A sala sela-se e enche-se de sangue a ferver: 5 pés por minuto, até 45 pés."
+  },
+  {
+    "id": "l-rise-r15-misty-chasm",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R15 Misty Chasm",
+    "summary": "Abismo de 1000 pés sob o rosto pétreo e dentado de Gruumsh; atravessá-lo abre um rift abissal e liberta um vrock. No fundo, os corpos dos dois colegas de Question (cloak of protection, driftglobe rachado)."
+  },
+  {
+    "id": "l-prayer-site-avandra",
+    "parent": "l-betrayers-rise",
+    "chapter": "ch3",
+    "name": "R16 Prayer Site of Avandra",
+    "summary": "Cratera de cristal âmbar com 30 pés de fundo e um altar de cristal. Colocar a Jóia → Vision 3 → Awakened State; termina a curse of Torog; nível 7. Aloysia e os rivais surgem à beira da cratera para o Confrontation for the Jewel."
+  }
 ]

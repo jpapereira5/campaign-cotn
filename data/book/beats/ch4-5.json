@@ -2,35 +2,80 @@
   {
     "id": "b-4-arrival-aloysia",
     "title": "Chegada com Aloysia: o telhado do First Eclipse",
-    "arcs": ["a-main", "a-consortium"],
+    "arcs": [
+      "a-main",
+      "a-consortium"
+    ],
     "chapter": "ch4",
     "order": 10,
     "location": "l-first-eclipse",
-    "participants": ["c-aloysia-telfan", "c-vrill", "c-satzrak"],
+    "participants": [
+      "c-aloysia-telfan",
+      "c-vrill",
+      "c-satzrak"
+    ],
     "summary": "As teleportation tablets de Aloysia deixam os PCs num telhado sobre o Suncut Bazaar (perseguição urbana opcional). No First Eclipse, Vrill the Moth identifica a Jóia como uma Vestige Awakened e diz que o Apotheon foi abençoado por Ruidus; manda-os arranjar alojamento e esperar que o Consortium os encontre.",
-    "reveals": ["r-jewel-properties", "r-alyxian-ruidus-birth"],
+    "reveals": [
+      "r-jewel-properties",
+      "r-alyxian-ruidus-birth"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Aceitar a espera", "outcome": "Chega uma carta não assinada: missão B1.", "leadsTo": ["b-4-choose-faction", "b-4-b1-ghost"] },
-      { "label": "Procurar outra facção", "outcome": "Question ou os contactos de Prolix abrem as portas da Cobalt Soul ou da Allegiance.", "leadsTo": ["b-4-choose-faction"] }
+      {
+        "label": "Aceitar a espera",
+        "outcome": "Chega uma carta não assinada: missão B1.",
+        "leadsTo": [
+          "b-4-choose-faction",
+          "b-4-b1-ghost"
+        ]
+      },
+      {
+        "label": "Procurar outra facção",
+        "outcome": "Question ou os contactos de Prolix abrem as portas da Cobalt Soul ou da Allegiance.",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      }
     ],
-    "notes": "Ramo alternativo a b-4-arrival-prolix. Se Aloysia morreu em Bazzoxan, o livro substitui-a por outro occult initiate; a Remix sugere antes perguntar como o Consortium reage à morte dela. Não deixar os investigadores de Bazzoxan desaparecer: mantê-los como 'rostos' das facções.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-arrival-prolix",
     "title": "Chegada com Prolix: Teres Schoolhouse",
-    "arcs": ["a-main", "a-allegiance"],
+    "arcs": [
+      "a-main",
+      "a-allegiance"
+    ],
     "chapter": "ch4",
     "order": 12,
     "location": "l-teres-schoolhouse",
-    "participants": ["c-prolix-yusaf", "c-gryz-alakritos"],
+    "participants": [
+      "c-prolix-yusaf",
+      "c-gryz-alakritos"
+    ],
     "summary": "Os PCs chegam ao Teleportation Atrium (S2) e Prolix leva-os ao gabinete de Gryz Alakritos. O headmaster identifica a Jóia como uma Vestige sem deus específico mas com marcas de criação divina, e esconde o que sabe das ruínas submersas (DC 16 Insight apanha o reconhecimento).",
-    "reveals": ["r-jewel-properties", "r-cael-morrow-entrance"],
+    "reveals": [
+      "r-jewel-properties",
+      "r-cael-morrow-entrance"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Pressionar Alakritos", "outcome": "Admite que há 'algo' por baixo da cidade mas fecha-se: primeiro têm de provar o seu valor.", "leadsTo": ["b-4-choose-faction"] },
-      { "label": "Aceitar a oferta de trabalho", "outcome": "Uma carta assinada por Lymmle Wist chega ao alojamento: missão A1.", "leadsTo": ["b-4-choose-faction", "b-4-a1-deliver-figurine"] }
+      {
+        "label": "Pressionar Alakritos",
+        "outcome": "Admite que há 'algo' por baixo da cidade mas fecha-se: primeiro têm de provar o seu valor.",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      },
+      {
+        "label": "Aceitar a oferta de trabalho",
+        "outcome": "Uma carta assinada por Lymmle Wist chega ao alojamento: missão A1.",
+        "leadsTo": [
+          "b-4-choose-faction",
+          "b-4-a1-deliver-figurine"
+        ]
+      }
     ],
     "notes": "Ramo alternativo a b-4-arrival-aloysia. Alakritos é o 'rosto' natural da Allegiance; Prolix o contacto de rua. Estabelecer já as agendas das três facções para que os PCs saibam a quem bater à porta se mudarem de ideias.",
     "source": "book"
@@ -38,31 +83,59 @@
   {
     "id": "b-4-ank-harel-sandbox",
     "title": "Ank'Harel: a cidade em movimento",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch4",
     "order": 15,
     "location": "l-ank-harel",
-    "participants": ["c-jmon-sa-ord", "c-gemeshega", "c-ilena-hapayhari", "c-croog-lynn", "c-irawan", "c-calinao", "c-zala-keencutter", "c-lyrean-twins", "c-sheed-caltor", "c-rohaya-tak"],
+    "participants": [
+      "c-jmon-sa-ord",
+      "c-gemeshega",
+      "c-ilena-hapayhari",
+      "c-croog-lynn",
+      "c-irawan",
+      "c-calinao",
+      "c-zala-keencutter",
+      "c-lyrean-twins",
+      "c-sheed-caltor",
+      "c-rohaya-tak"
+    ],
     "summary": "Tempo livre entre missões: o Bowl of Judgment de Sheed Caltor e Croog Lynn, o mercado negro dos gémeos Lyrean, a Sunfire Forge de Rohaya Tak, a prosa de Zala no Opalite Forum, a casa segura de Irawan e Calinao. Por cima de tudo, o silêncio de J'mon Sa Ord e da Grandmaven Gemeshega; por baixo, a Veil de Ilena Hapayhari.",
     "reveals": [],
     "requires": [],
     "choices": [],
-    "notes": "Beat-contentor para cor e sub-missões. Remix: prender os locais ao mapa da cidade (o livro não o faz). Usar estes NPCs como eventos de fundo que mostram as facções em movimento: um agente da Allegiance a comprar veteranos a Croog, um occultista a negociar com os Lyrean, uma rusga das Hands of Ord.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-question-splits",
     "title": "Question parte para a Cobalt Soul",
-    "arcs": ["a-main", "a-cobalt"],
+    "arcs": [
+      "a-main",
+      "a-cobalt"
+    ],
     "chapter": "ch4",
     "order": 20,
     "location": "l-temple-of-the-mentor",
-    "participants": ["c-question", "c-iwo-zalarre"],
+    "participants": [
+      "c-question",
+      "c-iwo-zalarre"
+    ],
     "summary": "Question despede-se para ir relatar a expedição perdida ao Temple of the Mentor e deixa aos PCs sending stones e um mapa. Se a procurarem, apresenta-os a Iwo Zalarre, guardião dos arquivos, que tem uma primeira missão para gente de fora.",
-    "reveals": ["r-faction-agendas"],
+    "reveals": [
+      "r-faction-agendas"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Seguir Question até ao templo", "outcome": "Iwo oferece a missão C1.", "leadsTo": ["b-4-choose-faction", "b-4-c1-ophidas"] }
+      {
+        "label": "Seguir Question até ao templo",
+        "outcome": "Iwo oferece a missão C1.",
+        "leadsTo": [
+          "b-4-choose-faction",
+          "b-4-c1-ophidas"
+        ]
+      }
     ],
     "notes": "Question é o 'rosto' da Cobalt Soul e a ponte mais fácil para mudar de facção a meio do capítulo. Se os PCs não a seguirem, mantê-la a aparecer com informação sobre o Consortium.",
     "source": "book"
@@ -70,153 +143,361 @@
   {
     "id": "b-4-rival-developments",
     "title": "Os rivais depois de Bazzoxan",
-    "arcs": ["a-rivals"],
+    "arcs": [
+      "a-rivals"
+    ],
     "chapter": "ch4",
     "order": 25,
     "location": "l-ank-harel",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes"],
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes"
+    ],
     "summary": "Ayo duvida da própria liderança, Dermot mima-a e teme a distância dela, Galsariad fecha-se e recusa ajuda, Irvan aterroriza-se por estar longe dos beacons mas fica, Maggie cala-se a pensar nas forças por trás da Jóia. Partem amigáveis, indiferentes ou hostis conforme o confronto pela Jóia.",
     "reveals": [],
     "requires": [],
     "choices": [
-      { "label": "Amigáveis", "outcome": "Trocam informação sobre a facção que escolherem; podem ser suborrnados ou falhar o teste de lealdade.", "leadsTo": ["b-4-choose-faction"] },
-      { "label": "Indiferentes", "outcome": "Competem pelos mesmos objectivos sem hostilidade aberta.", "leadsTo": ["b-4-choose-faction"] },
-      { "label": "Hostis", "outcome": "Tornam-se um encontro proactivo da facção oposta.", "leadsTo": ["b-4-choose-faction"] }
+      {
+        "label": "Amigáveis",
+        "outcome": "Trocam informação sobre a facção que escolherem; podem ser suborrnados ou falhar o teste de lealdade.",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      },
+      {
+        "label": "Indiferentes",
+        "outcome": "Competem pelos mesmos objectivos sem hostilidade aberta.",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      },
+      {
+        "label": "Hostis",
+        "outcome": "Tornam-se um encontro proactivo da facção oposta.",
+        "leadsTo": [
+          "b-4-choose-faction"
+        ]
+      }
     ],
-    "notes": "Remix: os rivais debatem a agenda (Principle of Opposition) e escalam em Ank'Harel. Cenas curtas de encontro na cidade valem mais do que um resumo: um jantar no Frog and Kebab, um cruzamento no Suncut Bazaar.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-choose-faction",
     "title": "Escolher uma facção",
-    "arcs": ["a-main", "a-rivals", "a-allegiance", "a-consortium", "a-cobalt"],
+    "arcs": [
+      "a-main",
+      "a-rivals",
+      "a-allegiance",
+      "a-consortium",
+      "a-cobalt"
+    ],
     "chapter": "ch4",
     "order": 30,
     "location": "l-ank-harel",
-    "participants": ["c-prolix-yusaf", "c-aloysia-telfan", "c-question", "f-allegiance", "f-consortium", "f-cobalt-soul", "f-rivals"],
+    "participants": [
+      "c-prolix-yusaf",
+      "c-aloysia-telfan",
+      "c-question",
+      "f-allegiance",
+      "f-consortium",
+      "f-cobalt-soul",
+      "f-rivals"
+    ],
     "summary": "As três facções com interesse no Apotheon oferecem trabalho: a Allegiance (escavação de Cael Morrow), o Consortium (ruidium e lucro), a Cobalt Soul (verdade e destruir a fonte). Os PCs escolhem; os rivais entram na facção oposta.",
-    "reveals": ["r-faction-agendas"],
+    "reveals": [
+      "r-faction-agendas"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Allegiance of Allsight", "outcome": "Os rivais juntam-se ao Consortium. Track A: What Lies Beneath.", "leadsTo": ["b-4-a1-deliver-figurine"] },
-      { "label": "Consortium of the Vermilion Dream", "outcome": "Os rivais juntam-se à Allegiance. Track B: Vermilion Gambits.", "leadsTo": ["b-4-b1-ghost"] },
-      { "label": "Library of the Cobalt Soul", "outcome": "Os rivais juntam-se ao Consortium. Track C: Knowledge Is Power.", "leadsTo": ["b-4-c1-ophidas"] }
+      {
+        "label": "Allegiance of Allsight",
+        "outcome": "Os rivais juntam-se ao Consortium. Track A: What Lies Beneath.",
+        "leadsTo": [
+          "b-4-a1-deliver-figurine"
+        ]
+      },
+      {
+        "label": "Consortium of the Vermilion Dream",
+        "outcome": "Os rivais juntam-se à Allegiance. Track B: Vermilion Gambits.",
+        "leadsTo": [
+          "b-4-b1-ghost"
+        ]
+      },
+      {
+        "label": "Library of the Cobalt Soul",
+        "outcome": "Os rivais juntam-se ao Consortium. Track C: Knowledge Is Power.",
+        "leadsTo": [
+          "b-4-c1-ophidas"
+        ]
+      }
     ],
-    "notes": "Só a segunda missão de cada track dá acesso a membro; a terceira exige ser membro. Dupla filiação e espionagem são permitidas. Remix: a facção que nem os PCs nem os rivais escolherem precisa de um 'rosto' (o investigador de Bazzoxan correspondente) para não desaparecer. Pensar as missões como objectivos que várias facções perseguem em simultâneo, com relógios de progresso por facção.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-tower-of-memory",
     "title": "Os Sentinels of Memory observam",
-    "arcs": ["a-sentinels"],
+    "arcs": [
+      "a-sentinels"
+    ],
     "chapter": "ch4",
     "order": 35,
     "location": "l-tower-of-memory",
-    "participants": ["c-watcher-trast", "c-watcher-byron", "f-sentinels"],
+    "participants": [
+      "c-watcher-trast",
+      "c-watcher-byron",
+      "f-sentinels"
+    ],
     "summary": "Na Tower of Memory, Watcher Trast mantém a doutrina (Cael Morrow é uma prisão a manter selada) enquanto Watcher Byron planeia acções mais violentas contra a escavação. O dinheiro do Consortium chega com desconfiança.",
-    "reveals": ["r-netherdeep-prison", "r-consortium-funds-sentinels"],
+    "reveals": [
+      "r-netherdeep-prison",
+      "r-consortium-funds-sentinels"
+    ],
     "requires": [],
     "choices": [],
-    "portent": { "faction": "f-sentinels", "text": "Byron contrata assassinos e ordena a emboscada do Life Dome; Lymmle continua a subir na Allegiance." },
-    "notes": "Beat de fundo: os Sentinels atacam os PCs em A2 e B3 seja qual for a sua facção. Usar como facção proactiva da Remix: uma equipa de choque que aparece quando a mesa precisa de complicação. Byron quer secretamente ver Cael Morrow: gancho para o virar.",
+    "portent": {
+      "faction": "f-sentinels",
+      "text": "Byron contrata assassinos e ordena a emboscada do Life Dome; Lymmle continua a subir na Allegiance."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-hands-of-ord",
     "title": "As Hands of Ord chegam ao 3.º round",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch4",
     "order": 36,
     "location": "l-ord-bastion",
-    "participants": ["c-ironhand-sem", "f-hands-of-ord"],
+    "participants": [
+      "c-ironhand-sem",
+      "f-hands-of-ord"
+    ],
     "summary": "Regra recorrente da cidade: em qualquer rixa pública, as Hands of Ord chegam na iniciativa 20 do 3.º round e prendem toda a gente (multa de 50 gp, uma noite na prisão). Isto arruína C1 (Ophidas desaparece) e B3 (missão falhada).",
     "reveals": [],
     "requires": [],
     "choices": [
-      { "label": "Resolver antes do 3.º round", "outcome": "Sem consequências.", "leadsTo": [] },
-      { "label": "Ser preso", "outcome": "Noite no Oblag, 50 gp; o alvo desaparece.", "leadsTo": [] }
+      {
+        "label": "Resolver antes do 3.º round",
+        "outcome": "Sem consequências.",
+        "leadsTo": []
+      },
+      {
+        "label": "Ser preso",
+        "outcome": "Noite no Oblag, 50 gp; o alvo desaparece.",
+        "leadsTo": []
+      }
     ],
     "notes": "Anunciar o relógio de três rounds aos jogadores: é um countdown timer, não uma surpresa. Ironhand Sem pode tornar-se um contacto se os PCs entregarem criminosos (B2, C2).",
     "source": "book"
   },
-
   {
     "id": "b-4-a1-deliver-figurine",
     "title": "A1: Deliver the Figurine",
-    "arcs": ["a-allegiance", "a-ruidium", "a-sentinels"],
+    "arcs": [
+      "a-allegiance",
+      "a-ruidium",
+      "a-sentinels"
+    ],
     "chapter": "ch4",
     "order": 40,
     "location": "l-bone-garden",
-    "participants": ["c-lymmle-wist", "c-rerosha", "c-jor-raashid", "f-allegiance"],
+    "participants": [
+      "c-lymmle-wist",
+      "c-rerosha",
+      "c-jor-raashid",
+      "f-allegiance"
+    ],
     "summary": "Uma carta assinada por 'Professor Lymmle Wist' pede que recolham uma figurine of wondrous power (elefante de mármore) a Rerosha no Bone Garden e a entreguem a Jor Raashid no Crystal Chateau. A figurine foi infectada de ruidium em Cael Morrow: transforma-se num ruidium elephant descontrolado que arrasa o Suncut Bazaar.",
-    "reveals": ["r-ruidium-properties"],
-    "requires": ["b-4-choose-faction"],
+    "reveals": [
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-4-choose-faction"
+    ],
     "choices": [
-      { "label": "Sucesso", "outcome": "Reduzido a 0 hp, o elefante volta a figurine (não se transforma durante 7 dias). Prolix traz a missão A2.", "leadsTo": ["b-4-a2-life-dome"] },
-      { "label": "Falha", "outcome": "A Allegiance recusa a candidatura; procurar outra facção.", "leadsTo": ["b-4-b1-ghost", "b-4-c1-ophidas"] }
+      {
+        "label": "Sucesso",
+        "outcome": "Reduzido a 0 hp, o elefante volta a figurine (não se transforma durante 7 dias). Prolix traz a missão A2.",
+        "leadsTo": [
+          "b-4-a2-life-dome"
+        ]
+      },
+      {
+        "label": "Falha",
+        "outcome": "A Allegiance recusa a candidatura; procurar outra facção.",
+        "leadsTo": [
+          "b-4-b1-ghost",
+          "b-4-c1-ophidas"
+        ]
+      }
     ],
     "timer": "7 dias até à missão seguinte",
-    "portent": { "faction": "f-consortium", "text": "Os rivais (Consortium) ficam a saber que a Allegiance tem uma figurine de ruidium: alvo de B3." },
-    "notes": "A traidora dá a primeira missão sem que ninguém saiba. Guardar a assinatura da carta: é a primeira pista para r-lymmle-traitor em A3. O mesmo elefante reaparece em B3 (roubo) e C3 (batalha). Remix: colocar a primeira dor do ruidium à vista de todos, com a cidade a reagir.",
+    "portent": {
+      "faction": "f-consortium",
+      "text": "Os rivais (Consortium) ficam a saber que a Allegiance tem uma figurine de ruidium: alvo de B3."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-a2-life-dome",
     "title": "A2: Search the Life Dome",
-    "arcs": ["a-allegiance", "a-sentinels"],
+    "arcs": [
+      "a-allegiance",
+      "a-sentinels"
+    ],
     "chapter": "ch4",
     "order": 50,
     "location": "l-life-dome",
-    "participants": ["c-prolix-yusaf", "c-carliale-kroogan", "c-lymmle-wist", "c-amkezne", "f-sentinels"],
+    "participants": [
+      "c-prolix-yusaf",
+      "c-carliale-kroogan",
+      "c-lymmle-wist",
+      "c-amkezne",
+      "f-sentinels"
+    ],
     "summary": "Prolix paga 300 gp para verificar o rumor de uma segunda entrada para Cael Morrow pelo oásis. Carliale Kroogan explica que a água vem das cavernas inundadas e que Cael Morrow era uma cidade de superfície antes da Calamity. O rumor é isco de Lymmle Wist: um invisible stalker rouba o cristal de Carliale, o géiser lança todos ao canal e dois invisible stalkers atacam.",
-    "reveals": ["r-cael-morrow-entrance", "r-lymmle-traitor"],
-    "requires": ["b-4-a1-deliver-figurine"],
+    "reveals": [
+      "r-cael-morrow-entrance",
+      "r-lymmle-traitor"
+    ],
+    "requires": [
+      "b-4-a1-deliver-figurine"
+    ],
     "choices": [
-      { "label": "Sucesso", "outcome": "Prolix recomenda os PCs; Alakritos dá-lhes membership (badge, roupa, alojamento modesto). Seguir a pista do ritual até Amkezne.", "leadsTo": ["b-4-a3-proxies-of-prolix"] },
-      { "label": "Falha", "outcome": "A Allegiance não os aceita como membros; procurar outra facção.", "leadsTo": ["b-4-b1-ghost", "b-4-c1-ophidas"] }
+      {
+        "label": "Sucesso",
+        "outcome": "Prolix recomenda os PCs; Alakritos dá-lhes membership (badge, roupa, alojamento modesto). Seguir a pista do ritual até Amkezne.",
+        "leadsTo": [
+          "b-4-a3-proxies-of-prolix"
+        ]
+      },
+      {
+        "label": "Falha",
+        "outcome": "A Allegiance não os aceita como membros; procurar outra facção.",
+        "leadsTo": [
+          "b-4-b1-ghost",
+          "b-4-c1-ophidas"
+        ]
+      }
     ],
     "timer": "7 dias após A1",
-    "portent": { "faction": "f-sentinels", "text": "Se ninguém seguir a pista, Lymmle apaga o rasto e incrimina Prolix na mesma." },
-    "notes": "Amkezne (Mystic Pursuits), pressionada, admite que quem lhe ensinou o ritual foi Lymmle Wist: segunda pista para r-lymmle-traitor. A entrada 'verdadeira' continua a ser o Maw; a Remix sugere que outras entradas plausíveis existam se os PCs as procurarem (heist ou afloramento de ruidium).",
+    "portent": {
+      "faction": "f-sentinels",
+      "text": "Se ninguém seguir a pista, Lymmle apaga o rasto e incrimina Prolix na mesma."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-a3-proxies-of-prolix",
     "title": "A3: The Proxies of Prolix",
-    "arcs": ["a-allegiance", "a-sentinels", "a-ruidium"],
+    "arcs": [
+      "a-allegiance",
+      "a-sentinels",
+      "a-ruidium"
+    ],
     "chapter": "ch4",
     "order": 60,
     "location": "l-omnival-library",
-    "participants": ["c-prolix-yusaf", "c-khime", "c-lymmle-wist", "c-anbara-flintbreaker", "c-idris-lornen", "c-gryz-alakritos"],
+    "participants": [
+      "c-prolix-yusaf",
+      "c-khime",
+      "c-lymmle-wist",
+      "c-anbara-flintbreaker",
+      "c-idris-lornen",
+      "c-gryz-alakritos"
+    ],
     "summary": "Prolix, escondido e acusado de espionagem, pede aos PCs que limpem o seu nome. Na Omnival Library, Khime mostra que o único ring of red fury registado veio de uma expedição liderada por Lymmle Wist com Anbara e Idris, e que todos os registos redigidos são dela. Remove curse devolve a memória aos dois acólitos. Convencer Alakritos (DC 18, DC 13 com testemunha) ou confrontar Lymmle no gabinete.",
-    "reveals": ["r-lymmle-traitor", "r-consortium-funds-sentinels", "r-ruidium-properties", "r-netherdeep-prison"],
-    "requires": ["b-4-a2-life-dome"],
+    "reveals": [
+      "r-lymmle-traitor",
+      "r-consortium-funds-sentinels",
+      "r-ruidium-properties",
+      "r-netherdeep-prison"
+    ],
+    "requires": [
+      "b-4-a2-life-dome"
+    ],
     "choices": [
-      { "label": "Expor Lymmle a Alakritos", "outcome": "Agentes são enviados; Lymmle é presa ou foge. 50 pp, a mochila de Prolix e o ring of red fury.", "leadsTo": ["b-5-descent", "b-5-a4-double-agent"] },
-      { "label": "Confrontá-la directamente", "outcome": "Lança fly e tenta fugir pela janela; encurralada, luta até à morte.", "leadsTo": ["b-5-descent", "b-5-a4-double-agent"] },
-      { "label": "Proteger Lymmle ou desistir", "outcome": "Prolix é arruinado; os Sentinels ficam com uma agente no topo da Allegiance.", "leadsTo": [] }
+      {
+        "label": "Expor Lymmle a Alakritos",
+        "outcome": "Agentes são enviados; Lymmle é presa ou foge. 50 pp, a mochila de Prolix e o ring of red fury.",
+        "leadsTo": [
+          "b-5-descent",
+          "b-5-a4-double-agent"
+        ]
+      },
+      {
+        "label": "Confrontá-la directamente",
+        "outcome": "Lança fly e tenta fugir pela janela; encurralada, luta até à morte.",
+        "leadsTo": [
+          "b-5-descent",
+          "b-5-a4-double-agent"
+        ]
+      },
+      {
+        "label": "Proteger Lymmle ou desistir",
+        "outcome": "Prolix é arruinado; os Sentinels ficam com uma agente no topo da Allegiance.",
+        "leadsTo": []
+      }
     ],
     "timer": "7 dias após A2",
-    "portent": { "faction": "f-sentinels", "text": "Sem intervenção, Lymmle continua a atribuir missões-armadilha a agentes da Allegiance." },
-    "notes": "Khime dá a definição académica de ruidium, a doutrina dos Sentinels (a Under-Temple é uma prisão) e a leitura de que Consortium e Sentinels colaboram. Remix: 'Proof?! I made an Insight check!' — dar provas físicas (registos, testemunhas, o anel). Requer membership. Nível 8 depois desta missão.",
+    "portent": {
+      "faction": "f-sentinels",
+      "text": "Sem intervenção, Lymmle continua a atribuir missões-armadilha a agentes da Allegiance."
+    },
+    "notes": "",
     "source": "book"
   },
-
   {
     "id": "b-4-b1-ghost",
     "title": "B1: A Ghost in Our Midst",
-    "arcs": ["a-consortium"],
+    "arcs": [
+      "a-consortium"
+    ],
     "chapter": "ch4",
     "order": 40,
     "location": "l-boughs-of-the-wild-mother",
-    "participants": ["c-shira", "c-satzrak", "f-consortium"],
+    "participants": [
+      "c-shira",
+      "c-satzrak",
+      "f-consortium"
+    ],
     "summary": "Uma carta não assinada do Consortium pede que descubram a verdade sobre o espírito do santuário da Wild Mother e, se possível, virem a sua ira a favor da facção. O 'fantasma' é Shira, 15 anos, feiticeira inata que se esconde à noite com medo de magoar alguém (DC 14 para a fazer render-se).",
     "reveals": [],
-    "requires": ["b-4-choose-faction"],
+    "requires": [
+      "b-4-choose-faction"
+    ],
     "choices": [
-      { "label": "Levá-la ao First Eclipse", "outcome": "Satzrak mostra um lado terno e dá-lhe um quarto: torna-se figura paternal.", "leadsTo": ["b-4-b2-lucks-run"] },
-      { "label": "Arranjar-lhe outra família", "outcome": "O Consortium aceita, sem entusiasmo.", "leadsTo": ["b-4-b2-lucks-run"] },
-      { "label": "Matá-la ou falhar", "outcome": "Aloysia trata os PCs como ferramentas descartáveis; sem convite para B2, procurar outra facção.", "leadsTo": ["b-4-a1-deliver-figurine", "b-4-c1-ophidas"] }
+      {
+        "label": "Levá-la ao First Eclipse",
+        "outcome": "Satzrak mostra um lado terno e dá-lhe um quarto: torna-se figura paternal.",
+        "leadsTo": [
+          "b-4-b2-lucks-run"
+        ]
+      },
+      {
+        "label": "Arranjar-lhe outra família",
+        "outcome": "O Consortium aceita, sem entusiasmo.",
+        "leadsTo": [
+          "b-4-b2-lucks-run"
+        ]
+      },
+      {
+        "label": "Matá-la ou falhar",
+        "outcome": "Aloysia trata os PCs como ferramentas descartáveis; sem convite para B2, procurar outra facção.",
+        "leadsTo": [
+          "b-4-a1-deliver-figurine",
+          "b-4-c1-ophidas"
+        ]
+      }
     ],
     "timer": "7 dias até à missão seguinte",
     "notes": "Sem Aloysia: um dia de pesquisa e DC 15 Charisma (Investigation) leva aos ocultistas de vestes vermelhas do First Eclipse; Satzrak manda-os para casa esperar por uma carta. Semente trágica: se os PCs mudarem para a Cobalt Soul, Satzrak é um combatente em C3.",
@@ -225,80 +506,201 @@
   {
     "id": "b-4-b2-lucks-run",
     "title": "B2: When Luck Runs Out",
-    "arcs": ["a-consortium"],
+    "arcs": [
+      "a-consortium"
+    ],
     "chapter": "ch4",
     "order": 50,
     "location": "l-lucks-run",
-    "participants": ["c-aloysia-telfan", "c-adima-shemsilver", "c-nedosi-anay", "c-koris", "c-ena", "c-duskwood"],
+    "participants": [
+      "c-aloysia-telfan",
+      "c-adima-shemsilver",
+      "c-nedosi-anay",
+      "c-koris",
+      "c-ena",
+      "c-duskwood"
+    ],
     "summary": "Aloysia aluga os PCs a Adima Shemsilver, que não quer as Hands of Ord no casino, para guardar o cofre do Luck's Run. Contacto: a capitã Nedosi Anay. O assalto de Koris, Ena e Duskwood decorre em quatro fases e leva 10.000 gp. Os ladrões oferecem 800 gp por cumplicidade.",
     "reveals": [],
-    "requires": ["b-4-b1-ghost"],
+    "requires": [
+      "b-4-b1-ghost"
+    ],
     "choices": [
-      { "label": "Apanhar os ladrões", "outcome": "750 gp do casino; ladrões entregues às Hands of Ord; Aloysia cobra os 500 gp do Consortium. Membership.", "leadsTo": ["b-4-b3-elephant"] },
-      { "label": "Os ladrões escapam", "outcome": "Nedosi paga 375 gp; o Consortium esquece a falha se os PCs pagarem os 500 gp devidos.", "leadsTo": ["b-4-b3-elephant"] },
-      { "label": "Ajudar Koris", "outcome": "800 gp e um favor futuro de Koris; o Consortium só se importa com os seus 500 gp.", "leadsTo": ["b-4-b3-elephant"] }
+      {
+        "label": "Apanhar os ladrões",
+        "outcome": "750 gp do casino; ladrões entregues às Hands of Ord; Aloysia cobra os 500 gp do Consortium. Membership.",
+        "leadsTo": [
+          "b-4-b3-elephant"
+        ]
+      },
+      {
+        "label": "Os ladrões escapam",
+        "outcome": "Nedosi paga 375 gp; o Consortium esquece a falha se os PCs pagarem os 500 gp devidos.",
+        "leadsTo": [
+          "b-4-b3-elephant"
+        ]
+      },
+      {
+        "label": "Ajudar Koris",
+        "outcome": "800 gp e um favor futuro de Koris; o Consortium só se importa com os seus 500 gp.",
+        "leadsTo": [
+          "b-4-b3-elephant"
+        ]
+      }
     ],
     "timer": "7 dias após B1",
-    "notes": "Teste de lealdade e de moral: os 500 gp são o preço da membership (veste vermelha, alojamento miserável, 10% na Mystic Pursuits). Adima financia a Veil: gancho para a facção criminosa. Koris é um bom contacto recorrente. Remix: 'What are you willing to do to achieve your goals?'",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-4-b3-elephant",
     "title": "B3: Elephant in the Room",
-    "arcs": ["a-consortium", "a-ruidium", "a-sentinels"],
+    "arcs": [
+      "a-consortium",
+      "a-ruidium",
+      "a-sentinels"
+    ],
     "chapter": "ch4",
     "order": 62,
     "location": "l-emerald-ibis-relic-hall",
-    "participants": ["c-aradrine", "c-larthul", "c-jor-raashid", "c-kareema", "c-james-cryon", "f-sentinels", "f-hands-of-ord"],
+    "participants": [
+      "c-aradrine",
+      "c-larthul",
+      "c-jor-raashid",
+      "c-kareema",
+      "c-james-cryon",
+      "f-sentinels",
+      "f-hands-of-ord"
+    ],
     "summary": "Aradrine the Owl mostra o ruidium nas próprias veias e explica que o Consortium o conheceu através de uma espia com acesso a Cael Morrow. Missão: roubar a figurine de ruidium à Allegiance. Jor Raashid (DC 16) revela que está no cofre do Emerald Ibis Relic Hall; a caminho, dois assassinos dos Sentinels atacam; no museu, enganar Kareema de dia ou enfrentar os íbis de vidro à noite; o cofre abre com o puzzle das quatro escolas.",
-    "reveals": ["r-ruidium-properties", "r-faction-agendas", "r-galeokaerda-spy"],
-    "requires": ["b-4-b2-lucks-run"],
+    "reveals": [
+      "r-ruidium-properties",
+      "r-faction-agendas",
+      "r-galeokaerda-spy"
+    ],
+    "requires": [
+      "b-4-b2-lucks-run"
+    ],
     "choices": [
-      { "label": "Sucesso", "outcome": "Figurine, Nolzur's marvelous pigments e wand of wonder; Aradrine dá uma arma ou armadura de ruidium em 1d6 dias.", "leadsTo": ["b-5-descent", "b-5-b4-key"] },
-      { "label": "Fuga apressada", "outcome": "Cryon e dois escavadores interceptam; Cryon recua abaixo de 25 hp.", "leadsTo": ["b-5-b4-key"] },
-      { "label": "Presos pelas Hands of Ord", "outcome": "Missão falhada. Uma semana depois Aloysia escreve: Aradrine perdoa porque a ligação dos PCs ao Apotheon é demasiado forte.", "leadsTo": ["b-5-b4-key"] }
+      {
+        "label": "Sucesso",
+        "outcome": "Figurine, Nolzur's marvelous pigments e wand of wonder; Aradrine dá uma arma ou armadura de ruidium em 1d6 dias.",
+        "leadsTo": [
+          "b-5-descent",
+          "b-5-b4-key"
+        ]
+      },
+      {
+        "label": "Fuga apressada",
+        "outcome": "Cryon e dois escavadores interceptam; Cryon recua abaixo de 25 hp.",
+        "leadsTo": [
+          "b-5-b4-key"
+        ]
+      },
+      {
+        "label": "Presos pelas Hands of Ord",
+        "outcome": "Missão falhada. Uma semana depois Aloysia escreve: Aradrine perdoa porque a ligação dos PCs ao Apotheon é demasiado forte.",
+        "leadsTo": [
+          "b-5-b4-key"
+        ]
+      }
     ],
     "timer": "7 dias após B2",
-    "portent": { "faction": "f-hands-of-ord", "text": "Rixa pública com os assassinos: as Hands chegam ao 3.º round e prendem toda a gente." },
-    "notes": "Colisão a três: Consortium (PCs) vs assassinos dos Sentinels vs propriedade da Allegiance, com as Hands a chegar. Vantagem com Jor se os PCs fizeram trabalho para a Allegiance antes. Requer membership; nível 8 depois. Remix: perguntar o que faria a Allegiance para impedir isto e transformar a resposta em eventos de fundo.",
+    "portent": {
+      "faction": "f-hands-of-ord",
+      "text": "Rixa pública com os assassinos: as Hands chegam ao 3.º round e prendem toda a gente."
+    },
+    "notes": "",
     "source": "book"
   },
-
   {
     "id": "b-4-c1-ophidas",
     "title": "C1: The Cultist of Zehir",
-    "arcs": ["a-cobalt"],
+    "arcs": [
+      "a-cobalt"
+    ],
     "chapter": "ch4",
     "order": 40,
     "location": "l-scrolls-alcove",
-    "participants": ["c-iwo-zalarre", "c-question", "c-laurin-ophidas", "f-cobalt-soul"],
+    "participants": [
+      "c-iwo-zalarre",
+      "c-question",
+      "c-laurin-ophidas",
+      "f-cobalt-soul"
+    ],
     "summary": "Iwo Zalarre, apresentado por Question, manda capturar Laurin Ophidas, fanático de Zehir escondido na Scroll's Alcove. Ophidas é um membro caído da Cerberus Assembly que fugiu com um staff of the adder e procura cultistas que o protejam. Um confronto público traz as Hands of Ord em 3 rounds e Ophidas desaparece para sempre.",
     "reveals": [],
-    "requires": ["b-4-choose-faction"],
+    "requires": [
+      "b-4-choose-faction"
+    ],
     "choices": [
-      { "label": "Sucesso", "outcome": "Ophidas interrogado ou entregue; Iwo dá sending stones para contacto futuro.", "leadsTo": ["b-4-c2-kruuk"] },
-      { "label": "Falha", "outcome": "Iwo diz que terão de subir como bibliotecários antes de outra missão; procurar outra facção.", "leadsTo": ["b-4-a1-deliver-figurine", "b-4-b1-ghost"] }
+      {
+        "label": "Sucesso",
+        "outcome": "Ophidas interrogado ou entregue; Iwo dá sending stones para contacto futuro.",
+        "leadsTo": [
+          "b-4-c2-kruuk"
+        ]
+      },
+      {
+        "label": "Falha",
+        "outcome": "Iwo diz que terão de subir como bibliotecários antes de outra missão; procurar outra facção.",
+        "leadsTo": [
+          "b-4-a1-deliver-figurine",
+          "b-4-b1-ghost"
+        ]
+      }
     ],
     "timer": "7 dias até à missão seguinte",
-    "portent": { "faction": "f-hands-of-ord", "text": "Rixa na rua: prisão, 50 gp, e Ophidas some-se com o cajado." },
+    "portent": {
+      "faction": "f-hands-of-ord",
+      "text": "Rixa na rua: prisão, 50 gp, e Ophidas some-se com o cajado."
+    },
     "notes": "Discrição é o teste. Iwo quer sair do templo: pode acompanhar os PCs se a mesa precisar de um NPC de campo.",
     "source": "book"
   },
   {
     "id": "b-4-c2-kruuk",
     "title": "C2: Half-Baked Scheme",
-    "arcs": ["a-cobalt", "a-ruidium"],
+    "arcs": [
+      "a-cobalt",
+      "a-ruidium"
+    ],
     "chapter": "ch4",
     "order": 50,
     "location": "l-old-man-kruuks",
-    "participants": ["c-iwo-zalarre", "c-old-man-kruuk", "c-ashann", "f-cobalt-soul"],
+    "participants": [
+      "c-iwo-zalarre",
+      "c-old-man-kruuk",
+      "c-ashann",
+      "f-cobalt-soul"
+    ],
     "summary": "Por sending stone, Iwo pede provas de que Old Man Kruuk vende itens mágicos e a sua confiscação. O código de pontos na tabuleta e thieves' cant (ou DC 15 Persuasion) abrem a porta; o cofre guarda uma ruidium shortsword que Ashann, do Consortium, vem comprar com cinco peridotos.",
-    "reveals": ["r-ruidium-properties"],
-    "requires": ["b-4-c1-ophidas"],
+    "reveals": [
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-4-c1-ophidas"
+    ],
     "choices": [
-      { "label": "Entregar a espada a Iwo", "outcome": "Iwo não lhe toca; os monges destroem-na dias depois. Membership após 7 dias (veste, alojamento confortável, loja de pergaminhos).", "leadsTo": ["b-4-c3-first-eclipse"] },
-      { "label": "Ficar com a espada", "outcome": "Uma arma de ruidium nas mãos dos PCs: chave futura do rift e risco de corrupção.", "leadsTo": ["b-4-c3-first-eclipse"] },
-      { "label": "Falha", "outcome": "Sem provas, Iwo fecha a porta; procurar outra facção.", "leadsTo": [] }
+      {
+        "label": "Entregar a espada a Iwo",
+        "outcome": "Iwo não lhe toca; os monges destroem-na dias depois. Membership após 7 dias (veste, alojamento confortável, loja de pergaminhos).",
+        "leadsTo": [
+          "b-4-c3-first-eclipse"
+        ]
+      },
+      {
+        "label": "Ficar com a espada",
+        "outcome": "Uma arma de ruidium nas mãos dos PCs: chave futura do rift e risco de corrupção.",
+        "leadsTo": [
+          "b-4-c3-first-eclipse"
+        ]
+      },
+      {
+        "label": "Falha",
+        "outcome": "Sem provas, Iwo fecha a porta; procurar outra facção.",
+        "leadsTo": []
+      }
     ],
     "timer": "7 dias após C1",
     "notes": "Ashann não passa de 2.500 gp, ataca quem cubra a oferta e rende-se a 10 hp. Kruuk pode ser preso, subornado ou morto; é (dizem) da Veil. Primeira vez que a Cobalt Soul vê ruidium de perto.",
@@ -307,189 +709,443 @@
   {
     "id": "b-4-c3-first-eclipse",
     "title": "C3: Elephant Uproar",
-    "arcs": ["a-cobalt", "a-ruidium", "a-consortium", "a-lore"],
+    "arcs": [
+      "a-cobalt",
+      "a-ruidium",
+      "a-consortium",
+      "a-lore"
+    ],
     "chapter": "ch4",
     "order": 64,
     "location": "l-first-eclipse",
-    "participants": ["c-jamil-aalithiya", "c-khelkur", "c-satzrak", "c-dendarron", "f-consortium"],
+    "participants": [
+      "c-jamil-aalithiya",
+      "c-khelkur",
+      "c-satzrak",
+      "c-dendarron",
+      "f-consortium"
+    ],
     "summary": "Jamil A'alithiya, em pessoa, paga 1.000 gp para infiltrar o First Eclipse e confiscar o que lá houver. Dois ruidium elephants arrasam o Suncut Bazaar: um volta a figurine, o outro desfaz-se em pó, prova de que o Consortium cria ruidium por magia. Na taberna, Khelkur e Satzrak festejam e atacam. Khelkur traz a nota de Dendarron: um aboleth que se chama Alyxian dizimou a última expedição; a chave do rift perdeu-se e uma espia procura-a; o Consortium muda de sede.",
-    "reveals": ["r-aboleth-not-alyxian", "r-ruidium-properties", "r-galeokaerda-spy", "r-rift-key"],
-    "requires": ["b-4-c2-kruuk"],
+    "reveals": [
+      "r-aboleth-not-alyxian",
+      "r-ruidium-properties",
+      "r-galeokaerda-spy",
+      "r-rift-key"
+    ],
+    "requires": [
+      "b-4-c2-kruuk"
+    ],
     "choices": [
-      { "label": "Sucesso", "outcome": "A taberna é despojada; Jamil arranja passagem segura para Cael Morrow através da Allegiance.", "leadsTo": ["b-5-descent", "b-5-c4-insight"] },
-      { "label": "Presos pelas Hands of Ord", "outcome": "Missão comprometida; Jamil dá uma segunda oportunidade a custo de reputação.", "leadsTo": ["b-5-c4-insight"] }
+      {
+        "label": "Sucesso",
+        "outcome": "A taberna é despojada; Jamil arranja passagem segura para Cael Morrow através da Allegiance.",
+        "leadsTo": [
+          "b-5-descent",
+          "b-5-c4-insight"
+        ]
+      },
+      {
+        "label": "Presos pelas Hands of Ord",
+        "outcome": "Missão comprometida; Jamil dá uma segunda oportunidade a custo de reputação.",
+        "leadsTo": [
+          "b-5-c4-insight"
+        ]
+      }
     ],
     "timer": "7 dias após C2",
-    "portent": { "faction": "f-consortium", "text": "O Consortium abandona o First Eclipse e instala-se noutro sítio; Satzrak fica com a taberna vazia." },
+    "portent": {
+      "faction": "f-consortium",
+      "text": "O Consortium abandona o First Eclipse e instala-se noutro sítio; Satzrak fica com a taberna vazia."
+    },
     "notes": "Se os PCs fizeram B1 antes, matar Satzrak diante de Shira é uma tragédia real. A nota de Dendarron é a revelação central do track: o 'Apotheon' de Cael Morrow não é Alyxian. Jamil guarda para si a suspeita das armas de ruidium do Consortium. Requer membership; nível 8 depois.",
     "source": "book"
   },
-
   {
     "id": "b-4-rivals-in-the-field",
     "title": "Os rivais em campo",
-    "arcs": ["a-rivals"],
+    "arcs": [
+      "a-rivals"
+    ],
     "chapter": "ch4",
     "order": 70,
     "location": "l-ank-harel",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
-    "summary": "Enquanto os PCs cumprem as três missões da cidade, os rivais fazem o mesmo pela facção oposta: cruzam-se no Suncut Bazaar durante o elefante, aparecem no Emerald Ibis Relic Hall ou vigiam o Maw. Cada encontro é um debate sobre o que fazer com a Jóia e com o ruidium.",
-    "reveals": ["r-faction-agendas"],
-    "requires": ["b-4-choose-faction"],
-    "choices": [
-      { "label": "Cooperar apesar das facções", "outcome": "Os rivais podem falhar o próprio teste de lealdade ou ser suborrnados; possível mudança de facção.", "leadsTo": ["b-5-b4-key"] },
-      { "label": "Competir", "outcome": "Corrida pelos mesmos alvos (figurine, Key); os rivais chegam primeiro se os PCs perderem tempo.", "leadsTo": ["b-5-key-at-m13"] }
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes",
+      "f-rivals"
     ],
-    "notes": "Remix: os rivais são a facção oposta em movimento e o termómetro da relação. Manter um relógio de progresso para o track deles em paralelo com o dos PCs. Heel turns e facções divididas são opções válidas.",
+    "summary": "Enquanto os PCs cumprem as três missões da cidade, os rivais fazem o mesmo pela facção oposta: cruzam-se no Suncut Bazaar durante o elefante, aparecem no Emerald Ibis Relic Hall ou vigiam o Maw. Cada encontro é um debate sobre o que fazer com a Jóia e com o ruidium.",
+    "reveals": [
+      "r-faction-agendas"
+    ],
+    "requires": [
+      "b-4-choose-faction"
+    ],
+    "choices": [
+      {
+        "label": "Cooperar apesar das facções",
+        "outcome": "Os rivais podem falhar o próprio teste de lealdade ou ser suborrnados; possível mudança de facção.",
+        "leadsTo": [
+          "b-5-b4-key"
+        ]
+      },
+      {
+        "label": "Competir",
+        "outcome": "Corrida pelos mesmos alvos (figurine, Key); os rivais chegam primeiro se os PCs perderem tempo.",
+        "leadsTo": [
+          "b-5-key-at-m13"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
-
   {
     "id": "b-5-descent",
     "title": "Descida pelo Maw",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch5",
     "order": 10,
     "location": "l-maw-of-cael-morrow",
-    "participants": ["c-hakzorne", "c-gortag-inkdrinker", "c-kal", "c-nadiya", "f-scarbearers"],
+    "participants": [
+      "c-hakzorne",
+      "c-gortag-inkdrinker",
+      "c-kal",
+      "c-nadiya",
+      "f-scarbearers"
+    ],
     "summary": "O caminho em espiral desce centenas de pés até à coluna de pedra (M1) e ao Warded Entrance Hall (M2). Hakzorne e os Scarbearers à superfície, Gortag em M1, Kal e Nadiya em M2: quem não mostrar badge é atacado à vista.",
-    "reveals": ["r-cael-morrow-entrance"],
+    "reveals": [
+      "r-cael-morrow-entrance"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Com badge (Allegiance ou emprestado)", "outcome": "Entrada normal até ao acampamento-base.", "leadsTo": ["b-5-poisoned-emotions", "b-5-base-camp"] },
-      { "label": "Sem badge: infiltração", "outcome": "Heist pelo Maw, ou Gortag rende-se e guia-os pelos guardas de M2.", "leadsTo": ["b-5-poisoned-emotions"] },
-      { "label": "Entrada alternativa", "outcome": "Círculo de teleporte de M7c, tablet do First Eclipse, ou uma entrada inventada pela Remix.", "leadsTo": ["b-5-poisoned-emotions"] }
+      {
+        "label": "Com badge (Allegiance ou emprestado)",
+        "outcome": "Entrada normal até ao acampamento-base.",
+        "leadsTo": [
+          "b-5-poisoned-emotions",
+          "b-5-base-camp"
+        ]
+      },
+      {
+        "label": "Sem badge: infiltração",
+        "outcome": "Heist pelo Maw, ou Gortag rende-se e guia-os pelos guardas de M2.",
+        "leadsTo": [
+          "b-5-poisoned-emotions"
+        ]
+      },
+      {
+        "label": "Entrada alternativa",
+        "outcome": "Círculo de teleporte de M7c, tablet do First Eclipse.",
+        "leadsTo": [
+          "b-5-poisoned-emotions"
+        ]
+      }
     ],
-    "notes": "Remix: três abordagens ao acesso (controlar a entrada, heist com acesso repetível, entrada alternativa). Decidir a resposta de segurança da Allegiance a uma brecha e se há patrulhas nas ruínas, ou aceitar que o verdadeiro perímetro é o rift. Requer ter completado três missões de uma facção.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-poisoned-emotions",
     "title": "A voz nas águas: Poisoned Emotions",
-    "arcs": ["a-main", "a-lore", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-ruidium"
+    ],
     "chapter": "ch5",
     "order": 20,
     "location": "l-cael-morrow",
-    "participants": ["c-alyxian-aboleth", "c-scribble"],
+    "participants": [
+      "c-alyxian-aboleth",
+      "c-scribble"
+    ],
     "summary": "À primeira entrada em M2, M4, M5a, M7c, M8, M10 e M15, a telepatia do aboleth envenena as emoções dos PCs. É a primeira insinuação de que o 'Apotheon' que perseguem pode ser um monstro. Scribble só sabe repetir as frases.",
-    "reveals": ["r-aboleth-not-alyxian", "r-netherdeep-leaking"],
+    "reveals": [
+      "r-aboleth-not-alyxian",
+      "r-netherdeep-leaking"
+    ],
     "requires": [],
     "choices": [],
-    "notes": "Tom da Remix: claustrofóbico, enigmático, aterrador. Usar a tabela como evento de pointcrawl e não como combate. O efeito termina em b-5-temple-arch-heart.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-base-camp",
     "title": "O acampamento-base da Allegiance (M3)",
-    "arcs": ["a-main", "a-allegiance", "a-cobalt"],
+    "arcs": [
+      "a-main",
+      "a-allegiance",
+      "a-cobalt"
+    ],
     "chapter": "ch5",
     "order": 30,
     "location": "l-cm-m3-base-camp",
-    "participants": ["c-insight-acuere", "c-scribble", "c-xot"],
-    "summary": "Insight Acuere recebe os PCs no acampamento com Scribble e Xot. Três revelações: as keystones sustêm as wards; o Temple of the Arch Heart (M9) é impenetrável sem um devoto de Corellon; a colega Galeokaerda desapareceu há dias. No terceiro piso há breathing bubbles e potions of water breathing.",
-    "reveals": ["r-shrines", "r-ruidium-apotheon-sites"],
-    "requires": ["b-5-descent"],
-    "choices": [
-      { "label": "Ajudar Insight a encontrar Galeokaerda", "outcome": "A busca leva a M7a.", "leadsTo": ["b-5-a4-double-agent", "b-5-c4-insight"] },
-      { "label": "Explorar por conta própria", "outcome": "Pointcrawl livre; encontros e Poisoned Emotions.", "leadsTo": ["b-5-olara", "b-5-library-ghosts", "b-5-hadarai-beltreath"] }
+    "participants": [
+      "c-insight-acuere",
+      "c-scribble",
+      "c-xot"
     ],
-    "notes": "Remix: dar aos PCs as cartas de levantamento da Allegiance (ou deixá-los roubá-las) para abrir a pointmap; keystones em edifícios específicos, keyways, caminhos marcados e caminhos afundados com intervalo de 1-2 horas. Camada de controlo territorial: quem sabe de cada local e quem o controla (acampamento, equipa de investigação, patrulha, recursos). Nível 9 depois da primeira missão em Cael Morrow.",
+    "summary": "Insight Acuere recebe os PCs no acampamento com Scribble e Xot. Três revelações: as keystones sustêm as wards; o Temple of the Arch Heart (M9) é impenetrável sem um devoto de Corellon; a colega Galeokaerda desapareceu há dias. No terceiro piso há breathing bubbles e potions of water breathing.",
+    "reveals": [
+      "r-shrines",
+      "r-ruidium-apotheon-sites"
+    ],
+    "requires": [
+      "b-5-descent"
+    ],
+    "choices": [
+      {
+        "label": "Ajudar Insight a encontrar Galeokaerda",
+        "outcome": "A busca leva a M7a.",
+        "leadsTo": [
+          "b-5-a4-double-agent",
+          "b-5-c4-insight"
+        ]
+      },
+      {
+        "label": "Explorar por conta própria",
+        "outcome": "Pointcrawl livre; encontros e Poisoned Emotions.",
+        "leadsTo": [
+          "b-5-olara",
+          "b-5-library-ghosts",
+          "b-5-hadarai-beltreath"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
-
   {
     "id": "b-5-a4-double-agent",
     "title": "A4: The Double Agent",
-    "arcs": ["a-allegiance", "a-ruidium"],
+    "arcs": [
+      "a-allegiance",
+      "a-ruidium"
+    ],
     "chapter": "ch5",
     "order": 40,
     "location": "l-cm-m7-royal-library",
-    "participants": ["c-james-cryon", "c-gryz-alakritos", "c-insight-acuere", "c-galeokaerda", "c-crescent"],
+    "participants": [
+      "c-james-cryon",
+      "c-gryz-alakritos",
+      "c-insight-acuere",
+      "c-galeokaerda",
+      "c-crescent"
+    ],
     "summary": "Cryon e Alakritos, juntos, mandam os PCs a Cael Morrow com badges e potions of water breathing: encontrar Insight, explorar e capturar ou matar a espia do Consortium em 7 dias. Cryon avisa que a espia já tem badge. Insight, Scribble e Xot são leais; a espia é Galeokaerda, escondida em M7a com Crescent, e a pista segue até à Key em M13.",
-    "reveals": ["r-galeokaerda-spy", "r-rift-key", "r-ruidium-properties"],
-    "requires": ["b-4-a3-proxies-of-prolix", "b-5-base-camp"],
+    "reveals": [
+      "r-galeokaerda-spy",
+      "r-rift-key",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-4-a3-proxies-of-prolix",
+      "b-5-base-camp"
+    ],
     "choices": [
-      { "label": "Capturar ou matar Galeokaerda", "outcome": "1.000 gp e acesso contínuo a Cael Morrow; +1.000 gp pela ruidium greataxe.", "leadsTo": ["b-5-key-at-m13", "b-5-a5-scout-rift"] },
-      { "label": "Contar a verdade a Insight", "outcome": "Insight fica destroçada mas confia nos PCs; Galeokaerda pode tentar convencê-la a mudar de lado.", "leadsTo": ["b-5-a5-scout-rift"] },
-      { "label": "Deixar passar 7 dias", "outcome": "Galeokaerda e a Key desapareceram.", "leadsTo": ["b-5-a5-scout-rift"] }
+      {
+        "label": "Capturar ou matar Galeokaerda",
+        "outcome": "1.000 gp e acesso contínuo a Cael Morrow; +1.000 gp pela ruidium greataxe.",
+        "leadsTo": [
+          "b-5-key-at-m13",
+          "b-5-a5-scout-rift"
+        ]
+      },
+      {
+        "label": "Contar a verdade a Insight",
+        "outcome": "Insight fica destroçada mas confia nos PCs; Galeokaerda pode tentar convencê-la a mudar de lado.",
+        "leadsTo": [
+          "b-5-a5-scout-rift"
+        ]
+      },
+      {
+        "label": "Deixar passar 7 dias",
+        "outcome": "Galeokaerda e a Key desapareceram.",
+        "leadsTo": [
+          "b-5-a5-scout-rift"
+        ]
+      }
     ],
     "timer": "7 dias",
-    "portent": { "faction": "f-consortium", "text": "Ao fim de 7 dias Galeokaerda leva a Key ao Consortium; os rivais (Consortium) ganham acesso ao rift." },
-    "notes": "Remix critica o fim 'fiz um Insight check': dar provas materiais (marcas de ruidium DC 15 Perception, correspondência com Aradrine, o tablet de teleporte para o First Eclipse em M7b). Cryon e Alakritos discordam sobre o rift já aqui (r-cryon-vs-alakritos em A5). Pensar como Race to the Prize: os rivais também procuram a Key.",
+    "portent": {
+      "faction": "f-consortium",
+      "text": "Ao fim de 7 dias Galeokaerda leva a Key ao Consortium; os rivais (Consortium) ganham acesso ao rift."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-b4-key",
     "title": "B4: Key to the Netherdeep",
-    "arcs": ["a-consortium", "a-rivals", "a-ruidium"],
+    "arcs": [
+      "a-consortium",
+      "a-rivals",
+      "a-ruidium"
+    ],
     "chapter": "ch5",
     "order": 42,
     "location": "l-cm-m13-villa",
-    "participants": ["c-aradrine", "c-galeokaerda", "c-crescent", "c-insight-acuere", "f-rivals"],
+    "participants": [
+      "c-aradrine",
+      "c-galeokaerda",
+      "c-crescent",
+      "c-insight-acuere",
+      "f-rivals"
+    ],
     "summary": "No seu apartamento, de braços cobertos de espinhos cristalinos, Aradrine revela que Galeokaerda é a espia do Consortium na escavação, que um rift se abriu mas precisa de chave, e que os adivinhos localizaram a Key to the Netherdeep, uma greataxe de ruidium. Com badges roubados, os PCs têm 3 dias para chegar a M7a e a M13 antes que a Allegiance apanhe a espia.",
-    "reveals": ["r-galeokaerda-spy", "r-rift-location", "r-rift-key"],
-    "requires": ["b-4-b3-elephant", "b-5-base-camp"],
+    "reveals": [
+      "r-galeokaerda-spy",
+      "r-rift-location",
+      "r-rift-key"
+    ],
+    "requires": [
+      "b-4-b3-elephant",
+      "b-5-base-camp"
+    ],
     "choices": [
-      { "label": "Chegar em 3 dias", "outcome": "Galeokaerda torna-se aliada; matar o death embrace liberta a greataxe. 1.000 gp.", "leadsTo": ["b-5-key-at-m13", "b-5-b5-aboleth"] },
-      { "label": "Chegar tarde", "outcome": "Galeokaerda foi morta pelos rivais e a Key está no acampamento-base, guardada por eles (rendem-se antes de morrer).", "leadsTo": ["b-5-rivals-leaving", "b-5-b5-aboleth"] }
+      {
+        "label": "Chegar em 3 dias",
+        "outcome": "Galeokaerda torna-se aliada; matar o death embrace liberta a greataxe. 1.000 gp.",
+        "leadsTo": [
+          "b-5-key-at-m13",
+          "b-5-b5-aboleth"
+        ]
+      },
+      {
+        "label": "Chegar tarde",
+        "outcome": "Galeokaerda foi morta pelos rivais e a Key está no acampamento-base, guardada por eles (rendem-se antes de morrer).",
+        "leadsTo": [
+          "b-5-rivals-leaving",
+          "b-5-b5-aboleth"
+        ]
+      }
     ],
     "timer": "3 dias",
-    "portent": { "faction": "f-rivals", "text": "Ao fim de 3 dias os rivais (Allegiance) matam Galeokaerda e levam a Key para M3." },
-    "notes": "Aradrine não sabe que qualquer arma de ruidium serve de chave. Colisão explícita com os rivais: McGuffin Keep-Away. Insight não coopera com o Consortium a não ser enganada ou compelida. Remix: Galeokaerda como handler dentro da escavação abre missões de espionagem no pointcrawl.",
+    "portent": {
+      "faction": "f-rivals",
+      "text": "Ao fim de 3 dias os rivais (Allegiance) matam Galeokaerda e levam a Key para M3."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-c4-insight",
     "title": "C4: Allegiance Alliance",
-    "arcs": ["a-cobalt", "a-lore"],
+    "arcs": [
+      "a-cobalt",
+      "a-lore"
+    ],
     "chapter": "ch5",
     "order": 44,
     "location": "l-cm-m3-base-camp",
-    "participants": ["c-jamil-aalithiya", "c-insight-acuere", "c-scribble", "c-xot"],
+    "participants": [
+      "c-jamil-aalithiya",
+      "c-insight-acuere",
+      "c-scribble",
+      "c-xot"
+    ],
     "summary": "Jamil empresta badges da Allegiance e manda os PCs encontrar Insight Acuere, ganhar a sua confiança e conseguir a chave, em 7 dias e por 1.000 gp. Insight pede em troca a tabuinha de M10 com os escritos do herói que tentou salvar Cael Morrow. Recompensa: a localização do rift (M17), que armas de ruidium o abrem e que agentes do Consortium podem ter deixado chaves nas ruínas.",
-    "reveals": ["r-rift-location", "r-rift-key", "r-alyxian-wants-remembered"],
-    "requires": ["b-4-c3-first-eclipse", "b-5-base-camp"],
+    "reveals": [
+      "r-rift-location",
+      "r-rift-key",
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-4-c3-first-eclipse",
+      "b-5-base-camp"
+    ],
     "choices": [
-      { "label": "Recuperar a tabuinha de M10", "outcome": "Insight torna-se aliada da Cobalt Soul e aponta o rift e a Key em M13.", "leadsTo": ["b-5-m10-tablet", "b-5-key-at-m13", "b-5-c5-enemy-of-enemies"] },
-      { "label": "Enganar Insight", "outcome": "Acesso mais rápido, mas Insight pode chamar 10 agentes e 5 escavadores se descobrir.", "leadsTo": ["b-5-c5-enemy-of-enemies"] }
+      {
+        "label": "Recuperar a tabuinha de M10",
+        "outcome": "Insight torna-se aliada da Cobalt Soul e aponta o rift e a Key em M13.",
+        "leadsTo": [
+          "b-5-m10-tablet",
+          "b-5-key-at-m13",
+          "b-5-c5-enemy-of-enemies"
+        ]
+      },
+      {
+        "label": "Enganar Insight",
+        "outcome": "Acesso mais rápido, mas Insight pode chamar 10 agentes e 5 escavadores se descobrir.",
+        "leadsTo": [
+          "b-5-c5-enemy-of-enemies"
+        ]
+      }
     ],
     "timer": "7 dias",
-    "portent": { "faction": "f-consortium", "text": "Galeokaerda ou os rivais (Consortium) chegam à Key primeiro se os PCs demorarem." },
-    "notes": "A mesma Insight é contacto em A4, amiga enganada em A/B e dadora de missão aqui. Remix: dar-lhe uma agenda própria que os PCs possam abraçar (a memória do herói) em vez de 'trabalho de casa'.",
+    "portent": {
+      "faction": "f-consortium",
+      "text": "Galeokaerda ou os rivais (Consortium) chegam à Key primeiro se os PCs demorarem."
+    },
+    "notes": "",
     "source": "book"
   },
-
   {
     "id": "b-5-olara",
     "title": "Olara, a memória viva (M6)",
-    "arcs": ["a-lore"],
+    "arcs": [
+      "a-lore"
+    ],
     "chapter": "ch5",
     "order": 50,
     "location": "l-cm-m6-last-willow-tavern",
-    "participants": ["c-olara", "c-alyxian-aboleth"],
+    "participants": [
+      "c-olara",
+      "c-alyxian-aboleth"
+    ],
     "summary": "Na Last Willow Tavern afundada, a elfa do mar Olara continua a servir como se a cidade nunca tivesse caído. Sobreviveu ao ataque de Gruumsh, mas o aboleth corroeu-lhe a memória; remove curse (ou a morte do aboleth) devolve-lha e ela lembra-se de servir vinho a Alyxian, um homem assombrado e trágico, belo à sua maneira.",
-    "reveals": ["r-alyxian-gruumsh", "r-alyxian-wants-remembered"],
+    "reveals": [
+      "r-alyxian-gruumsh",
+      "r-alyxian-wants-remembered"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Curar Olara", "outcome": "Testemunha directa de Alyxian; vende vinho pré-Divergence, poções de cura e de heroísmo.", "leadsTo": [] }
+      {
+        "label": "Curar Olara",
+        "outcome": "Testemunha directa de Alyxian; vende vinho pré-Divergence, poções de cura e de heroísmo.",
+        "leadsTo": []
+      }
     ],
-    "notes": "Fonte de lore número um do capítulo: um ser humano que o conheceu. Remix: deixar que os PCs a encontrem por exploração (cross-references no pointcrawl), não por briefing.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-library-ghosts",
     "title": "Os fantasmas da Submerged Library (M8)",
-    "arcs": ["a-lore"],
+    "arcs": [
+      "a-lore"
+    ],
     "chapter": "ch5",
     "order": 55,
     "location": "l-cm-m8-submerged-library",
-    "participants": ["c-library-ghosts", "c-alyxian-aboleth"],
+    "participants": [
+      "c-library-ghosts",
+      "c-alyxian-aboleth"
+    ],
     "summary": "Três tabuinhas de argila prendem dois elfos e uma orc que possuem os vivos só para contar a sua história: viram a lança de Gruumsh cair sobre Alyxian no topo do templo. Respeitam o Apotheon, julgam-no morto e nada sabem do Netherdeep. DC 12 Persuasion (vantagem se possuído) dá-lhes paz e inspiration.",
-    "reveals": ["r-alyxian-gruumsh", "r-alyxian-three-prayers"],
+    "reveals": [
+      "r-alyxian-gruumsh",
+      "r-alyxian-three-prayers"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Ouvi-los", "outcome": "Descansam; inspiration.", "leadsTo": [] },
-      { "label": "Destruí-los", "outcome": "O custo humano de Gruumsh perde-se.", "leadsTo": [] }
+      {
+        "label": "Ouvi-los",
+        "outcome": "Descansam; inspiration.",
+        "leadsTo": []
+      },
+      {
+        "label": "Destruí-los",
+        "outcome": "O custo humano de Gruumsh perde-se.",
+        "leadsTo": []
+      }
     ],
     "notes": "Poisoned Emotions dispara aqui e o aboleth vagueia por M8: possível encontro. Contraste entre a memória dos mortos (Alyxian morreu) e a verdade de M9 (está preso).",
     "source": "book"
@@ -497,35 +1153,72 @@
   {
     "id": "b-5-hadarai-beltreath",
     "title": "Hadarai e Beltreath na Watchtower (M14)",
-    "arcs": ["a-lore", "a-main"],
+    "arcs": [
+      "a-lore",
+      "a-main"
+    ],
     "chapter": "ch5",
     "order": 60,
     "location": "l-cm-m14-watchtower",
-    "participants": ["c-hadarai", "c-beltreath"],
+    "participants": [
+      "c-hadarai",
+      "c-beltreath"
+    ],
     "summary": "Beltreath e os seus oito sword wraiths guardam o fantasma de Hadarai, sacerdote pacifista de Corellon que viu Alyxian rezar nas horas antes da queda. Se os PCs disserem que vêm ajudar o Apotheon, Beltreath é amigável; a 50 hp rende-se por Hadarai. Convencido de que Alyxian vive (DC 15, vantagem com a Jóia), Hadarai abre a barreira de M9.",
-    "reveals": ["r-alyxian-three-prayers", "r-alyxian-gruumsh"],
+    "reveals": [
+      "r-alyxian-three-prayers",
+      "r-alyxian-gruumsh"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Convencer Hadarai", "outcome": "Acompanha os PCs ao Temple of the Arch Heart.", "leadsTo": ["b-5-temple-arch-heart"] },
-      { "label": "Combate", "outcome": "Beltreath rende-se a 50 hp; Hadarai nunca luta.", "leadsTo": [] }
+      {
+        "label": "Convencer Hadarai",
+        "outcome": "Acompanha os PCs ao Temple of the Arch Heart.",
+        "leadsTo": [
+          "b-5-temple-arch-heart"
+        ]
+      },
+      {
+        "label": "Combate",
+        "outcome": "Beltreath rende-se a 50 hp; Hadarai nunca luta.",
+        "leadsTo": []
+      }
     ],
-    "notes": "Chave de M9 para grupos sem devoto de Corellon. Nenhum destes espíritos pode ou quer sair de Cael Morrow. Remix: pôr a Watchtower longe do acampamento na pointmap para que 'ir buscar Hadarai' seja uma expedição.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-m10-tablet",
     "title": "A tabuinha de Alyxian (M10)",
-    "arcs": ["a-lore"],
+    "arcs": [
+      "a-lore"
+    ],
     "chapter": "ch5",
     "order": 65,
     "location": "l-cm-m10-crumbling-building",
-    "participants": ["c-insight-acuere", "c-alyxian-aboleth"],
+    "participants": [
+      "c-insight-acuere",
+      "c-alyxian-aboleth"
+    ],
     "summary": "Entre murais de orcs e drow a construir a cidade e quatro serpentmaws, a tabuinha que Insight procura guarda as palavras do próprio Alyxian: não merece o título de Apotheon, mas assume-o para dar coragem a quem luta ao seu lado, e pede que a memória daquele dia nunca morra.",
-    "reveals": ["r-alyxian-wants-remembered", "r-alyxian-three-prayers"],
+    "reveals": [
+      "r-alyxian-wants-remembered",
+      "r-alyxian-three-prayers"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Entregar a Insight", "outcome": "Cumpre C4; Insight partilha o que sabe do rift.", "leadsTo": ["b-5-c4-insight"] },
-      { "label": "Guardar a tabuinha", "outcome": "Lore para os PCs; Insight fica sem a sua descoberta.", "leadsTo": [] }
+      {
+        "label": "Entregar a Insight",
+        "outcome": "Cumpre C4; Insight partilha o que sabe do rift.",
+        "leadsTo": [
+          "b-5-c4-insight"
+        ]
+      },
+      {
+        "label": "Guardar a tabuinha",
+        "outcome": "Lore para os PCs; Insight fica sem a sua descoberta.",
+        "leadsTo": []
+      }
     ],
     "notes": "Alyxian pela sua própria voz: o desejo de ser lembrado é a chave do capítulo 7. Poisoned Emotions dispara à entrada.",
     "source": "book"
@@ -533,138 +1226,346 @@
   {
     "id": "b-5-temple-arch-heart",
     "title": "Temple of the Arch Heart (M9): a Jóia Exalted",
-    "arcs": ["a-main", "a-lore", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-ruidium"
+    ],
     "chapter": "ch5",
     "order": 70,
     "location": "l-temple-of-the-arch-heart",
-    "participants": ["c-alyxian", "c-hadarai", "c-alyxian-aboleth"],
-    "summary": "Passada a cúpula divina (com um devoto de Corellon ou Hadarai), o fragmento de ruidium pulsa no altar. Primeira visão: Alyxian ajoelhado, disposto a pagar com a vida e a alma para proteger os seus. Ao tocar o cristal, segunda visão: a queda no Netherdeep e a ordem de que os PCs o deixem sair, porque ele próprio não consegue. O cristal explode (DC 16 Cha; 6d10 psíquico, exaustão e corrupção). A Jóia passa a Exalted e o aboleth perde as Poisoned Emotions.",
-    "reveals": ["r-jewel-reactivate", "r-netherdeep-prison", "r-jewel-three-prayers", "r-alyxian-three-prayers", "r-ruidium-apotheon-sites"],
-    "requires": ["b-3-prayer-site-avandra"],
-    "choices": [
-      { "label": "Tocar o cristal", "outcome": "Jóia Exalted: abre o rift a 10 pés e o cofre de N22 no Netherdeep.", "leadsTo": ["b-5-open-rift", "b-5-rivals-leaving"] },
-      { "label": "Recuar sem tocar", "outcome": "A Jóia fica Awakened; o rift só abre com uma arma de ruidium.", "leadsTo": ["b-5-key-at-m13"] }
+    "participants": [
+      "c-alyxian",
+      "c-hadarai",
+      "c-alyxian-aboleth"
     ],
-    "notes": "Charneira do capítulo: Alyxian está vivo, preso e a mandar, não a pedir. Mesma revelação para as três facções. Ligar ao Universal Vision da Remix: os rivais têm a mesma visão se estiverem presentes. A estátua de Corellon (AC 20, 80 hp) é a alternativa violenta à barreira.",
+    "summary": "Passada a cúpula divina (com um devoto de Corellon ou Hadarai), o fragmento de ruidium pulsa no altar. Primeira visão: Alyxian ajoelhado, disposto a pagar com a vida e a alma para proteger os seus. Ao tocar o cristal, segunda visão: a queda no Netherdeep e a ordem de que os PCs o deixem sair, porque ele próprio não consegue. O cristal explode (DC 16 Cha; 6d10 psíquico, exaustão e corrupção). A Jóia passa a Exalted e o aboleth perde as Poisoned Emotions.",
+    "reveals": [
+      "r-jewel-reactivate",
+      "r-netherdeep-prison",
+      "r-jewel-three-prayers",
+      "r-alyxian-three-prayers",
+      "r-ruidium-apotheon-sites"
+    ],
+    "requires": [
+      "b-3-prayer-site-avandra"
+    ],
+    "choices": [
+      {
+        "label": "Tocar o cristal",
+        "outcome": "Jóia Exalted: abre o rift a 10 pés e o cofre de N22 no Netherdeep.",
+        "leadsTo": [
+          "b-5-open-rift",
+          "b-5-rivals-leaving"
+        ]
+      },
+      {
+        "label": "Recuar sem tocar",
+        "outcome": "A Jóia fica Awakened; o rift só abre com uma arma de ruidium.",
+        "leadsTo": [
+          "b-5-key-at-m13"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-key-at-m13",
     "title": "A Key to the Netherdeep na Villa (M13)",
-    "arcs": ["a-main", "a-ruidium", "a-rivals"],
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-rivals"
+    ],
     "chapter": "ch5",
     "order": 80,
     "location": "l-cm-m13-villa",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes",
+      "f-rivals"
+    ],
     "summary": "Na villa da falésia, uma greataxe de ruidium está cravada no sino de um death embrace, rodeado por um swarm of sorrowfish; só sai depois de o monstro morrer. Numa caixa de jóias, um ring of shooting stars. Os rivais podem estar cá fora a discutir se entram pela porta ou pelo telhado aberto.",
-    "reveals": ["r-rift-key", "r-ruidium-properties"],
+    "reveals": [
+      "r-rift-key",
+      "r-ruidium-properties"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Ficar com a Key", "outcome": "Qualquer arma de ruidium abre o rift; esta é a que todos procuram.", "leadsTo": ["b-5-rivals-leaving", "b-5-open-rift"] },
-      { "label": "Os rivais chegam primeiro", "outcome": "Levam-na para o acampamento-base (M3) ou para o Consortium.", "leadsTo": ["b-5-rivals-leaving"] }
+      {
+        "label": "Ficar com a Key",
+        "outcome": "Qualquer arma de ruidium abre o rift; esta é a que todos procuram.",
+        "leadsTo": [
+          "b-5-rivals-leaving",
+          "b-5-open-rift"
+        ]
+      },
+      {
+        "label": "Os rivais chegam primeiro",
+        "outcome": "Levam-na para o acampamento-base (M3) ou para o Consortium.",
+        "leadsTo": [
+          "b-5-rivals-leaving"
+        ]
+      }
     ],
     "timer": "7 dias (A4) / 3 dias (B4) antes de a Key mudar de mãos",
-    "portent": { "faction": "f-rivals", "text": "Se os PCs não chegarem a tempo, os rivais levam a Key para a sua facção." },
-    "notes": "MacGuffin partilhado de A4/A5, B4/B6 e C4. Irvan pode perder o braço para um slithering bloodfin por esta altura (M16). Remix: Race to the Prize; se os rivais forem amigáveis, propor dividir o acesso.",
+    "portent": {
+      "faction": "f-rivals",
+      "text": "Se os PCs não chegarem a tempo, os rivais levam a Key para a sua facção."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-a5-scout-rift",
     "title": "A5: Scout the Rift",
-    "arcs": ["a-allegiance", "a-ruidium"],
+    "arcs": [
+      "a-allegiance",
+      "a-ruidium"
+    ],
     "chapter": "ch5",
     "order": 85,
     "location": "l-rift",
-    "participants": ["c-james-cryon", "c-gryz-alakritos", "c-alyxian-aboleth"],
+    "participants": [
+      "c-james-cryon",
+      "c-gryz-alakritos",
+      "c-alyxian-aboleth"
+    ],
     "summary": "Cryon, sozinho e nas costas de Alakritos (DC 19 Insight), envia os PCs a abrir o rift e confirmar que há ruidium lá dentro, em 7 dias e por 1.000 gp; o Consortium já mandou agentes. Sem a Key, a Jóia Exalted em M9 também abre a fenda. No regresso, os headmasters discutem furiosamente: Cryon exulta, Alakritos agradece sem alegria. Não há volta atrás.",
-    "reveals": ["r-cryon-vs-alakritos", "r-rift-location", "r-rift-key", "r-netherdeep-leaking"],
-    "requires": ["b-5-a4-double-agent"],
+    "reveals": [
+      "r-cryon-vs-alakritos",
+      "r-rift-location",
+      "r-rift-key",
+      "r-netherdeep-leaking"
+    ],
+    "requires": [
+      "b-5-a4-double-agent"
+    ],
     "choices": [
-      { "label": "Abrir o rift", "outcome": "1.000 gp; Cryon triunfa. Segue A6 no Netherdeep.", "leadsTo": ["b-5-open-rift", "b-6-a6-secure-netherdeep"] },
-      { "label": "Recusar ou avisar Alakritos", "outcome": "Cryon procura outros agentes (os rivais?); Alakritos fica em dívida com os PCs.", "leadsTo": ["b-5-open-rift"] }
+      {
+        "label": "Abrir o rift",
+        "outcome": "1.000 gp; Cryon triunfa. Segue A6 no Netherdeep.",
+        "leadsTo": [
+          "b-5-open-rift",
+          "b-6-a6-secure-netherdeep"
+        ]
+      },
+      {
+        "label": "Recusar ou avisar Alakritos",
+        "outcome": "Cryon procura outros agentes (os rivais?); Alakritos fica em dívida com os PCs.",
+        "leadsTo": [
+          "b-5-open-rift"
+        ]
+      }
     ],
     "timer": "7 dias",
-    "portent": { "faction": "f-allegiance", "text": "Sem os PCs, Cryon manda outra equipa; o rift é aberto de qualquer modo." },
-    "notes": "Dilema ideológico dentro da própria facção: os PCs escolhem entre os headmasters. Remix: 'When you see the costs of achieving your goals, is that a price you're willing to pay?'",
+    "portent": {
+      "faction": "f-allegiance",
+      "text": "Sem os PCs, Cryon manda outra equipa; o rift é aberto de qualquer modo."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-b5-aboleth",
     "title": "B5: Slay the Aboleth",
-    "arcs": ["a-consortium", "a-lore", "a-ruidium"],
+    "arcs": [
+      "a-consortium",
+      "a-lore",
+      "a-ruidium"
+    ],
     "chapter": "ch5",
     "order": 86,
     "location": "l-cm-m11-kelp-forest",
-    "participants": ["c-aradrine", "c-alyxian-aboleth"],
+    "participants": [
+      "c-aradrine",
+      "c-alyxian-aboleth"
+    ],
     "summary": "Aradrine revela que Cael Morrow contém um rift para o Netherdeep, fonte de todo o ruidium, guardado por um aboleth que se julga o Apotheon. Missão: matá-lo na Kelp Forest (M11) para facilitar a salvagem. 1.000 gp; 7 dias. O tesouro da toca tem um ruidium shield, uma ruidium shortsword e um brooch of shielding.",
-    "reveals": ["r-aboleth-not-alyxian", "r-rift-location", "r-netherdeep-leaking"],
-    "requires": ["b-5-b4-key"],
+    "reveals": [
+      "r-aboleth-not-alyxian",
+      "r-rift-location",
+      "r-netherdeep-leaking"
+    ],
+    "requires": [
+      "b-5-b4-key"
+    ],
     "choices": [
-      { "label": "Matar o aboleth", "outcome": "Olara recupera a memória; o rift fica sem guardião. Segue B6.", "leadsTo": ["b-5-open-rift", "b-6-b6-monopoly"] },
-      { "label": "Falhar ou desistir", "outcome": "A metade dos hp o aboleth recua para a toca e recupera 9d10+36; volta a atacar no rift.", "leadsTo": ["b-5-open-rift"] }
+      {
+        "label": "Matar o aboleth",
+        "outcome": "Olara recupera a memória; o rift fica sem guardião. Segue B6.",
+        "leadsTo": [
+          "b-5-open-rift",
+          "b-6-b6-monopoly"
+        ]
+      },
+      {
+        "label": "Falhar ou desistir",
+        "outcome": "A metade dos hp o aboleth recua para a toca e recupera 9d10+36; volta a atacar no rift.",
+        "leadsTo": [
+          "b-5-open-rift"
+        ]
+      }
     ],
     "timer": "7 dias",
-    "notes": "Contraste com C5, onde o aboleth pode ser convencido. Dois aboleth spawn na toca. Remix: se os rivais (Allegiance) fizerem C5-like com o aboleth, o monstro pode virar-se contra os PCs.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-c5-enemy-of-enemies",
     "title": "C5: Enemy of Our Enemies",
-    "arcs": ["a-cobalt", "a-lore", "a-rivals"],
+    "arcs": [
+      "a-cobalt",
+      "a-lore",
+      "a-rivals"
+    ],
     "chapter": "ch5",
     "order": 87,
     "location": "l-cm-m11-kelp-forest",
-    "participants": ["c-jamil-aalithiya", "c-alyxian-aboleth", "f-rivals"],
+    "participants": [
+      "c-jamil-aalithiya",
+      "c-alyxian-aboleth",
+      "f-rivals"
+    ],
     "summary": "Jamil relata a tensão crescente entre Allegiance e Consortium e que o rift é guardado por um aboleth que se julga o Apotheon, talvez uma manifestação bizarra do herói morto em Cael Morrow. Objectivo em 3 dias: convencer o aboleth a deixar passar, ou matá-lo. Ataca à vista; um PC que se declare amigo de Alyxian pode persuadi-lo (DC 25, DC 15 com a Jóia). Convencido, junta-se à 'luta' e persegue os rivais.",
-    "reveals": ["r-aboleth-not-alyxian", "r-alyxian-gruumsh"],
-    "requires": ["b-5-c4-insight"],
+    "reveals": [
+      "r-aboleth-not-alyxian",
+      "r-alyxian-gruumsh"
+    ],
+    "requires": [
+      "b-5-c4-insight"
+    ],
     "choices": [
-      { "label": "Persuadir o aboleth", "outcome": "Deixa de atacar e, a pedido, assedia os rivais e outros adversários. Segue C6.", "leadsTo": ["b-5-open-rift", "b-6-c6-destroy-netherdeep"] },
-      { "label": "Matá-lo", "outcome": "Olara recupera a memória; 1.000 gp. Segue C6.", "leadsTo": ["b-5-open-rift", "b-6-c6-destroy-netherdeep"] }
+      {
+        "label": "Persuadir o aboleth",
+        "outcome": "Deixa de atacar e, a pedido, assedia os rivais e outros adversários. Segue C6.",
+        "leadsTo": [
+          "b-5-open-rift",
+          "b-6-c6-destroy-netherdeep"
+        ]
+      },
+      {
+        "label": "Matá-lo",
+        "outcome": "Olara recupera a memória; 1.000 gp. Segue C6.",
+        "leadsTo": [
+          "b-5-open-rift",
+          "b-6-c6-destroy-netherdeep"
+        ]
+      }
     ],
     "timer": "3 dias",
-    "portent": { "faction": "f-rivals", "text": "Os rivais (Consortium) tentam matar o aboleth por sua conta e ficam a controlar o acesso ao rift." },
+    "portent": {
+      "faction": "f-rivals",
+      "text": "Os rivais (Consortium) tentam matar o aboleth por sua conta e ficam a controlar o acesso ao rift."
+    },
     "notes": "A alavanca mais afiada entre tracks: a Cobalt Soul pode virar o aboleth contra os rivais, o Consortium tem de o matar. Falha: o aboleth grita que é Alyxian, divino e invencível. Nível 9 já garantido.",
     "source": "book"
   },
   {
     "id": "b-5-rivals-leaving",
     "title": "Os rivais à saída de Cael Morrow",
-    "arcs": ["a-rivals", "a-main"],
+    "arcs": [
+      "a-rivals",
+      "a-main"
+    ],
     "chapter": "ch5",
     "order": 90,
     "location": "l-cm-m5-access-corridor",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes",
+      "f-rivals"
+    ],
     "summary": "O melhor momento para os rivais aparecerem é quando os PCs tentam sair de Cael Morrow com algo valioso: a Key to the Netherdeep ou a Jóia Exalted. Todos corrompidos por ruidium e com equipamento de ruidium; Irvan com um braço arcano novo e o feitio azedo; Maggie desconfiada dos agentes da Allegiance; Galsariad sem emoções.",
-    "reveals": ["r-ruidium-properties"],
+    "reveals": [
+      "r-ruidium-properties"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Negociar", "outcome": "Dividir o acesso ao rift ou trocar informação; a relação sobe.", "leadsTo": ["b-5-open-rift"] },
-      { "label": "Lutar", "outcome": "Os rivais tentam deixar os PCs inconscientes, não matá-los; matar um rival torna-os todos hostis.", "leadsTo": ["b-5-open-rift"] },
-      { "label": "Fugir com o prémio", "outcome": "Os rivais vão atrás; McGuffin Keep-Away até ao rift.", "leadsTo": ["b-5-open-rift"] }
+      {
+        "label": "Negociar",
+        "outcome": "Dividir o acesso ao rift ou trocar informação; a relação sobe.",
+        "leadsTo": [
+          "b-5-open-rift"
+        ]
+      },
+      {
+        "label": "Lutar",
+        "outcome": "Os rivais tentam deixar os PCs inconscientes, não matá-los; matar um rival torna-os todos hostis.",
+        "leadsTo": [
+          "b-5-open-rift"
+        ]
+      },
+      {
+        "label": "Fugir com o prémio",
+        "outcome": "Os rivais vão atrás; McGuffin Keep-Away até ao rift.",
+        "leadsTo": [
+          "b-5-open-rift"
+        ]
+      }
     ],
-    "notes": "Tier 3 dos rivais; 1d4 níveis de exaustão opcionais para os enfraquecer. Remix: os rivais são a facção oposta em campo (patrulha, equipa de investigação, controlo de um local) e o diagnóstico da relação antes do Netherdeep. Ganchos para os PCs mudarem o mapa de controlo: eliminar a patrulha deles num local-chave.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-5-open-rift",
     "title": "Abrir o rift (M17)",
-    "arcs": ["a-main", "a-ruidium", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-lore"
+    ],
     "chapter": "ch5",
     "order": 100,
     "location": "l-rift",
-    "participants": ["c-alyxian-aboleth", "f-rivals"],
+    "participants": [
+      "c-alyxian-aboleth",
+      "f-rivals"
+    ],
     "summary": "A fenda pulsa com luz vermelha e espinhos de ruidium. Abre-se com uma arma de ruidium na barreira ou com a Jóia Exalted a 10 pés: DC 18 Cha, 6d10 psíquico em 60 pés. Fecha ao fim de 1 hora mas pode ser forçada de novo. Um minuto depois de os PCs entrarem, o aboleth chega enfurecido; o grupo provavelmente recua e volta.",
-    "reveals": ["r-rift-location", "r-rift-key", "r-netherdeep-leaking", "r-ruidium-apotheon-sites"],
+    "reveals": [
+      "r-rift-location",
+      "r-rift-key",
+      "r-netherdeep-leaking",
+      "r-ruidium-apotheon-sites"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Allegiance: A6 Secure the Netherdeep", "outcome": "14 dias para contactar a 'sorrowful intelligence' e negociar a extracção de ruidium.", "leadsTo": ["b-6-a6-secure-netherdeep"] },
-      { "label": "Consortium: B6 Ruidium Monopoly", "outcome": "14 dias para encontrar a fonte do ruidium e aliá-la ou capturá-la.", "leadsTo": ["b-6-b6-monopoly"] },
-      { "label": "Cobalt Soul: C6 Destroy the Netherdeep", "outcome": "14 dias para destruir o Netherdeep.", "leadsTo": ["b-6-c6-destroy-netherdeep"] }
+      {
+        "label": "Allegiance: A6 Secure the Netherdeep",
+        "outcome": "14 dias para contactar a 'sorrowful intelligence' e negociar a extracção de ruidium.",
+        "leadsTo": [
+          "b-6-a6-secure-netherdeep"
+        ]
+      },
+      {
+        "label": "Consortium: B6 Ruidium Monopoly",
+        "outcome": "14 dias para encontrar a fonte do ruidium e aliá-la ou capturá-la.",
+        "leadsTo": [
+          "b-6-b6-monopoly"
+        ]
+      },
+      {
+        "label": "Cobalt Soul: C6 Destroy the Netherdeep",
+        "outcome": "14 dias para destruir o Netherdeep.",
+        "leadsTo": [
+          "b-6-c6-destroy-netherdeep"
+        ]
+      }
     ],
     "timer": "1 hora aberto; 14 dias para a sexta missão",
-    "portent": { "faction": "f-rivals", "text": "Os rivais entram no Netherdeep pela sua facção e esperam os PCs em N1 ou N26." },
-    "notes": "Remix: pôr o rift o mais longe possível do acampamento na pointmap e decidir quem sabe onde está, se há defesas à volta e se os PCs ajudam a construí-las. A água que sai daqui é a que sobe até ao oásis (ligação ao Life Dome). Pressão do Netherdeep: sem ruidium ou a Jóia, 10d6 por minuto.",
+    "portent": {
+      "faction": "f-rivals",
+      "text": "Os rivais entram no Netherdeep pela sua facção e esperam os PCs em N1 ou N26."
+    },
+    "notes": "",
     "source": "book"
   }
 ]

@@ -2,37 +2,78 @@
   {
     "id": "b-0-mission-urzin",
     "title": "Missão em Urzin",
-    "arcs": ["a-prologue"],
+    "arcs": [
+      "a-prologue"
+    ],
     "chapter": "ch0",
     "order": 10,
     "location": "l-urzin",
-    "participants": ["c-buhfal", "c-morgid", "c-bolbara", "f-dwendalian-empire"],
+    "participants": [
+      "c-buhfal",
+      "c-morgid",
+      "c-bolbara",
+      "f-dwendalian-empire"
+    ],
     "summary": "Buhfal II contrata os PCs (200 gp) para resgatar a seer Bol'bara, raptada por soldados imperiais junto da Ritual Stone. Morgid oferece-se como guia pelo pântano.",
     "reveals": [],
     "requires": [],
     "choices": [
-      { "label": "Aceitar a missão", "outcome": "Partem com Morgid; começa o relógio de 3 dias.", "leadsTo": ["b-0-marsh-crossing"] },
-      { "label": "Regatear", "outcome": "Buhfal não sobe o preço; pode oferecer mantimentos ou o guia como bónus.", "leadsTo": ["b-0-marsh-crossing"] }
+      {
+        "label": "Aceitar a missão",
+        "outcome": "Partem com Morgid; começa o relógio de 3 dias.",
+        "leadsTo": [
+          "b-0-marsh-crossing"
+        ]
+      },
+      {
+        "label": "Regatear",
+        "outcome": "Buhfal não sobe o preço; pode oferecer mantimentos ou o guia como bónus.",
+        "leadsTo": [
+          "b-0-marsh-crossing"
+        ]
+      }
     ],
     "timer": "3 dias desde a partida até ao terceiro revivify",
-    "portent": { "faction": "f-dwendalian-empire", "text": "Pellinost continua o interrogatório; ao fim de 3 dias Trush possui Bol'bara por completo." },
+    "portent": {
+      "faction": "f-dwendalian-empire",
+      "text": "Pellinost continua o interrogatório; ao fim de 3 dias Trush possui Bol'bara por completo."
+    },
     "notes": "Buhfal é LE e pragmático: não é vilão, mas não é generoso. Deixar claro que Bol'bara é essencial aos ritos que protegem Urzin. Nível 1.",
     "source": "book"
   },
   {
     "id": "b-0-marsh-crossing",
     "title": "Travessia do Brokenveil Marsh",
-    "arcs": ["a-prologue"],
+    "arcs": [
+      "a-prologue"
+    ],
     "chapter": "ch0",
     "order": 20,
     "location": "l-brokenveil-marsh",
-    "participants": ["c-morgid", "c-skra-sorsk"],
+    "participants": [
+      "c-morgid",
+      "c-skra-sorsk"
+    ],
     "summary": "Três ou mais dias de pântano: navegação DC 15 por dia; falhar custa tempo. Encontros em B2 (soldado morto, cobras), B3 (lizardfolk de Skr'a S'orsk), B4 (aranhas), B5 (bullywugs), B7 (harpias).",
     "reveals": [],
-    "requires": ["b-0-mission-urzin"],
+    "requires": [
+      "b-0-mission-urzin"
+    ],
     "choices": [
-      { "label": "Rota directa (arriscada)", "outcome": "Menos dias, mais encontros perigosos (B3/B7).", "leadsTo": ["b-0-ritual-stone"] },
-      { "label": "Rota segura (lenta)", "outcome": "Cada dia extra come o relógio dos 3 dias.", "leadsTo": ["b-0-ritual-stone"] }
+      {
+        "label": "Rota directa (arriscada)",
+        "outcome": "Menos dias, mais encontros perigosos (B3/B7).",
+        "leadsTo": [
+          "b-0-ritual-stone"
+        ]
+      },
+      {
+        "label": "Rota segura (lenta)",
+        "outcome": "Cada dia extra come o relógio dos 3 dias.",
+        "leadsTo": [
+          "b-0-ritual-stone"
+        ]
+      }
     ],
     "timer": "Cada falha de navegação DC 15 = +1 dia",
     "notes": "O soldado morto em B2 (jangada) confirma que o Império anda no pântano. Usar Morgid para dar dicas sem resolver por eles. Nível 1→2 a meio da travessia.",
@@ -41,17 +82,41 @@
   {
     "id": "b-0-ritual-stone",
     "title": "A Ritual Stone",
-    "arcs": ["a-prologue", "a-lore"],
+    "arcs": [
+      "a-prologue",
+      "a-lore"
+    ],
     "chapter": "ch0",
     "order": 30,
     "location": "l-ritual-stone",
-    "participants": ["c-morgid", "c-trush", "c-bolbara"],
+    "participants": [
+      "c-morgid",
+      "c-trush",
+      "c-bolbara"
+    ],
     "summary": "O menhir negro onde Bol'bara fazia os ritos. Sinais do rapto e pistas sobre o patrono: os ritos interrompidos deixaram Trush livre para a possuir. Commune 1x por lua cheia; augury.",
-    "reveals": ["r-bolbara-possessed"],
-    "requires": ["b-0-marsh-crossing"],
+    "reveals": [
+      "r-bolbara-possessed"
+    ],
+    "requires": [
+      "b-0-marsh-crossing"
+    ],
     "choices": [
-      { "label": "Usar a pedra (augury/commune)", "outcome": "Uma resposta directa sobre o perigo que Bol'bara corre.", "leadsTo": ["b-0-mossback-steward"] },
-      { "label": "Seguir as pegadas dos soldados", "outcome": "Rumo ao Fort Venture; podem passar pelo Mossback Steward.", "leadsTo": ["b-0-mossback-steward", "b-0-fort-venture"] }
+      {
+        "label": "Usar a pedra (augury/commune)",
+        "outcome": "Uma resposta directa sobre o perigo que Bol'bara corre.",
+        "leadsTo": [
+          "b-0-mossback-steward"
+        ]
+      },
+      {
+        "label": "Seguir as pegadas dos soldados",
+        "outcome": "Rumo ao Fort Venture; podem passar pelo Mossback Steward.",
+        "leadsTo": [
+          "b-0-mossback-steward",
+          "b-0-fort-venture"
+        ]
+      }
     ],
     "notes": "DC 13 Arcana/Religion nas marcas da pedra: um pacto warlock com algo do Shadowfell. Aqui plantar a ideia de que salvar Bol'bara não é só libertá-la.",
     "source": "book"
@@ -59,17 +124,43 @@
   {
     "id": "b-0-mossback-steward",
     "title": "O Mossback Steward",
-    "arcs": ["a-prologue", "a-kryn", "a-lore"],
+    "arcs": [
+      "a-prologue",
+      "a-kryn",
+      "a-lore"
+    ],
     "chapter": "ch0",
     "order": 40,
     "location": "l-mossback-steward-rest",
-    "participants": ["c-mossback-steward", "c-morgid", "f-kryn", "f-dwendalian-empire"],
+    "participants": [
+      "c-mossback-steward",
+      "c-morgid",
+      "f-kryn",
+      "f-dwendalian-empire"
+    ],
     "summary": "A tartaruga senciente fala por telepatia. Se os PCs se opuserem ao Império, revela como salvar Bol'bara (reduzi-la a 0 HP e curá-la em 3 rondas) e explica a guerra fria entre a Kryn Dynasty e o Império Dwendaliano.",
-    "reveals": ["r-how-to-save-bolbara", "r-kryn-vs-empire"],
-    "requires": ["b-0-marsh-crossing"],
+    "reveals": [
+      "r-how-to-save-bolbara",
+      "r-kryn-vs-empire"
+    ],
+    "requires": [
+      "b-0-marsh-crossing"
+    ],
     "choices": [
-      { "label": "Ganhar a confiança do Steward", "outcome": "Aliada; dá o método do exorcismo e possivelmente um augúrio.", "leadsTo": ["b-0-fort-venture"] },
-      { "label": "Ignorar ou ofender", "outcome": "Sem o método, os PCs terão de o deduzir (DC 13 Arcana/Religion) durante o exorcismo.", "leadsTo": ["b-0-fort-venture"] }
+      {
+        "label": "Ganhar a confiança do Steward",
+        "outcome": "Aliada; dá o método do exorcismo e possivelmente um augúrio.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Ignorar ou ofender",
+        "outcome": "Sem o método, os PCs terão de o deduzir (DC 13 Arcana/Religion) durante o exorcismo.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      }
     ],
     "notes": "É o mentor do prólogo. Deixar cair Jigow e as horizonbacks: a cultura de Urzin é a mesma. Semear que a Kryn Dynasty observa quem enfrenta o Império.",
     "source": "book"
@@ -77,39 +168,97 @@
   {
     "id": "b-0-fort-venture",
     "title": "Fort Venture",
-    "arcs": ["a-prologue"],
+    "arcs": [
+      "a-prologue"
+    ],
     "chapter": "ch0",
     "order": 50,
     "location": "l-fort-venture",
-    "participants": ["c-felmont", "c-pellinost", "c-alonne-frith", "f-dwendalian-empire"],
+    "participants": [
+      "c-felmont",
+      "c-pellinost",
+      "c-alonne-frith",
+      "f-dwendalian-empire"
+    ],
     "summary": "Infiltração (ou assalto) ao forte imperial V1-V11. Felmont é rígido mas negociável; Alonne Frith em V8 troca informação por liberdade. Se passaram mais de 3 dias, o forte já está devastado e Bol'bara possuída fugiu para Urzin.",
     "reveals": [],
-    "requires": ["b-0-marsh-crossing"],
+    "requires": [
+      "b-0-marsh-crossing"
+    ],
     "choices": [
-      { "label": "Infiltração furtiva", "outcome": "Chegam à capela sem alarme.", "leadsTo": ["b-0-chapel"] },
-      { "label": "Negociar com Felmont", "outcome": "Felmont teme Pellinost; DC 15 Persuasion para que olhe para o lado.", "leadsTo": ["b-0-chapel"] },
-      { "label": "Assalto frontal", "outcome": "Alarme; Pellinost acelera o ritual.", "leadsTo": ["b-0-chapel"] },
-      { "label": "Chegar depois do dia 3", "outcome": "Forte devastado; rasto de Bol'bara para Urzin.", "leadsTo": ["b-0-bolbara-unleashed"] }
+      {
+        "label": "Infiltração furtiva",
+        "outcome": "Chegam à capela sem alarme.",
+        "leadsTo": [
+          "b-0-chapel"
+        ]
+      },
+      {
+        "label": "Negociar com Felmont",
+        "outcome": "Felmont teme Pellinost; DC 15 Persuasion para que olhe para o lado.",
+        "leadsTo": [
+          "b-0-chapel"
+        ]
+      },
+      {
+        "label": "Assalto frontal",
+        "outcome": "Alarme; Pellinost acelera o ritual.",
+        "leadsTo": [
+          "b-0-chapel"
+        ]
+      },
+      {
+        "label": "Chegar depois do dia 3",
+        "outcome": "Forte devastado; rasto de Bol'bara para Urzin.",
+        "leadsTo": [
+          "b-0-bolbara-unleashed"
+        ]
+      }
     ],
     "timer": "Dia 3: terceiro revivify",
-    "portent": { "faction": "f-dwendalian-empire", "text": "Sem intervenção, o forte é devastado por Bol'bara possuída e o Império culpa os goblinoides." },
+    "portent": {
+      "faction": "f-dwendalian-empire",
+      "text": "Sem intervenção, o forte é devastado por Bol'bara possuída e o Império culpa os goblinoides."
+    },
     "notes": "Alonne Frith (Hollow One, cultista de Ceratos) é NE: libertá-lo tem consequências, mas conhece o forte. Felmont não é mau: um argumento humano pode chegar.",
     "source": "book"
   },
   {
     "id": "b-0-chapel",
     "title": "A capela: interromper Pellinost",
-    "arcs": ["a-prologue"],
+    "arcs": [
+      "a-prologue"
+    ],
     "chapter": "ch0",
     "order": 60,
     "location": "l-fort-venture-chapel",
-    "participants": ["c-pellinost", "c-bolbara", "c-trush"],
+    "participants": [
+      "c-pellinost",
+      "c-bolbara",
+      "c-trush"
+    ],
     "summary": "Bol'bara acorrentada ao altar; Pellinost prepara o terceiro revivify. Os PCs têm 1 minuto (10 rondas) antes de Trush completar a possessão. Pellinost não negoceia.",
-    "reveals": ["r-bolbara-possessed"],
-    "requires": ["b-0-fort-venture"],
+    "reveals": [
+      "r-bolbara-possessed"
+    ],
+    "requires": [
+      "b-0-fort-venture"
+    ],
     "choices": [
-      { "label": "Interromper a tempo", "outcome": "Bol'bara ainda é ela; Trush resiste e a possessão parcial pode exigir o exorcismo na mesma.", "leadsTo": ["b-0-exorcism"] },
-      { "label": "Chegar tarde", "outcome": "A mente de Bol'bara quebra; Trush toma o corpo.", "leadsTo": ["b-0-exorcism"] }
+      {
+        "label": "Interromper a tempo",
+        "outcome": "Bol'bara ainda é ela; Trush resiste e a possessão parcial pode exigir o exorcismo na mesma.",
+        "leadsTo": [
+          "b-0-exorcism"
+        ]
+      },
+      {
+        "label": "Chegar tarde",
+        "outcome": "A mente de Bol'bara quebra; Trush toma o corpo.",
+        "leadsTo": [
+          "b-0-exorcism"
+        ]
+      }
     ],
     "timer": "1 minuto (10 rondas) até Trush completar o ritual",
     "notes": "Pellinost é zelote LE, sacerdote de Vesh: combate quase certo. Mostrar o horror do método (revivify em série) sem gore gratuito.",
@@ -118,18 +267,45 @@
   {
     "id": "b-0-exorcism",
     "title": "Exorcismo de Bol'bara",
-    "arcs": ["a-prologue"],
+    "arcs": [
+      "a-prologue"
+    ],
     "chapter": "ch0",
     "order": 70,
     "location": "l-fort-venture-chapel",
-    "participants": ["c-bolbara", "c-trush"],
+    "participants": [
+      "c-bolbara",
+      "c-trush"
+    ],
     "summary": "Combate com Bol'bara possuída (CR 3, acções lendárias). A 0 HP fica inconsciente; curá-la até 1 HP em 3 rondas expulsa Trush. Sem cura a tempo, morre.",
-    "reveals": ["r-how-to-save-bolbara"],
-    "requires": ["b-0-chapel"],
+    "reveals": [
+      "r-how-to-save-bolbara"
+    ],
+    "requires": [
+      "b-0-chapel"
+    ],
     "choices": [
-      { "label": "Reduzir a 0 e curar em 3 rondas", "outcome": "Trush é expulso; Bol'bara salva.", "leadsTo": ["b-0-return-to-urzin"] },
-      { "label": "Matar sem curar", "outcome": "Bol'bara morre; Trush regressa ao Shadowfell.", "leadsTo": ["b-0-return-to-urzin"] },
-      { "label": "Ser derrotados", "outcome": "Bol'bara possuída foge para Urzin.", "leadsTo": ["b-0-bolbara-unleashed"] }
+      {
+        "label": "Reduzir a 0 e curar em 3 rondas",
+        "outcome": "Trush é expulso; Bol'bara salva.",
+        "leadsTo": [
+          "b-0-return-to-urzin"
+        ]
+      },
+      {
+        "label": "Matar sem curar",
+        "outcome": "Bol'bara morre; Trush regressa ao Shadowfell.",
+        "leadsTo": [
+          "b-0-return-to-urzin"
+        ]
+      },
+      {
+        "label": "Ser derrotados",
+        "outcome": "Bol'bara possuída foge para Urzin.",
+        "leadsTo": [
+          "b-0-bolbara-unleashed"
+        ]
+      }
     ],
     "timer": "3 rondas para curar após 0 HP",
     "notes": "Se não souberem o método pelo Steward: DC 13 Arcana/Religion para deduzir. Incorporeal Dash e Zone of Calamity — lembrar de usar as acções lendárias.",
@@ -138,36 +314,83 @@
   {
     "id": "b-0-bolbara-unleashed",
     "title": "Bol'bara à solta",
-    "arcs": ["a-prologue"],
+    "arcs": [
+      "a-prologue"
+    ],
     "chapter": "ch0",
     "order": 75,
     "location": "l-brokenveil-marsh",
-    "participants": ["c-bolbara", "c-trush", "c-buhfal"],
+    "participants": [
+      "c-bolbara",
+      "c-trush",
+      "c-buhfal"
+    ],
     "summary": "Ramo de falha: Bol'bara possuída deixa o forte em ruínas e ruma a Urzin. Os PCs podem perseguí-la pelo pântano e tentar o exorcismo antes de ela chegar à aldeia.",
     "reveals": [],
-    "requires": ["b-0-fort-venture"],
-    "choices": [
-      { "label": "Perseguir e exorcizar", "outcome": "Combate no pântano ou em Urzin; mesma regra das 3 rondas.", "leadsTo": ["b-0-return-to-urzin"] },
-      { "label": "Desistir", "outcome": "Bol'bara ataca Urzin e torna-se ameaça regional; goblinoides e Império culpam os PCs.", "leadsTo": ["b-0-return-to-urzin"] }
+    "requires": [
+      "b-0-fort-venture"
     ],
-    "portent": { "faction": "f-dwendalian-empire", "text": "O Império responde com uma expedição punitiva contra Urzin." },
+    "choices": [
+      {
+        "label": "Perseguir e exorcizar",
+        "outcome": "Combate no pântano ou em Urzin; mesma regra das 3 rondas.",
+        "leadsTo": [
+          "b-0-return-to-urzin"
+        ]
+      },
+      {
+        "label": "Desistir",
+        "outcome": "Bol'bara ataca Urzin e torna-se ameaça regional; goblinoides e Império culpam os PCs.",
+        "leadsTo": [
+          "b-0-return-to-urzin"
+        ]
+      }
+    ],
+    "portent": {
+      "faction": "f-dwendalian-empire",
+      "text": "O Império responde com uma expedição punitiva contra Urzin."
+    },
     "notes": "Só usar se os PCs ultrapassarem os 3 dias ou perderem o combate. Dá uma segunda oportunidade sem anular a consequência.",
     "source": "book"
   },
   {
     "id": "b-0-return-to-urzin",
     "title": "Regresso a Urzin",
-    "arcs": ["a-prologue", "a-kryn"],
+    "arcs": [
+      "a-prologue",
+      "a-kryn"
+    ],
     "chapter": "ch0",
     "order": 80,
     "location": "l-urzin",
-    "participants": ["c-buhfal", "c-bolbara", "c-morgid", "f-kryn"],
+    "participants": [
+      "c-buhfal",
+      "c-bolbara",
+      "c-morgid",
+      "f-kryn"
+    ],
     "summary": "Buhfal paga os 200 gp (se Bol'bara voltou). Bol'bara, grata, pode lançar um augúrio para os PCs. Operativos da Kryn Dynasty reparam nos forasteiros que enfrentaram o Império — gancho para Jigow e o Festival of Merit.",
-    "reveals": ["r-kryn-vs-empire"],
-    "requires": ["b-0-exorcism"],
+    "reveals": [
+      "r-kryn-vs-empire"
+    ],
+    "requires": [
+      "b-0-exorcism"
+    ],
     "choices": [
-      { "label": "Bol'bara salva", "outcome": "200 gp; gratidão; a Kryn convida-os para Jigow.", "leadsTo": ["b-1-adventure-start"] },
-      { "label": "Bol'bara morta ou perdida", "outcome": "Sem recompensa; Urzin em luto; a Kryn continua interessada nos PCs, mas Buhfal não.", "leadsTo": ["b-1-adventure-start"] }
+      {
+        "label": "Bol'bara salva",
+        "outcome": "200 gp; gratidão; a Kryn convida-os para Jigow.",
+        "leadsTo": [
+          "b-1-adventure-start"
+        ]
+      },
+      {
+        "label": "Bol'bara morta ou perdida",
+        "outcome": "Sem recompensa; Urzin em luto; a Kryn continua interessada nos PCs, mas Buhfal não.",
+        "leadsTo": [
+          "b-1-adventure-start"
+        ]
+      }
     ],
     "notes": "Os PCs chegam a Jigow a nível 3. Se Bol'bara sobreviveu, guardá-la como seer que pode reaparecer (visões, Luxon, Irvan). Semear aqui a fama junto da Kryn.",
     "source": "book"

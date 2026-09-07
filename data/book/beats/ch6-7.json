@@ -2,77 +2,183 @@
   {
     "id": "b-6-a6-secure-netherdeep",
     "title": "A6: Secure the Netherdeep (Allegiance)",
-    "arcs": ["a-allegiance", "a-ruidium"],
+    "arcs": [
+      "a-allegiance",
+      "a-ruidium"
+    ],
     "chapter": "ch6",
     "order": 10,
     "location": "l-crystal-chateau",
-    "participants": ["c-james-cryon", "c-gryz-alakritos", "f-allegiance", "c-alyxian"],
+    "participants": [
+      "c-james-cryon",
+      "c-gryz-alakritos",
+      "f-allegiance",
+      "c-alyxian"
+    ],
     "summary": "Os dois headmasters dão a sexta missão: a Allegiance aperfeiçoou armas e armaduras de ruidium, mas dos batedores enviados ao Netherdeep só um voltou, a falar de uma 'inteligência sofredora'. Objectivo: contactá-la e convencê-la a deixar a Allegiance extrair ruidium em paz. 14 dias; uma ruidium dagger por PC; promessa de promoção e 5.000 gp cada.",
-    "reveals": ["r-faction-agendas", "r-sixth-missions-doomed", "r-cryon-vs-alakritos"],
+    "reveals": [
+      "r-faction-agendas",
+      "r-sixth-missions-doomed",
+      "r-cryon-vs-alakritos"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Aceitar e falar de extracção a Alyxian", "outcome": "Alyxian promete tudo o que quiserem desde que o libertem do Heart of Despair. A missão está condenada: em nenhum final os PCs recebem a recompensa.", "leadsTo": ["b-6-n1-arrival", "b-7-alyxian-speaks"] },
-      { "label": "Recusar ou ignorar a missão", "outcome": "A Allegiance segue sem eles; os PCs entram no Netherdeep por conta própria (Jewel Exalted ou arma de ruidium).", "leadsTo": ["b-6-n1-arrival"] }
+      {
+        "label": "Aceitar e falar de extracção a Alyxian",
+        "outcome": "Alyxian promete tudo o que quiserem desde que o libertem do Heart of Despair. A missão está condenada: em nenhum final os PCs recebem a recompensa.",
+        "leadsTo": [
+          "b-6-n1-arrival",
+          "b-7-alyxian-speaks"
+        ]
+      },
+      {
+        "label": "Recusar ou ignorar a missão",
+        "outcome": "A Allegiance segue sem eles; os PCs entram no Netherdeep por conta própria (Jewel Exalted ou arma de ruidium).",
+        "leadsTo": [
+          "b-6-n1-arrival"
+        ]
+      }
     ],
     "timer": "14 dias",
-    "portent": { "faction": "f-allegiance", "text": "Continua a enviar batedores armados de ruidium; nenhum regressa. Cryon cava mais fundo, Alakritos perde o controlo." },
-    "notes": "Missão condenada por desenho: dizê-lo aos jogadores só no fim (r-sixth-missions-doomed). Se o PCs tentarem cumprir à letra (aliança com um Alyxian corrompido), isso empurra para b-7-ending-worst. Remix: os rivais estão no Consortium e chegam ao Netherdeep com a agenda oposta.",
+    "portent": {
+      "faction": "f-allegiance",
+      "text": "Continua a enviar batedores armados de ruidium; nenhum regressa. Cryon cava mais fundo, Alakritos perde o controlo."
+    },
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-6-b6-monopoly",
     "title": "B6: Ruidium Monopoly (Consortium)",
-    "arcs": ["a-consortium", "a-ruidium"],
+    "arcs": [
+      "a-consortium",
+      "a-ruidium"
+    ],
     "chapter": "ch6",
     "order": 20,
     "location": "l-ank-harel",
-    "participants": ["c-aradrine", "f-consortium", "c-alyxian"],
+    "participants": [
+      "c-aradrine",
+      "f-consortium",
+      "c-alyxian"
+    ],
     "summary": "Aradrine revela que qualquer arma de ruidium abre o rift e que a Allegiance já mandou agentes lá para dentro. Objectivo: encontrar a fonte do ruidium e, se for uma criatura, aliar-se a ela ou capturá-la. 14 dias; promoção a master com 1.000 gp/mês.",
-    "reveals": ["r-rift-key", "r-faction-agendas", "r-sixth-missions-doomed", "r-netherdeep-leaking"],
+    "reveals": [
+      "r-rift-key",
+      "r-faction-agendas",
+      "r-sixth-missions-doomed",
+      "r-netherdeep-leaking"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Tentar aliar-se ou capturar o Apotheon", "outcome": "Impossível: aliança só depois de o libertar, e libertá-lo corrompido torna qualquer aliança impossível. Se for morto ou redimido, todo o ruidium desaparece.", "leadsTo": ["b-7-alyxian-speaks"] },
-      { "label": "Libertá-lo sem curar para 'cumprir' a missão", "outcome": "Alyxian devasta Ank'Harel; o Consortium fica com o ruidium e o mundo paga.", "leadsTo": ["b-7-ending-worst"] }
+      {
+        "label": "Tentar aliar-se ou capturar o Apotheon",
+        "outcome": "Impossível: aliança só depois de o libertar, e libertá-lo corrompido torna qualquer aliança impossível. Se for morto ou redimido, todo o ruidium desaparece.",
+        "leadsTo": [
+          "b-7-alyxian-speaks"
+        ]
+      },
+      {
+        "label": "Libertá-lo sem curar para 'cumprir' a missão",
+        "outcome": "Alyxian devasta Ank'Harel; o Consortium fica com o ruidium e o mundo paga.",
+        "leadsTo": [
+          "b-7-ending-worst"
+        ]
+      }
     ],
     "timer": "14 dias",
-    "portent": { "faction": "f-consortium", "text": "Envia a companhia dos rivais ao Netherdeep para chegar primeiro ao Heart e negociar com o Apotheon." },
+    "portent": {
+      "faction": "f-consortium",
+      "text": "Envia a companhia dos rivais ao Netherdeep para chegar primeiro ao Heart e negociar com o Apotheon."
+    },
     "notes": "Missão condenada: Aradrine não pode receber o que pede. Se os PCs estão no Consortium, os rivais estão na Allegiance (e vice-versa). Use o portento para justificar a presença dos rivais em N1/N26.",
     "source": "book"
   },
   {
     "id": "b-6-c6-destroy-netherdeep",
     "title": "C6: Destroy the Netherdeep (Cobalt Soul)",
-    "arcs": ["a-cobalt", "a-ruidium"],
+    "arcs": [
+      "a-cobalt",
+      "a-ruidium"
+    ],
     "chapter": "ch6",
     "order": 30,
     "location": "l-temple-of-the-mentor",
-    "participants": ["c-jamil-aalithiya", "f-cobalt-soul", "c-alyxian"],
+    "participants": [
+      "c-jamil-aalithiya",
+      "f-cobalt-soul",
+      "c-alyxian"
+    ],
     "summary": "Jamil revela que as outras duas facções estão a acumular ruidium e que o Consortium mandou uma companhia de aventureiros ao Netherdeep (os rivais). Itens de ruidium ou a Jewel são necessários para sobreviver à pressão. Objectivo: destruir o Netherdeep. 14 dias; 2.000 gp cada.",
-    "reveals": ["r-faction-agendas", "r-sixth-missions-doomed", "r-ruidium-properties", "r-netherdeep-leaking"],
+    "reveals": [
+      "r-faction-agendas",
+      "r-sixth-missions-doomed",
+      "r-ruidium-properties",
+      "r-netherdeep-leaking"
+    ],
     "requires": [],
     "choices": [
-      { "label": "Matar Alyxian", "outcome": "O Netherdeep colapsa e todo o ruidium desaparece: missão cumprida.", "leadsTo": ["b-7-ending-neutral"] },
-      { "label": "Redimir Alyxian", "outcome": "As formas corrompidas destruídas destroem o Netherdeep e o ruidium: missão cumprida.", "leadsTo": ["b-7-ending-best"] },
-      { "label": "Libertá-lo sem curar", "outcome": "O Netherdeep e o ruidium sobrevivem; falha.", "leadsTo": ["b-7-ending-worst"] }
+      {
+        "label": "Matar Alyxian",
+        "outcome": "O Netherdeep colapsa e todo o ruidium desaparece: missão cumprida.",
+        "leadsTo": [
+          "b-7-ending-neutral"
+        ]
+      },
+      {
+        "label": "Redimir Alyxian",
+        "outcome": "As formas corrompidas destruídas destroem o Netherdeep e o ruidium: missão cumprida.",
+        "leadsTo": [
+          "b-7-ending-best"
+        ]
+      },
+      {
+        "label": "Libertá-lo sem curar",
+        "outcome": "O Netherdeep e o ruidium sobrevivem; falha.",
+        "leadsTo": [
+          "b-7-ending-worst"
+        ]
+      }
     ],
     "timer": "14 dias",
-    "portent": { "faction": "f-cobalt-soul", "text": "Sem intervenção dos PCs, Allegiance e Consortium açambarcam ruidium e a Cobalt Soul perde a corrida." },
+    "portent": {
+      "faction": "f-cobalt-soul",
+      "text": "Sem intervenção dos PCs, Allegiance e Consortium açambarcam ruidium e a Cobalt Soul perde a corrida."
+    },
     "notes": "A única sexta missão que pode ser cumprida, e só matando ou redimindo o Apotheon. A revelação de que os rivais foram enviados pelo Consortium é a deixa para b-6-rivals-n26.",
     "source": "book"
   },
   {
     "id": "b-6-n1-arrival",
     "title": "N1: chegada sob pressão",
-    "arcs": ["a-main", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
     "chapter": "ch6",
     "order": 40,
     "location": "l-nd-n1-antechamber",
-    "participants": ["c-alyxian"],
+    "participants": [
+      "c-alyxian"
+    ],
     "summary": "Os PCs caem no Antechamber do Netherdeep: duas estátuas decapitadas de Alyxian, 2 devourers e um slithering bloodfin. Quem não usa nem carrega ruidium (ou a Jewel Exalted) sofre 10d6 força ao fim de cada minuto; corrupção DC 20; luz reduzida.",
-    "reveals": ["r-ruidium-properties", "r-netherdeep-prison", "r-netherdeep-leaking", "r-alyxian-split-self"],
-    "requires": ["b-5-open-rift"],
+    "reveals": [
+      "r-ruidium-properties",
+      "r-netherdeep-prison",
+      "r-netherdeep-leaking",
+      "r-alyxian-split-self"
+    ],
+    "requires": [
+      "b-5-open-rift"
+    ],
     "choices": [
-      { "label": "Avançar para as Grottoes of Regret", "outcome": "Alyxian recebe-os triste mas prestável.", "leadsTo": ["b-6-n2-parents"] }
+      {
+        "label": "Avançar para as Grottoes of Regret",
+        "outcome": "Alyxian recebe-os triste mas prestável.",
+        "leadsTo": [
+          "b-6-n2-parents"
+        ]
+      }
     ],
     "timer": "10d6 força por minuto sem ruidium",
     "notes": "Deixe as estátuas decapitadas falarem por si (perda de si; o tema do eu dividido). Lembre as regras globais: portas secretas DC 20 (4d10 psíquico se forçadas), luz não-ruidium a metade. O aboleth chega ao rift 1 minuto depois de os PCs entrarem em Cael Morrow; aqui já não os segue.",
@@ -81,32 +187,64 @@
   {
     "id": "b-6-n1-rival-ambush",
     "title": "Emboscada dos rivais em N1 (opcional)",
-    "arcs": ["a-rivals"],
+    "arcs": [
+      "a-rivals"
+    ],
     "chapter": "ch6",
     "order": 50,
     "location": "l-nd-n1-antechamber",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
-    "summary": "Rivais hostis podem esperar os PCs à entrada: o objectivo deles é fazê-los fugir e avisá-los para nunca mais voltarem. Rivais amigáveis ou indiferentes podem estar aqui a discutir o que fazer com Alyxian.",
-    "reveals": ["r-sixth-missions-doomed"],
-    "requires": ["b-6-n1-arrival"],
-    "choices": [
-      { "label": "Combater", "outcome": "Os rivais tentam expulsar sem matar (a não ser que já haja mortos). Vitória deixa-os feridos e amargos até N26.", "leadsTo": ["b-6-rivals-n26"] },
-      { "label": "Negociar / debater a agenda", "outcome": "Princípio de Oposição: seja qual for o plano dos PCs para Alyxian, os rivais defendem o contrário. Pode terminar em separação ou em aliança de conveniência.", "leadsTo": ["b-6-rivals-n26"] }
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes",
+      "f-rivals"
     ],
-    "notes": "Remix: a atitude só escolhe o modo (hostil = negociação agressiva, indiferente = discussão acesa, amigável = debate). Divida as opiniões entre os cinco rivais. Se preferir guardar o grande confronto, salte esta cena e use só N26.",
+    "summary": "Rivais hostis podem esperar os PCs à entrada: o objectivo deles é fazê-los fugir e avisá-los para nunca mais voltarem. Rivais amigáveis ou indiferentes podem estar aqui a discutir o que fazer com Alyxian.",
+    "reveals": [
+      "r-sixth-missions-doomed"
+    ],
+    "requires": [
+      "b-6-n1-arrival"
+    ],
+    "choices": [
+      {
+        "label": "Combater",
+        "outcome": "Os rivais tentam expulsar sem matar (a não ser que já haja mortos). Vitória deixa-os feridos e amargos até N26.",
+        "leadsTo": [
+          "b-6-rivals-n26"
+        ]
+      },
+      {
+        "label": "Negociar / debater a agenda",
+        "outcome": "Princípio de Oposição: seja qual for o plano dos PCs para Alyxian, os rivais defendem o contrário. Pode terminar em separação ou em aliança de conveniência.",
+        "leadsTo": [
+          "b-6-rivals-n26"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-6-placation-counter",
     "title": "Contador de aplacamento do Apotheon",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 60,
     "location": "l-grottoes-of-regret",
-    "participants": ["c-alyxian"],
+    "participants": [
+      "c-alyxian"
+    ],
     "summary": "Mecânica do capítulo: cada acto de misericórdia nas visões aplaca o Apotheon. Contam: salvar E consolar os pais (N2); curar Saqiri e/ou caçar carne (N3); salvar aldeões (N4); cada fantasma Zenthas que se desvanece por si (N5); curar Talmyth (N7); tentar falar com Perigee (N24). O total é anunciado aos jogadores e vale uma vantagem por ponto nas Persuasion do cap. 7.",
     "reveals": [],
-    "requires": ["b-6-n1-arrival"],
+    "requires": [
+      "b-6-n1-arrival"
+    ],
     "choices": [],
     "notes": "Mantenha o contador visível (anotação em state.json). A misericórdia mostrada nas visões é literalmente a moeda do melhor final: cada ponto = 1 vantagem em DC 15/17/19. Diga o número aos jogadores só à entrada do Heart.",
     "source": "book"
@@ -114,17 +252,39 @@
   {
     "id": "b-6-n2-parents",
     "title": "N2 Child's Lament: os pais de Alyxian",
-    "arcs": ["a-lore"],
+    "arcs": [
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 70,
     "location": "l-nd-n2-childs-lament",
-    "participants": ["c-alyxian", "c-alyxian-parents"],
+    "participants": [
+      "c-alyxian",
+      "c-alyxian-parents"
+    ],
     "summary": "Visão da infância: a comunidade persegue os pais do rapaz nascido sob Ruidus. Alyxian conclui que, por causa dele, eles sofreriam sempre. Os PCs podem salvá-los e consolá-los.",
-    "reveals": ["r-alyxian-ruidus-birth", "r-alyxian-bad-luck"],
-    "requires": ["b-6-n1-arrival"],
+    "reveals": [
+      "r-alyxian-ruidus-birth",
+      "r-alyxian-bad-luck"
+    ],
+    "requires": [
+      "b-6-n1-arrival"
+    ],
     "choices": [
-      { "label": "Salvar e consolar os pais", "outcome": "+1 aplacamento (só se fizerem as duas coisas).", "leadsTo": ["b-6-n3-saqiri"] },
-      { "label": "Ignorar a visão", "outcome": "Nada acontece; Alyxian fecha-se um pouco mais.", "leadsTo": ["b-6-n3-saqiri"] }
+      {
+        "label": "Salvar e consolar os pais",
+        "outcome": "+1 aplacamento (só se fizerem as duas coisas).",
+        "leadsTo": [
+          "b-6-n3-saqiri"
+        ]
+      },
+      {
+        "label": "Ignorar a visão",
+        "outcome": "Nada acontece; Alyxian fecha-se um pouco mais.",
+        "leadsTo": [
+          "b-6-n3-saqiri"
+        ]
+      }
     ],
     "notes": "Ligue à visão de R16 (a maldição de nascença). Se semeou a lua vermelha em Jigow (J7) e no Ill Omen da estrada, isto é o payoff.",
     "source": "book"
@@ -132,16 +292,31 @@
   {
     "id": "b-6-n3-saqiri",
     "title": "N3 Unforgotten Fallacy: a morte de Saqiri",
-    "arcs": ["a-lore"],
+    "arcs": [
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 80,
     "location": "l-nd-n3-unforgotten-fallacy",
-    "participants": ["c-alyxian", "c-saqiri"],
+    "participants": [
+      "c-alyxian",
+      "c-saqiri"
+    ],
     "summary": "A caçada da juventude: Saqiri Yestrana, capitã de caça, morre na noite em que Alyxian insistiu em caçar. Ele diz ter aprendido cedo o preço do seu egoísmo. Os PCs podem curá-la ou caçar carne por ela.",
-    "reveals": ["r-alyxian-bad-luck"],
-    "requires": ["b-6-n2-parents"],
+    "reveals": [
+      "r-alyxian-bad-luck"
+    ],
+    "requires": [
+      "b-6-n2-parents"
+    ],
     "choices": [
-      { "label": "Curar Saqiri e/ou caçar carne", "outcome": "+1 aplacamento.", "leadsTo": ["b-6-n4-kalagothe-despondence"] }
+      {
+        "label": "Curar Saqiri e/ou caçar carne",
+        "outcome": "+1 aplacamento.",
+        "leadsTo": [
+          "b-6-n4-kalagothe-despondence"
+        ]
+      }
     ],
     "notes": "Alyxian aqui é triste, relutante, mas prestável: responde a perguntas. Primeira oportunidade de o interrogar sobre o azar de uma vida inteira.",
     "source": "book"
@@ -149,17 +324,41 @@
   {
     "id": "b-6-n4-kalagothe-despondence",
     "title": "N4 Haunted Ashes: o saque de Kalagothe + Fragment of Despondence",
-    "arcs": ["a-lore", "a-main"],
+    "arcs": [
+      "a-lore",
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 90,
     "location": "l-nd-n4-haunted-ashes",
-    "participants": ["c-alyxian", "c-kalagothe"],
+    "participants": [
+      "c-alyxian",
+      "c-kalagothe"
+    ],
     "summary": "Kalagothe lidera os próprios aliados de Alyxian no saque de uma aldeia que tinham salvo. Salvar aldeões aplaca. Em N4a está o Fragment of Despondence (esperança abandonada) e o boneco de moorbounder 'Maeska'.",
-    "reveals": ["r-alyxian-bad-luck", "r-alyxian-wants-remembered"],
-    "requires": ["b-6-n3-saqiri"],
+    "reveals": [
+      "r-alyxian-bad-luck",
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-6-n3-saqiri"
+    ],
     "choices": [
-      { "label": "Salvar aldeões", "outcome": "+1 aplacamento.", "leadsTo": ["b-6-n5-zenthas-attachment"] },
-      { "label": "Absorver o Fragment of Despondence", "outcome": "Imune a charmed; não pode usar Help. Dispara uma visão de Apotheon Lore.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+      {
+        "label": "Salvar aldeões",
+        "outcome": "+1 aplacamento.",
+        "leadsTo": [
+          "b-6-n5-zenthas-attachment"
+        ]
+      },
+      {
+        "label": "Absorver o Fragment of Despondence",
+        "outcome": "Imune a charmed; não pode usar Help. Dispara uma visão de Apotheon Lore.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
     ],
     "notes": "Fragment: benefício/inconveniente até morrer, transferir por toque, ou entrar no Heart. Máximo três por criatura.",
     "source": "book"
@@ -167,17 +366,41 @@
   {
     "id": "b-6-n5-zenthas-attachment",
     "title": "N5 Alyxian's Refuge: as Zenthas + Fragment of Attachment",
-    "arcs": ["a-lore", "a-main"],
+    "arcs": [
+      "a-lore",
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 100,
     "location": "l-nd-n5-alyxians-refuge",
-    "participants": ["c-alyxian", "c-zenthas-family", "c-torog"],
+    "participants": [
+      "c-alyxian",
+      "c-zenthas-family",
+      "c-torog"
+    ],
     "summary": "Os fantasmas de Marisa, Celeste e Meri Zenthas, que deram abrigo a Alyxian e morreram pelos grimlocks de Torog no dia seguinte; ele já não recorda os nomes delas. N5a guarda o Fragment of Attachment.",
-    "reveals": ["r-alyxian-bad-luck"],
-    "requires": ["b-6-n4-kalagothe-despondence"],
+    "reveals": [
+      "r-alyxian-bad-luck"
+    ],
+    "requires": [
+      "b-6-n4-kalagothe-despondence"
+    ],
     "choices": [
-      { "label": "Deixar cada fantasma desvanecer-se por si", "outcome": "+1 aplacamento por fantasma que não seja destruído.", "leadsTo": ["b-6-n6-red-door"] },
-      { "label": "Absorver o Fragment of Attachment", "outcome": "Não pode ser frightened a 10 ft de um aliado; desvantagem em saves Wis/Cha longe de aliados.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+      {
+        "label": "Deixar cada fantasma desvanecer-se por si",
+        "outcome": "+1 aplacamento por fantasma que não seja destruído.",
+        "leadsTo": [
+          "b-6-n6-red-door"
+        ]
+      },
+      {
+        "label": "Absorver o Fragment of Attachment",
+        "outcome": "Não pode ser frightened a 10 ft de um aliado; desvantagem em saves Wis/Cha longe de aliados.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
     ],
     "notes": "Deixe os jogadores dizerem os nomes que Alyxian esqueceu: é uma pista para o tema 'ser lembrado'.",
     "source": "book"
@@ -185,14 +408,24 @@
   {
     "id": "b-6-n6-red-door",
     "title": "N6 Loss of Innocence: a porta vermelha",
-    "arcs": ["a-lore"],
+    "arcs": [
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 110,
     "location": "l-nd-n6-loss-of-innocence",
-    "participants": ["c-alyxian", "c-gruumsh", "c-torog"],
+    "participants": [
+      "c-alyxian",
+      "c-gruumsh",
+      "c-torog"
+    ],
     "summary": "Altar de Gruumsh e Torog e uma porta vermelha cuja voz manda o Apotheon deixar os anseios de infância e vestir a armadura para a guerra. Transição da infância para a Calamity.",
-    "reveals": ["r-alyxian-gruumsh"],
-    "requires": ["b-6-n5-zenthas-attachment"],
+    "reveals": [
+      "r-alyxian-gruumsh"
+    ],
+    "requires": [
+      "b-6-n5-zenthas-attachment"
+    ],
     "choices": [],
     "notes": "Sem combate: é um limiar temático. Bom momento para uma visão de Apotheon Lore (rolar d20).",
     "source": "book"
@@ -200,17 +433,42 @@
   {
     "id": "b-6-n7-battle-pity",
     "title": "N7 Battle at the Betrayers' Rise + Fragment of Pity",
-    "arcs": ["a-lore", "a-main"],
+    "arcs": [
+      "a-lore",
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 120,
     "location": "l-nd-n7-battle-betrayers-rise",
-    "participants": ["c-alyxian", "c-talmyth"],
+    "participants": [
+      "c-alyxian",
+      "c-talmyth"
+    ],
     "summary": "Reencenação da batalha em três vagas; Talmyth, veterano da companhia, jaz com 1 hp. Em N7a o Fragment of Pity: compaixão pelos soldados que morreram ao lado dele.",
-    "reveals": ["r-alyxian-three-prayers", "r-alyxian-gruumsh", "r-perigee"],
-    "requires": ["b-6-n6-red-door"],
+    "reveals": [
+      "r-alyxian-three-prayers",
+      "r-alyxian-gruumsh",
+      "r-perigee"
+    ],
+    "requires": [
+      "b-6-n6-red-door"
+    ],
     "choices": [
-      { "label": "Curar Talmyth", "outcome": "+1 aplacamento.", "leadsTo": ["b-6-n8-ruiners-spear"] },
-      { "label": "Absorver o Fragment of Pity", "outcome": "HP extra por Hit Die gasto; desvantagem em death saves.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+      {
+        "label": "Curar Talmyth",
+        "outcome": "+1 aplacamento.",
+        "leadsTo": [
+          "b-6-n8-ruiners-spear"
+        ]
+      },
+      {
+        "label": "Absorver o Fragment of Pity",
+        "outcome": "HP extra por Hit Die gasto; desvantagem em death saves.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
     ],
     "notes": "Ligue às cinco inscrições do templo de Avandra (B5) e à visão de R16: estes são os companheiros que não voltaram. Se semeou Perigee em murais/estátuas, uma figura alada pode aparecer na terceira vaga.",
     "source": "book"
@@ -218,16 +476,33 @@
   {
     "id": "b-6-n8-ruiners-spear",
     "title": "N8 Ruiner's Spear: a lança de Gruumsh",
-    "arcs": ["a-lore", "a-main"],
+    "arcs": [
+      "a-lore",
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 130,
     "location": "l-nd-n8-ruiners-spear",
-    "participants": ["c-alyxian", "c-gruumsh"],
+    "participants": [
+      "c-alyxian",
+      "c-gruumsh"
+    ],
     "summary": "Gruumsh com 100 ft de altura, impossível de combater: sequência de saves de várias habilidades, cada vez mais difíceis. A memória do golpe que destruiu Cael Morrow e abriu o Netherdeep.",
-    "reveals": ["r-alyxian-gruumsh", "r-netherdeep-prison"],
-    "requires": ["b-6-n7-battle-pity"],
+    "reveals": [
+      "r-alyxian-gruumsh",
+      "r-netherdeep-prison"
+    ],
+    "requires": [
+      "b-6-n7-battle-pity"
+    ],
     "choices": [
-      { "label": "Resistir e passar", "outcome": "Chegam a N9.", "leadsTo": ["b-6-n9-portal-rest"] }
+      {
+        "label": "Resistir e passar",
+        "outcome": "Chegam a N9.",
+        "leadsTo": [
+          "b-6-n9-portal-rest"
+        ]
+      }
     ],
     "notes": "Não deixe que tentem 'ganhar': o objectivo é sentir a escala. Ligue à visão dos fantasmas da biblioteca (M8) e à segunda visão de M9.",
     "source": "book"
@@ -235,17 +510,34 @@
   {
     "id": "b-6-n9-portal-rest",
     "title": "N9 Hall of the Portal: descanso",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 140,
     "location": "l-nd-n9-hall-of-the-portal",
-    "participants": ["c-alyxian"],
+    "participants": [
+      "c-alyxian"
+    ],
     "summary": "Portal permanente de duas vias para N1: oportunidade para recuperar e preparar o que vem a seguir. Fim das Grottoes of Regret.",
     "reveals": [],
-    "requires": ["b-6-n8-ruiners-spear"],
+    "requires": [
+      "b-6-n8-ruiners-spear"
+    ],
     "choices": [
-      { "label": "Descansar", "outcome": "Um descanso longo dispara uma visão de Apotheon Lore.", "leadsTo": ["b-6-apotheon-lore-visions", "b-6-vents-fury-escalation"] },
-      { "label": "Voltar a Cael Morrow pelo portal", "outcome": "Podem sair e regressar; o rift fecha ao fim de 1 hora mas pode ser reaberto.", "leadsTo": [] }
+      {
+        "label": "Descansar",
+        "outcome": "Um descanso longo dispara uma visão de Apotheon Lore.",
+        "leadsTo": [
+          "b-6-apotheon-lore-visions",
+          "b-6-vents-fury-escalation"
+        ]
+      },
+      {
+        "label": "Voltar a Cael Morrow pelo portal",
+        "outcome": "Podem sair e regressar; o rift fecha ao fim de 1 hora mas pode ser reaberto.",
+        "leadsTo": []
+      }
     ],
     "notes": "Sítios seguros no Netherdeep: N9 e N11a. Lembre a pressão (10d6/minuto) a quem tire o item de ruidium para dormir.",
     "source": "book"
@@ -253,14 +545,22 @@
   {
     "id": "b-6-vents-fury-escalation",
     "title": "Vents of Fury: três avisos",
-    "arcs": ["a-main"],
+    "arcs": [
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 150,
     "location": "l-vents-of-fury",
-    "participants": ["c-alyxian"],
+    "participants": [
+      "c-alyxian"
+    ],
     "summary": "Nos Vents a presença do Apotheon é cruel: não procura compreensão, quer que os PCs sofram como ele. Quem fala contra ele sofre uma escalada em três golpes: um grito, depois 6d6 fogo, depois um cloaker com o rosto de alguém que o PC ama.",
-    "reveals": ["r-alyxian-split-self"],
-    "requires": ["b-6-n9-portal-rest"],
+    "reveals": [
+      "r-alyxian-split-self"
+    ],
+    "requires": [
+      "b-6-n9-portal-rest"
+    ],
     "choices": [],
     "notes": "Registe quem já levou o primeiro e o segundo aviso. O cloaker é o momento de usar os laços dos PCs (ambições, NPCs amados).",
     "source": "book"
@@ -268,16 +568,28 @@
   {
     "id": "b-6-n12-ruidium-weapons",
     "title": "N12 Scalding Pit: armas de ruidium",
-    "arcs": ["a-ruidium"],
+    "arcs": [
+      "a-ruidium"
+    ],
     "chapter": "ch6",
     "order": 160,
     "location": "l-nd-n12-scalding-pit",
-    "participants": ["c-alyxian"],
+    "participants": [
+      "c-alyxian"
+    ],
     "summary": "Dois death embraces guardam uma ruidium greatsword e um ruidium shield encravados nos respiradouros. Equipamento de ruidium alivia a pressão mas exige saves de corrupção DC 20.",
-    "reveals": ["r-ruidium-properties"],
-    "requires": ["b-6-vents-fury-escalation"],
+    "reveals": [
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-6-vents-fury-escalation"
+    ],
     "choices": [
-      { "label": "Recolher as armas", "outcome": "Mais PCs (ou rivais) protegidos da pressão; mais corrupção acumulada.", "leadsTo": [] }
+      {
+        "label": "Recolher as armas",
+        "outcome": "Mais PCs (ou rivais) protegidos da pressão; mais corrupção acumulada.",
+        "leadsTo": []
+      }
     ],
     "notes": "N11a (Hidden Treasure) fica perto e é um sítio seguro: 750 gp, adaga de jade, poção combinada.",
     "source": "book"
@@ -285,16 +597,34 @@
   {
     "id": "b-6-n14-sepulcher-rancor",
     "title": "N14 Carmine Sepulcher + Fragment of Rancor",
-    "arcs": ["a-lore", "a-main"],
+    "arcs": [
+      "a-lore",
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 170,
     "location": "l-nd-n14-carmine-sepulcher",
-    "participants": ["c-alyxian", "c-avandra"],
+    "participants": [
+      "c-alyxian",
+      "c-avandra"
+    ],
     "summary": "Sarcófagos ilusórios de ruidium com as pessoas das visões das Grottoes; skeletal bloodfins. Em N14a, um santuário de Avandra guarda o Fragment of Rancor: a amargura contra os deuses que o abençoaram e, na sua visão, o abandonaram.",
-    "reveals": ["r-alyxian-three-prayers", "r-perigee"],
-    "requires": ["b-6-vents-fury-escalation"],
+    "reveals": [
+      "r-alyxian-three-prayers",
+      "r-perigee"
+    ],
+    "requires": [
+      "b-6-vents-fury-escalation"
+    ],
     "choices": [
-      { "label": "Absorver o Fragment of Rancor", "outcome": "2d6 psíquico extra num ataque (ou 4d6 em área, recarga em descanso); 2d6 psíquico sempre que falhe um save consciente.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+      {
+        "label": "Absorver o Fragment of Rancor",
+        "outcome": "2d6 psíquico extra num ataque (ou 4d6 em área, recarga em descanso); 2d6 psíquico sempre que falhe um save consciente.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
     ],
     "notes": "Se Perigee foi semeada antes, um dos sarcófagos pode ter a forma dela: prepara o choque de N24.",
     "source": "book"
@@ -302,18 +632,49 @@
   {
     "id": "b-6-theo-and-hunter",
     "title": "N15: Theo Nathope e Alyxian the Hunter",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 180,
     "location": "l-nd-n15-spear-of-the-apotheon",
-    "participants": ["c-alyxian", "c-theo-nathope", "c-alyxian-hunter"],
+    "participants": [
+      "c-alyxian",
+      "c-theo-nathope",
+      "c-alyxian-hunter"
+    ],
     "summary": "Junto à lança do Apotheon (weapon of warning) aparecem uma criança espectral parecida com Alyxian em rapaz e um golem de ruidium rígido como estátua. Theo oferece-se para guiar os PCs; o Hunter só desperta se for atacado ou quando Theo desaparecer.",
-    "reveals": ["r-alyxian-split-self", "r-aboleth-not-alyxian"],
-    "requires": ["b-6-vents-fury-escalation"],
+    "reveals": [
+      "r-alyxian-split-self",
+      "r-aboleth-not-alyxian"
+    ],
+    "requires": [
+      "b-6-vents-fury-escalation"
+    ],
     "choices": [
-      { "label": "Seguir Theo", "outcome": "Guia-os por N16, N17 e N18 e avalia a sua fibra moral.", "leadsTo": ["b-6-n16-moon-abhorrence-key", "b-6-n17-n18-theo-briefing"] },
-      { "label": "Atacar o Hunter", "outcome": "Desperta de imediato; regressa 1 minuto após ser destruído e persegue-os até ao Heart.", "leadsTo": ["b-6-rivals-n26"] },
-      { "label": "Levar a lança de N15", "outcome": "Se entrar no Heart of Despair, o Hunter é destruído de vez.", "leadsTo": ["b-7-alyxian-speaks"] }
+      {
+        "label": "Seguir Theo",
+        "outcome": "Guia-os por N16, N17 e N18 e avalia a sua fibra moral.",
+        "leadsTo": [
+          "b-6-n16-moon-abhorrence-key",
+          "b-6-n17-n18-theo-briefing"
+        ]
+      },
+      {
+        "label": "Atacar o Hunter",
+        "outcome": "Desperta de imediato; regressa 1 minuto após ser destruído e persegue-os até ao Heart.",
+        "leadsTo": [
+          "b-6-rivals-n26"
+        ]
+      },
+      {
+        "label": "Levar a lança de N15",
+        "outcome": "Se entrar no Heart of Despair, o Hunter é destruído de vez.",
+        "leadsTo": [
+          "b-7-alyxian-speaks"
+        ]
+      }
     ],
     "notes": "A afirmação mais clara da campanha de que Alyxian está dividido entre inocência e ódio. Deixe um jogador reparar no anagrama ou dê-o com um check de Intelligence. Theo não pode ser ferido, banido nem dissipado. A lança dispara uma visão de Apotheon Lore.",
     "source": "book"
@@ -321,17 +682,42 @@
   {
     "id": "b-6-n16-moon-abhorrence-key",
     "title": "N16 Curse of Ruidus + Fragment of Abhorrence + chave",
-    "arcs": ["a-main", "a-lore", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-ruidium"
+    ],
     "chapter": "ch6",
     "order": 190,
     "location": "l-nd-n16-curse-of-ruidus",
-    "participants": ["c-alyxian", "c-theo-nathope"],
+    "participants": [
+      "c-alyxian",
+      "c-theo-nathope"
+    ],
     "summary": "Uma lua de ruidium com 50 ft abre olhos injectados de sangue; 2 corrupted giant sharks; tabela de Curses of Ruidus. Em N16a, uma estátua partida de Alyxian segura o Fragment of Abhorrence (ódio a Ruidus, o inimigo que nunca pôde enfrentar) e tem no peito a chave vermelha em crescente que abre a porta leste de N23.",
-    "reveals": ["r-alyxian-ruidus-birth", "r-ruidium-apotheon-sites"],
-    "requires": ["b-6-theo-and-hunter"],
+    "reveals": [
+      "r-alyxian-ruidus-birth",
+      "r-ruidium-apotheon-sites"
+    ],
+    "requires": [
+      "b-6-theo-and-hunter"
+    ],
     "choices": [
-      { "label": "Absorver o Fragment of Abhorrence", "outcome": "Empurra um alvo 10 ft ao acertar; 2d6 psíquico se começar o turno frightened.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] },
-      { "label": "Tirar a chave em crescente", "outcome": "Abre N23 → N24 (Perigee).", "leadsTo": ["b-6-n23-many-futures"] }
+      {
+        "label": "Absorver o Fragment of Abhorrence",
+        "outcome": "Empurra um alvo 10 ft ao acertar; 2d6 psíquico se começar o turno frightened.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      },
+      {
+        "label": "Tirar a chave em crescente",
+        "outcome": "Abre N23 → N24 (Perigee).",
+        "leadsTo": [
+          "b-6-n23-many-futures"
+        ]
+      }
     ],
     "notes": "Theo explica que Ruidus era o inimigo que Alyxian mais odiava e nunca pôde enfrentar. Destruir o Effigy em N25 destrói também esta lua.",
     "source": "book"
@@ -339,16 +725,35 @@
   {
     "id": "b-6-n17-n18-theo-briefing",
     "title": "N17-N18: o briefing de Theo + Fragment of Melancholy",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 200,
     "location": "l-nd-n18-fragment-of-melancholy",
-    "participants": ["c-alyxian", "c-theo-nathope", "c-alyxian-hunter"],
+    "participants": [
+      "c-alyxian",
+      "c-theo-nathope",
+      "c-alyxian-hunter"
+    ],
     "summary": "No arco de N17 uma visão; em N18, entre 3 chuuls, Theo dá a tese do final: há um pedaço do Apotheon intocado por mágoa, fúria, anseio e desespero; os PCs devem apelar a ele e não se limitar a libertá-lo. Pede que não o julguem com dureza. Na primeira distracção, Theo desaparece para sempre e o Hunter ganha vida.",
-    "reveals": ["r-alyxian-split-self", "r-alyxian-wants-remembered"],
-    "requires": ["b-6-theo-and-hunter"],
+    "reveals": [
+      "r-alyxian-split-self",
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-6-theo-and-hunter"
+    ],
     "choices": [
-      { "label": "Absorver o Fragment of Melancholy", "outcome": "Repetir com vantagem um save Wis/Cha falhado (1/descanso longo); se falhar de novo, incapacitated até ao fim do próximo turno.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+      {
+        "label": "Absorver o Fragment of Melancholy",
+        "outcome": "Repetir com vantagem um save Wis/Cha falhado (1/descanso longo); se falhar de novo, incapacitated até ao fim do próximo turno.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
     ],
     "notes": "Theo descreve os momentos em que, com a raiva gasta, ouve riso suave nas grutas. A partir daqui o Hunter segue os PCs sem falhar e conhece todas as portas secretas: use-o como relógio de pressão nos Chasms.",
     "source": "book"
@@ -356,16 +761,32 @@
   {
     "id": "b-6-chasm-loneliness",
     "title": "N19-N21: as cenas da solidão",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 210,
     "location": "l-chasm-of-yearning",
-    "participants": ["c-alyxian", "c-alyxian-hunter"],
+    "participants": [
+      "c-alyxian",
+      "c-alyxian-hunter"
+    ],
     "summary": "Corredores de ilusão (rolar Weird Events a cada deslocação). N19: braços gentis e a caixa dos sinos de casamento da visão 13. N20: cinco espelhos exigem a cada PC um momento definidor, senão 4d10 psíquico e a sentença de ser esquecido. N21: a coroa de uma vida perfeita, DC 19 Wis ou charmed rumo a N22.",
-    "reveals": ["r-alyxian-wants-remembered"],
-    "requires": ["b-6-n17-n18-theo-briefing"],
+    "reveals": [
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-6-n17-n18-theo-briefing"
+    ],
     "choices": [
-      { "label": "Cada PC mostra um momento definidor em N20", "outcome": "Sem dano; excelente cena de roleplay que espelha o anseio de Alyxian por ser lembrado.", "leadsTo": ["b-6-n22-graves-intransigence"] }
+      {
+        "label": "Cada PC mostra um momento definidor em N20",
+        "outcome": "Sem dano; excelente cena de roleplay que espelha o anseio de Alyxian por ser lembrado.",
+        "leadsTo": [
+          "b-6-n22-graves-intransigence"
+        ]
+      }
     ],
     "notes": "Weird Events 6-10 disparam visões de Apotheon Lore. Peça aos jogadores momentos definidores reais das suas fichas; são a resposta implícita à pergunta do Heart.",
     "source": "book"
@@ -373,16 +794,35 @@
   {
     "id": "b-6-n22-graves-intransigence",
     "title": "N22 Cavern of Many Graves + Fragment of Intransigence",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 220,
     "location": "l-nd-n22-cavern-of-many-graves",
-    "participants": ["c-alyxian", "c-corellon"],
+    "participants": [
+      "c-alyxian",
+      "c-corellon"
+    ],
     "summary": "Cada PC encontra a própria lápide; escavar levanta revenants. Pressionar a Jewel of Three Prayers em estado Exalted na reentrância abre N22a: um quarto podre com uma arca marcada com o símbolo de Corellon e o Fragment of Intransigence (recusa de ser movido).",
-    "reveals": ["r-jewel-properties", "r-alyxian-three-prayers"],
-    "requires": ["b-5-temple-arch-heart", "b-6-chasm-loneliness"],
+    "reveals": [
+      "r-jewel-properties",
+      "r-alyxian-three-prayers"
+    ],
+    "requires": [
+      "b-5-temple-arch-heart",
+      "b-6-chasm-loneliness"
+    ],
     "choices": [
-      { "label": "Absorver o Fragment of Intransigence", "outcome": "Nenhuma criatura o pode mover à força; não pode usar Disengage nem Dodge.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+      {
+        "label": "Absorver o Fragment of Intransigence",
+        "outcome": "Nenhuma criatura o pode mover à força; não pode usar Disengage nem Dodge.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
     ],
     "notes": "Gate duro: sem a Jewel Exalted (M9) não há acesso a N22a. Se os rivais têm a Jewel, esta é uma razão concreta para negociar com eles.",
     "source": "book"
@@ -390,16 +830,31 @@
   {
     "id": "b-6-n23-many-futures",
     "title": "N23 Grotto of Many Futures",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 230,
     "location": "l-nd-n23-grotto-of-many-futures",
-    "participants": ["c-alyxian"],
+    "participants": [
+      "c-alyxian"
+    ],
     "summary": "Uma rua de cidade falsa que muda: o anseio de Alyxian por um lar que possa amar. Um death embrace; a porta leste está trancada e só abre com a chave em crescente de N16a.",
-    "reveals": ["r-alyxian-wants-remembered"],
-    "requires": ["b-6-n16-moon-abhorrence-key"],
+    "reveals": [
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-6-n16-moon-abhorrence-key"
+    ],
     "choices": [
-      { "label": "Abrir a porta leste com a chave", "outcome": "Acesso a N24 e Perigee.", "leadsTo": ["b-6-n24-perigee-deception"] }
+      {
+        "label": "Abrir a porta leste com a chave",
+        "outcome": "Acesso a N24 e Perigee.",
+        "leadsTo": [
+          "b-6-n24-perigee-deception"
+        ]
+      }
     ],
     "notes": "Deixe a rua parecer-se com Jigow ou com a terra natal de um PC: o Netherdeep lê os intrusos.",
     "source": "book"
@@ -407,35 +862,86 @@
   {
     "id": "b-6-n24-perigee-deception",
     "title": "N24 Perigee + Fragment of Deception",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 240,
     "location": "l-nd-n24-cavern-of-many-waterfalls",
-    "participants": ["c-alyxian", "c-perigee", "c-sehanine"],
-    "summary": "Perigee, a deva de Sehanine que combateu ao lado de Alyxian e o procurou durante séculos, ataca para vingar a perturbação dos seus sonhos. Tentar convencê-la (DC 16) conta como aplacamento, mesmo falhando. Derrotada, suspira e regressa à Moon Weaver sem ruidium. Em N24a, uma gruta de luar inteiramente ilusória esconde o Fragment of Deception atrás do puzzle do espelho.",
-    "reveals": ["r-perigee", "r-alyxian-three-prayers"],
-    "requires": ["b-6-n23-many-futures"],
-    "choices": [
-      { "label": "Tentar falar com ela (DC 16 Persuasion)", "outcome": "+1 aplacamento quer resulte quer não; se resultar pode evitar o combate.", "leadsTo": ["b-6-placation-counter"] },
-      { "label": "Derrotá-la", "outcome": "Libertada; volta para Sehanine. No epílogo do pior final, Sehanine pode enviá-la em socorro dos PCs.", "leadsTo": [] },
-      { "label": "Absorver o Fragment of Deception", "outcome": "Reacção: invisível e teleporte 60 ft ao sofrer dano; desvantagem em checks de Wisdom.", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+    "participants": [
+      "c-alyxian",
+      "c-perigee",
+      "c-sehanine"
     ],
-    "notes": "Payoff da Lore list (Remix): só funciona se os jogadores já souberem quem é Perigee (mural no Rise, poema, estátua em Cael Morrow, a mulher alta da visão de R16). Objectivo: 'É a Perigee!'.",
+    "summary": "Perigee, a deva de Sehanine que combateu ao lado de Alyxian e o procurou durante séculos, ataca para vingar a perturbação dos seus sonhos. Tentar convencê-la (DC 16) conta como aplacamento, mesmo falhando. Derrotada, suspira e regressa à Moon Weaver sem ruidium. Em N24a, uma gruta de luar inteiramente ilusória esconde o Fragment of Deception atrás do puzzle do espelho.",
+    "reveals": [
+      "r-perigee",
+      "r-alyxian-three-prayers"
+    ],
+    "requires": [
+      "b-6-n23-many-futures"
+    ],
+    "choices": [
+      {
+        "label": "Tentar falar com ela (DC 16 Persuasion)",
+        "outcome": "+1 aplacamento quer resulte quer não; se resultar pode evitar o combate.",
+        "leadsTo": [
+          "b-6-placation-counter"
+        ]
+      },
+      {
+        "label": "Derrotá-la",
+        "outcome": "Libertada; volta para Sehanine. No epílogo do pior final, Sehanine pode enviá-la em socorro dos PCs.",
+        "leadsTo": []
+      },
+      {
+        "label": "Absorver o Fragment of Deception",
+        "outcome": "Reacção: invisível e teleporte 60 ft ao sofrer dano; desvantagem em checks de Wisdom.",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-6-n25-effigy-loathing",
     "title": "N25 Effigy of Ruidus + Fragment of Loathing",
-    "arcs": ["a-main", "a-lore", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-ruidium"
+    ],
     "chapter": "ch6",
     "order": 250,
     "location": "l-nd-n25-fragment-of-loathing",
-    "participants": ["c-alyxian", "c-avandra", "c-corellon", "c-sehanine"],
+    "participants": [
+      "c-alyxian",
+      "c-avandra",
+      "c-corellon",
+      "c-sehanine"
+    ],
     "summary": "O Effigy of Ruidus (AC 17, 200 hp) tem três camadas de escudo que só as três lanças de ruidium dos altares de Avandra, Corellon e Sehanine dissipam. Destruí-lo é o sonho de Alyxian (um mundo onde Ruidus pode ser destruído): só então aparece o Fragment of Loathing, e a lua de N16 desfaz-se.",
-    "reveals": ["r-jewel-three-prayers", "r-alyxian-three-prayers", "r-alyxian-ruidus-birth"],
-    "requires": ["b-6-chasm-loneliness"],
+    "reveals": [
+      "r-jewel-three-prayers",
+      "r-alyxian-three-prayers",
+      "r-alyxian-ruidus-birth"
+    ],
+    "requires": [
+      "b-6-chasm-loneliness"
+    ],
     "choices": [
-      { "label": "Absorver o Fragment of Loathing", "outcome": "Vantagem nos ataques contra quem o feriu até ao fim do próximo turno; desvantagem em checks de Charisma (cuidado: prejudica as Persuasion do cap. 7).", "leadsTo": ["b-6-fragments-gate", "b-6-apotheon-lore-visions"] }
+      {
+        "label": "Absorver o Fragment of Loathing",
+        "outcome": "Vantagem nos ataques contra quem o feriu até ao fim do próximo turno; desvantagem em checks de Charisma (cuidado: prejudica as Persuasion do cap. 7).",
+        "leadsTo": [
+          "b-6-fragments-gate",
+          "b-6-apotheon-lore-visions"
+        ]
+      }
     ],
     "notes": "Os três altares repetem a estrutura das três preces. Avise (via Theo ou visão) que Loathing dá desvantagem em Charisma: quem o leva ao Heart perde-o à entrada, mas quem o transporta pelo caminho sofre.",
     "source": "book"
@@ -443,14 +949,23 @@
   {
     "id": "b-6-fragments-gate",
     "title": "Fragments of Suffering: a regra do portão",
-    "arcs": ["a-main", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 260,
     "location": "l-nd-n26-sanctuary-of-despair",
-    "participants": ["c-alyxian"],
+    "participants": [
+      "c-alyxian"
+    ],
     "summary": "Para entrar no Heart of Despair uma criatura tem de ter absorvido pelo menos um dos nove Fragments of Suffering. Absorver é uma acção; máximo três por criatura; transferem-se por toque; voltam ao sítio de origem se o portador morre ou entra no Heart. Para quem os carrega, a superfície do Heart é lama; para os outros, sólido impenetrável.",
-    "reveals": ["r-alyxian-split-self"],
-    "requires": ["b-6-n1-arrival"],
+    "reveals": [
+      "r-alyxian-split-self"
+    ],
+    "requires": [
+      "b-6-n1-arrival"
+    ],
     "choices": [],
     "notes": "Nove fragments, duas companhias: os rivais também precisam deles; é a tensão de N26. Cada absorção dispara uma visão de Apotheon Lore. Mapa: Regret = Despondence/Attachment/Pity; Fury = Rancor/Abhorrence/Melancholy; Yearning = Intransigence/Deception/Loathing. À entrada do Heart os fragments ardem e são arrancados da alma.",
     "source": "book"
@@ -458,110 +973,284 @@
   {
     "id": "b-6-apotheon-lore-visions",
     "title": "Apotheon Lore: as vinte visões",
-    "arcs": ["a-lore"],
+    "arcs": [
+      "a-lore"
+    ],
     "chapter": "ch6",
     "order": 270,
     "location": "l-netherdeep",
-    "participants": ["c-alyxian", "c-perigee", "c-alyxian-parents", "c-saqiri"],
+    "participants": [
+      "c-alyxian",
+      "c-perigee",
+      "c-alyxian-parents",
+      "c-saqiri"
+    ],
     "summary": "Segunda faixa do capítulo: vinte visões curtas da vida do Apotheon, disparadas por descansos, absorção de fragments, ficar inconsciente, o arco de N17, a lança de N15 e os Weird Events 6-10. Juntas contam a biografia inteira, do nascimento sob Ruidus ao momento em que se arma com o poder de mudar o destino.",
-    "reveals": ["r-alyxian-ruidus-birth", "r-alyxian-bad-luck", "r-alyxian-three-prayers", "r-alyxian-gruumsh", "r-netherdeep-prison", "r-perigee", "r-alyxian-wants-remembered"],
-    "requires": ["b-6-n1-arrival"],
+    "reveals": [
+      "r-alyxian-ruidus-birth",
+      "r-alyxian-bad-luck",
+      "r-alyxian-three-prayers",
+      "r-alyxian-gruumsh",
+      "r-netherdeep-prison",
+      "r-perigee",
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-6-n1-arrival"
+    ],
     "choices": [],
-    "notes": "Remix: ignore a ordem linear do livro. Role um d20 na tabela e dê as visões fora de ordem; os jogadores reconstroem a sequência. Marque as já saídas (20 entradas). Se a Lore list foi semeada desde Jigow, cada visão cai com reconhecimento em vez de exposição.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-6-rivals-n26",
     "title": "N26 Sanctuary of Despair: os rivais à porta do Heart",
-    "arcs": ["a-rivals", "a-main"],
+    "arcs": [
+      "a-rivals",
+      "a-main"
+    ],
     "chapter": "ch6",
     "order": 280,
     "location": "l-nd-n26-sanctuary-of-despair",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals", "c-alyxian", "c-alyxian-hunter"],
-    "summary": "O confronto recomendado com os rivais, diante do Heart of Despair. Rivais amigáveis doam os seus fragments ou entram com os PCs; hostis exigem que os PCs lhes entreguem todos os que obtiveram. Quem não carrega um fragment não entra.",
-    "reveals": ["r-sixth-missions-doomed", "r-faction-agendas"],
-    "requires": ["b-6-fragments-gate"],
-    "choices": [
-      { "label": "Rivais amigáveis: doam fragments / entram juntos", "outcome": "Debate sobre o destino de Alyxian; entram todos ou só os PCs, por acordo.", "leadsTo": ["b-7-alyxian-speaks"] },
-      { "label": "Rivais indiferentes: discussão acesa", "outcome": "Pode virar para qualquer lado; o Princípio de Oposição decide quem entra.", "leadsTo": ["b-7-alyxian-speaks"] },
-      { "label": "Rivais hostis: exigem os fragments", "outcome": "Negociação agressiva ou combate (tier 3). Se vencerem, entram eles e os PCs ficam de fora.", "leadsTo": ["b-7-alyxian-speaks"] }
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes",
+      "f-rivals",
+      "c-alyxian",
+      "c-alyxian-hunter"
     ],
-    "notes": "Remix: jogue os rivais a sério e até ao fim. A atitude escolhe só o modo (hostil = negociação agressiva; indiferente = discussão; amigável = debate). Princípio de Oposição: seja qual for o plano dos PCs (libertar / matar / curar), os rivais defendem o contrário; divida as opiniões entre os cinco (Ayo: 'ele é louco, vai condenar o mundo'; Galsariad: 'está para lá de qualquer ajuda'; Maggie: 'está a sofrer, não o podes assassinar'). Obrigue os jogadores a justificar a escolha. Se o Hunter ainda está vivo, chega a meio da discussão.",
+    "summary": "O confronto recomendado com os rivais, diante do Heart of Despair. Rivais amigáveis doam os seus fragments ou entram com os PCs; hostis exigem que os PCs lhes entreguem todos os que obtiveram. Quem não carrega um fragment não entra.",
+    "reveals": [
+      "r-sixth-missions-doomed",
+      "r-faction-agendas"
+    ],
+    "requires": [
+      "b-6-fragments-gate"
+    ],
+    "choices": [
+      {
+        "label": "Rivais amigáveis: doam fragments / entram juntos",
+        "outcome": "Debate sobre o destino de Alyxian; entram todos ou só os PCs, por acordo.",
+        "leadsTo": [
+          "b-7-alyxian-speaks"
+        ]
+      },
+      {
+        "label": "Rivais indiferentes: discussão acesa",
+        "outcome": "Pode virar para qualquer lado; o Princípio de Oposição decide quem entra.",
+        "leadsTo": [
+          "b-7-alyxian-speaks"
+        ]
+      },
+      {
+        "label": "Rivais hostis: exigem os fragments",
+        "outcome": "Negociação agressiva ou combate (tier 3). Se vencerem, entram eles e os PCs ficam de fora.",
+        "leadsTo": [
+          "b-7-alyxian-speaks"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
-
   {
     "id": "b-7-alyxian-speaks",
     "title": "Alyxian fala: a entrevista",
-    "arcs": ["a-main", "a-lore", "a-ruidium", "a-rivals", "a-allegiance", "a-consortium", "a-cobalt"],
+    "arcs": [
+      "a-main",
+      "a-lore",
+      "a-ruidium",
+      "a-rivals",
+      "a-allegiance",
+      "a-consortium",
+      "a-cobalt"
+    ],
     "chapter": "ch7",
     "order": 10,
     "location": "l-hd-h1-statue-of-alyxian",
-    "participants": ["c-alyxian", "f-rivals", "c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes"],
+    "participants": [
+      "c-alyxian",
+      "f-rivals",
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes"
+    ],
     "summary": "Convergência de todas as pistas. Da estátua H1, Alyxian diz que os PCs viram o que fez e no que se tornou, e pede-lhes que o julguem: pode sair? Sete tópicos de entrevista (personalidade, passado, futuro, mágoa, fúria, anseio, o Heart e o ruidium), cada um lido com DC 21 Insight: falha = sincero e grato; sucesso = profundamente dividido; sucesso por 5+ = a ficar impaciente. A decisão tem de ser unânime.",
-    "reveals": ["r-alyxian-split-self", "r-alyxian-wants-remembered", "r-netherdeep-prison", "r-sixth-missions-doomed", "r-shrines"],
-    "requires": ["b-6-rivals-n26"],
+    "reveals": [
+      "r-alyxian-split-self",
+      "r-alyxian-wants-remembered",
+      "r-netherdeep-prison",
+      "r-sixth-missions-doomed",
+      "r-shrines"
+    ],
+    "requires": [
+      "b-6-rivals-n26"
+    ],
     "choices": [
-      { "label": "Libertar sem curar (unânime)", "outcome": "Ele arqueja de surpresa e pergunta se têm a certeza (DC 16 Insight sente a dúvida). Se insistirem: pior final.", "leadsTo": ["b-7-ending-worst"] },
-      { "label": "Qualquer outra proposta, demora ou dúvida aberta", "outcome": "O Apotheon torna-se hostil: começa o combate em três fases.", "leadsTo": ["b-7-battle-tormented"] },
-      { "label": "Destruir a estátua H1", "outcome": "Salta directamente para o combate.", "leadsTo": ["b-7-battle-tormented"] }
+      {
+        "label": "Libertar sem curar (unânime)",
+        "outcome": "Ele arqueja de surpresa e pergunta se têm a certeza (DC 16 Insight sente a dúvida). Se insistirem: pior final.",
+        "leadsTo": [
+          "b-7-ending-worst"
+        ]
+      },
+      {
+        "label": "Qualquer outra proposta, demora ou dúvida aberta",
+        "outcome": "O Apotheon torna-se hostil: começa o combate em três fases.",
+        "leadsTo": [
+          "b-7-battle-tormented"
+        ]
+      },
+      {
+        "label": "Destruir a estátua H1",
+        "outcome": "Salta directamente para o combate.",
+        "leadsTo": [
+          "b-7-battle-tormented"
+        ]
+      }
     ],
     "timer": "Decisão unânime; demorar demasiado torna-o hostil",
-    "notes": "Toda a Lore list converge aqui: use o que os jogadores já concluíram (r-alyxian-*) como perguntas deles a ele. Água a 20 ft, water walk por 1 hora para todos. Fragments arrancados à entrada. Remix: os rivais presentes discutem a agenda em tempo real (Princípio de Oposição); espere que o grupo não esteja unido e deixe as duas companhias fracturar-se em novas alianças. Se a lança de N15 entrou, o Hunter morreu. Anuncie agora o contador de aplacamento.",
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-7-battle-tormented",
     "title": "Fase 1: Alyxian the Tormented (DC 15)",
-    "arcs": ["a-main", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
     "chapter": "ch7",
     "order": 20,
     "location": "l-heart-of-despair",
-    "participants": ["c-alyxian", "f-rivals"],
-    "summary": "Aberração Huge (CR 11, 150 hp, imune a necrótico, Legendary Resistance 2/dia): niilista, desanimado e colérico. Consolá-lo com DC 15 Persuasion tira-lhe 20 hp. Ele implora que destruam esta forma monstruosa: sente o espírito a tentar escapar.",
-    "reveals": ["r-alyxian-split-self", "r-shrines"],
-    "requires": ["b-7-alyxian-speaks"],
-    "choices": [
-      { "label": "Reduzir a 0 hp (armas ou consolo)", "outcome": "Emerge Alyxian the Callous.", "leadsTo": ["b-7-battle-callous"] },
-      { "label": "Ser derrotados", "outcome": "Ele desaparece com uma gargalhada: pior final.", "leadsTo": ["b-7-ending-worst"] }
+    "participants": [
+      "c-alyxian",
+      "f-rivals"
     ],
-    "notes": "Lair actions vêm das ruínas H2-H4; um PC pode rezar num sítio (DC 15 Religion, vantagem para devoto) para o desligar de vez e infligir 14 psíquico. Contador de aplacamento = vantagens disponíveis nas Persuasion. Rivais amigáveis/indiferentes lutam ao lado; hostis atacam (ou, Remix, discutem enquanto lutam).",
+    "summary": "Aberração Huge (CR 11, 150 hp, imune a necrótico, Legendary Resistance 2/dia): niilista, desanimado e colérico. Consolá-lo com DC 15 Persuasion tira-lhe 20 hp. Ele implora que destruam esta forma monstruosa: sente o espírito a tentar escapar.",
+    "reveals": [
+      "r-alyxian-split-self",
+      "r-shrines"
+    ],
+    "requires": [
+      "b-7-alyxian-speaks"
+    ],
+    "choices": [
+      {
+        "label": "Reduzir a 0 hp (armas ou consolo)",
+        "outcome": "Emerge Alyxian the Callous.",
+        "leadsTo": [
+          "b-7-battle-callous"
+        ]
+      },
+      {
+        "label": "Ser derrotados",
+        "outcome": "Ele desaparece com uma gargalhada: pior final.",
+        "leadsTo": [
+          "b-7-ending-worst"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-7-battle-callous",
     "title": "Fase 2: Alyxian the Callous (DC 17)",
-    "arcs": ["a-main", "a-ruidium"],
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
     "chapter": "ch7",
     "order": 30,
     "location": "l-heart-of-despair",
-    "participants": ["c-alyxian", "f-rivals"],
-    "summary": "Celestial Large (CR 12, 157 hp, imune a radiante): frio e distante, vê-se como um ser perfeito e 'santo' e acha que o mundo deve ser condenado pelos crimes contra ele. Consolá-lo com DC 17 Persuasion tira-lhe 25 hp. Pede, se não há justiça, ao menos uma derrota honrosa.",
-    "reveals": ["r-alyxian-wants-remembered"],
-    "requires": ["b-7-battle-tormented"],
-    "choices": [
-      { "label": "Reduzir a 0 hp", "outcome": "Emerge Alyxian the Dispossessed.", "leadsTo": ["b-7-battle-dispossessed"] },
-      { "label": "Ser derrotados", "outcome": "Pior final.", "leadsTo": ["b-7-ending-worst"] }
+    "participants": [
+      "c-alyxian",
+      "f-rivals"
     ],
-    "notes": "As três formas são os mecanismos de defesa da vida mortal dele tornados épicos (Remix): tormento, frieza, despojamento. Continue a desligar sítios de oração.",
+    "summary": "Celestial Large (CR 12, 157 hp, imune a radiante): frio e distante, vê-se como um ser perfeito e 'santo' e acha que o mundo deve ser condenado pelos crimes contra ele. Consolá-lo com DC 17 Persuasion tira-lhe 25 hp. Pede, se não há justiça, ao menos uma derrota honrosa.",
+    "reveals": [
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-7-battle-tormented"
+    ],
+    "choices": [
+      {
+        "label": "Reduzir a 0 hp",
+        "outcome": "Emerge Alyxian the Dispossessed.",
+        "leadsTo": [
+          "b-7-battle-dispossessed"
+        ]
+      },
+      {
+        "label": "Ser derrotados",
+        "outcome": "Pior final.",
+        "leadsTo": [
+          "b-7-ending-worst"
+        ]
+      }
+    ],
+    "notes": "",
     "source": "book"
   },
   {
     "id": "b-7-battle-dispossessed",
     "title": "Fase 3: Alyxian the Dispossessed (DC 19) — matar ou redimir",
-    "arcs": ["a-main", "a-ruidium", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-lore"
+    ],
     "chapter": "ch7",
     "order": 40,
     "location": "l-heart-of-despair",
-    "participants": ["c-alyxian", "f-rivals"],
+    "participants": [
+      "c-alyxian",
+      "f-rivals"
+    ],
     "summary": "Humanóide Medium (CR 13, 153 hp; Stoneheart Dagger petrifica; Ruidium Shard corrompe): cansado, o peso dos séculos a vencer a raiva. Precisa de ser guiado de volta à luz. Falar-lhe com empatia é uma acção seguida de DC 19 Persuasion (ou outro check adequado que lhe recorde o homem bom que pode ser). Três sucessos = catarse e Alyxian the Absolved; 0 hp = morte.",
-    "reveals": ["r-alyxian-split-self", "r-alyxian-wants-remembered"],
-    "requires": ["b-7-battle-callous"],
+    "reveals": [
+      "r-alyxian-split-self",
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-7-battle-callous"
+    ],
     "choices": [
-      { "label": "Redimir: 3 sucessos DC 19", "outcome": "Transforma-se em Alyxian the Absolved (Lawful Good, CR 14) e diz sentir a alma leve. Se lhe derem licença unânime para sair: melhor final.", "leadsTo": ["b-7-ending-best"] },
-      { "label": "Destruir", "outcome": "Diz ter tido tanto frio, tão só; a luz apaga-se. Final neutro.", "leadsTo": ["b-7-ending-neutral"] },
-      { "label": "Matar Alyxian the Absolved depois de o redimir", "outcome": "Conta como final neutro.", "leadsTo": ["b-7-ending-neutral"] },
-      { "label": "Ser derrotados", "outcome": "Pior final.", "leadsTo": ["b-7-ending-worst"] }
+      {
+        "label": "Redimir: 3 sucessos DC 19",
+        "outcome": "Transforma-se em Alyxian the Absolved (Lawful Good, CR 14) e diz sentir a alma leve. Se lhe derem licença unânime para sair: melhor final.",
+        "leadsTo": [
+          "b-7-ending-best"
+        ]
+      },
+      {
+        "label": "Destruir",
+        "outcome": "Diz ter tido tanto frio, tão só; a luz apaga-se. Final neutro.",
+        "leadsTo": [
+          "b-7-ending-neutral"
+        ]
+      },
+      {
+        "label": "Matar Alyxian the Absolved depois de o redimir",
+        "outcome": "Conta como final neutro.",
+        "leadsTo": [
+          "b-7-ending-neutral"
+        ]
+      },
+      {
+        "label": "Ser derrotados",
+        "outcome": "Pior final.",
+        "leadsTo": [
+          "b-7-ending-worst"
+        ]
+      }
     ],
     "notes": "Aceite checks criativos: mostrar-lhe a Jewel, dizer os nomes das Zenthas, cantar a canção de Maggie, recordar a inscrição dos companheiros em B5. Cada ponto de aplacamento = uma vantagem. Quem tem o Fragment of Loathing já o perdeu à entrada, mas lembre-se dos que ficaram de fora.",
     "source": "book"
@@ -569,16 +1258,44 @@
   {
     "id": "b-7-ending-worst",
     "title": "Worst Ending: Unleashing Devastation",
-    "arcs": ["a-main", "a-ruidium", "a-rivals", "a-allegiance", "a-consortium", "a-cobalt", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-rivals",
+      "a-allegiance",
+      "a-consortium",
+      "a-cobalt",
+      "a-lore"
+    ],
     "chapter": "ch7",
     "order": 50,
     "location": "l-heart-of-despair",
-    "participants": ["c-alyxian", "f-rivals", "f-allegiance", "f-consortium", "f-cobalt-soul", "c-perigee", "c-sehanine", "c-avandra", "c-corellon", "f-betrayer-gods"],
+    "participants": [
+      "c-alyxian",
+      "f-rivals",
+      "f-allegiance",
+      "f-consortium",
+      "f-cobalt-soul",
+      "c-perigee",
+      "c-sehanine",
+      "c-avandra",
+      "c-corellon",
+      "f-betrayer-gods"
+    ],
     "summary": "Alyxian é libertado sem recuperar a compaixão (por escolha unânime na entrevista, ou por derrota dos PCs). Corre pelo Netherdeep e irrompe em Ank'Harel; durante um ano e um dia Ruidus fica cheia e ele pode aparecer em qualquer lado como nuvem negra oleosa que arrasa cidades em dias. O ruidium NÃO é destruído. Os PCs emergem para ver Ank'Harel em chamas.",
-    "reveals": ["r-sixth-missions-doomed", "r-netherdeep-leaking"],
-    "requires": ["b-7-alyxian-speaks"],
+    "reveals": [
+      "r-sixth-missions-doomed",
+      "r-netherdeep-leaking"
+    ],
+    "requires": [
+      "b-7-alyxian-speaks"
+    ],
     "choices": [
-      { "label": "Continuar a campanha", "outcome": "Bênçãos de outras Prime Deities; um exército de Exandria contra Alyxian e os cultistas que acorrem a ele; ou pactos com os Betrayer Gods.", "leadsTo": [] }
+      {
+        "label": "Continuar a campanha",
+        "outcome": "Bênçãos de outras Prime Deities; um exército de Exandria contra Alyxian e os cultistas que acorrem a ele; ou pactos com os Betrayer Gods.",
+        "leadsTo": []
+      }
     ],
     "notes": "Facções: o único final em que Allegiance e Consortium ficam com o que queriam (ruidium), ao preço do mundo; a Cobalt Soul falha C6. Rivais (3x3, coluna 'unleashed'): amigáveis = aliados firmes, vão onde os PCs os mandarem para conter o desastre; indiferentes = culpam os PCs mas percebem que só sobrevivem unidos; hostis = culpam os PCs e sabotam-nos junto de líderes e nações, pintando-os como intrometidos egoístas. Epílogo divino: Avandra, Corellon e Sehanine podem enviar emissários (Sehanine manda Perigee com apoio ou refúgio); os Betrayer Gods oferecem dons com preço: Asmodeus (diabos), Gruumsh e Bane (exércitos), Lolth (discórdia entre os adoradores de Alyxian), Tiamat (dragões cromáticos), Torog (demónios e purple worms), Vecna (itens que corrompem), Zehir (assassinos ou veneno contra a divindade); depois de Alyxian, os cultos dominam. Epíteto dos PCs: culpados por libertar uma alma sobre um mundo desprevenido.",
     "source": "book"
@@ -586,16 +1303,40 @@
   {
     "id": "b-7-ending-neutral",
     "title": "Neutral Ending: Alyxian at Rest",
-    "arcs": ["a-main", "a-ruidium", "a-rivals", "a-allegiance", "a-consortium", "a-cobalt", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-rivals",
+      "a-allegiance",
+      "a-consortium",
+      "a-cobalt",
+      "a-lore"
+    ],
     "chapter": "ch7",
     "order": 60,
     "location": "l-heart-of-despair",
-    "participants": ["c-alyxian", "f-rivals", "f-allegiance", "f-consortium", "f-cobalt-soul", "c-alyxian-hunter"],
+    "participants": [
+      "c-alyxian",
+      "f-rivals",
+      "f-allegiance",
+      "f-consortium",
+      "f-cobalt-soul",
+      "c-alyxian-hunter"
+    ],
     "summary": "Alyxian é destruído (na terceira fase, ou Alyxian the Absolved morto depois de redimido). Todo o ruidium de Exandria derrete sem deixar rasto e toda a corrupção termina. O Netherdeep colapsa: 30 minutos para sair, com criaturas hostis (talvez os rivais) a tentar barrar o caminho. Visão de despedida: cada PC vê-se a dar o golpe de Gruumsh, depois flores na areia ensanguentada e Ank'Harel em paz.",
-    "reveals": ["r-sixth-missions-doomed", "r-ruidium-properties"],
-    "requires": ["b-7-alyxian-speaks"],
+    "reveals": [
+      "r-sixth-missions-doomed",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-7-alyxian-speaks"
+    ],
     "choices": [
-      { "label": "Sair em 30 minutos", "outcome": "Quem não sai perde-se com o Netherdeep.", "leadsTo": [] }
+      {
+        "label": "Sair em 30 minutos",
+        "outcome": "Quem não sai perde-se com o Netherdeep.",
+        "leadsTo": []
+      }
     ],
     "timer": "30 minutos para sair",
     "notes": "Facções: o fim do ruidium delicia a Cobalt Soul (C6 cumprida), irrita a Allegiance e enfurece o Consortium (A6 e B6 falham); quem representou bem a sua facção pode ser convidado para liderança. Rivais (coluna 'killed'): amigáveis = ajudam a fugir e mais tarde convidam para uma taberna em Ank'Harel para recordar e seguir em frente; indiferentes = reportam à facção sem se pôr acima nem abaixo dos PCs e partem para construir reputação noutro lado; hostis = reportam que os PCs destruíram o acesso ao ruidium e mataram um herói lendário, sabotam a relação dos PCs com a própria facção e disputam o título de aventureiros mais cabais. Epílogo: os PCs como quem deu paz a uma alma atormentada.",
@@ -604,17 +1345,48 @@
   {
     "id": "b-7-ending-best",
     "title": "Best Ending: A World That Remembered",
-    "arcs": ["a-main", "a-ruidium", "a-rivals", "a-allegiance", "a-consortium", "a-cobalt", "a-lore"],
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-rivals",
+      "a-allegiance",
+      "a-consortium",
+      "a-cobalt",
+      "a-lore"
+    ],
     "chapter": "ch7",
     "order": 70,
     "location": "l-heart-of-despair",
-    "participants": ["c-alyxian", "f-rivals", "f-allegiance", "f-consortium", "f-cobalt-soul", "c-avandra", "c-corellon", "c-sehanine"],
+    "participants": [
+      "c-alyxian",
+      "f-rivals",
+      "f-allegiance",
+      "f-consortium",
+      "f-cobalt-soul",
+      "c-avandra",
+      "c-corellon",
+      "c-sehanine"
+    ],
     "summary": "Alyxian recebeu bondade e foi lembrado do amor: três sucessos DC 19 na terceira fase e permissão unânime para Alyxian the Absolved sair. A destruição das formas corrompidas derrete todo o ruidium de Exandria. Nos 30 minutos de colapso ele lança water breathing e luta ao lado dos PCs; rivais hostis fogem em vez de o enfrentar. Cá fora, fica boquiaberto com Ank'Harel e sente-se deslocado; com tempo encontra paz e novos amigos.",
-    "reveals": ["r-sixth-missions-doomed", "r-alyxian-wants-remembered", "r-ruidium-properties"],
-    "requires": ["b-7-alyxian-speaks"],
+    "reveals": [
+      "r-sixth-missions-doomed",
+      "r-alyxian-wants-remembered",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-7-alyxian-speaks"
+    ],
     "choices": [
-      { "label": "Ajudá-lo a instalar-se no novo mundo", "outcome": "Encontra paz mais depressa; possível bênção de Avandra, Corellon ou Sehanine para cada PC.", "leadsTo": [] },
-      { "label": "Deixá-lo seguir o seu caminho", "outcome": "Com o tempo também encontra paz.", "leadsTo": [] }
+      {
+        "label": "Ajudá-lo a instalar-se no novo mundo",
+        "outcome": "Encontra paz mais depressa; possível bênção de Avandra, Corellon ou Sehanine para cada PC.",
+        "leadsTo": []
+      },
+      {
+        "label": "Deixá-lo seguir o seu caminho",
+        "outcome": "Com o tempo também encontra paz.",
+        "leadsTo": []
+      }
     ],
     "timer": "30 minutos para sair",
     "notes": "Facções: como no neutro, o fim do ruidium delicia a Cobalt Soul (C6 cumprida), irrita a Allegiance e enfurece o Consortium. Rivais (coluna 'redeemed'): amigáveis = reconhecem que os PCs prevaleceram e honram-nos numa noite de celebração, podendo tornar-se amigos íntimos; indiferentes = Ayo promete estar lá da próxima vez, nem que seja para ser um espinho; hostis = percebem que nada mais têm a fazer aqui e partem para terras distantes. Epítetos: the Redeemers, the Prayer Bearers, the Hope Bringers, the Soul Healers. Perigee, já livre, pode reaparecer como emissária de Sehanine.",
@@ -623,16 +1395,33 @@
   {
     "id": "b-7-heroes-unsung",
     "title": "Heroes Unsung (se todos os rivais morreram)",
-    "arcs": ["a-rivals"],
+    "arcs": [
+      "a-rivals"
+    ],
     "chapter": "ch7",
     "order": 80,
     "location": "l-ank-harel",
-    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
+    "participants": [
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-galsariad-ardyth",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes",
+      "f-rivals"
+    ],
     "summary": "Se a companhia rival morreu inteira, os PCs sonham com eles durante semanas: o olhar firme de Maggie sem som, a explosão de raiva de Ayo, Galsariad a tentar em vão voltar atrás no tempo, Dermot de luto, Irvan a perguntar-se se alguma vez fez algo grande. No último sonho Ayo saúda cada PC e pede que se lembrem deles, talvez com um monumento em Jigow.",
-    "reveals": ["r-alyxian-wants-remembered"],
-    "requires": ["b-7-alyxian-speaks"],
+    "reveals": [
+      "r-alyxian-wants-remembered"
+    ],
+    "requires": [
+      "b-7-alyxian-speaks"
+    ],
     "choices": [
-      { "label": "Erguer um monumento em Jigow", "outcome": "Fecha o tema da campanha: ser lembrado.", "leadsTo": [] }
+      {
+        "label": "Erguer um monumento em Jigow",
+        "outcome": "Fecha o tema da campanha: ser lembrado.",
+        "leadsTo": []
+      }
     ],
     "notes": "Espelho final do tema de Alyxian. Ligue aos objectivos dos rivais nunca cumpridos (Ayo: matar um monstro lendário; Maggie: escrever algo que faça chorar).",
     "source": "book"

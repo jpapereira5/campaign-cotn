@@ -3,82 +3,164 @@
     "id": "c-verin-thelyss",
     "name": "Taskhand Verin Thelyss",
     "kind": "npc",
-    "factions": ["f-kryn", "f-aurora-watch"],
+    "factions": [
+      "f-kryn",
+      "f-aurora-watch"
+    ],
     "home": "l-bazzoxan-barracks",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Drow leal e bom, comandante militar de Bazzoxan (CR 5, Manifest Echo). Jovem, brilhante, mas pesado de melancolia: é o farol da vila e o principal mediador de informação do capítulo 3.",
     "goal": "Manter o impasse contra o Abyss e encontrar forma de o quebrar; acredita que a resposta está dentro do Betrayers' Rise, mas já não tem pessoal para mais expedições.",
     "secret": "Suspeita que Prolix tem outros motivos e já mandou repreender Aloysia por subornar soldados; não confia em nenhum dos investigadores de Ank'Harel.",
     "wants": "Mercenários competentes que entrem no Rise e voltem com respostas; que a Kryn Dynasty envie reforços.",
     "fears": "Perder mais soldados em expedições inúteis; que as passagens do Rise engulam uma equipa que ele não consiga resgatar.",
     "states": [
-      { "fromBeat": "b-3-mouthers", "state": "em combate na rua; manda os PCs encontrá-lo no quartel" },
-      { "fromBeat": "b-3-verin-farewell", "state": "reconhece a tablet de Aloysia como ligada a Marquet e abençoa a partida dos PCs" }
+      {
+        "fromBeat": "b-3-mouthers",
+        "state": "em combate na rua; manda os PCs encontrá-lo no quartel"
+      },
+      {
+        "fromBeat": "b-3-verin-farewell",
+        "state": "reconhece a tablet de Aloysia como ligada a Marquet e abençoa a partida dos PCs"
+      }
     ],
-    "tags": ["comandante", "aurora-watch", "informador", "bazzoxan"],
+    "tags": [
+      "comandante",
+      "aurora-watch",
+      "informador",
+      "bazzoxan"
+    ],
     "source": "book"
   },
   {
     "id": "c-prolix-yusaf",
     "name": "Prolix Yusaf",
     "kind": "npc",
-    "factions": ["f-allegiance"],
+    "factions": [
+      "f-allegiance"
+    ],
     "home": "l-ready-room",
-    "chapters": ["ch3", "ch4"],
+    "chapters": [
+      "ch3",
+      "ch4"
+    ],
     "summary": "Tiefling leal e neutro, arqueólogo do Crystal Chateau e agente académico da Allegiance of Allsight (emblema: um pergaminho com um olho vigilante). Aparece no crematório a reclamar a caixa-puzzle de ónix retirada do vrock.",
     "goal": "Missão real: espiar Aloysia Telfan, agente rival do Consortium, e descobrir o que ela procura no Rise. História de cobertura: ajudar os arcanistas da Aurora Watch a selar o rift.",
     "secret": "Foi enviado pela Allegiance para espiar o Consortium; a Allegiance descobriu ruidium em Cael Morrow primeiro e quis mantê-lo secreto.",
     "wants": "A caixa-puzzle e o seu conteúdo; que os PCs descubram e travem o plano de Aloysia (oferece 200 gp mais a caixa); levar a Jóia e os PCs ao Crystal Chateau.",
     "fears": "Que Aloysia chegue primeiro ao que procura; ser descoberto por Verin, que já desconfia dele.",
     "states": [
-      { "fromBeat": "b-3-crematorium-prolix", "state": "oferece 200 gp + a caixa para travarem Aloysia; esboça a Jóia" },
-      { "fromBeat": "b-3-next-steps-ank-harel", "state": "teleporta-se para Ank'Harel com Question e, se quiserem, com os PCs" },
-      { "fromBeat": "b-4-choose-faction", "state": "recrutador da Allegiance em Ank'Harel (missão Life Dome); mais tarde incriminado" }
+      {
+        "fromBeat": "b-3-crematorium-prolix",
+        "state": "oferece 200 gp + a caixa para travarem Aloysia; esboça a Jóia"
+      },
+      {
+        "fromBeat": "b-3-next-steps-ank-harel",
+        "state": "teleporta-se para Ank'Harel com Question e, se quiserem, com os PCs"
+      },
+      {
+        "fromBeat": "b-4-choose-faction",
+        "state": "recrutador da Allegiance em Ank'Harel (missão Life Dome); mais tarde incriminado"
+      }
     ],
-    "tags": ["investigador", "allegiance", "espião", "ank-harel"],
+    "tags": [
+      "investigador",
+      "allegiance",
+      "espião",
+      "ank-harel"
+    ],
     "source": "book"
   },
   {
     "id": "c-aloysia-telfan",
     "name": "Aloysia Telfan",
     "kind": "npc",
-    "factions": ["f-consortium"],
+    "factions": [
+      "f-consortium"
+    ],
     "home": "l-ready-room",
-    "chapters": ["ch3", "ch4"],
+    "chapters": [
+      "ch3",
+      "ch4"
+    ],
     "summary": "Elfa leal e má, iniciada oculta do Consortium of the Vermilion Dream: figura magra de vestes escarlate que escuta conversas no Ready Room. Descreve a facção apenas como um grupo de aficionados de folclore.",
     "goal": "Encontrar um antigo local de oração no fundo do Betrayers' Rise e obter ruidium, o mineral carmesim infundido com o poder de Ruidus, para o Consortium.",
     "secret": "Já tentou entrar sozinha no Rise e saiu ferida (tratada por Bautha); agora contrata mercenários. Traz três tablets de teleporte para um círculo em Ank'Harel e um pergaminho de earthquake.",
     "wants": "Escolta para o local de oração (50 a 100 gp por PC); se souber da visão ou da Jóia, fica obcecada em obtê-la para a facção, pois crê que é a chave do ruidium.",
     "fears": "Falhar perante os cinco mestres; ser apanhada por Prolix ou por Verin.",
     "states": [
-      { "fromBeat": "b-3-aloysia-offer", "state": "charme desaparece se recusada; fixada na Jóia se souber da visão" },
-      { "fromBeat": "b-3-make-an-enemy", "state": "recruta os rivais como músculo (se os PCs a recusarem)" },
-      { "fromBeat": "b-3-jewel-confrontation", "state": "exige a Jóia à beira da cratera de R16 com os rivais" },
-      { "fromBeat": "b-3-aloysia-next-move", "state": "foge para Ank'Harel, com ou sem a Jóia; sobrevive ao capítulo de qualquer forma" },
-      { "fromBeat": "b-4-choose-faction", "state": "recrutadora do Consortium em Ank'Harel (missão Luck's Run)" }
+      {
+        "fromBeat": "b-3-aloysia-offer",
+        "state": "charme desaparece se recusada; fixada na Jóia se souber da visão"
+      },
+      {
+        "fromBeat": "b-3-aloysia-offer",
+        "state": "recruta os rivais como músculo (se os PCs a recusarem)"
+      },
+      {
+        "fromBeat": "b-3-jewel-confrontation",
+        "state": "exige a Jóia à beira da cratera de R16 com os rivais"
+      },
+      {
+        "fromBeat": "b-3-aloysia-next-move",
+        "state": "foge para Ank'Harel, com ou sem a Jóia; sobrevive ao capítulo de qualquer forma"
+      },
+      {
+        "fromBeat": "b-4-choose-faction",
+        "state": "recrutadora do Consortium em Ank'Harel (missão Luck's Run)"
+      }
     ],
-    "tags": ["investigador", "consortium", "vilã-emergente", "ruidium"],
+    "tags": [
+      "investigador",
+      "consortium",
+      "vilã-emergente",
+      "ruidium"
+    ],
     "source": "book"
   },
   {
     "id": "c-question",
     "name": "Question",
     "kind": "npc",
-    "factions": ["f-cobalt-soul"],
+    "factions": [
+      "f-cobalt-soul"
+    ],
     "home": "l-ready-room",
-    "chapters": ["ch3", "ch4"],
+    "chapters": [
+      "ch3",
+      "ch4"
+    ],
     "summary": "Tiefling caótica e neutra, operativa monástica da Library of the Cobalt Soul, há cinco anos em Ank'Harel. Fica no Ready Room com o seu caderno de esboços enquanto a sua expedição está dentro do Rise.",
     "goal": "Provar a teoria da ressonância mítica: actos de coragem monumental deixam uma marca no mundo que sobrevive à memória dos feitos.",
     "secret": "Está aterrorizada com o Rise (DC 11 Insight): ouviu vozes a chamá-la, fingiu doença súbita e voltou à vila. Dois colegas jazem mortos no fundo da Misty Chasm (R15).",
     "wants": "Que a morte dos colegas não tenha sido em vão; recrutar os PCs para a Cobalt Soul em Ank'Harel; chama à Jóia uma Vestige perdida.",
     "fears": "Voltar a entrar no Rise; que a sua cobardia seja descoberta.",
     "states": [
-      { "fromBeat": "b-3-ready-room-question", "state": "partilha o caderno; esconde o terror do Rise" },
-      { "fromBeat": "b-3-misty-chasm", "state": "sabe que os colegas morreram: determinada a honrá-los" },
-      { "fromBeat": "b-3-next-steps-ank-harel", "state": "viaja para Ank'Harel com Prolix; convida os PCs para a Cobalt Soul" },
-      { "fromBeat": "b-4-choose-faction", "state": "apresenta os PCs a Iwo Zalarre no Temple of the Mentor" }
+      {
+        "fromBeat": "b-3-ready-room-question",
+        "state": "partilha o caderno; esconde o terror do Rise"
+      },
+      {
+        "fromBeat": "b-3-misty-chasm",
+        "state": "sabe que os colegas morreram: determinada a honrá-los"
+      },
+      {
+        "fromBeat": "b-3-next-steps-ank-harel",
+        "state": "viaja para Ank'Harel com Prolix; convida os PCs para a Cobalt Soul"
+      },
+      {
+        "fromBeat": "b-4-choose-faction",
+        "state": "apresenta os PCs a Iwo Zalarre no Temple of the Mentor"
+      }
     ],
-    "tags": ["investigador", "cobalt-soul", "lore", "caderno"],
+    "tags": [
+      "investigador",
+      "cobalt-soul",
+      "lore",
+      "caderno"
+    ],
     "source": "book"
   },
   {
@@ -87,16 +169,26 @@
     "kind": "npc",
     "factions": [],
     "home": "l-bazzoxan-infirmary",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Sacerdotisa drow leal e neutra da enfermaria, devota de Xalicas, o solar lendário que foi mão direita de Corellon antes de cair na Calamity (símbolo: alfinete de asa negra). Cura de graça enquanto tiver slots.",
     "goal": "Curar os feridos de Bazzoxan; vende um pergaminho de greater restoration por 500 gp.",
     "secret": "Desaprova a reclamação de Bazzoxan: acha que a presença militar Kryn cria baixas inúteis. Vê Prolix e Aloysia como imprudentes e ingénuos.",
     "wants": "Menos mortos; que os investigadores parem de arrastar soldados para o Rise.",
     "fears": "Que a vila se afunde em sangue sem nada para mostrar.",
     "states": [
-      { "fromBeat": "b-3-infirmary", "state": "conta a lenda das três preces e o luto de Avandra" }
+      {
+        "fromBeat": "b-3-infirmary",
+        "state": "conta a lenda das três preces e o luto de Avandra"
+      }
     ],
-    "tags": ["sacerdotisa", "lore", "cura", "xalicas"],
+    "tags": [
+      "sacerdotisa",
+      "lore",
+      "cura",
+      "xalicas"
+    ],
     "source": "book"
   },
   {
@@ -105,51 +197,86 @@
     "kind": "npc",
     "factions": [],
     "home": "l-bazzoxan-temple",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Firbolg sacerdote neutro e bom, seguidor de Melora the Wild Mother, jardineiro do Dilapidated Temple (antigo templo de Avandra) e hóspede de Verin. Cultiva uma quinta sem sol para alimentar a Aurora Watch.",
     "goal": "Honrar Melora e Avandra criando vida nova no meio da morte de Bazzoxan; dar à Aurora Watch a sua própria fonte de comida.",
     "secret": "Sente na Jóia três fragmentos de poder divino, um acordado e dois adormecidos, e uma presença cálida que sentiu a subir da terra: uma relíquia da Calamity acordou dentro do Rise. Já viu a segunda visão antes.",
     "wants": "Companhia na meditação da noite; que os PCs sigam o que a terra lhes mostra.",
     "fears": "Que as plantas morram nas alcovas onde o mal ainda pesa.",
     "states": [
-      { "fromBeat": "b-3-temple-foghome", "state": "guia a segunda visão na meditação da noite" }
+      {
+        "fromBeat": "b-3-temple-foghome",
+        "state": "guia a segunda visão na meditação da noite"
+      }
     ],
-    "tags": ["sacerdote", "melora", "visão", "jardineiro"],
+    "tags": [
+      "sacerdote",
+      "melora",
+      "visão",
+      "jardineiro"
+    ],
     "source": "book"
   },
   {
     "id": "c-naevyn-tasithar",
     "name": "Naevyn Tasithar",
     "kind": "npc",
-    "factions": ["f-aurora-watch"],
+    "factions": [
+      "f-aurora-watch"
+    ],
     "home": "l-bazzoxan-infirmary",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Batedora drow neutra e boa da Aurora Watch, gravemente ferida no ataque dos gibbering mouthers. Pede aos PCs que coloquem a sua escultura de coelho em olho-de-tigre no Wall of the Unforgotten.",
     "goal": "Ver o seu nome no Wall antes de morrer; não explica porquê (desvia o olhar e recusa responder).",
     "secret": "Como muitos soldados jovens de Bazzoxan, não espera viver o suficiente para ser chorada, por isso prepara o próprio memorial.",
     "wants": "Que alguém leve o coelho a Kalym Telaarin.",
     "fears": "Morrer sem ser lembrada.",
     "states": [
-      { "fromBeat": "b-3-mouthers", "state": "gravemente ferida na enfermaria" },
-      { "fromBeat": "b-3-wall-unforgotten", "state": "o seu nome está no Wall" }
+      {
+        "fromBeat": "b-3-mouthers",
+        "state": "gravemente ferida na enfermaria"
+      },
+      {
+        "fromBeat": "b-3-wall-unforgotten",
+        "state": "o seu nome está no Wall"
+      }
     ],
-    "tags": ["soldado", "aurora-watch", "side-quest", "memorial"],
+    "tags": [
+      "soldado",
+      "aurora-watch",
+      "side-quest",
+      "memorial"
+    ],
     "source": "book"
   },
   {
     "id": "c-kalym-telaarin",
     "name": "Kalym Telaarin",
     "kind": "npc",
-    "factions": ["f-luxon", "f-aurora-watch"],
+    "factions": [
+      "f-luxon",
+      "f-aurora-watch"
+    ],
     "home": "l-wall-of-the-unforgotten",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Sacerdote drow do Luxon, 300 anos, marcado de cicatrizes, com uma prótese de rocha negra quitinosa e anéis de luz violeta na perna esquerda. Guarda o Wall of the Unforgotten.",
     "goal": "Proteger a dignidade dos mortos: eles mereceram o descanso e merecem que ele seja honrado.",
     "secret": "Não sabe nada de útil sobre o Rise, a Jóia ou os agentes das facções; o seu valor é emocional, não informativo.",
     "wants": "Respeito junto ao muro; explica o pedido de Naevyn e oferece um Mote of Possibility a cada PC disposto.",
     "fears": "Que os mortos sejam esquecidos ou desrespeitados.",
     "states": [],
-    "tags": ["sacerdote", "luxon", "memorial", "recompensa"],
+    "tags": [
+      "sacerdote",
+      "luxon",
+      "memorial",
+      "recompensa"
+    ],
     "source": "book"
   },
   {
@@ -158,14 +285,20 @@
     "kind": "npc",
     "factions": [],
     "home": "l-bazzoxan-crematorium",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Batedor caótico e bom, guardião do crematório e irmão mais novo de Sebastian. Recebe os recém-chegados com humor negro sobre corpos novos para Bazzoxan.",
     "goal": "Despachar os cadáveres do dia; está a adiar o vrock por nojo e horror (DC 11 Insight).",
     "secret": "O vrock não se dissolveu por causa da caixa encantada que tem na goela.",
     "wants": "Braços extra para carregar corpos para a fornalha.",
     "fears": "O vrock; que o irmão nunca mais fale.",
     "states": [],
-    "tags": ["civil", "crematório", "humor"],
+    "tags": [
+      "civil",
+      "crematório",
+      "humor"
+    ],
     "source": "book"
   },
   {
@@ -174,14 +307,19 @@
     "kind": "npc",
     "factions": [],
     "home": "l-bazzoxan-crematorium",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Irmão mais velho de Reynard, neutro e bom, com um só braço. Silencioso até alguém lhe arrancar um sorriso com uma piada ou uma palavra gentil; depois revela-se um tagarela bem-disposto.",
     "goal": "Ajudar o irmão no crematório sem chamar atenção.",
     "secret": "O silêncio é trauma, não hostilidade.",
     "wants": "Uma boa piada.",
     "fears": "Voltar a perder o que resta.",
     "states": [],
-    "tags": ["civil", "crematório"],
+    "tags": [
+      "civil",
+      "crematório"
+    ],
     "source": "book"
   },
   {
@@ -190,14 +328,19 @@
     "kind": "npc",
     "factions": [],
     "home": "l-ready-room",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Drow leal e neutro, estalajadeiro do Ready Room, a única estalagem de Bazzoxan; trata do bar e da cozinha com a irmã Prima. Preços a dobrar (DC 17 Persuasion baixa a margem para 50%).",
     "goal": "Manter a estalagem a funcionar numa vila onde tudo é raro e caro.",
     "secret": "Ouve tudo o que os investigadores e os rivais dizem ao balcão.",
     "wants": "Clientes que paguem sem discutir.",
     "fears": "Uma noite em que os monstros passem a porta.",
     "states": [],
-    "tags": ["estalajadeiro", "ready-room"],
+    "tags": [
+      "estalajadeiro",
+      "ready-room"
+    ],
     "source": "book"
   },
   {
@@ -206,64 +349,96 @@
     "kind": "npc",
     "factions": [],
     "home": "l-ready-room",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Irmã de Delez, leal e neutra; trata das finanças e do inventário do Ready Room.",
     "goal": "Fechar as contas com lucro apesar da guerra às portas.",
     "secret": "Sabe quem paga os quartos de Prolix, Aloysia e Question, e quanto tempo tencionam ficar.",
     "wants": "Moeda sonante, não promessas.",
     "fears": "Ficar sem fornecimentos quando a estrada fechar.",
     "states": [],
-    "tags": ["estalajadeira", "ready-room"],
+    "tags": [
+      "estalajadeira",
+      "ready-room"
+    ],
     "source": "book"
   },
   {
     "id": "c-rise-driders",
     "name": "Driders do Spiders' Chancel",
     "kind": "npc",
-    "factions": ["f-betrayer-gods"],
+    "factions": [
+      "f-betrayer-gods"
+    ],
     "home": "l-rise-r8-spiders-chancel",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Dois antigos guerreiros drow da Aurora Watch, mutados pela magia demoníaca de Lolth, guardam o Spiders' Chancel com duas aranhas gigantes fiendish. Um cadáver da Watch ao lado deles traz uma sword of vengeance.",
     "goal": "Servir a Spider Queen e matar quem entre na capela.",
     "secret": "O mural invisível e cantante da sala esconde a biblioteca abissal e o mantra dos quatro deuses que resolve a Basilica.",
     "wants": "Sangue novo para a teia.",
     "fears": "Nada: já perderam tudo o que eram.",
     "states": [],
-    "tags": ["monstro", "lolth", "ex-aurora-watch"],
+    "tags": [
+      "monstro",
+      "lolth",
+      "ex-aurora-watch"
+    ],
     "source": "book"
   },
   {
     "id": "c-rise-war-chiefs",
     "name": "Orc War Chiefs do Blood Font",
     "kind": "npc",
-    "factions": ["f-betrayer-gods"],
+    "factions": [
+      "f-betrayer-gods"
+    ],
     "home": "l-rise-r14-blood-font",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Dois chefes de guerra orc, outrora soldados valentes da Aurora Watch, agora Fiends a rezar a Gruumsh no Blood Font of the Ruiner.",
     "goal": "Afogar os intrusos em sangue a ferver em nome do Ruiner.",
     "secret": "A sala sela-se e enche-se de sangue (5 pés por minuto, até 45 pés) assim que o combate começa.",
     "wants": "Oferendas para Gruumsh.",
     "fears": "Nada.",
     "states": [],
-    "tags": ["monstro", "gruumsh", "ex-aurora-watch"],
+    "tags": [
+      "monstro",
+      "gruumsh",
+      "ex-aurora-watch"
+    ],
     "source": "book"
   },
   {
     "id": "c-cobalt-expedition",
     "name": "Expedição da Cobalt Soul (colegas de Question)",
     "kind": "npc",
-    "factions": ["f-cobalt-soul"],
+    "factions": [
+      "f-cobalt-soul"
+    ],
     "home": "l-rise-r15-misty-chasm",
-    "chapters": ["ch3"],
+    "chapters": [
+      "ch3"
+    ],
     "summary": "Os dois colegas de Question que entraram no Rise com escolta da Aurora Watch para estudar as batalhas da Calamity. Jazem mortos no fundo da Misty Chasm, de azul Cobalt Soul, com um cloak of protection e um driftglobe rachado.",
     "goal": "Investigar as batalhas da Calamity dentro do Rise (fracassado).",
     "secret": "Question devia estar com eles; fingiu doença e ficou na vila.",
     "wants": "—",
     "fears": "—",
     "states": [
-      { "fromBeat": "b-3-misty-chasm", "state": "corpos encontrados em R15" }
+      {
+        "fromBeat": "b-3-misty-chasm",
+        "state": "corpos encontrados em R15"
+      }
     ],
-    "tags": ["cobalt-soul", "mortos", "pista"],
+    "tags": [
+      "cobalt-soul",
+      "mortos",
+      "pista"
+    ],
     "source": "book"
   }
 ]

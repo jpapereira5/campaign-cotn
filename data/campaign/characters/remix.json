@@ -1,0 +1,116 @@
+[
+  {
+    "id": "c-finalist-team",
+    "name": "A outra equipa finalista (nome a definir)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-jigow",
+    "chapters": [
+      "ch1"
+    ],
+    "summary": "DM: A equipa que, com os rivais, seria finalista do Festival of Merit. Adoece com a febre escarlate na prova da água (tubarões corrompidos por ruidium); a prova é cancelada e os PCs tomam o seu lugar.",
+    "goal": "Vencer o festival.",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [
+      {
+        "fromBeat": "b-1-ifolon-plunge",
+        "state": "febre escarlate: febre e depressão (corrupção rubídica)"
+      }
+    ],
+    "tags": [
+      "dm"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-volstrucker-agent",
+    "name": "Agente Volstrucker (nome a definir)",
+    "kind": "npc",
+    "factions": [
+      "f-cerberus-assembly"
+    ],
+    "chapters": [
+      "ch3",
+      "ch4"
+    ],
+    "summary": "DM: Agente da Cerberus Assembly (Império Dwendaliano) em conluio com Aloysia Telfan. É quem tenta roubar a Jóia em Bazzoxan.",
+    "goal": "Levar a Jóia (ou o que ela abre) para a Assembly.",
+    "secret": "O conluio com Aloysia: o Consortium e a Assembly querem a mesma coisa por razões diferentes.",
+    "wants": "A Jóia; discrição.",
+    "fears": "Ser reconhecido em território Kryn.",
+    "states": [
+      {
+        "fromBeat": "b-3-jewel-confrontation",
+        "state": "tenta roubar a Jóia em R16; foge ou é capturado"
+      }
+    ],
+    "tags": [
+      "dm"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-aloysia-telfan",
+    "chapters": [
+      "ch2",
+      "ch3",
+      "ch4"
+    ],
+    "states": [
+      {
+        "fromBeat": "b-2-ruins-outside-bazzoxan",
+        "state": "DM: primeiro encontro: nas ruínas fora de Bazzoxan, com a Aurora Watch, entre demónios"
+      },
+      {
+        "fromBeat": "b-3-aloysia-offer",
+        "state": "charme desaparece se recusada; fixada na Jóia se souber da visão"
+      },
+      {
+        "fromBeat": "b-3-aloysia-offer",
+        "state": "recruta os rivais como músculo (se os PCs a recusarem)"
+      },
+      {
+        "fromBeat": "b-3-jewel-confrontation",
+        "state": "exige a Jóia à beira da cratera de R16 com os rivais"
+      },
+      {
+        "fromBeat": "b-3-aloysia-next-move",
+        "state": "foge para Ank'Harel, com ou sem a Jóia; sobrevive ao capítulo de qualquer forma"
+      },
+      {
+        "fromBeat": "b-4-choose-faction",
+        "state": "recrutadora do Consortium em Ank'Harel (missão Luck's Run)"
+      }
+    ]
+  },
+  {
+    "id": "c-perigee",
+    "chapters": [
+      "ch2",
+      "ch3",
+      "ch5",
+      "ch6",
+      "ch7"
+    ],
+    "states": [
+      {
+        "fromBeat": "b-2-ruins-outside-bazzoxan",
+        "state": "PROPOSTA (Remix). rasto: as ruínas fora de Bazzoxan têm a ver com o anjo"
+      },
+      {
+        "fromBeat": "b-3-hall-of-holes",
+        "state": "PROPOSTA (Remix). representada nos baixos-relevos do Rise ao lado de Alyxian"
+      },
+      {
+        "fromBeat": "b-6-n1-arrival",
+        "state": "corrompida pelo ruidium, atolada no desespero em N24"
+      },
+      {
+        "fromBeat": "b-6-n24-perigee-deception",
+        "state": "libertada, volta para Sehanine; pode ser enviada como aliada no epílogo"
+      }
+    ]
+  }
+]

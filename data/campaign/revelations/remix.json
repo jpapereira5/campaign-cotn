@@ -1,0 +1,123 @@
+[
+  {
+    "id": "r-scarlet-fever",
+    "list": "Ruidium",
+    "text": "DM: A febre escarlate é corrupção rubídica: deixa os mais fracos de espírito em febre e depressão; vem dos tubarões corrompidos do Ifolon.",
+    "clues": [
+      "b-1-ifolon-plunge",
+      "b-1-scarlet-fever",
+      "b-3-infirmary"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-ruidium-history",
+    "list": "Ruidium",
+    "text": "PROPOSTA (Remix). Há gerações que aparecem vestígios de ruidium em Ank'Harel; os alquimistas ligam-no à luz de Ruidus; as escavações recentes em Cael Morrow revelaram afloramentos enormes e começaram a corrida.",
+    "clues": [
+      "b-1-grotto-ruidium",
+      "b-3-bazzoxan-research",
+      "b-4-c2-kruuk",
+      "b-5-base-camp"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-ruidium-apotheon-sites",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-4-b3-elephant",
+      "b-5-temple-arch-heart",
+      "b-5-open-rift",
+      "b-6-n16-moon-abhorrence-key",
+      "b-1-grotto-ruidium",
+      "b-1-scarlet-fever",
+      "b-3-rise-entrance",
+      "b-3-researchers-in-town"
+    ]
+  },
+  {
+    "id": "r-ruidium-properties",
+    "clues": [
+      "b-4-a1-deliver-figurine",
+      "b-4-b3-elephant",
+      "b-4-c2-kruuk",
+      "b-4-c3-first-eclipse",
+      "b-6-n1-arrival",
+      "b-6-n12-ruidium-weapons",
+      "b-6-c6-destroy-netherdeep",
+      "b-7-ending-neutral",
+      "b-1-festival-seeds",
+      "b-1-grotto-ruidium"
+    ]
+  },
+  {
+    "id": "r-go-to-bazzoxan",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-2-ushru-dawn",
+      "b-2-jewel-theft",
+      "b-1-jigow-research"
+    ]
+  },
+  {
+    "id": "r-cyst-of-avandra",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-3-ready-room-question",
+      "b-3-temple-foghome",
+      "b-3-barracks-verin",
+      "b-1-jigow-research",
+      "b-2-ushru-dawn",
+      "b-3-researchers-in-town",
+      "b-3-rise-entrances"
+    ]
+  },
+  {
+    "id": "r-shrines",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-7-alyxian-speaks",
+      "b-7-battle-tormented",
+      "b-1-jigow-research",
+      "b-3-bazzoxan-research"
+    ]
+  },
+  {
+    "id": "r-jewel-three-prayers",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-6-n25-effigy-loathing",
+      "b-3-bazzoxan-research"
+    ]
+  },
+  {
+    "id": "r-alyxian-ruidus-birth",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-6-n2-parents",
+      "b-6-n16-moon-abhorrence-key",
+      "b-6-n25-effigy-loathing",
+      "b-6-apotheon-lore-visions",
+      "b-1-festival-seeds"
+    ]
+  },
+  {
+    "id": "r-perigee",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-6-n7-battle-pity",
+      "b-6-n14-sepulcher-rancor",
+      "b-6-n24-perigee-deception",
+      "b-6-apotheon-lore-visions",
+      "b-2-ruins-outside-bazzoxan",
+      "b-3-hall-of-holes",
+      "b-5-library-ghosts"
+    ]
+  }
+]

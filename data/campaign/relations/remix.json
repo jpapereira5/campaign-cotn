@@ -1,0 +1,48 @@
+[
+  {
+    "from": "c-alyxian",
+    "to": "f-rivals",
+    "type": "knows",
+    "label": "PROPOSTA (Remix). visão universal: os rivais também estão ligados ao Apotheon",
+    "fromBeat": "b-1-jewel-vision",
+    "source": "dm"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "f-cerberus-assembly",
+    "type": "memberOf",
+    "label": "agente Volstrucker",
+    "source": "dm"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "c-aloysia-telfan",
+    "type": "ally",
+    "label": "DM: conluio para roubar a Jóia",
+    "fromBeat": "b-3-aloysia-offer",
+    "source": "dm"
+  },
+  {
+    "from": "c-laurin-ophidas",
+    "to": "f-cerberus-assembly",
+    "type": "betrays",
+    "label": "membro caído: fugiu com um staff of the adder (livro)",
+    "source": "dm"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "f-aurora-watch",
+    "type": "knows",
+    "label": "DM: vista nas ruínas fora de Bazzoxan ao lado dos soldados",
+    "fromBeat": "b-2-ruins-outside-bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-perigee",
+    "to": "c-aloysia-telfan",
+    "type": "knows",
+    "label": "DM: as ruínas fora de Bazzoxan têm a ver com o anjo (A COMPLETAR)",
+    "fromBeat": "b-2-ruins-outside-bazzoxan",
+    "source": "dm"
+  }
+]
