@@ -1,11 +1,13 @@
 // Estado da app: ficheiros de dados (fonte de verdade), estado de jogo, UI.
 // Os ficheiros embebidos no build são o fallback; com token, lê-se o repo e escreve-se de volta.
+// Duas camadas: `book` (o livro, nunca editado pela app) e `campaign` (a nossa campanha).
 import type { Ambition, Attitude, Beat, Canon, Character, Collection, PlayState, Problem, Relation, Session } from './types.ts'
 import { COLLECTIONS, relationKey, uid } from './types.ts'
-import { assemble, embeddedFiles, emptyPlay, fileForNew, normalizePlay, stableJson, type DataFile } from './data.ts'
+import { assemble, embeddedFiles, emptyPlay, fileForEdits, normalizePlay, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
 import { makeBeatPos } from './validate.ts'
 import { ConflictError, fetchRemoteFiles, getToken, putFile } from './github.ts'
 import { defaultFilters, type GraphFilters } from './graph.ts'
+import type { Layer, LayerInfo } from './layers.ts'
 
 const STORAGE_KEY = 'campaign-cotn-v1'
 const STATE_PATH = 'data/state.json'
@@ -38,9 +40,9 @@ function loadPersisted(): Persisted {
 
 function initialFiles(): Record<string, DataFile> {
   const files = embeddedFiles()
-  if (!files[STATE_PATH]) files[STATE_PATH] = { path: STATE_PATH, kind: 'state', content: emptyPlay(), dirty: false }
+  if (!files[STATE_PATH]) files[STATE_PATH] = { path: STATE_PATH, kind: 'state', layer: 'state', content: emptyPlay(), dirty: false }
   const p = loadPersisted()
-  for (const [path, f] of Object.entries(p.files)) if (f.dirty) files[path] = f
+  for (const [path, f] of Object.entries(p.files)) if (f.dirty && parsePath(path)) files[path] = { ...f, ...parsePath(path)! }
   for (const [path, sha] of Object.entries(p.shas)) if (files[path] && !files[path].sha) files[path].sha = sha
   return files
 }
@@ -54,6 +56,8 @@ export const store = $state({
 
 export const ui = $state({
   view: 'tempo' as View,
+  /** 'campaign' = livro + as nossas alterações; 'book' = só o livro, como referência. */
+  layerView: 'campaign' as 'campaign' | 'book',
   chapter: '' as string,
   cursorMode: 'chapter' as 'chapter' | 'played',
   selection: null as Selection | null,
@@ -61,11 +65,14 @@ export const ui = $state({
   pcId: null as string | null,
   showDeps: false,
   onlyUnplayed: false,
+  onlyChanges: false,
 })
 
-const assembled = $derived(assemble(store.files))
+const assembled = $derived(assemble(store.files, ui.layerView))
 const canonD = $derived(assembled.canon)
 const problemsD = $derived(assembled.problems)
+const layersD = $derived(assembled.layers)
+const bookRawD = $derived(rawOfLayer(store.files, 'book'))
 const beatPosD = $derived(makeBeatPos(canonD))
 const playD = $derived(normalizePlay(store.files[STATE_PATH]?.content))
 const chapterIndexD = $derived(new Map(canonD.campaign.chapters.map((c, i) => [c.id, i])))
@@ -88,6 +95,9 @@ export const world = {
   get problems(): Problem[] {
     return problemsD
   },
+  get layers(): LayerInfo {
+    return layersD
+  },
   get play(): PlayState {
     return playD
   },
@@ -106,6 +116,35 @@ export const world = {
   get dirtyFiles(): DataFile[] {
     return Object.values(store.files).filter((f) => f.dirty)
   },
+  get readOnly(): boolean {
+    return ui.layerView === 'book'
+  },
+}
+
+const KIND_TO_COLLECTION: Record<SelKind, Collection | null> = {
+  character: 'characters',
+  faction: 'factions',
+  location: 'locations',
+  beat: 'beats',
+  arc: 'arcs',
+  revelation: 'revelations',
+  ambition: 'ambitions',
+}
+
+/** Camada de uma entidade na vista actual: book (do livro), modified (livro alterado), campaign (nossa). */
+export function layerOf(kind: SelKind, id: string): Layer {
+  const c = KIND_TO_COLLECTION[kind]
+  if (!c) return 'book'
+  return layersD.entities.get(`${c}/${id}`) ?? 'book'
+}
+export function relationLayer(r: Relation): Layer {
+  return layersD.relations.get(relationKey(r)) ?? 'book'
+}
+/** A entrada original do livro (para comparar com a versão alterada). */
+export function bookOriginal(kind: SelKind, id: string): Record<string, unknown> | undefined {
+  const c = KIND_TO_COLLECTION[kind]
+  if (!c || c === 'relations') return undefined
+  return (bookRawD[c] as Record<string, unknown>[]).find((x) => x && x.id === id)
 }
 
 export function characterById(id: string): Character | undefined {
@@ -161,65 +200,116 @@ $effect.root(() => {
 
 if (canonD.campaign.chapters.length) ui.chapter = canonD.campaign.chapters[canonD.campaign.chapters.length - 1].id
 
-// ---- edição ----------------------------------------------------------------
+// ---- edição (sempre na camada campaign; o livro nunca é alterado) ----------
 
-function fileOf(kind: Collection, id: string): DataFile | undefined {
+function guard(): boolean {
+  if (ui.layerView === 'book') {
+    alert('Estás a ver só o livro (referência). Muda para "Campanha" para editar.')
+    return false
+  }
+  return true
+}
+
+function campaignFileOf(kind: Collection, id: string): DataFile | undefined {
   for (const f of Object.values(store.files)) {
-    if (f.kind !== kind || !Array.isArray(f.content)) continue
+    if (f.layer !== 'campaign' || f.kind !== kind || !Array.isArray(f.content)) continue
     if ((f.content as { id?: string }[]).some((x) => x.id === id)) return f
   }
   return undefined
 }
 
-function ensureFile(kind: Collection): DataFile {
-  const path = fileForNew(kind)
-  if (!store.files[path]) store.files[path] = { path, kind, content: [], dirty: true }
+function inBook(kind: Collection, id: string): boolean {
+  return (bookRawD[kind] as { id?: string }[]).some((x) => x && x.id === id)
+}
+
+function ensureEditsFile(kind: Collection): DataFile {
+  const path = fileForEdits(kind)
+  if (!store.files[path]) store.files[path] = { path, kind, layer: 'campaign', content: [], dirty: true }
   return store.files[path]
 }
 
-/** Actualiza campos de uma entidade (no ficheiro onde ela vive). */
+/** Actualiza campos de uma entidade: patch na camada campaign (o livro fica intacto). */
 export function editEntity(kind: Collection, id: string, patch: Record<string, unknown>): void {
-  const f = fileOf(kind, id)
-  if (!f) return
-  const list = f.content as Record<string, unknown>[]
-  const i = list.findIndex((x) => x.id === id)
-  if (i < 0) return
-  list[i] = { ...list[i], ...patch }
-  f.dirty = true
+  if (!guard()) return
+  const f = campaignFileOf(kind, id)
+  if (f) {
+    const list = f.content as Record<string, unknown>[]
+    const i = list.findIndex((x) => x.id === id)
+    list[i] = { ...list[i], ...patch }
+    f.dirty = true
+    return
+  }
+  if (!inBook(kind, id)) return
+  const e = ensureEditsFile(kind)
+  ;(e.content as Record<string, unknown>[]).push({ id, ...patch })
+  e.dirty = true
 }
 
 export function addEntity(kind: Collection, entity: Record<string, unknown>): void {
-  const f = ensureFile(kind)
-  ;(f.content as unknown[]).push({ source: 'dm', ...entity })
+  if (!guard()) return
+  const f = ensureEditsFile(kind)
+  ;(f.content as unknown[]).push({ ...entity })
   f.dirty = true
 }
 
+/** Remove: apaga da campanha se for nossa; se vier do livro, esconde-a com `_remove`. */
 export function removeEntity(kind: Collection, id: string): void {
-  const f = fileOf(kind, id)
-  if (!f) return
-  f.content = (f.content as { id?: string }[]).filter((x) => x.id !== id)
-  f.dirty = true
+  if (!guard()) return
+  const f = campaignFileOf(kind, id)
+  if (f) {
+    f.content = (f.content as { id?: string }[]).filter((x) => x.id !== id)
+    f.dirty = true
+  }
+  if (inBook(kind, id)) {
+    const e = ensureEditsFile(kind)
+    ;(e.content as Record<string, unknown>[]).push({ id, _remove: true })
+    e.dirty = true
+  }
+}
+
+/** Repõe a versão do livro de uma entidade (apaga o patch / a remoção da campanha). */
+export function revertToBook(kind: Collection, id: string): void {
+  if (!guard()) return
+  for (const f of Object.values(store.files)) {
+    if (f.layer !== 'campaign' || f.kind !== kind || !Array.isArray(f.content)) continue
+    const list = f.content as { id?: string }[]
+    const kept = list.filter((x) => x.id !== id)
+    if (kept.length !== list.length) {
+      f.content = kept
+      f.dirty = true
+    }
+  }
 }
 
 export function addRelation(r: Relation): void {
-  const f = ensureFile('relations')
+  if (!guard()) return
+  const f = ensureEditsFile('relations')
   const key = relationKey(r)
   const list = f.content as Relation[]
   if (list.some((x) => relationKey(x) === key)) return
-  list.push({ ...r, source: 'dm' })
+  list.push({ ...r })
   f.dirty = true
 }
 
 export function removeRelation(r: Relation): void {
+  if (!guard()) return
   const key = relationKey(r)
+  let removedOurs = false
   for (const f of Object.values(store.files)) {
-    if (f.kind !== 'relations' || !Array.isArray(f.content)) continue
+    if (f.layer !== 'campaign' || f.kind !== 'relations' || !Array.isArray(f.content)) continue
     const list = f.content as Relation[]
     const kept = list.filter((x) => relationKey(x) !== key)
     if (kept.length !== list.length) {
       f.content = kept
       f.dirty = true
+      removedOurs = true
     }
+  }
+  const fromBook = (bookRawD.relations as Relation[]).some((x) => x && relationKey(x) === key)
+  if (fromBook && !removedOurs) {
+    const e = ensureEditsFile('relations')
+    ;(e.content as Record<string, unknown>[]).push({ from: r.from, to: r.to, type: r.type, _remove: true })
+    e.dirty = true
   }
 }
 
@@ -406,13 +496,13 @@ export function importAll(file: File): void {
       const obj = JSON.parse(text) as Record<string, unknown>
       if (obj && typeof obj === 'object' && 'playedBeats' in obj) {
         // ficheiro de estado isolado
-        store.files[STATE_PATH] = { path: STATE_PATH, kind: 'state', content: normalizePlay(obj), dirty: true }
+        store.files[STATE_PATH] = { path: STATE_PATH, kind: 'state', layer: 'state', content: normalizePlay(obj), dirty: true }
         return
       }
       for (const [path, content] of Object.entries(obj)) {
-        const kind = store.files[path]?.kind ?? (path.startsWith('data/') ? undefined : undefined)
-        if (!store.files[path] && !kind) continue
-        store.files[path] = { path, kind: store.files[path].kind, content, sha: store.files[path]?.sha, dirty: true }
+        const p = parsePath(path)
+        if (!p) continue
+        store.files[path] = { path, kind: p.kind, layer: p.layer, content, sha: store.files[path]?.sha, dirty: true }
       }
     } catch {
       alert('Ficheiro inválido.')

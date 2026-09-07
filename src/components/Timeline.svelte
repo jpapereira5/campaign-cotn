@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ui, world, select, togglePlayed, isPlayed } from '../lib/state.svelte'
+  import { ui, world, select, togglePlayed, isPlayed, layerOf } from '../lib/state.svelte'
   import { layoutTimeline, CARD_W, CARD_H, AXIS_H, type Card } from '../lib/timeline'
 
   let hover = $state<string | null>(null)
@@ -35,6 +35,7 @@
   <div class="toolbar row">
     <label><input type="checkbox" bind:checked={ui.showDeps} /> dependências (requires)</label>
     <label><input type="checkbox" bind:checked={ui.onlyUnplayed} /> só por jogar</label>
+    <label><input type="checkbox" bind:checked={ui.onlyChanges} /> realçar alterações ao livro</label>
     <span class="muted">{layout.cards.length} beats · clique: detalhe · duplo clique: marcar jogado · linhas verticais = convergência entre pistas</span>
   </div>
   <div class="scroll">
@@ -80,7 +81,8 @@
       <!-- cartões -->
       {#each layout.cards as c (c.beat.id)}
         {@const played = isPlayed(c.beat.id)}
-        {@const dim = focus && focus !== c.beat.id && !focusRequires.has(c.beat.id)}
+        {@const layer = layerOf('beat', c.beat.id)}
+        {@const dim = (focus && focus !== c.beat.id && !focusRequires.has(c.beat.id)) || (ui.onlyChanges && layer === 'book')}
         <g
           class="beat"
           class:played
@@ -97,6 +99,7 @@
         >
           <rect width={CARD_W} height={CARD_H} rx="6" fill={played ? '#2f3a2b' : '#2a231c'} stroke={selectedId === c.beat.id ? '#d9a441' : focusRequires.has(c.beat.id) ? '#e0b04a' : c.arc.color} stroke-width={selectedId === c.beat.id ? 2 : 1} />
           <rect width={5} height={CARD_H} rx="2" fill={c.arc.color} />
+          {#if layer !== 'book'}<path d="M{CARD_W - 14},0 L{CARD_W},0 L{CARD_W},14 z" fill={layer === 'campaign' ? '#6fbf73' : '#e0b04a'}><title>{layer === 'campaign' ? 'acrescentado na nossa campanha' : 'alterado face ao livro'}</title></path>{/if}
           <foreignObject x="8" y="3" width={CARD_W - 12} height={CARD_H - 6}>
             <div class="card-text" title={c.beat.summary}>
               <div class="title">{c.beat.title}</div>

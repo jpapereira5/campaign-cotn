@@ -48,6 +48,10 @@
     </span>
   </div>
   <div class="cursor row">
+    <span class="muted">Ver:</span>
+    <button class:active={ui.layerView === 'campaign'} onclick={() => (ui.layerView = 'campaign')} title="Livro + as nossas alterações">a nossa campanha</button>
+    <button class:active={ui.layerView === 'book'} onclick={() => (ui.layerView = 'book')} title="Só o livro, como referência (só leitura)">só o livro</button>
+    <span class="sep"></span>
     <span class="muted">Tempo:</span>
     <button class:active={ui.cursorMode === 'chapter'} onclick={() => (ui.cursorMode = 'chapter')}>por capítulo</button>
     <button class:active={ui.cursorMode === 'played'} onclick={() => (ui.cursorMode = 'played')} title="Só o que já foi jogado (Sessão)">jogado</button>
@@ -89,6 +93,11 @@
   button.active {
     border-color: var(--accent);
     color: var(--accent);
+  }
+  .sep {
+    width: 1px;
+    height: 1.4em;
+    background: var(--line);
   }
   .status {
     font-size: 0.85em;

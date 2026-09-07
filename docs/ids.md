@@ -2,7 +2,18 @@
 
 Ids em kebab-case ASCII (sem acentos/apóstrofos). Prefixos: `c-` personagem, `f-` facção, `l-` local, `b-<cap>-` beat, `r-` revelação, `a-` arco, `amb-` ambição. Capítulos: `ch0` (prólogo) … `ch7`.
 
-Ficheiros: cada colecção é uma pasta com vários ficheiros JSON (arrays) que se juntam: `data/characters/ch1-3.json`, `data/beats/ch4.json`, etc. Entradas criadas na app vão para `data/<colecção>/dm.json`.
+## Duas camadas
+
+- `data/book/` — **o livro, tal como escrito**: referência. Não se edita (nem na app nem à mão), a não ser para corrigir erros de extracção.
+- `data/campaign/` — **a nossa campanha**: o que muda face ao livro. Aplica-se por cima de `book`:
+  - entrada com uma `id` que existe no livro → **patch**: só os campos presentes substituem os do livro (arrays substituem por inteiro);
+  - `{ "id": "…", "_remove": true }` → a entrada do livro **desaparece** da campanha;
+  - `id` nova → **acrescento**;
+  - relações: `{ "from", "to", "type", "_remove": true }` esconde a relação do livro; sem `_remove` acrescenta.
+- Ficheiros: cada colecção é uma pasta com vários JSON (arrays) que se juntam: `data/book/characters/ch1-2.json`, `data/campaign/beats/ch3.json`, etc. O que se cria na app vai para `data/campaign/<colecção>/dm.json`. `data/book/campaign.json` e `data/book/arcs.json` têm equivalentes opcionais em `data/campaign/`.
+- Validar: `npm run validate` (livro + campanha) ou `npm run validate -- --book` (só o livro).
+
+Na app: "Ver: a nossa campanha / só o livro"; ✚ = acrescentado na campanha, ▲ = alterado face ao livro; o painel de detalhe mostra o original do livro e permite repor.
 
 ## Capítulos
 `ch0` Unwelcome Spirits · `ch1` A Fateful Competition · `ch2` The Leave-Taking · `ch3` Bazzoxan · `ch4` The Jewel of Hope · `ch5` The Drowned City · `ch6` The Netherdeep · `ch7` The Heart of Despair

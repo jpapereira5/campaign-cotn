@@ -16,22 +16,24 @@ O método está em [`docs/metodo.md`](docs/metodo.md); as convenções de dados 
 
 ## Dados
 
-Tudo vive em `data/` como JSON editável à mão:
+Tudo vive em `data/` como JSON editável à mão, em **duas camadas**:
 
 ```
-data/campaign.json          capítulos e beat de convergência
-data/arcs.json              pistas da linha temporal
+data/book/                  o livro tal como escrito (referência; não se edita)
+  campaign.json             capítulos e beat de convergência
+  arcs.json                 pistas da linha temporal
+  characters/*.json         PCs, NPCs, rivais, divindades (vários ficheiros por capítulo)
+  factions/*.json           facções com portentos (fronts)
+  locations/*.json
+  relations/*.json          arestas temporais (fromBeat/untilBeat, condição)
+  beats/*.json              cenas com arcos, participantes, escolhas, relógios, portentos
+  revelations/*.json        revelações com pistas (beats)
+data/campaign/              a nossa campanha: patches, acrescentos e remoções por cima do livro
+  <mesma estrutura>         mesma id = patch de campos · `_remove: true` = esconder · id nova = acrescentar
 data/state.json             estado de jogo (beats jogados, revelações, atitudes, sessões, flags, notas)
-data/characters/*.json      PCs, NPCs, rivais, divindades (vários ficheiros por capítulo)
-data/factions/*.json        facções com portentos (fronts)
-data/locations/*.json
-data/relations/*.json       arestas temporais (fromBeat/untilBeat, condição)
-data/beats/*.json           cenas com arcos, participantes, escolhas, relógios, portentos
-data/revelations/*.json     revelações com pistas (beats)
-data/ambitions/*.json       ambições dos PCs
 ```
 
-Os ficheiros de uma pasta são concatenados. O que se cria na app vai para `data/<colecção>/dm.json`. Validar: `npm run validate` (ou `npm run validate -- --warn` para ver avisos).
+Os ficheiros de uma pasta são concatenados. O que se cria na app vai para `data/campaign/<colecção>/dm.json`; a app nunca escreve em `data/book/`. Na app, "Ver: a nossa campanha / só o livro" alterna as camadas; ✚ marca o que foi acrescentado e ▲ o que foi alterado, e o painel de detalhe mostra o original do livro. Validar: `npm run validate` (ou `-- --warn` para ver avisos, `-- --book` para validar só o livro).
 
 ## Usar em vários PCs
 

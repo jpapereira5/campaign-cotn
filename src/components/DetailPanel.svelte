@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { ui, world, characterState, attitudeOf, isPlayed, togglePlayed, toggleRevealed, setNote, setAttitude, editEntity, removeRelation, addRelation, nameOf, type Selection } from '../lib/state.svelte'
+  import { ui, world, characterState, attitudeOf, isPlayed, togglePlayed, toggleRevealed, setNote, setAttitude, editEntity, removeRelation, addRelation, nameOf, layerOf, bookOriginal, revertToBook, relationLayer, type Selection } from '../lib/state.svelte'
+  import { diffFields } from '../lib/layers'
   import { relationActive } from '../lib/graph'
   import { RELATION_LABELS, KIND_LABELS } from '../lib/colors'
   import { ATTITUDES, RELATION_TYPES, type Attitude, type RelationType } from '../lib/types'
@@ -17,6 +18,12 @@
   const ambition = $derived(selection.kind === 'ambition' ? c.ambitions.find((x) => x.id === selection.id) : undefined)
 
   const note = $derived(world.play.notes[selection.id] ?? '')
+  const layer = $derived(layerOf(selection.kind, selection.id))
+  const original = $derived(layer === 'modified' ? bookOriginal(selection.kind, selection.id) : undefined)
+  const merged = $derived((character ?? faction ?? location ?? beat ?? arc ?? revelation ?? ambition ?? {}) as unknown as Record<string, unknown>)
+  const changed = $derived(original ? diffFields(original, merged) : [])
+  const COLL = { character: 'characters', faction: 'factions', location: 'locations', beat: 'beats', arc: 'arcs', revelation: 'revelations', ambition: 'ambitions' } as const
+  const ro = $derived(world.readOnly)
   const relations = $derived(c.relations.filter((r) => r.from === selection.id || r.to === selection.id))
   const beatsWith = $derived(world.beatsSorted.filter((b) => b.participants.includes(selection.id) || (selection.kind === 'location' && b.location === selection.id) || (selection.kind === 'arc' && b.arcs.includes(selection.id)) || (selection.kind === 'revelation' && b.reveals.includes(selection.id))))
   const chapterName = (id: string) => c.campaign.chapters.find((x) => x.id === id)?.name ?? id
@@ -44,6 +51,7 @@
 <div class="panel">
   <div class="row head">
     <span class="muted">{selection.kind === 'character' ? KIND_LABELS[character?.kind ?? 'npc'] : selection.kind}</span>
+    {#if ro}<span class="chip">📖 só o livro</span>{:else if layer === 'campaign'}<span class="chip lay new">✚ nossa campanha</span>{:else if layer === 'modified'}<span class="chip lay mod">▲ alterado face ao livro</span>{:else}<span class="chip lay">📖 como no livro</span>{/if}
     <span class="spacer"></span>
     <button class="icon" onclick={() => (ui.selection = null)} title="Fechar (Esc)">✕</button>
   </div>
@@ -76,7 +84,7 @@
       {#if character.secret}<p><b>Segredo:</b> {character.secret}</p>{/if}
       {#if character.wants}<p><b>Quer:</b> {character.wants}</p>{/if}
       {#if character.fears}<p><b>Teme:</b> {character.fears}</p>{/if}
-      <button onclick={() => startEdit({ summary: character.summary, goal: character.goal, secret: character.secret, wants: character.wants, fears: character.fears })}>✎ editar</button>
+      {#if !ro}<button onclick={() => startEdit({ summary: character.summary, goal: character.goal, secret: character.secret, wants: character.wants, fears: character.fears })}>✎ editar</button>{/if}
     {/if}
     {#if character.states.length}
       <h3>Estados ao longo do tempo</h3>
@@ -128,7 +136,7 @@
     {:else}
       <p>{beat.summary}</p>
       {#if beat.notes}<p class="notes">{beat.notes}</p>{/if}
-      <button onclick={() => startEdit({ summary: beat.summary, notes: beat.notes })}>✎ editar</button>
+      {#if !ro}<button onclick={() => startEdit({ summary: beat.summary, notes: beat.notes })}>✎ editar</button>{/if}
     {/if}
     {#if beat.participants.length}<h3>Participantes</h3><div class="row">{#each beat.participants as p, i_ (i_)}<EntityChip kind={c.factions.some((f) => f.id === p) ? 'faction' : 'character'} id={p} />{/each}</div>{/if}
     {#if beat.choices.length}
@@ -178,13 +186,14 @@
           {#if r.label}<span class="lbl">{r.label}</span>{/if}
           {#if r.condition}<span class="muted">({r.condition})</span>{/if}
           {#if r.fromBeat || r.untilBeat}<span class="muted">⏱ {r.fromBeat ? 'desde ' + nameOf(r.fromBeat) : ''}{r.untilBeat ? ' até ' + nameOf(r.untilBeat) : ''}</span>{/if}
-          {#if r.source === 'dm'}<button class="icon" title="remover" onclick={() => removeRelation(r)}>✕</button>{/if}
+          {#if relationLayer(r) === 'campaign'}<span class="badge new">✚</span>{/if}
+          {#if !ro}<button class="icon" title={relationLayer(r) === 'campaign' ? 'remover' : 'esconder esta relação do livro na nossa campanha'} onclick={() => removeRelation(r)}>✕</button>{/if}
         </li>
       {:else}
         <li class="muted">Sem relações registadas.</li>
       {/each}
     </ul>
-    <details>
+    <details hidden={ro}>
       <summary>+ nova relação</summary>
       <div class="row">
         <select bind:value={newRel.type}>{#each RELATION_TYPES as t, i_ (i_)}<option value={t}>{RELATION_LABELS[t]}</option>{/each}</select>
@@ -199,6 +208,16 @@
     <ul class="plain">
       {#each beatsWith as b (b.id)}<li><span class="muted">{chapterName(b.chapter).slice(0, 18)}</span> <EntityChip kind="beat" id={b.id} /></li>{/each}
     </ul>
+  {/if}
+
+  {#if original && changed.length}
+    <details class="orig">
+      <summary>Original no livro ({changed.length} campo(s) diferente(s))</summary>
+      {#each changed as k (k)}
+        <p><b>{k}:</b> <span class="was">{typeof original[k] === 'string' ? original[k] : JSON.stringify(original[k])}</span></p>
+      {/each}
+      <button class="danger" onclick={() => confirm('Repor a versão do livro? As alterações da campanha a esta entrada perdem-se.') && revertToBook(COLL[selection.kind], selection.id)}>Repor versão do livro</button>
+    </details>
   {/if}
 
   <h3>Nota do DM</h3>
@@ -255,6 +274,27 @@
   }
   .lbl {
     font-style: italic;
+  }
+  .lay.new {
+    color: var(--ok);
+    border-color: var(--ok);
+  }
+  .lay.mod {
+    color: #e0b04a;
+    border-color: #e0b04a;
+  }
+  .badge.new {
+    color: var(--ok);
+  }
+  .orig {
+    margin-top: 0.8rem;
+    border: 1px dashed #e0b04a;
+    border-radius: 8px;
+    padding: 0.4rem 0.6rem;
+  }
+  .was {
+    color: var(--muted);
+    white-space: pre-wrap;
   }
   .tiny {
     font-size: 0.8em;

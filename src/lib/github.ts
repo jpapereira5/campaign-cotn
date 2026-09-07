@@ -1,7 +1,7 @@
 // Leitura/escrita de data/*.json no repositório via GitHub REST API.
 // O token (fine-grained, só este repo, Contents: read/write) fica em localStorage.
 import type { DataFile } from './data.ts'
-import { kindOfPath } from './data.ts'
+import { parsePath } from './data.ts'
 
 export const REPO = { owner: 'jpapereira5', repo: 'campaign-cotn', branch: 'main' }
 const API = 'https://api.github.com'
@@ -63,10 +63,10 @@ export async function fetchRemoteFiles(): Promise<Record<string, DataFile>> {
   const out: Record<string, DataFile> = {}
   await Promise.all(
     entries.map(async (e) => {
-      const kind = kindOfPath(e.path)
-      if (!kind) return
+      const p = parsePath(e.path)
+      if (!p) return
       const text = await readRaw(e.path)
-      out[e.path] = { path: e.path, kind, content: JSON.parse(text), sha: e.sha, dirty: false }
+      out[e.path] = { path: e.path, kind: p.kind, layer: p.layer, content: JSON.parse(text), sha: e.sha, dirty: false }
     }),
   )
   return out
