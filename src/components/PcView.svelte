@@ -62,19 +62,19 @@
         <div class="card">
           <div class="row"><b>{a.text}</b><span class="spacer"></span><button class="icon danger" title="remover" onclick={() => removeEntity('ambitions', a.id)}>✕</button></div>
           <label class="field"><span>NPCs que a satisfazem/negam</span>
-            <div class="row">{#each a.npcs as n (n)}<span><EntityChip kind="character" id={n} /><button class="icon" onclick={() => removeFrom(a.id, 'npcs', n)}>✕</button></span>{/each}</div>
+            <div class="row">{#each a.npcs as n, i_ (i_)}<span><EntityChip kind="character" id={n} /><button class="icon" onclick={() => removeFrom(a.id, 'npcs', n)}>✕</button></span>{/each}</div>
             <select onchange={(e) => { addTo(a.id, 'npcs', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ NPC…</option>{#each npcOptions as n (n.id)}<option value={n.id}>{n.name}</option>{/each}</select>
           </label>
           <label class="field"><span>Arcos</span>
-            <div class="row">{#each a.arcs as x (x)}<span><EntityChip kind="arc" id={x} /><button class="icon" onclick={() => removeFrom(a.id, 'arcs', x)}>✕</button></span>{/each}</div>
+            <div class="row">{#each a.arcs as x, i_ (i_)}<span><EntityChip kind="arc" id={x} /><button class="icon" onclick={() => removeFrom(a.id, 'arcs', x)}>✕</button></span>{/each}</div>
             <select onchange={(e) => { addTo(a.id, 'arcs', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ arco…</option>{#each arcOptions as x (x.id)}<option value={x.id}>{x.name}</option>{/each}</select>
           </label>
           <label class="field"><span>Satisfeita por (beats)</span>
-            <div class="row">{#each a.satisfiedBy as b (b)}<span><EntityChip kind="beat" id={b} /><button class="icon" onclick={() => removeFrom(a.id, 'satisfiedBy', b)}>✕</button></span>{/each}</div>
+            <div class="row">{#each a.satisfiedBy as b, i_ (i_)}<span><EntityChip kind="beat" id={b} /><button class="icon" onclick={() => removeFrom(a.id, 'satisfiedBy', b)}>✕</button></span>{/each}</div>
             <select onchange={(e) => { addTo(a.id, 'satisfiedBy', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ beat…</option>{#each beatOptions as b (b.id)}<option value={b.id}>{b.chapter} · {b.title}</option>{/each}</select>
           </label>
           <label class="field"><span>Ameaçada por (beats)</span>
-            <div class="row">{#each a.threatenedBy as b (b)}<span><EntityChip kind="beat" id={b} /><button class="icon" onclick={() => removeFrom(a.id, 'threatenedBy', b)}>✕</button></span>{/each}</div>
+            <div class="row">{#each a.threatenedBy as b, i_ (i_)}<span><EntityChip kind="beat" id={b} /><button class="icon" onclick={() => removeFrom(a.id, 'threatenedBy', b)}>✕</button></span>{/each}</div>
             <select onchange={(e) => { addTo(a.id, 'threatenedBy', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ beat…</option>{#each beatOptions as b (b.id)}<option value={b.id}>{b.chapter} · {b.title}</option>{/each}</select>
           </label>
           {#if !a.npcs.length}<p class="warn">Sem NPC ligado.</p>{/if}
@@ -87,7 +87,7 @@
       </div>
     </div>
 
-    {#if linkedNpcs.length}<h3>NPCs ligados</h3><div class="row">{#each linkedNpcs as n (n)}<EntityChip kind="character" id={n} />{/each}</div>{/if}
+    {#if linkedNpcs.length}<h3>NPCs ligados</h3><div class="row">{#each linkedNpcs as n, i_ (i_)}<EntityChip kind="character" id={n} />{/each}</div>{/if}
 
     <h3>Onde {pc.name} é tocado, capítulo a capítulo</h3>
     <table class="list">

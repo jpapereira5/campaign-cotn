@@ -1,0 +1,17 @@
+[
+  { "from": "c-bolbara", "to": "c-trush", "type": "serves", "label": "patrono warlock; a possuí-la sem os ritos", "untilBeat": "b-0-return-to-urzin", "source": "book" },
+  { "from": "c-trush", "to": "c-bolbara", "type": "wantsFrom", "label": "quer o corpo dela como recipiente", "source": "book" },
+  { "from": "c-pellinost", "to": "c-bolbara", "type": "enemy", "label": "tortura-a e revivifica-a para a quebrar", "source": "book" },
+  { "from": "c-pellinost", "to": "c-vesh", "type": "serves", "label": "sacerdote de Vesh", "source": "book" },
+  { "from": "c-pellinost", "to": "f-dwendalian-empire", "type": "memberOf", "label": "inquisidor imperial", "source": "book" },
+  { "from": "c-felmont", "to": "f-dwendalian-empire", "type": "memberOf", "label": "comandante do Fort Venture", "source": "book" },
+  { "from": "c-felmont", "to": "c-pellinost", "type": "knows", "label": "tolera o inquisidor por medo; não aprova", "source": "book" },
+  { "from": "c-buhfal", "to": "c-bolbara", "type": "wantsFrom", "label": "quer a seer de volta em Urzin", "source": "book" },
+  { "from": "c-morgid", "to": "c-buhfal", "type": "serves", "label": "batedor de Urzin", "source": "book" },
+  { "from": "c-mossback-steward", "to": "c-bolbara", "type": "protects", "label": "sabe como a salvar de Trush", "source": "book" },
+  { "from": "c-mossback-steward", "to": "f-dwendalian-empire", "type": "enemy", "label": "quer o Império fora do pântano", "source": "book" },
+  { "from": "c-alonne-frith", "to": "f-dwendalian-empire", "type": "enemy", "label": "prisioneiro em V8", "source": "book" },
+  { "from": "c-skra-sorsk", "to": "c-morgid", "type": "enemy", "label": "território hostil no Sunken Boneyard", "source": "book" },
+  { "from": "f-kryn", "to": "c-bolbara", "type": "knows", "label": "os operativos Kryn seguem a seer e quem a salvou", "fromBeat": "b-0-return-to-urzin", "source": "book" },
+  { "from": "f-dwendalian-empire", "to": "c-buhfal", "type": "enemy", "label": "raptou a seer de Urzin", "source": "book" }
+]

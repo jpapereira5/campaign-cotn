@@ -1,0 +1,170 @@
+[
+  {
+    "id": "c-buhfal",
+    "name": "Ogre Lord Buhfal II",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": ["ch0"],
+    "summary": "Ogre, líder em exercício da aldeia móvel de Urzin (LE). Contrata os PCs por 200 gp para resgatar a seer Bol'bara ao Fort Venture. Pragmático: paga o combinado e nem uma moeda a mais.",
+    "goal": "Recuperar Bol'bara viva e manter Urzin unida e segura sem provocar o Império.",
+    "secret": "Não confia que os PCs voltem; já pondera quem substituirá Bol'bara como seer.",
+    "wants": "A seer de volta; ordem em Urzin; que ninguém questione a sua liderança.",
+    "fears": "Perder Urzin para o Império ou para o caos que Bol'bara possuída pode trazer.",
+    "states": [
+      { "fromBeat": "b-0-mission-urzin", "state": "Contratante; espera os PCs em Urzin" },
+      { "fromBeat": "b-0-return-to-urzin", "state": "Paga a recompensa (ou culpa os PCs se Bol'bara se perdeu)" }
+    ],
+    "tags": ["contratante", "ogre", "urzin"],
+    "source": "book"
+  },
+  {
+    "id": "c-bolbara",
+    "name": "Bol'bara",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": ["ch0"],
+    "summary": "Goblin anciã, seer e warlock de Urzin (CG; CE quando possuída). Raptada por soldados imperiais durante os ritos junto da Ritual Stone; com os ritos interrompidos, o seu patrono Trush começa a possuí-la. CR 3; possuída ganha acções lendárias (Incorporeal Dash, Zone of Calamity).",
+    "goal": "Sobreviver e voltar a Urzin; manter Trush à distância.",
+    "secret": "O seu patrono é um demónio-sombra do Shadowfell que só os ritos comunais mantinham controlado.",
+    "wants": "Que os ritos sejam retomados; que a sua aldeia a proteja.",
+    "fears": "Perder a mente para Trush; ser o instrumento da destruição de Urzin.",
+    "states": [
+      { "fromBeat": "b-0-mission-urzin", "state": "Raptada; acorrentada ao altar da capela V6; possessão em curso" },
+      { "fromBeat": "b-0-chapel", "state": "Torturada e revivificada por Pellinost; à terceira, a mente quebra" },
+      { "fromBeat": "b-0-exorcism", "state": "Possuída por Trush (combate); a 0 HP e curada em 3 rondas volta a si" },
+      { "fromBeat": "b-0-bolbara-unleashed", "state": "Possuída e à solta; ameaça regional a caminho de Urzin" },
+      { "fromBeat": "b-0-return-to-urzin", "state": "Salva e grata (ou morta/perdida se os PCs falharam); seer que pode reaparecer" }
+    ],
+    "tags": ["vítima", "seer", "warlock", "goblin"],
+    "source": "book"
+  },
+  {
+    "id": "c-trush",
+    "name": "Trush",
+    "kind": "npc",
+    "factions": [],
+    "chapters": ["ch0"],
+    "summary": "Demónio-sombra vindo do Shadowfell, patrono warlock de Bol'bara. Quer usá-la como recipiente físico; completa a possessão quando a mente dela quebra ao terceiro revivify.",
+    "goal": "Possuir Bol'bara por completo e usar o seu corpo para semear calamidade.",
+    "secret": "Só os ritos na Ritual Stone o mantinham a raia; sem eles, a possessão é inevitável.",
+    "wants": "Um corpo mortal; caos em Urzin e no pântano.",
+    "fears": "Ser exorcizado — reduzir Bol'bara a 0 HP e curá-la em 3 rondas expulsa-o.",
+    "states": [
+      { "fromBeat": "b-0-mission-urzin", "state": "A possuir Bol'bara aos poucos" },
+      { "fromBeat": "b-0-exorcism", "state": "Em controlo total de Bol'bara; expulso se o exorcismo resultar" }
+    ],
+    "tags": ["demónio", "patrono", "antagonista"],
+    "source": "book"
+  },
+  {
+    "id": "c-morgid",
+    "name": "Morgid",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": ["ch0"],
+    "summary": "Hobgoblin batedor de Urzin (N). Guia dos PCs pelo Brokenveil Marsh; conhece os locais B2-B7 e os perigos de cada um.",
+    "goal": "Levar os PCs ao Fort Venture e voltar vivo.",
+    "secret": "",
+    "wants": "Que a missão corra sem heroísmos desnecessários.",
+    "fears": "O Sunken Boneyard e os lizardfolk de Skr'a S'orsk.",
+    "states": [
+      { "fromBeat": "b-0-mission-urzin", "state": "Guia dos PCs" }
+    ],
+    "tags": ["guia", "hobgoblin"],
+    "source": "book"
+  },
+  {
+    "id": "c-pellinost",
+    "name": "Parson Pellinost",
+    "kind": "npc",
+    "factions": ["f-dwendalian-empire"],
+    "home": "l-fort-venture",
+    "chapters": ["ch0"],
+    "summary": "Humano, inquisidor imperial e sacerdote de Vesh (LE). Zelote; tortura Bol'bara até à morte e lança revivify repetidamente para lhe arrancar segredos. Não negoceia.",
+    "goal": "Quebrar Bol'bara e extrair tudo o que ela sabe sobre Urzin e o pântano.",
+    "secret": "Os seus métodos estão a entregar Bol'bara a Trush — e ele nem imagina.",
+    "wants": "Confissões; a aprovação de Vesh; mão pesada sobre os goblinoides.",
+    "fears": "Nada visível; é o zelo que o cega.",
+    "states": [
+      { "fromBeat": "b-0-fort-venture", "state": "Na capela V6, a interrogar Bol'bara" },
+      { "fromBeat": "b-0-exorcism", "state": "Morto ou em fuga se Trush se libertou" }
+    ],
+    "tags": ["antagonista", "inquisidor", "vesh"],
+    "source": "book"
+  },
+  {
+    "id": "c-felmont",
+    "name": "Commander Struther Felmont",
+    "kind": "npc",
+    "factions": ["f-dwendalian-empire"],
+    "home": "l-fort-venture",
+    "chapters": ["ch0"],
+    "summary": "Humano veterano, comandante do Fort Venture (LN). Rígido e assustado com o que se passa na capela, mas não é mau; pode ser convencido a olhar para o lado.",
+    "goal": "Manter o forte de pé e os seus soldados vivos.",
+    "secret": "Tem medo de Pellinost e do que o inquisidor está a fazer.",
+    "wants": "Ordem; que o inquisidor termine depressa e se vá embora.",
+    "fears": "Um ataque goblinoide; a ira do Império se o forte cair.",
+    "states": [
+      { "fromBeat": "b-0-fort-venture", "state": "Comanda o forte; negociável" }
+    ],
+    "tags": ["militar", "negociável"],
+    "source": "book"
+  },
+  {
+    "id": "c-alonne-frith",
+    "name": "Alonne Frith",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-fort-venture-prison",
+    "chapters": ["ch0"],
+    "summary": "Humano Hollow One, cultista de Ceratos, prisioneiro na cela V8 do Fort Venture (NE). Pode dar informação sobre o interior do forte em troca de liberdade.",
+    "goal": "Escapar do forte.",
+    "secret": "É um Hollow One: já morreu uma vez.",
+    "wants": "Liberdade; voltar ao seu culto.",
+    "fears": "Morrer de novo às mãos do Império.",
+    "states": [
+      { "fromBeat": "b-0-fort-venture", "state": "Prisioneiro em V8" }
+    ],
+    "tags": ["prisioneiro", "cultista"],
+    "source": "book"
+  },
+  {
+    "id": "c-skra-sorsk",
+    "name": "Skr'a S'orsk",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-sunken-boneyard",
+    "chapters": ["ch0"],
+    "summary": "Lizardfolk xamã do Sunken Boneyard (CE), adorador do demon lord Sess'inek. Obstáculo territorial na travessia do pântano.",
+    "goal": "Defender o Boneyard e oferecer intrusos a Sess'inek.",
+    "secret": "",
+    "wants": "Sangue para o seu senhor.",
+    "fears": "Perder o favor de Sess'inek.",
+    "states": [
+      { "fromBeat": "b-0-marsh-crossing", "state": "Hostil no Sunken Boneyard" }
+    ],
+    "tags": ["lizardfolk", "xamã", "encontro"],
+    "source": "book"
+  },
+  {
+    "id": "c-mossback-steward",
+    "name": "Mossback Steward",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-mossback-steward-rest",
+    "chapters": ["ch0"],
+    "summary": "Tartaruga horizonback senciente e antiquíssima; telepatia a 120 ft, divination e suggestion. Aliada dos PCs se estes se opuserem ao Império; sabe como salvar Bol'bara e explica a tensão Kryn/Império.",
+    "goal": "Proteger o pântano e os goblinoides que vivem sobre as suas irmãs tartarugas.",
+    "secret": "Conhece o método do exorcismo: reduzir Bol'bara a 0 HP e curá-la em 3 rondas.",
+    "wants": "Que o Império saia do Brokenveil Marsh.",
+    "fears": "Que Bol'bara possuída destrua Urzin.",
+    "states": [
+      { "fromBeat": "b-0-mossback-steward", "state": "Aliada se os PCs se opuserem ao Império" }
+    ],
+    "tags": ["mentor", "horizonback", "lore"],
+    "source": "book"
+  }
+]

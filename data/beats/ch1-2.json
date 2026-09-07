@@ -1,0 +1,682 @@
+[
+  {
+    "id": "b-1-adventure-start",
+    "title": "Chegada a Jigow no dia do festival",
+    "arcs": ["a-main", "a-kryn"],
+    "chapter": "ch1",
+    "order": 10,
+    "location": "l-jigow",
+    "participants": ["f-jigow-elders", "c-durth-mirimm", "f-kryn", "c-elder-ushru"],
+    "summary": "Os PCs entram no Jumble em pleno Festival of Merit: cultura de competição e bazófia, tambores, medalhas mágicas por cada jogo. Ao fundo, a fricção entre os anciãos e o posto da dinastia (J9).",
+    "reveals": [],
+    "requires": [],
+    "choices": [
+      { "label": "Ir jogar", "outcome": "Escolha livre dos jogos J1-J7; cada medalha é um item mágico permanente.", "leadsTo": ["b-1-festival-games"] }
+    ],
+    "notes": "Se vieram do prólogo, um operativo Kryn ou Durth Mirimm pode cumprimentá-los pelo nome. Nível 3. Descrever os três distritos: Meatwaters, Wetwalks, Jumble.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-festival-games",
+    "title": "Os sete jogos do festival (J1-J7)",
+    "arcs": ["a-main", "a-rivals"],
+    "chapter": "ch1",
+    "order": 20,
+    "location": "l-jigow",
+    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
+    "summary": "Os PCs conhecem os cinco rivais jogo a jogo e aprendem pelo menos um objectivo de cada (1 minuto de conversa + DC 10 Insight). As atitudes iniciais são indiferentes; o que os PCs fazem aqui fixa as relações hostis/amigáveis que conduzem todos os ramos dos caps. 2-3.",
+    "reveals": [],
+    "requires": ["b-1-adventure-start"],
+    "choices": [
+      { "label": "Jogar as provas", "outcome": "Ver os beats de cada jogo para as reacções dos rivais (Rival Impressions).", "leadsTo": ["b-1-pie-contest", "b-1-maze", "b-1-ifolon-plunge", "b-1-call-to-arms", "b-1-paddywhack", "b-1-herding", "b-1-riddles"] },
+      { "label": "Chamar tempo", "outcome": "Quando já jogaram o suficiente, os tambores chamam à cerimónia.", "leadsTo": ["b-1-closing-ceremony"] }
+    ],
+    "notes": "Anotar só as relações hostis e amigáveis e o porquê. Matar um rival torna todos hostis; um gesto bondoso não torna todos amigáveis. Pedidos de ajuda: Charisma vs DC de reacção; vantagem se ajudar os objectivos deles, desvantagem se contra.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-pie-contest",
+    "title": "J1 Best Pies in the Jumble",
+    "arcs": ["a-rivals"],
+    "chapter": "ch1",
+    "order": 21,
+    "location": "l-unbroken-tusk",
+    "participants": ["c-irvan-wastewalker", "c-agathe-silverspoon"],
+    "summary": "Concurso de resistência a comer tartes (5 sp; DC 8 Con, +2 por tarte). Primeiro encontro com Irvan, amigável com quem compete; a simpatia evapora-se se lhe gozarem o ar adolescente.",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Competir com boa disposição", "outcome": "Irvan amigável; convida os PCs para a cerimónia de encerramento.", "leadsTo": [] },
+      { "label": "Insultar a barba/aparência de Irvan", "outcome": "Irvan hostil.", "leadsTo": [] }
+    ],
+    "notes": "Prémio: tin medal of the meat pie. Irvan quer parecer maduro — deixar que os PCs o tratem como adulto ou não.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-maze",
+    "title": "J2 One-Shot Solution",
+    "arcs": ["a-rivals"],
+    "chapter": "ch1",
+    "order": 22,
+    "location": "l-one-shot-maze",
+    "participants": ["c-maggie-keeneyes", "c-dermot-wurder", "c-sharpwatch", "c-belana-zolaed"],
+    "summary": "Labirinto de tábuas de uma só tentativa (3 sp; DC 14 Investigation para estudar, DC 14 Survival para correr). Maggie empurra Dermot a tentar; Dermot pede aos PCs que encontrem Ayo — a primeira apresentação cruzada dos rivais. Depois do labirinto, Dermot vai memorizar preces ao Temple of the Luxon (J8), com Belana Zolaed.",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Encorajar Dermot (ou apoiá-lo em ficar de fora)", "outcome": "Dermot amigável.", "leadsTo": [] },
+      { "label": "Insultar Dermot ou os amigos dele", "outcome": "Dermot hostil; repreende furiosamente.", "leadsTo": [] },
+      { "label": "Gozar o tamanho de Maggie ou tratá-la por bruta", "outcome": "Maggie hostil.", "leadsTo": [] },
+      { "label": "Ir procurar Ayo por Dermot", "outcome": "Leva ao Ifolon Plunge (J3).", "leadsTo": ["b-1-ifolon-plunge"] }
+    ],
+    "notes": "Sharpwatch tira do labirinto quem falha. Prémio: medal of the maze. Maggie lê os PCs num relance: usar isso na narração.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-ifolon-plunge",
+    "title": "J3 The Ifolon Plunge",
+    "arcs": ["a-rivals"],
+    "chapter": "ch1",
+    "order": 23,
+    "location": "l-ifolon-plunge",
+    "participants": ["c-ayo-jabe", "c-galsariad-ardyth", "c-omo"],
+    "summary": "Nado de 75 ft contra a corrente por uma lança enferrujada, com dois tubarões listrados a subir. Só um competidor por equipa (os outros precisam de DC 14 Deception). Primeiro encontro com Ayo e Galsariad; Galsariad oferece a Ayo um longstrider que ela recusa.",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Jogar limpo e decidir depressa", "outcome": "Ayo aprecia; indiferente→amigável com bom roleplay.", "leadsTo": [] },
+      { "label": "Fazer batota / meter mais nadadores", "outcome": "Ayo desaprova e defende a regra de Omo; Galsariad sorri e elogia a astúcia.", "leadsTo": [] },
+      { "label": "Hesitar ou não dizer o que se pensa", "outcome": "Ayo perde a paciência.", "leadsTo": [] }
+    ],
+    "notes": "Prémio: medal of the conch. Ayo e Galsariad juntos: bom sítio para mostrar o fraquinho dela por ele.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-call-to-arms",
+    "title": "J4 Call to Arms (braço-de-ferro)",
+    "arcs": ["a-rivals", "a-kryn"],
+    "chapter": "ch1",
+    "order": 24,
+    "location": "l-beefslab-butchers",
+    "participants": ["c-maryl-bronzefang", "c-maggie-keeneyes", "c-vars", "f-aurora-watch"],
+    "summary": "Escada de braço-de-ferro no talho de Vars: uma veterana drow, depois Maryl Bronzefang (campeã invicta, Aurora Watch de Bazzoxan em licença), depois Maggie. Apostas com Vars (1 sp de comissão).",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Vencer Maryl", "outcome": "Fama entre a Aurora Watch; Maryl respeita quem a vence — fio para Bazzoxan.", "leadsTo": [] },
+      { "label": "Estereotipar Maggie", "outcome": "Maggie hostil.", "leadsTo": [] }
+    ],
+    "notes": "Prémio: medal of muscle. Maryl é a ponte viva Jigow→Bazzoxan: reencontram-na no cap. 3.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-paddywhack",
+    "title": "J5 Wetwalks Paddywhack",
+    "arcs": ["a-rivals"],
+    "chapter": "ch1",
+    "order": 25,
+    "location": "l-wetwalks-paddies",
+    "participants": ["c-irvan-wastewalker", "c-beetle-and-zag"],
+    "summary": "Corrida de colheita de arroz a pares nos arrozais de Beetle e Zag. Irvan faz par, a contragosto, com um PC que não tenha parceiro.",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Fazer par com Irvan e tratá-lo como igual", "outcome": "Irvan amigável.", "leadsTo": [] }
+    ],
+    "notes": "Prémio: copper medal of the wetlands. O casal usa o festival para colher de borla — cor local.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-herding",
+    "title": "J6 Herding the Horizonbacks",
+    "arcs": ["a-rivals"],
+    "chapter": "ch1",
+    "order": 26,
+    "location": "l-horizonback-paddock",
+    "participants": ["c-ayo-jabe", "c-adan"],
+    "summary": "Montar horizonbacks de 15 ft (stats de ankylosaurus) até aos campos a oeste. Ayo descontrai aqui e ri-se de quem recusa montar.",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Montar sem hesitar", "outcome": "Ayo aprecia a impulsividade.", "leadsTo": [] },
+      { "label": "Recusar", "outcome": "Ayo goza; indiferente na melhor das hipóteses.", "leadsTo": [] }
+    ],
+    "notes": "Prémio: medal of the horizonback. Adan garante que as medalhas vêm de tartarugas mortas naturalmente. O curral é limpo ao pôr-do-sol para a cerimónia.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-riddles",
+    "title": "J7 Riddles and Rhymes",
+    "arcs": ["a-rivals", "a-lore"],
+    "chapter": "ch1",
+    "order": 27,
+    "location": "l-riddles-and-rhymes",
+    "participants": ["c-elder-colbu-kaz", "c-galsariad-ardyth"],
+    "summary": "As três mesas de Colbu Kaz: a caixa (chave de dragão de bronze), o mapa estelar (Catha e Ruidus — semeia as duas luas e o portefólio de Sehanine) e as garrafas (a 5.ª, a que brilha). Galsariad compete aqui e só se impressiona com quem acerta as três à primeira.",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Resolver os três à primeira", "outcome": "Galsariad impressionado (amigável).", "leadsTo": [] },
+      { "label": "Estudar lore com Galsariad", "outcome": "Ele gosta de quem estuda com ele e o trata com respeito.", "leadsTo": [] },
+      { "label": "Julgá-lo por ser noviço em magia", "outcome": "Galsariad hostil.", "leadsTo": [] }
+    ],
+    "notes": "Prémio: medal of wit. É a primeira menção a Ruidus: guardar a frase para quando souberem que Alyxian nasceu sob Ruidus cheio.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-closing-ceremony",
+    "title": "Cerimónia de encerramento em J6",
+    "arcs": ["a-main", "a-rivals"],
+    "chapter": "ch1",
+    "order": 40,
+    "location": "l-horizonback-paddock",
+    "participants": ["c-elder-ushru", "c-elder-colbu-kaz", "f-jigow-elders", "f-rivals", "c-ayo-jabe"],
+    "summary": "Ao pôr-do-sol os tambores chamam todos ao curral. Ushru e Colbu Kaz escolhem exactamente duas equipas finalistas: os PCs e os rivais. Prémio: 100 gp, o título Champions of Merit e o Emerald Eye.",
+    "reveals": [],
+    "requires": ["b-1-festival-games"],
+    "choices": [
+      { "label": "Aceitar o desafio", "outcome": "Segue-se a Grand Finale na gruta.", "leadsTo": ["b-1-grand-finale"] }
+    ],
+    "notes": "Momento para os rivais fazerem a sua bazófia (Ayo) e para Maggie estudar os PCs. Se os PCs foram simpáticos com Irvan, ele já os convidou.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-grand-finale",
+    "title": "A Grand Finale começa (E1)",
+    "arcs": ["a-main", "a-rivals"],
+    "chapter": "ch1",
+    "order": 50,
+    "location": "l-grotto-entrance",
+    "participants": ["c-elder-colbu-kaz", "c-elder-ushru", "f-rivals", "c-maggie-keeneyes"],
+    "summary": "Colbu Kaz distribui potions of water breathing (1 hora). Group check de Dexterity: se pelo menos metade dos PCs tirar 13+, entram primeiro; senão entram os rivais. Quem entra em segundo toma a outra bifurcação em E3.",
+    "reveals": [],
+    "requires": ["b-1-closing-ceremony"],
+    "choices": [
+      { "label": "PCs entram primeiro", "outcome": "Escolhem o caminho em E3; Maggie tenta empurrá-los para este.", "leadsTo": ["b-1-grotto-race"] },
+      { "label": "Rivais entram primeiro", "outcome": "Os PCs ficam com a bifurcação que sobra.", "leadsTo": ["b-1-grotto-race"] }
+    ],
+    "timer": "Potions of water breathing: 1 hora",
+    "notes": "Começar a contar rondas a partir de E1 (1 ronda). A poção de 1 hora é um relógio suave; a corrida é o relógio duro.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-grotto-race",
+    "title": "A corrida na gruta (E1-E9)",
+    "arcs": ["a-main", "a-rivals"],
+    "chapter": "ch1",
+    "order": 60,
+    "location": "l-emerald-grotto",
+    "participants": ["c-maggie-keeneyes", "f-rivals"],
+    "summary": "Cada sala tem um custo em rondas (Race Progression); o total decide o encontro em E10. Em E3 Maggie insiste no caminho este e bloqueia o sul (defende-se se atacada). Parar para saquear E5, E7, E9 ou colher algas em E4 custa rondas: tesouro vs ritmo.",
+    "reveals": [],
+    "requires": ["b-1-grand-finale"],
+    "choices": [
+      { "label": "Ritmo rápido (≤10 rondas)", "outcome": "Chegam a E10 antes dos rivais.", "leadsTo": ["b-1-moonshark-lair"] },
+      { "label": "Ritmo moderado (11-15 rondas)", "outcome": "Os rivais aparecem na ronda 3 do combate com o tubarão.", "leadsTo": ["b-1-moonshark-lair"] },
+      { "label": "Ritmo lento (16+ rondas)", "outcome": "Os rivais chegam primeiro e já reduziram o tubarão a 75 HP.", "leadsTo": ["b-1-moonshark-lair"] },
+      { "label": "Atacar Maggie em E3", "outcome": "Ela defende-se; caminho para a hostilidade de todo o grupo rival.", "leadsTo": ["b-1-moonshark-lair"] }
+    ],
+    "timer": "≤10 / 11-15 / 16+ rondas",
+    "notes": "E2 kelp DC 13 Athletics (grupo); E4 ghostgrass DC 12 Dex; E5 landslide DC 14 Dex + poção de cura e scroll de thunderwave; E6 quippers; E7 polvo gigante, 57 sp e dust of dryness; E8 riptide DC 15 Athletics ou destruir a placa (AC 15, 10 HP); E9 saída escondida DC 11 Perception/Survival + 3 poções.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-moonshark-lair",
+    "title": "E10 Moonshark Lair — o relógio resolve-se",
+    "arcs": ["a-main", "a-rivals", "a-lore"],
+    "chapter": "ch1",
+    "order": 70,
+    "location": "l-moonshark-lair",
+    "participants": ["c-moonshark", "f-rivals", "c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "c-sehanine"],
+    "summary": "O tubarão gigante usa o Emerald Eye e tem uma lança de prata abençoada por Sehanine no flanco — primeiro sinal físico da Moon Weaver. Se não hostis, os rivais ajudam; se hostis, tentam ficar com o amuleto ou sabotar sem matar. Só a morte do tubarão estilhaça o pilar e abre a parede para E11/E12.",
+    "reveals": ["r-shrines"],
+    "requires": ["b-1-grotto-race"],
+    "choices": [
+      { "label": "Matar o tubarão", "outcome": "A parede sul abre; a luz dourada de E11 chama.", "leadsTo": ["b-1-jewel-vision"] },
+      { "label": "Cortar a corda (AC 17, 5 HP) e fugir com o Emerald Eye", "outcome": "Ganham a corrida mas a parede não abre; a Jóia fica por descobrir (os rivais podem matá-lo depois).", "leadsTo": ["b-1-next-steps", "b-1-disputing-destiny"] }
+    ],
+    "notes": "Salvar a vida de um rival aqui é o exemplo canónico de mudança de atitude. Um druida de Jigow atou o Eye ao tubarão com animal friendship.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-jewel-vision",
+    "title": "E12 Prayer Site of Sehanine — a Jóia Dormant e a primeira visão",
+    "arcs": ["a-main", "a-lore", "a-rivals", "a-ruidium"],
+    "chapter": "ch1",
+    "order": 80,
+    "location": "l-prayer-site-sehanine",
+    "participants": ["c-alyxian", "c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals", "c-sehanine"],
+    "summary": "Caverna aberta ao céu; num pedestal de cristal, a Jewel of Three Prayers (Dormant). Tocar-lhe dá a visão: um guerreiro melancólico de capa vermelha, preso na escuridão por fios de uma substância carnuda e carmesim; diz chamar-se Alyxian, pede ajuda e refere ter rezado à Change Bringer no coração de um templo do mal. Quem toca cai inconsciente 1 minuto; os outros só ouvem uma voz abafada como debaixo de água.",
+    "reveals": ["r-alyxian-three-prayers", "r-netherdeep-prison", "r-go-to-bazzoxan", "r-shrines"],
+    "requires": ["b-1-moonshark-lair"],
+    "choices": [
+      { "label": "Um PC toca na Jóia", "outcome": "Todo o grupo dos PCs tem a visão. Rivais amigáveis/indiferentes tentam acordá-los e concedem a corrida.", "leadsTo": ["b-1-next-steps"] },
+      { "label": "Um PC toca; rivais hostis", "outcome": "Acordam sem o Emerald Eye e sem a Jóia.", "leadsTo": ["b-1-rivals-abscond"] },
+      { "label": "Os PCs hesitam", "outcome": "Ayo avança e reclama a Jóia; os rivais passam a ser os 'heróis'.", "leadsTo": ["b-1-disputing-destiny"] }
+    ],
+    "portent": { "faction": "f-rivals", "text": "Se hostis, aproveitam o minuto de inconsciência para levar o Emerald Eye e a Jóia." },
+    "notes": "É o maior ramo do capítulo. A substância carmesim é ruidium (não nomear ainda). Dormant: +1 AC, luz, 3 cargas de invisibility. Nível 4 ao terminar o desafio da gruta.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-disputing-destiny",
+    "title": "Disputing Destiny — Ayo toca na Jóia",
+    "arcs": ["a-rivals", "a-main"],
+    "chapter": "ch1",
+    "order": 84,
+    "location": "l-prayer-site-sehanine",
+    "participants": ["c-ayo-jabe", "f-rivals", "c-alyxian"],
+    "summary": "Ayo recebe a visão e os rivais tornam-se os 'heróis' da história. Os PCs decidem se ajudam os rivais ou se recuperam a Jóia e reclamam o seu próprio destino.",
+    "reveals": ["r-alyxian-three-prayers"],
+    "requires": ["b-1-jewel-vision"],
+    "choices": [
+      { "label": "Ajudar os rivais", "outcome": "Viagem conjunta possível; os rivais lideram (Friendly Rivalry / Ours by Right).", "leadsTo": ["b-2-ours-by-right", "b-2-friendly-rivalry"] },
+      { "label": "Tirar-lhes a Jóia", "outcome": "Hostilidade quase garantida; os rivais tentarão reavê-la à noite.", "leadsTo": ["b-2-jewel-theft"] }
+    ],
+    "notes": "Os PCs ouvem só a voz abafada. Bom momento para Dermot perguntar se eles também ouviram.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-rivals-abscond",
+    "title": "Os rivais fogem com o Eye e a Jóia",
+    "arcs": ["a-rivals"],
+    "chapter": "ch1",
+    "order": 86,
+    "location": "l-prayer-site-sehanine",
+    "participants": ["f-rivals", "c-ayo-jabe", "c-irvan-wastewalker"],
+    "summary": "Ramo hostil: os PCs acordam do minuto de inconsciência e descobrem que os rivais levaram o Emerald Eye e a Jewel of Three Prayers. Os rivais reclamam a vitória junto de Ushru.",
+    "reveals": [],
+    "requires": ["b-1-jewel-vision"],
+    "choices": [
+      { "label": "Perseguir até Jigow", "outcome": "Confronto público ou negociação com Ushru como árbitro.", "leadsTo": ["b-1-next-steps"] },
+      { "label": "Deixar passar", "outcome": "Ours by Right no dia seguinte: os rivais partem com a Jóia.", "leadsTo": ["b-2-ours-by-right"] }
+    ],
+    "notes": "Só se os rivais estão hostis. Ayo aceita rendições e prefere deixar inimigos ir — desde que saiam do caminho.",
+    "source": "book"
+  },
+  {
+    "id": "b-1-next-steps",
+    "title": "Fim do festival: prémios e o olhar de Ushru",
+    "arcs": ["a-main", "a-kryn"],
+    "chapter": "ch1",
+    "order": 90,
+    "location": "l-horizonback-paddock",
+    "participants": ["c-elder-ushru", "f-jigow-elders", "f-rivals"],
+    "summary": "Quem devolve o Emerald Eye recebe 100 gp e quartos gratuitos no Unbroken Tusk; os vencidos recebem os quartos e o discurso do mérito verdadeiro. A menos que a escondam, Ushru repara na Jóia; mesmo escondida, sente a mudança nos PCs.",
+    "reveals": ["r-jewel-properties"],
+    "requires": ["b-1-jewel-vision"],
+    "choices": [
+      { "label": "Mostrar a Jóia a Ushru", "outcome": "Ele não a reconhece hoje, mas sonha com ela esta noite.", "leadsTo": ["b-2-ushru-dawn"] },
+      { "label": "Esconder a Jóia", "outcome": "Ushru sente a mudança e bate à porta ao amanhecer na mesma.", "leadsTo": ["b-2-ushru-dawn"] }
+    ],
+    "portent": { "faction": "f-jigow-elders", "text": "Ushru sonha com o homem de caracóis e a frase 'os da gruta'." },
+    "notes": "Identify na Jóia: +1 AC, luz 15/15 ft, 3 cargas (invisibility), recarrega ao amanhecer. Nível 4.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-ushru-dawn",
+    "title": "Amanhecer: o sonho de Ushru e o nome da Vestige",
+    "arcs": ["a-main", "a-lore"],
+    "chapter": "ch2",
+    "order": 10,
+    "location": "l-unbroken-tusk",
+    "participants": ["c-elder-ushru", "c-alyxian", "f-jigow-elders"],
+    "summary": "Ushru bate à porta ao amanhecer e conta o sonho: um amuleto dourado num lago de sangue, mãos a agarrá-lo, só uma fica — um homem de caracóis que diz que 'os da gruta' têm de o encontrar. Nomeia a Jóia como Vestige of Divergence, a Jewel of Three Prayers, e diz que em Xhorhas a memória da Calamity vive mais forte em Bazzoxan. Não reconhece o nome Alyxian.",
+    "reveals": ["r-jewel-three-prayers", "r-go-to-bazzoxan", "r-alyxian-wants-remembered"],
+    "requires": ["b-1-next-steps"],
+    "choices": [
+      { "label": "Contar a verdade a Ushru", "outcome": "Heroic Quest: bênção, conselhos e mapa para Bazzoxan.", "leadsTo": ["b-2-journey"] },
+      { "label": "Recusar falar", "outcome": "Ushru suspira, encolhe os ombros e deseja bom dia.", "leadsTo": ["b-2-refusing-the-call", "b-2-friendly-rivalry"] },
+      { "label": "Os rivais é que têm a Jóia", "outcome": "Ours by Right.", "leadsTo": ["b-2-ours-by-right"] }
+    ],
+    "portent": { "faction": "f-jigow-elders", "text": "Se os PCs não partirem, Ushru conta o sonho aos rivais, que partem para Bazzoxan." },
+    "notes": "Ninguém vivo lembra o nome do Apotheon — é a primeira pista do tema 'ser esquecido'. Vestige: as propriedades crescem com feitos heróicos.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-friendly-rivalry",
+    "title": "Friendly Rivalry — Ayo propõe viajar juntos",
+    "arcs": ["a-rivals", "a-main"],
+    "chapter": "ch2",
+    "order": 15,
+    "location": "l-unbroken-tusk",
+    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
+    "summary": "Se os PCs estão apáticos mas os rivais são amigáveis, são os rivais que os procuram. Ayo propõe seguirem juntos (segurança em número; DC 13 Insight confirma que só quer uma grande aventura). Dermot pergunta se também ouviram a voz; Galsariad quer o segredo mágico; Irvan quer saber o que a Jóia faz; Maggie desconfia que houve mais, mas não insiste.",
+    "reveals": [],
+    "requires": ["b-2-ushru-dawn"],
+    "choices": [
+      { "label": "Aceitar viajar juntos", "outcome": "Viagem partilhada; cada encontro é uma oportunidade para os objectivos dos rivais.", "leadsTo": ["b-2-journey"] },
+      { "label": "Recusar", "outcome": "Os rivais partem sozinhos pelo Emerald Loop.", "leadsTo": ["b-2-journey"] }
+    ],
+    "notes": "Usar os objectivos: Maggie e o Dragonchess, Galsariad e a lore, Dermot e a amizade. Ayo detesta indecisão: uma resposta clara, mesmo negativa, cai melhor que evasivas.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-ours-by-right",
+    "title": "Ours by Right — os rivais têm a Jóia",
+    "arcs": ["a-rivals", "a-main"],
+    "chapter": "ch2",
+    "order": 20,
+    "location": "l-unbroken-tusk",
+    "participants": ["f-rivals", "c-elder-ushru"],
+    "summary": "Mexericos no Unbroken Tusk: os rivais falaram com Ushru e descem o Emerald Loop; o amuleto vale mais de 1.000 gp, o dobro se for mágico e o dobro outra vez em Ank'Harel — primeira menção de Ank'Harel como destino.",
+    "reveals": ["r-go-to-ank-harel"],
+    "requires": ["b-2-ushru-dawn"],
+    "choices": [
+      { "label": "Perseguir os rivais a ritmo rápido", "outcome": "Única forma de os apanhar antes do caravan stop.", "leadsTo": ["b-2-journey", "b-2-reunion-with-rivals"] },
+      { "label": "Seguir ao ritmo normal", "outcome": "Reencontro só no caravan stop (L4) ou em Bazzoxan.", "leadsTo": ["b-2-journey", "b-2-rivals-camp"] }
+    ],
+    "timer": "Os rivais partem de manhã; só se apanham a ritmo rápido (9 dias)",
+    "notes": "Ank'Harel aqui é só uma semente de valor de mercado; guardar para o cap. 3.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-jewel-theft",
+    "title": "Warring Destinies — o roubo nocturno da Jóia",
+    "arcs": ["a-rivals", "a-main"],
+    "chapter": "ch2",
+    "order": 25,
+    "location": "l-unbroken-tusk",
+    "participants": ["c-irvan-wastewalker", "c-galsariad-ardyth", "c-ayo-jabe", "f-rivals"],
+    "summary": "Um rival encapuzado e mascarado assalta o quarto dos PCs de noite. O ladrão provável é Irvan (vê a Jóia como tesouro); Galsariad se a natureza mágica ficou explícita; Ayo se um companheiro foi assassinado. Perception passiva decide: <15 escapa; 15-18 visto a sair pela janela; 19+ visto a remexer (DC 15 Stealth para o surpreender).",
+    "reveals": [],
+    "requires": ["b-1-next-steps"],
+    "choices": [
+      { "label": "Perseguir de imediato", "outcome": "DC 15 Dex + grapple; interrogar com DC 18 Persuasion ou DC 15 Intimidation.", "leadsTo": ["b-2-journey"] },
+      { "label": "Acordar os outros / vestir armadura primeiro", "outcome": "O ladrão escapa com a Jóia.", "leadsTo": ["b-2-rivals-road-vision"] },
+      { "label": "Capturar o rival", "outcome": "Escapa das amarras a DC 15 (corda) / DC 20 (algemas), tenta de hora a hora; os outros esperam-no até 7 dias no caravan stop.", "leadsTo": ["b-2-journey", "b-2-rivals-camp"] }
+    ],
+    "timer": "Perception passiva <15 / 15-18 / 19+",
+    "portent": { "faction": "f-rivals", "text": "Com a Jóia, os rivais rumam a Rosohna; a visão de Alyxian desvia-os para Bazzoxan." },
+    "notes": "Só se os PCs têm a Jóia e prejudicaram os rivais. Ponto de encontro dos rivais: Black Islands (J10). Um rival capturado pode virar refém, aliado ou inimigo mortal.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-rivals-road-vision",
+    "title": "A visão dos rivais na estrada",
+    "arcs": ["a-rivals", "a-lore"],
+    "chapter": "ch2",
+    "order": 28,
+    "location": "l-xhorhas-road",
+    "participants": ["f-rivals", "c-alyxian", "c-ayo-jabe"],
+    "summary": "Se o ladrão escapou, os rivais partem para Rosohna com a Jóia. Pelo caminho recebem a chamada de Alyxian, que os redirecciona para Bazzoxan. Mecanicamente é a mesma visão, agora entregue aos rivais.",
+    "reveals": ["r-go-to-bazzoxan"],
+    "requires": ["b-2-jewel-theft"],
+    "choices": [
+      { "label": "Os PCs seguem-nos", "outcome": "Corrida até Bazzoxan; reencontro possível na estrada ou em L4.", "leadsTo": ["b-2-journey"] }
+    ],
+    "notes": "Dá a Dermot a visão sagrada que desejava — e a Galsariad o segredo mágico. Usar isso no cap. 3 se se voltarem a cruzar.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-refusing-the-call",
+    "title": "Refusing the Call — trabalho de estrada",
+    "arcs": ["a-main"],
+    "chapter": "ch2",
+    "order": 30,
+    "location": "l-xhorhas-road",
+    "participants": ["f-aurora-watch", "f-road-raiders"],
+    "summary": "Se os PCs ignoram Ushru, usar os encontros de Xhorhas como escolta de caravana, mercenariado ou caça a recompensas até que derivem naturalmente para Bazzoxan.",
+    "reveals": [],
+    "requires": ["b-2-ushru-dawn"],
+    "choices": [
+      { "label": "Aceitar um contrato de escolta para Bazzoxan", "outcome": "Retoma a viagem com outro pretexto.", "leadsTo": ["b-2-journey"] }
+    ],
+    "notes": "Maryl Bronzefang a regressar ao posto é um pretexto natural de escolta.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-journey",
+    "title": "A viagem: o relógio-mestre do capítulo",
+    "arcs": ["a-main"],
+    "chapter": "ch2",
+    "order": 35,
+    "location": "l-xhorhas-road",
+    "participants": ["f-aurora-watch", "f-rivals"],
+    "summary": "Emerald Loop para sul, Hallowed Path para este. Ritmo normal: 12 dias, 6 encontros (4 antes do caravan stop, atingido ao fim do dia 8). Rápido: 9 dias, 4 encontros (3 antes; stop ao dia 6). Lento: 15 dias, 8 encontros (5 antes; stop ao dia 10).",
+    "reveals": [],
+    "requires": ["b-2-ushru-dawn"],
+    "choices": [
+      { "label": "Ritmo rápido", "outcome": "Única forma de apanhar rivais que partiram primeiro; menos encontros.", "leadsTo": ["b-2-reunion-with-rivals", "b-2-caravan-stop"] },
+      { "label": "Ritmo normal", "outcome": "6 encontros aleatórios (d8).", "leadsTo": ["b-2-caravan-stop"] },
+      { "label": "Ritmo lento", "outcome": "8 encontros; os rivais chegam muito antes.", "leadsTo": ["b-2-caravan-stop"] }
+    ],
+    "timer": "9 / 12 / 15 dias",
+    "notes": "Encontros d8: Lucky Break, Aurora Watch Patrol, Crashed Wagon, Demonic Carrion, Feast for the Eyes, Ill Omen, Moorbounder Mayhem, Roadside Raiders. Os marcados com asterisco no livro deixam pistas que levam ao caravan stop.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-lucky-break",
+    "title": "Encontro: A Lucky Break (o anel de Irvan)",
+    "arcs": ["a-rivals", "a-main"],
+    "chapter": "ch2",
+    "order": 40,
+    "location": "l-xhorhas-road",
+    "participants": ["c-irvan-wastewalker", "f-rivals"],
+    "summary": "Cadáver de um gloomstalker: DC 16 Medicine/Investigation mostra setas e magia de fogo/radiante — os rivais passaram aqui. DC 18 Survival encontra o anel de prata com safira (250 gp) que Irvan perdeu.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Devolver o anel a Irvan", "outcome": "Irvan torna-se amigável.", "leadsTo": ["b-2-reunion-with-rivals", "b-2-rivals-camp"] },
+      { "label": "Ficar com o anel", "outcome": "250 gp; Irvan hostil se descobrir.", "leadsTo": [] }
+    ],
+    "notes": "Só faz sentido se os rivais vão à frente. É a alavanca mais barata para virar Irvan.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-aurora-watch-patrol",
+    "title": "Encontro: Aurora Watch Patrol",
+    "arcs": ["a-kryn", "a-main"],
+    "chapter": "ch2",
+    "order": 42,
+    "location": "l-xhorhas-road",
+    "participants": ["f-aurora-watch", "c-gaeya-iliera"],
+    "summary": "Três variantes: patrulha em descanso com uma cozinheira drow (comida dá 1d10 HP temporários); patrulha em combate com um hezrou (ajudar vale 50 gp e uma recomendação ao Taskhand Verin Thelyss; ignorar custa a vida de um soldado); patrulha 'perdida' que é uma emboscada de shadow demons e quasits.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Ajudar contra o hezrou", "outcome": "50 gp + recomendação a Verin: entrada em Bazzoxan como amigos da dinastia.", "leadsTo": ["b-2-arrival-bazzoxan"] },
+      { "label": "Ignorar", "outcome": "Um soldado morre; a Aurora Watch lembra-se.", "leadsTo": [] },
+      { "label": "Seguir a patrulha 'perdida'", "outcome": "Emboscada de shadow demons.", "leadsTo": [] }
+    ],
+    "portent": { "faction": "f-aurora-watch", "text": "Sem ajuda, o hezrou mata um soldado." },
+    "notes": "A cozinheira pode ser a própria Gaeya Iliera a caminho do caravan stop. A recomendação a Verin muda o tom da chegada.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-crashed-wagon",
+    "title": "Encontro: Crashed Wagon",
+    "arcs": ["a-main"],
+    "chapter": "ch2",
+    "order": 44,
+    "location": "l-xhorhas-road",
+    "participants": ["f-road-raiders"],
+    "summary": "Carroça despistada assombrada por will-o'-wisps; entre a carga, um charm of heroism.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [],
+    "notes": "Encontro de pista: os destroços apontam para o caravan stop. Pode ser vítima dos Road Raiders.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-demonic-carrion",
+    "title": "Encontro: Demonic Carrion (a adaga de Kierchaly)",
+    "arcs": ["a-main", "a-rivals"],
+    "chapter": "ch2",
+    "order": 46,
+    "location": "l-xhorhas-road",
+    "participants": ["c-kierchaly-wastewalker", "c-tyvak", "c-moghra"],
+    "summary": "Um udaak morto, um vrock e quasits a disputar a carcaça. Entre os caídos, Kierchaly Wastewalker com a sua +1 dagger inscrita. As pegadas dos sobreviventes levam ao caravan stop.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Recolher a adaga inscrita", "outcome": "Permite a troca com Tyvak no caravan stop.", "leadsTo": ["b-2-tyvak-trade"] }
+    ],
+    "notes": "O nome Wastewalker na adaga liga a Irvan: se ele estiver presente, reage ao nome do clã que odeia.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-feast-for-the-eyes",
+    "title": "Encontro: Feast for the Eyes",
+    "arcs": ["a-main"],
+    "chapter": "ch2",
+    "order": 48,
+    "location": "l-xhorhas-road",
+    "participants": ["f-betrayer-gods"],
+    "summary": "Um gloomstalker cujo Shriek ergue 1d6 esqueletos por uso. Antevisão dos horrores que escapam do Betrayers' Rise.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [],
+    "notes": "Gerir o campo de batalha: matar o gloomstalker cedo evita a bola de neve de esqueletos.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-ill-omen",
+    "title": "Encontro: Ill Omen — Ruidus cheia",
+    "arcs": ["a-lore", "a-ruidium", "a-main"],
+    "chapter": "ch2",
+    "order": 50,
+    "location": "l-xhorhas-road",
+    "participants": ["c-alyxian"],
+    "summary": "Ruidus, a lua de mau agoiro, brilha cheia: todos os PCs ficam amaldiçoados com desvantagem em testes e salvaguardas durante 24 horas, e outro encontro segue-se logo no dia seguinte.",
+    "reveals": ["r-alyxian-bad-luck", "r-alyxian-ruidus-birth"],
+    "requires": ["b-2-journey"],
+    "choices": [],
+    "timer": "24 horas de maldição; encontro extra no dia seguinte",
+    "notes": "Ligar à cor da substância que prendia Alyxian na visão e ao enigma das luas em J7. É a semente da má sorte de quem nasce sob Ruidus.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-moorbounder-mayhem",
+    "title": "Encontro: Moorbounder Mayhem (Justice e Rice Pudding)",
+    "arcs": ["a-main"],
+    "chapter": "ch2",
+    "order": 52,
+    "location": "l-xhorhas-road",
+    "participants": ["c-justice"],
+    "summary": "Uma matilha de moorbounders cerca o batedor Justice e o seu moorbounder Rice Pudding (DC 21 Intimidation por moorbounder para os afastar).",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Salvar Justice", "outcome": "No caravan stop oferece goggles of night (5 gp/PC se encontrado depois).", "leadsTo": ["b-2-caravan-stop"] }
+    ],
+    "notes": "Justice é LN e seco; a gratidão vem em objecto, não em palavras.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-roadside-raiders",
+    "title": "Encontro: Roadside Raiders (Six-Knives)",
+    "arcs": ["a-main"],
+    "chapter": "ch2",
+    "order": 54,
+    "location": "l-xhorhas-road",
+    "participants": ["c-six-knives", "f-road-raiders"],
+    "summary": "Postraeck 'Six-Knives' e dez bandidos exigem um imposto de estrada de 25 gp por cabeça. São todos cobardes: Six-Knives foge abaixo de metade dos HP.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Pagar", "outcome": "Perdem 25 gp/PC; os bandidos seguem para a próxima vítima.", "leadsTo": [] },
+      { "label": "Lutar", "outcome": "Fogem depressa; matar Six-Knives cria um sucessor vingativo.", "leadsTo": [] },
+      { "label": "Bluffar", "outcome": "Cobardes cedem a uma boa Intimidation.", "leadsTo": [] }
+    ],
+    "portent": { "faction": "f-road-raiders", "text": "Continuam a extorquir o Emerald Loop; um protegido sobe a capitão se Six-Knives cair." },
+    "notes": "As seis adagas com nome dão cor; entregar Six-Knives à Aurora Watch no caravan stop rende reputação.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-reunion-with-rivals",
+    "title": "Reencontro com os rivais na estrada",
+    "arcs": ["a-rivals", "a-main"],
+    "chapter": "ch2",
+    "order": 60,
+    "location": "l-xhorhas-road",
+    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals"],
+    "summary": "Só se os PCs seguem os rivais a ritmo rápido. Galsariad faz o turno da noite (DC 16 Stealth para passar; se detectar alguém de quem é amigo/indiferente, prefere falar baixinho). Dois ramos: Jewel Theft (combate ou infiltração) ou No Quarrel (roleplay — hipótese para um rival cumprir um objectivo, como a partida de Dragonchess de Maggie).",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Roubar/tomar a Jóia", "outcome": "Combate não letal por parte dos rivais; hostilidade duradoura.", "leadsTo": ["b-2-caravan-stop"] },
+      { "label": "No Quarrel", "outcome": "Conversa à fogueira; oportunidade de mudar atitudes.", "leadsTo": ["b-2-caravan-stop"] },
+      { "label": "Rivais hostis", "outcome": "Ayo manda-os afastar-se; não quer lutar mas estão prontos.", "leadsTo": ["b-2-caravan-stop"] }
+    ],
+    "timer": "Só a ritmo rápido (9 dias)",
+    "notes": "Os rivais evitam matar enquanto os PCs não matarem nenhum; Dermot estabiliza moribundos. Se Irvan recebeu o anel, ele é o canal de diálogo.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-caravan-stop",
+    "title": "Emerald Loop Caravan Stop",
+    "arcs": ["a-main"],
+    "chapter": "ch2",
+    "order": 70,
+    "location": "l-caravan-stop",
+    "participants": ["c-kruzkrenner-family", "c-acorn-sisters", "c-gaeya-iliera", "c-justice", "c-tyvak", "c-moghra", "f-aurora-watch"],
+    "summary": "O cruzamento sob o cajado de Melora: descanso, compras, a família Kruzkrenner em Big Yuyo, a oferenda às Acorn Sisters (charm of vitality ao acordar), o kor'rundl de Gaeya (1d10 HP temp), os goggles of night de Justice. Seis veteranos da Aurora Watch e dois chefes bugbear prendem ladrões e levam-nos acorrentados para Bazzoxan.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Fazer uma oferenda no bosque", "outcome": "Charm of vitality.", "leadsTo": [] },
+      { "label": "Ver quem está em L4", "outcome": "Os rivais (se vão à frente) ou uma patrulha.", "leadsTo": ["b-2-rivals-camp"] },
+      { "label": "Mostrar a adaga inscrita", "outcome": "Tyvak reconhece-a.", "leadsTo": ["b-2-tyvak-trade"] },
+      { "label": "Seguir viagem", "outcome": "Último troço até Bazzoxan.", "leadsTo": ["b-2-arrival-bazzoxan"] }
+    ],
+    "notes": "As dríades só deixam queimar madeira morta. Little Chespa desafia quem sobe a Big Yuyo. Espantar os bois (L3) é a distracção clássica para um roubo.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-tyvak-trade",
+    "title": "Tyvak e a adaga do pai",
+    "arcs": ["a-rivals", "a-main"],
+    "chapter": "ch2",
+    "order": 72,
+    "location": "l-caravan-bonfire",
+    "participants": ["c-tyvak", "c-moghra", "c-kierchaly-wastewalker", "c-irvan-wastewalker"],
+    "summary": "Se Tyvak vê a +1 dagger de Kierchaly com os PCs, oferece a sua +1 battleaxe em troca e agradece de coração. Tyvak e Moghra são do mesmo clã Wastewalker que Irvan.",
+    "reveals": [],
+    "requires": ["b-2-demonic-carrion", "b-2-caravan-stop"],
+    "choices": [
+      { "label": "Trocar a adaga pelo machado", "outcome": "+1 battleaxe; os irmãos ficam gratos; ligação ao clã de Irvan.", "leadsTo": [] },
+      { "label": "Devolver sem pedir nada", "outcome": "Tyvak insiste na troca na mesma.", "leadsTo": [] },
+      { "label": "Ficar com a adaga", "outcome": "Tyvak e Moghra magoados; Irvan, se souber, envergonha-se do clã e dos PCs.", "leadsTo": [] }
+    ],
+    "notes": "Se os rivais estão em L4, pôr Irvan a evitar os primos: ele odeia o nome Wastewalker.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-rivals-camp",
+    "title": "L4 — o acampamento dos rivais (segunda oportunidade)",
+    "arcs": ["a-rivals", "a-kryn"],
+    "chapter": "ch2",
+    "order": 74,
+    "location": "l-adventurers-camp",
+    "participants": ["c-ayo-jabe", "c-dermot-wurder", "c-galsariad-ardyth", "c-irvan-wastewalker", "c-maggie-keeneyes", "f-rivals", "f-aurora-watch"],
+    "summary": "Se os rivais vão à frente, acampam em L4 (esperam até 7 dias por um companheiro em falta). Segunda hipótese de reparar ou agravar a relação — sob o olhar de seis veteranos da Aurora Watch que prendem ladrões. Caso contrário, L4 é um acampamento da patrulha.",
+    "reveals": [],
+    "requires": ["b-2-caravan-stop"],
+    "choices": [
+      { "label": "Fazer as pazes / partilhar a fogueira", "outcome": "Atitudes podem subir; viagem conjunta até Bazzoxan.", "leadsTo": ["b-2-arrival-bazzoxan"] },
+      { "label": "Tentar roubar a Jóia aqui", "outcome": "A Aurora Watch intervém; ladrões vão acorrentados para Bazzoxan.", "leadsTo": ["b-2-arrival-bazzoxan"] }
+    ],
+    "timer": "Os rivais esperam até 7 dias por um companheiro capturado",
+    "notes": "É o último ponto antes de Bazzoxan onde a relação com os rivais ainda é barata de mudar.",
+    "source": "book"
+  },
+  {
+    "id": "b-2-arrival-bazzoxan",
+    "title": "Chegada a Bazzoxan",
+    "arcs": ["a-main", "a-kryn"],
+    "chapter": "ch2",
+    "order": 80,
+    "location": "l-bazzoxan",
+    "participants": ["f-aurora-watch", "c-maryl-bronzefang", "f-rivals"],
+    "summary": "Os espigões negros do Betrayers' Rise erguem-se sobre a muralha. Com escolta da Aurora Watch, são recebidos como amigos da dinastia; sozinhos, perguntam-lhes se são mercenários, que a força de armas faz falta. Os PCs chegam ao nível 5.",
+    "reveals": [],
+    "requires": ["b-2-journey"],
+    "choices": [
+      { "label": "Chegar com escolta / recomendação", "outcome": "Recepção calorosa; Verin já ouviu falar deles.", "leadsTo": ["b-3-mouthers"] },
+      { "label": "Chegar sozinhos", "outcome": "Tratados como mercenários úteis.", "leadsTo": ["b-3-mouthers"] }
+    ],
+    "notes": "Terminar o capítulo no portão: o cap. 3 abre com os gibbering mouthers assim que entram. Maryl Bronzefang regressa ao posto — pode ser a cara conhecida no portão.",
+    "source": "book"
+  }
+]

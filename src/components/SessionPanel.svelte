@@ -57,7 +57,7 @@
           <td><EntityChip kind="arc" id={n.arc.id} /></td>
           <td class="muted">{n.done}/{n.total}</td>
           <td>{#if n.ready}<EntityChip kind="beat" id={n.ready.id} /> <button class="icon" onclick={() => togglePlayed(n.ready!.id)}>✓</button>{:else}<span class="muted">—</span>{/if}</td>
-          <td>{#if n.blocked}<EntityChip kind="beat" id={n.blocked.id} /> <span class="muted">← {#each n.blocked.requires.filter((r) => !played.has(r)) as r (r)}<EntityChip kind="beat" id={r} /> {/each}</span>{/if}</td>
+          <td>{#if n.blocked}<EntityChip kind="beat" id={n.blocked.id} /> <span class="muted">← {#each n.blocked.requires.filter((r) => !played.has(r)) as r, i_ (i_)}<EntityChip kind="beat" id={r} /> {/each}</span>{/if}</td>
         </tr>
       {/each}
     </tbody>
@@ -89,7 +89,7 @@
         <tr>
           <td class="muted">{s.date}</td>
           <td><b>{s.title}</b><br /><span class="muted">{s.notes}</span></td>
-          <td>{#each s.beats as b (b)}<EntityChip kind="beat" id={b} /> {/each}</td>
+          <td>{#each s.beats as b, i_ (i_)}<EntityChip kind="beat" id={b} /> {/each}</td>
           <td><button class="icon" onclick={() => (editing = { ...s, beats: [...s.beats] })}>✎</button> <button class="icon danger" onclick={() => confirm('Remover sessão?') && removeSession(s.id)}>✕</button></td>
         </tr>
       {:else}
@@ -101,7 +101,7 @@
   <h3>Flags livres</h3>
   <p class="muted">Factos que a mesa estabeleceu e que condicionam reacções ("aloysia-viu-a-joia", "prolix-inimigo"…). Estilo Larian: o que se rastreia são flags.</p>
   <div class="row">
-    {#each Object.keys(play.flags) as f (f)}<span class="chip">{f} <button class="icon" onclick={() => setFlag(f, false)}>✕</button></span>{/each}
+    {#each Object.keys(play.flags) as f, i_ (i_)}<span class="chip">{f} <button class="icon" onclick={() => setFlag(f, false)}>✕</button></span>{/each}
     <input type="text" placeholder="nova flag" bind:value={newFlag} onkeydown={(e) => e.key === 'Enter' && newFlag.trim() && (setFlag(newFlag.trim(), true), (newFlag = ''))} />
   </div>
 </div>

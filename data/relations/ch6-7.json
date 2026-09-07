@@ -1,0 +1,19 @@
+[
+  { "from": "c-theo-nathope", "to": "c-alyxian", "type": "family", "label": "anagrama: a inocência de Alyxian", "source": "book" },
+  { "from": "c-alyxian-hunter", "to": "c-alyxian", "type": "family", "label": "o ódio de Alyxian", "source": "book" },
+  { "from": "c-alyxian-hunter", "to": "c-theo-nathope", "type": "enemy", "label": "opostos: só desperta quando Theo desaparece", "fromBeat": "b-6-theo-and-hunter", "source": "book" },
+  { "from": "c-theo-nathope", "to": "c-alyxian", "type": "protects", "label": "quer que os PCs o salvem de verdade, não só que o libertem", "fromBeat": "b-6-theo-and-hunter", "untilBeat": "b-6-n17-n18-theo-briefing", "source": "book" },
+  { "from": "c-perigee", "to": "c-sehanine", "type": "serves", "label": "deva da Moon Weaver; reformou-se ao lado dela", "source": "book" },
+  { "from": "c-perigee", "to": "c-alyxian", "type": "ally", "label": "combateu ao lado dele na sua última batalha", "source": "book" },
+  { "from": "c-perigee", "to": "c-alyxian", "type": "protects", "label": "vinga quem perturba os sonhos dele", "fromBeat": "b-6-n1-arrival", "untilBeat": "b-6-n24-perigee-deception", "source": "book" },
+  { "from": "c-saqiri", "to": "c-alyxian", "type": "knows", "label": "capitã de caça da juventude dele; morreu por causa da sua insistência", "source": "book" },
+  { "from": "c-kalagothe", "to": "c-alyxian", "type": "betrays", "label": "liderou os aliados dele no saque da aldeia salva", "source": "book" },
+  { "from": "c-zenthas-family", "to": "c-alyxian", "type": "protects", "label": "deram-lhe abrigo; mortas pelos grimlocks de Torog no dia seguinte", "source": "book" },
+  { "from": "c-alyxian-parents", "to": "c-alyxian", "type": "family", "label": "os únicos que nunca desconfiaram dele", "source": "book" },
+  { "from": "c-talmyth", "to": "c-alyxian", "type": "serves", "label": "soldado da companhia dele no Betrayers' Rise", "source": "book" },
+  { "from": "c-alyxian-hunter", "to": "f-rivals", "type": "enemy", "label": "caça qualquer intruso, rivais incluídos", "fromBeat": "b-6-n17-n18-theo-briefing", "source": "book" },
+  { "from": "f-allegiance", "to": "c-alyxian", "type": "wantsFrom", "label": "A6: permissão para extrair ruidium sem ser atacada", "fromBeat": "b-6-a6-secure-netherdeep", "source": "book" },
+  { "from": "f-consortium", "to": "c-alyxian", "type": "wantsFrom", "label": "B6: aliar-se à fonte do ruidium ou capturá-la", "fromBeat": "b-6-b6-monopoly", "source": "book" },
+  { "from": "f-cobalt-soul", "to": "c-alyxian", "type": "wantsFrom", "label": "C6: destruir o Netherdeep, o que exige matá-lo ou redimi-lo", "fromBeat": "b-6-c6-destroy-netherdeep", "source": "book" },
+  { "from": "c-alyxian", "to": "f-rivals", "type": "wantsFrom", "label": "quer que também eles o libertem; joga uns contra os outros", "fromBeat": "b-6-rivals-n26", "source": "book" }
+]

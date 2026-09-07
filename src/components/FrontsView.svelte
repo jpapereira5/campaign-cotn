@@ -42,7 +42,7 @@
           </div>
         </div>
         {#if f.leaders.length}
-          <div class="row small">{#each f.leaders as l (l)}{@const ch = c.characters.find((x) => x.id === l)}<span><EntityChip kind="character" id={l} />{#if ch}{@const st = characterState(ch)}{#if st}<span class="muted"> · {st}</span>{/if}{/if}</span>{/each}</div>
+          <div class="row small">{#each f.leaders as l, i_ (i_)}{@const ch = c.characters.find((x) => x.id === l)}<span><EntityChip kind="character" id={l} />{#if ch}{@const st = characterState(ch)}{#if st}<span class="muted"> · {st}</span>{/if}{/if}</span>{/each}</div>
         {/if}
         <ol class="portents">
           {#each f.portents as p, i (i)}

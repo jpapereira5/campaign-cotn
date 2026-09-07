@@ -52,14 +52,14 @@
     {@const st = characterState(character)}
     {@const att = attitudeOf(character)}
     <h2>{character.name}</h2>
-    {#if character.factions.length}<div class="row">{#each character.factions as f (f)}<EntityChip kind="faction" id={f} />{/each}</div>{/if}
+    {#if character.factions.length}<div class="row">{#each character.factions as f, i_ (i_)}<EntityChip kind="faction" id={f} />{/each}</div>{/if}
     {#if character.home}<div class="muted">📍 <EntityChip kind="location" id={character.home} /></div>{/if}
     {#if st}<p class="state">Estado agora: <b>{st}</b></p>{/if}
     {#if character.kind === 'rival' || att}
       <label class="field"><span>Atitude para com os PCs</span>
         <select value={att ?? ''} onchange={(e) => setAttitude(character.id, ((e.target as HTMLSelectElement).value || null) as Attitude | null)}>
           <option value="">(livro: {character.attitude ?? '—'})</option>
-          {#each ATTITUDES as a (a)}<option value={a}>{a}</option>{/each}
+          {#each ATTITUDES as a, i_ (i_)}<option value={a}>{a}</option>{/each}
         </select>
       </label>
     {/if}
@@ -93,11 +93,11 @@
     {#if faction.motto}<p class="muted"><i>{faction.motto}</i></p>{/if}
     <p>{faction.agenda}</p>
     {#if faction.publicFace}<p><b>Cara pública:</b> {faction.publicFace}</p>{/if}
-    {#if faction.leaders.length}<h3>Líderes</h3><div class="row">{#each faction.leaders as l (l)}<EntityChip kind="character" id={l} />{/each}</div>{/if}
+    {#if faction.leaders.length}<h3>Líderes</h3><div class="row">{#each faction.leaders as l, i_ (i_)}<EntityChip kind="character" id={l} />{/each}</div>{/if}
     <h3>Membros</h3>
     <div class="row">{#each c.characters.filter((x) => x.factions.includes(faction.id)) as m (m.id)}<EntityChip kind="character" id={m.id} />{/each}</div>
-    {#if faction.allies.length}<p><b>Aliados:</b> {#each faction.allies as a (a)}<EntityChip kind="faction" id={a} /> {/each}</p>{/if}
-    {#if faction.enemies.length}<p><b>Inimigos:</b> {#each faction.enemies as a (a)}<EntityChip kind="faction" id={a} /> {/each}</p>{/if}
+    {#if faction.allies.length}<p><b>Aliados:</b> {#each faction.allies as a, i_ (i_)}<EntityChip kind="faction" id={a} /> {/each}</p>{/if}
+    {#if faction.enemies.length}<p><b>Inimigos:</b> {#each faction.enemies as a, i_ (i_)}<EntityChip kind="faction" id={a} /> {/each}</p>{/if}
     {#if faction.portents.length}
       <h3>Portentos (se ninguém intervier)</h3>
       <ol class="plain">{#each faction.portents as p, i (i)}<li><span class="muted">{chapterName(p.chapter)}:</span> {p.text}</li>{/each}</ol>
@@ -119,7 +119,7 @@
       {#if beat.timer}<span class="chip">⏱ {beat.timer}</span>{/if}
       <button class:primary={!isPlayed(beat.id)} onclick={() => togglePlayed(beat.id)}>{isPlayed(beat.id) ? '✓ jogado (desmarcar)' : 'marcar jogado'}</button>
     </div>
-    <div class="row">{#each beat.arcs as a (a)}<EntityChip kind="arc" id={a} />{/each}</div>
+    <div class="row">{#each beat.arcs as a, i_ (i_)}<EntityChip kind="arc" id={a} />{/each}</div>
     {#if beat.location}<div class="muted">📍 <EntityChip kind="location" id={beat.location} /></div>{/if}
     {#if editing}
       <label class="field"><span>Resumo</span><textarea rows="4" bind:value={draft.summary}></textarea></label>
@@ -130,14 +130,14 @@
       {#if beat.notes}<p class="notes">{beat.notes}</p>{/if}
       <button onclick={() => startEdit({ summary: beat.summary, notes: beat.notes })}>✎ editar</button>
     {/if}
-    {#if beat.participants.length}<h3>Participantes</h3><div class="row">{#each beat.participants as p (p)}<EntityChip kind={c.factions.some((f) => f.id === p) ? 'faction' : 'character'} id={p} />{/each}</div>{/if}
+    {#if beat.participants.length}<h3>Participantes</h3><div class="row">{#each beat.participants as p, i_ (i_)}<EntityChip kind={c.factions.some((f) => f.id === p) ? 'faction' : 'character'} id={p} />{/each}</div>{/if}
     {#if beat.choices.length}
       <h3>Escolhas</h3>
-      <ul class="plain">{#each beat.choices as ch, i (i)}<li><b>{ch.label}</b> — {ch.outcome} {#each ch.leadsTo as l (l)}<EntityChip kind="beat" id={l} />{/each}</li>{/each}</ul>
+      <ul class="plain">{#each beat.choices as ch, i (i)}<li><b>{ch.label}</b> — {ch.outcome} {#each ch.leadsTo as l, i_ (i_)}<EntityChip kind="beat" id={l} />{/each}</li>{/each}</ul>
     {/if}
     {#if beat.portent}<p class="warn">☠ Portento (<EntityChip kind="faction" id={beat.portent.faction} />): {beat.portent.text}</p>{/if}
-    {#if beat.reveals.length}<h3>Revela</h3><ul class="plain">{#each beat.reveals as r (r)}<li><EntityChip kind="revelation" id={r} /></li>{/each}</ul>{/if}
-    {#if beat.requires.length}<h3>Requer</h3><div class="row">{#each beat.requires as r (r)}<EntityChip kind="beat" id={r} />{/each}</div>{/if}
+    {#if beat.reveals.length}<h3>Revela</h3><ul class="plain">{#each beat.reveals as r, i_ (i_)}<li><EntityChip kind="revelation" id={r} /></li>{/each}</ul>{/if}
+    {#if beat.requires.length}<h3>Requer</h3><div class="row">{#each beat.requires as r, i_ (i_)}<EntityChip kind="beat" id={r} />{/each}</div>{/if}
     {@const next = c.beats.filter((b) => b.requires.includes(beat.id) || b.choices.some((ch) => ch.leadsTo.includes(beat.id)))}
     {#if next.length}<h3>Leva a</h3><div class="row">{#each next as b (b.id)}<EntityChip kind="beat" id={b.id} />{/each}</div>{/if}
   {/if}
@@ -154,16 +154,16 @@
     <p>{revelation.text}</p>
     <button class:primary={!world.play.revealed.includes(revelation.id)} onclick={() => toggleRevealed(revelation.id)}>{world.play.revealed.includes(revelation.id) ? '✓ revelada (desmarcar)' : 'marcar como revelada'}</button>
     <h3>Pistas ({revelation.clues.length}) {#if revelation.clues.length < 3}<span class="warn">— menos de 3!</span>{/if}</h3>
-    <div class="row">{#each revelation.clues as b (b)}<EntityChip kind="beat" id={b} />{/each}</div>
+    <div class="row">{#each revelation.clues as b, i_ (i_)}<EntityChip kind="beat" id={b} />{/each}</div>
   {/if}
 
   {#if ambition}
     <h2>Ambição</h2>
     <p><EntityChip kind="character" id={ambition.pc} /></p>
     <p>{ambition.text}</p>
-    {#if ambition.npcs.length}<h3>NPCs</h3><div class="row">{#each ambition.npcs as n (n)}<EntityChip kind="character" id={n} />{/each}</div>{/if}
-    {#if ambition.satisfiedBy.length}<h3>Satisfeita por</h3><div class="row">{#each ambition.satisfiedBy as b (b)}<EntityChip kind="beat" id={b} />{/each}</div>{/if}
-    {#if ambition.threatenedBy.length}<h3>Ameaçada por</h3><div class="row">{#each ambition.threatenedBy as b (b)}<EntityChip kind="beat" id={b} />{/each}</div>{/if}
+    {#if ambition.npcs.length}<h3>NPCs</h3><div class="row">{#each ambition.npcs as n, i_ (i_)}<EntityChip kind="character" id={n} />{/each}</div>{/if}
+    {#if ambition.satisfiedBy.length}<h3>Satisfeita por</h3><div class="row">{#each ambition.satisfiedBy as b, i_ (i_)}<EntityChip kind="beat" id={b} />{/each}</div>{/if}
+    {#if ambition.threatenedBy.length}<h3>Ameaçada por</h3><div class="row">{#each ambition.threatenedBy as b, i_ (i_)}<EntityChip kind="beat" id={b} />{/each}</div>{/if}
   {/if}
 
   {#if selection.kind === 'character' || selection.kind === 'faction'}
@@ -187,7 +187,7 @@
     <details>
       <summary>+ nova relação</summary>
       <div class="row">
-        <select bind:value={newRel.type}>{#each RELATION_TYPES as t (t)}<option value={t}>{RELATION_LABELS[t]}</option>{/each}</select>
+        <select bind:value={newRel.type}>{#each RELATION_TYPES as t, i_ (i_)}<option value={t}>{RELATION_LABELS[t]}</option>{/each}</select>
         <select bind:value={newRel.to}><option value="">…</option>{#each others as o (o.id)}<option value={o.id}>{o.name}</option>{/each}</select>
       </div>
       <div class="row"><input type="text" placeholder="rótulo" bind:value={newRel.label} /><button onclick={submitRel}>adicionar</button></div>

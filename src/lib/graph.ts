@@ -108,13 +108,13 @@ export function buildGraph(
   }
   const links: GLink[] = []
   const seenPair = new Map<string, number>()
-  for (const r of canon.relations) {
-    if (!ids.has(r.from) || !ids.has(r.to)) continue
-    if (!relationActive(r, cursor, beatPos)) continue
+  canon.relations.forEach((r, i) => {
+    if (!ids.has(r.from) || !ids.has(r.to)) return
+    if (!relationActive(r, cursor, beatPos)) return
     const pair = [r.from, r.to].sort().join('|')
     const n = seenPair.get(pair) ?? 0
     seenPair.set(pair, n + 1)
-    links.push({ key: relationKey(r), source: r.from, target: r.to, relation: r, curve: n === 0 ? 0 : (n % 2 ? 1 : -1) * Math.ceil(n / 2) })
-  }
+    links.push({ key: `${relationKey(r)}#${i}`, source: r.from, target: r.to, relation: r, curve: n === 0 ? 0 : (n % 2 ? 1 : -1) * Math.ceil(n / 2) })
+  })
   return { nodes, links }
 }

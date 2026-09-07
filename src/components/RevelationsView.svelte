@@ -31,9 +31,9 @@
             <td><button class="linkish" onclick={() => select('revelation', r.id)}>{r.text}</button></td>
             <td>
               <span class:warn={r.clues.length < 3} class="muted">{met}/{r.clues.length}{#if r.clues.length < 3} ⚠ poucas{/if}</span><br />
-              {#each r.clues as b (b)}<EntityChip kind="beat" id={b} /> {/each}
+              {#each r.clues as b, i_ (i_)}<EntityChip kind="beat" id={b} /> {/each}
             </td>
-            <td>{#each revealedBy.get(r.id) ?? [] as b (b)}<EntityChip kind="beat" id={b} /> {:else}<span class="warn">nenhum beat</span>{/each}</td>
+            <td>{#each revealedBy.get(r.id) ?? [] as b, i_ (i_)}<EntityChip kind="beat" id={b} /> {:else}<span class="warn">nenhum beat</span>{/each}</td>
           </tr>
         {/each}
       </tbody>
