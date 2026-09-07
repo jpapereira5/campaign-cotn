@@ -33,15 +33,15 @@
     "from": "c-aloysia-telfan",
     "to": "f-aurora-watch",
     "type": "knows",
-    "label": "DM: vista nas ruínas fora de Bazzoxan ao lado dos soldados",
+    "label": "PROPOSTA. veio com a patrulha de Verin às Ruins of Sorrow, \"como perita em folclore\"",
     "fromBeat": "b-2-ruins-outside-bazzoxan",
     "source": "dm"
   },
   {
-    "from": "c-perigee",
-    "to": "c-aloysia-telfan",
-    "type": "knows",
-    "label": "DM: as ruínas fora de Bazzoxan têm a ver com o anjo (A COMPLETAR)",
+    "from": "c-aloysia-telfan",
+    "to": "c-perigee",
+    "type": "wantsFrom",
+    "label": "PROPOSTA. quer saber o que acorda nas Ruins of Sorrow, o sítio onde a deva morreu",
     "fromBeat": "b-2-ruins-outside-bazzoxan",
     "source": "dm"
   }

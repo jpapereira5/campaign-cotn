@@ -15,5 +15,12 @@
   {
     "id": "l-cael-morrow",
     "summary": "Caverna inundada 500 pés abaixo de Ank'Harel; a água sai do rift e sobe até ao oásis. As wards da Allegiance são barreiras de força azul sustidas por keystones (AC 17, 50 hp); partir uma inunda a área. Fora das wards, tabela de encontros e Poisoned Emotions. PROPOSTA (Remix). Pointcrawl: pontos com cúpula de ar ligados por caminhos keyway / flared / sunken (intervalo 1-2 h); controlo territorial por facção; o rift longe do base camp."
+  },
+  {
+    "id": "l-ruins-of-sorrow",
+    "name": "Ruins of Sorrow",
+    "parent": "l-barbed-fields",
+    "chapter": "ch2",
+    "summary": "PROPOSTA (Reddit, fan-made). Ruínas cristalinas de três lados, a um dia de Bazzoxan, com elevações de 10 e 15 ft e uma árvore morta. No centro, onde Perigee caiu a matar o general dos Betrayers, a barreira para o Abismo está fina: depois de Ruidus cheia sai névoa e saem demónios. PROPOSTA: situadas nos Barbed Fields, o campo da batalha final retratada em R2 (alternativa: à beira do Hallowed Path, um dia antes da cidade)."
   }
 ]

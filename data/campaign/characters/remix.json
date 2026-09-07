@@ -61,7 +61,7 @@
     "states": [
       {
         "fromBeat": "b-2-ruins-outside-bazzoxan",
-        "state": "DM: primeiro encontro: nas ruínas fora de Bazzoxan, com a Aurora Watch, entre demónios"
+        "state": "PROPOSTA. primeiro encontro: com a patrulha da Aurora Watch nas Ruins of Sorrow; observa quem recebe a visão; fica fixada na Jóia desde já se os PCs lhe contarem"
       },
       {
         "fromBeat": "b-3-aloysia-offer",
@@ -97,7 +97,11 @@
     "states": [
       {
         "fromBeat": "b-2-ruins-outside-bazzoxan",
-        "state": "PROPOSTA (Remix). rasto: as ruínas fora de Bazzoxan têm a ver com o anjo"
+        "state": "PROPOSTA (Reddit). morreu aqui: matou o general dos Betrayers e caiu; a névoa e os demónios saem do sítio onde tombou"
+      },
+      {
+        "fromBeat": "b-2-vision-perigee-death",
+        "state": "PROPOSTA (Reddit). a visão mostra a sua morte e a bênção da Change Bringer que se lhe seguiu"
       },
       {
         "fromBeat": "b-3-hall-of-holes",
@@ -111,6 +115,7 @@
         "fromBeat": "b-6-n24-perigee-deception",
         "state": "libertada, volta para Sehanine; pode ser enviada como aliada no epílogo"
       }
-    ]
+    ],
+    "summary": "Deva ao serviço de Sehanine the Moon Weaver que combateu ao lado de Alyxian na sua última batalha. Foi destruída, reformou-se junto da deusa e passou séculos à procura dele até dar com o Netherdeep, onde afundou no desespero e foi corrompida pelo ruidium. Espera os PCs em N24. PROPOSTA (Reddit, fan-made): veio quando Alyxian chamou a Moon Weaver, depois de os companheiros dele morrerem em Ghor Dranas; morreu fora de Bazzoxan, nas Ruins of Sorrow, a matar o general dos Betrayers, e a bênção da Change Bringer seguiu-se."
   }
 ]
