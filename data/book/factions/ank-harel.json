@@ -5,16 +5,19 @@
     "motto": "To peer into the past is to illuminate the future.",
     "agenda": "Recuperar a tradição académica dos elfos e orcs da antiga Cael Morrow e desenterrar os seus segredos. Descobriu o ruidium primeiro e tentou mantê-lo secreto; em Ank'Harel já aperfeiçoou armas e armaduras de ruidium (que dão sobrevivência subaquática) e quer usá-lo como fonte de poder e riqueza. Dividida por dentro: Alakritos não quer perturbar o rift, Cryon quer armá-lo contra o Consortium e os Sentinels.",
     "publicFace": "Universidade arcana de elite no Crystal Chateau (Sigil District) e a Teres Schoolhouse aberta a todos; controla a escavação da Maw of Cael Morrow com autorização de J'mon Sa Ord. Emblema: pergaminho com um olho vigilante. Em Bazzoxan é representada por Prolix Yusaf, oficialmente a ajudar a selar o rift.",
-    "leaders": ["c-james-cryon", "c-gryz-alakritos"],
-    "allies": ["f-cobalt-soul", "f-scarbearers"],
-    "enemies": ["f-consortium", "f-sentinels"],
-    "portents": [
-      { "chapter": "ch3", "text": "Prolix espia Aloysia e reclama a puzzle box; se ninguém o ajudar, Aloysia chega primeiro ao local de oração e a Allegiance perde a corrida à Jóia." },
-      { "chapter": "ch4", "text": "Lymmle Wist, infiltrada, distribui missões e monta a emboscada do Life Dome; Prolix é incriminado; a Allegiance vende gear de ruidium a quem pagar." },
-      { "chapter": "ch5", "text": "Cryon manda abrir o rift às escondidas de Alakritos; Galeokaerda rouba a Key to the Netherdeep; não há volta a dar depois do rift aberto." },
-      { "chapter": "ch6", "text": "Batedores equipados com ruidium entram no Netherdeep; quase todos morrem; o sobrevivente fala de uma inteligência sofredora." },
-      { "chapter": "ch7", "text": "Se Alyxian for libertado sem cura, a Allegiance extrai ruidium enquanto o mundo arde; se ele morrer ou for redimido, todo o ruidium desaparece e a facção fica irritada." }
+    "leaders": [
+      "c-james-cryon",
+      "c-gryz-alakritos"
     ],
+    "allies": [
+      "f-cobalt-soul",
+      "f-scarbearers"
+    ],
+    "enemies": [
+      "f-consortium",
+      "f-sentinels"
+    ],
+    "portents": [],
     "source": "book"
   },
   {
@@ -23,16 +26,21 @@
     "motto": "Seek the stories others fear to know.",
     "agenda": "Sociedade oculta secreta obsecada por Ruidus, a lua de mau agoiro. Baptizou o ruidium, invadiu a escavação da Allegiance, encontrou o rift e a agente que trouxe a primeira amostra morreu esmagada pela pressão — o acto que acordou o Apotheon. Quer monopolizar o ruidium, abraça a corrupção (Aradrine exibe as veias vermelhas) e crê que a Jóia é a chave para o obter. Cronicamente sem fundos, aluga os seus agentes.",
     "publicFace": "Um grupo de aficionados de folclore, nas palavras de Aloysia. Sede escondida atrás da tampa de barril com lua carmesim no First Eclipse (Suncut Bazaar), mudada com frequência. Cinco mestres fundadores ainda vivos: Owl, Sun Bear, Wolf, Gull e Moth.",
-    "leaders": ["c-aradrine", "c-dendarron", "c-larthul", "c-khelkur", "c-vrill"],
-    "allies": ["f-sentinels"],
-    "enemies": ["f-allegiance", "f-cobalt-soul"],
-    "portents": [
-      { "chapter": "ch3", "text": "Aloysia tenta ficar com a Jóia: contrata os rivais, aparece em R16 e, sem a Jóia, foge com earthquake e uma tablet de teleporte." },
-      { "chapter": "ch4", "text": "Recruta os rivais (se os PCs escolherem outra facção); ruidium em armas e armaduras; Aradrine mostra a corrupção como dádiva." },
-      { "chapter": "ch5", "text": "Galeokaerda procura a Key to the Netherdeep em Cael Morrow; o Consortium quer matar o aboleth e tomar o rift antes da Allegiance." },
-      { "chapter": "ch6", "text": "Envia os rivais ao Netherdeep para encontrar a fonte do ruidium e aliá-la ou capturá-la." },
-      { "chapter": "ch7", "text": "Monopólio do ruidium se Alyxian for libertado corrompido; fúria se ele morrer ou for redimido (todo o ruidium derrete)." }
+    "leaders": [
+      "c-aradrine",
+      "c-dendarron",
+      "c-larthul",
+      "c-khelkur",
+      "c-vrill"
     ],
+    "allies": [
+      "f-sentinels"
+    ],
+    "enemies": [
+      "f-allegiance",
+      "f-cobalt-soul"
+    ],
+    "portents": [],
     "source": "book"
   },
   {
@@ -41,16 +49,17 @@
     "motto": "Reason. Knowledge. Truth.",
     "agenda": "Ordem monástica-erudita de Ioun que procura a verdade e erradica o mal nas facções civis de Ank'Harel, sobretudo o Consortium e as suas armas de mineral vermelho. Jamil A'alithiya quer o Netherdeep selado ou destruído para que o ruidium deixe de entrar na cidade; considera que a Allegiance e o Consortium agem por egoísmo. A sua sexta missão é a única que pode ser cumprida (matar ou redimir Alyxian).",
     "publicFace": "Temple of the Mentor (Guided District), fundado há quase 150 anos, com arquivo subterrâneo privado. Em Bazzoxan mantém uma expedição sobre as batalhas da Calamity dentro do Rise; Question é a sobrevivente.",
-    "leaders": ["c-jamil-aalithiya"],
-    "allies": ["f-allegiance", "f-hands-of-ord"],
-    "enemies": ["f-consortium"],
-    "portents": [
-      { "chapter": "ch3", "text": "A expedição no Rise morre na Misty Chasm; Question regressa sozinha com o caderno e a sua cobardia por confessar." },
-      { "chapter": "ch4", "text": "Jamil investiga as armas de ruidium do Consortium: Ophidas, Kruuk e o ruidium shortsword, o assalto ao First Eclipse; o Consortium muda de sede." },
-      { "chapter": "ch5", "text": "Alia-se à Allegiance para entrar em Cael Morrow via Insight Acuere; pode aliar-se ao aboleth em vez de o matar." },
-      { "chapter": "ch6", "text": "Manda destruir o Netherdeep; sabe que o Consortium enviou os rivais lá para dentro." },
-      { "chapter": "ch7", "text": "Rejubila se todo o ruidium desaparecer (final neutro ou melhor); fracassa se Alyxian sair corrompido." }
+    "leaders": [
+      "c-jamil-aalithiya"
     ],
+    "allies": [
+      "f-allegiance",
+      "f-hands-of-ord"
+    ],
+    "enemies": [
+      "f-consortium"
+    ],
+    "portents": [],
     "source": "book"
   },
   {
@@ -59,16 +68,17 @@
     "motto": "Let the past die in peace.",
     "agenda": "A cidade afundada sob Ank'Harel não é uma maravilha antiga: é uma prisão que tem de ficar selada a todo o custo. A ausência de registos sobre Cael Morrow prova que forças poderosas quiseram apagá-la, e os Sentinels farão o que for preciso para que ninguém volte a falar dela. Financiados pelo Consortium, mas desconfiam dos seus motivos.",
     "publicFace": "Facção menor sediada na Tower of Memory, torta e a desfazer-se (Guided District). Watcher Trast, antigo clérigo de Ioun, fundou-a; Watcher Byron perde a paciência com a via política e planeia sabotagem. Watcher Lymmle Wist está infiltrada na Allegiance há meses.",
-    "leaders": ["c-watcher-trast", "c-watcher-byron"],
-    "allies": ["f-consortium"],
-    "enemies": ["f-allegiance"],
-    "portents": [
-      { "chapter": "ch3", "text": "Lymmle Wist já subiu na hierarquia da Allegiance e passa informação aos Sentinels e ao Consortium." },
-      { "chapter": "ch4", "text": "Emboscada dos invisible stalkers no Life Dome; assassinos contratados no Relic Hall; Prolix incriminado com o ring of red fury." },
-      { "chapter": "ch5", "text": "Byron planeia formas mais agressivas de travar a escavação da Maw; Lymmle, se descoberta, foge ou luta até à morte." },
-      { "chapter": "ch6", "text": "Sem acesso ao Netherdeep, os Sentinels só podem sabotar quem entra; a prisão que temiam está aberta." },
-      { "chapter": "ch7", "text": "Se Alyxian for libertado, tinham razão e ninguém os ouviu; se o Netherdeep for destruído, o passado morre em paz como queriam." }
+    "leaders": [
+      "c-watcher-trast",
+      "c-watcher-byron"
     ],
+    "allies": [
+      "f-consortium"
+    ],
+    "enemies": [
+      "f-allegiance"
+    ],
+    "portents": [],
     "source": "book"
   },
   {
@@ -77,14 +87,16 @@
     "motto": "By the code of Ord, we stand vigilant.",
     "agenda": "Fazer cumprir o Code of Ord e manter a ordem em Ank'Harel; travar a Veil (sem sucesso). Nas rixas de rua chegam na ronda 3 e prendem toda a gente (multa de 50 gp, noite na cela), o que pode fazer falhar missões do Consortium e da Cobalt Soul.",
     "publicFace": "Guarda e exército da cidade, fundados há 400 anos por J'mon Sa Ord; sede em Ord Bastion (Sand-Herald District). Comandados por Ironhand Sem, um minotauro leal e bom.",
-    "leaders": ["c-ironhand-sem"],
-    "allies": ["f-cobalt-soul"],
-    "enemies": ["f-veil"],
-    "portents": [
-      { "chapter": "ch4", "text": "Prendem quem lute em público (ruidium elephants no Suncut Bazaar, Ophidas, First Eclipse); recebem os criminosos entregues pela Cobalt Soul." },
-      { "chapter": "ch5", "text": "Ficam à superfície: Cael Morrow está fora da sua jurisdição efectiva." },
-      { "chapter": "ch7", "text": "No pior final, são a única linha entre Ank'Harel em chamas e o caos." }
+    "leaders": [
+      "c-ironhand-sem"
     ],
+    "allies": [
+      "f-cobalt-soul"
+    ],
+    "enemies": [
+      "f-veil"
+    ],
+    "portents": [],
     "source": "book"
   },
   {
@@ -94,12 +106,11 @@
     "agenda": "Guilda de mercenários sem aliados nem inimigos declarados; vende espadas a quem pagar. Contratada pela Allegiance para guardar a Maw of Cael Morrow (os veteranos de Hakzorne).",
     "publicFace": "Sede na arena Bowl of Judgment; liderados pela Quartermaster Croog Lynn, goliath gladiadora. Os fundadores reformados Irawan e Calinao gerem a estalagem Step Aside e um esconderijo com palavra-passe.",
     "leaders": [],
-    "allies": ["f-allegiance"],
-    "enemies": [],
-    "portents": [
-      { "chapter": "ch4", "text": "Guardam a Maw para a Allegiance; quem quiser entrar em Cael Morrow sem emblema tem de os enfrentar ou enganar." },
-      { "chapter": "ch5", "text": "Os veteranos de Hakzorne controlam a entrada; um esconderijo Scarbearer é refúgio neutro para quem souber a palavra-passe." }
+    "allies": [
+      "f-allegiance"
     ],
+    "enemies": [],
+    "portents": [],
     "source": "book"
   },
   {
@@ -110,11 +121,10 @@
     "publicFace": "Invisível: só os membros de topo sabem quem manda. Rumores ligam Old Man Kruuk e o casino Luck's Run à organização.",
     "leaders": [],
     "allies": [],
-    "enemies": ["f-hands-of-ord"],
-    "portents": [
-      { "chapter": "ch4", "text": "Adima Shemsilver evita as Hands of Ord contratando o Consortium para guardar o cofre; Kruuk vende itens mágicos, incluindo um ruidium shortsword." },
-      { "chapter": "ch7", "text": "Se Ank'Harel arder, a Veil prospera no caos." }
+    "enemies": [
+      "f-hands-of-ord"
     ],
+    "portents": [],
     "source": "book"
   }
 ]

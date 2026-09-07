@@ -1,0 +1,34 @@
+[
+  {
+    "id": "f-cerulean-palace",
+    "name": "Cerulean Palace (J'mon Sa Ord)",
+    "motto": "Pelo Code of Ord.",
+    "agenda": "PROPOSTA. Proteger Ank'Harel e o seu povo. J'mon Sa Ord autorizou a Allegiance a abrir Cael Morrow e carrega essa culpa; Gemeshega governa no dia-a-dia em nome do dragão recluso.",
+    "publicFace": "Um governante lendário que ninguém vê; a Grandmaven Gemeshega e os juízes do palácio.",
+    "leaders": ["c-jmon-sa-ord", "c-gemeshega"],
+    "allies": ["f-hands-of-ord", "f-scarbearers"],
+    "enemies": ["f-apotheon-cult"],
+    "portents": [
+      { "chapter": "ch4", "text": "J'mon já autorizou a escavação da Maw; Gemeshega recebe as facções em nome do dragão e observa quem chega com a Jewel." },
+      { "chapter": "ch5", "text": "Quando o rift se abre, o palácio reage: o tecto de cristal da Chamber of Judgment brilha vermelho, as Hands of Ord entram em alerta, a sombra do dragão passa sobre a cidade à noite." },
+      { "chapter": "ch7", "text": "Se Alyxian for libertado sem cura: J'mon ergue-se contra a nuvem negra sobre Ank'Harel, ganha tempo para a evacuação e é repelido, ferido." },
+      { "chapter": "ch8", "text": "J'mon julga os PCs na Chamber of Judgment, confessa a sua culpa e põe os recursos da cidade ao serviço da reparação; se falharem, a cidade cai." }
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "f-apotheon-cult",
+    "name": "Adoradores do Apotheon",
+    "motto": "Todos hão-de lembrar-se.",
+    "agenda": "PROPOSTA. Os adoradores ocultos que, segundo o livro, acorrem a Alyxian desencadeado. Querem que o mundo se lembre do Apotheon a qualquer preço e servem-lhe de mãos em terra enquanto ele é nuvem no céu.",
+    "publicFace": "Pregadores nas ruínas, marcas de ruidium na pele, o nome de Alyxian pintado nas paredes.",
+    "leaders": [],
+    "allies": [],
+    "enemies": ["f-cerulean-palace", "f-cobalt-soul"],
+    "portents": [
+      { "chapter": "ch7", "text": "Na Noite de Ruidus, os primeiros adoradores surgem entre os sobreviventes de Ank'Harel." },
+      { "chapter": "ch8", "text": "Primeiro trimestre: o culto cresce nas cidades arrasadas. Segundo: sabota os santuários e os exércitos. Terceiro: infiltra o palácio e os templos. Zénite de Ruidus: tenta oferecer uma cidade inteira ao Apotheon." }
+    ],
+    "source": "dm"
+  }
+]

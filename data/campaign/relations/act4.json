@@ -1,0 +1,9 @@
+[
+  { "from": "c-jmon-sa-ord", "to": "f-cerulean-palace", "type": "memberOf", "label": "fundador e governante", "source": "dm" },
+  { "from": "c-gemeshega", "to": "f-cerulean-palace", "type": "memberOf", "label": "Grandmaven, chanceler em exercício", "source": "dm" },
+  { "from": "c-jmon-sa-ord", "to": "f-allegiance", "type": "knows", "label": "autorizou a escavação de Cael Morrow (PROPOSTA: e arrepende-se)", "source": "dm" },
+  { "from": "c-jmon-sa-ord", "to": "f-hands-of-ord", "type": "protects", "label": "fundou as Hands of Ord; comanda-as na Noite de Ruidus", "source": "dm" },
+  { "from": "c-jmon-sa-ord", "to": "c-alyxian", "type": "enemy", "label": "PROPOSTA: ergue-se contra o Apotheon desencadeado", "fromBeat": "b-7-ending-worst", "source": "dm" },
+  { "from": "f-apotheon-cult", "to": "c-alyxian", "type": "serves", "label": "PROPOSTA: adoram e servem o Apotheon desencadeado", "fromBeat": "b-7-ending-worst", "source": "dm" },
+  { "from": "f-apotheon-cult", "to": "f-cerulean-palace", "type": "enemy", "label": "PROPOSTA: sabotam a reparação", "fromBeat": "b-7-ending-worst", "source": "dm" }
+]

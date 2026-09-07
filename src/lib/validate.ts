@@ -360,8 +360,6 @@ export function normalizeCanon(raw: RawCanon): { canon: Canon; problems: Problem
   const arcsUsed = new Set(canon.beats.flatMap((b) => b.arcs))
   for (const a of canon.arcs) if (!arcsUsed.has(a.id) && a.kind !== 'pcAmbition') warn(`arcs/${a.id}`, 'arco sem beats')
 
-  const conv = beatById.get(canon.campaign.convergence)
-  if (conv && chapterIndex.get(conv.chapter) !== canon.campaign.chapters.length - 1) warn('campaign', 'beat de convergência não está no último capítulo')
 
   return { canon, problems }
 }

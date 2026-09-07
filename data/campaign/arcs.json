@@ -1,0 +1,18 @@
+[
+  {
+    "id": "a-ruidus-year",
+    "name": "Acto 4: O Ano de Ruidus",
+    "kind": "main",
+    "color": "#e07a5f",
+    "order": 2,
+    "summary": "PROPOSTA. Continuação do pior final: a Noite de Ruidus, o julgamento de J'mon Sa Ord, o ano-e-um-dia, os três caminhos e o confronto final com o Apotheon desencadeado."
+  },
+  {
+    "id": "a-jmon",
+    "name": "J'mon Sa Ord e o Cerulean Palace",
+    "kind": "faction",
+    "color": "#c9a86a",
+    "order": 10,
+    "summary": "PROPOSTA. O dragão que fundou Ank'Harel e autorizou a escavação de Cael Morrow: sementes nos caps. 4-5, ergue-se e falha na Noite de Ruidus, julga os PCs."
+  }
+]

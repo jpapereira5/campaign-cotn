@@ -1,0 +1,398 @@
+[
+  {
+    "id": "b-4-gemeshega-audience",
+    "title": "Audiência com Gemeshega",
+    "arcs": [
+      "a-jmon"
+    ],
+    "chapter": "ch4",
+    "order": 65,
+    "location": "l-cerulean-palace",
+    "participants": [
+      "c-gemeshega",
+      "c-jmon-sa-ord",
+      "f-cerulean-palace"
+    ],
+    "summary": "PROPOSTA. Quando os PCs se ligam a uma facção, a Grandmaven Gemeshega recebe-os no Cerulean Palace em nome de J'mon Sa Ord. Deixa claro que o dragão autorizou a escavação de Cael Morrow, que sabe da Jewel, e que observa.",
+    "reveals": [
+      "r-jmon-authorized-dig",
+      "r-jmon-will-rise"
+    ],
+    "requires": [
+      "b-4-choose-faction"
+    ],
+    "choices": [
+      {
+        "label": "Contar a verdade sobre a Jewel e Alyxian",
+        "outcome": "Gemeshega guarda o segredo; o palácio passa a acompanhar os PCs (favor futuro).",
+        "leadsTo": []
+      },
+      {
+        "label": "Esconder a Jewel",
+        "outcome": "Gemeshega sabe que mentem; o palácio observa de mais perto.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "PROPOSTA (por aprovar). Primeira das três pistas para J'mon: sem esta cena, a intervenção do dragão no cap. 7 parece deus ex machina. Gemeshega é a 'cara' de J'mon; o dragão não aparece.",
+    "source": "dm"
+  },
+  {
+    "id": "b-5-palace-reacts",
+    "title": "O palácio reage ao rift",
+    "arcs": [
+      "a-jmon",
+      "a-ruidium"
+    ],
+    "chapter": "ch5",
+    "order": 175,
+    "location": "l-cerulean-palace",
+    "participants": [
+      "c-jmon-sa-ord",
+      "c-gemeshega",
+      "c-ironhand-sem",
+      "f-hands-of-ord"
+    ],
+    "summary": "PROPOSTA. Na noite em que o rift é aberto, o tecto de cristal da Chamber of Judgment brilha vermelho, as Hands of Ord entram em alerta e a sombra de um dragão passa sobre Ank'Harel. Gemeshega manda chamar os PCs: J'mon quer saber o que abriram.",
+    "reveals": [
+      "r-jmon-authorized-dig",
+      "r-jmon-will-rise"
+    ],
+    "requires": [
+      "b-5-open-rift"
+    ],
+    "choices": [],
+    "notes": "PROPOSTA (por aprovar). Segunda pista para J'mon. Serve também para mostrar que a cidade sente o Netherdeep: é o prenúncio da Noite de Ruidus.",
+    "source": "dm"
+  },
+  {
+    "id": "b-7-ruidus-night",
+    "title": "A Noite de Ruidus",
+    "arcs": [
+      "a-ruidus-year",
+      "a-jmon",
+      "a-ruidium"
+    ],
+    "chapter": "ch7",
+    "order": 90,
+    "location": "l-ank-harel",
+    "participants": [
+      "c-alyxian",
+      "c-jmon-sa-ord",
+      "c-ironhand-sem",
+      "f-hands-of-ord",
+      "f-scarbearers",
+      "f-apotheon-cult",
+      "f-rivals"
+    ],
+    "summary": "PROPOSTA. Só no pior final. Os PCs emergem do Netherdeep para Ank'Harel em chamas sob uma Ruidus cheia. J'mon Sa Ord ergue-se contra a nuvem negra. Os PCs podem juntar-se: proteger a evacuação com as Hands of Ord, apoiar o dragão, ou travar os primeiros adoradores. J'mon é repelido e ferido; Alyxian parte para arrasar outras cidades.",
+    "reveals": [
+      "r-jmon-will-rise"
+    ],
+    "requires": [
+      "b-7-ending-worst"
+    ],
+    "choices": [
+      {
+        "label": "Apoiar J'mon no céu",
+        "outcome": "O dragão sobrevive; a cidade perde menos; J'mon fica em dívida.",
+        "leadsTo": [
+          "b-7-chamber-of-judgment"
+        ]
+      },
+      {
+        "label": "Proteger a evacuação",
+        "outcome": "Milhares salvos; J'mon cai mais ferido; o povo lembra-se dos PCs.",
+        "leadsTo": [
+          "b-7-chamber-of-judgment"
+        ]
+      },
+      {
+        "label": "Fugir",
+        "outcome": "A cidade arde; J'mon manda procurá-los; o julgamento é mais duro.",
+        "leadsTo": [
+          "b-7-chamber-of-judgment"
+        ]
+      }
+    ],
+    "timer": "uma noite",
+    "portent": {
+      "faction": "f-apotheon-cult",
+      "text": "Os primeiros adoradores surgem entre os sobreviventes."
+    },
+    "notes": "PROPOSTA (por aprovar). Princípio: J'mon age mas não resolve; a escala da ameaça fica clara. O que se salva depende do que os PCs escolherem, e isso pesa no julgamento.",
+    "source": "dm"
+  },
+  {
+    "id": "b-7-chamber-of-judgment",
+    "title": "Chamber of Judgment",
+    "arcs": [
+      "a-ruidus-year",
+      "a-jmon"
+    ],
+    "chapter": "ch7",
+    "order": 100,
+    "location": "l-cerulean-palace",
+    "participants": [
+      "c-jmon-sa-ord",
+      "c-gemeshega",
+      "c-ironhand-sem",
+      "f-cerulean-palace"
+    ],
+    "summary": "PROPOSTA. J'mon Sa Ord desce ao Seat e julga os PCs pelo Code of Ord: libertaram o Apotheon. Confessa a sua própria culpa por ter autorizado a escavação. A sentença é reparar o mal: têm um ano e um dia. Recebem os recursos da cidade: Scarbearers, Hands of Ord, cartas para os templos das Prime Deities.",
+    "reveals": [
+      "r-jmon-authorized-dig"
+    ],
+    "requires": [
+      "b-7-ruidus-night"
+    ],
+    "choices": [
+      {
+        "label": "Aceitar a sentença",
+        "outcome": "Abre o Acto 4 com o apoio de Ank'Harel.",
+        "leadsTo": [
+          "b-8-year-of-ruidus"
+        ]
+      },
+      {
+        "label": "Recusar ou fugir",
+        "outcome": "Exilados; o Acto 4 começa sem apoio da cidade e com as Hands of Ord no encalço.",
+        "leadsTo": [
+          "b-8-year-of-ruidus"
+        ]
+      }
+    ],
+    "notes": "PROPOSTA (por aprovar). A cena mais forte não é o combate mas o julgamento: um dragão culpado a julgar mortais culpados. O livro diz que J'mon julga pessoalmente os crimes mais hediondos.",
+    "source": "dm"
+  },
+  {
+    "id": "b-8-year-of-ruidus",
+    "title": "O Ano de Ruidus",
+    "arcs": [
+      "a-ruidus-year",
+      "a-ruidium"
+    ],
+    "chapter": "ch8",
+    "order": 10,
+    "participants": [
+      "c-alyxian",
+      "f-apotheon-cult"
+    ],
+    "summary": "PROPOSTA. Enquadramento: Ruidus fica cheia durante um ano e um dia; Alyxian pode aparecer em qualquer lado como uma nuvem negra que arrasa cidades em dias; um culto acorre a ele. Relógio de 366 dias até ao zénite. Os PCs escolhem um ou mais caminhos.",
+    "reveals": [],
+    "requires": [
+      "b-7-chamber-of-judgment"
+    ],
+    "choices": [
+      {
+        "label": "Peregrinação aos santuários",
+        "outcome": "As bênçãos das Prime Deities.",
+        "leadsTo": [
+          "b-8-path-pilgrimage"
+        ]
+      },
+      {
+        "label": "Erguer Exandria",
+        "outcome": "Um exército contra a nuvem e o culto.",
+        "leadsTo": [
+          "b-8-path-army"
+        ]
+      },
+      {
+        "label": "Os Betrayer Gods",
+        "outcome": "Poder imediato, preço eterno.",
+        "leadsTo": [
+          "b-8-path-betrayers"
+        ]
+      }
+    ],
+    "timer": "366 dias",
+    "portent": {
+      "faction": "f-apotheon-cult",
+      "text": "Cada trimestre o culto cresce e uma cidade cai."
+    },
+    "notes": "PROPOSTA (por aprovar). Os três caminhos são exactamente as três continuações que o livro sugere para o pior final; aqui ficam como pistas concorrentes com relógio, à maneira do resto da campanha.",
+    "source": "dm"
+  },
+  {
+    "id": "b-8-path-pilgrimage",
+    "title": "Caminho 1: os três santuários",
+    "arcs": [
+      "a-ruidus-year",
+      "a-lore"
+    ],
+    "chapter": "ch8",
+    "order": 20,
+    "participants": [
+      "c-sehanine",
+      "c-avandra",
+      "c-corellon",
+      "c-alyxian"
+    ],
+    "summary": "PROPOSTA. Voltar aos três sítios onde Alyxian rezou (Emerald Grotto, Betrayers' Rise, Cael Morrow, agora seco) com a Jewel of Three Prayers, para obter das Prime Deities as bênçãos que podem enfrentar o Apotheon. Cada santuário pede um preço e o culto tenta chegar primeiro.",
+    "reveals": [],
+    "requires": [
+      "b-8-year-of-ruidus"
+    ],
+    "choices": [],
+    "portent": {
+      "faction": "f-apotheon-cult",
+      "text": "O culto profana um santuário antes dos PCs."
+    },
+    "notes": "PROPOSTA (por aprovar). Fecha o círculo com o acto 1: os mesmos três lugares, agora ao contrário. A Jewel volta a ser a chave.",
+    "source": "dm"
+  },
+  {
+    "id": "b-8-path-army",
+    "title": "Caminho 2: erguer Exandria",
+    "arcs": [
+      "a-ruidus-year",
+      "a-kryn",
+      "a-rivals"
+    ],
+    "chapter": "ch8",
+    "order": 30,
+    "participants": [
+      "f-kryn",
+      "f-dwendalian-empire",
+      "f-cerulean-palace",
+      "f-rivals",
+      "c-verin-thelyss"
+    ],
+    "summary": "PROPOSTA. Juntar Kryn Dynasty, Ank'Harel e o Império Dwendaliano contra a nuvem e o culto. Os rivais, conforme a atitude, são embaixadores, sabotadores ou generais. Verin Thelyss e a Aurora Watch conhecem a guerra contra horrores.",
+    "reveals": [],
+    "requires": [
+      "b-8-year-of-ruidus"
+    ],
+    "choices": [],
+    "portent": {
+      "faction": "f-apotheon-cult",
+      "text": "O culto infiltra um dos exércitos."
+    },
+    "notes": "PROPOSTA (por aprovar). Paga as relações construídas em Bazzoxan e Ank'Harel: quem os PCs ajudaram aparece; quem traíram, não.",
+    "source": "dm"
+  },
+  {
+    "id": "b-8-path-betrayers",
+    "title": "Caminho 3: os Betrayer Gods",
+    "arcs": [
+      "a-ruidus-year",
+      "a-lore"
+    ],
+    "chapter": "ch8",
+    "order": 40,
+    "participants": [
+      "c-gruumsh",
+      "c-torog",
+      "c-lolth",
+      "c-alyxian"
+    ],
+    "summary": "PROPOSTA. Pedir ajuda a quem fez o Netherdeep. O livro lista o que cada Betrayer God oferece (exércitos, assassinos, um veneno para o divino, itens que corrompem) e o preço: depois de Alyxian, os cultos deles querem o mundo.",
+    "reveals": [],
+    "requires": [
+      "b-8-year-of-ruidus"
+    ],
+    "choices": [],
+    "notes": "PROPOSTA (por aprovar). Segue a secção 'What of the Deities?' do livro. É o caminho desesperado: resolve o Ano de Ruidus e abre um problema maior.",
+    "source": "dm"
+  },
+  {
+    "id": "b-8-cult-of-the-apotheon",
+    "title": "Os adoradores do Apotheon",
+    "arcs": [
+      "a-ruidus-year",
+      "a-ruidium"
+    ],
+    "chapter": "ch8",
+    "order": 50,
+    "participants": [
+      "f-apotheon-cult",
+      "c-alyxian"
+    ],
+    "summary": "PROPOSTA. A frente activa do acto: o culto cresce nas cidades arrasadas, sabota santuários e exércitos, infiltra o palácio e, no fim, tenta oferecer uma cidade inteira ao Apotheon. Marca a corrupção do ruidium em todos.",
+    "reveals": [],
+    "requires": [
+      "b-8-year-of-ruidus"
+    ],
+    "choices": [],
+    "portent": {
+      "faction": "f-apotheon-cult",
+      "text": "No zénite, uma cidade inteira é oferecida."
+    },
+    "notes": "PROPOSTA (por aprovar). Sem nomes próprios ainda; os líderes do culto podem ser NPCs conhecidos corrompidos (rivais hostis, Aradrine, Cryon).",
+    "source": "dm"
+  },
+  {
+    "id": "b-8-final-confrontation",
+    "title": "O zénite de Ruidus",
+    "arcs": [
+      "a-ruidus-year",
+      "a-jmon",
+      "a-rivals",
+      "a-ruidium",
+      "a-lore"
+    ],
+    "chapter": "ch8",
+    "order": 60,
+    "participants": [
+      "c-alyxian",
+      "c-jmon-sa-ord",
+      "f-apotheon-cult",
+      "f-rivals"
+    ],
+    "summary": "PROPOSTA. No dia 366, com o que reuniram (bênçãos, exército, pacto), os PCs enfrentam a nuvem negra. A redenção continua possível: lembrar a Alyxian quem ele foi, agora à escala do mundo. Ou a destruição definitiva.",
+    "reveals": [],
+    "requires": [
+      "b-8-year-of-ruidus"
+    ],
+    "choices": [
+      {
+        "label": "Redimir",
+        "outcome": "Um mundo que se lembrou: todo o ruidium desaparece; Alyxian em paz.",
+        "leadsTo": [
+          "b-8-aftermath"
+        ]
+      },
+      {
+        "label": "Destruir",
+        "outcome": "Alyxian morre; o ruidium desaparece; o mundo fica marcado.",
+        "leadsTo": [
+          "b-8-aftermath"
+        ]
+      },
+      {
+        "label": "Falhar",
+        "outcome": "Ruidus não se põe; Exandria sob o Apotheon.",
+        "leadsTo": [
+          "b-8-aftermath"
+        ]
+      }
+    ],
+    "timer": "dia 366",
+    "notes": "PROPOSTA (por aprovar). Mantém os mesmos três desfechos do livro, agora ganhos com um acto inteiro de custo.",
+    "source": "dm"
+  },
+  {
+    "id": "b-8-aftermath",
+    "title": "Depois do Ano de Ruidus",
+    "arcs": [
+      "a-ruidus-year",
+      "a-jmon"
+    ],
+    "chapter": "ch8",
+    "order": 70,
+    "location": "l-cerulean-palace",
+    "participants": [
+      "c-jmon-sa-ord",
+      "c-gemeshega",
+      "f-rivals"
+    ],
+    "summary": "PROPOSTA. J'mon Sa Ord profere a sentença final na Chamber of Judgment: absolvição, exílio ou honra, conforme o caminho e o desfecho. Consequências por caminho: bênçãos que ficam, exércitos que exigem, pactos que se cobram.",
+    "reveals": [],
+    "requires": [
+      "b-8-final-confrontation"
+    ],
+    "choices": [],
+    "notes": "PROPOSTA (por aprovar). Epílogo espelhado com o julgamento do cap. 7.",
+    "source": "dm"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "r-jmon-authorized-dig",
+    "list": "Facções",
+    "text": "PROPOSTA: J'mon Sa Ord, o dragão que governa Ank'Harel, foi quem autorizou a Allegiance a abrir Cael Morrow e sente-se responsável pelo que saiu de lá.",
+    "clues": ["b-4-arrival-prolix", "b-4-gemeshega-audience", "b-5-palace-reacts"],
+    "source": "dm"
+  },
+  {
+    "id": "r-jmon-will-rise",
+    "list": "Facções",
+    "text": "PROPOSTA: se Ank'Harel for ameaçada, J'mon Sa Ord não ficará no palácio: o dragão ergue-se, mas um dragão ancião não chega contra o Apotheon.",
+    "clues": ["b-4-gemeshega-audience", "b-5-palace-reacts", "b-7-ruidus-night"],
+    "source": "dm"
+  }
+]

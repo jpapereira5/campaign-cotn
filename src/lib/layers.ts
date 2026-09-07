@@ -31,7 +31,20 @@ export function mergeLayers(book: RawCanon, campaign: RawCanon): { raw: RawCanon
 
   // campaign.json: campos da campanha substituem os do livro
   if (isObj(campaign.campaign) && Object.keys(campaign.campaign).length) {
-    raw.campaign = { ...(isObj(book.campaign) ? book.campaign : {}), ...campaign.campaign }
+    const base = isObj(book.campaign) ? book.campaign : {}
+    const merged: Raw = { ...base, ...campaign.campaign }
+    // capítulos: juntar por id (patch dos existentes, acrescentar os novos), não substituir a lista
+    if (Array.isArray(campaign.campaign.chapters)) {
+      const chapters = new Map<string, Raw>()
+      for (const c of Array.isArray(base.chapters) ? base.chapters : []) if (isObj(c) && typeof c.id === 'string') chapters.set(c.id, c)
+      for (const c of campaign.campaign.chapters) {
+        if (!isObj(c) || typeof c.id !== 'string') continue
+        if (c._remove === true) chapters.delete(c.id)
+        else chapters.set(c.id, { ...(chapters.get(c.id) ?? {}), ...c })
+      }
+      merged.chapters = [...chapters.values()]
+    }
+    raw.campaign = merged
     layers.campaign = 'modified'
   } else raw.campaign = book.campaign
 

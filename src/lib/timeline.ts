@@ -85,15 +85,24 @@ export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign): 
   const columns: Column[] = []
   const slotX = new Map<string, number>() // `${chapter}|${order}` → x
   let x = 0
+  let finaleX = 0
   for (const ch of campaign.chapters) {
     const orders = [...new Set(body.filter((b) => b.chapter === ch.id).map((b) => b.order))].sort((a, b) => a - b)
-    const width = Math.max(orders.length, 1) * SLOT_W + COL_PAD
+    let width = Math.max(orders.length, 1) * SLOT_W + COL_PAD
     orders.forEach((o, i) => slotX.set(`${ch.id}|${o}`, x + COL_PAD / 2 + i * SLOT_W))
+    if (finaleBeat && finaleBeat.chapter === ch.id) {
+      // o centro da teia fica no fim da coluna do seu capítulo; capítulos seguintes continuam à direita
+      finaleX = x + COL_PAD / 2 + Math.max(orders.length, 1) * SLOT_W
+      width += FINALE_W + COL_PAD
+    }
     columns.push({ id: ch.id, name: ch.name, x, width })
     x += width
   }
-  const bodyWidth = x
-  const width = bodyWidth + (finaleBeat ? FINALE_W + COL_PAD : 0)
+  if (finaleBeat && !finaleX) {
+    finaleX = x + COL_PAD / 2
+    x += FINALE_W + COL_PAD
+  }
+  const width = x
 
   // Cartões por pista com empilhamento greedy; ghosts nas pistas secundárias.
   const lanes: Lane[] = []
@@ -163,7 +172,7 @@ export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign): 
 
   let finale: TimelineLayout['finale']
   if (finaleBeat) {
-    finale = { beat: finaleBeat, x: bodyWidth + COL_PAD / 2, y: AXIS_H, width: FINALE_W, height: Math.max(height - AXIS_H - LANE_PAD, CARD_H) }
+    finale = { beat: finaleBeat, x: finaleX, y: AXIS_H, width: FINALE_W, height: Math.max(height - AXIS_H - LANE_PAD, CARD_H) }
   }
 
   return { width, height, columns, lanes, cards, ghosts, links, deps, finale, cardById }

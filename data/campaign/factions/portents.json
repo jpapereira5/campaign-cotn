@@ -1,0 +1,282 @@
+[
+  {
+    "id": "f-kryn",
+    "portents": [
+      {
+        "chapter": "ch0",
+        "text": "Operativos da dinastia observam quem enfrentou o Império no Brokenveil Marsh."
+      },
+      {
+        "chapter": "ch1",
+        "text": "Durth Mirimm relata a Rosohna os finalistas do festival; a dinastia quer saber o que saiu da gruta."
+      },
+      {
+        "chapter": "ch2",
+        "text": "As patrulhas do Emerald Loop prendem ladrões e levam-nos acorrentados para Bazzoxan."
+      },
+      {
+        "chapter": "ch3",
+        "text": "Sem solução para o impasse, a dinastia continua a alimentar Bazzoxan com soldados que não regressam."
+      }
+    ]
+  },
+  {
+    "id": "f-aurora-watch",
+    "portents": [
+      {
+        "chapter": "ch2",
+        "text": "A patrulha em combate com o hezrou perde um soldado se ninguém ajudar; a patrulha 'perdida' é uma emboscada de shadow demons."
+      },
+      {
+        "chapter": "ch3",
+        "text": "Os gibbering mouthers e os gloomstalkers continuam a escapar; mais nomes no Wall of the Unforgotten."
+      }
+    ]
+  },
+  {
+    "id": "f-jigow-elders",
+    "portents": [
+      {
+        "chapter": "ch1",
+        "text": "Ushru repara na Jóia (ou na mudança nos PCs) mesmo que a escondam."
+      },
+      {
+        "chapter": "ch2",
+        "text": "Se os PCs não partirem, Ushru dá a bênção aos rivais, que descem o Emerald Loop com a Jóia rumo a Bazzoxan."
+      }
+    ]
+  },
+  {
+    "id": "f-luxon",
+    "portents": [
+      {
+        "chapter": "ch4",
+        "text": "Longe dos beacons, uma alma consecutada que morra em Marquet não renasce — o terror de Irvan."
+      }
+    ]
+  },
+  {
+    "id": "f-rivals",
+    "portents": [
+      {
+        "chapter": "ch1",
+        "text": "Indiferentes. Se hostis ao fim da gruta, fogem com o Emerald Eye e a Jóia."
+      },
+      {
+        "chapter": "ch2",
+        "text": "Roubam a Jóia de noite (Irvan) se foram prejudicados; partem para Bazzoxan à frente dos PCs."
+      },
+      {
+        "chapter": "ch3",
+        "text": "Aliam-se a Aloysia como músculo; em R16, se indiferentes roubam a Jóia para ela, se hostis atacam para matar."
+      },
+      {
+        "chapter": "ch4",
+        "text": "Juntam-se à facção oposta à dos PCs em Ank'Harel e completam as missões dela."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Corrompidos por ruidium; Irvan perde o braço; equipamento de ruidium para a pressão."
+      },
+      {
+        "chapter": "ch6",
+        "text": "Guardam a Key / bloqueiam N26; Galsariad é a cunha do Apotheon."
+      },
+      {
+        "chapter": "ch7",
+        "text": "Unleashed: pintam os PCs como intrusos egoístas junto das nações. Redeemed: partem para terras distantes."
+      }
+    ]
+  },
+  {
+    "id": "f-dwendalian-empire",
+    "portents": [
+      {
+        "chapter": "ch0",
+        "text": "Dia 3 desde a partida de Urzin: terceiro revivify, Bol'bara possuída por Trush; o forte é devastado e o Império culpa os goblinoides. Se os PCs falharem, Bol'bara possuída marcha sobre Urzin e devasta a população; goblinoides e Império culpam os PCs."
+      }
+    ]
+  },
+  {
+    "id": "f-road-raiders",
+    "portents": [
+      {
+        "chapter": "ch2",
+        "text": "Cobram a quem paga; se Six-Knives morre, um protegido torna-se capitão e procura vingança."
+      }
+    ]
+  },
+  {
+    "id": "f-prime-deities",
+    "portents": [
+      {
+        "chapter": "ch1",
+        "text": "A Jóia materializa-se no templo afundado do Emerald Gulch; alguém há-de encontrá-la — PCs ou rivais."
+      },
+      {
+        "chapter": "ch3",
+        "text": "Avandra desperta a Jóia em R16 para quem a levar ao altar."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Corellon exalta a Jóia em M9."
+      }
+    ]
+  },
+  {
+    "id": "f-betrayer-gods",
+    "portents": [
+      {
+        "chapter": "ch3",
+        "text": "O Rise continua a vomitar horrores sobre Bazzoxan; a maldição de Torog agarra quem passa R12."
+      },
+      {
+        "chapter": "ch6",
+        "text": "A ferida de Gruumsh, o Netherdeep, continua a corromper o mundo com ruidium."
+      }
+    ]
+  },
+  {
+    "id": "f-allegiance",
+    "portents": [
+      {
+        "chapter": "ch3",
+        "text": "Prolix espia Aloysia e reclama a puzzle box; se ninguém o ajudar, Aloysia chega primeiro ao local de oração e a Allegiance perde a corrida à Jóia."
+      },
+      {
+        "chapter": "ch4",
+        "text": "Lymmle Wist, infiltrada, distribui missões e monta a emboscada do Life Dome; Prolix é incriminado; a Allegiance vende gear de ruidium a quem pagar."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Cryon manda abrir o rift às escondidas de Alakritos; Galeokaerda rouba a Key to the Netherdeep; não há volta a dar depois do rift aberto."
+      },
+      {
+        "chapter": "ch6",
+        "text": "Batedores equipados com ruidium entram no Netherdeep; quase todos morrem; o sobrevivente fala de uma inteligência sofredora."
+      },
+      {
+        "chapter": "ch7",
+        "text": "Se Alyxian for libertado sem cura, a Allegiance extrai ruidium enquanto o mundo arde; se ele morrer ou for redimido, todo o ruidium desaparece e a facção fica irritada."
+      }
+    ]
+  },
+  {
+    "id": "f-consortium",
+    "portents": [
+      {
+        "chapter": "ch3",
+        "text": "Aloysia tenta ficar com a Jóia: contrata os rivais, aparece em R16 e, sem a Jóia, foge com earthquake e uma tablet de teleporte."
+      },
+      {
+        "chapter": "ch4",
+        "text": "Recruta os rivais (se os PCs escolherem outra facção); ruidium em armas e armaduras; Aradrine mostra a corrupção como dádiva."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Galeokaerda procura a Key to the Netherdeep em Cael Morrow; o Consortium quer matar o aboleth e tomar o rift antes da Allegiance."
+      },
+      {
+        "chapter": "ch6",
+        "text": "Envia os rivais ao Netherdeep para encontrar a fonte do ruidium e aliá-la ou capturá-la."
+      },
+      {
+        "chapter": "ch7",
+        "text": "Monopólio do ruidium se Alyxian for libertado corrompido; fúria se ele morrer ou for redimido (todo o ruidium derrete)."
+      }
+    ]
+  },
+  {
+    "id": "f-cobalt-soul",
+    "portents": [
+      {
+        "chapter": "ch3",
+        "text": "A expedição no Rise morre na Misty Chasm; Question regressa sozinha com o caderno e a sua cobardia por confessar."
+      },
+      {
+        "chapter": "ch4",
+        "text": "Jamil investiga as armas de ruidium do Consortium: Ophidas, Kruuk e o ruidium shortsword, o assalto ao First Eclipse; o Consortium muda de sede."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Alia-se à Allegiance para entrar em Cael Morrow via Insight Acuere; pode aliar-se ao aboleth em vez de o matar."
+      },
+      {
+        "chapter": "ch6",
+        "text": "Manda destruir o Netherdeep; sabe que o Consortium enviou os rivais lá para dentro."
+      },
+      {
+        "chapter": "ch7",
+        "text": "Rejubila se todo o ruidium desaparecer (final neutro ou melhor); fracassa se Alyxian sair corrompido."
+      }
+    ]
+  },
+  {
+    "id": "f-sentinels",
+    "portents": [
+      {
+        "chapter": "ch3",
+        "text": "Lymmle Wist já subiu na hierarquia da Allegiance e passa informação aos Sentinels e ao Consortium."
+      },
+      {
+        "chapter": "ch4",
+        "text": "Emboscada dos invisible stalkers no Life Dome; assassinos contratados no Relic Hall; Prolix incriminado com o ring of red fury."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Byron planeia formas mais agressivas de travar a escavação da Maw; Lymmle, se descoberta, foge ou luta até à morte."
+      },
+      {
+        "chapter": "ch6",
+        "text": "Sem acesso ao Netherdeep, os Sentinels só podem sabotar quem entra; a prisão que temiam está aberta."
+      },
+      {
+        "chapter": "ch7",
+        "text": "Se Alyxian for libertado, tinham razão e ninguém os ouviu; se o Netherdeep for destruído, o passado morre em paz como queriam."
+      }
+    ]
+  },
+  {
+    "id": "f-hands-of-ord",
+    "portents": [
+      {
+        "chapter": "ch4",
+        "text": "Prendem quem lute em público (ruidium elephants no Suncut Bazaar, Ophidas, First Eclipse); recebem os criminosos entregues pela Cobalt Soul."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Ficam à superfície: Cael Morrow está fora da sua jurisdição efectiva."
+      },
+      {
+        "chapter": "ch7",
+        "text": "No pior final, são a única linha entre Ank'Harel em chamas e o caos."
+      }
+    ]
+  },
+  {
+    "id": "f-scarbearers",
+    "portents": [
+      {
+        "chapter": "ch4",
+        "text": "Guardam a Maw para a Allegiance; quem quiser entrar em Cael Morrow sem emblema tem de os enfrentar ou enganar."
+      },
+      {
+        "chapter": "ch5",
+        "text": "Os veteranos de Hakzorne controlam a entrada; um esconderijo Scarbearer é refúgio neutro para quem souber a palavra-passe."
+      }
+    ]
+  },
+  {
+    "id": "f-veil",
+    "portents": [
+      {
+        "chapter": "ch4",
+        "text": "Adima Shemsilver evita as Hands of Ord contratando o Consortium para guardar o cofre; Kruuk vende itens mágicos, incluindo um ruidium shortsword."
+      },
+      {
+        "chapter": "ch7",
+        "text": "Se Ank'Harel arder, a Veil prospera no caos."
+      }
+    ]
+  }
+]
