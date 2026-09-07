@@ -3,11 +3,12 @@
     "id": "f-cerberus-assembly",
     "name": "Cerberus Assembly (Volstruckers)",
     "motto": "",
-    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. Interessados na Jóia e no que ela abre; um agente actua em Bazzoxan em conluio com Aloysia.",
+    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. A guerra com a Kryn Dynasty é pelos beacons do Luxon. Aproveitam o Myriad para receber ruidium para o esforço de guerra; um Volstrucker em Bazzoxan investiga o ruidium de perto e o rumor de que foi recuperado outro Luxon beacon no Betrayers' Rise; em conluio com Aloysia, tenta também a Jóia.",
     "publicFace": "Académicos e conselheiros do Império; os Volstruckers não existem oficialmente.",
     "leaders": [],
     "allies": [
-      "f-dwendalian-empire"
+      "f-dwendalian-empire",
+      "f-myriad"
     ],
     "enemies": [
       "f-kryn"
@@ -15,11 +16,23 @@
     "portents": [
       {
         "chapter": "ch3",
-        "text": "DM: Um agente Volstrucker segue os PCs até Bazzoxan e, com Aloysia, tenta roubar a Jóia em R16."
+        "text": "DM: O agente Volstrucker já está em Bazzoxan quando os PCs chegam: compra amostras de ruidium pelo contacto do Myriad, sonda a corrupção e vigia a entrada do Rise."
+      },
+      {
+        "chapter": "ch3",
+        "text": "DM: O agente confirma que o beacon está no Gatehold Barracks e prepara o golpe antes de a escolta partir para Rosohna."
+      },
+      {
+        "chapter": "ch3",
+        "text": "DM: Com Aloysia, tenta roubar a Jóia em R16."
       },
       {
         "chapter": "ch4",
-        "text": "DM: Se o agente escapar, a Assembly sabe da Jóia e de Ank'Harel; Laurin Ophidas (membro caído, segundo o livro) é um fio solto na cidade."
+        "text": "DM: Se o agente escapar, a Assembly sabe da Jóia e de Ank'Harel; se o beacon chegou ao Império, a Assembly tem um beacon e ruidium. Laurin Ophidas (membro caído, segundo o livro) é um fio solto na cidade."
+      },
+      {
+        "chapter": "ch5",
+        "text": "PROPOSTA: O que a Assembly faz com ruidium e um beacon (a definir pelo DM)."
       }
     ],
     "source": "dm"

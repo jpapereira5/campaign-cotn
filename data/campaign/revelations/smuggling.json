@@ -1,0 +1,38 @@
+[
+  {
+    "id": "r-myriad-route",
+    "list": "Contrabando",
+    "text": "DM: O Myriad está a montar um canal de contrabando de ruidium: Bazzoxan → Jigow → Urzin → Império. Ruidium para oeste, só ouro de volta.",
+    "clues": [
+      "b-0-nevoa-do-brejo",
+      "b-1-myriad-jigow",
+      "b-2-myriad-on-the-road",
+      "b-3-myriad-bazzoxan"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-assembly-buys-ruidium",
+    "list": "Contrabando",
+    "text": "DM: A Cerberus Assembly é o comprador (esforço de guerra); o Volstrucker de Bazzoxan é o seu homem no canal. O Myriad vende a quem der mais.",
+    "clues": [
+      "b-2-myriad-on-the-road",
+      "b-3-volstrucker-investigation",
+      "b-3-jewel-confrontation",
+      "b-3-beacon-heist"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-beacon-in-barracks",
+    "list": "Contrabando",
+    "text": "DM: Foi mesmo recuperado um beacon do Luxon no Betrayers' Rise; está no Gatehold Barracks à espera de escolta para Rosohna; Verin nega; o Volstrucker quer-o para o Império.",
+    "clues": [
+      "b-3-beacon-rumour",
+      "b-3-volstrucker-investigation",
+      "b-3-beacon-in-barracks",
+      "b-3-wall-unforgotten"
+    ],
+    "source": "dm"
+  }
+]

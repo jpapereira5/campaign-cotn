@@ -14,5 +14,21 @@
     "color": "#c9a86a",
     "order": 10,
     "summary": "PROPOSTA. O dragão que fundou Ank'Harel e autorizou a escavação de Cael Morrow: sementes nos caps. 4-5, ergue-se e falha na Noite de Ruidus, julga os PCs."
+  },
+  {
+    "id": "a-myriad",
+    "name": "Myriad: contrabando de ruidium",
+    "kind": "faction",
+    "color": "#8e6bb0",
+    "order": 11,
+    "summary": "DM: O Myriad monta um canal de contrabando de ruidium Bazzoxan → Jigow → Urzin → Império (ruidium para oeste, só ouro de volta) e vende à Cerberus Assembly ou a quem der mais."
+  },
+  {
+    "id": "a-cerberus",
+    "name": "Cerberus Assembly (Volstruckers)",
+    "kind": "faction",
+    "color": "#7d8597",
+    "order": 12,
+    "summary": "DM: A Assembly recebe ruidium pelo Myriad para o esforço de guerra; o seu Volstrucker em Bazzoxan investiga o ruidium de perto e o beacon do Luxon recuperado no Betrayers' Rise."
   }
 ]

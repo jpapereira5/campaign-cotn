@@ -1,0 +1,358 @@
+[
+  {
+    "id": "b-0-nevoa-do-brejo",
+    "title": "Névoa do Brejo: a porta do Myriad em Urzin",
+    "arcs": [
+      "a-myriad",
+      "a-prologue"
+    ],
+    "chapter": "ch0",
+    "order": 15,
+    "location": "l-nevoa-do-brejo",
+    "participants": [
+      "c-nevoa-vendor",
+      "c-myriad-traveller"
+    ],
+    "summary": "DM: Na loja de ervas de Urzin, o vendedor põe quem pergunta em contacto com um viajante de passagem que \"compra pedras vermelhas e paga passagem para oeste\". Há caixas na aldeia que não são de Urzin. A liderança não sabe de nada.",
+    "reveals": [
+      "r-myriad-route"
+    ],
+    "requires": [
+      "b-0-mission-urzin"
+    ],
+    "choices": [
+      {
+        "label": "Falar com o viajante",
+        "outcome": "DM: Oferece ouro por pedras vermelhas e por guias que não façam perguntas; primeira pista do canal.",
+        "leadsTo": []
+      },
+      {
+        "label": "Contar a Buhfal",
+        "outcome": "DM: Buhfal cobra a passagem ou expulsa o viajante; o Myriad muda o ponto de contacto (a decidir pelo DM).",
+        "leadsTo": []
+      },
+      {
+        "label": "Ignorar",
+        "outcome": "O viajante parte para Jigow depois do prólogo.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "DM: Pistas do canal (r-myriad-route): aqui, em Jigow (b-1-myriad-jigow), na estrada (b-2-myriad-on-the-road) e em Bazzoxan (b-3-myriad-bazzoxan). No prólogo ninguém sabe o que é ruidium: \"pedras vermelhas\" chega.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-myriad-jigow",
+    "title": "O receptador do Myriad no Festival of Merit",
+    "arcs": [
+      "a-myriad",
+      "a-ruidium"
+    ],
+    "chapter": "ch1",
+    "order": 29,
+    "location": "l-jigow",
+    "participants": [
+      "c-myriad-jigow-fence"
+    ],
+    "summary": "DM: A coberto do festival, o receptador do Myriad compra as pedras vermelhas que dão à costa no Emerald Gulch (o vendedor ambulante de b-1-festival-seeds vende-lhe) e prepara a primeira remessa para oeste. PROPOSTA: oferece ouro pela amostra da gruta que os PCs tragam (b-1-grotto-ruidium): primeira tentação de vender ruidium.",
+    "reveals": [
+      "r-myriad-route",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-1-festival-seeds"
+    ],
+    "choices": [
+      {
+        "label": "Vender a amostra",
+        "outcome": "PROPOSTA: ouro fácil; o Myriad fica a saber que a gruta tem ruidium e que os PCs sabem onde.",
+        "leadsTo": []
+      },
+      {
+        "label": "Recusar / denunciar a Durth Mirimm",
+        "outcome": "DM: o receptador desaparece de Jigow; a remessa segue na mesma.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "DM: O viajante de Urzin (b-0-nevoa-do-brejo) pode estar aqui a falar com o receptador: segunda pista do canal.",
+    "source": "dm"
+  },
+  {
+    "id": "b-2-myriad-on-the-road",
+    "title": "Um correio do Myriad preso na estrada",
+    "arcs": [
+      "a-myriad",
+      "a-cerberus",
+      "a-kryn"
+    ],
+    "chapter": "ch2",
+    "order": 72,
+    "location": "l-caravan-stop",
+    "participants": [
+      "c-myriad-couriers",
+      "f-aurora-watch"
+    ],
+    "summary": "DM: No caravan stop, a patrulha da Aurora Watch tem um correio acorrentado (os \"ladrões acorrentados para Bazzoxan\" do portento Kryn): na carroça, uma caixa de minério vermelho e ouro imperial, e uma lista de paragens: Bazzoxan, Jigow, Urzin, Império. O ouro é a única coisa que vem para leste.",
+    "reveals": [
+      "r-myriad-route",
+      "r-assembly-buys-ruidium"
+    ],
+    "requires": [
+      "b-2-caravan-stop"
+    ],
+    "choices": [
+      {
+        "label": "Interrogar o correio",
+        "outcome": "DM: dá o contacto de Bazzoxan em troca de protecção; fala de \"um mago do Império\" que paga a ponta de Bazzoxan.",
+        "leadsTo": [
+          "b-3-myriad-bazzoxan"
+        ]
+      },
+      {
+        "label": "Deixar a patrulha tratar disso",
+        "outcome": "DM: o correio chega a Bazzoxan e é solto por falta de provas (o Volstrucker paga).",
+        "leadsTo": []
+      }
+    ],
+    "notes": "DM: Terceira pista do canal e primeira da Assembly como comprador (ouro imperial). Se os PCs vêm das Ruins of Sorrow com outra patrulha, esta cena pode ficar à chegada a Bazzoxan.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-beacon-rumour",
+    "title": "O rumor do beacon",
+    "arcs": [
+      "a-cerberus",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 75,
+    "location": "l-ready-room",
+    "participants": [
+      "f-aurora-watch",
+      "c-verin-thelyss",
+      "c-kalym-telaarin"
+    ],
+    "summary": "DM: No refeitório do quartel e no Ready Room corre que uma patrulha trouxe do Rise um beacon do Luxon. Verin nega. PROPOSTA: Kalym Telaarin, sacerdote do Luxon, comove-se e quer vê-lo.",
+    "reveals": [
+      "r-beacon-in-barracks"
+    ],
+    "requires": [],
+    "choices": [
+      {
+        "label": "Perguntar a Verin",
+        "outcome": "DM: nega; só confia a quem já provou (Ruins of Sorrow, mouthers).",
+        "leadsTo": [
+          "b-3-beacon-in-barracks"
+        ]
+      },
+      {
+        "label": "Perguntar no Ready Room",
+        "outcome": "DM: o contacto do Myriad e o Volstrucker também ouvem a conversa.",
+        "leadsTo": [
+          "b-3-volstrucker-investigation"
+        ]
+      }
+    ],
+    "notes": "DM: Primeira pista de r-beacon-in-barracks. O beacon é verdade: está no Gatehold Barracks.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-volstrucker-investigation",
+    "title": "O Volstrucker investiga o ruidium",
+    "arcs": [
+      "a-cerberus",
+      "a-ruidium",
+      "a-myriad"
+    ],
+    "chapter": "ch3",
+    "order": 86,
+    "location": "l-bazzoxan",
+    "participants": [
+      "c-volstrucker-agent",
+      "c-myriad-bazzoxan-contact",
+      "c-bautha-dyrr"
+    ],
+    "summary": "DM: O agente da Assembly já está em Bazzoxan: compra amostras de ruidium pelo contacto do Myriad, sonda Bautha sobre a corrupção, vigia a entrada do Rise e escuta o rumor do beacon. Quarto investigador, escondido: qualquer pessoa da vila pode apontar para \"o forasteiro que faz perguntas a mais\".",
+    "reveals": [
+      "r-assembly-buys-ruidium",
+      "r-faction-agendas",
+      "r-ruidium-properties"
+    ],
+    "requires": [],
+    "choices": [
+      {
+        "label": "Desmascará-lo",
+        "outcome": "DM: nega; se pressionado, oferece ouro imperial pelo silêncio ou pela Jóia.",
+        "leadsTo": [
+          "b-3-jewel-confrontation"
+        ]
+      },
+      {
+        "label": "Segui-lo",
+        "outcome": "DM: leva ao contacto do Myriad e às caixas; e ao quartel, de noite.",
+        "leadsTo": [
+          "b-3-myriad-bazzoxan",
+          "b-3-beacon-in-barracks"
+        ]
+      }
+    ],
+    "notes": "DM: Segue o padrão \"investigador como revelação\" (b-3-researchers-in-town) com um quarto investigador que não se apresenta. Segunda pista de r-assembly-buys-ruidium e de r-beacon-in-barracks.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-myriad-bazzoxan",
+    "title": "A ponta de Bazzoxan do canal",
+    "arcs": [
+      "a-myriad",
+      "a-ruidium"
+    ],
+    "chapter": "ch3",
+    "order": 95,
+    "location": "l-ready-room",
+    "participants": [
+      "c-myriad-bazzoxan-contact",
+      "c-volstrucker-agent"
+    ],
+    "summary": "DM: O contacto do Myriad no Ready Room compra o que sai do Rise (o ruidium à volta da entrada) a soldados e aventureiros, e oferece ouro aos PCs pelo que trouxerem. As caixas seguem para oeste todas as semanas; o Volstrucker paga mais do que a Assembly manda.",
+    "reveals": [
+      "r-myriad-route",
+      "r-ruidium-properties"
+    ],
+    "requires": [],
+    "choices": [
+      {
+        "label": "Vender ruidium",
+        "outcome": "DM: ouro; o Myriad e a Assembly ficam a saber o que os PCs trazem do Rise.",
+        "leadsTo": []
+      },
+      {
+        "label": "Denunciar a Verin",
+        "outcome": "DM: Verin fecha o Ready Room ao contacto; o canal muda para as Barbed Fields (a decidir).",
+        "leadsTo": []
+      }
+    ],
+    "notes": "DM: Quarta pista de r-myriad-route. Liga ao ruidium à volta da entrada do Rise (b-3-rise-entrance, Remix).",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-beacon-in-barracks",
+    "title": "O beacon está no quartel",
+    "arcs": [
+      "a-cerberus",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 100,
+    "location": "l-bazzoxan-barracks",
+    "participants": [
+      "c-verin-thelyss",
+      "f-aurora-watch",
+      "c-volstrucker-agent"
+    ],
+    "summary": "DM: A verdade: uma patrulha de Verin trouxe do Rise um beacon do Luxon; está nos dormitórios interditos do Gatehold Barracks, sob guarda, à espera de escolta para Rosohna. Verin só o confia a quem já provou. O Volstrucker sabe e prepara o golpe antes de a escolta partir.",
+    "reveals": [
+      "r-beacon-in-barracks"
+    ],
+    "requires": [
+      "b-3-beacon-rumour"
+    ],
+    "choices": [
+      {
+        "label": "Avisar Verin do Volstrucker",
+        "outcome": "DM: Verin reforça a guarda; o golpe falha ou muda de alvo (a Jóia).",
+        "leadsTo": [
+          "b-3-beacon-heist"
+        ]
+      },
+      {
+        "label": "Ajudar o Volstrucker",
+        "outcome": "DM: ouro imperial e um contacto na Assembly; inimizade da Kryn se se souber.",
+        "leadsTo": [
+          "b-3-beacon-heist"
+        ]
+      },
+      {
+        "label": "Ignorar",
+        "outcome": "DM: o golpe acontece na mesma (b-3-beacon-heist).",
+        "leadsTo": [
+          "b-3-beacon-heist"
+        ]
+      }
+    ],
+    "timer": "DM: a escolta para Rosohna parte em N dias (DM define)",
+    "notes": "DM: Terceira pista de r-beacon-in-barracks. A guerra Kryn/Império é pelos beacons: um beacon no Império é uma vitória estratégica.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-beacon-heist",
+    "title": "O golpe ao beacon",
+    "arcs": [
+      "a-cerberus",
+      "a-myriad",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 245,
+    "location": "l-bazzoxan-barracks",
+    "participants": [
+      "c-volstrucker-agent",
+      "c-myriad-couriers",
+      "c-verin-thelyss",
+      "f-aurora-watch"
+    ],
+    "summary": "DM: O Volstrucker tenta levar o beacon do quartel (com ou sem a Jóia de R16) e metê-lo nas caixas do Myriad que seguem para oeste. Travado: é capturado e a Assembly perde o seu homem. Consegue: o beacon e o ruidium chegam ao Império (portento ch4).",
+    "reveals": [
+      "r-assembly-buys-ruidium",
+      "r-beacon-in-barracks"
+    ],
+    "requires": [
+      "b-3-beacon-in-barracks"
+    ],
+    "choices": [
+      {
+        "label": "Travar o golpe",
+        "outcome": "DM: Volstrucker capturado; Verin fica em dívida; a escolta parte para Rosohna.",
+        "leadsTo": [
+          "b-3-verin-farewell"
+        ]
+      },
+      {
+        "label": "O golpe consegue",
+        "outcome": "DM: o beacon segue para oeste; a Assembly tem um beacon e ruidium (portento ch4).",
+        "leadsTo": [
+          "b-3-aloysia-next-move"
+        ]
+      },
+      {
+        "label": "Os PCs ficam com o beacon",
+        "outcome": "DM: a decidir pelo DM (Kryn, Império e Myriad atrás deles).",
+        "leadsTo": []
+      }
+    ],
+    "notes": "DM: Quarta pista de r-assembly-buys-ruidium. Ordem: depois de b-3-jewel-confrontation e antes de b-3-aloysia-next-move; se o agente foi capturado em R16, o golpe não acontece (ou o Myriad tenta-o sozinho: a decidir).",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-mission-urzin",
+    "notes": "Buhfal é LE e pragmático: não é vilão, mas não é generoso. Deixar claro que Bol'bara é essencial aos ritos que protegem Urzin. Nível 1. DM: A Névoa do Brejo (loja de ervas da mesa) é a porta do Myriad em Urzin (b-0-nevoa-do-brejo); Buhfal e a liderança ficam de fora."
+  },
+  {
+    "id": "b-1-festival-seeds",
+    "notes": "PROPOSTA (Remix). Do Remix (2.1): usar eventos novos para semear a lista de revelações sem exagerar no ritmo; os rivais continuam a ser semeados nos eventos. DM: O vendedor de pedras vermelhas vende ao receptador do Myriad (b-1-myriad-jigow)."
+  },
+  {
+    "id": "b-2-roadside-raiders",
+    "notes": "As seis adagas com nome dão cor; entregar Six-Knives à Aurora Watch no caravan stop rende reputação. PROPOSTA: os Road Raiders deixam passar as carroças do Myriad a troco de uma parte (ou não: a decidir pelo DM)."
+  },
+  {
+    "id": "b-3-barracks-verin",
+    "notes": "NOTAS DE DM (extracção + Remix): Verin é o mediador de informação: por ele os PCs devem sair com o mapa dos três investigadores (regra das três pistas por investigador). Remix: Aloysia pode estar aqui a exigir soldados. Se os PCs trouxeram uma commendation da patrulha do capítulo 2, Verin começa amigável. Área de treino disponível para cenas de rivalidade (tiro, luta). DM: Os dormitórios interditos são onde está o beacon do Luxon (b-3-beacon-in-barracks)."
+  },
+  {
+    "id": "b-3-jewel-confrontation",
+    "notes": "DM: Substitui a cena por guião do livro (Aloysia + rivais) e o \"Make an Enemy\" do Remix. Rivais: a atitude decide só o tom do desacordo (debate / discussão / negociação agressiva). DM: O agente Volstrucker já tem o beacon do quartel em vista (b-3-beacon-in-barracks): a Jóia e o beacon podem sair na mesma noite (b-3-beacon-heist)."
+  },
+  {
+    "id": "b-3-wall-unforgotten",
+    "notes": "NOTAS DE DM (extracção + Remix): Coração emocional da vila; Kalym não tem informação útil sobre o Rise. Remix: Question pode estar aqui a deixar uma oferenda (fez e perdeu amigos em Bazzoxan), uma terceira pista para a encontrar. Os rivais podem cumprir aqui um objectivo próprio (Dermot e o Luxon). PROPOSTA: Kalym, sacerdote do Luxon, ouviu o rumor do beacon e quer vê-lo; pode ser a primeira pista de r-beacon-in-barracks."
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "from": "f-myriad",
+    "to": "f-cerberus-assembly",
+    "type": "ally",
+    "label": "DM: cliente principal do canal de ruidium; o Myriad vende a quem der mais",
+    "source": "dm"
+  },
+  {
+    "from": "f-myriad",
+    "to": "f-aurora-watch",
+    "type": "enemy",
+    "label": "DM: as patrulhas prendem os correios",
+    "source": "dm"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "f-myriad",
+    "type": "knows",
+    "label": "DM: paga a ponta de Bazzoxan do canal",
+    "source": "dm"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "f-aurora-watch",
+    "type": "wantsFrom",
+    "label": "DM: o beacon guardado no quartel",
+    "fromBeat": "b-3-beacon-in-barracks",
+    "source": "dm"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "c-verin-thelyss",
+    "type": "spiesOn",
+    "label": "DM: vigia o quartel e a escolta do beacon",
+    "fromBeat": "b-3-volstrucker-investigation",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-traveller",
+    "to": "f-myriad",
+    "type": "memberOf",
+    "label": "batedor da rota",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-jigow-fence",
+    "to": "f-myriad",
+    "type": "memberOf",
+    "label": "receptador em Jigow",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-couriers",
+    "to": "f-myriad",
+    "type": "memberOf",
+    "label": "correios",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-bazzoxan-contact",
+    "to": "f-myriad",
+    "type": "memberOf",
+    "label": "contacto em Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-nevoa-vendor",
+    "to": "c-myriad-traveller",
+    "type": "knows",
+    "label": "DM: sabe onde o encontrar; não é do Myriad",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-bazzoxan-contact",
+    "to": "c-volstrucker-agent",
+    "type": "knows",
+    "label": "DM: vende-lhe ruidium; sabe que ele paga mais do que a Assembly manda",
+    "source": "dm"
+  },
+  {
+    "from": "c-kalym-telaarin",
+    "to": "c-verin-thelyss",
+    "type": "wantsFrom",
+    "label": "PROPOSTA: quer ver o beacon do Luxon",
+    "fromBeat": "b-3-beacon-rumour",
+    "source": "dm"
+  }
+]

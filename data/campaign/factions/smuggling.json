@@ -1,0 +1,44 @@
+[
+  {
+    "id": "f-myriad",
+    "name": "The Myriad",
+    "motto": "",
+    "agenda": "DM: Sindicato criminoso de Wildemount (EGtW: Port Damali, Menagerie Coast). Está a montar um canal de contrabando de ruidium Bazzoxan → Jigow → Urzin → Império: ruidium para oeste, só ouro de volta. Cliente principal: a Cerberus Assembly; mas vende a quem der mais.",
+    "publicFace": "DM: Sem caras: viajantes, mercadores e correios. Em Urzin a porta é a Névoa do Brejo (loja de ervas); em Jigow um receptador; em Bazzoxan um contacto no Ready Room. A liderança de Urzin fica de fora.",
+    "leaders": [],
+    "allies": [
+      "f-cerberus-assembly"
+    ],
+    "enemies": [
+      "f-aurora-watch",
+      "f-kryn"
+    ],
+    "portents": [
+      {
+        "chapter": "ch0",
+        "text": "DM: O viajante deixa Urzin com a rota acertada e segue para Jigow; a Névoa do Brejo fica como ponto de contacto."
+      },
+      {
+        "chapter": "ch1",
+        "text": "DM: O receptador de Jigow compra as pedras vermelhas que dão à costa no Gulch; primeira remessa para oeste."
+      },
+      {
+        "chapter": "ch2",
+        "text": "DM: Correios na estrada; a Aurora Watch prende um deles (os \"ladrões acorrentados\" do portento Kryn) e o Myriad muda o percurso."
+      },
+      {
+        "chapter": "ch3",
+        "text": "DM: O contacto de Bazzoxan compra o que sai do Rise; caixas semanais para oeste. Se o Volstrucker roubar o beacon, vai nas mesmas caixas."
+      },
+      {
+        "chapter": "ch4",
+        "text": "DM: O canal fica permanente. PROPOSTA: o Consortium (sem fundos, mas a querer o monopólio do ruidium) tenta comprar a produção; o Myriad leiloa entre a Assembly e o Consortium."
+      },
+      {
+        "chapter": "ch5",
+        "text": "PROPOSTA: Ruidium a chegar ao Império em quantidade; efeitos (armas, corrupção nas mãos erradas) a definir pelo DM."
+      }
+    ],
+    "source": "dm"
+  }
+]

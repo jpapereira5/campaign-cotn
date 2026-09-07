@@ -35,15 +35,27 @@
       "ch3",
       "ch4"
     ],
-    "summary": "DM: Agente da Cerberus Assembly (Império Dwendaliano) em conluio com Aloysia Telfan. É quem tenta roubar a Jóia em Bazzoxan.",
-    "goal": "Levar a Jóia (ou o que ela abre) para a Assembly.",
-    "secret": "O conluio com Aloysia: o Consortium e a Assembly querem a mesma coisa por razões diferentes.",
-    "wants": "A Jóia; discrição.",
-    "fears": "Ser reconhecido em território Kryn.",
+    "summary": "DM: Agente Volstrucker da Cerberus Assembly (Império Dwendaliano), já instalado em Bazzoxan quando os PCs chegam. Investiga o ruidium de perto (compra amostras pelo contacto do Myriad, sonda Bautha sobre a corrupção, vigia a entrada do Rise) e o rumor do beacon do Luxon recuperado no Rise. Em conluio com Aloysia Telfan, é quem tenta roubar a Jóia.",
+    "goal": "Levar ruidium e o beacon para a Assembly (esforço de guerra); a Jóia, se estiver ao alcance.",
+    "secret": "É o homem da Assembly na ponta de Bazzoxan do canal do Myriad: paga o que sai do Rise. O conluio com Aloysia é oportunismo: o Consortium e a Assembly querem a Jóia por razões diferentes.",
+    "wants": "Ruidium; o beacon; a Jóia; discrição.",
+    "fears": "Ser reconhecido em território Kryn; que o Myriad venda ao Consortium ou à Kryn.",
     "states": [
+      {
+        "fromBeat": "b-3-volstrucker-investigation",
+        "state": "DM: em Bazzoxan a investigar o ruidium e o rumor do beacon"
+      },
+      {
+        "fromBeat": "b-3-beacon-in-barracks",
+        "state": "DM: sabe que o beacon está no quartel; prepara o golpe"
+      },
       {
         "fromBeat": "b-3-jewel-confrontation",
         "state": "tenta roubar a Jóia em R16; foge ou é capturado"
+      },
+      {
+        "fromBeat": "b-3-beacon-heist",
+        "state": "DM: golpe ao beacon: capturado, ou foge para oeste com o Myriad"
       }
     ],
     "tags": [
