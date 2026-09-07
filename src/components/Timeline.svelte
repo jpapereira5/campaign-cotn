@@ -64,12 +64,12 @@
       {/if}
       <!-- dependências -->
       {#if ui.showDeps}
-        {#each layout.deps as d (d.from + d.to)}
+        {#each layout.deps as d, i (i)}
           <path d="M{d.x1},{d.y1} C{d.x1 + 40},{d.y1} {d.x2 - 40},{d.y2} {d.x2},{d.y2}" fill="none" stroke={focus === d.to || focus === d.from ? '#d9a441' : '#4a4138'} stroke-dasharray="3 3" />
         {/each}
       {/if}
       <!-- ligações de convergência -->
-      {#each layout.links as l (l.beat.id + l.color + l.y2)}
+      {#each layout.links as l, i (i)}
         <line x1={l.x} y1={l.y1} x2={l.x} y2={l.y2} stroke={l.color} stroke-width={isFocusLink(l.beat.id) ? 3 : 1.5} opacity={focus && !isFocusLink(l.beat.id) ? 0.25 : 0.8} />
       {/each}
       {#each layout.ghosts as g (g.beat.id + g.arc.id)}

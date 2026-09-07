@@ -50,8 +50,8 @@
   <h3>Problemas nos dados <span class="muted">({errors.length} erros, {warns.length} avisos)</span></h3>
   <p class="muted">Os erros são referências a ids inexistentes ou ids duplicados; os avisos são sugestões (revelações com menos de 3 pistas, personagens sem cenas, etc.). Corrigem-se nos JSON em <code>data/</code> ou na app.</p>
   <ul class="problems">
-    {#each errors as p (p.where + p.message)}<li class="err">✖ <code>{p.where}</code> {p.message}</li>{/each}
-    {#each warns as p (p.where + p.message)}<li class="warn">⚠ <code>{p.where}</code> {p.message}</li>{/each}
+    {#each errors as p, i (i)}<li class="err">✖ <code>{p.where}</code> {p.message}</li>{/each}
+    {#each warns as p, i (i)}<li class="warn">⚠ <code>{p.where}</code> {p.message}</li>{/each}
   </ul>
 </div>
 

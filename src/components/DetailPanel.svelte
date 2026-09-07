@@ -80,7 +80,7 @@
     {/if}
     {#if character.states.length}
       <h3>Estados ao longo do tempo</h3>
-      <ul class="plain">{#each character.states as s (s.fromBeat + s.state)}<li>{s.state} <span class="muted">— a partir de</span> <EntityChip kind="beat" id={s.fromBeat} /></li>{/each}</ul>
+      <ul class="plain">{#each character.states as s, i (i)}<li>{s.state} <span class="muted">— a partir de</span> <EntityChip kind="beat" id={s.fromBeat} /></li>{/each}</ul>
     {/if}
     {#if character.kind === 'pc'}
       <h3>Ambições</h3>
@@ -100,7 +100,7 @@
     {#if faction.enemies.length}<p><b>Inimigos:</b> {#each faction.enemies as a (a)}<EntityChip kind="faction" id={a} /> {/each}</p>{/if}
     {#if faction.portents.length}
       <h3>Portentos (se ninguém intervier)</h3>
-      <ol class="plain">{#each faction.portents as p (p.chapter + p.text)}<li><span class="muted">{chapterName(p.chapter)}:</span> {p.text}</li>{/each}</ol>
+      <ol class="plain">{#each faction.portents as p, i (i)}<li><span class="muted">{chapterName(p.chapter)}:</span> {p.text}</li>{/each}</ol>
     {/if}
   {/if}
 
@@ -133,7 +133,7 @@
     {#if beat.participants.length}<h3>Participantes</h3><div class="row">{#each beat.participants as p (p)}<EntityChip kind={c.factions.some((f) => f.id === p) ? 'faction' : 'character'} id={p} />{/each}</div>{/if}
     {#if beat.choices.length}
       <h3>Escolhas</h3>
-      <ul class="plain">{#each beat.choices as ch (ch.label)}<li><b>{ch.label}</b> — {ch.outcome} {#each ch.leadsTo as l (l)}<EntityChip kind="beat" id={l} />{/each}</li>{/each}</ul>
+      <ul class="plain">{#each beat.choices as ch, i (i)}<li><b>{ch.label}</b> — {ch.outcome} {#each ch.leadsTo as l (l)}<EntityChip kind="beat" id={l} />{/each}</li>{/each}</ul>
     {/if}
     {#if beat.portent}<p class="warn">☠ Portento (<EntityChip kind="faction" id={beat.portent.faction} />): {beat.portent.text}</p>{/if}
     {#if beat.reveals.length}<h3>Revela</h3><ul class="plain">{#each beat.reveals as r (r)}<li><EntityChip kind="revelation" id={r} /></li>{/each}</ul>{/if}
@@ -169,7 +169,7 @@
   {#if selection.kind === 'character' || selection.kind === 'faction'}
     <h3>Relações</h3>
     <ul class="plain rels">
-      {#each relations as r (r.from + r.to + r.type)}
+      {#each relations as r, i (i)}
         {@const active = relationActive(r, world.cursor, world.beatPos)}
         {@const other = r.from === selection.id ? r.to : r.from}
         <li class:inactive={!active}>

@@ -72,16 +72,17 @@
     links = nextLinks
     if (!sim) {
       sim = forceSimulation<SimNode, SimLink>()
-        .force('charge', forceManyBody().strength(-260))
+        .force('charge', forceManyBody().strength(-380))
         .force('collide', forceCollide<SimNode>().radius((d) => d.radius + 8))
         .force('center', forceCenter(w / 2, h / 2))
         .on('tick', () => frame++)
     }
-    sim.force('link', forceLink<SimNode, SimLink>(nextLinks).id((d) => d.id).distance(80).strength((l) => (l.link.relation.type === 'memberOf' ? 0.8 : l.link.relation.type === 'knows' ? 0.15 : 0.4)))
+    sim.force('link', null)
+    sim.nodes(next)
+    sim.force('link', forceLink<SimNode, SimLink>(nextLinks).id((d) => d.id).distance(95).strength((l) => (l.link.relation.type === 'memberOf' ? 0.8 : l.link.relation.type === 'knows' ? 0.15 : 0.4)))
     sim.force('x', forceX<SimNode>((d, i) => anchorFor(d, i, next.length).x).strength(0.05))
     sim.force('y', forceY<SimNode>((d, i) => anchorFor(d, i, next.length).y).strength(0.05))
     sim.force('center', forceCenter(w / 2, h / 2))
-    sim.nodes(next)
     sim.alpha(0.6).restart()
   })
 

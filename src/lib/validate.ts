@@ -10,6 +10,7 @@ type Raw = Record<string, unknown>
 
 const str = (v: unknown, d = ''): string => (typeof v === 'string' ? v : d)
 const num = (v: unknown, d = 0): number => (typeof v === 'number' && Number.isFinite(v) ? v : d)
+const uniq = (v: string[]): string[] => [...new Set(v)]
 const strs = (v: unknown): string[] => (Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : [])
 const obj = (v: unknown): Raw => (v && typeof v === 'object' && !Array.isArray(v) ? (v as Raw) : {})
 const arr = (v: unknown): Raw[] => (Array.isArray(v) ? v.map(obj) : [])
@@ -112,14 +113,14 @@ export function normalizeBeat(raw: unknown): Beat {
   return {
     id: str(r.id),
     title: str(r.title),
-    arcs: strs(r.arcs),
+    arcs: uniq(strs(r.arcs)),
     chapter: str(r.chapter),
     order: num(r.order),
     location: str(r.location) || undefined,
-    participants: strs(r.participants),
+    participants: uniq(strs(r.participants)),
     summary: str(r.summary),
-    reveals: strs(r.reveals),
-    requires: strs(r.requires),
+    reveals: uniq(strs(r.reveals)),
+    requires: uniq(strs(r.requires)),
     choices: arr(r.choices).map((c) => ({ label: str(c.label), outcome: str(c.outcome), leadsTo: strs(c.leadsTo) })),
     timer: str(r.timer) || undefined,
     portent: r.portent ? { faction: str(obj(r.portent).faction), text: str(obj(r.portent).text) } : undefined,
@@ -130,7 +131,7 @@ export function normalizeBeat(raw: unknown): Beat {
 
 export function normalizeRevelation(raw: unknown): Revelation {
   const r = obj(raw)
-  return { id: str(r.id), list: str(r.list, 'Geral'), text: str(r.text), clues: strs(r.clues), source: src(r.source) }
+  return { id: str(r.id), list: str(r.list, 'Geral'), text: str(r.text), clues: uniq(strs(r.clues)), source: src(r.source) }
 }
 
 export function normalizeAmbition(raw: unknown): Ambition {
@@ -157,6 +158,21 @@ export interface RawCanon {
   beats: unknown[]
   revelations: unknown[]
   ambitions: unknown[]
+}
+
+function dedupeRelations(list: Relation[], warn: (where: string, message: string) => void): Relation[] {
+  const seen = new Set<string>()
+  const out: Relation[] = []
+  for (const r of list) {
+    const key = `${r.from}|${r.to}|${r.type}|${r.fromBeat ?? ''}|${r.untilBeat ?? ''}|${r.condition ?? ''}`
+    if (seen.has(key)) {
+      warn(`relations/${r.from}→${r.to}`, `relação duplicada (${r.type})`)
+      continue
+    }
+    seen.add(key)
+    out.push(r)
+  }
+  return out
 }
 
 /** Preenche defaults, descarta entradas sem id e verifica integridade referencial. Nunca lança. */
@@ -191,7 +207,7 @@ export function normalizeCanon(raw: RawCanon): { canon: Canon; problems: Problem
     characters: withId(raw.characters, normalizeCharacter, 'characters'),
     factions: withId(raw.factions, normalizeFaction, 'factions'),
     locations: withId(raw.locations, normalizeLocation, 'locations'),
-    relations: (raw.relations ?? []).map(normalizeRelation).filter((r) => r.from && r.to),
+    relations: dedupeRelations((raw.relations ?? []).map(normalizeRelation).filter((r) => r.from && r.to), warn),
     beats: withId(raw.beats, normalizeBeat, 'beats'),
     revelations: withId(raw.revelations, normalizeRevelation, 'revelations'),
     ambitions: withId(raw.ambitions, normalizeAmbition, 'ambitions'),
