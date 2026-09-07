@@ -126,61 +126,141 @@ kbd {
   overflow: hidden;
 }
 
-/* Players stay in the DOM so audio plays, but take no space: this is an
-   audio-only board by design. Note the YouTube ToS ask for a visible player. */
-.player-host {
-  position: absolute;
-  left: 0;
-  top: 0;
+textarea {
+  font: inherit;
+  color: inherit;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
   width: 100%;
-  height: 0;
-  overflow: hidden;
+  resize: vertical;
+}
+textarea:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='date']:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+input[type='password'],
+input[type='search'],
+input[type='date'] {
+  font: inherit;
+  color: inherit;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
 }
 
-.player-host iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+:root {
+  --header-h: 96px;
 }
 
-.status-dot {
-  display: inline-block;
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.1em 0.55em;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--bg-3);
+  font-size: 0.85em;
+  cursor: pointer;
+  line-height: 1.5;
+  max-width: 100%;
+}
+.chip:hover {
+  border-color: var(--accent-2);
+}
+.chip .dot {
   width: 0.6em;
   height: 0.6em;
   border-radius: 50%;
-  background: var(--muted);
+  flex: none;
+}
+.chip.played {
+  background: #2f3a2b;
+  border-color: var(--ok);
 }
 
-/* Blinking orange: loading, not armed yet. */
-.status-dot.loading {
-  background: var(--accent);
-  animation: pulse 1s infinite alternate;
+.tabs {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+.tabs button {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+  background: var(--bg-2);
+}
+.tabs button.active {
+  background: var(--bg-3);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
-/* Steady orange: armed, buffered, ready to start without delay. Also while
-   fading out: the track is already on its way back to armed. */
-.status-dot.idle,
-.status-dot.stopping {
-  background: var(--accent);
+.page {
+  padding: 1rem;
+  max-width: 1200px;
 }
-
-/* Green: playing or fading in. */
-.status-dot.fading,
-.status-dot.playing {
-  background: var(--ok);
-  box-shadow: 0 0 6px var(--ok);
+.page h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
 }
-
-.status-dot.error {
-  background: var(--danger);
+.page h3 {
+  margin: 1rem 0 0.4rem;
+  font-size: 1rem;
+  color: var(--accent);
 }
-
-@keyframes pulse {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
+.grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.card {
+  padding: 0.75rem;
+}
+.warn {
+  color: #e0b04a;
+}
+.err {
+  color: var(--danger);
+}
+.ok {
+  color: var(--ok);
+}
+table.list {
+  border-collapse: collapse;
+  width: 100%;
+}
+table.list th,
+table.list td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+table.list th {
+  color: var(--muted);
+  font-weight: 500;
+}
+label.field {
+  display: block;
+  margin: 0.4rem 0;
+}
+label.field > span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.85em;
+  margin-bottom: 0.15rem;
+}
+label.field input[type='text'],
+label.field select {
+  width: 100%;
+}
+details summary {
+  cursor: pointer;
+  color: var(--muted);
 }

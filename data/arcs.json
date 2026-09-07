@@ -1,0 +1,12 @@
+[
+  { "id": "a-prologue", "name": "Prólogo: Unwelcome Spirits", "kind": "prologue", "color": "#7aa2a8", "order": 0, "summary": "Urzin → Brokenveil Marsh → Fort Venture → exorcismo de Bol'bara." },
+  { "id": "a-main", "name": "A Jóia das Três Preces", "kind": "main", "color": "#d9a441", "order": 1, "summary": "O chamamento de Alyxian e a Jóia: Dormant (E12) → Awakened (R16) → Exalted (M9) → Heart of Despair." },
+  { "id": "a-lore", "name": "Lore de Alyxian", "kind": "lore", "color": "#c7b7e0", "order": 2, "summary": "Quem foi o Apotheon: visões, murais, testemunhas (Olara, Hadarai, Perigee), Fragments of Suffering." },
+  { "id": "a-ruidium", "name": "Ruidium", "kind": "ruidium", "color": "#c2453a", "order": 3, "summary": "O mineral vermelho: origem no Netherdeep, corrupção, armas, quem o quer e para quê." },
+  { "id": "a-rivals", "name": "Os Rivais", "kind": "rivals", "color": "#6fbf73", "order": 4, "summary": "Ayo, Dermot, Galsariad, Irvan e Maggie: de indiferentes a amigos, corrompidos ou inimigos." },
+  { "id": "a-kryn", "name": "Kryn Dynasty / Aurora Watch", "kind": "faction", "color": "#8fa3c7", "order": 5, "summary": "Jigow, Bazzoxan, Verin Thelyss e o impasse com o Betrayers' Rise." },
+  { "id": "a-allegiance", "name": "Allegiance of Allsight — What Lies Beneath", "kind": "faction", "color": "#5d8fd1", "order": 6, "summary": "Seis missões: figurine, Life Dome, Prolix incriminado, a espia em Cael Morrow, o rift, o Netherdeep." },
+  { "id": "a-consortium", "name": "Consortium of the Vermilion Dream — Vermilion Gambits", "kind": "faction", "color": "#b8443c", "order": 7, "summary": "Seis missões: Shira, Luck's Run, roubo do elefante, a Key, o Aboleth, monopólio do ruidium." },
+  { "id": "a-cobalt", "name": "Library of the Cobalt Soul — Knowledge Is Power", "kind": "faction", "color": "#3f79b8", "order": 8, "summary": "Seis missões: Ophidas, Kruuk, First Eclipse, Insight Acuere, o Aboleth, destruir o Netherdeep." },
+  { "id": "a-sentinels", "name": "Sentinels of Memory", "kind": "faction", "color": "#8a7f6b", "order": 9, "summary": "Lymmle Wist infiltrada na Aliança: emboscada no Life Dome, Prolix incriminado, assassinos." }
+]
