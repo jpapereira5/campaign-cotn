@@ -58,3 +58,119 @@ Prólogo: `c-buhfal` `c-bolbara` `c-trush` `c-morgid` `c-pellinost` `c-felmont` 
 - **Campanha (Acto 4)**: `r-jmon-authorized-dig` `r-jmon-will-rise`
 - **Campanha (Remix / DM)**: `r-scarlet-fever` `r-ruidium-history` (lista "Ruidium")
 - **Campanha (Contrabando)**: `r-myriad-route` `r-assembly-buys-ruidium` `r-beacon-in-barracks`
+
+## Camada Crocudos (campanha anterior do DM)
+Material jogado/preparado na campanha "Crocudos" (2025–2026, mesma aventura, outro grupo). Ficheiros: `data/campaign/*/crocudos.json` (acrescentos e patches ao livro), `data/campaign/*/zz-crocudos-patches.json` (patches a entidades já alteradas na campanha; carregam no fim), `data/campaign/*/crocudos-names.json` (nomes em português da mesa; o original fica no livro). Texto marcado "Crocudos:" / "Crocudos (S12):" com a sessão. Handouts em `docs/handouts.md`; regras em `docs/regras.md`. Fora, por decisão do DM: culto do dragão, Jack Sparrou e tudo o que estava preso aos PCs antigos.
+- **Personagens novos** (74): `c-salomao-quebra-sol` `c-rinkat-ticao-baixo` `c-nisla-asa-curta` `c-valir-torran` `c-litcha-das-cinzas` `c-kalmuk-parte-po` `c-karuk-pedra-dura` `c-mekik` `c-mugra-maos-quentes` `c-skirr` `c-rikka-tres-dentes` `c-durg-mao-mole` `c-rogna-erva-rara` `c-krivga-pele-seca` `c-druida-cego-do-pantano` `c-dhurak-pe-reto` `c-tripulacao-passo-lento` `c-nessa-brilho-leve` `c-korrem-olha-ruina` `c-isha-sem-vela` `c-relk-po-dagua` `c-zhayra-racha-pedra` `c-filha-de-korrem` `c-velnari-zeth` `c-kren-vorith` `c-yezek-miruun` `c-sarna-kul` `c-nibuk` `c-os-orelhudos` `c-nippi-dente-largo` `c-bruno-massapao` `c-rafael-e-samara-rosbife` `c-regimia-rosbife` `c-verema-brisa-mansa` `c-zinka` `c-tia-mukka-zetek` `c-kolgar-gurt` `c-nossil-sete-rumos` `c-yalla-gancho-torto` `c-belk-bate-ripa` `c-tapa-meia-vela` `c-trinte-tres-talheres` `c-rabbak-quebra-tabua` `c-grakka-maos-de-corda` `c-rombek-terra-firme` `c-durahk-braco-de-ferro` `c-shonna-olho-de-cinza` `c-grok-e-verran` `c-ze-e-felix` `c-keyeki` `c-chekka-falha-remos` `c-nok-nok-racha-dentes` `c-bukka-sem-medo` `c-grelka-dente-largo` `c-kiri-kiri-da-vela-alta` `c-susana-deep-scion` `c-aboleth-do-mar` `c-dragao-branco-adulto` `c-gigante-da-tempestade` `c-culto-esquecido` `c-darguun-velk` `c-grumak` `c-kael-rhun` `c-lirien-solva` `c-rolo-wellington` `c-vazia` `c-gruusk` `c-karesh-asa-rubra` `c-nara-sol` `c-talan-velyar` `c-vorzen` `c-vorrim` `c-levir` `c-murmuradores`
+- **Locais novos** (38): `l-trapo-e-ticao` `l-pombal-ninho-de-lama` `l-templo-luxon-urzin` `l-templo-das-cinzas` `l-ferreiro-pedra-dura` `l-bugigangas-de-mekik` `l-casco-fumegante` `l-carapaca-estalada` `l-raiz-da-sorte` `l-mantimentos-ate-ao-osso` `l-passo-lento` `l-kalai-ruins` `l-clan-cinza-viva-camp` `l-jigau-molho` `l-jigau-aguas-da-carne` `l-jigau-passadicos` `l-salao-de-pedra` `l-quarto-do-arcanista` `l-laboratorio-velnari` `l-quartel-da-vigia-jigau` `l-armazem-do-festival` `l-padaria-massapao` `l-orfanato-casca-quente` `l-pedra-de-partida` `l-sapo-afogado` `l-peixaria-gancho-torto` `l-estaleiro-madeira-verde` `l-banhos-do-tibarro` `l-taberna-cordas-soltas` `l-joalharia-brilho-do-pantano` `l-cais-comunitario` `l-casa-dos-rosbife` `l-templo-de-melora-espinha-viva` `l-trinca-rabos` `l-obelisco-negro` `l-iceberg-coragem-da-costa` `l-gruta-altar-aberrante` `l-margem-palida`
+- **Beats novos** (42): `b-0-urzin-council` `b-0-salomao-rubidio` `b-0-urzin-day` `b-0-urzin-feast` `b-0-dranassar-vision` `b-0-bolbara-legend` `b-0-ritual-libertacao` `b-0-departure` `b-1-journey-day1-nessa` `b-1-journey-night1-dream` `b-1-journey-day2-wastewalkers` `b-1-journey-night2-kalai` `b-1-journey-day3-gloomstalker` `b-1-arrival-jigau` `b-1-fritz-velnari` `b-3-fritz-returns` `b-3-fritz-end` `b-1-jigau-arrival-intendente` `b-1-treasure-hunt` `b-1-luxon-coverup` `b-1-joalharia-myriad` `b-1-sapo-afogado` `b-1-melora-temple` `b-1-ushru-vs-velnari` `b-1-velnari-lab` `b-1-velnari-confrontation` `b-2-sea-departure` `b-2-sea-obelisco` `b-2-sea-aboleth` `b-2-sea-iceberg` `b-2-sea-landing-cave` `b-3-vazia-gruusk` `b-3-murmuradores` `b-3-estalagem-soldado-caido` `b-3-karesh` `b-3-rolo-wellington` `b-3-fugon-vision` `b-3-vorzen-attack` `b-3-vorrim` `b-3-caderno-volstrucker` `b-3-tingus` `b-3-verin-deal`
+- **Revelações novos** (4): `r-alyxian-last-dranassar` `r-fritz-elisabete` `r-velnari-corrupted` `r-luxon-coverup`
+- **Facções novos** (1): `f-culto-ceratos`
+
+<!-- RASCUNHO para docs/ids.md — bloco D. Coluna "Fonte": C = campanha.md (bíblia), S = crocudos.md (sessões), — = só no enunciado, não encontrado no material. Ids da app mantêm o nome do livro; a coluna "mesa" é o que o DM diz em voz alta. -->
+
+## Nome no livro → nome na mesa (Crocudos)
+
+A campanha anterior do DM traduziu nomes do livro para a mesa. Os ids e os campos `name` da camada livro ficam em inglês; estes aliases entram em `aliases`/notas de campanha para o DM os ler à mesa.
+
+### Personagens
+
+| Livro | Mesa (Crocudos) | Fonte |
+|---|---|---|
+| Durth Mirimm | Duarte Mirim | C, S |
+| Question | Iliana "Questão" | C |
+| Foghome | Fugon | C (S usa "Foghome") |
+| Parson Pellinost | Padre Perestrelo | C |
+| Colbu Kaz | Coblu-Kaz (também "Colbu Kaz" nas partes traduzidas do livro) | C, S |
+| Agathe Silverspoon | Ágata Colher-de-Prata | C |
+| Buhfal II | Bufal II | C |
+| Trush | Truche | C |
+| Alonne Frith | Alone Fritz | C, S |
+| Maryl Bronzefang | Maryl Presa-Dente | C |
+| Sharpwatch | Pena-Brava | C |
+| Beetle e Zag | Zesca e Fitas | C, S |
+| Mossback Steward | Guardião do Musgo | C, S |
+| Dermot Wurder | Dermot Mãos-Calmas | C |
+| Maggie Keeneyes | Maggie Olhos-Apertados (2×) / Maggie Olho-Atento (1×) — escolher uma | C |
+| Irvan Wastewalker | Ivo Cinza-Viva | C, S |
+| Olomon Sunbreaker | Salomão Quebra-Sol (alias "Olomão") | C, S |
+| Ayo Jabe | Ayo Jabe (sem tradução) | C, S |
+| Galsariad Ardyth | Galsariad Ardyth (sem tradução) | C, S |
+| Elder Ushru | Ancião Ushru | C |
+| Korrem Dustgaze (DM) | Korrem Olha-Ruína | C |
+| Isha Dimflame (DM) | Isha Sem-Vela | C |
+| Relk Watersilt (DM) | Relk Pó-d'Água | C |
+| Zhayra Stonesplit (DM) | Zhayra Racha-Pedra | C |
+| Alyxian, o Apotheon | Alyxian, o Apoteão | C |
+| Moonweaver (Sehanine) | Tecelã da Lua | C |
+| Crawling King (Torog) | Rei Rastejante | C |
+| Betrayer Gods | Deuses Traidores | C |
+| Bright Queen | Rainha Brilhante | S (C só "Bright Queen") |
+
+### Locais
+
+| Livro | Mesa (Crocudos) | Fonte |
+|---|---|---|
+| Jigow | Jigau | C, S |
+| Betrayers' Rise | Ascensão dos Traidores | C |
+| Ready Room (Bazzoxan) | Estalagem do Soldado Caído | — (só "Estalagem" em S) |
+| Gatehold Barracks | Quartel do Portão | — (C/S usam "Quartel da Vigia" / "Quartel da Dinastia") |
+| Emerald Grotto | Gruta Esmeralda | C, S |
+| Emerald Gulch | Golfo Esmeralda | C |
+| Emerald Eye | Olho Esmeralda | C |
+| Brokenveil Marsh | Pântano do Véu-Quebrado | C |
+| Fort Venture | Forte Ventura | C, S |
+| Xhorhas | Jorhas (sem acento no material; "Jorhás" no enunciado) | C, S |
+| Wastes of Xhorhas | Desterros de Jorhas | C, S |
+| Meatwaters | Águas-da-Carne | C, S |
+| Wetwalks | Passadiços | C |
+| Jumble | O Molho | C, S |
+| Unbroken Tusk | Presa Inquebrável | C, S |
+| Dynasty Outpost | Posto Avançado da Dinastia / "Tropa Torta"; sala principal "Salão de Pedra" | C |
+| Stone Hall / Riddles and Rhymes | Salão de Pedra / Enigmas e Rimas | C |
+| Wetwalks Paddywhack | Corrida no Arrozal | C |
+| Hall of Holes (R2) | Corredor dos Buracos | C |
+| Prayer Site of Sehanine | Altar de Sehanine | C |
+| Netherdeep | Abismo Profundo (também "Netherdeep") | C |
+| Cael Morrow / Ank'Harel | sem tradução | C |
+| Mother's Sigh Reef | Recife do Lamento da Mãe | C |
+| Lucidian Ocean | Oceano Lucidiano | C |
+| Black Islands | Ilhas Negras | C |
+| Rotthold | Decerepula | C |
+| Marble Tomes Conservatory | Conservatório da Cúpula de Mármore | C |
+| Shadycreek Run | Regato Sombrio | C |
+| The Steaming Shell / The Cracked Shell (Urzin) | O Casco Fumegante / A Carapaça Estalada | C |
+| Whisper of the Final Light (ruínas de Kalai, DM) | Sussurro da Última Luz | C |
+| Ruínas da Saudade (DM, Bazzoxan) | sem nome no livro | C, S |
+| Gruta: Grotto Entrance / Cavern Fork / Ghostgrass Patch / Kelp Tangle / Quipper Den / Riptide Tunnel / Moonshark Lair / Octopus's Garden | Entrada da Gruta / Bifurcação da Caverna / Campo de Erva-Fantasma / Emaranhado de Algas / Covil dos Quippers / Túnel da Correnteza / Covil do Tubarão-Lua / Jardim do Polvo | C |
+
+### Facções e organizações
+
+| Livro | Mesa (Crocudos) | Fonte |
+|---|---|---|
+| Aurora Watch | Vigia da Aurora | C, S |
+| Kryn Dynasty | Dinastia Kryn | C |
+| Cerberus Assembly | Assembleia de Cerberus | C, S |
+| The Myriad | Miríade (grafia do material; "Míriade" no enunciado) | C, S |
+| Cobalt Soul | Alma Cobalto | C, S |
+| Allegiance of Allsight / Scholars of Allsight | Aliança do Saber | C |
+| Consortium of the Vermilion Dream | Consórcio do Sonho Vermelho / "Sonho Rubro" (C) / "Consórcio Escarlate" (S) | C, S |
+| Wastewalkers | Caminhantes-dos-Desterros (clã "Cinza-Viva") | C, S |
+| Dwendalian Empire | Império Dwendaliano | C |
+| Golden Grin | Sorriso Dourado | C |
+| Cult of the Dragon / Company of Scales (DM) | Culto do Dragão / Companhia das Escamas / "Culto das Escamas" | C |
+| Temple of the Mentor (Ank'Harel) | Templo da Mentora | C |
+
+### Objectos e conceitos
+
+| Livro | Mesa (Crocudos) | Fonte |
+|---|---|---|
+| Ruidium | Rubídio; refinado: "Suude Vermelho" / "pó vermelho" | C, S |
+| Jewel of Three Prayers | Jóia das Três Preces (DM) / Joia das Três Orações (tradução do livro) | C |
+| Vestige of Divergence | Vestígio da Divergência | C |
+| Festival of Merit / Champions of Merit | Festival do Mérito / Campeões do Mérito | C |
+| Horizonback Tortoise | Tartaruga-do-Horizonte | C |
+| Moonshark | Tubarão-Lua | C |
+| Battle of the Barbed Fields / King's Cage | Batalha dos Campos Farpados / Jaula do Rei | C |
+| Far Realm | Reino Distante | C |
+| Medals (Horizonback, Maze, Meat Pie, Wetlands, Wit, Muscle, Conch) | Medalhas da Tartaruga-do-Horizonte, do Labirinto, da Empada, dos Pântanos, da Astúcia, da Força, do Búzio | C |

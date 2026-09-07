@@ -1,0 +1,1791 @@
+[
+  {
+    "id": "b-0-urzin-council",
+    "title": "Conselho de Urzin: o destino do Forte Ventura",
+    "arcs": [
+      "a-prologue",
+      "a-kryn"
+    ],
+    "chapter": "ch0",
+    "order": 82,
+    "location": "l-urzin",
+    "participants": [
+      "c-salomao-quebra-sol",
+      "c-buhfal",
+      "c-bolbara",
+      "c-alonne-frith",
+      "f-kryn",
+      "f-dwendalian-empire"
+    ],
+    "summary": "Crocudos: Os PCs atravessam as pontes suspensas entre as tartarugas-horizonte até à sala do conselho. Salomão Quebra-Sol (minotauro, armadura de prata) preside; à esquerda Bufal II, de braços cruzados; à direita Bolbara, cansada mas recuperada. O forte está vazio graças aos PCs e há que decidir: Bufal quer ocupá-lo (\"Império só entende força\"); Bolbara quer destruí-lo para comprar tempo e não desperdiçar vidas numa armadilha, lembrando as outras tribos do pântano que esperam fraquezas; Salomão expõe os dois lados (ocupar enfraquece Urzin até chegarem reforços da Dinastia; destruir perde uma posição estratégica) e deixa a decisão nos PCs. Depois: uma tartaruga-do-horizonte parte no dia seguinte para Jigau para os levar e trazer mantimentos e soldados; leva também Alone Fritz, com quem \"a Dinastia gostava de ter uma palavra\"; Salomão promete recompensa através do Intendente Duarte Mirim; Bufal nomeia-os representantes de Urzin no Festival do Mérito; Bolbara anuncia a festa: \"Queremos que o pântano lembre o vosso esforço.\" Crocudos (S3): o grupo opinou que Urzin devia ocupar o forte; escolheram o nome Crocudos.",
+    "reveals": [
+      "r-kryn-vs-empire"
+    ],
+    "requires": [
+      "b-0-return-to-urzin"
+    ],
+    "choices": [
+      {
+        "label": "Ocupar o Forte Ventura",
+        "outcome": "Crocudos: Salomão pede reforços a Jigau e a Rosohna; guerreiros de Urzin vão para o forte e a aldeia fica mais fraca até chegarem. Consequência prevista pelo DM: o Império ataca Urzin (a carta a Targost fala de tropas imperiais a norte).",
+        "leadsTo": [
+          "b-0-departure"
+        ]
+      },
+      {
+        "label": "Destruir o Forte Ventura",
+        "outcome": "Crocudos: compra-se tempo antes de o Império voltar; Urzin mantém as suas forças, mas perde a posição estratégica.",
+        "leadsTo": [
+          "b-0-departure"
+        ]
+      }
+    ],
+    "notes": "Crocudos: No texto do conselho a tartaruga seria liderada por Varek Garras-de-Aço (hobgoblin), \"chamado a participar depois da tomada de decisão\"; na secção da viagem o comandante é Dhurak Pé-Reto. Manter Dhurak (foi o que se jogou) ou usar Varek como o nome que Salomão diz no conselho. O dilema ocupar/destruir e o ataque do Império a Urzin são a semente do Acto do Império (a definir).",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-salomao-rubidio",
+    "title": "Salomão reconhece o rubídio",
+    "arcs": [
+      "a-prologue",
+      "a-ruidium",
+      "a-kryn"
+    ],
+    "chapter": "ch0",
+    "order": 84,
+    "location": "l-urzin",
+    "participants": [
+      "c-salomao-quebra-sol",
+      "c-durth-mirimm",
+      "f-kryn"
+    ],
+    "summary": "Crocudos: Em Urzin ninguém reconhece o cristal vermelho de Fritz por aquilo que é: acham que é uma pedra preciosa valiosa (não há joalheiros). Se o mostrarem a alguém, acabam convocados em privado por Salomão depois do conselho: pede a todos os outros líderes para saírem e, com ar pesado, pergunta onde o encontraram e o que sabem. \"Esse cristal chama-se rubídio, começou a surgir em territórios controlados pela Dinastia Kryn. Ninguém mais aqui sabe disto, e prefiro que assim permaneça.\" Pede que o levem em segredo a Duarte Mirim em Jigau, que os recompensará; que não lhe toquem (\"Algum de vocês tocou nele? Não? Óptimo, mantenham-se assim\"); que confiem só em Duarte, porque há muita gente curiosa e perigosa em Jigau durante o festival. \"O futuro de Urzin e de Jorhas pode depender do que decidirem fazer.\"",
+    "reveals": [
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-0-urzin-council"
+    ],
+    "choices": [
+      {
+        "label": "Aceitar levar o cristal a Duarte Mirim em segredo",
+        "outcome": "Crocudos: recompensa prometida pela Dinastia; a carta de Salomão (b-0-departure) reforça o pedido.",
+        "leadsTo": [
+          "b-0-departure"
+        ]
+      },
+      {
+        "label": "Guardar o cristal / não o mostrar",
+        "outcome": "Crocudos (S5–S7): Elga ficou com o cristal; Fritz disse-lhe que os podia safar em apuros; ela usou-o 2x contra o gloomstalker e ganhou 1 nível de corrupção.",
+        "leadsTo": [
+          "b-1-journey-night1-dream"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Salomão diz o nome \"rubídio\" pela primeira vez na campanha. Bolbara, em contraste, leva o cristal ao Templo das Cinzas para ouvir Melora (b-0-bolbara-legend).",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-urzin-day",
+    "title": "Um dia em Urzin: lojas e rumores",
+    "arcs": [
+      "a-prologue",
+      "a-ruidium",
+      "a-myriad"
+    ],
+    "chapter": "ch0",
+    "order": 86,
+    "location": "l-urzin",
+    "participants": [
+      "c-rinkat-ticao-baixo",
+      "c-nisla-asa-curta",
+      "c-valir-torran",
+      "c-litcha-das-cinzas",
+      "c-karuk-pedra-dura",
+      "c-mekik",
+      "c-mugra-maos-quentes",
+      "c-skirr",
+      "c-rikka-tres-dentes",
+      "c-rogna-erva-rara",
+      "c-krivga-pele-seca",
+      "c-nevoa-vendor",
+      "c-alonne-frith"
+    ],
+    "summary": "Crocudos: O dia entre o conselho e a festa é para as lojas de Urzin: Trapo & Tição (bens gerais), Pombal Ninho de Lama (mensagens), Templo do Luxon (bênção, Augury), Templo das Cinzas (leitura das cinzas, totem), Ferreiro Pedra-Dura, Bugigangas de Mekik, O Casco Fumegante (banhos, rumores), A Carapaça Estalada, Raíz da Sorte, Mantimentos Até ao Osso e Névoa do Brejo. Fritz está preso numa tartaruga, vigiado por um guarda da Vigia da Aurora (Zareth Vonn); pode falar telepaticamente para tentar afastar o guarda e diz vir de Marquet para ganhar confiança. Rumores do Casco Fumegante: Grunzha sonha; um poço termal começou a brilhar avermelhado; um drow mascarado paga banhos privados com platina marcada com o símbolo da Míriade; Skirr achou um fragmento cristalino que aquece sozinho e provoca sonhos partilhados; alguns ouvem uma voz a chamar por \"aquele que regressa ao Luxon\". Crocudos (S3): Augury de Artyom (\"o que tu queres está mais perto do que pensas\"); Inês e Eduardo subornaram um guarda por 10 po e obtiveram um mapa; Pedro comprou um battleaxe por 15 po; Elga comprou a galinha Odete, uma foice e rações; a mãe fez bolo de cenoura de Urzin; Fritz falou telepaticamente com Artyom (\"um estudioso que procura conhecimento\"); Artyom suspeitou que Fritz é um demónio ou morto-vivo e que já podia ter escapado.",
+    "reveals": [
+      "r-myriad-route"
+    ],
+    "requires": [
+      "b-0-return-to-urzin"
+    ],
+    "choices": [
+      {
+        "label": "Seguir os rumores do Casco Fumegante",
+        "outcome": "Crocudos: o poço avermelhado e o fragmento de Skirr são as primeiras pistas de rubídio em Urzin; o drow mascarado com platina da Míriade liga à Névoa do Brejo (b-0-nevoa-do-brejo).",
+        "leadsTo": [
+          "b-0-nevoa-do-brejo"
+        ]
+      },
+      {
+        "label": "Falar com Fritz",
+        "outcome": "Crocudos: negaria a existência do cristal a não ser que o ameacem; incentiva telepaticamente a tirar o guarda dali.",
+        "leadsTo": [
+          "b-0-salomao-rubidio"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Tabela d20 de bugigangas de Mekik (1 po cada): 1 dente de ogre com buraco (apito gutural, pode atrair criaturas); 2 olho de vidro estalado que parece seguir quem o segura; 3 meia de criança com selo de cera roxo quebrado (pode conter mensagem mágica); 4 pedaço de espelho curvado que deforma reflexos; 5 pedra achatada com um X entalhado (pista falsa); 6 estátua de formiga de cera; 7 botão com símbolo de dragão que brilha à luz da lua; 8 frasco vazio com cheiro a menta (\"para hálito de troglodita\"); 9 pinhão pintado com padrões geométricos (símbolo tribal); 10 concha rachada que serve de flauta desafinada; 11 fragmento de cerâmica com a letra L; 12 corda de cabelo com contas de osso (\"cabelo sagrado da minha tia, era xamã\"); 13 miniatura de tartaruga em madeira (\"traz sorte, três por cento de certeza\"); 14 esfera de barro cozido com fendas que rola de forma imprevisível; 15 argola de metal oxidado; 16 pederneira de cabo de osso com faíscas verdes; 17 corda de fibra seca 50 ft, frágil se molhada; 18 poção de sabor duvidoso (tabela d12: arroto explosivo, visão turva, euforia goblinóide, língua pegajosa, gases inquietos, nada acontece por enquanto, cabelo fluorescente, pupilas de serpente, resistência a ácido 1 h, riso incontrolável, paladar sobre-humano, brilho interior; efeitos 1d4 h); 19 armadilha improvisada de mola e anzol; 20 \"mapa\" que só Mekik entende (gancho de sidequest ou pista falsa). O frasco do djinn (Arufan) e o saco ficam de fora, tratados em Jigau. Preços das lojas nos locais respectivos. Fritz: \"o futuro dele ainda é incerto para abrir o jogo\" (nota do DM).",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-urzin-feast",
+    "title": "Festa de Celebração e Amuletos de Honra",
+    "arcs": [
+      "a-prologue",
+      "a-lore"
+    ],
+    "chapter": "ch0",
+    "order": 88,
+    "location": "l-urzin",
+    "participants": [
+      "c-bolbara",
+      "c-druida-cego-do-pantano",
+      "c-alonne-frith"
+    ],
+    "summary": "Crocudos: Depois do resgate, os clãs de Urzin celebram sob o luar na zona elevada e seca: esteiras de fibras, tochas de bambu com chamas esverdeadas, ervas queimadas, carne assada, tambores, fantoches a reencenar o resgate da anciã. Bolbara ergue-se com o cajado: \"Hoje, Urzin não canta para dançar. Canta para lembrar. Canta para guardar.\" Põe ao pescoço de cada PC o Amuleto de Honra de Urzin, uma tartaruga de madeira do pântano com olhos de concha e espirais gravadas, suspensa por fio de fibras e um cabelo goblinóide: \"Esta tartaruga não corre. Não grita. Não se impõe. Mas leva o mundo às costas. E nunca o deixa cair.\" Nome do grupo: Corações de Urzin / Filhos do Véu (na mesa: Crocudos). Momentos por jogador: uma menina goblin oferece uma miniatura de tartaruga de lama (\"a primeira vez que ela oferece algo a alguém que não é família\"); um bugbear velho desafia para braço-de-ferro (Atletismo DC 13, 3 vitórias seguidas; \"não é a força que faz o protector. É isto\" — aponta ao peito); goblins músicos improvisam uma canção desafinada sobre o grupo; um druida goblin cego serve, numa fogueira isolada, o chá ritual em chávenas em forma de concha. Crocudos (S3): Bea tocou flauta com Ricardo; Rakent recebeu a tartaruga de lama; Pedro aumentou a comida; Filipe fez truques com água; Elga falou com Bolbara (\"sacrifícios são necessários, mas não podemos esquecer quem somos\").",
+    "reveals": [],
+    "requires": [
+      "b-0-urzin-council"
+    ],
+    "choices": [
+      {
+        "label": "Aceitar o chá do druida cego",
+        "outcome": "Crocudos: a visão partilhada do último Dranassar.",
+        "leadsTo": [
+          "b-0-dranassar-vision"
+        ]
+      },
+      {
+        "label": "Aceitar a tartaruga de lama da criança",
+        "outcome": "Crocudos: chave emocional ou símbolo de protecção espiritual para mais tarde (num sonho, a tartaruga aparece).",
+        "leadsTo": []
+      }
+    ],
+    "notes": "Crocudos: Amuleto de Honra de Urzin (efeito): visível, dá vantagem em testes de Carisma (Persuasão, Intimidação, Performance) com goblinóides de Urzin ou de clãs aliados de Jigau; goblinóides reconhecem o portador como \"honrado pelo pântano\"; em necessidade, pode invocar o espírito da tartaruga (inspiração, memória ou protecção narrativa, à descrição do DM). Usado só por quem protegeu a vila ou foi reconhecido pelo Guardião do Musgo. Rir e aplaudir a canção dá inspiração.",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-dranassar-vision",
+    "title": "Visão do chá: o pântano lembra-se do último Dranassar",
+    "arcs": [
+      "a-prologue",
+      "a-lore"
+    ],
+    "chapter": "ch0",
+    "order": 90,
+    "location": "l-urzin",
+    "participants": [
+      "c-druida-cego-do-pantano",
+      "c-melora",
+      "c-mossback-steward",
+      "c-alyxian"
+    ],
+    "summary": "Crocudos: Quem bebe o chá abre os olhos de dia, numa floresta como nunca viram: árvores gigantescas, sol entre os ramos, um riacho, dois pássaros de penas vermelhas e azuis; o ar puro, o verde impossível. Depois escurece: nuvens negras ou fumo, fuligem a cair como neve negra que arde nos olhos, as árvores a mirrar, o chão a tremer. Perception: são todos goblins, mas mantêm as suas classes e poderes. Lutam contra seguidores de Melora, que gritam em élfico \"Siletha rae Melorai. Shulkae Bane mor'rash\" (\"A bênção de Melora flui. Que o sangue de Bane seja derramado\") e entoam em ritual de guerra \"Sael'ir Melora, Nakar Bane, Irath ven'tar\" (\"Chamamos Melora, Rejeitamos Bane, Lutamos por equilíbrio\"); o druida invoca uma árvore. Quando o último inimigo cai: um trovão, chuva que lava a fuligem; as árvores ficam pequenas e retorcidas, o chão lama: é o seu pântano. Uma colina de arbustos e mangais que não estava lá aumenta e diminui como se respirasse (Investigation: uma tartaruga-do-horizonte maior e mais antiga do que alguma vez viram). Se lhe tocam, a chuva pára e uma voz grave diz: \"O céu, chorou. O véu, quebrou-se. Mas o pântano... lembra-se, do último Dranassar.\" Ao longe, uma figura humana de cabelos pretos ajoelhada, ombros caídos, cabeça baixa, sem rosto visível; fala-se com ela: silêncio; toca-se-lhe: levanta a cabeça e acordam à volta da fogueira, o druida desaparecido, um círculo de folhas secas no lugar da chaleira, as chávenas ainda mornas nas mãos: são conchas verdadeiras, e o chá seco forma três círculos vermelhos no fundo. Crocudos (S3–S4): acordaram na floresta sem companions nem demónios (warlock); Targost combateu ao lado deles; a flecha veio na direcção de Artyom; com a chuva transformaram-se em goblins; ao tocarem na figura ajoelhada ouviram \"O pântano lembra-se do último Dranassar\"; suspeitaram de uma visão histórica sobre a origem do pântano; Inês falhou o teste de Carisma do cristal e teve uma marca na alma no dia seguinte.",
+    "reveals": [
+      "r-alyxian-last-dranassar"
+    ],
+    "requires": [
+      "b-0-urzin-feast"
+    ],
+    "choices": [
+      {
+        "label": "Contar a visão a Bolbara",
+        "outcome": "Crocudos: Bolbara identifica a lenda da criação dos goblins, o Guardião do Musgo e o significado da concha.",
+        "leadsTo": [
+          "b-0-bolbara-legend"
+        ]
+      },
+      {
+        "label": "Guardar as conchas",
+        "outcome": "Crocudos: \"Se receberam uma concha, talvez estejam a ser chamados. Não para descobrir algo novo... mas para recordar algo que já foi.\"",
+        "leadsTo": [
+          "b-0-bolbara-legend"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Encontro: 1 Druid CR 2 (elfo de pele morena, pendente de Melora com âmbar; AC 11, HP 27; Entangle, Faerie Fire, Thunderwave, Flaming Sphere, Spike Growth; Wild Shape 2x), 2 Scouts CR 1/2 (halflings com pendente de Melora; AC 13, HP 16; longbow/shortsword +4, multiattack), 1 Awakened Tree CR 2 (AC 13, HP 59, slam +6 3d6+4), 2 Wolves (AC 13, HP 11, Pack Tactics), 2 Swarms of Rats (AC 10, HP 24). As três conchas/três círculos vermelhos ecoam a Jóia das Três Preces. A figura ajoelhada de cabelo preto é Alyxian (os Dranassar tinham cabelo negro espesso, pele dourada, olhos violeta, 2 m, orelhas pontiagudas); a colina que respira é o Guardião do Musgo (c-mossback-steward). Terceira pista de r-alyxian-last-dranassar: b-3-hall-of-holes.",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-bolbara-legend",
+    "title": "Bolbara: a lenda da criação dos goblins e a ferida que quer ser encontrada",
+    "arcs": [
+      "a-prologue",
+      "a-lore",
+      "a-ruidium"
+    ],
+    "chapter": "ch0",
+    "order": 92,
+    "location": "l-templo-das-cinzas",
+    "participants": [
+      "c-bolbara",
+      "c-kalmuk-parte-po",
+      "c-melora",
+      "c-mossback-steward"
+    ],
+    "summary": "Crocudos: Quando os PCs dizem \"Vimos uma tartaruga na lama\", Bolbara fecha os olhos e sorri com peso: \"Então ele ainda sonha...\" Pergunta se a lama cobria tudo, se o céu chorava, se o som era silêncio; confirma que viram o Guardião do Musgo, que uma vez a encontrou a ela. Esfrega lama nas mãos e conta a lenda: antes de Jigau, antes da Dinastia, \"havia só lama. E gritos. E céu partido\"; o povo era outro, tinha nome e forma; Bane, o Tirano, queria joelhos no chão e espadas na mão, \"rasgou a nossa carne e moldou-nos à sua imagem. Da lama quente nascemos. Os pequenos. Os tortos. Os esfomeados.\" Chamou-lhes goblin e mandou-os lutar por ele ou morrer; onde os primeiros caíram, no coração do Véu-Quebrado, a terra bebeu a dor; o pântano lembra-se; o Guardião do Musgo viu-os nascer e guarda nas costas as histórias e \"o futuro que nos tiraram\". Sobre a concha: \"Isto é escuta. Isto é memória... condensada em forma de mar\"; antigamente os mais jovens seguiam as tartarugas pelo Ifolon até ao mar para se provarem: \"Alguns voltavam. Outros... tornavam-se lenda.\" \"Corações, a morte não chega com o silêncio do peito... mas com o silêncio da memória. Só morre quem é esquecido.\" Sobre a figura ajoelhada: \"Isso é... memória presa\"; não sabe quem é, \"mas o pântano reconhece os que carregam dor antiga. Se ele estava ajoelhado... é porque carregava o mundo às costas.\" À saída: \"Corações, cuidado. Quem espera demasiado... nem sempre espera por salvação.\" Se lhe contam do cristal: \"Há coisas que não se dizem à volta do lume\"; leva-os com Kalmuk ao Templo das Cinzas, põe o cristal numa pedra lisa rodeada de água do pântano, queima mangue, pétalas e musgo e invoca Melora; a chama apaga-se, o cristal vibra, a água turva, as folhas apodrecem à vista; a voz de Melora: \"Isto... não é pedra. É ferida. A terra não o criou. Foi aberta. Onde dorme, o solo adoece. Os rios desviam-se. As raízes morrem à nascença.\" Bolbara, ofegante: \"Este cristal quer ser encontrado. E o pântano não o pode esconder por mais tempo.\" Crocudos (S5): Bolbara confirmou o Guardião do Musgo, disse que os goblins \"eram outra coisa\" e não identificou a figura ajoelhada.",
+    "reveals": [
+      "r-alyxian-last-dranassar",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-0-dranassar-vision"
+    ],
+    "choices": [
+      {
+        "label": "Mostrar o cristal a Bolbara",
+        "outcome": "Crocudos: consulta a Melora no Templo das Cinzas; \"não é pedra, é ferida\".",
+        "leadsTo": [
+          "b-0-departure"
+        ]
+      },
+      {
+        "label": "Esconder o cristal de Bolbara",
+        "outcome": "Crocudos: só Salomão sabe (b-0-salomao-rubidio).",
+        "leadsTo": [
+          "b-0-departure"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Bolbara mostra, ao afastar o manto, um colar de conchas partidas (do rito das tartarugas). A lenda liga aos achados da Alma Cobalto em S21 (Dranassar antepassados dos goblins, seguidores de Bane, Ghor Dranas). Frases-chave para reutilizar: \"Quem espera demasiado... nem sempre espera por salvação\" (Alyxian) e \"Só morre quem é esquecido\" (r-alyxian-wants-remembered).",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-ritual-libertacao",
+    "title": "O Ritual da Libertação no Templo das Cinzas",
+    "arcs": [
+      "a-prologue",
+      "a-lore"
+    ],
+    "chapter": "ch0",
+    "order": 94,
+    "location": "l-templo-das-cinzas",
+    "participants": [
+      "c-litcha-das-cinzas",
+      "c-kalmuk-parte-po",
+      "c-melora"
+    ],
+    "summary": "Crocudos: Litcha das Cinzas conduz, durante uma noite inteira, a cerimónia que liberta os recém-nascidos goblinóides da marca espiritual de Bane, que os prende a um destino de raiva, servidão e violência, reescrevendo o vínculo com a terra através de Melora. Ervas queimadas, cantos tribais, cinzas rituais espalhadas no corpo do bebé; Melora é invocada por um totem vivo de raízes, conchas, sementes e ossos de animais selvagens colhidos com respeito; o bebé é deitado sobre uma pele húmida coberta de musgo e lavado com água da chuva. Litcha: \"Que Melora tome este sangue e o liberte do ferro e do ódio. Que o teu primeiro grito não seja de guerra, mas de vida!\" No fim, a marca cinzenta no peito do bebé esbate-se ou desaparece. Porquê Melora: o ciclo que não escolhe vencedores, o crescimento que vem da lama, a libertação silenciosa. \"Bane quer moldar. Melora deixa crescer. Nós escolhemos escutar.\"",
+    "reveals": [
+      "r-alyxian-last-dranassar"
+    ],
+    "requires": [
+      "b-0-return-to-urzin"
+    ],
+    "choices": [
+      {
+        "label": "Assistir ao ritual",
+        "outcome": "Crocudos: os PCs vêem em Urzin a versão viva da lenda de Bolbara: os goblins a escolherem Melora contra a marca de Bane.",
+        "leadsTo": [
+          "b-0-bolbara-legend"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Não foi jogado explicitamente; existe como serviço do Templo das Cinzas. A marca de Bane nos recém-nascidos é a prova quotidiana da lenda dos Dranassar transformados em goblins; usar como pista suave de r-alyxian-last-dranassar se os PCs perguntarem \"porquê Melora?\".",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-departure",
+    "title": "Partida de Urzin: festival, Fritz e a carta a Duarte Mirim",
+    "arcs": [
+      "a-prologue",
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch0",
+    "order": 98,
+    "location": "l-urzin",
+    "participants": [
+      "c-salomao-quebra-sol",
+      "c-bolbara",
+      "c-nisla-asa-curta",
+      "c-nevoa-vendor",
+      "c-alonne-frith",
+      "c-dhurak-pe-reto",
+      "c-tripulacao-passo-lento",
+      "c-durth-mirimm"
+    ],
+    "summary": "Crocudos: No dia seguinte à festa e à visão, a caravana (uma tartaruga-do-horizonte guiada por goblinóides e protegida por membros da Vigia da Aurora) parte de Urzin para Jigau: 3 dias pelos Desterros de Jorhas, com paragens nocturnas em pequenos oásis. Missão tripla: representar Urzin no Festival do Mérito, escoltar Alone Fritz até à Dinastia e entregar a carta de Salomão ao Intendente Duarte Mirim (diz o que fizeram por Urzin e pela Dinastia Kryn, que são os representantes de Urzin e pede-lhes alojamento na semana do festival). Despedidas: os pais Adalberto e Framboesa Picanha-Pato (a bisavó Arminda; primos Rosbife e Massapão em Jigau; mais um bolo de cenoura; cada pai pede a um filho que cuide do outro; 20 po para dividir); a criança da festa despede-se de Rakent; o Pombal envia a mensagem para Targost, em Thieves' Cant (\"Um pardal assobiou entre as telhas partidas. Se era segredo ou saudade, o vento levou. - M.\" = \"O teu nome voltou a ser mencionado, mais não sei\"; na realidade fala de movimento de tropas imperiais a norte). Dhurak Pé-Reto: \"Corações, estão aqui como passageiros mas também como reforço e protecção.\" Crocudos (S5): Flor comprou cogumelos \"Solo Vivo\" na Névoa do Brejo; dia de chuva; Elga conversou com Fritz (manchas vermelhas nos pulsos).",
+    "reveals": [],
+    "requires": [
+      "b-0-urzin-council"
+    ],
+    "choices": [
+      {
+        "label": "Partir no Passo Lento",
+        "outcome": "Crocudos: viagem de 3 dias pelos Desterros.",
+        "leadsTo": [
+          "b-1-journey-day1-nessa"
+        ]
+      }
+    ],
+    "notes": "Crocudos: A carta \"M.\" a Targost é a semente do ataque do Império às quintas Picanha-Pato (Filipe só percebe em S18). Marca na alma: quem não tocou no cristal faz Carisma DC 5 (+5 por dia) em cada noite de viagem.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-journey-day1-nessa",
+    "title": "Desterros, dia 1: Nessa Brilho-Leve",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch1",
+    "order": 1,
+    "location": "l-passo-lento",
+    "participants": [
+      "c-dhurak-pe-reto",
+      "c-tripulacao-passo-lento",
+      "c-nessa-brilho-leve",
+      "c-alonne-frith",
+      "c-avandra"
+    ],
+    "summary": "Crocudos: Os Desterros de Jorhas: terra seca e rachada, tons avermelhados, formações rochosas, vento com poeira e cheiro metálico; a tradição goblinóide diz que o sangue dos deuses manchou esta terra na Calamidade. A meio da manhã, numa ravina, Tik e Tak dão o alarme (\"parecia... um rabo escuro?\"); Dhurak pára a caravana e deixa o resto nas mãos dos PCs. Encontram Nessa Brilho-Leve, clériga de Avandra, ferida e presa debaixo do seu moorbounder morto: Medicine DC 14 / Survival DC 15 no corpo mostram perfurações profundas quase queimadas, de criatura mágica ou planar; Arcana DC 13 / Nature DC 15: encaixa nos relatos de gloomstalkers; Insight DC 14: Nessa omite algo pessoal. Junta-se temporariamente ao grupo (Guidance, Cure Wounds, intuições divinas). Crocudos (S5): viram alguém ao longe debaixo de um gloomstalker; Elga tentou mandar Odete presa numa flecha; começou a chover; encontraram um medalhão de prata de Avandra (Elga guardou-o); Nessa partilhou a visão de uma vila costeira goblin com nuvens vermelhas; Elga deixou Odete no colo de Fritz; Filipe deu uma coronhada a Fritz por fingir que não o ouvia.",
+    "reveals": [],
+    "requires": [
+      "b-0-departure"
+    ],
+    "choices": [
+      {
+        "label": "Resgatar Nessa",
+        "outcome": "Crocudos: Nessa viaja com o grupo até Jigau; o gloomstalker anda por perto (pegadas que desaparecem, asas ao longe).",
+        "leadsTo": [
+          "b-1-journey-night1-dream"
+        ]
+      }
+    ],
+    "notes": "Crocudos: O gloomstalker ataca e retira por instinto (medo da luz), coerente com as Wastes. Nessa é a ligação ao Templo do Luxon de Jigau, onde os doentes de rubídio são tratados em segredo (ficheiros de Jigau).",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-journey-night1-dream",
+    "title": "Desterros, noite 1: o oásis de Melora e o Sonho de Tempestade",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch1",
+    "order": 2,
+    "location": "l-passo-lento",
+    "participants": [
+      "c-nessa-brilho-leve",
+      "c-tripulacao-passo-lento",
+      "c-alonne-frith"
+    ],
+    "summary": "Crocudos: Ao pôr do sol a caravana chega a um pequeno oásis: arvoredo verdejante entre pedras, um fio de água; os mais velhos dizem que só Melora manteria vivo um lugar assim nos Desterros. Fogueira, carne em espetos, Nessa senta-se com os PCs. Rubídio: se ninguém tocou no cristal, Carisma DC 5 (+5 por dia) contra a Marca na Alma; se alguém o carrega, tem o Sonho de Tempestade: sozinho num planalto vermelho, os companheiros imóveis de costas, o céu a escurecer, uma tempestade vermelha a rodopiar em vórtice; grita, ninguém responde, os olhos deles brilham fixos; o vento empurra, a terra treme, acorda suado com o vento real nos ramos; o cristal está gelado ao toque; Perception DC 20: \"juras que está maior do que a última vez\". Crocudos (S5): a clareira tinha colunas em círculo, protecção antiga de Sehanine; Pedro viu a segunda lua, Ruidus, desaparecer atrás de uma nuvem e falou com Suma (\"não é bom sinal\"); Speak with Animals com a tartaruga (ressonar).",
+    "reveals": [
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-1-journey-day1-nessa"
+    ],
+    "choices": [
+      {
+        "label": "Partilhar o sonho",
+        "outcome": "Crocudos: Nessa reconhece a tempestade vermelha do seu próprio sonho.",
+        "leadsTo": [
+          "b-1-journey-day2-wastewalkers"
+        ]
+      },
+      {
+        "label": "Guardar o sonho",
+        "outcome": "Crocudos: o cristal continua com quem o carrega; a corrupção aproxima-se.",
+        "leadsTo": [
+          "b-1-journey-day2-wastewalkers"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Variante do sonho para Elga: Odete a bicá-la, um aliado a chamar, as pernas não respondem. Na mesa as colunas de Sehanine apareceram já na primeira noite (o material põe as ruínas de Kalai na segunda).",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-journey-day2-wastewalkers",
+    "title": "Desterros, dia 2: o Imposto dos Caminhantes e a febre escarlate",
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-rivals"
+    ],
+    "chapter": "ch1",
+    "order": 3,
+    "location": "l-clan-cinza-viva-camp",
+    "participants": [
+      "c-korrem-olha-ruina",
+      "c-isha-sem-vela",
+      "c-relk-po-dagua",
+      "c-zhayra-racha-pedra",
+      "c-filha-de-korrem",
+      "c-dhurak-pe-reto",
+      "c-nessa-brilho-leve",
+      "c-alonne-frith"
+    ],
+    "summary": "Crocudos: De tarde, num terreno elevado de fendas secas, assobios e batidas nas rochas: batedores e guerreiros em moorbounders cercam a caravana sem atacar, vestes cor de terra, olhos vermelhos do sol e da poeira. Dhurak: \"Os caminhantes não são loucos o suficiente para emboscar uma tartaruga-do-horizonte armada até aos dentes...\" O chefe, Korrem Olha-Ruína, desmonta: \"Passam por território sagrado. Nenhum viajante cruza sem pagar. Mas hoje... não queremos ouro. Queremos... medicina. Ou alguém que cure.\" (Insight DC 13: desesperados, não hostis; History DC 12: os WasteWalkers não seguem deuses, acreditam que os deuses abandonaram esta terra; Religion DC 14: iconografia profana riscada nos panos.) Um jovem (Relk) deixa escapar: \"Ela não melhora. Nada resulta.\" Dois batedores levam-nos ao acampamento, a 1 km. Numa tenda, a filha de Korrem, 12 anos, manchas vermelhas no pescoço e nos pulsos, febre: Medicine DC 15 estabiliza mas não cura; Lesser Restoration não resulta, a febre volta em minutos. Fritz, telepaticamente: \"Eu posso ajudá-la. Já vi isso dantes. Febre escarlate. Lado bom: não é letal. Lado mau: não tem cura. Mas viverá. Onde é que isto começou?\" Korrem: nas margens do Ifolon, ficou a flutuar sem respirar, depois febre e manchas (Insight DC 15: esconde medo, vergonha ou culpa; Arcana/Religion DC 15: não é natural, algo arcano ou residual como o rubídio). Korrem: \"Preparam fogo. Eles ficam esta noite.\" Noite silenciosa e respeitosa: Isha oferece compressas, Zhayra conta histórias de tempestades e monstros. À partida, Korrem dá o colar de três pedras ocres, uma por cada clã dos WasteWalkers. Escolta de Relk (moorbounder) e Zhayra (lagarto gigante). Crocudos (S6): Nessa, Filipe e Pedro foram ao acampamento; Nessa curou a exaustão da filha com Greater Restoration; Fritz disse a Elga que \"a doença tem tratamento mas não tem cura\"; receberam o Refúgio do Caminhante; escolta de 3 batedores.",
+    "reveals": [
+      "r-scarlet-fever",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-1-journey-night1-dream"
+    ],
+    "choices": [
+      {
+        "label": "Tratar a filha de Korrem",
+        "outcome": "Crocudos: estabilizada; o clã oferece a noite, o colar (passagem livre pelos Desterros) e escolta até Jigau.",
+        "leadsTo": [
+          "b-1-journey-night2-kalai"
+        ]
+      },
+      {
+        "label": "Recusar ou falhar",
+        "outcome": "Crocudos: os Caminhantes \"não são previsíveis\"; a caravana segue sem escolta e sem passagem livre.",
+        "leadsTo": [
+          "b-1-journey-night2-kalai"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Refúgio do Caminhante (item raro, sintonia por quem já passou uma noite nos Desterros): 1x/dia, acção, Leomund's Tiny Hut durante 1 h. Perception DC 15: guerreiros com olheiras, privados de sono. Ivo (c-irvan-wastewalker) é deste clã na Crocudos: reconheceu o amuleto do clã em Filipe (S18). Semente dos rivais pró-rubídio: o clã pode querer o poder para se proteger; os druidas do clã usam um pó para se guiar e achar relíquias e água.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-journey-night2-kalai",
+    "title": "Desterros, noite 2: Ruínas de Kalai, Sussurro da Última Luz",
+    "arcs": [
+      "a-main",
+      "a-lore"
+    ],
+    "chapter": "ch1",
+    "order": 4,
+    "location": "l-kalai-ruins",
+    "participants": [
+      "c-sehanine",
+      "c-nessa-brilho-leve",
+      "c-relk-po-dagua",
+      "c-zhayra-racha-pedra",
+      "c-tripulacao-passo-lento"
+    ],
+    "summary": "Crocudos: A caravana acampa em ruínas dentro de um oásis de árvores: o que resta de um santuário secreto de Sehanine dos últimos dias da Calamidade, chamado Kalai (\"Oculto\" na língua antiga dos elfos), onde sacerdotes usaram ilusão, sacrifício e magia lunar para esconder sobreviventes e velar as almas perdidas dos Betrayer Gods; diz-se que fragmentos do poder da deusa ficaram na pedra negra do altar. Inscrição fragmentada: \"Que a lua oculte o sangue, que o véu esconda os últimos. Sehanine, leva-nos em silêncio.\" A luz da lua (ou de Catha) nunca entra de verdade na clareira: uma névoa pálida cobre tudo; magias de Divination e Illusion têm vantagem ou efeitos expandidos. Um dos PCs (o mais intuitivo, ou quem sonhou com Alyxian) ouve durante o descanso: \"Ainda há luz no esquecimento. Segue a esperança que sangra.\" Crocudos (S7): Odete sonhou com o Pato e Elga obteve Nevoeiro Cáustico (uma corrente a menos).",
+    "reveals": [],
+    "requires": [
+      "b-1-journey-day2-wastewalkers"
+    ],
+    "choices": [
+      {
+        "label": "Descansar junto ao altar",
+        "outcome": "Crocudos: o sussurro de Sehanine; oportunidade de revelar pistas sobre a Calamidade nestas terras.",
+        "leadsTo": [
+          "b-1-journey-day3-gloomstalker"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Temas: esquecimento divino (Alyxian esquecido, Sehanine silenciosa), memória da Calamidade, esconder o sofrimento ou trazê-lo à luz. Liga aos santuários de Sehanine em Jigau (b-1-jewel-vision, r-shrines) e à inscrição de Alyxian nas Ruínas da Saudade (S27).",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-journey-day3-gloomstalker",
+    "title": "Desterros, dia 3: Fritz provoca e o gloomstalker ataca",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch1",
+    "order": 5,
+    "location": "l-passo-lento",
+    "participants": [
+      "c-alonne-frith",
+      "c-dhurak-pe-reto",
+      "c-tripulacao-passo-lento",
+      "c-nessa-brilho-leve",
+      "c-relk-po-dagua",
+      "c-zhayra-racha-pedra",
+      "f-aurora-watch"
+    ],
+    "summary": "Crocudos: Fritz segue para Jigau para ser interrogado por Duarte Mirim, porque o grupo disse a Salomão que o cristal veio dele ou porque a Vigia descobriu manchas vermelhas \"suspeitas\" nas mãos dele. Vigiado por Vetra e Dozak, de mãos atadas e cobertas, ri-se e dá respostas vagas: \"O que vocês estariam dispostos a fazer por poder? Poder para curar, poder para matar, poder para dobrar o destino à tua vontade?\"; telepaticamente a um PC: \"Eu sei que vocês o têm. Diz-me, não estás curioso?\", \"Achas que é por acaso que estamos a ir na mesma direcção?\", \"Eu repensaria quem é que está aqui preso com quem.\" Combate: um gloomstalker (Large aberration, NE; AC 16, HP 112; voo 60 ft; imune a medo; multiattack +7: mordida 2d10+4, garras 2d6+4, cauda 2d8+4 com alcance 10 ft) ataca a caravana; a tartaruga tem AC 22 e 227 HP; a tripulação, Nessa, Relk e Zhayra combatem. Crocudos (S7): o gloomstalker agarrou Relk e deixou-o cair (0 HP, curado); Elga usou o rubídio 2x e ficou com 1 nível de corrupção, telepatia e a palma vermelha; Fritz lançou mage armor (AC 14) preso; ataram o gloomstalker à tartaruga e recolheram pele (poção de invisibilidade), sangue (poção de escuridão), 3 garras (adagas) e um olho (darkvision).",
+    "reveals": [
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-1-journey-night2-kalai"
+    ],
+    "choices": [
+      {
+        "label": "Usar o cristal no combate",
+        "outcome": "Crocudos (S7): 2 usos = 1 nível de corrupção, telepatia, palma vermelha (regra de mesa).",
+        "leadsTo": [
+          "b-1-arrival-jigau"
+        ]
+      },
+      {
+        "label": "Vencer sem o cristal",
+        "outcome": "Crocudos: partes do gloomstalker para poções (ver Talho do Corte-Grosso em Jigau).",
+        "leadsTo": [
+          "b-1-arrival-jigau"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Fritz é \"perfeitamente capaz de se libertar das correntes\" mas prefere ir preso: leu a mente de um guarda e sabe que há mais rubídio em Jigau. Marca na Alma no 3.º dia: Carisma DC 5 (+5 por dia) para quem não tocou no cristal.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-arrival-jigau",
+    "title": "Chegada a Jigau",
+    "arcs": [
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch1",
+    "order": 6,
+    "location": "l-jigow",
+    "participants": [
+      "c-dhurak-pe-reto",
+      "c-tripulacao-passo-lento",
+      "c-nessa-brilho-leve",
+      "c-alonne-frith",
+      "c-relk-po-dagua",
+      "c-zhayra-racha-pedra",
+      "f-aurora-watch"
+    ],
+    "summary": "Crocudos: Chegada a Jigau, a cidade em preparação para o festival. Vêem uma caravana de Vigias da Aurora a começar a partir para Urzin (os reforços que Salomão pediu para o forte). Crocudos (S7–S8): viram uma tartaruga apinhada de soldados drow na direcção oposta; Elga despediu-se de Fritz; Targost \"saltou\" a meio da entrada na cidade e não voltou; Nessa foi procurar um templo/hospital onde fosse precisa (Flor foi com ela); Rakent vendeu a carcaça do gloomstalker ao Talho do Corte-Grosso por 15 po; reunião com o Intendente.",
+    "reveals": [],
+    "requires": [
+      "b-1-journey-day3-gloomstalker"
+    ],
+    "choices": [
+      {
+        "label": "Entregar Fritz e a carta a Duarte Mirim",
+        "outcome": "Crocudos: Duarte recebe a missiva, promete boleia de volta a Urzin e dá colares do festival (S8); Fritz passa à guarda da Dinastia.",
+        "leadsTo": [
+          "b-1-adventure-start",
+          "b-1-fritz-velnari"
+        ]
+      }
+    ],
+    "notes": "Crocudos: A caravana de Vigias a partir para Urzin é a consequência visível de \"ocupar o forte\" (b-0-urzin-council). A chegada e a reunião com Duarte são detalhadas nos ficheiros de Jigau.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-fritz-velnari",
+    "title": "Fritz à guarda do arcanista Velnari",
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-kryn"
+    ],
+    "chapter": "ch1",
+    "order": 9,
+    "location": "l-laboratorio-velnari",
+    "participants": [
+      "c-alonne-frith",
+      "c-velnari-zeth",
+      "c-durth-mirimm",
+      "f-kryn",
+      "f-aurora-watch"
+    ],
+    "summary": "Crocudos: Entregue à Dinastia em Jigau, Fritz passa pela cela do Quartel da Vigia mas é levado pelo arcanista Velnari Zeth, que o guarda na sua cúpula de pedra e toma chá com ele. Crocudos (S15, S17): Elga procurou-o no quartel e soube que tinha ficado à guarda do arcanista; a vendedora de cristais disse-lhe que o arcanista está na cúpula de pedra; Fritz e Velnari a tomar chá (olhos de sangue); Fritz: \"tenham cuidado, vão usando\" o cristal. Crocudos (S19): Velnari diz a Elga que Fritz \"foi-se embora\"; Fritz desaparece de Jigau. Crocudos (S19): Elga confessou a Ace que tem o cristal grande e que quer devolvê-lo a Fritz.",
+    "reveals": [
+      "r-fritz-elisabete"
+    ],
+    "requires": [
+      "b-1-arrival-jigau"
+    ],
+    "choices": [
+      {
+        "label": "Visitar Fritz na cúpula de Velnari",
+        "outcome": "Crocudos: Velnari pergunta o que sabem dos cristais; Fritz aconselha a \"ir usando\".",
+        "leadsTo": []
+      },
+      {
+        "label": "Deixar Fritz com a Dinastia",
+        "outcome": "Crocudos: Fritz desaparece de Jigau (S19) e só reaparece em Bazzoxan (b-3-fritz-returns).",
+        "leadsTo": [
+          "b-3-fritz-returns"
+        ]
+      }
+    ],
+    "notes": "Crocudos: O DM deixou o destino de Fritz em aberto (\"levado por Velnari; destino incerto; expandir\"). Velnari Zeth, o laboratório e o quartel são tratados nos ficheiros de Jigau (c-velnari-zeth, criado noutro bloco). As notas de Velnari mencionam Fritz e um \"grupo corrompido\" como fonte/cobaias.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-fritz-returns",
+    "title": "Fritz reaparece em Bazzoxan",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch3",
+    "order": 84,
+    "location": "l-bazzoxan",
+    "participants": [
+      "c-alonne-frith",
+      "c-torog"
+    ],
+    "summary": "Crocudos (S40): Na estalagem de Bazzoxan, Fritz desce as escadas na direcção dos PCs, preocupado e surpreendido: queria falar com Elga sobre Odete e ela desapareceu. Oferece-se para explorar a Ascensão com eles de manhã; se não, entra primeiro, sozinho. No quarto dele (Rakent): notas soltas: \"O que será a Odete? Entidade planar, ponto de contacto? Será que gosta de bolachas?\"; \"Luas de Ruidus? Vigost, homem que conheceu em Decrepola, contou-lhe sobre a maldição de Ruidus, registos parcos...\"; \"Elisabete, o pai não desistiu.\"; dois sacos que não conseguiu abrir (um de bolachas, outro de veludo negro com cristais). Crocudos (S41): mais notas: \"O Vigost tinha razão. Segundo os cultistas de Torog, ele foi banido durante a Calamidade para uma prisão entre o Reino Distante e o Subterrâneo Profundo, mas a sua presença é forte em Bazzoxan. Espero estar perto de conseguir obter respostas. A manipulação da realidade através da consciência é cada vez mais palpável aqui.\"; sobre os Crocudos e Elga com a galinha (\"faz-me lembrar de ti - jovial, animada, reguila\"); \"Elisabete, desde aquele maldito dia em que fomos atacados e tu nos foste roubada, os deuses, por capricho ou por insulto, apenas me voltaram a acordar e amaldiçoaram-me com a tua falta. Mas o Pai ainda não desistiu. Estou cada vez mais perto.\" Fritz entrou na Ascensão ao fim do dia anterior, sozinho; Rakent esperou por ele e ele não apareceu.",
+    "reveals": [
+      "r-fritz-elisabete"
+    ],
+    "requires": [
+      "b-1-fritz-velnari"
+    ],
+    "choices": [
+      {
+        "label": "Entrar na Ascensão com Fritz",
+        "outcome": "Crocudos: Fritz acompanha o grupo; o seu fim (b-3-fritz-end) acontece à vista.",
+        "leadsTo": [
+          "b-3-fritz-end"
+        ]
+      },
+      {
+        "label": "Deixá-lo entrar sozinho",
+        "outcome": "Crocudos (S41): entra antes; os PCs encontram-no depois, às portas da morte.",
+        "leadsTo": [
+          "b-3-fritz-end"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Entre S28 e S38 (não registados) Fritz reapareceu e Elga desapareceu; o que se passou entre Jigau e Bazzoxan não consta. As notas de Fritz são o handout que dá as três pistas de r-fritz-elisabete juntamente com b-1-fritz-velnari e b-3-fritz-end.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-fritz-end",
+    "title": "O fim de Fritz",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch3",
+    "order": 235,
+    "location": "l-betrayers-rise",
+    "participants": [
+      "c-alonne-frith"
+    ],
+    "summary": "Crocudos (planeado, \"Final de Fritz\"): Dentro da Ascensão, os PCs encontram Fritz às portas da morte, ensanguentado, rodeado de penas pretas e marcas de fuligem. Tentar curá-lo é em vão: está corrompido para lá de salvação, resta-lhe pouco tempo. \"Desculpem, eu... Eu, tentei... Eu juro que tentei...\" Odete junta-se a ele e tenta consolá-lo. Agarra a mão de Filipe: \"Filipe, não desistas, por favor... Talvez haja... O rubídio...\" A chorar: \"Merda, porque é que só eu tive direito a uma segunda oportunidade e elas não? É para isso que vocês servem, para gozar connosco?\" Última fala, com o olhar distante: \"Por fim, não consegui salvar nenhuma delas. Elisabete, não precisas esperar mais. O Pai vai finalmente ter contigo...\" Tem consigo um saco de bolachas que eram para a Elga.",
+    "reveals": [
+      "r-fritz-elisabete"
+    ],
+    "requires": [
+      "b-3-fritz-returns"
+    ],
+    "choices": [
+      {
+        "label": "Ficar com ele até ao fim",
+        "outcome": "Crocudos: as últimas palavras sobre Elisabete e a segunda oportunidade; o saco de bolachas para a Elga.",
+        "leadsTo": []
+      },
+      {
+        "label": "Tentar salvá-lo com rubídio",
+        "outcome": "Crocudos: ele próprio o sugere (\"Talvez haja... O rubídio...\"); o material não diz se resulta: a definir pelo DM.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "Crocudos: Música: \"Last Goodbye\". As penas pretas e a fuligem ligam à visão de Urzin (fuligem a cair como neve) e a Odete. \"Nenhuma delas\" = Elisabete e Elga. Ordem 235 coloca-o depois do Prayer Site de Avandra (230) e antes da confrontação da Jóia (240); ajustar se o DM o quiser mais cedo na Ascensão.",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-fort-venture",
+    "notes": "Alonne Frith (Hollow One, cultista de Ceratos) é NE: libertá-lo tem consequências, mas conhece o forte. Felmont não é mau: um argumento humano pode chegar. Crocudos (S1–S2): chegaram ao forte ao 6.º dia; Bolbara não estava lá, só soldados mortos; Excel (orc) morreu diante de dois guardas no salão principal e Tai (goblin) tinha morrido na viagem; Eduardo tentou domar os cães; Simba tentou libertar Fritz da jaula (V8); na S2 os PCs renderam Fritz, deixaram-no inconsciente e fizeram-no prisioneiro: Elga ficou com o Casaco de Caçador e com o cristal vermelho (rubídio) dele. Na Crocudos o forte ficou vazio e o conselho de Urzin decidiu ocupá-lo (b-0-urzin-council)."
+  },
+  {
+    "id": "b-0-return-to-urzin",
+    "notes": "Os PCs chegam a Jigow a nível 3. Se Bol'bara sobreviveu, guardá-la como seer que pode reaparecer (visões, Luxon, Irvan). Semear aqui a fama junto da Kryn. Crocudos (S2–S3): Bolbara possuída foi confrontada no pântano e derrotada inconsciente; de regresso a Urzin, Fritz foi entregue à custódia da Vigia da Aurora e cada PC recebeu 50 po; Salomão Quebra-Sol voltou mais cedo por causa do forte. Na Crocudos, o que se segue em Urzin (conselho, lojas, festa, visão, rubídio, partida) está nos beats 82–98."
+  },
+  {
+    "id": "b-1-jigau-arrival-intendente",
+    "title": "Chegada a Jigau: a missiva ao Intendente",
+    "arcs": [
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch1",
+    "order": 16,
+    "location": "l-salao-de-pedra",
+    "participants": [
+      "c-durth-mirimm",
+      "c-ayo-jabe",
+      "c-elder-ushru",
+      "c-agathe-silverspoon",
+      "c-vars",
+      "c-velnari-zeth"
+    ],
+    "summary": "Crocudos: Os PCs chegam a Jigau ao 14.º dia com Fritz preso na tartaruga e uma missiva de Urzin para o Intendente Duarte Mirim; a caravana da Vigia parte para Urzin. Nessa vai procurar um templo/hospital onde seja precisa. No Salão de Pedra entregam a missiva; na antecâmara conhecem Ayo, que acaba de resgatar uma tartaruga fugida (enraivecida pelo rubídio). Duarte promete boleia de volta a Urzin, dá os colares do festival (orc e goblin a segurar uma taça: só quem os tem concorre ao prémio) e entrega Fritz à Dinastia — que o passa à guarda do arcanista Velnari. Ushru (clã Norgab) e Ágata dão guarida aos PCs na Presa Inquebrável durante o festival. À noite, Batalha dos Fanfarrões na estalagem: 10 po dos goblins do clã Shoomat.",
+    "reveals": [],
+    "requires": [
+      "b-1-adventure-start"
+    ],
+    "choices": [
+      {
+        "label": "Mostrar o cristal de Urzin a Duarte",
+        "outcome": "Crocudos: Duarte oferece recompensa pelo cristal e quer que seja levado aos estudiosos de Bazzoxan; a Dinastia fica a saber o que os PCs trazem.",
+        "leadsTo": [
+          "b-1-ushru-vs-velnari"
+        ]
+      },
+      {
+        "label": "Vender a carcaça do gloomstalker a Vars",
+        "outcome": "Crocudos: 15 po; Vars passa a vender produtos \"fora do menu\" e fica com os PCs na rede de favores.",
+        "leadsTo": []
+      },
+      {
+        "label": "Perguntar por Fritz",
+        "outcome": "Crocudos: \"à guarda do arcanista\"; primeira menção a Velnari.",
+        "leadsTo": [
+          "b-1-fritz-velnari"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Nível 3. Bloco A cria a viagem (Nessa, Clã da Cinza, gloomstalker) e b-1-fritz-velnari. Sequência da mesa: dia 14 chegada (S8), dia 15 Caça ao Tesouro (S9–S11), dia 16 festival e gruta (S12–S17), dia 17 manhã seguinte (S18), partida (S19–S20).",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-treasure-hunt",
+    "title": "A Grande Caça ao Tesouro de Jigau (véspera do festival)",
+    "arcs": [
+      "a-main",
+      "a-ruidium",
+      "a-myriad"
+    ],
+    "chapter": "ch1",
+    "order": 19,
+    "location": "l-unbroken-tusk",
+    "participants": [
+      "c-elder-colbu-kaz",
+      "c-agathe-silverspoon",
+      "c-bruno-massapao",
+      "c-beetle-and-zag",
+      "c-rafael-e-samara-rosbife",
+      "c-adan",
+      "c-vars",
+      "c-keyeki",
+      "c-sharpwatch",
+      "c-belana-zolaed",
+      "c-os-orelhudos",
+      "c-irvan-wastewalker",
+      "c-ayo-jabe",
+      "c-regimia-rosbife"
+    ],
+    "summary": "Crocudos: Na véspera do festival, a caixa de prémios \"desapareceu\" e um enigma pregado na Presa Inquebrável lança uma caça ao tesouro pela cidade (one-shot da DnDBeyond, traduzida). J1 Presa: pegadas com fertilizante (Investigação CD 10); Bruno Massapão na cozinha. J5 Arrozais: Beetle e Zag escondem a pista (Intuição CD 13; 5 po cada para a mostrarem); a tira de couro está presa num elemental de terra adormecido (For CD 11 acorda-o) — na mesa Elga quase morreu; descanso em casa dos Rosbife. J6 Curral: tartaruga em fuga (Des CD 13 / 2d10), teste de grupo CD 13, três tartarugas com estrela (Investigação CD 11, Des CD 10 ou 1d10), Lidar com Animais CD 12; Ivo fala com Adão. J4 Talho: concurso de bebida (Con CD 8, +2/copo). J3 Ifolon: Keyeki no caiaque; Percepção CD 10 e d100 pelo baú; 2 swarms of quippers (na mesa: shape water como escafandro e para sufocar as piranhas; Elga repara na joalharia recém-aberta). J2 Labirinto: parede que canta (Sobrevivência CD 14). J9 Tropa Torta: kobolds (teste de grupo CD 11), cofre no telhado (Atletismo 15 / Prestidigitação 13). J8 Igreja do Luxon: Belana dá a palavra final (\"o fim\"; \"Parece que os meios justificam o fim\"). J7 Armazém: Coblu-Kaz revela que foi ele, para criar antecipação: 40 po + medalha de tenacidade. Ayo fica impressionada; os PCs conhecem Dermot e Maggie.",
+    "reveals": [
+      "r-scarlet-fever"
+    ],
+    "requires": [
+      "b-1-jigau-arrival-intendente"
+    ],
+    "choices": [
+      {
+        "label": "Seguir as pistas pela ordem",
+        "outcome": "Crocudos: prémio e amizade dos organizadores dos jogos; vantagem em Guiar as Tartarugas se foram bons para elas.",
+        "leadsTo": [
+          "b-1-festival-games"
+        ]
+      },
+      {
+        "label": "Ignorar a criança encapuçada que os segue",
+        "outcome": "Crocudos: os Orelhudos continuam a espiá-los durante o festival; Penbeak diz que \"não é perigoso\".",
+        "leadsTo": [
+          "b-1-sapo-afogado"
+        ]
+      },
+      {
+        "label": "Aceitar o chá/ritual em casa dos Rosbife",
+        "outcome": "Crocudos: o robe da Avó Regímia; a tia-avó \"não está bem\" (rubídio).",
+        "leadsTo": []
+      }
+    ],
+    "notes": "Crocudos: Sementes de rubídio nesta cena: tartaruga enraivecida dos rivais no curral; Regímia doente; Bruno fala da Tia Fofa e da raiz vermelha do poço; dois vigias na Presa comentam a pressão dos tenentes para manter tudo \"ush ush\"; na Igreja do Luxon Belana desce preocupada (pescador corrompido escondido) mas ninguém suspeita; à noite uma criança goblin leva Pedro à irmã febril nas Águas-da-Carne (\"um amigo foi ao templo e nunca mais voltou\"), o templo está fechado com dois vigias. A joalharia de Ilyra é notada com Investigação 22. O elemental (CA 17, 126 PV) é o combate mais perigoso do bloco: reduzir ou avisar. Correu \"as written\".",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-luxon-coverup",
+    "title": "O encobrimento na Igreja do Luxon",
+    "arcs": [
+      "a-ruidium",
+      "a-kryn"
+    ],
+    "chapter": "ch1",
+    "order": 32,
+    "location": "l-temple-of-the-luxon-jigow",
+    "participants": [
+      "c-belana-zolaed",
+      "c-grok-e-verran",
+      "c-nessa-brilho-leve",
+      "c-os-orelhudos",
+      "f-aurora-watch"
+    ],
+    "summary": "Crocudos: Depois do afogado do Mergulho (b-1-ifolon-plunge), o templo do Luxon está fechado com dois vigias à porta (Veldrin T'sorrin, veterano cheio de cicatrizes; Bel'yth Zauvirr, jovem e desconfiada de magia proibida). No 1.º andar, Verran dorme enfaixado ao lado de um pescador corrompido; Nessa ajuda em segredo; os aposentos de Belana estão trancados. Belana agradece e convida a sair. Os PCs percebem que a Vigia e o templo sabem, escondem os \"acidentes\" e não alertam o povo (o próximo vigia pergunta a Elga se tem feridas). Pedro pede ajuda para a criança febril das Águas-da-Carne: Belana manda-o ao Templo de Melora.",
+    "reveals": [
+      "r-luxon-coverup",
+      "r-scarlet-fever"
+    ],
+    "requires": [
+      "b-1-ifolon-plunge"
+    ],
+    "choices": [
+      {
+        "label": "Confrontar Belana",
+        "outcome": "Crocudos: \"Qual o valor de uma alma? Os meios justificam os fins?\"; não nega nem confirma; o templo fica mais fechado.",
+        "leadsTo": []
+      },
+      {
+        "label": "Entrar às escondidas (1.º andar)",
+        "outcome": "Crocudos: vêem Verran e o pescador; Belana pede que saiam; a Vigia fica desconfiada dos PCs.",
+        "leadsTo": [
+          "b-1-melora-temple"
+        ]
+      },
+      {
+        "label": "Denunciar aos anciãos",
+        "outcome": "Crocudos: Ushru já suspeita; ganha o caso que precisa contra a Dinastia.",
+        "leadsTo": [
+          "b-1-ushru-vs-velnari"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Primeira pista clara de r-luxon-coverup; as outras vêm de b-1-ifolon-plunge (\"já é o segundo esta semana\"), b-1-scarlet-fever e da filha de Korrem na viagem (bloco A). Os soldados foram instruídos pelos tenentes a não dar cana do rubídio. Na mesa (S14) Ace entrou com Belana ao 1.º andar cobrindo o símbolo de Ioun; Elga atirou a galinha para o 1.º andar.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-joalharia-myriad",
+    "title": "A banca de cristais e a Joalharia Brilho do Pântano",
+    "arcs": [
+      "a-myriad",
+      "a-ruidium"
+    ],
+    "chapter": "ch1",
+    "order": 42,
+    "location": "l-joalharia-brilho-do-pantano",
+    "participants": [
+      "c-myriad-jigow-fence",
+      "c-os-orelhudos"
+    ],
+    "summary": "Crocudos: Na banca de gemas do festival (e na loja recém-aberta nas Águas-da-Carne), Ilyra Céu-Pálido, de véu, pergunta telepaticamente a quem carrega rubídio se \"não tem nada para vender\" (\"Compreendo perfeitamente.\"). Vende suude vermelho: 10 po por 2 doses de 5 g; só negocia a sério com quem traga cristais (\"não menos de 30 po\"). Com Identify: 10 g = uma opção de Metamagia (Con CD 10, 2d10; nat 1 → Cha CD 20; falhar ambos = 1 exaustão + 1 corrupção); 5 g = 10 min de olhos vermelhos, detecta cristais a 30 ft e visões do passado do local (bloqueio: 30 cm de pedra, 3 cm de metal, chumbo, 1 m de madeira/terra). Ilyra usa o pó para detectar quem carrega o cristal (Elga). Lê a sorte: \"há uma ponte no teu futuro\" — a ponte do Ifolon leva a um pequeno templo de Avandra na rocha. Ace, com 5 g, encontrou um santuário antigo de Sehanine submerso nas Águas-da-Carne.",
+    "reveals": [
+      "r-myriad-route",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-1-festival-seeds"
+    ],
+    "choices": [
+      {
+        "label": "Comprar suude",
+        "outcome": "Crocudos: 10 po por 2 doses; regras do suude (docs/regras.md); Ilyra fica a saber que os PCs consomem.",
+        "leadsTo": []
+      },
+      {
+        "label": "Trazer-lhe cristais",
+        "outcome": "Crocudos: abre a porta ao esquema de contrabando; Ilyra pode partilhar quem mais compra (o arcanista; \"comerciantes marítimos\").",
+        "leadsTo": [
+          "b-1-sapo-afogado"
+        ]
+      },
+      {
+        "label": "Denunciar a Durth / à Vigia",
+        "outcome": "DM: ver b-1-myriad-jigow: o receptador desaparece; a remessa segue na mesma.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "Crocudos: Substitui/expande o \"receptador sem nome\" de b-1-myriad-jigow com Ilyra. A velha do pó da S12 (roubaram-lhe um saquinho de \"especiarias\") e a \"gaja dos cristais\" são a mesma Ilyra; o DM anotou \"tenho de os recompensar e dar pistas concretas\". Pista de r-myriad-route: o alfinete-estrela de prata (código Miríade) e o espelho de sussurros na loja.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-sapo-afogado",
+    "title": "O Sapo Afogado: suude, Orelhudos e o barco semi-submerso",
+    "arcs": [
+      "a-myriad",
+      "a-ruidium"
+    ],
+    "chapter": "ch1",
+    "order": 44,
+    "location": "l-sapo-afogado",
+    "participants": [
+      "c-nibuk",
+      "c-os-orelhudos",
+      "c-nippi-dente-largo",
+      "c-ze-e-felix",
+      "c-sarna-kul",
+      "c-myriad-jigow-fence"
+    ],
+    "summary": "Crocudos: Taberna flutuante e shady das Águas-da-Carne; quando um estranho entra, todos param de falar. Ao balcão (5 pc): rum de arroz, peixe frito com molho \"verde\", mesa de apostas. Os tieflings Zé e Félix apontam o tenente Sarna Kul como contacto corrupto para info sobre a Vigia, dizem que o suude se pede ao dono (Nibuk) e que partem em 3 dias num navio de velas negras para a Aldeia da Margem Pálida. Nos fundos, um alçapão leva a um barco semi-submerso atado ao cais: fragmentos de rubídio recolhidos pelos Orelhudos, ferramentas, crianças feridas ou corrompidas, e Nippi (5 anos) num ninho de cobertores. Entrega a Ilyra por código (\"trazer o copo rachado\").",
+    "reveals": [
+      "r-myriad-route",
+      "r-scarlet-fever"
+    ],
+    "requires": [
+      "b-1-treasure-hunt"
+    ],
+    "choices": [
+      {
+        "label": "Descer ao barco",
+        "outcome": "Crocudos: encontram o rubídio e as crianças; Nibuk chama os \"cobradores\" ou compra o silêncio; Ilyra fica a saber.",
+        "leadsTo": [
+          "b-1-melora-temple"
+        ]
+      },
+      {
+        "label": "Comprar suude a Nibuk",
+        "outcome": "Crocudos: mesmo preço de Ilyra; Nibuk anota quem compra.",
+        "leadsTo": []
+      },
+      {
+        "label": "Seguir Zé e Félix / o navio de velas negras",
+        "outcome": "Crocudos: fio solto: via marítima (Cerberus por \"comerciantes marítimos\"?) para a Margem Pálida; a decidir pelo DM.",
+        "leadsTo": []
+      },
+      {
+        "label": "Subornar Sarna Kul",
+        "outcome": "Crocudos: informação sobre a Vigia (o templo, as ordens dos tenentes, o arcanista); Sarna avisa se a Vigia vier prender os PCs.",
+        "leadsTo": [
+          "b-1-luxon-coverup"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Na mesa (S15) Filipe entrou disfarçado de goblin (\"Rui Bomba\") e só falou com Zé e Félix; o alçapão e Nippi ficaram por descobrir (fio solto: \"crianças Orelhudos\"). Pista de r-myriad-route (segunda ponta do canal em Jigau) e de r-scarlet-fever (as crianças corrompidas). Ligar a c-litcha-das-cinzas / Orfanato: as crianças que faltam na Casca Quente.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-melora-temple",
+    "title": "Espinha Viva: a febre \"não é natural\"",
+    "arcs": [
+      "a-ruidium",
+      "a-lore"
+    ],
+    "chapter": "ch1",
+    "order": 46,
+    "location": "l-templo-de-melora-espinha-viva",
+    "participants": [
+      "c-verema-brisa-mansa",
+      "c-zinka",
+      "c-os-orelhudos",
+      "c-elder-ushru"
+    ],
+    "summary": "Crocudos: No templo de Melora sobre a tartaruga viva Tualka, Verema Brisa-Mansa ouve os PCs sobre a febre escarlate, as manchas vermelhas e as crianças doentes e confirma: \"a substância não é natural, ainda não encontrámos a fonte\". O templo já cuida de uma criança corrompida (nível 3). Manda Zinka com os PCs às Águas-da-Carne: no barraco, uma criança goblin febril com uma mancha vermelha no braço; Zinka melhora-a temporariamente (spare the dying de Ace). Melora, pelas Cinzas: \"Isto não é pedra. É ferida.\" — o templo sente que a terra anda agitada.",
+    "reveals": [
+      "r-scarlet-fever",
+      "r-ruidium-properties"
+    ],
+    "requires": [],
+    "choices": [
+      {
+        "label": "Pedir o ritual de escuta com Tualka (2 po)",
+        "outcome": "Crocudos: presságio: a terra agitada; pode apontar a Gruta Esmeralda / o local de oração como fonte (a decidir).",
+        "leadsTo": [
+          "b-1-ushru-vs-velnari"
+        ]
+      },
+      {
+        "label": "Levar a criança ao templo",
+        "outcome": "Crocudos: fica ao cuidado de Verema, não do Luxon; Nibuk perde uma \"orelhuda\".",
+        "leadsTo": []
+      },
+      {
+        "label": "Contar a Ushru",
+        "outcome": "Crocudos: Ushru (clériga de Melora) reforça o pedido de investigar a fonte.",
+        "leadsTo": [
+          "b-1-ushru-vs-velnari"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Contraponto ao encobrimento do Luxon: aqui ninguém esconde nada mas também ninguém cura (lesser restoration não resolve; ver docs/regras.md). Pistas: r-scarlet-fever (terceira: sintomas que não passam com cura) e r-ruidium-properties (contacto → doença). Na mesa (S15) Ace e Pedro; depois voltaram para identificar a figura de Sehanine no medalhão.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-ushru-vs-velnari",
+    "title": "Ushru vs Velnari: curar ou usar",
+    "arcs": [
+      "a-main",
+      "a-kryn",
+      "a-ruidium",
+      "a-rivals"
+    ],
+    "chapter": "ch1",
+    "order": 96,
+    "location": "l-unbroken-tusk",
+    "participants": [
+      "c-elder-ushru",
+      "c-velnari-zeth",
+      "c-galsariad-ardyth",
+      "c-ayo-jabe",
+      "c-dermot-wurder",
+      "c-irvan-wastewalker",
+      "c-maggie-keeneyes",
+      "c-durth-mirimm"
+    ],
+    "summary": "Crocudos: Depois da Jóia, os dois lados da Dinastia em Jigau pedem o mesmo aos PCs por razões opostas. Ushru procura-os à noite na Presa Inquebrável (primeiro fala com o grupo de Ayo): quer saber o máximo sobre o rubídio e a Jóia antes que a Dinastia perceba, e pede que investiguem o local de oração, que lhe parece a fonte — purificar, proteger, erradicar. Velnari, no Molho, pergunta o que sabem dos cristais e do medalhão e pede fragmentos para estudar, controlar, utilizar; a Elga (telepata) diz para o procurar mais tarde. Na manhã seguinte os rivais despedem-se do arcanista no meio do Molho: Galsariad, corrompido na gruta e tratado no templo, parte para Bazzoxan com os contactos do tio (\"há estudiosos lá\"); Ayo: \"Chegou a hora de forjar o nosso próprio destino.\"",
+    "reveals": [
+      "r-go-to-bazzoxan",
+      "r-velnari-corrupted"
+    ],
+    "requires": [
+      "b-1-jewel-vision"
+    ],
+    "choices": [
+      {
+        "label": "Ajudar Ushru (investigar o local de oração)",
+        "outcome": "Crocudos: Ushru ganha a dimensão do problema e um caso para levar a Duarte; os PCs entram na gruta sem corrida.",
+        "leadsTo": [
+          "b-1-grotto-ruidium",
+          "b-2-ushru-dawn"
+        ]
+      },
+      {
+        "label": "Entregar fragmentos a Velnari",
+        "outcome": "Crocudos: recompensa da Dinastia e acesso ao laboratório; Velnari quer sempre mais (o cristal grande).",
+        "leadsTo": [
+          "b-1-velnari-lab"
+        ]
+      },
+      {
+        "label": "Nenhum dos dois",
+        "outcome": "Crocudos: Ushru \"vai-se embora\"; Velnari tenta obter o cristal por outros meios.",
+        "leadsTo": [
+          "b-1-velnari-confrontation"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Conflito central de Jigau segundo o DM: \"ambos pedem fragmentos, recompensas e riscos diferentes, cedo ou tarde os jogadores têm de escolher\". O DM hesitou se o pedido de Ushru era \"spoiler\"; usou-o como sidequest de Ace (S17). Pista de r-go-to-bazzoxan (estudiosos em Bazzoxan; rivais partem) e primeira pista de r-velnari-corrupted (Galsariad \"sobrinho corrompido enviado a Bazzoxan\"). Terceira pista de r-velnari-corrupted em b-3-vorrim (outro agente).",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-velnari-lab",
+    "title": "O livro em tinta invisível e o laboratório sob o Salão de Pedra",
+    "arcs": [
+      "a-kryn",
+      "a-ruidium",
+      "a-myriad"
+    ],
+    "chapter": "ch1",
+    "order": 100,
+    "location": "l-laboratorio-velnari",
+    "participants": [
+      "c-velnari-zeth",
+      "c-durth-mirimm",
+      "c-alonne-frith",
+      "c-myriad-jigow-fence"
+    ],
+    "summary": "Crocudos: No Quarto do Arcanista, um livro de capa branca em tinta invisível (Arcana CD 15; Detect Magic: abjuração + ilusão) guarda três palavras em drow antigo — Ulun'ta, Reskaar, Vel'rith — que suprimem por 1 hora o glifo de alarme + hold person da estante giratória. Atrás dela, uma plataforma de pedra desce ao laboratório: fragmentos de rubídio num círculo luxoniano, documentos sobre dunamis (instabilidade, corrupção, sonhos partilhados), um Espelho de Sussurros e um pequeno Beacon experimental suspenso; as runas brilham e o rubídio ressoa quando entra um estranho. Os apontamentos de Velnari falam do Reino Distante, de sacrifícios \"nesta vida ou na próxima\", de Vorrim (arcanista de Bazzoxan), de Fritz (scholar de Decerepula, culto do Reino Distante), de um \"grupo corrompido\" como fonte ou cobaias e do sobrinho corrompido enviado a Bazzoxan. Ilyra é uma das \"agentes aliadas\" com acesso.",
+    "reveals": [
+      "r-velnari-corrupted",
+      "r-ruidium-properties",
+      "r-myriad-route"
+    ],
+    "requires": [
+      "b-1-fritz-velnari"
+    ],
+    "choices": [
+      {
+        "label": "Entrar às escondidas (as três palavras)",
+        "outcome": "Crocudos: apontamentos, 100 g de pó e 23 g de cristais; se forem apanhados, Velnari \"recolhe provas e desaparece\".",
+        "leadsTo": [
+          "b-1-velnari-confrontation"
+        ]
+      },
+      {
+        "label": "Ser convidado (Elga)",
+        "outcome": "Crocudos: Velnari mostra o laboratório, revela a corrupção e pede o cristal; se recusarem, tenta tirá-lo.",
+        "leadsTo": [
+          "b-1-velnari-confrontation"
+        ]
+      },
+      {
+        "label": "Levar o que viram a Ushru / Coblu",
+        "outcome": "Crocudos: os anciãos ficam com um caso contra a Dinastia; Duarte cobre Velnari.",
+        "leadsTo": [
+          "b-2-ushru-dawn"
+        ]
+      }
+    ],
+    "notes": "Crocudos: Na mesa (S17) Elga e Filipe (\"Pierre Anoiko\") entraram pela porta das traseiras do quartel e encontraram Fritz e Velnari à mesa a tomar chá, com chávenas já à espera (Olhos de Sangue); Fritz: \"tenham cuidado, vão usando\". Em S19 Velnari convidou Elga ao laboratório. Pista de r-velnari-corrupted (a segunda), r-ruidium-properties (documentos) e r-myriad-route (Ilyra como fornecedora). O Beacon experimental liga a r-beacon-in-barracks / Cerberus a decidir pelo DM. Handout \"Notas do Arcanista\" no doc Campanha (4 h de leitura).",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-velnari-confrontation",
+    "title": "Velnari tenta tirar o cristal: fuga de Jigau",
+    "arcs": [
+      "a-main",
+      "a-kryn",
+      "a-ruidium"
+    ],
+    "chapter": "ch1",
+    "order": 105,
+    "location": "l-laboratorio-velnari",
+    "participants": [
+      "c-velnari-zeth",
+      "c-belana-zolaed",
+      "c-nessa-brilho-leve",
+      "c-durth-mirimm",
+      "f-aurora-watch",
+      "c-bruno-massapao",
+      "c-rafael-e-samara-rosbife"
+    ],
+    "summary": "Crocudos: Velnari revela o seu nível de corrupção e tenta tirar o cristal a quem o carrega (Elga); combate no laboratório: Magnify Gravity, Catapult, Vortex Warp e, quando encurralado, Dimension Door. Não quer matar: manda a prisioneira para a cela do quartel e foge. Nessa avisa depois que Velnari foi teleportado ao Templo do Luxon para ser curado e que disse a Belana: \"Agora é que as coisas ficaram interessantes. Os nossos convidados traziam mais do que contávamos.\" Os PCs levam 100 g de pó, 23 g de cristais e os apontamentos. Um ogre das Águas-da-Carne aponta-os à Vigia; 10 arqueiros da Vigia (nível 4) marcham para os prender e perseguem o barco à saída (flechas de fogo: 35 de dano no casco; barco CA 15, ~300 PV, threshold 15; 90 → 150 → 210 ft). Sem saberem para onde vão, não avisam Bazzoxan.",
+    "reveals": [
+      "r-velnari-corrupted",
+      "r-luxon-coverup"
+    ],
+    "requires": [
+      "b-1-velnari-lab"
+    ],
+    "choices": [
+      {
+        "label": "Fugir de Jigau (barco / tartaruga / a pé)",
+        "outcome": "Crocudos: capítulo 2 começa em fuga; rota marítima (barco médio 3 dias, 10 po/dia; tartaruga 5 dias, 30 po/dia; moorbounder 6–10 dias; a pé 9–15 dias) — o livro só prepara a estrada.",
+        "leadsTo": [
+          "b-2-journey"
+        ]
+      },
+      {
+        "label": "Entregar o cristal a Velnari",
+        "outcome": "Crocudos: sem combate; a Dinastia arma o rubídio mais depressa (portento f-kryn ch1); Velnari torna-se aliado frio.",
+        "leadsTo": [
+          "b-2-ushru-dawn"
+        ]
+      },
+      {
+        "label": "Expor Velnari a Duarte / Ushru",
+        "outcome": "Crocudos: Duarte cobre-o (\"recolhe provas e desaparece\"); Ushru fica com a prova de que a Dinastia usa o rubídio.",
+        "leadsTo": [
+          "b-2-ushru-dawn"
+        ]
+      }
+    ],
+    "timer": "Crocudos: 10 arqueiros chegam ao cais minutos depois; a escolta de Fritz/Velnari parte para Bazzoxan",
+    "notes": "Crocudos: Combate \"TENSO\", quase morte (S19): Velnari 66 → 20 → 13 → 14 → 2 PV; Elga usou o cristal 2× (regra da mesa: 1 nível de corrupção, telepatia, palma vermelha). Lição do DM: Velnari devia ter aliados na sala; um mago nv 7 sozinho contra o grupo cai depressa. Dia 17: Bruno e os Rosbife entregam a carta dos Picanha-Pato (ataque do Império às colheitas; o pai com febre) — Filipe percebe tarde que a nota de Targost era sobre isto. Fecha o capítulo 1 e liga a b-2-journey; Velnari reaparece via Vorrim em Bazzoxan (b-3-vorrim). Pista final de r-velnari-corrupted em Jigau e de r-luxon-coverup (o templo cura o arcanista).",
+    "source": "dm"
+  },
+  {
+    "id": "b-2-sea-departure",
+    "title": "Rota marítima: partida de Jigau no Trinca-Rabos",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch2",
+    "order": 36,
+    "location": "l-trinca-rabos",
+    "participants": [
+      "c-chekka-falha-remos",
+      "c-nok-nok-racha-dentes",
+      "c-bukka-sem-medo",
+      "c-grelka-dente-largo",
+      "c-kiri-kiri-da-vela-alta"
+    ],
+    "summary": "Alternativa (Crocudos): se os PCs forem por mar em vez da estrada. Transportes de Jigau a Bazzoxan: a pé 9–15 dias; moorbounder 6–10 dias (normal 8); barco médio 3 dias (aluguer 10 po/dia; o Trinca-Rabos cobra 80 po ida e volta); barco pequeno 5 po/dia ou 50 po de compra; tartaruga-do-horizonte 5 dias (30 po/dia). Duas rotas: Alto Mar (3 dias: Obelisco Negro, ataque de rubídio, gigante/dragão) ou Costa (5 dias: ataque de rubídio, gloomstalkers, Obelisco Negro). Clima diário: céu limpo (movimento máximo, moral alta), nublado/neblina (visibilidade 100 m), tempestade (teste de manobra DC 15). Na Crocudos os PCs fugiram de Jigau perseguidos por 10 arqueiros da Vigia (flechas de fogo, 35 de dano ao barco) e escolheram o Alto Mar.",
+    "reveals": [],
+    "requires": [],
+    "choices": [
+      {
+        "label": "Alto Mar (3 dias)",
+        "outcome": "Crocudos: Obelisco Negro, aboleth, dragão branco e gigante da tempestade.",
+        "leadsTo": [
+          "b-2-sea-obelisco"
+        ]
+      },
+      {
+        "label": "Costa (5 dias)",
+        "outcome": "Crocudos: ataque de rubídio, gloomstalkers, Obelisco Negro (não jogado; a definir pelo DM).",
+        "leadsTo": [
+          "b-2-sea-obelisco"
+        ]
+      },
+      {
+        "label": "Ir pela estrada",
+        "outcome": "O capítulo do livro (b-2-journey).",
+        "leadsTo": [
+          "b-2-journey"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S19–S20): a rota marítima substitui b-2-journey e os encontros da estrada; desembarca-se na costa de Xhorhas e faz-se o resto a pé (mamutes vs gloomstalkers na planície ou vrock + udaak na montanha, não detalhado aqui) até às Ruínas da Saudade (b-2-ruins-outside-bazzoxan). Se os PCs partem em paz, a perseguição naval não acontece.",
+    "source": "dm",
+    "timer": "3 dias de mar (Alto Mar) ou 5 (Costa); clima rolado por dia"
+  },
+  {
+    "id": "b-2-sea-obelisco",
+    "title": "Rota marítima, dia 1: o Obelisco Negro",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch2",
+    "order": 39,
+    "location": "l-obelisco-negro",
+    "participants": [
+      "c-chekka-falha-remos",
+      "c-kiri-kiri-da-vela-alta",
+      "c-aboleth-do-mar"
+    ],
+    "summary": "Alternativa (Crocudos): se os PCs forem por mar… Dia 1, céu limpo. Kiri-Kiri avista um pilar negro no horizonte; ao aproximar (50 m, 20 m) uma gaivota fica parada no ar e o mar abranda: suspeita de time stop. Chekka aconselha a não investigar. Noite 1: jantar picante de Grelka; um passageiro/prisioneiro atado à proa é encontrado morto de manhã com a pele translúcida e coberta de muco: o aboleth andou por perto (na Crocudos, Mekik, d10 = 1).",
+    "reveals": [],
+    "requires": [
+      "b-2-sea-departure"
+    ],
+    "choices": [
+      {
+        "label": "Investigar o Obelisco",
+        "outcome": "Não jogado; a definir pelo DM.",
+        "leadsTo": []
+      },
+      {
+        "label": "Seguir viagem",
+        "outcome": "Crocudos: o obelisco fica como fio solto; o aboleth ataca de noite.",
+        "leadsTo": [
+          "b-2-sea-aboleth"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S20–S21). O corpo do aboleth é avistado de manhã sem ser reconhecido (Intelligence check: os chuul são \"marisco desenvolvido\").",
+    "source": "dm"
+  },
+  {
+    "id": "b-2-sea-aboleth",
+    "title": "Rota marítima, dia 2: Susana, os chuul e o aboleth",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch2",
+    "order": 41,
+    "location": "l-trinca-rabos",
+    "participants": [
+      "c-susana-deep-scion",
+      "c-aboleth-do-mar",
+      "c-kiri-kiri-da-vela-alta",
+      "c-chekka-falha-remos"
+    ],
+    "summary": "Alternativa (Crocudos): se os PCs forem por mar… Dia 2, neblina à tarde (visibilidade 100 m; Perception com desvantagem). O aboleth fala telepaticamente com quem traz o cristal de rubídio: \"Obrigado, o teu nome não será esquecido nas águas.\" / \"O que trazes pode ser a salvação.\" (quer que o portador salve \"a próxima náufraga\" com o cristal). Resgatam uma náufraga, Susana, que fica numa cama de rede; interrogada, sussurra para o mar: \"Estava frio, os ecos do passado, as águas imemoriais…\". Revela-se Deep Scion, agarra o portador do cristal e sobem chuul ao barco: combate com Susana, 2 chuul e o aboleth. O aboleth diz ter as respostas que o portador procura (o preço são as pessoas do barco), escraviza-o (cai ao mar, atira o cristal ao mar) e dá pistas sobre uma civilização caída. Na Crocudos foi \"a luta mais fodida até hoje\": quase-TPK; Kiri-Kiri matou o último chuul com a fisga e salvou dois PCs.",
+    "reveals": [
+      "r-ruidium-history"
+    ],
+    "requires": [
+      "b-2-sea-obelisco"
+    ],
+    "choices": [
+      {
+        "label": "Desconfiar da náufraga",
+        "outcome": "Crocudos: o combate começa na mesma, mas com os PCs em posição.",
+        "leadsTo": [
+          "b-2-sea-iceberg"
+        ]
+      },
+      {
+        "label": "Atirar o cristal ao mar",
+        "outcome": "Crocudos: o portador escravizado atirou-o; um PC mergulhou para o recuperar; o aboleth fica com o que quer se ninguém for.",
+        "leadsTo": [
+          "b-2-sea-iceberg"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S21–S22). Notas do DM: Susana finge-se náufraga, ganha confiança, procura quem tem o cristal; ao encontrá-lo, mão em garra, forma híbrida (boca em três partes, guincho); sobe um chuul (mais se preciso); o aboleth intervém e comunica. Regra da mesa aplicada a seguir: Marcas na Alma (CHA save diário crescente) e pontos de insanidade (explicados nesta sessão). O lore do DM (\"Forças Abissais\"): aboleths encorajados pelo rubídio atacam comunidades submarinas; se ninguém intervier, tomam primeiro as ruínas dos tritões no Oceano Lucidiano e depois o recife dos sea elves (Mother's Sigh Reef).",
+    "source": "dm"
+  },
+  {
+    "id": "b-2-sea-iceberg",
+    "title": "Rota marítima, dia 3: o dragão branco e o gigante da tempestade",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch2",
+    "order": 45,
+    "location": "l-iceberg-coragem-da-costa",
+    "participants": [
+      "c-dragao-branco-adulto",
+      "c-gigante-da-tempestade",
+      "c-kiri-kiri-da-vela-alta",
+      "c-chekka-falha-remos",
+      "c-susana-deep-scion"
+    ],
+    "summary": "Alternativa (Crocudos): se os PCs forem por mar… Dia 3, frio e gelo no mar apesar de estarem demasiado a sul; um iceberg ao longe. Um dragão branco adulto dorme no topo; sob o gelo, o navio congelado \"A Coragem da Costa\" (o barco de Susana). Stealth de grupo DC 15 para chegar a 300 ft. O dragão acorda, fita o familiar dos PCs e curva-se perante ele; um gigante da tempestade aproxima-se pelo leito marinho, as nuvens escurecem e, ao 5.º turno, Tempest Call: lanças de relâmpagos, maelstrom em redor do iceberg, tornado. O dano colateral quase mata toda a gente (na Crocudos: capitã a 7 HP, três tripulantes a 0 HP estabilizados, PCs a fazer Spare the Dying); Kiri-Kiri morre. O dragão foge pelo olho da tempestade; o gigante desfaz a tempestade e fica a contemplar o céu. Chekka: \"Assim não. Não devia ter sido assim.\"",
+    "reveals": [],
+    "requires": [
+      "b-2-sea-aboleth"
+    ],
+    "choices": [
+      {
+        "label": "Passar ao largo em silêncio",
+        "outcome": "Crocudos: o gigante ataca o dragão na mesma; a distância decide o dano colateral.",
+        "leadsTo": [
+          "b-2-sea-landing-cave"
+        ]
+      },
+      {
+        "label": "Investigar o navio congelado",
+        "outcome": "Não jogado; a definir pelo DM.",
+        "leadsTo": [
+          "b-2-sea-landing-cave"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S23). Noite 3: o cristal de rubídio brilha com Ruidus; Maldição da Lua Vermelha (Ruidus enche-se de repente: 24 h de desvantagem em testes e saves, removível por magia) e visão conjunta de Alyxian a combater junto às muralhas negras de Bazzoxan, Bane a avançar, uma companheira a morrer por ele (\"Não!\"). Isto é a versão da mesa de b-2-ill-omen.",
+    "source": "dm"
+  },
+  {
+    "id": "b-2-sea-landing-cave",
+    "title": "Rota marítima, dia 4: o funeral e a gruta do altar aberrante",
+    "arcs": [
+      "a-main",
+      "a-ruidium"
+    ],
+    "chapter": "ch2",
+    "order": 47,
+    "location": "l-gruta-altar-aberrante",
+    "participants": [
+      "c-chekka-falha-remos",
+      "c-grelka-dente-largo",
+      "c-nok-nok-racha-dentes",
+      "c-bukka-sem-medo",
+      "c-kiri-kiri-da-vela-alta",
+      "c-culto-esquecido"
+    ],
+    "summary": "Alternativa (Crocudos): se os PCs forem por mar… Dia 4: chegada à costa de Xhorhas. Funeral de Kiri-Kiri na praia: o corpo envolto na vela rasgada, a tripulação em círculo, Chekka finca um peixe seco na areia como oferenda a Avandra e faz o elogio fúnebre (\"Sempre quiseste subir mais alto. Hoje, sobes mais alto que todos nós.\"); Grelka distribui um copinho de bebida picante que é veneno drow (CON DC 13); Nok-Nok e Bukka despedem-se; espaço para os PCs falarem. Depois, uma caverna na costa: entrada com gravuras em espiral (\"Sob as ondas não há memória. Apenas morte.\"), túnel inundado, gruta interior com a concha colossal, o olho vertical e a aura psíquica (WIS DC 15 ou 1d4 psíquico e confusão 1 min); sussurros em Deep Speech, o último: \"Um mestre dorme. Sonha contigo.\" Se aceitam a oferta, um portal-olho abre-se em luz vermelha e da concha sai um item (a definir pelo DM; \"O presente é aceito. A vigia começa. O profundo não esquece.\").",
+    "reveals": [],
+    "requires": [
+      "b-2-sea-iceberg"
+    ],
+    "choices": [
+      {
+        "label": "Aceitar o presente do altar",
+        "outcome": "Crocudos: um item aberrante (a definir pelo DM); \"a vigia começa\".",
+        "leadsTo": [
+          "b-2-ruins-outside-bazzoxan"
+        ]
+      },
+      {
+        "label": "Recusar / sair da gruta",
+        "outcome": "Não jogado; a definir pelo DM.",
+        "leadsTo": [
+          "b-2-ruins-outside-bazzoxan"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S24–S25). O prisioneiro morto (Mekik) é enterrado à entrada da caverna com flores. Segue-se a travessia dos Desterros a pé: planície (2 gloomstalkers a atacar dois mamutes adultos e uma cria; na Crocudos ajudaram os mamutes) ou montanha (vrock + udaak); dia 5 no sopé da Cordilheira da Penumbra: Ruínas da Saudade (b-2-ruins-outside-bazzoxan). O item entregue na Crocudos está fora deste rascunho por decisão do DM.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-vazia-gruusk",
+    "title": "Chegada: Gruusk e Vazia levam os PCs ao Intendente",
+    "arcs": [
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 5,
+    "location": "l-bazzoxan",
+    "participants": [
+      "c-gruusk",
+      "c-vazia",
+      "c-verin-thelyss"
+    ],
+    "summary": "Crocudos (S28): ao ver as muralhas de Bazzoxan, WIS save (visão). Os PCs conhecem Gruusk e são levados por Vazia ao Intendente (Verin). Um agente da Alma Cobalto avisa por Sending que \"Questão\" está em Bazzoxan.",
+    "reveals": [],
+    "requires": [
+      "b-2-arrival-bazzoxan"
+    ],
+    "choices": [
+      {
+        "label": "Seguir Vazia",
+        "outcome": "Crocudos: a caminho, combate à entrada com os orcs Murmuradores.",
+        "leadsTo": [
+          "b-3-murmuradores"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S28). Complementa b-2-arrival-bazzoxan. A visão nas muralhas não está transcrita nos registos.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-murmuradores",
+    "title": "Combate à entrada: os orcs Murmuradores",
+    "arcs": [
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 8,
+    "location": "l-bazzoxan-gate",
+    "participants": [
+      "c-murmuradores",
+      "c-verin-thelyss",
+      "f-aurora-watch"
+    ],
+    "summary": "Crocudos (S29): à entrada de Bazzoxan, combate com os orcs \"Murmuradores\" Urza Vokh e Grash Korr'thak; Verin chega com guardas. Faz o papel do ataque dos gibbering mouthers do livro (b-3-mouthers) como primeiro contacto com Verin.",
+    "reveals": [],
+    "requires": [
+      "b-3-vazia-gruusk"
+    ],
+    "choices": [
+      {
+        "label": "Combater ao lado da Vigia",
+        "outcome": "Crocudos: Verin manda-os ao quartel.",
+        "leadsTo": [
+          "b-3-mouthers",
+          "b-3-barracks-verin"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S29). Pode substituir ou anteceder b-3-mouthers. Statblocks dos Murmuradores não registados.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-estalagem-soldado-caido",
+    "title": "Estalagem do Soldado Caído: Prolix, Iliana, a Maré de Fogo",
+    "arcs": [
+      "a-allegiance",
+      "a-cobalt",
+      "a-consortium",
+      "a-myriad"
+    ],
+    "chapter": "ch3",
+    "order": 22,
+    "location": "l-ready-room",
+    "participants": [
+      "c-prolix-yusaf",
+      "c-question",
+      "c-aloysia-telfan",
+      "c-alonne-frith",
+      "c-nara-sol",
+      "c-talan-velyar",
+      "c-rolo-wellington"
+    ],
+    "summary": "Crocudos (S31–S32): entram na Estalagem do Soldado Caído; conhecem Prolix, que se junta à mesa a investigar Aloysia (mais tarde paga 100 po adiantados, S39); Fritz é visto a falar com Aloysia; conhecem a \"Maré de Fogo\" (Nara Sol e Talan Velyar, bardos); Iliana \"Questão\" mostra as aguarelas do interior da Ascensão e a balada em undercommon (S39). Rolo Wellington vende rubídio em segredo à Míriade.",
+    "reveals": [
+      "r-faction-agendas"
+    ],
+    "requires": [
+      "b-3-murmuradores"
+    ],
+    "choices": [
+      {
+        "label": "Aceitar investigar Aloysia para Prolix",
+        "outcome": "Crocudos: 100 po adiantados.",
+        "leadsTo": [
+          "b-3-aloysia-offer",
+          "b-3-crematorium-prolix"
+        ]
+      },
+      {
+        "label": "Falar com a Maré de Fogo",
+        "outcome": "Crocudos: Nara pede ajuda mais tarde a investigar o rubídio e a Míriade.",
+        "leadsTo": [
+          "b-3-karesh"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S31–S32, S39). Versão da mesa de b-3-ready-room-question e da colocação dos investigadores (b-3-researchers-in-town). O ataque de Vor'zen (b-3-vorzen-attack) rebenta aqui na mesma noite.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-karesh",
+    "title": "Karesh \"Asa Rubra\" e o pedido de Nara",
+    "arcs": [
+      "a-kryn",
+      "a-myriad"
+    ],
+    "chapter": "ch3",
+    "order": 26,
+    "location": "l-bazzoxan",
+    "participants": [
+      "c-karesh-asa-rubra",
+      "c-nara-sol",
+      "c-vazia"
+    ],
+    "summary": "Crocudos (S30, S35): Karesh \"Asa Rubra\", aarakocra capitã da Vigia, é avistada a caminho do Quartel do Portão e chega ao fim da perseguição ao assaltante Volstrucker. Nara Sol pede ajuda a investigar o rubídio e a Míriade e revela que está corrompida; Vazia pede ajuda com Rolo, que não acorda.",
+    "reveals": [
+      "r-myriad-route"
+    ],
+    "requires": [
+      "b-3-estalagem-soldado-caido"
+    ],
+    "choices": [
+      {
+        "label": "Ajudar Nara",
+        "outcome": "Crocudos: pista da Míriade em Bazzoxan.",
+        "leadsTo": [
+          "b-3-rolo-wellington"
+        ]
+      },
+      {
+        "label": "Ajudar Vazia",
+        "outcome": "Crocudos: Rolo adormecido, pedras vermelhas no bolso.",
+        "leadsTo": [
+          "b-3-rolo-wellington"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S30, S35). A ligação \"Sorriso Dourado\"/Míriade confirmada por Nara (S33) fica só como menção.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-rolo-wellington",
+    "title": "Rolo Wellington não acorda",
+    "arcs": [
+      "a-myriad",
+      "a-ruidium"
+    ],
+    "chapter": "ch3",
+    "order": 45,
+    "location": "l-bazzoxan",
+    "participants": [
+      "c-rolo-wellington",
+      "c-vazia",
+      "c-foghome",
+      "c-myriad-bazzoxan-contact"
+    ],
+    "summary": "Crocudos (S35–S36): Rolo Wellington adormece e não acorda; Vazia encontra-lhe pedras vermelhas no bolso: rubídio dos túneis, que ele vendia em segredo à Míriade (a Tingus). No Templo, Fugon tenta Greater Restoration sem resultado. Pista da ponta de Bazzoxan do canal.",
+    "reveals": [
+      "r-myriad-route",
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-3-karesh"
+    ],
+    "choices": [
+      {
+        "label": "Levar Rolo a Fugon",
+        "outcome": "Crocudos: Greater Restoration não o acorda.",
+        "leadsTo": [
+          "b-3-temple-foghome"
+        ]
+      },
+      {
+        "label": "Seguir as pedras até à Míriade",
+        "outcome": "Crocudos: leva a Tingus da Chuva.",
+        "leadsTo": [
+          "b-3-myriad-bazzoxan",
+          "b-3-tingus"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S32, S35–S36). Quinta pista de r-myriad-route. Tingus diz mais tarde que os PCs lhe eliminaram \"um dos principais clientes\" (S41).",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-fugon-vision",
+    "title": "Fugon: chá, meditação em volta da árvore e as Poções de Seiva Revigorante",
+    "arcs": [
+      "a-lore",
+      "a-main"
+    ],
+    "chapter": "ch3",
+    "order": 62,
+    "location": "l-bazzoxan-temple",
+    "participants": [
+      "c-foghome"
+    ],
+    "summary": "Crocudos (S40–S41): Fugon serve chá (camomila, ervas medicinais e mel) e convida os PCs a meditar em volta da árvore: visão do jovem elfo de pele dourada ajoelhado no jardim e das cinco silhuetas antes da batalha (a Vision 2 do livro). No dia seguinte explica Ghor Dranas/Ascensão, mostra os nichos com as inscrições gastas dos amigos de Alyxian atrás das plantas mais sãs, sente na Jóia três fragmentos de poder divino (um desperto, dois adormecidos) e, por um PC ter feito germinar o jardim, dá 2 Poções de Seiva Revigorante (4d4+4 HP) e vai ao quartel testemunhar o \"milagre\" a Verin. Na Crocudos: nível 7.",
+    "reveals": [
+      "r-jewel-three-prayers",
+      "r-alyxian-three-prayers"
+    ],
+    "requires": [
+      "b-3-temple-foghome"
+    ],
+    "choices": [
+      {
+        "label": "Fazer germinar o jardim",
+        "outcome": "Crocudos: 2 Poções de Seiva Revigorante; Fugon testemunha a Verin.",
+        "leadsTo": [
+          "b-3-verin-deal"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S40–S41). Versão da mesa de b-3-temple-foghome; as inscrições dos nichos estão na ficha de c-foghome.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-vorzen-attack",
+    "title": "Vor'zen ataca a estalagem com o Grito do Apoteão",
+    "arcs": [
+      "a-ruidium",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 82,
+    "location": "l-ready-room",
+    "participants": [
+      "c-vorzen",
+      "c-alonne-frith",
+      "c-vorrim",
+      "c-volstrucker-agent",
+      "c-nara-sol"
+    ],
+    "summary": "Crocudos (S32–S34): Vor'zen, soldado da Vigia corrompido, entra na Estalagem do Soldado Caído e usa o Grito do Apoteão (insanidade a quem falha); Fritz segura-o com Hold Person; combate; Vorrim chega e sai por Dimension Door; a estalagem é selada e chamam-se enfermeiros; Zyn'thar coordena. Seguem-se os efeitos de insanidade.",
+    "reveals": [
+      "r-ruidium-properties"
+    ],
+    "requires": [
+      "b-3-estalagem-soldado-caido"
+    ],
+    "choices": [
+      {
+        "label": "Derrotar Vor'zen",
+        "outcome": "Crocudos: estalagem selada; enfermeiros; efeitos de insanidade nos afectados.",
+        "leadsTo": [
+          "b-3-infirmary",
+          "b-3-vorrim"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S32–S34). Regras da mesa: Grito do Apoteão (habilidade de corrupção nível 3: CHA save DC 8+prof+CHA, 1d8 psíquico × nível de corrupção + 1d4 emoção) e pontos de insanidade (docs/regras.md, a passar). Mostra que há soldados da Vigia infectados.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-vorrim",
+    "title": "Vorrim, o arcanista de Bazzoxan, e as Âncoras do Entre-Véus",
+    "arcs": [
+      "a-kryn",
+      "a-ruidium"
+    ],
+    "chapter": "ch3",
+    "order": 83,
+    "location": "l-bazzoxan-barracks",
+    "participants": [
+      "c-vorrim",
+      "c-galsariad-ardyth"
+    ],
+    "summary": "Crocudos (S33, S41): Vorrim, arcanista da Dinastia em Bazzoxan, é o nome que aparece nas Notas do Arcanista de Velnari Zeth (recebe o \"sobrinho corrompido\", Galsariad, e as amostras de rubídio). Aparece na estalagem durante o ataque de Vor'zen e desaparece por Dimension Door; na véspera da Ascensão entrega aos PCs um par de Âncoras do Entre-Véus (artefactos Kryn: qualquer teletransporte feito de uma âncora chega à gémea, ignorando distância e planos; segredo de estado) e 2 poções de cura.",
+    "reveals": [],
+    "requires": [
+      "b-3-vorzen-attack"
+    ],
+    "choices": [
+      {
+        "label": "Aceitar as Âncoras",
+        "outcome": "Crocudos: uma saída de emergência do Rise; a Dinastia sabe onde os PCs estão.",
+        "leadsTo": [
+          "b-3-rise-entrances"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S33, S41). Liga a c-velnari-zeth (rascunho de outro agente) e à pesquisa Kryn do rubídio (b-3-bazzoxan-research).",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-caderno-volstrucker",
+    "title": "Handout: o Caderno Volstrucker",
+    "arcs": [
+      "a-cerberus",
+      "a-myriad",
+      "a-ruidium"
+    ],
+    "chapter": "ch3",
+    "order": 87,
+    "location": "l-ready-room",
+    "participants": [
+      "c-volstrucker-agent"
+    ],
+    "summary": "Crocudos (S34–S35, S40): o Volstrucker embosca os PCs para lhes roubar um item; perseguição; o assaltante morto revela-se um humano disfarçado e um selo arcano de morte apaga-lhe a memória. Fica nas mãos dos PCs um caderno selado que só abre com Dispel Magic. Handout — Caderno Volstrucker: Entrada 1, Iniciação Volstrucker (Ikithon): integração em Rexxentrum; formação em interrogatório, infiltração, vigilância e extracção; marca de obediência; \"capacidade adequada de dissociação emocional\". Entrada 2, Operação \"Véu de Cinza\": avaliação da aldeia do Vale Mole (Montanhas da Rocha-Parda); veios de pedra-bruma sob liderança civil; o líder da aldeia recusou a exploração; ameaça ao núcleo familiar; entregou-se para preservar a família; desaparecimento registado como desabamento natural; a esposa e uma filha abandonaram a região, outro descendente já fora da área. Entrada 3, Forte Ventura (Ikithon): posto experimental de contenção e pesquisa arcana; captura de sujeitos de interesse planar; zelo ideológico elevado do inquisidor, vigilância interna recomendada. Entrada 4, Contrabando de Rubídio (Da'leth): na Guarnição das Cinzas, rotas associadas à Myriad e material classificado como rubídio, de origem extra-imperial, elevado potencial arcano; pedido de rastreio sem limitação territorial. Entrada 6, Operação \"Rede Rubra\" (Da'leth): em Bazzoxan, monitorizar a extracção e o tráfico de rubídio, avaliar a contenção da Dinastia e garantir a transferência de activos estratégicos para a Cerberus Assembly, com projecção para Marquet; substituição do soldado drow Zynthar e modificação de memória de aliados próximos; amostras de rubídio Classe III em zonas restritas; recolha local coordenada com o contacto da Myriad \"Tingus\"; intervenções discretas nos Túneis da Ascensão; presença crescente de facções (Miríade, Alma Cobalto, Consórcio do Sonho Vermelho, Culto das Escamas, Aliança do Saber e o grupo dos PCs, que \"parece transportar um item mágico de interesse directo para Aloysia\"); recomenda-se vigilância passiva sobre rumores da Ascensão, prioridade ao reencontro com Da'leth em Ank'Harel e continuação da investigação sobre a verdadeira origem do rubídio.",
+    "reveals": [
+      "r-assembly-buys-ruidium",
+      "r-faction-agendas"
+    ],
+    "requires": [
+      "b-3-volstrucker-investigation"
+    ],
+    "choices": [
+      {
+        "label": "Abrir o caderno (Dispel Magic)",
+        "outcome": "Crocudos: o handout; liga a Assembly ao canal do Myriad e a Tingus.",
+        "leadsTo": [
+          "b-3-tingus",
+          "b-3-beacon-in-barracks"
+        ]
+      },
+      {
+        "label": "Entregar o caderno a Verin",
+        "outcome": "A definir pelo DM.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "Crocudos (S34–S35, S40; texto em campanha.md, \"Caderno Volstrucker\", versão final). A entrada 5 e as referências ao intermediário da Myriad ficam de fora por decisão do DM; o nome do líder da aldeia do Vale Mole também. Quinta pista de r-assembly-buys-ruidium. Se o assaltante morto é o próprio Zyn'thar ou um cúmplice fica ao critério do DM (os registos não o dizem).",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-tingus",
+    "title": "Tingus da Chuva no muro dos nomes",
+    "arcs": [
+      "a-myriad",
+      "a-cerberus",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 92,
+    "location": "l-wall-of-the-unforgotten",
+    "participants": [
+      "c-myriad-bazzoxan-contact",
+      "c-kael-rhun",
+      "c-lirien-solva"
+    ],
+    "summary": "Crocudos (S40–S41): Tingus da Chuva, tabaxi da Míriade (corrupção nível 2, fala telepaticamente), marca encontro no muro dos nomes com dois guardas da Vigia escondidos num beco com bestas. Diz que os PCs lhe eliminaram um dos principais clientes; pede ajuda para descobrir quem roubou aos Kryn \"um artefacto poderoso encontrado antes de vocês chegarem\" e para onde foi (\"Tenho clientes interessados. Clientes cujo nome preferem que não se saiba.\"); quer assaltar o quartel; chantagem: o que faria a liderança local se soubesse que há um agente da Míriade infiltrado; \"Uma vez Míriade, para sempre Míriade.\" Sabe que os PCs vão \"ascender\" amanhã para a Dinastia. Os guardas mostram-se e afastam-se com ela.",
+    "reveals": [
+      "r-myriad-route",
+      "r-beacon-in-barracks"
+    ],
+    "requires": [],
+    "choices": [
+      {
+        "label": "Aceitar ajudar Tingus",
+        "outcome": "Crocudos: assalto ao quartel depois do Rise (planeado pelo DM, não jogado).",
+        "leadsTo": [
+          "b-3-beacon-in-barracks"
+        ]
+      },
+      {
+        "label": "Recusar / denunciar a Verin",
+        "outcome": "A definir pelo DM: Tingus tem dobros e rotas de fuga; Kael e Lirien ficam expostos.",
+        "leadsTo": [
+          "b-3-beacon-in-barracks"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S40–S41). O \"artefacto roubado aos Kryn\" é a versão da mesa de r-beacon-in-barracks. Um PC que a siga arrisca-se a ser apanhado por guardas da Aurora. A ligação pessoal de Tingus a um PC da Crocudos fica de fora.",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-verin-deal",
+    "title": "O acordo com Verin: explorar a Ascensão em troca de liberdade",
+    "arcs": [
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 105,
+    "location": "l-bazzoxan-barracks",
+    "participants": [
+      "c-verin-thelyss",
+      "c-foghome",
+      "c-vorrim",
+      "c-levir",
+      "c-nara-sol",
+      "f-rivals"
+    ],
+    "summary": "Crocudos (S38, S41): no Quartel do Portão, onde estão também a Maré de Fogo e o grupo da Ayo, reunião com Verin: acordo, explorar a Ascensão em troca de liberdade. Na véspera, Fugon testemunha o milagre do jardim, Verin dá em segredo um scroll de Teleport como failsafe, Vorrim entrega as Âncoras do Entre-Véus e 2 poções, Levir leva os PCs à armaria; Verin informa que Fritz entrou na Ascensão ao fim do dia anterior e que Aloysia e outros já saíram. Os veteranos Grumak e Darguun acompanham a subida; à porta, dois gloomstalkers saem (b-3-gloomstalker-escape).",
+    "reveals": [],
+    "requires": [
+      "b-3-barracks-verin"
+    ],
+    "choices": [
+      {
+        "label": "Aceitar o acordo",
+        "outcome": "Crocudos: subida à Ascensão com os veteranos; os dois soldados fecham a porta e escrevem os nomes no muro se não voltarem em 1 dia.",
+        "leadsTo": [
+          "b-3-gloomstalker-escape",
+          "b-3-rise-entrances"
+        ]
+      }
+    ],
+    "notes": "Crocudos (S38, S41).",
+    "source": "dm"
+  },
+  {
+    "id": "b-3-basilica",
+    "notes": "Os nove símbolos apresentam os Betrayer Gods para o epílogo do capítulo 7 (as ofertas dos deuses traidores se Alyxian for libertado). Crocudos: R9 \"Basílica da Folia\" (S43–S46): 4 chamas dançantes (succubus/incubus alterado, garra = fogo); dançar (Acrobatics/Performance DC 12) faz a chama tocar o símbolo seguinte do mosaico de vitral com 9 símbolos (Asmodeus coroa de cornos, Bane mangual, Gruumsh olho, Lolth aranha, Zehir serpente, Tharizdun espiral, Vecna mão com olho, Torog trio de braços, Tiamat garra); sequência certa Lolth → Gruumsh → Tharizdun → Torog; símbolo errado: WIS DC 16 ou 8d6 psíquico; partir o vitral (STR 12; AC 11/10 HP): WIS DC 20 ou maldição sem cura; repara-se em 1 h. Sala pentagonal adjacente (a definir pelo DM; o que lá estava na Crocudos fica de fora)."
+  }
+]

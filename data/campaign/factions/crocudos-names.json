@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f-aurora-watch",
+    "name": "Vigia da Aurora"
+  },
+  {
+    "id": "f-luxon",
+    "name": "Fé do Luxon"
+  },
+  {
+    "id": "f-cerberus-assembly",
+    "name": "Assembleia de Cerberus (Volstruckers)"
+  },
+  {
+    "id": "f-myriad",
+    "name": "Míriade (The Myriad)"
+  },
+  {
+    "id": "f-cobalt-soul",
+    "name": "Alma Cobalto (Library of the Cobalt Soul)"
+  },
+  {
+    "id": "f-allegiance",
+    "name": "Aliança do Saber (Allegiance of Allsight)"
+  },
+  {
+    "id": "f-consortium",
+    "name": "Consórcio do Sonho Vermelho"
+  },
+  {
+    "id": "f-kryn",
+    "name": "Dinastia Kryn"
+  },
+  {
+    "id": "f-jigow-elders",
+    "name": "Anciãos de Jigau"
+  }
+]

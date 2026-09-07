@@ -69,3 +69,17 @@ Pistas (lanes na linha temporal):
 - Justin Alexander, *Remixing Call of the Netherdeep*, *Node-Based Scenario Design*, *Three Clue Rule*, *Revelation Lists* (thealexandrian.net).
 - Dungeon World, *Fronts*; Robin D. Laws, *Hillfolk / DramaSystem* (relationship maps); Sly Flourish, *Return of the Lazy Dungeon Master*.
 - *Critical Role: Call of the Netherdeep* (Darrington Press / Wizards, 2022); *Explorer's Guide to Wildemount* (2020), "Unwelcome Spirits".
+
+<!-- RASCUNHO para docs/metodo.md — bloco D. AVISO: o método "Mass Effect" e o esquema A/B/C da "Campanha DND 2025" NÃO foram encontrados no campanha.md nem nos relatórios/sessões do scratchpad (grep "Mass Effect", "plot", "binári", "2025"); o texto abaixo segue o enunciado recebido e deve ser confirmado com o DM antes de entrar no repo. -->
+
+## 2a. O método "Mass Effect" (DM, campanha anterior)
+
+Na campanha anterior o DM organizou o enredo à maneira de *Mass Effect*: **três plots paralelos (A, B, C)** que avançam em simultâneo, e nos pontos de decisão **escolhas binárias sem opção ideal** — cada lado custa algo e os jogadores têm de escolher na mesma. As consequências não se anunciam: são **lembradas** mais tarde por cartas, notícias que chegam à taberna e NPCs que reaparecem com a memória do que os PCs fizeram. É a mesma lógica das *flags* + reacções condicionadas da secção 1: o que se rastreia é a escolha, e quem a devolve é o mundo.
+
+## 2b. O esquema A/B/C da campanha 2025
+
+- **Plot A — a origem do rubídio.** A pergunta de fundo: descobrir de onde vem e decidir se se **usa na guerra** (Dinastia/Império/facções que o querem armar) ou se se **acaba com ele para curar** (Ushru, quem sofre da corrupção). Sem opção limpa: usar corrompe, acabar desarma.
+- **Plot B — salvar Alyxian.** Ao chegar ao Netherdeep: **libertar**, **redimir** ou **matar** — os três finais do livro, mas com o custo de cada um visível desde cedo pelas visões e pelos rivais (Princípio da Oposição).
+- **Plot C — os locais.** A sequência de sítios (Urzin → Jigau → Bazzoxan → Ascensão → Ank'Harel → Cael Morrow → Netherdeep) é o relógio: cada local fecha uma janela de escolha de A ou B.
+
+**Como encaixa na app.** A e B são as duas frentes principais (`a-ruidium`, `a-main`); os portentos de cada frente são as consequências que o mundo "lembra" (carta, notícia, NPC) quando os PCs escolhem um lado. C dá a ordem dos beats e o momento de convergência. A regra das três pistas aplica-se às **escolhas**, não só às conclusões: antes de cada binário de A ou B os PCs devem ter tido, em cenas diferentes, pelo menos três pistas sobre o que cada lado custa — senão a escolha não é uma escolha, é uma moeda ao ar.

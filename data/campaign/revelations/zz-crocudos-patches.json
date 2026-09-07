@@ -1,0 +1,77 @@
+[
+  {
+    "id": "r-scarlet-fever",
+    "clues": [
+      "b-1-journey-day2-wastewalkers",
+      "b-1-ifolon-plunge",
+      "b-1-scarlet-fever",
+      "b-3-infirmary",
+      "b-1-treasure-hunt",
+      "b-1-luxon-coverup",
+      "b-1-sapo-afogado",
+      "b-1-melora-temple"
+    ]
+  },
+  {
+    "id": "r-myriad-route",
+    "clues": [
+      "b-0-nevoa-do-brejo",
+      "b-1-myriad-jigow",
+      "b-1-joalharia-myriad",
+      "b-1-sapo-afogado",
+      "b-1-velnari-lab",
+      "b-2-myriad-on-the-road",
+      "b-3-myriad-bazzoxan",
+      "b-3-rolo-wellington",
+      "b-3-tingus"
+    ]
+  },
+  {
+    "id": "r-ruidium-properties",
+    "clues": [
+      "b-4-a1-deliver-figurine",
+      "b-4-b3-elephant",
+      "b-4-c2-kruuk",
+      "b-4-c3-first-eclipse",
+      "b-6-n1-arrival",
+      "b-6-n12-ruidium-weapons",
+      "b-6-c6-destroy-netherdeep",
+      "b-7-ending-neutral",
+      "b-1-festival-seeds",
+      "b-1-grotto-ruidium",
+      "b-1-joalharia-myriad",
+      "b-1-melora-temple",
+      "b-1-velnari-lab"
+    ]
+  },
+  {
+    "id": "r-ruidium-history",
+    "clues": [
+      "b-1-grotto-ruidium",
+      "b-2-sea-aboleth",
+      "b-3-bazzoxan-research",
+      "b-4-c2-kruuk",
+      "b-5-base-camp"
+    ]
+  },
+  {
+    "id": "r-assembly-buys-ruidium",
+    "clues": [
+      "b-2-myriad-on-the-road",
+      "b-3-volstrucker-investigation",
+      "b-3-caderno-volstrucker",
+      "b-3-jewel-confrontation",
+      "b-3-beacon-heist"
+    ]
+  },
+  {
+    "id": "r-beacon-in-barracks",
+    "clues": [
+      "b-3-beacon-rumour",
+      "b-3-volstrucker-investigation",
+      "b-3-tingus",
+      "b-3-beacon-in-barracks",
+      "b-3-wall-unforgotten"
+    ]
+  }
+]

@@ -2,7 +2,7 @@
 
 Ferramenta de planeamento de campanha de D&D: um mapa **visual** dos NPCs, das ligações entre eles e de como os enredos concorrentes (rivais, facções de Ank'Harel, ruidium, o lore de Alyxian, as ambições dos PCs) avançam **no tempo** e convergem no Heart of Despair, à maneira da "teia de aranha" que a Larian descreveu para Baldur's Gate 3. Dados de *Call of the Netherdeep* tal como escrito, com prólogo *Unwelcome Spirits*.
 
-O método está em [`docs/metodo.md`](docs/metodo.md); as convenções de dados em [`docs/ids.md`](docs/ids.md); as regras próprias da campanha em [`docs/regras.md`](docs/regras.md).
+O método está em [`docs/metodo.md`](docs/metodo.md); as convenções de dados em [`docs/ids.md`](docs/ids.md); as regras próprias da campanha em [`docs/regras.md`](docs/regras.md); handouts em [`docs/handouts.md`](docs/handouts.md).
 
 ## Vistas
 
@@ -30,6 +30,7 @@ data/book/                  o livro tal como escrito (referência; não se edita
   revelations/*.json        revelações com pistas (beats)
 data/campaign/              a nossa campanha: patches, acrescentos e remoções por cima do livro
   <mesma estrutura>         mesma id = patch de campos · `_remove: true` = esconder · id nova = acrescentar
+  */crocudos*.json          material da campanha anterior do DM ("Crocudos"), incl. nomes em português da mesa
 data/state.json             estado de jogo (beats jogados, revelações, atitudes, sessões, flags, notas)
 ```
 

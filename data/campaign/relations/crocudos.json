@@ -1,0 +1,693 @@
+[
+  {
+    "from": "c-salomao-quebra-sol",
+    "to": "c-buhfal",
+    "type": "ally",
+    "label": "Crocudos: lideram Urzin juntos; Salomão preside e decide, Bufal quer ocupar o forte e mostrar força",
+    "source": "dm"
+  },
+  {
+    "from": "c-buhfal",
+    "to": "c-salomao-quebra-sol",
+    "type": "ally",
+    "label": "Crocudos: senta-se à esquerda de Salomão no conselho; aceita a sua liderança",
+    "source": "dm"
+  },
+  {
+    "from": "c-salomao-quebra-sol",
+    "to": "c-bolbara",
+    "type": "ally",
+    "label": "Crocudos: \"a Bolbara é fundamental em ajudar-nos a apaziguar / mediar os conflitos\"; a Dinastia respeita as tradições goblin através dela",
+    "source": "dm"
+  },
+  {
+    "from": "c-salomao-quebra-sol",
+    "to": "f-kryn",
+    "type": "memberOf",
+    "label": "Crocudos: presença da Dinastia em Urzin; sabe o que é rubídio e que surgiu em território Kryn",
+    "source": "dm"
+  },
+  {
+    "from": "c-salomao-quebra-sol",
+    "to": "c-durth-mirimm",
+    "type": "knows",
+    "label": "Crocudos: envia-lhe os PCs, a carta e o rubídio em segredo: \"confiem apenas em Duarte Mirim, mais ninguém\"",
+    "fromBeat": "b-0-salomao-rubidio",
+    "source": "dm"
+  },
+  {
+    "from": "c-bolbara",
+    "to": "c-elder-colbu-kaz",
+    "type": "loves",
+    "label": "Crocudos (S9): caso de juventude; Coblu-Kaz é ex-amante de Bolbara",
+    "source": "dm"
+  },
+  {
+    "from": "c-bolbara",
+    "to": "c-mossback-steward",
+    "type": "knows",
+    "label": "Crocudos: \"uma vez encontrei-o, ou melhor, foi ele que me encontrou a mim\"; foi ele que lhe contou a lenda dos goblins",
+    "source": "dm"
+  },
+  {
+    "from": "c-bolbara",
+    "to": "c-melora",
+    "type": "serves",
+    "label": "Crocudos: invoca Melora no Templo das Cinzas (\"guardiã das raízes, escutai a vossa filha\") para ouvir o que o cristal é",
+    "fromBeat": "b-0-bolbara-legend",
+    "source": "dm"
+  },
+  {
+    "from": "c-litcha-das-cinzas",
+    "to": "c-melora",
+    "type": "serves",
+    "label": "Crocudos: conduz o Ritual da Libertação em nome de Melora contra a marca de Bane",
+    "source": "dm"
+  },
+  {
+    "from": "c-kalmuk-parte-po",
+    "to": "c-litcha-das-cinzas",
+    "type": "protects",
+    "label": "Crocudos: assistente silencioso, muito protector de Litcha",
+    "source": "dm"
+  },
+  {
+    "from": "c-valir-torran",
+    "to": "c-the-luxon",
+    "type": "serves",
+    "label": "Crocudos: clérigo do Templo do Luxon de Urzin",
+    "source": "dm"
+  },
+  {
+    "from": "c-skirr",
+    "to": "c-mugra-maos-quentes",
+    "type": "serves",
+    "label": "Crocudos: aprendiz alquimista no Casco Fumegante",
+    "source": "dm"
+  },
+  {
+    "from": "c-durg-mao-mole",
+    "to": "c-rikka-tres-dentes",
+    "type": "serves",
+    "label": "Crocudos: porteiro e cozinheiro da Carapaça Estalada",
+    "source": "dm"
+  },
+  {
+    "from": "c-nevoa-vendor",
+    "to": "c-melora",
+    "type": "knows",
+    "label": "Crocudos: druida informal (concha entalhada como foco); quer que Urzin escute \"os espíritos do solo\"",
+    "source": "dm"
+  },
+  {
+    "from": "c-tripulacao-passo-lento",
+    "to": "c-dhurak-pe-reto",
+    "type": "serves",
+    "label": "Crocudos: tripulação sob o comando de Dhurak; Raspa confia nele",
+    "source": "dm"
+  },
+  {
+    "from": "c-tripulacao-passo-lento",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: Vetra Zun'sar e Dozak Ul'tar são guardas da Vigia da Aurora que vigiam Fritz",
+    "source": "dm"
+  },
+  {
+    "from": "c-tripulacao-passo-lento",
+    "to": "c-alonne-frith",
+    "type": "enemy",
+    "label": "Crocudos: Vetra considera-o perigoso (\"não dou segundas ordens\"); Dozak não confia (\"silêncio demais é barulho escondido\"); Raspa sente-se observado",
+    "source": "dm"
+  },
+  {
+    "from": "c-alonne-frith",
+    "to": "c-tripulacao-passo-lento",
+    "type": "knows",
+    "label": "Crocudos: observa Vetra com respeito silencioso; considera Dozak um idiota útil; leu a mente de um guarda e sabe que há rubídio em Jigau",
+    "source": "dm"
+  },
+  {
+    "from": "c-alonne-frith",
+    "to": "f-culto-ceratos",
+    "type": "memberOf",
+    "label": "Crocudos: cultista de Ceratos, estudioso do Far Realm de Rotthold; considera-se o único a compreender a verdadeira ameaça de Ceratos",
+    "source": "dm"
+  },
+  {
+    "from": "c-alonne-frith",
+    "to": "c-velnari-zeth",
+    "type": "knows",
+    "label": "Crocudos (S17): fica à guarda do arcanista em Jigau e toma chá com ele; as notas de Velnari mencionam Fritz",
+    "fromBeat": "b-1-fritz-velnari",
+    "source": "dm"
+  },
+  {
+    "from": "c-alonne-frith",
+    "to": "c-pellinost",
+    "type": "enemy",
+    "label": "Crocudos: cobaia relutante das experiências do Padre Perestrelo no Forte Ventura",
+    "untilBeat": "b-0-return-to-urzin",
+    "source": "dm"
+  },
+  {
+    "from": "c-nessa-brilho-leve",
+    "to": "c-avandra",
+    "type": "serves",
+    "label": "Crocudos: clériga de Avandra; medalhão de prata de Avandra encontrado no resgate",
+    "source": "dm"
+  },
+  {
+    "from": "c-nessa-brilho-leve",
+    "to": "c-filha-de-korrem",
+    "type": "protects",
+    "label": "Crocudos (S6): curou-lhe a exaustão com Greater Restoration",
+    "fromBeat": "b-1-journey-day2-wastewalkers",
+    "source": "dm"
+  },
+  {
+    "from": "c-korrem-olha-ruina",
+    "to": "c-filha-de-korrem",
+    "type": "family",
+    "label": "Crocudos: pai; esconde culpa por a ter deixado brincar nas margens do Ifolon",
+    "source": "dm"
+  },
+  {
+    "from": "c-isha-sem-vela",
+    "to": "c-filha-de-korrem",
+    "type": "family",
+    "label": "Crocudos: mãe; insistiu em procurar ajuda externa",
+    "source": "dm"
+  },
+  {
+    "from": "c-relk-po-dagua",
+    "to": "c-korrem-olha-ruina",
+    "type": "serves",
+    "label": "Crocudos: soldado leal e inseguro; deixou escapar que o clã procurava ajuda para a filha do líder",
+    "source": "dm"
+  },
+  {
+    "from": "c-zhayra-racha-pedra",
+    "to": "c-korrem-olha-ruina",
+    "type": "serves",
+    "label": "Crocudos: batedora; lidera a escolta até Jigau",
+    "source": "dm"
+  },
+  {
+    "from": "c-irvan-wastewalker",
+    "to": "c-korrem-olha-ruina",
+    "type": "knows",
+    "label": "Crocudos: Ivo é do Clã Cinza-Viva (os Caminhantes-dos-Desterros) e reconheceu o amuleto do clã em Filipe (S18)",
+    "source": "dm"
+  },
+  {
+    "from": "c-velnari-zeth",
+    "to": "c-galsariad-ardyth",
+    "type": "family",
+    "label": "Crocudos: tio; manda o sobrinho corrompido para Bazzoxan ao cuidado de Vorrim",
+    "source": "dm"
+  },
+  {
+    "from": "c-velnari-zeth",
+    "to": "c-myriad-jigow-fence",
+    "type": "knows",
+    "label": "Crocudos: compra-lhe amostras de rubídio no mercado negro; Ilyra tem acesso ao laboratório",
+    "source": "dm"
+  },
+  {
+    "from": "c-velnari-zeth",
+    "to": "f-kryn",
+    "type": "memberOf",
+    "label": "Crocudos: arcanista da Dinastia; Conservatório da Cúpula de Mármore, Den Thelyss",
+    "source": "dm"
+  },
+  {
+    "from": "c-velnari-zeth",
+    "to": "c-elder-ushru",
+    "type": "rival",
+    "label": "Crocudos: ambos pedem fragmentos aos PCs: usar vs erradicar",
+    "fromBeat": "b-1-ushru-vs-velnari",
+    "source": "dm"
+  },
+  {
+    "from": "c-velnari-zeth",
+    "to": "c-alonne-frith",
+    "type": "protects",
+    "label": "Crocudos: toma Fritz à sua guarda; chá na Sala de Reuniões",
+    "fromBeat": "b-1-fritz-velnari",
+    "untilBeat": "b-1-velnari-confrontation",
+    "source": "dm"
+  },
+  {
+    "from": "c-durth-mirimm",
+    "to": "c-velnari-zeth",
+    "type": "protects",
+    "label": "Crocudos: cobre o laboratório; quer o potencial bélico do rubídio",
+    "source": "dm"
+  },
+  {
+    "from": "c-belana-zolaed",
+    "to": "c-velnari-zeth",
+    "type": "knows",
+    "label": "Crocudos: trata-o no templo depois do confronto; \"Agora é que as coisas ficaram interessantes\"",
+    "fromBeat": "b-1-velnari-confrontation",
+    "source": "dm"
+  },
+  {
+    "from": "c-belana-zolaed",
+    "to": "c-grok-e-verran",
+    "type": "protects",
+    "label": "Crocudos: esconde Verran (e o pescador corrompido) no 1.º andar do templo",
+    "fromBeat": "b-1-ifolon-plunge",
+    "source": "dm"
+  },
+  {
+    "from": "c-belana-zolaed",
+    "to": "f-aurora-watch",
+    "type": "ally",
+    "label": "Crocudos: a Vigia guarda a porta do templo e escolta os doentes para lá",
+    "fromBeat": "b-1-luxon-coverup",
+    "source": "dm"
+  },
+  {
+    "from": "c-nessa-brilho-leve",
+    "to": "c-belana-zolaed",
+    "type": "knows",
+    "label": "Crocudos: ajuda no templo com os doentes; avisa os PCs do que lá se passa",
+    "source": "dm"
+  },
+  {
+    "from": "c-nibuk",
+    "to": "f-myriad",
+    "type": "memberOf",
+    "label": "Crocudos: recrutador; guarda os fragmentos no Sapo Afogado",
+    "source": "dm"
+  },
+  {
+    "from": "c-nibuk",
+    "to": "c-myriad-jigow-fence",
+    "type": "serves",
+    "label": "Crocudos: fornecedor de Ilyra; entrega codificada \"trazer o copo rachado\"",
+    "source": "dm"
+  },
+  {
+    "from": "c-os-orelhudos",
+    "to": "c-nibuk",
+    "type": "serves",
+    "label": "Crocudos: 1 po por fragmento; espiam os PCs",
+    "source": "dm"
+  },
+  {
+    "from": "c-os-orelhudos",
+    "to": "f-myriad",
+    "type": "memberOf",
+    "label": "Crocudos: por sobrevivência, não por convicção",
+    "source": "dm"
+  },
+  {
+    "from": "c-nippi-dente-largo",
+    "to": "c-os-orelhudos",
+    "type": "family",
+    "label": "Crocudos: irmã de Zuttu, o líder dos Orelhudos",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-jigow-fence",
+    "to": "f-cerberus-assembly",
+    "type": "knows",
+    "label": "Crocudos: vende também à Cerberus por comerciantes marítimos",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-jigow-fence",
+    "to": "c-velnari-zeth",
+    "type": "serves",
+    "label": "Crocudos: vende amostras ao arcanista para se manter útil à Dinastia",
+    "source": "dm"
+  },
+  {
+    "from": "c-sarna-kul",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: tenente das Águas-da-Carne; corrupto",
+    "source": "dm"
+  },
+  {
+    "from": "c-kren-vorith",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: tenente do Molho",
+    "source": "dm"
+  },
+  {
+    "from": "c-yezek-miruun",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: tenente dos Passadiços",
+    "source": "dm"
+  },
+  {
+    "from": "c-ze-e-felix",
+    "to": "c-sarna-kul",
+    "type": "knows",
+    "label": "Crocudos: apontam-no como contacto corrupto",
+    "source": "dm"
+  },
+  {
+    "from": "c-elder-colbu-kaz",
+    "to": "c-bolbara",
+    "type": "loves",
+    "label": "Crocudos: caso amoroso na juventude",
+    "source": "dm"
+  },
+  {
+    "from": "c-vars",
+    "to": "c-elder-colbu-kaz",
+    "type": "serves",
+    "label": "Crocudos: serve-o discretamente; concurso de bebida na Caça ao Tesouro",
+    "source": "dm"
+  },
+  {
+    "from": "c-keyeki",
+    "to": "c-elder-colbu-kaz",
+    "type": "serves",
+    "label": "Crocudos: pago com 5 pp para vigiar o Ifolon",
+    "source": "dm"
+  },
+  {
+    "from": "c-sharpwatch",
+    "to": "c-elder-colbu-kaz",
+    "type": "knows",
+    "label": "Crocudos: sabe da pista escondida no labirinto",
+    "source": "dm"
+  },
+  {
+    "from": "c-bruno-massapao",
+    "to": "c-agathe-silverspoon",
+    "type": "ally",
+    "label": "Crocudos: ajuda-a todos os anos a fazer as tartes do festival",
+    "source": "dm"
+  },
+  {
+    "from": "c-bruno-massapao",
+    "to": "c-rafael-e-samara-rosbife",
+    "type": "family",
+    "label": "Crocudos: primos, ambos do ramo dos Picanha-Pato em Jigau",
+    "source": "dm"
+  },
+  {
+    "from": "c-rafael-e-samara-rosbife",
+    "to": "c-regimia-rosbife",
+    "type": "family",
+    "label": "Crocudos: tia-avó, doente de rubídio",
+    "source": "dm"
+  },
+  {
+    "from": "c-rafael-e-samara-rosbife",
+    "to": "c-beetle-and-zag",
+    "type": "ally",
+    "label": "Crocudos: trabalham juntos nos arrozais (no doc Nóia e Chispa; na mesa Zesca e Fitas)",
+    "source": "dm"
+  },
+  {
+    "from": "c-zinka",
+    "to": "c-verema-brisa-mansa",
+    "type": "serves",
+    "label": "Crocudos: ajudante no Templo de Melora",
+    "source": "dm"
+  },
+  {
+    "from": "c-elder-ushru",
+    "to": "c-durahk-braco-de-ferro",
+    "type": "knows",
+    "label": "Crocudos: Ushru é do clã Norgab, liderado por Durahk",
+    "source": "dm"
+  },
+  {
+    "from": "c-durahk-braco-de-ferro",
+    "to": "f-aurora-watch",
+    "type": "ally",
+    "label": "Crocudos: ex-mestre de forja da Vigia; o clã Norgab tem relação directa com a Vigia",
+    "source": "dm"
+  },
+  {
+    "from": "c-kolgar-gurt",
+    "to": "c-tia-mukka-zetek",
+    "type": "ally",
+    "label": "Crocudos: cuidam juntos do Orfanato da Casca Quente",
+    "source": "dm"
+  },
+  {
+    "from": "c-tia-mukka-zetek",
+    "to": "c-litcha-das-cinzas",
+    "type": "serves",
+    "label": "Crocudos: o orfanato é do clã Zetek, liderado por Litcha",
+    "source": "dm"
+  },
+  {
+    "from": "c-verema-brisa-mansa",
+    "to": "c-litcha-das-cinzas",
+    "type": "knows",
+    "label": "Crocudos: o clã Zetek gere o Templo de Melora",
+    "source": "dm"
+  },
+  {
+    "from": "c-grok-e-verran",
+    "to": "f-aurora-watch",
+    "type": "enemy",
+    "label": "Crocudos: Grok protesta quando a Vigia leva Verran",
+    "fromBeat": "b-1-ifolon-plunge",
+    "source": "dm"
+  },
+  {
+    "from": "c-rabbak-quebra-tabua",
+    "to": "f-aurora-watch",
+    "type": "enemy",
+    "label": "Crocudos: despreza a Vigia; quer o cais sem interferência",
+    "source": "dm"
+  },
+  {
+    "from": "c-galsariad-ardyth",
+    "to": "c-velnari-zeth",
+    "type": "serves",
+    "label": "Crocudos: parte para Bazzoxan com os contactos do tio",
+    "fromBeat": "b-1-ushru-vs-velnari",
+    "source": "dm"
+  },
+  {
+    "from": "c-nok-nok-racha-dentes",
+    "to": "c-chekka-falha-remos",
+    "type": "serves",
+    "label": "Crocudos: timoneiro do Trinca-Rabos",
+    "source": "dm"
+  },
+  {
+    "from": "c-bukka-sem-medo",
+    "to": "c-chekka-falha-remos",
+    "type": "serves",
+    "label": "Crocudos: convés do Trinca-Rabos",
+    "source": "dm"
+  },
+  {
+    "from": "c-grelka-dente-largo",
+    "to": "c-chekka-falha-remos",
+    "type": "serves",
+    "label": "Crocudos: cozinheira do Trinca-Rabos",
+    "source": "dm"
+  },
+  {
+    "from": "c-kiri-kiri-da-vela-alta",
+    "to": "c-chekka-falha-remos",
+    "type": "serves",
+    "label": "Crocudos: vigia do Trinca-Rabos; morre no gigante (S23)",
+    "source": "dm"
+  },
+  {
+    "from": "c-susana-deep-scion",
+    "to": "c-aboleth-do-mar",
+    "type": "serves",
+    "label": "Crocudos: Deep Scion ao serviço do aboleth; finge-se náufraga",
+    "source": "dm"
+  },
+  {
+    "from": "c-dragao-branco-adulto",
+    "to": "c-gigante-da-tempestade",
+    "type": "enemy",
+    "label": "Crocudos: o gigante ataca o dragão no iceberg; o dragão foge",
+    "source": "dm"
+  },
+  {
+    "from": "c-darguun-velk",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: veterano; sobrevivente das Ruínas da Saudade",
+    "source": "dm"
+  },
+  {
+    "from": "c-grumak",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: veterano; sobrevivente das Ruínas da Saudade",
+    "source": "dm"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "c-aloysia-telfan",
+    "type": "knows",
+    "label": "Crocudos: ambos na patrulha das Ruínas da Saudade; ela recolhe rubídio à vista dele",
+    "source": "dm",
+    "fromBeat": "b-2-ruins-outside-bazzoxan"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "c-darguun-velk",
+    "type": "knows",
+    "label": "Crocudos: colegas de patrulha; memórias modificadas",
+    "source": "dm",
+    "fromBeat": "b-2-ruins-outside-bazzoxan"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "c-grumak",
+    "type": "knows",
+    "label": "Crocudos: colegas de patrulha; memórias modificadas",
+    "source": "dm",
+    "fromBeat": "b-2-ruins-outside-bazzoxan"
+  },
+  {
+    "from": "c-kael-rhun",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: guarda",
+    "source": "dm"
+  },
+  {
+    "from": "c-lirien-solva",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: guarda",
+    "source": "dm"
+  },
+  {
+    "from": "c-kael-rhun",
+    "to": "c-myriad-bazzoxan-contact",
+    "type": "serves",
+    "label": "Crocudos: guarda comprado pela Míriade; fica sempre entre Tingus e a ameaça",
+    "source": "dm"
+  },
+  {
+    "from": "c-lirien-solva",
+    "to": "c-myriad-bazzoxan-contact",
+    "type": "serves",
+    "label": "Crocudos: guarda comprada pela Míriade; ainda acredita na Vigia",
+    "source": "dm"
+  },
+  {
+    "from": "c-rolo-wellington",
+    "to": "c-myriad-bazzoxan-contact",
+    "type": "knows",
+    "label": "Crocudos: vende-lhe em segredo rubídio dos túneis",
+    "source": "dm"
+  },
+  {
+    "from": "c-vazia",
+    "to": "c-rolo-wellington",
+    "type": "protects",
+    "label": "Crocudos: pede ajuda quando Rolo não acorda; encontra-lhe as pedras vermelhas",
+    "source": "dm"
+  },
+  {
+    "from": "c-gruusk",
+    "to": "c-vazia",
+    "type": "knows",
+    "label": "Crocudos: recebem juntos os recém-chegados",
+    "source": "dm"
+  },
+  {
+    "from": "c-karesh-asa-rubra",
+    "to": "c-verin-thelyss",
+    "type": "serves",
+    "label": "Crocudos: capitã da Vigia em Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-karesh-asa-rubra",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: capitã",
+    "source": "dm"
+  },
+  {
+    "from": "c-nara-sol",
+    "to": "f-myriad",
+    "type": "knows",
+    "label": "Crocudos: investiga a Míriade e o rubídio; confirma uma ligação \"Sorriso Dourado\"/Míriade (menção)",
+    "source": "dm"
+  },
+  {
+    "from": "c-talan-velyar",
+    "to": "c-nara-sol",
+    "type": "ally",
+    "label": "Crocudos: os bardos da Maré de Fogo",
+    "source": "dm"
+  },
+  {
+    "from": "c-vorzen",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: soldado corrompido",
+    "source": "dm"
+  },
+  {
+    "from": "c-vorrim",
+    "to": "c-velnari-zeth",
+    "type": "knows",
+    "label": "Crocudos: nomeado nas Notas do Arcanista; recebe o sobrinho corrompido e as amostras",
+    "source": "dm"
+  },
+  {
+    "from": "c-vorrim",
+    "to": "c-galsariad-ardyth",
+    "type": "protects",
+    "label": "Crocudos: recebe o \"sobrinho corrompido\" de Velnari em Bazzoxan",
+    "source": "dm",
+    "fromBeat": "b-3-vorrim"
+  },
+  {
+    "from": "c-vorrim",
+    "to": "f-kryn",
+    "type": "memberOf",
+    "label": "Crocudos: arcanista da Dinastia em Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-levir",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos: quartel; armaria",
+    "source": "dm"
+  },
+  {
+    "from": "c-murmuradores",
+    "to": "f-aurora-watch",
+    "type": "enemy",
+    "label": "Crocudos: atacam a entrada de Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-myriad-bazzoxan-contact",
+    "to": "f-kryn",
+    "type": "wantsFrom",
+    "label": "Crocudos: saber quem roubou o artefacto aos Kryn e para onde foi",
+    "source": "dm",
+    "fromBeat": "b-3-tingus"
+  },
+  {
+    "from": "c-culto-esquecido",
+    "to": "c-aboleth-do-mar",
+    "type": "knows",
+    "label": "Crocudos: \"um mestre dorme\"; ligação sugerida, não confirmada",
+    "source": "dm",
+    "condition": "só se o DM ligar o altar ao aboleth"
+  }
+]
