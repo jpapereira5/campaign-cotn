@@ -139,11 +139,12 @@
       "c-perigee",
       "f-rivals"
     ],
-    "summary": "PROPOSTA (Reddit, fan-made). A um dia de Bazzoxan, logo após Ruidus cheia, os PCs dão com ruínas cristalinas de onde sai névoa e saem demónios: seis soldados da Aurora Watch, dois deles caídos a esvair-se, aguentam um hezrou, um draegloth e um babau escondido. A névoa traz mais vagas (babau, draegloth, 4-6 wretched; outro hezrou; por fim \"The Lonely\") e ataca a mente com acções de covil; os rivais chegam a meio; uma das acções de covil é substituída pela visão da morte de Perigee. Libertar as energias do centro fecha a brecha. PROPOSTA: Aloysia Telfan veio com a patrulha, \"como perita em folclore\", e observa quem é atingido pela visão; é o primeiro encontro com ela.",
+    "summary": "PROPOSTA (Reddit, fan-made). A um dia de Bazzoxan, logo após Ruidus cheia, os PCs dão com ruínas cristalinas de onde sai névoa e saem demónios: seis soldados da Aurora Watch, dois deles caídos a esvair-se, aguentam um hezrou, um draegloth e um babau escondido. A névoa traz mais vagas (babau, draegloth, 4-6 wretched; outro hezrou; por fim \"The Lonely\") e ataca a mente com acções de covil; os rivais chegam a meio; uma das acções de covil é substituída pela visão da morte de Perigee. Libertar as energias do centro fecha a brecha. DM: Aloysia Telfan veio com a patrulha, \"como perita em folclore\", observa quem é atingido pela visão e leva uma lasca do ruidium do centro; é o primeiro encontro com ela.",
     "reveals": [
       "r-perigee",
       "r-faction-agendas",
-      "r-alyxian-bad-luck"
+      "r-alyxian-bad-luck",
+      "r-ruidium-apotheon-sites"
     ],
     "requires": [
       "b-2-journey",
@@ -173,26 +174,26 @@
       },
       {
         "label": "Contar a Aloysia o que viram",
-        "outcome": "PROPOSTA. Fica fixada na Jóia desde já (o estado do livro, antecipado) e combina \"falamos no Ready Room\".",
+        "outcome": "DM: Fica fixada na Jóia desde já (o estado do livro, antecipado) e combina \"falamos no Ready Room\".",
         "leadsTo": [
           "b-3-aloysia-offer"
         ]
       },
       {
         "label": "Não lhe contar nada",
-        "outcome": "PROPOSTA. Aloysia guarda a curiosidade; a oferta em Bazzoxan começa fria e é só a do livro.",
+        "outcome": "DM: Aloysia guarda a curiosidade; a oferta em Bazzoxan começa fria e é só a do livro.",
         "leadsTo": [
           "b-3-aloysia-offer"
         ]
       },
       {
         "label": "Os rivais chegam a meio (após 3 acções de covil)",
-        "outcome": "PROPOSTA. Princípio da Oposição: discordam do plano dos PCs (salvar os guardas primeiro vs. fechar a brecha primeiro); o tom depende da atitude.",
+        "outcome": "DM: Princípio da Oposição: discordam do plano dos PCs (salvar os guardas primeiro vs. fechar a brecha primeiro); o tom depende da atitude.",
         "leadsTo": []
       }
     ],
     "timer": "Presságios ao longo do dia após Ruidus cheia (maldição secreta: Cha save DC 18, a descer); caídos morrem em 2 turnos; vaga 2 depois da ronda 2; hezrou extra depois da ronda 3; rivais depois de 3 acções de covil",
-    "notes": "PROPOSTA (Reddit, fan-made; ver o Google Doc do post). Maldição de Ruidus: secreta, ao acordar depois de Ruidus cheia; presságios durante o dia; Cha save DC 18 para a sacudir, com o DC a descer a cada presságio. Ronda 1: hezrou + draegloth + babau escondido; dois soldados a 0 hp morrem em 2 turnos se ninguém os estabilizar. Depois da ronda 2: vaga 2 (babau, draegloth, 4-6 wretched) e as acções de covil da névoa, uma por ronda: Cha DC 13 ou 2d6 necrótico e hp máximo reduzido; Wis DC 13 ou tristeza (desvantagem); Int DC 13 ou hordas ilusórias. Depois da ronda 3: outro hezrou. Depois de 3 acções de covil: chegam os rivais. Uma acção de covil é substituída pela visão (b-2-vision-perigee-death). Vaga 3: \"The Lonely\" (statblock a definir pelo DM). Libertar as energias do centro acaba com as invocações. Mapa: centro onde Perigee morreu e de onde sai a névoa; árvore morta; elevações de 10 e 15 ft. Recompensa: 50 gp; se todos os guardas sobreviverem, alojamento grátis no Ready Room e desconto. PROPOSTA (Aloysia): veio com a patrulha que Verin mandou às ruínas quando a névoa começou a parir demónios, convencendo-o a levá-la \"como perita em folclore\"; o Consortium, obcecado com Ruidus, quer saber o que acorda ali depois de Ruidus cheia. Não luta na linha: fica na elevação de 15 ft com os feridos, com os tablets de teleporte e o pergaminho de earthquake (livro) como saída de emergência, e observa quem é atingido pela visão; no fim pergunta \"o que viram?\" (Insight/Deception). O agente Volstrucker não aparece aqui (mantém a surpresa em R16). Opcional, a decidir pelo DM: um filamento carmesim (ruidium) no cristal do centro, de que Aloysia leva uma lasca (pista para r-ruidium-apotheon-sites). Alternativas para Aloysia: chega no fim com os rivais; ou já estava nas ruínas, ferida, antes da patrulha.",
+    "notes": "PROPOSTA (Reddit, fan-made; ver o Google Doc do post). Maldição de Ruidus: secreta, ao acordar depois de Ruidus cheia; presságios durante o dia; Cha save DC 18 para a sacudir, com o DC a descer a cada presságio. Ronda 1: hezrou + draegloth + babau escondido; dois soldados a 0 hp morrem em 2 turnos se ninguém os estabilizar. Depois da ronda 2: vaga 2 (babau, draegloth, 4-6 wretched) e as acções de covil da névoa, uma por ronda: Cha DC 13 ou 2d6 necrótico e hp máximo reduzido; Wis DC 13 ou tristeza (desvantagem); Int DC 13 ou hordas ilusórias. Depois da ronda 3: outro hezrou. Depois de 3 acções de covil: chegam os rivais. Uma acção de covil é substituída pela visão (b-2-vision-perigee-death). Vaga 3: \"The Lonely\" (DM: o Sorrowsworn oficial de Mordenkainen's Tome of Foes / Monsters of the Multiverse, CR 9; os guardas sobreviventes e os rivais ajudam a aguentá-lo). Libertar as energias do centro acaba com as invocações. Mapa: centro onde Perigee morreu e de onde sai a névoa; árvore morta; elevações de 10 e 15 ft. Recompensa: 50 gp; se todos os guardas sobreviverem, alojamento grátis no Ready Room e desconto. DM (Aloysia): veio com a patrulha que Verin mandou às ruínas quando a névoa começou a parir demónios, convencendo-o a levá-la \"como perita em folclore\"; o Consortium, obcecado com Ruidus, quer saber o que acorda ali depois de Ruidus cheia. Não luta na linha: fica na elevação de 15 ft com os feridos, com os tablets de teleporte e o pergaminho de earthquake (livro) como saída de emergência, e observa quem é atingido pela visão; no fim pergunta \"o que viram?\" (Insight/Deception). O agente Volstrucker não aparece aqui (mantém a surpresa em R16). DM: no cristal do centro, onde Perigee caiu e Alyxian recebeu a segunda bênção, há um filamento carmesim de ruidium; Aloysia leva uma lasca (é o que o Consortium queria; pista para r-ruidium-apotheon-sites). Os PCs também podem tirar uma amostra, com o DC 20 Charisma save do livro se a usarem.",
     "source": "dm"
   },
   {
@@ -548,7 +549,7 @@
   },
   {
     "id": "b-3-aloysia-offer",
-    "notes": "PROPOSTA (Remix). Investigador como revelação: Aloysia pode estar na estalagem, a exigir soldados a Verin, ou a tratar um ferimento na enfermaria. Escuta as conversas dos PCs com os outros dois. DM: Já a conheceram nas Ruins of Sorrow (b-2-ruins-outside-bazzoxan). PROPOSTA: duas aberturas: se os PCs salvaram os guardas ou lhe contaram a visão, abre quente e já obcecada pela Jóia; senão, abre fria e é só a oferta do livro."
+    "notes": "PROPOSTA (Remix). Investigador como revelação: Aloysia pode estar na estalagem, a exigir soldados a Verin, ou a tratar um ferimento na enfermaria. Escuta as conversas dos PCs com os outros dois. DM: Já a conheceram nas Ruins of Sorrow (b-2-ruins-outside-bazzoxan). DM: duas aberturas: se os PCs salvaram os guardas ou lhe contaram a visão, abre quente e já obcecada pela Jóia; senão, abre fria e é só a oferta do livro."
   },
   {
     "id": "b-4-choose-faction",
@@ -577,6 +578,6 @@
   },
   {
     "id": "b-2-arrival-bazzoxan",
-    "notes": "Terminar o capítulo no portão: o cap. 3 abre com os gibbering mouthers assim que entram. Maryl Bronzefang regressa ao posto — pode ser a cara conhecida no portão. PROPOSTA. Se vierem das Ruins of Sorrow com a patrulha, é o ramo \"Chegar com escolta\": Verin já sabe o que fizeram nas ruínas (e se os guardas voltaram vivos)."
+    "notes": "Terminar o capítulo no portão: o cap. 3 abre com os gibbering mouthers assim que entram. Maryl Bronzefang regressa ao posto — pode ser a cara conhecida no portão. DM: Se vierem das Ruins of Sorrow com a patrulha, é o ramo \"Chegar com escolta\": Verin já sabe o que fizeram nas ruínas (e se os guardas voltaram vivos)."
   }
 ]

@@ -33,7 +33,7 @@
     "from": "c-aloysia-telfan",
     "to": "f-aurora-watch",
     "type": "knows",
-    "label": "PROPOSTA. veio com a patrulha de Verin às Ruins of Sorrow, \"como perita em folclore\"",
+    "label": "DM: veio com a patrulha de Verin às Ruins of Sorrow, \"como perita em folclore\"",
     "fromBeat": "b-2-ruins-outside-bazzoxan",
     "source": "dm"
   },
@@ -41,7 +41,7 @@
     "from": "c-aloysia-telfan",
     "to": "c-perigee",
     "type": "wantsFrom",
-    "label": "PROPOSTA. quer saber o que acorda nas Ruins of Sorrow, o sítio onde a deva morreu",
+    "label": "DM: quer saber o que acorda nas Ruins of Sorrow, o sítio onde a deva morreu; leva de lá uma lasca de ruidium",
     "fromBeat": "b-2-ruins-outside-bazzoxan",
     "source": "dm"
   }
