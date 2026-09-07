@@ -1,34 +1,34 @@
 [
   {
-    "from": "c-salomao-quebra-sol",
+    "from": "c-olomao-quebra-sol",
     "to": "c-buhfal",
     "type": "ally",
-    "label": "Crocudos: lideram Urzin juntos; Salomão preside e decide, Bufal quer ocupar o forte e mostrar força",
+    "label": "Crocudos: lideram Urzin juntos; Olomão preside e decide, Bufal quer ocupar o forte e mostrar força",
     "source": "dm"
   },
   {
     "from": "c-buhfal",
-    "to": "c-salomao-quebra-sol",
+    "to": "c-olomao-quebra-sol",
     "type": "ally",
-    "label": "Crocudos: senta-se à esquerda de Salomão no conselho; aceita a sua liderança",
+    "label": "Crocudos: senta-se à esquerda de Olomão no conselho; aceita a sua liderança",
     "source": "dm"
   },
   {
-    "from": "c-salomao-quebra-sol",
+    "from": "c-olomao-quebra-sol",
     "to": "c-bolbara",
     "type": "ally",
     "label": "Crocudos: \"a Bolbara é fundamental em ajudar-nos a apaziguar / mediar os conflitos\"; a Dinastia respeita as tradições goblin através dela",
     "source": "dm"
   },
   {
-    "from": "c-salomao-quebra-sol",
+    "from": "c-olomao-quebra-sol",
     "to": "f-kryn",
     "type": "memberOf",
     "label": "Crocudos: presença da Dinastia em Urzin; sabe o que é rubídio e que surgiu em território Kryn",
     "source": "dm"
   },
   {
-    "from": "c-salomao-quebra-sol",
+    "from": "c-olomao-quebra-sol",
     "to": "c-durth-mirimm",
     "type": "knows",
     "label": "Crocudos: envia-lhe os PCs, a carta e o rubídio em segredo: \"confiem apenas em Duarte Mirim, mais ninguém\"",

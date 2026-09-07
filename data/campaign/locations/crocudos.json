@@ -317,5 +317,21 @@
     "chapter": "ch2",
     "summary": "Crocudos: Aldeia costeira a 3 dias de barco de Jigau, destino de um navio de velas negras oferecido no Sapo Afogado por Zé e Félix (S15). Só menção; nunca visitada. Fio solto.",
     "source": "dm"
+  },
+  {
+    "id": "l-bazzoxan",
+    "summary": "Crocudos (Notion): Um civil para quatro soldados; 80% drow, o resto orcs, hobgoblins, bugbears e outras gentes de Jorhás; recursos escassos, não se partilha facilmente. À noite, pequenas luzes verdes arcanas e patrulhas por todo o lado; lei marcial, recolher obrigatório às 20h (pôr do sol). A Vigia fala undercommon entre si. Hierarquia: o Intendente Verin Thelyss e três Capitães do Crepúsculo: Karesh \"Asa Rubra\" Du'Raal (protecção: defesa, vigia, patrulha), Vorrin \"Olho Cinza\" Daelith (incursões e arcana) e Ornessa \"Tia Vurk\" Vurk'enal (logística, curas, reforços). História: Bazzoxan é o nome do templo; há cerca de 100 anos os demónios saídos dele destruíram a cidade que os colonos erguiam à volta; minas de ferro, escavações, ponto estratégico; agora um impasse, com recursos divididos para leste por causa do Império."
+  },
+  {
+    "id": "l-bazzoxan-gate",
+    "summary": "Crocudos (Notion): Portões da Umbra, muralha com 50 metros de altura, oca por dentro (guarnição, camas, armas, mantimentos); soldados percorrem o topo. Grusk \"Quebra-Sangue\", guarda orc, recebe quem chega (\"Mais mercenários? Precisamos de toda a ajuda que conseguirmos\") e manda Vazia levá-los ao Intendente. Muitas barricadas à volta e dentro dos túneis que levam à Ascensão."
+  },
+  {
+    "id": "l-bazzoxan-abandoned-house",
+    "name": "Casa abandonada (Aloysia)",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "summary": "Crocudos (Notion, Diário de Comando de Verin): Aloysia chegou há quatro dias e hospedou-se numa casa abandonada, sob vigia da Vigia da Aurora. Bazzoxan tem muitas casas rachadas e abandonadas; o DM ponderou pôr lá também o Volstrucker.",
+    "source": "dm"
   }
 ]

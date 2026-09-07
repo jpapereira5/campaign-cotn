@@ -1,7 +1,7 @@
 [
   {
-    "id": "c-salomao-quebra-sol",
-    "name": "Salomão Quebra-Sol (Sunbreaker Olomon)",
+    "id": "c-olomao-quebra-sol",
+    "name": "Olomão Quebra-Sol (Sunbreaker Olomon)",
     "kind": "npc",
     "factions": [
       "f-kryn"
@@ -2250,6 +2250,35 @@
       "grupo",
       "orcs",
       "encontro"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-reynard-allerton",
+    "name": "Reinaldo Do-Vale"
+  },
+  {
+    "id": "c-sebastian-allerton",
+    "name": "Sebastião Do-Vale"
+  },
+  {
+    "id": "c-nela",
+    "name": "Nela",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-ready-room",
+    "chapters": [
+      "ch3"
+    ],
+    "summary": "Crocudos (Notion): Cozinheira orc da Estalagem do Soldado Caído; com Vazia e Rolo trata do turno da noite (bar, comida, estalagem); o casal drow trata do dia.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "crocudos",
+      "bazzoxan"
     ],
     "source": "dm"
   }

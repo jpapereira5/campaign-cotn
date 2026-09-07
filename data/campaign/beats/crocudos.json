@@ -10,14 +10,14 @@
     "order": 82,
     "location": "l-urzin",
     "participants": [
-      "c-salomao-quebra-sol",
+      "c-olomao-quebra-sol",
       "c-buhfal",
       "c-bolbara",
       "c-alonne-frith",
       "f-kryn",
       "f-dwendalian-empire"
     ],
-    "summary": "Crocudos: Os PCs atravessam as pontes suspensas entre as tartarugas-horizonte até à sala do conselho. Salomão Quebra-Sol (minotauro, armadura de prata) preside; à esquerda Bufal II, de braços cruzados; à direita Bolbara, cansada mas recuperada. O forte está vazio graças aos PCs e há que decidir: Bufal quer ocupá-lo (\"Império só entende força\"); Bolbara quer destruí-lo para comprar tempo e não desperdiçar vidas numa armadilha, lembrando as outras tribos do pântano que esperam fraquezas; Salomão expõe os dois lados (ocupar enfraquece Urzin até chegarem reforços da Dinastia; destruir perde uma posição estratégica) e deixa a decisão nos PCs. Depois: uma tartaruga-do-horizonte parte no dia seguinte para Jigau para os levar e trazer mantimentos e soldados; leva também Alone Fritz, com quem \"a Dinastia gostava de ter uma palavra\"; Salomão promete recompensa através do Intendente Duarte Mirim; Bufal nomeia-os representantes de Urzin no Festival do Mérito; Bolbara anuncia a festa: \"Queremos que o pântano lembre o vosso esforço.\" Crocudos (S3): o grupo opinou que Urzin devia ocupar o forte; escolheram o nome Crocudos.",
+    "summary": "Crocudos: Os PCs atravessam as pontes suspensas entre as tartarugas-horizonte até à sala do conselho. Olomão Quebra-Sol (minotauro, armadura de prata) preside; à esquerda Bufal II, de braços cruzados; à direita Bolbara, cansada mas recuperada. O forte está vazio graças aos PCs e há que decidir: Bufal quer ocupá-lo (\"Império só entende força\"); Bolbara quer destruí-lo para comprar tempo e não desperdiçar vidas numa armadilha, lembrando as outras tribos do pântano que esperam fraquezas; Olomão expõe os dois lados (ocupar enfraquece Urzin até chegarem reforços da Dinastia; destruir perde uma posição estratégica) e deixa a decisão nos PCs. Depois: uma tartaruga-do-horizonte parte no dia seguinte para Jigau para os levar e trazer mantimentos e soldados; leva também Alone Fritz, com quem \"a Dinastia gostava de ter uma palavra\"; Olomão promete recompensa através do Intendente Duarte Mirim; Bufal nomeia-os representantes de Urzin no Festival do Mérito; Bolbara anuncia a festa: \"Queremos que o pântano lembre o vosso esforço.\" Crocudos (S3): o grupo opinou que Urzin devia ocupar o forte; escolheram o nome Crocudos.",
     "reveals": [
       "r-kryn-vs-empire"
     ],
@@ -27,7 +27,7 @@
     "choices": [
       {
         "label": "Ocupar o Forte Ventura",
-        "outcome": "Crocudos: Salomão pede reforços a Jigau e a Rosohna; guerreiros de Urzin vão para o forte e a aldeia fica mais fraca até chegarem. Consequência prevista pelo DM: o Império ataca Urzin (a carta a Targost fala de tropas imperiais a norte).",
+        "outcome": "Crocudos: Olomão pede reforços a Jigau e a Rosohna; guerreiros de Urzin vão para o forte e a aldeia fica mais fraca até chegarem. Consequência prevista pelo DM: o Império ataca Urzin (a carta a Targost fala de tropas imperiais a norte).",
         "leadsTo": [
           "b-0-departure"
         ]
@@ -40,12 +40,12 @@
         ]
       }
     ],
-    "notes": "Crocudos: No texto do conselho a tartaruga seria liderada por Varek Garras-de-Aço (hobgoblin), \"chamado a participar depois da tomada de decisão\"; na secção da viagem o comandante é Dhurak Pé-Reto. Manter Dhurak (foi o que se jogou) ou usar Varek como o nome que Salomão diz no conselho. O dilema ocupar/destruir e o ataque do Império a Urzin são a semente do Acto do Império (a definir).",
+    "notes": "Crocudos: No texto do conselho a tartaruga seria liderada por Varek Garras-de-Aço (hobgoblin), \"chamado a participar depois da tomada de decisão\"; na secção da viagem o comandante é Dhurak Pé-Reto. Manter Dhurak (foi o que se jogou) ou usar Varek como o nome que Olomão diz no conselho. O dilema ocupar/destruir e o ataque do Império a Urzin são a semente do Acto do Império (a definir).",
     "source": "dm"
   },
   {
     "id": "b-0-salomao-rubidio",
-    "title": "Salomão reconhece o rubídio",
+    "title": "Olomão reconhece o rubídio",
     "arcs": [
       "a-prologue",
       "a-ruidium",
@@ -55,11 +55,11 @@
     "order": 84,
     "location": "l-urzin",
     "participants": [
-      "c-salomao-quebra-sol",
+      "c-olomao-quebra-sol",
       "c-durth-mirimm",
       "f-kryn"
     ],
-    "summary": "Crocudos: Em Urzin ninguém reconhece o cristal vermelho de Fritz por aquilo que é: acham que é uma pedra preciosa valiosa (não há joalheiros). Se o mostrarem a alguém, acabam convocados em privado por Salomão depois do conselho: pede a todos os outros líderes para saírem e, com ar pesado, pergunta onde o encontraram e o que sabem. \"Esse cristal chama-se rubídio, começou a surgir em territórios controlados pela Dinastia Kryn. Ninguém mais aqui sabe disto, e prefiro que assim permaneça.\" Pede que o levem em segredo a Duarte Mirim em Jigau, que os recompensará; que não lhe toquem (\"Algum de vocês tocou nele? Não? Óptimo, mantenham-se assim\"); que confiem só em Duarte, porque há muita gente curiosa e perigosa em Jigau durante o festival. \"O futuro de Urzin e de Jorhas pode depender do que decidirem fazer.\"",
+    "summary": "Crocudos: Em Urzin ninguém reconhece o cristal vermelho de Fritz por aquilo que é: acham que é uma pedra preciosa valiosa (não há joalheiros). Se o mostrarem a alguém, acabam convocados em privado por Olomão depois do conselho: pede a todos os outros líderes para saírem e, com ar pesado, pergunta onde o encontraram e o que sabem. \"Esse cristal chama-se rubídio, começou a surgir em territórios controlados pela Dinastia Kryn. Ninguém mais aqui sabe disto, e prefiro que assim permaneça.\" Pede que o levem em segredo a Duarte Mirim em Jigau, que os recompensará; que não lhe toquem (\"Algum de vocês tocou nele? Não? Óptimo, mantenham-se assim\"); que confiem só em Duarte, porque há muita gente curiosa e perigosa em Jigau durante o festival. \"O futuro de Urzin e de Jorhas pode depender do que decidirem fazer.\"",
     "reveals": [
       "r-ruidium-properties"
     ],
@@ -69,7 +69,7 @@
     "choices": [
       {
         "label": "Aceitar levar o cristal a Duarte Mirim em segredo",
-        "outcome": "Crocudos: recompensa prometida pela Dinastia; a carta de Salomão (b-0-departure) reforça o pedido.",
+        "outcome": "Crocudos: recompensa prometida pela Dinastia; a carta de Olomão (b-0-departure) reforça o pedido.",
         "leadsTo": [
           "b-0-departure"
         ]
@@ -82,7 +82,7 @@
         ]
       }
     ],
-    "notes": "Crocudos: Salomão diz o nome \"rubídio\" pela primeira vez na campanha. Bolbara, em contraste, leva o cristal ao Templo das Cinzas para ouvir Melora (b-0-bolbara-legend).",
+    "notes": "Crocudos: Olomão diz o nome \"rubídio\" pela primeira vez na campanha. Bolbara, em contraste, leva o cristal ao Templo das Cinzas para ouvir Melora (b-0-bolbara-legend).",
     "source": "dm"
   },
   {
@@ -251,7 +251,7 @@
       },
       {
         "label": "Esconder o cristal de Bolbara",
-        "outcome": "Crocudos: só Salomão sabe (b-0-salomao-rubidio).",
+        "outcome": "Crocudos: só Olomão sabe (b-0-salomao-rubidio).",
         "leadsTo": [
           "b-0-departure"
         ]
@@ -306,7 +306,7 @@
     "order": 98,
     "location": "l-urzin",
     "participants": [
-      "c-salomao-quebra-sol",
+      "c-olomao-quebra-sol",
       "c-bolbara",
       "c-nisla-asa-curta",
       "c-nevoa-vendor",
@@ -315,7 +315,7 @@
       "c-tripulacao-passo-lento",
       "c-durth-mirimm"
     ],
-    "summary": "Crocudos: No dia seguinte à festa e à visão, a caravana (uma tartaruga-do-horizonte guiada por goblinóides e protegida por membros da Vigia da Aurora) parte de Urzin para Jigau: 3 dias pelos Desterros de Jorhas, com paragens nocturnas em pequenos oásis. Missão tripla: representar Urzin no Festival do Mérito, escoltar Alone Fritz até à Dinastia e entregar a carta de Salomão ao Intendente Duarte Mirim (diz o que fizeram por Urzin e pela Dinastia Kryn, que são os representantes de Urzin e pede-lhes alojamento na semana do festival). Despedidas: os pais Adalberto e Framboesa Picanha-Pato (a bisavó Arminda; primos Rosbife e Massapão em Jigau; mais um bolo de cenoura; cada pai pede a um filho que cuide do outro; 20 po para dividir); a criança da festa despede-se de Rakent; o Pombal envia a mensagem para Targost, em Thieves' Cant (\"Um pardal assobiou entre as telhas partidas. Se era segredo ou saudade, o vento levou. - M.\" = \"O teu nome voltou a ser mencionado, mais não sei\"; na realidade fala de movimento de tropas imperiais a norte). Dhurak Pé-Reto: \"Corações, estão aqui como passageiros mas também como reforço e protecção.\" Crocudos (S5): Flor comprou cogumelos \"Solo Vivo\" na Névoa do Brejo; dia de chuva; Elga conversou com Fritz (manchas vermelhas nos pulsos).",
+    "summary": "Crocudos: No dia seguinte à festa e à visão, a caravana (uma tartaruga-do-horizonte guiada por goblinóides e protegida por membros da Vigia da Aurora) parte de Urzin para Jigau: 3 dias pelos Desterros de Jorhas, com paragens nocturnas em pequenos oásis. Missão tripla: representar Urzin no Festival do Mérito, escoltar Alone Fritz até à Dinastia e entregar a carta de Olomão ao Intendente Duarte Mirim (diz o que fizeram por Urzin e pela Dinastia Kryn, que são os representantes de Urzin e pede-lhes alojamento na semana do festival). Despedidas: os pais Adalberto e Framboesa Picanha-Pato (a bisavó Arminda; primos Rosbife e Massapão em Jigau; mais um bolo de cenoura; cada pai pede a um filho que cuide do outro; 20 po para dividir); a criança da festa despede-se de Rakent; o Pombal envia a mensagem para Targost, em Thieves' Cant (\"Um pardal assobiou entre as telhas partidas. Se era segredo ou saudade, o vento levou. - M.\" = \"O teu nome voltou a ser mencionado, mais não sei\"; na realidade fala de movimento de tropas imperiais a norte). Dhurak Pé-Reto: \"Corações, estão aqui como passageiros mas também como reforço e protecção.\" Crocudos (S5): Flor comprou cogumelos \"Solo Vivo\" na Névoa do Brejo; dia de chuva; Elga conversou com Fritz (manchas vermelhas nos pulsos).",
     "reveals": [],
     "requires": [
       "b-0-urzin-council"
@@ -508,7 +508,7 @@
       "c-zhayra-racha-pedra",
       "f-aurora-watch"
     ],
-    "summary": "Crocudos: Fritz segue para Jigau para ser interrogado por Duarte Mirim, porque o grupo disse a Salomão que o cristal veio dele ou porque a Vigia descobriu manchas vermelhas \"suspeitas\" nas mãos dele. Vigiado por Vetra e Dozak, de mãos atadas e cobertas, ri-se e dá respostas vagas: \"O que vocês estariam dispostos a fazer por poder? Poder para curar, poder para matar, poder para dobrar o destino à tua vontade?\"; telepaticamente a um PC: \"Eu sei que vocês o têm. Diz-me, não estás curioso?\", \"Achas que é por acaso que estamos a ir na mesma direcção?\", \"Eu repensaria quem é que está aqui preso com quem.\" Combate: um gloomstalker (Large aberration, NE; AC 16, HP 112; voo 60 ft; imune a medo; multiattack +7: mordida 2d10+4, garras 2d6+4, cauda 2d8+4 com alcance 10 ft) ataca a caravana; a tartaruga tem AC 22 e 227 HP; a tripulação, Nessa, Relk e Zhayra combatem. Crocudos (S7): o gloomstalker agarrou Relk e deixou-o cair (0 HP, curado); Elga usou o rubídio 2x e ficou com 1 nível de corrupção, telepatia e a palma vermelha; Fritz lançou mage armor (AC 14) preso; ataram o gloomstalker à tartaruga e recolheram pele (poção de invisibilidade), sangue (poção de escuridão), 3 garras (adagas) e um olho (darkvision).",
+    "summary": "Crocudos: Fritz segue para Jigau para ser interrogado por Duarte Mirim, porque o grupo disse a Olomão que o cristal veio dele ou porque a Vigia descobriu manchas vermelhas \"suspeitas\" nas mãos dele. Vigiado por Vetra e Dozak, de mãos atadas e cobertas, ri-se e dá respostas vagas: \"O que vocês estariam dispostos a fazer por poder? Poder para curar, poder para matar, poder para dobrar o destino à tua vontade?\"; telepaticamente a um PC: \"Eu sei que vocês o têm. Diz-me, não estás curioso?\", \"Achas que é por acaso que estamos a ir na mesma direcção?\", \"Eu repensaria quem é que está aqui preso com quem.\" Combate: um gloomstalker (Large aberration, NE; AC 16, HP 112; voo 60 ft; imune a medo; multiattack +7: mordida 2d10+4, garras 2d6+4, cauda 2d8+4 com alcance 10 ft) ataca a caravana; a tartaruga tem AC 22 e 227 HP; a tripulação, Nessa, Relk e Zhayra combatem. Crocudos (S7): o gloomstalker agarrou Relk e deixou-o cair (0 HP, curado); Elga usou o rubídio 2x e ficou com 1 nível de corrupção, telepatia e a palma vermelha; Fritz lançou mage armor (AC 14) preso; ataram o gloomstalker à tartaruga e recolheram pele (poção de invisibilidade), sangue (poção de escuridão), 3 garras (adagas) e um olho (darkvision).",
     "reveals": [
       "r-ruidium-properties"
     ],
@@ -553,7 +553,7 @@
       "c-zhayra-racha-pedra",
       "f-aurora-watch"
     ],
-    "summary": "Crocudos: Chegada a Jigau, a cidade em preparação para o festival. Vêem uma caravana de Vigias da Aurora a começar a partir para Urzin (os reforços que Salomão pediu para o forte). Crocudos (S7–S8): viram uma tartaruga apinhada de soldados drow na direcção oposta; Elga despediu-se de Fritz; Targost \"saltou\" a meio da entrada na cidade e não voltou; Nessa foi procurar um templo/hospital onde fosse precisa (Flor foi com ela); Rakent vendeu a carcaça do gloomstalker ao Talho do Corte-Grosso por 15 po; reunião com o Intendente.",
+    "summary": "Crocudos: Chegada a Jigau, a cidade em preparação para o festival. Vêem uma caravana de Vigias da Aurora a começar a partir para Urzin (os reforços que Olomão pediu para o forte). Crocudos (S7–S8): viram uma tartaruga apinhada de soldados drow na direcção oposta; Elga despediu-se de Fritz; Targost \"saltou\" a meio da entrada na cidade e não voltou; Nessa foi procurar um templo/hospital onde fosse precisa (Flor foi com ela); Rakent vendeu a carcaça do gloomstalker ao Talho do Corte-Grosso por 15 po; reunião com o Intendente.",
     "reveals": [],
     "requires": [
       "b-1-journey-day3-gloomstalker"
@@ -694,7 +694,7 @@
   },
   {
     "id": "b-0-return-to-urzin",
-    "notes": "Os PCs chegam a Jigow a nível 3. Se Bol'bara sobreviveu, guardá-la como seer que pode reaparecer (visões, Luxon, Irvan). Semear aqui a fama junto da Kryn. Crocudos (S2–S3): Bolbara possuída foi confrontada no pântano e derrotada inconsciente; de regresso a Urzin, Fritz foi entregue à custódia da Vigia da Aurora e cada PC recebeu 50 po; Salomão Quebra-Sol voltou mais cedo por causa do forte. Na Crocudos, o que se segue em Urzin (conselho, lojas, festa, visão, rubídio, partida) está nos beats 82–98."
+    "notes": "Os PCs chegam a Jigow a nível 3. Se Bol'bara sobreviveu, guardá-la como seer que pode reaparecer (visões, Luxon, Irvan). Semear aqui a fama junto da Kryn. Crocudos (S2–S3): Bolbara possuída foi confrontada no pântano e derrotada inconsciente; de regresso a Urzin, Fritz foi entregue à custódia da Vigia da Aurora e cada PC recebeu 50 po; Olomão Quebra-Sol voltou mais cedo por causa do forte. Na Crocudos, o que se segue em Urzin (conselho, lojas, festa, visão, rubídio, partida) está nos beats 82–98."
   },
   {
     "id": "b-1-jigau-arrival-intendente",
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S28). Complementa b-2-arrival-bazzoxan. A visão nas muralhas não está transcrita nos registos.",
+    "notes": "Crocudos (S28): Ao ver as muralhas (50 m), visão da Bazzoxan original e do tempo a passar sobre ela; Wisdom save DC 18. Beau avisa por Sending que há uma agente da Alma Cobalto, nome de código \"Questão\", vinda do Templo da Mentora em Ank'Harel. Ace fez detect magic a Aloysia: ilusão, um cilindro de evocação e tablets de conjuração. Grusk, na muralha: \"Zyn'thar, Darguun, Grumak… Os outros? Vou avisar a enfermaria. Vocês, identifiquem-se!\" — Zyn'thar: \"Amigos da Dinastia!\" — Grusk: \"Mais mercenários? Precisamos de toda a ajuda que conseguirmos.\" Vazia leva-os ao quartel do bastião.",
     "source": "dm"
   },
   {
@@ -1430,7 +1430,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S29). Pode substituir ou anteceder b-3-mouthers. Statblocks dos Murmuradores não registados.",
+    "notes": "Crocudos (S29): Combate à entrada com os orcs Murmuradores Urza Vokh e Grash Korr'thak (fichas no Notion); Verin aparece com 2 guardas no turno seguinte. Texto de abertura do DM: cinco gibbering mouthers infiltrados; trombetas; \"Recrutas? Não há tempo para apresentações — empunhem as armas ou procurem abrigo! Encontrem-me no quartel depois!\".",
     "source": "dm"
   },
   {
@@ -1478,7 +1478,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S31–S32, S39). Versão da mesa de b-3-ready-room-question e da colocação dos investigadores (b-3-researchers-in-town). O ataque de Vor'zen (b-3-vorzen-attack) rebenta aqui na mesma noite.",
+    "notes": "Crocudos (S31–S32): Diário de Comando de Verin (handout em docs/handouts.md) lista os forasteiros: Aloysia (há 4 dias, casa abandonada, sob vigia), \"Questão\" (ajuda a vigiar Aloysia), Prolix (hospedado na estalagem), Alone Fritz (\"estudioso de Decrepola\", pediu acesso ao laboratório), \"mercadores de Urzin\" (Míriade). Na estalagem: Prolix (envergonhado, carisma não é o forte; objectivos: vigiar Aloysia e investigar a origem do rubídio e a relação com a Calamidade; sabe que há rubídio em Ank'Harel; paga 100 po adiantados e mais 200 se descobrirem as intenções de Aloysia); Fritz à mesa com Aloysia; a Maré de Fogo actua — Nara Sol: elfa de pele morena reluzente, careca, olhos âmbar, casaco de couro vermelho-escuro com costuras douradas, lenço alaranjado, lira de madeira escura com cordas douradas, brinco de meia-lua; chamas acendem-se-lhe no topo da cabeça ao tocar; \"Boa noite, Bazzoxan… onde até as sombras precisam de ouvir uma canção\" / \"Para os que vigiam, para os que choram, e para os que não podem dormir\" / \"Se a noite é longa, então vamos acendê-la\". Nara e Talan são do Sorriso Dourado e estão em Bazzoxan a investigar a Míriade (mensagem do Sorriso Dourado: \"A Lira arde em Bazzoxan, para iluminar a sombra da Miríade. O Rubídio sonha.\"). Aloysia sai acompanhada; Fritz vai para o quarto; o Volstrucker segue o grupo fingindo-se soldado de Verin.",
     "source": "dm"
   },
   {
@@ -1519,7 +1519,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S30, S35). A ligação \"Sorriso Dourado\"/Míriade confirmada por Nara (S33) fica só como menção.",
+    "notes": "Crocudos (S30): Uma aarakocra bordô aterra perto de Verin e ambos partem em direcções distintas. Bazzoxan \"vibra com actividade\": limpam escombros do último ataque, tratam feridos, últimos ritos, reparam fortificações. Na enfermaria curam-se e recebem um token para deixar no muro dos nomes (o coelho de olho-de-tigre de Naevyn Tasithar, do livro). No Quartel do Portão, entrevista de Verin com Zone of Truth. Beau: há um Volstrucker em Bazzoxan.",
     "source": "dm"
   },
   {
@@ -1563,7 +1563,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S32, S35–S36). Quinta pista de r-myriad-route. Tingus diz mais tarde que os PCs lhe eliminaram \"um dos principais clientes\" (S41).",
+    "notes": "Crocudos (S35–S36, Notion): Rolo \"Well\" Wellington, 15 anos, halfling órfão, sardento, cabelo encaracolado castanho, vive no \"quarto das caixas\" no celeiro; faz de tudo e mete o nariz onde não deve; idolatra aventureiros (\"um dia também vou para a Rise!\"); frase típica: \"Posso guardar as vossas armas, prometo que só brinco um bocadinho!\"; secretamente mensageiro de um agente da Míriade, sem saber o perigo; ideia do DM: mãos enfaixadas ou manchas vermelhas — tenta juntar dinheiro para sair de Bazzoxan com Vazia, que não sabe. Vazia da Uva: halfling adulta, pequena, cabelo ruivo preso num lenço colorido, fala alto, ri-se com facilidade, trata soldados e heróis da mesma maneira, sente um dever para com esta terra; mãe adoptiva de Rolo. Vazia pede ajuda porque Rolo tem febre e não acorda; encontrou-lhe pedras vermelhas no bolso (dos túneis; vendia-as a \"alguém\" em Bazzoxan). No Templo de Avandra (árvore antiga ao meio, mensagens nas alcovas), Fugon vai à estalagem e usa Greater Restoration.",
     "source": "dm"
   },
   {
@@ -1633,7 +1633,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S32–S34). Regras da mesa: Grito do Apoteão (habilidade de corrupção nível 3: CHA save DC 8+prof+CHA, 1d8 psíquico × nível de corrupção + 1d4 emoção) e pontos de insanidade (docs/regras.md, a passar). Mostra que há soldados da Vigia infectados.",
+    "notes": "Crocudos (S32): Vor'zen é o sobrevivente do grupo de \"Questão\" que voltou corrompido; fugiu da enfermaria / laboratório arcano. Gritos na rua em undercommon (\"NÃO! POR FAVOR, VOR'ZEN, PARA!\"), depois silêncio; a porta explode para dentro; ligaduras rasgadas com pus rosado, olhos avermelhados, veias vermelhas grossas, bolhas, pequenos cristais de rubídio a brotar da pele e a estalar; \"Não… não era suposto. Eu… eu tentei… PORQUÊ?! A dor… a dor… a DOR!\"; o chão racha com linhas vermelhas; a voz muda, profunda e ecoante: Grito do Apoteão (quem falha ganha insanidade; Vazia e Rolo inconscientes, Nara só chora, Talan inconsciente). Fritz, telepaticamente: \"Elga, não faças nada!\" e segura-o com Hold Person. Vorrin chega dois turnos depois.",
     "source": "dm"
   },
   {
@@ -1664,7 +1664,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S33, S41). Liga a c-velnari-zeth (rascunho de outro agente) e à pesquisa Kryn do rubídio (b-3-bazzoxan-research).",
+    "notes": "Crocudos (S33): Vorrin \"Olho Cinza\" Daelith, Capitão do Crepúsculo (incursões e arcana), chega ao fim do combate, usa Vortex Warp em Vor'zen, agradece e sai por Dimension Door; em undercommon manda selar a estalagem, tratar os feridos e chamar enfermeiros (Zyn'thar orienta as operações). Salvaram toda a gente.",
     "source": "dm"
   },
   {
@@ -1745,7 +1745,7 @@
         ]
       }
     ],
-    "notes": "Crocudos (S40–S41). O \"artefacto roubado aos Kryn\" é a versão da mesa de r-beacon-in-barracks. Um PC que a siga arrisca-se a ser apanhado por guardas da Aurora. A ligação pessoal de Tingus a um PC da Crocudos fica de fora.",
+    "notes": "Crocudos (S40, Notion): a agente da Míriade (tabaxi; na página do Notion chama-se Surira, no doc da campanha Tingus da Chuva) aborda um dos PCs a meio da cidade e pergunta se está ali para ajudar ou para pagar o que deve. Crocudos (Notion, prep): \"1 contrabandista homem-gato (ligação com a gaja pálida de Jigau)\" — a ligação Tingus ↔ Ilyra Céu-Pálido está prevista.",
     "source": "dm"
   },
   {
@@ -1781,11 +1781,52 @@
         ]
       }
     ],
-    "notes": "Crocudos (S38, S41).",
+    "notes": "Crocudos (S38): Acordo com Verin: explorar a Ascensão em troca de não serem presos/mortos. Notas do DM: Verin manda chamá-los para pedir novidades sobre o Volstrucker; sem novidades, encaminha-os para a Ascensão; sabe que \"Questão\" voltou e está no templo. Crocudos (S39–S40): Prolix partilha o que sabe e apresenta Iliana; a Maré de Fogo vai tocar no quartel para animar os soldados.",
     "source": "dm"
   },
   {
     "id": "b-3-basilica",
     "notes": "Os nove símbolos apresentam os Betrayer Gods para o epílogo do capítulo 7 (as ofertas dos deuses traidores se Alyxian for libertado). Crocudos: R9 \"Basílica da Folia\" (S43–S46): 4 chamas dançantes (succubus/incubus alterado, garra = fogo); dançar (Acrobatics/Performance DC 12) faz a chama tocar o símbolo seguinte do mosaico de vitral com 9 símbolos (Asmodeus coroa de cornos, Bane mangual, Gruumsh olho, Lolth aranha, Zehir serpente, Tharizdun espiral, Vecna mão com olho, Torog trio de braços, Tiamat garra); sequência certa Lolth → Gruumsh → Tharizdun → Torog; símbolo errado: WIS DC 16 ou 8d6 psíquico; partir o vitral (STR 12; AC 11/10 HP): WIS DC 20 ou maldição sem cura; repara-se em 1 h. Sala pentagonal adjacente (a definir pelo DM; o que lá estava na Crocudos fica de fora)."
+  },
+  {
+    "id": "b-3-volstrucker-assault",
+    "title": "Assalto nocturno do Volstrucker",
+    "arcs": [
+      "a-cerberus",
+      "a-kryn"
+    ],
+    "chapter": "ch3",
+    "order": 85,
+    "location": "l-ready-room",
+    "participants": [
+      "c-volstrucker-agent",
+      "c-karesh-asa-rubra",
+      "f-aurora-watch"
+    ],
+    "summary": "Crocudos (S34–S35): De noite, alguém disfarçado de soldado da Vigia \"enviado por Verin\" (na verdade o Volstrucker) segue o grupo e tenta roubar-lhe um item. Habilidades usadas: Shadow Needle (bónus, recarga 5–6, alvo a 9 m, WIS DC 14, falha 3d6 psíquico e incapacitado 1 ronda) e Shadow Step (1/descanso, teleporte de 9 m em escuridão ou penumbra, seguido de Hide). O assaltante foge em direcção à Ascensão; é perseguido e morto; o disguise self cai e revela uma humana ruiva de feições delicadas, olhos revirados, espuma na boca e veias negras; um selo arcano na nuca mata-a no instante e apaga-lhe a memória. Karesh \"Asa Rubra\" chega e leva o corpo.",
+    "reveals": [
+      "r-assembly-buys-ruidium"
+    ],
+    "requires": [
+      "b-3-vorzen-attack"
+    ],
+    "choices": [
+      {
+        "label": "Perseguir o assaltante",
+        "outcome": "Crocudos: apanhado antes da Ascensão; morre pelo selo arcano; o corpo revela o disfarce.",
+        "leadsTo": [
+          "b-3-caderno-volstrucker"
+        ]
+      },
+      {
+        "label": "Deixá-lo fugir",
+        "outcome": "O Volstrucker fica à solta com o que roubou e volta pelo que falta (o caderno).",
+        "leadsTo": [
+          "b-3-caderno-volstrucker"
+        ]
+      }
+    ],
+    "notes": "Crocudos (Notion, notas do DM para a S35): \"Zynthar morreu durante o ataque à estalagem. O corpo está no crematório. O Volstrucker anda à solta. Ele vai procurar atar a loose end: o seu caderno.\" O registo não esclarece se a assaltante ruiva e o Volstrucker \"Zyn'thar\" são a mesma pessoa: na nova campanha o DM decide (o caderno só se lê com dispel magic, S39). Depois do assalto: Verin manda-os interrogar, descobre-lhes os itens mágicos e fala de rubídio (aftermath planeado).",
+    "source": "dm"
   }
 ]
