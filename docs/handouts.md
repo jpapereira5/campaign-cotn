@@ -100,3 +100,18 @@ Sending recebido por um agente do Sorriso Dourado em Bazzoxan (sotaque de leste)
 
 Grusk "Quebra-Sangue", do alto da muralha: *"Zyn'thar, Darguun, Grumak… Os outros? Vou avisar a enfermaria. Vocês, identifiquem-se!"* — *"Amigos da Dinastia!"* — *"Mais mercenários? Precisamos de toda a ajuda que conseguirmos."* — *"Vazia, leva-os ao Intendente. Bem-vindos a Bazzoxan, se é que se pode dizer isso… Venham, o quartel do bastião é por aqui."*
 
+## Caderno Volstrucker — versão do Notion (diferenças)
+
+Versão anterior à "versão final" já em handouts.md; o que acrescenta (no patch de `f-cerberus-assembly`): datas (834, 836, 837, 841, 842, 843 P.D.); Entrada 2 reporta a **Oremid Hass**; Entrada 3 sob o comando do **Inquisidor Perestrelo**, supervisão geral de **Elaina Lehmen**; Entrada 4 autorização de **Lletys do Brilho (Brighthall)**; Entrada 6 "canal Brighthall", "Envio R-III / Canal do Brilho", **"considerar eliminação de Verin Thelyss"**, reencontro com **Oremid Hass em Marquet**, lista de facções inclui "Culto do Dragão" e "Crocudos". Excluído por decisão do DM: Entrada 5 (Jigau, 842), o intermediário "Jack Sparrow" e o nome "Granito Serra-Dura" (Entrada 2). Nota da página: "Preciso de mecânica de magic ink".
+
+## Balada do "deus a meio caminho" — Crocudos (Notion, página de Iliana "Questão")
+
+Tradução em português da balada do livro (com uma versão "em undercommon" inventada pelo DM, não transcrita):
+
+> No fundo onde a pedra escuta e o lume não ousa, / Cantam-se passos de alguém sem nome nem pousa. / Nem deus, nem pó — no meio ficou, / Quando a guerra partiu o céu e o mundo sangrou.
+>
+> Três vozes antigas beberam-lhe o peito, / Deram-lhe chama, deram-lhe peso, deram-lhe jeito. / Não foi coroado, não foi negado, / Ficou alto demais para ser lembrado.
+>
+> Marchou na Queda, sob chuva de cinza, / Com olhos de noite e promessa indecisa. / A lâmina cantou, a terra cedeu, / E o quase-divino quase morreu.
+>
+> Agora o nome não dizemos — dói, / Pois quem anda no meio nunca é herói. / Entre luz e abismo, o eco persiste: / Há deuses inteiros. Há o que existe.

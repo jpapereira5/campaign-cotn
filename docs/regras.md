@@ -507,3 +507,17 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 - **Wall of Ice:** ???
 - **Wall of Thorns:** N/A
 - **Wind Walk:** N/A
+
+## Variantes e acrescentos do Notion — Crocudos (DM)
+
+O export do Notion do DM traz variantes às regras acima (a mesa usou umas e outras em momentos diferentes; o DM decide qual fica):
+
+- **Marcas na Alma (página "Marcas na Alma")** — acrescenta: a marca rola-se **ao falhar um saving throw contra corrupção** (1d8, mesma tabela de regras.md); os efeitos **desaparecem após um long rest**.
+- **Exposição prolongada (mesma página)** — regras.md diz que "o documento não tem regra separada"; o Notion tem: após 1 dia inteiro de exposição contínua, **Charisma DC 5, +5 por cada dia**; falha = marca na alma temporária até ao próximo long rest; **nat 1** pode desencadear visões com impacto narrativo (flashbacks, memórias corrompidas).
+- **Rubídio (página "Rubídio", categoria Rubídio)** — é a tradução da regra do livro (CHA save por potência; falha = 1 nível de exaustão + corrompido; 1d10 psíquico sempre que a exaustão sobe ou desce), com a tabela de sinais físicos **desfasada de um nível face a regras.md**: 2 erupção, 3 veias, 4 bolhas/pústulas, 5 protuberâncias de cristal, 6 protuberâncias maiores, **7 morte** (regras.md: 1–6). "Rubídio 259a…" é só um título (Categoria: Regra).
+- **Grito do Abismo / Ecos da Ruína (ficha de Vorzen)** — variante da mesa: Grito com **Wisdom save** (CD 8 + prof + mod. CAR) e dano 1d8 psíquico × **nível de exaustão** (regras.md: CHA save × nível de corrupção); Ecos com **figuras = 1 + nível de exaustão** (0 → 1 … 5 → 6; regras.md: = nível de corrupção). Olhos de Sangue na ficha é **acção** (regras.md: acção bónus) e vê "vultos vermelhos" através de 5 ft de matéria.
+- **Medalhão (Jóia das 3 Preces)** — estados Dormant/Awakened/Exalted iguais ao livro. Acrescento do DM: **quem consumir suude e tocar no medalhão tem visões na primeira pessoa da vida de Alyxian, no sítio mais próximo onde estiver.**
+- **Obelisco Negro** — mecânica temporal e Explosão Necromântica já no patch de `l-obelisco-negro`; acrescento: **visão com suude vermelho** junto ao obelisco (quatro figuras encapuçadas a erguê-lo; uma quinta, alta, com um único olho a brilhar — Vecna/Aeor).
+- **Funerais (categoria Regra)** — guião de DM ao estilo Matt Mercer: pausa de tom, perspectiva múltipla (cada jogador tem o seu momento), símbolos pessoais, impacto futuro, espaço para improviso; estrutura: 1 A Chegada, 2 O Ritual (Luxon / Kord / Ioun), 3 As Palavras, 4 O Símbolo Final (flores ao rio, pira, objecto enterrado, música), 5 O Silêncio. (Usado no funeral de Kiri-Kiri, S24.)
+- **Arqueiro da Vigia da Aurora (nível 4)** — statblock da mesa (Jigau, S20), resumido no patch de `f-aurora-watch`.
+- **Agente Volstrucker (EGtW p. 294)** — statblock canónico CR 7 guardado como referência (resumido no patch de `c-volstrucker-agent`).

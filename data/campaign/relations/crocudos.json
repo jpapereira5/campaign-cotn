@@ -689,5 +689,160 @@
     "label": "Crocudos: \"um mestre dorme\"; ligação sugerida, não confirmada",
     "source": "dm",
     "condition": "só se o DM ligar o altar ao aboleth"
+  },
+  {
+    "from": "c-ornessa-tia-vurk",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): Capitã do Crepúsculo (logística, curas, reforços) da guarnição de Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-ornessa-tia-vurk",
+    "to": "c-verin-thelyss",
+    "type": "serves",
+    "label": "Crocudos (Notion): uma das três capitãs sob o Intendente",
+    "source": "dm"
+  },
+  {
+    "from": "c-karesh-asa-rubra",
+    "to": "c-vorrim",
+    "type": "ally",
+    "label": "Crocudos (Notion): os três Capitães do Crepúsculo de Bazzoxan (com Ornessa)",
+    "source": "dm"
+  },
+  {
+    "from": "c-vorrim",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): Capitão de Incursões Externas e Investigação Arcana",
+    "source": "dm"
+  },
+  {
+    "from": "c-vorrim",
+    "to": "c-verin-thelyss",
+    "type": "serves",
+    "label": "Crocudos (Notion): capitão sob o Intendente",
+    "source": "dm"
+  },
+  {
+    "from": "c-urza-vokh",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): soldada orc, \"Sentinela das Escarpas\"",
+    "source": "dm"
+  },
+  {
+    "from": "c-grash-korrthak",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): soldado orc; ronda até aos portões ocidentais",
+    "source": "dm"
+  },
+  {
+    "from": "c-sulo",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): drow da Vigia em Bazzoxan (página só com título)",
+    "source": "dm"
+  },
+  {
+    "from": "c-gruusk",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): guarda orc da entrada; escudo da Vigia com o Luxon",
+    "source": "dm"
+  },
+  {
+    "from": "c-vazia",
+    "to": "f-aurora-watch",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): halfling ao serviço da Vigia; escudo com o emblema da Aurora",
+    "source": "dm"
+  },
+  {
+    "from": "c-vazia",
+    "to": "c-rolo-wellington",
+    "type": "family",
+    "label": "Crocudos (Notion): adoptou Rolo, órfão dos Wellington",
+    "source": "dm"
+  },
+  {
+    "from": "c-duasad-keef",
+    "to": "f-sorriso-dourado",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): um dos membros mais respeitados; guia e curador psíquico",
+    "source": "dm"
+  },
+  {
+    "from": "c-nara-sol",
+    "to": "f-sorriso-dourado",
+    "type": "memberOf",
+    "label": "Crocudos (Notion): agente \"Lira de Fogo\" da célula de Ank'Harel",
+    "source": "dm"
+  },
+  {
+    "from": "c-nara-sol",
+    "to": "f-myriad",
+    "type": "spiesOn",
+    "label": "Crocudos (Notion): observa discretamente operações suspeitas da Míriade em Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-nara-sol",
+    "to": "c-talan-velyar",
+    "type": "protects",
+    "label": "Crocudos (Notion): quer manter Talan fora de perigo e preservar o disfarce do duo; ele não sabe do Sorriso Dourado",
+    "source": "dm"
+  },
+  {
+    "from": "c-talan-velyar",
+    "to": "c-nara-sol",
+    "type": "protects",
+    "label": "Crocudos (Notion): protege-a discretamente; \"Nara, menos fogo — mais foco!\"",
+    "source": "dm"
+  },
+  {
+    "from": "c-nara-sol",
+    "to": "f-aurora-watch",
+    "type": "knows",
+    "label": "Crocudos (Notion): o duo Maré de Fogo foi contratado pela Vigia da Aurora em Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-volstrucker-agent",
+    "to": "c-verin-thelyss",
+    "type": "enemy",
+    "label": "Crocudos (Notion): Caderno (Rede Rubra): \"considerar eliminação de Verin Thelyss caso surja oportunidade clara\"",
+    "condition": "só se surgir oportunidade clara para desestabilizar a organização local",
+    "source": "dm"
+  },
+  {
+    "from": "c-question",
+    "to": "c-ioun",
+    "type": "serves",
+    "label": "Crocudos (Notion): devota de Ioun (conhecimento, verdade, memória)",
+    "source": "dm"
+  },
+  {
+    "from": "c-gigante-da-tempestade",
+    "to": "c-dragao-branco-adulto",
+    "type": "enemy",
+    "label": "Crocudos (Notion): \"Emboscada no Iceberg\": ataca Gelidon de surpresa e expulsa-o",
+    "source": "dm"
+  },
+  {
+    "from": "c-chekka-falha-remos",
+    "to": "f-dwendalian-empire",
+    "type": "enemy",
+    "label": "Crocudos (Notion): rejeita qualquer missão ligada ao Império",
+    "source": "dm"
+  },
+  {
+    "from": "c-olomao-quebra-sol",
+    "to": "c-buhfal",
+    "type": "rival",
+    "label": "Crocudos (Notion): derrotou o Ogre Lorde Bufal em combate singular há cerca de 40 anos (lenda de Urzin); Bufal II lidera na sua ausência",
+    "source": "dm"
   }
 ]
