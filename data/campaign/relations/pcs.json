@@ -1,0 +1,135 @@
+[
+  {
+    "from": "c-pc-lucan",
+    "to": "c-pc-isco",
+    "type": "family",
+    "label": "irmãos; o Lucan protege-o sem lhe dizer porquê",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lucan",
+    "to": "c-baeshra",
+    "type": "serves",
+    "label": "pacto: salvação a troco de devoção",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-isco",
+    "to": "c-baeshra",
+    "type": "wantsFrom",
+    "label": "quer que faça do irmão o seu campeão (ou que o largue)",
+    "source": "dm"
+  },
+  {
+    "from": "c-vaelen-bruma",
+    "to": "c-pc-lucan",
+    "type": "family",
+    "label": "pai; expulsou-o",
+    "source": "dm"
+  },
+  {
+    "from": "c-vaelen-bruma",
+    "to": "c-pc-isco",
+    "type": "family",
+    "label": "pai; não o reconheceu",
+    "source": "dm"
+  },
+  {
+    "from": "c-yussa-errenis",
+    "to": "c-pc-lucan",
+    "type": "wantsFrom",
+    "label": "informação sobre o rubídio e o Myriad",
+    "source": "dm"
+  },
+  {
+    "from": "c-yussa-errenis",
+    "to": "c-pc-isco",
+    "type": "wantsFrom",
+    "label": "informação sobre o rubídio e o Myriad",
+    "source": "dm"
+  },
+  {
+    "from": "c-tripulante-tomado",
+    "to": "c-pc-isco",
+    "type": "betrays",
+    "label": "cortou-lhe a corda",
+    "source": "dm"
+  },
+  {
+    "from": "c-aboleto-anciao",
+    "to": "c-pc-isco",
+    "type": "knows",
+    "label": "lembra-se de o ter engolido",
+    "source": "dm"
+  },
+  {
+    "from": "c-aboleto-anciao",
+    "to": "c-pc-lucan",
+    "type": "knows",
+    "label": "a única testemunha do resgate",
+    "source": "dm"
+  },
+  {
+    "from": "f-caravana-naiat",
+    "to": "c-pc-quasi",
+    "type": "enemy",
+    "label": "amaldiçoaram-no por recusar o pacto",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-quasi",
+    "to": "f-caravana-naiat",
+    "type": "enemy",
+    "label": "quer vingar-se",
+    "source": "dm"
+  },
+  {
+    "from": "c-campeao-lua-vermelha",
+    "to": "c-pc-quasi",
+    "type": "wantsFrom",
+    "label": "prender a Besta e explorar-lhe o poder",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-quasi",
+    "to": "c-violinista-cega",
+    "type": "loves",
+    "label": "ex-amante; enlouqueceu ao sonhar com ele",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-quasi",
+    "to": "f-myriad",
+    "type": "knows",
+    "label": "pode já ter feito algum trabalho (ficha)",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lucan",
+    "to": "f-myriad",
+    "type": "knows",
+    "label": "contactos de Nicodranas (ficha)",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-isco",
+    "to": "f-myriad",
+    "type": "knows",
+    "label": "contactos de Nicodranas (ficha)",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lucan",
+    "to": "f-revelry",
+    "type": "knows",
+    "label": "piratas de Nicodranas (ficha)",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-isco",
+    "to": "f-revelry",
+    "type": "rival",
+    "label": "ex-namorada / rival num barco concorrente (ficha)",
+    "source": "dm"
+  }
+]

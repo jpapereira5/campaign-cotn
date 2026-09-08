@@ -1,0 +1,52 @@
+[
+  {
+    "id": "f-caravana-naiat",
+    "name": "A caravana Vistani do Quasi",
+    "motto": "",
+    "agenda": "cotn_2026 (ficha do jogador + notas DM na Drive). Dezenas de famílias de burlões, vendedores, artesãos e entertainers que, há gerações, mantêm um pacto com a Lua Vermelha: raptam e sacrificam ao Filho Ctónico no zigurate. Consideraram a recusa do Quasi uma traição e amaldiçoaram-no (não podem matar um dos seus). Continuam a servir a Lua Vermelha. Os seis irmãos mais velhos do Quasi (3 homens, 3 mulheres) fazem parte dela.",
+    "publicFace": "Caravana de entretenimento; feira grande o suficiente para desaparecerem pessoas sem alarido.",
+    "leaders": [],
+    "allies": [],
+    "enemies": [],
+    "portents": [],
+    "source": "dm"
+  },
+  {
+    "id": "f-scylla",
+    "name": "Tripulação do Scylla",
+    "motto": "",
+    "agenda": "cotn_2026 (ficha do jogador + notas DM na Drive). A caravela de caça do capitão Vaelen Bruma, que caça tubarões do tamanho de baleias e monstros do mar ao largo de Nicodranas. Criou os dois irmãos e expulsou-os quando voltaram mudados.",
+    "publicFace": "Barco de pesca e caça de Nicodranas.",
+    "leaders": [
+      "c-vaelen-bruma"
+    ],
+    "allies": [],
+    "enemies": [],
+    "portents": [],
+    "source": "dm"
+  },
+  {
+    "id": "f-imperio-aboleto",
+    "name": "Império aboleto (homebrew)",
+    "motto": "",
+    "agenda": "cotn_2026 (ficha do jogador + notas DM na Drive). Potência activa no fundo dos oceanos de Exandria: memória hereditária perfeita, anterior aos deuses; castas, cidades, escravos. Motivo actual: o aparecimento de rubídio em Jigau é a primeira coisa em milénios que não conhecem. Não são vilões; falam com o Isco se estiverem por perto e tentam seduzi-lo com respostas. Aparecem, querem, interferem, ficam por resolver.",
+    "publicFace": "Lendas de marinheiros; 'leviatãs'.",
+    "leaders": [],
+    "allies": [],
+    "enemies": [],
+    "portents": [],
+    "source": "dm"
+  },
+  {
+    "id": "f-revelry",
+    "name": "The Revelry (piratas)",
+    "motto": "",
+    "agenda": "cotn_2026 (ficha do jogador + notas DM na Drive). A ilha/liga de piratas que os irmãos Bruma conhecem de Nicodranas. Na ficha do Isco: uma ex-namorada ou rival na Revelry (barco concorrente?).",
+    "publicFace": "Piratas livres da Costa das Maravilhas.",
+    "leaders": [],
+    "allies": [],
+    "enemies": [],
+    "portents": [],
+    "source": "dm"
+  }
+]

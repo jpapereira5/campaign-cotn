@@ -30,5 +30,32 @@
     "color": "#7d8597",
     "order": 12,
     "summary": "DM: A Assembly recebe ruidium pelo Myriad para o esforço de guerra; o seu Volstrucker em Bazzoxan investiga o ruidium de perto e o beacon do Luxon recuperado no Betrayers' Rise."
+  },
+  {
+    "id": "a-pc-quasi",
+    "name": "Quasi: a maldição e a Lua Vermelha",
+    "kind": "pcAmbition",
+    "color": "#b58cff",
+    "ownerPc": "c-pc-quasi",
+    "order": 100,
+    "summary": "Ambições do Quasi: quebrar a maldição da máscara e vingar-se da caravana; a Lua Vermelha, o Filho Ctónico e o campeão acorrentado."
+  },
+  {
+    "id": "a-pc-lucan",
+    "name": "Lucan: o pacto com Baeshra",
+    "kind": "pcAmbition",
+    "color": "#5fb0a0",
+    "ownerPc": "c-pc-lucan",
+    "order": 101,
+    "summary": "Ambições do Lucan: perceber o que Baeshra pretende, proteger o irmão; o segredo do resgate e a dívida a Vecna."
+  },
+  {
+    "id": "a-pc-isco",
+    "name": "Isco: o leviatã e a tripulação",
+    "kind": "pcAmbition",
+    "color": "#6fa8dc",
+    "ownerPc": "c-pc-isco",
+    "order": 102,
+    "summary": "Ambições do Isco: uma tripulação, pescar o aboleto, fazer do irmão campeão; Ruidusborn, a licantropia e quem cortou a corda."
   }
 ]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "amb-quasi-maldicao",
+    "pc": "c-pc-quasi",
+    "text": "Quebrar a maldição (a máscara, a Besta de Ederlezi).",
+    "npcs": [
+      "c-campeao-lua-vermelha",
+      "c-filho-ctonico"
+    ],
+    "arcs": [
+      "a-pc-quasi",
+      "a-ruidium",
+      "a-lore"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  },
+  {
+    "id": "amb-quasi-vinganca",
+    "pc": "c-pc-quasi",
+    "text": "Vingar-se da caravana e travar os sacrifícios ao Filho Ctónico.",
+    "npcs": [
+      "c-filho-ctonico"
+    ],
+    "arcs": [
+      "a-pc-quasi"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  },
+  {
+    "id": "amb-lucan-baeshra",
+    "pc": "c-pc-lucan",
+    "text": "Perceber a ligação a Baeshra e o que ele pretende (e a quem serve).",
+    "npcs": [
+      "c-baeshra"
+    ],
+    "arcs": [
+      "a-pc-lucan",
+      "a-lore"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  },
+  {
+    "id": "amb-lucan-irmao",
+    "pc": "c-pc-lucan",
+    "text": "Proteger o irmão de si próprio (Ruidusborn, os flashes de Ruidus) sem lhe contar.",
+    "npcs": [
+      "c-pc-isco"
+    ],
+    "arcs": [
+      "a-pc-lucan",
+      "a-ruidium"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  },
+  {
+    "id": "amb-isco-monstro",
+    "pc": "c-pc-isco",
+    "text": "Pescar aquele Monstro (o aboleto ancião; 'Uk'otoa?').",
+    "npcs": [
+      "c-aboleto-anciao"
+    ],
+    "arcs": [
+      "a-pc-isco"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  },
+  {
+    "id": "amb-isco-campeao",
+    "pc": "c-pc-isco",
+    "text": "Fazer do irmão o campeão escolhido do deus dele (ou livrá-lo desse deus).",
+    "npcs": [
+      "c-baeshra",
+      "c-pc-lucan"
+    ],
+    "arcs": [
+      "a-pc-isco",
+      "a-pc-lucan"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  },
+  {
+    "id": "amb-isco-tripulacao",
+    "pc": "c-pc-isco",
+    "text": "Encontrar uma tripulação a que pertença; descobrir quem cortou a corda e porquê.",
+    "npcs": [
+      "c-tripulante-tomado"
+    ],
+    "arcs": [
+      "a-pc-isco"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  }
+]

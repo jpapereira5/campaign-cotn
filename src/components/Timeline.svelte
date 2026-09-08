@@ -30,6 +30,10 @@
 
   const focusRequires = $derived(new Set(focus ? (world.canon.beats.find((b) => b.id === focus)?.requires ?? []) : []))
 
+  const pcName = (id?: string) => {
+    const n = world.canon.characters.find((c) => c.id === id)?.name ?? 'PC'
+    return n.match(/"([^"]+)"/)?.[1] ?? n.split(' ')[0]
+  }
   function onCardClick(c: Card, e: MouseEvent) {
     e.stopPropagation()
     select('beat', c.beat.id)
@@ -76,7 +80,7 @@
       {#each layout.lanes as lane (lane.arc.id)}
         <button class="lane-label" style:height="{lane.height}px" style:border-left-color={lane.arc.color} onclick={() => select('arc', lane.arc.id)} title="{lane.arc.name} — {lane.arc.summary}">
           <span class="name">{lane.arc.name}</span>
-          <span class="muted tiny cnt" title="{lane.count} beats desta pista{lane.ghosts ? ` · ${lane.ghosts} de outras pistas que também entram aqui` : ''}">{lane.count}{#if lane.ghosts}<span class="gh"> +{lane.ghosts}•</span>{/if}</span>
+          <span class="muted tiny cnt" class:warn={lane.arc.kind === 'pcAmbition' && lane.count === 0 && lane.ghosts === 0} title="{lane.count} beats desta pista{lane.ghosts ? ` · ${lane.ghosts} de outras pistas que também entram aqui` : ''}">{lane.count}{#if lane.ghosts}<span class="gh"> +{lane.ghosts}•</span>{/if}</span>
         </button>
       {/each}
     </div>
@@ -98,6 +102,9 @@
       {#each layout.lanes as lane (lane.arc.id)}
         <line x1={0} y1={lane.y} x2={layout.width} y2={lane.y} stroke="#2a231c" />
         <rect x={0} y={lane.y} width={4} height={lane.height} fill={lane.arc.color} opacity="0.6" />
+        {#if lane.arc.kind === 'pcAmbition' && lane.count === 0 && lane.ghosts === 0}
+          <text x={14} y={lane.y + lane.height / 2 + 4} fill="#e0b04a" font-size="11" opacity="0.8">⚠ sem cena pessoal de {pcName(lane.arc.ownerPc)} neste capítulo — a semear</text>
+        {/if}
       {/each}
       <!-- agora -->
       {#if nowX > 0}

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "c-pc-quasi",
+    "name": "Quasimodo d'Clopin \"Quasi\"",
+    "kind": "pc",
+    "factions": [
+      "f-caravana-naiat"
+    ],
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7",
+      "ch8"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Silva. Humano Vistani, bardo (Lore), Entertainer, CG, 26 anos. Nasceu numa caravana Vistani que serve a Lua Vermelha com raptos e sacrifícios ao Filho Ctónico num zigurate subterrâneo; recusou participar e foi amaldiçoado para nunca ter família: aparência grotesca (ver-lhe a pele causa horror), e quem fica muito tempo perto dele passa de desconfiança a repulsa. Cobre-se por inteiro como bobo/arlequim; os antepassados deram-lhe uma máscara que suprime a maldição e atalhos pelo nevoeiro nas estradas. Sem máscara vira a Besta de Ederlezi numa dimensão de bolso (cemitério, catedral, acorrentado por um campeão da Lua Vermelha). Chegou a Urzin, vindo de Felderwin, à procura de tradições goblinóides sobre maldições. Joga 2 a 3 vezes por mês.",
+    "goal": "Quebrar a maldição. Vingar-se da caravana.",
+    "secret": "Ficha: 'boa pessoa lentamente corrompida por solidão e vingança'; sádico com tiranos e com quem comete crimes por medo. A ex-amante (violinista cega) enlouqueceu ao sonhar com a forma dele. DM: só ele julga poder tirar a máscara; tirar parcialmente = horror e amnésia em quem vê, tirar por completo = Besta e dimensão de bolso; caminhos para quebrar a maldição: a caravana original, a Lua Vermelha/rubídio, dentro do semiplano, ou salvar Alyxian (paralelismo).",
+    "wants": "Conhecimento, magia, quem tenha informação sobre maldições; ajudar pessoas sem se aproximar demasiado.",
+    "fears": "Que não haja forma de corrigir; perder-se; que descubram o que está debaixo da máscara.",
+    "states": [],
+    "tags": [
+      "pc",
+      "cotn_2026",
+      "vistani",
+      "lua-vermelha"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-pc-lucan",
+    "name": "Lucan \"Anzol\" Bruma",
+    "kind": "pc",
+    "factions": [],
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7",
+      "ch8"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Renata Surrécio. Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, N, 29 anos. Filho do capitão Vaelen Bruma (caravela de caça Scylla, Nicodranas); a mãe morreu no parto do irmão. Saltou ao mar atrás do Isco quando o aboleto o engoliu, morreu na água e aceitou o pacto de Baeshra, o Grande Devorador: voltou marcado pela morte, com fome de carne crua e a voz do patrono. O pai e a tripulação expulsaram-no. Olhos negros, pele azul-pálida cheia de cicatrizes. Veio de Nicodranas (Yussa Errenis) por Rotthold e Asarius atrás do rubídio contrabandeado pelo Myriad; em Asarius soube que Baeshra foi gladiador e, antes, escravo vindo do Pântano do Véu-Quebrado.",
+    "goal": "Perceber a ligação a Baeshra e o que ele pretende, enquanto protege o irmão.",
+    "secret": "DM: foi ele que salvou o Isco (devorou a saída do aboleto por dentro) e não se lembra; acha que falhou. Sabe que o Isco é Ruidusborn e cala-se: dorme sempre perto dele, em sítios cobertos. Baeshra deve a Vecna o mecanismo da própria ascensão e paga em serviço: 'pediu um patrono, levou dois'. Gladiadores libertos envelhecidos em Xhorhas conheceram Baeshra em vida.",
+    "wants": "Adrenalina; perigo real; sobrevivência dos dois; quartos sozinho para ninguém o ver com pesadelos.",
+    "fears": "Os pesadelos da própria morte; que o orgulho acabe o que o mar começou; que o irmão se descubra.",
+    "states": [],
+    "tags": [
+      "pc",
+      "cotn_2026",
+      "baeshra",
+      "dhampir"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-pc-isco",
+    "name": "Ruín \"Isco\" Bruma",
+    "kind": "pc",
+    "factions": [],
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7",
+      "ch8"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Ropio. Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fisher, 23 anos. Irmão mais novo do Lucan; nasceu sob a lua vermelha cheia (Ruidusborn) e a mãe morreu no parto; deram-lhe o nome Ruín como mau presságio e usaram-no como isco vivo desde criança. Engolido por um aboleto ancião colossal (chama-lhe leviatã; suspeita de Uk'otoa, nunca confirmar); sobreviveu dias a comer o que havia nas entranhas, incluindo um licantropo afogado: a licantropia torcida pelo rubídio e pelo sangue genasi fez dele meio-tubarão. Nem o pai o reconheceu. Alcunha 'Isco'; o irmão é 'o Gancho'.",
+    "goal": "Encontrar uma tripulação a que pertença; pescar aquele Monstro; fazer do irmão o campeão escolhido do deus dele.",
+    "secret": "DM: não sabe que se transforma sem controlo sob os flashes de Ruidus (escalada: acorda longe → sangue que não é dele → alguém morre). Não sabe que o irmão lá esteve nem que foi ele a salvá-lo. Um tripulante do Scylla, tomado por algo das profundezas, cortou-lhe a corda. Sabe que comeu e que mudou; nunca juntou as duas coisas.",
+    "wants": "Uma tripulação; louros por pescar o monstro; curar ou livrar o irmão do deus que o tem refém.",
+    "fears": "Ser descartável; que não haja maneira de corrigir o irmão.",
+    "states": [],
+    "tags": [
+      "pc",
+      "cotn_2026",
+      "ruidusborn",
+      "licantropia"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-baeshra",
+    "name": "Baeshra, o Grande Devorador",
+    "kind": "deity",
+    "factions": [],
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7",
+      "ch8"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Semideus recente: lizardfolk de escamas brancas, olhos de bronze e chifres, escravo vindo do Pântano do Véu-Quebrado, gladiador em Asarius (há uma arena com estátua dele), ascendeu por um wish e vive dos seguidores e da multidão que grita o seu nome. Símbolo: a própria caveira com chifres. Monta a wyvern desperta Darastrix. Intervém sempre no mesmo instante: quando alguém está prestes a chegar tarde demais, oferece poder sem condições. 'O mar devorou-te. Agora aprende a devorar o mundo.'",
+    "goal": "Fabricar mais gente como ele; ser adorado; devorar o mundo.",
+    "secret": "DM: deve a Vecna o mecanismo da ascensão e paga em serviço; o que o Lucan faz em nome de Baeshra pode servir outra coisa. Não sabe que a sua doutrina funcionou com o Lucan.",
+    "wants": "Sangue derramado, não rezas; pedidos cada vez mais evil ao campeão.",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "patrono"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-vaelen-bruma",
+    "name": "Capitão Vaelen Bruma",
+    "kind": "npc",
+    "factions": [
+      "f-scylla"
+    ],
+    "chapters": [],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Water genasi, capitão da caravela de caça Scylla (Nicodranas); pai do Lucan e do Isco. Não reconheceu os filhos quando voltaram do mar e expulsou-os.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "backstory"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-yussa-errenis",
+    "name": "Yussa Errenis",
+    "kind": "npc",
+    "factions": [],
+    "chapters": [],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Mago de Nicodranas, patrono dos irmãos Bruma: pediu-lhes que investigassem o rubídio (nova pedra vermelha no mercado negro, vinda de Marquet) e o rumor de que o Myriad o contrabandeia no norte de Xhorhas.",
+    "goal": "Informação sobre o rubídio.",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "patrono"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-aboleto-anciao",
+    "name": "O aboleto ancião (o 'leviatã')",
+    "kind": "npc",
+    "factions": [
+      "f-imperio-aboleto"
+    ],
+    "chapters": [],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Colossal, milénios de crescimento, maior do que qualquer navio; engoliu o Isco para lhe absorver a natureza rubídica. Memória hereditária perfeita: lembra-se de tudo o que comeu, incluindo dos dois irmãos. A única testemunha do que aconteceu lá dentro. O Isco suspeita que seja Uk'otoa (nunca confirmar).",
+    "goal": "",
+    "secret": "DM: a memória dele é alcançável pela via marítima; a verdade do resgate é revelável por ele, por Baeshra ou pelo consumo de rubídio.",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "backstory"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-tripulante-tomado",
+    "name": "O tripulante tomado (quem cortou a corda)",
+    "kind": "npc",
+    "factions": [
+      "f-scylla"
+    ],
+    "chapters": [],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Tripulante do Scylla tomado há meses por algo das profundezas, atraído pela natureza rubídica do Isco; cortou-lhe a corda e entregou-o. Era gente que o Isco conhecia. Em aberto: ainda a bordo, desaparecido no dia em que o Isco voltou, ou morto.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "backstory"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-filho-ctonico",
+    "name": "O Filho Ctónico (o Filho de Baixo)",
+    "kind": "npc",
+    "factions": [
+      "f-caravana-naiat"
+    ],
+    "chapters": [],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). O descendente da Lua Vermelha que se desenvolve num antigo zigurate subterrâneo, alimentado pelos sacrifícios da caravana do Quasi. Ninguém sabe o que acontece quando terminar a gestação. DM: a Lua Vermelha quer um filho, um avatar, um veículo terreno para executar a sua vontade.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "lua-vermelha"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-campeao-lua-vermelha",
+    "name": "O campeão da Lua Vermelha (na catedral)",
+    "kind": "npc",
+    "factions": [],
+    "chapters": [],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Dentro da catedral da dimensão de bolso do Quasi, tenta prender a Besta por completo para lhe explorar o poder; ajudou a construir a prisão. DM: diabo ao ombro nos momentos frágeis; 'agente do consórcio vermelho, Alyxian?' — paralelismo com Alyxian por decidir.",
+    "goal": "Prender a Besta e usar-lhe o poder.",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "lua-vermelha"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-violinista-cega",
+    "name": "A violinista cega (ex-amante do Quasi)",
+    "kind": "npc",
+    "factions": [],
+    "chapters": [],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Humana, música (fiddle), vive confortavelmente com os pais. Conheceram-se pela música; na noite em que lhe tocou a pele pela primeira vez sonhou com a forma de besta e enlouqueceu. Tanto quanto o Quasi sabe, está a ser cuidada pela família, com uma psique muito frágil; ele acha melhor nunca mais se encontrarem.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "backstory"
+    ],
+    "source": "dm"
+  }
+]

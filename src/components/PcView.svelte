@@ -1,6 +1,7 @@
 <script lang="ts">
   import { ui, world, addPc, addAmbition, editEntity, removeEntity, select, chapterShort } from '../lib/state.svelte'
   import EntityChip from './EntityChip.svelte'
+  import PcCoverage from './PcCoverage.svelte'
 
   const c = $derived(world.canon)
   const pcs = $derived(c.characters.filter((x) => x.kind === 'pc'))
@@ -69,6 +70,10 @@
 </div>
 
 <div class="page">
+  {#if pcs.length}
+    <h3 class="section-title" style:margin-top="0">Cobertura temporal <span class="muted">· beats que tocam cada PC, por capítulo; clica numa célula para abrir o capítulo</span></h3>
+    <PcCoverage />
+  {/if}
   {#if pc}
     <div class="row pchead">
       <h2><EntityChip kind="character" id={pc.id} /></h2>

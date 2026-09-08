@@ -3,6 +3,7 @@
   import { uid, type Session } from '../lib/types'
   import { orderArcs } from '../lib/timeline'
   import EntityChip from './EntityChip.svelte'
+  import PcCoverage from './PcCoverage.svelte'
 
   const c = $derived(world.canon)
   const play = $derived(world.play)
@@ -64,6 +65,7 @@
   </div>
 
   {#if tab === 'proximo'}
+    <PcCoverage compact onlyChapter={tableChapter} />
     <h3 class="section-title">Por jogar em {chapterName(tableChapter)} <span class="muted">· {chapterPending.length}</span></h3>
     {#if chapterPending.length}
       <div class="pending">

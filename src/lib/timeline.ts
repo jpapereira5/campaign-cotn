@@ -147,7 +147,8 @@ export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign, o
       if (p.primary.id === arc.id) items.push({ beat: p.beat, x: xOf(p.beat), ghost: false })
       else if (p.secondary.some((s) => s.id === arc.id)) items.push({ beat: p.beat, x: xOf(p.beat), ghost: true })
     }
-    if (opts.hideEmptyLanes && items.length === 0) continue
+    // As pistas dos PCs ficam sempre visíveis: um capítulo sem cena pessoal é um buraco a semear.
+    if (opts.hideEmptyLanes && items.length === 0 && arc.kind !== 'pcAmbition') continue
     items.sort((a, b) => a.x - b.x || (a.ghost ? 1 : 0) - (b.ghost ? 1 : 0))
     const rowRight: number[] = []
     const placed: { item: (typeof items)[number]; row: number }[] = []
