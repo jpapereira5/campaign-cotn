@@ -23,7 +23,7 @@ Na app: "Ver só o livro" na barra lateral alterna para o livro sem alterações
 `data/campaign/campaign.json` pode listar só os capítulos novos ou alterados: os capítulos juntam-se por id (patch dos existentes, acrescento dos novos, `_remove` para tirar).
 
 ## PCs (campanha 2026) e backstory — `data/campaign/*/pcs.json`
-Fonte: pasta `cotn_2026` da Drive (fichas dos jogadores, sessão zero e notas DM); nada inventado. Os PCs têm `chapters` = todos os capítulos, para contarem sempre no tempo; as cenas pessoais são semeadas depois (a app avisa dos capítulos sem cena por PC).
+Fonte: fichas dos jogadores, sessão zero e notas DM (ver `docs/pcs.md`); nada inventado. Os PCs têm `chapters` = todos os capítulos, para contarem sempre no tempo; as cenas pessoais são semeadas depois (a app avisa dos capítulos sem cena por PC).
 PCs: `c-pc-quasi` (Quasimodo d'Clopin, Pedro Silva) · `c-pc-lucan` (Lucan "Anzol" Bruma, Renata) · `c-pc-isco` (Ruín "Isco" Bruma, Pedro Ropio) · pistas `a-pc-quasi` `a-pc-lucan` `a-pc-isco` · ambições `amb-quasi-*` `amb-lucan-*` `amb-isco-*`
 Backstory: `c-baeshra` (semideus, patrono do Lucan) `c-vaelen-bruma` `c-yussa-errenis` `c-aboleto-anciao` `c-tripulante-tomado` `c-filho-ctonico` `c-campeao-lua-vermelha` `c-violinista-cega` · facções `f-caravana-naiat` `f-scylla` `f-imperio-aboleto` `f-revelry` · revelações "Segredos dos PCs" `r-pc-*` (ainda sem pistas: a semear)
 
