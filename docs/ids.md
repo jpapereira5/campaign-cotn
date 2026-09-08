@@ -15,7 +15,7 @@ Ids em kebab-case ASCII (sem acentos/apóstrofos). Prefixos: `c-` personagem, `f
 
 As notas de DM com conselhos do Remix estão em `data/campaign/beats/remix-notes.json` (no livro esses beats têm `notes: ""`); as alterações estruturais adoptadas do Remix e as do DM estão em `data/campaign/*/remix.json`. Regras próprias: `docs/regras.md`.
 
-Na app: "Ver: a nossa campanha / só o livro"; ✚ = acrescentado na campanha, ▲ = alterado face ao livro; o painel de detalhe mostra o original do livro e permite repor.
+Na app: "Ver só o livro" na barra lateral alterna para o livro sem alterações (só leitura); ✚ = acrescentado na campanha, ▲ = alterado face ao livro; o painel de detalhe mostra o original do livro e permite repor.
 
 ## Capítulos
 `ch0` Unwelcome Spirits · `ch1` A Fateful Competition · `ch2` The Leave-Taking · `ch3` Bazzoxan · `ch4` The Jewel of Hope · `ch5` The Drowned City · `ch6` The Netherdeep · `ch7` The Heart of Despair · **`ch8` Acto 4: O Ano de Ruidus** (camada campanha, só no pior final)

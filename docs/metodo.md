@@ -19,7 +19,7 @@ Este documento explica o modelo por trás da app e como o usar para preparar *Ca
 - **Revelation lists e regra das três pistas** (Justin Alexander, *The Alexandrian*): cada conclusão necessária tem ≥3 pistas em cenas diferentes. É a versão de mesa das flags. O *Remixing Call of the Netherdeep* dá duas listas prontas: *Campaign Agendas* e *Lore of Alyxian* — estão em `data/revelations/`.
 - **Node-based design**: cenas são nós ligados por pistas, não uma sequência; é isso que deixa os enredos cruzarem-se.
 - **Fronts e grim portents** (Dungeon World): cada facção/vilão tem uma sequência de portentos que avança se os PCs não intervierem. É a dimensão temporal de cada enredo concorrente. Vista "Frentes".
-- **Relationship map** (DramaSystem/Hillfolk): quem quer o quê de quem. Vista "Grafo".
+- **Relationship map** (DramaSystem/Hillfolk): quem quer o quê de quem. Vista "Relações".
 - **Secrets & clues** (Lazy DM): 10 segredos soltos por sessão, reveláveis em qualquer nó.
 - **Ambições como motores**: cada PC declara 1-3 ambições; cada ambição liga-se a ≥1 NPC que a pode satisfazer ou negar, ≥1 facção/arco e ≥1 beat por capítulo. Vista "PCs" mostra os buracos.
 
@@ -41,7 +41,7 @@ Pistas (lanes na linha temporal):
 
 1. **Antes da campanha**: cria os PCs na vista "PCs"; escreve 1-3 ambições por PC e liga cada uma a NPCs, arcos e beats. Corrige os avisos de "capítulo sem cena pessoal". Ganchos prontos: rivalidade com um rival; parentesco/dívida em Jigow; Kryn/Aurora Watch; ambição académica (Aliança), oculta (Consórcio) ou de justiça (Cobalt Soul); tentação do ruidium; ligação a Sehanine/Avandra/Corellon; um "Perigee" pessoal.
 2. **Por sessão**: na vista "Sessão" vê "o que vem a seguir por pista"; escolhe 2-4 beats de pistas diferentes (um do principal, um dos rivais, um de facção, um pessoal) e 3-5 pistas de revelações a semear. Depois da sessão marca beats jogados, revelações percebidas, atitudes dos rivais e portentos que avançaram.
-3. **Entre capítulos**: na vista "Frentes" avança os portentos das facções que os PCs ignoraram; no "Grafo" com o cursor no capítulo actual vê que relações estão activas e onde há NPCs isolados; na "Linha temporal" em modo "jogado" vê a teia a fechar-se.
+3. **Entre capítulos**: na vista "Frentes" avança os portentos das facções que os PCs ignoraram; nas "Relações" com o capítulo actual escolhido em cima vê que relações estão activas e onde há NPCs isolados; na "Linha temporal" em modo "jogado" vê a teia a fechar-se.
 4. **Amigos e inimigos rastreados, não pré-escritos**: regista (flags, atitudes, notas) qual investigador os PCs ajudaram/traíram em Bazzoxan; esse torna-se o vilão emergente que tenta roubar a Jewel; a facção dos rivais é a oposta à dos PCs e torna-se o encontro proactivo em Ank'Harel.
 
 ## 5. Templates

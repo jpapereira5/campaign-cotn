@@ -61,11 +61,18 @@ export const ui = $state({
   chapter: '' as string,
   cursorMode: 'chapter' as 'chapter' | 'played',
   selection: null as Selection | null,
+  /** Selecções anteriores, para "voltar" no painel de detalhe. */
+  history: [] as Selection[],
   filters: defaultFilters() as GraphFilters,
   pcId: null as string | null,
   showDeps: false,
   onlyUnplayed: false,
   onlyChanges: false,
+  /** Linha temporal: só o capítulo escolhido ou todos. */
+  timelineMode: 'chapter' as 'chapter' | 'all',
+  searchOpen: false,
+  sidebarCollapsed: false,
+  helpOpen: false,
 })
 
 const assembled = $derived(assemble(store.files, ui.layerView))
@@ -198,7 +205,29 @@ $effect.root(() => {
   })
 })
 
-if (canonD.campaign.chapters.length) ui.chapter = canonD.campaign.chapters[canonD.campaign.chapters.length - 1].id
+// Cursor inicial: o capítulo em que a mesa está (state.json) ou o primeiro.
+if (canonD.campaign.chapters.length) {
+  const cur = playD.currentChapter
+  ui.chapter = cur && canonD.campaign.chapters.some((c) => c.id === cur) ? cur : canonD.campaign.chapters[0].id
+}
+
+/** Nome curto de um capítulo para pílulas: "Prólogo", "1", "2"… */
+export function chapterShort(id: string): string {
+  const i = chapterIndexD.get(id)
+  const ch = canonD.campaign.chapters.find((c) => c.id === id)
+  if (!ch) return id
+  if (/^pr[óo]logo/i.test(ch.name)) return 'Prólogo'
+  const m = ch.name.match(/^Acto\s+(\d+)/i)
+  if (m) return `A${m[1]}`
+  return String(i ?? '')
+}
+export function chapterName(id: string): string {
+  return canonD.campaign.chapters.find((c) => c.id === id)?.name ?? id
+}
+export function setChapter(id: string): void {
+  ui.chapter = id
+  ui.cursorMode = 'chapter'
+}
 
 // ---- edição (sempre na camada campaign; o livro nunca é alterado) ----------
 
@@ -368,6 +397,7 @@ export function setFlag(key: string, value: boolean): void {
 }
 export function setCurrentChapter(id: string | null): void {
   updatePlay((p) => (p.currentChapter = id))
+  if (id) setChapter(id)
 }
 export function upsertSession(s: Session): void {
   updatePlay((p) => {
@@ -383,7 +413,26 @@ export function removeSession(id: string): void {
 // ---- selecção / navegação --------------------------------------------------
 
 export function select(kind: SelKind, id: string): void {
+  if (ui.selection && (ui.selection.kind !== kind || ui.selection.id !== id)) ui.history = [...ui.history.slice(-29), ui.selection]
   ui.selection = { kind, id }
+  ui.searchOpen = false
+}
+export function back(): void {
+  const prev = ui.history.pop()
+  ui.selection = prev ?? null
+}
+export function closeSelection(): void {
+  ui.selection = null
+  ui.history = []
+}
+/** Abre a linha temporal no capítulo do beat. */
+export function goToBeat(id: string): void {
+  const b = beatById(id)
+  if (!b) return
+  setChapter(b.chapter)
+  ui.timelineMode = 'chapter'
+  setView('tempo')
+  select('beat', id)
 }
 export function setView(v: View): void {
   ui.view = v

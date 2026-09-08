@@ -1,16 +1,25 @@
 // Layout da linha temporal em pistas (puro, sem DOM).
 import type { Arc, Beat, Campaign } from './types.ts'
 
-export const SLOT_W = 150
-export const CARD_W = 136
-export const CARD_H = 46
 export const GAP = 6
 export const LANE_PAD = 10
 export const COL_PAD = 24
 export const AXIS_H = 34
-export const FINALE_W = 170
+export const FINALE_W = 190
 
 const KIND_ORDER = ['prologue', 'main', 'lore', 'ruidium', 'rivals', 'faction', 'pcAmbition']
+
+export interface LayoutOptions {
+  /** Largura de cada slot (coluna de `order`). */
+  slotW: number
+  cardW: number
+  cardH: number
+  /** Esconder pistas sem cartões nem fantasmas. */
+  hideEmptyLanes: boolean
+}
+export const OVERVIEW: LayoutOptions = { slotW: 150, cardW: 136, cardH: 46, hideEmptyLanes: false }
+export const CHAPTER: LayoutOptions = { slotW: 196, cardW: 182, cardH: 72, hideEmptyLanes: true }
+export const GHOST_LANE_H = 26
 
 export interface Column {
   id: string
@@ -22,6 +31,10 @@ export interface Lane {
   arc: Arc
   y: number
   height: number
+  /** cartões (beats cuja pista principal é esta) */
+  count: number
+  /** fantasmas (beats de outra pista que também entram nesta) */
+  ghosts: number
 }
 export interface Card {
   beat: Beat
@@ -63,6 +76,7 @@ export interface TimelineLayout {
   deps: Dependency[]
   finale?: { beat: Beat; x: number; y: number; width: number; height: number }
   cardById: Map<string, Card>
+  opts: LayoutOptions
 }
 
 export function orderArcs(arcs: Arc[]): Arc[] {
@@ -74,19 +88,26 @@ export function orderArcs(arcs: Arc[]): Arc[] {
   })
 }
 
-export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign): TimelineLayout {
+/**
+ * Dispõe os beats em pistas (uma por arco) e colunas (uma por capítulo).
+ * `chapters` limita as colunas (ex.: só o capítulo escolhido).
+ */
+export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign, opts: LayoutOptions = OVERVIEW, chapters: string[] | null = null): TimelineLayout {
+  const { slotW: SLOT_W, cardW: CARD_W, cardH: CARD_H } = opts
   const arcById = new Map(arcs.map((a) => [a.id, a]))
   const lanesArcs = orderArcs(arcs)
   const finaleId = campaign.convergence
-  const finaleBeat = beats.find((b) => b.id === finaleId)
-  const body = beats.filter((b) => b.id !== finaleId && b.arcs.some((a) => arcById.has(a)))
+  const chapterList = campaign.chapters.filter((c) => !chapters || chapters.includes(c.id))
+  const chapterIds = new Set(chapterList.map((c) => c.id))
+  const finaleBeat = beats.find((b) => b.id === finaleId && chapterIds.has(b.chapter))
+  const body = beats.filter((b) => b.id !== finaleId && chapterIds.has(b.chapter) && b.arcs.some((a) => arcById.has(a)))
 
   // Colunas: por capítulo; slots = valores distintos de `order` no capítulo.
   const columns: Column[] = []
   const slotX = new Map<string, number>() // `${chapter}|${order}` → x
   let x = 0
   let finaleX = 0
-  for (const ch of campaign.chapters) {
+  for (const ch of chapterList) {
     const orders = [...new Set(body.filter((b) => b.chapter === ch.id).map((b) => b.order))].sort((a, b) => a - b)
     let width = Math.max(orders.length, 1) * SLOT_W + COL_PAD
     orders.forEach((o, i) => slotX.set(`${ch.id}|${o}`, x + COL_PAD / 2 + i * SLOT_W))
@@ -126,6 +147,7 @@ export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign): 
       if (p.primary.id === arc.id) items.push({ beat: p.beat, x: xOf(p.beat), ghost: false })
       else if (p.secondary.some((s) => s.id === arc.id)) items.push({ beat: p.beat, x: xOf(p.beat), ghost: true })
     }
+    if (opts.hideEmptyLanes && items.length === 0) continue
     items.sort((a, b) => a.x - b.x || (a.ghost ? 1 : 0) - (b.ghost ? 1 : 0))
     const rowRight: number[] = []
     const placed: { item: (typeof items)[number]; row: number }[] = []
@@ -140,10 +162,12 @@ export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign): 
       placed.push({ item: it, row })
     }
     const rows = Math.max(rowRight.length, 1)
-    const height = rows * (CARD_H + GAP) + LANE_PAD
-    lanes.push({ arc, y, height })
+    const nCards = items.filter((i) => !i.ghost).length
+    const ghostOnly = nCards === 0 && items.length > 0
+    const height = ghostOnly ? GHOST_LANE_H + LANE_PAD : rows * (CARD_H + GAP) + LANE_PAD
+    lanes.push({ arc, y, height, count: nCards, ghosts: items.length - nCards })
     for (const { item, row } of placed) {
-      const cy = y + LANE_PAD / 2 + row * (CARD_H + GAP) + CARD_H / 2
+      const cy = ghostOnly ? y + height / 2 : y + LANE_PAD / 2 + row * (CARD_H + GAP) + CARD_H / 2
       if (item.ghost) ghosts.push({ beat: item.beat, arc, x: item.x, y: cy })
       else {
         const card: Card = { beat: item.beat, arc, x: item.x, y: cy - CARD_H / 2, cx: item.x + CARD_W / 2, cy }
@@ -175,5 +199,5 @@ export function layoutTimeline(beats: Beat[], arcs: Arc[], campaign: Campaign): 
     finale = { beat: finaleBeat, x: finaleX, y: AXIS_H, width: FINALE_W, height: Math.max(height - AXIS_H - LANE_PAD, CARD_H) }
   }
 
-  return { width, height, columns, lanes, cards, ghosts, links, deps, finale, cardById }
+  return { width, height, columns, lanes, cards, ghosts, links, deps, finale, cardById, opts }
 }

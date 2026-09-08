@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ui, world, addPc, addAmbition, editEntity, removeEntity, select } from '../lib/state.svelte'
+  import { ui, world, addPc, addAmbition, editEntity, removeEntity, select, chapterShort } from '../lib/state.svelte'
   import EntityChip from './EntityChip.svelte'
 
   const c = $derived(world.canon)
@@ -31,6 +31,7 @@
   const npcOptions = $derived(c.characters.filter((x) => x.kind !== 'pc').sort((a, b) => a.name.localeCompare(b.name)))
   const beatOptions = $derived(world.beatsSorted)
   const arcOptions = $derived(c.arcs.filter((a) => a.kind !== 'pcAmbition'))
+  const ro = $derived(world.readOnly)
 
   function addTo(ambId: string, field: 'npcs' | 'arcs' | 'satisfiedBy' | 'threatenedBy', value: string) {
     if (!value) return
@@ -43,70 +44,99 @@
     if (!a) return
     editEntity('ambitions', ambId, { [field]: a[field].filter((x) => x !== value) })
   }
+  function createPc() {
+    if (!newPc.trim()) return
+    ui.pcId = addPc(newPc.trim())
+    newPc = ''
+  }
+  function createAmb() {
+    if (!pc || !newAmb.trim()) return
+    addAmbition(pc.id, newAmb.trim())
+    newAmb = ''
+  }
 </script>
 
+<div class="toolbar">
+  {#if pcs.length}
+    <div class="seg">
+      {#each pcs as p (p.id)}<button class:active={pc?.id === p.id} onclick={() => (ui.pcId = p.id)}>{p.name}</button>{/each}
+    </div>
+  {/if}
+  {#if !ro}
+    <input type="text" placeholder="nome do novo PC" bind:value={newPc} onkeydown={(e) => e.key === 'Enter' && createPc()} />
+    <button onclick={createPc}>+ PC</button>
+  {/if}
+</div>
+
 <div class="page">
-  <h2>PCs e ambições</h2>
-  <p class="muted">Cada ambição deve tocar ≥1 NPC com poder de a satisfazer ou negar, ≥1 arco e, idealmente, ≥1 beat por capítulo. A tabela em baixo mostra onde no tempo cada PC é tocado e avisa dos capítulos vazios.</p>
-
-  <div class="row">
-    {#each pcs as p (p.id)}<button class:active={pc?.id === p.id} onclick={() => (ui.pcId = p.id)}>{p.name}</button>{/each}
-    <input type="text" placeholder="nome do novo PC" bind:value={newPc} onkeydown={(e) => e.key === 'Enter' && newPc.trim() && ((ui.pcId = addPc(newPc.trim())), (newPc = ''))} />
-    <button onclick={() => { if (newPc.trim()) { ui.pcId = addPc(newPc.trim()); newPc = '' } }}>+ PC</button>
-  </div>
-
   {#if pc}
-    <h3><EntityChip kind="character" id={pc.id} /> <button class="icon" onclick={() => select('character', pc.id)}>✎ ficha</button></h3>
-    <div class="grid">
-      {#each ambitions as a (a.id)}
-        <div class="card">
-          <div class="row"><b>{a.text}</b><span class="spacer"></span><button class="icon danger" title="remover" onclick={() => removeEntity('ambitions', a.id)}>✕</button></div>
-          <label class="field"><span>NPCs que a satisfazem/negam</span>
-            <div class="row">{#each a.npcs as n, i_ (i_)}<span><EntityChip kind="character" id={n} /><button class="icon" onclick={() => removeFrom(a.id, 'npcs', n)}>✕</button></span>{/each}</div>
-            <select onchange={(e) => { addTo(a.id, 'npcs', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ NPC…</option>{#each npcOptions as n (n.id)}<option value={n.id}>{n.name}</option>{/each}</select>
-          </label>
-          <label class="field"><span>Arcos</span>
-            <div class="row">{#each a.arcs as x, i_ (i_)}<span><EntityChip kind="arc" id={x} /><button class="icon" onclick={() => removeFrom(a.id, 'arcs', x)}>✕</button></span>{/each}</div>
-            <select onchange={(e) => { addTo(a.id, 'arcs', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ arco…</option>{#each arcOptions as x (x.id)}<option value={x.id}>{x.name}</option>{/each}</select>
-          </label>
-          <label class="field"><span>Satisfeita por (beats)</span>
-            <div class="row">{#each a.satisfiedBy as b, i_ (i_)}<span><EntityChip kind="beat" id={b} /><button class="icon" onclick={() => removeFrom(a.id, 'satisfiedBy', b)}>✕</button></span>{/each}</div>
-            <select onchange={(e) => { addTo(a.id, 'satisfiedBy', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ beat…</option>{#each beatOptions as b (b.id)}<option value={b.id}>{b.chapter} · {b.title}</option>{/each}</select>
-          </label>
-          <label class="field"><span>Ameaçada por (beats)</span>
-            <div class="row">{#each a.threatenedBy as b, i_ (i_)}<span><EntityChip kind="beat" id={b} /><button class="icon" onclick={() => removeFrom(a.id, 'threatenedBy', b)}>✕</button></span>{/each}</div>
-            <select onchange={(e) => { addTo(a.id, 'threatenedBy', (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}><option value="">+ beat…</option>{#each beatOptions as b (b.id)}<option value={b.id}>{b.chapter} · {b.title}</option>{/each}</select>
-          </label>
-          {#if !a.npcs.length}<p class="warn">Sem NPC ligado.</p>{/if}
-          {#if !a.satisfiedBy.length}<p class="warn">Sem beat que a satisfaça.</p>{/if}
-        </div>
-      {/each}
-      <div class="card">
-        <label class="field"><span>Nova ambição de {pc.name}</span><input type="text" bind:value={newAmb} placeholder="ex.: provar-se melhor que Ayo Jabe" onkeydown={(e) => e.key === 'Enter' && newAmb.trim() && (addAmbition(pc.id, newAmb.trim()), (newAmb = ''))} /></label>
-        <button class="primary" onclick={() => { if (newAmb.trim()) { addAmbition(pc.id, newAmb.trim()); newAmb = '' } }}>+ ambição</button>
-      </div>
+    <div class="row pchead">
+      <h2><EntityChip kind="character" id={pc.id} /></h2>
+      <button class="small" onclick={() => select('character', pc.id)}>Abrir ficha</button>
     </div>
 
-    {#if linkedNpcs.length}<h3>NPCs ligados</h3><div class="row">{#each linkedNpcs as n, i_ (i_)}<EntityChip kind="character" id={n} />{/each}</div>{/if}
+    <h3 class="section-title">Ambições ({ambitions.length})</h3>
+    <div class="grid">
+      {#each ambitions as a (a.id)}
+        <div class="card amb">
+          <div class="row nowrap"><b class="txt">{a.text}</b><span class="spacer"></span>{#if !ro}<button class="icon ghost danger" title="remover" onclick={() => confirm('Remover ambição?') && removeEntity('ambitions', a.id)}>✕</button>{/if}</div>
+          {#if !a.npcs.length || !a.satisfiedBy.length}
+            <div class="row" style:margin="0.3rem 0">
+              {#if !a.npcs.length}<span class="tag warnb">sem NPC ligado</span>{/if}
+              {#if !a.satisfiedBy.length}<span class="tag warnb">sem beat que a satisfaça</span>{/if}
+            </div>
+          {/if}
+          {#each [
+            { f: 'npcs', label: 'NPCs que a satisfazem ou negam', kind: 'character', opts: npcOptions.map((n) => ({ id: n.id, name: n.name })) },
+            { f: 'arcs', label: 'Pistas', kind: 'arc', opts: arcOptions.map((x) => ({ id: x.id, name: x.name })) },
+            { f: 'satisfiedBy', label: 'Satisfeita por (beats)', kind: 'beat', opts: beatOptions.map((b) => ({ id: b.id, name: `${chapterShort(b.chapter)} · ${b.title}` })) },
+            { f: 'threatenedBy', label: 'Ameaçada por (beats)', kind: 'beat', opts: beatOptions.map((b) => ({ id: b.id, name: `${chapterShort(b.chapter)} · ${b.title}` })) },
+          ] as const as fld (fld.f)}
+            <div class="field">
+              <span>{fld.label}</span>
+              <div class="row">
+                {#each a[fld.f] as v, i_ (i_)}<span class="pair"><EntityChip kind={fld.kind} id={v} />{#if !ro}<button class="icon linkish" onclick={() => removeFrom(a.id, fld.f, v)}>✕</button>{/if}</span>{/each}
+                {#if !ro}
+                  <select class="add" onchange={(e) => { addTo(a.id, fld.f, (e.target as HTMLSelectElement).value); (e.target as HTMLSelectElement).value = '' }}>
+                    <option value="">+ adicionar…</option>
+                    {#each fld.opts as o (o.id)}<option value={o.id}>{o.name}</option>{/each}
+                  </select>
+                {/if}
+              </div>
+            </div>
+          {/each}
+        </div>
+      {/each}
+      {#if !ro}
+        <div class="card new">
+          <label class="field"><span>Nova ambição de {pc.name}</span><input type="text" bind:value={newAmb} placeholder="ex.: provar-se melhor que Ayo Jabe" onkeydown={(e) => e.key === 'Enter' && createAmb()} /></label>
+          <button class="primary" onclick={createAmb}>+ Ambição</button>
+        </div>
+      {/if}
+    </div>
 
-    <h3>Onde {pc.name} é tocado, capítulo a capítulo</h3>
+    {#if linkedNpcs.length}<h3 class="section-title">NPCs ligados</h3><div class="row">{#each linkedNpcs as n, i_ (i_)}<EntityChip kind="character" id={n} />{/each}</div>{/if}
+
+    <h3 class="section-title">Onde {pc.name} é tocado, capítulo a capítulo</h3>
     <table class="list">
       <thead><tr><th>Capítulo</th><th>Beats</th></tr></thead>
       <tbody>
         {#each byChapter as row (row.chapter.id)}
           <tr>
-            <td>{row.chapter.name}<br /><span class="muted">níveis {row.chapter.levels}</span></td>
+            <td class="chap">{row.chapter.name}<br /><span class="muted tiny">níveis {row.chapter.levels}</span></td>
             <td>
-              {#each row.beats as b (b.id)}<EntityChip kind="beat" id={b.id} /> {:else}<span class="warn">⚠ sem cena pessoal para {pc.name} neste capítulo</span>{/each}
+              {#each row.beats as b (b.id)}<EntityChip kind="beat" id={b.id} /> {:else}<span class="tag warnb">sem cena pessoal neste capítulo</span>{/each}
             </td>
           </tr>
         {/each}
       </tbody>
     </table>
   {:else}
-    <p class="warn">Ainda não há PCs. Adiciona um acima; a app cria também a pista de ambições na linha temporal.</p>
-    <h3>Ganchos prontos em Call of the Netherdeep</h3>
-    <ul>
+    <div class="empty">
+      <p>Ainda não há PCs. Cria um em cima; a app cria também a pista de ambições na linha temporal.</p>
+    </div>
+    <h3 class="section-title">Ganchos prontos em Call of the Netherdeep</h3>
+    <ul class="hooks">
       <li>Rivalidade pessoal com um rival específico (Ayo, Galsariad, Maggie…).</li>
       <li>Dívida, parentesco ou fama em Jigow; ligação à Kryn Dynasty ou à Aurora Watch (Bazzoxan).</li>
       <li>Ambição académica (Allegiance of Allsight), oculta (Consortium) ou de justiça (Cobalt Soul).</li>
@@ -118,14 +148,36 @@
 </div>
 
 <style>
-  button.active {
-    border-color: var(--accent);
-    color: var(--accent);
+  .pchead h2 {
+    margin: 0;
   }
-  .spacer {
-    flex: 1;
+  .amb .txt {
+    line-height: 1.35;
   }
-  .card .field select {
-    margin-top: 0.25rem;
+  .amb .field {
+    margin-top: 0.5rem;
+  }
+  .pair {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.1rem;
+  }
+  .add {
+    font-size: 0.85em;
+    padding: 0.2rem 0.4rem;
+    max-width: 200px;
+  }
+  .card.new {
+    border-style: dashed;
+  }
+  .chap {
+    white-space: nowrap;
+  }
+  .hooks {
+    color: var(--muted);
+  }
+  button.small {
+    font-size: 0.86em;
+    padding: 0.25rem 0.6rem;
   }
 </style>

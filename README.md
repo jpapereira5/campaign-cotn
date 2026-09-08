@@ -6,13 +6,16 @@ O método está em [`docs/metodo.md`](docs/metodo.md); as convenções de dados 
 
 ## Vistas
 
-- **Linha temporal** — uma pista por arco (prólogo, Jewel, lore, ruidium, rivais, facções, ambições de cada PC); beats como cartões; um beat em várias pistas desenha uma linha vertical de **convergência**; o final recebe todas as pistas. Duplo clique marca um beat como jogado.
-- **Grafo** — relações NPC↔NPC↔facção com força dirigida; o cursor de tempo (capítulo ou "jogado") mostra só as relações activas nesse momento; filtros por tipo, facção, arco e PC.
-- **PCs** — ambições ligadas a NPCs, arcos e beats; avisa dos capítulos sem cena pessoal.
+A barra lateral agrupa as vistas em **Planear**, **Jogar** e **Consultar**; a barra superior tem o **selector de capítulo** (o momento da campanha em que estás a olhar: condiciona a linha temporal, as relações activas e os estados das personagens; "✓ jogado" usa só o que já foi marcado como jogado) e a ajuda de cada vista (?). A pesquisa global abre com `Ctrl+K` ou `/`. O painel de detalhe (à direita) abre ao clicar em qualquer chip, tem "voltar" e "ver na linha temporal".
+
+- **Linha temporal** — por omissão mostra só o capítulo escolhido, uma pista por arco (prólogo, Jóia, lore, ruidium, rivais, facções, ambições de cada PC), beats como cartões; um ponto numa pista secundária liga-se por uma linha vertical ao cartão do mesmo beat (convergência). "Todos os capítulos" dá a vista geral com o final a receber todas as pistas. Duplo clique marca um beat como jogado.
+- **Relações** — grafo NPC↔NPC↔facção com força dirigida; âmbito "neste capítulo / até agora / tudo", filtros por tipo, facção, pista e PC, e "só vizinhos" para isolar a rede de uma personagem.
 - **Frentes** — portentos por facção (o que acontece se ninguém intervier) com relógio.
-- **Revelações** — listas com a regra das três pistas e o que a mesa já percebeu.
-- **Sessão** — o que vem a seguir por pista, sessões, flags.
-- **Índice** e **Definições** (token GitHub, sincronização, problemas nos dados).
+- **Revelações** — cartões por lista com a regra das três pistas e a barra de pistas já jogadas.
+- **Sessão** — capítulo em que a mesa está, o que falta jogar nesse capítulo, o próximo beat pronto por pista, sessões e flags.
+- **PCs** — ambições ligadas a NPCs, pistas e beats; avisa dos capítulos sem cena pessoal.
+- **Índice** — listas por tipo, com filtro por texto, "só alterações ao livro" e "só este capítulo".
+- **Definições** — token GitHub, sincronização, exportar/importar, atalhos e problemas nos dados.
 
 ## Dados
 
@@ -34,7 +37,7 @@ data/campaign/              a nossa campanha: patches, acrescentos e remoções 
 data/state.json             estado de jogo (beats jogados, revelações, atitudes, sessões, flags, notas)
 ```
 
-Os ficheiros de uma pasta são concatenados. O que se cria na app vai para `data/campaign/<colecção>/dm.json`; a app nunca escreve em `data/book/`. Na app, "Ver: a nossa campanha / só o livro" alterna as camadas; ✚ marca o que foi acrescentado e ▲ o que foi alterado, e o painel de detalhe mostra o original do livro. Validar: `npm run validate` (ou `-- --warn` para ver avisos, `-- --book` para validar só o livro).
+Os ficheiros de uma pasta são concatenados. O que se cria na app vai para `data/campaign/<colecção>/dm.json`; a app nunca escreve em `data/book/`. Na app, "Ver só o livro" (barra lateral) mostra o livro sem as nossas alterações, só para leitura; ✚ marca o que foi acrescentado e ▲ o que foi alterado, e o painel de detalhe mostra o original do livro. Validar: `npm run validate` (ou `-- --warn` para ver avisos, `-- --book` para validar só o livro).
 
 ## Usar em vários PCs
 

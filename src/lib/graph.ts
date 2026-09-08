@@ -2,6 +2,9 @@
 import type { Canon, Character, CharacterKind, Faction, Relation } from './types.ts'
 import { relationKey } from './types.ts'
 
+/** Âmbito temporal: só quem entra no capítulo escolhido, todos até ao cursor, ou toda a gente. */
+export type GraphScope = 'chapter' | 'upto' | 'all'
+
 export interface GraphFilters {
   factions: string[]
   arcs: string[]
@@ -9,6 +12,9 @@ export interface GraphFilters {
   kinds: CharacterKind[]
   showFactions: boolean
   search: string
+  scope: GraphScope
+  /** Só o nó seleccionado e os seus vizinhos directos. */
+  ego: boolean
 }
 
 export interface GNode {
@@ -31,13 +37,20 @@ export interface GLink {
 }
 
 export function defaultFilters(): GraphFilters {
-  return { factions: [], arcs: [], pc: null, kinds: ['pc', 'npc', 'rival', 'deity'], showFactions: true, search: '' }
+  return { factions: [], arcs: [], pc: null, kinds: ['pc', 'npc', 'rival', 'deity'], showFactions: true, search: '', scope: 'chapter', ego: false }
 }
 
 export function relationActive(r: Relation, cursor: number, beatPos: (id: string) => number): boolean {
   if (r.fromBeat && beatPos(r.fromBeat) > cursor) return false
   if (r.untilBeat && beatPos(r.untilBeat) <= cursor) return false
   return true
+}
+
+export interface GraphOptions {
+  /** Capítulo do cursor (para o âmbito 'chapter'). */
+  chapterId?: string
+  /** Nó seleccionado (para o modo ego). */
+  focusId?: string | null
 }
 
 export function buildGraph(
@@ -48,12 +61,19 @@ export function buildGraph(
   kindColors: Record<CharacterKind, string>,
   factionColor: string,
   factionColors: Map<string, string>,
+  opts: GraphOptions = {},
 ): { nodes: GNode[]; links: GLink[] } {
   const chapterIdx = new Map(canon.campaign.chapters.map((c, i) => [c.id, i]))
   const cursorChapter = Math.floor(cursor / 1000)
   let chars = canon.characters.filter((c) => filters.kinds.includes(c.kind))
-  // Só personagens já "entradas em cena" (capítulo ≤ cursor); divindades e PCs sempre.
-  chars = chars.filter((c) => c.kind === 'pc' || c.kind === 'deity' || c.chapters.length === 0 || c.chapters.some((ch) => (chapterIdx.get(ch) ?? 0) <= cursorChapter))
+  // Âmbito temporal. PCs e divindades aparecem sempre.
+  if (filters.scope === 'chapter' && opts.chapterId) {
+    const ch = opts.chapterId
+    const inChapter = new Set(canon.beats.filter((b) => b.chapter === ch).flatMap((b) => b.participants))
+    chars = chars.filter((c) => c.kind === 'pc' || c.chapters.includes(ch) || inChapter.has(c.id))
+  } else if (filters.scope === 'upto') {
+    chars = chars.filter((c) => c.kind === 'pc' || c.kind === 'deity' || c.chapters.length === 0 || c.chapters.some((ch) => (chapterIdx.get(ch) ?? 0) <= cursorChapter))
+  }
   if (filters.factions.length) chars = chars.filter((c) => c.factions.some((f) => filters.factions.includes(f)))
   if (filters.arcs.length) {
     const inArcs = new Set(canon.beats.filter((b) => b.arcs.some((a) => filters.arcs.includes(a)) && beatPos(b.id) <= cursor).flatMap((b) => b.participants))
@@ -79,6 +99,19 @@ export function buildGraph(
     for (const b of canon.beats) if (b.participants.includes(filters.pc)) b.participants.forEach((p) => keep.add(p))
     chars = chars.filter((c) => keep.has(c.id))
   }
+  // Modo ego: só o seleccionado e os vizinhos directos (personagens e facções); ignora o âmbito.
+  if (filters.ego && opts.focusId) {
+    const f = opts.focusId
+    const keep = new Set<string>([f])
+    for (const r of canon.relations) {
+      if (r.from === f) keep.add(r.to)
+      if (r.to === f) keep.add(r.from)
+    }
+    const focusChar = canon.characters.find((c) => c.id === f)
+    if (focusChar) focusChar.factions.forEach((x) => keep.add(x))
+    for (const c of canon.characters) if (c.factions.includes(f)) keep.add(c.id)
+    chars = canon.characters.filter((c) => keep.has(c.id) && filters.kinds.includes(c.kind))
+  }
 
   const degree = new Map<string, number>()
   for (const r of canon.relations) {
@@ -102,6 +135,11 @@ export function buildGraph(
     for (const f of canon.factions) {
       if (!wanted.has(f.id)) continue
       if (filters.factions.length && !filters.factions.includes(f.id)) continue
+      if (filters.ego && opts.focusId) {
+        const focus = opts.focusId
+        const linked = f.id === focus || canon.relations.some((r) => (r.from === focus && r.to === f.id) || (r.to === focus && r.from === f.id)) || canon.characters.find((c) => c.id === focus)?.factions.includes(f.id)
+        if (!linked) continue
+      }
       nodes.push({ id: f.id, label: f.name, kind: 'faction', color: factionColors.get(f.id) ?? factionColor, radius: 13, faction: f })
       ids.add(f.id)
     }

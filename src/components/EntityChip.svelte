@@ -9,14 +9,16 @@
     if (kind === 'faction') return FACTION_NODE_COLOR
     if (kind === 'arc') return world.canon.arcs.find((a) => a.id === id)?.color ?? '#888'
     if (kind === 'beat') return world.canon.arcs.find((a) => a.id === world.canon.beats.find((b) => b.id === id)?.arcs[0])?.color ?? '#888'
-    return '#888'
+    if (kind === 'location') return '#7aa2a8'
+    return '#c7b7e0'
   })
   const played = $derived(kind === 'beat' && isPlayed(id))
   const text = $derived(label ?? nameOf(id))
   const layer = $derived(layerOf(kind, id))
+  const KIND_HINT: Record<SelKind, string> = { character: 'personagem', faction: 'facção', location: 'local', beat: 'beat', arc: 'pista', revelation: 'revelação', ambition: 'ambição' }
 </script>
 
-<button class="chip" class:played onclick={(e) => { e.stopPropagation(); select(kind, id) }} title={text}>
+<button class="chip" class:played onclick={(e) => { e.stopPropagation(); select(kind, id) }} title="{KIND_HINT[kind]}: {text}{played ? ' · jogado' : ''}">
   <span class="dot" style:background={color}></span><span class="t">{text}</span>{#if layer === 'campaign'}<span class="badge new" title="acrescentado na nossa campanha">✚</span>{:else if layer === 'modified'}<span class="badge mod" title="alterado face ao livro">▲</span>{/if}
 </button>
 
@@ -29,7 +31,7 @@
     color: var(--ok);
   }
   .badge.mod {
-    color: #e0b04a;
+    color: var(--warn);
   }
   .t {
     overflow: hidden;
