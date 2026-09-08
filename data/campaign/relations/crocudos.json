@@ -668,13 +668,6 @@
     "source": "dm"
   },
   {
-    "from": "c-murmuradores",
-    "to": "f-aurora-watch",
-    "type": "enemy",
-    "label": "Crocudos: atacam a entrada de Bazzoxan",
-    "source": "dm"
-  },
-  {
     "from": "c-myriad-bazzoxan-contact",
     "to": "f-kryn",
     "type": "wantsFrom",

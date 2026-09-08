@@ -88,6 +88,8 @@ Charisma save incremental:
 
 (Formulação usada na viagem: "Charisma DC 5, +5 por cada dia que passa"; na mesa chegou-se a DC 20 diário.)
 
+**DM (decisão):** a marca rola-se também **ao falhar um saving throw contra corrupção**, e os efeitos **desaparecem após um long rest** (variante do Notion adoptada; a versão anterior da mesa mantinha-as até a exaustão chegar a 0).
+
 Ao falhar o save, rola 1d8:
 
 | d8 | Efeito psicológico subtil |
@@ -103,7 +105,7 @@ Ao falhar o save, rola 1d8:
 
 ### Exposição prolongada
 
-O documento não tem uma regra separada de "exposição prolongada": a exposição sem contacto está coberta pela coluna "presença de rubídio" da tabela das Marcas na Alma (save diário crescente) e pelas marcas que daí resultam; a corrupção propriamente dita (níveis de exaustão) só entra pelos saves de Charisma DC 20 acima. Na mesa: um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
+**DM (decisão, regra do Notion):** após um dia inteiro de exposição contínua a rubídio (carregar o cristal, dormir junto dele, dias na Ascensão), **Charisma save DC 5, +5 por cada dia adicional**. Falha: uma Marca na Alma temporária até ao próximo long rest. **Nat 1:** visões com impacto narrativo (flashbacks da Calamidade, memórias corrompidas). Na mesa: um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
 
 ### Sonhos
 
@@ -120,8 +122,9 @@ A cada nível de exaustão os jogadores desbloqueiam ataques ou habilidades espe
 **2. Olhos de Sangue (Blood Eyes)** — acção bónus; 1 minuto; 1×/short rest; raio 30 ft. Vês criaturas e seres vivos através de superfícies sólidas até 5 ft de espessura; a forma verdadeira de criaturas ou objectos disfarçados por magia (*disguise self*, *alter self*, *illusory script*…), mesmo em escuridão total; criaturas invisíveis. Não atravessa barreiras mágicas poderosas (*wall of force*, *prismatic wall*) nem vê através do Plano Etéreo. Os olhos brilham vermelho intenso, visível no escuro.
 
 **3. Grito do Apoteão (Apotheon's Cry)** — acção; 1×/long rest; raio 30 ft. Cada criatura à tua escolha no raio faz Charisma save, DC = 8 + proficiência + mod. Charisma. Falha: 1d8 psíquico × o teu nível de corrupção e rola 1d4 — 1 Tristeza: *stunned* até ao fim do teu próximo turno; 2 Raiva: ataca imediatamente a criatura mais próxima (reacção, se tiver); 3 Culpa: larga as armas e tem desvantagem no próximo ataque; 4 Medo: usa movimento e acção (Dash, se possível) para se afastar de ti. Sucesso: metade do dano, sem efeito emocional. Criaturas imunes a *frightened* são imunes.
+**DM (decisão):** usa-se a variante da ficha de Vor'zen: **Wisdom save** (DC = 8 + proficiência + mod. Charisma) e dano de **1d8 psíquico por nível de exaustão** do utilizador (a versão anterior usava Charisma save e o nível de corrupção).
 
-**4. Ecos da Ruína (Echoes of Ruin)** — acção; 1 minuto; 1×/long rest. Figuras espectrais vermelhas, semi-sólidas, obedecem a ordens telepáticas (sem acção adicional). Número de figuras = nível de corrupção (4 → 5 figuras; 5 → 6). Figura: AC 14, HP 10, speed 30 ft (hover), STR 12 DEX 14 CON 12 INT 4 WIS 10 CHA 6; resistências psychic, necrotic; imunidades charmed, frightened, poison; nunca a mais de 30 ft de ti. Cada figura faz 1 acção por turno, no início do teu turno: **Atacar** +5, alcance 5 ft, 1d8 + mod. Charisma (psychic ou necrotic); **Defender** — enquanto houver uma figura activa, +2 AC e ataques corpo-a-corpo contra ti com desvantagem; **Agarrar** +5, alvo *restrained* (escape DC 8 + prof + mod. CHA), 1d6 psychic no início do turno da figura; **Interceptar** — quando és atingido, uma figura reduz o dano em 1d8 + o teu nível de exaustão e é destruída. No fim, dissipam-se em fumo vermelho.
+**4. Ecos da Ruína (Echoes of Ruin)** — acção; 1 minuto; 1×/long rest. Figuras espectrais vermelhas, semi-sólidas, obedecem a ordens telepáticas (sem acção adicional). Número de figuras = nível de corrupção (4 → 5 figuras; 5 → 6). **DM (decisão):** figuras = **1 + nível de exaustão** (0 → 1 … 5 → 6), como na ficha de Vor'zen. Figura: AC 14, HP 10, speed 30 ft (hover), STR 12 DEX 14 CON 12 INT 4 WIS 10 CHA 6; resistências psychic, necrotic; imunidades charmed, frightened, poison; nunca a mais de 30 ft de ti. Cada figura faz 1 acção por turno, no início do teu turno: **Atacar** +5, alcance 5 ft, 1d8 + mod. Charisma (psychic ou necrotic); **Defender** — enquanto houver uma figura activa, +2 AC e ataques corpo-a-corpo contra ti com desvantagem; **Agarrar** +5, alvo *restrained* (escape DC 8 + prof + mod. CHA), 1d6 psychic no início do turno da figura; **Interceptar** — quando és atingido, uma figura reduz o dano em 1d8 + o teu nível de exaustão e é destruída. No fim, dissipam-se em fumo vermelho.
 
 **5. Possessão (Ruidium Domination)** — acção; alcance 30 ft; 1× por alvo por dia; **no final ganhas 1 nível de exaustão**. A criatura faz Charisma save, DC = 8 + mod. Charisma + proficiência × o teu nível de exaustão. Falha: controlas o corpo por 1 turno; no início de cada turno seu, repete o save com **–2 cumulativo por cada turno adicional** sob posse; sucesso termina a posse. Enquanto dentro do corpo: usas STR/DEX/CON da criatura e manténs INT/WIS/CHA; conhecimento intuitivo de todas as capacidades do corpo; podes usar qualquer acção/magia/habilidade dela; podes tentar aceder a ecos de memória (o DM controla o que se revela); o teu corpo original fica incapacitado e paralisado (não pode ser possuído). Sucesso no save inicial: uso desperdiçado.
 **5A. Corpos recém-mortos (variante)** — corpo morto há menos de 1 minuto, cérebro intacto; sem save; ocupas o corpo 1 minuto; atributos físicos que tinha em vida, os teus mentais; consciência intuitiva das capacidades físicas; memórias residuais instáveis; não lança magias acima de 3.º nível; não regenera HP; a 0 HP colapsa definitivamente.
@@ -135,6 +138,10 @@ Só com o que o material diz. Caso da filha do líder dos Caminhantes-dos-Dester
 - Fritz (telepata): "Febre escarlate. Lado bom: não é letal. Lado mau: não tem cura. Mas viverá."
 - Em Jigau: crianças goblin febris nas Águas-da-Carne; um amigo "que foi para o templo e nunca mais voltou" com os mesmos sintomas; orcs no mergulho: "já é o segundo esta semana… febre vermelha".
 Assim, na mesa a febre escarlate é a forma leve da corrupção: 1 exaustão + manchas, sem cura conhecida além da regra geral (*wish* / *divine intervention*). Isto responde ao "a definir" da secção "Febre escarlate — DM" acima.
+
+### Jóia + suude — DM (decisão)
+
+Quem consumir Suude Vermelho e tocar na Jóia das Três Preces tem **visões na primeira pessoa da vida de Alyxian**, ligadas ao sítio mais próximo onde esteja. São visões extra: as vinte do Netherdeep continuam a sair pela ordem do livro.
 
 ### Regra rejeitada: toque na Jóia
 
@@ -508,9 +515,9 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 - **Wall of Thorns:** N/A
 - **Wind Walk:** N/A
 
-## Variantes e acrescentos do Notion — Crocudos (DM)
+## Variantes e acrescentos do Notion — Crocudos (fonte)
 
-O export do Notion do DM traz variantes às regras acima (a mesa usou umas e outras em momentos diferentes; o DM decide qual fica):
+O export do Notion do DM traz variantes às regras acima; as quatro marcadas "DM (decisão)" nas secções respectivas ficaram em vigor (marcas no long rest, exposição prolongada, Grito com Wisdom save por exaustão e Ecos = 1 + exaustão, Jóia + suude). O resto fica aqui como fonte:
 
 - **Marcas na Alma (página "Marcas na Alma")** — acrescenta: a marca rola-se **ao falhar um saving throw contra corrupção** (1d8, mesma tabela de regras.md); os efeitos **desaparecem após um long rest**.
 - **Exposição prolongada (mesma página)** — regras.md diz que "o documento não tem regra separada"; o Notion tem: após 1 dia inteiro de exposição contínua, **Charisma DC 5, +5 por cada dia**; falha = marca na alma temporária até ao próximo long rest; **nat 1** pode desencadear visões com impacto narrativo (flashbacks, memórias corrompidas).

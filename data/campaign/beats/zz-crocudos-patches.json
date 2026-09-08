@@ -59,5 +59,17 @@
   {
     "id": "b-3-crematorium-prolix",
     "notes": "Crocudos (S37): Os irmãos do crematório são Reinaldo Do-Vale (magro, avental de couro, animação desconcertante, piadas mórbidas: \"Mais corpos para Bazzoxan, é isso?\") e Sebastião Do-Vale (enorme, olhos azuis frios, perna em falta: \"Reinaldo, os teus amigos não me querem dar uma perninha?\"). Um PC ajuda a queimar corpos; outro abre o estômago do vrock com Prolix (Survival DC 15; falha: esporos, CON DC 14 ou poisoned com 1d10 por turno): Olhos de Águia, três anéis de 2 po, caixa-puzzle de ónix (Prolix fica com ela; INT DC 20 abre-a: pergaminho de bestow curse). O corpo do vrock só se dissolve depois de tirada a caixa."
+  },
+  {
+    "id": "b-3-jewel-confrontation",
+    "notes": "DM: o agente Volstrucker só entra nesta cena se Adélia Krauss sobreviveu ao assalto nocturno (b-3-volstrucker-assault); se morreu, Aloysia age sozinha (com os rivais, se os recrutou)."
+  },
+  {
+    "id": "b-3-beacon-in-barracks",
+    "notes": "DM: só se Adélia sobreviveu ao assalto (b-3-volstrucker-assault); se morreu, a Assembly não tem quem tente o beacon e ninguém vem buscar o caderno."
+  },
+  {
+    "id": "b-3-beacon-heist",
+    "notes": "DM: só se Adélia sobreviveu ao assalto (b-3-volstrucker-assault); se morreu, o golpe não acontece (a Myriad não o tenta sozinha)."
   }
 ]

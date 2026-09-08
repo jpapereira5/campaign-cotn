@@ -1302,7 +1302,7 @@
       "c-chekka-falha-remos",
       "c-susana-deep-scion"
     ],
-    "summary": "Alternativa (Crocudos): se os PCs forem por mar… Dia 3, frio e gelo no mar apesar de estarem demasiado a sul; um iceberg ao longe. Um dragão branco adulto dorme no topo; sob o gelo, o navio congelado \"A Coragem da Costa\" (o barco de Susana). Stealth de grupo DC 15 para chegar a 300 ft. O dragão acorda, fita o familiar dos PCs e curva-se perante ele; um gigante da tempestade aproxima-se pelo leito marinho, as nuvens escurecem e, ao 5.º turno, Tempest Call: lanças de relâmpagos, maelstrom em redor do iceberg, tornado. O dano colateral quase mata toda a gente (na Crocudos: capitã a 7 HP, três tripulantes a 0 HP estabilizados, PCs a fazer Spare the Dying); Kiri-Kiri morre. O dragão foge pelo olho da tempestade; o gigante desfaz a tempestade e fica a contemplar o céu. Chekka: \"Assim não. Não devia ter sido assim.\"",
+    "summary": "Alternativa (Crocudos): se os PCs forem por mar… Dia 3, frio e gelo no mar apesar de estarem demasiado a sul; um iceberg ao longe. Gelidon, um dragão branco ancião (DM: ancient, CR 20), dorme no topo; sob o gelo, o navio congelado \"A Coragem da Costa\" (o barco de Susana). Stealth de grupo DC 15 para chegar a 300 ft. O dragão acorda, fita o familiar dos PCs e curva-se perante ele; um gigante da tempestade aproxima-se pelo leito marinho, as nuvens escurecem e, ao 5.º turno, Tempest Call: lanças de relâmpagos, maelstrom em redor do iceberg, tornado. O dano colateral quase mata toda a gente (na Crocudos: capitã a 7 HP, três tripulantes a 0 HP estabilizados, PCs a fazer Spare the Dying); Kiri-Kiri morre. O dragão foge pelo olho da tempestade; o gigante desfaz a tempestade e fica a contemplar o céu. Chekka: \"Assim não. Não devia ter sido assim.\"",
     "reveals": [],
     "requires": [
       "b-2-sea-aboleth"
@@ -1402,7 +1402,7 @@
   },
   {
     "id": "b-3-murmuradores",
-    "title": "Combate à entrada: os orcs Murmuradores",
+    "title": "Chegada: o ataque dos mouthers e os dois soldados",
     "arcs": [
       "a-main",
       "a-kryn"
@@ -1411,26 +1411,42 @@
     "order": 8,
     "location": "l-bazzoxan-gate",
     "participants": [
-      "c-murmuradores",
+      "c-urza-vokh",
+      "c-grash-korrthak",
       "c-verin-thelyss",
       "f-aurora-watch"
     ],
-    "summary": "Crocudos (S29): à entrada de Bazzoxan, combate com os orcs \"Murmuradores\" Urza Vokh e Grash Korr'thak; Verin chega com guardas. Faz o papel do ataque dos gibbering mouthers do livro (b-3-mouthers) como primeiro contacto com Verin.",
+    "summary": "DM: À chegada a Bazzoxan, o ataque dos gibbering mouthers (b-3-mouthers) apanha dois soldados orcs da Vigia à vista dos PCs: Grash Korr'thak, o da máscara de ferro que ronda os portões, é devorado por um mouther antes que alguém lhe chegue; Urza Vokh, a Sentinela das Escarpas, combate ao lado dos PCs até Verin chegar com guardas. Urza fica a conhecê-los: é a cara da Vigia na muralha; o nome de Grash vai para o Wall of the Unforgotten.",
     "reveals": [],
     "requires": [
       "b-3-vazia-gruusk"
     ],
     "choices": [
       {
-        "label": "Combater ao lado da Vigia",
-        "outcome": "Crocudos: Verin manda-os ao quartel.",
+        "label": "Salvar Grash a tempo",
+        "outcome": "DM: se os PCs o tirarem do mouther antes de 2 turnos, sobrevive ferido (vai para a enfermaria); senão morre.",
+        "leadsTo": [
+          "b-3-mouthers",
+          "b-3-infirmary"
+        ]
+      },
+      {
+        "label": "Lutar ao lado de Urza",
+        "outcome": "DM: Urza torna-se aliada na muralha e recomenda-os a Verin.",
         "leadsTo": [
           "b-3-mouthers",
           "b-3-barracks-verin"
         ]
+      },
+      {
+        "label": "Deixar o nome de Grash no muro",
+        "outcome": "Um dos nomes que os PCs viram morrer (b-3-wall-unforgotten).",
+        "leadsTo": [
+          "b-3-wall-unforgotten"
+        ]
       }
     ],
-    "notes": "Crocudos (S29). Pode substituir ou anteceder b-3-mouthers. Statblocks dos Murmuradores não registados. Crocudos (S29): Combate à entrada com os orcs Murmuradores Urza Vokh e Grash Korr'thak (fichas no Notion); Verin aparece com 2 guardas no turno seguinte. Texto de abertura do DM: cinco gibbering mouthers infiltrados; trombetas; \"Recrutas? Não há tempo para apresentações — empunhem as armas ou procurem abrigo! Encontrem-me no quartel depois!\".",
+    "notes": "Crocudos (S29): na mesa os dois foram jogados como inimigos \"Murmuradores\" à entrada; as fichas do Notion descrevem-nos como soldados leais da Vigia (Guards reskinados, CR 1/8). DM: conciliado assim: Grash devorado, Urza ao lado dos PCs. Texto de abertura do DM: cinco gibbering mouthers infiltrados; trombetas; Verin: \"Recrutas? Não há tempo para apresentações — empunhem as armas ou procurem abrigo! Encontrem-me no quartel depois!\". Crocudos (S29): Verin aparece com 2 guardas no turno seguinte. Texto de abertura: cinco gibbering mouthers infiltrados; trombetas; \"Recrutas?",
     "source": "dm"
   },
   {
@@ -1704,7 +1720,7 @@
         "leadsTo": []
       }
     ],
-    "notes": "Crocudos (S34–S35, S40; texto em campanha.md, \"Caderno Volstrucker\", versão final). A entrada 5 e as referências ao intermediário da Myriad ficam de fora por decisão do DM; o nome do líder da aldeia do Vale Mole também. Quinta pista de r-assembly-buys-ruidium. Se o assaltante morto é o próprio Zyn'thar ou um cúmplice fica ao critério do DM (os registos não o dizem).",
+    "notes": "Crocudos (S34–S35, S40; texto em campanha.md, \"Caderno Volstrucker\", versão final). A entrada 5 e as referências ao intermediário da Myriad ficam de fora por decisão do DM; o nome do líder da aldeia do Vale Mole também. Quinta pista de r-assembly-buys-ruidium. Se o assaltante morto é o próprio Zyn'thar ou um cúmplice fica ao critério do DM (os registos não o dizem). DM: se Adélia morreu no assalto (b-3-volstrucker-assault), o caderno fica órfão: ninguém vem buscá-lo.",
     "source": "dm"
   },
   {
@@ -1803,7 +1819,7 @@
       "c-karesh-asa-rubra",
       "f-aurora-watch"
     ],
-    "summary": "Crocudos (S34–S35): De noite, alguém disfarçado de soldado da Vigia \"enviado por Verin\" (na verdade o Volstrucker) segue o grupo e tenta roubar-lhe um item. Habilidades usadas: Shadow Needle (bónus, recarga 5–6, alvo a 9 m, WIS DC 14, falha 3d6 psíquico e incapacitado 1 ronda) e Shadow Step (1/descanso, teleporte de 9 m em escuridão ou penumbra, seguido de Hide). O assaltante foge em direcção à Ascensão; é perseguido e morto; o disguise self cai e revela uma humana ruiva de feições delicadas, olhos revirados, espuma na boca e veias negras; um selo arcano na nuca mata-a no instante e apaga-lhe a memória. Karesh \"Asa Rubra\" chega e leva o corpo.",
+    "summary": "Crocudos (S34–S35): De noite, alguém disfarçado de soldado da Vigia \"enviado por Verin\" (na verdade a Volstrucker Adélia Krauss, a \"Zyn'thar\") segue o grupo e tenta roubar-lhe um item. Habilidades usadas: Shadow Needle (bónus, recarga 5–6, alvo a 9 m, WIS DC 14, falha 3d6 psíquico e incapacitado 1 ronda) e Shadow Step (1/descanso, teleporte de 9 m em escuridão ou penumbra, seguido de Hide). O assaltante foge em direcção à Ascensão; é perseguido e morto; o disguise self cai e revela uma humana ruiva de feições delicadas, olhos revirados, espuma na boca e veias negras; um selo arcano na nuca mata-a no instante e apaga-lhe a memória. Karesh \"Asa Rubra\" chega e leva o corpo.",
     "reveals": [
       "r-assembly-buys-ruidium"
     ],
@@ -1812,21 +1828,22 @@
     ],
     "choices": [
       {
-        "label": "Perseguir o assaltante",
-        "outcome": "Crocudos: apanhado antes da Ascensão; morre pelo selo arcano; o corpo revela o disfarce.",
+        "label": "Perseguir a assaltante",
+        "outcome": "DM: apanhada antes da Ascensão; o selo arcano mata-a e apaga-lhe a memória; o disfarce cai (Adélia Krauss). A Assembly fica sem agente em Bazzoxan: ninguém vem buscar o caderno, Aloysia fica sozinha em R16 e o beacon não é atacado pela Assembly.",
         "leadsTo": [
           "b-3-caderno-volstrucker"
         ]
       },
       {
-        "label": "Deixá-lo fugir",
-        "outcome": "O Volstrucker fica à solta com o que roubou e volta pelo que falta (o caderno).",
+        "label": "Deixá-la fugir",
+        "outcome": "DM: Adélia continua viva e disfarçada de Zyn'thar: volta pelo caderno, entra em R16 com Aloysia e tenta o beacon.",
         "leadsTo": [
-          "b-3-caderno-volstrucker"
+          "b-3-caderno-volstrucker",
+          "b-3-beacon-in-barracks"
         ]
       }
     ],
-    "notes": "Crocudos (Notion, notas do DM para a S35): \"Zynthar morreu durante o ataque à estalagem. O corpo está no crematório. O Volstrucker anda à solta. Ele vai procurar atar a loose end: o seu caderno.\" O registo não esclarece se a assaltante ruiva e o Volstrucker \"Zyn'thar\" são a mesma pessoa: na nova campanha o DM decide (o caderno só se lê com dispel magic, S39). Depois do assalto: Verin manda-os interrogar, descobre-lhes os itens mágicos e fala de rubídio (aftermath planeado).",
+    "notes": "Crocudos (Notion, notas do DM para a S35): \"Zynthar morreu durante o ataque à estalagem. O corpo está no crematório. O Volstrucker anda à solta.\" DM (decisão): a assaltante ruiva era Adélia Krauss, a própria \"Zyn'thar\"; não há segundo agente. O caderno só se lê com dispel magic (S39). Depois do assalto: Verin manda-os interrogar, descobre-lhes os itens mágicos e fala de rubídio (aftermath planeado).",
     "source": "dm"
   }
 ]

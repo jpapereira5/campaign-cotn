@@ -37,9 +37,9 @@
     ],
     "summary": "DM: Agente Volstrucker da Cerberus Assembly (Império Dwendaliano), já instalado em Bazzoxan quando os PCs chegam. Investiga o ruidium de perto (compra amostras pelo contacto do Myriad, sonda Bautha sobre a corrupção, vigia a entrada do Rise) e o rumor do beacon do Luxon recuperado no Rise. Em conluio com Aloysia Telfan, é quem tenta roubar a Jóia.",
     "goal": "Levar ruidium e o beacon para a Assembly (esforço de guerra); a Jóia, se estiver ao alcance.",
-    "secret": "É o homem da Assembly na ponta de Bazzoxan do canal do Myriad: paga o que sai do Rise. O conluio com Aloysia é oportunismo: o Consortium e a Assembly querem a Jóia por razões diferentes.",
+    "secret": "É a agente da Assembly na ponta de Bazzoxan do canal do Myriad: paga o que sai do Rise. O conluio com Aloysia é oportunismo: o Consortium e a Assembly querem a Jóia por razões diferentes.",
     "wants": "Ruidium; o beacon; a Jóia; discrição.",
-    "fears": "Ser reconhecido em território Kryn; que o Myriad venda ao Consortium ou à Kryn.",
+    "fears": "Ser reconhecida em território Kryn; que o Myriad venda ao Consortium ou à Kryn.",
     "states": [
       {
         "fromBeat": "b-3-volstrucker-investigation",

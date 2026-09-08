@@ -6,6 +6,8 @@ Textos para entregar aos jogadores, herdados da campanha anterior do DM. Marcado
 
 ## Caderno Volstrucker — Crocudos
 
+**DM (decisão):** a autora do caderno é **Adélia Krauss**, a Volstrucker que se faz passar pelo soldado drow "Zyn'thar Veylin"; se morrer no assalto nocturno, o caderno fica órfão: ninguém vem buscá-lo.
+
 Diário de um agente Volstrucker da Assembleia de Cerberus (encontrado em Bazzoxan; a entrada 6 é a mais recente). Cada entrada está assinada com o nome do arcanista que a ordenou.
 
 **Entrada 1 — Iniciação Volstrucker (Ikithon)**
