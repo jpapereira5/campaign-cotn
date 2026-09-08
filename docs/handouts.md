@@ -1,10 +1,8 @@
-<!-- RASCUNHO para docs/handouts.md (ficheiro novo) — bloco D. Fontes: campanha.md l. 14341–14378 (Notas do Arcanista), 14395–14455 (Caderno Volstrucker, "Versão Final"), 8294–8320 (tinta invisível), 7068–7108 (Kalai), 12550–12566 (R1), 12672–12730 (R3), 12790–12800 (R8); crocudos.md l. 1693 (inscrição de Alyxian, S27). Tudo material da campanha anterior ("Crocudos"); entrada 5 do Caderno e referências ao grupo antigo ficaram de fora. -->
+# Handouts (camada campanha)
 
-# Handouts (camada campanha — Crocudos)
+Textos para entregar aos jogadores. Nomes próprios do livro ficam como no livro (ver `docs/ids.md` para os nomes de mesa).
 
-Textos para entregar aos jogadores, herdados da campanha anterior do DM. Marcados **Crocudos**; nomes próprios do livro ficam como no livro (ver `docs/ids.md` para os nomes de mesa).
-
-## Caderno Volstrucker — Crocudos
+## Caderno Volstrucker
 
 **DM (decisão):** a autora do caderno é **Adélia Krauss**, a Volstrucker que se faz passar pelo soldado drow "Zyn'thar Veylin"; se morrer no assalto nocturno, o caderno fica órfão: ninguém vem buscá-lo.
 
@@ -34,7 +32,7 @@ Recomenda-se vigilância passiva sobre rumores associados à Ascensão, prioriza
 
 *(Nota DM: a entrada 5, "Carregamento Perdido", e as frases da entrada 6 sobre o intermediário desaparecido e sobre o grupo antigo pertenciam a arcos de PCs da campanha anterior e não transitam. Na entrada 2 o nome do líder foi substituído por "o líder da aldeia"; a frase sobre "outro descendente" também vinha desse arco — o DM decide se fica.)*
 
-## Notas do Arcanista — Crocudos
+## Notas do Arcanista
 
 Caderno de um scholar (as primeiras notas são as mais organizadas) que se foi corrompendo. Ler tudo leva **4 h** por bloco.
 
@@ -49,7 +47,7 @@ Caderno de um scholar (as primeiras notas são as mais organizadas) que se foi c
 - "Grupo corrompido": podem ser fonte de rubídio, ou serem presos para experimentação.
 - "Sobrinho corrompido, enviado a Bazzoxan ao cuidado de Vorrim."
 
-## Livro em tinta invisível — Crocudos
+## Livro em tinta invisível
 
 No quarto do arcanista do Posto Avançado da Dinastia (Jigau): um livro de capa branca, discreto na estante, parece em branco — páginas lisas, papel espesso e esbranquiçado.
 - **Intelligence (Arcana) DC 15:** a textura do papel esconde algo mágico. Calor (chama de vela) ou luz mágica concentrada (*Detect Magic*, *Dancing Lights*) revela a tinta por instantes em padrões brilhantes.
@@ -63,7 +61,7 @@ No quarto do arcanista do Posto Avançado da Dinastia (Jigau): um livro de capa 
 
 As três palavras devem ser ditas calmamente e com convicção antes de manipular a estante (suprimem o glifo de alarme/*hold person* que a protege; a estante giratória dá para o laboratório subterrâneo).
 
-## Inscrições — Crocudos
+## Inscrições
 
 **Ruínas de Kalai — "Sussurro da Última Luz" (segunda noite nos Desterros; santuário secreto de Sehanine; Kalai = "Oculto/Escondido" na língua antiga dos elfos).** Inscrição fragmentada nas pedras do altar:
 > "Que a lua oculte o sangue, que o véu esconda os últimos. Sehanine, leva-nos em silêncio."
@@ -83,7 +81,7 @@ Durante o descanso, um sussurro de encorajamento a quem sonhou com Alyxian: "Ain
 > "Primeiro, louvor à Rainha Aranha, cujo reino foi abandonado. Depois, exulta o Destruidor, cuja lança fez tremer a terra verde. Em seguida, presta homenagem ao esquecimento e ao fim de todas as coisas. E por fim, entrego-me ao Rei Rastejante."
 Intelligence DC 15: é um código — a sequência de sigilos a tocar para abrir o vitral em R9 (Lolth → Gruumsh → Tharizdun → Torog).
 
-## Diário de Comando do Intendente Verin Thelyss — Crocudos (Notion)
+## Diário de Comando do Intendente Verin Thelyss
 
 Registo dos forasteiros em Bazzoxan (para ler ou entregar quando os PCs ganharem a confiança de Verin):
 
@@ -94,19 +92,19 @@ Registo dos forasteiros em Bazzoxan (para ler ou entregar quando os PCs ganharem
 - **Alone Fritz** — estudioso de Decrepola. Requisitou acesso ao laboratório para catalogar fenómenos rúnicos. Credenciais válidas, comportamento obsessivo e reservado.
 - **Mercadores de Urzin** — registados como comerciantes independentes, oferecendo transporte e mantimentos; comportamento reservado e discreto. (Na verdade, a Míriade.)
 
-## Mensagem do Sorriso Dourado — Crocudos (S31)
+## Mensagem do Sorriso Dourado
 
 Sending recebido por um agente do Sorriso Dourado em Bazzoxan (sotaque de leste): *"Que boa surpresa. A Lira arde em Bazzoxan, para iluminar a sombra da Miríade. O Rubídio sonha. Mantém-te firme, pedra que ri."* A "Lira" é a Maré de Fogo (Nara Sol e Talan Velyar), do Sorriso Dourado, a investigar a Míriade.
 
-## Chegada a Bazzoxan — Crocudos (Notion)
+## Chegada a Bazzoxan
 
 Grusk "Quebra-Sangue", do alto da muralha: *"Zyn'thar, Darguun, Grumak… Os outros? Vou avisar a enfermaria. Vocês, identifiquem-se!"* — *"Amigos da Dinastia!"* — *"Mais mercenários? Precisamos de toda a ajuda que conseguirmos."* — *"Vazia, leva-os ao Intendente. Bem-vindos a Bazzoxan, se é que se pode dizer isso… Venham, o quartel do bastião é por aqui."*
 
-## Caderno Volstrucker — versão do Notion (diferenças)
+## Caderno Volstrucker — versão anterior (diferenças)
 
-Versão anterior à "versão final" já em handouts.md; o que acrescenta (no patch de `f-cerberus-assembly`): datas (834, 836, 837, 841, 842, 843 P.D.); Entrada 2 reporta a **Oremid Hass**; Entrada 3 sob o comando do **Inquisidor Perestrelo**, supervisão geral de **Elaina Lehmen**; Entrada 4 autorização de **Lletys do Brilho (Brighthall)**; Entrada 6 "canal Brighthall", "Envio R-III / Canal do Brilho", **"considerar eliminação de Verin Thelyss"**, reencontro com **Oremid Hass em Marquet**, lista de facções inclui "Culto do Dragão" e "Crocudos". Excluído por decisão do DM: Entrada 5 (Jigau, 842), o intermediário "Jack Sparrow" e o nome "Granito Serra-Dura" (Entrada 2). Nota da página: "Preciso de mecânica de magic ink".
+Versão anterior à "versão final" já em handouts.md; o que acrescenta (no patch de `f-cerberus-assembly`): datas (834, 836, 837, 841, 842, 843 P.D.); Entrada 2 reporta a **Oremid Hass**; Entrada 3 sob o comando do **Inquisidor Perestrelo**, supervisão geral de **Elaina Lehmen**; Entrada 4 autorização de **Lletys do Brilho (Brighthall)**; Entrada 6 "canal Brighthall", "Envio R-III / Canal do Brilho", **"considerar eliminação de Verin Thelyss"**, reencontro com **Oremid Hass em Marquet**, lista de facções inclui "Culto do Dragão" e "". Excluído por decisão do DM: Entrada 5 (Jigau, 842), o intermediário "Jack Sparrow" e o nome "Granito Serra-Dura" (Entrada 2). Nota da página: "Preciso de mecânica de magic ink".
 
-## Balada do "deus a meio caminho" — Crocudos (Notion, página de Iliana "Questão")
+## Balada do "deus a meio caminho" (página de Iliana "Questão")
 
 Tradução em português da balada do livro (com uma versão "em undercommon" inventada pelo DM, não transcrita):
 

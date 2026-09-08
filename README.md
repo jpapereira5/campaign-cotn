@@ -33,7 +33,7 @@ data/book/                  o livro tal como escrito (referência; não se edita
   revelations/*.json        revelações com pistas (beats)
 data/campaign/              a nossa campanha: patches, acrescentos e remoções por cima do livro
   <mesma estrutura>         mesma id = patch de campos · `_remove: true` = esconder · id nova = acrescentar
-  */crocudos*.json          material da campanha anterior do DM ("Crocudos"), incl. nomes em português da mesa
+  */mesa*.json              material próprio do DM, incl. nomes em português da mesa
 data/state.json             estado de jogo (beats jogados, revelações, atitudes, sessões, flags, notas)
 ```
 

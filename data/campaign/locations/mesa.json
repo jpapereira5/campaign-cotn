@@ -1,0 +1,356 @@
+[
+  {
+    "id": "l-trapo-e-ticao",
+    "name": "Trapo & Tição (loja de bens gerais)",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Loja de bens gerais montada dentro de uma carapaça rachada de tartaruga-do-horizonte morta há gerações, reforçada com madeira, panos encerados e chapas. Dono: Rinkat Tição-Baixo (goblin), com o porquinho albino Checheu, que grunhe quando alguém tenta roubar. Aceita moeda, troca directa ou favores simples. Itens comuns a preços normais (corda 50 ft 1 pp; rações 5 pc; tochas 1 pc; pederneira 5 pc; mochila usada 1 pp; manta 3 pc; cantil 2 pc). Itens goblinóides: \"frasco que talvez seja ácido\" 8 pp; \"meia lança\" 4 pc; máscara anti-lama de casco 6 pc; licor pântano-fermentado 5 pp (vantagem contra frio, desvantagem em Carisma); livro de folhas secas ilegível 3 pp; \"dedo de troll num frasco\" 15 pp. Pedro comprou um saco de pó de ferro; Artyom tentou arrombar algo e Rinkat chamou um guarda da Aurora Watch, que os PCs enganaram; Elga comprou aqui a galinha Odete, uma foice e rações.",
+    "source": "dm"
+  },
+  {
+    "id": "l-pombal-ninho-de-lama",
+    "name": "Pombal Ninho de Lama",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Torre de madeira, lama seca e ossos de bestas do pântano; cheira a penas molhadas e a excremento, pombos a voar em todas as direcções. Dona: Nisla Asa-Curta (goblin). Serviços: mensagem simples 2 po (até 40 km, chega em 1d4 h); envio com cópia por 2 pombos 5 po; aluguer de pombo mensageiro 8 po (resposta em 24–48 h); transcrição 1 po; tinta e pena 5 pc; gaiola portátil 2 po; rolo de cera para selar 5 pc. foi daqui que saiu a mensagem para Targost à partida dos PCs.",
+    "source": "dm"
+  },
+  {
+    "id": "l-templo-luxon-urzin",
+    "name": "Templo do Luxon de Urzin",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Santuário esculpido no casco invertido de uma tartaruga-do-horizonte; espelhos partidos nas paredes criam reflexos ilusórios com a luz. Clérigo: Valir Torran (drow). Serviços: Bênção do Luxon +1d4 no próximo teste 10 po; consulta espiritual (Augury) 50 po com oferenda; meditação guiada que cura 1 nível de exaustão 10 po; cristal Luxon simples (foco arcano) 15 po; roupas cerimoniais 3 po; incenso 1 po.",
+    "source": "dm"
+  },
+  {
+    "id": "l-templo-das-cinzas",
+    "name": "Templo das Cinzas",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Cabana central de Urzin coberta de peles, ervas secas e panos, sempre envolta em fumo, com totens de ossos a arder. Curandeira: Litcha das Cinzas (hobgoblin); assistente Kalmuk Parte-Pó (bugbear). Aqui se faz o Ritual da Libertação, que liberta os recém-nascidos goblinóides da marca de Bane através de Melora (b-0-ritual-libertacao). Serviços: ritual de protecção tribal +1d4 num teste de resistência 3 po; leitura das cinzas (como Augury, 70% de acerto, linguagem enigmática) 1d6 po; ritual de coragem (vantagem contra medo 1 h) 5 po; totem de protecção que anula 1 ataque 10 po; pomadas rituais 5 pc. Bolbara usa este templo para consultar Melora sobre o cristal de rubídio (b-0-bolbara-legend).",
+    "source": "dm"
+  },
+  {
+    "id": "l-ferreiro-pedra-dura",
+    "name": "Ferreiro Pedra-Dura",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Forja entre plataformas de madeira e ferro, marteladas constantes. Ferreiro: Karuk Pedra-Dura (hobgoblin). Serviços: reparação básica 1d4 po; reforço de armadura +1 AC durante 1 combate 20 po; afiamento +1 dano no próximo combate 2 po; fabrico de arma simples 5–10 po; kit de manutenção 5 po; armas simples e tribais a PHB +20%. Pedro comprou aqui um battleaxe por 15 po.",
+    "source": "dm"
+  },
+  {
+    "id": "l-bugigangas-de-mekik",
+    "name": "Bugigangas de Mekik",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Feira improvisada cheia de cordas, frascos, redes, caixas abertas e cabaças, tudo com etiquetas rabiscadas. Vendedor: Mekik da Bugiganga (goblin). Equipamento de aventura com defeitos e frases de vendedor (mochila esburacada 2 po; pederneira de faíscas verdes 1 po; cantil de chifre 2 pp; rações com bolor 5 pp; saco de dormir rasgado 1 po; corda com nós 1 po; lanterna de osso 5 po; pinças enferrujadas 1 po; filtro de água 2 po; óleo gorduroso 1 po); tabela d20 de bugigangas a 1 po (ver notas de b-0-urzin-day) e poções de sabor duvidoso com efeitos d12 durante 1d4 h. Mekik volta a aparecer com banca em Jigau (O Molho).",
+    "source": "dm"
+  },
+  {
+    "id": "l-casco-fumegante",
+    "name": "O Casco Fumegante (estalagem e banhos)",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Estalagem e casa de banhos construída sobre o casco da velha tartaruga-do-horizonte Grunzha, ainda viva: o seu batimento cardíaco sente-se no chão. Interior denso de vapor de fontes termais, iluminado por cristais luxonianos avermelhados; clientes da Aurora Watch, caçadores goblins e aventureiros. Dona: Mugra \"Mãos Quentes\" (bugbear); aprendiz Skirr (goblin alquimista). Preços: banho de lama 3 sp (+1d4 HP num short rest); banho aromático luxoniano 1 gp; banho privado 3 gp; massagem de Mugra 5 gp (remove 1 nível de exaustão); \"Banho do Guerreiro\" completo 7 gp; dormitório 5 sp/noite; suite do casco 2 gp/noite. Aurora Watch com 50% de desconto; uma boa história ou canção vale metade do preço. Rumores: Grunzha sonha; um poço termal começou a brilhar avermelhado; um drow mascarado paga banhos privados com platina marcada com o símbolo do Myriad; Skirr achou um fragmento cristalino que aquece sozinho e provoca sonhos partilhados; uma voz chama por \"aquele que regressa ao Luxon\".",
+    "source": "dm"
+  },
+  {
+    "id": "l-carapaca-estalada",
+    "name": "A Carapaça Estalada (taberna pobre)",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Taberna, dormitório e poço de banho improvisado na zona baixa de Urzin, sobre o casco abandonado de uma tartaruga-do-horizonte morta e meio afundada. Fede a vapor azedo, peixe salgado e fumo de tabaco de fungo; tochas em crânios de orc, um gnomo bêbado a tocar tambor com os punhos. Dona: Rikka \"Três-Dentes\" (goblin); porteiro e cozinheiro Durg \"Mão-Mole\" (meio-orc). Preços: banho comunitário 5 cp (+1d4 HP num short rest, 10% de infecção leve); banho \"privado\" 2 sp; rede 3 cp; canto seco 1 sp; cerveja do pântano 2 cp; sopa do dia 3 cp; promoção banho + cerveja 5 cp.",
+    "source": "dm"
+  },
+  {
+    "id": "l-raiz-da-sorte",
+    "name": "Raíz da Sorte (herbalista)",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Cabana coberta de ervas e musgo, paredes de barro e madeira húmida, jardim suspenso com plantas em frascos, gaiolas e cascas de coco. Herbalista: Rogna Erva-Rara (meio-orc). Inventário: unguento curativo 1d4+1 HP 6 pp; bálsamo anti-exaustão 10 pp (remove 1 nível após descanso longo); poção de cura menor 1d4+2 por 20 po (escassez); venenos simples DC 10, 1d6 por 20 pp; cataplasmas de musgo-fogo 5 pp; chá ritual de sonhos vívidos 5 pc (vantagem num teste de Sabedoria ligado a sonhos no dia seguinte); kit de herbalismo 1 po.",
+    "source": "dm"
+  },
+  {
+    "id": "l-mantimentos-ate-ao-osso",
+    "name": "Mantimentos Até ao Osso",
+    "parent": "l-urzin",
+    "chapter": "ch0",
+    "summary": "Barraca de estacas tortas e peles secas sobre uma plataforma de casco coberta de sangue ressequido, moscas em volta das tiras de carne ao sol; dentro, ganchos com carne, fumeiro, barris de sal e um escudo rachado a servir de balcão. Vendedora: Krivga Pele-Seca (bugbear). Inventário: carne seca goblinóide 5 doses 8 pp; barriga de sapo fumada 6 pp (DC 10 CON à primeira vez); ração goblinóide 5 pp; coração de javali em conserva 4 pp (+1 Intimidação 1 h, placebo); bolsa de arroz do pântano 5 porções 6 pp; serviço de conservação de comida 1 pp por semana.",
+    "source": "dm"
+  },
+  {
+    "id": "l-passo-lento",
+    "name": "Passo Lento (tartaruga-do-horizonte de Urzin)",
+    "chapter": "ch1",
+    "summary": "Tartaruga-do-horizonte guiada por goblinóides e protegida por membros da Aurora Watch que faz a ligação Urzin–Jigau pelos Desterros de Jorhas (Wastes of Xhorhas) em 3 dias, com paragens nocturnas em pequenos oásis. Em combate: AC 22, 227 HP. Sete espaços, cada um com achados por Investigation DC 10/15/20: Cozinha (bolachas duras para 5 dias; pó de chifre seco; receita de Potion of Healing com ingredientes naturais); Dormitório (5 pc numa meia; amuleto de madeira de Melora; 2 dados viciados); Zona Comum (mapa rabiscado de Jorhas; licor goblinóide 2 doses; estojo de tinta, pena e papel); Zona de Carga e Cela (tocha mágica 6 h; poção de cura escondida num saco de arroz; chave de um baú comum); Cabine do Capitão (diário de bordo; miniatura de horizonback de Dhurak; anel de prata de 25 po); Torre de Vigia (corda com ganchos; pano com o código de sinais de Tik; apito de osso só ouvido por Percepção passiva 15+); Espaço do Druida (fungos secos; página de cântico druídico; ídolo de barro de Melora, vantagem 1x em Nature ou Religion). Comandante: Dhurak Pé-Reto; Fritz viaja na cela.",
+    "source": "dm"
+  },
+  {
+    "id": "l-kalai-ruins",
+    "name": "Ruínas de Kalai — Sussurro da Última Luz",
+    "chapter": "ch1",
+    "summary": "Ruínas dentro de um oásis de árvores nos Desterros de Jorhas, restos de um santuário secreto de Sehanine dos últimos dias da Calamidade; Kalai significa \"Oculto\" na língua antiga dos elfos. Os sacerdotes usaram ilusão, sacrifício e magia lunar para esconder sobreviventes e velar as almas perdidas dos Betrayer Gods; diz-se que fragmentos do poder da deusa ficaram na pedra negra do altar. Inscrição fragmentada: \"Que a lua oculte o sangue, que o véu esconda os últimos. Sehanine, leva-nos em silêncio.\" A luz da lua nunca entra de verdade na clareira (névoa pálida); magias de Divination e Illusion têm vantagem ou efeitos expandidos; um dos PCs pode ouvir o sussurro \"Ainda há luz no esquecimento. Segue a esperança que sangra.\" na mesa, a clareira com colunas em círculo (protecção antiga de Sehanine) foi a paragem da primeira noite.",
+    "source": "dm"
+  },
+  {
+    "id": "l-clan-cinza-viva-camp",
+    "name": "Acampamento do Clã Cinza-Viva (Caminhantes-dos-Desterros)",
+    "chapter": "ch1",
+    "summary": "Acampamento discreto dos Caminhantes-dos-Desterros (WasteWalkers / Clã da Cinza-Viva), a cerca de 1 km da rota, entre um afloramento rochoso e uma nascente pequena: tendas de pano remendado, animais de carga, crianças descalças e uma tenda isolada onde jaz a filha de Korrem com febre escarlate. O clã cobra \"imposto\" a quem cruza o seu território sagrado; não seguem deuses (acreditam que os deuses abandonaram esta terra). os PCs foram convidados a passar a noite e receberam o colar de três pedras ocres (Refúgio do Caminhante: Leomund's Tiny Hut 1x/dia, sintonia por quem já dormiu nos Desterros).",
+    "source": "dm"
+  },
+  {
+    "id": "l-jigau-molho",
+    "name": "O Molho (The Jumble)",
+    "parent": "l-jigow",
+    "chapter": "ch1",
+    "summary": "Distrito densamente povoado entre mangais e carapaças de tartarugas-do-horizonte usadas como habitações móveis. Centro político (Tropa Torta / Salão de Pedra) e comercial: Presa Inquebrável, Talho do Corte-Grosso, Curral das Tartarugas, Igreja do Luxon, Padaria Massapão, Bugigangas de Mekik, Orfanato da Casca Quente, armazém do festival. Zona-base do clã orc Norgab. Patrulhado pelo tenente Kren Vorith, \"A Sombra do Molho\".",
+    "source": "dm"
+  },
+  {
+    "id": "l-jigau-aguas-da-carne",
+    "name": "Águas-da-Carne (Meatwaters)",
+    "parent": "l-jigow",
+    "chapter": "ch1",
+    "summary": "Zona portuária e bairro pobre junto ao rio Ifolon: plataformas de madeira sobre a água, casas em palafitas, barracos, estaleiros, cais e mercado de peixe; cheiro a peixe, sal, barro e madeira húmida. Zona-base do clã goblin Uvuroh (pesca e barcos). Locais: Pedra de Partida, Sapo Afogado, Peixaria do Gancho-Torto, Estaleiro da Madeira-Verde, Banhos do Tibarro, Cordas Soltas, Joalharia Brilho do Pântano, Cais Comunitário. Patrulhas anfíbias do tenente Sarna Kul. Na mesa: crianças goblin febris nos barracos; um santuário antigo de Sehanine submerso (encontrado por Ace com 5 g de suude); a ponte sobre o Ifolon leva a um pequeno templo de Avandra na rocha (só mencionado).",
+    "source": "dm"
+  },
+  {
+    "id": "l-jigau-passadicos",
+    "name": "Passadiços (Wetwalks)",
+    "parent": "l-jigow",
+    "chapter": "ch1",
+    "summary": "Casas sobre estacas em zonas húmidas onde se cultivam os arrozais; passadiços de corda entre elas. Zona-base dos clãs goblin Zetek (espiritualidade, Templo de Melora, orfanato) e Gakthash (agricultura). Locais: Casa dos Rosbife, Templo de Melora \"Espinha Viva\", Labirinto, campos de arroz. Patrulhas elevadas do tenente Yezek Miruun. Os campos abertos à esquerda dos Passadiços são onde as tartarugas jovens treinam.",
+    "source": "dm"
+  },
+  {
+    "id": "l-salao-de-pedra",
+    "name": "Salão de Pedra",
+    "parent": "l-dynasty-outpost-jigow",
+    "chapter": "ch1",
+    "summary": "Dodecaedro de pedra polida e vidro semitranslúcido no centro do Molho; residência do Intendente Duarte Mirim. Rés-do-chão: Antecâmara (bancos de madeira negra, tapeçarias luxonianas, guardas drow com lanças quitinosas; foi aqui que os PCs conheceram Ayo); Câmara dos Líderes (mesa redonda de obsidiana com veios púrpura, três cadeiras: madeira escura de Coblu, osso branco de Ushru, metal forjado de Duarte; temperatura sempre constante); Sala de Reuniões (chá de raízes, chaleira mágica, chávenas com constelações; portas discretas para o Quarto do Arcanista, quarto de hóspedes e saída dos fundos: aqui Fritz tomou chá com Velnari). Primeiro andar: aposentos de Duarte com um espelho de obsidiana num altar baixo, usado para falar com Rosohna, varanda sobre o Molho e armadura cerimonial quitinosa.",
+    "source": "dm"
+  },
+  {
+    "id": "l-quarto-do-arcanista",
+    "name": "Quarto do Arcanista (Salão de Pedra)",
+    "parent": "l-salao-de-pedra",
+    "chapter": "ch1",
+    "summary": "Compartimento reservado de Velnari Zeth: cama simples, frascos de reagentes, secretária com tinta luxoniana e cadernos codificados, símbolo do Luxon em cristal púrpura. Na estante, um livro de capa branca aparentemente em branco: Arcana CD 15 intui tinta invisível (revela-se com calor ou luz mágica); Detect Magic mostra abjuração (glifo) e ilusão. Mensagem em drow antigo (élfico, Inteligência CD 15): \"A madeira ressoa se a carne não falar. Três palavras ditas, com voz firme, e a Luz não se acende. — Ulun'ta, Reskaar, Vel'rith — Que os olhos da Mãe nos não vejam.\" Ditas com convicção antes de mexer na estante giratória, as três palavras suprimem por 1 hora o glifo de alarme + hold person que a guarda. A estante esconde a plataforma de descida ao laboratório.",
+    "source": "dm"
+  },
+  {
+    "id": "l-laboratorio-velnari",
+    "name": "Laboratório subterrâneo do arcanista",
+    "parent": "l-salao-de-pedra",
+    "chapter": "ch1",
+    "summary": "Câmara circular escavada na rocha alagada sob o Salão de Pedra; desce-se por uma plataforma de pedra activada por um anel de runas (brilho roxo). Lanternas púrpura, bancadas de alquimia; numa mesa central, fragmentos de rubídio sobre um círculo mágico luxoniano (reencarnação, luz, travessia planar). Vitrinas com documentos drow sobre dunamis: instabilidade do rubídio, corrupção em criaturas, sonhos partilhados. Num altar de observação, um espelho negro (Espelho de Sussurros, comunicação secreta). Sobre um pedestal, uma gema suspensa que zumbe: um pequeno Beacon experimental. Só a Dinastia (Duarte, Velnari) e agentes aliados como Ilyra têm acesso; quando entra um estranho, as runas do chão brilham e o rubídio ressoa. Na mesa: Velnari mostrou-o a Elga e aqui tentou tirar-lhe o cristal; Ace levou 100 g de pó, 23 g de cristais e todos os apontamentos.",
+    "source": "dm"
+  },
+  {
+    "id": "l-quartel-da-vigia-jigau",
+    "name": "Quartel da Vigia",
+    "parent": "l-dynasty-outpost-jigow",
+    "chapter": "ch1",
+    "summary": "Edifício largo de madeira reforçada, dois pisos (o doc situa-o junto ao rio Ifolon, nas Águas-da-Carne, mas faz parte do complexo da Tropa Torta). Dormitório comum, refeitório (ensopado de peixe, dados), cozinha, arsenal vigiado por dois soldados, sala de treino com arena de terra batida e uma única cela: dois infractores locais (um orc e um goblin) e nenhum sinal de Fritz, que esteve lá mas foi levado para a custódia do arcanista. Guardas à porta na mesa: Vorka (hobgoblin) e Barbara Zentral (drow). Elga acabou aqui presa depois do confronto com Velnari.",
+    "source": "dm"
+  },
+  {
+    "id": "l-beefslab-butchers",
+    "name": "J4 Talho do Corte-Grosso (Beefslab Butchers)",
+    "parent": "l-jigau-molho",
+    "summary": "Talho de tijolo escurecido entre dois edifícios maiores, placa com um osso em forma de faca; carne pendurada em ganchos de osso, hidromel artesanal (\"Reserva do Corte\"), jogos clandestinos sinalizados com um pano vermelho. Dono: Vars. Preços: bife de lagarto do brejo 8 pp, costeletas de peixe-couraça 6 pp, linguiça de peixe apimentado 3 pp, ossos para caldo 5 pc, corte personalizado 1 po. Produtos \"fora do menu\" (só por código) derivados de gloomstalker: linguiça de sombra 15 pp (vantagem em Stealth 10 min), coração curado 25 po, pele seca 18 po/tira (resistência a necrótico 1d4 turnos), tártaro de carne negra 10 pp (darkvision +6 m por 1 h, febre leve), ossos serrados 12 po, gordura de glândula 30 po (invisibilidade / óleo de silêncio). Na Caça ao Tesouro: concurso de bebida no relvado das traseiras contra o ogre Classe (Con +2) e a bugbear Quebra-Pescoços (Con +3): Con CD 8, +2 por copo, falhar por 5+ = envenenado 1 h, duas falhas = fora. Na mesa Rakent vendeu-lhe aqui a carcaça do gloomstalker por 15 po."
+  },
+  {
+    "id": "l-horizonback-paddock",
+    "name": "J6 Curral das Tartarugas",
+    "parent": "l-jigau-molho",
+    "summary": "Curral barulhento no coração do Molho, cercas de madeira reaproveitada, cascos e redes remendadas; tartarugas jovens do tamanho de elefantes, abrigo baixo e torre de vigia de tonéis. Onde acasalam e as jovens são criadas; zona de chegada e partida de tartarugas da Dinastia. Tratador: Adão Casco-Duro. Caça ao Tesouro (J6): uma tartaruga em fuga (Des CD 13 ou 2d10); teste de grupo CD 13 (Intimidação ou Lidar com Animais, vantagem com feno) para a devolver; Investigação CD 11 para achar as três com uma estrela no casco (Des CD 10 ou 1d10 de mordidela); Lidar com Animais CD 12 para o bilhete. Na mesa: a tartaruga corrompida resgatada pelos rivais é tratada aqui; Elga assustou uma com eldritch blast; Ivo falou aqui com Adão."
+  },
+  {
+    "id": "l-one-shot-maze",
+    "name": "J2 Labirinto (One-Shot Solution)",
+    "parent": "l-jigau-passadicos",
+    "summary": "Campo de terra batida a norte dos Passadiços com muros baixos de madeira e junco, ainda em construção; dois orcs movem as paredes às ordens de Pena-Brava (Sharpwatch), que regista em segredo os movimentos dos participantes. Na Caça ao Tesouro a pista é uma parede encantada que canta (Sobrevivência CD 14), a apontar para a Tropa Torta; completar o labirinto não dá vantagem no jogo do festival porque Pena-Brava o altera depois. Na mesa Filipe ganhou o jogo do festival."
+  },
+  {
+    "id": "l-ifolon-plunge",
+    "parent": "l-jigau-aguas-da-carne"
+  },
+  {
+    "id": "l-armazem-do-festival",
+    "name": "Armazém do Festival",
+    "parent": "l-jigau-molho",
+    "chapter": "ch1",
+    "summary": "Área vedada a poucos passos da Presa Inquebrável, rodeada de casas sobre tartarugas em repouso: caixas e mesas com suprimentos do festival e um pequeno palco. Dois bugbears guardam a entrada e a hobgoblin idosa Merelin acusa-os de deixarem roubar mais. É aqui que Coblu-Kaz escondeu a \"caixa roubada\" (a poucos metros do sítio original) e entregou aos PCs 40 po e a medalha de tenacidade.",
+    "source": "dm"
+  },
+  {
+    "id": "l-padaria-massapao",
+    "name": "Padaria Massapão",
+    "parent": "l-jigau-molho",
+    "chapter": "ch1",
+    "summary": "Padaria pequena e cheirosa no coração do Molho, forno de pedra e barro nas traseiras, saco de arroz pendurado como letreiro; pão leve de farinha de arroz dos Passadiços; fornece a Presa Inquebrável. Dono: Bruno Massapão. Preços: pão de arroz 2 pc, massa para empadas 3 pp, bolinho de arroz doce e cogumelo 4 pc, broa rústica 1 pp. No fundo do barril de água da tia-avó Sílvia cresceu uma raiz \"vermelha e dura como pedra\".",
+    "source": "dm"
+  },
+  {
+    "id": "l-orfanato-casca-quente",
+    "name": "Orfanato da Casca Quente",
+    "parent": "l-jigau-molho",
+    "chapter": "ch1",
+    "summary": "Orfanato e escola comunitária do clã Zetek, em terreno firme do Molho junto aos passadiços centrais: grande jango oval (15 m × 10 m) em forma de tartaruga, entrada pela \"cabeça\" num arco baixo (entra-se curvado, gesto de humildade); sala central, dormitório infantil com redes e conchas a tilintar, dormitório dos cuidadores com altar a Melora, despensa e cozinha. Tia Mukka Zetek dirige; Kolgar \"Avô\" Gurt cuida da segurança. Dez crianças: Teko (6, tartaruga de pano), Luva (8, drow, desenha símbolos da Vigia), Rilka (9, orc fortíssima), Mimi (5, viu \"uma galinha azul mágica\"), Maz (11, bugbear protector), Duna (7), Zizi (6, drow), Bakka (10, desenha mapas), Noko (4), Pira (8, medo do escuro).",
+    "source": "dm"
+  },
+  {
+    "id": "l-pedra-de-partida",
+    "name": "Pedra de Partida (santuário de Avandra)",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Rochedo coberto de conchas, cordas e moedas enferrujadas na ponta oeste das Águas-da-Carne, com uma figura de Avandra de braços abertos voltada para o Ifolon; oferendas de dados, mapas, fitas e barquinhos; fica parcialmente submerso quando o rio sobe (sinal de bênção). Guardião voluntário: Nossil \"Sete-Rumos\". Serviços: Bênção da Corrente 2 pp (vantagem num teste de Sobrevivência fluvial), \"Sorte no Dado\" 1 po (relançar 1 d20 fora de combate até ao fim do dia), Amuleto de Partida 5 pp (+1 Persuasão com devotos de Avandra), Oração de Sussurro Livre grátis. A capitã Chekka rezou aqui antes de zarpar. Função: oração simples e bênçãos de sorte e protecção para viajantes, barqueiros e comerciantes. O chão à volta está coberto de marcas de pés, velas derretidas e inscrições rudimentares como \"Guia-me\", \"Dá-me vento\" e \"Não me deixes ficar\".",
+    "source": "dm"
+  },
+  {
+    "id": "l-sapo-afogado",
+    "name": "Taberna O Sapo Afogado",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Taberna flutuante nas margens lamacentas, sobre plataformas podres, barcos encalhados e tambores; range, oscila, cheira a mofo; lamparinas de gordura de peixe. Bar de pescadores, batoteiros e quem evita a autoridade; apostas ilegais durante o festival; \"caldos de carne indefinida\" e cerveja de casca de árvore; a Vigia só entra com boa razão. Clientes: goblins sem-abrigo, hobgoblins reformados, um velho drow cego que \"vê tudo\". Dono: Nibuk (o doc chama-lhe também \"Caldeirão Virado\"). Operação da Miríade: os Orelhudos entregam aqui os fragmentos; um alçapão leva a um barco semi-submerso atado ao cais onde Nibuk esconde rubídio, ferramentas e crianças feridas ou corrompidas; Nippi vive lá num ninho de cobertores. Entrega a Ilyra por código (\"trazer o copo rachado\"). Na mesa: Filipe (disfarçado de goblin) pagou 5 pc por rum de arroz, peixe frito e mesa de apostas; Zé e Félix apontaram-lhe Sarna Kul e disseram que o suude se pede ao dono.",
+    "source": "dm"
+  },
+  {
+    "id": "l-peixaria-gancho-torto",
+    "name": "Peixaria do Gancho-Torto",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Peixaria aberta numa plataforma empenada: tinas com peixe vivo, cestos de marisco, peixe seco a pingar salmoura; ratos e caranguejos por baixo; centro de rumores (\"o rio fala\"). Dona: Yalla Gancho-Torto. Preços: peixe fresco 5 pp, camarões vivos 8 pp/barril, peixe seco 3 pp/corda, molho de alga e vinagre 1 pp, cubo de sal 2 pp. Quer descobrir quem vende peixe vindo \"do outro lado do rio\" sem passar por ela.",
+    "source": "dm"
+  },
+  {
+    "id": "l-estaleiro-madeira-verde",
+    "name": "Estaleiro da Madeira-Verde",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Plataformas irregulares presas a uma estrutura de madeira húmida, resina e barro; cheiro a alcatrão fervido e serradura; forja de latoaria ao fundo. Constrói e repara jangadas, barcos de fundo chato e plataformas; requisitado por clãs e discretamente pela Vigia. Dono: Belk Bate-Ripa. Preços: reparação de jangada 8 pp, jangada simples 2 po (2–3 dias), reforço de casco 1 po, alcatrão 5 pp/balde, kit de cordas e pregos 4 pp, leme ou remo 2 pp. Aceita materiais raros como pagamento e trabalhos \"extra\" por aposta física.",
+    "source": "dm"
+  },
+  {
+    "id": "l-banhos-do-tibarro",
+    "name": "Banhos do Tibarro",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Banhos públicos de madeira baixa, paredes de palha e lonas, tinas de madeira escura, caldeirão de cobre sempre ao lume; cheiro a argila, musgo fervido e vapor. Neutralidade sagrada: sem conflitos nem mexericos lá dentro; rumores de encontros secretos no vapor. Dono: Tapa Meia-Vela. Preços: banho de tina 3 pc, vapor + sal 5 pp, lama medicinal 1 pp, toalha 1 pc, sais aromáticos 3 pp. Opcional: quem se lave antes de um evento ganha vantagem em Carisma por 1 h; um objecto importante pode estar escondido numa tina vazia.",
+    "source": "dm"
+  },
+  {
+    "id": "l-taberna-cordas-soltas",
+    "name": "Taberna Cordas Soltas",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Taberna de marinheiros e descarregadores construída sobre barris vazios e jangadas, chão inclinado para a esquerda, tecto coberto de troféus (moedas falsas, sapatos furados, dados partidos), um cão a ladrar ao canto; placa: \"A REGRA: ninguém toca no cão\" (quem tocar desencadeia briga de bar). Ponto de encontro de equipas rivais e apostas clandestinas durante o festival; a Vigia evita o interior. Dono: Trinte Três-Talheres. Preços: rum de arroz 2 pp, peixe frito com molho \"verde\" 4 pp, mesa de apostas 1 pp, lata de jogo 3 pp, aposta secreta de Trint 5 pp (só com convite).",
+    "source": "dm"
+  },
+  {
+    "id": "l-joalharia-brilho-do-pantano",
+    "name": "Joalharia Brilho do Pântano",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Loja discreta e recente num antigo cais reforçado (Investigação 22 de Elga: \"joalharia aberta recentemente\"): fachada de madeira escurecida com óleo de peixe, cortinas grossas, letreiro de madrepérola; lá dentro, colares em almofadas húmidas, bancada com lupa, uma caixa lacrada junto ao balcão e uma lanterna mágica que só ilumina o que a dona quer. Fachada da Miríade; durante o festival monta uma banca de gemas com \"significados\" (quartzo, ametista, obsidiana, citrino, lápis-lazúli, turmalina, hematite a 2 pp, fluorite, pedra-da-lua, howlita falsa). Dona: Ilyra Céu-Pálido. Serviços: avaliação mágica de cristal 10 po, jóia com minor illusion 25 po, anel de prata 3 po, colar com gema falsa 15 po, encantamento de prestidigitation 50 po, compra de rubídio (negociável); suude só a quem traga cristais: 10 po por 2 doses de 5 g. Na mesa Pedro comprou aqui um tankard of sobriety e uma cloak of billowing.",
+    "source": "dm"
+  },
+  {
+    "id": "l-cais-comunitario",
+    "name": "Cais Comunitário de Carga e Descarga",
+    "parent": "l-jigau-aguas-da-carne",
+    "chapter": "ch1",
+    "summary": "Plataformas largas de madeira reforçada presas a estacas na lama; barris, sacos e caixotes; goblins e bugbears a descarregar aos gritos; um guincho velho que chia. Principal entrada de bens do Ifolon; furtos e \"trocas sem recibo\" durante o festival. Mandado informalmente por Rabbak Quebra-Tábua, que despreza a Vigia. Preços: transporte de carga 2 pp, espaço de barril 1 pp/dia, mão-de-obra 3 pp/h (até 6 goblins), descarga 5 pc, reparação de jangada 1 po; usar o cais \"fora de horas\" com um suborno. Um guincho trancado no fim do cais esconde algo que Rabbak não quer que se veja (por resolver).",
+    "source": "dm"
+  },
+  {
+    "id": "l-casa-dos-rosbife",
+    "name": "Casa dos Rosbife",
+    "parent": "l-jigau-passadicos",
+    "chapter": "ch1",
+    "summary": "Quinta dos primos halflings dos Picanha-Pato nos arrozais: cultivam arroz (fornecem comida e cerveja a Jigau), criam \"bois de lama\" de casco largo e têm um alambique de aguardente de arroz. Rafael e Samara Rosbife vivem aqui com a tia-avó Regímia, que \"não está muito bem\" (rubídio). Junto aos campos, um altar de oferendas a Melora feito de cabaças e penas. Na mesa: os PCs almoçaram e descansaram aqui depois do elemental de terra; receberam o Robe da Avó Regímia Entremeada; o imp Bacon ficou com Rafael; a carta dos Picanha-Pato chegou aqui.",
+    "source": "dm"
+  },
+  {
+    "id": "l-templo-de-melora-espinha-viva",
+    "name": "Templo de Melora \"Espinha Viva\"",
+    "parent": "l-jigau-passadicos",
+    "chapter": "ch1",
+    "summary": "Templo ambulante assente no dorso de Tualka, uma tartaruga-do-horizonte viva e ancestral, respeitada como espírito da terra; plataformas de madeira leve e cipó presas à carapaça coberta de musgo, santuários circulares com ervas medicinais, altar num entalhe natural da carapaça. Gerido pelo clã Zetek; sacerdotisa Verema Brisa-Mansa, ajudada pela goblin Zinka. Cuidam de uma criança corrompida (nível 3). Serviços: Bênção da Travessia 5 pp, cataplasma de fungo-lama 1 po, Oração ao Ritmo da Carapaça 5 pp, amuleto de folha 2 po, ritual de escuta com Tualka 2 po (2 h). Uma chave de madeira abre o santuário sob o altar. Na mesa: Ace e Pedro vieram aqui pedir ajuda para a criança febril das Águas-da-Carne.",
+    "source": "dm"
+  },
+  {
+    "id": "l-trinca-rabos",
+    "name": "Trinca-Rabos (barco médio)",
+    "parent": "l-jigow",
+    "chapter": "ch2",
+    "summary": "Barco médio de Jigau (Águas-da-Carne): casco largo, dois mastros baixos, velas triangulares de fibra de cogumelo (Sara, Rita e a suplente Rebeca), proa com cabeça de tubarão, patinado de sal e conchas; convés com camas de rede, um rectângulo rebaixado de carga e uma pequena cabine; cesto da gávea. Transporte regional: até 6 passageiros, carga média (até 500 kg), 80 po ida e volta. AC 15, ~300 HP, damage threshold 15; imune a poison/psychic; velocidade 30 ft por turno. Capitã Chekka Falha-Remos; tripulação Nok-Nok, Bukka, Grelka, Kiri-Kiri. Transporte regional: até 8 passageiros, carga média (até 500 kg), 80 po ida e volta. Convés principal com espaço para 6 passageiros e carga (a ficha da mesa dizia 8) e um toldo resistente ao sol e à chuva; camas de rede a meio do barco; entre o piso inferior e o convés há 1 m de altura onde se arruma tralha e dá para esconder; pequena cabine do capitão onde dormem 2 pessoas. Tradições: brinde com algas fermentadas antes de zarpar e outro ao regressar; hierarquia clara, Chekka recompensa quem ajuda no trabalho de bordo; quem tratar a tripulação com respeito ganha histórias, rumores ou um favor gratuito no futuro.",
+    "source": "dm"
+  },
+  {
+    "id": "l-obelisco-negro",
+    "name": "Obelisco Negro (alto mar)",
+    "chapter": "ch2",
+    "summary": "Pilar negro no horizonte, a um dia de mar de Jigau. Ao aproximar (50 m, 20 m), uma gaivota está parada no ar e o mar fica lento: suspeita de um time stop. A capitã aconselha a não investigar; na campanha anterior o grupo seguiu viagem sem o explorar. Fio solto. História oculta: artefacto de necromancia e cronomancia, parte de um plano de Vecna para rebobinar o tempo em todos os planos e eliminar todas as divindades; tecnologia descoberta por Aeor. Descrição: obelisco negro de cerca de 4 m numa plataforma circular erguida das águas; na base, um único cristal verde grande, sem brilho; ao aproximar, o som das ondas abranda e as gotas caem em câmara lenta. Efeito temporal: na plataforma (raio 3 m) cada turno equivale a 1 hora no exterior; uma Investigation consome 1 turno; de dentro vê-se o sol, as nuvens e as ondas em lapso acelerado. Testes: Perception CD 15 (peixe-voador parado a meio do voo), CD 20 (distorções nos salpicos antes de entrar); History CD 15 (mágico, em óptimas condições, idade incerta); Arcana CD 20 (runas de manipulação temporal); Investigation CD 17 (padrões; cada tentativa = 1 hora). Tocar ou tentar remover o cristal: Explosão Necromântica (esfera 60 ft, CON CD 15, 6d8 necrótico; a 10 ft ou menos, falha = paralisado 1 turno, mais 1 hora no exterior); recarrega de imediato. Visão com suude vermelho: o mar liso como vidro; quatro figuras encapuçadas erguem o obelisco (um mago grava símbolos de cronomancia na obsidiana, outro tira blocos talhados de fendas no espaço, um terceiro encaixa o cristal verde, o quarto solidifica a estrutura); meses comprimidos num instante; nas sombras uma quinta figura alta com um único olho a brilhar observa, e a visão termina antes de a identificar.",
+    "source": "dm"
+  },
+  {
+    "id": "l-iceberg-coragem-da-costa",
+    "name": "Iceberg da \"Coragem da Costa\"",
+    "chapter": "ch2",
+    "summary": "Iceberg demasiado a sul para ser natural, ao terceiro dia de mar. No topo dorme um dragão branco adulto; sob o gelo está congelado o navio \"A Coragem da Costa\", o barco de que Susana (Deep Scion) dizia ser náufraga. Um gigante da tempestade aproxima-se pelo leito marinho e ataca o dragão (Tempest Call: relâmpagos, maelstrom, tornado de nuvens): dano colateral devastador para quem estiver a 300 ft.",
+    "source": "dm"
+  },
+  {
+    "id": "l-gruta-altar-aberrante",
+    "name": "Gruta do altar aberrante (costa de Xhorhas)",
+    "chapter": "ch2",
+    "summary": "Caverna na costa onde o Trinca-Rabos desembarca, ligada a um Culto Esquecido do Reino Distante (Orc Skerry). Entrada: gravuras de figuras com olhos em espiral e um polvo, mural riscado em espiral (Comprehend Languages, Deep Speech: \"Sob as ondas não há memória. Apenas morte.\"), altar improvisado de pedras, ossos marinhos e conchas perfuradas, cadáver de sahuagin ressequido. Por um túnel inundado chega-se à gruta interior com clarabóia (2 m × 8 m): concha colossal escura que funde coral, pedra e osso; pilares em espiral como tentáculos que parecem mover-se; olho vertical esculpido que segue quem o observa; ossos e crânios. Aura psíquica a 9 m (pressão nos ouvidos e no peito); olhar fixamente os símbolos em Deep Speech: WIS save DC 15 ou 1d4 psíquico e confusão. Sussurros: \"A carne lembra-se. A água nunca esquece.\", \"Memória é corrente. Quem nada contra, afoga-se.\", \"Nós vemos-te. Mesmo atrás dos teus olhos fechados.\", \"As marés sobem. O sangue vermelho das pedras chama-te.\", \"Um mestre dorme. Sonha contigo.\" Quando o altar aceita a oferta, os pilares contorcem-se, um portal em forma de olho abre-se e a gruta inunda-se de luz vermelha (\"O presente é aceito. A vigia começa. O profundo não esquece.\").",
+    "source": "dm"
+  },
+  {
+    "id": "l-margem-palida",
+    "name": "Aldeia da Margem Pálida",
+    "chapter": "ch2",
+    "summary": "Aldeia costeira a 3 dias de barco de Jigau, destino de um navio de velas negras oferecido no Sapo Afogado por Zé e Félix. Só menção; nunca visitada. Fio solto.",
+    "source": "dm"
+  },
+  {
+    "id": "l-urzin",
+    "summary": "Aldeia goblinoide móvel sobre tartarugas horizonback; desloca-se 1 milha/dia. Casa de Buhfal II, Bol'bara e Morgid. Ponto de partida e de regresso do prólogo. População 5 930 (62% goblinóides, 21% gnolls, 10% orcs, 7% outros); cerca de quarenta tartarugas-do-horizonte e centenas de tendas e cabanas móveis; raramente fica mais de um mês no mesmo sítio; os grupos de tartarugas reorganizam-se todos os dias e a povoação chega a dividir-se em postos avançados, o que confunde o exército Dwendaliano. Carapaças cobertas de cabanas empilhadas em torres presas com cordas e vinhas, bordas reforçadas com estacas e ossos, balistas e catapultas de curto alcance; cada tartaruga é uma aldeia em miniatura (caçadores, ferreiros, agricultores de musgo, curandeiros). Governo: o campeão reinante (\"Salomão Quebra-Sol\" na página; = Olomão) derrotou o Ogre Lorde Bufal há cerca de quarenta anos e trouxe o Luxon em nome da Rainha Radiante; na sua ausência Bufal II lidera e o povo fica mais inquieto. Uma legião da Vigia da Aurora e as hostes de caçadores defendem-na; pequenos templos do Luxon viajam nas tartarugas ao lado de santuários a antigos patronos goblinóides; comércio de sobrevivência e guerra, estalagens raras; crime raro, dissidência punida com exílio no pântano. Locais listados: Templo das Cinzas, Pombal, Ferreiro, Mantimentos, Templo de Luxon, Salão Central, Bugigangas de Mekik."
+  },
+  {
+    "id": "l-bazzoxan",
+    "summary": "Um civil para quatro soldados; 80% drow, o resto orcs, hobgoblins, bugbears e outras gentes de Jorhás; recursos escassos, não se partilha facilmente. À noite, pequenas luzes verdes arcanas e patrulhas por todo o lado; lei marcial, recolher obrigatório às 20h (pôr do sol). A Vigia fala undercommon entre si. Hierarquia: o Intendente Verin Thelyss e três Capitães do Crepúsculo: Karesh \"Asa Rubra\" Du'Raal (protecção: defesa, vigia, patrulha), Vorrin \"Olho Cinza\" Daelith (incursões e arcana) e Ornessa \"Tia Vurk\" Vurk'enal (logística, curas, reforços). História: Bazzoxan é o nome do templo; há cerca de 100 anos os demónios saídos dele destruíram a cidade que os colonos erguiam à volta; minas de ferro, escavações, ponto estratégico; agora um impasse, com recursos divididos para leste por causa do Império. Cenas de rua (tabela d10 da página, sem as riscadas pelo DM): um orc berserker cuida agressivamente de uma horta de tubérculos num edifício em ruínas; um comerciante drow cansado vende o que resta do inventário; um soldado da Vigia separa uma luta entre dois cidadãos em prantos; dez guardas correm em formação a cantar as formas como vão morrer; uma jovem anã acólita chora num canto abraçada a um elmo; um guerreiro drow de elite e um ogre da Vigia discutem quem assume uma missão perigosa; um tiefling idoso chora a levar um pequeno caixão para o crematório. Facções presentes segundo a página: Míriade (1 contrabandista) + Volstrucker (\"ligação com Prudaj\"); Alma Cobalto (Questão); Consórcio (Aloysia; Fritz como aliado); Aliança do Saber (Prolix). Ideias soltas: o Volstrucker instalado numa casa abandonada; Questão talvez disfarçada de acólita no Templo; \"Motores Infernais\" e \"Torres de vigia\" só como títulos; estúdio arcano dentro do quartel."
+  },
+  {
+    "id": "l-mares-gelados",
+    "name": "Os Mares Gelados (Frigid Depths)",
+    "chapter": "ch2",
+    "summary": "Oceano (também \"Frozen Depths\") que separa Wildemount e Tal'Dorei de Eiselcross; o Império Dwendaliano só lhe toca pela costa norte. Conhecido pelos blocos de gelo à deriva e águas traiçoeiras; quem lá navega são os \"Marinheiros do Gelo\". Habitantes: gigantes da tempestade, focas, chuuls, cetos, orcas, caranguejo de Eiselcross. Contém o Golfo Esmeralda. Contexto da viagem por mar Jigau → Bazzoxan (obelisco, aboleth, iceberg).",
+    "source": "dm"
+  },
+  {
+    "id": "l-golfo-esmeralda",
+    "name": "Golfo Esmeralda (Emerald Gulch)",
+    "parent": "l-mares-gelados",
+    "chapter": "ch1",
+    "summary": "Massa de água dos Mares Gelados na costa nordeste de Wildemount; Jigau estende-se pela sua costa e pelas margens do Ifolon. A página antiga tem o mapa (Emerald_Gulch.webp). Susana (Deep Scion) e o iceberg da \"Coragem da Costa\" ficam-lhe associados na ficha antiga.",
+    "source": "dm"
+  },
+  {
+    "id": "l-bazzoxan-gate",
+    "summary": "Portões da Umbra, muralha com 50 metros de altura, oca por dentro (guarnição, camas, armas, mantimentos); soldados percorrem o topo. Grusk \"Quebra-Sangue\", guarda orc, recebe quem chega (\"Mais mercenários? Precisamos de toda a ajuda que conseguirmos\") e manda Vazia levá-los ao Intendente. Muitas barricadas à volta e dentro dos túneis que levam à Ascensão."
+  },
+  {
+    "id": "l-bazzoxan-abandoned-house",
+    "name": "Casa abandonada (Aloysia)",
+    "parent": "l-bazzoxan",
+    "chapter": "ch3",
+    "summary": "Aloysia chegou há quatro dias e hospedou-se numa casa abandonada, sob vigia da Vigia da Aurora. Bazzoxan tem muitas casas rachadas e abandonadas; o DM ponderou pôr lá também o Volstrucker.",
+    "source": "dm"
+  }
+]

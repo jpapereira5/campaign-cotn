@@ -1,0 +1,378 @@
+[
+  {
+    "id": "c-nevoa-vendor",
+    "name": "Rhogna Ervas-Raras",
+    "summary": "Goblin corcunda de 54 anos, dona da Névoa do Brejo; pele verde-acinzentada, olhos pequenos e vermelhos como carvões, cabelo entrançado com contas de osso e folhas secas, poncho de cânhamo grosso coberto de bolsos e tiras com ervas penduradas. Desconcertantemente calma, fala devagar e arrastado, com risinhos suaves e sons guturais, por vezes de olhos semicerrados como se visse outra realidade; provoca os clientes com perguntas filosóficas ou absurdas. Vende misturas fumáveis, ervas visionárias, cogumelos do pântano e a Essência do Solo Vivo. HP 13, AC 12; bastão entalhado +3 (1d6+1); Wis +4; traz uma pequena concha entalhada como foco druídico. DM: não é do Myriad, mas sabe pôr quem pergunta em contacto com o viajante que compra pedras vermelhas. vendeu a Flor cogumelos \"Solo Vivo\" e um frasco de Essência antes da partida.",
+    "goal": "Que os habitantes de Urzin se liguem com \"os espíritos do solo\" e abandonem a raiva do passado goblinóide.",
+    "secret": "Sabe onde o viajante do Myriad dorme e o que ele compra. Acredita que a cura da maldição dos goblinóides passa por abrir a mente (e o nariz) à essência do pântano.",
+    "wants": "Clientes com a mente aberta; que ninguém lhe feche a loja.",
+    "fears": "Buhfal; a Vigia da Aurora."
+  },
+  {
+    "id": "c-alonne-frith",
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3"
+    ],
+    "summary": "\"Alone Fritz\", humano Hollow One (NE), estudioso do Far Realm vindo de Rotthold e cultista de Ceratos, capturado por uma patrulha do Forte Ventura quando procurava relíquias eldritch no Pântano do Véu-Quebrado; cobaia do Padre Perestrelo (Pellinost). Pele pálida, olhos vazios, comportamento rígido; nunca fala e raramente se mexe; quando fala, a voz é baixa, lenta e vazia de emoção. Telepata: fala na mente dos PCs. HP 22, AC 10; Arcana +5, Religião +4, Enganação +4; Comum, Subcomum, Infernal. Perfeitamente capaz de se libertar das correntes, prefere ser \"levado\" prisioneiro para Jigau: leu a mente de um guarda e sabe que há mais rubídio lá. Provoca: \"O que vocês estariam dispostos a fazer por poder? Poder para curar, poder para matar, poder para dobrar o destino à tua vontade?\"; \"Eu repensaria quem é que está aqui preso com quem.\" rendido pelos PCs; Elga ficou com o Casaco de Caçador e o cristal de rubídio dele. disse telepaticamente a Artyom que era um estudioso que procura conhecimento. manchas vermelhas nos pulsos; disse a Elga que o cristal os pode safar em apuros. \"a doença tem tratamento mas não tem cura\". em Jigau fica à guarda do arcanista Velnari e toma chá com ele. reaparece na estalagem de Bazzoxan, preocupado com Odete e com o desaparecimento de Elga; as suas notas falam de Vigost de Decrepola e da maldição de Ruidus, dos cultistas de Torog e de Elisabete. Ele e a filha foram atacados; ambos morreram e ele voltou (Hollow One). DM: a filha chama-se Elisabete (a ficha antiga antiga chamava-lhe Alice). Tinha um gato, Biscas, que morreu. O cristal chegou-lhe por acaso em Decrépola (Rotthold), por contrabandistas acabados de atracar vindos de Marquet, que tinham descoberto ou roubado fragmentos das profundezas submersas sob Ank'Harel e os vendiam no mercado negro, incluindo na costa de Jorhas; ouviu rumores de mais cristais no norte de Jorhas e foi ao Pântano do Véu-Quebrado investigar, onde foi capturado. Juntou-se ao culto de Ceratos para aprender a magia do Reino Distante, \"que torna realidade a nossa imaginação\", como passo para ressuscitar a filha; acredita que o rubídio pode ser o catalisador de caos que fortaleça Ceratos; quer visitar locais onde o véu é frágil (Fosso de Miskath, Bazzoxan, o Abismo Profundo) para libertar mais \"mentes fragmentadas de Ceratos\" ou acelerar o regresso da entidade. Plano do DM: ganhar a confiança do grupo, afável e colaborante; em Jigau colabora com a Dinastia enquanto for benéfico (quer o máximo de informação); escapa assim que souber que há mais fontes/estudiosos em Bazzoxan; oferece ajuda e informação sobre o cristal (nem sempre verdadeira); pode guiar o grupo até Bazzoxan e Marquet. Fim previsto: quando o grupo precisar, sacrifica-se para os salvar com um último ataque de rubídio (corrupção 6) e reencontra a filha: \"Tenho de ser eu, outra pessoa poderia enganar-se.\"",
+    "goal": "Rubídio e respostas: chegar ao que há em Jigau e depois em Bazzoxan; \"manipulação da realidade através da consciência\".",
+    "secret": "Já morreu uma vez: \"os deuses, por capricho ou por insulto, apenas me voltaram a acordar\". Elisabete (filha ou irmã) foi-lhe roubada num ataque e ele não desistiu de a reencontrar: \"o Pai ainda não desistiu. Estou cada vez mais perto.\" Segundo os cultistas de Torog, Torog foi banido na Calamidade para uma prisão entre o Reino Distante e o Subterrâneo Profundo, mas a sua presença é forte em Bazzoxan. Considera-se o único a compreender a verdadeira ameaça de Ceratos. (a ficha antiga chamava-lhe Alice; DM: Elisabete): o plano do DM é o sacrifício final para salvar um PC.",
+    "wants": "Poder para dobrar o destino; recuperar Elisabete; manipular os Corações de Urzin como aliados ou obstáculos.",
+    "fears": "Não chegar a tempo; nunca mais ver Elisabete.",
+    "states": [
+      {
+        "fromBeat": "b-0-fort-venture",
+        "state": "Prisioneiro em V8; rendido e capturado pelos PCs, entregue à Vigia da Aurora em Urzin"
+      },
+      {
+        "fromBeat": "b-1-journey-day3-gloomstalker",
+        "state": "escoltado na cela do Passo Lento até Jigau, vigiado por Vetra e Dozak"
+      },
+      {
+        "fromBeat": "b-1-fritz-velnari",
+        "state": "entregue à Dinastia em Jigau; à guarda do arcanista Velnari Zeth; depois desaparece"
+      },
+      {
+        "fromBeat": "b-3-fritz-returns",
+        "state": "reaparece na estalagem de Bazzoxan; entra sozinho na Ascensão"
+      },
+      {
+        "fromBeat": "b-3-fritz-end",
+        "state": "corrompido além de cura, a morrer dentro da Ascensão"
+      }
+    ],
+    "tags": [
+      "prisioneiro",
+      "cultista",
+      "ceratos",
+      "telepata",
+      "ruidium",
+      "hollow-one",
+      "notion"
+    ]
+  },
+  {
+    "id": "c-myriad-jigow-fence",
+    "name": "Ilyra Céu-Pálido",
+    "home": "l-joalharia-brilho-do-pantano",
+    "summary": "Joalheira \"tiefling\" NM de pele branca leitosa e olhos pálidos sem pupilas, na verdade uma drow sob um feitiço de disfarce constante; véu que esconde a cor dos olhos; fala telepaticamente. Dona da Joalharia Brilho do Pântano (aberta há pouco) e de uma banca de gemas no festival. Educada, metódica, contida; passa os dedos pelas pedras ao falar. \"O brilho é só metade da história.\" \"Se for verdadeiro, compro. Se for perigoso, pago mais.\" PV 55, CA 14, adaga de prata +4. Enviada pela Miríade (Yrrosa) com Nibuk para abrir a operação de Jigau: identifica rubídio a olho nu, testa-o e processa-o para transporte; já comprou dois fragmentos a pescadores.",
+    "goal": "Comprar rubídio em nome da Miríade e impressionar os superiores em Yrrosa; recolher informação sobre fragmentos com magia activa.",
+    "secret": "Mantém contacto com a Miríade por um espelho de sussurros. Vende amostras ao arcanista drow (Velnari) para se manter útil à Dinastia e também à Cerberus Assembly por comerciantes marítimos. Usa Nibuk e os Orelhudos como fornecedores (entrega codificada: \"trazer o copo rachado\"). Um alfinete de prata em forma de estrela é o símbolo codificado para aliados da Miríade. Vende suude (5 g / 10 g) mas só negocia com quem traga cristais, e usa-o para detectar quem carrega rubídio (percebeu que Elga tem o cristal).",
+    "wants": "Fragmentos de rubídio, sobretudo com sinais de magia activa; aventureiros úteis para o esquema de contrabando.",
+    "fears": "Durth Mirimm e a Vigia; falhar aos superiores de Yrrosa.",
+    "states": [
+      {
+        "fromBeat": "b-1-myriad-jigow",
+        "state": "banca de gemas no festival; compra pedras vermelhas"
+      },
+      {
+        "fromBeat": "b-1-joalharia-myriad",
+        "state": "vende suude; sabe quem carrega o cristal; \"há uma ponte no teu futuro\""
+      },
+      {
+        "fromBeat": "b-1-velnari-confrontation",
+        "state": "continua a operar; o canal de Jigau fica de pé"
+      }
+    ],
+    "tags": [
+      "dm",
+      "mesa",
+      "myriad",
+      "drow",
+      "joalheira"
+    ]
+  },
+  {
+    "id": "c-durth-mirimm",
+    "summary": "Drow elite warrior LN, Taskhand da Aurora Watch em Jigow e ligação política à corte da Bright Queen. Interessa-lhe mais o que Jigow pode dar à dinastia do que a vida dos seus habitantes; fonte da tensão anciãos/dinastia. Sem cena guionada. \"Intendente Duarte Mirim\", drow de 142 anos, postura erecta, cicatrizes finas nos braços, olhos dourados, cabelo branco rapado dos lados; armadura de couro reforçado da Vigia com o símbolo do Luxon; PV 58, CA 16, espada curta +6 (1d6+4). Meticoloso, disciplinado, leal à Dinastia, não devoto: vê os ritos do Luxon como ferramenta de unificação. Voz grave, seca, sem rodeios. Rivalidade bem-humorada com Coblu-Kaz. Na mesa recebeu a missiva de Urzin, deu os colares do festival e prometeu boleia de volta a Urzin.",
+    "goal": "Extrair valor de Jigow para a Kryn Dynasty; expandir o controlo da Dinastia sobre Jigau.",
+    "secret": "Fala com Rosohna por um espelho de obsidiana nos seus aposentos do Salão de Pedra. Sabe do laboratório de Velnari e dá-lhe cobertura: quer explorar o potencial bélico do rubídio e descobrir a fonte. Traz tinta invisível e a chave do arsenal.",
+    "wants": "Obediência; recrutas; relatórios para Rosohna; o cristal que os PCs trouxeram de Urzin (oferece recompensa) e que o levem a ser estudado em Bazzoxan.",
+    "fears": "Parecer fraco perante a corte; que os anciãos isolem a fonte antes da Dinastia.",
+    "states": [
+      {
+        "fromBeat": "b-1-adventure-start",
+        "state": "Autoridade de fundo em J9"
+      },
+      {
+        "fromBeat": "b-1-jigau-arrival-intendente",
+        "state": "recebe a missiva de Urzin; colares do festival; recompensa pelo cristal"
+      },
+      {
+        "fromBeat": "b-1-velnari-confrontation",
+        "state": "manda a Vigia prender os PCs; 10 arqueiros perseguem-nos até ao barco"
+      }
+    ],
+    "tags": [
+      "kryn",
+      "autoridade",
+      "drow",
+      "mesa"
+    ]
+  },
+  {
+    "id": "c-elder-ushru",
+    "summary": "Orc, sacerdote NG e co-governante de Jigow com Colbu Kaz e o Taskhand Durth Mirimm. Guardião das tradições e anfitrião do Festival of Merit; escolhe os PCs e os rivais como finalistas. Recebe o seu próprio sonho profético e nomeia a Jóia como Vestige of Divergence, apontando Bazzoxan. orc de 54 anos, clériga de Melora (Domínio da Natureza) nv 5, PV 44, CA 15, CD 15, +7 (guidance, cure wounds, detect magic, sanctuary, lesser restoration, hold person, beacon of hope, plant growth); tatuagens azul-esverdeadas de luas e rios, mantos azuis profundos, bastão de mangue; do clã Norgab, guarida na Presa Inquebrável. Sente distúrbios mágicos como quem sente o vento: sente a Jóia. Traz a chave do armazém do festival e um espelho de obsidiana polida para rituais de reflexão.",
+    "goal": "Preservar as tradições de Jigow face à dinastia; pôr a Jóia nas mãos certas. curar as pessoas, proteger Jigau e conter/erradicar a fonte do rubídio.",
+    "secret": "Não reconhece o nome Alyxian: nenhuma criatura viva o recorda. quer saber o máximo sobre o rubídio e a Jóia antes que a Dinastia o perceba e tente explorá-lo; por isso pede a estranhos (os PCs) que recolham pistas do impacto dos cristais na vila e investiguem o local de oração, que lhe parece a fonte.",
+    "wants": "Que os PCs digam a verdade sobre o que viram na gruta. fragmentos e pistas para fazer um caso perante Duarte; um plano para isolar a fonte.",
+    "fears": "Que a dinastia esvazie a alma de Jigow. que Velnari e a Dinastia usem o rubídio antes de haver cura.",
+    "states": [
+      {
+        "fromBeat": "b-1-adventure-start",
+        "state": "Anfitrião do festival"
+      },
+      {
+        "fromBeat": "b-1-next-steps",
+        "state": "Repara na Jóia ou na mudança dos PCs"
+      },
+      {
+        "fromBeat": "b-1-ushru-vs-velnari",
+        "state": "procura os PCs na Presa Inquebrável; pede que investiguem o local de oração antes da Dinastia"
+      },
+      {
+        "fromBeat": "b-2-ushru-dawn",
+        "state": "Sonhou com Alyxian; envia os PCs (ou os rivais) para Bazzoxan"
+      }
+    ],
+    "tags": [
+      "ancião",
+      "quest-giver",
+      "orc",
+      "mesa",
+      "melora"
+    ]
+  },
+  {
+    "id": "c-elder-colbu-kaz",
+    "summary": "Goblin, sacerdote CN e co-ancião de Jigow; mestre dos enigmas em J7 (Riddles and Rhymes). Distribui as potions of water breathing antes da corrida na gruta e atribui a medal of wit. goblin de 78 anos, óculos garrafão, vestes de tiras coloridas e penas, cajado com runas (mágico contra aberrações); PV 31, CA 12. Sarcástico, perspicaz, imprevisível; recusa formalismos; rivalidade bem-humorada com Duarte, adora provocar a Vigia. Voz rouca e brincalhona. Quanto ao rubídio: nem contra nem a favor, \"quanto mais se souber, melhor se decide\".",
+    "secret": "foi ele que \"roubou\" a caixa de prémios do festival e montou a Grande Caça ao Tesouro para criar antecipação, pagando a Vars, Keyeki, Beetle e Zag, Pena-Brava e Belana para esconderem pistas; entregou 40 po e a medalha de tenacidade aos PCs. Teve um caso amoroso com Bolbara na juventude.",
+    "states": [
+      {
+        "fromBeat": "b-1-treasure-hunt",
+        "state": "organizador secreto da Caça ao Tesouro; revela-se no armazém"
+      },
+      {
+        "fromBeat": "b-1-riddles",
+        "state": "Mestre de enigmas em J7"
+      },
+      {
+        "fromBeat": "b-1-grand-finale",
+        "state": "Espera em E1 com Ushru"
+      }
+    ],
+    "tags": [
+      "ancião",
+      "enigmas",
+      "goblin",
+      "mesa"
+    ]
+  },
+  {
+    "id": "c-agathe-silverspoon",
+    "summary": "Orc CG, dona e cozinheira do Unbroken Tusk; as melhores tartes de carne do Jumble. Organiza o concurso de tartes (J1) onde os PCs conhecem Irvan. \"Ágata Colher-de-Prata\", ombros largos, ar de matriarca, avental de carne picada, faca de desossar na mão; \"Vieram pelo mistério ou pelas tartes? Ou... por mim?\" Empadas curam 1d4 PV (uma vez); vende a Tiborna de Tártaro do Charco. Aprendiz goblin Fleba, com teorias absurdas sobre o ladrão. Bruno Massapão ajuda-a todos os anos. Na Caça ao Tesouro é ela que atira o enigma à multidão e aponta as pegadas de fertilizante nas traseiras.",
+    "goal": "Vender tartes e encher barrigas; que as tartes do festival saiam a tempo.",
+    "wants": "Elogios à cozinha; que ninguém pise o pão a levedar.",
+    "states": [
+      {
+        "fromBeat": "b-1-treasure-hunt",
+        "state": "\"roubaram os prémios\"; dá a primeira pista"
+      }
+    ],
+    "tags": [
+      "jigow",
+      "estalajadeira",
+      "mesa"
+    ]
+  },
+  {
+    "id": "c-sharpwatch",
+    "summary": "Aarakocra LN, juiz do labirinto empoleirado a 30 ft. Aplica a regra de uma só tentativa e retira quem falha. \"Pena-Brava\", aarakocra drow; fala em frases curtas, quase telegráficas, levanta voo para pausas dramáticas; rodopia uma pena entre os dedos. \"A saída está dentro de ti. Eu só construo as paredes.\" Manda dois orcs mover os muros. Na Caça ao Tesouro sabe que Coblu escondeu uma pista no labirinto e encoraja os PCs a procurá-la; altera o labirinto depois, por isso completá-lo não dá vantagem no jogo do festival.",
+    "goal": "Fazer cumprir as regras; transformar o labirinto num verdadeiro ritual de mérito, prova oficial do Festival.",
+    "secret": "regista secretamente os movimentos dos participantes para criar um padrão que \"meça\" a inteligência pelo comportamento.",
+    "wants": "Mentes desafiadas; que ninguém desista cedo.",
+    "states": [
+      {
+        "fromBeat": "b-1-treasure-hunt",
+        "state": "parede que canta com a pista para a Tropa Torta"
+      }
+    ],
+    "tags": [
+      "jigow",
+      "juiz",
+      "mesa"
+    ]
+  },
+  {
+    "id": "c-volstrucker-agent",
+    "name": "Zyn'thar Veylin",
+    "chapters": [
+      "ch2",
+      "ch3",
+      "ch4"
+    ],
+    "summary": "DM: Agente Volstrucker da Cerberus Assembly (Império Dwendaliano), já instalado em Bazzoxan quando os PCs chegam. Investiga o ruidium de perto (compra amostras pelo contacto do Myriad, sonda Bautha sobre a corrupção, vigia a entrada do Rise) e o rumor do beacon do Luxon recuperado no Rise. Em conluio com Aloysia Telfan, é quem tenta roubar a Jóia. infiltrada como soldado drow da Vigia da Aurora: substituiu o soldado Zynthar e modificou as memórias dos aliados próximos (Operação \"Rede Rubra\"); se morrer, um selo arcano de morte apaga-lhe a memória. Presente na patrulha das Ruínas da Saudade, a coordenar os enfermeiros no ataque à estalagem e na emboscada para roubar um item aos PCs. infiltrado como soldado drow da Vigia da Aurora: substituiu o soldado Zynthar e modificou as memórias dos aliados próximos (Operação \"Rede Rubra\"); se morrer, um selo arcano de morte apaga-lhe a memória. Disfarce: drow de pele cinzento-escura quase azulada, cabelo branco comprido em rabo-de-cavalo, olhos violeta brilhante, armadura de escamas negras com insígnias prateadas da Vigia; frio e calculista, sem paciência para \"turistas\"; adaga curva drow ornamentada e medalhão de obsidiana em forma de lua; \"contexto inicial: Ruínas da Saudade, pós-batalha na estalagem\". Verdadeira identidade (ficha): Adélia Krauss, ruiva, pele pálida, olhos verde-acinzentados, cabelo preso; Wizard Assassin (Volstrucker), LE, CR 8, CA 15 (studded leather), PV 72, DES 18 INT 16; Furtividade +12, Arcana +7; Assassinate, Evasion, Shadow Step 1/resto (9 m em escuridão), Arcane Conditioning (resistência psíquica), Cunning Action; magia INT CD 14: minor illusion, mage hand, message; shield, disguise self, silent image, command; hold person, mirror image, misty step; counterspell, fear; modify memory (\"para jogar as cartas\"). Arcane Dagger +8 (1d4+5 + 2d6 psíquico; CON CD 15 ou envenenado), Shadow Bolt +6 (3d8 psíquico), Sneak Attack 7d6, Shadow Needle (bónus, recarga 5–6: SAB CD 14, 3d6 psíquico e incapacitado), Pain Rebound (reacção). Equipamento: máscara Volstrucker, tinta arcana (1 página), venenos, kit de disfarce, Sending Stone. \"Blackthorn Protocol\" (Protocolo Espinho Negro): dente falso com cápsula arcana que, mordido, liberta uma descarga psíquica que mata o portador e apaga parte da memória recente (na mesa: descarga eléctrica a partir do pescoço). A página \"Agente Volstrucker\" guarda ainda o statblock canónico do Volstrucker Agent (EGtW p. 294, CR 7, PV 120, Shadow Network, Painful Memories, Shadow Jaunt, Painful Reprisal, modify memory) como referência.",
+    "secret": "É a agente da Assembly na ponta de Bazzoxan do canal do Myriad: paga o que sai do Rise. O conluio com Aloysia é oportunismo: o Consortium e a Assembly querem a Jóia por razões diferentes. não é drow: é Adélia Krauss, humana ruiva, Wizard Assassin (CR 8) disfarçada; o soldado Zynthar verdadeiro foi substituído; o seu Caderno Volstrucker (b-3-caderno-volstrucker) documenta as operações desde a iniciação com Ikithon. não é drow: humano disfarçado; o soldado Zynthar verdadeiro foi substituído; o seu Caderno Volstrucker (b-3-caderno-volstrucker) documenta as operações desde a iniciação com Ikithon. DM: o nome verdadeiro é Adélia Krauss (humana, ruiva).",
+    "states": [
+      {
+        "fromBeat": "b-2-ruins-outside-bazzoxan",
+        "state": "entre os veteranos da patrulha, disfarçada de soldado drow"
+      },
+      {
+        "fromBeat": "b-3-volstrucker-investigation",
+        "state": "DM: em Bazzoxan a investigar o ruidium e o rumor do beacon"
+      },
+      {
+        "fromBeat": "b-3-volstrucker-assault",
+        "state": "DM: se for perseguida e morta, o selo arcano mata-a e apaga-lhe a memória; a Assembly fica sem agente em Bazzoxan e ninguém vem buscar o caderno"
+      },
+      {
+        "fromBeat": "b-3-beacon-in-barracks",
+        "state": "DM (se sobreviveu): sabe que o beacon está no quartel; prepara o golpe"
+      },
+      {
+        "fromBeat": "b-3-jewel-confrontation",
+        "state": "(se sobreviveu) tenta roubar a Jóia em R16; foge ou é capturada"
+      },
+      {
+        "fromBeat": "b-3-beacon-heist",
+        "state": "DM (se sobreviveu): golpe ao beacon: capturada, ou foge para oeste com o Myriad"
+      }
+    ],
+    "tags": [
+      "dm",
+      "notion",
+      "volstrucker",
+      "assassino"
+    ]
+  },
+  {
+    "id": "c-myriad-bazzoxan-contact",
+    "name": "Tingus da Chuva",
+    "summary": "DM: Contacto do Myriad instalado no Ready Room. Compra o que sai do Rise (ruidium à volta da entrada) a soldados e aventureiros e passa-o ao Volstrucker ou para as caixas que seguem para oeste. Tabaxi de porte esguio, pelagem curta em tons de areia escura com manchas negras, olhar atento, sorriso calculado; roupas práticas de viagem com compartimentos escondidos; anel-selo da Míriade, bolsa com 3 doses de rubídio, códigos em thieves' cant, besta de mão. Rogue Mastermind (CR 4, HP 66). Astuta, paciente, controladora; nunca levanta a voz; evita confronto directo, negoceia em combate, nunca luta até à morte se puder fugir. Tem o monopólio do contrabando em Bazzoxan e dois guardas da Vigia comprados (Kael Rhun, Lirien Solva). Corrupção nível 2 (telepatia). Quer ajuda para descobrir quem roubou o artefacto aos Kryn (liga ao beacon do quartel, b-3-beacon-in-barracks): \"Tenho clientes interessados. Clientes cujo nome preferem que não se saiba.\" \"Uma vez Míriade, para sempre Míriade.\" Clientes cujo nome preferem que não se saiba.\" \"Uma vez Míriade, para sempre Míriade.\" A ficha antiga chama-lhe \"Surira (Agente Míriade, Tabaxi)\": é a mesma personagem (mesma descrição, mesma ficha Rogue Mastermind CR 4, PV 66, CA 15, DES 18, Furtividade +8, Enganação/Persuasão +7; Ataque Furtivo 2d6, Cunning Action, Master of Tactics, Olhos e Ouvidos da Rua, Agilidade Felina; adaga e besta de mão +6; Desengajar Instintivo). Idiomas: Comum, Tabaxi, Infernal (código da Myriad). Tom de voz baixo, suave, quase amistoso; pausas longas; frases curtas quando irritada; ciumenta e demasiado confiante; lealdade absoluta à Myriad. Frases: \"Negócios são só números… pessoas é que complicam.\" \"Se sabes demais, é porque confio em ti. Não me proves errada.\" \"Bazzoxan engole os distraídos.\" Foi colocada em Bazzoxan quando o rubídio começou a circular fora dos canais oficiais e transformou a vila num nó silencioso de informação, artefactos e favores. (O triângulo amoroso da ficha fica de fora: prende-se a um PC antigo.)",
+    "secret": "Sabe que o Volstrucker paga mais do que a Assembly diz; vende também a quem der mais. mantém dois substitutos (dobros) que imitam os seus percursos e a seguem; tem rotas de fuga pré-preparadas para fora de Bazzoxan; a Míriade considera-a descartável se o rubídio deixar de dar lucro, e ela ainda não sabe. Os PCs eliminaram um dos seus principais clientes sem saberem (qual, não está nos registos).",
+    "wants": "Ruidium; ouro. saber quem roubou o artefacto aos Kryn e para onde foi; que os PCs, nas boas graças dos Kryn, lhe abram o quartel. Nota: manter o monopólio do contrabando de rubídio em Bazzoxan; proteger os interesses da Myriad em Xhorhas; evitar a atenção directa da Alma Cobalto e de forças Kryn de alto nível.",
+    "fears": "Verin; Prima Demona reparar em quem lhe paga o quarto. ser descartada pela Míriade.",
+    "states": [
+      {
+        "fromBeat": "b-3-myriad-bazzoxan",
+        "state": "DM: no Ready Room a comprar ruidium"
+      },
+      {
+        "fromBeat": "b-3-rolo-wellington",
+        "state": "compra o rubídio dos túneis a Rolo Wellington"
+      },
+      {
+        "fromBeat": "b-3-tingus",
+        "state": "chantagem no muro dos nomes; pede ajuda para descobrir quem roubou o artefacto aos Kryn; dois guardas escondidos no beco"
+      }
+    ],
+    "tags": [
+      "dm",
+      "myriad",
+      "mesa",
+      "tabaxi",
+      "corrompida",
+      "notion",
+      "alias-surira"
+    ]
+  },
+  {
+    "id": "c-question",
+    "summary": "Tiefling caótica e neutra, operativa monástica da Library of the Cobalt Soul, há cinco anos em Ank'Harel. Fica no Ready Room com o seu caderno de esboços enquanto a sua expedição está dentro do Rise. na mesa, humana de cabelo negro e olhos prateados (aasimar), robes castanhos, bastão de madeira; mostra aos PCs aguarelas do interior da Ascensão e uma balada em undercommon sobre o \"deus a meio caminho\", ambas dos arquivos da Alma Cobalto em Ank'Harel (Templo da Mentora); o único registo da Ascensão é o decalque do relevo de uma senhora de perfil, cabelo comprido (Avandra, Religião DC 12). Espera o seu grupo, que não vai voltar. Um agente da Alma Cobalto (Beau) avisa por Sending que \"Questão\" está em Bazzoxan. Nome de código \"Question\"; nome civil Iliana Salim. Aasimar de Marquet (Ank'Harel), Monge 5 (Way of the Cobalt Soul), LN, devota de Ioun. Pele morena, traços marquéticos, olhos prateados frios que raramente piscam, cabelo escuro preso; túnica de linho cinza, faixa escura, sandálias; postura contida, movimentos precisos. Analítica, reservada, focada; ideal: \"a verdade preservada evita guerras futuras\"; defeitos: frieza emocional, confiança limitada fora da hierarquia; voz baixa e precisa. Frases: \"Registo confirmado.\" \"Conclusão prematura.\" \"O desconhecimento não é inocente.\" Statblock: CA 16, PV 38, 45 ft, DES 16 SAB 16; Investigação/História/Religião +5, Percepção/Intuição/Acrobacia +6; Comum, Celestial, Marquesian; resistência radiante/necrótica, Mãos Curativas, Luz; Artes Marciais d6, 5 ki, Ataque Extra, Desvio de Mísseis, Queda Lenta; Extrair Aspectos (1 ki com Rajada de Golpes: resistências, imunidades, vulnerabilidades ou maior atributo). Equipamento: bastão, adaga, Pedra de Envio (contacto directo com a Alma Cobalto), Pergaminho de Teleporte (extracção de emergência), caderno codificado. Papel: investigadora de campo / auditora de conhecimento proibido. A balada do \"deus a meio caminho\" está traduzida em português na página (texto em docs, ver notes.md).",
+    "states": [
+      {
+        "fromBeat": "b-3-estalagem-soldado-caido",
+        "state": "mostra as aguarelas e a balada; espera o grupo que não volta"
+      },
+      {
+        "fromBeat": "b-3-ready-room-question",
+        "state": "partilha o caderno; esconde o terror do Rise"
+      },
+      {
+        "fromBeat": "b-3-misty-chasm",
+        "state": "sabe que os colegas morreram: determinada a honrá-los"
+      },
+      {
+        "fromBeat": "b-3-next-steps-ank-harel",
+        "state": "viaja para Ank'Harel com Prolix; convida os PCs para a Cobalt Soul"
+      },
+      {
+        "fromBeat": "b-4-choose-faction",
+        "state": "apresenta os PCs a Iwo Zalarre no Temple of the Mentor"
+      }
+    ],
+    "name": "Iliana \"Questão\" Salim",
+    "secret": "Está aterrorizada com o Rise (DC 11 Insight): ouviu vozes a chamá-la, fingiu doença súbita e voltou à vila. Dois colegas jazem mortos no fundo da Misty Chasm (R15). Nota: o nome Iliana Salim existe apenas em registos civis; para a facção é só Question.",
+    "tags": [
+      "investigador",
+      "cobalt-soul",
+      "lore",
+      "caderno",
+      "notion",
+      "aasimar",
+      "monge"
+    ]
+  },
+  {
+    "id": "c-foghome",
+    "summary": "Firbolg sacerdote neutro e bom, seguidor de Melora the Wild Mother, jardineiro do Dilapidated Temple (antigo templo de Avandra) e hóspede de Verin. Cultiva uma quinta sem sol para alimentar a Aurora Watch. serve um chá (camomila, ervas medicinais e mel) e convida à meditação em volta da árvore, de onde vem a visão do jovem elfo ajoelhado e das cinco silhuetas; nos nichos do templo, atrás das plantas mais sãs, há inscrições gastas dos amigos de Alyxian (\"Amigos para siempre…\", \"Me debes una bebida en Marquet, A—\", \"…nunca, jamás volveré a batirme en duelo contigo\", \"…mostrarte las montañas de mi hogar algún día\", \"Te amamos. Siempre estaremos contigo\"). Sente na Jóia três fragmentos de poder divino, um desperto e dois adormecidos. Como agradecimento por um PC ter feito germinar o jardim, dá 2 Poções de Seiva Revigorante (4d4+4 HP; castanha opaca, sedimento no fundo; raízes de árvores despertas) e vai ao quartel testemunhar o \"milagre\" a Verin. Tenta Greater Restoration em Rolo Wellington.",
+    "states": [
+      {
+        "fromBeat": "b-3-rolo-wellington",
+        "state": "tenta Greater Restoration em Rolo, sem o acordar"
+      },
+      {
+        "fromBeat": "b-3-temple-foghome",
+        "state": "guia a segunda visão na meditação da noite"
+      },
+      {
+        "fromBeat": "b-3-fugon-vision",
+        "state": "chá e meditação em volta da árvore; dá as Poções de Seiva Revigorante; testemunha a Verin"
+      }
+    ]
+  },
+  {
+    "id": "c-verin-thelyss",
+    "summary": "Drow leal e bom, comandante militar de Bazzoxan (CR 5, Manifest Echo). Jovem, brilhante, mas pesado de melancolia: é o farol da vila e o principal mediador de informação do capítulo 3. statblock da mesa CR 6, HP 104, AC 18; Glaive of Warning, Cloak of Protection, Ring of Mind Shielding, Earring of Sending; Commanding Shout, Manifest Echo, Aura of Resolve. Quer restaurar a honra dos Thelyss depois de Essek; teme ter de escolher entre a Dinastia e a verdade. Chega com guardas ao combate à entrada da vila; entrevista os recém-chegados no Quartel do Portão sob Zone of Truth; acordo: explorar a Ascensão em troca de liberdade; dá em segredo um scroll de Teleport como failsafe a quem entra; recebe o testemunho de Fugon sobre o jardim.",
+    "states": [
+      {
+        "fromBeat": "b-3-murmuradores",
+        "state": "chega com guardas ao combate à entrada"
+      },
+      {
+        "fromBeat": "b-3-mouthers",
+        "state": "em combate na rua; manda os PCs encontrá-lo no quartel"
+      },
+      {
+        "fromBeat": "b-3-barracks-verin",
+        "state": "entrevista os PCs sob Zone of Truth"
+      },
+      {
+        "fromBeat": "b-3-verin-deal",
+        "state": "acordo: explorar a Ascensão em troca de liberdade; scroll de Teleport como failsafe"
+      },
+      {
+        "fromBeat": "b-3-verin-farewell",
+        "state": "reconhece a tablet de Aloysia como ligada a Marquet e abençoa a partida dos PCs"
+      }
+    ]
+  },
+  {
+    "id": "c-aloysia-telfan",
+    "summary": "Elfa leal e má, iniciada oculta do Consortium of the Vermilion Dream: figura magra de vestes escarlate que escuta conversas no Ready Room. Descreve a facção apenas como um grupo de aficionados de folclore. Página traduzida do livro (Occult Initiate; \"Consórcio Escarlate\" na mesa) com acrescentos: grimório de anotações sobre Ruidus, ruidium e o Apotheon; frascos lacrados com fragmentos de ruidium de Cael Morrow para infusões em armas/armaduras; símbolo do Consórcio (lua vermelha em cristal) como selo e foco; dois tablets de teleporte sobressalentes que deixa cair se for interrompida na fuga; pode ordenar aos rivais que matem os PCs se recusarem entregar a Jóia; em Ank'Harel reporta a Vrill the Moth.",
+    "tags": [
+      "investigador",
+      "consortium",
+      "vilã-emergente",
+      "ruidium",
+      "notion"
+    ]
+  },
+  {
+    "id": "c-finalist-team",
+    "summary": "a equipa orc \"Punhos de Ferro e Fogo\" tinha o melhor resultado (16) contra 12 de \"Os Bons Demais\" (o grupo da Ayo) e 8 do grupo anterior; os orcs adoeceram no mergulho e ficaram de fora, e os PCs subiram a finalistas. DM: é esta a \"outra equipa finalista\" da nova campanha."
+  }
+]

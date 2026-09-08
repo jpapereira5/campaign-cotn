@@ -1,0 +1,77 @@
+[
+  {
+    "id": "f-kryn",
+    "portents": [
+      {
+        "chapter": "ch0",
+        "text": "Operativos da dinastia observam quem enfrentou o Império no Brokenveil Marsh."
+      },
+      {
+        "chapter": "ch1",
+        "text": "Durth Mirimm relata a Rosohna os finalistas do festival; a dinastia quer saber o que saiu da gruta."
+      },
+      {
+        "chapter": "ch1",
+        "text": "Velnari manda amostras a Rosohna pelo espelho; laboratório sob o Salão de Pedra. Se ninguém o travar, o cristal dos PCs e o de Fritz vão para o laboratório, o beacon experimental afina-se com rubídio e o \"grupo corrompido\" passa a fonte ou a cobaias; Galsariad segue corrompido para Vorrim em Bazzoxan."
+      },
+      {
+        "chapter": "ch2",
+        "text": "As patrulhas do Emerald Loop prendem ladrões e levam-nos acorrentados para Bazzoxan."
+      },
+      {
+        "chapter": "ch3",
+        "text": "Sem solução para o impasse, a dinastia continua a alimentar Bazzoxan com soldados que não regressam."
+      },
+      {
+        "chapter": "ch3",
+        "text": "DM: Rosohna manda buscar o beacon recuperado no Rise; a escolta parte de Bazzoxan em N dias (DM define)."
+      }
+    ]
+  },
+  {
+    "id": "f-luxon",
+    "agenda": "Religião oficial da Kryn Dynasty; consecução das almas junto dos beacons. Dermot procura nela uma visão sagrada; Irvan carrega uma vida passada consecutada; Kalym Telaarin guarda os mortos de Bazzoxan. em Jigau, Belana Zolaed encobre os doentes de rubídio no 1.º andar do templo a pedido da Vigia (\"os meios justificam os fins\"), esconde um medalhão partido de um ritual falhado sob o altar, concede a Dádiva da Possibilidade (mote of possibility) a almas em bifurcação e cura o arcanista Velnari quando ele é exposto."
+  },
+  {
+    "id": "f-myriad",
+    "publicFace": "DM: Sem caras: viajantes, mercadores e correios. Em Urzin a porta é a Névoa do Brejo (loja de ervas); em Bazzoxan um contacto no Ready Room. A liderança de Urzin fica de fora. em Jigau, Ilyra Céu-Pálido (joalheira \"tiefling\", Brilho do Pântano nas Águas-da-Carne e banca de gemas no festival; alfinete-estrela de prata como código) e Nibuk (taberneiro maneta do Sapo Afogado) com a rede de crianças goblin \"Os Orelhudos\" (Zuttu Dente-Largo).",
+    "portents": [
+      {
+        "chapter": "ch0",
+        "text": "DM: O viajante deixa Urzin com a rota acertada e segue para Jigow; a Névoa do Brejo fica como ponto de contacto."
+      },
+      {
+        "chapter": "ch1",
+        "text": "DM: O receptador de Jigow compra as pedras vermelhas que dão à costa no Gulch; primeira remessa para oeste."
+      },
+      {
+        "chapter": "ch2",
+        "text": "DM: Correios na estrada; a Aurora Watch prende um deles (os \"ladrões acorrentados\" do portento Kryn) e o Myriad muda o percurso."
+      },
+      {
+        "chapter": "ch3",
+        "text": "DM: Tingus da Chuva mantém o monopólio em Bazzoxan com dois guardas da Vigia comprados (Kael Rhun, Lirien Solva): compra o rubídio dos túneis a habitantes como Rolo Wellington (que adormece e não acorda) e o que sai do Rise, e coordena a recolha com o Volstrucker (Operação \"Rede Rubra\"); caixas semanais para oeste. Se ninguém intervier, Rolo e outros vendedores corrompem-se, Tingus tenta assaltar o quartel atrás do artefacto roubado aos Kryn e, quando o rubídio deixar de dar lucro, a Míriade descarta-a. Se o Volstrucker roubar o beacon, vai nas mesmas caixas."
+      },
+      {
+        "chapter": "ch4",
+        "text": "DM: O canal fica permanente. PROPOSTA: o Consortium (sem fundos, mas a querer o monopólio do ruidium) tenta comprar a produção; o Myriad leiloa entre a Assembly e o Consortium."
+      },
+      {
+        "chapter": "ch5",
+        "text": "PROPOSTA: Ruidium a chegar ao Império em quantidade; efeitos (armas, corrupção nas mãos erradas) a definir pelo DM."
+      }
+    ]
+  },
+  {
+    "id": "f-jigow-elders",
+    "agenda": "Preservar as tradições de Jigow contra o avanço da dinastia; organizar o Festival of Merit; pôr a Jóia (Vestige of Divergence) nas mãos certas e enviá-las para Bazzoxan. Ushru (clériga de Melora) quer curar os doentes, proteger Jigau e conter ou erradicar a fonte do rubídio antes que a Dinastia a explore — em conflito directo com o arcanista Velnari, que quer estudá-lo e usá-lo; ambos pedem fragmentos aos PCs. Coblu-Kaz fica no meio (\"quanto mais se souber, melhor se decide\") e organiza a Caça ao Tesouro para criar antecipação."
+  },
+  {
+    "id": "f-cerberus-assembly",
+    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. A guerra com a Kryn Dynasty é pelos beacons do Luxon. Aproveitam o Myriad para receber ruidium para o esforço de guerra; um Volstrucker em Bazzoxan investiga o ruidium de perto e o rumor de que foi recuperado outro Luxon beacon no Betrayers' Rise; em conluio com Aloysia, tenta também a Jóia. o agente é Zyn'thar Veylin, iniciado em Rexxentrum por Ikithon; o seu caderno documenta a Operação \"Véu de Cinza\" (uma aldeia do Vale Mole com veios de pedra-bruma: o líder entregou-se, o desaparecimento foi registado como desabamento), o posto experimental de Forte Ventura, o rastreio do contrabando de rubídio da Myriad a partir da Guarnição das Cinzas (Da'leth) e a Operação \"Rede Rubra\" em Bazzoxan (substituição do soldado Zynthar, amostras Classe III, recolha coordenada com Tingus, intervenções nos Túneis da Ascensão, transferência de activos para a Assembly com projecção para Marquet e reencontro com Da'leth em Ank'Harel). Membros oficiais (página \"Assembleia de Cerberus\"): Ludinus Da'leth, Martinet (líder; arquimago mais antigo do Império, em Rexxentrum); Trent Ikithon, Civic Influence (treina os agentes arcanos, os Scourgers); Vess DeRogna, Antiquity (arqueomagia, ruínas da Calamidade, Eiselcross); Oremid Hass, Experimental Science (investigação aplicada, engenharia, artefactos); Lletys Brighthall, Economic Arcana (comércio de magia e artefactos); Elaina Lehmen, Justice (inquisidores, magia em tribunais e execuções); Tyss Taldor, Arcana Infrastructure (academias, bibliotecas); Alastair Lucien, Diplomacy. A versão do Caderno Volstrucker na ficha antiga (anterior à versão final de docs/handouts.md) data as entradas e nomeia superiores: Entrada 1, Rexxentrum 834 P.D.; Entrada 2, Operação \"Véu de Cinza\", Montanhas da Rocha-Parda 836 P.D., relatório técnico a Oremid Hass; Entrada 3, Forte Ventura 837 P.D., assessor táctico sob o comando do Inquisidor Perestrelo, supervisão geral de Elaina Lehmen; Entrada 4, Guarnição das Cinzas 841 P.D., autorização de rastreio concedida por Lletys do Brilho (Brighthall); Entrada 6, Operação \"Rede Rubra\", Bazzoxan 843 P.D., transferência para a Assembly pelo \"canal Brighthall\" (\"Envio R-III / Canal do Brilho\"), amostras Classe III, contacto Myriad local alternativo, e a avaliação adicional \"considerar eliminação de Verin Thelyss caso surja oportunidade clara\"; acções futuras: reencontro com Oremid Hass em Marquet. (A entrada 5, o intermediário da Myriad e o nome do líder da aldeia ficam de fora por decisão do DM.) Na página de Bazzoxan: \"Volstrucker (ligação com Prudaj)\"."
+  },
+  {
+    "id": "f-aurora-watch",
+    "publicFace": "Soldados drow, orcs e goblinoides em armadura quitinosa; patrulhas, postos e o quartel de Bazzoxan. \"O braço militar da Dinastia Kryn\"; presenças em Urzin, Jigau e Bazzoxan. Em Bazzoxan a guarnição fala undercommon entre si e tem a hierarquia: Intendente Verin Thelyss e três Capitães do Crepúsculo, Karesh \"Asa Rubra\" Du'Raal (defesa, vigia, patrulha), Vorrin \"Olho Cinza\" Daelith (incursões e arcana) e Ornessa \"Tia Vurk\" Vurk'enal (logística, curas, reforços). Fichas da mesa: Arqueiro da Vigia da Aurora (nível 4; Jigau, S20): elfo LG, CA 15 (studded leather e quitina), PV 33, DES 16; Percepção +3, Furtividade +5; visão no escuro 120 ft; multiattack de 2 flechas de fogo (arco curto +5, 1d6+3 + 1d6 fogo, incendeia objectos inflamáveis) ou 2 espadas curtas; reacção Suppressive Shot (dispara contra quem se mete a coberto). Soldados orcs (Urza Vokh, Grash Korr'thak): Guards reskinados, armaduras carmim, insígnias de cristal do Luxon, nomes sugeridos \"Grukk da Muralha\" e \"Vorrak Cicatriz-de-Luz\", falas militares (\"Turno de vigia findo\", \"Ponto vermelho relatado\")."
+  }
+]

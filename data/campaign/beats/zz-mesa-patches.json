@@ -1,0 +1,75 @@
+[
+  {
+    "id": "b-1-festival-seeds",
+    "notes": "PROPOSTA (Remix). Do Remix (2.1): usar eventos novos para semear a lista de revelações sem exagerar no ritmo; os rivais continuam a ser semeados nos eventos. DM: O vendedor de pedras vermelhas vende ao receptador do Myriad (b-1-myriad-jigow). o vendedor ambulante de pedras vermelhas e o receptador são a mesma pessoa: Ilyra Céu-Pálido, com a banca de gemas \"com significados\" no festival (b-1-joalharia-myriad); sementes usadas na mesa: tartaruga enraivecida resgatada pelos rivais, a \"velha do pó\" que lê a sorte com areia vermelha, o jogo do mergulho quase cancelado, avó dos Massapão/Rosbife doentes, crianças Orelhudos a seguir os PCs."
+  },
+  {
+    "id": "b-1-ifolon-plunge",
+    "notes": "Prémio: medal of the conch. Ayo e Galsariad juntos: bom sítio para mostrar o fraquinho dela por ele. antes da prova, os orcs Grok e Verran: Verran sai da água inconsciente com veios vermelhos sob a pele (Percepção CD 13) e dois soldados da Vigia (Aldryn, Zethir) levam-no para o templo; a multidão (Percepção CD 12): \"Já é o segundo esta semana… Disseram que era febre. Uma febre vermelha… Devíamos cancelar o desafio.\" Omo mantém a prova (5 pp; Engano CD 14 para um segundo concorrente; na mesa aceitou-o por 2 po). Mecânica: Dash todos os turnos; >30 ft = Atletismo CD 13 ou 1 exaustão e 15 ft rio abaixo; 75 ft; roubar a lança For CD 10 + mod; dois reef sharks quando a lança sai do poste, um deles corrompido luta até à morte (cada mordida: Cha CD 5 contra corrupção). Na mesa Pedro (druida) transformou-se em tubarão e venceu; Ayo quase se afogou e Ace salvou-a — as marcas vermelhas dos tubarões não desaparecem com Cure Wounds; uma concorrente humana ficou inconsciente e também foi resgatada; Elga pediu ajuda aos guardas e percebeu que sabiam de alguma coisa. Galsariad pediu para partilharem o que descobrissem sobre os afogamentos."
+  },
+  {
+    "id": "b-1-scarlet-fever",
+    "notes": "DM: Substitui a selecção de equipas do livro (e a lotaria do Remix). A \"febre escarlate\" precisa de regra: ver docs/regras.md (a definir pelo DM). na mesa o grupo de orcs \"Punhos de Ferro e Fogo\" tinha o melhor resultado (16) contra 10 de Ayo (\"Os bons demais\") e 15 do grupo anterior; os orcs adoeceram no mergulho (Verran) e ficaram de fora \"por razões\", e os PCs, em 3.º, subiram a finalistas. Galsariad reparou que Filipe disse que \"só com batota\" ganham. Regras de mesa usadas: contacto com o cristal = Con CD 5 (1d10 psíquico + marca na alma; Cha CD 20 contra corrupção); sintomas por nível de exaustão que não passam com descanso (erupção → veias carmesim → pústulas → cristais); lesser restoration não cura."
+  },
+  {
+    "id": "b-1-jewel-vision",
+    "notes": "PROPOSTA (Remix). Do Remix (2.3): \"You must find me! Bring my Jewel to the Cyst of Avandra!\" Nível de enigma a escolher pelo DM (explícito → só o Cyst → só a Jóia). As pistas para Bazzoxan vêm da pesquisa (b-1-jigow-research) e dos rivais. se os rivais estão presentes ouvem a voz de Alyxian distorcida, como debaixo de água; pequenos cristais vermelhos brotam do chão do altar (r-ruidium-apotheon-sites). Visão da mesa: figura espectral de armadura de couro, capa vermelha e escudo (\"Porquê… Porquê…\"), queda em vórtice dourado, guerreiro acorrentado por tiras de carne: \"Tecelã, eu fiz tudo o que disseste… Até Avandra…\", \"A minha jóia… Tragam-ma…\"; inconscientes 1 min. Toque na mesa: Con CD 10, 2d10 psíquico, sucesso = metade + visão + emoção (Ayo chora, Filipe medo, Ace raiva), falha = 0 PV. A campanha anterior usou a regra \"só quem está corrompido toca/atuna a Jóia\" para garantir que os PCs ficavam com ela (os rivais tentaram e ficaram inconscientes) — REJEITADA aqui: fica só como registo; os rivais concedem ou disputam segundo o livro. Na mesa a Jóia foi guardada no bag of holding e os PCs tocaram-lhe todos juntos na manhã seguinte para a visão conjunta."
+  },
+  {
+    "id": "b-1-grotto-ruidium",
+    "notes": "PROPOSTA (Remix). Do Remix (1.4): \"o ruidium manifesta-se em todos os sítios associados ao Apotheon\". Dá aos investigadores de Bazzoxan uma razão real para lá estarem e aos PCs algo para trocar. Regra Ruidium Metamagic: docs/regras.md. na mesa o rubídio da gruta era o tubarão-lua corrompido (E10) e os cristais a brotar do altar (E12); Ushru sente a Jóia e acha que o local de oração é a fonte do rubídio de Jigau (b-1-ushru-vs-velnari); Galsariad saiu da gruta corrompido (nível 1) e Elga usou o cristal lá dentro. Ace usou 5 g de suude para achar um santuário antigo de Sehanine submerso nas Águas-da-Carne — um segundo sítio do Apotheon em Jigau, por explorar."
+  },
+  {
+    "id": "b-1-moonshark-lair",
+    "notes": "PROPOSTA (Remix). Do Remix (2.2): a acção crucial deve nascer dos objectivos dos PCs (ganhar a corrida), não contrariá-los; há muitas formas de tirar o Eye ao tubarão sem o matar. tubarão corrompido pelo rubídio, 77 PV, CA 13, cada mordida = Cha CD 5 contra corrupção; lança de Sehanine (Atletismo CD 13); corda CA 17 / 5 PV; ritmo ≤10 / 11–15 / ≥16 rondas. Na mesa a corrida durou 17 rondas com o grupo dividido em três (Elga e Pedro pelas piranhas, Filipe a arrastar Rakent inconsciente para fora, Ace sozinho até ao polvo e ao tubarão), Maggie atacou Rakent sob suggestion de Filipe, os rivais atacaram o tubarão e saíram pela \"coluna dourada\"; Galsariad ficou a 1 PV. Lição do DM: \"aconteceu tanta coisa\" — evitar dividir a corrida em três frentes; ter mergulhadores druidas goblins prontos para resgatar quem fica para trás."
+  },
+  {
+    "id": "b-2-ruins-outside-bazzoxan",
+    "participants": [
+      "c-aloysia-telfan",
+      "f-aurora-watch",
+      "c-perigee",
+      "f-rivals",
+      "c-darguun-velk",
+      "c-grumak",
+      "c-volstrucker-agent"
+    ],
+    "notes": "PROPOSTA (Reddit, fan-made; ver o Google Doc do post). Maldição de Ruidus: secreta, ao acordar depois de Ruidus cheia; presságios durante o dia; Cha save DC 18 para a sacudir, com o DC a descer a cada presságio. Ronda 1: hezrou + draegloth + babau escondido; dois soldados a 0 hp morrem em 2 turnos se ninguém os estabilizar. Depois da ronda 2: vaga 2 (babau, draegloth, 4-6 wretched) e as acções de covil da névoa, uma por ronda: Cha DC 13 ou 2d6 necrótico e hp máximo reduzido; Wis DC 13 ou tristeza (desvantagem); Int DC 13 ou hordas ilusórias. Depois da ronda 3: outro hezrou. Depois de 3 acções de covil: chegam os rivais. Uma acção de covil é substituída pela visão (b-2-vision-perigee-death). Vaga 3: \"The Lonely\" (DM: o Sorrowsworn oficial de Mordenkainen's Tome of Foes / Monsters of the Multiverse, CR 9; os guardas sobreviventes e os rivais ajudam a aguentá-lo). Libertar as energias do centro acaba com as invocações. Mapa: centro onde Perigee morreu e de onde sai a névoa; árvore morta; elevações de 10 e 15 ft. Recompensa: 50 gp; se todos os guardas sobreviverem, alojamento grátis no Ready Room e desconto. DM (Aloysia): veio com a patrulha que Verin mandou às ruínas quando a névoa começou a parir demónios, convencendo-o a levá-la \"como perita em folclore\"; o Consortium, obcecado com Ruidus, quer saber o que acorda ali depois de Ruidus cheia. Não luta na linha: fica na elevação de 15 ft com os feridos, com os tablets de teleporte e o pergaminho de earthquake (livro) como saída de emergência, e observa quem é atingido pela visão; no fim pergunta \"o que viram?\" (Insight/Deception). O agente Volstrucker não aparece aqui (mantém a surpresa em R16). DM: no cristal do centro, onde Perigee caiu e Alyxian recebeu a segunda bênção, há um filamento carmesim de ruidium; Aloysia leva uma lasca (é o que o Consortium queria; pista para r-ruidium-apotheon-sites). Os PCs também podem tirar uma amostra, com o DC 20 Charisma save do livro se a usarem. Ruínas da Saudade — sopé da Cordilheira da Penumbra; Udaak + 2 shadow demons (um veterano engolido mata o Udaak de dentro do estômago); veteranos Darguun Velk e Grumak \"Punho-de-Ferro\", e o \"veterano drow\" Zyn'thar Veylin (Volstrucker); Aloysia (elfa loira, vestes vermelhas) investiga a pedra e recolhe rubídio com os \"olhos de sangue\"; visão de Selenya (= Perigee); inscrição de Alyxian. Versão alternativa (adaptação 2023 de u/JisaHinode, usada como sidequest): só Sorrowsworn — 1 Lonely corrompido por ruidium (dano extra psíquico, resistência a psíquico), 2 Lost, 15 Wretched (para aliviar: tirar 1 Lost e 5 Wretched); a Jóia flutua e a visão vem em 3 rondas a partir da 2.ª ronda ou ao chegar ao nível principal, na iniciativa 20: ronda 1 INT save DC 15 ou ilusões de combatentes (1d8 psíquico; 2d8 das lanças se se mover); ronda 2 CON DC 15 ou 2d6 radiante + prone (metade no sucesso; falha por 5+ empurrado 15 ft); ronda 3 WIS DC 15 ou luto (velocidade a metade, desvantagem em ataques e saves; falha por 5+ inimigos com vantagem); depois, estrado partido com cristal azul-prateado em forma de onda de choque; filamentos vermelhos de rubídio no cristal (Investigation baixa; Prolix interessa-se e cala-se); inscrição na laje central (Investigation alta). Tesouro: 50 electrum num jarro de pedra, peitoral da Aurora Watch, Coin of Delving. Na campanha anterior o Volstrucker estava na patrulha, ao contrário da nota acima: o DM escolhe."
+  },
+  {
+    "id": "b-2-vision-perigee-death",
+    "notes": "PROPOSTA. Não quebra a regra \"visões em sequência\" (docs/regras.md): as vinte visões do Netherdeep continuam pela ordem do livro; esta é uma visão extra, fora do Netherdeep, que pré-estabelece Perigee (princípio do Remix já adoptado). Liga a R2 (Hall of Holes: Perigee nos baixos-relevos), a N7 (a batalha) e a N24 (Perigee corrompida). Cronologia fan-made, coerente com o livro. na mesa Perigee chamava-se Selenya, \"anjo de asas de luar enviada pela Tecelã da Lua\", morta contra o general demoníaco com Catha e Ruidus no céu; inscrição gasta na pedra: \"A filha de Sehanine, não sabe que no fundo, o homem que luta contra os deuses tem os dias contados? … Retornarei um dia e construirei um templo digno de ti. — Alyxian\" (os PCs podem notar que o templo nunca foi construído)."
+  },
+  {
+    "id": "b-3-aloysia-offer",
+    "notes": "PROPOSTA (Remix). Investigador como revelação: Aloysia pode estar na estalagem, a exigir soldados a Verin, ou a tratar um ferimento na enfermaria. Escuta as conversas dos PCs com os outros dois. DM: Já a conheceram nas Ruins of Sorrow (b-2-ruins-outside-bazzoxan). DM: duas aberturas: se os PCs salvaram os guardas ou lhe contaram a visão, abre quente e já obcecada pela Jóia; senão, abre fria e é só a oferta do livro. Aloysia é vista a falar com Fritz na Estalagem do Soldado Caído; sai com outros para a Ascensão; Prolix paga 100 po adiantados para a investigarem; quando os PCs entram, ela já saiu da Ascensão. Na campanha anterior não fez a oferta de escolta do livro: o interesse dela era um item que os PCs transportavam (Caderno Volstrucker, entrada 6)."
+  },
+  {
+    "id": "b-3-mouthers",
+    "notes": "NOTAS DE DM (extracção + Remix): Beat de chegada e primeiro teste da atitude dos rivais no capítulo. Se Aloysia estiver na vila, ela também combate os mouthers (o Remix usa isso para a colocar na enfermaria a tratar uma ferida). Naevyn é ferida neste ataque. A vila é contenção, não vitória: deixa isso claro pelo cansaço dos soldados. na mesa o combate de chegada foi com orcs \"Murmuradores\" (Urza Vokh, Grash Korr'thak) à entrada, e Verin chegou com guardas (b-3-murmuradores); os gibbering mouthers ficaram para dentro da Ascensão (R2, b-3-hall-of-holes)."
+  },
+  {
+    "id": "b-3-rise-entrances",
+    "notes": "PROPOSTA (Remix). Do Remix (2.4, opção 1 \"Multiple Entrances\", com o Rise expandido como o DM quer). Alternativa do Remix: um investigador como guia em tempo abstracto. exterior da Ascensão: escadaria para 4; 8 veteranos e 2 torres com balistas; os 2 soldados sobreviventes das Ruínas da Saudade (Grumak e Darguun) fecham a porta e escrevem os nomes dos PCs no muro se não voltarem em 1 dia; fachada com relevos de anjos torturados; Portões da Umbra, 15 m de ónix, relevos de Baphomet (INT 14: a criatura que matou o anjo da visão; INT 18: o nome) e Torog (INT 18), STR combinada 44 para abrir; \"Gloomstalker Escape\": 2 gloomstalkers irrompem pelas portas (\"Rápido, entrem!\") — na campanha anterior viram-nos sair e entraram."
+  },
+  {
+    "id": "b-3-hall-of-holes",
+    "notes": "NOTAS DE DM (extracção + Remix): Remix: o Rise é um dos nove pontos de Lore de Alyxian; acrescenta aqui Perigee ou os cinco companheiros nas gravuras para pagar no Netherdeep. Se quiseres a Revelação 2 do Remix (a Jóia desenhada nas paredes), é aqui que a companhia a encontra. R2 \"Corredor dos Buracos\", 60×15×20 ft; murais da Batalha dos Campos Farpados (História 15: guerreiro de caracóis com lança e escudo, rapariga de cabelo branco de 12 anos e jovem cujo cabelo vira estrada de soldados; Religião 10: Sehanine e Avandra); encontro \"Murmúrios / Montes de Carne\": 3 gibbering mouthers a emergir das paredes com falas (\"Larga o peso…\", \"A linha não aguentou…\", \"Luxon… Perdoa-nos… NÃO ME ABANDONEM!\")."
+  },
+  {
+    "id": "b-3-crematorium-prolix",
+    "notes": "Os irmãos do crematório são Reinaldo Do-Vale (magro, avental de couro, animação desconcertante, piadas mórbidas: \"Mais corpos para Bazzoxan, é isso?\") e Sebastião Do-Vale (enorme, olhos azuis frios, perna em falta: \"Reinaldo, os teus amigos não me querem dar uma perninha?\"). Um PC ajuda a queimar corpos; outro abre o estômago do vrock com Prolix (Survival DC 15; falha: esporos, CON DC 14 ou poisoned com 1d10 por turno): Olhos de Águia, três anéis de 2 po, caixa-puzzle de ónix (Prolix fica com ela; INT DC 20 abre-a: pergaminho de bestow curse). O corpo do vrock só se dissolve depois de tirada a caixa."
+  },
+  {
+    "id": "b-3-jewel-confrontation",
+    "notes": "DM: o agente Volstrucker só entra nesta cena se Adélia Krauss sobreviveu ao assalto nocturno (b-3-volstrucker-assault); se morreu, Aloysia age sozinha (com os rivais, se os recrutou)."
+  },
+  {
+    "id": "b-3-beacon-in-barracks",
+    "notes": "DM: só se Adélia sobreviveu ao assalto (b-3-volstrucker-assault); se morreu, a Assembly não tem quem tente o beacon e ninguém vem buscar o caderno."
+  },
+  {
+    "id": "b-3-beacon-heist",
+    "notes": "DM: só se Adélia sobreviveu ao assalto (b-3-volstrucker-assault); se morreu, o golpe não acontece (a Myriad não o tenta sozinha)."
+  }
+]

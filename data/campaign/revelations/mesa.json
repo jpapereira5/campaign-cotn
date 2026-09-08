@@ -1,0 +1,50 @@
+[
+  {
+    "id": "r-alyxian-last-dranassar",
+    "list": "Lore of Alyxian",
+    "text": "Alyxian é o último Dranassar. Os Dranassar (altos, 2 m, cabelo negro espesso, pele que brilhava como ouro, olhos violeta, orelhas pontiagudas) foram o povo que Bane, o Tirano, rasgou e moldou à sua imagem durante a Calamidade: \"da lama quente nascemos\" os goblins. Ghor Dranas (hoje Rosohna) era deles. O pântano do Véu-Quebrado bebeu a dor dos primeiros que caíram e o Guardião do Musgo \"lembra-se do último Dranassar\".",
+    "clues": [
+      "b-0-dranassar-vision",
+      "b-0-bolbara-legend",
+      "b-3-hall-of-holes"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-fritz-elisabete",
+    "list": "Ruidium",
+    "text": "Alone Fritz já morreu uma vez (\"os deuses, por capricho ou por insulto, apenas me voltaram a acordar\") e procura rubídio e o poder de \"manipular a realidade através da consciência\" para recuperar Elisabete, a filha (ou irmã) que lhe foi roubada num ataque: \"o Pai ainda não desistiu\". Vigost, de Decrepola, falou-lhe da maldição de Ruidus; os cultistas de Torog dizem que Torog está preso entre o Reino Distante e o Subterrâneo Profundo, com presença forte em Bazzoxan.",
+    "clues": [
+      "b-1-fritz-velnari",
+      "b-3-fritz-returns",
+      "b-3-fritz-end"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-velnari-corrupted",
+    "list": "Facções",
+    "text": "O arcanista da Dinastia em Jigau, Velnari Zeth, está corrompido pelo rubídio (nível 2, escondido sob disguise self) e está a armá-lo: laboratório secreto sob o Salão de Pedra com fragmentos num círculo luxoniano, um Espelho de Sussurros e um beacon experimental; compra amostras à Miríade e manda-as a Rosohna; o sobrinho Galsariad segue corrompido para Bazzoxan, ao cuidado de Vorrim.",
+    "clues": [
+      "b-1-fritz-velnari",
+      "b-1-ushru-vs-velnari",
+      "b-1-velnari-lab",
+      "b-1-velnari-confrontation",
+      "b-3-vorrim"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-luxon-coverup",
+    "list": "Ruidium",
+    "text": "A Igreja do Luxon (Belana) e a Vigia da Aurora escondem os doentes de rubídio de Jigau — o pescador, Verran, as crianças — no 1.º andar do templo, chamam-lhe \"febre vermelha\", pressionam os soldados a não dar cana e não alertam o povo; os meios justificam os fins. O mesmo encobrimento explica a filha de Korrem nos Desterros.",
+    "clues": [
+      "b-1-ifolon-plunge",
+      "b-1-scarlet-fever",
+      "b-1-luxon-coverup",
+      "b-1-journey-day2-wastewalkers",
+      "b-1-velnari-confrontation"
+    ],
+    "source": "dm"
+  }
+]

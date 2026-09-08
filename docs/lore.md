@@ -1,6 +1,6 @@
-# Lore de Exandria usado na mesa (Crocudos, Notion)
+# Lore de Exandria usado na mesa
 
-Resumos do DM (traduções da wiki de Critical Role e do EGtW) que não cabem nos dados da campanha. Marcado "Crocudos (Notion)".
+Resumos do DM (traduções da wiki de Critical Role e do EGtW) que não cabem nos dados da campanha. Marcado "".
 
 ## História de Exandria (páginas "História")
 

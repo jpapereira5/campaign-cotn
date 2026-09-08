@@ -1,0 +1,56 @@
+[
+  {
+    "id": "l-nevoa-do-brejo",
+    "summary": "DM: Loja de ervas alucinogénias em Urzin, já existente na mesa. O vendedor sabe pôr quem pergunta em contacto com o viajante do Myriad; a liderança da aldeia fica de fora. Construída na carapaça oca de uma tartaruga-do-horizonte antiga meio afundada num banco de lama, envolta em vapores de menta fermentada, lama húmida e fumo doce; plantas a secar, frascos de barro, braseiro ao centro. Dona: Rhogna Ervas-Raras (goblin, 54 anos). Vende misturas fumáveis, ervas visionárias, cogumelos do pântano (desvantagem em Percepção 1 h) e a Essência do Solo Vivo: frasco de líquido esverdeado que dá +1 em Nature ou Animal Handling durante 1 h, permite comunhão informal com um espírito natural e substitui componentes de feitiços druídicos de 1.º nível. Flor comprou aqui cogumelos e um frasco de Essência antes da partida."
+  },
+  {
+    "id": "l-dynasty-outpost-jigow",
+    "name": "J9 Tropa Torta / Posto Avançado da Dinastia",
+    "parent": "l-jigau-molho",
+    "summary": "O povo chama-lhe \"Tropa Torta\" pelo caos dos jovens turbulentos da vila. Dois edifícios: o Salão de Pedra (dodecaedro, sede política e arcana) e o Quartel da Vigia. Na Caça ao Tesouro (J9) está cheio de famílias no \"dia das famílias\": uma goblin corre com um molho de chaves (Rakent roubou-o), dois kobolds vermelhos pedem uma actuação (teste de grupo CD 11; Intimidação CD 13) e o cofre com a última pista está no telhado (Atletismo CD 15; Prestidigitação CD 13; cofre CA 12 / 10 PV). Na véspera do festival tem 2 guardas à porta e poucos lá dentro."
+  },
+  {
+    "id": "l-temple-of-the-luxon-jigow",
+    "name": "J8 Igreja do Luxon",
+    "parent": "l-jigau-molho",
+    "summary": "Dodecaedro de vidro semitranslúcido com brilho dourado, três andares ligados por escadas flutuantes de pedra preta; réplica cerimonial de um Beacon num pedestal de obsidiana rodeado de doze bancos; as vozes soam abafadas. 1.º andar: enfermaria onde estão escondidos os doentes de rubídio (Verran, um pescador corrompido, crianças dos Orelhudos; Nessa Brilho-Leve ajuda); aposentos de Belana trancados. 3.º andar: salão das doze cores onde Belana concede a Dádiva da Possibilidade (mote of possibility). Sob o altar, um medalhão partido de um ritual mal sucedido. Serviços: oração orientada 5 pp, leitura da alma 1 po, bênção da Caminhada 2 pp, pergaminho do Luxon 1 pp, meditação em grupo 3 pp; Cura Ritual do Reflexo (cure wounds elevado). Durante o festival esteve fechada com dois vigias à porta (Veldrin T'sorrin e Bel'yth Zauvirr). Velnari foi aqui teleportado para ser tratado."
+  },
+  {
+    "id": "l-unbroken-tusk",
+    "name": "J1 Presa Inquebrável (Unbroken Tusk)",
+    "parent": "l-jigau-molho",
+    "summary": "Estalagem de três andares montada nas costas de uma tartaruga-do-horizonte gigantesca; as mesas deslizam a cada balanço; placa: \"Se cais, é culpa tua. Se partes, pagas. Se gostas, volta.\" Cozinha de Ágata Colher-de-Prata, ajudada todos os anos por Bruno Massapão; aprendiz goblin Fleba; empadas curam 1d4 PV (uma vez); Tiborna de Tártaro do Charco (pão goblinóide tostado, banha de moorbounder, tártaro de tartaruga, ovos de lodo-pintado). Guarida dos PCs durante o festival (Ushru e o clã Norgab). Foi aqui que a Caça ao Tesouro começou (enigma pregado no alpendre das traseiras: Investigação CD 10 pegadas pequenas com fertilizante; Sobrevivência CD 13 aponta para os arrozais) e onde Ushru procurou os PCs na noite da Jóia."
+  },
+  {
+    "id": "l-wetwalks-paddies",
+    "parent": "l-jigau-passadicos"
+  },
+  {
+    "id": "l-emerald-grotto",
+    "summary": "Gruta submarina (E1-E12) sob as Black Islands; palco da Grand Finale. Potions of water breathing duram 1 hora; a corrida conta-se em rondas. na mesa a corrida durou 17 rondas com o grupo dividido: emaranhado de algas (Atletismo de grupo CD 13), bifurcação, campo de arbusto branco / erva-fantasma (Des CD 12, 1d6 necrótico, restrained; CD 8 para se soltar), deslizamento de terra (Des CD 14 / 3d6; gruta lateral com poção e scroll de thunderwave), covil de piranhas (28 PV; nevoeiro), jardim do polvo (polvo gigante 39 PV, cega quem agarra), tubarão-lua corrompido (77 PV, CA 13) e uma \"coluna dourada\" por onde os rivais saíram. Mergulhadores druidas goblins entram para resgatar quem fica para trás."
+  },
+  {
+    "id": "l-ready-room",
+    "summary": "Única estalagem, dos irmãos Delez e Prima Demona; preços a dobrar. Os rivais bebem aqui; Question desenha no caderno; Prolix e Aloysia dormem aqui e Aloysia escuta as conversas (passive Perception 12+ para a apanhar). Estalagem do Soldado Caído — onde os PCs conhecem Prolix e Iliana \"Questão\", vêem Fritz a falar com Aloysia e conhecem a \"Maré de Fogo\" (Nara Sol e Talan Velyar); Vor'zen, soldado corrompido, ataca-a com o Grito do Apoteão e a estalagem é selada até chegarem os enfermeiros; Vorrim aparece e sai por Dimension Door. Estalagem do Soldado Caído: pessoal da noite Vazia da Uva (empregada), Rolo Wellington (ajudante, vive no \"quarto das caixas\" no celeiro) e a cozinheira orc Nela; de dia o casal drow gerente (inventário à noite, caixas de dia). Alojamento por uma escada até à varanda de madeira: 2 sp por pessoa; quarto de madeira seca com três camas velhas, mesa de cabeceira, armário vazio e baú com fechadura. O \"Ready Room\" propriamente dito é o celeiro gigante de materiais (lanternas, machados, pás, escadas, mobília) com placas em várias línguas: o principal sítio de comércio; quem fica em Bazzoxan deixa aí os materiais ou a Vigia requisita-os."
+  },
+  {
+    "id": "l-bazzoxan-barracks",
+    "summary": "Sala de guerra de Verin (briefing sobre a expedição Cobalt Soul, Aloysia e Prolix), refeitório com boatos, área de treino (tiro, sparring, luta) e dormitórios interditos. Colocação alternativa de Aloysia (a exigir soldados a Verin). Quartel do Portão — os recém-chegados são levados até aqui por Vazia, passam pela enfermaria e são entrevistados por Verin sob Zone of Truth; mais tarde é aqui que Verin fecha o acordo \"explorar a Ascensão em troca de liberdade\", Fugon testemunha o milagre do jardim, Vorrim entrega as Âncoras do Entre-Véus e Levir leva os PCs à armaria. Quartel do Portão / Quartel da Umbra: Sala de Guerra do Intendente; ao lado, uma Sala de Comunicação Luxoniana onde artificers drow mantêm cristais sintonizados com Rosohna para mensagens curtas à Rainha Brilhante (exigem concentração colectiva e sangue; segredo: os cristais estão rachados e, quando usados, ecoam vozes abissais); e o \"Arquivo dos Mortos\", câmara restrita com caixas com nomes, talismãs, armas e cartas nunca enviadas dos soldados mortos, e um livro encantado que regista sozinho os mortos em serviço (ideia do DM, não jogada: anomalias, nomes repetidos, soldados que morrem mais de uma vez, Bazzoxan presa num ciclo de dunamância). Ideia: sala de tesouro com artefactos atrás da sala de guerra; estábulos de moorbounders."
+  },
+  {
+    "id": "l-ruins-of-sorrow",
+    "summary": "PROPOSTA (Reddit, fan-made). Ruínas cristalinas de três lados, a um dia de Bazzoxan, com elevações de 10 e 15 ft e uma árvore morta. No centro, onde Perigee caiu a matar o general dos Betrayers, a barreira para o Abismo está fina: depois de Ruidus cheia sai névoa e saem demónios. DM: situadas nos Barbed Fields, o campo da batalha final retratada em R2. DM: no cristal do centro há um filamento carmesim de ruidium. Ruínas da Saudade, no sopé da Cordilheira da Penumbra; pedra com a inscrição de Alyxian à \"filha de Sehanine\"."
+  },
+  {
+    "id": "l-jigow",
+    "summary": "Amálgama costeira de aldeias no Emerald Gulch e no rio Ifolon, fundada por clãs orc e goblin, hoje parte da Kryn Dynasty. Três distritos: Meatwaters (docas), Wetwalks (palafitas), Jumble (mangais e casas sobre horizonbacks). Sede do Festival of Merit. População 13 210 (56% goblinóides, 31% orcs, 13% outros). O Intendente Duarte Mirimm tem uma relação tensa com os dois anciãos dos clãs; o pequeno pelotão da Vigia sob o seu comando junta-se aos guerreiros locais; o templo do Luxon domina O Molho, o distrito mais movimentado; cada clã tem a sua rede de artesãos e mercadores. União frágil: goblins e orcs lutaram séculos no norte de Jorhas até a Dinastia os unir pela fé no Luxon; os goblins seguem as superstições dos clãs Gakthash, Uvuroh e Zetek, os orcs honram os clãs Norgab e Shoomat (páginas de facção só com título na ficha antiga); muitos desconfiam dos drow e temem ser arrastados para a guerra com o Império. Tudo vira duelo: caça, culinária, corridas de miúdos, sempre com apostas e batota. Crime: pequenos furtos, brigas, sabotagem entre comerciantes. Distritos: Águas-da-Carne (cais e pesca), Os Passadiços (palafitas e arrozais a oriente), O Molho (coração labiríntico; casas e lojas no casco de tartarugas-horizonte). Gancho \"A Batalha dos Fanfarrões\": numa taverna, o velho orc cheio de cicatrizes Temgor e o jovem goblin convencido Gerb num duelo de gabarolices que aquece; os amigos pedem aos aventureiros que metam juízo nos dois antes de a Vigia intervir."
+  },
+  {
+    "id": "l-brokenveil-marsh",
+    "summary": "Pântano em Eastern Wynandir entre Urzin e o Fort Venture. Travessia de 3+ dias; navegação DC 15; encontros B2-B7. As Falésias do Véu-Quebrado formaram-se quando as Montanhas da Pedra-Parda (Dunrock) e os Picos Cinzeiros (Ashkeeper) foram rasgados na Calamidade; entre os precipícios, um pântano denso e malcheiroso: árvores retorcidas, vinhas, lama movediça, nuvens de insectos, armadilhas de lodo e harpias das falésias que capturam quem se afasta. Lar confortável das tartarugas-do-horizonte: um monte seco pode ser uma colina ou a carapaça de um monstro territorial. Dissuasor de guerra: barreira natural entre o Império e a Dinastia; quase duas décadas de escaramuças deixaram soldados de ambos os lados na lama; a recente vitória Kryn na Fortaleza Ashguard deu-lhes o controlo do pântano e uma cabeça de ponte em território inimigo."
+  },
+  {
+    "id": "l-xhorhas-road",
+    "summary": "Estradas de terra patrulhadas: Emerald Loop para sul de Jigow, depois o Hallowed Path para este até Bazzoxan. Viagem de 9/12/15 dias pelos ermos de mastodontes e moorbounders. Jorhas: em tempos terra dominada pelos Deuses Traidores e o seu centro de poder na Calamidade; depois, devastada pela guerra e assolada por demónios; hoje habitada por povos que o Império considera monstros. A Dinastia Kryn foi fundada por drow que fugiram do Subterrâneo Profundo e de Lolth e descobriram o Luxon; a Rainha Radiante Leylas Kryn lidera; goblins, hobgoblins, bugbears, orcs, lizardfolk e kobolds uniram-se sob a Dinastia, uns de livre vontade, outros forçados. (O DM guardou o mapa de encontros aleatórios do cap. 2 do Reddit.)"
+  }
+]

@@ -1,6 +1,6 @@
 # Regras da nossa campanha (camada campanha)
 
-Regras que não estão no livro. As marcadas **PROPOSTA (Remix)** vêm do *Remixing Call of the Netherdeep* (Justin Alexander); as marcadas **DM** são decisões do mestre; as marcadas **Crocudos** vêm da campanha anterior do DM (mesma aventura, outro grupo) e foram jogadas na mesa. Nada disto está na camada livro.
+Regras que não estão no livro. As marcadas **PROPOSTA (Remix)** vêm do *Remixing Call of the Netherdeep* (Justin Alexander); as marcadas **DM** são decisões do mestre.
 
 ## Ruidium Metamagic — PROPOSTA (Remix)
 
@@ -12,11 +12,9 @@ O livro permite usar 1 onça de ruidium como componente material no valor de 500
 
 Intenção: tornar o ruidium uma tentação mecânica real para os PCs.
 
-<!-- RASCUNHO para docs/regras.md — bloco D. Fonte: campanha.md (separador 🎲 Regras, l. 14655–15003; viagem l. 6795–6815; Caminhantes l. 6900–6975) + crocudos.md/clean.md (S7, S14, S17). Transcrição fiel; nada inventado. -->
+## Rubídio (DM)
 
-## Rubídio — Crocudos (DM)
-
-Regras próprias da campanha anterior do DM ("Crocudos"), transcritas tal como estavam no documento de campanha. Substituem, na mesa, a regra de corrupção do livro (cap. de introdução) onde colidem; o DM decide o que transita.
+Regras próprias do DM. Substituem, na mesa, a regra de corrupção do livro (cap. de introdução) onde colidem; o DM decide o que transita.
 
 O rubídio é um cristal avermelhado com veios pulsantes, nascido da dor do Apoteão durante a Calamidade. Leve (1 g/cm³), instável e poderoso: magia intensa em troca de um risco constante de exaustão, corrupção e marcas na alma.
 
@@ -74,7 +72,7 @@ A corrupção rubídica manifesta-se fisicamente à medida que a criatura acumul
 
 ### Marcas na Alma (sintomas psicológicos)
 
-Efeitos psicológicos narrativos resultantes da presença continuada de rubídio ou do nível de corrupção. Contribuem para os pontos de insanidade (ver "Insanidade — Crocudos").
+Efeitos psicológicos narrativos resultantes da presença continuada de rubídio ou do nível de corrupção. Contribuem para os pontos de insanidade (ver "Insanidade").
 
 Charisma save incremental:
 
@@ -88,7 +86,7 @@ Charisma save incremental:
 
 (Formulação usada na viagem: "Charisma DC 5, +5 por cada dia que passa"; na mesa chegou-se a DC 20 diário.)
 
-**DM (decisão):** a marca rola-se também **ao falhar um saving throw contra corrupção**, e os efeitos **desaparecem após um long rest** (variante do Notion adoptada; a versão anterior da mesa mantinha-as até a exaustão chegar a 0).
+**DM (decisão):** a marca rola-se também **ao falhar um saving throw contra corrupção**, e os efeitos **desaparecem após um long rest** (a versão anterior da mesa mantinha-as até a exaustão chegar a 0).
 
 Ao falhar o save, rola 1d8:
 
@@ -105,7 +103,7 @@ Ao falhar o save, rola 1d8:
 
 ### Exposição prolongada
 
-**DM (decisão, regra do Notion):** após um dia inteiro de exposição contínua a rubídio (carregar o cristal, dormir junto dele, dias na Ascensão), **Charisma save DC 5, +5 por cada dia adicional**. Falha: uma Marca na Alma temporária até ao próximo long rest. **Nat 1:** visões com impacto narrativo (flashbacks da Calamidade, memórias corrompidas). Na mesa: um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
+**DM (decisão):** após um dia inteiro de exposição contínua a rubídio (carregar o cristal, dormir junto dele, dias na Ascensão), **Charisma save DC 5, +5 por cada dia adicional**. Falha: uma Marca na Alma temporária até ao próximo long rest. **Nat 1:** visões com impacto narrativo (flashbacks da Calamidade, memórias corrompidas). Na mesa: um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
 
 ### Sonhos
 
@@ -145,7 +143,7 @@ Quem consumir Suude Vermelho e tocar na Jóia das Três Preces tem **visões na 
 
 ### Regra rejeitada: toque na Jóia
 
-Em Crocudos (Desafio Final, E12): "Quem tocar sem estar corrompido tem de fazer um Charisma save, ou CON save DC 10 = 1d10 dano psíquico e é repelido. Falha = repelido. Sucesso = metade do dano, consegue tocar. Quem estiver corrompido consegue tocar sem dano." Na mesa (S17): CON DC 10 → 2d10 psíquico; falha = 0 HP. O próprio DM anotou-a como *railroad* ("to ensure my players are the ones getting the Jewel… it can only be interacted / attuned by someone that is corrupted by ruidium"). **Não transita**: a nova campanha usa a visão universal do Remix (a Jóia dá a visão a quem lhe toca).
+Regra do DM (Desafio Final, E12): "Quem tocar sem estar corrompido tem de fazer um Charisma save, ou CON save DC 10 = 1d10 dano psíquico e é repelido. Falha = repelido. Sucesso = metade do dano, consegue tocar. Quem estiver corrompido consegue tocar sem dano." Na mesa: CON DC 10 → 2d10 psíquico; falha = 0 HP. O próprio DM anotou-a como *railroad* ("to ensure my players are the ones getting the Jewel… it can only be interacted / attuned by someone that is corrupted by ruidium"). **Não transita**: a nova campanha usa a visão universal do Remix (a Jóia dá a visão a quem lhe toca).
 
 ### Compatibilidade com o Ruidium Metamagic (Remix, já adoptado)
 
@@ -159,9 +157,7 @@ A atitude dos rivais (hostil / indiferente / amigável) decide só **o tom** do 
 
 Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
-<!-- RASCUNHO para docs/regras.md — bloco D. Fonte: campanha.md l. 15004–15101 (🎲 Regras → Insanidade / Loucura Temporária). O documento remete para um "Insanity Rules.pdf" (Drive) que não foi lido. As contagens por jogador da campanha anterior ficaram de fora (ligadas a PCs antigos). -->
-
-## Insanidade — Crocudos (DM)
+## Insanidade (DM)
 
 **Fontes de pontos.** Experiências traumáticas, quase morrer, níveis de corrupção, marcas na alma, ou passar um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep) acumulam pontos nas tabelas de insanidade. Na mesa, os pontos registados vieram de: cicatrizes; cada visita à Ascensão; cada quase-morte; cada marca na alma; ver um aliado/NPC querido morrer; cada nível de corrupção; ser alvo do Grito do Apoteão; visões falhadas; e "pontos extra" ao atingir cada nível de corrupção (nível 1: +2 a +5; nível 2: +3 a +5, conforme a personagem). Na Ascensão: +1 ponto por dia (sessão 41).
 
@@ -183,9 +179,7 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 Por definir (não está no documento): o limiar de pontos que dispara a loucura temporária e se existe loucura prolongada/indefinida (o PDF do Drive pode ter isso).
 
-<!-- RASCUNHO para docs/regras.md — bloco D. Fontes: campanha.md l. 10966–11010 (medalhas), 10814 e 11916 (prémios), 5341–5395 (Amuleto), 8637–8680 (mote), 5983–6002 (Essência), 6999–7005 (colar); clean.md l. 183–195 (Refúgio do Caminhante). Só itens não ligados a PCs antigos. -->
-
-## Medalhas do Festival, Amuleto de Honra, Mote of Possibility — Crocudos
+## Medalhas do Festival, Amuleto de Honra, Mote of Possibility (DM)
 
 ### Medalhas do Festival do Mérito (livro, traduzidas na mesa)
 
@@ -234,9 +228,7 @@ Colar de corda entrançada com três pedras secas e ocres — uma de cada clã q
 
 *Item maravilhoso, raro (requer sintonia).* Na mesa foi o mesmo colar de 3 pedras. **Sintonização:** só por uma criatura que tenha passado pelo menos uma noite nos Desterros de Jorhas ou em ambiente semelhante. **Efeito:** uma vez por dia, com uma acção, cria *Leomund's Tiny Hut* com duração de 1 hora; a tenda manifesta-se à tua volta.
 
-<!-- RASCUNHO para docs/regras.md — bloco D. Fontes: campanha.md l. 15103–15315 (Novas Proficiências) e l. 15373–16214 (Componentes Verbais). Lista de latim extraída automaticamente do documento, tal como está (incl. "N/A" e "???"). -->
-
-## Treino de proficiências — Crocudos (DM)
+## Treino de proficiências (DM)
 
 **Objectivo.** Permitir que personagens aprendam línguas, perícias (skills), ferramentas (tools) ou armas (weapons) ao longo da campanha, com downtime estruturado, custos e rolagens simples.
 
@@ -298,7 +290,7 @@ Disponibilidade depende do sítio (numa grande cidade há sábios para uma líng
 
 Integrar no mundo (mestre-ferreiro de Jigau, bibliotecária da Alma Cobalto, o velho apicultor que ensina herbalismo); usar um relógio de progresso e marcos narrativos quando o dado encolhe; este módulo substitui (ou convive com) o Training de Xanathar's — escolher um método por campanha; sem as 4 h mínimas não há Training Check; 4 h num dia de marcha normal é razoável, 8 h em viagem só com veículo/animal e descanso adequados; falhar não retrocede, só não progride; opcional "progresso arriscado": aceitar uma complicação narrativa pequena para ganhar um "meio passo" (num d10, da próxima vez rola o d8 com desvantagem).
 
-## Componentes verbais em latim — Crocudos (DM)
+## Componentes verbais em latim (DM)
 
 Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada feitiço tem a(s) palavra(s) que o conjurador diz em voz alta. "N/A" = sem encantamento; "???" = por definir.
 
@@ -515,16 +507,16 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 - **Wall of Thorns:** N/A
 - **Wind Walk:** N/A
 
-## Variantes e acrescentos do Notion — Crocudos (fonte)
+## Variantes e acrescentos (DM)
 
-O export do Notion do DM traz variantes às regras acima; as quatro marcadas "DM (decisão)" nas secções respectivas ficaram em vigor (marcas no long rest, exposição prolongada, Grito com Wisdom save por exaustão e Ecos = 1 + exaustão, Jóia + suude). O resto fica aqui como fonte:
+Variantes às regras acima; as quatro marcadas "DM (decisão)" nas secções respectivas ficaram em vigor (marcas no long rest, exposição prolongada, Grito com Wisdom save por exaustão e Ecos = 1 + exaustão, Jóia + suude). O resto fica aqui como fonte:
 
 - **Marcas na Alma (página "Marcas na Alma")** — acrescenta: a marca rola-se **ao falhar um saving throw contra corrupção** (1d8, mesma tabela de regras.md); os efeitos **desaparecem após um long rest**.
-- **Exposição prolongada (mesma página)** — regras.md diz que "o documento não tem regra separada"; o Notion tem: após 1 dia inteiro de exposição contínua, **Charisma DC 5, +5 por cada dia**; falha = marca na alma temporária até ao próximo long rest; **nat 1** pode desencadear visões com impacto narrativo (flashbacks, memórias corrompidas).
+- **Exposição prolongada (mesma página)** — regras.md diz que "o documento não tem regra separada"; a variante tem: após 1 dia inteiro de exposição contínua, **Charisma DC 5, +5 por cada dia**; falha = marca na alma temporária até ao próximo long rest; **nat 1** pode desencadear visões com impacto narrativo (flashbacks, memórias corrompidas).
 - **Rubídio (página "Rubídio", categoria Rubídio)** — é a tradução da regra do livro (CHA save por potência; falha = 1 nível de exaustão + corrompido; 1d10 psíquico sempre que a exaustão sobe ou desce), com a tabela de sinais físicos **desfasada de um nível face a regras.md**: 2 erupção, 3 veias, 4 bolhas/pústulas, 5 protuberâncias de cristal, 6 protuberâncias maiores, **7 morte** (regras.md: 1–6). "Rubídio 259a…" é só um título (Categoria: Regra).
 - **Grito do Abismo / Ecos da Ruína (ficha de Vorzen)** — variante da mesa: Grito com **Wisdom save** (CD 8 + prof + mod. CAR) e dano 1d8 psíquico × **nível de exaustão** (regras.md: CHA save × nível de corrupção); Ecos com **figuras = 1 + nível de exaustão** (0 → 1 … 5 → 6; regras.md: = nível de corrupção). Olhos de Sangue na ficha é **acção** (regras.md: acção bónus) e vê "vultos vermelhos" através de 5 ft de matéria.
 - **Medalhão (Jóia das 3 Preces)** — estados Dormant/Awakened/Exalted iguais ao livro. Acrescento do DM: **quem consumir suude e tocar no medalhão tem visões na primeira pessoa da vida de Alyxian, no sítio mais próximo onde estiver.**
 - **Obelisco Negro** — mecânica temporal e Explosão Necromântica já no patch de `l-obelisco-negro`; acrescento: **visão com suude vermelho** junto ao obelisco (quatro figuras encapuçadas a erguê-lo; uma quinta, alta, com um único olho a brilhar — Vecna/Aeor).
 - **Funerais (categoria Regra)** — guião de DM ao estilo Matt Mercer: pausa de tom, perspectiva múltipla (cada jogador tem o seu momento), símbolos pessoais, impacto futuro, espaço para improviso; estrutura: 1 A Chegada, 2 O Ritual (Luxon / Kord / Ioun), 3 As Palavras, 4 O Símbolo Final (flores ao rio, pira, objecto enterrado, música), 5 O Silêncio. (Usado no funeral de Kiri-Kiri, S24.)
-- **Arqueiro da Vigia da Aurora (nível 4)** — statblock da mesa (Jigau, S20), resumido no patch de `f-aurora-watch`.
+- **Arqueiro da Vigia da Aurora (nível 4)** — statblock da mesa (Jigau), resumido no patch de `f-aurora-watch`.
 - **Agente Volstrucker (EGtW p. 294)** — statblock canónico CR 7 guardado como referência (resumido no patch de `c-volstrucker-agent`).
