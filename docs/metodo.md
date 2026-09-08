@@ -70,8 +70,6 @@ Pistas (lanes na linha temporal):
 - Dungeon World, *Fronts*; Robin D. Laws, *Hillfolk / DramaSystem* (relationship maps); Sly Flourish, *Return of the Lazy Dungeon Master*.
 - *Critical Role: Call of the Netherdeep* (Darrington Press / Wizards, 2022); *Explorer's Guide to Wildemount* (2020), "Unwelcome Spirits".
 
-<!-- RASCUNHO para docs/metodo.md — bloco D. AVISO: o método "Mass Effect" e o esquema A/B/C da "Campanha DND 2025" NÃO foram encontrados no campanha.md nem nos relatórios/sessões do scratchpad (grep "Mass Effect", "plot", "binári", "2025"); o texto abaixo segue o enunciado recebido e deve ser confirmado com o DM antes de entrar no repo. -->
-
 ## 2a. O método "Mass Effect" (DM, campanha anterior)
 
 Na campanha anterior o DM organizou o enredo à maneira de *Mass Effect*: **três plots paralelos (A, B, C)** que avançam em simultâneo, e nos pontos de decisão **escolhas binárias sem opção ideal** — cada lado custa algo e os jogadores têm de escolher na mesma. As consequências não se anunciam: são **lembradas** mais tarde por cartas, notícias que chegam à taberna e NPCs que reaparecem com a memória do que os PCs fizeram. É a mesma lógica das *flags* + reacções condicionadas da secção 1: o que se rastreia é a escolha, e quem a devolve é o mundo.
