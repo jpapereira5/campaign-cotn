@@ -26,7 +26,7 @@ Na app: "Ver: a nossa campanha / só o livro"; ✚ = acrescentado na campanha, �
 `a-prologue` `a-main` `a-lore` `a-ruidium` `a-rivals` `a-kryn` `a-allegiance` `a-consortium` `a-cobalt` `a-sentinels` · campanha: `a-ruidus-year` (Acto 4) `a-jmon` (J'mon Sa Ord) `a-myriad` (contrabando de ruidium) `a-cerberus` (Cerberus Assembly)
 
 ## Facções
-`f-kryn` Kryn Dynasty · `f-aurora-watch` Aurora Watch · `f-jigow-elders` Conselho de Anciãos de Jigow · `f-luxon` Fé do Luxon · `f-allegiance` Allegiance of Allsight · `f-consortium` Consortium of the Vermilion Dream · `f-cobalt-soul` Library of the Cobalt Soul · `f-sentinels` Sentinels of Memory · `f-hands-of-ord` Hands of Ord · `f-scarbearers` Scarbearers · `f-veil` The Veil · `f-rivals` A companhia dos rivais · `f-dwendalian-empire` Império Dwendaliano · `f-road-raiders` Road Raiders · `f-prime-deities` Prime Deities · `f-betrayer-gods` Betrayer Gods · campanha: `f-cerulean-palace` (J'mon Sa Ord, Gemeshega) `f-apotheon-cult` (adoradores do Apotheon) `f-cerberus-assembly` (Volstruckers; recebe ruidium pelo Myriad; beacon) `f-myriad` (The Myriad: canal de contrabando Bazzoxan → Jigow → Urzin → Império)
+`f-kryn` Kryn Dynasty · `f-aurora-watch` Aurora Watch · `f-jigow-elders` Conselho de Anciãos de Jigow · `f-luxon` Fé do Luxon · `f-allegiance` Allegiance of Allsight · `f-consortium` Consortium of the Vermilion Dream · `f-cobalt-soul` Library of the Cobalt Soul · `f-sentinels` Sentinels of Memory · `f-hands-of-ord` Hands of Ord · `f-scarbearers` Scarbearers · `f-veil` The Veil · `f-rivals` A companhia dos rivais (na campanha: "Os Bons Demais", nome da mesa Crocudos) · `f-dwendalian-empire` Império Dwendaliano · `f-road-raiders` Road Raiders · `f-prime-deities` Prime Deities · `f-betrayer-gods` Betrayer Gods · campanha: `f-cerulean-palace` (J'mon Sa Ord, Gemeshega) `f-apotheon-cult` (adoradores do Apotheon) `f-cerberus-assembly` (Volstruckers; recebe ruidium pelo Myriad; beacon) `f-myriad` (The Myriad: canal de contrabando Bazzoxan → Jigow → Urzin → Império)
 
 Os **portentos** (fronts) de todas as facções vivem em `data/campaign/factions/portents.json` (síntese aprovada pelo DM, não texto do livro); no livro as facções têm `portents: []`.
 
@@ -40,7 +40,7 @@ Ank'Harel: `c-jmon-sa-ord` `c-james-cryon` `c-gryz-alakritos` `c-lymmle-wist` `c
 Cael Morrow: `c-olara` `c-hadarai` `c-beltreath` `c-library-ghosts`
 Visões: `c-alyxian-parents` `c-saqiri` `c-kalagothe` `c-zenthas-family` `c-talmyth`
 Divindades (`kind: deity`): `c-sehanine` `c-avandra` `c-corellon` `c-gruumsh` `c-torog` `c-lolth` `c-tharizdun` `c-melora` `c-the-luxon` `c-ioun` `c-vesh`
-Campanha: `c-finalist-team` (a outra equipa finalista) `c-volstrucker-agent` (agente Volstrucker: ruidium, beacon, Jóia) · Myriad (sem nome): `c-nevoa-vendor` (Névoa do Brejo, Urzin) `c-myriad-traveller` (Urzin) `c-myriad-jigow-fence` (Jigow) `c-myriad-couriers` (estrada, grupo) `c-myriad-bazzoxan-contact` (Ready Room)
+Campanha: `c-finalist-team` (a outra equipa finalista: "Punhos de Ferro e Fogo", Crocudos) `c-volstrucker-agent` (agente Volstrucker: ruidium, beacon, Jóia) · Myriad (sem nome): `c-nevoa-vendor` (Névoa do Brejo, Urzin) `c-myriad-traveller` (Urzin) `c-myriad-jigow-fence` (Jigow) `c-myriad-couriers` (estrada, grupo) `c-myriad-bazzoxan-contact` (Ready Room)
 Prólogo: `c-buhfal` `c-bolbara` `c-trush` `c-morgid` `c-pellinost` `c-felmont` `c-alonne-frith` `c-skra-sorsk` `c-mossback-steward`
 
 ## Locais principais
