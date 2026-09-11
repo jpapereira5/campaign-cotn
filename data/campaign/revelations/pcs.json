@@ -30,7 +30,28 @@
   {
     "id": "r-pc-quasi-lua-vermelha",
     "list": "Segredos dos PCs",
-    "text": "A caravana do Quasi serve a Lua Vermelha (Ruidus) e alimenta o Filho Ctónico com sacrifícios; a maldição, o rubídio e o Apotheon partilham a mesma fonte.",
+    "text": "A caravana do Quasi serve a Lua Vermelha: Predathos, abafado em Ruidus, traduzido por um reilora. Alimenta o Filho Ctónico no zigurate das Smouldercrown e agora caça Ruidusborn. A maldição, o rubídio e o Apotheon partilham a mesma fonte.",
+    "clues": [],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-quasi-metade",
+    "list": "Segredos dos PCs",
+    "text": "A Besta de Ederlezi é a metade do Quasi que quer ser amada, cortada pela sentença e acorrentada no cemitério dos antepassados. As descrições depreciativas do Insight descrevem-na a ela, não a ele.",
+    "clues": [],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-quasi-reilora",
+    "list": "Segredos dos PCs",
+    "text": "O campeão da Lua Vermelha é Vesq'ar, um reilora da Weave Mind sem corpo em Exandria, que fala de Ruidus: está por cima do Consórcio e da caravana, e estuda o Quasi como protótipo do Filho.",
+    "clues": [],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-quasi-cura",
+    "list": "Segredos dos PCs",
+    "text": "A cura tem uma chave só: alguém que o amou tem de lhe tirar a máscara dentro da catedral e olhar a besta nos olhos. Só a raunie Dorina sabe a condição; matá-la não faz nada.",
     "clues": [],
     "source": "dm"
   }

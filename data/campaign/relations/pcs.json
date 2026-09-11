@@ -87,7 +87,7 @@
     "from": "c-campeao-lua-vermelha",
     "to": "c-pc-quasi",
     "type": "wantsFrom",
-    "label": "prender a Besta e explorar-lhe o poder",
+    "label": "quer o método: como se prende uma psique num vaso",
     "source": "dm"
   },
   {
@@ -130,6 +130,76 @@
     "to": "f-revelry",
     "type": "rival",
     "label": "ex-namorada / rival num barco concorrente (ficha)",
+    "source": "dm"
+  },
+  {
+    "from": "c-raunie-dorina",
+    "to": "c-pc-quasi",
+    "type": "enemy",
+    "label": "julgou-o e cortou-o ao meio; só ela sabe desfazer",
+    "source": "dm"
+  },
+  {
+    "from": "c-raunie-dorina",
+    "to": "c-filho-ctonico",
+    "type": "protects",
+    "label": "cuida dele no zigurate",
+    "source": "dm"
+  },
+  {
+    "from": "c-raunie-dorina",
+    "to": "c-campeao-lua-vermelha",
+    "type": "serves",
+    "label": "julga ouvir a Lua Vermelha; ouve o intérprete",
+    "source": "dm"
+  },
+  {
+    "from": "c-campeao-lua-vermelha",
+    "to": "c-pc-quasi",
+    "type": "spiesOn",
+    "label": "o laboratório vai dentro dele; observa, nunca toca",
+    "source": "dm"
+  },
+  {
+    "from": "c-campeao-lua-vermelha",
+    "to": "f-caravana-naiat",
+    "type": "serves",
+    "label": "dirige o trabalho da caravana como 'a Lua Vermelha'",
+    "source": "dm"
+  },
+  {
+    "from": "c-campeao-lua-vermelha",
+    "to": "f-consortium",
+    "type": "serves",
+    "label": "está por cima dos cinco mestres sem que saibam",
+    "source": "dm"
+  },
+  {
+    "from": "c-aloysia-telfan",
+    "to": "c-pc-quasi",
+    "type": "knows",
+    "label": "reconhece-o de vista; um mentor falou-lhe dele",
+    "source": "dm"
+  },
+  {
+    "from": "c-irmao-tobar",
+    "to": "c-pc-quasi",
+    "type": "family",
+    "label": "irmão; avisa-o para não voltar",
+    "source": "dm"
+  },
+  {
+    "from": "c-mensageiro-brishen",
+    "to": "c-pc-quasi",
+    "type": "knows",
+    "label": "traz a mensagem de Tobar",
+    "source": "dm"
+  },
+  {
+    "from": "f-antepassados",
+    "to": "c-pc-quasi",
+    "type": "ally",
+    "label": "deram a máscara; querem a catedral fora de casa",
     "source": "dm"
   }
 ]

@@ -13,35 +13,75 @@ Ids na app: `c-pc-quasi`, `c-pc-lucan`, `c-pc-isco` (`docs/ids.md`).
 Humano Vistani, bardo (Lore), Entertainer, CG, 26 anos, 1,81 m. Línguas: comum, Vistani, Paterna (thieves' cant Vistani). Venera os espíritos dos antepassados. Joga 2 a 3 vezes por mês.
 
 ### O que o Quasi sabe
-- Nasceu e cresceu numa caravana Vistani (dezenas de famílias; burlões, vendedores, artesãos, entertainers) que serve a Lua Vermelha há gerações: raptos e sacrifícios humanos num antigo zigurate subterrâneo, onde cresce o Filho Ctónico. Os mais novos não sabiam; foi-lhe revelado ao tornar-se adulto, e esperavam que participasse.
-- Recusou. Como os Vistani não matam um dos seus, amaldiçoaram-no para nunca ter família: quem lhe vê a pele sente horror; quem fica muito tempo perto passa de desconfiança a nojo e repulsa.
-- Os antepassados deram-lhe uma máscara que suprime a maldição o suficiente para estar entre pessoas; dão-lhe atalhos pelo nevoeiro nas estradas (não no mato) e, por vezes, pistas do futuro em sonhos. É o último da caravana que não trocou o culto dos antepassados pela Lua Vermelha.
-- Veste-se como bobo/arlequim, corpo todo coberto. Tanto quanto sabe, só ele pode tirar a máscara (provavelmente está errado).
-- Sem máscara: a Besta de Ederlezi, quadrúpede com 8 m; dimensão de bolso num raio de 30 m (cemitério com licantropos espectrais, catedral tipo Notre-Dame, ele acorrentado lá dentro, um campeão da Lua Vermelha a tentar prendê-lo por completo; Vistani fantasmagóricos em festa eterna à volta). Acaba matando a Besta ou derrotando o campeão e repondo a máscara. Os gritos da Besta funcionam como *Shatter* e dão Inspiração Bárdica aos aliados.
-- Família: pais com "amor condicional", já não o reconhecem como filho; seis irmãos mais velhos (o mais velho carrega a caravana na consciência; o segundo ensinou-o a tocar alaúde; uma irmã, acrobacias). Uma curandeira de aldeia salvou-o de ferimentos quando era novo e tratou-o como qualquer paciente.
+- Nasceu e cresceu numa caravana Vistani (dezenas de famílias; burlões, vendedores, artesãos, entertainers; feira grande o suficiente para desaparecerem pessoas sem alarido) que serve a Lua Vermelha há gerações: raptos e sacrifícios humanos num antigo zigurate subterrâneo, onde cresce o Filho Ctónico. Os mais novos não sabiam; foi-lhe revelado ao tornar-se adulto, e esperavam que participasse. **Sabe do Filho e do zigurate**: vive com isso na cabeça desde miúdo.
+- Recusou. Como os Vistani não matam um dos seus, amaldiçoaram-no — o clã todo, pelo evil eye, com ajuda da Lua Vermelha — para nunca ter família: quem lhe vê a pele sente horror; quem fica muito tempo perto passa de desconfiança a nojo e repulsa. A caravana repudiou o culto dos antepassados pela Lua Vermelha; ele é o último que não repudiou.
+- Os antepassados deram-lhe uma máscara que suprime a maldição o suficiente para estar entre pessoas, e por vezes pistas do futuro em sonhos. Atribui-lhes também os atalhos pelo nevoeiro nas estradas (não no mato).
+- Veste-se como bobo/arlequim, corpo todo coberto. Tanto quanto sabe, só ele pode tirar a máscara (e diz ele próprio: "provavelmente está errado").
+- Sem máscara: a Besta de Ederlezi, quadrúpede com 8 m; dimensão de bolso num raio de 30 m (cemitério gótico de lápides altas com licantropos espectrais, catedral tipo Notre-Dame no centro, uma cerca a separar, a Besta acorrentada lá dentro, um campeão da Lua Vermelha; Vistani fantasmagóricos em festa Ederlezi eterna à volta). Acaba matando a Besta (que o mata) ou derrotando o campeão e repondo a máscara. Partir correntes faz a Besta mover-se e lutar melhor. Os gritos da Besta funcionam como *Shatter* e dão Inspiração Bárdica aos aliados. Tirar a máscara é sempre um peso, nunca útil (exigência do Pedro).
+- Família: pais com "amor condicional", já não o reconhecem como filho; seis irmãos mais velhos, 3 homens e 3 mulheres (o mais velho carrega a caravana na consciência; o segundo, **Tobar**, ensinou-o a tocar alaúde; uma irmã, acrobacias). Uma curandeira de aldeia salvou-o de ferimentos quando era novo e tratou-o como qualquer paciente.
 - Uma ex-amante, violinista cega: quando lhe tocou a pele, sonhou com a Besta e enlouqueceu. Está com a família, psique frágil; ele acha melhor nunca mais a ver.
 - Foi abandonado em Felderwin, viajou para Jorhas atrás de tradições místicas goblinóides sobre maldições, e chegou a Urzin. Pode já ter feito trabalho para a Míriade. Conheceu os irmãos Bruma em Asarius (detalhes a combinar entre os três).
-- Quer: quebrar a maldição e vingar-se ("torturar e executar a minha tribo"). Não mata inocentes; sádico com tiranos e com quem comete crimes por medo; "boa pessoa lentamente corrompida por solidão e vingança".
+- Quer: **tirar a maldição** — poder ser visto (é o que os outros PCs ouvem) — e vingar-se ("torturar e executar a minha tribo"). Não mata inocentes; sádico com tiranos e com quem comete crimes por medo; "boa pessoa lentamente corrompida por solidão e vingança".
 
 ### O que o DM já definiu
-- A Lua Vermelha (Ruidus) quer um filho, um avatar, um veículo terreno para executar a sua vontade: o Filho Ctónico.
-- Quanto mais os outros tentam analisá-lo (Insight), pior se sentem sobre ele: descrições cada vez mais depreciativas, "parece suspeito", pequenas hints. Com o tempo, quem convive com ele acumula sinais de stress psicológico.
-- Máscara: tirar **parcialmente** = horror psicológico, paralisia e amnésia em quem vê; tirar **por completo** = a Besta e a dimensão de bolso (versão "corpo fica, alma vai" em discussão). Não pode ser removida por qualquer pessoa. A transformação tem de ser um peso para ele, nunca um truque útil.
-- Caminhos para quebrar a maldição: a caravana original; a Lua Vermelha / o rubídio; dentro do semiplano; **salvar Alyxian** (paralelismo com o Apotheon). Inspiração: ligação Ruidus/rubídio; o templo gótico pode parecer-se com o templo subaquático de Cael Morrow ou com Bazzoxan.
-- O campeão da Lua Vermelha é um "diabo ao ombro" nos momentos frágeis; sempre serviu a Lua Vermelha; ajudou a construir a prisão. Hipótese anotada: "agente do consórcio vermelho, Alyxian?".
-- Sehanine tem um carinho por ele e pode dar-lhe sinais ao longo da campanha (sem relação passada com deuses).
-- Os irmãos Bruma também estão ligados à licantropia (a Besta, os licantropos do cemitério, o tubarão do Isco): "vai ser muito giro".
-- Sem Dementlieu nem Duquesa: só o material do Pedro (decisão do DM).
+Fechado base a base (linha A: a caravana; linha B: a maldição), depois de resolver as contradições entre as duas e com a ficha. Nada disto é para o jogador saber já.
+
+**A caravana**
+- É um clã **Naiat** (tasque Boem, os entertainers): uma caravana Naiat bem equipada parece um circo ambulante, e a especialidade do clã são as feras amestradas. Não são o tasque dos místicos.
+- Quem manda é a **raunie, Dorina Hyskosa**: matriarca **sem parentesco próximo** com o Quasi, a mulher com mais poder na Visão, que guia a vida espiritual do clã e julga e dá sentença nos crimes internos. Foi ela que julgou a recusa dele como crime. A maldição foi um acto judicial, não um linchamento; o clã inteiro participou porque é assim que uma sentença se executa.
+- **O que o pacto dá**: a Visão que não lhes pertencia. São Boem, não Manusa; compraram profecia que não tinham de origem. Por isso recusar é traição à fonte dos poderes. Mas a Visão não é dela: **ela vê o que a Lua Vermelha a deixa ver** — acesso emprestado, infalível dentro do que interessa à Lua, cega para o resto. Trela disfarçada de dom.
+- **O que a Lua ganha com este clã**: a rede (atravessam continentes pelas Brumas e entregam vítimas ao zigurate sem rasto) e o disfarce (um circo é o único sítio onde desaparecem pessoas sem ninguém estranhar; as vítimas entram a pagar bilhete). As Brumas funcionam por si e todos os clãs vistani as usam; os antepassados não dão atalhos.
+- **Uso da Visão**: sobreviver (que cidade paga, que estrada tem soldados, quando levantar acampamento antes do pogrom) e prosperar. Passavam dificuldades; agora não.
+- **A promessa** em que a raunie acredita: quando o Filho nascer, os vistani deixam de ser corridos — o fim do exílio do povo. É por isso que aguentam o preço. Ela é **crente**: fala do Filho com ternura e tem razão quanto ao preço que os vistani pagaram. **A promessa é mentira do intérprete** (ver Vesq'ar): o Filho não é para os vistani, é para Predathos. Descobrir isto é a única coisa que pode partir a raunie sem a matar — e é o que a faz falar.
+- **Porque é que o Quasi ainda está vivo**: a lei bastou. Não se mata um dos nossos; a sentença foi executada e o assunto encerrado. Para ela é um morto que ainda anda. **Não o vê nem procura** — e não o veria: o Quasi interessa a outro projecto e está tapado à Visão dela (primeira prova disponível à mesa de que a Visão tem dono).
+- **Relógio**: o Filho está quase — anos, não décadas. E agora precisa de outra coisa que não uma vítima qualquer: **Ruidusborn**. Foi isso que "piorou" desde que o Quasi saiu: vítimas mais raras, caravana mais desesperada. O único Ruidusborn da mesa é o Isco.
+- **Onde está a raunie**: no **zigurate das Smouldercrown Mountains, em Marquet** (~290 milhas SE de Ank'Harel; o zigurate canónico), a cuidar do Filho. Vem e vai pelas Brumas; não tem substituto na caravana. A feira pode tê-la num dia e não no outro.
+- **Nunca houve traidor antes**: em gerações ninguém recusou na iniciação. O Quasi foi o primeiro a dizer não, e a sentença foi improvisada com poder que ninguém tinha testado num dos seus.
+
+**A maldição e a Besta**
+- A maldição **cortou-o ao meio**. Não fabricou um monstro — amputou. A Besta é **a parte da psique do Quasi que quer ser amada e ser amável**, acorrentada, frustrada, deformada. Paralelismo deliberado com Alyxian (ver abaixo). O horror que as pessoas sentem é a ausência da metade que foi levada.
+- **Os dois horrores são um só, a vazar**: as descrições depreciativas do Insight não são mentira — são descrições exactas **da metade acorrentada**, não dele. O Insight aponta para o sítio errado. Ninguém, nem o Quasi, sabe disto.
+- **Ao cair a máscara, os corpos ficam todos no plano material**, em transe, vulneráveis, e o tempo passa igual; o que passa ao demiplano são as consciências (astral). Dentro, o Quasi existe **em dois**: ele próprio, a andar pelo cemitério com o grupo, e a metade acorrentada dentro da catedral. Os outros, se morrerem lá, acordam cá. O Quasi, se a alma dele morrer lá, não regressa: **a metade acorrentada toma conta do corpo cá fora**. A Besta sai a andar com a cara dele. O cemitério nunca sai do sítio (cai a "fusão com o real" da ficha).
+- **Quem tira a máscara**: qualquer pessoa, ou ele próprio. Sem gatilho cósmico. Tirar **parcialmente** = horror, paralisia e amnésia em quem vê; **por completo** = o demiplano. Duas entradas previstas na campanha: uma cedo, por acidente; a final, por escolha. Entre as duas, só rumor e medo.
+- **A cura tem uma chave só**: alguém que o amou tem de lhe tirar a máscara **lá dentro** e olhar a besta nos olhos (a bela e o monstro). **Só a raunie sabe a condição** — escolheu-a como sentença porque ninguém a cumpre. Matá-la não faz nada; a chave é o que ela diz, se a fizerem falar. Os antepassados não sabem (viram a jaula, não ouviram a sentença); o reilora não sabe (a sentença foi dita em vistani, no rito dela). Como a prisão está ligada a Ruidus, a quebra pode ligar-se à libertação de Alyxian (ponte possível para o cap. 7, não regra).
+- Quem cumpre a condição: pode ser alguém da mesa ou a **violinista cega** — a única pessoa viva que viu a Besta e ainda o ama. Ir buscá-la é escolha do Pedro; usá-la como chave é armadilha moral.
+- **Vitória**: inteiro, sem máscara. As duas metades voltam a ser uma; sai do demiplano com cara e sem Besta. O preço é a Besta e as features dela (gritos, Inspiração). Dizer isto ao Pedro antes, não na cena.
+- **Necessidade oculta** (que ele não diria): ser amado por alguém que o viu. É a mesma coisa que o objectivo declarado, vista do outro lado — e ele não sabe. Vai passar a campanha à procura de um remédio quando o remédio é o grupo.
+
+**O demiplano**
+- O cemitério é **o além vistani**: a festa Ederlezi eterna é o paraíso deles, primavera que não acaba, e não tem que ver com o Quasi — o mundo dele continua sem ele, alegre, a três metros e do outro lado da cerca. O além não pergunta: os que serviram a Lua estão lá em festa, sem culpa.
+- Os **licantropos espectrais** são os vistani já falecidos e as suas feras — o circo de feras Naiat, tratador e animal fundidos na morte. É a família dele, do lado de fora da cerca. Nas lápides só há familiares. Sem ligação à licantropia do Isco (cortada): a dele é do aboleto e de Ruidus.
+- **A jaula é obra da raunie**: a catedral gótica e as correntes são o gosto dela — "uma sentença com forma", tribunal e túmulo, guardado à vista dos mortos da família. Construiu-a **à força**, com poder da Lua Vermelha, dentro de casa alheia: profanação. É por isso que os antepassados o ajudam desde o dia um: querem a catedral fora de casa. Ela nunca lá voltou.
+- **Os antepassados** são facção com agenda, não cor: deram-lhe a máscara e os sonhos; ajudam-no porque lhes convém.
+
+**Vesq'ar, o campeão da Lua Vermelha**
+- É um **reilora da Weave Mind**. **Não existe fisicamente em Exandria**: comunica psiquicamente a partir de Ruidus. Na catedral é projecção; cá fora é voz e visão.
+- **A "voz" da Lua Vermelha é ele**: Predathos, abafado em Ruidus, puxa (fome, pressão, imagens) mas não fala. Quem põe palavras nisso — para a raunie e para os cinco mestres fundadores do Consórcio — é a Weave Mind através de Vesq'ar. A raunie reza a um deus e recebe respostas de um intérprete. Está **por cima dos cinco mestres** sem que saibam que é uma só coisa; a caravana e o Consórcio são os dois instrumentos do mesmo agente. Trabalha com Ludinus Da'leth.
+- Entrou na jaula pela ligação à Lua Vermelha (a raunie fez a jaula; a Lua deu a chave a outro). **Só observa**: não acrescenta correntes, não sifona. O que quer é **o método** — Ruidus é a prisão de um deus, o Filho vai ser um vaso; ele estuda num mortal como se prende uma psique dentro de um vaso sem a partir — e **curiosidade**: uma mente da Weave Mind, sem emoção individual, a estudar a psique e a emoção exandriana. O Quasi é caso único (a primeira sentença com o pacto) e o protótipo; por isso ninguém o mata.
+- **Sabe quem o Quasi é e não precisa de lhe tocar**: o laboratório vai dentro dele. Nunca o ataca. A **Aloysia Telfan** (Bazzoxan, cap. 3) foi apenas informada por um mentor de visões com um bardo mascarado monitorizado "pelo líder da facção"; reconhece-o de vista e reporta, sem saber porquê. Em Ank'Harel (cap. 4-5) o Consórcio tem ficha sobre ele.
+- Se o Quasi morrer lá dentro, para Vesq'ar é a experiência concluída: uma psique presa num vaso sem ninguém do outro lado.
+
+**Sehanine**
+- Fica, com razão de ser: deusa do romance, da poesia e da intimidade, a lua que não é a vermelha. **A Canção do Mundo é dom dela** (ou adjacente). A lua vermelha cortou-o; a outra deu-lhe a voz. Os sinais dela são o contraponto à "voz" da Lua Vermelha. Ele não sabe de quem é o dom (sem relação passada com deuses, como na ficha). Não tem a Sight: a Canção nada tem que ver com ela.
+
+**Estrutura na campanha**
+- Duas entradas no demiplano (acidente cedo; escolha no fim). O demiplano não vira dungeon.
+- **Aviso do irmão** antes de Marquet: **Brishen**, um vistani de fora, sozinho, de carroça, chega com a bruma com a mensagem de Tobar — que não volte, que se mantenha afastado, que as coisas pioraram muito. Por zelo, não porque o Quasi seja alvo. Nada de contacto físico com a caravana antes de Marquet.
+- **Feira impromptu em Marquet, cap. 4-5**; a raunie pode ou não estar. O Filho fica em aberto (campanha seguinte) mas com urgência: o único caminho para a cura passa por chegar a ela, no zigurate ou na feira.
+- Sem Dementlieu nem Duquesa: só o material do Pedro. O Quasi **não** é Ruidusborn.
+
+**Paralelismo com Alyxian** (deliberado; o livro dá-o feito)
+- Alyxian está partido em pedaços (Theo, o Hunter, as três formas do Heart); o Quasi está partido em dois.
+- Alyxian está no Netherdeep e nada o prende ali senão a convicção de que não merece sair; a metade do Quasi está acorrentada por uma sentença que diz que ele não merece ser amado.
+- A absolvição de Alyxian faz-se recebendo bondade e sendo lembrado do amor; a cura do Quasi faz-se com alguém que o amou a tirar-lhe a máscara e a olhar a besta nos olhos. É a mesma mecânica. O que o grupo decidir sobre Alyxian no cap. 6-7 é o que está a decidir sobre o Quasi.
+
+**A combinar com o Pedro** (cortes à ficha dele; o contrato de mesa não deixa o DM fazê-los sozinho): a fusão com o real; o campeão a arrancar a cabeça e usar os gritos; "só ele tira a máscara"; "os antepassados dão atalhos pelo nevoeiro" (passa a leitura dele: é herança vistani); e que a cura custa a Besta.
 
 ### Em aberto (para o DM decidir)
-1. Quem é o campeão da Lua Vermelha na catedral: uma criatura própria, um agente do Consórcio do Sonho Vermelho, ou uma versão/eco de Alyxian? Isto decide se a maldição do Quasi e a pista de Alyxian são a mesma história.
-2. Onde está fisicamente o zigurate do Filho Ctónico (Wildemount? Marquet? debaixo de algum sítio da campanha, como Cael Morrow ou o Betrayers' Rise?) e em que ponto da gestação está. Se o Filho "nasce" durante a campanha, é um portento.
-3. A caravana ainda anda pelo mundo? Vai cruzar-se com os PCs (Jigau no festival, a estrada de Xhorhas, Ank'Harel)? Quem manda nela hoje e quem dos seis irmãos é a cara que o Quasi vai encontrar?
-4. A regra da máscara: quem mais a pode tirar (um feitiço, o campeão, a Lua Vermelha cheia)? "Corpo fica, alma vai" ou transporte completo? Efeito nefasto no Quasi a cada transformação (exaustão, marca na alma, perda de memória)?
-5. Ritmo da maldição no grupo: ao fim de quantas sessões/dias os companheiros começam a sentir repulsa, e como se mede (a mesma escala de insanidade das regras da mesa?). Isto é o que justifica as ausências do Pedro.
-6. Os antepassados: dão pistas em sonhos e atalhos pelo nevoeiro. Quem são, o que querem dele, e podem ser um canal para as visões de Alyxian?
-7. A violinista cega e a curandeira: ficam só backstory ou uma delas reaparece (por exemplo, a curandeira como alguém que sabe de maldições em Jorhas)?
-8. A relação com Sehanine: sinais concretos (o santuário E12, a Jóia) e o que ela quer em troca.
+1. **Beats por capítulo** (ronda seguinte): onde entram Brishen, a Aloysia, o acidente do demiplano, a feira, o zigurate, a catedral; e as pistas para os `r-pc-quasi-*`.
+2. A curandeira de aldeia: fica só backstory.
+3. Ritmo da maldição no grupo: ao fim de quantas sessões/dias os companheiros começam a sentir repulsa, e como se mede (a escala de insanidade da mesa?). É o que justifica as ausências do Pedro.
+4. O que o Filho é ao nascer e o que faz: fica para a campanha seguinte.
 
 ---
 
@@ -117,12 +157,14 @@ Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fi
 6. O nome Ruín: adoptar a origem "Ruidus" (então a mãe ou a parteira sabiam o que a lua vermelha significa)?
 7. A ex-namorada/rival da Revelry: fica backstory ou aparece (por exemplo, no Festival do Mérito ou num barco em Jigau)?
 8. Coerência: o barco é Scylla (Lucan) ou "Gavião do Mar" (Isco)? Os apelidos ficam Bruma (decidido).
+9. **Vindo da backstory do Quasi**: a caravana vistani caça Ruidusborn porque o Filho Ctónico passou a precisar deles. Para quê — alimento, ou **o corpo do vaso**? Se for o corpo, o Isco não é vítima, é o candidato. Decidir aqui, não no Quasi.
 
 ---
 
 ## Ligações entre os três (por combinar com os jogadores)
 - Conheceram-se em Asarius: os irmãos a seguir a pista do rubídio (Yussa Errenis, Myriad), o Quasi à procura de saber sobre maldições. O que os fez viajar juntos até Urzin?
-- Os três têm uma ligação a Ruidus/rubídio (Lua Vermelha, Ruidusborn, aboleto e rubídio) e à licantropia (Besta, tubarão, os licantropos do cemitério): é o fio comum para o Apotheon.
+- Os três têm uma ligação a Ruidus/rubídio (Lua Vermelha, Ruidusborn, aboleto e rubídio): é o fio comum para o Apotheon. A licantropia do Isco e os fantasmas-fera do cemitério do Quasi **não** estão ligados (decisão do DM): rimam, e a mesa vai reparar sozinha.
+- **A caravana do Quasi caça Ruidusborn** e o Isco é o único da mesa: em Marquet o Isco é alvo sem saber porquê, e o Quasi é o único que percebe o que está a acontecer.
 - Yussa Errenis é o patrono declarado dos irmãos; o Quasi pode ter trabalhado para a Míriade, que é quem contrabandeia o rubídio que os irmãos investigam.
 
 ## Passo seguinte (depois de fechar o "em aberto")

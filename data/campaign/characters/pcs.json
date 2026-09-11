@@ -4,7 +4,8 @@
     "name": "Quasimodo d'Clopin \"Quasi\"",
     "kind": "pc",
     "factions": [
-      "f-caravana-naiat"
+      "f-caravana-naiat",
+      "f-antepassados"
     ],
     "chapters": [
       "ch0",
@@ -17,11 +18,11 @@
       "ch7",
       "ch8"
     ],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Silva. Humano Vistani, bardo (Lore), Entertainer, CG, 26 anos. Nasceu numa caravana Vistani que serve a Lua Vermelha com raptos e sacrifícios ao Filho Ctónico num zigurate subterrâneo; recusou participar e foi amaldiçoado para nunca ter família: aparência grotesca (ver-lhe a pele causa horror), e quem fica muito tempo perto dele passa de desconfiança a repulsa. Cobre-se por inteiro como bobo/arlequim; os antepassados deram-lhe uma máscara que suprime a maldição e atalhos pelo nevoeiro nas estradas. Sem máscara vira a Besta de Ederlezi numa dimensão de bolso (cemitério, catedral, acorrentado por um campeão da Lua Vermelha). Chegou a Urzin, vindo de Felderwin, à procura de tradições goblinóides sobre maldições. Joga 2 a 3 vezes por mês.",
-    "goal": "Quebrar a maldição. Vingar-se da caravana.",
-    "secret": "Ficha: 'boa pessoa lentamente corrompida por solidão e vingança'; sádico com tiranos e com quem comete crimes por medo. A ex-amante (violinista cega) enlouqueceu ao sonhar com a forma dele. DM: só ele julga poder tirar a máscara; tirar parcialmente = horror e amnésia em quem vê, tirar por completo = Besta e dimensão de bolso; caminhos para quebrar a maldição: a caravana original, a Lua Vermelha/rubídio, dentro do semiplano, ou salvar Alyxian (paralelismo).",
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Silva. Humano Vistani, bardo (Lore), Entertainer, CG, 26 anos. Nasceu numa caravana Naiat (circo ambulante, feras amestradas) que serve a Lua Vermelha com raptos e sacrifícios ao Filho Ctónico no zigurate das Smouldercrown; foi o primeiro em gerações a recusar na iniciação, e a raunie Dorina Hyskosa julgou-o e sentenciou-o: o clã inteiro, pelo evil eye e com poder da Lua Vermelha, cortou-o ao meio. Cá fora fica um homem que ninguém consegue amar (ver-lhe a pele causa horror; quem convive passa de desconfiança a repulsa); no cemitério dos antepassados fica a metade que quer ser amada, acorrentada numa catedral gótica: a Besta de Ederlezi. Os antepassados deram-lhe a máscara que suprime a maldição. Cobre-se por inteiro como bobo/arlequim. Sabe do Filho e do zigurate desde miúdo. Chegou a Urzin, vindo de Felderwin, à procura de tradições goblinóides sobre maldições. Joga 2 a 3 vezes por mês.",
+    "goal": "Tirar a maldição: poder ser visto. Vingar-se da caravana.",
+    "secret": "DM: a Besta é a metade dele que quer ser amada, cortada pela sentença; o Insight descreve-a a ela, não a ele. Cura com uma chave só: alguém que o amou tem de lhe tirar a máscara lá dentro e olhar a besta nos olhos — só a raunie sabe a condição; matá-la não faz nada. Quem tira a máscara: qualquer pessoa ou ele próprio; corpos ficam cá em transe, consciências vão; se a alma dele morrer lá, a metade acorrentada fica-lhe com o corpo. Vitória: inteiro, sem máscara, sem Besta (perde as features dela). Necessidade oculta: ser amado por alguém que o viu — o remédio é o grupo e ele não sabe. Vesq'ar (reilora) estuda-o de Ruidus como protótipo do Filho; a Aloysia reconhece-o de vista. Não é Ruidusborn. A Canção do Mundo é dom de Sehanine. Ficha: 'boa pessoa lentamente corrompida por solidão e vingança'; sádico com tiranos.",
     "wants": "Conhecimento, magia, quem tenha informação sobre maldições; ajudar pessoas sem se aproximar demasiado.",
-    "fears": "Que não haja forma de corrigir; perder-se; que descubram o que está debaixo da máscara.",
+    "fears": "Que não haja forma de corrigir; perder-se; que descubram o que está debaixo da máscara; que a família tivesse razão.",
     "states": [],
     "tags": [
       "pc",
@@ -205,7 +206,7 @@
       "f-caravana-naiat"
     ],
     "chapters": [],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). O descendente da Lua Vermelha que se desenvolve num antigo zigurate subterrâneo, alimentado pelos sacrifícios da caravana do Quasi. Ninguém sabe o que acontece quando terminar a gestação. DM: a Lua Vermelha quer um filho, um avatar, um veículo terreno para executar a sua vontade.",
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). O descendente da Lua Vermelha que se desenvolve no zigurate das Smouldercrown (Marquet), alimentado pelos sacrifícios da caravana do Quasi. DM: um Exaltado-vaso em gestação — o avatar terreno de Predathos; a promessa de que trará o fim do exílio dos vistani é mentira de Vesq'ar. Está quase: anos, não décadas. Passou a precisar de Ruidusborn, e é por isso que a caravana os caça. A raunie Dorina cuida dele. Fica em aberto para a campanha seguinte.",
     "goal": "",
     "secret": "",
     "wants": "",
@@ -215,23 +216,34 @@
       "cotn_2026",
       "lua-vermelha"
     ],
-    "source": "dm"
+    "source": "dm",
+    "home": "l-zigurate-smouldercrown"
   },
   {
     "id": "c-campeao-lua-vermelha",
-    "name": "O campeão da Lua Vermelha (na catedral)",
+    "name": "Vesq'ar, o campeão da Lua Vermelha (reilora)",
     "kind": "npc",
-    "factions": [],
-    "chapters": [],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Dentro da catedral da dimensão de bolso do Quasi, tenta prender a Besta por completo para lhe explorar o poder; ajudou a construir a prisão. DM: diabo ao ombro nos momentos frágeis; 'agente do consórcio vermelho, Alyxian?' — paralelismo com Alyxian por decidir.",
-    "goal": "Prender a Besta e usar-lhe o poder.",
-    "secret": "",
-    "wants": "",
+    "factions": [
+      "f-consortium",
+      "f-caravana-naiat"
+    ],
+    "chapters": [
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch7"
+    ],
+    "summary": "cotn_2026 (notas DM). Reilora da Weave Mind. Não existe fisicamente em Exandria: comunica psiquicamente a partir de Ruidus. É a 'voz' da Lua Vermelha — Predathos, abafado, puxa mas não fala; Vesq'ar põe-lhe palavras, para a raunie Dorina e para os cinco mestres fundadores do Consórcio, que não sabem que é uma só coisa. A caravana e o Consórcio são os dois instrumentos do mesmo agente. Trabalha com Ludinus Da'leth. Na catedral do cemitério de Ederlezi é projecção: senta-se junto da Besta e observa. Cá fora a mesa só o encontra como visão (a Aloysia foi avisada por um mentor; o Consórcio tem ficha sobre o Quasi em Ank'Harel).",
+    "goal": "Estudar no Quasi o método: como se prende uma psique dentro de um vaso sem a partir — o problema do Filho Ctónico e o problema de Ruidus. E a curiosidade de uma mente sem emoção individual pela emoção exandriana.",
+    "secret": "DM: não construiu a jaula (obra da raunie) e não acrescenta correntes nem sifona: só observa. Entrou pela ligação à Lua Vermelha. Não sabe a condição da cura — a sentença foi dita em vistani, no rito dela. A promessa que fez ao clã (o fim do exílio dos vistani) é mentira: o Filho é para Predathos. Sabe quem o Quasi é e não precisa de lhe tocar; nunca o ataca. Se o Quasi morrer no demiplano, considera a experiência concluída.",
+    "wants": "Que o Quasi viva; que o Filho nasça; dados.",
     "fears": "",
     "states": [],
     "tags": [
       "cotn_2026",
-      "lua-vermelha"
+      "lua-vermelha",
+      "weave-mind",
+      "consortium"
     ],
     "source": "dm"
   },
@@ -252,5 +264,83 @@
       "backstory"
     ],
     "source": "dm"
+  },
+  {
+    "id": "c-raunie-dorina",
+    "name": "Dorina Hyskosa, a raunie",
+    "kind": "npc",
+    "factions": [
+      "f-caravana-naiat"
+    ],
+    "home": "l-zigurate-smouldercrown",
+    "chapters": [
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7"
+    ],
+    "summary": "cotn_2026 (notas DM). Matriarca da caravana Naiat do Quasi, sem parentesco próximo com ele: a mulher com mais poder na Visão, que guia a vida espiritual do clã e julga e dá sentença nos crimes internos. Foi ela que julgou a recusa do Quasi como crime — o primeiro traidor em gerações — e improvisou a sentença com o poder novo do pacto: cortou-o ao meio e construiu, à força, a catedral e as correntes no cemitério dos antepassados. Vive no zigurate das Smouldercrown a cuidar do Filho Ctónico; vem e vai pelas Brumas. Crente: acredita que está a comprar o fim do exílio do seu povo e fala do Filho com ternura.",
+    "goal": "Que o Filho nasça e os vistani deixem de ser corridos.",
+    "secret": "DM: a Visão não é dela — vê o que a Lua Vermelha (Vesq'ar) a deixa ver, e o Quasi está tapado; não o procura ('a lei bastou'). É a única que sabe a condição da cura: alguém que o amou tem de lhe tirar a máscara dentro da catedral. Matá-la não faz nada. A promessa em que acredita é mentira do intérprete; descobrir isso é o que a pode partir e fazer falar. Nunca voltou à jaula que construiu.",
+    "wants": "Ruidusborn para o Filho; que ninguém lhe toque no zigurate.",
+    "fears": "Que a Lua se cale.",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "vistani",
+      "lua-vermelha"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-irmao-tobar",
+    "name": "Tobar d'Clopin (o segundo irmão)",
+    "kind": "npc",
+    "factions": [
+      "f-caravana-naiat"
+    ],
+    "chapters": [
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM). O segundo dos seis irmãos mais velhos do Quasi; foi ele que o ensinou a tocar alaúde. Continua na caravana e ainda o considera vivo. Manda-lhe, por Brishen, o aviso: que não volte, que se mantenha afastado, que as coisas pioraram muito desde que ele saiu — a caravana anda à caça de Ruidusborn. Por zelo, não porque o Quasi seja alvo.",
+    "goal": "Que o irmão não volte.",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "vistani",
+      "backstory"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-mensageiro-brishen",
+    "name": "Brishen (o mensageiro)",
+    "kind": "npc",
+    "factions": [],
+    "chapters": [
+      "ch2",
+      "ch3"
+    ],
+    "summary": "cotn_2026 (notas DM). Vistani de fora, sem clã, correio entre caravanas. Chega sozinho, de carroça, com a bruma, com a mensagem de Tobar para o Quasi. Não é família; é correio. Primeiro vistani que a mesa vê depois do Quasi.",
+    "goal": "Entregar o recado e seguir.",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "vistani"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-aloysia-telfan",
+    "secret": "Já tentou entrar sozinha no Rise e saiu ferida (tratada por Bautha); agora contrata mercenários. Traz três tablets de teleporte para um círculo em Ank'Harel e um pergaminho de earthquake. DM (backstory do Quasi): um mentor falou-lhe de visões com um bardo mascarado que anda a ser monitorizado 'pelo líder da facção' (Vesq'ar, sem que ela saiba o que é). Reconhece o Quasi de vista e reporta; não sabe porquê."
   }
 ]

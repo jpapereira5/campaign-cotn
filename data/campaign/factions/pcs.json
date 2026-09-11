@@ -1,13 +1,19 @@
 [
   {
     "id": "f-caravana-naiat",
-    "name": "A caravana Vistani do Quasi",
+    "name": "A caravana Naiat do Quasi",
     "motto": "",
-    "agenda": "cotn_2026 (ficha do jogador + notas DM na Drive). Dezenas de famílias de burlões, vendedores, artesãos e entertainers que, há gerações, mantêm um pacto com a Lua Vermelha: raptam e sacrificam ao Filho Ctónico no zigurate. Consideraram a recusa do Quasi uma traição e amaldiçoaram-no (não podem matar um dos seus). Continuam a servir a Lua Vermelha. Os seis irmãos mais velhos do Quasi (3 homens, 3 mulheres) fazem parte dela.",
-    "publicFace": "Caravana de entretenimento; feira grande o suficiente para desaparecerem pessoas sem alarido.",
-    "leaders": [],
-    "allies": [],
-    "enemies": [],
+    "agenda": "cotn_2026 (ficha do jogador + notas DM). Clã Naiat (tasque Boem): dezenas de famílias de burlões, vendedores, artesãos e entertainers — uma caravana que parece um circo ambulante, com feras amestradas. Há gerações mantêm um pacto com a Lua Vermelha: raptam e sacrificam ao Filho Ctónico no zigurate das Smouldercrown, e em troca têm a Visão que não lhes pertencia (são Boem, não Manusa) — sobrevivem e prosperam com ela. O que a Lua ganha: a rede (atravessam continentes pelas Brumas, sem rasto) e o disfarce (num circo desaparecem pessoas sem alarido; as vítimas entram a pagar bilhete). Repudiaram os antepassados. Sentenciaram o Quasi — o primeiro traidor em gerações — por recusar. Agora caçam Ruidusborn, porque o Filho passou a precisar deles.",
+    "publicFace": "Circo ambulante vistani; feira grande o suficiente para desaparecerem pessoas sem alarido.",
+    "leaders": [
+      "c-raunie-dorina"
+    ],
+    "allies": [
+      "f-consortium"
+    ],
+    "enemies": [
+      "f-antepassados"
+    ],
     "portents": [],
     "source": "dm"
   },
@@ -46,6 +52,20 @@
     "leaders": [],
     "allies": [],
     "enemies": [],
+    "portents": [],
+    "source": "dm"
+  },
+  {
+    "id": "f-antepassados",
+    "name": "Os antepassados do Quasi",
+    "motto": "",
+    "agenda": "cotn_2026 (notas DM). Os mortos vistani do clã, no seu além: o cemitério de Ederlezi, onde festejam a primavera para sempre com as suas feras. A caravana viva repudiou-os pela Lua Vermelha; a raunie construiu-lhes à força uma catedral no meio de casa. Querem-na fora. Deram ao Quasi a máscara e sonhos, e ajudam-no porque lhes convém, não só por amor. Não sabem a condição da cura: viram a jaula ser feita, não ouviram a sentença.",
+    "publicFace": "O culto dos antepassados, que só o Quasi mantém.",
+    "leaders": [],
+    "allies": [],
+    "enemies": [
+      "f-caravana-naiat"
+    ],
     "portents": [],
     "source": "dm"
   }

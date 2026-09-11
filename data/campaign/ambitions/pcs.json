@@ -2,10 +2,11 @@
   {
     "id": "amb-quasi-maldicao",
     "pc": "c-pc-quasi",
-    "text": "Quebrar a maldição (a máscara, a Besta de Ederlezi).",
+    "text": "Tirar a maldição: poder ser visto.",
     "npcs": [
+      "c-raunie-dorina",
       "c-campeao-lua-vermelha",
-      "c-filho-ctonico"
+      "c-violinista-cega"
     ],
     "arcs": [
       "a-pc-quasi",
@@ -21,6 +22,7 @@
     "pc": "c-pc-quasi",
     "text": "Vingar-se da caravana e travar os sacrifícios ao Filho Ctónico.",
     "npcs": [
+      "c-raunie-dorina",
       "c-filho-ctonico"
     ],
     "arcs": [

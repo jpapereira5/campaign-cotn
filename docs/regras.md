@@ -157,6 +157,16 @@ A atitude dos rivais (hostil / indiferente / amigável) decide só **o tom** do 
 
 Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
+## A máscara do Quasi (DM; base na ficha do Pedro)
+
+- **Qualquer pessoa pode tirar a máscara, ou ele próprio.** Não há gatilho cósmico.
+- **Tirar parcialmente** (qualquer porção de pele à vista): horror psicológico, paralisia e amnésia em quem vê. Pontos de insanidade conforme a tabela abaixo.
+- **Tirar por completo**: todos num raio de 30 m entram em transe e as consciências passam ao demiplano (o cemitério, a cerca, a catedral); **os corpos ficam cá**, vulneráveis, e o tempo passa igual. Lá dentro o Quasi existe em dois: ele e a Besta acorrentada. Quem não é o Quasi e morre lá dentro acorda cá; se a alma do Quasi morrer lá, não regressa e a Besta fica-lhe com o corpo.
+- **Sai-se** repondo a máscara depois de derrotar o campeão, ou com a morte da Besta (que mata o Quasi). Partir correntes faz a Besta mover-se e lutar melhor. Os gritos dela funcionam como *Shatter*; aliados podem canalizá-los para Inspiração Bárdica.
+- **Nunca é útil**: cada desmascaramento é um peso (exigência do Pedro). Previstas duas entradas na campanha: uma por acidente, cedo; a final, por escolha.
+- **Insight sobre o Quasi**: devolve descrições depreciativas. Não são mentira — descrevem a metade acorrentada. Não dizer isto aos jogadores.
+- Por definir: o ritmo a que os companheiros passam de desconfiança a repulsa, e se usa a escala de insanidade.
+
 ## Insanidade (DM)
 
 **Fontes de pontos.** Experiências traumáticas, quase morrer, níveis de corrupção, marcas na alma, ou passar um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep) acumulam pontos nas tabelas de insanidade. Na mesa, os pontos registados vieram de: cicatrizes; cada visita à Ascensão; cada quase-morte; cada marca na alma; ver um aliado/NPC querido morrer; cada nível de corrupção; ser alvo do Grito do Apoteão; visões falhadas; e "pontos extra" ao atingir cada nível de corrupção (nível 1: +2 a +5; nível 2: +3 a +5, conforme a personagem). Na Ascensão: +1 ponto por dia (sessão 41).
