@@ -78,17 +78,18 @@
       "ch7",
       "ch8"
     ],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Ropio. Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fisher, 23 anos. Irmão mais novo do Lucan; nasceu sob a lua vermelha cheia (Ruidusborn) e a mãe morreu no parto; deram-lhe o nome Ruín como mau presságio e usaram-no como isco vivo desde criança. Engolido por um aboleto ancião colossal (chama-lhe leviatã; suspeita de Uk'otoa, nunca confirmar); sobreviveu dias a comer o que havia nas entranhas, incluindo um licantropo afogado: a licantropia torcida pelo rubídio e pelo sangue genasi fez dele meio-tubarão. Nem o pai o reconheceu. Alcunha 'Isco'; o irmão é 'o Gancho'.",
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Ropio. Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fisher, 23 anos. Irmão mais novo do Lucan; nasceu sob a lua vermelha cheia e a mãe morreu no parto; a Tia Zulmira, parteira do Scylla, deu-lhe o nome da lua — Ruín, de Ruidus — e sabe que é Ruidusborn; usaram-no como isco vivo desde criança. Engolido por um aboleto ancião colossal (chama-lhe leviatã; suspeita de Uk'otoa, nunca confirmar); sobreviveu dias a comer o que havia nas entranhas, incluindo um licantropo afogado — o Caçador, um Blood Hunter das Claret Orders: a licantropia torcida pela Lua Vermelha e pelo sangue genasi fez dele meio-tubarão, e o ofício do Caçador ficou-lhe em sonhos. Nem o pai o reconheceu. Alcunha 'Isco'; o irmão é 'o Gancho'.",
     "goal": "Encontrar uma tripulação a que pertença; pescar aquele Monstro; fazer do irmão o campeão escolhido do deus dele.",
-    "secret": "DM: não sabe que se transforma sem controlo sob os flashes de Ruidus (escalada: acorda longe → sangue que não é dele → alguém morre). Não sabe que o irmão lá esteve nem que foi ele a salvá-lo. Um tripulante do Scylla, tomado por algo das profundezas, cortou-lhe a corda. Sabe que comeu e que mudou; nunca juntou as duas coisas.",
-    "wants": "Uma tripulação; louros por pescar o monstro; curar ou livrar o irmão do deus que o tem refém.",
-    "fears": "Ser descartável; que não haja maneira de corrigir o irmão.",
+    "secret": "DM: não sabe que se transforma sem controlo sob os flashes de Ruidus (sem calendário; escalada: acorda longe → sangue que não é dele → alguém morre, na mesa). Não sabe que o irmão lá esteve nem que foi a intervenção de Baeshra através dele que o salvou. Belmiro, o contramestre do Scylla, tomado pelo Império aboleto, cortou-lhe a corda; o Isco descobre primeiro que o Império o quer (aboleto do mar, cap. 2), depois que foi alguém de casa. A caravana do Quasi caça-o como alimento do Filho. Sabe que comeu e que mudou; nunca juntou as duas coisas. A classe veio das visões do Caçador; a Ordem não sabe que ele existe. Necessidade oculta: não ser descartável.",
+    "wants": "Uma tripulação; louros por pescar o monstro; curar ou livrar o irmão do deus que o tem refém; saber o que o engoliu.",
+    "fears": "Ser descartável; que não haja maneira de corrigir o irmão; acordar longe.",
     "states": [],
     "tags": [
       "pc",
       "cotn_2026",
       "ruidusborn",
-      "licantropia"
+      "licantropia",
+      "lua-vermelha"
     ],
     "source": "dm"
   },
@@ -168,7 +169,7 @@
     "chapters": [],
     "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Colossal, milénios de crescimento, maior do que qualquer navio; engoliu o Isco para lhe absorver a natureza rubídica. Memória hereditária perfeita: lembra-se de tudo o que comeu, incluindo dos dois irmãos. A única testemunha do que aconteceu lá dentro. O Isco suspeita que seja Uk'otoa (nunca confirmar).",
     "goal": "",
-    "secret": "DM: a memória dele é alcançável pela via marítima; a verdade do resgate é revelável por ele, por Baeshra ou pelo consumo de rubídio.",
+    "secret": "DM: a memória hereditária guarda o Caçador (o Blood Hunter afogado que o Isco comeu) e o que o corpo levantado do Lucan fez lá dentro. É a única testemunha do resgate. A memória é alcançável pela via marítima ou por Cael Morrow.",
     "wants": "",
     "fears": "",
     "states": [],
@@ -180,15 +181,18 @@
   },
   {
     "id": "c-tripulante-tomado",
-    "name": "O tripulante tomado (quem cortou a corda)",
+    "name": "Belmiro, o contramestre tomado (quem cortou a corda)",
     "kind": "npc",
     "factions": [
       "f-scylla"
     ],
-    "chapters": [],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Tripulante do Scylla tomado há meses por algo das profundezas, atraído pela natureza rubídica do Isco; cortou-lhe a corda e entregou-o. Era gente que o Isco conhecia. Em aberto: ainda a bordo, desaparecido no dia em que o Isco voltou, ou morto.",
-    "goal": "",
-    "secret": "",
+    "chapters": [
+      "ch2",
+      "ch5"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Contramestre do Scylla, velho e calado; tomado há meses pelo Império aboleto, atraído pela natureza de Ruidus do Isco; cortou-lhe a corda e entregou-o. Era gente que o Isco conhecia. DM: duas rotas, a fixar nos beats — condenou o resto do barco ao Império (o Scylla inteiro tomado), ou, missão concluída, continua a perseguir o Isco (o mar, cap. 2; Cael Morrow, cap. 5). Quando o Isco o rever, transformado, percebe que foi alguém de casa.",
+    "goal": "Entregar o Isco ao Império.",
+    "secret": "DM: nada a ver com a Tia Zulmira; não sabia nada — foi só tomado.",
     "wants": "",
     "fears": "",
     "states": [],
@@ -369,5 +373,80 @@
   {
     "id": "c-morgid",
     "secret": "DM (backstory do Lucan): conhece a história do rapaz lagarto levado como escravo do pântano que nunca voltou — Baeshra. Facto de mesa (sessão 1): o pai dela era do clã lagarto que o grupo enfrentou; o grupo matou muitos antes de os restantes fugirem. O clã adora Sessinek."
+  },
+  {
+    "id": "c-tia-zulmira",
+    "name": "Tia Zulmira (a parteira do Scylla)",
+    "kind": "npc",
+    "factions": [
+      "f-scylla"
+    ],
+    "chapters": [],
+    "summary": "cotn_2026 (notas DM). Cozinheira-parteira do Scylla, 'tia' para toda a tripulação. Na noite em que a mãe morreu, olhou para o céu, viu a lua vermelha cheia e deu ao rapaz o nome da lua: Ruín. Sabia o que um Ruidusborn é. Onde está hoje: em aberto — pode ser procurada. Nada a ver com Belmiro.",
+    "goal": "",
+    "secret": "DM: sabe mais do que disse.",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "backstory"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-cacador-afogado",
+    "name": "O Caçador (o Blood Hunter afogado)",
+    "kind": "npc",
+    "factions": [
+      "f-claret-orders"
+    ],
+    "chapters": [
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7"
+    ],
+    "summary": "cotn_2026 (notas DM). Um Blood Hunter das Claret Orders, licantropo, que caçava o aboleto ancião e perdeu: afogado, engolido, comido pelo Isco sem saber que era gente. A licantropia dele deu o mecanismo; a Lua Vermelha e o sangue genasi deram a forma errada. O ofício ficou no Isco em sonhos — hemocraft por osmose. Aparece só nas visões, e as visões nunca lhe dão o nome. Objectivo herdado: acabar o que ele começou.",
+    "goal": "Que o ancião morra.",
+    "secret": "DM: a Ordem não sabe que o Isco existe.",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "licantropia",
+      "visoes"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-marisa-sete-ventos",
+    "name": "Marisa Sete-Ventos",
+    "kind": "npc",
+    "factions": [
+      "f-revelry"
+    ],
+    "chapters": [
+      "ch2",
+      "ch4"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM). Pirata da Revelry, capitã de um barco pequeno; ex-namorada do Isco que virou rival — acabou mal, agora concorrem. Aparece no mar (cap. 2 ou na rota longa de Bazzoxan a Marquet). Viu-o antes de mudar: é a única pessoa de fora da família que o reconhece. Tem razões para não o ajudar, e ajuda. Alguém que o escolheu uma vez.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "revelry"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-aboleth-do-mar",
+    "secret": "DM (backstory do Isco): com o Isco a bordo fala com ele em vez de com quem traz o cristal. Diz-lhe que o Império o quer — pela natureza de Ruidus dele — e oferece-lhe saber o que o engoliu, se for ter com eles. É o primeiro contacto do Isco com o Império."
   }
 ]

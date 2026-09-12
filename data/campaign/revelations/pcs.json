@@ -9,14 +9,14 @@
   {
     "id": "r-pc-isco-ruidusborn",
     "list": "Segredos dos PCs",
-    "text": "O Isco é Ruidusborn e transforma-se sem controlo sob os flashes de Ruidus; a licantropia veio de um licantropo afogado que comeu dentro do aboleto, torcida pelo rubídio e pelo sangue genasi.",
+    "text": "O Isco sabe que é Ruidusborn. O que não sabe: transforma-se sem controlo sob os flashes de Ruidus; a licantropia veio do Caçador, um Blood Hunter das Claret Orders que comeu dentro do aboleto, torcida pela Lua Vermelha e pelo sangue genasi — e o ofício ficou-lhe em sonhos.",
     "clues": [],
     "source": "dm"
   },
   {
     "id": "r-pc-corda-cortada",
     "list": "Segredos dos PCs",
-    "text": "A corda do Isco foi cortada por um tripulante do Scylla tomado por algo das profundezas, atraído pela natureza rubídica dele.",
+    "text": "A corda do Isco foi cortada por Belmiro, o contramestre do Scylla, tomado pelo Império aboleto, atraído pela natureza de Ruidus dele. O Isco descobre primeiro o porquê (o Império quer-o), depois o quem (alguém de casa).",
     "clues": [],
     "source": "dm"
   },
@@ -66,6 +66,13 @@
     "id": "r-pc-lucan-renegar",
     "list": "Segredos dos PCs",
     "text": "Renegar Baeshra é possível e devolve a vida ao Lucan — deixa de ser Dhampir, perde a Fera e a fome. Como se faz, ninguém sabe ainda.",
+    "clues": [],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-isco-alimento",
+    "list": "Segredos dos PCs",
+    "text": "A caravana Naiat do Quasi caça Ruidusborn como alimento da última fase do Filho Ctónico. O Isco é o único da mesa: é alvo em Marquet, e o Quasi é quem percebe.",
     "clues": [],
     "source": "dm"
   }

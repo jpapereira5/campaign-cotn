@@ -52,7 +52,7 @@
     "from": "c-tripulante-tomado",
     "to": "c-pc-isco",
     "type": "betrays",
-    "label": "cortou-lhe a corda",
+    "label": "Belmiro cortou-lhe a corda; tomado pelo Império",
     "source": "dm"
   },
   {
@@ -249,6 +249,48 @@
     "to": "c-verin-thelyss",
     "type": "rival",
     "label": "Baeshra: desafia o líder de Bazzoxan",
+    "source": "dm"
+  },
+  {
+    "from": "c-tia-zulmira",
+    "to": "c-pc-isco",
+    "type": "knows",
+    "label": "deu-lhe o nome; sabia da lua",
+    "source": "dm"
+  },
+  {
+    "from": "c-cacador-afogado",
+    "to": "c-pc-isco",
+    "type": "knows",
+    "label": "comeu-o; herdou-lhe o ofício em sonhos",
+    "source": "dm"
+  },
+  {
+    "from": "c-marisa-sete-ventos",
+    "to": "c-pc-isco",
+    "type": "rival",
+    "label": "ex-namorada; viu-o antes de mudar",
+    "source": "dm"
+  },
+  {
+    "from": "f-imperio-aboleto",
+    "to": "c-pc-isco",
+    "type": "wantsFrom",
+    "label": "a natureza de Ruidus dele",
+    "source": "dm"
+  },
+  {
+    "from": "f-caravana-naiat",
+    "to": "c-pc-isco",
+    "type": "wantsFrom",
+    "label": "alimento para o Filho (Ruidusborn)",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-quasi",
+    "to": "c-pc-isco",
+    "type": "protects",
+    "label": "é quem percebe que a caravana o caça",
     "source": "dm"
   }
 ]

@@ -157,6 +157,14 @@ A atitude dos rivais (hostil / indiferente / amigável) decide só **o tom** do 
 
 Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
+## As transformações do Isco (DM; base na ficha do Pedro Ropio)
+
+- **Por vontade**: a transformação da Order of the Lycan, como na ficha. Controlável.
+- **Por flash de Ruidus**: incontrolável; nem o jogador nem a personagem sabem. **Sem calendário** — o DM dispara um flash quando servir a cena. Abrigo = tecto que o Lucan arranjar (ele sabe; escolhe os quartos).
+- **Quando dispara**: corta-se a cena; narram-se só as consequências vistas por outros no dia seguinte. Escalada: acorda longe → sangue que não é dele → alguém morre (quem, decide-se na mesa).
+- **Insanidade**: cada consequência descoberta dá pontos como qualquer experiência traumática (tabela abaixo). Sem tabela nova.
+- Derreter o ruidium no fim do livro **não** lhe desfaz a forma: foi a Lua Vermelha, não o rubídio.
+
 ## A Fera do Lucan (DM; base na ficha da Renata)
 
 - **A 0 PV, a Fera alimenta-se.** Quando o Lucan cai a 0 PV não fica inconsciente: levanta-se com a Fera (Path of the Beast), ataca a criatura caída mais próxima até morder carne — amiga ou inimiga — e só depois cai. Sem contagem, sem tabela: é um gatilho, e é o que aconteceu dentro do aboleto.

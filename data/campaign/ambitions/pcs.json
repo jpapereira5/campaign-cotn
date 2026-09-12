@@ -52,7 +52,7 @@
   {
     "id": "amb-lucan-irmao",
     "pc": "c-pc-lucan",
-    "text": "Proteger o irmão de si próprio (Ruidusborn, os flashes de Ruidus) sem lhe contar.",
+    "text": "Proteger o irmão de si próprio (as transformações sob os flashes de Ruidus) sem lhe contar o que aconteceu no aboleto.",
     "npcs": [
       "c-pc-isco"
     ],
@@ -69,7 +69,8 @@
     "pc": "c-pc-isco",
     "text": "Pescar aquele Monstro (o aboleto ancião; 'Uk'otoa?').",
     "npcs": [
-      "c-aboleto-anciao"
+      "c-aboleto-anciao",
+      "c-cacador-afogado"
     ],
     "arcs": [
       "a-pc-isco"
@@ -99,7 +100,9 @@
     "pc": "c-pc-isco",
     "text": "Encontrar uma tripulação a que pertença; descobrir quem cortou a corda e porquê.",
     "npcs": [
-      "c-tripulante-tomado"
+      "c-tripulante-tomado",
+      "c-marisa-sete-ventos",
+      "c-tia-zulmira"
     ],
     "arcs": [
       "a-pc-isco"

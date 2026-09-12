@@ -143,10 +143,10 @@ Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições re
 
 ## Ruín "Isco" Bruma (Pedro Ropio)
 
-Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fisher, 23 anos, 1,89 m. Era water genasi; hoje parece meio-tubarão. Línguas: comum, halfling, abyssal, thieves' cant. Não venera deuses; muito supersticioso. Nascido em Nicodranas, criado no barco ("Gavião do Mar?" na sessão zero; Scylla na do Lucan). Memória mais antiga: ser pendurado como isco.
+Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fisher, 23 anos, 1,89 m. Era water genasi; hoje parece meio-tubarão. Línguas: comum, halfling, abyssal, thieves' cant. Não venera deuses; muito supersticioso. Nascido em Nicodranas, criado no barco — **o Scylla** (decidido; "Gavião do Mar" da sessão zero cai — dizer ao Pedro Ropio). Memória mais antiga: ser pendurado como isco.
 
 ### O que o Isco sabe
-- A mãe morreu ao dar-lhe à luz; nasceu sob a lua vermelha cheia. Chamaram-lhe Ruín como mau presságio (o jogador propõe que derive de Ruidus ou "ruinosa"); por isso foi sempre usado como isco vivo e posto de parte pelos adultos. O irmão sempre o tratou por Isco e provavelmente já não se lembra do nome.
+- A mãe morreu ao dar-lhe à luz; nasceu sob a lua vermelha cheia. **Sabe que é Ruidusborn** (retcon à backstory, decisão do DM — avisar o Pedro Ropio): a Tia Zulmira, cozinheira-parteira do Scylla, olhou para o céu e deu-lhe o nome da lua — **Ruín vem de Ruidus**. Por isso foi sempre usado como isco vivo e posto de parte pelos adultos. O irmão sempre o tratou por Isco e provavelmente já não se lembra do nome.
 - Numa pesca em águas altas a linha apanhou algo enorme, maior do que qualquer navio, que o engoliu inteiro. Esteve lá dentro "o que pareceu anos, provavelmente dias", a comer e beber o que havia. Saiu mudado: meio-tubarão, transforma-se, energia estranha no sangue. Acha que se safou sozinho.
 - Suspeita que um tripulante lhe cortou a corda: "quem, e porquê? foi acidente?" Chama leviatã ao monstro e pergunta-se se é Uk'otoa.
 - Viver numa comunidade tornou-se impossível; nem o pai o reconheceu. Só o irmão ficou: saltou atrás dele, "não sobreviveu inteiro", foi exilado por profanar a ordem natural. "Fizemos o que era preciso para sobreviver."
@@ -155,34 +155,48 @@ Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fi
 - Ligações: Myriad, The Revelry (ex-namorada ou rival num barco concorrente), Yussa Errenis ("espera informações sobre rubídio"). Ideia do jogador: uma missão em que acordam sem se lembrarem da noite anterior.
 
 ### O que o DM já definiu
-- **Ruidusborn**: a desgraça encontra-o; não é metáfora. Ele não sabe. O Lucan sabe e protege-o.
-- **O servo das profundezas**: um tripulante do Scylla tomado há meses por algo das profundezas, atraído pela natureza rubídica do Isco (os aboletos perseguem os vestígios da lua vermelha), cortou a corda e entregou-o. A maldição é o padrão; a sabotagem foi a forma desta vez. Era gente que ele conhecia.
-- **O aboleto ancião** (colossal, milénios) quis consumi-lo para absorver as memórias e a natureza rubídica. Nunca confirmar Uk'otoa.
-- **A licantropia**: dentro do aboleto comeu um licantropo afogado sem saber que era gente; a doença deu o mecanismo, o rubídio e o sangue genasi deram a forma errada (tubarão). É único no mundo. Introduz culpa: fez algo, sem saber, para sobreviver. Sabe que comeu e que mudou; nunca juntou as duas coisas.
-- **Transformações**: por vontade (controlável) ou por exposição aos flashes de Ruidus (incontrolável; nem o jogador nem a personagem sabem). Quando dispara, corta-se a cena; narram-se só consequências vistas por outros. Escalada: acorda longe → sangue que não é dele → alguém morre. Vai falhar: uma noite não há tecto, ou ele afasta-se por teimosia.
-- Ironia: o bond do Isco é fazer do irmão o campeão do deus dele, e o irmão está a protegê-lo de si próprio.
-- **Império aboleto** (homebrew): potência no fundo dos oceanos, memória hereditária perfeita, anterior aos deuses; castas, cidades, escravos. Motivo actual: o rubídio em Jigau é a primeira coisa em milénios que não conhecem. Não são vilões; falam com o Isco se estiverem perto; tentam seduzi-lo com respostas. Aparecem, querem, interferem, ficam por resolver.
-- Ideias soltas: visões licantrópicas (sonhos da vida do licantropo que comeu; o seu povo, o destino dele até ser engolido; "também tinha sido devorado por ser Ruidusborn?"); The Claret Orders (origem dos Blood Hunters) como possível ligação; e se a cura/informação passar pelo aboleto que ele quer caçar, ou se decide consumir o aboleto e ganhar-lhe as memórias.
-- Em aberto no próprio doc do DM: onde está hoje o tripulante tomado (a bordo, desaparecido, morto); a memória do aboleto é alcançável pela via marítima; a verdade do resgate é revelável via aboleto, Baeshra ou rubídio.
+Fechado base a base (linha A: o mar do lado dele; linha B: Ruidus), com os pontos cruzados do Quasi e do Lucan resolvidos aqui.
+
+**O mar**
+- **Belmiro, o contramestre do Scylla**, tomado há meses por algo das profundezas — o Império aboleto —, atraído pela natureza de Ruidus do Isco, cortou-lhe a corda e entregou-o. Era gente que ele conhecia: velho, calado. A maldição é o padrão; a sabotagem foi a forma desta vez. **Nada a ver com a Tia Zulmira.**
+- **Onde está Belmiro** — duas rotas, ambas boas, a fixar nos beats (podem ser as duas por ordem): condenou o resto do barco ao Império (o Scylla inteiro tomado — liga ao reencontro do Lucan com o pai); ou, missão concluída, continua a perseguir o Isco (o mar, cap. 2; Cael Morrow, cap. 5).
+- **O que o Isco descobre, por ordem**: primeiro **que o Império o quer** — no aboleto do caminho marítimo (cap. 2), que com ele a bordo fala com ele em vez de com quem traz rubídio e lhe oferece saber o que o engoliu, se for ter com eles; mais tarde, ao rever Belmiro transformado, **que foi alguém de casa** que o entregou. A razão chega antes do traidor.
+- **O resgate**: acha que se safou sozinho. Foi a intervenção de Baeshra, através do corpo levantado do Lucan, que devorou a saída do aboleto. Ele não sabe; o Lucan não sabe (Baeshra diz-lho em Jigau); **o aboleto ancião** (colossal, milénios, memória hereditária perfeita) é a única testemunha do *como*. Nunca confirmar Uk'otoa.
+- **A Tia Zulmira** — a cozinheira-parteira que sabia de luas e lhe deu o nome. Onde está hoje: em aberto; pode ser procurada.
+
+**Ruidus e a licantropia**
+- **Ruidusborn**: a desgraça encontra-o; não é metáfora. Ele **sabe que é** (retcon). O que não sabe: que se transforma sem controlo sob os flashes; que o Império o quer por isso; que o irmão lá esteve.
+- **A licantropia**: dentro do aboleto comeu um licantropo afogado sem saber que era gente — **um Blood Hunter das Claret Orders, "o Caçador"**, que caçava o ancião e perdeu. A doença deu o mecanismo; **a Lua Vermelha (Ruidus), não o rubídio**, e o sangue genasi deram a forma errada (tubarão). É único no mundo. Sabe que comeu e que mudou; nunca juntou as duas coisas. Consequência (cruzado Lucan): **derreter o ruidium no fim não lhe toca.**
+- **A classe veio das visões — hemocraft por osmose**: comeu um caçador e ficou com o ofício dele em sonhos. Nunca foi treinado; faz o que o Caçador sabia. As visões nunca dão o nome. **A Ordem não sabe que ele existe** — e quando souber, quer saber como. Objectivo herdado: acabar o que o Caçador começou.
+- **Transformações**: por vontade (controlável) ou por flash de Ruidus (incontrolável; nem o jogador nem a personagem sabem). **Sem calendário: o DM dispara um flash quando servir a cena.** Abrigo = o que o Lucan arranjar. Quando dispara, corta-se a cena; narram-se só consequências vistas por outros. Escalada: acorda longe → sangue que não é dele → alguém morre. **Quem morre decide-se na mesa.**
+- Ironia: o bond do Isco é fazer do irmão o campeão do deus dele, e o irmão está a protegê-lo de si próprio — e deve-lhe a vida ao mesmo deus.
+
+**Quem o quer**
+- **Império aboleto** (homebrew): potência no fundo dos oceanos, memória hereditária perfeita, anterior aos deuses; castas, cidades, escravos. Motivo actual: o rubídio em Jigau é a primeira coisa em milénios que não conhecem — e o Isco tem Ruidus no sangue. Não são vilões; falam com ele se estiverem perto; tentam seduzi-lo com respostas. Belmiro é deles.
+- **A caravana Naiat do Quasi caça Ruidusborn como alimento**: a última fase do Filho Ctónico precisa do sangue certo; as vítimas comuns já não chegam. O Isco é comida rara — vítima, não candidato. Em Marquet (cap. 4-5) é alvo sem saber porquê; **o Quasi é o único que percebe** o que está a acontecer.
+- **Marisa Sete-Ventos**, da Revelry: ex-namorada que virou rival (acabou mal; agora concorrem). Aparece no mar — cap. 2 ou na rota longa —, viu-o antes de mudar e é a única pessoa de fora da família que o reconhece; tem razões para não o ajudar, e ajuda. Alguém que o escolheu uma vez.
+
+**Objectivos**
+- **Declarados** (é irrelevante se os diz em voz alta): **pescar o Monstro** e **fazer do irmão o campeão — ou livrá-lo** (a contradição que ele próprio não resolveu; e livrá-lo é possível: ver Lucan).
+- **Necessidade oculta: não ser descartável.** "Se fui descartável." Precisa que alguém o escolha por ele, não por ser útil. O Império quer-lhe o sangue; a caravana quer-lhe o sangue; o irmão quer protegê-lo. Ninguém o quer a ele — o grupo tem de ser quem quer.
+- **Vitória — três possibilidades, o jogador escolhe**: pescar o Monstro e ganhar-lhe a memória (incluindo o que o irmão fez); controlar a transformação (o arco de Blood Hunter); o irmão livre, mesmo que o custo seja ele.
+
+**A combinar com o Pedro Ropio**: sabe que é Ruidusborn e o nome vem de Ruidus (acrescento); o barco é o Scylla.
 
 ### Em aberto (para o DM decidir)
-1. O tripulante tomado: onde está, e por quem foi tomado (um aboleto do Império, um servo de Uk'otoa, algo do Netherdeep?). Se reaparece na campanha, onde (o Trinca-Rabos no cap. 2? Bazzoxan? Cael Morrow?).
-2. Como se sabe que ele é Ruidusborn: alguém lhe diz (Ushru? a Jóia? o Consórcio, que adora Ruidus?) ou descobre pelas transformações?
-3. Os flashes de Ruidus: quando acontecem na campanha (calendário; ligação ao Ano de Ruidus do Acto 4) e o que conta como "abrigo". Qual é a primeira consequência vista pelo grupo e em que capítulo.
-4. O Império aboleto: qual é o primeiro contacto (uma voz na água em Jigau? o aboleto que se julga Alyxian em Cael Morrow?) e o que oferecem.
-5. O licantropo afogado: quem era, de onde vinha (um povo, uma ordem, The Claret Orders?) e se as visões dão pistas de campanha (a mesma técnica das visões de Alyxian).
-6. O nome Ruín: adoptar a origem "Ruidus" (então a mãe ou a parteira sabiam o que a lua vermelha significa)?
-7. A ex-namorada/rival da Revelry: fica backstory ou aparece (por exemplo, no Festival do Mérito ou num barco em Jigau)?
-8. Coerência: o barco é Scylla (Lucan) ou "Gavião do Mar" (Isco)? Os apelidos ficam Bruma (decidido).
-9. **Vindo da backstory do Quasi**: a caravana vistani caça Ruidusborn porque o Filho Ctónico passou a precisar deles. Para quê — alimento, ou **o corpo do vaso**? Se for o corpo, o Isco não é vítima, é o candidato. Decidir aqui, não no Quasi.
+1. A rota de Belmiro (barco tomado vs perseguição) e onde está a Tia Zulmira — ao desenhar o cap. 2 / a rota longa.
+2. Quem morre na escalada: na mesa.
+3. **Beats por capítulo** (ronda seguinte): o aboleto do mar e Belmiro, a Marisa, o Scylla, os flashes, Marquet e a caravana, Cael Morrow, o ancião.
+4. A ideia do jogador de uma missão em que acordam sem se lembrar da noite anterior: encaixa num flash.
 
 ---
 
 ## Ligações entre os três (por combinar com os jogadores)
 - Conheceram-se em Asarius: os irmãos a seguir a pista do rubídio (Yussa Errenis, Myriad), o Quasi à procura de saber sobre maldições. O que os fez viajar juntos até Urzin?
 - Os três têm uma ligação a Ruidus/rubídio (Lua Vermelha, Ruidusborn, aboleto e rubídio): é o fio comum para o Apotheon. A licantropia do Isco e os fantasmas-fera do cemitério do Quasi **não** estão ligados (decisão do DM): rimam, e a mesa vai reparar sozinha.
-- **A caravana do Quasi caça Ruidusborn** e o Isco é o único da mesa: em Marquet o Isco é alvo sem saber porquê, e o Quasi é o único que percebe o que está a acontecer.
-- Yussa Errenis é o patrono declarado dos irmãos; o Quasi pode ter trabalhado para a Míriade, que é quem contrabandeia o rubídio que os irmãos investigam.
+- **A caravana do Quasi caça Ruidusborn como alimento do Filho** e o Isco é o único da mesa: em Marquet o Isco é alvo sem saber porquê, e o Quasi é o único que percebe o que está a acontecer.
+- **O Scylla é cena partilhada dos irmãos**: o pai (Lucan), Belmiro tomado (Isco) e a Marisa da Revelry podem cruzar-se todos no mar do cap. 2 ou na rota longa de Bazzoxan a Marquet.
+- Yussa Errenis é o patrono declarado dos irmãos (quer só saber o que o rubídio é); o Quasi pode ter trabalhado para a Míriade, que é quem contrabandeia o rubídio que os irmãos investigam.
 
 ## Passo seguinte (depois de fechar o "em aberto")
 Para cada PC, no doc e na app: **objectivos** (as ambições já criadas) → **como os conseguir** (2 ou 3 caminhos possíveis, com o NPC que satisfaz e o que nega) → **beats por capítulo** (1 a 2 cenas pessoais por capítulo, marcadas PROPOSTA até aprovação), e as **pistas** para os cinco "Segredos dos PCs" (`r-pc-*`, regra das três pistas). A matriz de cobertura na vista PCs mostra os buracos.
