@@ -165,11 +165,11 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 - **Sai-se** repondo a máscara depois de derrotar o campeão, ou com a morte da Besta (que mata o Quasi). Partir correntes faz a Besta mover-se e lutar melhor. Os gritos dela funcionam como *Shatter*; aliados podem canalizá-los para Inspiração Bárdica.
 - **Nunca é útil**: cada desmascaramento é um peso (exigência do Pedro). Previstas duas entradas na campanha: uma por acidente, cedo; a final, por escolha.
 - **Insight sobre o Quasi**: devolve descrições depreciativas. Não são mentira — descrevem a metade acorrentada. Não dizer isto aos jogadores.
-- Por definir: o ritmo a que os companheiros passam de desconfiança a repulsa, e se usa a escala de insanidade.
+- **A repulsa nos companheiros não tem mecânica própria.** A degradação (desconfiança → nojo → repulsa) é roleplay, com notas privadas do DM quando quiser. Quando pesar, usa-se o que já existe: **conviver com o Quasi dá pontos de insanidade como estar perto de rubídio ou dentro de Bazzoxan**. Sem regra de recuo: quem se afasta, afasta-se; quem fica, fica.
 
 ## Insanidade (DM)
 
-**Fontes de pontos.** Experiências traumáticas, quase morrer, níveis de corrupção, marcas na alma, ou passar um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep) acumulam pontos nas tabelas de insanidade. Na mesa, os pontos registados vieram de: cicatrizes; cada visita à Ascensão; cada quase-morte; cada marca na alma; ver um aliado/NPC querido morrer; cada nível de corrupção; ser alvo do Grito do Apoteão; visões falhadas; e "pontos extra" ao atingir cada nível de corrupção (nível 1: +2 a +5; nível 2: +3 a +5, conforme a personagem). Na Ascensão: +1 ponto por dia (sessão 41).
+**Fontes de pontos.** Experiências traumáticas, quase morrer, níveis de corrupção, marcas na alma, ou passar um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep) acumulam pontos nas tabelas de insanidade. Conviver de perto com o Quasi conta como sítio amaldiçoado (ver "A máscara do Quasi"). Na mesa, os pontos registados vieram de: cicatrizes; cada visita à Ascensão; cada quase-morte; cada marca na alma; ver um aliado/NPC querido morrer; cada nível de corrupção; ser alvo do Grito do Apoteão; visões falhadas; e "pontos extra" ao atingir cada nível de corrupção (nível 1: +2 a +5; nível 2: +3 a +5, conforme a personagem). Na Ascensão: +1 ponto por dia (sessão 41).
 
 **Em segredo.** O DM envia individualmente a cada jogador a descrição do que lhe acontece, para roleplay, sem eles saberem o que está a acontecer.
 

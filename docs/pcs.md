@@ -46,6 +46,7 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
 - **A cura tem uma chave só**: alguém que o amou tem de lhe tirar a máscara **lá dentro** e olhar a besta nos olhos (a bela e o monstro). **Só a raunie sabe a condição** — escolheu-a como sentença porque ninguém a cumpre. Matá-la não faz nada; a chave é o que ela diz, se a fizerem falar. Os antepassados não sabem (viram a jaula, não ouviram a sentença); o reilora não sabe (a sentença foi dita em vistani, no rito dela). Como a prisão está ligada a Ruidus, a quebra pode ligar-se à libertação de Alyxian (ponte possível para o cap. 7, não regra).
 - Quem cumpre a condição: pode ser alguém da mesa ou a **violinista cega** — a única pessoa viva que viu a Besta e ainda o ama. Ir buscá-la é escolha do Pedro; usá-la como chave é armadilha moral.
 - **Vitória**: inteiro, sem máscara. As duas metades voltam a ser uma; sai do demiplano com cara e sem Besta. O preço é a Besta e as features dela (gritos, Inspiração). Dizer isto ao Pedro antes, não na cena.
+- **A repulsa nos companheiros não tem mecânica própria**: é roleplay, com notas privadas do DM; quando pesar, conviver com ele dá pontos de insanidade como estar perto de rubídio ou dentro de Bazzoxan (ver `docs/regras.md`). O Pedro joga todas as semanas.
 - **Necessidade oculta** (que ele não diria): ser amado por alguém que o viu. É a mesma coisa que o objectivo declarado, vista do outro lado — e ele não sabe. Vai passar a campanha à procura de um remédio quando o remédio é o grupo.
 
 **O demiplano**
@@ -80,8 +81,7 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
 ### Em aberto (para o DM decidir)
 1. **Beats por capítulo** (ronda seguinte): onde entram Brishen, a Aloysia, o acidente do demiplano, a feira, o zigurate, a catedral; e as pistas para os `r-pc-quasi-*`.
 2. A curandeira de aldeia: fica só backstory.
-3. Ritmo da maldição no grupo: ao fim de quantas sessões/dias os companheiros começam a sentir repulsa, e como se mede (a escala de insanidade da mesa?). É o que justifica as ausências do Pedro.
-4. O que o Filho é ao nascer e o que faz: fica para a campanha seguinte.
+3. O que o Filho é ao nascer e o que faz: fica para a campanha seguinte.
 
 ---
 
