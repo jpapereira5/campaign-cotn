@@ -37,7 +37,9 @@
     "pc": "c-pc-lucan",
     "text": "Perceber a ligação a Baeshra e o que ele pretende (e a quem serve).",
     "npcs": [
-      "c-baeshra"
+      "c-baeshra",
+      "c-seguidor-tatuagem",
+      "c-alyxian"
     ],
     "arcs": [
       "a-pc-lucan",

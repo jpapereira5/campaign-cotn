@@ -2,7 +2,7 @@
   {
     "id": "r-pc-lucan-salvou-isco",
     "list": "Segredos dos PCs",
-    "text": "Foi o Lucan, já transformado, que abriu caminho de dentro do aboleto: salvou o Isco e não se lembra. Nem o Isco, nem Baeshra sabem.",
+    "text": "O Lucan morreu naquela água. Foi a intervenção de Baeshra, através do corpo levantado do Lucan — a Fera, a fome, a mordida, as três ao mesmo tempo — que devorou a saída do aboleto e salvou o Isco. O Lucan acha que falhou; o Isco não sabe; Baeshra sabe e diz-lho em Jigau. Só o aboleto ancião pode mostrar como.",
     "clues": [],
     "source": "dm"
   },
@@ -23,7 +23,7 @@
   {
     "id": "r-pc-baeshra-vecna",
     "list": "Segredos dos PCs",
-    "text": "Baeshra é um semideus recente que deve a Vecna a própria ascensão e paga em serviço: o Lucan tem dois patronos e só um está declarado.",
+    "text": "Baeshra é um semideus recente que ascendeu por um wish de Vecna e paga a dívida em activar os obeliscos negros (o plot de Vecna para depois da campanha): o Lucan tem dois patronos e só um está declarado.",
     "clues": [],
     "source": "dm"
   },
@@ -52,6 +52,20 @@
     "id": "r-pc-quasi-cura",
     "list": "Segredos dos PCs",
     "text": "A cura tem uma chave só: alguém que o amou tem de lhe tirar a máscara dentro da catedral e olhar a besta nos olhos. Só a raunie Dorina sabe a condição; matá-la não faz nada.",
+    "clues": [],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-lucan-obeliscos",
+    "list": "Segredos dos PCs",
+    "text": "Há três obeliscos negros (mar, Pântano do Véu-Quebrado, Betrayers' Rise) que rebobinam tempo. Ao Lucan mostram a morte dele, um pedaço por obelisco; cada toque acorda-os um pouco.",
+    "clues": [],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-lucan-renegar",
+    "list": "Segredos dos PCs",
+    "text": "Renegar Baeshra é possível e devolve a vida ao Lucan — deixa de ser Dhampir, perde a Fera e a fome. Como se faz, ninguém sabe ainda.",
     "clues": [],
     "source": "dm"
   }

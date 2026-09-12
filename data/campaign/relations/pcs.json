@@ -201,5 +201,54 @@
     "type": "ally",
     "label": "deram a máscara; querem a catedral fora de casa",
     "source": "dm"
+  },
+  {
+    "from": "c-baeshra",
+    "to": "c-pc-lucan",
+    "type": "wantsFrom",
+    "label": "levantou-o; 'salvei o teu irmão através de ti'",
+    "source": "dm"
+  },
+  {
+    "from": "c-baeshra",
+    "to": "c-alyxian",
+    "type": "wantsFrom",
+    "label": "quer que o Lucan o devore",
+    "source": "dm"
+  },
+  {
+    "from": "f-fieis-baeshra",
+    "to": "c-pc-lucan",
+    "type": "wantsFrom",
+    "label": "second coming — querem vê-lo vencer",
+    "source": "dm"
+  },
+  {
+    "from": "c-seguidor-tatuagem",
+    "to": "c-pc-lucan",
+    "type": "knows",
+    "label": "reconhece o campeão pelos olhos",
+    "source": "dm"
+  },
+  {
+    "from": "c-morgid",
+    "to": "c-baeshra",
+    "type": "knows",
+    "label": "conhece a história do rapaz levado do pântano",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lucan",
+    "to": "c-ayo-jabe",
+    "type": "rival",
+    "label": "Baeshra: desafia a mais forte do Festival",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lucan",
+    "to": "c-verin-thelyss",
+    "type": "rival",
+    "label": "Baeshra: desafia o líder de Bazzoxan",
+    "source": "dm"
   }
 ]

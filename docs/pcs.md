@@ -101,26 +101,43 @@ Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, Neutral, 29 anos, 1,9
 - Ligações: Porto Franco de Yussa Errenis; The Revelry (piratas); The Myriad; Guardiões da Costa. Quer perceber a ligação a Baeshra e proteger o irmão; aceitaria caminhos obscuros para os salvar aos dois.
 
 ### O que o DM já definiu
-- **Foi o Lucan que salvou o Isco**: o que ele se tornou lá dentro devorou a saída do aboleto e os dois saíram por causa dele. Nem ele, nem o Isco, nem Baeshra sabem. A única testemunha é o aboleto ancião (memória hereditária perfeita).
-- Baeshra: lizardfolk de escamas brancas, olhos de bronze e chifres; escravo, gladiador em Asarius, ascendeu a semideus por um wish; "vive" dos seguidores e da arena que grita o seu nome; símbolo: a própria caveira com chifres; montada: a wyvern desperta Darastrix. Intervém sempre quando alguém está prestes a chegar tarde demais: oferece poder sem condições para que essa pessoa não fique como ele ficou à porta da aldeia aos sete anos. Acredita que ajuda; **está a fabricar mais gente como ele**. Valoriza sangue derramado, não rezas; pedidos cada vez mais evil; dilema good vs evil.
-- **Deve a Vecna** o mecanismo da ascensão e paga em serviço: o que o Lucan faz em nome de Baeshra pode servir outra coisa. "Pediu um patrono, levou dois, e só um está declarado."
-- O Lucan é dos primeiros campeões escolhidos de propósito: uma aposta de uma coisa esfomeada e recente, não o milésimo warlock de um deus antigo.
-- Há gladiadores libertos envelhecidos por Xhorhas que conheceram Baeshra em vida e rezam há décadas a alguém que nunca mais viram; podem perguntar porque foi ele o escolhido (inveja em gente boa).
-- Eco de Alyxian: Alyxian sacrificou-se e apodreceu esquecido; Baeshra não sacrificou nada e está vivo porque uma cidade grita o nome dele.
-- Hipóteses anotadas: o deus original dos lizardfolk pode ser a serpente encapuçada (Zehir); "Great Devourer" pode ligar-se ao Chained Oblivion ou ao Crawling King. Baeshra era CN em vida; como semideus, NE por piada.
-- Ideia solta: um seguidor de Baeshra vindo de Asarius aparece no Festival do Mérito, com uma grande tatuagem nas costas que só a Renata conhece (como e quando a viu, por definir).
-- A pessoa-lagarto de Urzin (Morgid é pessoa-lagarto) diz que a antiga povoação de Bazzoxan está dentro do esqueleto de uma tartaruga-do-horizonte gigante no pântano: gancho para a Renata.
-- Em aberto no próprio doc do DM: recuperar a memória do resgate via Baeshra, o aboleto ou pó rubídico; se o Lucan chega a saber o que Baeshra realmente é, e o que faz com isso.
+Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições resolvidas. Nada disto é para a jogadora saber já.
+
+**O mar e a morte**
+- **Morreu mesmo. Baeshra trouxe-o.** Afogou-se e parou; a voz veio depois, no escuro, e ele aceitou de morto. O corpo que voltou é um corpo levantado — olhos negros, pele fria, fome. Baeshra é literalmente o que o mantém a andar.
+- **A verdade do resgate**: ele acha que falhou; na verdade **foi a intervenção de Baeshra, através do corpo levantado do Lucan, que salvou o Isco**. O que devorou a saída do aboleto foi **três coisas ao mesmo tempo**: a Fera do Path of the Beast (nasceu ali), a fome de Baeshra a usar-lhe o corpo pela primeira vez, e a primeira refeição do Dhampir. Cada rage, cada refeição crua e cada "fui eu" de Baeshra apontam para a mesma noite. O Lucan não sabe; o Isco não sabe; **Baeshra sabe**. A única testemunha do *como* é o aboleto ancião.
+- **Porquê o Lucan**: saltou por um irmão mais novo. Baeshra chegou tarde aos sete anos; um homem a saltar atrás do irmão mais novo é o momento dele repetido — e desta vez chega a tempo. Não escolheu o Lucan; escolheu a cena. Sincero e egoísta.
+- **Renegar Baeshra é possível e devolve-lhe a vida** — deixa de ser Dhampir, perde a Fera e a fome, volta a ser homem. **Como, ninguém sabe — nem ele.** É descoberta de mesa, não regra. Custa à Renata a build, como o Quasi perde a Besta.
+- **O pai e o Scylla reaparecem**: no caminho marítimo de Jigau a Bazzoxan (cap. 2) ou, se a mesa quiser a rota longa de Bazzoxan a Marquet, por barco. A forma fica em aberto (ver abaixo).
+
+**Baeshra**
+- Lizardfolk de escamas brancas, olhos de bronze e chifres; escravo do Pântano do Véu-Quebrado, gladiador em Asarius (arena com estátua); **ascendeu por um wish, e o wish foi de Vecna** (sem mais detalhes). Vive dos seguidores e da multidão; símbolo: a própria caveira com chifres; monta a wyvern Darastrix. **É só Baeshra**: sem Zehir, sem Chained Oblivion, sem Crawling King.
+- **Acredita mesmo que dar poder e fome é bom.** Não se vê como monstro. Está a fabricar mais gente como ele sem o saber. Intervém sempre no mesmo instante — quando alguém está prestes a chegar tarde — e só fala a quem está à beira. **Não corteja o Isco.**
+- **A dívida a Vecna paga-se em activar os obeliscos** (o plot do *unmade god*: Vecna quer usar os obeliscos para rebobinar o tempo — **para depois desta campanha**). Nesta, só sementes.
+- **Sabe que salvou o Isco através do Lucan e joga essa carta cedo, em Jigau**: "salvei o teu irmão através de ti". A partir daí o Lucan sabe que deve o irmão ao deus; o que falta descobrir é *como* (o aboleto mostra-lho) e o que isso faz ao Isco quando souber.
+- **Os três pedidos**: **Jigau** — desafiar a mais forte do Festival (Ayo Jabe) para duelo · **Bazzoxan** — desafiar o líder drow (Verin Thelyss) para duelo; e se cair a 0 PV e voltar em Rage, devorar · **Heart of Despair** — devorar Alyxian, o que sobra dele: um semideus a comer um semideus para subir. **É o inaceitável — e é um dos finais do livro** (matar Alyxian na 3.ª fase derrete todo o ruidium). É isso que o torna perigoso.
+- **Pedido recorrente**: procurar o adversário maior que vir pela frente / a pessoa mais forte de cada sítio, e desafiá-la.
+- **Os fiéis**: velhos gladiadores libertos espalhados por Jorhas (Jigau, Bazzoxan…) e um pequeno culto na arena de Asarius. Reconhecem-no pelos olhos e vêem nele um ***second coming* de Baeshra — mas querem provas: querem vê-lo vencer.** Cada duelo tem público. O seguidor com a **caveira com chifres tatuada nas costas** no Festival do Mérito (cap. 1) é um deles; o Lucan viu a tatuagem em Asarius.
+- **O pântano**: a **Morgid conhece a história** do rapaz levado como escravo. Facto de mesa (sessão 1): o pai dela era do clã lagarto que o grupo enfrentou — o grupo matou muitos antes de os restantes fugirem. O clã adora **Sessinek**, não Baeshra. A pista no cemitério do prólogo: **a caveira com chifres riscada por cima do símbolo de Sessinek** — um seguidor a marcar território; Baeshra a reclamar o sítio de onde veio.
+- Eco de Alyxian: Alyxian sacrificou-se e apodreceu esquecido; Baeshra não sacrificou nada e vive porque uma cidade grita o nome dele.
+
+**Os obeliscos**
+- Há **três**: o obelisco negro no mar (cap. 2, já nos dados: a gaivota parada no ar), **um no Pântano do Véu-Quebrado** e **um em Betrayers' Rise**. Rebobinam tempo localmente. O que é preciso para os activar, ninguém sabe ainda.
+- **Ao Lucan mostram a morte dele**: tocar num obelisco rebobina-o a ele por segundos — um pedaço da noite no aboleto por obelisco (o mar: o salto; o pântano: a voz; o Rise: o que o corpo fez). O boon é memória, e é o que ele mais quer. Baeshra não pede nada: só diz "vai ver". Cada toque deixa o obelisco um pouco mais acordado — a renda a Vecna, sem ninguém saber.
+
+**Objectivos**
+- **Declarado**: o rubídio e Yussa (que quer só saber o que o rubídio é, e mais nada — patrono limpo). Por cima, a influência e a dívida de Baeshra.
+- **Necessidade oculta**: **ser necessário ao irmão — e depois deixar de o ser**: descobrir quem quer realmente ser, sem Baeshra. Morreu pelo Isco; desde aí é "o que salva o Isco". O arco é largar.
+- **Vitória: o jogador escolhe no fim** — renegar Baeshra e voltar à vida, ou devorar Alyxian e subir. A escolha sobre Alyxian é a escolha sobre si, como no Quasi.
+
+**Regras (ver `docs/regras.md`)**
+- **A Fera a 0 PV**: não fica inconsciente — levanta-se com a Fera, trinca o caído mais próximo (amigo ou inimigo) e só depois cai. Ao voltar, olhos de sangue e uma multidão a gritar "Lucan, Lucan, Lucan". Em Rage *quer* trincar — roleplay, sem obrigação. Sem tabelas.
 
 ### Em aberto (para o DM decidir)
-1. Quando é que o Lucan descobre que salvou o Isco (qual das três vias: Baeshra, o aboleto, o rubídio) e em que capítulo faz sentido: a via marítima do Trinca-Rabos (cap. 2), o aboleto de Cael Morrow (cap. 5), o Netherdeep?
-2. O que Baeshra quer concretamente do Lucan nesta campanha (o primeiro pedido, o pedido de meio da campanha, o pedido inaceitável)? Isto dá os três beats da pista dele.
-3. Qual é a dívida a Vecna na prática: o que Vecna quer em Exandria agora (a Jóia? o rubídio? o Apotheon?) e como isso colide com Alyxian no Heart of Despair.
-4. Baeshra nasceu no Pântano do Véu-Quebrado: há vestígios em Urzin/no pântano (a tribo lizardfolk de Skr'a S'orsk? o Boneyard?) e a pessoa-lagarto de Morgid conhece a história? Isto decide se há uma cena pessoal do Lucan já no prólogo.
-5. O seguidor de Baeshra com a tatuagem: o que representa a tatuagem, onde a Renata a viu, se ele sabe. É o gancho do cap. 1.
-6. Os gladiadores libertos: quantos, onde (Asarius, Jigau, Bazzoxan, Ank'Harel), e se algum é aliado ou rival do Lucan pelo lugar de campeão.
-7. O Lucan é Dhampir: a fome de carne crua tem uma mecânica (a mesma escala de insanidade/marcas da mesa? corrupção rubídica?) e um custo social?
-8. A relação com o pai e o Scylla: o Vaelen reaparece (Nicodranas fica longe), ou a única volta ao mar é por Yussa Errenis?
+1. **O reencontro com o Scylla** — ideias do DM: o pai precisa da ajuda dos filhos e tem de engolir o ego; o barco vazio à deriva; o pai falta e a pergunta surge; o pai tomado pelas profundezas (tripulação do Davy Jones). Decidir ao desenhar o cap. 2 / a rota longa.
+2. **Como se volta à vida** depois de renegar Baeshra: descoberta de mesa.
+3. **Beats por capítulo** (ronda seguinte): o símbolo riscado no prólogo, o seguidor no Festival, o duelo com a Ayo, o obelisco do mar, Bazzoxan e o Verin, o obelisco do Rise, o aboleto que mostra o *como*, o Heart of Despair.
+4. **Cruzado com o Isco**: matar Alyxian derrete todo o ruidium — o que faz isso à licantropia rubídica do Isco? Decidir no Isco.
 
 ---
 

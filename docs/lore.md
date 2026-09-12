@@ -43,6 +43,11 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 - Ruidus, a lua vermelha, é a prisão de **Predathos**, o devorador de deuses. Os **Ruidusborn** nascem durante um *flare* de Ruidus; os **Exaltants** são o vaso de que Predathos precisa. Na lua vivem a **Weave Mind** e os seus **reilora**. Ludinus Da'leth (o fundador vivo mais antigo da Cerberus Assembly) fundou a Ruby Vanguard para libertar Predathos; o solstício em que o tenta é em 843 PD — a campanha passa-se em 836 PD.
 - **DM**: a "Lua Vermelha" que a caravana do Quasi venera é Predathos, abafado; quem lhe põe palavras é a Weave Mind através do reilora Vesq'ar, que não tem corpo em Exandria e fala de Ruidus. O mesmo intérprete está por cima dos cinco mestres do Consortium of the Vermilion Dream. Ruby Vanguard e Consórcio não têm ligação canónica; a ponte nos nossos dados é a Cerberus Assembly a comprar ruidium em Bazzoxan pela Míriade.
 
+## Obeliscos negros (DM)
+
+- Três pilares negros: no mar, a um dia de Jigau (a gaivota parada no ar, o mar lento — `l-obelisco-negro`); no Pântano do Véu-Quebrado (`l-obelisco-pantano`); e em Betrayers' Rise (`l-obelisco-rise`). Rebobinam tempo localmente.
+- Plot de Vecna para **depois desta campanha** (o *unmade god*: usar os obeliscos para rebobinar o tempo). Baeshra deve a Vecna e paga em activá-los — sem saber como. Nesta campanha são sementes: ao Lucan mostram a morte dele.
+
 ## Geografia
 
 - **Os Mares Gelados / Golfo Esmeralda** — locais novos (`l-mares-gelados`, `l-golfo-esmeralda`); **Monte-Selvagem** é só o mapa (Wildemount_Poster_Map_25.webp).

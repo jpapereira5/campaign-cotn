@@ -48,11 +48,11 @@
       "ch7",
       "ch8"
     ],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Renata Surrécio. Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, N, 29 anos. Filho do capitão Vaelen Bruma (caravela de caça Scylla, Nicodranas); a mãe morreu no parto do irmão. Saltou ao mar atrás do Isco quando o aboleto o engoliu, morreu na água e aceitou o pacto de Baeshra, o Grande Devorador: voltou marcado pela morte, com fome de carne crua e a voz do patrono. O pai e a tripulação expulsaram-no. Olhos negros, pele azul-pálida cheia de cicatrizes. Veio de Nicodranas (Yussa Errenis) por Rotthold e Asarius atrás do rubídio contrabandeado pelo Myriad; em Asarius soube que Baeshra foi gladiador e, antes, escravo vindo do Pântano do Véu-Quebrado.",
-    "goal": "Perceber a ligação a Baeshra e o que ele pretende, enquanto protege o irmão.",
-    "secret": "DM: foi ele que salvou o Isco (devorou a saída do aboleto por dentro) e não se lembra; acha que falhou. Sabe que o Isco é Ruidusborn e cala-se: dorme sempre perto dele, em sítios cobertos. Baeshra deve a Vecna o mecanismo da própria ascensão e paga em serviço: 'pediu um patrono, levou dois'. Gladiadores libertos envelhecidos em Xhorhas conheceram Baeshra em vida.",
-    "wants": "Adrenalina; perigo real; sobrevivência dos dois; quartos sozinho para ninguém o ver com pesadelos.",
-    "fears": "Os pesadelos da própria morte; que o orgulho acabe o que o mar começou; que o irmão se descubra.",
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Renata Surrécio. Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, N, 29 anos. Filho do capitão Vaelen Bruma (caravela de caça Scylla, Nicodranas); a mãe morreu no parto do irmão. Saltou ao mar atrás do Isco quando o aboleto o engoliu, afogou-se e morreu; no escuro ouviu Baeshra, o Grande Devorador — 'o mar devorou-te; agora aprende a devorar o mundo' — e aceitou de morto. Voltou como corpo levantado: olhos negros, pele azul-pálida cheia de cicatrizes, fome de carne crua, a voz do patrono que nunca se cala. O pai e a tripulação expulsaram-no. Acha que chegou tarde e que o irmão se salvou sozinho. Veio de Nicodranas (Yussa Errenis) por Rotthold e Asarius atrás do rubídio contrabandeado pelo Myriad; em Asarius soube que Baeshra foi gladiador e viu a caveira com chifres tatuada nas costas de um lutador.",
+    "goal": "Investigar o rubídio para Yussa; perceber o que Baeshra quer, enquanto protege o irmão.",
+    "secret": "DM: morreu mesmo; Baeshra levantou-o e é o que o mantém a andar. Foi a intervenção de Baeshra, através do corpo levantado do Lucan (a Fera, a fome, a mordida — as três ao mesmo tempo), que devorou a saída do aboleto e salvou o Isco; ele acha que falhou; Baeshra sabe e diz-lho em Jigau ('salvei o teu irmão através de ti'); o aboleto ancião é quem pode mostrar como. Baeshra escolheu-o porque saltou por um irmão mais novo — a cena dele, repetida. Renegar Baeshra é possível e devolve-lhe a vida (perde Dhampir, Fera, fome); como, ninguém sabe. Necessidade oculta: ser necessário ao irmão e depois deixar de o ser — descobrir quem é sem Baeshra. Os obeliscos mostram-lhe a morte. Sabe que o Isco é Ruidusborn e cala-se.",
+    "wants": "Adrenalina; perigo real; sobrevivência dos dois; quartos sozinho para ninguém o ver com pesadelos; saber o que aconteceu no escuro.",
+    "fears": "Os pesadelos da própria morte; que o orgulho acabe o que o mar começou; que o irmão se descubra; que o irmão deixe de precisar dele.",
     "states": [],
     "tags": [
       "pc",
@@ -102,21 +102,18 @@
       "ch1",
       "ch2",
       "ch3",
-      "ch4",
-      "ch5",
-      "ch6",
-      "ch7",
-      "ch8"
+      "ch7"
     ],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Semideus recente: lizardfolk de escamas brancas, olhos de bronze e chifres, escravo vindo do Pântano do Véu-Quebrado, gladiador em Asarius (há uma arena com estátua dele), ascendeu por um wish e vive dos seguidores e da multidão que grita o seu nome. Símbolo: a própria caveira com chifres. Monta a wyvern desperta Darastrix. Intervém sempre no mesmo instante: quando alguém está prestes a chegar tarde demais, oferece poder sem condições. 'O mar devorou-te. Agora aprende a devorar o mundo.'",
-    "goal": "Fabricar mais gente como ele; ser adorado; devorar o mundo.",
-    "secret": "DM: deve a Vecna o mecanismo da ascensão e paga em serviço; o que o Lucan faz em nome de Baeshra pode servir outra coisa. Não sabe que a sua doutrina funcionou com o Lucan.",
-    "wants": "Sangue derramado, não rezas; pedidos cada vez mais evil ao campeão.",
-    "fears": "",
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Semideus recente: lizardfolk de escamas brancas, olhos de bronze e chifres; escravo levado do Pântano do Véu-Quebrado; gladiador em Asarius (há uma arena com estátua dele); ascendeu por um wish — e o wish foi de Vecna. Vive dos seguidores e da multidão que grita o nome dele. Símbolo: a própria caveira com chifres. Monta a wyvern desperta Darastrix. Intervém sempre no mesmo instante — quando alguém está prestes a chegar tarde demais — e só fala a quem está à beira. Escolheu o Lucan porque ele saltou por um irmão mais novo: a cena dele, repetida, e desta vez a tempo. É só Baeshra: sem deus antigo por trás do título.",
+    "goal": "Que o campeão vença à frente de gente: desafiar o mais forte de cada sítio (Ayo em Jigau, Verin em Bazzoxan), devorar quando cair, e no fim devorar Alyxian — um semideus a comer um semideus para subir.",
+    "secret": "DM: acredita mesmo que dar poder e fome é bom; está a fabricar mais gente como ele sem o saber. Deve a Vecna o wish da ascensão e paga em activar os obeliscos (plot para depois da campanha); nesta só diz ao Lucan 'vai ver'. Sabe que foi a intervenção dele, através do corpo levantado do Lucan, que salvou o Isco — e usa-o cedo, em Jigau, para o prender. Não corteja o Isco. Renegá-lo é possível e devolve a vida ao Lucan; ele não o diz.",
+    "wants": "Sangue derramado, não rezas; duelos com público; que gritem o nome — o dele ou o do campeão.",
+    "fears": "Chegar tarde outra vez.",
     "states": [],
     "tags": [
       "cotn_2026",
-      "patrono"
+      "patrono",
+      "vecna"
     ],
     "source": "dm"
   },
@@ -127,8 +124,11 @@
     "factions": [
       "f-scylla"
     ],
-    "chapters": [],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Water genasi, capitão da caravela de caça Scylla (Nicodranas); pai do Lucan e do Isco. Não reconheceu os filhos quando voltaram do mar e expulsou-os.",
+    "chapters": [
+      "ch2",
+      "ch4"
+    ],
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Water genasi, capitão da caravela de caça Scylla (Nicodranas); pai do Lucan e do Isco. Não reconheceu os filhos quando voltaram do mar e expulsou-os. DM: o Scylla reaparece — no caminho marítimo de Jigau a Bazzoxan (cap. 2) ou na rota longa de Bazzoxan a Marquet por barco. Forma em aberto: precisa da ajuda dos filhos e tem de engolir o ego; ou o barco vazio à deriva; ou o pai falta; ou foi tomado pelas profundezas.",
     "goal": "",
     "secret": "",
     "wants": "",
@@ -147,7 +147,7 @@
     "factions": [],
     "chapters": [],
     "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Mago de Nicodranas, patrono dos irmãos Bruma: pediu-lhes que investigassem o rubídio (nova pedra vermelha no mercado negro, vinda de Marquet) e o rumor de que o Myriad o contrabandeia no norte de Xhorhas.",
-    "goal": "Informação sobre o rubídio.",
+    "goal": "Saber o que o rubídio é, e mais nada. Patrono limpo: os irmãos são olhos pagos.",
     "secret": "",
     "wants": "",
     "fears": "",
@@ -342,5 +342,32 @@
   {
     "id": "c-aloysia-telfan",
     "secret": "Já tentou entrar sozinha no Rise e saiu ferida (tratada por Bautha); agora contrata mercenários. Traz três tablets de teleporte para um círculo em Ank'Harel e um pergaminho de earthquake. DM (backstory do Quasi): um mentor falou-lhe de visões com um bardo mascarado que anda a ser monitorizado 'pelo líder da facção' (Vesq'ar, sem que ela saiba o que é). Reconhece o Quasi de vista e reporta; não sabe porquê."
+  },
+  {
+    "id": "c-seguidor-tatuagem",
+    "name": "O seguidor da caveira com chifres",
+    "kind": "npc",
+    "factions": [
+      "f-fieis-baeshra"
+    ],
+    "home": "l-jigow",
+    "chapters": [
+      "ch1"
+    ],
+    "summary": "cotn_2026 (notas DM). Velho gladiador liberto, vindo de Asarius, no Festival do Mérito: tem a caveira com chifres de Baeshra tatuada nas costas inteiras — a mesma que o Lucan viu na arena. Reconhece o campeão pelos olhos e vê nele um second coming do deus. Mas quer provas: quer vê-lo vencer.",
+    "goal": "Ver o campeão vencer o mais forte do Festival.",
+    "secret": "",
+    "wants": "Provas. Um duelo.",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "baeshra"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-morgid",
+    "secret": "DM (backstory do Lucan): conhece a história do rapaz lagarto levado como escravo do pântano que nunca voltou — Baeshra. Facto de mesa (sessão 1): o pai dela era do clã lagarto que o grupo enfrentou; o grupo matou muitos antes de os restantes fugirem. O clã adora Sessinek."
   }
 ]

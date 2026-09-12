@@ -157,6 +157,14 @@ A atitude dos rivais (hostil / indiferente / amigável) decide só **o tom** do 
 
 Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
+## A Fera do Lucan (DM; base na ficha da Renata)
+
+- **A 0 PV, a Fera alimenta-se.** Quando o Lucan cai a 0 PV não fica inconsciente: levanta-se com a Fera (Path of the Beast), ataca a criatura caída mais próxima até morder carne — amiga ou inimiga — e só depois cai. Sem contagem, sem tabela: é um gatilho, e é o que aconteceu dentro do aboleto.
+- **Ao voltar de 0 PV**: olhos de sangue, e começa a ouvir uma multidão a gritar-lhe o nome — "Lucan, Lucan, Lucan!".
+- **Em Rage** quer trincar um adversário caído. Roleplay, sem obrigação.
+- **Renegar Baeshra** é possível e devolve-lhe a vida (deixa de ser Dhampir; perde a Fera e a fome). Como se faz, ninguém sabe — nem ele. Descoberta de mesa.
+- **Os obeliscos** (mar, pântano, Betrayers' Rise): se lhes tocar, rebobinam-no por segundos e mostram-lhe um pedaço da noite em que morreu. Sem custo visível; cada toque acorda o obelisco um pouco.
+
 ## A máscara do Quasi (DM; base na ficha do Pedro)
 
 - **Qualquer pessoa pode tirar a máscara, ou ele próprio.** Não há gatilho cósmico.
