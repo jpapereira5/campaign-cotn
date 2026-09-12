@@ -45,8 +45,13 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 
 ## Obeliscos negros (DM)
 
-- Três pilares negros: no mar, a um dia de Jigau (a gaivota parada no ar, o mar lento — `l-obelisco-negro`); no Pântano do Véu-Quebrado (`l-obelisco-pantano`); e em Betrayers' Rise (`l-obelisco-rise`). Rebobinam tempo localmente.
+- Três pilares negros: no mar, a um dia de Jigau (a gaivota parada no ar, o mar lento — `l-obelisco-negro`); **a Ritual Stone de Bol'bara** no Pântano do Véu-Quebrado (`l-ritual-stone`, B6 — o menhir negro é um obelisco); e em Betrayers' Rise (`l-obelisco-rise`). Rebobinam tempo localmente. **Cada um tem uma entidade presa**: o da Ritual Stone tem **Trush**, o patrono de Bol'bara; os outros dois, a definir quando for preciso.
 - Plot de Vecna para **depois desta campanha** (o *unmade god*: usar os obeliscos para rebobinar o tempo). Baeshra deve a Vecna e paga em activá-los — sem saber como. Nesta campanha são sementes: ao Lucan mostram a morte dele.
+
+## Baeshra e o clã Ro (DM; fonte: a lenda original da Renata)
+
+- **Ssarik-Ro**, do clã Ro — lizardfolk caçadores-recolectores do Véu-Quebrado, na vila que hoje é o Sunken Boneyard (B3), em cima dos crânios das irmãs mortas do Guardião do Musgo. Há ~50 anos um destacamento Kryn liderado pelo jovem oficial drow **Duarte Mirim** (hoje Intendente de Jigau) atacou a vila; o rapaz, de 7 anos, estava na Prova da Força e chegou tarde. Ficou meses; fez um altar de criança à lenda do clã, o **Grande Devorador** (uma lenda de um apocalipse futuro), riscou o próprio nome e escreveu "Baeshra" por baixo; deixou a adaga do general. Depois: vilas humanas, prisão, evasão, esclavagistas em Jorhas, 8 anos de arena em Asarius, Zealot pela fé em si, o wish de Vecna aos 33. **Deus há ~20 anos.**
+- **Hesskar-Ro**, o único sobrevivente adulto, vive velho em Urzin; o filho é o **Morgid** (lizardfolk), o guia do prólogo. O clã de **Skr'a S'orsk** (Sess'inek) ocupou o Boneyard depois e nunca tocou no altar; Skr'a morreu na sessão 1.
 
 ## Geografia
 

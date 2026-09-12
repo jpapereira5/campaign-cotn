@@ -234,7 +234,7 @@
     "from": "c-morgid",
     "to": "c-baeshra",
     "type": "knows",
-    "label": "conhece a história do rapaz levado do pântano",
+    "label": "conhece pelo pai a história do rapaz do clã Ro que voltou deus",
     "source": "dm"
   },
   {
@@ -291,6 +291,41 @@
     "to": "c-pc-isco",
     "type": "protects",
     "label": "é quem percebe que a caravana o caça",
+    "source": "dm"
+  },
+  {
+    "from": "c-hesskar-ro",
+    "to": "c-morgid",
+    "type": "family",
+    "label": "pai; contou-lhe a história do clã Ro",
+    "source": "dm"
+  },
+  {
+    "from": "c-hesskar-ro",
+    "to": "c-baeshra",
+    "type": "knows",
+    "label": "conheceu o rapaz Ssarik-Ro; sabe o nome de nascimento",
+    "source": "dm"
+  },
+  {
+    "from": "c-durth-mirimm",
+    "to": "c-baeshra",
+    "type": "enemy",
+    "label": "liderou o ataque ao clã Ro há ~50 anos; a adaga do altar é dele",
+    "source": "dm"
+  },
+  {
+    "from": "c-baeshra",
+    "to": "c-durth-mirimm",
+    "type": "wantsFrom",
+    "label": "a cabeça — se o Lucan pegar na adaga",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lucan",
+    "to": "c-durth-mirimm",
+    "type": "rival",
+    "label": "PROPOSTA: segundo alvo do duelo de Jigau, se pegar na adaga",
     "source": "dm"
   }
 ]

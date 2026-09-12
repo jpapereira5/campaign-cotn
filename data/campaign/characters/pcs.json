@@ -105,9 +105,9 @@
       "ch3",
       "ch7"
     ],
-    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Semideus recente: lizardfolk de escamas brancas, olhos de bronze e chifres; escravo levado do Pântano do Véu-Quebrado; gladiador em Asarius (há uma arena com estátua dele); ascendeu por um wish — e o wish foi de Vecna. Vive dos seguidores e da multidão que grita o nome dele. Símbolo: a própria caveira com chifres. Monta a wyvern desperta Darastrix. Intervém sempre no mesmo instante — quando alguém está prestes a chegar tarde demais — e só fala a quem está à beira. Escolheu o Lucan porque ele saltou por um irmão mais novo: a cena dele, repetida, e desta vez a tempo. É só Baeshra: sem deus antigo por trás do título.",
-    "goal": "Que o campeão vença à frente de gente: desafiar o mais forte de cada sítio (Ayo em Jigau, Verin em Bazzoxan), devorar quando cair, e no fim devorar Alyxian — um semideus a comer um semideus para subir.",
-    "secret": "DM: acredita mesmo que dar poder e fome é bom; está a fabricar mais gente como ele sem o saber. Deve a Vecna o wish da ascensão e paga em activar os obeliscos (plot para depois da campanha); nesta só diz ao Lucan 'vai ver'. Sabe que foi a intervenção dele, através do corpo levantado do Lucan, que salvou o Isco — e usa-o cedo, em Jigau, para o prender. Não corteja o Isco. Renegá-lo é possível e devolve a vida ao Lucan; ele não o diz.",
+    "summary": "cotn_2026 (ficha do jogador + notas DM na Drive; a lenda original da Renata). Semideus recente: lizardfolk de escamas brancas, olhos de bronze e chifres. Nasceu Ssarik-Ro, no clã Ro do Pântano do Véu-Quebrado (a vila que hoje é o Sunken Boneyard); aos 7, estava na Prova da Força quando um destacamento Kryn de Duarte Mirim arrasou a vila — chegou tarde. Ficou meses entre os mortos, fez um altar de criança à lenda do clã (o Grande Devorador, uma lenda de um apocalipse futuro), riscou o próprio nome e escreveu 'Baeshra' por baixo: assumiu a lenda. Depois: vilas humanas, prisão, evasão, esclavagistas em Jorhas, 8 anos de gladiador em Asarius (há uma arena com estátua dele), Zealot pela fé em si e pelos fãs; aos 33, o wish de Vecna. Deus há ~20 anos. Vive dos seguidores e da multidão que grita o nome dele. Símbolo: a própria caveira com chifres. Monta a wyvern desperta Darastrix. Intervém sempre no mesmo instante — quando alguém está prestes a chegar tarde demais — e só fala a quem está à beira. Escolheu o Lucan porque ele saltou por um irmão mais novo: a cena dele, repetida, e desta vez a tempo. É só Baeshra: sem deus antigo por trás do título; Sess'inek não tem nada a ver com ele.",
+    "goal": "Que o campeão vença à frente de gente: desafiar o mais forte de cada sítio (Ayo em Jigau, Verin em Bazzoxan), devorar quando cair, e no fim devorar Alyxian — um semideus a comer um semideus para subir. Se o Lucan pegar na adaga do altar: a cabeça de Duarte Mirim.",
+    "secret": "DM: acredita mesmo que dar poder e fome é bom; está a fabricar mais gente como ele sem o saber. Deve a Vecna o wish da ascensão e paga em activar os obeliscos (plot para depois da campanha); nesta só diz ao Lucan 'vai ver'. Sabe que foi a intervenção dele, através do corpo levantado do Lucan, que salvou o Isco — e usa-o cedo, em Jigau, para o prender. Não corteja o Isco. Renegá-lo é possível e devolve a vida ao Lucan; ele não o diz. No Boneyard cala-se ou diz 'aqui não' — a única vez que tem medo ou vergonha de um sítio. Dizer-lhe o nome de nascimento (Ssarik-Ro) em voz alta fá-lo calar-se.",
     "wants": "Sangue derramado, não rezas; duelos com público; que gritem o nome — o dele ou o do campeão.",
     "fears": "Chegar tarde outra vez.",
     "states": [],
@@ -372,7 +372,13 @@
   },
   {
     "id": "c-morgid",
-    "secret": "DM (backstory do Lucan): conhece a história do rapaz lagarto levado como escravo do pântano que nunca voltou — Baeshra. Facto de mesa (sessão 1): o pai dela era do clã lagarto que o grupo enfrentou; o grupo matou muitos antes de os restantes fugirem. O clã adora Sessinek."
+    "secret": "DM (backstory do Lucan): sabe pelo pai a história de Ssarik-Ro / Baeshra e onde ficava a vila do clã Ro: o Sunken Boneyard. Facto de mesa (sessão 1): 'o pai dele fazia parte do clã que encontraram' — o clã extinto, de quem os ossos são; o clã de Skr'a S'orsk vivia em cima. O grupo matou Skr'a e muitos dos dele; os restantes fugiram.",
+    "name": "Morgid",
+    "tags": [
+      "guia",
+      "lizardfolk"
+    ],
+    "summary": "Batedor de Urzin (N), lizardfolk. Guia dos PCs pelo Brokenveil Marsh; conhece os locais B2-B7 e os perigos de cada um. DM (retcon ao livro: hobgoblin → lizardfolk, homem): nascido em Urzin, filho de Hesskar-Ro, o único sobrevivente do clã Ro — o clã lizardfolk de Baeshra, arrasado há ~50 anos na vila que hoje é o Sunken Boneyard. Conhece a história do rapaz do clã do pai que chegou tarde e 'dizem que voltou deus'."
   },
   {
     "id": "c-tia-zulmira",
@@ -448,5 +454,45 @@
   {
     "id": "c-aboleth-do-mar",
     "secret": "DM (backstory do Isco): com o Isco a bordo fala com ele em vez de com quem traz o cristal. Diz-lhe que o Império o quer — pela natureza de Ruidus dele — e oferece-lhe saber o que o engoliu, se for ter com eles. É o primeiro contacto do Isco com o Império."
+  },
+  {
+    "id": "c-hesskar-ro",
+    "name": "Hesskar-Ro (o pai do Morgid)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "cotn_2026 (notas DM). Lizardfolk velho, 70 e muitos anos, em Urzin; pai do Morgid. O único sobrevivente adulto do clã Ro, arrasado há ~50 anos por um destacamento Kryn de Duarte Mirim na vila que hoje é o Sunken Boneyard. Juntou-se a Urzin. Conheceu o rapaz Ssarik-Ro — Baeshra — em criança; sabe o nome de nascimento. Não viu o altar ser feito: encontrou-o anos depois, numa volta à vila, e percebeu quem o fez pelo nome riscado; só soube no que o rapaz se tornou ao ouvir o nome numa história de gladiadores.",
+    "goal": "Que o filho não volte àquela vila. Que ninguém mais chegue tarde.",
+    "secret": "DM: sabe o nome de nascimento de Baeshra, Ssarik-Ro — dizê-lo em voz alta é a única coisa que faz o deus calar-se dentro do Lucan.",
+    "wants": "Paz; que o deixem em Urzin.",
+    "fears": "O nome do rapaz numa boca de drow.",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "lizardfolk",
+      "baeshra"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-skra-sorsk",
+    "states": [
+      {
+        "fromBeat": "b-0-marsh-crossing",
+        "state": "Morto na sessão 1; os restantes do clã dispersaram"
+      }
+    ],
+    "secret": "DM: o clã dele vivia em cima dos ossos do clã Ro, o clã de Baeshra, e nunca tocou no altar de criança do Boneyard — por medo. Sess'inek e Baeshra não têm nada a ver um com o outro."
+  },
+  {
+    "id": "c-durth-mirimm",
+    "secret": "Fala com Rosohna por um espelho de obsidiana nos seus aposentos do Salão de Pedra. Sabe do laboratório de Velnari e dá-lhe cobertura: quer explorar o potencial bélico do rubídio e descobrir a fonte. Traz tinta invisível e a chave do arsenal. DM (backstory do Lucan): há ~50 anos, jovem oficial Kryn, liderou o ataque ao clã Ro, lizardfolk do Véu-Quebrado, na vila que hoje é o Sunken Boneyard; a adaga drow incrustada do altar de Baeshra é dele. Baeshra quer-lhe a cabeça — e a mesa deve-lhe favores. Não sabe que o rapaz do clã Ro voltou deus."
+  },
+  {
+    "id": "c-trush",
+    "secret": "Só os ritos na Ritual Stone o mantinham a raia; sem eles, a possessão é inevitável. DM: está preso dentro do obelisco negro que é a Ritual Stone (um dos três obeliscos de Vecna); o pacto de Bol'bara é com o prisioneiro do obelisco."
   }
 ]

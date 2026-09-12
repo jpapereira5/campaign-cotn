@@ -58,7 +58,7 @@
   {
     "id": "r-pc-lucan-obeliscos",
     "list": "Segredos dos PCs",
-    "text": "Há três obeliscos negros (mar, Pântano do Véu-Quebrado, Betrayers' Rise) que rebobinam tempo. Ao Lucan mostram a morte dele, um pedaço por obelisco; cada toque acorda-os um pouco.",
+    "text": "Há três obeliscos negros (o do mar; a Ritual Stone de Bol'bara no Pântano do Véu-Quebrado; Betrayers' Rise) que rebobinam tempo e têm cada um uma entidade presa (na Ritual Stone, Trush). Ao Lucan mostram a morte dele, um pedaço por obelisco; cada toque acorda-os um pouco.",
     "clues": [],
     "source": "dm"
   },
@@ -73,6 +73,13 @@
     "id": "r-pc-isco-alimento",
     "list": "Segredos dos PCs",
     "text": "A caravana Naiat do Quasi caça Ruidusborn como alimento da última fase do Filho Ctónico. O Isco é o único da mesa: é alvo em Marquet, e o Quasi é quem percebe.",
+    "clues": [],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-baeshra-cla-ro",
+    "list": "Segredos dos PCs",
+    "text": "Baeshra nasceu Ssarik-Ro no clã Ro, na vila que é hoje o Sunken Boneyard; o clã foi arrasado há ~50 anos por um destacamento Kryn de Duarte Mirim. O altar de criança no Boneyard (nome riscado, 'Baeshra' por baixo, a adaga drow) é obra dele aos 7 anos. Hesskar-Ro, o pai do Morgid, é o único sobrevivente.",
     "clues": [],
     "source": "dm"
   }
