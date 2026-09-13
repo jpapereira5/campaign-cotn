@@ -9,7 +9,7 @@
   {
     "id": "r-pc-isco-ruidusborn",
     "list": "Segredos dos PCs",
-    "text": "O Isco sabe que é Ruidusborn. O que não sabe: transforma-se sem controlo sob os flashes de Ruidus; a licantropia veio do Caçador, um Blood Hunter das Claret Orders que comeu dentro do aboleto, torcida pela Lua Vermelha e pelo sangue genasi — e o ofício ficou-lhe em sonhos.",
+    "text": "O Isco sabe que é Ruidusborn. O que não sabe: transforma-se sem controlo sob os flashes de Ruidus; a licantropia veio do Caçador, um Blood Hunter das Claret Orders que vinha avisá-lo e recrutá-lo antes que outros o apanhassem — comeu-o dentro do aboleto, torcida pela Lua Vermelha e pelo sangue genasi, e o ofício ficou-lhe em sonhos.",
     "clues": [],
     "source": "dm"
   },
@@ -59,7 +59,9 @@
     "id": "r-pc-lucan-obeliscos",
     "list": "Segredos dos PCs",
     "text": "Há três obeliscos negros (o do mar; a Ritual Stone de Bol'bara no Pântano do Véu-Quebrado; Betrayers' Rise) que rebobinam tempo e têm cada um uma entidade presa (na Ritual Stone, Trush). Ao Lucan mostram a morte dele, um pedaço por obelisco; cada toque acorda-os um pouco.",
-    "clues": [],
+    "clues": [
+      "b-0-ritual-stone-lucan"
+    ],
     "source": "dm"
   },
   {
@@ -80,7 +82,10 @@
     "id": "r-pc-baeshra-cla-ro",
     "list": "Segredos dos PCs",
     "text": "Baeshra nasceu Ssarik-Ro no clã Ro, na vila que é hoje o Sunken Boneyard; o clã foi arrasado há ~50 anos por um destacamento Kryn de Duarte Mirim. O altar de criança no Boneyard (nome riscado, 'Baeshra' por baixo, a adaga drow) é obra dele aos 7 anos. Hesskar-Ro, o pai do Morgid, é o único sobrevivente.",
-    "clues": [],
+    "clues": [
+      "b-0-boneyard-altar",
+      "b-0-hesskar-ro"
+    ],
     "source": "dm"
   }
 ]

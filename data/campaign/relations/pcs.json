@@ -262,7 +262,7 @@
     "from": "c-cacador-afogado",
     "to": "c-pc-isco",
     "type": "knows",
-    "label": "comeu-o; herdou-lhe o ofício em sonhos",
+    "label": "vinha avisá-lo e recrutá-lo; o ancião apanhou-o primeiro; o Isco comeu-o e herdou-lhe o ofício",
     "source": "dm"
   },
   {
@@ -326,6 +326,27 @@
     "to": "c-durth-mirimm",
     "type": "rival",
     "label": "PROPOSTA: segundo alvo do duelo de Jigau, se pegar na adaga",
+    "source": "dm"
+  },
+  {
+    "from": "f-claret-orders",
+    "to": "c-pc-isco",
+    "type": "wantsFrom",
+    "label": "recrutá-lo antes que outros o apanhem",
+    "source": "dm"
+  },
+  {
+    "from": "c-aboleto-anciao",
+    "to": "c-cacador-afogado",
+    "type": "knows",
+    "label": "comeu-o; ficou com o que ele sabia da Ordem e do Isco",
+    "source": "dm"
+  },
+  {
+    "from": "c-claret-segundo",
+    "to": "c-pc-isco",
+    "type": "wantsFrom",
+    "label": "irmão ou monstro: decidir",
     "source": "dm"
   }
 ]

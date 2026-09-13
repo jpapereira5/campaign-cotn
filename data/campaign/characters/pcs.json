@@ -169,7 +169,7 @@
     "chapters": [],
     "summary": "cotn_2026 (ficha do jogador + notas DM na Drive). Colossal, milénios de crescimento, maior do que qualquer navio; engoliu o Isco para lhe absorver a natureza rubídica. Memória hereditária perfeita: lembra-se de tudo o que comeu, incluindo dos dois irmãos. A única testemunha do que aconteceu lá dentro. O Isco suspeita que seja Uk'otoa (nunca confirmar).",
     "goal": "",
-    "secret": "DM: a memória hereditária guarda o Caçador (o Blood Hunter afogado que o Isco comeu) e o que o corpo levantado do Lucan fez lá dentro. É a única testemunha do resgate. A memória é alcançável pela via marítima ou por Cael Morrow.",
+    "secret": "DM: a memória hereditária guarda o Caçador (o Blood Hunter afogado que o Isco comeu) e o que o corpo levantado do Lucan fez lá dentro. É a única testemunha do resgate. A memória é alcançável pela via marítima ou por Cael Morrow. Sabe da Ordem e do sonho que apontou o Isco: comeu quem vinha avisá-lo.",
     "wants": "",
     "fears": "",
     "states": [],
@@ -415,9 +415,9 @@
       "ch6",
       "ch7"
     ],
-    "summary": "cotn_2026 (notas DM). Um Blood Hunter das Claret Orders, licantropo, que caçava o aboleto ancião e perdeu: afogado, engolido, comido pelo Isco sem saber que era gente. A licantropia dele deu o mecanismo; a Lua Vermelha e o sangue genasi deram a forma errada. O ofício ficou no Isco em sonhos — hemocraft por osmose. Aparece só nas visões, e as visões nunca lhe dão o nome. Objectivo herdado: acabar o que ele começou.",
-    "goal": "Que o ancião morra.",
-    "secret": "DM: a Ordem não sabe que o Isco existe.",
+    "summary": "cotn_2026 (notas DM). Um Blood Hunter das Claret Orders, licantropo, que vinha ter com o Isco para o avisar de que era Ruidusborn e recrutá-lo antes que outros o apanhassem (a Ordem soube dele por um sonho: um rapaz pendurado como isco). O aboleto ancião, que também ia atrás do Isco, apanhou primeiro quem vinha avisá-lo — dias antes de Belmiro cortar a corda. Afogado, engolido, comido pelo Isco sem saber que era gente. A licantropia dele deu o mecanismo; a Lua Vermelha e o sangue genasi deram a forma errada. O ofício ficou no Isco em sonhos — hemocraft por osmose. Aparece só nas visões, e as visões nunca lhe dão o nome; mostram-no a vir ter com ele: 'eu vinha avisar-te'.",
+    "goal": "Chegar ao Isco antes dos outros. Não chegou.",
+    "secret": "DM: o ancião ficou com o que ele sabia (memória hereditária): a Ordem, o sonho, o nome do Isco. A Ordem deu-o por perdido e manda outro.",
     "wants": "",
     "fears": "",
     "states": [],
@@ -494,5 +494,28 @@
   {
     "id": "c-trush",
     "secret": "Só os ritos na Ritual Stone o mantinham a raia; sem eles, a possessão é inevitável. DM: está preso dentro do obelisco negro que é a Ritual Stone (um dos três obeliscos de Vecna); o pacto de Bol'bara é com o prisioneiro do obelisco."
+  },
+  {
+    "id": "c-claret-segundo",
+    "name": "O segundo da Ordem (Claret Orders)",
+    "kind": "npc",
+    "factions": [
+      "f-claret-orders"
+    ],
+    "chapters": [
+      "ch4",
+      "ch5"
+    ],
+    "summary": "cotn_2026 (notas DM). O membro das Claret Orders enviado depois de o Caçador ser dado por perdido no mar. Chega a meio da campanha, em Ank'Harel, e encontra um Isco meio-tubarão com o ofício de um dos seus nas mãos sem ter sido treinado. Tem de decidir se ele é irmão ou monstro. Nome por decidir.",
+    "goal": "Encontrar o Ruidusborn do sonho e trazê-lo — ou pará-lo.",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "cotn_2026",
+      "claret-orders"
+    ],
+    "source": "dm"
   }
 ]

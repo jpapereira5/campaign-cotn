@@ -1,0 +1,135 @@
+[
+  {
+    "id": "b-0-boneyard-altar",
+    "title": "PROPOSTA · O altar de criança no Boneyard",
+    "arcs": [
+      "a-pc-lucan",
+      "a-prologue"
+    ],
+    "chapter": "ch0",
+    "order": 22,
+    "location": "l-sunken-boneyard",
+    "participants": [
+      "c-pc-lucan",
+      "c-morgid",
+      "c-baeshra"
+    ],
+    "summary": "Com o clã de Sess'inek morto ou disperso, o Boneyard pode ser investigado — no caminho ou no regresso. Entre os crânios de tartaruga, um nicho que ninguém tocou: um crânio de lizardfolk com chifres esculpido em osso de tartaruga, um dente de leite, uma escama branca, um nome gravado e riscado — Ssarik-Ro — e 'Baeshra' escrito por baixo; uma adaga drow incrustada, velha de décadas. Três camadas: o Lucan reconhece os chifres (a estátua de Asarius); o Morgid pára e conta a história do pai — 'havia aqui outro clã; um rapaz chegou tarde; dizem que voltou deus'; e a voz de Baeshra cala-se, ou diz 'aqui não'. Insight sobre o Morgid: está a falar do clã do pai.",
+    "reveals": [
+      "r-pc-baeshra-cla-ro"
+    ],
+    "requires": [
+      "b-0-marsh-crossing"
+    ],
+    "choices": [
+      {
+        "label": "Pegar na adaga",
+        "outcome": "Baeshra acorda com fome de outra coisa — vingança; sussurra o nome de quem a usou quando o Lucan a segurar (flag lucan-adaga-duarte). O duelo de Jigau ganha Duarte Mirim como segundo alvo.",
+        "leadsTo": [
+          "b-0-hesskar-ro"
+        ]
+      },
+      {
+        "label": "Dizer o nome em voz alta (Ssarik-Ro)",
+        "outcome": "A voz cala-se por um dia inteiro. O Lucan descobre a única coisa que o faz calar.",
+        "leadsTo": []
+      },
+      {
+        "label": "Deixar tudo como está",
+        "outcome": "O Morgid agradece. Nada muda; a adaga fica para quem voltar.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "PROPOSTA. Não explicar quem é Duarte aqui — só 'um general drow'; o nome sai em Urzin (Hesskar) ou em Jigau (a adaga na mão, à frente dele). Pista 1 de r-pc-baeshra-cla-ro. A sessão 1 já jogou o combate; isto é o que se encontra a investigar depois.",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-ritual-stone-lucan",
+    "title": "PROPOSTA · A pedra que rebobina: a voz no escuro",
+    "arcs": [
+      "a-pc-lucan",
+      "a-prologue"
+    ],
+    "chapter": "ch0",
+    "order": 31,
+    "location": "l-ritual-stone",
+    "participants": [
+      "c-pc-lucan",
+      "c-baeshra",
+      "c-trush",
+      "c-bolbara"
+    ],
+    "summary": "Junto ao menhir negro o tempo abranda: uma libélula parada no ar, a lama a fechar-se devagar. Baeshra, pela primeira vez, pede algo que não é sangue: 'vai ver'. Se o Lucan tocar na pedra, rebobina-o por segundos — o escuro, a água, a voz ('o mar devorou-te') e a mão dele a aceitar. Quando larga, a pedra está um grau mais quente e algo lá dentro (Trush) mexeu-se; se Bol'bara já foi salva e estiver presente, olha para ele e para a pedra e não diz nada. Se já passaram pela pedra, pode ser no regresso a Urzin.",
+    "reveals": [
+      "r-pc-lucan-obeliscos"
+    ],
+    "requires": [
+      "b-0-ritual-stone"
+    ],
+    "choices": [
+      {
+        "label": "Tocar",
+        "outcome": "A memória (a voz), e o obelisco acorda um pouco — conta para o plot de Vecna.",
+        "leadsTo": []
+      },
+      {
+        "label": "Não tocar",
+        "outcome": "Baeshra fica calado o resto do dia, ofendido.",
+        "leadsTo": []
+      },
+      {
+        "label": "Tocar duas vezes",
+        "outcome": "A segunda mostra o salto; Trush fala pela pedra uma frase a Bol'bara.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "PROPOSTA. Pista 1 de r-pc-lucan-obeliscos. Não revelar que é um obelisco: só 'a pedra faz o que o pilar do mar faz', para quem já ouviu falar do pilar do mar (cap. 2).",
+    "source": "dm"
+  },
+  {
+    "id": "b-0-hesskar-ro",
+    "title": "PROPOSTA · Hesskar-Ro: o velho que conheceu o rapaz",
+    "arcs": [
+      "a-pc-lucan",
+      "a-prologue"
+    ],
+    "chapter": "ch0",
+    "order": 85,
+    "location": "l-urzin",
+    "participants": [
+      "c-hesskar-ro",
+      "c-morgid",
+      "c-pc-lucan"
+    ],
+    "summary": "Em Urzin, o Morgid leva o Lucan (ou o Lucan procura-o) ao pai: um lizardfolk velho, de escamas baças, numa cabana sobre uma tartaruga pequena. Hesskar olha para os olhos negros do Lucan e sabe. Conta o que só ele sabe: o clã Ro, a vila em cima dos crânios, o rapaz Ssarik-Ro que foi à Prova da Força e voltou para uma vila queimada; o destacamento drow e o oficial que o liderava — Duarte Mirim, 'que hoje manda em Jigau' (se o Lucan trouxe a adaga, Hesskar reconhece-a); o altar que encontrou anos depois; que soube do que o rapaz se tornou por uma história de gladiadores. E a pergunta que não faz em voz alta e a Renata ouve: porquê tu, e não eu, que também cheguei tarde? Pode dizer-lhe: 'se alguma vez precisares que ele se cale, diz-lhe o nome'.",
+    "reveals": [
+      "r-pc-baeshra-cla-ro"
+    ],
+    "requires": [
+      "b-0-return-to-urzin"
+    ],
+    "choices": [
+      {
+        "label": "Perguntar pelo nome de nascimento",
+        "outcome": "Dá-o: Ssarik-Ro (se não o leram no altar).",
+        "leadsTo": []
+      },
+      {
+        "label": "Mostrar a adaga",
+        "outcome": "Hesskar diz o nome de Duarte Mirim e pede que a não leve a Jigau.",
+        "leadsTo": [
+          "b-0-departure"
+        ]
+      },
+      {
+        "label": "Não ir ter com ele",
+        "outcome": "O Morgid guarda a história; Hesskar aparece na despedida a olhar para o Lucan.",
+        "leadsTo": [
+          "b-0-departure"
+        ]
+      }
+    ],
+    "notes": "PROPOSTA. Pista 2 de r-pc-baeshra-cla-ro (a 3.ª: o seguidor da tatuagem em Jigau, ou a estátua de Asarius por um gladiador velho). Cria tensão directa com a carta a Duarte Mirim que o grupo leva.",
+    "source": "dm"
+  }
+]
