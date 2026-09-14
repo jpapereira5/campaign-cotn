@@ -165,6 +165,8 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 - **Insanidade**: cada consequência descoberta dá pontos como qualquer experiência traumática (tabela abaixo). Sem tabela nova.
 - Derreter o ruidium no fim do livro **não** lhe desfaz a forma: foi a Lua Vermelha, não o rubídio.
 
+**À mesa (sessão 2, #83):** a 1.ª transformação (bonus action) torna as feições mais de tubarão; a 2.ª dá +7 PV temporários e +1 AC (17) e fá-lo crescer. Mordida com descarga eléctrica (faíscas entre os dentes): 14 de dano num acerto; quando falha morde a língua e leva 3. Em lama profunda pode espetar a greatsword no chão para sacar a besta ligeira sem gastar acção (decisão do DM).
+
 ## A Adaga de Duarte Mirim (DM)
 
 **Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excepcional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
@@ -188,6 +190,8 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 - **Em Rage** quer trincar um adversário caído. Roleplay, sem obrigação.
 - **Renegar Baeshra** é possível e devolve-lhe a vida (deixa de ser Dhampir; perde a Fera e a fome). Como se faz, ninguém sabe — nem ele. Descoberta de mesa.
 - **Os obeliscos** (mar; a Ritual Stone de Bol'bara no pântano; Betrayers' Rise): se lhes tocar, rebobinam-no por segundos e mostram-lhe um pedaço da noite em que morreu. Sem custo visível; cada toque acorda o obelisco um pouco — e o que está preso lá dentro (na Ritual Stone, Trush).
+
+- **À mesa (sessão 2, #83):** a Rage é uma «Tranquil Fury», raiva calma: olhos vermelho-escuro, dobra-se em dores e cresce-lhe uma cauda comprida com espigões ósseos na ponta (verde-escura/azul-marinho), alcance 10 pés, 2d8+4 piercing. Reacção: a cauda soma 1d8 à AC contra um ataque que a jogadora vê vir. Reckless Attack em uso.
 
 ## A máscara do Quasi (DM; base na ficha do Pedro)
 
@@ -220,6 +224,22 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 | 91–100 | A criatura é tomada por um impulso irracional (decidido pelo DM) — por exemplo beber veneno, matar um aliado, partir o próprio espelho, ou virar a ampulheta outra vez. |
 
 Por definir (não está no documento): o limiar de pontos que dispara a loucura temporária e se existe loucura prolongada/indefinida (o PDF do Drive pode ter isso).
+
+**À mesa (sessão 2, #83) — como foi anunciado aos jogadores:** ganham pontos ao ver coisas que nenhum mortal devia ver, ao cair a 0 PV, ou por trauma que o próprio jogador declare em roleplay («isto seria traumatizante para a minha personagem»). Aos 10, 20 e 30 pontos recebem um add-on de roleplay tirado ao acaso de uma tabela, sem penalização mecânica («começas a ficar um bocadinho mais desconfiado…»). Aos 40 a mente parte: o jogador perde o controlo da personagem, que passa a NPC — «o maluquinho da aldeia que balbucia». Recuperação: uma semana de downtime num sítio sagrado ou calmo (retiro), à Darkest Dungeon — álcool, jogo, bordel, reza, flagelação. Referência dos jogadores: o insight do Bloodborne (quanto mais sabes, mais coisas eldritch vês, e elas passam a ver-te).
+
+## Ressurreição (DM, sessão 2)
+
+Existe — há feitiços para isso —, mas «voltam, mas não voltam inteiros»: há qualquer coisa que já não regressa como era. Detalhes por definir caso a caso; vale também para NPCs («quando o Alberto voltar já lhe fizemos a perna no refogado»).
+
+## Combate: flanking, terreno e vocabulário (DM, sessões 1–2)
+
+- **Flanking** dá vantagem (regra opcional em uso; descoberta a meio da sessão 2 e aplicada a partir daí a PCs e monstros).
+- **Terreno**: a água do pântano é terreno difícil excepto para quem tem swim speed; terra firme de acampamento não é.
+- **Vocabulário do DM**: «ferido» só se usa quando um NPC/monstro está abaixo de 50% de vida; acima disso está «magoado» (lightly damaged).
+- **Concentração de monstros**: aplica-se como aos PCs (Con save DC 10 ou metade do dano) — o Conjure Animals de Skr'a S'orsk caiu a um Vicious Mockery.
+- **Fuga forçada** (Dissonant Whispers) provoca ataque de oportunidade: a criatura usa o próprio movimento (decisão do DM).
+- **Silvery Barbs** (interpretação da mesa): o inimigo rola um terceiro d20 e usa o mais baixo entre esse e o que lhe garantiu o sucesso.
+- **Concurso de cerveja** (sessão 1): bebe-se 2 × mod. de CON sem teste; a partir daí Con save DC 10 + n.º de cervejas acima do limite; à 3.ª falha vomita e cai. Cerveja da Carapaça Estalada: 2 pc.
 
 ## Medalhas do Festival, Amuleto de Honra, Mote of Possibility (DM)
 

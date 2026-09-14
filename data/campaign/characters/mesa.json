@@ -116,7 +116,7 @@
     "chapters": [
       "ch0"
     ],
-    "summary": "Hobgoblin de 60 anos, curandeira do Templo das Cinzas; encurvada mas de presença marcante, mãos ossudas de dedos longos, olhos brancos sem pupilas, tatuagens tribais desbotadas à volta dos olhos e da boca, pintura escura do queixo ao pescoço, cabelo grisalho preso com barro; manto de peles tingidas de lama e cinza, colares de dentes e caveiras de pássaro, bastão torto entalhado com cenas de rituais e guerras. Sábia, inflexível, fala em frases curtas e simbólicas; despreza modernidades; tem verdadeiro carinho pelos recém-nascidos e pelos desesperados. Conduz o Ritual da Libertação: \"Bane quer moldar. Melora deixa crescer. Nós escolhemos escutar.\"",
+    "summary": "Hobgoblin de 60 anos, curandeira do Templo das Cinzas; encurvada mas de presença marcante, mãos ossudas de dedos longos, olhos brancos sem pupilas, tatuagens tribais desbotadas à volta dos olhos e da boca, pintura escura do queixo ao pescoço, cabelo grisalho preso com barro; manto de peles tingidas de lama e cinza, colares de dentes e caveiras de pássaro, bastão torto entalhado com cenas de rituais e guerras. Sábia, inflexível, fala em frases curtas e simbólicas; despreza modernidades; tem verdadeiro carinho pelos recém-nascidos e pelos desesperados. Conduz o Ritual da Libertação: \"Bane quer moldar. Melora deixa crescer. Nós escolhemos escutar.\" A mesa (sessão 1, #81, 2026-09-02): Recebeu o grupo sem olhar, a espalhar folhas de uma bolsa à cintura em redor da grande pedra central rodeada de tótens de osso a arder («Quem são vocês?» — «Boa tarde. Ela não está cá.» — «Somos nós que vamos procurá-la.»). Só depois se virou e se viu o visual todo. Foi a uma parede buscar o colar de grandes conchas brancas que Bolbara usa em rituais e cerimónias e deu-o ao Isco, para ele lhe fixar o cheiro. Explicou que Bolbara «foi fazer o que fazemos desde sempre: procurar ingredientes para os nossos rituais», nada de diferente. Mostrou a bancada de trabalho ao Quasi (alquimista): uma tábua sobre mais tábuas com folhas, plantas, potes de barro com misturas, um grande barril de água e um grande barril de terra lado a lado, mais recipientes com cinzas — «tudo muito rústico, elementos naturais do pântano», para além da compreensão dele. Quasi (Arcana 18) percebeu que o fumo, a pedra e as folhas significam que algo está a ser preparado. Sentença dela: «O que procuras não está aí. Ela foi à procura de algo que só existe no pântano. Algo muito importante. Ela te dirá.» Morgid, mudo, mostrou-lhe o mapa que ela não vê — comunicam por toque no ombro — e ela: «Certo. Leva-os lá. Mais do que isso, espero que não seja necessário.» Recusou fazer poções à pressa («precisava de estudar melhor o que tenho aqui; algumas horas»). Despediu-os com «Que Melora vos acompanhe. Boa sorte.»",
     "goal": "Libertar os recém-nascidos goblinóides da marca de Bane através de Melora.",
     "secret": "",
     "wants": "Que Urzin continue a escutar Melora e não Bane.",
@@ -266,7 +266,7 @@
     "chapters": [
       "ch0"
     ],
-    "summary": "Goblin manca, dona da Carapaça Estalada, a taberna pobre da zona baixa de Urzin; tem uma cicatriz que parece um sorriso extra, grita mais do que fala e usa um garfo como arma e talher. Serve copos rachados de cerveja preta e sopa de rã. \"Banho? Claro. O último saiu há uma hora, a água ainda está quentinha!\"",
+    "summary": "Goblin manca, dona da Carapaça Estalada, a taberna pobre da zona baixa de Urzin; tem uma cicatriz que parece um sorriso extra, grita mais do que fala e usa um garfo como arma e talher. Serve copos rachados de cerveja preta e sopa de rã. \"Banho? Claro. O último saiu há uma hora, a água ainda está quentinha!\" A mesa (sessão 1, #81, 2026-09-02): Pediu 10 po pelo dormitório («quartos? não; camas? temos camas de rede — um quarto com um monte de camas»), riu-se da oferta de 3 po. Aceitou a música do Quasi em troca da estadia depois de o ver tocar alaúdo — ficou de boca aberta com o garfo na mão e passou de 1 noite para 2 (ele pediu 3). Cerveja a 1 pp («vocês sabem quão difícil é fazer cerveja no meio desta merda?»), baixou para 2 pc com a intimidação (10) do Isco. Quando as canecas acabaram serviu as cervejas do concurso em barro, madeira, crânios cortados a meio, baldes e uma bota. Apontava com o garfo para o gnomo do tambor como exemplo de freguês que não paga.",
     "goal": "Manter a taberna aberta.",
     "secret": "",
     "wants": "",
@@ -2524,6 +2524,270 @@
     "tags": [
       "mesa",
       "bazzoxan"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-jevan",
+    "name": "Jevan (soldado drow da Dinastia)",
+    "kind": "npc",
+    "factions": [
+      "f-kryn"
+    ],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Soldado drow da Dinastia Kryn destacado em Urzin. Pele púrpura clara, armadura de um metal escuro, lança sempre na mão (pegou na caneca de cerveja com a mão da lança). Foi ele que interrogou o grupo à chegada, depois de um hobgoblin do passadiço de baixo mandar chamar um soldado por serem forasteiros: «Quem são vocês, o que fazem aqui? Apresentem-se.» Deixou-os subir com um «só não me arranjem chatices». Voltou à Carapaça Estalada a meio da actuação do Quasi («Vocês três, preciso falar convosco quando ele acabar»), aceitou beber com eles e levou-os para fora, longe de ouvidos: contou que Olomão Quebra-Sol está fora, que quem manda é Bufal II («uma porta seria mais inteligente do que ele»), que a xamã da vila desapareceu e que a vila prefere forasteiros no resgate — «se forem apanhados, ninguém percebe que vieram daqui». Insight (15/16): enfadado, cansado, isto está acima do pay grade dele; foi destacado «por honra e lealdade à Dinastia para a puta que pariu no meio de um pântano»; cara de «por favor não me dêem mais trabalho». Quando o Quasi deixou cair a palavra «Miríade», ficou a olhá-lo demoradamente; não confirmou nem negou, mas disse que quem procura «trabalhos fora do vulgar» vai à Névoa do Brejo (7 tartarugas), «os clientes lá costumam ser bem… diferentes», e sorriu. Se fizerem o trabalho «mais do que satisfatoriamente» talvez volte a falar. Os jogadores chamam-lhe «Giovanni»/«Jebani» por gozo. Nas notas do DM: Jevan Do'Urden.",
+    "goal": "Cumprir o destacamento sem sarilhos; ver a xamã de volta sem que Urzin apareça no caso.",
+    "secret": "Conhece o nome Miríade e sabe que a Névoa do Brejo é a porta para quem quer falar com eles.",
+    "wants": "Sossego; que não lhe dêem mais trabalho.",
+    "fears": "O Império; mais trabalho.",
+    "states": [
+      {
+        "fromBeat": "b-0-mission-urzin",
+        "state": "Contacto discreto do grupo em Urzin"
+      }
+    ],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "kryn",
+      "drow",
+      "guarda"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-klag",
+    "name": "Klag (hobgoblin da Carapaça Estalada)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-carapaca-estalada",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Hobgoblin de pele vermelha, armadura remendada com pedaços de outros materiais, com uma longsword enorme e enferrujada à cintura — «limada muitas vezes para tentar tirar a ferrugem e sempre a voltar a enferrujar, cheia de sangue», pesada, precisa de força para se manusear. Bebia com outro hobgoblin (Azrok) na Carapaça Estalada. Aceitou o concurso de cerveja lançado pelo Lucan; à 7.ª cerveja vomitou para dentro da caneca e depois para o chão (o vómito escorreu pelas frestas das tábuas) e ficou inconsciente. O Isco limpou-lhe a bolsa: 2 pp, 4 pc e duas rações de tiras de carne fumada. O Quasi limpou-o com Prestidigitation «por boa vontade» e sentou-o numa cadeira. O nome Klag vem das notas do DM; à mesa nunca foi dito.",
+    "goal": "Beber.",
+    "secret": "Não sabe que foi roubado.",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "hobgoblin",
+      "taberna"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-azrok",
+    "name": "Azrok (capitão hobgoblin de uma tartaruga)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Hobgoblin, capitão de uma das tartarugas de Urzin, segundo Jevan («esse a quem estás a mexer é o Azrok… se fosse a ti…»). Mais armado e com mais cicatrizes do que o Klag, cabelo apanhado atrás (man bun), armadura remendada. Segundo adversário no concurso de cerveja: aguentou vários testes, mas caiu ao chão ao mesmo tempo que o Lucan (que tirou dois 20 naturais seguidos e, «só pelo flavor», caiu depois dele). Pelo acordo, o perdedor pagava as cervejas. O Isco sacou-lhe 1 pp enquanto estava inconsciente; foi visto por Jevan, que só avisou. Potencial rancor se se lembrar da noite.",
+    "goal": "Manter a autoridade sobre a sua tartaruga.",
+    "secret": "Foi roubado e humilhado por forasteiros; não se lembra de tudo.",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "hobgoblin",
+      "capitao"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-ugluk",
+    "name": "Uglúk (orc da Carapaça Estalada)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-carapaca-estalada",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Orc de quase dois metros, músculos «arrebentados por todo o lado», braços cheios de cicatrizes, a comer sopa de rã sozinho numa mesa onde só cabe ele. Era a pessoa com ar mais forte da taberna; parou de comer para ver o concurso, encostado para trás, e quando o Isco lhe mandou uma cerveja olhou-o com os caninos de fora — não participou. O nome Uglúk vem das notas do DM.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "orc",
+      "taberna"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-hobgoblin-velho-do-banquinho",
+    "name": "Velho hobgoblin do banquinho («Garfield»)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Hobgoblin grisalho e barbudo, pele laranja com muitas rugas («uma laranja com muitas rugas»), sentado num banquinho numa das tartarugas com uma caneca ao lado, a ver a paisagem. Primeiro contacto do grupo em Urzin (Investigation 14 do Isco). Não percebeu «estaleiro» nem «estalagem» («Estalagens? Nós não temos… passar a noite? bem, talvez na Carapaça Estalada, três tartarugas nesta direcção»). Quando o Quasi perguntou por «uma xamã», semicerrou os olhos e olhou-o de cima a baixo: «Porque perguntas? E porque é que alguém de fora queria falar com ela?»; engoliu a desculpa dos ingredientes (Deception 16) e mandou-os ao Templo das Cinzas, «cinco tartarugas na outra direcção». Avisou: «tenham cuidado com os Kryn… estão literalmente na zona dos Kryn», e riu-se de «cem tartarugas»: «ainda não temos cem, talvez daqui a umas gerações». Alcunha dada pelos jogadores: Garfield. Nome real por definir.",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "hobgoblin"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-alberto-gnomis",
+    "name": "Alberto, «Gnomis» (o gnomo do tambor)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Gnomo velho, suíças e barba grandes e despenteadas, cara vermelha de bebida, que tocava tambor com os punhos, sem ritmo nenhum, na Carapaça Estalada. Alquimista que trabalhava numa oficina para um feiticeiro no Império Dwendaliano («mostrava componentes mágicos», «várias poções diferentes»); enganou-se numa receita ou feitiço e apareceu de repente em Urzin há semanas. Improvisou um tambor e pôs-se a tocar para não repararem nele — «tem funcionado até agora, mas eu quero ir para casa»; tem calos e sangue nos dedos. Sem dinheiro; tem um medalhão de metal pobre que abre e mostra o retrato de uma gnoma mais jovem (quem é, por definir); traz alchemist's supplies. Meio embriagado, soluça. Deu primeiro o nome falso «Gnomis»; o verdadeiro é Alberto («não digas em voz alta!»). Ofereceu-se para ajudar no que for possível em troca de sair dali — quer ir ao Forte Ventura porque lá há gente do Império. Na audiência com Bufal agarrou-se à perna do Quasi a fingir de criado e aceitou uma adaga enferrujada («não tenho força para pegar mais nenhuma»). Ficha da mesa: STR 9 (−1), DEX +2 (Acrobatics), 25 pés («pernas curtas»). A mesa (sessão 2, #83, 2026-09-09): Começou o combate de cara na lama a implorar «por favor, não me faça mal», correu para o Quasi («Esta é a parte em que fugimos, não é?»), sobreviveu ao aperto de uma cobra (6 de dano), escapou com Acrobatics e atirou a adaga a 60 pés com desvantagem: acertou a perna esquerda de Skr'a S'orsk (6 de dano, o máximo), quebrou-lhe a concentração e dissipou as oito cobras. «A Conquista de Alberto»; alcunhas «Alberto Bravo», «Alberto o Forte»; MVP da noite. A seguir escondeu-se num arbusto com o cabelo branco e o rabo de fora. A adaga ficou na perna do xamã. Piadas de mesa: «Alberto João Jardim», sessão 3 = funeral do Alberto, sessão 62 = renascimento; precisa de um token a sério.",
+    "goal": "Voltar ao Império (Forte Ventura serve).",
+    "secret": "Por definir: quem é a gnoma do medalhão e para que feiticeiro trabalhava.",
+    "wants": "Sair de Urzin vivo.",
+    "fears": "Tudo o que morde.",
+    "states": [
+      {
+        "fromBeat": "b-0-mission-urzin",
+        "state": "Acompanha o grupo (recrutado na Carapaça Estalada)"
+      }
+    ],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "gnomo",
+      "alquimista",
+      "imperio",
+      "alberto",
+      "acompanhante"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-velran-thumaz",
+    "name": "Velran Thumaz (guarda drow do salão de Bufal)",
+    "kind": "npc",
+    "factions": [
+      "f-kryn"
+    ],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "Notas do DM: den Thumaz, sargento; voz rouca; conta munição de bolts em voz alta por hábito. A mesa (sessão 1, #81, 2026-09-02): Um dos dois guardas drow postados de cada lado das cortinas de pele curtida da tartaruga central. Perguntaram a Jevan se tinha encontrado os forasteiros e afastaram a cortina sem mais perguntas («Boa escolha»). Entre eles falam numa língua que os PCs não percebem (à mesa chamaram-lhe «halfling» a brincar; é Undercommon).",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "kryn",
+      "drow",
+      "guarda"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-ossyra-mirimm",
+    "name": "Ossyra Mirimm (guarda drow do salão de Bufal)",
+    "kind": "npc",
+    "factions": [
+      "f-kryn"
+    ],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "Notas do DM: den Mirimm, batedora; consagrada há pouco, ainda fala do «outro corpo» como se fosse ontem. A mesa (sessão 1, #81, 2026-09-02): A outra guarda das cortinas do salão de Bufal II (ver Velran Thumaz). O apelido Mirimm é o mesmo do Intendente Duarte Mirim (Durth Mirimm) — ligação por decidir.",
+    "goal": "",
+    "secret": "Por decidir: parentesco com Durth Mirimm.",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "kryn",
+      "drow",
+      "guarda"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-forroco",
+    "name": "Forroco (orc serviçal de Bufal II)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-urzin",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Orc do salão de Bufal II. Chamado por Bufal («Forroco!»), trouxe à braçada as «armas premium» prometidas — longswords, short swords, adagas e maças, tudo enferrujado, «nada em boa qualidade mas serve para acertar» — e despejou-as à frente dos PCs. Ninguém pegou em nada, excepto Alberto (uma adaga).",
+    "goal": "",
+    "secret": "",
+    "wants": "",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "urzin",
+      "orc"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-lizardfolk-do-ossario",
+    "name": "Guerreiros lizardfolk do Cemitério Afundado (clã de Skr'a S'orsk)",
+    "kind": "npc",
+    "factions": [],
+    "home": "l-sunken-boneyard",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "A mesa (sessão 1, #81, 2026-09-02): Seis lizardfolk saíram de trás dos grandes ossos quando Morgid assobiou, e cercaram o grupo enquanto o xamã falava. Falam um dracónico silvado. A mesa (sessão 2, #83, 2026-09-09): Retcon do DM: não usam arcos. Cada um traz um escudo de carapaça de tartaruga com duas grandes presas espetadas (com que furam), javelins de osso afiado e um maço feito de um fémur ou costela gigante; adornos e jóias de osso. Multiattack (maço + escudo), AC razoável (12 não acerta, 16 acerta), atacam com vantagem quando flanqueiam. Lançaram cinco javelins ao Lucan (só um acertou) e depois cercaram-no quatro ao mesmo tempo. Dois morreram: um com meia cara arrancada e o cérebro frito pela dentada eléctrica do Isco, outro com a perna arrancada ao joelho pelo Isco quando fugia do Dissonant Whispers. Um mergulhou logo no início; os três últimos fizeram Disengage e desapareceram na água quando viram os colegas mortos à dentada. Corpos, escudos e javelins ficaram por saquear.",
+    "goal": "Defender o ossário e o senhor Sess'inek.",
+    "secret": "",
+    "wants": "",
+    "fears": "O Isco.",
+    "states": [
+      {
+        "fromBeat": "b-0-marsh-crossing",
+        "state": "Dois mortos, quatro dispersos na água (sessão 2, #83)"
+      }
+    ],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "lizardfolk",
+      "encontro",
+      "sessinek"
     ],
     "source": "dm"
   }
