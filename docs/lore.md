@@ -68,7 +68,8 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 **DM:**
 - O **Sunken Boneyard é uma corte dele** (trono, postos, a assinatura de seis riscos gravada no osso), montada em cima do cemitério das tartarugas e dos ossos do clã Ro — o domínio por cima da sobrevivência, que é o conflito canónico dos lizardfolk escrito no chão. Sem sacerdote desde a sessão 1; alguém virá ocupar o trono **depois de o grupo partir**, sem contas a ajustar com eles.
 - **O Baeshra é heresia, não rivalidade**: nunca lhe rezou, e subiu a pregar o contrário (devora, sê a fera, volta ao lodo) com gente da espécie que era do Emperor Lizard.
-- **Só age no seu território.** Nada no pântano, nada em Jigau, nada contra o Baeshra directamente. A resposta é dentro do **Betrayers' Rise** e é virada para o **Lucan**: convertê-lo, com o **regresso à vida** como isco — oferta verdadeira, com custo. O Baeshra aceita o desafio e **aposta o Lucan**. A sala e o custo ficam por desenhar.
+- **Só age no seu território.** Nada no pântano, nada em Jigau, nada contra o Baeshra directamente. A resposta é dentro do **Betrayers' Rise** e é virada para o **Lucan**: convertê-lo, com o **regresso à vida** como isco — oferta verdadeira, com custo. O Baeshra aceita o desafio e **aposta o Lucan**.
+- **O preço**: devorar uma parte viva de si — **o irmão**. Uma parte que não volta a crescer, com o **Lucan** a escolher onde morde por ordem do Sess'inek. A mordida é ao mesmo tempo a renúncia ao Baeshra e o regresso à vida; e o que o Emperor Lizard leva é o próprio Lucan, como **warlock**. Não pede que abandone a doutrina do Baeshra — pede que a **complete**, virada para a família, que é como se sobe numa corte. A sala do Rise fica por desenhar.
 
 ## Geografia
 
