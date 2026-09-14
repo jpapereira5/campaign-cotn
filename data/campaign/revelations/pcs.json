@@ -2,7 +2,7 @@
   {
     "id": "r-pc-lucan-salvou-isco",
     "list": "Segredos dos PCs",
-    "text": "O Lucan morreu naquela água. Foi a intervenção de Baeshra, através do corpo levantado do Lucan — a Fera, a fome, a mordida, as três ao mesmo tempo — que devorou a saída do aboleto e salvou o Isco. O Lucan acha que falhou; o Isco não sabe; Baeshra sabe e diz-lho em Jigau. Só o aboleto ancião pode mostrar como.",
+    "text": "O Lucan morreu naquela água. Foi a intervenção de Baeshra, através do corpo levantado do Lucan — a Fera, a fome, a mordida, as três ao mesmo tempo — que devorou a saída do aboleto e salvou o Isco. O Lucan acha que falhou; o Isco não sabe; Baeshra sabe e nunca o diz em palavras. Só o aboleto ancião, ou os obeliscos, podem mostrar como.",
     "clues": [],
     "source": "dm"
   },
@@ -81,10 +81,21 @@
   {
     "id": "r-pc-baeshra-cla-ro",
     "list": "Segredos dos PCs",
-    "text": "Baeshra nasceu Ssarik-Ro no clã Ro, na vila que é hoje o Sunken Boneyard; o clã foi arrasado há ~50 anos por um destacamento Kryn de Duarte Mirim. O altar de criança no Boneyard (nome riscado, 'Baeshra' por baixo, a adaga drow) é obra dele aos 7 anos. Hesskar-Ro, o pai do Morgid, é o único sobrevivente.",
+    "text": "Baeshra nasceu Ssarik-Ro no clã Ro, na vila que é hoje o Sunken Boneyard; o clã foi arrasado em 809 PD por um destacamento Kryn às ordens de Durth Mirimm. O altar de criança no Boneyard (nome riscado, 'Baeshra' por baixo, a adaga cravada) é obra dele aos 7 anos. Hesskar-Ro, o pai do Morgid, é o único sobrevivente.",
     "clues": [
       "b-0-boneyard-altar",
       "b-0-hesskar-ro"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-lucan-adaga",
+    "list": "Segredos dos PCs",
+    "text": "A adaga do santuário é a lâmina de oficial com que Durth Mirimm — hoje Intendente de Jigau — rematou o pai de Baeshra em 809 PD. É prova, não relíquia: quem a traz ao cinto traz a arma de um crime da Dinastia, e o próprio Mirimm reconhece-a.",
+    "clues": [
+      "b-0-boneyard-altar",
+      "b-0-hesskar-ro",
+      "b-1-mirimm-reconhece"
     ],
     "source": "dm"
   }

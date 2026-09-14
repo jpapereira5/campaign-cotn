@@ -165,6 +165,22 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 - **Insanidade**: cada consequência descoberta dá pontos como qualquer experiência traumática (tabela abaixo). Sem tabela nova.
 - Derreter o ruidium no fim do livro **não** lhe desfaz a forma: foi a Lua Vermelha, não o rubídio.
 
+## A Adaga de Duarte Mirim (DM)
+
+**Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excepcional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
+
+**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. A criança encontrou-a no rescaldo e deixou-a no altar do Sunken Boneyard, onde está há 27 anos. **Não é relíquia afectiva: é prova** — a arma do crime.
+
+**Reconhecimento, três degraus.** Usar sempre o mais baixo que a cena aguentar.
+
+| Degrau | Quem | O que acontece | Custo |
+|---|---|---|---|
+| **Olhar** | Qualquer drow, ou não-drow criado em cidade da Dinastia | Não diz nada. Olha um segundo a mais. | Zero. Repetível; ensina a jogadora sozinha. |
+| **Comentário** | Mercador, guarda, ferreiro | "Aquilo não se compra: ou é herança, ou é despojo." | Obriga o Lucan a mentir. As mentiras acumulam-se. |
+| **Autoridade** | Alguém de farda | Pergunta a proveniência. | Detenção, confisco, ou um nome numa lista. **Guardar para Jigau.** |
+
+**A cena a guardar**: o próprio Mirimm reconhece a sua lâmina ao cinto de um forasteiro, no festival, ao alcance de um aperto de mão — sem intermediário. A partir desse segundo sabe que alguém sobreviveu, e **move-se primeiro** (`b-1-mirimm-reconhece`).
+
 ## A Fera do Lucan (DM; base na ficha da Renata)
 
 - **A 0 PV, a Fera alimenta-se.** Quando o Lucan cai a 0 PV não fica inconsciente: levanta-se com a Fera (Path of the Beast), ataca a criatura caída mais próxima até morder carne — amiga ou inimiga — e só depois cai. Sem contagem, sem tabela: é um gatilho, e é o que aconteceu dentro do aboleto.

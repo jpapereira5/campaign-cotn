@@ -1,7 +1,7 @@
 [
   {
     "id": "b-0-boneyard-altar",
-    "title": "PROPOSTA · O altar de criança no Boneyard",
+    "title": "PROPOSTA · O Santuário do Véu-Quebrado",
     "arcs": [
       "a-pc-lucan",
       "a-prologue"
@@ -14,33 +14,37 @@
       "c-morgid",
       "c-baeshra"
     ],
-    "summary": "Com o clã de Sess'inek morto ou disperso, o Boneyard pode ser investigado — no caminho ou no regresso. Entre os crânios de tartaruga, um nicho que ninguém tocou: um crânio de lizardfolk com chifres esculpido em osso de tartaruga, um dente de leite, uma escama branca, um nome gravado e riscado — Ssarik-Ro — e 'Baeshra' escrito por baixo; uma adaga drow incrustada, velha de décadas. Três camadas: o Lucan reconhece os chifres (a estátua de Asarius); o Morgid pára e conta a história do pai — 'havia aqui outro clã; um rapaz chegou tarde; dizem que voltou deus'; e a voz de Baeshra cala-se, ou diz 'aqui não'. Insight sobre o Morgid: está a falar do clã do pai.",
+    "summary": "Primeiro contacto de Baeshra com o Lucan. Não é reencontro, não é recompensa, não é pacto: é uma ordem dada por uma coisa que nunca respondeu antes. O que o Lucan leva da cena: uma adaga, quatro palavras, e nenhuma confirmação de quem falou. Com Skr'a e os seus mortos — os últimos do pântano — ninguém pode confirmar nem desmentir o que o santuário é. DESCRIÇÃO (sensorial, sem inferência psicológica): um santuário a Baeshra, mal cuidado; cravada nele, uma adaga de fabrico drow, fina, lâmina de oficial; está ali há muito tempo. O SAVE (Wisdom): não é um teste para resistir — ele pega na adaga em qualquer dos casos; o que muda é o que guarda. Falha: passageiro, a visão vem desfocada, não conta os anciãos, não fixa a forma do edifício, e não se lembra de ter pegado na adaga. Passa: lúcido lá dentro, olha em volta, conta três, vê o dodecaedro por fora, e sabe que escolheu — o cruzar de olhares com o drow só acontece aqui. O QUE OS OUTROS VÊEM: de pé ou agachado em frente ao santuário, completamente parado, lágrimas a escorrer, sem responder — janela para agirem; se o travarem fisicamente, a visão vem depois, quando lhe tocar. O que interessa é a mesa ter visto o Lucan sem controlo. A VISÃO, três blocos: (1) memória — o mesmo sítio, fogo, mortos, alguns soldados Kryn caídos também, a adaga cravada no peito do pai de Baeshra; (2) transição — sóis a pôr-se e a nascer a velocidade impossível, a vista sobe e atravessa nuvens; (3) agora — uma urbe costeira, um edifício em dodecaedro, uma sala de pedra: um ancião goblin, uma anciã orc, um drow velhíssimo. O olhar do drow cruza com o dele e a visão pára. O REMATE: 'tu não te lembras de teres pegado em nada, mas está na tua mão'; uma fome que não é dele; uma voz: 'Alimenta-te. Devora. Tal como eles devoraram.'",
     "reveals": [
-      "r-pc-baeshra-cla-ro"
+      "r-pc-baeshra-cla-ro",
+      "r-pc-lucan-adaga"
     ],
     "requires": [
       "b-0-marsh-crossing"
     ],
     "choices": [
       {
-        "label": "Pegar na adaga",
-        "outcome": "Baeshra acorda com fome de outra coisa — vingança; sussurra o nome de quem a usou quando o Lucan a segurar (flag lucan-adaga-duarte). O duelo de Jigau ganha Duarte Mirim como segundo alvo.",
+        "label": "Levar a adaga",
+        "outcome": "Sai do pântano com a arma do crime ao cinto. Em Jigau, o próprio Mirimm reconhece-a (b-1-mirimm-reconhece).",
         "leadsTo": [
+          "b-1-mirimm-reconhece",
           "b-0-hesskar-ro"
         ]
       },
       {
         "label": "Dizer o nome em voz alta (Ssarik-Ro)",
-        "outcome": "A voz cala-se por um dia inteiro. O Lucan descobre a única coisa que o faz calar.",
+        "outcome": "Se o leram no altar: a voz cala-se por um dia inteiro. O Lucan descobre a única coisa que a faz calar.",
         "leadsTo": []
       },
       {
-        "label": "Deixar tudo como está",
-        "outcome": "O Morgid agradece. Nada muda; a adaga fica para quem voltar.",
-        "leadsTo": []
+        "label": "Deixar a adaga onde está",
+        "outcome": "Se a jogadora a atirar fora, alguém do grupo a apanha — nunca por magia. Ela sai do pântano de uma maneira ou de outra.",
+        "leadsTo": [
+          "b-0-hesskar-ro"
+        ]
       }
     ],
-    "notes": "PROPOSTA. Não explicar quem é Duarte aqui — só 'um general drow'; o nome sai em Urzin (Hesskar) ou em Jigau (a adaga na mão, à frente dele). Pista 1 de r-pc-baeshra-cla-ro. A sessão 1 já jogou o combate; isto é o que se encontra a investigar depois.",
+    "notes": "PROPOSTA (runsheet do DM, doc 'O Santuário do Véu-Quebrado'). Baeshra NÃO é patrono de warlock e não tem acesso à cabeça do Lucan: a compulsão vem do sítio e do objecto — chão onde morreu um clã, arma que ficou no peito de quem os guardava. Sem nome, sem símbolo, sem crânio cornudo no remate: se a jogadora perguntar se foi Baeshra, devolver a pergunta em jogo — não houve confirmação nenhuma. Não nomear Jigau na visão: três detalhes duros, zero explicação; paga-se mais tarde. O edifício é o Salão de Pedra (J9) e a sala é a Câmara dos Líderes — mesa de obsidiana, três cadeiras: madeira escura de Coblu, osso branco de Ushru, metal forjado de Duarte. O Lucan vai assumir cumplicidade entre os três quando os dois anciãos são, em canon, a oposição a Mirimm: deixar o erro correr. Nunca pedir um roll cujo resultado não muda nada — este muda. Depois da cena, Baeshra cala-se até ao momento escolhido. A adaga é dagger +1 mágica de fabrico drow, anterior a 809: um detect magic não prova autoria de nada (ver docs/regras.md). As três camadas de ligação a Baeshra (os chifres do altar, a história que o Morgid conta, a voz) podem correr antes ou depois da visão.",
     "source": "dm"
   },
   {
@@ -130,6 +134,49 @@
       }
     ],
     "notes": "PROPOSTA. Pista 2 de r-pc-baeshra-cla-ro (a 3.ª: o seguidor da tatuagem em Jigau, ou a estátua de Asarius por um gladiador velho). Cria tensão directa com a carta a Duarte Mirim que o grupo leva.",
+    "source": "dm"
+  },
+  {
+    "id": "b-1-mirimm-reconhece",
+    "title": "PROPOSTA · Mirimm reconhece a lâmina",
+    "arcs": [
+      "a-pc-lucan",
+      "a-kryn"
+    ],
+    "chapter": "ch1",
+    "order": 17,
+    "location": "l-salao-de-pedra",
+    "participants": [
+      "c-durth-mirimm",
+      "c-pc-lucan",
+      "c-elder-ushru",
+      "c-elder-colbu-kaz"
+    ],
+    "summary": "Na entrega da missiva de Urzin, na antecâmara do Salão de Pedra, o Intendente estende a mão ao Lucan — e a poucos centímetros do aperto vê a adaga ao cinto dele. Fabrico drow, lâmina de oficial, uma marca de forja que ele conhece porque foi dele. O reconhecimento vem do lado dele: não há intermediário, ninguém reportou nada, e o grupo pode nem reparar no segundo em que o aperto de mão demora demais. Mirimm não pergunta nada à frente dos anciãos. Se o Lucan tiver visto a visão lúcido, é aqui que reconhece a sala, o dodecaedro e as três cadeiras — e o rosto do drow que olhou para ele. A partir deste segundo, Mirimm sabe que alguém sobreviveu a 809, e move-se primeiro: manda verificar o registo antigo, põe olhos no forasteiro durante o festival, e escolhe se pergunta pela proveniência (degrau 'autoridade': detenção, confisco, ou um nome numa lista) ou se espera para ver quem ele é.",
+    "reveals": [
+      "r-pc-lucan-adaga"
+    ],
+    "requires": [
+      "b-1-jigau-arrival-intendente"
+    ],
+    "choices": [
+      {
+        "label": "Mirimm pergunta pela proveniência",
+        "outcome": "Degrau 'autoridade'. O Lucan mente ou diz a verdade à frente dos anciãos e dos colares do festival por entregar. Confisco ou um nome numa lista.",
+        "leadsTo": []
+      },
+      {
+        "label": "Mirimm cala-se e observa",
+        "outcome": "O festival corre com a Vigia a seguir o Lucan de perto sem explicar porquê. Recomendado: dá tempo à mesa para perceber sozinha.",
+        "leadsTo": []
+      },
+      {
+        "label": "O Lucan esconde a adaga antes do aperto",
+        "outcome": "Mirimm não vê nada desta vez. O reconhecimento fica para o primeiro descuido — e alguém de farda acaba por comentar.",
+        "leadsTo": []
+      }
+    ],
+    "notes": "PROPOSTA. A cena a guardar dos docs do DM: o reconhecimento vem do lado dele, sem intermediário. Mirimm não é vilão — é um homem competente que resolveu um problema logístico em 809 e esqueceu o pântano na semana seguinte; foi promovido a administrador da região que limpou. Deixar encontrável em Jigau: uma comenda, uma nota de serviço, o registo. Complicações se a mesa decidir matá-lo: é o taskhand de uma cidade Kryn (assassinato político, colide de frente com a boa vontade do cap. 1 e com os rivais) e, se for consecutado, matá-lo não o acaba — uma vingança que não pode ser concluída é o combustível perfeito para um Devorador. Terceira pista de r-pc-lucan-adaga.",
     "source": "dm"
   }
 ]

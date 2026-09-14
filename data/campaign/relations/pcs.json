@@ -206,7 +206,7 @@
     "from": "c-baeshra",
     "to": "c-pc-lucan",
     "type": "wantsFrom",
-    "label": "levantou-o; 'salvei o teu irmão através de ti'",
+    "label": "levantou-o; fome constante, palavras raras e nunca identificadas",
     "source": "dm"
   },
   {
@@ -325,7 +325,7 @@
     "from": "c-pc-lucan",
     "to": "c-durth-mirimm",
     "type": "rival",
-    "label": "PROPOSTA: segundo alvo do duelo de Jigau, se pegar na adaga",
+    "label": "a adaga é dele; Baeshra quer-lhe a cabeça",
     "source": "dm"
   },
   {
@@ -347,6 +347,13 @@
     "to": "c-pc-isco",
     "type": "wantsFrom",
     "label": "irmão ou monstro: decidir",
+    "source": "dm"
+  },
+  {
+    "from": "c-durth-mirimm",
+    "to": "c-pc-lucan",
+    "type": "knows",
+    "label": "reconhece a própria lâmina ao cinto dele, no festival",
     "source": "dm"
   }
 ]
