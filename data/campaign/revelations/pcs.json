@@ -67,7 +67,7 @@
   {
     "id": "r-pc-lucan-renegar",
     "list": "Segredos dos PCs",
-    "text": "Renegar Baeshra é possível e devolve a vida ao Lucan — deixa de ser Dhampir, perde a Fera e a fome. Como se faz, ninguém sabe ainda.",
+    "text": "Renegar Baeshra é possível e devolve a vida ao Lucan — deixa de ser Dhampir, perde a Fera e a fome. E há quem o possa mesmo fazer, e cobre por isso: Sess'inek oferece-lho dentro do Betrayers' Rise, com custo. Se existe outra saída, e qual, ninguém sabe ainda.",
     "clues": [],
     "source": "dm"
   },
@@ -96,6 +96,15 @@
       "b-0-boneyard-altar",
       "b-0-hesskar-ro",
       "b-1-mirimm-reconhece"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "r-pc-lucan-sessinek",
+    "list": "Segredos dos PCs",
+    "text": "O ossário do Véu-Quebrado era a corte de Sess'inek, o Emperor Lizard — o demon lord que dá reis aos lizardfolk e que trata Baeshra como heresia, não como rival. Não persegue ninguém fora do seu território: a resposta dele acontece dentro do Betrayers' Rise e é virada para o Lucan. A assinatura de seis riscos é o único aviso.",
+    "clues": [
+      "b-0-boneyard-altar"
     ],
     "source": "dm"
   }

@@ -53,6 +53,23 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 - **Ssarik-Ro**, do clã Ro — lizardfolk caçadores-recolectores do Véu-Quebrado, na vila que hoje é o Sunken Boneyard (B3), em cima dos crânios das irmãs mortas do Guardião do Musgo. Em **809 PD** a Dinastia deu ordem de pacificação ao clã, que sabotava linhas de abastecimento; executou-a **Durth Mirimm (Duarte Mirim)**, então comandante de campo, hoje Intendente de Jigau — e foi promovido a administrador da região que limpou. O rapaz, de 7 anos, estava na Prova da Força e chegou tarde. Ficou meses; fez um altar de criança à lenda do clã, o **Grande Devorador** (uma lenda de um apocalipse futuro), riscou o próprio nome e escreveu "Baeshra" por baixo; deixou lá a adaga do oficial, que ficara cravada no peito do pai. Depois: vilas humanas, prisão, evasão, esclavagistas em Jorhas, 8 anos de arena em Asarius, Zealot pela fé em si, o wish de Vecna aos 33, em **835 PD**. **É deus há um ano** — e o nome de quem matou o clã chegou-lhe com a divindade, dado pela mesma via que lhe deu o poder.
 - **Hesskar-Ro**, o único sobrevivente adulto, vive velho em Urzin; o filho é o **Morgid** (lizardfolk), o guia do prólogo. O clã de **Skr'a S'orsk** (Sess'inek) ocupou o Boneyard depois e nunca tocou no altar; Skr'a morreu na sessão 1.
 
+## Sess'inek, o Emperor Lizard (canon + DM)
+
+**Canon (D&D):**
+- Tanar'ri venerado pelos lizardfolk como **deus da civilização e do domínio**. Forma: rei-lagarto de **seis braços**, cada um com uma espada longa, e asas vestigiais. Faz **lizard kings** — reis meio-demónio; os clãs que o seguem passam a ter **tronos e escalões**, ao contrário de todos os outros lizardfolk.
+- Vive no **Kearackinin**, sétima camada do Abyss, em **exílio auto-imposto**: farto da Blood War, fora da política do Abyss. **Não faz campanhas e não se desloca.**
+- **Caça-furtivo**: rouba fiéis ao **Semuanya**, o deus lizardfolk da pura sobrevivência, que o conta como inimigo e mesmo assim o ignora. Ordem permanente aos seus xamãs: espalhar a fé com agressividade e **matar à vista o clero do deus rival**.
+
+**Canon (Exandria) — a resposta à pergunta "os lizardfolk são povo de Zehir?": não.**
+- Os lizardfolk de Exandria **foram feitos**: magos da Idade do Arcano fizeram experiências com a fauna do **K'Tawl Swamp** e alguns tornaram-se os primeiros lizardfolk. **Não têm deus criador.**
+- **Zehir, o Cloaked Serpent**, é Betrayer God e criador das **serpentes, dos yuan-ti e dos serpentfolk de Vos'sykriss** — e o canon põe-nos em lados opostos: em **Urukayxl**, um clã yuan-ti de Zehir combatia os lizardfolk pelo território. (Confirma o corte do Zehir feito na ronda do Grande Devorador.)
+- O **Semuanya nunca foi estabelecido em Exandria**; o **Sess'inek foi** — o próprio livro põe-no na ficha de Skr'a S'orsk. É o único poder lizardfolk com nome nesta mesa: um povo órfão de deus com duas ofertas, as coroas dele e, desde há um ano, um deles que se fez deus sozinho.
+
+**DM:**
+- O **Sunken Boneyard é uma corte dele** (trono, postos, a assinatura de seis riscos gravada no osso), montada em cima do cemitério das tartarugas e dos ossos do clã Ro — o domínio por cima da sobrevivência, que é o conflito canónico dos lizardfolk escrito no chão. Sem sacerdote desde a sessão 1; alguém virá ocupar o trono **depois de o grupo partir**, sem contas a ajustar com eles.
+- **O Baeshra é heresia, não rivalidade**: nunca lhe rezou, e subiu a pregar o contrário (devora, sê a fera, volta ao lodo) com gente da espécie que era do Emperor Lizard.
+- **Só age no seu território.** Nada no pântano, nada em Jigau, nada contra o Baeshra directamente. A resposta é dentro do **Betrayers' Rise** e é virada para o **Lucan**: convertê-lo, com o **regresso à vida** como isco — oferta verdadeira, com custo. O Baeshra aceita o desafio e **aposta o Lucan**. A sala e o custo ficam por desenhar.
+
 ## Geografia
 
 - **Os Mares Gelados / Golfo Esmeralda** — locais novos (`l-mares-gelados`, `l-golfo-esmeralda`); **Monte-Selvagem** é só o mapa (Wildemount_Poster_Map_25.webp).

@@ -355,5 +355,33 @@
     "type": "knows",
     "label": "reconhece a própria lâmina ao cinto dele, no festival",
     "source": "dm"
+  },
+  {
+    "from": "c-sessinek",
+    "to": "c-baeshra",
+    "type": "enemy",
+    "label": "heresia: um dos seus subiu sozinho, a pregar o contrário",
+    "source": "dm"
+  },
+  {
+    "from": "c-sessinek",
+    "to": "c-pc-lucan",
+    "type": "wantsFrom",
+    "label": "converter o campeão do herege; oferece-lhe a vida de volta, dentro do Rise",
+    "source": "dm"
+  },
+  {
+    "from": "c-baeshra",
+    "to": "c-sessinek",
+    "type": "rival",
+    "label": "aceitou o desafio e apostou o Lucan",
+    "source": "dm"
+  },
+  {
+    "from": "c-skra-sorsk",
+    "to": "c-sessinek",
+    "type": "serves",
+    "label": "o ossário era a corte dele; sem sacerdote desde a sessão 1",
+    "source": "dm"
   }
 ]
