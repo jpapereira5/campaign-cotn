@@ -420,11 +420,11 @@ Cada crânio era a casa de um. Dentro, o que cada um tinha.
 | Crânios de 4 garras | 3 escudos, 6 javelins, ~35 gp em cordel, capacete Kryn de 809, **3 ovos** |
 | Crânios de 3 garras | equipamento; botas, fivela, lanterna, besta partida, livro ilegível |
 | Crânios de 2 e 1 garras | nada; a mão de cinco garras riscada por dentro; marcas de contagem |
-| Sala do trono | garra de cinco dedos (troféu do Semuanya, sem poder), couraça Kryn de 809, ~145 gp em cordéis, óculo rachado, selo militar Kryn, contas de vidro (8 gp), ervas, cobras secas, cova de oferendas com 2 crânios humanóides |
+| Sala do trono | garra de cinco dedos (troféu do Semuanya, sem poder), couraça Kryn de 809, ~145 gp em cordéis, óculo rachado, selo militar Kryn, contas de vidro (8 gp), ervas, cobras secas, cova de oferendas com 2 crânios humanóides e **2d4 dentes de ouro**; no nicho (livro): **wand of magic detection**, colecção de símbolos sagrados (Semuanya, Melora, Sehanine, Luxon, Vesh), **amuleto de Tharizdun** frio ao toque (25 gp) |
 | Crânio sem garra | **a adaga (+1, drow)**, dente de leite, escama branca, o nome riscado; os ossos do pai por baixo |
 | Orla (vila do clã Ro) | tigela queimada, ponta de lança Kryn, ossos do clã Ro |
 
-Mágico a sério: dois itens e duas poções. O resto é peso, prova e dilema.
+Mágico a sério: dois itens, uma varinha e duas poções. O resto é peso, prova e dilema.
 
 ---
 
