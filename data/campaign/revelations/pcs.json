@@ -81,7 +81,7 @@
   {
     "id": "r-pc-baeshra-cla-ro",
     "list": "Segredos dos PCs",
-    "text": "Baeshra nasceu Ssarik-Ro no clã Ro, na vila que é hoje o Sunken Boneyard; o clã foi arrasado em 809 PD por um destacamento Kryn às ordens de Durth Mirimm. O altar de criança no Boneyard (nome riscado, 'Baeshra' por baixo, a adaga cravada) é obra dele aos 7 anos. Hesskar-Ro, o pai do Morgid, é o único sobrevivente.",
+    "text": "Baeshra nasceu Ssarik-Ro no clã Ro, na vila da orla do Sunken Boneyard — o cemitério sagrado das tartarugas, onde ninguém vivia; o clã foi arrasado em 809 PD por um destacamento Kryn às ordens de Durth Mirimm. O altar de criança no Boneyard (no crânio mais pequeno, fora da fila; nome riscado, 'Baeshra' por baixo, a adaga cravada, os ossos do pai por baixo) é obra dele aos 7 anos: arrastou o pai da vila até ao sítio sagrado. Hesskar-Ro, o pai do Morgid, é o único sobrevivente.",
     "clues": [
       "b-0-boneyard-altar",
       "b-0-hesskar-ro"
@@ -102,7 +102,7 @@
   {
     "id": "r-pc-lucan-sessinek",
     "list": "Segredos dos PCs",
-    "text": "O ossário do Véu-Quebrado era a corte de Sess'inek, o Emperor Lizard — o demon lord que dá reis aos lizardfolk e que trata Baeshra como heresia, não como rival. Não persegue ninguém fora do seu território: a resposta dele acontece dentro do Betrayers' Rise e é virada para o Lucan. O símbolo — a mão reptiliana de garras gravada nos ossos do templo — é o único aviso: reaparece lá em baixo, à escala errada. No Rise não há corte nenhuma.",
+    "text": "O ossário do Véu-Quebrado era a corte de Sess'inek, o Emperor Lizard — o demon lord que dá reis aos lizardfolk e que trata Baeshra como heresia, não como rival. Não persegue ninguém fora do seu território: a resposta dele acontece dentro do Betrayers' Rise e é virada para o Lucan. O símbolo — a mão reptiliana de cinco garras gravada nos ossos do templo, com tantas garras fundas quanto o posto — é o único aviso: reaparece lá em baixo, à escala errada. E a Sexta Garra que o Skr'a trazia ao peito, de seis dedos, fora da contagem, que lá em baixo queima. No Rise não há corte nenhuma.",
     "clues": [
       "b-0-boneyard-altar"
     ],
