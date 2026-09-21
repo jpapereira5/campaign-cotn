@@ -171,7 +171,7 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 **Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excepcional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
 
-**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. A criança encontrou-a no rescaldo e deixou-a no altar do Sunken Boneyard, onde está há 27 anos. **Não é relíquia afectiva: é prova** — a arma do crime.
+**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. Como a visão da sessão 3 mostrou: a criança arrancou-a do peito do pai com as duas mãos, arrastou o corpo um dia inteiro até ao ossário, usou a lâmina para esculpir o altar e cravou-a nele — onde ficou até o Lucan a tirar de lá. **Não é relíquia afectiva: é prova** — a arma do crime.
 
 **Reconhecimento, três degraus.** Usar sempre o mais baixo que a cena aguentar.
 
@@ -183,6 +183,8 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 **A cena a guardar**: o próprio Mirimm reconhece a sua lâmina ao cinto de um forasteiro, no festival, ao alcance de um aperto de mão — sem intermediário. A partir desse segundo sabe que alguém sobreviveu, e **move-se primeiro** (`b-1-mirimm-reconhece`).
 
+**À mesa (sessão 3, #84):** encontrada e arrancada do altar pelo Lucan, no crânio mais pequeno do ossário. Descrição usada: lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas em duas pinças como mandíbulas de insecto; cabo em couro escuro ressequido. History 3 deu só «não foi feita por lizardfolk, é um misto de fabrico delicado com arma prática de tempo de guerra» — nem origem, nem dono. O Isco não lhe cheira nada extraplanar, só ferro. Identificada pelo Quasi numa hora de short rest a contemplá-la: **dagger +1** (+1 a acertar e +1 ao dano, d4+DEX). Ficou com o **Quasi**: de manhã o Lucan exigiu-a, o Quasi pediu 200 po e depois 400, e a cena acabou em «não me testes». Quem a traz ao cinto quando chegarem a Jigau ainda está por decidir — o degrau de reconhecimento (`b-1-mirimm-reconhece`) depende disso.
+
 ## A Fera do Lucan (DM; base na ficha da Renata)
 
 - **A 0 PV, a Fera alimenta-se.** Quando o Lucan cai a 0 PV não fica inconsciente: levanta-se com a Fera (Path of the Beast), ataca a criatura caída mais próxima até morder carne — amiga ou inimiga — e só depois cai. Sem contagem, sem tabela: é um gatilho, e é o que aconteceu dentro do aboleto.
@@ -192,6 +194,8 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 - **Os obeliscos** (mar; a Ritual Stone de Bol'bara no pântano; Betrayers' Rise): se lhes tocar, rebobinam-no por segundos e mostram-lhe um pedaço da noite em que morreu. Sem custo visível; cada toque acorda o obelisco um pouco — e o que está preso lá dentro (na Ritual Stone, Trush).
 
 - **À mesa (sessão 2, #83):** a Rage é uma «Tranquil Fury», raiva calma: olhos vermelho-escuro, dobra-se em dores e cresce-lhe uma cauda comprida com espigões ósseos na ponta (verde-escura/azul-marinho), alcance 10 pés, 2d8+4 piercing. Reacção: a cauda soma 1d8 à AC contra um ataque que a jogadora vê vir. Reckless Attack em uso.
+
+- **À mesa (sessão 3, #84) — a fome do santuário:** dentro do crânio do altar abre-se-lhe «um buraco enorme de fome e de vontade de devorar tudo»; fora dele passa. Ao arrancar a adaga a fome fica absurda e ele cai de joelhos. Comer não a resolve: devorou dois corpos de lizardfolk e, passados dois minutos, a fome estava na mesma; de manhã, depois de uma refeição inteira, continuava. Ouviu na cabeça **«Perto. Não aqui.»** (Wisdom save passado: fica lúcido, e olha para quem tem a adaga e a garra). A fome não é mecânica: é estado, e mantém-se até o DM decidir o contrário.
 
 ## A máscara do Quasi (DM; base na ficha do Pedro)
 
@@ -240,6 +244,24 @@ Existe — há feitiços para isso —, mas «voltam, mas não voltam inteiros»
 - **Fuga forçada** (Dissonant Whispers) provoca ataque de oportunidade: a criatura usa o próprio movimento (decisão do DM).
 - **Silvery Barbs** (interpretação da mesa): o inimigo rola um terceiro d20 e usa o mais baixo entre esse e o que lhe garantiu o sucesso.
 - **Concurso de cerveja** (sessão 1): bebe-se 2 × mod. de CON sem teste; a partir daí Con save DC 10 + n.º de cervejas acima do limite; à 3.ª falha vomita e cai. Cerveja da Carapaça Estalada: 2 pc.
+
+## Testes passivos com vantagem (DM, sessão 3)
+
+Rules as written (PHB 2014, p. 175): **vantagem num teste passivo soma +5; desvantagem subtrai 5**. Na prática, o Isco tem Percepção passiva 15 e **20 para ouvido e olfacto** — o DM deixou de lhe pedir testes cujo resultado esteja abaixo de 20 nesses sentidos: ele simplesmente ouve ou cheira.
+
+## Travessia do pântano: ritmo, encontros e descanso (DM, sessões 1–3)
+
+- O dia divide-se em **três terços** (manhã, tarde, entardecer). A ritmo **normal** andam **10 hexágonos** por terço se o teste de Survival de quem guia for 15 ou mais (lento 5, rápido 15); o Morgid tem mapa de couro e Survival +5, e sem ele o grupo perde-se (Survival 10 do Quasi = perdido).
+- **Encontros**: um **d20 por terço do dia**; **16 ou mais** e acontece alguma coisa. (Na sessão 1 usou-se um d12; a sessão 3 fixou o d20.)
+- **Dormir fora de terreno seco e elevado** obriga a CON save de manhã (praga do pântano). Um sítio seco para uma pessoa (Survival 13) não chega para o grupo: resolve-se com um **esforço de grupo** — cada um contribui com a perícia que fizer sentido (Athletics para testar ramos, Sleight of Hand para entrançar cordas) e a **média dos testes tem de passar a CD** (12 na sessão 3) para haver long rest completo em camas de rede na mesma árvore.
+
+## Itens da mesa (sessão 3, #84)
+
+- **Garra de réptil de seis dedos** (do peito de Skr'a S'orsk; cortada pelo pulso, quase preta, mais fria do que o ar do pântano, com cheiro a enxofre): uma hora de contemplação (Arcana 3) dá **`command` 1×/dia**. Só o Quasi sabe o que ela faz. Enquanto a estuda cresce-lhe a vontade de mandar nos outros, e nessa noite sonha que é líder inquestionado — o DM deixou em aberto se há mais a descobrir nela (ver `docs/canone.md`).
+- **Varinha de osso de ponta enegrecida**: **`detect magic`**, **3 cargas**, recupera todas num long rest; a esfera a expandir-se só é visível a quem a usa.
+- **Frascos de osso** (2): **poções de cura**, 2d4+2, identificadas pelo Alberto com alchemist's supplies e sem reagentes. Ficaram com ele.
+- **Escudo de carapaça com presas** (spiked shield dos lizardfolk): +2 AC, e o Alberto não tem força para o usar.
+- **Great club de fémur**: d8, duas mãos. Os mais pequenos contam como club de uma mão, **d4** (decisão do DM; o heavy club dos lizardfolk é arma de monstro, d6 a uma mão).
 
 ## Medalhas do Festival, Amuleto de Honra, Mote of Possibility (DM)
 
