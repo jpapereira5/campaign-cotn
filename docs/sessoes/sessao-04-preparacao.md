@@ -34,7 +34,7 @@ Beat na app: `b-0-patrulha-imperio` (ch0, `data/campaign/beats/patrulha.json`). 
 | O **Alberto** ficou com as duas poções de cura e lê dracónico | Mais credenciais para o disfarce imperial da secção 6-A |
 | O Lucan tem **148 po**; o Quasi 12 po | Há dinheiro em cima da mesa — e há coisas que ele não compra (secção 6-A) |
 
-**Mesa:** a Camila entra nesta sessão (**limite às 23h** — ver a nota de ritmo na secção 12); o Andrew entra depois, com uma personagem de nível 3 já feita e com pântano na bagagem (secção 4, no fim).
+**Mesa:** a Camila entra nesta sessão, **com limite às 23h** — ver a nota de ritmo na secção 12.
 
 ---
 
@@ -162,7 +162,7 @@ Uma **jangada de varejão**, puxada à corda pelo Casqueiro: mantimentos, três 
 **O gancho da adaga, agora que ela está com o Quasi.** A drow olha um segundo a mais para a lâmina preta ao cinto do **bardo** — é o degrau **"Olhar"** de [`docs/regras.md`](../regras.md), custa zero e ensina a mesa sozinha. E aterra em cima do conflito que a sessão 3 deixou aberto: quem fica com a adaga passa a ser uma pergunta com **testemunha**. Se a Camila quiser, ela pode dizer o que reconhece — fabrico drow, lâmina de oficial — e isso dá ao Lucan um argumento novo e ao Quasi um problema novo.
 **O que não fazer aqui:** o acólito **não** pergunta a proveniência da adaga. O degrau "Autoridade" está guardado para Jigau (`b-1-mirimm-reconhece`). Se ele reparar nela, fica-se pelo "Comentário": «Aquilo não se compra.»
 
-**O quinto lugar (Andrew), para a sessão seguinte.** Não o prometas nesta sessão nem faças a drow falar de um companheiro que não está lá. Duas portas limpas, à escolha: **(a)** está preso no forte, na mesma ala que a drow ia ocupar — encontram-no em V8 e a entrada dele é o resgate; **(b)** chega pelo pântano, por conta própria, num encontro seguinte — a personagem dele já tem pântano na bagagem e não precisa de desculpa. A (a) é mais forte se a Camila for libertada agora: dá ao grupo a razão para entrar no forte sem ser só pela Bolbara.
+**O quinto lugar** entra quando entrar: não o prometas nesta sessão nem faças a drow falar de um companheiro que não está lá.
 
 ---
 
@@ -236,7 +236,7 @@ Se atacarem do juncal, **não escondas a Lampreia**: dispara no fim da primeira 
 ### D · Deixar passar
 Perfeitamente legítimo. Não castigues.
 - A patrulha chega ao forte dois dias antes do grupo. A drow entra na cela **V8**, ao lado do **Alone Fritz**, que fala telepaticamente com ela antes de falar com qualquer um dos PCs.
-- A Camila entra no forte, e o primeiro favor pedido é o dela: a dívida troca de lado e a campanha fica igualmente boa. *(É também o caminho que melhor prepara a porta (a) para o Andrew.)*
+- A Camila entra no forte, e o primeiro favor pedido é o dela: a dívida troca de lado e a campanha fica igualmente boa.
 - **Mas diz à mesa, uma vez, pela lousa do Morgid: *"6 soldados. 1 prisioneira. Forte."*** Quem ignora informação clara escolhe; quem não a teve, foi enganado.
 
 ---
