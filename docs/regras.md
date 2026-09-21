@@ -171,7 +171,7 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 **Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excepcional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
 
-**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. A criança encontrou-a no rescaldo e deixou-a no altar do Sunken Boneyard, onde está há 27 anos. **Não é relíquia afectiva: é prova** — a arma do crime.
+**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. Como a visão da sessão 3 mostrou: a criança arrancou-a do peito do pai com as duas mãos, arrastou o corpo um dia inteiro até ao ossário, usou a lâmina para esculpir o altar e cravou-a nele — onde ficou até o Lucan a tirar de lá. **Não é relíquia afectiva: é prova** — a arma do crime.
 
 **Reconhecimento, três degraus.** Usar sempre o mais baixo que a cena aguentar.
 
