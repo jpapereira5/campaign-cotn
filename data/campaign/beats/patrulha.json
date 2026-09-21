@@ -1,0 +1,67 @@
+[
+  {
+    "id": "b-0-patrulha-imperio",
+    "title": "Encontro: a patrulha do Forte Ventura (a prisioneira drow)",
+    "arcs": [
+      "a-prologue",
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch0",
+    "order": 26,
+    "location": "l-brokenveil-marsh",
+    "participants": [
+      "c-vasco-corvelo",
+      "c-gilberto-mendanha",
+      "c-nalia-vasques",
+      "c-elmiro-trigueiro",
+      "c-rosinda-sousela",
+      "c-damiao-prestes",
+      "c-bento-ruivo",
+      "c-pc-drow",
+      "f-dwendalian-empire",
+      "f-kryn"
+    ],
+    "summary": "Encontro aleatório do pântano usado como abertura da sessão 4, e a entrada da quarta jogadora. Num carreiro de lama batida entre juncais, à chuva, o grupo cruza-se com a Terceira Lança do Forte Ventura: seis soldados perdidos há dois dias, com uma jangada de varejão e uma prisioneira drow amordaçada e presa a uma canga, que levam ao Padre Perestrelo (que pediu um Kryn vivo). O sargento Vasco Corvelo perdeu três homens — um deles, Bento Ruivo, morto pelos lizardfolk de Skr'a S'orsk — e a prisioneira é o que justifica as mortes no relatório; a moeda do encontro é a cabeça do xamã que o grupo matou na sessão 2. Quatro caminhos: parlamentar (o Alberto é o passaporte imperial; pode acabar com a patrulha a contratá-los como guias e a metê-los no forte pela porta da frente), emboscar (a batedora Lampreia está na água, fora da fila; a água é terreno difícil menos para o Lucan e o Isco), seguir e libertar de noite, ou deixar passar (a drow vai para a cela V8, ao lado do Alone Fritz, e a jogadora entra lá). Não está equilibrado para combate frontal: resolve-se por conversa, por terreno ou por roubo.",
+    "reveals": [
+      "r-kryn-vs-empire",
+      "r-bolbara-possessed"
+    ],
+    "requires": [
+      "b-0-marsh-crossing"
+    ],
+    "choices": [
+      {
+        "label": "Parlamentar (com o Alberto a falar pelo grupo)",
+        "outcome": "Deception DC 13 com o Alberto (DC 17 sem ele); Persuasão DC 12 com prova de que mataram Skr'a S'orsk, DC 18 sem. Ganham passagem, a direcção certa, informação do forte e, no melhor caso, contrato de guias — entram no Forte Ventura escoltados. O Morgid tem de se esconder; o acólito pede nomes e manda o Quasi tirar a máscara.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Emboscar no carreiro",
+        "outcome": "A Lampreia dispara das costas no fim da 1.ª ronda se não a encontrarem (Percepção DC 16). Moral: o recruta ajoelha-se à 2.ª baixa, a cabo rende-se à 3.ª, o acólito foge primeiro. Três apitos = patrulha perdida: o forte manda uma busca de oito soldados no dia seguinte.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Seguir e libertar a prisioneira de noite",
+        "outcome": "Acampamento em terra seca; vigias Lampreia → Nália → Casqueiro. Furtividade DC 15 (17 no turno da Lampreia), canga DC 13 (chave ao cinto do sargento), mordaça DC 11 (chave ao pescoço do acólito). Custa um dia ao relógio da Bolbara. A prisioneira ajuda por gestos: mete a jogadora nova no plano antes de ter personagem em jogo.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Deixar passar",
+        "outcome": "A patrulha chega ao forte dois dias antes do grupo; a drow entra na cela V8, ao lado do Alone Fritz, e a quarta jogadora entra por lá. Dizer ao grupo, pela lousa do Morgid, o que estão a deixar passar: «6 soldados. 1 prisioneira. Forte.»",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      }
+    ],
+    "timer": "Meio dia (parlamento) a um dia (libertação nocturna) do relógio de 3 dias da Bolbara",
+    "notes": "Preparação completa em docs/sessoes/sessao-04-preparacao.md (elenco com silhuetas, falas, testes, despojos, relógio, ganchos por PC). Handouts: ordem de marcha e folha do acólito em docs/handouts.md. Entrada nova na tabela d8 de encontros do pântano (resultado 1). Informação que a patrulha entrega por conversa ou pela folha do acólito: guarnição de trinta e poucos, metade doente; Felmont já não quer estar ali; há uma goblin velha acorrentada na capela que o padre não deixa morrer («e já precisou de não a deixar»); Perestrelo veio de fora e o comandante tem medo dele; palavra de passe «Cinza-Doze», que muda ao sétimo dia. Despojos: seis uniformes, selo de marcha de chumbo, apito de osso, duas chaves, o saco com os bens da quarta jogadora. Complicação opcional à 4.ª ronda: os três lizardfolk que fugiram na sessão 2 atacam os dois lados.",
+    "source": "dm"
+  }
+]

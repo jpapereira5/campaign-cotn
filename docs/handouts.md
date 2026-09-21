@@ -32,6 +32,37 @@ Recomenda-se vigilância passiva sobre rumores associados à Ascensão, prioriza
 
 *(Nota DM: a entrada 5, "Carregamento Perdido", e as frases da entrada 6 sobre o intermediário desaparecido e sobre o grupo antigo pertenciam a arcos de PCs da campanha anterior e não transitam. Na entrada 2 o nome do líder foi substituído por "o líder da aldeia"; a frase sobre "outro descendente" também vinha desse arco — o DM decide se fica.)*
 
+## Ordem de marcha da Terceira Lança (Forte Ventura)
+
+Papel dobrado em quatro dentro de um estojo de lata, ao peito do sargento Vasco Corvelo; selo de lacre partido. Letra de escrivão, tinta corrida da chuva.
+
+> **GUARNIÇÃO DO FORTE VENTURA — TERCEIRA LANÇA**
+> Ao sargento V. Corvelo, por ordem do comandante S. Felmont.
+>
+> Sairá com dez homens pelo carreiro leste e varrerá o pântano até às falésias. Objecto: apurar quem observa esta guarnição e por conta de quem.
+> Não entrará em aldeia goblinóide. Não dará combate a tribo organizada. Regressará ao sétimo dia.
+> Acompanha a Lança o acólito D. Prestes, que responde ao Pároco e não a vós. Por requisição do mesmo: **prisioneiros da Dinastia serão trazidos vivos e inteiros**, e não interrogados no terreno.
+> Palavra do portão até ao sétimo dia: **CINZA-DOZE**.
+>
+> *(Na margem, a lápis, outra letra:)* 7.º dia passou. 8.º dia. Água a oeste. Bento no Bosque. Sousela diz norte — o carreiro diz oeste.
+
+## Folha do acólito Damião Prestes
+
+Uma folha de registo, presa por uma aba de cabedal ao escritório portátil. Só o cabeçalho está escrito com cuidado; o resto foi feito a andar.
+
+> **REGISTO DE SUJEITOS — CAMPANHA DO PÂNTANO — 3.ª LANÇA**
+>
+> **Sujeito 1** — drow, fêmea, adulta. Detida nas falésias ao quarto dia, sozinha, munida de material de observação. Recusa nome. Recusa den. Recusa proveniência. Amostra de cabelo recolhida e conservada. *Confissão redigida; falta assinatura.*
+> Observações: não baixa os olhos. Recomenda-se transferência imediata ao Pároco.
+>
+> **Baixas** — Ruivo, B. (águas do Bosque Seco, lagartos). Mais dois na caverna, ao sexto dia, sem corpos a recolher.
+>
+> **A comunicar ao Pároco:** o sujeito da capela ainda não disse a palavra certa. O Pároco quererá saber que esta é a segunda vez.
+>
+> *(Última linha, tinta fresca, escrita à chuva:)* Ao oitavo dia, no carreiro, encontrámos —
+
+*(A frase acaba aqui. O que se segue depende do que o grupo fizer: é a última coisa que ele escreve, e é uma descrição deles. Se lhe tirarem a folha com o Damião vivo, ele exige-a de volta «para o registo»; se ele morrer, a folha chega ao Forte Ventura à mesma se algum soldado escapar.)*
+
 ## Notas do Arcanista
 
 Caderno de um scholar (as primeiras notas são as mais organizadas) que se foi corrompendo. Ler tudo leva **4 h** por bloco.
