@@ -194,7 +194,6 @@ Uma **jangada de varejão**, puxada à corda pelo Casqueiro: mantimentos, três 
 | Intuição 15 | O sargento está assustado com alguma coisa que não são vocês |
 | Investigação 13 | As lanças da jangada são três a mais para cinco homens: faltam-lhes soldados |
 | Sobrevivência 12 (ou o Morgid, na lousa, de graça) | Vão na direcção errada há dois dias |
-| Sobrevivência 13 nas aves (secção 9) | Sabem para que lado é o forte — e eles não |
 
 ---
 
@@ -295,9 +294,11 @@ Lê isto **antes** do "tchop… tchop" da secção 5. É o primeiro plano da ses
 
 > Primeiro cala-se tudo: os insectos, as rãs, o chapinhar pequeno das coisas na água. Depois ouvem o barulho a chegar do horizonte — asas, muitas, baixas. Passa-vos por cima um bando de garças e de patos-do-brejo, e atrás dele outro, e outro, todos na mesma direcção e nenhum a cantar. Uma garça pousa no carreiro a dez pés de vocês, olha para vocês sem se importar minimamente com o que vocês são, e volta a levantar voo. Vêm todos do mesmo sítio. E vocês estão a ir para lá.
 
+**A direcção não é uma descoberta: é o que torna aquilo insuportável.** Eles têm o mapa de couro do Morgid e sabem perfeitamente para que lado fica o Forte Ventura — o Morgid põe o dedo no mapa e não tira. Não se rola nada para isso. O que as aves dizem é *que está a acontecer alguma coisa*, e que está a acontecer exactamente onde eles vão.
+
 - **Sobrevivência 10** (ou o Morgid, de graça, na lousa): *bichos não fogem de chuva*.
-- **Sobrevivência 13**: vêm todos de um ponto, a oeste-noroeste — **e isso é um rumo**. Guarda isto: a patrulha está perdida, e a mesa acaba de ganhar a única coisa que o sargento quer de graça. Vale como prova no parlamento (secção 6-A) e **cancela um falhanço de navegação** no dia 3.
-- **Sobrevivência 16 ou Natureza 15**: não é só medo — há bichos que fogem de predador e bichos que fogem de sítio. Estes estão a abandonar o sítio.
+- **Sobrevivência 13 ou Natureza 15**: não é fuga de predador. Há bichos que fogem de um bicho e bichos que fogem de um sítio; estes estão a **abandonar o sítio**.
+- **Sobrevivência 16**: não são só as aves. As rãs calaram-se antes delas, e não voltaram a começar.
 - O **Alberto**, se lhe perguntarem: fica muito quieto e diz «no Império, quando os pombos saem todos ao mesmo tempo, é porque alguém abriu alguma coisa».
 
 **A patrulha vê as mesmas aves**, e é isto que os humaniza sem uma linha de discurso:
@@ -306,7 +307,7 @@ Lê isto **antes** do "tchop… tchop" da secção 5. É o primeiro plano da ses
 - o **sargento** não diz nada e fecha a mão no apito;
 - o **acólito** escreve.
 
-**Consequência mecânica do parlamento:** depois das aves, o sargento **quer** voltar depressa. A Persuasão para o contrato de guias baixa 2, e o preço dele muda — deixa de ser só a cabeça do lagarto e passa a ser *levem-nos lá antes de escurecer amanhã*. Se a mesa lhe der o rumo das aves, ele fica a dever-lhes.
+**Consequência mecânica do parlamento:** depois das aves, o sargento **quer** voltar depressa, e está perdido há dois dias. A Persuasão para o contrato de guias baixa 2, e o preço dele muda — deixa de ser só a prova da morte do xamã e passa a ser *levem-nos lá antes de escurecer amanhã*. O que a mesa tem para lhe vender não são as aves: é o **Morgid e o mapa dele**.
 
 ### Dia 3 — a tempestade
 
@@ -324,13 +325,13 @@ Depois do encontro sobram-lhes **quatro terços de marcha**: o entardecer do dia
 
 | Caminho | O que gasta | Onde ficam |
 | --- | --- | --- |
-| **Parlamento** | meio terço, e podem ganhar guias e rumo | chegam com folga; a folga é o que lhes permite dormir |
+| **Parlamento** | meio terço, e podem sair de lá com escolta | chegam com folga; a folga é o que lhes permite dormir |
 | **Emboscada** | um terço (combate, saque, feridos) | sobram três; dá, se não se perderem |
 | **Seguir e libertar de noite** | o entardecer do dia 2 e a noite | **sobra só o dia 3 inteiro, sem margem para erro** |
 | Voltar ao ossário buscar a cabeça do xamã | a manhã do dia 3 | **não dá** — diz isso ao jogador por fora, antes de ele gastar a sessão a tentar |
 
 - **Ritmo rápido** é a alavanca deles: 15 hexágonos por terço, com −5 na navegação (o Morgid passa a precisar de 20). Compra um terço e paga-o em risco: o d20 de encontro continua a rolar em cada um.
-- **Perder-se custa tudo.** Se o Morgid não guiar — ou se voltarem a deixar guiar quem tirou 10 na sessão 3 —, um terço perdido no dia 3 é a Bolbara. As aves do dia 2 são o seguro contra isso, e é por isso que valem um teste.
+- **Perder-se custa tudo.** Se o Morgid não guiar — ou se voltarem a deixar guiar quem tirou 10 na sessão 3 —, um terço perdido no dia 3 é a Bolbara.
 - **Não escondas o relógio.** O Morgid bate na lousa e aponta para o sol; as aves e a tempestade dizem o resto. A mesa tem de poder escolher a drow *sabendo* o que custa — essa é que é a escolha.
 
 ### Depois, seja qual for o caminho
@@ -371,7 +372,7 @@ Alternativa, se a mesa estiver a ganhar depressa: **harpias das falésias** por 
 - [ ] Imprimir os dois handouts (ordem de marcha, folha do acólito).
 - [ ] Ter o apito à mão (um apito a sério, se houver — vale a pena ouvi-lo).
 - [ ] Confirmar o que o grupo trouxe do ossário que sirva de prova (colares de dentes, bastão, saia de crânios) — está com o **Quasi**, não com o Lucan.
-- [ ] Ter as aves prontas para abrir a sessão, e o rumo que elas dão (secção 9).
+- [ ] Ter as aves prontas para abrir a sessão (secção 9), e o Morgid com o dedo no mapa.
 - [ ] Contar os terços em voz alta a partir do fim do encontro: sobram quatro até ao fim do dia 3.
 - [ ] Recordar em voz alta a regra da água: terreno difícil menos para quem nada.
 - [ ] Lembrar que a recompensa deste encontro é **informação e uma pessoa**, não ouro.

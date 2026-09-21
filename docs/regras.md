@@ -268,7 +268,7 @@ O pântano diz a hora sem o DM ter de a dizer (`b-0-pressagios-do-forte`):
 | **3** | **Terceiro *revivify*** | **Tempestade parada** sobre um ponto do horizonte, com céu limpo à volta e trovoada que nunca se afasta |
 | 4 | Já não há capela | Fumo onde estava a tempestade, e nem uma ave |
 
-- As **aves do dia 2 dão um rumo** (Sobrevivência 13: vêm todas de oeste-noroeste). Isso vale como moeda com quem estiver perdido no pântano e **cancela um falhanço de navegação** no dia 3.
+- Os presságios **não dão rumo**: quem tiver mapa já sabe para que lado fica o forte. O que eles dizem é que está a acontecer alguma coisa, e que é ali. Os testes servem para medir o que os bichos estão a fazer (fugir de um predador ou abandonar um sítio), não para orientar ninguém.
 - Os presságios **não são pista de `r-bolbara-possessed`**: são pressão, não informação. As pistas dessa revelação continuam a ser as do livro.
 - **Não se esconde o relógio.** O Morgid bate na lousa e aponta para o sol; as aves e a tempestade dizem o resto. A mesa tem de poder gastar tempo com outra coisa *sabendo* o que custa.
 
