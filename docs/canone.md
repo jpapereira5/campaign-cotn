@@ -1,6 +1,6 @@
 # Cânone da mesa: o que foi jogado vs. o que estava preparado
 
-**O que a mesa jogou manda.** Quando a sessão contradiz a preparação, a preparação é **reescrita** nos ficheiros (`data/campaign/`, `docs/lore.md`, `docs/regras.md`) para passar a dizer o que aconteceu; este documento fica com o registo do que lá estava antes, para não se perder a intenção original. Quando o conflito é entre coisas ditas em sessões diferentes — ou dentro da mesma sessão — nada se decide aqui: vai para **Por decidir**.
+**O que a mesa jogou manda.** Quando a sessão contradiz a preparação, a preparação é **reescrita** nos ficheiros (`data/campaign/`, `docs/lore.md`, `docs/regras.md`) para passar a dizer o que aconteceu; este documento fica com o registo do que lá estava antes, para não se perder a intenção original. Quando o conflito é entre coisas ditas em sessões diferentes — ou dentro da mesma sessão — nada se decide sozinho: fica assinalado no fim, até o DM decidir, e depois passa a **Decidido**.
 
 Regista, por sessão, **o que a preparação acertou**, **o que mudou em jogo** (e onde já foi corrigido) e **o que continua por revelar**. Os resumos estão em [`docs/sessoes/`](sessoes/); as fichas afectadas ficam com a nota «a mesa (sessão N, #NN)» em `data/campaign/`.
 
@@ -50,14 +50,14 @@ Corrigidos: `data/campaign/locations/{pcs,zz-mesa-patches}.json` (`l-sunken-bone
 - **Lucan contra Quasi**: ameaça de morte explícita no ossário e a adaga por resolver entre os dois.
 - **Encontro garantido** (d20 = 18) no segundo terço do dia 2, a caminho do obelisco, com a torre B4 das aranhas deixada para trás por explorar.
 
-## Por decidir (contradições que a mesa não resolve)
+## Decidido pelo DM (2026-09-21)
 
-Nada disto foi decidido: são conflitos entre o que ficou escrito em sítios diferentes, ou entre sessões, e a sessão 3 não dá resposta.
+Os quatro conflitos que estavam assinalados aqui foram resolvidos e o cânone já está corrigido nos ficheiros:
 
-1. **Há quantos anos caiu o clã Ro?** `docs/lore.md`, `docs/regras.md` e `l-sunken-boneyard` dizem **809 PD** e «a adaga está no altar há **27 anos**» — o que bate certo com a idade do Baeshra (7 anos na queda, 33 no *wish*, deus há um ano). Mas a ficha do `c-hesskar-ro`, o patch do `c-morgid` e a relação `c-durth-mirimm → clã Ro` dizem «arrasado há **~50 anos**». O DM não deu datas na sessão 3 (chegou a dizer que não se estima há quanto tempo a adaga ali estava). Decidir qual fica — e, se ficar 809 PD/27 anos, corrigir os três «~50 anos».
-2. **Quantos lizardfolk sobreviveram?** O resumo da sessão 2 diz que **três** fugiram pela água; a ficha `c-lizardfolk-do-ossario` diz **quatro dispersos** (os três mais o que mergulhou no início do combate). Na sessão 3 o Isco ouve-os à espera, mas o DM não disse quantos. Interessa: são as testemunhas de quem matou o rei e saqueou a corte.
-3. **A greatsword do Isco.** Ficou espetada na lama no fim da sessão 2 e a sessão 3 nunca a menciona — nem no inventário da manhã. Confirmar se foi recuperada ou se ficou lá.
-4. **O crânio mais pequeno é de uma tartaruga jovem.** O cânone diz que os crânios do ossário são «as irmãs mortas do Guardião do Musgo»; o DM descreveu o crânio do altar como sendo de uma tartaruga-do-horizonte muito jovem e disse não se saber o que a matou. Decidir se a jovem também é irmã, se o ossário recebe outras tartarugas, ou se fica por explicar de propósito.
+1. **O clã Ro caiu em 809 PD, há 27 anos.** Os «~50 anos» saíram das fichas do `c-hesskar-ro` e do `c-morgid` e da relação `c-durth-mirimm → clã Ro`. Bate certo com a idade do Baeshra: 7 anos na queda, 33 no *wish*, deus há um ano.
+2. **Sobreviveram quatro lizardfolk** — o que mergulhou no início do combate mais os três da retirada. São os que ficaram a vigiar o grupo no ossário na sessão 3. Corrigido no resumo da sessão 2 e na ficha `c-lizardfolk-do-ossario`.
+3. **A greatsword está com o Isco.** Não se disse mais nada à mesa, mas recuperou-a antes de sair do ossário; deixou de constar como largada na lama.
+4. **Os crânios do ossário são tartarugas-do-horizonte em geral.** «As irmãs mortas do Guardião do Musgo» é a maneira de falar delas, não uma ninhada contada: umas são maiores, outras mais pequenas, e a diferença não quer dizer nada — o crânio do altar ser de uma tartaruga jovem não precisa de explicação.
 
 ### Resolvido pela própria sessão (não é conflito)
 

@@ -378,7 +378,7 @@
       "guia",
       "lizardfolk"
     ],
-    "summary": "Batedor de Urzin (N), lizardfolk. Guia dos PCs pelo Brokenveil Marsh; conhece os locais B2-B7 e os perigos de cada um. DM (retcon ao livro: hobgoblin → lizardfolk, homem): nascido em Urzin, filho de Hesskar-Ro, o único sobrevivente do clã Ro — o clã lizardfolk de Baeshra, arrasado há ~50 anos na vila que hoje é o Sunken Boneyard. Conhece a história do rapaz do clã do pai que chegou tarde e 'dizem que voltou deus'."
+    "summary": "Batedor de Urzin (N), lizardfolk. Guia dos PCs pelo Brokenveil Marsh; conhece os locais B2-B7 e os perigos de cada um. DM (retcon ao livro: hobgoblin → lizardfolk, homem): nascido em Urzin, filho de Hesskar-Ro, o único sobrevivente do clã Ro — o clã lizardfolk de Baeshra, arrasado em 809 PD (há 27 anos) na vila que hoje é o Sunken Boneyard. Conhece a história do rapaz do clã do pai que chegou tarde e 'dizem que voltou deus'."
   },
   {
     "id": "c-tia-zulmira",
@@ -464,7 +464,7 @@
     "chapters": [
       "ch0"
     ],
-    "summary": "cotn_2026 (notas DM). Lizardfolk velho, 70 e muitos anos, em Urzin; pai do Morgid. O único sobrevivente adulto do clã Ro, arrasado há ~50 anos por um destacamento Kryn de Duarte Mirim na vila que hoje é o Sunken Boneyard. Juntou-se a Urzin. Conheceu o rapaz Ssarik-Ro — Baeshra — em criança; sabe o nome de nascimento. Não viu o altar ser feito: encontrou-o anos depois, numa volta à vila, e percebeu quem o fez pelo nome riscado; só soube no que o rapaz se tornou ao ouvir o nome numa história de gladiadores.",
+    "summary": "cotn_2026 (notas DM). Lizardfolk velho, 70 e muitos anos, em Urzin; pai do Morgid. O único sobrevivente adulto do clã Ro, arrasado em 809 PD (há 27 anos) por um destacamento Kryn de Duarte Mirim na vila que hoje é o Sunken Boneyard. Juntou-se a Urzin. Conheceu o rapaz Ssarik-Ro — Baeshra — em criança; sabe o nome de nascimento. Não viu o altar ser feito: encontrou-o anos depois, numa volta à vila, e percebeu quem o fez pelo nome riscado; só soube no que o rapaz se tornou ao ouvir o nome numa história de gladiadores.",
     "goal": "Que o filho não volte àquela vila. Que ninguém mais chegue tarde.",
     "secret": "DM: sabe o nome de nascimento de Baeshra, Ssarik-Ro — dizê-lo em voz alta é a única coisa que faz o deus calar-se dentro do Lucan. Só confirma o clã: o massacre de 809, o nome, quem era o pai (o líder místico). Encontrou o altar anos depois e percebeu quem o fez pelo nome riscado, mas não sabe nada de deuses nem de visões e não pode dizer quem falou ao Lucan.",
     "wants": "Paz; que o deixem em Urzin.",
