@@ -70,11 +70,13 @@ A **Terceira Lança** saiu do Forte Ventura há oito dias, dez soldados, para va
 - Perderam mais dois numa caverna de bullywugs (B5). Um deles era o homem que sabia ler o pântano.
 - Há quatro dias, nas Falésias do Véu-Quebrado, apanharam **uma drow sozinha** a contar o movimento do forte. Não a mataram: o Padre Perestrelo mandou dizer, antes de saírem, que queria **um Kryn vivo**.
 - Estão **perdidos há dois dias** e não o admitem em voz alta. Vão para oeste porque o sargento decidiu que é para oeste.
-- O sargento vai ter de escrever o relatório de três mortes. **A prisioneira é o que justifica as três mortes.** É por isso que não a troca por dinheiro.
+- O sargento vai ter de escrever o relatório de três mortes ao comandante Felmont.
 
-**A alavanca:** o grupo matou Skr'a S'orsk, e o sargento quer o lagarto que lhe matou o Bento — qualquer coisa que possa atirar para cima da mesa do comandante Felmont com a frase *«morreram a cumprir»*. **É esta a moeda do encontro, e a mesa ganhou-a na sessão 2 sem saber.**
+**Não há troca possível — e é isso que faz o encontro.** O que a patrulha traz já chega: **capturaram um Kryn vivo**, que é exactamente o que o Padre Perestrelo pediu e mais do que a ordem de marcha lhes exigia. A missão está cumprida na jangada. As três mortes ficam pagas por ela. Não há nada que o grupo carregue — nem ouro, nem troféus, nem o xamã morto que ninguém no forte conhece — que valha mais do que a coisa que eles já têm amarrada a um pau de madeira.
 
-**O que conta como prova** (não têm a cabeça — o corpo ficou no ossário, com a seta do Isco na boca): os **cinco colares de fita com dentes** e o **bastão de vértebras** que o Quasi tirou ao xamã, a **saia de crânios**, ou o sítio marcado no mapa do Morgid. Qualquer uma chega; as três juntas fazem o sargento acreditar antes de o pedir. *(Voltar ao ossário buscar a cabeça custa a manhã do dia 3 — e o relógio da Bolbara não dá para isso: ver secção 9.)*
+Por isso o sargento **não negoceia a prisioneira**, a nenhum preço e com nenhum teste. Se a mesa a quiser, tira-lha: pela conversa não sai. O que se compra com ele é tudo o resto — passagem, informação, uma escolta até ao portão —, e o que ele quer em troca não é um objecto: **é chegar a casa antes de escurecer amanhã**, perdido como está. É isso que a mesa tem para vender.
+
+**O Bento Ruivo continua a valer**, mas como pessoa e não como moeda. Dizer o nome dele, devolver a placa, ou dizer «o lagarto que o matou está morto e fomos nós» compra **a atenção do sargento e o benefício da dúvida** (vantagem num teste social, uma pergunta respondida a sério) — não compra a drow. Um homem que perdeu três não fica em dívida por uma notícia; fica só a olhar para ti de outra maneira.
 
 ---
 
@@ -204,13 +206,16 @@ O sargento fala antes de atacar — **é a primeira coisa a deixar clara**: leva
 
 - **Porta de entrada:** o **Alberto**. É gnomo, é do Império, trabalhou para um feiticeiro imperial, tem *alchemist's supplies*, identificou duas poções de cura na noite passada e **quer ir ao Forte Ventura**. Um alquimista imperial perdido no pântano com guias contratados é uma história que se sustenta sozinha — e obriga a mesa a jogar com o Alberto a falar por eles, o que é de graça em ouro. Deception com o Alberto a puxar a história: **DC 13** (as poções à vista baixam para 11). Sem o Alberto: **DC 17**, e o acólito pede nomes.
 - **O problema:** o **Morgid** é lizardfolk, e foram lizardfolk que mataram o Bento. Se o virem, a conversa acaba. Que fique na água (Furtividade) ou que a mesa arranje coisa melhor. *(E é o segundo silêncio que ele engole em dois dias: no ossário rezou no chão do clã do pai e ninguém perguntou nada.)*
-- **A moeda:** *«Matámos o xamã que vos matou o homem.»* Persuasão **DC 18 sem prova**, **DC 12 com prova** (os colares de dentes, o bastão de vértebras, a saia de crânios, o sítio no mapa — ver secção 2).
-- **O que o sargento dá em troca**, do mais barato ao mais caro:
-  1. Passagem. Não os segue, não os denuncia.
-  2. A direcção certa e o que há entre aqui e o forte.
-  3. Informação sobre o forte (secção 7).
-  4. **Contrata-os como guias até ao forte** — e aqui o encontro torna-se o melhor plano de infiltração que a mesa vai ter. Entram pela porta da frente, com os soldados a agradecer.
-  5. A prisioneira: **não**, por dinheiro. Os 148 po do Lucan compram silêncio, comida, uma direcção mal apontada no relatório da Nália — não compram a pessoa que justifica três mortes. Só sai por troca (o corpo do Bento para enterrar, o ninho de bullywugs que lhe matou dois homens) ou por um plano em que ele não perca a cara. **Se a mesa inventar esse plano, diz que sim.** É o que uma mesa merece por pensar.
+- **A moeda é o Morgid e o mapa** — e aqui está o nó: **a coisa que eles têm de esconder é a coisa que têm para vender.** Estão perdidos há dois dias, as aves acabaram de passar por cima deles, e o sargento quer chegar a casa antes de escurecer amanhã. Um batedor que conhece o pântano é a única coisa que lhe falta, e esse batedor é um lagarto. Três saídas, todas boas:
+  - **Vender só o mapa**, com um PC a fingir que o lê. Funciona (é um mapa de couro com marcas), e obriga a mesa a mentir com Sobrevivência à mistura: falhar um teste passa a significar levá-los pelo caminho errado.
+  - **Mostrar o Morgid** e aguentar a reacção: Persuasão com desvantagem, e o Casqueiro a querer sangue antes de o sargento decidir. Se passar, é a melhor coisa que pode acontecer nesta cena — um lizardfolk a guiar a patrulha que enterrou um homem morto por lizardfolk.
+  - **Vendê-lo como cativo deles**, coleira e tudo. Barato, eficaz, e o Morgid ouve tudo. Guarda o que ele escreve na lousa a seguir para o fim da sessão.
+- **O que o sargento dá**, do mais barato ao mais caro:
+  1. Passagem. Não os segue, não os denuncia. **Persuasão DC 13** (ou a história do Alberto).
+  2. A informação sobre o forte (secção 7): sai à conversa, com a Nália a falar demais, sem teste nenhum.
+  3. **Contrata-os como guias até ao portão** — **DC 15, e 13 depois das aves**. Aqui o encontro torna-se o melhor plano de infiltração que a mesa vai ter: entram pela porta da frente, com os soldados a agradecer. Paga 30 po e come do peixe do Isco.
+  4. **A prisioneira: não.** A nenhum preço e com nenhum teste — os 148 po do Lucan compram silêncio, comida e uma direcção mal apontada no relatório da Nália, mas ela é a razão de a patrulha não ter sido um desastre, e ele já a tem. Não deixes um bom rolamento abrir esta porta: **diz que não e deixa-os ver que é um não a sério.** Se a quiserem, é à socapa (caminho C), à força (caminho B), ou lá dentro (caminho D).
+- **A excepção honesta:** o que o move não é um objecto, é substituir-lhe a prisioneira como aquilo que justifica a patrulha. Nada do que o grupo carrega faz isso — mas se a mesa inventar alguma coisa que faça (um corpo, um nome maior, uma razão pela qual entregá-la *a outra pessoa* lhe dá mais crédito), **diz que sim**. É o que uma mesa merece por pensar; não é uma porta que tu abres, é uma que eles arrombam.
 - **A garra do Quasi.** Ele tem `command` 1×/dia e ninguém à mesa sabe. Uma palavra — «Larga», «Rende-te», «Foge» — resolve um problema **e cria outro**: o sargento não percebe o que aconteceu, mas percebe que aconteceu, e a Nália aponta a besta a quem falou. Se ele a usar, dá-lhe o que ele quer e depois deixa a cena tratar disso: é assim que se paga uma *monkey's paw* sem regra nova. *(E o acólito escreve.)*
 - **O acólito estraga tudo**, duas vezes, de propósito: pede os nomes «para o registo» e manda o Quasi tirar a máscara. **Se o Quasi tirar a máscara, o encontro acaba e começa outro** ([`docs/regras.md`](../regras.md): paralisia, amnésia, pontos de insanidade em quem vê). Não é bluff do DM: é um botão em cima da mesa, e eles que decidam.
 
@@ -328,7 +333,6 @@ Depois do encontro sobram-lhes **quatro terços de marcha**: o entardecer do dia
 | **Parlamento** | meio terço, e podem sair de lá com escolta | chegam com folga; a folga é o que lhes permite dormir |
 | **Emboscada** | um terço (combate, saque, feridos) | sobram três; dá, se não se perderem |
 | **Seguir e libertar de noite** | o entardecer do dia 2 e a noite | **sobra só o dia 3 inteiro, sem margem para erro** |
-| Voltar ao ossário buscar a cabeça do xamã | a manhã do dia 3 | **não dá** — diz isso ao jogador por fora, antes de ele gastar a sessão a tentar |
 
 - **Ritmo rápido** é a alavanca deles: 15 hexágonos por terço, com −5 na navegação (o Morgid passa a precisar de 20). Compra um terço e paga-o em risco: o d20 de encontro continua a rolar em cada um.
 - **Perder-se custa tudo.** Se o Morgid não guiar — ou se voltarem a deixar guiar quem tirou 10 na sessão 3 —, um terço perdido no dia 3 é a Bolbara.
@@ -371,7 +375,7 @@ Alternativa, se a mesa estiver a ganhar depressa: **harpias das falésias** por 
 - [ ] Recortar a Lampreia à parte no mapa: ela não começa com os outros.
 - [ ] Imprimir os dois handouts (ordem de marcha, folha do acólito).
 - [ ] Ter o apito à mão (um apito a sério, se houver — vale a pena ouvi-lo).
-- [ ] Confirmar o que o grupo trouxe do ossário que sirva de prova (colares de dentes, bastão, saia de crânios) — está com o **Quasi**, não com o Lucan.
+- [ ] Ter decidido, antes de te sentares, que **a prisioneira não está à venda**: o não é a espinha do encontro e um bom rolamento não o dobra.
 - [ ] Ter as aves prontas para abrir a sessão (secção 9), e o Morgid com o dedo no mapa.
 - [ ] Contar os terços em voz alta a partir do fim do encontro: sobram quatro até ao fim do dia 3.
 - [ ] Recordar em voz alta a regra da água: terreno difícil menos para quem nada.
