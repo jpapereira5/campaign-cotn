@@ -1,6 +1,8 @@
 # Cânone da mesa: o que foi jogado vs. o que estava preparado
 
-O que a mesa jogou manda. Este documento regista, por sessão, **o que a preparação acertou**, **o que mudou em jogo** (e o que isso obriga a corrigir nos beats e nas fichas) e **o que continua por revelar**. Os resumos estão em [`docs/sessoes/`](sessoes/); as fichas afectadas ficam com a nota «a mesa (sessão N, #NN)» em `data/campaign/`.
+**O que a mesa jogou manda.** Quando a sessão contradiz a preparação, a preparação é **reescrita** nos ficheiros (`data/campaign/`, `docs/lore.md`, `docs/regras.md`) para passar a dizer o que aconteceu; este documento fica com o registo do que lá estava antes, para não se perder a intenção original. Quando o conflito é entre coisas ditas em sessões diferentes — ou dentro da mesma sessão — nada se decide aqui: vai para **Por decidir**.
+
+Regista, por sessão, **o que a preparação acertou**, **o que mudou em jogo** (e onde já foi corrigido) e **o que continua por revelar**. Os resumos estão em [`docs/sessoes/`](sessoes/); as fichas afectadas ficam com a nota «a mesa (sessão N, #NN)» em `data/campaign/`.
 
 Começa na sessão 3 (#84), a primeira em que uma cena preparada com runsheet (`b-0-boneyard-altar`) foi jogada.
 
@@ -17,7 +19,9 @@ Beat preparado: `b-0-boneyard-altar` (PROPOSTA · "O Santuário do Véu-Quebrado
 - **A fome que não é dele** chega ao Lucan e não passa com comida.
 - A adaga não se deixa explicar: History 3 dá "não foi feita por lizardfolk" e mais nada. O `detect magic` não prova autoria nenhuma, como previsto.
 
-### Mudou em jogo (o cânone é o da mesa)
+### Mudou em jogo (o cânone é o da mesa — já reescrito nos ficheiros)
+
+Corrigidos: `data/campaign/locations/{pcs,zz-mesa-patches}.json` (`l-sunken-boneyard`, `l-brokenveil-marsh`), `data/campaign/beats/pcs.json` (`b-0-boneyard-altar`, `b-1-mirimm-reconhece`), `docs/lore.md` e `docs/regras.md`.
 
 1. **A visão não aconteceu no altar.** No altar houve só a fome e a voz; a visão inteira veio no **sonho do long rest**, nessa noite. Consequência: a mesa **não** viu o Lucan parado, a chorar, sem responder — a janela para os outros agirem não chegou a existir, e a cena pública do Lucan sem controlo fica por jogar.
 2. **A voz disse outra coisa.** Não foi "Alimenta-te. Devora. Tal como eles devoraram." — foi **"Perto. Não aqui."**, e o olhar do Lucan virou-se para o Quasi (que tinha a adaga e a garra). Frase muito mais fechada; é o que existe.
@@ -45,3 +49,17 @@ Beat preparado: `b-0-boneyard-altar` (PROPOSTA · "O Santuário do Véu-Quebrado
 - **Os seis dedos**: se cinco é o posto do rei, de quem é a mão de seis? (Sess'inek tem seis braços e seis espadas: guardar para o Betrayers' Rise.)
 - **Lucan contra Quasi**: ameaça de morte explícita no ossário e a adaga por resolver entre os dois.
 - **Encontro garantido** (d20 = 18) no segundo terço do dia 2, a caminho do obelisco, com a torre B4 das aranhas deixada para trás por explorar.
+
+## Por decidir (contradições que a mesa não resolve)
+
+Nada disto foi decidido: são conflitos entre o que ficou escrito em sítios diferentes, ou entre sessões, e a sessão 3 não dá resposta.
+
+1. **Há quantos anos caiu o clã Ro?** `docs/lore.md`, `docs/regras.md` e `l-sunken-boneyard` dizem **809 PD** e «a adaga está no altar há **27 anos**» — o que bate certo com a idade do Baeshra (7 anos na queda, 33 no *wish*, deus há um ano). Mas a ficha do `c-hesskar-ro`, o patch do `c-morgid` e a relação `c-durth-mirimm → clã Ro` dizem «arrasado há **~50 anos**». O DM não deu datas na sessão 3 (chegou a dizer que não se estima há quanto tempo a adaga ali estava). Decidir qual fica — e, se ficar 809 PD/27 anos, corrigir os três «~50 anos».
+2. **Quantos lizardfolk sobreviveram?** O resumo da sessão 2 diz que **três** fugiram pela água; a ficha `c-lizardfolk-do-ossario` diz **quatro dispersos** (os três mais o que mergulhou no início do combate). Na sessão 3 o Isco ouve-os à espera, mas o DM não disse quantos. Interessa: são as testemunhas de quem matou o rei e saqueou a corte.
+3. **A greatsword do Isco.** Ficou espetada na lama no fim da sessão 2 e a sessão 3 nunca a menciona — nem no inventário da manhã. Confirmar se foi recuperada ou se ficou lá.
+4. **O crânio mais pequeno é de uma tartaruga jovem.** O cânone diz que os crânios do ossário são «as irmãs mortas do Guardião do Musgo»; o DM descreveu o crânio do altar como sendo de uma tartaruga-do-horizonte muito jovem e disse não se saber o que a matou. Decidir se a jovem também é irmã, se o ossário recebe outras tartarugas, ou se fica por explicar de propósito.
+
+### Resolvido pela própria sessão (não é conflito)
+
+- **Dado de encontros**: a sessão 1 usou um d12; na sessão 3 o DM corrigiu-se («enganei-me, é um d20 — 16 ou mais acontece alguma coisa»). Vale o d20; a nota da sessão 1 no patch do pântano ficou marcada como substituída.
+- **Hexágonos do dia 2**: o DM deu por um erro de um hexágono no seu mapa e corrigiu-o em jogo antes de contar a viagem.
