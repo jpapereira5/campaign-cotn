@@ -80,6 +80,8 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
 
 ### Em aberto (para o DM decidir)
 1. **Beats por capítulo** (ronda seguinte): onde entram Brishen, a Aloysia, o acidente do demiplano, a feira, o zigurate, a catedral; e as pistas para os `r-pc-quasi-*`.
+1b. **A garra de seis dedos** (sessão 3): dá-lhe `command` 1×/dia e ele escondeu-o do grupo. Decidir se a garra empurra (*monkey's paw* — na mesma noite sonhou que era líder inquestionado de uma caravana) ou se a vontade de mandar é só dele, e o que mais aparece se continuar a estudá-la. O jogador já marcou a posição: o Quasi quer ser questionado, não obedecido.
+1c. A adaga do altar está na posse dele e o Lucan ameaçou-o de morte por causa disso: decidir até onde vai a corda entre os dois.
 2. A curandeira de aldeia: fica só backstory.
 3. O que o Filho é ao nascer e o que faz: fica para a campanha seguinte.
 
@@ -170,8 +172,10 @@ Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições re
 2. **Como se volta à vida** depois de renegar Baeshra: descoberta de mesa. Há agora **uma** resposta conhecida — a oferta de Sess'inek no Rise —, mas falta decidir **o custo** (warlock?) e se existe outra saída.
 2b. **A sala do Rise** onde isto acontece: *hold*. As Shifting Halls dão licença canónica para uma sala só deste grupo (traz um deus lizardfolk ao cinto); alternativas já existentes no livro: R8 Spiders' Chancel (os livros abissais sobre alianças de demon lords), R12 Threshold (já tem uma maldição de fome), R3 devouring wall.
 2c. **Conversa com a Renata**, quando a sala existir: a oferta é real e mexe na ficha.
-3. **Beats por capítulo** (ronda seguinte): o altar de criança no Boneyard e Hesskar-Ro em Urzin, a Ritual Stone, o seguidor no Festival, o duelo com a Ayo (e Duarte como segundo alvo), o obelisco do mar, Bazzoxan e o Verin, o obelisco do Rise, o aboleto que mostra o *como*, o Heart of Despair.
+3. **Beats por capítulo** (ronda seguinte): o altar de criança no Boneyard (**jogado** na sessão 3, #84 — o que mudou está em `docs/canone.md`) e Hesskar-Ro em Urzin, a Ritual Stone, o seguidor no Festival, o duelo com a Ayo (e Duarte como segundo alvo), o obelisco do mar, Bazzoxan e o Verin, o obelisco do Rise, o aboleto que mostra o *como*, o Heart of Despair.
 4. **Cruzado com o Isco**: matar Alyxian derrete todo o ruidium — o que faz isso à licantropia rubídica do Isco? Decidir no Isco.
+5. **A adaga ficou com o Quasi** (sessão 3): foi ele que a identificou e recusou-se a entregá-la; o Lucan respondeu «não me testes». Decidir se o reconhecimento em Jigau (`b-1-mirimm-reconhece`) dispara em quem a traz ao cinto ou em quem a reclama — e o que acontece se a tensão entre os dois rebentar antes disso.
+6. **A fome do santuário** não passa com comida desde a sessão 3. Decidir quanto tempo dura, se tem custo mecânico, e o que quer dizer «Perto. Não aqui.» — a única coisa que a voz disse.
 
 ---
 
@@ -224,6 +228,7 @@ Fechado base a base (linha A: o mar do lado dele; linha B: Ruidus), com os ponto
 2. Quem morre na escalada: na mesa.
 3. **Beats por capítulo** (ronda seguinte): o aboleto do mar e Belmiro, a Marisa, o Scylla, os flashes, Marquet e a caravana, Cael Morrow, o ancião.
 4. A ideia do jogador de uma missão em que acordam sem se lembrar da noite anterior: encaixa num flash.
+5. **O sangue de Skr'a S'orsk** (sessão 3): o Isco ligou-o pelo cheiro às entidades de sombra do Farol Apagado, e dos objectos do xamã só a garra de seis dedos tem o mesmo cheiro. Decidir o que um xamã de pântano tem a ver com aquilo — e se isto puxa o Farol Apagado para esta campanha.
 
 ---
 
