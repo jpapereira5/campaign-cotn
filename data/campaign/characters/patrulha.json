@@ -3,135 +3,259 @@
     "id": "c-vasco-corvelo",
     "name": "Sargento Vasco Corvelo",
     "kind": "npc",
-    "factions": ["f-dwendalian-empire"],
+    "factions": [
+      "f-dwendalian-empire"
+    ],
     "home": "l-fort-venture",
-    "chapters": ["ch0"],
+    "chapters": [
+      "ch0"
+    ],
     "summary": "Veterano do Forte Ventura, comanda a Terceira Lança. Cinquenta anos, cabeça rapada à navalha, metade da barba queimada e a pele lisa e brilhante por baixo; sobretudo imperial de couro com a púrpura já castanha de lama; machado de abordagem ao cinto e um apito de osso ao pescoço, preso por uma corrente. Fala baixo e devagar, nunca repete uma ordem, fala a olhar para a água. Tique: fecha a mão no apito antes de decidir. Saiu há oito dias com dez soldados para varrer o pântano a leste; perdeu Bento Ruivo para os lizardfolk de Skr'a S'orsk (jangada, B2) e dois homens numa caverna de bullywugs (B5), e está perdido há dois dias sem o admitir. Traz uma prisioneira drow para o Padre Perestrelo, que pediu um Kryn vivo: é ela que justifica as três mortes no relatório. Não a troca por dinheiro; troca-a por uma forma de o relatório não ser uma derrota — quer a cabeça do xamã que lhe matou o Bento. Ficha: CA 17, PV 45, machado +5 (1d8+3, 2 ataques), besta pesada +3 (1d10+1), reacção Passo Firme (+2 CA contra um ataque que vê chegar), Percepção +2, Intuição +4. Falas: «Alto aí.» «Não me interessa quem são. Interessa-me para onde vão.» «Perdi três homens neste lamaçal.» «Há três dias que não durmo. Não me obriguem a acordar.»",
     "goal": "Chegar ao Forte Ventura com a prisioneira viva.",
     "secret": "Está perdido há dois dias e a patrulha já percebeu.",
     "wants": "Um relatório que não seja uma derrota — e a cabeça do lagarto que lhe matou um homem.",
     "fears": "Voltar com menos três e sem nada.",
-    "states": [{ "fromBeat": "b-0-patrulha-imperio", "state": "No carreiro, a escoltar a prisioneira para o forte" }],
+    "states": [
+      {
+        "fromBeat": "b-0-patrulha-imperio",
+        "state": "No carreiro, a escoltar a prisioneira para o forte"
+      }
+    ],
     "attitude": "indiferente",
-    "tags": ["dm", "mesa-2026", "imperio", "forte-ventura", "veterano", "patrulha"],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "imperio",
+      "forte-ventura",
+      "veterano",
+      "patrulha"
+    ],
     "source": "dm"
   },
   {
     "id": "c-gilberto-mendanha",
     "name": "Soldado Gilberto Mendanha, «Casqueiro»",
     "kind": "npc",
-    "factions": ["f-dwendalian-empire"],
+    "factions": [
+      "f-dwendalian-empire"
+    ],
     "home": "l-fort-venture",
-    "chapters": ["ch0"],
+    "chapters": [
+      "ch0"
+    ],
     "summary": "O escudo da Terceira Lança. Enorme, ombros de porta, lama seca até ao peito; escudo de tábuas reforçado com chapa, quase uma parede; às costas um saco de lona amarrado três vezes com tudo o que tiraram à prisioneira. Voz alta e alegre, fora de sítio; canta hinos de Vesh mal e sem pudor; trata toda a gente por «ó amigo». Puxa a jangada à corda. Não se rende enquanto o sargento estiver de pé e é o primeiro a levantar o escudo à frente do recruta. Ficha: CA 18 (cota + escudo grande), PV 22, lança +4 (1d6+2), empurrão (Atletismo +4). Falas: «Ó amigo, sai do carreiro.» «Isto não é sítio para gente.» «O sargento é que fala.»",
     "goal": "Aguentar a linha e comer alguma coisa que não seja enguia salgada.",
     "secret": "",
     "wants": "Que o sargento lhe diga que fez bem.",
     "fears": "Que o miúdo morra ao pé dele.",
-    "states": [{ "fromBeat": "b-0-patrulha-imperio", "state": "À frente da fila, com o saco dos bens da prisioneira" }],
+    "states": [
+      {
+        "fromBeat": "b-0-patrulha-imperio",
+        "state": "À frente da fila, com o saco dos bens da prisioneira"
+      }
+    ],
     "attitude": "indiferente",
-    "tags": ["dm", "mesa-2026", "imperio", "forte-ventura", "patrulha"],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "imperio",
+      "forte-ventura",
+      "patrulha"
+    ],
     "source": "dm"
   },
   {
     "id": "c-nalia-vasques",
     "name": "Cabo Nália Vasques",
     "kind": "npc",
-    "factions": ["f-dwendalian-empire"],
+    "factions": [
+      "f-dwendalian-empire"
+    ],
     "home": "l-fort-venture",
-    "chapters": ["ch0"],
+    "chapters": [
+      "ch0"
+    ],
     "summary": "Os olhos da Terceira Lança. Baixa e larga, cabeça rapada com um véu de gaze cinzenta contra os mosquitos que lhe cobre a cara como fumo, sardas queimadas de sol por baixo; besta de mão sempre carregada apoiada no antebraço, apontada ao chão e a subir devagar enquanto fala. Fala rápido, para dois lados ao mesmo tempo, faz três perguntas antes de esperar resposta e ri-se das próprias piadas. É a única que diria em voz alta que estão perdidos, se o sargento não estivesse ali: um grupo que saiba ler o pântano vale-lhe mais do que uma prisioneira. Ponto fraco social da patrulha (Persuasão contra ela é 2 mais fácil do que contra o sargento). Ficha: CA 14, PV 13, besta de mão +4 (1d6+2; se não se mover, recarrega e dispara outra vez), Percepção +4, Intuição +3. Falas: «Vocês são de onde? Não, a sério, de onde? Ninguém é daqui.» «Sargento, eles conhecem o caminho.» «Se mexer a mão outra vez, ponho-te um virote na boca.»",
     "goal": "Chegar ao forte antes de escurecer.",
     "secret": "Sabe que vão na direcção errada e cala-se por disciplina.",
     "wants": "Um guia.",
     "fears": "Dormir mais uma noite no pântano.",
-    "states": [{ "fromBeat": "b-0-patrulha-imperio", "state": "No carreiro, besta a subir devagar" }],
+    "states": [
+      {
+        "fromBeat": "b-0-patrulha-imperio",
+        "state": "No carreiro, besta a subir devagar"
+      }
+    ],
     "attitude": "indiferente",
-    "tags": ["dm", "mesa-2026", "imperio", "forte-ventura", "patrulha"],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "imperio",
+      "forte-ventura",
+      "patrulha"
+    ],
     "source": "dm"
   },
   {
     "id": "c-elmiro-trigueiro",
     "name": "Recruta Elmiro Trigueiro",
     "kind": "npc",
-    "factions": ["f-dwendalian-empire"],
+    "factions": [
+      "f-dwendalian-empire"
+    ],
     "home": "l-fort-venture",
-    "chapters": ["ch0"],
+    "chapters": [
+      "ch0"
+    ],
     "summary": "O miúdo da Terceira Lança. Dezassete anos, elmo grande demais que lhe roda na cabeça e que endireita de dez em dez segundos; cara verde-acinzentada da febre do pântano, vomitou há pouco; segura a lança com as duas mãos e a ponta treme. Sussurra, responde antes de ser perguntado, chama «senhor» a toda a gente. Casa não é o forte: é uma aldeia a norte do rio. À primeira baixa larga a lança e ajoelha-se. Se o deixarem viver, é ele que reconhece o grupo mais tarde, dentro do forte. Ficha: CA 16, PV 9, lança +3 (1d6+1), desvantagem em saves contra medo. Falas: «Senhor, eles disseram que ela mata pessoas com os olhos. É verdade?» «Eu não queria vir.» «Por favor.»",
     "goal": "Ir para casa.",
     "secret": "Ouviu o Padre Perestrelo dizer que a goblin da capela «ainda não disse a palavra certa».",
     "wants": "Que alguém lhe diga que isto acaba.",
     "fears": "Tudo, e o padre em primeiro lugar.",
-    "states": [{ "fromBeat": "b-0-patrulha-imperio", "state": "Atrás da jangada, a tremer" }],
+    "states": [
+      {
+        "fromBeat": "b-0-patrulha-imperio",
+        "state": "Atrás da jangada, a tremer"
+      }
+    ],
     "attitude": "indiferente",
-    "tags": ["dm", "mesa-2026", "imperio", "forte-ventura", "patrulha"],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "imperio",
+      "forte-ventura",
+      "patrulha"
+    ],
     "source": "dm"
   },
   {
     "id": "c-rosinda-sousela",
     "name": "Batedora Rosinda Sousela, «Lampreia»",
     "kind": "npc",
-    "factions": ["f-dwendalian-empire"],
+    "factions": [
+      "f-dwendalian-empire"
+    ],
     "home": "l-fort-venture",
-    "chapters": ["ch0"],
+    "chapters": [
+      "ch0"
+    ],
     "summary": "A que não está na fila. Manto cinzento-esverdeado com juncos cosidos ao capuz; deitada a trinta pés do carreiro, dentro de água, com o arco fora de água e uma cana na boca. Magra, cara comprida, dentes da frente separados. Quase não fala; quando fala, é uma frase curta e verdadeira que estraga a conversa a toda a gente. Detesta o acólito. Percepção passiva 16 do grupo nota a cana que não é cana; Percepção DC 16 localiza-a. Se o grupo emboscar sem a encontrar, a primeira flecha vem das costas no fim da primeira ronda. Quando o sargento cai não se rende: desaparece e leva a notícia ao forte. Ficha: CA 13, PV 16, arco longo +4 (1d8+2, 2 tiros), Furtividade +6, Percepção +5, Desengatar como acção bónus. Falas: «Estão os cinco no carreiro. Eu conto seis do outro lado.» «Sargento. Não.»",
     "goal": "Que isto acabe sem barulho.",
     "secret": "Foi ela que encontrou a drow nas falésias e foi ela que disse para não a matarem.",
     "wants": "Voltar sem ter de disparar.",
     "fears": "O que o acólito escreve sobre os companheiros.",
-    "states": [{ "fromBeat": "b-0-patrulha-imperio", "state": "Na água, a 30 pés do carreiro, com o arco seco" }],
+    "states": [
+      {
+        "fromBeat": "b-0-patrulha-imperio",
+        "state": "Na água, a 30 pés do carreiro, com o arco seco"
+      }
+    ],
     "attitude": "indiferente",
-    "tags": ["dm", "mesa-2026", "imperio", "forte-ventura", "patrulha", "batedora"],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "imperio",
+      "forte-ventura",
+      "patrulha",
+      "batedora"
+    ],
     "source": "dm"
   },
   {
     "id": "c-damiao-prestes",
     "name": "Acólito Damião Prestes",
     "kind": "npc",
-    "factions": ["f-dwendalian-empire"],
+    "factions": [
+      "f-dwendalian-empire"
+    ],
     "home": "l-fort-venture",
-    "chapters": ["ch0"],
+    "chapters": [
+      "ch0"
+    ],
     "summary": "Escrivão de Vesh destacado com a patrulha pelo Padre Perestrelo. Magro, jovem, capa preta encharcada que pesa mais do que ele; dedos manchados de tinta até ao segundo nó; escritório portátil pendurado ao peito, aberto, com a folha protegida por uma aba de cabedal, e escreve enquanto anda; ao pulso, enrolada três voltas, a trança branca que cortou à prisioneira. Cortês, contente, insuportável; trata a prisioneira por «o sujeito»; não levanta a voz nem para ameaçar. Quer entregar ao Padre Perestrelo uma confissão já escrita — falta a assinatura, e a assinatura é um detalhe. Se vir o Isco transformar-se ou o Quasi de máscara, muda de alvo à frente de toda a gente e pergunta-lhes o nome com a pena na mão. É o primeiro a fugir num combate. A folha dele vale mais viva do que morta: nomes, datas e a guarnição toda. Ficha: CA 12, PV 11, maça +2 (1d6), sacred flame (CD 12), bless, cure wounds, sanctuary; Religião +4. Falas: «Não se movam, por favor. Estou a escrever.» «O sujeito ainda não assinou.» «Os nossos nomes, para o registo? É rotina.» «Tira a máscara, por favor. É só para o registo.»",
     "goal": "Levar ao Padre Perestrelo uma confissão assinada.",
     "secret": "Regista «sujeitos de interesse» para além da prisioneira — e a folha chega ao Perestrelo mesmo que ele morra.",
     "wants": "Ser notado por Perestrelo.",
     "fears": "Voltar com a folha em branco.",
-    "states": [{ "fromBeat": "b-0-patrulha-imperio", "state": "Junto à jangada, a escrever à chuva" }],
+    "states": [
+      {
+        "fromBeat": "b-0-patrulha-imperio",
+        "state": "Junto à jangada, a escrever à chuva"
+      }
+    ],
     "attitude": "hostil",
-    "tags": ["dm", "mesa-2026", "imperio", "forte-ventura", "patrulha", "vesh", "escrivao"],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "imperio",
+      "forte-ventura",
+      "patrulha",
+      "vesh",
+      "escrivao"
+    ],
     "source": "dm"
   },
   {
     "id": "c-bento-ruivo",
     "name": "Soldado Bento Ruivo (o morto da jangada)",
     "kind": "npc",
-    "factions": ["f-dwendalian-empire"],
+    "factions": [
+      "f-dwendalian-empire"
+    ],
     "home": "l-fort-venture",
-    "chapters": ["ch0"],
+    "chapters": [
+      "ch0"
+    ],
     "summary": "O soldado imperial morto do Bosque Seco (B2), numa jangada encalhada entre cobras: é da Terceira Lança de Vasco Corvelo e foi morto pelos lizardfolk de Skr'a S'orsk. Não tem cena própria — tem um nome, para que a patrulha possa dizê-lo e para que o grupo possa devolvê-lo. Quem o nomear ao sargento ganha a conversa; quem trouxer prova de que o xamã está morto baixa a Persuasão de DC 18 para DC 12.",
     "goal": "",
     "secret": "",
     "wants": "",
     "fears": "",
     "states": [],
-    "tags": ["dm", "mesa-2026", "imperio", "forte-ventura", "patrulha", "morto"],
+    "tags": [
+      "dm",
+      "mesa-2026",
+      "imperio",
+      "forte-ventura",
+      "patrulha",
+      "morto"
+    ],
     "source": "dm"
   },
   {
     "id": "c-pc-drow",
-    "name": "A prisioneira drow (4.ª jogadora — ficha por chegar)",
+    "name": "A prisioneira drow (Camila, 4.ª jogadora — ficha por chegar)",
     "kind": "pc",
     "factions": [],
-    "chapters": ["ch0", "ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ch7", "ch8"],
-    "summary": "PLACEHOLDER: renomear a id para c-pc-<nome> quando a ficha existir. Entra na sessão 4 como prisioneira da Terceira Lança, a caminho do Forte Ventura. Apanhada há quatro dias nas Falésias do Véu-Quebrado a contar o movimento do forte; viva porque o Padre Perestrelo pediu um Kryn vivo. Cabelo branco cortado à pressa (a trança está ao pulso do acólito), um olho fechado pelo inchaço, pulsos numa canga de madeira e uma mordaça de couro e ferro entre os dentes — sem componentes verbais nem somáticos até ser libertada. Os bens dela estão no saco de lona do Casqueiro. Três perguntas para a jogadora antes da sessão: o que fazia sozinha no pântano (batedora da Vigia da Aurora / correia da Dinastia com um despacho perdido / exilada de Rosohna caçada pelos dois lados); o que lhe tiraram (o objecto volta-lhe às mãos no momento da libertação); quem já deu pela falta dela (gancho Kryn para o cap. 1). Se o grupo a deixar passar, entra na cela V8 do forte, ao lado do Alone Fritz. Preparação em docs/sessoes/sessao-04-preparacao.md.",
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7",
+      "ch8"
+    ],
+    "summary": "PLACEHOLDER: renomear a id para c-pc-<nome> quando a ficha existir. Personagem da Camila, que entra na sessão 4 in media res, sem os outros jogadores saberem que vem alguém; vem como healer ou como mage (o 5.º jogador, o Andrew, traz a outra e entra mais tarde). Entra como prisioneira da Terceira Lança, a caminho do Forte Ventura: apanhada há quatro dias nas Falésias do Véu-Quebrado a contar o movimento do forte, viva porque o Padre Perestrelo pediu um Kryn vivo. Cabelo branco cortado à pressa (a trança está ao pulso do acólito), um olho fechado pelo inchaço, pulsos numa canga de madeira e uma mordaça de couro e ferro entre os dentes — sem componentes verbais nem somáticos até ser libertada. Os bens dela estão no saco de lona do Casqueiro (e são a única coisa que a varinha de detect magic do Quasi acende no carreiro). Três perguntas para a jogadora antes da sessão: o que fazia sozinha no pântano (batedora da Vigia da Aurora / correia da Dinastia com um despacho perdido / exilada de Rosohna caçada pelos dois lados / à procura da patrulha Kryn desaparecida de que o grupo já viu a couraça partida no trono do ossário); o que lhe tiraram (o objecto volta-lhe às mãos no momento da libertação); quem já deu pela falta dela (gancho Kryn para o cap. 1). Gancho pronto: olha um segundo a mais para a adaga drow ao cinto do QUASI — degrau «Olhar» de docs/regras.md — e isso cai em cima do conflito que a sessão 3 deixou aberto entre ele e o Lucan. Se o grupo a deixar passar, entra na cela V8 do forte, ao lado do Alone Fritz. Preparação em docs/sessoes/sessao-04-preparacao.md.",
     "goal": "Por definir com a jogadora.",
     "secret": "Por definir com a jogadora.",
     "wants": "Sair da canga.",
     "fears": "O que a espera na capela do forte.",
     "states": [
-      { "fromBeat": "b-0-patrulha-imperio", "state": "Prisioneira na jangada, amordaçada e presa à canga" }
+      {
+        "fromBeat": "b-0-patrulha-imperio",
+        "state": "Prisioneira na jangada, amordaçada e presa à canga"
+      }
     ],
-    "tags": ["pc", "mesa-2026", "drow", "kryn", "placeholder"],
+    "tags": [
+      "pc",
+      "mesa-2026",
+      "drow",
+      "kryn",
+      "placeholder"
+    ],
     "source": "dm"
   }
 ]
