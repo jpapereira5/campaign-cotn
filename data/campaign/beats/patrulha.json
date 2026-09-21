@@ -1,5 +1,45 @@
 [
   {
+    "id": "b-0-pressagios-do-forte",
+    "title": "Presságios do forte: as aves e a tempestade parada",
+    "arcs": [
+      "a-prologue",
+      "a-main"
+    ],
+    "chapter": "ch0",
+    "order": 24,
+    "location": "l-brokenveil-marsh",
+    "participants": [
+      "c-bolbara",
+      "c-trush",
+      "c-pellinost",
+      "f-dwendalian-empire"
+    ],
+    "summary": "O relógio da Bolbara à vista, sem uma linha de DM. O Padre Perestrelo mata-a e revive-a; o terceiro revivify é no dia 3 e no dia 4 ela já saiu (o forte em ruínas, a Bolbara possuída a caminho de Urzin). O pântano mostra-o em três degraus: no DIA 2, o silêncio dos insectos e depois bandos de garças e patos-do-brejo a passar baixo, todos na mesma direcção e nenhum a cantar — uma garça pousa a dez pés do grupo e ignora-os. No DIA 3, a meio da manhã, uma nuvem negra encostada ao chão que não anda, sobre um ponto só do horizonte, com o céu limpo à volta e trovoada atrasada que nunca se afasta, sem cair uma gota onde eles estão. No DIA 4, fumo onde estava a tempestade e nem uma ave. As aves do dia 2 dão um rumo (Sobrevivência 13: vêm todas de oeste-noroeste) — e a patrulha imperial, que está perdida, quer esse rumo: vale como moeda no parlamento e cancela um falhanço de navegação no dia 3.",
+    "reveals": [],
+    "requires": [
+      "b-0-marsh-crossing"
+    ],
+    "choices": [
+      {
+        "label": "Chegar ao forte até ao fim do dia 3",
+        "outcome": "A Bolbara ainda está acorrentada na capela: vale a janela do exorcismo.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Chegar no dia 4 ou depois",
+        "outcome": "O forte está devastado e a Bolbara possuída segue para Urzin; a patrulha, se vier com o grupo, chega a casa e encontra aquilo.",
+        "leadsTo": [
+          "b-0-bolbara-unleashed"
+        ]
+      }
+    ],
+    "timer": "Terceiro revivify no dia 3; dia 4 = tarde demais",
+    "notes": "Regra da aventura original, fixada pelo DM: estão a meio do dia 2 e o limite é o fim do dia 3. Depois do encontro da patrulha sobram quatro terços de marcha (o entardecer do dia 2 e os três do dia 3); ritmo rápido dá 15 hexágonos por terço com −5 na navegação (Morgid precisa de 20). Testes das aves: Sobrevivência 10 «bichos não fogem de chuva», 13 dá o rumo, 16 ou Natureza 15 «estão a abandonar o sítio»; o Alberto compara com pombos a sair todos ao mesmo tempo. Testes da tempestade: Natureza/Sobrevivência 12 «aquilo não anda», Arcana 15 «não é tempo, é uma coisa a acontecer», Religião 15 «é uma nódoa, não uma nuvem». A patrulha vê as mesmas aves (o recruta: «senhor… aquilo vem de casa»; a cabo: «aquilo não é direcção de chuva»; o sargento fecha a mão no apito) e a partir daí quer voltar depressa: Persuasão para o contrato de guias baixa 2. No dia 3, se viajarem com ela, o sargento força o ritmo e deixa de conversar. NÃO conta como pista de r-bolbara-possessed: é pressão, não informação — as pistas continuam a ser as do livro. Preparação em docs/sessoes/sessao-04-preparacao.md, secção 9."
+  },
+  {
     "id": "b-0-patrulha-imperio",
     "title": "Encontro: a patrulha do Forte Ventura (a prisioneira drow)",
     "arcs": [
@@ -28,7 +68,8 @@
       "r-bolbara-possessed"
     ],
     "requires": [
-      "b-0-marsh-crossing"
+      "b-0-marsh-crossing",
+      "b-0-pressagios-do-forte"
     ],
     "choices": [
       {
@@ -61,7 +102,7 @@
       }
     ],
     "timer": "Meio dia (parlamento) a um dia (libertação nocturna) do relógio de 3 dias da Bolbara",
-    "notes": "Preparação completa e revista depois da sessão 3 em docs/sessoes/sessao-04-preparacao.md (elenco com silhuetas, falas, testes, despojos, relógio, ganchos por PC, ritmo para o limite das 23h da Camila). Handouts: ordem de marcha e folha do acólito em docs/handouts.md. Entrada nova na tabela d8 de encontros do pântano (resultado 1); o dado de encontro é o d20 por terço do dia, 16+. Ligações à sessão 3: a adaga está com o QUASI (o degrau «Olhar» do reconhecimento é ao cinto dele, e o degrau «Autoridade» fica guardado para Jigau); o Quasi tem a garra com command 1x/dia que ninguém sabe que tem; a varinha de detect magic acende só o símbolo de Vesh do acólito e o equipamento da prisioneira dentro do saco; a fome do Lucan não passa e há corpos frescos; o Isco tem passiva 20 a ouvido e olfacto e ganha o primeiro contacto de graça; a complicação opcional da 4.ª ronda são os QUATRO lizardfolk sobreviventes, que vêm por trás. Informação que a patrulha entrega por conversa ou pela folha do acólito: guarnição de trinta e poucos, metade doente; Felmont já não quer estar ali; há uma goblin velha acorrentada na capela que o padre não deixa morrer («e já precisou de não a deixar»); Perestrelo veio de fora e o comandante tem medo dele; palavra de passe «Cinza-Doze», já fora de prazo porque o sétimo dia passou. Despojos: seis uniformes, selo de marcha de chumbo, apito de osso, as duas chaves (canga ao cinto do sargento, mordaça ao pescoço do acólito) e o saco com os bens da quarta PC. Decidir antes da sessão de onde conta o relógio de 3 dias da Bolbara: o caminho nocturno custa a tarde e a noite do dia 2 e pode custá-la.",
+    "notes": "Corre por cima do relógio da Bolbara (b-0-pressagios-do-forte): as aves do dia 2 passam por cima do grupo e da patrulha antes do encontro, e o rumo que elas dão é moeda no parlamento. Preparação completa e revista depois da sessão 3 em docs/sessoes/sessao-04-preparacao.md (elenco com silhuetas, falas, testes, despojos, relógio, ganchos por PC, ritmo para o limite das 23h da Camila). Handouts: ordem de marcha e folha do acólito em docs/handouts.md. Entrada nova na tabela d8 de encontros do pântano (resultado 1); o dado de encontro é o d20 por terço do dia, 16+. Ligações à sessão 3: a adaga está com o QUASI (o degrau «Olhar» do reconhecimento é ao cinto dele, e o degrau «Autoridade» fica guardado para Jigau); o Quasi tem a garra com command 1x/dia que ninguém sabe que tem; a varinha de detect magic acende só o símbolo de Vesh do acólito e o equipamento da prisioneira dentro do saco; a fome do Lucan não passa e há corpos frescos; o Isco tem passiva 20 a ouvido e olfacto e ganha o primeiro contacto de graça; a complicação opcional da 4.ª ronda são os QUATRO lizardfolk sobreviventes, que vêm por trás. Informação que a patrulha entrega por conversa ou pela folha do acólito: guarnição de trinta e poucos, metade doente; Felmont já não quer estar ali; há uma goblin velha acorrentada na capela que o padre não deixa morrer («e já precisou de não a deixar»); Perestrelo veio de fora e o comandante tem medo dele; palavra de passe «Cinza-Doze», já fora de prazo porque o sétimo dia passou. Despojos: seis uniformes, selo de marcha de chumbo, apito de osso, as duas chaves (canga ao cinto do sargento, mordaça ao pescoço do acólito) e o saco com os bens da quarta PC. Decidir antes da sessão de onde conta o relógio de 3 dias da Bolbara: o caminho nocturno custa a tarde e a noite do dia 2 e pode custá-la.",
     "source": "dm"
   }
 ]

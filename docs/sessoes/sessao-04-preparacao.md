@@ -13,6 +13,8 @@ status: preparacao
 2. **Põe uma cara no Império** antes de ele ser um forte com muros: seis pessoas cansadas, com nomes, que só querem chegar a casa.
 3. **Dá informação do forte** a quem falar — guarnição, Felmont, o Padre Perestrelo, a goblin acorrentada na capela — e não a quem matar.
 
+E corre **por cima do relógio da Bolbara**, que a partir de agora é o da aventura original: chegar no dia 4 é chegar tarde. A sessão abre com o primeiro presságio disso (secção 9).
+
 Beat na app: `b-0-patrulha-imperio` (ch0, `data/campaign/beats/patrulha.json`). Fichas: `data/campaign/characters/patrulha.json`. Handouts: [`docs/handouts.md`](../handouts.md) (ordem de marcha + folha do acólito).
 
 > **Aviso de desenho:** isto **não está equilibrado para combate frontal**. Um veterano, quatro soldados e um acólito contra um grupo de nível 3 é morte, mesmo com a quarta PC solta. Está desenhado para se resolver por conversa, por terreno ou por roubo — e a secção "Os quatro caminhos" diz como, incluindo como tornar o combate sobrevivível se a mesa insistir, sem enganar os dados à frente deles.
@@ -168,6 +170,8 @@ Uma **jangada de varejão**, puxada à corda pelo Casqueiro: mantimentos, três 
 
 ## 5. Abertura — o que ler, por esta ordem
 
+**Antes de tudo, as aves** (secção 9): é o primeiro plano da sessão e o relógio a bater. Depois, e só depois, a patrulha.
+
 **Primeiro o Isco** (passiva 20 a ouvido e olfacto: não se pede teste, dá-se). Antes de qualquer outra coisa:
 > Isco: o pântano cheira-te a pântano até deixar de cheirar. Lã molhada. Óleo de arma. Vinagre. Metal. E gente doente — suor de febre, do género que já cheiraste no barco. Não é um. São seis. E o som chega depois do cheiro: *tchop… tchop…* um pau a entrar na lama, com ritmo, à vossa frente.
 
@@ -190,6 +194,7 @@ Uma **jangada de varejão**, puxada à corda pelo Casqueiro: mantimentos, três 
 | Intuição 15 | O sargento está assustado com alguma coisa que não são vocês |
 | Investigação 13 | As lanças da jangada são três a mais para cinco homens: faltam-lhes soldados |
 | Sobrevivência 12 (ou o Morgid, na lousa, de graça) | Vão na direcção errada há dois dias |
+| Sobrevivência 13 nas aves (secção 9) | Sabem para que lado é o forte — e eles não |
 
 ---
 
@@ -230,7 +235,7 @@ Se atacarem do juncal, **não escondas a Lampreia**: dispara no fim da primeira 
 - **As duas chaves estão em sítios diferentes:** a da canga ao cinto do sargento, a da mordaça ao pescoço do acólito. Que a mesa descubra isso já lá dentro, com as mãos na jangada.
 - **DCs:** Furtividade DC 15 (17 no turno da Lampreia); canga DC 13; mordaça DC 11; Prestidigitação DC 15 para tirar a chave ao cinto do sargento a dormir.
 - **A prisioneira ajuda**: está acordada, vê no escuro melhor do que eles e sabe qual das tábuas da jangada range. Deixa a Camila participar no plano por gestos, **antes de ter personagem em jogo** — é a melhor forma de a meter à mesa.
-- **O preço:** isto gasta a tarde e a noite do dia 2 e põe o forte ao alcance só no dia 3 ou 4. Ver o relógio na secção 9 antes de deixares a mesa escolher este caminho às cegas — dizer-lhes pela lousa do Morgid que "há pressa" é justo; escondê-lo não é.
+- **O preço:** gasta o entardecer do dia 2 e a noite, e deixa-lhes o dia 3 inteiro e mais nada — sem margem para se perderem (secção 9). É uma escolha legítima **se for informada**: as aves já passaram por cima deles e o Morgid bate na lousa e aponta para o sol.
 - Se forem apanhados a meio, cai-se no caminho B com a patrulha acordada — e com a prisioneira solta, que é melhor do que amarrada.
 
 ### D · Deixar passar
@@ -271,19 +276,69 @@ Por conversa, por interrogatório ou pela folha do acólito. O que não sai pela
 
 ---
 
-## 9. Consequências e relógio
+## 9. O relógio da Bolbara e os presságios do forte
 
-**Decide antes da sessão de onde conta o relógio da Bolbara.** O beat do forte diz que, passados mais de três dias, o forte já está devastado e a Bolbara possuída fugiu para Urzin (`b-0-bolbara-unleashed`). Contando dos dias de travessia, **estão a meio do dia 2** — a recomendação é manter o **fim do dia 3** como limite e deixar a mesa senti-lo:
+**A regra é a da aventura original, e está decidida:** o Padre Perestrelo mata-a e revive-a; **o terceiro *revivify* é no dia 3**. Se o grupo chegar ao Forte Ventura **depois do dia 3 — ou seja, no dia 4 —, ela já saiu**: o forte fica em ruínas e a Bolbara possuída ruma a Urzin (`b-0-bolbara-unleashed`). **Estão a meio do dia 2.**
 
-- **Parlamento** custa meio terço do dia. Chegam a tempo, e podem chegar escoltados.
-- **Emboscada** custa um terço (combate, saque, tratar feridos). Ainda dá.
-- **Seguir e libertar de noite** custa a tarde e a noite: o forte fica para o dia 3 ao fim da tarde, ou para o dia 4. **Isto pode custar a Bolbara** — e é uma escolha legítima se for informada. O Morgid bate na lousa e aponta para o sol.
-- Voltar ao ossário buscar a cabeça do xamã: **não dá**. Diz isso por fora, ao jogador, antes de ele gastar a sessão a tentar.
+### O que está mesmo a acontecer, por dia
 
-Depois:
-- **Ninguém volta ao forte** (mortos ou presos): dão pela falta ao fim de dois dias e mandam uma busca de oito soldados. A guarnição fica mais pequena e mais nervosa — bom para assaltar, mau para entrar a fingir.
+| Dia | Na capela do forte | O que o pântano mostra |
+| --- | --- | --- |
+| 1 | Primeira morte e primeiro *revivify* | Nada |
+| **2** | Segunda morte. O Truche ganha terreno | **Aves a fugir**, aos bandos, da direcção do forte |
+| **3** | **Terceiro *revivify*.** A possessão pega | **Tempestade parada** sobre um ponto do horizonte e trovoada nessa direcção |
+| 4 | Já não há capela | Fumo onde estava a tempestade, e silêncio: nem aves |
+
+### Dia 2 — as aves (nesta sessão, antes da patrulha)
+
+Lê isto **antes** do "tchop… tchop" da secção 5. É o primeiro plano da sessão.
+
+> Primeiro cala-se tudo: os insectos, as rãs, o chapinhar pequeno das coisas na água. Depois ouvem o barulho a chegar do horizonte — asas, muitas, baixas. Passa-vos por cima um bando de garças e de patos-do-brejo, e atrás dele outro, e outro, todos na mesma direcção e nenhum a cantar. Uma garça pousa no carreiro a dez pés de vocês, olha para vocês sem se importar minimamente com o que vocês são, e volta a levantar voo. Vêm todos do mesmo sítio. E vocês estão a ir para lá.
+
+- **Sobrevivência 10** (ou o Morgid, de graça, na lousa): *bichos não fogem de chuva*.
+- **Sobrevivência 13**: vêm todos de um ponto, a oeste-noroeste — **e isso é um rumo**. Guarda isto: a patrulha está perdida, e a mesa acaba de ganhar a única coisa que o sargento quer de graça. Vale como prova no parlamento (secção 6-A) e **cancela um falhanço de navegação** no dia 3.
+- **Sobrevivência 16 ou Natureza 15**: não é só medo — há bichos que fogem de predador e bichos que fogem de sítio. Estes estão a abandonar o sítio.
+- O **Alberto**, se lhe perguntarem: fica muito quieto e diz «no Império, quando os pombos saem todos ao mesmo tempo, é porque alguém abriu alguma coisa».
+
+**A patrulha vê as mesmas aves**, e é isto que os humaniza sem uma linha de discurso:
+- o **Elmiro** aponta para o céu e diz, baixinho, «senhor… aquilo vem de casa»;
+- a **Nália**: «aquilo não é direcção de chuva»;
+- o **sargento** não diz nada e fecha a mão no apito;
+- o **acólito** escreve.
+
+**Consequência mecânica do parlamento:** depois das aves, o sargento **quer** voltar depressa. A Persuasão para o contrato de guias baixa 2, e o preço dele muda — deixa de ser só a cabeça do lagarto e passa a ser *levem-nos lá antes de escurecer amanhã*. Se a mesa lhe der o rumo das aves, ele fica a dever-lhes.
+
+### Dia 3 — a tempestade
+
+> A meio da manhã reparam que há uma nuvem que não anda. Está negra, alta, encostada ao chão como uma coluna, e cobre um ponto só do horizonte — à volta dela o céu está limpo. O trovão chega atrasado e abafado, sempre do mesmo sítio, sem nunca se afastar. Não vos cai uma gota.
+
+- **Natureza 12 / Sobrevivência 12**: uma tempestade não fica parada. Aquilo não anda, e não tem vento nenhum a alimentá-la.
+- **Arcana 15**: aquilo não é tempo. Aquilo é uma coisa a acontecer, e o céu está a reagir-lhe.
+- **Religião 15** ou o Lucan pela via do que já ouviu: é uma nódoa, não uma nuvem — a luz por baixo está errada.
+- Se viajarem com a patrulha, este é o momento em que o **sargento força o ritmo** e deixa de ter vontade de conversar. Passam a ser seis homens a correr na direcção de um desastre. *(Se a mesa os matou na véspera, este é o preço: não há quem os leve, e há que decidir o rumo sozinhos.)*
+- Se estiverem com o **Guardião do Musgo** (B8), é ele que diz em telepatia o que a tempestade é.
+
+### Quanto tempo sobra, em terços
+
+Depois do encontro sobram-lhes **quatro terços de marcha**: o entardecer do dia 2 e os três do dia 3. A régua no mapa é tua; esta é a régua do tempo:
+
+| Caminho | O que gasta | Onde ficam |
+| --- | --- | --- |
+| **Parlamento** | meio terço, e podem ganhar guias e rumo | chegam com folga; a folga é o que lhes permite dormir |
+| **Emboscada** | um terço (combate, saque, feridos) | sobram três; dá, se não se perderem |
+| **Seguir e libertar de noite** | o entardecer do dia 2 e a noite | **sobra só o dia 3 inteiro, sem margem para erro** |
+| Voltar ao ossário buscar a cabeça do xamã | a manhã do dia 3 | **não dá** — diz isso ao jogador por fora, antes de ele gastar a sessão a tentar |
+
+- **Ritmo rápido** é a alavanca deles: 15 hexágonos por terço, com −5 na navegação (o Morgid passa a precisar de 20). Compra um terço e paga-o em risco: o d20 de encontro continua a rolar em cada um.
+- **Perder-se custa tudo.** Se o Morgid não guiar — ou se voltarem a deixar guiar quem tirou 10 na sessão 3 —, um terço perdido no dia 3 é a Bolbara. As aves do dia 2 são o seguro contra isso, e é por isso que valem um teste.
+- **Não escondas o relógio.** O Morgid bate na lousa e aponta para o sol; as aves e a tempestade dizem o resto. A mesa tem de poder escolher a drow *sabendo* o que custa — essa é que é a escolha.
+
+### Depois, seja qual for o caminho
+
+- **Ninguém da patrulha volta ao forte** (mortos ou presos): dão pela falta ao fim de dois dias e mandam uma busca de oito soldados. A guarnição fica mais pequena e mais nervosa — bom para assaltar, mau para entrar a fingir.
 - **Alguém escapa** (a Lampreia, normalmente): o forte sabe que andam por aí forasteiros com um lagarto e um gnomo. **A descrição do Quasi é impossível de disfarçar.**
 - **Parlamento bem-sucedido:** entram com escolta, e o sargento apresenta-os ao portão. O Padre Perestrelo *quer conhecê-los* — e isso é pior do que um combate.
+- **Se chegarem no dia 4:** o fumo substitui a tempestade, o portão está aberto e não há aves nenhumas. A patrulha, se vier com eles, chega a casa e encontra aquilo — e o sargento tem agora três mortes e uma guarnição para explicar. `b-0-bolbara-unleashed` passa a ser a sessão seguinte, com seis imperiais que acabaram de ficar sem lado.
 
 ---
 
@@ -316,7 +371,8 @@ Alternativa, se a mesa estiver a ganhar depressa: **harpias das falésias** por 
 - [ ] Imprimir os dois handouts (ordem de marcha, folha do acólito).
 - [ ] Ter o apito à mão (um apito a sério, se houver — vale a pena ouvi-lo).
 - [ ] Confirmar o que o grupo trouxe do ossário que sirva de prova (colares de dentes, bastão, saia de crânios) — está com o **Quasi**, não com o Lucan.
-- [ ] Decidir o relógio da Bolbara (secção 9) antes de a mesa escolher o caminho C.
+- [ ] Ter as aves prontas para abrir a sessão, e o rumo que elas dão (secção 9).
+- [ ] Contar os terços em voz alta a partir do fim do encontro: sobram quatro até ao fim do dia 3.
 - [ ] Recordar em voz alta a regra da água: terreno difícil menos para quem nada.
 - [ ] Lembrar que a recompensa deste encontro é **informação e uma pessoa**, não ouro.
 - [ ] Depois da sessão: registar em [`docs/canone.md`](../canone.md) o que esta preparação acertou, o que a mesa mudou e o que ficou por revelar.

@@ -255,6 +255,23 @@ Rules as written (PHB 2014, p. 175): **vantagem num teste passivo soma +5; desva
 - **Encontros**: um **d20 por terço do dia**; **16 ou mais** e acontece alguma coisa. (Na sessão 1 usou-se um d12; a sessão 3 fixou o d20.)
 - **Dormir fora de terreno seco e elevado** obriga a CON save de manhã (praga do pântano). Um sítio seco para uma pessoa (Survival 13) não chega para o grupo: resolve-se com um **esforço de grupo** — cada um contribui com a perícia que fizer sentido (Athletics para testar ramos, Sleight of Hand para entrançar cordas) e a **média dos testes tem de passar a CD** (12 na sessão 3) para haver long rest completo em camas de rede na mesma árvore.
 
+## O relógio da Bolbara e os presságios do forte (DM)
+
+Regra da aventura original, fixada pelo DM: **o Padre Perestrelo mata a Bolbara e revive-a; o terceiro *revivify* é no dia 3**. Chegar ao Forte Ventura **até ao fim do dia 3** vale a janela do exorcismo; chegar **no dia 4** é chegar tarde — o forte está em ruínas e a Bolbara possuída ruma a Urzin (`b-0-bolbara-unleashed`). Conta-se em **dias de travessia** e em terços do dia (ver a secção da travessia, acima).
+
+O pântano diz a hora sem o DM ter de a dizer (`b-0-pressagios-do-forte`):
+
+| Dia | Na capela | O que se vê do pântano |
+| --- | --- | --- |
+| 1 | Primeira morte e primeiro *revivify* | Nada |
+| **2** | Segunda morte; o Truche ganha terreno | **Aves a fugir** aos bandos, todas da mesma direcção e nenhuma a cantar; os insectos calam-se primeiro |
+| **3** | **Terceiro *revivify*** | **Tempestade parada** sobre um ponto do horizonte, com céu limpo à volta e trovoada que nunca se afasta |
+| 4 | Já não há capela | Fumo onde estava a tempestade, e nem uma ave |
+
+- As **aves do dia 2 dão um rumo** (Sobrevivência 13: vêm todas de oeste-noroeste). Isso vale como moeda com quem estiver perdido no pântano e **cancela um falhanço de navegação** no dia 3.
+- Os presságios **não são pista de `r-bolbara-possessed`**: são pressão, não informação. As pistas dessa revelação continuam a ser as do livro.
+- **Não se esconde o relógio.** O Morgid bate na lousa e aponta para o sol; as aves e a tempestade dizem o resto. A mesa tem de poder gastar tempo com outra coisa *sabendo* o que custa.
+
 ## Itens da mesa (sessão 3, #84)
 
 - **Garra de réptil de seis dedos** (do peito de Skr'a S'orsk; cortada pelo pulso, quase preta, mais fria do que o ar do pântano, com cheiro a enxofre): uma hora de contemplação (Arcana 3) dá **`command` 1×/dia**. Só o Quasi sabe o que ela faz. Enquanto a estuda cresce-lhe a vontade de mandar nos outros, e nessa noite sonha que é líder inquestionado — o DM deixou em aberto se há mais a descobrir nela (ver `docs/canone.md`).
