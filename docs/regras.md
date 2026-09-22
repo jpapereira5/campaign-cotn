@@ -257,7 +257,7 @@ Rules as written (PHB 2014, p. 175): **vantagem num teste passivo soma +5; desva
 
 ## Itens da mesa (sessão 3, #84)
 
-- **Garra de réptil de seis dedos** (do peito de Skr'a S'orsk; cortada pelo pulso, quase preta, mais fria do que o ar do pântano, com cheiro a enxofre): uma hora de contemplação (Arcana 3) dá **`command` 1×/dia**. Só o Quasi sabe o que ela faz. Enquanto a estuda cresce-lhe a vontade de mandar nos outros, e nessa noite sonha que é líder inquestionado — o DM deixou em aberto se há mais a descobrir nela (ver `docs/canone.md`).
+- **Garra de réptil de seis dedos — a «Sexta Garra»** (nome de casa, não foi dito à mesa; do peito de Skr'a S'orsk; cortada pelo pulso, quase preta, mais fria do que o ar do pântano, com cheiro a enxofre): uma hora de contemplação (Arcana 3) dá **`command` 1×/dia**. Só o Quasi sabe o que ela faz. Enquanto a estuda cresce-lhe a vontade de mandar nos outros, e nessa noite sonha que é líder inquestionado — o DM deixou em aberto se há mais a descobrir nela (ver `docs/canone.md`).
 - **Varinha de osso de ponta enegrecida**: **`detect magic`**, **3 cargas**, recupera todas num long rest; a esfera a expandir-se só é visível a quem a usa.
 - **Frascos de osso** (2): **poções de cura**, 2d4+2, identificadas pelo Alberto com alchemist's supplies e sem reagentes. Ficaram com ele.
 - **Escudo de carapaça com presas** (spiked shield dos lizardfolk): +2 AC, e o Alberto não tem força para o usar.

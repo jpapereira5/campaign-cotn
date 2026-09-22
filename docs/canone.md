@@ -59,6 +59,15 @@ Os quatro conflitos que estavam assinalados aqui foram resolvidos e o cânone j�
 3. **A greatsword está com o Isco.** Não se disse mais nada à mesa, mas recuperou-a antes de sair do ossário; deixou de constar como largada na lama.
 4. **Os crânios do ossário são tartarugas-do-horizonte em geral.** «As irmãs mortas do Guardião do Musgo» é a maneira de falar delas, não uma ninhada contada: umas são maiores, outras mais pequenas, e a diferença não quer dizer nada — o crânio do altar ser de uma tartaruga jovem não precisa de explicação.
 
+### Recuperado de uma branch paralela (2026-09-22)
+
+A branch `claude/great-allen-kk9cn7` tinha uma segunda versão do resumo da sessão 3, nunca fundida. Trouxe-se de lá duas coisas:
+
+- as **flags** em `data/state.json` (o que a mesa estabeleceu e condiciona reacções futuras) — com uma correcção: lá dizia `lucan-tem-adaga-santuario`, e a transcrição mostra que a adaga ficou com o **Quasi**;
+- o nome **«Sexta Garra»** para a garra de seis dedos. É nome de casa, **não foi dito à mesa** (o DM só disse «uma garra com seis dedos»); fica marcado como tal onde aparece.
+
+A flag `ovos-do-ossario-nao-encontrados` refere-se aos três ovos do runsheet do ossário, que só existe na branch `claude/ossuario-loot-sessinek-2euogs` — ainda por fundir.
+
 ### Resolvido pela própria sessão (não é conflito)
 
 - **Dado de encontros**: a sessão 1 usou um d12; na sessão 3 o DM corrigiu-se («enganei-me, é um d20 — 16 ou mais acontece alguma coisa»). Vale o d20; a nota da sessão 1 no patch do pântano ficou marcada como substituída.
