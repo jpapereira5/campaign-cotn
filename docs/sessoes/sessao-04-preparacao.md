@@ -161,6 +161,29 @@ Uma **jangada de varejão**, puxada à corda pelo Casqueiro: mantimentos, três 
 2. **O que é que eles te tiraram?** — o objecto vai dentro do saco do Casqueiro e volta-lhe às mãos no momento em que ela se liberta. **Dá-lhe o primeiro turno que ela vai lembrar durante a campanha toda.**
 3. **Quem é que já deu pela tua falta?** — é o gancho Kryn que eu uso no capítulo 1, sem ela saber que o deu.
 
+### Briefing para a Camila (a única parte deste documento que ela pode ler)
+
+> **Onde estás.** Há quatro dias, nas Falésias do Véu-Quebrado, seis soldados do Império Dwendaliano apanharam-te sozinha. Desde aí vais com eles, de joelhos numa jangada que um deles puxa à corda, pelo meio de um pântano que não acaba.
+>
+> **O que te fizeram.** Cortaram-te o cabelo à pressa, com uma faca. Tens um olho fechado do inchaço. Os pulsos estão presos a uma canga de madeira que te obriga os braços afastados do corpo, e tens uma mordaça de couro e ferro entre os dentes — não para te calarem, mas para não te deixarem dizer nada inteiro. Tudo o que trazias vai num saco de lona às costas do soldado grande.
+>
+> **O que sabes.** Vão para o Forte Ventura, e vão perdidos: já passaram duas vezes pelo mesmo sítio e o sargento não admite. Há um homem de preto que escreve tudo o que tu fazes, te chama «o sujeito» e diz que o Pároco te quer. Há um recruta com um elmo grande demais que tem medo de ti e que ainda não conseguiu olhar-te nos olhos. E há uma mulher com um véu contra os mosquitos que é a única que fala contigo como se fosses gente.
+>
+> **O que não sabes.** O que te espera no forte. E que vem alguém por aí.
+>
+> **Como entras.** A tua primeira cena é a ver: não conjuras, não falas, não escreves, e alguém vai ter de decidir o que fazer contigo. Quando a mordaça sair e o saco se abrir, é o teu turno — e quero que ele valha a pena.
+>
+> **Três perguntas, responde como quiseres:**
+> 1. O que fazias sozinha no pântano?
+> 2. O que é que eles te tiraram e que está dentro daquele saco?
+> 3. Quem é que já deu pela tua falta?
+>
+> **E um pedido:** escolhe a frase que a tua personagem diz quando lhe tirarem a mordaça. Só uma. Não me digas qual é.
+>
+> **Uma nota a sério:** isto começa com a tua personagem presa e magoada. Se alguma parte disso não te apetecer jogar — as amarras, a mordaça, a violência dos soldados —, diz-me antes e eu troco a cena por outra. Não custa nada e não muda nada do que vem a seguir.
+
+**Antes de fechares a ficha com ela, confirma que fala Comum.** O Lucan fala comum, abissal e halfling; o Isco comum, halfling, abissal e thieves' cant; o Quasi comum, vistani e paterna. **Ninguém à mesa fala subcomum nem élfico.** Se ela só tiver essas, a primeira conversa do grupo com ela é por gestos — o que é ouro numa sessão com tempo, e um problema numa que acaba às 23h.
+
 **Se a mesa não a libertar** (caminho D): vai para o forte e aparece na cela **V8**, ao lado do Alone Fritz. A Camila entra na mesma; muda a cena, e muda de lado a dívida.
 
 **O gancho da adaga, agora que ela está com o Quasi.** A drow olha um segundo a mais para a lâmina preta ao cinto do **bardo** — é o degrau **"Olhar"** de [`docs/regras.md`](../regras.md), custa zero e ensina a mesa sozinha. E aterra em cima do conflito que a sessão 3 deixou aberto: quem fica com a adaga passa a ser uma pergunta com **testemunha**. Se a Camila quiser, ela pode dizer o que reconhece — fabrico drow, lâmina de oficial — e isso dá ao Lucan um argumento novo e ao Quasi um problema novo.
@@ -368,7 +391,8 @@ Alternativa, se a mesa estiver a ganhar depressa: **harpias das falésias** por 
 
 ## 12. Checklist de mesa
 
-- [ ] Falar com a Camila antes da sessão: as três perguntas da secção 4, o objecto dentro do saco, e o sim/não à cena da mordaça e da canga (é cativeiro; pergunta antes).
+- [ ] Enviar à Camila o briefing da secção 4 (é a única parte que ela pode ler) e recolher as três respostas, a frase da mordaça e o sim/não à cena do cativeiro.
+- [ ] Confirmar que a personagem dela fala **Comum** — ninguém à mesa fala subcomum nem élfico.
 - [ ] **Ritmo, por causa das 23h:** a patrulha aparece nos primeiros quinze minutos e a personagem dela tem de estar solta e a jogar **antes de metade da sessão**. Se a mesa se enrolar a planear, o acólito manda a patrulha avançar e força a decisão.
 - [ ] Ficha pronta ao nível do resto do grupo, com o equipamento **fora** da ficha (está no saco do Casqueiro).
 - [ ] Nomes à vista: Corvelo · Casqueiro · Nália · Elmiro · Lampreia · Damião.
