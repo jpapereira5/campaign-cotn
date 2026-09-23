@@ -251,9 +251,26 @@ Rules as written (PHB 2014, p. 175): **vantagem num teste passivo soma +5; desva
 
 ## Travessia do pântano: ritmo, encontros e descanso (DM, sessões 1–3)
 
-- O dia divide-se em **três terços** (manhã, tarde, entardecer). A ritmo **normal** andam **10 hexágonos** por terço se o teste de Survival de quem guia for 15 ou mais (lento 5, rápido 15); o Morgid tem mapa de couro e Survival +5, e sem ele o grupo perde-se (Survival 10 do Quasi = perdido).
-- **Encontros**: um **d20 por terço do dia**; **16 ou mais** e acontece alguma coisa. (Na sessão 1 usou-se um d12; a sessão 3 fixou o d20.)
+- **Decisão do DM (2026-09-23), que fixa o que estava em contradição:** o dia divide-se em **três períodos** — **manhã, início da tarde, final da tarde**. A ritmo **normal** andam **10 hexágonos por dia**, ou seja **um terço disso (≈3,3) por período**, se o teste de Survival de quem guia for 15 ou mais. Lento 5 por dia (+5 ao teste), rápido 15 por dia (−5 ao teste). O Morgid tem mapa de couro e Survival +5; sem ele o grupo perde-se (Survival 10 do Quasi = perdido). *(As notas das sessões 1 e 3 dizem «10 hexágonos por dia» e «10 hexágonos no terço da manhã»: vale esta regra, e a segunda leitura cai.)*
+- **Encontros**: **um d20 por período**, portanto **três por dia**; **16 ou mais** e acontece alguma coisa, depois d12 na tabela do livro. (Na sessão 1 usou-se um d12 para saber *se*; a sessão 3 fixou o d20.)
 - **Dormir fora de terreno seco e elevado** obriga a CON save de manhã (praga do pântano). Um sítio seco para uma pessoa (Survival 13) não chega para o grupo: resolve-se com um **esforço de grupo** — cada um contribui com a perícia que fizer sentido (Athletics para testar ramos, Sleight of Hand para entrançar cordas) e a **média dos testes tem de passar a CD** (12 na sessão 3) para haver long rest completo em camas de rede na mesma árvore.
+
+## O relógio da Bolbara e os presságios do forte (DM)
+
+Regra da aventura original, fixada pelo DM: **o Padre Perestrelo mata a Bolbara e revive-a; o terceiro *revivify* é no dia 3**. Chegar ao Forte Ventura **até ao fim do dia 3** vale a janela do exorcismo; chegar **no dia 4** é chegar tarde — o forte está em ruínas e a Bolbara possuída ruma a Urzin (`b-0-bolbara-unleashed`). Conta-se em **dias de travessia** e em terços do dia (ver a secção da travessia, acima).
+
+O pântano diz a hora sem o DM ter de a dizer (`b-0-pressagios-do-forte`):
+
+| Dia | Na capela | O que se vê do pântano |
+| --- | --- | --- |
+| 1 | Primeira morte e primeiro *revivify* | Nada |
+| **2** | Segunda morte; o Truche ganha terreno | **Aves a fugir** aos bandos, todas da mesma direcção e nenhuma a cantar; os insectos calam-se primeiro |
+| **3** | **Terceiro *revivify*** | **Tempestade parada** sobre um ponto do horizonte, com céu limpo à volta e trovoada que nunca se afasta |
+| 4 | Já não há capela | Fumo onde estava a tempestade, e nem uma ave |
+
+- Os presságios **não dão rumo**: quem tiver mapa já sabe para que lado fica o forte. O que eles dizem é que está a acontecer alguma coisa, e que é ali. Os testes servem para medir o que os bichos estão a fazer (fugir de um predador ou abandonar um sítio), não para orientar ninguém.
+- Os presságios **não são pista de `r-bolbara-possessed`**: são pressão, não informação. As pistas dessa revelação continuam a ser as do livro.
+- **Não se esconde o relógio.** O Morgid bate na lousa e aponta para o sol; as aves e a tempestade dizem o resto. A mesa tem de poder gastar tempo com outra coisa *sabendo* o que custa.
 
 ## Itens da mesa (sessão 3, #84)
 

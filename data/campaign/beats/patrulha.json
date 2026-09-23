@@ -1,0 +1,108 @@
+[
+  {
+    "id": "b-0-pressagios-do-forte",
+    "title": "Presságios do forte: as aves e a tempestade parada",
+    "arcs": [
+      "a-prologue",
+      "a-main"
+    ],
+    "chapter": "ch0",
+    "order": 24,
+    "location": "l-brokenveil-marsh",
+    "participants": [
+      "c-bolbara",
+      "c-trush",
+      "c-pellinost",
+      "f-dwendalian-empire"
+    ],
+    "summary": "O relógio da Bolbara à vista, sem uma linha de DM. O Padre Perestrelo mata-a e revive-a; o terceiro revivify é no dia 3 e no dia 4 ela já saiu (o forte em ruínas, a Bolbara possuída a caminho de Urzin). O pântano mostra-o em três degraus: no DIA 2, o silêncio dos insectos e depois bandos de garças e patos-do-brejo a passar baixo, todos na mesma direcção e nenhum a cantar — uma garça pousa a dez pés do grupo e ignora-os. No DIA 3, a meio da manhã, uma nuvem negra encostada ao chão que não anda, sobre um ponto só do horizonte, com o céu limpo à volta e trovoada atrasada que nunca se afasta, sem cair uma gota onde eles estão. No DIA 4, fumo onde estava a tempestade e nem uma ave. As aves do dia 2 são o encontro 3 da tabela do livro (o bando de corvos), tirado do baralho e posto à hora certa. A direcção não é descoberta nenhuma: o grupo tem o mapa de couro do Morgid e sabe para que lado fica o forte, e é isso que torna o presságio insuportável — as aves só dizem que está a acontecer alguma coisa, exactamente onde eles vão.",
+    "reveals": [],
+    "requires": [
+      "b-0-marsh-crossing"
+    ],
+    "choices": [
+      {
+        "label": "Chegar ao forte até ao fim do dia 3",
+        "outcome": "A Bolbara ainda está acorrentada na capela: vale a janela do exorcismo.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Chegar no dia 4 ou depois",
+        "outcome": "O forte está devastado e a Bolbara possuída segue para Urzin; a patrulha, se vier com o grupo, chega a casa e encontra aquilo.",
+        "leadsTo": [
+          "b-0-bolbara-unleashed"
+        ]
+      }
+    ],
+    "timer": "Terceiro revivify no dia 3; dia 4 = tarde demais",
+    "notes": "Regra da aventura original, fixada pelo DM: estão a meio do dia 2 e o limite é o fim do dia 3. Depois do encontro da patrulha sobram quatro períodos (o final da tarde do dia 2 e os três do dia 3): ≈13 hexágonos a ritmo normal (10 por dia, um terço por período), ≈20 a ritmo rápido (15 por dia, −5 na navegação) e ≈26 com a jangada tomada à patrulha, sem testes de navegação. A direcção sai do mapa do Morgid, sem teste. Testes das aves: Sobrevivência 10 «bichos não fogem de chuva», 13 ou Natureza 15 «não é fuga de predador, estão a abandonar o sítio», 16 «as rãs calaram-se antes delas e não recomeçaram»; o Alberto compara com pombos a sair todos ao mesmo tempo. Testes da tempestade: Natureza/Sobrevivência 12 «aquilo não anda», Arcana 15 «não é tempo, é uma coisa a acontecer», Religião 15 «é uma nódoa, não uma nuvem». A patrulha vê as mesmas aves (o recruta: «senhor… aquilo vem de casa»; a cabo: «aquilo não é direcção de chuva»; o sargento fecha a mão no apito) e a partir daí quer voltar depressa: Persuasão para o contrato de guias baixa 2. No dia 3, se viajarem com ela, o sargento força o ritmo e deixa de conversar. NÃO conta como pista de r-bolbara-possessed: é pressão, não informação — as pistas continuam a ser as do livro. Preparação em docs/sessoes/sessao-04-preparacao.md, secção 9."
+  },
+  {
+    "id": "b-0-patrulha-imperio",
+    "title": "Encontro 6: a patrulha do Forte Ventura (a prisioneira drow)",
+    "arcs": [
+      "a-prologue",
+      "a-main",
+      "a-kryn"
+    ],
+    "chapter": "ch0",
+    "order": 26,
+    "location": "l-brokenveil-marsh",
+    "participants": [
+      "c-vasco-corvelo",
+      "c-gilberto-mendanha",
+      "c-nalia-vasques",
+      "c-elmiro-trigueiro",
+      "c-rosinda-sousela",
+      "c-damiao-prestes",
+      "c-bento-ruivo",
+      "c-pc-drow",
+      "f-dwendalian-empire",
+      "f-kryn"
+    ],
+    "summary": "Abertura da sessão 4 e entrada da quarta jogadora (Camila). É o RESULTADO 6 da tabela d12 do livro («Patrulha de Fort Venture: um veterano e 1d4+2 guardas»), escrito por inteiro e com uma prisioneira em cima; sai como o encontro garantido do cliffhanger da sessão 3 (d20 = 18 no terço da tarde do dia 2, a caminho do obelisco depois da torre das teias). Num carreiro de lama batida entre juncais, à chuva, cruzam-se com a Terceira Lança do Forte Ventura: seis soldados perdidos há dois dias, com a jangada grande do encontro 6 e uma prisioneira drow amordaçada e presa a uma canga, que levam ao Padre Perestrelo (que pediu um Kryn vivo). A ordem escrita que o sargento traz é a do livro — três dias pelo canal norte, goblinóides de Urzin a deter e entregar ao Pároco Pellinost à chegada — e vão no oitavo dia: por isso o Morgid não é só um risco, é o que eles têm ordem para prender («Esse. De Urzin?», Deception/Persuasão DC 14). O sargento Vasco Corvelo perdeu três homens — um deles Bento Ruivo, morto pelos lizardfolk de Skr'a S'orsk — e a prisioneira é o que torna a patrulha um sucesso: capturar um Kryn vivo é recompensa suficiente, e por isso ela NÃO se negoceia, a nenhum preço e com nenhum teste. O que se compra ao sargento é o resto (passagem, informação, escolta até ao portão), e o que ele quer em troca é chegar a casa antes de escurecer no dia seguinte: a moeda da mesa é o Morgid e o mapa de couro dele. Quatro caminhos: parlamentar (o Alberto é o passaporte imperial, com as poções que identificou; pode acabar com a patrulha a contratá-los como guias e a metê-los no forte pela porta da frente), emboscar (a batedora Lampreia está na água, fora da fila; a água é terreno difícil menos para o Lucan e o Isco), seguir e libertar de noite, ou deixar passar (a drow vai para a cela V8, ao lado do Alone Fritz, e a jogadora entra lá). Não está equilibrado para combate frontal: resolve-se por conversa, por terreno ou por roubo.",
+    "reveals": [
+      "r-kryn-vs-empire",
+      "r-bolbara-possessed"
+    ],
+    "requires": [
+      "b-0-marsh-crossing",
+      "b-0-pressagios-do-forte"
+    ],
+    "choices": [
+      {
+        "label": "Parlamentar (com o Alberto a falar pelo grupo)",
+        "outcome": "Deception DC 13 com o Alberto (11 com as poções de cura à vista), DC 17 sem ele. Passagem DC 13; a informação do forte sai à conversa sem teste; contrato de guias até ao portão DC 15, ou 13 depois das aves — entram no Forte Ventura escoltados. A prisioneira não sai por conversa nenhuma; os 148 po compram silêncio e comida, não a pessoa. Dizer o nome de Bento Ruivo dá vantagem num teste social, não a drow. O Morgid tem de se esconder; o acólito pede nomes e manda o Quasi tirar a máscara.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Emboscar no carreiro",
+        "outcome": "A Lampreia dispara das costas no fim da 1.ª ronda se não a localizarem (Percepção DC 16; o Isco sabe que ela existe pelo cheiro). Moral: o recruta ajoelha-se à 2.ª baixa, a cabo rende-se à 3.ª, o acólito foge primeiro. Três apitos = patrulha perdida: o forte manda uma busca de oito soldados no dia seguinte. Cuidados: a prisioneira está amarrada na jangada e não pode morrer antes de ser jogada; a fome do Lucan e a Fera a 0 PV ficam à frente da jogadora nova.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Seguir e libertar a prisioneira de noite",
+        "outcome": "Acampamento em terra seca; vigias Lampreia → Nália → Casqueiro. Furtividade DC 15 (17 no turno da Lampreia), canga DC 13 (chave ao cinto do sargento), mordaça DC 11 (chave ao pescoço do acólito). Custa a tarde e a noite do dia 2 e pode custar a Bolbara — dizê-lo pela lousa do Morgid antes de escolherem. A prisioneira ajuda por gestos: mete a jogadora nova no plano antes de ter personagem em jogo.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Deixar passar",
+        "outcome": "A patrulha chega ao forte dois dias antes do grupo; a drow entra na cela V8, ao lado do Alone Fritz, e a quarta jogadora entra por lá. Dizer ao grupo, pela lousa do Morgid, o que estão a deixar passar: «6 soldados. 1 prisioneira. Forte.»",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      }
+    ],
+    "timer": "Meio dia (parlamento) a um dia (libertação nocturna) do relógio de 3 dias da Bolbara",
+    "notes": "A prisioneira não está à venda: a captura de um Kryn já paga a patrulha, e o «não» do sargento é a espinha do encontro — se a mesa a quiser, é à socapa, à força, ou dentro do forte. Corre por cima do relógio da Bolbara (b-0-pressagios-do-forte): as aves do dia 2 passam por cima do grupo e da patrulha antes do encontro e deixam o sargento com pressa de voltar (−2 na Persuasão do contrato de guias); o que a mesa tem para lhe vender é o Morgid e o mapa dele, não as aves. Preparação completa e revista depois da sessão 3 em docs/sessoes/sessao-04-preparacao.md (elenco com silhuetas, falas, testes, despojos, relógio, ganchos por PC, ritmo para o limite das 23h da Camila). Handouts: ordem de marcha e folha do acólito em docs/handouts.md. NÃO é entrada nova: é o resultado 6 da tabela d12 do livro, reconciliado com o documento «Brokenveil Marsh — encontros aleatórios, narrados» (Drive, Session Prep). Dado de encontro: d20 por terço do dia, 16+, depois d12. Os presságios do dia 2 são o encontro 3 (o bando de corvos) tirado do baralho e posto à hora certa, com a leitura (b) desse documento: fogem de alguma coisa. A jangada é o prémio real (metade do tempo, sem navegação) e por isso mexe no relógio da Bolbara. Despojos com os números do encontro 6. Decisões do DM (2026-09-23), já em docs/regras.md: 10 hexágonos por DIA, um terço por período (manhã, início da tarde, final da tarde); um d20 por período, três por dia; quatro lizardfolk sobreviventes. O encontro é o do segundo período do dia 2 e sobram quatro períodos até ao fim do dia 3 — ≈13 hexágonos a pé, ≈20 a ritmo rápido, ≈26 com a jangada: medir no mapa se chega. Ligações à sessão 3: a adaga está com o QUASI (o degrau «Olhar» do reconhecimento é ao cinto dele, e o degrau «Autoridade» fica guardado para Jigau); o Quasi tem a garra com command 1x/dia que ninguém sabe que tem; a varinha de detect magic acende só o símbolo de Vesh do acólito e o equipamento da prisioneira dentro do saco; a fome do Lucan não passa e há corpos frescos; o Isco tem passiva 20 a ouvido e olfacto e ganha o primeiro contacto de graça; a complicação opcional da 4.ª ronda são os QUATRO lizardfolk sobreviventes, que vêm por trás. Informação que a patrulha entrega por conversa ou pela folha do acólito: guarnição de trinta e poucos, metade doente; Felmont já não quer estar ali; há uma goblin velha acorrentada na capela que o padre não deixa morrer («e já precisou de não a deixar»); Perestrelo veio de fora e o comandante tem medo dele; palavra de passe «Cinza-Doze», já fora de prazo porque o sétimo dia passou. Despojos: seis uniformes, selo de marcha de chumbo, apito de osso, as duas chaves (canga ao cinto do sargento, mordaça ao pescoço do acólito) e o saco com os bens da quarta PC. Decidir antes da sessão de onde conta o relógio de 3 dias da Bolbara: o caminho nocturno custa a tarde e a noite do dia 2 e pode custá-la.",
+    "source": "dm"
+  }
+]
