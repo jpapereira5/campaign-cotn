@@ -7,7 +7,7 @@ status: preparacao
 
 **Revisto depois da sessão 3 (#84)**, que mudou o ponto de partida, o dado dos encontros, quem tem a adaga e quem se senta à mesa. O que a sessão 4 confirmar ou contradizer vai depois para [`docs/canone.md`](../canone.md).
 
-**O encontro garantido do cliffhanger.** A sessão 3 acabou com o d20 do **terço da tarde do dia 2** a dar **18**: vai acontecer alguma coisa a caminho do obelisco. Acontece isto — uma patrulha do Forte Ventura, perdida, a levar uma prisioneira drow ao Padre Perestrelo. Faz três coisas ao mesmo tempo:
+**O encontro garantido do cliffhanger.** A sessão 3 acabou com o d20 do **início da tarde do dia 2** a dar **18**: vai acontecer alguma coisa a caminho do obelisco. Acontece isto — uma patrulha do Forte Ventura, perdida, a levar uma prisioneira drow ao Padre Perestrelo. Faz três coisas ao mesmo tempo:
 
 1. **Entra a Camila** como quarta jogadora, *in media res*, sem os outros saberem que vem alguém.
 2. **Põe uma cara no Império** antes de ele ser um forte com muros: seis pessoas cansadas, com nomes, que só querem chegar a casa.
@@ -195,7 +195,7 @@ A **jangada grande do encontro 6**, com a lanterna acesa à proa ao fim da tarde
 
 ## 5. Abertura — o que ler, por esta ordem
 
-**Antes de tudo, as aves** (secção 9): é o primeiro plano da sessão e o relógio a bater. Depois, e só depois, a patrulha.
+**Antes de tudo, os corvos** (secção 9): é o primeiro plano da sessão e o relógio a bater. Depois, e só depois, a patrulha.
 
 **Primeiro o Isco** (passiva 20 a ouvido e olfacto: não se pede teste, dá-se). Antes de qualquer outra coisa:
 > Isco: o pântano cheira-te a pântano até deixar de cheirar. Lã molhada. Óleo de arma. Vinagre. Metal. E gente doente — suor de febre, do género que já cheiraste no barco. Não é um. São seis. E o som chega depois do cheiro: *tchop… tchop…* um pau a entrar na lama, com ritmo, à vossa frente.
@@ -232,14 +232,14 @@ O sargento fala antes de atacar — **é a primeira coisa a deixar clara**: leva
   - **Deception/Persuasão DC 14** para o vender como guia contratado e não como «um deles» — e ele vai querer ver o que trazem. O Lucan, com aquela cara, não passa por lidador de peixe.
   - **Esconder** resolve antes de começar: Furtividade de grupo DC 12, e o Morgid ajuda.
   - **Entregá-lo:** ele vai. Não diz nada. Olha para o Lucan. *(É o segundo silêncio que ele engole em dois dias: no ossário rezou no chão do clã do pai e ninguém perguntou nada.)*
-- **A moeda é o Morgid e o mapa** — e o nó aperta: **a coisa que eles têm de esconder é a coisa que têm para vender, e que a patrulha tem ordem escrita para prender.** Estão perdidos há dois dias, as aves acabaram de passar por cima deles, e o sargento quer chegar a casa antes de escurecer amanhã. Um batedor que conhece o pântano é a única coisa que lhe falta, e esse batedor é um lagarto. Três saídas, todas boas:
+- **A moeda é o Morgid e o mapa** — e o nó aperta: **a coisa que eles têm de esconder é a coisa que têm para vender, e que a patrulha tem ordem escrita para prender.** Estão perdidos há dois dias, os corvos acabaram de passar por cima deles, e o sargento quer chegar a casa antes de escurecer amanhã. Um batedor que conhece o pântano é a única coisa que lhe falta, e esse batedor é um lagarto. Três saídas, todas boas:
   - **Vender só o mapa**, com um PC a fingir que o lê. Funciona (é um mapa de couro com marcas), e obriga a mesa a mentir com Sobrevivência à mistura: falhar um teste passa a significar levá-los pelo caminho errado.
   - **Mostrar o Morgid** e aguentar a reacção: Persuasão com desvantagem, e o Casqueiro a querer sangue antes de o sargento decidir. Se passar, é a melhor coisa que pode acontecer nesta cena — um lizardfolk a guiar a patrulha que enterrou um homem morto por lizardfolk.
   - **Vendê-lo como cativo deles**, coleira e tudo — que é exactamente o que a ordem do Felmont manda fazer-lhe, dito pela boca deles. Barato, eficaz, e o Morgid ouve tudo. Guarda o que ele escreve na lousa a seguir para o fim da sessão.
 - **O que o sargento dá**, do mais barato ao mais caro:
   1. Passagem. Não os segue, não os denuncia. **Persuasão DC 13** (ou a história do Alberto).
   2. A informação sobre o forte (secção 7): sai à conversa, com a Nália a falar demais, sem teste nenhum.
-  3. **Contrata-os como guias até ao portão** — **DC 15, e 13 depois das aves**. Aqui o encontro torna-se o melhor plano de infiltração que a mesa vai ter: entram pela porta da frente, com os soldados a agradecer. Paga 30 po e come do peixe do Isco.
+  3. **Contrata-os como guias até ao portão** — **DC 15, e 13 depois dos corvos**. Aqui o encontro torna-se o melhor plano de infiltração que a mesa vai ter: entram pela porta da frente, com os soldados a agradecer. Paga 30 po e come do peixe do Isco.
   4. **A prisioneira: não.** A nenhum preço e com nenhum teste — os 148 po do Lucan compram silêncio, comida e uma direcção mal apontada no relatório da Nália, mas ela é a razão de a patrulha não ter sido um desastre, e ele já a tem. Não deixes um bom rolamento abrir esta porta: **diz que não e deixa-os ver que é um não a sério.** Se a quiserem, é à socapa (caminho C), à força (caminho B), ou lá dentro (caminho D).
 - **A excepção honesta:** o que o move não é um objecto, é substituir-lhe a prisioneira como aquilo que justifica a patrulha. Nada do que o grupo carrega faz isso — mas se a mesa inventar alguma coisa que faça (um corpo, um nome maior, uma razão pela qual entregá-la *a outra pessoa* lhe dá mais crédito), **diz que sim**. É o que uma mesa merece por pensar; não é uma porta que tu abres, é uma que eles arrombam.
 - **A garra do Quasi.** Ele tem `command` 1×/dia e ninguém à mesa sabe. Uma palavra — «Larga», «Rende-te», «Foge» — resolve um problema **e cria outro**: o sargento não percebe o que aconteceu, mas percebe que aconteceu, e a Nália aponta a besta a quem falou. Se ele a usar, dá-lhe o que ele quer e depois deixa a cena tratar disso: é assim que se paga uma *monkey's paw* sem regra nova. *(E o acólito escreve.)*
@@ -316,7 +316,7 @@ Os números são os do encontro 6 do documento dos encontros; o resto é desta c
 | Dia | Na capela do forte | O que o pântano mostra |
 | --- | --- | --- |
 | 1 | Primeira morte e primeiro *revivify* | Nada |
-| **2** | Segunda morte. O Truche ganha terreno | **Aves a fugir**, aos bandos, da direcção do forte |
+| **2** | Segunda morte. O Truche ganha terreno | **Corvos a fugir** — e com eles tudo o que voa —, da direcção do forte |
 | **3** | **Terceiro *revivify*.** A possessão pega | **Tempestade parada** sobre um ponto do horizonte e trovoada nessa direcção |
 | 4 | Já não há capela | Fumo onde estava a tempestade, e silêncio: nem aves |
 
@@ -341,7 +341,7 @@ Os números são os do encontro 6 do documento dos encontros; o resto é desta c
 - o **sargento** não diz nada e fecha a mão no apito;
 - o **acólito** escreve.
 
-**Consequência mecânica do parlamento:** depois das aves, o sargento **quer** voltar depressa, e está perdido há dois dias. A Persuasão para o contrato de guias baixa 2, e o que ele quer passa a ser *levem-nos lá antes de escurecer amanhã*. O que a mesa tem para lhe vender não são os corvos: é o **Morgid e o mapa dele** — o mesmo Morgid que a ordem dele manda prender.
+**Consequência mecânica do parlamento:** depois dos corvos, o sargento **quer** voltar depressa, e está perdido há dois dias. A Persuasão para o contrato de guias baixa 2, e o que ele quer passa a ser *levem-nos lá antes de escurecer amanhã*. O que a mesa tem para lhe vender não são os corvos: é o **Morgid e o mapa dele** — o mesmo Morgid que a ordem dele manda prender.
 
 ### Dia 3 — a tempestade
 
@@ -385,7 +385,7 @@ Com a regra fixada (**10 hexágonos por dia, um terço por período**), o encont
 - **Ninguém da patrulha volta ao forte** (mortos ou presos): dão pela falta ao fim de dois dias e mandam uma busca de oito soldados. A guarnição fica mais pequena e mais nervosa — bom para assaltar, mau para entrar a fingir.
 - **Alguém escapa** (a Lampreia, normalmente): o forte sabe que andam por aí forasteiros com um lagarto e um gnomo. **A descrição do Quasi é impossível de disfarçar.**
 - **Parlamento bem-sucedido:** entram com escolta, e o sargento apresenta-os ao portão. O Padre Perestrelo *quer conhecê-los* — e isso é pior do que um combate.
-- **Se chegarem no dia 4:** o fumo substitui a tempestade, o portão está aberto e não há aves nenhumas. A patrulha, se vier com eles, chega a casa e encontra aquilo — e o sargento tem agora três mortes e uma guarnição para explicar. `b-0-bolbara-unleashed` passa a ser a sessão seguinte, com seis imperiais que acabaram de ficar sem lado.
+- **Se chegarem no dia 4:** o fumo substitui a tempestade, o portão está aberto e não há uma ave no céu. A patrulha, se vier com eles, chega a casa e encontra aquilo — e o sargento tem agora três mortes e uma guarnição para explicar. `b-0-bolbara-unleashed` passa a ser a sessão seguinte, com seis imperiais que acabaram de ficar sem lado.
 
 ---
 
@@ -419,7 +419,7 @@ Alternativa, se a mesa estiver a ganhar depressa: **harpias das falésias** por 
 - [ ] Imprimir os dois handouts (ordem de marcha, folha do acólito).
 - [ ] Ter o apito à mão (um apito a sério, se houver — vale a pena ouvi-lo).
 - [ ] Ter decidido, antes de te sentares, que **a prisioneira não está à venda**: o não é a espinha do encontro e um bom rolamento não o dobra.
-- [ ] Ter as aves prontas para abrir a sessão (secção 9), e o Morgid com o dedo no mapa.
+- [ ] Ter os corvos prontos para abrir a sessão (secção 9), e o Morgid com o dedo no mapa.
 - [ ] **Medir no mapa quantos hexágonos faltam até ao forte** (secção 9) e saber de antemão se 13 chegam. Contar os períodos em voz alta a partir do fim do encontro: sobram quatro.
 - [ ] Recordar em voz alta a regra da água: terreno difícil menos para quem nada.
 - [ ] Lembrar que a recompensa deste encontro é **informação e uma pessoa**, não ouro.
