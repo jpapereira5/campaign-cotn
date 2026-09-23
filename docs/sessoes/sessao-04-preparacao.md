@@ -25,8 +25,8 @@ Beat na app: `b-0-patrulha-imperio` (ch0, `data/campaign/beats/patrulha.json`). 
 
 | Facto da sessão 3 | O que muda aqui |
 | --- | --- |
-| Estão a **meio do dia 2**, passaram ao lado da torre B4 e vão a caminho do obelisco, com o Morgid a guiar | O encontro é no **terço da tarde do dia 2**, em marcha, sem acampamento montado |
-| O dado de encontros passou a **d20 por terço do dia, 16+** | A tabela abaixo já está corrigida; o 18 já foi rolado |
+| Estão a **meio do dia 2**, passaram ao lado da torre B4 e vão a caminho do obelisco, com o Morgid a guiar | O encontro é no **início da tarde do dia 2**, em marcha, sem acampamento montado |
+| O dado de encontros é **um d20 por período, 16+**, e depois a d12 do livro | A tabela abaixo já está corrigida; o 18 já foi rolado |
 | **A adaga ficou com o Quasi** e o Lucan exigiu-a («não me testes») | O gancho do reconhecimento muda de dono: é ao cinto do **bardo** que a drow olha um segundo a mais |
 | O Quasi tem a **garra de seis dedos**: `command` 1×/dia, e **só ele sabe** | Ferramenta real neste encontro — e tentação. Ver secção 6-A |
 | O Quasi tem a **varinha de `detect magic`**, 3 cargas | Pode acender coisas que eu não quero explicar já. Ver secção 7 |
@@ -38,11 +38,13 @@ Beat na app: `b-0-patrulha-imperio` (ch0, `data/campaign/beats/patrulha.json`). 
 
 **Mesa:** a Camila entra nesta sessão, **com limite às 23h** — ver a nota de ritmo na secção 12.
 
-### Três coisas por decidires (o documento dos encontros e o cânone da mesa não dizem o mesmo)
+### Três coisas decididas (2026-09-23), onde os documentos não batiam certo
 
-1. **Quantos hexágonos por dia.** O documento dos encontros tem a regra do livro — *10 hexes por dia*; a sessão 3 jogou **10 hexes por terço** (dia 2: dez hexes só no terço da manhã). Isto muda tudo no relógio da secção 9: à regra do livro, o forte está a três dias e não há folga nenhuma; à regra da mesa, há. **Eu escrevi a secção 9 com a regra da mesa.**
-2. **Quantas vezes se rola por dia.** O documento diz que rolas de manhã e de noite, nunca dois combates no mesmo dia; a sessão 3 rolou manhã e tarde. Sem consequência para esta sessão (o 18 já saiu), mas convém fixar.
-3. **Quantos lizardfolk sobreviveram.** O documento dos encontros diz «os três da água»; a decisão do DM de 2026-09-21 fixou **quatro** (o que mergulhou ao início mais os três da retirada). Usei quatro na secção 10.
+1. **10 hexágonos por dia**, um terço disso por período — e os períodos são **manhã, início da tarde e final da tarde**. Cai a leitura de «10 por terço» que a nota da sessão 3 deixou. **Isto aperta o relógio da secção 9 com força: ver o orçamento em hexágonos.**
+2. **Um d20 por período, três por dia.**
+3. **Quatro lizardfolk sobreviventes** (a decisão de 2026-09-21), não os três do documento dos encontros. É o que está na secção 10.
+
+Tudo isto está agora em [`docs/regras.md`](../regras.md).
 
 ---
 
@@ -50,11 +52,11 @@ Beat na app: `b-0-patrulha-imperio` (ch0, `data/campaign/beats/patrulha.json`). 
 
 **Isto não é uma entrada nova: é o resultado 6 da tabela do livro**, escrito por inteiro e com a prisioneira em cima. A tabela que manda é a d12 do *Unwelcome Spirits* que já está em **"Brokenveil Marsh — encontros aleatórios, narrados"** (Session Prep), e o encontro 6 desse documento — *«Patrulha de Fort Venture: um veterano e 1d4+2 guardas»* — é esta patrulha. O que este runsheet acrescenta: os nomes, a prisioneira, e o que acontece se a mesa falar em vez de lutar.
 
-- **d20 por terço do dia; 16+ acontece alguma coisa; depois d12 na tabela.** Na sessão 4 não se rola: o 18 do fim da sessão 3 é este encontro, e o d12 deu 6.
+- **Um d20 por período (manhã, início da tarde, final da tarde); 16+ acontece alguma coisa; depois d12 na tabela.** Na sessão 4 não se rola: o 18 do fim da sessão 3 é este encontro — segundo período do dia 2, **início da tarde** — e o d12 deu 6.
 - **A patrulha é 1 veterano + 1d4+2 guardas.** Aqui saiu **4**: Casqueiro, Nália, Elmiro e a Lampreia, mais o sargento. O **acólito não é do livro** — é o dedo do Padre Perestrelo dentro da patrulha, e a ordem escrita do encontro 6 («entregar ao Parson Pellinost à chegada») já o justificava sozinha.
 - **Os presságios do dia 2 são o encontro 3** (o bando de corvos), tirado do baralho e posto à hora certa. Ver secção 9.
 
-**Quando:** tarde do dia 2, com o céu de nuvens da manhã já desfeito em chuva miúda. Luz cinzenta, tudo a pingar, som abafado. *(Tempo do dia: a **chuva miúda**, o 3 da tabela de abertura.)*
+**Quando:** início da tarde do dia 2, com o céu de nuvens da manhã já desfeito em chuva miúda. Luz cinzenta, tudo a pingar, som abafado. *(Tempo do dia: a **chuva miúda**, o 3 da tabela de abertura.)*
 
 **Onde:** entre a torre das teias e o obelisco, um carreiro de lama batida com dois palmos acima da água, largo para dois homens, entre juncais altos. À direita, água até à cintura; à esquerda, um tronco tombado de árvore branca, morta há muito. O Morgid conhece o carreiro: é a única passagem seca a meia milha em redor — **por isso é que se cruzam**. Ninguém escolheu este encontro; o terreno escolheu-o.
 
@@ -263,7 +265,7 @@ Se atacarem do juncal, **não escondas a Lampreia**: dispara no fim da primeira 
 - **As duas chaves estão em sítios diferentes:** a da canga ao cinto do sargento, a da mordaça ao pescoço do acólito. Que a mesa descubra isso já lá dentro, com as mãos na jangada.
 - **DCs:** Furtividade DC 15 (17 no turno da Lampreia); canga DC 13; mordaça DC 11; Prestidigitação DC 15 para tirar a chave ao cinto do sargento a dormir.
 - **A prisioneira ajuda**: está acordada, vê no escuro melhor do que eles e sabe qual das tábuas da jangada range. Deixa a Camila participar no plano por gestos, **antes de ter personagem em jogo** — é a melhor forma de a meter à mesa.
-- **O preço:** gasta o entardecer do dia 2 e a noite, e deixa-lhes o dia 3 inteiro e mais nada — sem margem para se perderem (secção 9). É uma escolha legítima **se for informada**: as aves já passaram por cima deles e o Morgid bate na lousa e aponta para o sol.
+- **O preço:** gasta o final da tarde do dia 2 e a noite, e deixa-lhes o dia 3 e mais nada — três períodos, uns dez hexágonos a pé (secção 9). Com a jangada, é pagável; sem ela, pode não ser. É uma escolha legítima **se for informada**: as aves já passaram por cima deles e o Morgid bate na lousa e aponta para o sol.
 - Se forem apanhados a meio, cai-se no caminho B com a patrulha acordada — e com a prisioneira solta, que é melhor do que amarrada.
 
 ### D · Deixar passar
@@ -351,20 +353,32 @@ Os números são os do encontro 6 do documento dos encontros; o resto é desta c
 - Se viajarem com a patrulha, este é o momento em que o **sargento força o ritmo** e deixa de ter vontade de conversar. Passam a ser seis homens a correr na direcção de um desastre. *(Se a mesa os matou na véspera, este é o preço: não há quem os leve, e há que decidir o rumo sozinhos.)*
 - Se estiverem com o **Guardião do Musgo** (B8), é ele que diz em telepatia o que a tempestade é.
 
-### Quanto tempo sobra, em terços
+### Quanto tempo sobra — em períodos e em hexágonos
 
-Depois do encontro sobram-lhes **quatro terços de marcha**: o entardecer do dia 2 e os três do dia 3. A régua no mapa é tua; esta é a régua do tempo:
+Com a regra fixada (**10 hexágonos por dia, um terço por período**), o encontro cai no **início da tarde do dia 2** e o que sobra até ao fim do dia 3 é pouco:
 
-| Caminho | O que gasta | Onde ficam |
+| | Períodos que sobram | Hexágonos a ritmo normal | A ritmo rápido |
+| --- | --- | --- | --- |
+| **A pé** | final da tarde do dia 2 + os três do dia 3 = **4** | **≈13** | **≈20** (−5 na navegação: o Morgid precisa de 20) |
+| **Com a jangada** | os mesmos 4 | **≈26**, e sem testes de navegação | — |
+
+**A pergunta que tens de responder no teu mapa, antes da sessão: quantos hexágonos faltam do carreiro até ao Forte Ventura?**
+
+- **Se forem 13 ou menos**, o grupo chega a pé dentro do prazo, e a jangada é uma folga — folga que serve para dormir, para tratar feridos, ou para gastar a noite a libertar a prisioneira.
+- **Se forem mais de 13**, o dia 3 não chega a pé, e **a jangada deixa de ser um bónus e passa a ser a condição**: tomá-la (por conversa, por roubo ou por combate) é a diferença entre a Bolbara acorrentada e a Bolbara à solta. Nesse caso, põe a lanterna e os remos bem à vista na descrição da secção 5 — eles têm de poder desejá-la antes de saberem que precisam dela.
+
+**O custo de cada caminho, nessa moeda:**
+
+| Caminho | O que gasta | O que sobra |
 | --- | --- | --- |
-| **Parlamento** | meio terço, e podem sair de lá com escolta | chegam com folga; a folga é o que lhes permite dormir |
-| **Emboscada** | um terço (combate, saque, feridos) | sobram três; dá, se não se perderem |
-| **Seguir e libertar de noite** | o entardecer do dia 2 e a noite | **sobra só o dia 3 inteiro, sem margem para erro** |
+| **Parlamento** | parte do início da tarde; podem sair de lá com escolta, ou com a jangada se a negociarem | os 4 períodos quase inteiros |
+| **Emboscada** | o resto do início da tarde (combate, saque, feridos) | 3 períodos — e a jangada, se não a viraram |
+| **Seguir e libertar de noite** | o final da tarde do dia 2 e a noite | **só o dia 3: 3 períodos, ≈10 hexágonos a pé** |
 
-- **A jangada é a maior alavanca do encontro** e está em cima da mesa desde o primeiro segundo: quem ficar com ela faz o resto do pântano **em metade do tempo e sem testes de navegação**. Isso apaga o risco de se perderem no dia 3 e transforma o caminho nocturno (C), que era o mais caro, em perfeitamente pagável. Se a mesa a tomar — por conversa, por roubo ou por combate —, **deixa-a ganhar o tempo**: foi ganho a pensar.
-- **Ritmo rápido** é a outra alavanca: 15 hexágonos por terço, com −5 na navegação (o Morgid passa a precisar de 20). Compra um terço e paga-o em risco: o d20 de encontro continua a rolar em cada um.
-- **Perder-se custa tudo.** Se o Morgid não guiar — ou se voltarem a deixar guiar quem tirou 10 na sessão 3 —, um terço perdido no dia 3 é a Bolbara.
-- **Não escondas o relógio.** O Morgid bate na lousa e aponta para o sol; as aves e a tempestade dizem o resto. A mesa tem de poder escolher a drow *sabendo* o que custa — essa é que é a escolha.
+- **A jangada é a maior alavanca do encontro** e está em cima da mesa desde o primeiro segundo: metade do tempo e sem testes de navegação. Se a mesa a tomar, **deixa-a ganhar o tempo** — foi ganho a pensar.
+- **Ritmo rápido** é a outra: 15 hexágonos por dia com −5 na navegação (o Morgid passa a precisar de 20). Compra distância e paga-a em risco — e o d20 continua a rolar em cada um dos três períodos.
+- **Perder-se custa tudo.** Se o Morgid não guiar — ou se voltarem a deixar guiar quem tirou 10 na sessão 3 —, um período perdido no dia 3 é um terço do que lhes resta.
+- **Não escondas o relógio.** O Morgid bate na lousa e aponta para o sol; os corvos e a tempestade dizem o resto. A mesa tem de poder escolher a drow *sabendo* o que custa — essa é que é a escolha.
 
 ### Depois, seja qual for o caminho
 
@@ -406,7 +420,7 @@ Alternativa, se a mesa estiver a ganhar depressa: **harpias das falésias** por 
 - [ ] Ter o apito à mão (um apito a sério, se houver — vale a pena ouvi-lo).
 - [ ] Ter decidido, antes de te sentares, que **a prisioneira não está à venda**: o não é a espinha do encontro e um bom rolamento não o dobra.
 - [ ] Ter as aves prontas para abrir a sessão (secção 9), e o Morgid com o dedo no mapa.
-- [ ] Contar os terços em voz alta a partir do fim do encontro: sobram quatro até ao fim do dia 3.
+- [ ] **Medir no mapa quantos hexágonos faltam até ao forte** (secção 9) e saber de antemão se 13 chegam. Contar os períodos em voz alta a partir do fim do encontro: sobram quatro.
 - [ ] Recordar em voz alta a regra da água: terreno difícil menos para quem nada.
 - [ ] Lembrar que a recompensa deste encontro é **informação e uma pessoa**, não ouro.
 - [ ] Depois da sessão: registar em [`docs/canone.md`](../canone.md) o que esta preparação acertou, o que a mesa mudou e o que ficou por revelar.
