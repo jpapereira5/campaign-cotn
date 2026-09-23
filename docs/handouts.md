@@ -34,17 +34,18 @@ Recomenda-se vigilância passiva sobre rumores associados à Ascensão, prioriza
 
 ## Ordem de marcha da Terceira Lança (Forte Ventura)
 
-Papel dobrado em quatro dentro de um estojo de lata, ao peito do sargento Vasco Corvelo; selo de lacre partido. Letra de escrivão, tinta corrida da chuva.
+Papel dobrado em quatro dentro de um estojo de lata, ao peito do sargento Vasco Corvelo; selo de lacre partido. Letra de escrivão, tinta corrida da chuva. *(É a ordem selada do encontro 6 da tabela do pântano, escrita por extenso.)*
 
 > **GUARNIÇÃO DO FORTE VENTURA — TERCEIRA LANÇA**
 > Ao sargento V. Corvelo, por ordem do comandante S. Felmont.
 >
-> Sairá com dez homens pelo carreiro leste e varrerá o pântano até às falésias. Objecto: apurar quem observa esta guarnição e por conta de quem.
-> Não entrará em aldeia goblinóide. Não dará combate a tribo organizada. Regressará ao sétimo dia.
+> Sairá com sete homens pelo canal norte e varrerá a margem até às falésias. Objecto: apurar quem observa esta guarnição e por conta de quem. **Regressará ao terceiro dia.**
+> Não entrará em aldeia goblinóide. Não dará combate a tribo organizada.
+> **Goblinóides de Urzin a deter e entregar ao Pároco Pellinost à chegada** — ao Pároco, e não a esta intendência.
 > Acompanha a Lança o acólito D. Prestes, que responde ao Pároco e não a vós. Por requisição do mesmo: **prisioneiros da Dinastia serão trazidos vivos e inteiros**, e não interrogados no terreno.
-> Palavra do portão até ao sétimo dia: **CINZA-DOZE**.
+> Palavra do portão desta semana: **CINZA-DOZE**.
 >
-> *(Na margem, a lápis, outra letra:)* 7.º dia passou. 8.º dia. Água a oeste. Bento no Bosque. Sousela diz norte — o carreiro diz oeste.
+> *(Na margem, a lápis, outra letra:)* 3.º dia passou. Depois o 5.º. Hoje é o 8.º. Água a oeste. Bento no Bosque. Sousela diz norte — o carreiro diz oeste.
 
 ## Folha do acólito Damião Prestes
 
@@ -55,7 +56,7 @@ Uma folha de registo, presa por uma aba de cabedal ao escritório portátil. Só
 > **Sujeito 1** — drow, fêmea, adulta. Detida nas falésias ao quarto dia, sozinha, munida de material de observação. Recusa nome. Recusa den. Recusa proveniência. Amostra de cabelo recolhida e conservada. *Confissão redigida; falta assinatura.*
 > Observações: não baixa os olhos. Recomenda-se transferência imediata ao Pároco.
 >
-> **Baixas** — Ruivo, B. (águas do Bosque Seco, lagartos). Mais dois na caverna, ao sexto dia, sem corpos a recolher.
+> **Baixas** — Ruivo, B. (águas do Bosque Seco, lagartos). Mais dois na caverna, ao sexto dia, sem corpos a recolher. Restam quatro e o abaixo-assinado.
 >
 > **A comunicar ao Pároco:** o sujeito da capela ainda não disse a palavra certa. O Pároco quererá saber que esta é a segunda vez.
 >

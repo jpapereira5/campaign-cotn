@@ -38,39 +38,37 @@ Beat na app: `b-0-patrulha-imperio` (ch0, `data/campaign/beats/patrulha.json`). 
 
 **Mesa:** a Camila entra nesta sessão, **com limite às 23h** — ver a nota de ritmo na secção 12.
 
+### Três coisas por decidires (o documento dos encontros e o cânone da mesa não dizem o mesmo)
+
+1. **Quantos hexágonos por dia.** O documento dos encontros tem a regra do livro — *10 hexes por dia*; a sessão 3 jogou **10 hexes por terço** (dia 2: dez hexes só no terço da manhã). Isto muda tudo no relógio da secção 9: à regra do livro, o forte está a três dias e não há folga nenhuma; à regra da mesa, há. **Eu escrevi a secção 9 com a regra da mesa.**
+2. **Quantas vezes se rola por dia.** O documento diz que rolas de manhã e de noite, nunca dois combates no mesmo dia; a sessão 3 rolou manhã e tarde. Sem consequência para esta sessão (o 18 já saiu), mas convém fixar.
+3. **Quantos lizardfolk sobreviveram.** O documento dos encontros diz «os três da água»; a decisão do DM de 2026-09-21 fixou **quatro** (o que mergulhou ao início mais os três da retirada). Usei quatro na secção 10.
+
 ---
 
-## 1. A tabela do pântano (corrigida)
+## 1. Onde isto encaixa na tabela do pântano
 
-**d20 por terço do dia; 16 ou mais e acontece alguma coisa.** Saído o encontro, 1d8 para saber qual:
+**Isto não é uma entrada nova: é o resultado 6 da tabela do livro**, escrito por inteiro e com a prisioneira em cima. A tabela que manda é a d12 do *Unwelcome Spirits* que já está em **"Brokenveil Marsh — encontros aleatórios, narrados"** (Session Prep), e o encontro 6 desse documento — *«Patrulha de Fort Venture: um veterano e 1d4+2 guardas»* — é esta patrulha. O que este runsheet acrescenta: os nomes, a prisioneira, e o que acontece se a mesa falar em vez de lutar.
 
-| d8 | Encontro |
-| --- | --- |
-| 1 | **Patrulha do Império** (este documento) — a Terceira Lança, perdida, com uma prisioneira |
-| 2 | Cobras do Bosque Seco (B2) e a jangada do soldado morto |
-| 3 | Os quatro lizardfolk sobreviventes do Cemitério Afundado |
-| 4 | Aranhas da torre (B4) — que o grupo deixou para trás por explorar |
-| 5 | Bullywugs (B5) a arrastar despojos imperiais |
-| 6 | Harpias das Falésias (B7) |
-| 7 | Armadilha de lodo / lama movediça, sem inimigo |
-| 8 | Uma tartaruga-do-horizonte que não é uma colina |
+- **d20 por terço do dia; 16+ acontece alguma coisa; depois d12 na tabela.** Na sessão 4 não se rola: o 18 do fim da sessão 3 é este encontro, e o d12 deu 6.
+- **A patrulha é 1 veterano + 1d4+2 guardas.** Aqui saiu **4**: Casqueiro, Nália, Elmiro e a Lampreia, mais o sargento. O **acólito não é do livro** — é o dedo do Padre Perestrelo dentro da patrulha, e a ordem escrita do encontro 6 («entregar ao Parson Pellinost à chegada») já o justificava sozinha.
+- **Os presságios do dia 2 são o encontro 3** (o bando de corvos), tirado do baralho e posto à hora certa. Ver secção 9.
 
-Na sessão 4 **não se rola**: o 18 do fim da sessão 3 é este encontro. As restantes ficam para o resto da travessia.
+**Quando:** tarde do dia 2, com o céu de nuvens da manhã já desfeito em chuva miúda. Luz cinzenta, tudo a pingar, som abafado. *(Tempo do dia: a **chuva miúda**, o 3 da tabela de abertura.)*
 
-**Quando:** tarde do dia 2, com o céu de nuvens da manhã já desfeito em chuva miúda. Luz cinzenta, tudo a pingar, som abafado.
 **Onde:** entre a torre das teias e o obelisco, um carreiro de lama batida com dois palmos acima da água, largo para dois homens, entre juncais altos. À direita, água até à cintura; à esquerda, um tronco tombado de árvore branca, morta há muito. O Morgid conhece o carreiro: é a única passagem seca a meia milha em redor — **por isso é que se cruzam**. Ninguém escolheu este encontro; o terreno escolheu-o.
 
 ---
 
 ## 2. A verdade (só para o DM)
 
-A **Terceira Lança** saiu do Forte Ventura há oito dias, dez soldados, para varrer o pântano a leste e perceber quem anda a vigiar o forte — a mesma operação que trouxe a Bolbara.
+A **Terceira Lança** saiu do Forte Ventura há oito dias — o sargento, **sete soldados e o acólito** — com uma ordem de três dias: varrer o canal norte e **deter goblinóides de Urzin, para entregar ao Padre Perestrelo à chegada**. É a ordem que está escrita no encontro 6 do documento dos encontros, assinada por Felmont, e é a que lhes está no bolso.
 
 - Perderam **Bento Ruivo** numa jangada, no Bosque Seco (B2): mataram-no os lizardfolk de Skr'a S'orsk. O corpo ficou lá. *(Se o grupo passou por B2, viu-o; se não, pode ser dito.)*
 - Perderam mais dois numa caverna de bullywugs (B5). Um deles era o homem que sabia ler o pântano.
 - Há quatro dias, nas Falésias do Véu-Quebrado, apanharam **uma drow sozinha** a contar o movimento do forte. Não a mataram: o Padre Perestrelo mandou dizer, antes de saírem, que queria **um Kryn vivo**.
-- Estão **perdidos há dois dias** e não o admitem em voz alta. Vão para oeste porque o sargento decidiu que é para oeste.
-- O sargento vai ter de escrever o relatório de três mortes ao comandante Felmont.
+- **A ordem era de três dias e vão no oitavo.** Estão perdidos há dois e não o admitem em voz alta. Vão para oeste porque o sargento decidiu que é para oeste.
+- Voltam **seis**: o sargento, quatro soldados e o acólito. O sargento vai ter de escrever três mortes ao comandante Felmont.
 
 **Não há troca possível — e é isso que faz o encontro.** O que a patrulha traz já chega: **capturaram um Kryn vivo**, que é exactamente o que o Padre Perestrelo pediu e mais do que a ordem de marcha lhes exigia. A missão está cumprida na jangada. As três mortes ficam pagas por ela. Não há nada que o grupo carregue — nem ouro, nem troféus, nem o xamã morto que ninguém no forte conhece — que valha mais do que a coisa que eles já têm amarrada a um pau de madeira.
 
@@ -131,7 +129,7 @@ Cada um tem **uma silhueta que se vê à distância**, uma voz, uma coisa que qu
 - **Quebra quando:** o sargento cai. Não se rende: desaparece, e dá conta do sucedido ao forte.
 - **Ficha:** CA 13, PV 16, Arco longo +4 (1d8+2, dois tiros), Furtividade +6, Percepção +5, Desengatar como acção bónus.
 - **O Isco cheira-a** (secção 5): a vantagem dele é ele saber que são **seis** quando se vêem cinco. Quem não é o Isco precisa de Percepção **DC 16** para a localizar. **Se emboscarem sem a encontrar, a primeira flecha vem das costas.**
-- **Falas:** «Estão os cinco no carreiro. Eu conto seis do outro lado.» · «Sargento. Não.»
+- **Falas:** «São cinco. E um lagarto.» · «Sargento. Não.»
 
 ### Acólito **Damião Prestes** — o escrivão de Vesh
 > Magro, jovem, capa preta encharcada que pesa mais do que ele. Dedos manchados de tinta até ao segundo nó. Traz um **escritório portátil** pendurado ao peito, aberto, com a folha protegida por uma aba de cabedal — e escreve enquanto anda. Ao pulso, enrolada três voltas, uma **trança branca cortada**.
@@ -144,7 +142,7 @@ Cada um tem **uma silhueta que se vê à distância**, uma voz, uma coisa que qu
 - **Falas:** «Não se movam, por favor. Estou a escrever.» · «O sujeito ainda não assinou.» · «Os nossos nomes, para o registo? É rotina.» · «Tira a máscara, por favor. É só para o registo.»
 
 ### A jangada
-Uma **jangada de varejão**, puxada à corda pelo Casqueiro: mantimentos, três lanças sobressalentes, o barril de água, e a prisioneira. Se o carreiro for cortado, a jangada é o que eles defendem. Se o grupo a virar (Atletismo DC 13 a empurrar), metade do equipamento vai ao fundo — e a prisioneira também, amarrada. **É a melhor ronda 2 possível para a mesa: alguém tem trinta segundos para decidir se mergulha.** O Lucan e o Isco têm velocidade de natação; ninguém do Império tem.
+A **jangada grande do encontro 6**, com a lanterna acesa à proa ao fim da tarde e dois a remar — aqui vai puxada à corda pelo Casqueiro no carreiro, com a lanterna apagada porque ainda há luz. Leva mantimentos, três lanças sobressalentes, o barril de água, e a prisioneira. **É o prémio real do encontro**: com ela, o grupo faz o resto do pântano em metade do tempo e sem testes de navegação (ver secção 9). Se o carreiro for cortado, a jangada é o que eles defendem. Se o grupo a virar (Atletismo DC 13 a empurrar), metade do equipamento vai ao fundo — e a prisioneira também, amarrada. **É a melhor ronda 2 possível para a mesa: alguém tem trinta segundos para decidir se mergulha.** O Lucan e o Isco têm velocidade de natação; ninguém do Império tem.
 
 ---
 
@@ -228,11 +226,14 @@ Uma **jangada de varejão**, puxada à corda pelo Casqueiro: mantimentos, três 
 O sargento fala antes de atacar — **é a primeira coisa a deixar clara**: levanta a mão aberta, não a arma.
 
 - **Porta de entrada:** o **Alberto**. É gnomo, é do Império, trabalhou para um feiticeiro imperial, tem *alchemist's supplies*, identificou duas poções de cura na noite passada e **quer ir ao Forte Ventura**. Um alquimista imperial perdido no pântano com guias contratados é uma história que se sustenta sozinha — e obriga a mesa a jogar com o Alberto a falar por eles, o que é de graça em ouro. Deception com o Alberto a puxar a história: **DC 13** (as poções à vista baixam para 11). Sem o Alberto: **DC 17**, e o acólito pede nomes.
-- **O problema:** o **Morgid** é lizardfolk, e foram lizardfolk que mataram o Bento. Se o virem, a conversa acaba. Que fique na água (Furtividade) ou que a mesa arranje coisa melhor. *(E é o segundo silêncio que ele engole em dois dias: no ossário rezou no chão do clã do pai e ninguém perguntou nada.)*
-- **A moeda é o Morgid e o mapa** — e aqui está o nó: **a coisa que eles têm de esconder é a coisa que têm para vender.** Estão perdidos há dois dias, as aves acabaram de passar por cima deles, e o sargento quer chegar a casa antes de escurecer amanhã. Um batedor que conhece o pântano é a única coisa que lhe falta, e esse batedor é um lagarto. Três saídas, todas boas:
+- **O problema é o Morgid, e é pior do que parece.** Não é só que foram lizardfolk que mataram o Bento: a **ordem escrita** que o sargento traz no bolso manda **deter goblinóides de Urzin e entregá-los ao Padre Perestrelo**, e estes homens não distinguem um lizardfolk de Urzin de um goblin de Urzin. O sargento olha para ele **primeiro**, antes de olhar para qualquer um deles, e a pergunta é sobre ele, não a eles: «**Esse. De Urzin?**» E depois exige-o.
+  - **Deception/Persuasão DC 14** para o vender como guia contratado e não como «um deles» — e ele vai querer ver o que trazem. O Lucan, com aquela cara, não passa por lidador de peixe.
+  - **Esconder** resolve antes de começar: Furtividade de grupo DC 12, e o Morgid ajuda.
+  - **Entregá-lo:** ele vai. Não diz nada. Olha para o Lucan. *(É o segundo silêncio que ele engole em dois dias: no ossário rezou no chão do clã do pai e ninguém perguntou nada.)*
+- **A moeda é o Morgid e o mapa** — e o nó aperta: **a coisa que eles têm de esconder é a coisa que têm para vender, e que a patrulha tem ordem escrita para prender.** Estão perdidos há dois dias, as aves acabaram de passar por cima deles, e o sargento quer chegar a casa antes de escurecer amanhã. Um batedor que conhece o pântano é a única coisa que lhe falta, e esse batedor é um lagarto. Três saídas, todas boas:
   - **Vender só o mapa**, com um PC a fingir que o lê. Funciona (é um mapa de couro com marcas), e obriga a mesa a mentir com Sobrevivência à mistura: falhar um teste passa a significar levá-los pelo caminho errado.
   - **Mostrar o Morgid** e aguentar a reacção: Persuasão com desvantagem, e o Casqueiro a querer sangue antes de o sargento decidir. Se passar, é a melhor coisa que pode acontecer nesta cena — um lizardfolk a guiar a patrulha que enterrou um homem morto por lizardfolk.
-  - **Vendê-lo como cativo deles**, coleira e tudo. Barato, eficaz, e o Morgid ouve tudo. Guarda o que ele escreve na lousa a seguir para o fim da sessão.
+  - **Vendê-lo como cativo deles**, coleira e tudo — que é exactamente o que a ordem do Felmont manda fazer-lhe, dito pela boca deles. Barato, eficaz, e o Morgid ouve tudo. Guarda o que ele escreve na lousa a seguir para o fim da sessão.
 - **O que o sargento dá**, do mais barato ao mais caro:
   1. Passagem. Não os segue, não os denuncia. **Persuasão DC 13** (ou a história do Alberto).
   2. A informação sobre o forte (secção 7): sai à conversa, com a Nália a falar demais, sem teste nenhum.
@@ -292,13 +293,14 @@ Por conversa, por interrogatório ou pela folha do acólito. O que não sai pela
 
 ## 8. Despojos
 
-- **Seis uniformes imperiais** (três em tamanho utilizável). É um bilhete para o forte, e a mesa percebe sozinha.
-- **Selo de marcha** do sargento, um disco de chumbo com o carimbo da guarnição: vale mais do que os uniformes.
-- **Ordem de marcha** selada — handout em [`docs/handouts.md`](../handouts.md).
+Os números são os do encontro 6 do documento dos encontros; o resto é desta cena.
+
+- **A jangada.** Vale mais do que tudo o resto junto: dois dias de pântano em metade do tempo, e sem Survival. Ver secção 9.
+- **Bestas ligeiras** com 60 setas, lanças, casacos de couro com botões do Império (*leather armor*), **um escudo** com o brasão, **uma lanterna** de bolso e óleo para dois dias, **um cantil** de aguardente, **18 po e 40 pp** no total.
+- No sargento: **scale mail** boa, **uma longsword** com o punho gasto, e a **ordem escrita e selada** assinada por *Felmont* — handout em [`docs/handouts.md`](../handouts.md). Dois nomes do forte um dia antes de lá chegarem, e a revelação de que quem manda no forte não é quem devia: os prisioneiros entregam-se **ao Pároco**, não ao comandante.
+- **Seis uniformes imperiais** (três em tamanho utilizável) e o **selo de marcha** de chumbo: é um bilhete para o forte, e a mesa percebe sozinha.
 - **Folha do acólito** — handout em [`docs/handouts.md`](../handouts.md): nomes, datas, e a palavra «sujeito».
-- Apito de osso (três apitos = patrulha perdida; um apito longo = chamada de batedor).
-- Chave da canga (cinto do sargento), chave da mordaça (pescoço do acólito).
-- 22 po, 40 pp em moeda imperial, três rações de enguia salgada que ninguém quer, um frasco de aguardente de pêra que o Casqueiro guarda na bota.
+- **Apito de osso** (três apitos = patrulha perdida; um apito longo = chamada de batedor) e as **duas chaves** (canga ao cinto do sargento, mordaça ao pescoço do acólito).
 - Dentro do saco do Casqueiro: **tudo o que pertence à Camila**, mais a trança branca cortada, enrolada e guardada à parte — porque o acólito acha que vale alguma coisa.
 
 ---
@@ -316,18 +318,20 @@ Por conversa, por interrogatório ou pela folha do acólito. O que não sai pela
 | **3** | **Terceiro *revivify*.** A possessão pega | **Tempestade parada** sobre um ponto do horizonte e trovoada nessa direcção |
 | 4 | Já não há capela | Fumo onde estava a tempestade, e silêncio: nem aves |
 
-### Dia 2 — as aves (nesta sessão, antes da patrulha)
+### Dia 2 — os corvos (nesta sessão, antes da patrulha)
 
-Lê isto **antes** do "tchop… tchop" da secção 5. É o primeiro plano da sessão.
+**É o encontro 3 da tabela** — «um bando de corvos» —, tirado do baralho e posto à hora certa, com a leitura (b) que o documento dos encontros já oferecia: *fogem de alguma coisa*. Lê isto **antes** do "tchop… tchop" da secção 5. É o primeiro plano da sessão.
 
-> Primeiro cala-se tudo: os insectos, as rãs, o chapinhar pequeno das coisas na água. Depois ouvem o barulho a chegar do horizonte — asas, muitas, baixas. Passa-vos por cima um bando de garças e de patos-do-brejo, e atrás dele outro, e outro, todos na mesma direcção e nenhum a cantar. Uma garça pousa no carreiro a dez pés de vocês, olha para vocês sem se importar minimamente com o que vocês são, e volta a levantar voo. Vêm todos do mesmo sítio. E vocês estão a ir para lá.
+> Primeiro cala-se tudo: os insectos, as rãs, o chapinhar pequeno das coisas na água. Depois um som que não é do pântano, por cima da névoa — não se vê, ouve-se: asas, muitas, e vozes ásperas, dezenas, a passar de um lado ao outro do céu. Um corvo cai da névoa por um segundo, preto, e volta a subir. Depois outro. Depois quarenta. E com eles vêm garças e patos-do-brejo, baixos, nenhum a cantar. Vão todos para o mesmo lado — e vocês vão para o lado de onde eles vêm.
 
 **A direcção não é uma descoberta: é o que torna aquilo insuportável.** Eles têm o mapa de couro do Morgid e sabem perfeitamente para que lado fica o Forte Ventura — o Morgid põe o dedo no mapa e não tira. Não se rola nada para isso. O que as aves dizem é *que está a acontecer alguma coisa*, e que está a acontecer exactamente onde eles vão.
 
 - **Sobrevivência 10** (ou o Morgid, de graça, na lousa): *bichos não fogem de chuva*.
 - **Sobrevivência 13 ou Natureza 15**: não é fuga de predador. Há bichos que fogem de um bicho e bichos que fogem de um sítio; estes estão a **abandonar o sítio**.
 - **Sobrevivência 16**: não são só as aves. As rãs calaram-se antes delas, e não voltaram a começar.
+- **Intuição 10 com o mapa aberto** (do encontro 3): voam na direcção contrária ao Forte Ventura. O **Morgid** faz o que o documento dos encontros lhe dá — escreve na lousa e **mostra**, coisa que quase nunca faz: um traço, e uma seta.
 - O **Alberto**, se lhe perguntarem: fica muito quieto e diz «no Império, quando os pombos saem todos ao mesmo tempo, é porque alguém abriu alguma coisa».
+- **Guarda os dois detalhes do encontro 3**: o último corvo pousa num ramo a vinte pés, fica a olhar para o **Lucan** com a cabeça de lado e não levanta voo quando o grupo passa — sem mecânica nenhuma, e a Renata vai lembrar-se dele. E debaixo do ramo fica **uma pena preta grande demais para um corvo**: é de harpia, e as falésias ficam a norte.
 
 **A patrulha vê as mesmas aves**, e é isto que os humaniza sem uma linha de discurso:
 - o **Elmiro** aponta para o céu e diz, baixinho, «senhor… aquilo vem de casa»;
@@ -335,7 +339,7 @@ Lê isto **antes** do "tchop… tchop" da secção 5. É o primeiro plano da ses
 - o **sargento** não diz nada e fecha a mão no apito;
 - o **acólito** escreve.
 
-**Consequência mecânica do parlamento:** depois das aves, o sargento **quer** voltar depressa, e está perdido há dois dias. A Persuasão para o contrato de guias baixa 2, e o preço dele muda — deixa de ser só a prova da morte do xamã e passa a ser *levem-nos lá antes de escurecer amanhã*. O que a mesa tem para lhe vender não são as aves: é o **Morgid e o mapa dele**.
+**Consequência mecânica do parlamento:** depois das aves, o sargento **quer** voltar depressa, e está perdido há dois dias. A Persuasão para o contrato de guias baixa 2, e o que ele quer passa a ser *levem-nos lá antes de escurecer amanhã*. O que a mesa tem para lhe vender não são os corvos: é o **Morgid e o mapa dele** — o mesmo Morgid que a ordem dele manda prender.
 
 ### Dia 3 — a tempestade
 
@@ -357,7 +361,8 @@ Depois do encontro sobram-lhes **quatro terços de marcha**: o entardecer do dia
 | **Emboscada** | um terço (combate, saque, feridos) | sobram três; dá, se não se perderem |
 | **Seguir e libertar de noite** | o entardecer do dia 2 e a noite | **sobra só o dia 3 inteiro, sem margem para erro** |
 
-- **Ritmo rápido** é a alavanca deles: 15 hexágonos por terço, com −5 na navegação (o Morgid passa a precisar de 20). Compra um terço e paga-o em risco: o d20 de encontro continua a rolar em cada um.
+- **A jangada é a maior alavanca do encontro** e está em cima da mesa desde o primeiro segundo: quem ficar com ela faz o resto do pântano **em metade do tempo e sem testes de navegação**. Isso apaga o risco de se perderem no dia 3 e transforma o caminho nocturno (C), que era o mais caro, em perfeitamente pagável. Se a mesa a tomar — por conversa, por roubo ou por combate —, **deixa-a ganhar o tempo**: foi ganho a pensar.
+- **Ritmo rápido** é a outra alavanca: 15 hexágonos por terço, com −5 na navegação (o Morgid passa a precisar de 20). Compra um terço e paga-o em risco: o d20 de encontro continua a rolar em cada um.
 - **Perder-se custa tudo.** Se o Morgid não guiar — ou se voltarem a deixar guiar quem tirou 10 na sessão 3 —, um terço perdido no dia 3 é a Bolbara.
 - **Não escondas o relógio.** O Morgid bate na lousa e aponta para o sol; as aves e a tempestade dizem o resto. A mesa tem de poder escolher a drow *sabendo* o que custa — essa é que é a escolha.
 
