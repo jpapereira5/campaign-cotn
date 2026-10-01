@@ -13,7 +13,7 @@
       "c-jmon-sa-ord",
       "f-cerulean-palace"
     ],
-    "summary": "PROPOSTA. Quando os PCs se ligam a uma facção, a Grandmaven Gemeshega recebe-os no Cerulean Palace em nome de J'mon Sa Ord. Deixa claro que o dragão autorizou a escavação de Cael Morrow, que sabe da Jewel, e que observa.",
+    "summary": "PROPOSTA. Quando os PCs se ligam a uma fação, a Grandmaven Gemeshega recebe-os no Cerulean Palace em nome de J'mon Sa Ord. Deixa claro que o dragão autorizou a escavação de Cael Morrow, que sabe da Jewel, e que observa.",
     "reveals": [
       "r-jmon-authorized-dig",
       "r-jmon-will-rise"
@@ -52,7 +52,7 @@
       "c-ironhand-sem",
       "f-hands-of-ord"
     ],
-    "summary": "PROPOSTA. Na noite em que o rift é aberto, o tecto de cristal da Chamber of Judgment brilha vermelho, as Hands of Ord entram em alerta e a sombra de um dragão passa sobre Ank'Harel. Gemeshega manda chamar os PCs: J'mon quer saber o que abriram.",
+    "summary": "PROPOSTA. Na noite em que o rift é aberto, o teto de cristal da Chamber of Judgment brilha vermelho, as Hands of Ord entram em alerta e a sombra de um dragão passa sobre Ank'Harel. Gemeshega manda chamar os PCs: J'mon quer saber o que abriram.",
     "reveals": [
       "r-jmon-authorized-dig",
       "r-jmon-will-rise"
@@ -138,7 +138,7 @@
       "c-ironhand-sem",
       "f-cerulean-palace"
     ],
-    "summary": "PROPOSTA. J'mon Sa Ord desce ao Seat e julga os PCs pelo Code of Ord: libertaram o Apotheon. Confessa a sua própria culpa por ter autorizado a escavação. A sentença é reparar o mal: têm um ano e um dia. Recebem os recursos da cidade: Scarbearers, Hands of Ord, cartas para os templos das Prime Deities.",
+    "summary": "PROPOSTA. J'mon Sa Ord desce ao Seat e julga os PCs pelo Code of Ord: libertaram o Apotheon. Confessa a sua própria culpa por ter autorizado a escavação. A sentença é reparar o mal: têm um ano e um dia. Recebem os recursos da cidade: Scarbearers, Hands of Ord, cartas para os templos das Divindades Primárias.",
     "reveals": [
       "r-jmon-authorized-dig"
     ],
@@ -148,14 +148,14 @@
     "choices": [
       {
         "label": "Aceitar a sentença",
-        "outcome": "Abre o Acto 4 com o apoio de Ank'Harel.",
+        "outcome": "Abre o Ato 4 com o apoio de Ank'Harel.",
         "leadsTo": [
           "b-8-year-of-ruidus"
         ]
       },
       {
         "label": "Recusar ou fugir",
-        "outcome": "Exilados; o Acto 4 começa sem apoio da cidade e com as Hands of Ord no encalço.",
+        "outcome": "Exilados; o Ato 4 começa sem apoio da cidade e com as Hands of Ord no encalço.",
         "leadsTo": [
           "b-8-year-of-ruidus"
         ]
@@ -185,7 +185,7 @@
     "choices": [
       {
         "label": "Peregrinação aos santuários",
-        "outcome": "As bênçãos das Prime Deities.",
+        "outcome": "As bênçãos das Divindades Primárias.",
         "leadsTo": [
           "b-8-path-pilgrimage"
         ]
@@ -198,7 +198,7 @@
         ]
       },
       {
-        "label": "Os Betrayer Gods",
+        "label": "Os Deuses Traidores",
         "outcome": "Poder imediato, preço eterno.",
         "leadsTo": [
           "b-8-path-betrayers"
@@ -210,7 +210,7 @@
       "faction": "f-apotheon-cult",
       "text": "Cada trimestre o culto cresce e uma cidade cai."
     },
-    "notes": "PROPOSTA (por aprovar). Os três caminhos são exactamente as três continuações que o livro sugere para o pior final; aqui ficam como pistas concorrentes com relógio, à maneira do resto da campanha.",
+    "notes": "PROPOSTA (por aprovar). Os três caminhos são exatamente as três continuações que o livro sugere para o pior final; aqui ficam como pistas concorrentes com relógio, à maneira do resto da campanha.",
     "source": "dm"
   },
   {
@@ -228,7 +228,7 @@
       "c-corellon",
       "c-alyxian"
     ],
-    "summary": "PROPOSTA. Voltar aos três sítios onde Alyxian rezou (Emerald Grotto, Betrayers' Rise, Cael Morrow, agora seco) com a Jewel of Three Prayers, para obter das Prime Deities as bênçãos que podem enfrentar o Apotheon. Cada santuário pede um preço e o culto tenta chegar primeiro.",
+    "summary": "PROPOSTA. Voltar aos três sítios onde Alyxian rezou (Emerald Grotto, Betrayers' Rise, Cael Morrow, agora seco) com a Jewel of Three Prayers, para obter das Divindades Primárias as bênçãos que podem enfrentar o Apotheon. Cada santuário pede um preço e o culto tenta chegar primeiro.",
     "reveals": [],
     "requires": [
       "b-8-year-of-ruidus"
@@ -238,7 +238,7 @@
       "faction": "f-apotheon-cult",
       "text": "O culto profana um santuário antes dos PCs."
     },
-    "notes": "PROPOSTA (por aprovar). Fecha o círculo com o acto 1: os mesmos três lugares, agora ao contrário. A Jewel volta a ser a chave.",
+    "notes": "PROPOSTA (por aprovar). Fecha o círculo com o ato 1: os mesmos três lugares, agora ao contrário. A Jewel volta a ser a chave.",
     "source": "dm"
   },
   {
@@ -258,7 +258,7 @@
       "f-rivals",
       "c-verin-thelyss"
     ],
-    "summary": "PROPOSTA. Juntar Kryn Dynasty, Ank'Harel e o Império Dwendaliano contra a nuvem e o culto. Os rivais, conforme a atitude, são embaixadores, sabotadores ou generais. Verin Thelyss e a Aurora Watch conhecem a guerra contra horrores.",
+    "summary": "PROPOSTA. Juntar Dinastia Kryn, Ank'Harel e o Império Dwendaliano contra a nuvem e o culto. Os rivais, conforme a atitude, são embaixadores, sabotadores ou generais. Verin Thelyss e a Vigília da Aurora conhecem a guerra contra horrores.",
     "reveals": [],
     "requires": [
       "b-8-year-of-ruidus"
@@ -273,7 +273,7 @@
   },
   {
     "id": "b-8-path-betrayers",
-    "title": "Caminho 3: os Betrayer Gods",
+    "title": "Caminho 3: os Deuses Traidores",
     "arcs": [
       "a-ruidus-year",
       "a-lore"
@@ -286,7 +286,7 @@
       "c-lolth",
       "c-alyxian"
     ],
-    "summary": "PROPOSTA. Pedir ajuda a quem fez o Netherdeep. O livro lista o que cada Betrayer God oferece (exércitos, assassinos, um veneno para o divino, itens que corrompem) e o preço: depois de Alyxian, os cultos deles querem o mundo.",
+    "summary": "PROPOSTA. Pedir ajuda a quem fez o Netherdeep. O livro lista o que cada Deus Traidor oferece (exércitos, assassinos, um veneno para o divino, itens que corrompem) e o preço: depois de Alyxian, os cultos deles querem o mundo.",
     "reveals": [],
     "requires": [
       "b-8-year-of-ruidus"
@@ -308,7 +308,7 @@
       "f-apotheon-cult",
       "c-alyxian"
     ],
-    "summary": "PROPOSTA. A frente activa do acto: o culto cresce nas cidades arrasadas, sabota santuários e exércitos, infiltra o palácio e, no fim, tenta oferecer uma cidade inteira ao Apotheon. Marca a corrupção do ruidium em todos.",
+    "summary": "PROPOSTA. A frente ativa do ato: o culto cresce nas cidades arrasadas, sabota santuários e exércitos, infiltra o palácio e, no fim, tenta oferecer uma cidade inteira ao Apotheon. Marca a corrupção do rubídio em todos.",
     "reveals": [],
     "requires": [
       "b-8-year-of-ruidus"
@@ -347,14 +347,14 @@
     "choices": [
       {
         "label": "Redimir",
-        "outcome": "Um mundo que se lembrou: todo o ruidium desaparece; Alyxian em paz.",
+        "outcome": "Um mundo que se lembrou: todo o rubídio desaparece; Alyxian em paz.",
         "leadsTo": [
           "b-8-aftermath"
         ]
       },
       {
         "label": "Destruir",
-        "outcome": "Alyxian morre; o ruidium desaparece; o mundo fica marcado.",
+        "outcome": "Alyxian morre; o rubídio desaparece; o mundo fica marcado.",
         "leadsTo": [
           "b-8-aftermath"
         ]
@@ -368,7 +368,7 @@
       }
     ],
     "timer": "dia 366",
-    "notes": "PROPOSTA (por aprovar). Mantém os mesmos três desfechos do livro, agora ganhos com um acto inteiro de custo.",
+    "notes": "PROPOSTA (por aprovar). Mantém os mesmos três desfechos do livro, agora ganhos com um ato inteiro de custo.",
     "source": "dm"
   },
   {

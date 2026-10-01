@@ -12,7 +12,7 @@
     "participants": [
       "c-elder-ushru"
     ],
-    "summary": "PROPOSTA (Remix). Três eventos extra no Festival of Merit que plantam lore sem o explicar: uma peça de teatro sobre a Calamity; um vendedor ambulante de pedras vermelhas que \"dão à costa\" no Emerald Gulch (ruidium); uma adivinha que lê o futuro na luz de Ruidus (vigarice, mas fala da lua de mau agouro).",
+    "summary": "PROPOSTA (Remix). Três eventos extra no Festival do Mérito que plantam lore sem o explicar: uma peça de teatro sobre a Calamidade; um vendedor ambulante de pedras vermelhas que \"dão à costa\" no Emerald Gulch (rubídio); uma adivinha que lê o futuro na luz de Ruidus (vigarice, mas fala da lua de mau agouro).",
     "reveals": [
       "r-ruidium-properties",
       "r-alyxian-ruidus-birth"
@@ -41,7 +41,7 @@
       "c-elder-colbu-kaz",
       "f-rivals"
     ],
-    "summary": "DM: Os finalistas eram os rivais e outra equipa. Na prova da água (Ifolon Plunge), onde há tubarões corrompidos por ruidium, essa equipa apanha a \"febre escarlate\": corrupção rubídica que deixa os mais fracos de espírito em febre e depressão. Pouco depois de os PCs terem participado, a prova é cancelada. Os anciãos nomeiam os PCs finalistas no lugar da equipa doente.",
+    "summary": "DM: Os finalistas eram os rivais e outra equipa. Na prova da água (Ifolon Plunge), onde há tubarões corrompidos por rubídio, essa equipa apanha a \"febre escarlate\": corrupção rubídica que deixa os mais fracos de espírito em febre e depressão. Pouco depois de os PCs terem participado, a prova é cancelada. Os anciãos nomeiam os PCs finalistas no lugar da equipa doente.",
     "reveals": [
       "r-scarlet-fever",
       "r-ruidium-apotheon-sites"
@@ -52,7 +52,7 @@
     "choices": [
       {
         "label": "Investigar a doença",
-        "outcome": "Primeira pista de que o ruidium corrompe mente e corpo; Bautha, em Bazzoxan, saberá mais.",
+        "outcome": "Primeira pista de que o rubídio corrompe mente e corpo; Bautha, em Bazzoxan, saberá mais.",
         "leadsTo": []
       },
       {
@@ -64,12 +64,12 @@
       }
     ],
     "timer": "a prova é cancelada pouco depois da corrida dos PCs",
-    "notes": "DM: Substitui a selecção de equipas do livro (e a lotaria do Remix). A \"febre escarlate\" precisa de regra: ver docs/regras.md (a definir pelo DM).",
+    "notes": "DM: Substitui a seleção de equipas do livro (e a lotaria do Remix). A \"febre escarlate\" precisa de regra: ver docs/regras.md (a definir pelo DM).",
     "source": "dm"
   },
   {
     "id": "b-1-grotto-ruidium",
-    "title": "Ruidium no Emerald Grotto",
+    "title": "Rubídio no Emerald Grotto",
     "arcs": [
       "a-ruidium",
       "a-lore"
@@ -80,7 +80,7 @@
     "participants": [
       "c-alyxian"
     ],
-    "summary": "PROPOSTA (Remix). Afloramentos de um mineral negro e oleoso com veios vermelhos nas paredes da gruta, mais densos junto ao Prayer Site of Sehanine. Os PCs podem recolher uma amostra. É a primeira vez que o ruidium aparece: num sítio do Apotheon, muito longe de Cael Morrow.",
+    "summary": "PROPOSTA (Remix). Afloramentos de um mineral negro e oleoso com veios vermelhos nas paredes da gruta, mais densos junto ao Prayer Site of Sehanine. Os PCs podem recolher uma amostra. É a primeira vez que o rubídio aparece: num sítio do Apotheon, muito longe de Cael Morrow.",
     "reveals": [
       "r-ruidium-apotheon-sites",
       "r-ruidium-properties",
@@ -90,12 +90,12 @@
       "b-1-grotto-race"
     ],
     "choices": [],
-    "notes": "PROPOSTA (Remix). Do Remix (1.4): \"o ruidium manifesta-se em todos os sítios associados ao Apotheon\". Dá aos investigadores de Bazzoxan uma razão real para lá estarem e aos PCs algo para trocar. Regra Ruidium Metamagic: docs/regras.md.",
+    "notes": "PROPOSTA (Remix). Do Remix (1.4): \"o rubídio manifesta-se em todos os sítios associados ao Apotheon\". Dá aos investigadores de Bazzoxan uma razão real para lá estarem e aos PCs algo para trocar. Regra Ruidium Metamagic: docs/regras.md.",
     "source": "dm"
   },
   {
     "id": "b-1-jigow-research",
-    "title": "Pesquisa em Jigow: a pesquisa dá uma acção, não uma resposta",
+    "title": "Pesquisa em Jigau: a pesquisa dá uma ação, não uma resposta",
     "arcs": [
       "a-main",
       "a-lore"
@@ -108,7 +108,7 @@
       "c-elder-colbu-kaz",
       "f-rivals"
     ],
-    "summary": "PROPOSTA (Remix). Quem pesquisar a Jóia ou a visão em Jigow encontra três caminhos que apontam todos para Bazzoxan: Ushru viu a Jóia desenhada numa parede do Betrayers' Rise quando era novo; o diário de um explorador que acordou o portal abissal e descreve uma figura igual à da visão; o maior perito no assunto está em missão de campo em Bazzoxan. Se os PCs não pesquisarem, os rivais pesquisam por outro caminho e trazem a pista (ou deixam um diário para trás).",
+    "summary": "PROPOSTA (Remix). Quem pesquisar a Jóia ou a visão em Jigau encontra três caminhos que apontam todos para Bazzoxan: Ushru viu a Jóia desenhada numa parede do Betrayers' Rise quando era novo; o diário de um explorador que acordou o portal abissal e descreve uma figura igual à da visão; o maior perito no assunto está em missão de campo em Bazzoxan. Se os PCs não pesquisarem, os rivais pesquisam por outro caminho e trazem a pista (ou deixam um diário para trás).",
     "reveals": [
       "r-go-to-bazzoxan",
       "r-cyst-of-avandra",
@@ -123,7 +123,7 @@
   },
   {
     "id": "b-2-ruins-outside-bazzoxan",
-    "title": "Ruins of Sorrow: demónios, a Aurora Watch e Aloysia",
+    "title": "Ruins of Sorrow: demónios, a Vigília da Aurora e Aloysia",
     "arcs": [
       "a-kryn",
       "a-consortium",
@@ -139,7 +139,7 @@
       "c-perigee",
       "f-rivals"
     ],
-    "summary": "PROPOSTA (Reddit, fan-made). A um dia de Bazzoxan, logo após Ruidus cheia, os PCs dão com ruínas cristalinas de onde sai névoa e saem demónios: seis soldados da Aurora Watch, dois deles caídos a esvair-se, aguentam um hezrou, um draegloth e um babau escondido. A névoa traz mais vagas (babau, draegloth, 4-6 wretched; outro hezrou; por fim \"The Lonely\") e ataca a mente com acções de covil; os rivais chegam a meio; uma das acções de covil é substituída pela visão da morte de Perigee. Libertar as energias do centro fecha a brecha. DM: Aloysia Telfan veio com a patrulha, \"como perita em folclore\", observa quem é atingido pela visão e leva uma lasca do ruidium do centro; é o primeiro encontro com ela.",
+    "summary": "PROPOSTA (Reddit, fan-made). A um dia de Bazzoxan, logo após Ruidus cheia, os PCs dão com ruínas cristalinas de onde sai névoa e saem demónios: seis soldados da Vigília da Aurora, dois deles caídos a esvair-se, aguentam um hezrou, um draegloth e um babau escondido. A névoa traz mais vagas (babau, draegloth, 4-6 wretched; outro hezrou; por fim \"The Lonely\") e ataca a mente com ações de covil; os rivais chegam a meio; uma das ações de covil é substituída pela visão da morte de Perigee. Libertar as energias do centro fecha a brecha. DM: Aloysia Telfan veio com a patrulha, \"como perita em folclore\", observa quem é atingido pela visão e leva uma lasca do rubídio do centro; é o primeiro encontro com ela.",
     "reveals": [
       "r-perigee",
       "r-faction-agendas",
@@ -187,13 +187,13 @@
         ]
       },
       {
-        "label": "Os rivais chegam a meio (após 3 acções de covil)",
+        "label": "Os rivais chegam a meio (após 3 ações de covil)",
         "outcome": "DM: Princípio da Oposição: discordam do plano dos PCs (salvar os guardas primeiro vs. fechar a brecha primeiro); o tom depende da atitude.",
         "leadsTo": []
       }
     ],
-    "timer": "Presságios ao longo do dia após Ruidus cheia (maldição secreta: Cha save DC 18, a descer); caídos morrem em 2 turnos; vaga 2 depois da ronda 2; hezrou extra depois da ronda 3; rivais depois de 3 acções de covil",
-    "notes": "PROPOSTA (Reddit, fan-made; ver o Google Doc do post). Maldição de Ruidus: secreta, ao acordar depois de Ruidus cheia; presságios durante o dia; Cha save DC 18 para a sacudir, com o DC a descer a cada presságio. Ronda 1: hezrou + draegloth + babau escondido; dois soldados a 0 hp morrem em 2 turnos se ninguém os estabilizar. Depois da ronda 2: vaga 2 (babau, draegloth, 4-6 wretched) e as acções de covil da névoa, uma por ronda: Cha DC 13 ou 2d6 necrótico e hp máximo reduzido; Wis DC 13 ou tristeza (desvantagem); Int DC 13 ou hordas ilusórias. Depois da ronda 3: outro hezrou. Depois de 3 acções de covil: chegam os rivais. Uma acção de covil é substituída pela visão (b-2-vision-perigee-death). Vaga 3: \"The Lonely\" (DM: o Sorrowsworn oficial de Mordenkainen's Tome of Foes / Monsters of the Multiverse, CR 9; os guardas sobreviventes e os rivais ajudam a aguentá-lo). Libertar as energias do centro acaba com as invocações. Mapa: centro onde Perigee morreu e de onde sai a névoa; árvore morta; elevações de 10 e 15 ft. Recompensa: 50 gp; se todos os guardas sobreviverem, alojamento grátis no Ready Room e desconto. DM (Aloysia): veio com a patrulha que Verin mandou às ruínas quando a névoa começou a parir demónios, convencendo-o a levá-la \"como perita em folclore\"; o Consortium, obcecado com Ruidus, quer saber o que acorda ali depois de Ruidus cheia. Não luta na linha: fica na elevação de 15 ft com os feridos, com os tablets de teleporte e o pergaminho de earthquake (livro) como saída de emergência, e observa quem é atingido pela visão; no fim pergunta \"o que viram?\" (Insight/Deception). O agente Volstrucker não aparece aqui (mantém a surpresa em R16). DM: no cristal do centro, onde Perigee caiu e Alyxian recebeu a segunda bênção, há um filamento carmesim de ruidium; Aloysia leva uma lasca (é o que o Consortium queria; pista para r-ruidium-apotheon-sites). Os PCs também podem tirar uma amostra, com o DC 20 Charisma save do livro se a usarem.",
+    "timer": "Presságios ao longo do dia após Ruidus cheia (maldição secreta: Cha save DC 18, a descer); caídos morrem em 2 turnos; vaga 2 depois da ronda 2; hezrou extra depois da ronda 3; rivais depois de 3 ações de covil",
+    "notes": "PROPOSTA (Reddit, fan-made; ver o Google Doc do post). Maldição de Ruidus: secreta, ao acordar depois de Ruidus cheia; presságios durante o dia; Cha save DC 18 para a sacudir, com o DC a descer a cada presságio. Ronda 1: hezrou + draegloth + babau escondido; dois soldados a 0 hp morrem em 2 turnos se ninguém os estabilizar. Depois da ronda 2: vaga 2 (babau, draegloth, 4-6 wretched) e as ações de covil da névoa, uma por ronda: Cha DC 13 ou 2d6 necrótico e hp máximo reduzido; Wis DC 13 ou tristeza (desvantagem); Int DC 13 ou hordas ilusórias. Depois da ronda 3: outro hezrou. Depois de 3 ações de covil: chegam os rivais. Uma ação de covil é substituída pela visão (b-2-vision-perigee-death). Vaga 3: \"The Lonely\" (DM: o Sorrowsworn oficial de Mordenkainen's Tome of Foes / Monsters of the Multiverse, CR 9; os guardas sobreviventes e os rivais ajudam a aguentá-lo). Libertar as energias do centro acaba com as invocações. Mapa: centro onde Perigee morreu e de onde sai a névoa; árvore morta; elevações de 10 e 15 ft. Recompensa: 50 gp; se todos os guardas sobreviverem, alojamento grátis no Ready Room e desconto. DM (Aloysia): veio com a patrulha que Verin mandou às ruínas quando a névoa começou a parir demónios, convencendo-o a levá-la \"como perita em folclore\"; o Consortium, obcecado com Ruidus, quer saber o que acorda ali depois de Ruidus cheia. Não luta na linha: fica na elevação de 15 ft com os feridos, com os tablets de teleporte e o pergaminho de earthquake (livro) como saída de emergência, e observa quem é atingido pela visão; no fim pergunta \"o que viram?\" (Insight/Deception). O agente Volstrucker não aparece aqui (mantém a surpresa em R16). DM: no cristal do centro, onde Perigee caiu e Alyxian recebeu a segunda bênção, há um filamento carmesim de rubídio; Aloysia leva uma lasca (é o que o Consortium queria; pista para r-ruidium-apotheon-sites). Os PCs também podem tirar uma amostra, com o DC 20 Charisma save do livro se a usarem.",
     "source": "dm"
   },
   {
@@ -211,7 +211,7 @@
       "c-sehanine",
       "c-avandra"
     ],
-    "summary": "PROPOSTA (Reddit, fan-made). Visão que substitui uma acção de covil (Cha DC 13 ou abalado): os companheiros de Alyxian morreram em Ghor Dranas; quando ele chamou a Moon Weaver, veio Perigee; combateram juntos no templo de Bazzoxan até as forças dos Betrayers a desviarem para fora; Alyxian abandonou o assalto para a ajudar; ela matou o general dos Betrayers e morreu aqui. Logo a seguir veio a bênção da Change Bringer, e daí em diante Alyxian lutou só nas formas da Moon Weaver e da Change Bringer, até Marquet.",
+    "summary": "PROPOSTA (Reddit, fan-made). Visão que substitui uma ação de covil (Cha DC 13 ou abalado): os companheiros de Alyxian morreram em Ghor Dranas; quando ele chamou a Tecelã da Lua, veio Perigee; combateram juntos no templo de Bazzoxan até as forças dos Betrayers a desviarem para fora; Alyxian abandonou o assalto para a ajudar; ela matou o general dos Betrayers e morreu aqui. Logo a seguir veio a bênção da Senhora da Mudança, e daí em diante Alyxian lutou só nas formas da Tecelã da Lua e da Senhora da Mudança, até Marquet.",
     "reveals": [
       "r-perigee",
       "r-alyxian-three-prayers",
@@ -221,7 +221,7 @@
       "b-2-ruins-outside-bazzoxan"
     ],
     "choices": [],
-    "notes": "PROPOSTA. Não quebra a regra \"visões em sequência\" (docs/regras.md): as vinte visões do Netherdeep continuam pela ordem do livro; esta é uma visão extra, fora do Netherdeep, que pré-estabelece Perigee (princípio do Remix já adoptado). Liga a R2 (Hall of Holes: Perigee nos baixos-relevos), a N7 (a batalha) e a N24 (Perigee corrompida). Cronologia fan-made, coerente com o livro.",
+    "notes": "PROPOSTA. Não quebra a regra \"visões em sequência\" (docs/regras.md): as vinte visões do Netherdeep continuam pela ordem do livro; esta é uma visão extra, fora do Netherdeep, que pré-estabelece Perigee (princípio do Remix já adotado). Liga a R2 (Hall of Holes: Perigee nos baixos-relevos), a N7 (a batalha) e a N24 (Perigee corrompida). Cronologia fan-made, coerente com o livro.",
     "source": "dm"
   },
   {
@@ -242,7 +242,7 @@
       "c-question",
       "c-verin-thelyss"
     ],
-    "summary": "PROPOSTA (Remix). Prolix, Aloysia e Question deixam de estar escondidos atrás de cenas-gatilho: qualquer pessoa na vila aponta para um, dois ou os três (\"vi a Question no Wall of the Unforgotten\"). Cada um tem colocações possíveis por local, aponta para o Cyst of Avandra, deixa entrever a agenda de ruidium da sua facção, traz lore único de Alyxian e faz uma oferta para Ank'Harel. Agendas cruzadas: Aloysia escuta as conversas; Prolix pede para roubar as notas dela; Question quer recuperar um caderno roubado.",
+    "summary": "PROPOSTA (Remix). Prolix, Aloysia e Question deixam de estar escondidos atrás de cenas-gatilho: qualquer pessoa na vila aponta para um, dois ou os três (\"vi a Question no Wall of the Unforgotten\"). Cada um tem colocações possíveis por local, aponta para o Cyst of Avandra, deixa entrever a agenda de rubídio da sua fação, traz lore único de Alyxian e faz uma oferta para Ank'Harel. Agendas cruzadas: Aloysia escuta as conversas; Prolix pede para roubar as notas dela; Question quer recuperar um caderno roubado.",
     "reveals": [
       "r-faction-agendas",
       "r-cyst-of-avandra",
@@ -272,7 +272,7 @@
       "c-bautha-dyrr",
       "c-foghome"
     ],
-    "summary": "PROPOSTA (Remix). Segunda fase das pistas: com os investigadores, Bautha e Foghome, os PCs juntam que a Jóia foi fortalecida três vezes pelos deuses, que há santuários nesses sítios e que o ruidium aparece onde o Apotheon esteve. As respostas completas só em Cael Morrow e no Netherdeep.",
+    "summary": "PROPOSTA (Remix). Segunda fase das pistas: com os investigadores, Bautha e Foghome, os PCs juntam que a Jóia foi fortalecida três vezes pelos deuses, que há santuários nesses sítios e que o rubídio aparece onde o Apotheon esteve. As respostas completas só em Cael Morrow e no Netherdeep.",
     "reveals": [
       "r-jewel-three-prayers",
       "r-shrines",
@@ -328,7 +328,7 @@
   },
   {
     "id": "b-4-faction-competition",
-    "title": "Missões como competição entre facções",
+    "title": "Missões como competição entre fações",
     "arcs": [
       "a-allegiance",
       "a-consortium",
@@ -346,7 +346,7 @@
       "f-sentinels",
       "f-rivals"
     ],
-    "summary": "PROPOSTA (Remix). Enquadramento das missões de Ank'Harel: em vez de trabalhos de casa, objectivos que várias facções disputam ao mesmo tempo. Equipas proactivas de cada facção; um relógio de progresso por facção (ver Frentes); eventos de fundo (\"como seria se os PCs tentassem impedir isto?\"); uma \"cara\" para a terceira facção; formas de trocar de facção; os rivais na facção oposta como encontro proactivo.",
+    "summary": "PROPOSTA (Remix). Enquadramento das missões de Ank'Harel: em vez de trabalhos de casa, objetivos que várias fações disputam ao mesmo tempo. Equipas proactivas de cada fação; um relógio de progresso por fação (ver Frentes); eventos de fundo (\"como seria se os PCs tentassem impedir isto?\"); uma \"cara\" para a terceira fação; formas de trocar de fação; os rivais na fação oposta como encontro proactivo.",
     "reveals": [
       "r-faction-agendas"
     ],
@@ -374,7 +374,7 @@
       "f-scarbearers",
       "c-hakzorne"
     ],
-    "summary": "PROPOSTA (Remix). A Aliança controla a Maw. Os PCs entram (1) provando lealdade e recebendo um emblema, ou tomando/aliando-se a quem controla a entrada; (2) por heist, com o desafio de o acesso ter de ser repetível; (3) por uma entrada alternativa, descoberta a partir de um afloramento de ruidium à superfície ou de um mapa disputado.",
+    "summary": "PROPOSTA (Remix). A Aliança controla a Maw. Os PCs entram (1) provando lealdade e recebendo um emblema, ou tomando/aliando-se a quem controla a entrada; (2) por heist, com o desafio de o acesso ter de ser repetível; (3) por uma entrada alternativa, descoberta a partir de um afloramento de rubídio à superfície ou de um mapa disputado.",
     "reveals": [
       "r-cael-morrow-entrance"
     ],
@@ -384,7 +384,7 @@
     "choices": [
       {
         "label": "Emblema / controlar a entrada",
-        "outcome": "Acesso oficial; a facção que controla a Maw pode mudar.",
+        "outcome": "Acesso oficial; a fação que controla a Maw pode mudar.",
         "leadsTo": [
           "b-5-descent"
         ]
@@ -404,7 +404,7 @@
         ]
       }
     ],
-    "notes": "PROPOSTA (Remix). Do Remix (2.5, \"Three approaches\"). Combinar: entrar às escondidas para achar uma saída; instalar um círculo de teleporte com ruidium.",
+    "notes": "PROPOSTA (Remix). Do Remix (2.5, \"Three approaches\"). Combinar: entrar às escondidas para achar uma saída; instalar um círculo de teleporte com rubídio.",
     "source": "dm"
   },
   {
@@ -435,12 +435,12 @@
       "b-5-descent"
     ],
     "choices": [],
-    "notes": "PROPOSTA (Remix). Do Remix (2.6). Tom: \"Le Carré + Hunt for Red October + 20.000 Léguas + Bone Wars\". Missões da fase 2: espionagem, investigar/procurar locais, recuperar artefactos, eliminar ameaças; dar aos PCs informação para escolherem os próprios objectivos.",
+    "notes": "PROPOSTA (Remix). Do Remix (2.6). Tom: \"Le Carré + Hunt for Red October + 20.000 Léguas + Bone Wars\". Missões da fase 2: espionagem, investigar/procurar locais, recuperar artefactos, eliminar ameaças; dar aos PCs informação para escolherem os próprios objetivos.",
     "source": "dm"
   },
   {
     "id": "b-1-ifolon-plunge",
-    "summary": "Nado de 75 ft contra a corrente por uma lança enferrujada, com dois tubarões listrados a subir. Só um competidor por equipa (os outros precisam de DC 14 Deception). Primeiro encontro com Ayo e Galsariad; Galsariad oferece a Ayo um longstrider que ela recusa. DM: Os tubarões do Ifolon estão corrompidos por ruidium: veios vermelhos, agressividade anormal; quem é ferido ou mergulha demais pode apanhar a febre escarlate.",
+    "summary": "Nado de 75 ft contra a corrente por uma lança enferrujada, com dois tubarões listrados a subir. Só um competidor por equipa (os outros precisam de DC 14 Deception). Primeiro encontro com Ayo e Galsariad; Galsariad oferece a Ayo um longstrider que ela recusa. DM: Os tubarões do Ifolon estão corrompidos por rubídio: veios vermelhos, agressividade anormal; quem é ferido ou mergulha demais pode apanhar a febre escarlate.",
     "reveals": [
       "r-scarlet-fever",
       "r-ruidium-apotheon-sites"
@@ -453,7 +453,7 @@
   {
     "id": "b-1-moonshark-lair",
     "summary": "O tubarão gigante usa o Emerald Eye e tem uma lança de prata abençoada por Sehanine no flanco. PROPOSTA (Remix). Agarrar o Emerald Eye dispara o Grande Anúncio: uma voz mágica proclama o vencedor, ecoa pela água e pela margem, acaba a corrida e provoca o desabamento que revela a passagem iluminada para E11/E12. Matar o tubarão deixa de ser obrigatório.",
-    "notes": "PROPOSTA (Remix). Do Remix (2.2): a acção crucial deve nascer dos objectivos dos PCs (ganhar a corrida), não contrariá-los; há muitas formas de tirar o Eye ao tubarão sem o matar."
+    "notes": "PROPOSTA (Remix). Do Remix (2.2): a ação crucial deve nascer dos objetivos dos PCs (ganhar a corrida), não contrariá-los; há muitas formas de tirar o Eye ao tubarão sem o matar."
   },
   {
     "id": "b-1-jewel-vision",
@@ -462,11 +462,11 @@
   },
   {
     "id": "b-1-disputing-destiny",
-    "summary": "PROPOSTA (Remix). Com a visão universal, tocar primeiro deixa de decidir quem é o herói: os dois grupos partilham o destino. Se Ayo tocar na Jóia, os rivais ficam com o objecto, mas o chamamento é de todos; os PCs decidem se ajudam, se disputam a Jóia ou se seguem por outro caminho."
+    "summary": "PROPOSTA (Remix). Com a visão universal, tocar primeiro deixa de decidir quem é o herói: os dois grupos partilham o destino. Se Ayo tocar na Jóia, os rivais ficam com o objeto, mas o chamamento é de todos; os PCs decidem se ajudam, se disputam a Jóia ou se seguem por outro caminho."
   },
   {
     "id": "b-2-ushru-dawn",
-    "summary": "Ushru bate à porta ao amanhecer e conta o sonho do amuleto no lago de sangue. Nomeia a Jóia como Vestige of Divergence, a Jewel of Three Prayers. PROPOSTA (Remix). Procura os dois grupos, PCs e rivais. Em vez de \"a memória da Calamity vive em Bazzoxan\", dá uma acção: \"Estive em Bazzoxan uma vez e vi esta mesma Jóia desenhada nas paredes do Betrayers' Rise. Talvez lá encontrem respostas.\"",
+    "summary": "Ushru bate à porta ao amanhecer e conta o sonho do amuleto no lago de sangue. Nomeia a Jóia como Vestige of Divergence, a Jewel of Three Prayers. PROPOSTA (Remix). Procura os dois grupos, PCs e rivais. Em vez de \"a memória da Calamidade vive em Bazzoxan\", dá uma ação: \"Estive em Bazzoxan uma vez e vi esta mesma Jóia desenhada nas paredes do Betrayers' Rise. Talvez lá encontrem respostas.\"",
     "reveals": [
       "r-jewel-three-prayers",
       "r-go-to-bazzoxan",
@@ -476,7 +476,7 @@
   },
   {
     "id": "b-3-rise-entrance",
-    "summary": "Ponte ensanguentada sobre a misty chasm; vozes prometem quebrá-los juntos e não os deixar cair. A porta dupla com o símbolo arranhado de Avandra brilha a 20 pés da Jóia e abre ao seu toque. PROPOSTA (Remix). Há ruidium à volta desta entrada e dentro da micro-masmorra: é o que os três investigadores vieram estudar, e o que os PCs podem trocar com eles se já o identificaram na gruta.",
+    "summary": "Ponte ensanguentada sobre a misty chasm; vozes prometem quebrá-los juntos e não os deixar cair. A porta dupla com o símbolo arranhado de Avandra brilha a 20 pés da Jóia e abre ao seu toque. PROPOSTA (Remix). Há rubídio à volta desta entrada e dentro da micro-masmorra: é o que os três investigadores vieram estudar, e o que os PCs podem trocar com eles se já o identificaram na gruta.",
     "reveals": [
       "r-cyst-of-avandra",
       "r-jewel-properties",
@@ -485,7 +485,7 @@
   },
   {
     "id": "b-3-hall-of-holes",
-    "summary": "Baixos-relevos (DC 15 History) mostram a batalha da Calamity nos Barbed Fields, com Alyxian ladeado por Sehanine e Avandra. Três gibbering mouthers escorrem dos buracos da parede. PROPOSTA (Remix). Ao lado de Alyxian, uma figura alada: Perigee, a deva de Sehanine que combateu com ele (pré-estabelecida para a cena de N24).",
+    "summary": "Baixos-relevos (DC 15 History) mostram a batalha da Calamidade nos Barbed Fields, com Alyxian ladeado por Sehanine e Avandra. Três gibbering mouthers escorrem dos buracos da parede. PROPOSTA (Remix). Ao lado de Alyxian, uma figura alada: Perigee, a deva de Sehanine que combateu com ele (pré-estabelecida para a cena de N24).",
     "reveals": [
       "r-alyxian-three-prayers",
       "r-shrines",
@@ -495,7 +495,7 @@
   },
   {
     "id": "b-3-jewel-confrontation",
-    "summary": "A visão desvanece. DM: Quem surge para roubar a Jóia é um agente Volstrucker (Cerberus Assembly) em conluio com Aloysia; os rivais não vêm por guião, estão onde a sua atitude e os seus modos de acção os puseram. Aloysia pede a Jóia \"para que ninguém derrame mais sangue\"; o agente é a ameaça real.",
+    "summary": "A visão desvanece. DM: Quem surge para roubar a Jóia é um agente Volstrucker (Assembleia de Cerberus) em conluio com Aloysia; os rivais não vêm por guião, estão onde a sua atitude e os seus modos de ação os puseram. Aloysia pede a Jóia \"para que ninguém derrame mais sangue\"; o agente é a ameaça real.",
     "participants": [
       "c-aloysia-telfan",
       "c-volstrucker-agent",
@@ -529,7 +529,7 @@
   },
   {
     "id": "b-3-aloysia-next-move",
-    "summary": "Com a Jóia, Aloysia teleporta-se para Ank'Harel e convida os rivais. Sem ela, desata a ranger, lê o scroll of earthquake (DC 13 Dex, 5d6), deixa cair duas tablets de teleporte, sela a saída com um pedregulho e foge com a terceira. DM: O agente Volstrucker, se sobreviver, foge com ela ou fica para trás como prisioneiro: uma fonte sobre o interesse do Império e da Cerberus Assembly na Jóia."
+    "summary": "Com a Jóia, Aloysia teleporta-se para Ank'Harel e convida os rivais. Sem ela, desata a ranger, lê o scroll of earthquake (DC 13 Dex, 5d6), deixa cair duas tablets de teleporte, sela a saída com um pedregulho e foge com a terceira. DM: O agente Volstrucker, se sobreviver, foge com ela ou fica para trás como prisioneiro: uma fonte sobre o interesse do Império e da Assembleia de Cerberus na Jóia."
   },
   {
     "id": "b-3-torog-threshold",
@@ -553,7 +553,7 @@
   },
   {
     "id": "b-4-choose-faction",
-    "notes": "PROPOSTA (Remix). Ver b-4-faction-competition: as facções e agendas devem estar claras antes de Ank'Harel; dar uma \"cara\" à terceira facção (o investigador de Bazzoxan correspondente); os rivais juntam-se à facção oposta."
+    "notes": "PROPOSTA (Remix). Ver b-4-faction-competition: as fações e agendas devem estar claras antes de Ank'Harel; dar uma \"cara\" à terceira fação (o investigador de Bazzoxan correspondente); os rivais juntam-se à fação oposta."
   },
   {
     "id": "b-5-descent",

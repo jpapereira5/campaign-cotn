@@ -9,25 +9,25 @@ Textos para entregar aos jogadores. Nomes em português segundo [`docs/glossario
 Diário de um agente Volstrucker da Assembleia de Cerberus (encontrado em Bazzoxan; a entrada 6 é a mais recente). Cada entrada está assinada com o nome do arcanista que a ordenou.
 
 **Entrada 1 — Iniciação Volstrucker (Ikithon)**
-A integração no programa Volstrucker ocorreu em Rexxentrum após aprovação pelas instâncias superiores da Assembleia. O agente foi submetido a formação completa em interrogatório, infiltração, vigilância e extracção, culminando na aplicação bem-sucedida da marca de obediência. A avaliação inicial registou compatibilidade total com os protocolos operacionais e capacidade adequada de dissociação emocional. O estatuto activo foi confirmado e o agente considerado apto para destacamento imediato.
+A integração no programa Volstrucker ocorreu em Rexxentrum após aprovação pelas instâncias superiores da Assembleia. O agente foi submetido a formação completa em interrogatório, infiltração, vigilância e extração, culminando na aplicação bem-sucedida da marca de obediência. A avaliação inicial registou compatibilidade total com os protocolos operacionais e capacidade adequada de dissociação emocional. O estatuto ativo foi confirmado e o agente considerado apto para destacamento imediato.
 
 **Entrada 2 — Operação "Véu de Cinza" (Hass)**
-Foi conduzida uma operação de avaliação na aldeia do Vale Mole, nas Montanhas da Rocha-Parda, com o objectivo de aferir a estabilidade local e assegurar condições para exploração futura sem atrair atenção externa.
+Foi conduzida uma operação de avaliação na aldeia do Vale Mole, nas Montanhas da Rocha-Parda, com o objetivo de aferir a estabilidade local e assegurar condições para exploração futura sem atrair atenção externa.
 À chegada, confirmaram-se veios de pedra-bruma sob jurisdição de liderança civil autónoma. O líder da aldeia detinha conhecimento detalhado da localização e natureza desses veios, mas recusava autorizar a sua exploração, alegando que tal colocaria a aldeia sob escrutínio externo e em risco directo. A resistência prolongada levou à reorientação temporária das operações para áreas florestais adjacentes.
-Após contacto directo, foi comunicada de forma inequívoca a consequência da obstrução continuada, incluindo retaliação directa sobre o núcleo familiar. Pressionado, o líder da aldeia aceitou entregar-se voluntariamente com o objectivo de preservar a família e impedir perseguição a descendentes fora da região. A remoção foi executada de forma discreta, sem mobilização militar visível, e o desaparecimento foi registado oficialmente como resultado de um desabamento natural associado à instabilidade geológica local. Os registos civis e administrativos foram ajustados em conformidade.
+Após contacto directo, foi comunicada de forma inequívoca a consequência da obstrução continuada, incluindo retaliação directa sobre o núcleo familiar. Pressionado, o líder da aldeia aceitou entregar-se voluntariamente com o objetivo de preservar a família e impedir perseguição a descendentes fora da região. A remoção foi executada de forma discreta, sem mobilização militar visível, e o desaparecimento foi registado oficialmente como resultado de um desabamento natural associado à instabilidade geológica local. Os registos civis e administrativos foram ajustados em conformidade.
 A esposa e uma filha abandonaram a região antes de qualquer intercepção adicional, encontrando-se outro descendente já fora da área de influência no momento da operação. A liderança subsequente demonstrou postura cooperativa e avessa a riscos, permitindo classificar a zona como estável no curto e médio prazo.
 
 **Entrada 3 — Forte Ventura (Ikithon)**
-Destacamento para o Forte Ventura com o objectivo de apoiar a instalação de um posto experimental de contenção e pesquisa arcana. O agente prestou assessoria táctica à implementação de protocolos de isolamento, apoiou a captura e transferência de sujeitos de interesse planar e supervisionou a instalação de material sensível.
+Destacamento para o Forte Ventura com o objetivo de apoiar a instalação de um posto experimental de contenção e pesquisa arcana. O agente prestou assessoria táctica à implementação de protocolos de isolamento, apoiou a captura e transferência de sujeitos de interesse planar e supervisionou a instalação de material sensível.
 Foi registado zelo ideológico elevado por parte do inquisidor destacado para a guarnição, considerado potencialmente contraproducente a médio prazo, tendo sido recomendada vigilância interna não declarada. As instalações foram declaradas operacionais, com nível de segurança considerado satisfatório.
 
 **Entrada 4 — Contrabando de Rubídio (Da'leth)**
-Na Guarnição da Cinza, foram identificados indícios de contrabando de rubídio. Através de inspecções alargadas e interrogatórios direccionados, confirmaram-se rotas associadas à Myriad e material classificado como rubídio, de origem extra-imperial, apresentando indícios de elevado potencial arcano. Foi solicitada autorização formal para rastreio prolongado, sem limitação territorial.
+Na Guarnição da Cinza, foram identificados indícios de contrabando de rubídio. Através de inspecções alargadas e interrogatórios direcionados, confirmaram-se rotas associadas à Miríade e material classificado como rubídio, de origem extra-imperial, apresentando indícios de elevado potencial arcano. Foi solicitada autorização formal para rastreio prolongado, sem limitação territorial.
 
 **Entrada 6 — Operação "Rede Rubra" (Da'leth)**
-Já em Bazzoxan, teve início a operação "Rede Rubra", destinada a monitorizar a extracção e o tráfico de rubídio, avaliar a contenção da Dinastia e garantir a transferência de activos estratégicos para a Cerberus Assembly, com projecção para Marquet.
-Durante a operação, procedeu-se à substituição do soldado drow Zynthar e à modificação de memória de aliados próximos, garantindo continuidade operacional. Foram assegurados acessos a rotas internas, obtidas amostras de rubídio Classe III em zonas restritas e coordenada recolha local com um contacto da Myriad, "Tingus". Intervenções discretas nos Túneis da Ascensão permitiram redireccionar recursos e desviar atenções.
-Registou-se presença crescente de múltiplas facções, nomeadamente Miríade, Alma de Cobalto, Consórcio do Sonho Vermelho, Culto das Escamas e Aliança do Saber, elevando significativamente o risco operacional.
+Já em Bazzoxan, teve início a operação "Rede Rubra", destinada a monitorizar a extração e o tráfico de rubídio, avaliar a contenção da Dinastia e garantir a transferência de ativos estratégicos para a Assembleia de Cerberus, com projecção para Marquet.
+Durante a operação, procedeu-se à substituição do soldado drow Zynthar e à modificação de memória de aliados próximos, garantindo continuidade operacional. Foram assegurados acessos a rotas internas, obtidas amostras de rubídio Classe III em zonas restritas e coordenada recolha local com um contacto da Miríade, "Tingus". Intervenções discretas nos Túneis da Ascensão permitiram redireccionar recursos e desviar atenções.
+Registou-se presença crescente de múltiplas fações, nomeadamente Miríade, Alma de Cobalto, Consórcio do Sonho Vermelho, Culto das Escamas e Aliança do Saber, elevando significativamente o risco operacional.
 Recomenda-se vigilância passiva sobre rumores associados à Ascensão, priorização do reencontro com Da'leth em Ank'Harel e continuação da investigação sobre a verdadeira origem do rubídio.
 
 *(Nota DM: a entrada 5, "Carregamento Perdido", e as frases da entrada 6 sobre o intermediário desaparecido e sobre o grupo antigo pertenciam a arcos de PCs da campanha anterior e não transitam. Na entrada 2 o nome do líder foi substituído por "o líder da aldeia"; a frase sobre "outro descendente" também vinha desse arco — o DM decide se fica.)*
@@ -78,7 +78,7 @@ Durante o descanso, um sussurro de encorajamento a quem sonhou com Alyxian: "Ain
 (Wisdom (Insight) DC 13: a parede quer devorar quem tenha aceite que vai morrer e não lute contra esse destino.) Na borda da mesa, marcas serrilhadas em Abyssal: **"Valoriza o esquecimento."** (Perception passiva 13.)
 
 **R8 — mantra do livro (Capela das Aranhas; 10 min a vasculhar a câmara pequena):**
-> "Primeiro, louvor à Rainha Aranha, cujo reino foi abandonado. Depois, exulta o Destruidor, cuja lança fez tremer a terra verde. Em seguida, presta homenagem ao esquecimento e ao fim de todas as coisas. E por fim, entrego-me ao Rei Rastejante."
+> "Primeiro, louvor à Rainha das Teias, cujo reino foi abandonado. Depois, exulta o Destruidor, cuja lança fez tremer a terra verde. Em seguida, presta homenagem ao esquecimento e ao fim de todas as coisas. E por fim, entrego-me ao Rei Rastejante."
 Intelligence DC 15: é um código — a sequência de sigilos a tocar para abrir o vitral em R9 (Lolth → Gruumsh → Tharizdun → Torog).
 
 ## Diário de Comando do Intendente Verin Thelyss
@@ -90,11 +90,11 @@ Registo dos forasteiros em Bazzoxan (para ler ou entregar quando os PCs ganharem
 - **"Questão"** — agente da Alma de Cobalto. Auxilia na vigilância de Aloysia. Demonstra interesse genuíno nas ruínas, motivada pelos sinais de rubídio. Acredita poder localizar a origem ou fenda planar relacionada ao Abismo.
 - **Prolix Yusaf** — académico de Ank'Harel, membro da Aliança do Saber. Declara representar interesses universitários neutros. Hospedado na Estalagem do Soldado Caído. Demonstra genuína curiosidade pelas ruínas e pode ajudar os arcanistas a compreender o rubídio.
 - **Alone Fritz** — estudioso de Decrépola. Requisitou acesso ao laboratório para catalogar fenómenos rúnicos. Credenciais válidas, comportamento obsessivo e reservado.
-- **Mercadores de Urzin** — registados como comerciantes independentes, oferecendo transporte e mantimentos; comportamento reservado e discreto. (Na verdade, a Míriade.)
+- **Mercadores de Urzin** — registados como comerciantes independentes, oferecendo transporte e mantimentos; comportamento reservado e discreto. (Na verdade, a Miríade.)
 
 ## Mensagem do Sorriso Dourado
 
-Sending recebido por um agente do Sorriso Dourado em Bazzoxan (sotaque de leste): *"Que boa surpresa. A Lira arde em Bazzoxan, para iluminar a sombra da Miríade. O Rubídio sonha. Mantém-te firme, pedra que ri."* A "Lira" é a Maré de Fogo (Nara Sol e Talan Velyar), do Sorriso Dourado, a investigar a Míriade.
+Sending recebido por um agente do Sorriso Dourado em Bazzoxan (sotaque de leste): *"Que boa surpresa. A Lira arde em Bazzoxan, para iluminar a sombra da Miríade. O Rubídio sonha. Mantém-te firme, pedra que ri."* A "Lira" é a Maré de Fogo (Nara Sol e Talan Velyar), do Sorriso Dourado, a investigar a Miríade.
 
 ## Chegada a Bazzoxan
 
@@ -102,7 +102,7 @@ Grusk "Quebra-Sangue", do alto da muralha: *"Zyn'thar, Darguun, Grumak… Os out
 
 ## Caderno Volstrucker — versão anterior (diferenças)
 
-Versão anterior à "versão final" já em handouts.md; o que acrescenta (no patch de `f-cerberus-assembly`): datas (834, 836, 837, 841, 842, 843 P.D.); Entrada 2 reporta a **Oremid Hass**; Entrada 3 sob o comando do **Inquisidor Perestrelo**, supervisão geral de **Elaina Lehmen**; Entrada 4 autorização de **Lletys do Brilho (Brighthall)**; Entrada 6 "canal Brighthall", "Envio R-III / Canal do Brilho", **"considerar eliminação de Verin Thelyss"**, reencontro com **Oremid Hass em Marquet**, lista de facções inclui "Culto do Dragão" e "". Excluído por decisão do DM: Entrada 5 (Jigau, 842), o intermediário "Jack Sparrow" e o nome "Granito Serra-Dura" (Entrada 2). Nota da página: "Preciso de mecânica de magic ink".
+Versão anterior à "versão final" já em handouts.md; o que acrescenta (no patch de `f-cerberus-assembly`): datas (834, 836, 837, 841, 842, 843 P.D.); Entrada 2 reporta a **Oremid Hass**; Entrada 3 sob o comando do **Inquisidor Perestrelo**, supervisão geral de **Elaina Lehmen**; Entrada 4 autorização de **Lletys do Brilho (Brighthall)**; Entrada 6 "canal Brighthall", "Envio R-III / Canal do Brilho", **"considerar eliminação de Verin Thelyss"**, reencontro com **Oremid Hass em Marquet**, lista de fações inclui "Culto do Dragão" e "". Excluído por decisão do DM: Entrada 5 (Jigau, 842), o intermediário "Jack Sparrow" e o nome "Granito Serra-Dura" (Entrada 2). Nota da página: "Preciso de mecânica de magic ink".
 
 ## Balada do "deus a meio caminho" (página de Iliana "Questão")
 

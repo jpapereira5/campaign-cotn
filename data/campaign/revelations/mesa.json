@@ -12,7 +12,7 @@
   },
   {
     "id": "r-fritz-elisabete",
-    "list": "Ruidium",
+    "list": "Rubídio",
     "text": "Alone Fritz já morreu uma vez (\"os deuses, por capricho ou por insulto, apenas me voltaram a acordar\") e procura rubídio e o poder de \"manipular a realidade através da consciência\" para recuperar Elisabete, a filha (ou irmã) que lhe foi roubada num ataque: \"o Pai ainda não desistiu\". Vigost, de Decrépola, falou-lhe da maldição de Ruidus; os cultistas de Torog dizem que Torog está preso entre o Reino Distante e o Subterrâneo Profundo, com presença forte em Bazzoxan.",
     "clues": [
       "b-1-fritz-velnari",
@@ -23,8 +23,8 @@
   },
   {
     "id": "r-velnari-corrupted",
-    "list": "Facções",
-    "text": "O arcanista da Dinastia em Jigau, Velnari Zeth, está corrompido pelo rubídio (nível 2, escondido sob disguise self) e está a armá-lo: laboratório secreto sob o Salão de Pedra com fragmentos num círculo luxoniano, um Espelho de Sussurros e um beacon experimental; compra amostras à Miríade e manda-as a Rosohna; o sobrinho Galsariad segue corrompido para Bazzoxan, ao cuidado de Vorrim.",
+    "list": "Fações",
+    "text": "O arcanista da Dinastia em Jigau, Velnari Zeth, está corrompido pelo rubídio (nível 2, escondido sob disguise self) e está a armá-lo: laboratório secreto sob o Salão de Pedra com fragmentos num círculo luxoniano, um Espelho de Sussurros e um farol experimental; compra amostras à Miríade e manda-as a Rosohna; o sobrinho Galsariad segue corrompido para Bazzoxan, ao cuidado de Vorrim.",
     "clues": [
       "b-1-fritz-velnari",
       "b-1-ushru-vs-velnari",
@@ -36,8 +36,8 @@
   },
   {
     "id": "r-luxon-coverup",
-    "list": "Ruidium",
-    "text": "A Igreja do Luxon (Belana) e a Vigia da Aurora escondem os doentes de rubídio de Jigau — o pescador, Verran, as crianças — no 1.º andar do templo, chamam-lhe \"febre vermelha\", pressionam os soldados a não dar cana e não alertam o povo; os meios justificam os fins. O mesmo encobrimento explica a filha de Korrem nos Desterros.",
+    "list": "Rubídio",
+    "text": "A Igreja do Luxon (Belana) e a Vigília da Aurora escondem os doentes de rubídio de Jigau — o pescador, Verran, as crianças — no 1.º andar do templo, chamam-lhe \"febre vermelha\", pressionam os soldados a não dar cana e não alertam o povo; os meios justificam os fins. O mesmo encobrimento explica a filha de Korrem nos Desterros.",
     "clues": [
       "b-1-ifolon-plunge",
       "b-1-scarlet-fever",

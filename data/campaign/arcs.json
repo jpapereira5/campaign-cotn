@@ -1,7 +1,7 @@
 [
   {
     "id": "a-ruidus-year",
-    "name": "Acto 4: O Ano de Ruidus",
+    "name": "Ato 4: O Ano de Ruidus",
     "kind": "main",
     "color": "#e07a5f",
     "order": 2,
@@ -17,19 +17,19 @@
   },
   {
     "id": "a-myriad",
-    "name": "Myriad: contrabando de ruidium",
+    "name": "Miríade: contrabando de rubídio",
     "kind": "faction",
     "color": "#8e6bb0",
     "order": 11,
-    "summary": "DM: O Myriad monta um canal de contrabando de ruidium Bazzoxan → Jigow → Urzin → Império (ruidium para oeste, só ouro de volta) e vende à Cerberus Assembly ou a quem der mais."
+    "summary": "DM: A Miríade monta um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império (rubídio para oeste, só ouro de volta) e vende à Assembleia de Cerberus ou a quem der mais."
   },
   {
     "id": "a-cerberus",
-    "name": "Cerberus Assembly (Volstruckers)",
+    "name": "Assembleia de Cerberus (Volstruckers)",
     "kind": "faction",
     "color": "#7d8597",
     "order": 12,
-    "summary": "DM: A Assembly recebe ruidium pelo Myriad para o esforço de guerra; o seu Volstrucker em Bazzoxan investiga o ruidium de perto e o beacon do Luxon recuperado no Betrayers' Rise."
+    "summary": "DM: A Assembleia recebe rubídio pela Miríade para o esforço de guerra; o seu Volstrucker em Bazzoxan investiga o rubídio de perto e o farol do Luxon recuperado no Betrayers' Rise."
   },
   {
     "id": "a-pc-quasi",

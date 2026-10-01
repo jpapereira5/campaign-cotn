@@ -8,7 +8,7 @@
     "chapters": [
       "ch1"
     ],
-    "summary": "DM: A equipa que, com os rivais, seria finalista do Festival of Merit. Adoece com a febre escarlate na prova da água (tubarões corrompidos por ruidium); a prova é cancelada e os PCs tomam o seu lugar.",
+    "summary": "DM: A equipa que, com os rivais, seria finalista do Festival do Mérito. Adoece com a febre escarlate na prova da água (tubarões corrompidos por rubídio); a prova é cancelada e os PCs tomam o seu lugar.",
     "goal": "Vencer o festival.",
     "secret": "",
     "wants": "",
@@ -35,19 +35,19 @@
       "ch3",
       "ch4"
     ],
-    "summary": "DM: Agente Volstrucker da Cerberus Assembly (Império Dwendaliano), já instalado em Bazzoxan quando os PCs chegam. Investiga o ruidium de perto (compra amostras pelo contacto do Myriad, sonda Bautha sobre a corrupção, vigia a entrada do Rise) e o rumor do beacon do Luxon recuperado no Rise. Em conluio com Aloysia Telfan, é quem tenta roubar a Jóia.",
-    "goal": "Levar ruidium e o beacon para a Assembly (esforço de guerra); a Jóia, se estiver ao alcance.",
-    "secret": "É a agente da Assembly na ponta de Bazzoxan do canal do Myriad: paga o que sai do Rise. O conluio com Aloysia é oportunismo: o Consortium e a Assembly querem a Jóia por razões diferentes.",
-    "wants": "Ruidium; o beacon; a Jóia; discrição.",
-    "fears": "Ser reconhecida em território Kryn; que o Myriad venda ao Consortium ou à Kryn.",
+    "summary": "DM: Agente Volstrucker da Assembleia de Cerberus (Império Dwendaliano), já instalado em Bazzoxan quando os PCs chegam. Investiga o rubídio de perto (compra amostras pelo contacto da Miríade, sonda Bautha sobre a corrupção, vigia a entrada do Rise) e o rumor do farol do Luxon recuperado no Rise. Em conluio com Aloysia Telfan, é quem tenta roubar a Jóia.",
+    "goal": "Levar rubídio e o farol para a Assembleia (esforço de guerra); a Jóia, se estiver ao alcance.",
+    "secret": "É a agente da Assembleia na ponta de Bazzoxan do canal da Miríade: paga o que sai do Rise. O conluio com Aloysia é oportunismo: o Consortium e a Assembleia querem a Jóia por razões diferentes.",
+    "wants": "Rubídio; o farol; a Jóia; discrição.",
+    "fears": "Ser reconhecida em território Kryn; que a Miríade venda ao Consortium ou à Kryn.",
     "states": [
       {
         "fromBeat": "b-3-volstrucker-investigation",
-        "state": "DM: em Bazzoxan a investigar o ruidium e o rumor do beacon"
+        "state": "DM: em Bazzoxan a investigar o rubídio e o rumor do farol"
       },
       {
         "fromBeat": "b-3-beacon-in-barracks",
-        "state": "DM: sabe que o beacon está no quartel; prepara o golpe"
+        "state": "DM: sabe que o farol está no quartel; prepara o golpe"
       },
       {
         "fromBeat": "b-3-jewel-confrontation",
@@ -55,7 +55,7 @@
       },
       {
         "fromBeat": "b-3-beacon-heist",
-        "state": "DM: golpe ao beacon: capturado, ou foge para oeste com o Myriad"
+        "state": "DM: golpe ao farol: capturado, ou foge para oeste com a Miríade"
       }
     ],
     "tags": [
@@ -73,7 +73,7 @@
     "states": [
       {
         "fromBeat": "b-2-ruins-outside-bazzoxan",
-        "state": "DM: primeiro encontro: com a patrulha da Aurora Watch nas Ruins of Sorrow; observa quem recebe a visão; leva uma lasca de ruidium do centro; fica fixada na Jóia desde já se os PCs lhe contarem"
+        "state": "DM: primeiro encontro: com a patrulha da Vigília da Aurora nas Ruins of Sorrow; observa quem recebe a visão; leva uma lasca de rubídio do centro; fica fixada na Jóia desde já se os PCs lhe contarem"
       },
       {
         "fromBeat": "b-3-aloysia-offer",
@@ -113,7 +113,7 @@
       },
       {
         "fromBeat": "b-2-vision-perigee-death",
-        "state": "PROPOSTA (Reddit). a visão mostra a sua morte e a bênção da Change Bringer que se lhe seguiu"
+        "state": "PROPOSTA (Reddit). a visão mostra a sua morte e a bênção da Senhora da Mudança que se lhe seguiu"
       },
       {
         "fromBeat": "b-3-hall-of-holes",
@@ -121,13 +121,13 @@
       },
       {
         "fromBeat": "b-6-n1-arrival",
-        "state": "corrompida pelo ruidium, atolada no desespero em N24"
+        "state": "corrompida pelo rubídio, atolada no desespero em N24"
       },
       {
         "fromBeat": "b-6-n24-perigee-deception",
         "state": "libertada, volta para Sehanine; pode ser enviada como aliada no epílogo"
       }
     ],
-    "summary": "Deva ao serviço de Sehanine the Moon Weaver que combateu ao lado de Alyxian na sua última batalha. Foi destruída, reformou-se junto da deusa e passou séculos à procura dele até dar com o Netherdeep, onde afundou no desespero e foi corrompida pelo ruidium. Espera os PCs em N24. PROPOSTA (Reddit, fan-made): veio quando Alyxian chamou a Moon Weaver, depois de os companheiros dele morrerem em Ghor Dranas; morreu fora de Bazzoxan, nas Ruins of Sorrow, a matar o general dos Betrayers, e a bênção da Change Bringer seguiu-se."
+    "summary": "Deva ao serviço de Sehanine the Tecelã da Lua que combateu ao lado de Alyxian na sua última batalha. Foi destruída, reformou-se junto da deusa e passou séculos à procura dele até dar com o Netherdeep, onde afundou no desespero e foi corrompida pelo rubídio. Espera os PCs em N24. PROPOSTA (Reddit, fan-made): veio quando Alyxian chamou a Tecelã da Lua, depois de os companheiros dele morrerem em Ghor Dranas; morreu fora de Bazzoxan, nas Ruins of Sorrow, a matar o general dos Betrayers, e a bênção da Senhora da Mudança seguiu-se."
   }
 ]

@@ -3,7 +3,7 @@
     "from": "f-myriad",
     "to": "f-cerberus-assembly",
     "type": "ally",
-    "label": "DM: cliente principal do canal de ruidium; o Myriad vende a quem der mais",
+    "label": "DM: cliente principal do canal de rubídio; a Miríade vende a quem der mais",
     "source": "dm"
   },
   {
@@ -24,7 +24,7 @@
     "from": "c-volstrucker-agent",
     "to": "f-aurora-watch",
     "type": "wantsFrom",
-    "label": "DM: o beacon guardado no quartel",
+    "label": "DM: o farol guardado no quartel",
     "fromBeat": "b-3-beacon-in-barracks",
     "source": "dm"
   },
@@ -32,7 +32,7 @@
     "from": "c-volstrucker-agent",
     "to": "c-verin-thelyss",
     "type": "spiesOn",
-    "label": "DM: vigia o quartel e a escolta do beacon",
+    "label": "DM: vigia o quartel e a escolta do farol",
     "fromBeat": "b-3-volstrucker-investigation",
     "source": "dm"
   },
@@ -47,7 +47,7 @@
     "from": "c-myriad-jigow-fence",
     "to": "f-myriad",
     "type": "memberOf",
-    "label": "receptador em Jigow",
+    "label": "recetador em Jigau",
     "source": "dm"
   },
   {
@@ -68,21 +68,21 @@
     "from": "c-nevoa-vendor",
     "to": "c-myriad-traveller",
     "type": "knows",
-    "label": "DM: sabe onde o encontrar; não é do Myriad",
+    "label": "DM: sabe onde o encontrar; não é da Miríade",
     "source": "dm"
   },
   {
     "from": "c-myriad-bazzoxan-contact",
     "to": "c-volstrucker-agent",
     "type": "knows",
-    "label": "DM: vende-lhe ruidium; sabe que ele paga mais do que a Assembly manda",
+    "label": "DM: vende-lhe rubídio; sabe que ele paga mais do que a Assembleia manda",
     "source": "dm"
   },
   {
     "from": "c-kalym-telaarin",
     "to": "c-verin-thelyss",
     "type": "wantsFrom",
-    "label": "PROPOSTA: quer ver o beacon do Luxon",
+    "label": "PROPOSTA: quer ver o farol do Luxon",
     "fromBeat": "b-3-beacon-rumour",
     "source": "dm"
   }

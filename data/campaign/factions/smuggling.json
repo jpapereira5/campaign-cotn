@@ -1,10 +1,10 @@
 [
   {
     "id": "f-myriad",
-    "name": "The Myriad",
+    "name": "Miríade",
     "motto": "",
-    "agenda": "DM: Sindicato criminoso de Wildemount (EGtW: Port Damali, Menagerie Coast). Está a montar um canal de contrabando de ruidium Bazzoxan → Jigow → Urzin → Império: ruidium para oeste, só ouro de volta (o canal da Assembleia). DM (2026-10-01): há um ramal para sul, do norte de Jorhas por Asarius até Decrépola (Rotthold), para o mercado negro e para a célula secreta da Assembleia; lá o receptador é o Ossório Lume. O primeiro lote, antes do canal, chegou a Decrépola por mar, de Marquet. Cliente principal: a Cerberus Assembly; mas vende a quem der mais.",
-    "publicFace": "DM: Sem caras: viajantes, mercadores e correios. Em Urzin a porta é a Névoa do Brejo (loja de ervas); em Jigow um receptador; em Bazzoxan um contacto no Ready Room. A liderança de Urzin fica de fora.",
+    "agenda": "DM: Sindicato criminoso de Monte Selvagem (EGtW: Port Damali, Costa das Maravilhas). Está a montar um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império: rubídio para oeste, só ouro de volta (o canal da Assembleia). DM (2026-10-01): há um ramal para sul, do norte de Jorhas por Asarius até Decrépola (Rotthold), para o mercado negro e para a célula secreta da Assembleia; lá o recetador é o Ossório Lume. O primeiro lote, antes do canal, chegou a Decrépola por mar, de Marquet. Cliente principal: a Assembleia de Cerberus; mas vende a quem der mais.",
+    "publicFace": "DM: Sem caras: viajantes, mercadores e correios. Em Urzin a porta é a Névoa do Brejo (loja de ervas); em Jigau um recetador; em Bazzoxan um contacto no Ready Room. A liderança de Urzin fica de fora.",
     "leaders": [],
     "allies": [
       "f-cerberus-assembly"
@@ -16,27 +16,27 @@
     "portents": [
       {
         "chapter": "ch0",
-        "text": "DM: O viajante deixa Urzin com a rota acertada e segue para Jigow; a Névoa do Brejo fica como ponto de contacto."
+        "text": "DM: O viajante deixa Urzin com a rota acertada e segue para Jigau; a Névoa do Brejo fica como ponto de contacto."
       },
       {
         "chapter": "ch1",
-        "text": "DM: O receptador de Jigow compra as pedras vermelhas que dão à costa no Gulch; primeira remessa para oeste."
+        "text": "DM: O recetador de Jigau compra as pedras vermelhas que dão à costa no Gulch; primeira remessa para oeste."
       },
       {
         "chapter": "ch2",
-        "text": "DM: Correios na estrada; a Aurora Watch prende um deles (os \"ladrões acorrentados\" do portento Kryn) e o Myriad muda o percurso."
+        "text": "DM: Correios na estrada; a Vigília da Aurora prende um deles (os \"ladrões acorrentados\" do portento Kryn) e a Miríade muda o percurso."
       },
       {
         "chapter": "ch3",
-        "text": "DM: O contacto de Bazzoxan compra o que sai do Rise; caixas semanais para oeste. Se o Volstrucker roubar o beacon, vai nas mesmas caixas."
+        "text": "DM: O contacto de Bazzoxan compra o que sai do Rise; caixas semanais para oeste. Se o Volstrucker roubar o farol, vai nas mesmas caixas."
       },
       {
         "chapter": "ch4",
-        "text": "DM: O canal fica permanente. PROPOSTA: o Consortium (sem fundos, mas a querer o monopólio do ruidium) tenta comprar a produção; o Myriad leiloa entre a Assembly e o Consortium."
+        "text": "DM: O canal fica permanente. PROPOSTA: o Consortium (sem fundos, mas a querer o monopólio do rubídio) tenta comprar a produção; a Miríade leiloa entre a Assembleia e o Consortium."
       },
       {
         "chapter": "ch5",
-        "text": "PROPOSTA: Ruidium a chegar ao Império em quantidade; efeitos (armas, corrupção nas mãos erradas) a definir pelo DM."
+        "text": "PROPOSTA: Rubídio a chegar ao Império em quantidade; efeitos (armas, corrupção nas mãos erradas) a definir pelo DM."
       }
     ],
     "source": "dm"

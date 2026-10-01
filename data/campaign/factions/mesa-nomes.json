@@ -1,7 +1,7 @@
 [
   {
     "id": "f-aurora-watch",
-    "name": "Vigia da Aurora"
+    "name": "Vigília da Aurora"
   },
   {
     "id": "f-luxon",
@@ -13,11 +13,11 @@
   },
   {
     "id": "f-myriad",
-    "name": "Míriade (The Myriad)"
+    "name": "Miríade"
   },
   {
     "id": "f-cobalt-soul",
-    "name": "Alma Cobalto (Library of the Cobalt Soul)"
+    "name": "Biblioteca da Alma de Cobalto"
   },
   {
     "id": "f-allegiance",
@@ -38,5 +38,13 @@
   {
     "id": "f-rivals",
     "name": "Os Bons Demais (a companhia da Ayo)"
+  },
+  {
+    "id": "f-prime-deities",
+    "name": "Divindades Primárias"
+  },
+  {
+    "id": "f-betrayer-gods",
+    "name": "Deuses Traidores"
   }
 ]

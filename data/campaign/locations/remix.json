@@ -1,7 +1,7 @@
 [
   {
     "id": "l-betrayers-rise",
-    "summary": "Fortaleza-guardiã da citadela dos Betrayer Gods (Ghor Dranas, hoje Rosohna), tomada pelos campeões dos Prime Deities. Escadaria íngreme; portão de ónix com cobre e prata (Str combinada 44; DC 15 social para chegar a 30 pés). Shifting Halls: o interior é diferente para cada grupo. Retreat and Reinforcements: após 8 horas fora, d6 por área explorada, 6 = repovoada. PROPOSTA (Remix). Expandido: um complexo vasto com muitas entradas e muitas masmorras, umas pequenas, outras enormes; a entrada certa tem a Jóia desenhada; o mandamento de Torog em R12 resolve R13."
+    "summary": "Fortaleza-guardiã da citadela dos Deuses Traidores (Ghor Dranas, hoje Rosohna), tomada pelos campeões dos Divindades Primárias. Escadaria íngreme; portão de ónix com cobre e prata (Str combinada 44; DC 15 social para chegar a 30 pés). Shifting Halls: o interior é diferente para cada grupo. Retreat and Reinforcements: após 8 horas fora, d6 por área explorada, 6 = repovoada. PROPOSTA (Remix). Expandido: um complexo vasto com muitas entradas e muitas masmorras, umas pequenas, outras enormes; a entrada certa tem a Jóia desenhada; o mandamento de Torog em R12 resolve R13."
   },
   {
     "id": "l-rise-r12-threshold",
@@ -14,13 +14,13 @@
   },
   {
     "id": "l-cael-morrow",
-    "summary": "Caverna inundada 500 pés abaixo de Ank'Harel; a água sai do rift e sobe até ao oásis. As wards da Allegiance são barreiras de força azul sustidas por keystones (AC 17, 50 hp); partir uma inunda a área. Fora das wards, tabela de encontros e Poisoned Emotions. PROPOSTA (Remix). Pointcrawl: pontos com cúpula de ar ligados por caminhos keyway / flared / sunken (intervalo 1-2 h); controlo territorial por facção; o rift longe do base camp."
+    "summary": "Caverna inundada 500 pés abaixo de Ank'Harel; a água sai do rift e sobe até ao oásis. As wards da Allegiance são barreiras de força azul sustidas por keystones (AC 17, 50 hp); partir uma inunda a área. Fora das wards, tabela de encontros e Poisoned Emotions. PROPOSTA (Remix). Pointcrawl: pontos com cúpula de ar ligados por caminhos keyway / flared / sunken (intervalo 1-2 h); controlo territorial por fação; o rift longe do base camp."
   },
   {
     "id": "l-ruins-of-sorrow",
     "name": "Ruins of Sorrow",
     "parent": "l-barbed-fields",
     "chapter": "ch2",
-    "summary": "PROPOSTA (Reddit, fan-made). Ruínas cristalinas de três lados, a um dia de Bazzoxan, com elevações de 10 e 15 ft e uma árvore morta. No centro, onde Perigee caiu a matar o general dos Betrayers, a barreira para o Abismo está fina: depois de Ruidus cheia sai névoa e saem demónios. DM: situadas nos Barbed Fields, o campo da batalha final retratada em R2. DM: no cristal do centro há um filamento carmesim de ruidium."
+    "summary": "PROPOSTA (Reddit, fan-made). Ruínas cristalinas de três lados, a um dia de Bazzoxan, com elevações de 10 e 15 ft e uma árvore morta. No centro, onde Perigee caiu a matar o general dos Betrayers, a barreira para o Abismo está fina: depois de Ruidus cheia sai névoa e saem demónios. DM: situadas nos Barbed Fields, o campo da batalha final retratada em R2. DM: no cristal do centro há um filamento carmesim de rubídio."
   }
 ]

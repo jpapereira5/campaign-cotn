@@ -7,15 +7,15 @@
     "chapters": [
       "ch0"
     ],
-    "summary": "DM: Dono da Névoa do Brejo, a loja de ervas alucinogénias de Urzin (já existe na mesa). Não é do Myriad: sabe pôr quem pergunta em contacto com o viajante que compra pedras vermelhas.",
+    "summary": "DM: Dono da Névoa do Brejo, a loja de ervas alucinogénias de Urzin (já existe na mesa). Não é da Miríade: sabe pôr quem pergunta em contacto com o viajante que compra pedras vermelhas.",
     "goal": "Vender ervas e manter-se fora de sarilhos.",
     "secret": "Sabe onde o viajante dorme e o que ele compra.",
     "wants": "Clientes; que ninguém lhe feche a loja.",
-    "fears": "Buhfal; a Aurora Watch.",
+    "fears": "Buhfal; a Vigília da Aurora.",
     "states": [
       {
         "fromBeat": "b-0-nevoa-do-brejo",
-        "state": "DM: intermediário para chegar ao viajante do Myriad"
+        "state": "DM: intermediário para chegar ao viajante da Miríade"
       }
     ],
     "tags": [
@@ -26,7 +26,7 @@
   },
   {
     "id": "c-myriad-traveller",
-    "name": "Viajante do Myriad em Urzin (nome a definir)",
+    "name": "Viajante da Miríade em Urzin (nome a definir)",
     "kind": "npc",
     "factions": [
       "f-myriad"
@@ -34,11 +34,11 @@
     "chapters": [
       "ch0"
     ],
-    "summary": "DM: Viajante de passagem por Urzin, na verdade o batedor do Myriad a acertar a rota do canal (Urzin é a paragem entre o Império e Jigow). A liderança de Urzin não sabe.",
-    "goal": "Acertar a rota e os pontos de entrega; seguir para Jigow.",
+    "summary": "DM: Viajante de passagem por Urzin, na verdade o batedor da Miríade a acertar a rota do canal (Urzin é a paragem entre o Império e Jigau). A liderança de Urzin não sabe.",
+    "goal": "Acertar a rota e os pontos de entrega; seguir para Jigau.",
     "secret": "Compra pedras vermelhas e paga passagem para oeste.",
     "wants": "Discrição; guias que não façam perguntas.",
-    "fears": "Buhfal descobrir; a Aurora Watch.",
+    "fears": "Buhfal descobrir; a Vigília da Aurora.",
     "states": [
       {
         "fromBeat": "b-0-nevoa-do-brejo",
@@ -46,7 +46,7 @@
       },
       {
         "fromBeat": "b-0-return-to-urzin",
-        "state": "DM: partiu para Jigow"
+        "state": "DM: partiu para Jigau"
       }
     ],
     "tags": [
@@ -57,7 +57,7 @@
   },
   {
     "id": "c-myriad-jigow-fence",
-    "name": "Receptador do Myriad em Jigow (nome a definir)",
+    "name": "Recetador da Miríade em Jigau (nome a definir)",
     "kind": "npc",
     "factions": [
       "f-myriad"
@@ -65,11 +65,11 @@
     "chapters": [
       "ch1"
     ],
-    "summary": "DM: Receptador do Myriad em Jigow, a coberto do Festival of Merit. Compra as pedras vermelhas que dão à costa no Emerald Gulch (o vendedor ambulante de b-1-festival-seeds vende-lhe) e prepara a primeira remessa para oeste.",
-    "goal": "Comprar ruidium barato; mandar a primeira remessa.",
+    "summary": "DM: Recetador da Miríade em Jigau, a coberto do Festival do Mérito. Compra as pedras vermelhas que dão à costa no Emerald Gulch (o vendedor ambulante de b-1-festival-seeds vende-lhe) e prepara a primeira remessa para oeste.",
+    "goal": "Comprar rubídio barato; mandar a primeira remessa.",
     "secret": "PROPOSTA: oferece ouro pela amostra da gruta que os PCs tragam.",
     "wants": "Pedras vermelhas; silêncio.",
-    "fears": "Durth Mirimm e a Aurora Watch.",
+    "fears": "Durth Mirimm e a Vigília da Aurora.",
     "states": [
       {
         "fromBeat": "b-1-myriad-jigow",
@@ -84,7 +84,7 @@
   },
   {
     "id": "c-myriad-couriers",
-    "name": "Correios do Myriad na estrada",
+    "name": "Correios da Miríade na estrada",
     "kind": "npc",
     "factions": [
       "f-myriad"
@@ -93,9 +93,9 @@
       "ch2",
       "ch3"
     ],
-    "summary": "DM: Os correios que levam as caixas para oeste pelo Emerald Loop e pelo Hallowed Path. Um deles é preso pela patrulha da Aurora Watch (os \"ladrões acorrentados\" do portento Kryn) com minério vermelho e ouro imperial.",
+    "summary": "DM: Os correios que levam as caixas para oeste pelo Emerald Loop e pelo Hallowed Path. Um deles é preso pela patrulha da Vigília da Aurora (os \"ladrões acorrentados\" do portento Kryn) com minério vermelho e ouro imperial.",
     "goal": "Chegar ao Império com a carga.",
-    "secret": "Trazem a lista da rota: Bazzoxan, Jigow, Urzin, Império.",
+    "secret": "Trazem a lista da rota: Bazzoxan, Jigau, Urzin, Império.",
     "wants": "Passar despercebidos.",
     "fears": "As patrulhas; os demónios da estrada.",
     "states": [
@@ -113,7 +113,7 @@
   },
   {
     "id": "c-myriad-bazzoxan-contact",
-    "name": "Contacto do Myriad em Bazzoxan (nome a definir)",
+    "name": "Contacto da Miríade em Bazzoxan (nome a definir)",
     "kind": "npc",
     "factions": [
       "f-myriad"
@@ -121,15 +121,15 @@
     "chapters": [
       "ch3"
     ],
-    "summary": "DM: Contacto do Myriad instalado no Ready Room. Compra o que sai do Rise (ruidium à volta da entrada) a soldados e aventureiros e passa-o ao Volstrucker ou para as caixas que seguem para oeste.",
+    "summary": "DM: Contacto da Miríade instalado no Ready Room. Compra o que sai do Rise (rubídio à volta da entrada) a soldados e aventureiros e passa-o ao Volstrucker ou para as caixas que seguem para oeste.",
     "goal": "Comprar tudo o que sai do Rise; caixas semanais.",
-    "secret": "Sabe que o Volstrucker paga mais do que a Assembly diz; vende também a quem der mais.",
-    "wants": "Ruidium; ouro.",
+    "secret": "Sabe que o Volstrucker paga mais do que a Assembleia diz; vende também a quem der mais.",
+    "wants": "Rubídio; ouro.",
     "fears": "Verin; Prima Demona reparar em quem lhe paga o quarto.",
     "states": [
       {
         "fromBeat": "b-3-myriad-bazzoxan",
-        "state": "DM: no Ready Room a comprar ruidium"
+        "state": "DM: no Ready Room a comprar rubídio"
       }
     ],
     "tags": [

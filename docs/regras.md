@@ -4,13 +4,13 @@ Regras que não estão no livro. As marcadas **PROPOSTA (Remix)** vêm do *Remix
 
 ## Ruidium Metamagic — PROPOSTA (Remix)
 
-O livro permite usar 1 onça de ruidium como componente material no valor de 500 gp, com um DC 20 Charisma save (falha: 1 nível de exaustão e corrupção). O Remix acrescenta:
+O livro permite usar 1 onça de rubídio como componente material no valor de 500 gp, com um DC 20 Charisma save (falha: 1 nível de exaustão e corrupção). O Remix acrescenta:
 
-- Qualquer conjurador pode gastar ruidium ao lançar um feitiço para reproduzir uma opção de **Metamagic** (como o sorcerer), gastando um número de onças igual aos sorcery points que a opção custaria.
+- Qualquer conjurador pode gastar rubídio ao lançar um feitiço para reproduzir uma opção de **Metamagic** (como o sorcerer), gastando um número de onças igual aos sorcery points que a opção custaria.
 - Por cada onça usada assim, DC 20 Charisma save, com as mesmas consequências.
-- Só uma opção de Metamagic por feitiço via ruidium; um sorcerer pode ainda aplicar uma opção sua diferente.
+- Só uma opção de Metamagic por feitiço via rubídio; um sorcerer pode ainda aplicar uma opção sua diferente.
 
-Intenção: tornar o ruidium uma tentação mecânica real para os PCs.
+Intenção: tornar o rubídio uma tentação mecânica real para os PCs.
 
 ## Rubídio (DM)
 
@@ -33,13 +33,13 @@ O rubídio é um cristal avermelhado com veios pulsantes, nascido da dor do Apot
 
 **Arma** — lâminas ou pontas de rubídio causam +2d6 de dano psíquico. Nat 1 a defender: Charisma save DC 20 contra corrupção.
 
-> **Versão anterior (mesa, sessão 14 — *identify* ao pó):** Constitution DC 10 (2d10 psíquico); nat 1 → Charisma DC 20; falhar ambos = 1 nível de exaustão + 1 nível de corrupção cristalina; com corrupção prévia, ganha um nível de exaustão a mais (ex.: nível 2 de corrupção e falha o Charisma = nível 3 de corrupção + exaustão nível 3). Na sessão 7: "usou rubídio 2× e ficou com 1 nível de corrupção, telepatia e palma vermelha". A tabela acima é a versão final do documento de campanha e é a que se considera actual. *(Uma variante "DC 10, +5 por uso" atribuída a um post do Reddit não aparece no material — por confirmar com o DM.)*
+> **Versão anterior (mesa, sessão 14 — *identify* ao pó):** Constitution DC 10 (2d10 psíquico); nat 1 → Charisma DC 20; falhar ambos = 1 nível de exaustão + 1 nível de corrupção cristalina; com corrupção prévia, ganha um nível de exaustão a mais (ex.: nível 2 de corrupção e falha o Charisma = nível 3 de corrupção + exaustão nível 3). Na sessão 7: "usou rubídio 2× e ficou com 1 nível de corrupção, telepatia e palma vermelha". A tabela acima é a versão final do documento de campanha e é a que se considera atual. *(Uma variante "DC 10, +5 por uso" atribuída a um post do Reddit não aparece no material — por confirmar com o DM.)*
 
 ### Suude Vermelho (rubídio refinado)
 
 Substância ilegal derivada de rubídio, vendida em doses de **5 g (5 po)** ou **10 g (10 po)**. (Na mesa, sessão 14: 10 po por 2 doses; a vendedora só negociava se lhe trouxessem cristais.) O uso deixa os olhos *bloodshot* até ao próximo long rest.
 
-**Dose de 5 g** — os olhos brilham em vermelho por 10 minutos; detecta fragmentos de rubídio num raio de 10 m (30 ft) e provoca visões de estruturas ou acontecimentos da Calamidade no local. Bloqueio de detecção: 30 cm de pedra, 3 cm de metal comum, uma camada de chumbo ou 1 m de madeira/terra. Constitution save DC 10:
+**Dose de 5 g** — os olhos brilham em vermelho por 10 minutos; deteta fragmentos de rubídio num raio de 10 m (30 ft) e provoca visões de estruturas ou acontecimentos da Calamidade no local. Bloqueio de deteção: 30 cm de pedra, 3 cm de metal comum, uma camada de chumbo ou 1 m de madeira/terra. Constitution save DC 10:
 - Sucesso: nada.
 - Falha: 2d10 psíquico + marca na alma.
 - Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
@@ -93,7 +93,7 @@ Ao falhar o save, rola 1d8:
 | d8 | Efeito psicológico subtil |
 |---|---|
 | 1 | Sensação de afundamento e pressão invisível sobre os ombros. |
-| 2 | Objectos familiares parecem anormalmente frios ao toque. Calafrios constantes. |
+| 2 | Objetos familiares parecem anormalmente frios ao toque. Calafrios constantes. |
 | 3 | Vozes conhecidas chamam pelo nome. Sussurros no limiar da audição. |
 | 4 | O ar torna-se denso e difícil de respirar, como se estivesse muito húmido ou abafado. |
 | 5 | Ouves gotas de água a pingar no silêncio. O som desaparece ao tentar focar. |
@@ -109,22 +109,22 @@ Ao falhar o save, rola 1d8:
 
 **Sonho de Tempestade** (primeira noite de quem tocou / carrega o cristal): "O som da fogueira extingue-se, e o mundo à tua volta dissolve-se. Agora estás sozinha num planalto vermelho. À tua frente estão os teus companheiros, imóveis, de costas para ti. Não se mexem. O céu escurece e uma tempestade vermelha aproxima-se, rodopiando como um vórtice. Tentas chamá-los. Gritas. Mas ninguém responde. Os olhos deles brilham, fixos em ti. O vento empurra-te para trás. A terra treme. E depois... acordas." A personagem desperta suada; o cristal está gelado ao toque. Perception DC 20: "por um momento, juras que está maior do que a última vez que o viste." (Se ninguém tocou no cristal nessa noite: Marca na Alma, Charisma DC 5 +5/dia.)
 
-**Sonhos da Calamidade** — o jogador começa a sonhar com cenas da Calamidade: combates, conflitos, cenários diferentes (floresta antiga vs. desterros actuais), mudando consoante o sítio onde estão, sempre com um pano de fundo / céu vermelho.
+**Sonhos da Calamidade** — o jogador começa a sonhar com cenas da Calamidade: combates, conflitos, cenários diferentes (floresta antiga vs. desterros atuais), mudando consoante o sítio onde estão, sempre com um pano de fundo / céu vermelho.
 
 ### Habilidades por nível de corrupção
 
 A cada nível de exaustão os jogadores desbloqueiam ataques ou habilidades específicas de rubídio (inspiração: BG3, Dishonored). **Apenas quem tem conhecimento arcano consegue usá-las.**
 
-**1. Vínculo Mental (Kalashtar Mindlink)** — acção; ligação telepática bidireccional com uma criatura que consigas ver a uma distância máxima de 10 ft × o teu nível de corrupção. Não precisam de partilhar língua, mas ela tem de compreender pelo menos uma. Dura 1 hora mesmo que deixem de se ver ou se afastem; comunicação à vontade; só uma criatura ligada de cada vez (ligar outra termina a anterior); podes terminar com uma acção. *At will.*
+**1. Vínculo Mental (Kalashtar Mindlink)** — ação; ligação telepática bidireccional com uma criatura que consigas ver a uma distância máxima de 10 ft × o teu nível de corrupção. Não precisam de partilhar língua, mas ela tem de compreender pelo menos uma. Dura 1 hora mesmo que deixem de se ver ou se afastem; comunicação à vontade; só uma criatura ligada de cada vez (ligar outra termina a anterior); podes terminar com uma ação. *At will.*
 
-**2. Olhos de Sangue (Blood Eyes)** — acção bónus; 1 minuto; 1×/short rest; raio 30 ft. Vês criaturas e seres vivos através de superfícies sólidas até 5 ft de espessura; a forma verdadeira de criaturas ou objectos disfarçados por magia (*disguise self*, *alter self*, *illusory script*…), mesmo em escuridão total; criaturas invisíveis. Não atravessa barreiras mágicas poderosas (*wall of force*, *prismatic wall*) nem vê através do Plano Etéreo. Os olhos brilham vermelho intenso, visível no escuro.
+**2. Olhos de Sangue (Blood Eyes)** — ação bónus; 1 minuto; 1×/short rest; raio 30 ft. Vês criaturas e seres vivos através de superfícies sólidas até 5 ft de espessura; a forma verdadeira de criaturas ou objetos disfarçados por magia (*disguise self*, *alter self*, *illusory script*…), mesmo em escuridão total; criaturas invisíveis. Não atravessa barreiras mágicas poderosas (*wall of force*, *prismatic wall*) nem vê através do Plano Etéreo. Os olhos brilham vermelho intenso, visível no escuro.
 
-**3. Grito do Apoteão (Apotheon's Cry)** — acção; 1×/long rest; raio 30 ft. Cada criatura à tua escolha no raio faz Charisma save, DC = 8 + proficiência + mod. Charisma. Falha: 1d8 psíquico × o teu nível de corrupção e rola 1d4 — 1 Tristeza: *stunned* até ao fim do teu próximo turno; 2 Raiva: ataca imediatamente a criatura mais próxima (reacção, se tiver); 3 Culpa: larga as armas e tem desvantagem no próximo ataque; 4 Medo: usa movimento e acção (Dash, se possível) para se afastar de ti. Sucesso: metade do dano, sem efeito emocional. Criaturas imunes a *frightened* são imunes.
+**3. Grito do Apoteão (Apotheon's Cry)** — ação; 1×/long rest; raio 30 ft. Cada criatura à tua escolha no raio faz Charisma save, DC = 8 + proficiência + mod. Charisma. Falha: 1d8 psíquico × o teu nível de corrupção e rola 1d4 — 1 Tristeza: *stunned* até ao fim do teu próximo turno; 2 Raiva: ataca imediatamente a criatura mais próxima (reação, se tiver); 3 Culpa: larga as armas e tem desvantagem no próximo ataque; 4 Medo: usa movimento e ação (Dash, se possível) para se afastar de ti. Sucesso: metade do dano, sem efeito emocional. Criaturas imunes a *frightened* são imunes.
 **DM (decisão):** usa-se a variante da ficha de Vor'zen: **Wisdom save** (DC = 8 + proficiência + mod. Charisma) e dano de **1d8 psíquico por nível de exaustão** do utilizador (a versão anterior usava Charisma save e o nível de corrupção).
 
-**4. Ecos da Ruína (Echoes of Ruin)** — acção; 1 minuto; 1×/long rest. Figuras espectrais vermelhas, semi-sólidas, obedecem a ordens telepáticas (sem acção adicional). Número de figuras = nível de corrupção (4 → 5 figuras; 5 → 6). **DM (decisão):** figuras = **1 + nível de exaustão** (0 → 1 … 5 → 6), como na ficha de Vor'zen. Figura: AC 14, HP 10, speed 30 ft (hover), STR 12 DEX 14 CON 12 INT 4 WIS 10 CHA 6; resistências psychic, necrotic; imunidades charmed, frightened, poison; nunca a mais de 30 ft de ti. Cada figura faz 1 acção por turno, no início do teu turno: **Atacar** +5, alcance 5 ft, 1d8 + mod. Charisma (psychic ou necrotic); **Defender** — enquanto houver uma figura activa, +2 AC e ataques corpo-a-corpo contra ti com desvantagem; **Agarrar** +5, alvo *restrained* (escape DC 8 + prof + mod. CHA), 1d6 psychic no início do turno da figura; **Interceptar** — quando és atingido, uma figura reduz o dano em 1d8 + o teu nível de exaustão e é destruída. No fim, dissipam-se em fumo vermelho.
+**4. Ecos da Ruína (Echoes of Ruin)** — ação; 1 minuto; 1×/long rest. Figuras espectrais vermelhas, semi-sólidas, obedecem a ordens telepáticas (sem ação adicional). Número de figuras = nível de corrupção (4 → 5 figuras; 5 → 6). **DM (decisão):** figuras = **1 + nível de exaustão** (0 → 1 … 5 → 6), como na ficha de Vor'zen. Figura: AC 14, HP 10, speed 30 ft (hover), STR 12 DEX 14 CON 12 INT 4 WIS 10 CHA 6; resistências psychic, necrotic; imunidades charmed, frightened, poison; nunca a mais de 30 ft de ti. Cada figura faz 1 ação por turno, no início do teu turno: **Atacar** +5, alcance 5 ft, 1d8 + mod. Charisma (psychic ou necrotic); **Defender** — enquanto houver uma figura ativa, +2 AC e ataques corpo-a-corpo contra ti com desvantagem; **Agarrar** +5, alvo *restrained* (escape DC 8 + prof + mod. CHA), 1d6 psychic no início do turno da figura; **Interceptar** — quando és atingido, uma figura reduz o dano em 1d8 + o teu nível de exaustão e é destruída. No fim, dissipam-se em fumo vermelho.
 
-**5. Possessão (Ruidium Domination)** — acção; alcance 30 ft; 1× por alvo por dia; **no final ganhas 1 nível de exaustão**. A criatura faz Charisma save, DC = 8 + mod. Charisma + proficiência × o teu nível de exaustão. Falha: controlas o corpo por 1 turno; no início de cada turno seu, repete o save com **–2 cumulativo por cada turno adicional** sob posse; sucesso termina a posse. Enquanto dentro do corpo: usas STR/DEX/CON da criatura e manténs INT/WIS/CHA; conhecimento intuitivo de todas as capacidades do corpo; podes usar qualquer acção/magia/habilidade dela; podes tentar aceder a ecos de memória (o DM controla o que se revela); o teu corpo original fica incapacitado e paralisado (não pode ser possuído). Sucesso no save inicial: uso desperdiçado.
+**5. Possessão (Ruidium Domination)** — ação; alcance 30 ft; 1× por alvo por dia; **no final ganhas 1 nível de exaustão**. A criatura faz Charisma save, DC = 8 + mod. Charisma + proficiência × o teu nível de exaustão. Falha: controlas o corpo por 1 turno; no início de cada turno seu, repete o save com **–2 cumulativo por cada turno adicional** sob posse; sucesso termina a posse. Enquanto dentro do corpo: usas STR/DEX/CON da criatura e manténs INT/WIS/CHA; conhecimento intuitivo de todas as capacidades do corpo; podes usar qualquer ação/magia/habilidade dela; podes tentar aceder a ecos de memória (o DM controla o que se revela); o teu corpo original fica incapacitado e paralisado (não pode ser possuído). Sucesso no save inicial: uso desperdiçado.
 **5A. Corpos recém-mortos (variante)** — corpo morto há menos de 1 minuto, cérebro intacto; sem save; ocupas o corpo 1 minuto; atributos físicos que tinha em vida, os teus mentais; consciência intuitiva das capacidades físicas; memórias residuais instáveis; não lança magias acima de 3.º nível; não regenera HP; a 0 HP colapsa definitivamente.
 
 ### Febre escarlate (forma leve)
@@ -143,15 +143,15 @@ Quem consumir Suude Vermelho e tocar na Jóia das Três Preces tem **visões na 
 
 ### Regra rejeitada: toque na Jóia
 
-Regra do DM (Desafio Final, E12): "Quem tocar sem estar corrompido tem de fazer um Charisma save, ou CON save DC 10 = 1d10 dano psíquico e é repelido. Falha = repelido. Sucesso = metade do dano, consegue tocar. Quem estiver corrompido consegue tocar sem dano." Na mesa: CON DC 10 → 2d10 psíquico; falha = 0 HP. O próprio DM anotou-a como *railroad* ("to ensure my players are the ones getting the Jewel… it can only be interacted / attuned by someone that is corrupted by ruidium"). **Não transita**: a nova campanha usa a visão universal do Remix (a Jóia dá a visão a quem lhe toca).
+Regra do DM (Desafio Final, E12): "Quem tocar sem estar corrompido tem de fazer um Charisma save, ou CON save DC 10 = 1d10 dano psíquico e é repelido. Falha = repelido. Sucesso = metade do dano, consegue tocar. Quem estiver corrompido consegue tocar sem dano." Na mesa: CON DC 10 → 2d10 psíquico; falha = 0 HP. O próprio DM anotou-a como *railroad* ("to ensure my players are the ones getting the Jewel… it can only be interacted / attuned by someone that is corrupted by rubídio"). **Não transita**: a nova campanha usa a visão universal do Remix (a Jóia dá a visão a quem lhe toca).
 
-### Compatibilidade com o Ruidium Metamagic (Remix, já adoptado)
+### Compatibilidade com o Ruidium Metamagic (Remix, já adotado)
 
-O suude de 10 g já cobre a Metamagia (uma opção, sem ser sorcerer, com CON DC 15 e CHA DC 20 em falha), enquanto o Remix a dá por onças de ruidium em bruto (CHA DC 20 por onça). Coexistem sem contradição mecânica — uma via pelo pó refinado, outra pelo cristal — mas o DM decide se ambas ficam ou se o suude substitui a regra do Remix.
+O suude de 10 g já cobre a Metamagia (uma opção, sem ser sorcerer, com CON DC 15 e CHA DC 20 em falha), enquanto o Remix a dá por onças de rubídio em bruto (CHA DC 20 por onça). Coexistem sem contradição mecânica — uma via pelo pó refinado, outra pelo cristal — mas o DM decide se ambas ficam ou se o suude substitui a regra do Remix.
 
 ## Princípio da Oposição (rivais) — PROPOSTA (Remix)
 
-A atitude dos rivais (hostil / indiferente / amigável) decide só **o tom** do desacordo: negociação agressiva / discussão acesa / debate. Seja qual for a posição dos PCs (para onde ir, o que fazer, porquê, como, quem é Alyxian e o que merece), os rivais defendem a oposta. Cinco modos de acção a rastrear: parceria; seguem os PCs; independentes; saem da campanha; tomam a Jóia. Teste: se numa secção não há forma de os rivais discordarem, os jogadores não têm informação suficiente para ter opinião.
+A atitude dos rivais (hostil / indiferente / amigável) decide só **o tom** do desacordo: negociação agressiva / discussão acesa / debate. Seja qual for a posição dos PCs (para onde ir, o que fazer, porquê, como, quem é Alyxian e o que merece), os rivais defendem a oposta. Cinco modos de ação a rastrear: parceria; seguem os PCs; independentes; saem da campanha; tomam a Jóia. Teste: se numa secção não há forma de os rivais discordarem, os jogadores não têm informação suficiente para ter opinião.
 
 ## Visões do Netherdeep — DM
 
@@ -160,16 +160,16 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 ## As transformações do Isco (DM; base na ficha do Pedro Ropio)
 
 - **Por vontade**: a transformação da Order of the Lycan, como na ficha. Controlável.
-- **Por flash de Ruidus**: incontrolável; nem o jogador nem a personagem sabem. **Sem calendário** — o DM dispara um flash quando servir a cena. Abrigo = tecto que o Lucan arranjar (ele sabe; escolhe os quartos).
+- **Por flash de Ruidus**: incontrolável; nem o jogador nem a personagem sabem. **Sem calendário** — o DM dispara um flash quando servir a cena. Abrigo = teto que o Lucan arranjar (ele sabe; escolhe os quartos).
 - **Quando dispara**: corta-se a cena; narram-se só as consequências vistas por outros no dia seguinte. Escalada: acorda longe → sangue que não é dele → alguém morre (quem, decide-se na mesa).
 - **Insanidade**: cada consequência descoberta dá pontos como qualquer experiência traumática (tabela abaixo). Sem tabela nova.
-- Derreter o ruidium no fim do livro **não** lhe desfaz a forma: foi a Lua Vermelha, não o rubídio.
+- Derreter o rubídio no fim do livro **não** lhe desfaz a forma: foi a Lua Vermelha, não o rubídio.
 
-**À mesa (sessão 2, #83):** a 1.ª transformação (bonus action) torna as feições mais de tubarão; a 2.ª dá +7 PV temporários e +1 AC (17) e fá-lo crescer. Mordida com descarga eléctrica (faíscas entre os dentes): 14 de dano num acerto; quando falha morde a língua e leva 3. Em lama profunda pode espetar a greatsword no chão para sacar a besta ligeira sem gastar acção (decisão do DM).
+**À mesa (sessão 2, #83):** a 1.ª transformação (bonus action) torna as feições mais de tubarão; a 2.ª dá +7 PV temporários e +1 AC (17) e fá-lo crescer. Mordida com descarga elétrica (faíscas entre os dentes): 14 de dano num acerto; quando falha morde a língua e leva 3. Em lama profunda pode espetar a greatsword no chão para sacar a besta ligeira sem gastar ação (decisão do DM).
 
 ## A Adaga de Duarte Mirim (DM)
 
-**Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excepcional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
+**Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excecional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
 
 **Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. Como a visão da sessão 3 mostrou: a criança arrancou-a do peito do pai com as duas mãos, arrastou o corpo um dia inteiro até ao ossário, usou a lâmina para esculpir o altar e cravou-a nele — onde ficou até o Lucan a tirar de lá. **Não é relíquia afectiva: é prova** — a arma do crime.
 
@@ -183,7 +183,7 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 **A cena a guardar**: o próprio Mirimm reconhece a sua lâmina ao cinto de um forasteiro, no festival, ao alcance de um aperto de mão — sem intermediário. A partir desse segundo sabe que alguém sobreviveu, e **move-se primeiro** (`b-1-mirimm-reconhece`).
 
-**À mesa (sessão 3, #84):** encontrada e arrancada do altar pelo Lucan, no crânio mais pequeno do ossário. Descrição usada: lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas em duas pinças como mandíbulas de insecto; cabo em couro escuro ressequido. History 3 deu só «não foi feita por lizardfolk, é um misto de fabrico delicado com arma prática de tempo de guerra» — nem origem, nem dono. O Isco não lhe cheira nada extraplanar, só ferro. Identificada pelo Quasi numa hora de short rest a contemplá-la: **dagger +1** (+1 a acertar e +1 ao dano, d4+DEX). Ficou com o **Quasi**: de manhã o Lucan exigiu-a, o Quasi pediu 200 po e depois 400, e a cena acabou em «não me testes». Quem a traz ao cinto quando chegarem a Jigau ainda está por decidir — o degrau de reconhecimento (`b-1-mirimm-reconhece`) depende disso.
+**À mesa (sessão 3, #84):** encontrada e arrancada do altar pelo Lucan, no crânio mais pequeno do ossário. Descrição usada: lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas em duas pinças como mandíbulas de inseto; cabo em couro escuro ressequido. History 3 deu só «não foi feita por lizardfolk, é um misto de fabrico delicado com arma prática de tempo de guerra» — nem origem, nem dono. O Isco não lhe cheira nada extraplanar, só ferro. Identificada pelo Quasi numa hora de short rest a contemplá-la: **dagger +1** (+1 a acertar e +1 ao dano, d4+DEX). Ficou com o **Quasi**: de manhã o Lucan exigiu-a, o Quasi pediu 200 po e depois 400, e a cena acabou em «não me testes». Quem a traz ao cinto quando chegarem a Jigau ainda está por decidir — o degrau de reconhecimento (`b-1-mirimm-reconhece`) depende disso.
 
 ## A Fera do Lucan (DM; base na ficha da Renata)
 
@@ -193,7 +193,7 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 - **Renegar Baeshra** é possível e devolve-lhe a vida (deixa de ser Dhampir; perde a Fera e a fome). Como se faz, ninguém sabe — nem ele. Descoberta de mesa.
 - **Os obeliscos** (mar; a Ritual Stone de Bol'bara no pântano; Betrayers' Rise): se lhes tocar, rebobinam-no por segundos e mostram-lhe um pedaço da noite em que morreu. Sem custo visível; cada toque acorda o obelisco um pouco — e o que está preso lá dentro (na Ritual Stone, Trush).
 
-- **À mesa (sessão 2, #83):** a Rage é uma «Tranquil Fury», raiva calma: olhos vermelho-escuro, dobra-se em dores e cresce-lhe uma cauda comprida com espigões ósseos na ponta (verde-escura/azul-marinho), alcance 10 pés, 2d8+4 piercing. Reacção: a cauda soma 1d8 à AC contra um ataque que a jogadora vê vir. Reckless Attack em uso.
+- **À mesa (sessão 2, #83):** a Rage é uma «Tranquil Fury», raiva calma: olhos vermelho-escuro, dobra-se em dores e cresce-lhe uma cauda comprida com espigões ósseos na ponta (verde-escura/azul-marinho), alcance 10 pés, 2d8+4 piercing. Reação: a cauda soma 1d8 à AC contra um ataque que a jogadora vê vir. Reckless Attack em uso.
 
 - **À mesa (sessão 3, #84) — a fome do santuário:** dentro do crânio do altar abre-se-lhe «um buraco enorme de fome e de vontade de devorar tudo»; fora dele passa. Ao arrancar a adaga a fome fica absurda e ele cai de joelhos. Comer não a resolve: devorou dois corpos de lizardfolk e, passados dois minutos, a fome estava na mesma; de manhã, depois de uma refeição inteira, continuava. Ouviu na cabeça **«Perto. Não aqui.»** (Wisdom save passado: fica lúcido, e olha para quem tem a adaga e a garra). A fome não é mecânica: é estado, e mantém-se até o DM decidir o contrário.
 
@@ -238,7 +238,7 @@ Existe — há feitiços para isso —, mas «voltam, mas não voltam inteiros»
 ## Combate: flanking, terreno e vocabulário (DM, sessões 1–2)
 
 - **Flanking** dá vantagem (regra opcional em uso; descoberta a meio da sessão 2 e aplicada a partir daí a PCs e monstros).
-- **Terreno**: a água do pântano é terreno difícil excepto para quem tem swim speed; terra firme de acampamento não é.
+- **Terreno**: a água do pântano é terreno difícil exceto para quem tem swim speed; terra firme de acampamento não é.
 - **Vocabulário do DM**: «ferido» só se usa quando um NPC/monstro está abaixo de 50% de vida; acima disso está «magoado» (lightly damaged).
 - **Concentração de monstros**: aplica-se como aos PCs (Con save DC 10 ou metade do dano) — o Conjure Animals de Skr'a S'orsk caiu a um Vicious Mockery.
 - **Fuga forçada** (Dissonant Whispers) provoca ataque de oportunidade: a criatura usa o próprio movimento (decisão do DM).
@@ -247,11 +247,11 @@ Existe — há feitiços para isso —, mas «voltam, mas não voltam inteiros»
 
 ## Testes passivos com vantagem (DM, sessão 3)
 
-Rules as written (PHB 2014, p. 175): **vantagem num teste passivo soma +5; desvantagem subtrai 5**. Na prática, o Isco tem Percepção passiva 15 e **20 para ouvido e olfacto** — o DM deixou de lhe pedir testes cujo resultado esteja abaixo de 20 nesses sentidos: ele simplesmente ouve ou cheira.
+Rules as written (PHB 2014, p. 175): **vantagem num teste passivo soma +5; desvantagem subtrai 5**. Na prática, o Isco tem Perceção passiva 15 e **20 para ouvido e olfacto** — o DM deixou de lhe pedir testes cujo resultado esteja abaixo de 20 nesses sentidos: ele simplesmente ouve ou cheira.
 
 ## Travessia do pântano: ritmo, encontros e descanso (DM, sessões 1–3)
 
-- O dia divide-se em **três terços** (manhã, tarde, entardecer). A ritmo **normal** andam **10 hexágonos** por terço se o teste de Survival de quem guia for 15 ou mais (lento 5, rápido 15); o Morgid tem mapa de couro e Survival +5, e sem ele o grupo perde-se (Survival 10 do Quasi = perdido).
+- **Ritmo (decidido pelo DM, 2026-10-01; EGtW):** a ritmo **normal** andam **10 hexágonos por dia** (1 hexágono = 1 milha), cerca de um terço disso por terço do dia (manhã, tarde, entardecer). O navegador faz Survival DC 15 no início de cada dia: **+5 a ritmo lento, −5 a ritmo rápido**; falhar é ficar perdido (o DM rola 1d6 por hexágono para a direção real). O Morgid tem mapa de couro e Survival +5; sem ele o grupo perde-se (Survival 10 do Quasi = perdido). Substitui a leitura de «10 hexágonos por terço» que estava aqui.
 - **Encontros**: um **d20 por terço do dia**; **16 ou mais** e acontece alguma coisa. (Na sessão 1 usou-se um d12; a sessão 3 fixou o d20.)
 - **Dormir fora de terreno seco e elevado** obriga a CON save de manhã (praga do pântano). Um sítio seco para uma pessoa (Survival 13) não chega para o grupo: resolve-se com um **esforço de grupo** — cada um contribui com a perícia que fizer sentido (Athletics para testar ramos, Sleight of Hand para entrançar cordas) e a **média dos testes tem de passar a CD** (12 na sessão 3) para haver long rest completo em camas de rede na mesma árvore.
 
@@ -271,13 +271,13 @@ Todas *Wondrous Item, common*, **uso único** (depois de usada a medalha perde a
 
 | Medalha | Efeito |
 |---|---|
-| **Tartaruga-do-Horizonte** (Medal of the Horizonback) | Quando fores atingido por um ataque, podes usar a tua reacção para aumentar a AC em 5 até ao início do teu próximo turno, incluindo contra esse ataque. Tens de estar a usar a medalha e ver a criatura que fez o ataque. |
-| **Labirinto** (Medal of the Maze) | Acção: traçar o labirinto gravado; vantagem em Wisdom checks e sabes o caminho mais rápido em qualquer labirinto ou percurso não mágico, durante 1 hora. |
-| **Empada** (Medal of the Meat Pie) | Acção: pressionar a medalha contra a boca; 2d4 + 2 pontos de vida temporários. Cheira a crosta de empada acabada de sair do forno. |
-| **Pântanos** (Medal of the Wetlands) | Acção: traçar o bordo; durante 1 hora ignoras o custo extra de movimento em terreno difícil. |
-| **Astúcia** (Medal of Wit) | Acção: pressionar na têmpora; vantagem em testes de Inteligência e Intelligence saving throws durante 1 hora. (Em forma de cabeça de raposa, entregue pelo ancião Coblu-Kaz.) |
-| **Força** (Medal of Muscle) | Acção: apertar na mão; vantagem em testes de Força e Strength saving throws durante 1 hora. |
-| **Búzio** (Medal of the Conch) | Acção: esfregar a medalha; velocidade de natação igual à de caminhada, durante 1 hora. |
+| **Tartaruga-do-Horizonte** (Medal of the Horizonback) | Quando fores atingido por um ataque, podes usar a tua reação para aumentar a AC em 5 até ao início do teu próximo turno, incluindo contra esse ataque. Tens de estar a usar a medalha e ver a criatura que fez o ataque. |
+| **Labirinto** (Medal of the Maze) | Ação: traçar o labirinto gravado; vantagem em Wisdom checks e sabes o caminho mais rápido em qualquer labirinto ou percurso não mágico, durante 1 hora. |
+| **Empada** (Medal of the Meat Pie) | Ação: pressionar a medalha contra a boca; 2d4 + 2 pontos de vida temporários. Cheira a crosta de empada acabada de sair do forno. |
+| **Pântanos** (Medal of the Wetlands) | Ação: traçar o bordo; durante 1 hora ignoras o custo extra de movimento em terreno difícil. |
+| **Astúcia** (Medal of Wit) | Ação: pressionar na têmpora; vantagem em testes de Inteligência e Intelligence saving throws durante 1 hora. (Em forma de cabeça de raposa, entregue pelo ancião Coblu-Kaz.) |
+| **Força** (Medal of Muscle) | Ação: apertar na mão; vantagem em testes de Força e Strength saving throws durante 1 hora. |
+| **Búzio** (Medal of the Conch) | Ação: esfregar a medalha; velocidade de natação igual à de caminhada, durante 1 hora. |
 
 **Medalha de tenacidade** (Grande Caça ao Tesouro, DM): caseira, de pedra polida pendurada por um cordel e assinada por vários habitantes da vila; entregue com uma bolsa de 40 po. Sem efeito mecânico registado.
 
@@ -285,12 +285,12 @@ Todas *Wondrous Item, common*, **uso único** (depois de usada a medalha perde a
 
 ### Amuleto de Honra de Urzin (DM)
 
-Objecto cerimonial goblinóide (único por grupo ou indivíduo homenageado). Pequena tartaruga esculpida à mão em madeira húmida do pântano, polida com gordura de raiz, olhos de concha branca e carapaça gravada com espirais; suspensa por fio entrançado de fibras vegetais, musgo seco e um único fio de cabelo goblinóide ("ligação viva"). Valor material nenhum; "inestimável para quem entende". Representa a confiança máxima de Urzin — resiliência (a tartaruga nunca corre, mas nunca pára), memória (a lama lembra), protecção (carrega a casa às costas, como Urzin carrega o seu povo). Só se entrega a quem protegeu a vila em tempo de necessidade ou foi reconhecido pelo Guardião do Musgo.
+Objeto cerimonial goblinóide (único por grupo ou indivíduo homenageado). Pequena tartaruga esculpida à mão em madeira húmida do pântano, polida com gordura de raiz, olhos de concha branca e carapaça gravada com espirais; suspensa por fio entrançado de fibras vegetais, musgo seco e um único fio de cabelo goblinóide ("ligação viva"). Valor material nenhum; "inestimável para quem entende". Representa a confiança máxima de Urzin — resiliência (a tartaruga nunca corre, mas nunca para), memória (a lama lembra), proteção (carrega a casa às costas, como Urzin carrega o seu povo). Só se entrega a quem protegeu a vila em tempo de necessidade ou foi reconhecido pelo Guardião do Musgo.
 
 Enquanto usas o amuleto visivelmente:
 - vantagem em testes de Carisma (Persuasion, Intimidation ou Performance) ao interagir com goblinóides de Urzin ou de clãs aliados de Jigau;
 - goblinóides reconhecem-te como "honrado pelo pântano" e tratam-te com deferência ou orgulho contido;
-- num momento de necessidade podes invocar o espírito da tartaruga para relembrar a tua ligação a Urzin (à descrição do DM: inspiração, memória ou protecção narrativa).
+- num momento de necessidade podes invocar o espírito da tartaruga para relembrar a tua ligação a Urzin (à descrição do DM: inspiração, memória ou proteção narrativa).
 
 ### Dádiva da Possibilidade — Mote of Possibility (Belana Zolaed, DM)
 
@@ -310,15 +310,15 @@ Colar de corda entrançada com três pedras secas e ocres — uma de cada clã q
 
 ### Refúgio do Caminhante (DM, sessão 6)
 
-*Item maravilhoso, raro (requer sintonia).* Na mesa foi o mesmo colar de 3 pedras. **Sintonização:** só por uma criatura que tenha passado pelo menos uma noite nos Desterros de Jorhas ou em ambiente semelhante. **Efeito:** uma vez por dia, com uma acção, cria *Leomund's Tiny Hut* com duração de 1 hora; a tenda manifesta-se à tua volta.
+*Item maravilhoso, raro (requer sintonia).* Na mesa foi o mesmo colar de 3 pedras. **Sintonização:** só por uma criatura que tenha passado pelo menos uma noite nos Desterros de Jorhas ou em ambiente semelhante. **Efeito:** uma vez por dia, com uma ação, cria *Leomund's Tiny Hut* com duração de 1 hora; a tenda manifesta-se à tua volta.
 
 ## Treino de proficiências (DM)
 
-**Objectivo.** Permitir que personagens aprendam línguas, perícias (skills), ferramentas (tools) ou armas (weapons) ao longo da campanha, com downtime estruturado, custos e rolagens simples.
+**Objetivo.** Permitir que personagens aprendam línguas, perícias (skills), ferramentas (tools) ou armas (weapons) ao longo da campanha, com downtime estruturado, custos e rolagens simples.
 
 ### Estrutura do treino
 
-1. **Escolher o que treinar** — uma nova proficiência de cada vez (língua, skill, tool, weapon/armor). Mudar de objectivo a meio mantém o progresso feito; mas num dado dia só podes fazer uma Training Check ligada a um único objectivo.
+1. **Escolher o que treinar** — uma nova proficiência de cada vez (língua, skill, tool, weapon/armor). Mudar de objetivo a meio mantém o progresso feito; mas num dado dia só podes fazer uma Training Check ligada a um único objetivo.
 2. **Tempo por dia** — 4 h/dia (mínimo para tentar progresso); 8 h/dia (opcional) melhora a hipótese de progresso em certos dados. Conta como downtime (viagens, estadias, convalescença, entre cenas) e não interfere com o long rest, salvo indicação do DM.
 3. **Training Check** — no fim do bloco de treino do dia rola o *dado de treino*: começa em d20 e só progride quando tiras 1; ao progredir o dado encolhe d20 → d12 → d10 → d8 → d6 → d4; quando tiras 1 num d4, marcas 1 *Training Success*; precisas de Training Successes = Proficiency Bonus para ganhar a proficiência. Frequência: 1 Training Check por dia, treines 4 h ou 8 h.
 4. **Treinar 8 h** — antes de chegares ao d4, progrides com 1–2 no dado (em vez de só 1). No d4, horas extra não dão benefício (continua só o 1).
@@ -361,18 +361,18 @@ Disponibilidade depende do sítio (numa grande cidade há sábios para uma líng
 
 ### Procedimento diário
 
-1. Declara o objectivo (p. ex. Thieves' Tools). 2. Confirma que tens a ferramenta/arma. 3. Define a capacidade relevante → dado inicial. 4. Treina 4 h (ou 8 h) e paga os custos do dia. 5. Rola o dado de treino: sem treinador & 4 h → só 1; sem treinador & 8 h → 1–2 (excepto d4); com treinador & 4 h → 1–2 (excepto d4); com treinador & 8 h → 1–2 + relançamento, escolhe o melhor (excepto d4). 6. Ao progredir, reduz o dado; se já estás em d4 e tiraste 1, marca 1 Training Success. 7. Successes = Proficiency Bonus → ganhas a proficiência.
+1. Declara o objetivo (p. ex. Thieves' Tools). 2. Confirma que tens a ferramenta/arma. 3. Define a capacidade relevante → dado inicial. 4. Treina 4 h (ou 8 h) e paga os custos do dia. 5. Rola o dado de treino: sem treinador & 4 h → só 1; sem treinador & 8 h → 1–2 (exceto d4); com treinador & 4 h → 1–2 (exceto d4); com treinador & 8 h → 1–2 + relançamento, escolhe o melhor (exceto d4). 6. Ao progredir, reduz o dado; se já estás em d4 e tiraste 1, marca 1 Training Success. 7. Successes = Proficiency Bonus → ganhas a proficiência.
 
 ### FAQ
 
-- Duas coisas no mesmo dia? Não: uma Training Check por dia, para um objectivo.
+- Duas coisas no mesmo dia? Não: uma Training Check por dia, para um objetivo.
 - Tirar 1 no d4 "reinicia" o dado? Não: continuas no d4 até teres sucessos = Proficiency Bonus.
 - O Proficiency Bonus sobe a meio? O alvo ajusta para o novo valor (pode exigir mais um sucesso).
 - Treinador substitui as 8 h? Não — são separados: treinador (4 h) → 1–2; 8 h sem treinador → 1–2; 8 h + treinador → 1–2 e relançamento; o d4 não recebe nenhum destes bónus.
 
 ### Dicas de adjudicação (DM)
 
-Integrar no mundo (mestre-ferreiro de Jigau, bibliotecária da Alma Cobalto, o velho apicultor que ensina herbalismo); usar um relógio de progresso e marcos narrativos quando o dado encolhe; este módulo substitui (ou convive com) o Training de Xanathar's — escolher um método por campanha; sem as 4 h mínimas não há Training Check; 4 h num dia de marcha normal é razoável, 8 h em viagem só com veículo/animal e descanso adequados; falhar não retrocede, só não progride; opcional "progresso arriscado": aceitar uma complicação narrativa pequena para ganhar um "meio passo" (num d10, da próxima vez rola o d8 com desvantagem).
+Integrar no mundo (mestre-ferreiro de Jigau, bibliotecária da Alma de Cobalto, o velho apicultor que ensina herbalismo); usar um relógio de progresso e marcos narrativos quando o dado encolhe; este módulo substitui (ou convive com) o Training de Xanathar's — escolher um método por campanha; sem as 4 h mínimas não há Training Check; 4 h num dia de marcha normal é razoável, 8 h em viagem só com veículo/animal e descanso adequados; falhar não retrocede, só não progride; opcional "progresso arriscado": aceitar uma complicação narrativa pequena para ganhar um "meio passo" (num d10, da próxima vez rola o d8 com desvantagem).
 
 ## Componentes verbais em latim (DM)
 
@@ -499,7 +499,7 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 - **Warding Bond:** Resisto, Tuebor
 ### Nível 3
 - **Animate Dead:** Impero mortuos
-- **Beacon of Hope:** Macte virtute
+- **beacon of hope:** Macte virtute
 - **Bestow Curse:** Maledicte es, Te exsecror
 - **Blink:** Et alibi
 - **Call Lightning:** Perure, Perurere
@@ -593,14 +593,14 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 
 ## Variantes e acrescentos (DM)
 
-Variantes às regras acima; as quatro marcadas "DM (decisão)" nas secções respectivas ficaram em vigor (marcas no long rest, exposição prolongada, Grito com Wisdom save por exaustão e Ecos = 1 + exaustão, Jóia + suude). O resto fica aqui como fonte:
+Variantes às regras acima; as quatro marcadas "DM (decisão)" nas secções respetivas ficaram em vigor (marcas no long rest, exposição prolongada, Grito com Wisdom save por exaustão e Ecos = 1 + exaustão, Jóia + suude). O resto fica aqui como fonte:
 
 - **Marcas na Alma (página "Marcas na Alma")** — acrescenta: a marca rola-se **ao falhar um saving throw contra corrupção** (1d8, mesma tabela de regras.md); os efeitos **desaparecem após um long rest**.
 - **Exposição prolongada (mesma página)** — regras.md diz que "o documento não tem regra separada"; a variante tem: após 1 dia inteiro de exposição contínua, **Charisma DC 5, +5 por cada dia**; falha = marca na alma temporária até ao próximo long rest; **nat 1** pode desencadear visões com impacto narrativo (flashbacks, memórias corrompidas).
 - **Rubídio (página "Rubídio", categoria Rubídio)** — é a tradução da regra do livro (CHA save por potência; falha = 1 nível de exaustão + corrompido; 1d10 psíquico sempre que a exaustão sobe ou desce), com a tabela de sinais físicos **desfasada de um nível face a regras.md**: 2 erupção, 3 veias, 4 bolhas/pústulas, 5 protuberâncias de cristal, 6 protuberâncias maiores, **7 morte** (regras.md: 1–6). "Rubídio 259a…" é só um título (Categoria: Regra).
-- **Grito do Abismo / Ecos da Ruína (ficha de Vorzen)** — variante da mesa: Grito com **Wisdom save** (CD 8 + prof + mod. CAR) e dano 1d8 psíquico × **nível de exaustão** (regras.md: CHA save × nível de corrupção); Ecos com **figuras = 1 + nível de exaustão** (0 → 1 … 5 → 6; regras.md: = nível de corrupção). Olhos de Sangue na ficha é **acção** (regras.md: acção bónus) e vê "vultos vermelhos" através de 5 ft de matéria.
+- **Grito do Abismo / Ecos da Ruína (ficha de Vorzen)** — variante da mesa: Grito com **Wisdom save** (CD 8 + prof + mod. CAR) e dano 1d8 psíquico × **nível de exaustão** (regras.md: CHA save × nível de corrupção); Ecos com **figuras = 1 + nível de exaustão** (0 → 1 … 5 → 6; regras.md: = nível de corrupção). Olhos de Sangue na ficha é **ação** (regras.md: ação bónus) e vê "vultos vermelhos" através de 5 ft de matéria.
 - **Medalhão (Jóia das 3 Preces)** — estados Dormant/Awakened/Exalted iguais ao livro. Acrescento do DM: **quem consumir suude e tocar no medalhão tem visões na primeira pessoa da vida de Alyxian, no sítio mais próximo onde estiver.**
 - **Obelisco Negro** — mecânica temporal e Explosão Necromântica já no patch de `l-obelisco-negro`; acrescento: **visão com suude vermelho** junto ao obelisco (quatro figuras encapuçadas a erguê-lo; uma quinta, alta, com um único olho a brilhar — Vecna/Aeor).
-- **Funerais (categoria Regra)** — guião de DM ao estilo Matt Mercer: pausa de tom, perspectiva múltipla (cada jogador tem o seu momento), símbolos pessoais, impacto futuro, espaço para improviso; estrutura: 1 A Chegada, 2 O Ritual (Luxon / Kord / Ioun), 3 As Palavras, 4 O Símbolo Final (flores ao rio, pira, objecto enterrado, música), 5 O Silêncio. (Usado no funeral de Kiri-Kiri, S24.)
-- **Arqueiro da Vigia da Aurora (nível 4)** — statblock da mesa (Jigau), resumido no patch de `f-aurora-watch`.
+- **Funerais (categoria Regra)** — guião de DM ao estilo Matt Mercer: pausa de tom, perspetiva múltipla (cada jogador tem o seu momento), símbolos pessoais, impacto futuro, espaço para improviso; estrutura: 1 A Chegada, 2 O Ritual (Luxon / Kord / Ioun), 3 As Palavras, 4 O Símbolo Final (flores ao rio, pira, objeto enterrado, música), 5 O Silêncio. (Usado no funeral de Kiri-Kiri, S24.)
+- **Arqueiro da Vigília da Aurora (nível 4)** — statblock da mesa (Jigau), resumido no patch de `f-aurora-watch`.
 - **Agente Volstrucker (EGtW p. 294)** — statblock canónico CR 7 guardado como referência (resumido no patch de `c-volstrucker-agent`).

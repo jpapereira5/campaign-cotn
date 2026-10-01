@@ -38,7 +38,7 @@
       },
       {
         "label": "Entrega negociada",
-        "outcome": "Pelo Alberto (transferência para «a Assembleia») ou pela Lia (o que faz fugir as aves): a drow, a jangada e direcções; entram no forte esperados, e o Padre Perestrelo quer conhecer o gnomo.",
+        "outcome": "Pelo Alberto (transferência para «a Assembleia») ou pela Lia (o que faz fugir as aves): a drow, a jangada e direções; entram no forte esperados, e o Padre Perestrelo quer conhecer o gnomo.",
         "leadsTo": [
           "b-0-fort-venture"
         ]

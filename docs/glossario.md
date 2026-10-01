@@ -84,7 +84,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, os r
 | Barren Eve | a Véspera Estéril | 2 de Duscar |
 | Zemnian | zemniano | língua |
 
-## Costa das Maravilhas e facções
+## Costa das Maravilhas e fações
 
 | Original (EN) | pt-PT | Notas |
 | --- | --- | --- |
@@ -125,4 +125,4 @@ Escolhas ligadas ao módulo, não nomes canónicos: keeper = faroleiro · mercy 
 
 ## Documentos para os jogadores (Drive)
 
-- *Panteão de Exandria v3* e *O Mundo de Exandria v4* (pasta `163OGm6WCbT53Ci2aLraE5xygn5R1Z51B`): o saber comum para criar personagens, já com este glossário. Não nomeiam facções: as ligações a facções sugere-as o DM a cada jogador, por alto e sem nomes.
+- *Panteão de Exandria v3* e *O Mundo de Exandria v4* (pasta `163OGm6WCbT53Ci2aLraE5xygn5R1Z51B`): o saber comum para criar personagens, já com este glossário. Não nomeiam fações: as ligações a fações sugere-as o DM a cada jogador, por alto e sem nomes.

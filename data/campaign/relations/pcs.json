@@ -38,14 +38,14 @@
     "from": "c-yussa-errenis",
     "to": "c-pc-lucan",
     "type": "wantsFrom",
-    "label": "informação sobre o rubídio e o Myriad",
+    "label": "informação sobre o rubídio e a Miríade",
     "source": "dm"
   },
   {
     "from": "c-yussa-errenis",
     "to": "c-pc-isco",
     "type": "wantsFrom",
-    "label": "informação sobre o rubídio e o Myriad",
+    "label": "informação sobre o rubídio e a Miríade",
     "source": "dm"
   },
   {
