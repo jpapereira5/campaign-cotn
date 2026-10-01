@@ -1,6 +1,6 @@
 # Handouts (camada campanha)
 
-Textos para entregar aos jogadores. Nomes próprios do livro ficam como no livro (ver `docs/ids.md` para os nomes de mesa).
+Textos para entregar aos jogadores. Nomes em português segundo [`docs/glossario.md`](glossario.md); nomes de mesa em `docs/ids.md`.
 
 ## Caderno Volstrucker
 
@@ -22,12 +22,12 @@ Destacamento para o Forte Ventura com o objectivo de apoiar a instalação de um
 Foi registado zelo ideológico elevado por parte do inquisidor destacado para a guarnição, considerado potencialmente contraproducente a médio prazo, tendo sido recomendada vigilância interna não declarada. As instalações foram declaradas operacionais, com nível de segurança considerado satisfatório.
 
 **Entrada 4 — Contrabando de Rubídio (Da'leth)**
-Na Guarnição das Cinzas, foram identificados indícios de contrabando de rubídio. Através de inspecções alargadas e interrogatórios direccionados, confirmaram-se rotas associadas à Myriad e material classificado como rubídio, de origem extra-imperial, apresentando indícios de elevado potencial arcano. Foi solicitada autorização formal para rastreio prolongado, sem limitação territorial.
+Na Guarnição da Cinza, foram identificados indícios de contrabando de rubídio. Através de inspecções alargadas e interrogatórios direccionados, confirmaram-se rotas associadas à Myriad e material classificado como rubídio, de origem extra-imperial, apresentando indícios de elevado potencial arcano. Foi solicitada autorização formal para rastreio prolongado, sem limitação territorial.
 
 **Entrada 6 — Operação "Rede Rubra" (Da'leth)**
 Já em Bazzoxan, teve início a operação "Rede Rubra", destinada a monitorizar a extracção e o tráfico de rubídio, avaliar a contenção da Dinastia e garantir a transferência de activos estratégicos para a Cerberus Assembly, com projecção para Marquet.
 Durante a operação, procedeu-se à substituição do soldado drow Zynthar e à modificação de memória de aliados próximos, garantindo continuidade operacional. Foram assegurados acessos a rotas internas, obtidas amostras de rubídio Classe III em zonas restritas e coordenada recolha local com um contacto da Myriad, "Tingus". Intervenções discretas nos Túneis da Ascensão permitiram redireccionar recursos e desviar atenções.
-Registou-se presença crescente de múltiplas facções, nomeadamente Miríade, Alma Cobalto, Consórcio do Sonho Vermelho, Culto das Escamas e Aliança do Saber, elevando significativamente o risco operacional.
+Registou-se presença crescente de múltiplas facções, nomeadamente Miríade, Alma de Cobalto, Consórcio do Sonho Vermelho, Culto das Escamas e Aliança do Saber, elevando significativamente o risco operacional.
 Recomenda-se vigilância passiva sobre rumores associados à Ascensão, priorização do reencontro com Da'leth em Ank'Harel e continuação da investigação sobre a verdadeira origem do rubídio.
 
 *(Nota DM: a entrada 5, "Carregamento Perdido", e as frases da entrada 6 sobre o intermediário desaparecido e sobre o grupo antigo pertenciam a arcos de PCs da campanha anterior e não transitam. Na entrada 2 o nome do líder foi substituído por "o líder da aldeia"; a frase sobre "outro descendente" também vinha desse arco — o DM decide se fica.)*
@@ -43,7 +43,7 @@ Caderno de um scholar (as primeiras notas são as mais organizadas) que se foi c
 **As notas seguintes referem pessoas (4 h).**
 - Conservatório da Cúpula de Mármore (Marble Tomes Conservatory).
 - Vorrim, arcanista de Bazzoxan.
-- Fritz, scholar de Decerepula, culto do Reino Distante.
+- Fritz, scholar de Decrépola, culto do Reino Distante.
 - "Grupo corrompido": podem ser fonte de rubídio, ou serem presos para experimentação.
 - "Sobrinho corrompido, enviado a Bazzoxan ao cuidado de Vorrim."
 
@@ -87,9 +87,9 @@ Registo dos forasteiros em Bazzoxan (para ler ou entregar quando os PCs ganharem
 
 - **Grupo musical da Costa das Maravilhas** — contratados para elevar o moral das tropas (a "Maré de Fogo": Nara Sol e Talan Velyar).
 - **Aloysia Telfan** — chegou há quatro dias. Revela interesse nas ruínas e disposta a explorar. Hospedada numa casa abandonada. Manter sob vigia.
-- **"Questão"** — agente da Alma Cobalto. Auxilia na vigilância de Aloysia. Demonstra interesse genuíno nas ruínas, motivada pelos sinais de rubídio. Acredita poder localizar a origem ou fenda planar relacionada ao Abismo.
+- **"Questão"** — agente da Alma de Cobalto. Auxilia na vigilância de Aloysia. Demonstra interesse genuíno nas ruínas, motivada pelos sinais de rubídio. Acredita poder localizar a origem ou fenda planar relacionada ao Abismo.
 - **Prolix Yusaf** — académico de Ank'Harel, membro da Aliança do Saber. Declara representar interesses universitários neutros. Hospedado na Estalagem do Soldado Caído. Demonstra genuína curiosidade pelas ruínas e pode ajudar os arcanistas a compreender o rubídio.
-- **Alone Fritz** — estudioso de Decrepola. Requisitou acesso ao laboratório para catalogar fenómenos rúnicos. Credenciais válidas, comportamento obsessivo e reservado.
+- **Alone Fritz** — estudioso de Decrépola. Requisitou acesso ao laboratório para catalogar fenómenos rúnicos. Credenciais válidas, comportamento obsessivo e reservado.
 - **Mercadores de Urzin** — registados como comerciantes independentes, oferecendo transporte e mantimentos; comportamento reservado e discreto. (Na verdade, a Míriade.)
 
 ## Mensagem do Sorriso Dourado
@@ -115,3 +115,30 @@ Tradução em português da balada do livro (com uma versão "em undercommon" in
 > Marchou na Queda, sob chuva de cinza, / Com olhos de noite e promessa indecisa. / A lâmina cantou, a terra cedeu, / E o quase-divino quase morreu.
 >
 > Agora o nome não dizemos — dói, / Pois quem anda no meio nunca é herói. / Entre luz e abismo, o eco persiste: / Há deuses inteiros. Há o que existe.
+
+## Decrépola — o que vocês se lembram (só Lucan e Isco)
+
+**DM:** entregar à Renata e ao Pedro Ropio. Versão na Drive: «Handout — Decrépola (Lucan e Isco)», pasta Session Prep. Os segredos dos contactos estão em `docs/lore.md` (Decrépola) e nas fichas `c-ossorio-lume`, `c-remendo` e `c-vigost`. As três pistas para o Forte Ventura (o homem do casaco, o símbolo, o velho das catacumbas) estão misturadas no texto, sem destaque.
+
+Há umas semanas, antes de Asarius e de Urzin, passaram por Decrépola. O Yussa Errenis mandou-vos atrás do rubídio, a pedra vermelha que começou a aparecer no mercado negro, e Decrépola era o sítio onde perguntar.
+
+**A cidade.** Decrépola não tem muralhas, só onze torres de vigia viradas para a Costa das Pragas. As ruas são apertadas, de barracas de madeira podre e casas meio caídas. Tudo está coberto de um musgo cor de ferrugem que, à noite, brilha vermelho como uma brasa. Cheira a sal, a peixe estragado e a qualquer coisa doce que vem do interior e que ninguém sabe dizer o que é. Não manda ninguém, e toda a gente deve favores a alguém. No Mercado Vermelho, a leste, vende-se tudo. O Cais é a zona rica, e quem lá manda são os piratas. A oeste, a Colina das Catacumbas tem um cemitério onde ninguém vai de noite, a não ser quem não quer ser visto.
+
+**Ossório Lume, no Mercado Vermelho.** Um tiefling magro, de cara comprida e pele cor de vinho, com um dos cornos partido rente à testa. Usa um colete de veludo coçado sobre uma camisa demasiado branca para aquele mercado, e anéis em todos os dedos menos nos polegares. Enquanto fala, conta moedas sem olhar para elas. Vende «antiguidades» numa banca ao fundo do mercado. Custou-vos caro, mas falou:
+
+- «O primeiro lote veio por mar, de Marquet. Isso acabou. O que chega agora desce do norte de Jorhas, pelo caminho de Asarius. De onde vem antes disso, não sei, e não pergunto.»
+- «Vocês não são os primeiros. Há umas semanas veio um homem pálido, de casaco de caçador comprido. Fez as mesmas perguntas. Não pestanejou uma única vez. Não gostei dele.»
+- Mostrou-vos um cristal do tamanho de um dente, embrulhado num pano escuro com um símbolo bordado: uma esfera coberta de olhos, todos diferentes uns dos outros. Não o vendeu. «Este já está prometido. Há um velho das catacumbas que paga bem por pedras esquisitas.»
+
+**Remendo, no Cais.** Um humano velho e queimado do sol, com uma pala de couro no olho esquerdo e a barba presa num nó com um anel de cobre. Veste uma camisa de marinheiro remendada tantas vezes que já não se vê o tecido original. Estava sentado num barril, a coser uma vela, e não parou de coser enquanto falava. Bebeu à vossa conta e contou:
+
+- «Há uns meses atracou aqui um navio vindo de Marquet. Carga das profundezas, diziam. Metade da tripulação tinha manchas vermelhas nas mãos e nos pulsos. Ninguém quis beber com eles.»
+- Quando o Isco arregaçou a manga, o Remendo parou a agulha e ficou a olhar para a tatuagem do anzol. «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.» Não disse mais nada e voltou à vela.
+
+**O que trouxeram de Decrépola.** O rubídio desce do norte de Jorhas, por Asarius. Há mais gente atrás dele: o homem pálido de casaco de caçador, e o velho das catacumbas que compra pedras esquisitas. Quem toca no rubídio fica com manchas vermelhas.
+
+**Perguntas em aberto:** quem é o homem do casaco? Quem é o velho das catacumbas, e o que quer dizer aquele símbolo? E quem era o rapaz da tatuagem que o Remendo conheceu?
+
+## Patrulha do Forte Ventura (sessão 4) — por escrever
+
+A preparação da sessão 4 (`b-0-patrulha-imperio`) prevê dois handouts que ainda não têm texto em lado nenhum: a **ordem de marcha** selada (assinada por Felmont; os prisioneiros entregam-se ao Padre, não ao comandante) e a **folha do acólito** Damião Prestes (nomes, datas, a palavra «sujeito» e o que ele tiver ouvido nesse dia). Escrevê-los depois de saber o que a sessão 4 deixou em jogo.

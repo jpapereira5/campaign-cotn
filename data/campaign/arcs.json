@@ -57,5 +57,14 @@
     "ownerPc": "c-pc-isco",
     "order": 102,
     "summary": "Ambições do Isco: uma tripulação, pescar o aboleto, fazer do irmão campeão; Ruidusborn, a licantropia e quem cortou a corda."
+  },
+  {
+    "id": "a-pc-lia",
+    "name": "Lia: o pai, a mãe e as vidas passadas",
+    "kind": "pcAmbition",
+    "color": "#b4a7d6",
+    "ownerPc": "c-pc-lia",
+    "order": 103,
+    "summary": "Ambições da Lia: encontrar o pai; o Luxon que lhe responde sem ela saber; o typhros e os sonhos de vidas passadas (Mirimm, Kryn, Zolaed, Hythenos, Thelyss)."
   }
 ]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "amb-lia-pai",
+    "pc": "c-pc-lia",
+    "text": "Encontrar o pai.",
+    "npcs": [
+      "c-pai-da-lia",
+      "c-mae-da-lia",
+      "c-sia-kresh"
+    ],
+    "arcs": [
+      "a-pc-lia",
+      "a-ruidium"
+    ],
+    "satisfiedBy": [],
+    "threatenedBy": [],
+    "source": "dm"
+  }
+]

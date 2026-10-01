@@ -63,3 +63,18 @@ Os quatro conflitos que estavam assinalados aqui foram resolvidos e o cânone j�
 
 - **Dado de encontros**: a sessão 1 usou um d12; na sessão 3 o DM corrigiu-se («enganei-me, é um d20 — 16 ou mais acontece alguma coisa»). Vale o d20; a nota da sessão 1 no patch do pântano ficou marcada como substituída.
 - **Hexágonos do dia 2**: o DM deu por um erro de um hexágono no seu mapa e corrigiu-o em jogo antes de contar a viagem.
+
+## Decidido pelo DM (2026-10-01)
+
+Fechado em conversa de preparação (sem sessão jogada). O cânone já está corrigido nos ficheiros.
+
+1. **A campanha passa-se em 835 P.D.**, não em 836: antes de os Mighty Nein mudarem a guerra, mas já com ela em curso. Consequências corrigidas em `docs/lore.md`, `docs/pcs.md` e nos dados: o **Baeshra é deus há poucos meses** (o *wish* foi em 835, aos 33), e o **clã Ro caiu em 809 P.D., há 26 anos** (substitui o «há 27 anos» da decisão de 2026-09-21; a idade do Baeshra continua a bater: 7 na queda, 33 no *wish*). As datas do Caderno Volstrucker (versão anterior) ficam como estão.
+2. **A rota do rubídio.** O **canal da Assembleia** é o do norte (Bazzoxan → Jigau → Urzin → Império). Há um **ramal para sul, por Asarius, até Decrépola** (Rotthold), para o mercado negro e para a célula secreta da Assembleia em Decrépola. O **primeiro lote**, antes do canal, chegou a Decrépola **por mar, de Marquet**. Corrigido em `f-myriad`, `r-myriad-route`, `docs/lore.md` e `docs/pcs.md`.
+3. **Decrépola e os contactos dos irmãos Bruma**: o receptador **Ossório Lume** (Miríade, Mercado Vermelho) e o **Remendo** (tripulação da Marisa, no Cais; é o fio para a Marisa). Handout em `docs/handouts.md`. Os dois nomes foram inventados na conversa e podem mudar.
+4. **O Vigost é do culto de Ceratos, mas não enviou o Fritz: estuda as motivações dele.** Os jogadores não sabem. Ficha `c-vigost`; patches em `c-alonne-frith` e `f-culto-ceratos`.
+5. **Glossário pt-PT** fechado e copiado para [`docs/glossario.md`](glossario.md). Aplicado em `docs/lore.md` e `docs/handouts.md`; o resto dos dados ainda usa alguns nomes antigos (ver o fim do glossário).
+6. **Facções para os jogadores:** não há documento de facções. O DM sugere as ligações a cada jogador, por alto e sem nomes.
+
+## Sessão 4 (#86, 2026-09-23) — por registar
+
+Jogada, com a **Lia** (Camila) a entrar. No Drive só há o vídeo, o áudio e a preparação (`sessao-04-preparacao_v2.md`), que entrou no repositório como **preparação por confirmar**: `b-0-patrulha-imperio` e as fichas da patrulha. **Falta a transcrição** (WhisperX, como nas sessões 1–3) para escrever o resumo em `docs/sessoes/` e este registo.

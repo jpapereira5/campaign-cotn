@@ -1,22 +1,22 @@
 # Lore de Exandria usado na mesa
 
-Resumos do DM (traduções da wiki de Critical Role e do EGtW) que não cabem nos dados da campanha. Marcado "".
+Resumos do DM (traduções da wiki de Critical Role e do EGtW) que não cabem nos dados da campanha. Os nomes seguem [`docs/glossario.md`](glossario.md); a campanha passa-se em **835 P.D.**
 
 ## História de Exandria (páginas "História")
 
 - **A Fundação (>1500 AD)** — primeira era: os deuses criam seres; guerra contra os Titãs Primordiais divide-os em Divindades Primárias e Deuses Traidores; termina com a derrota dos Primordiais e dos Traidores.
 - **Idade do Arcano (1500 AD – 200 AD)** — segunda era; os mortais testam o poder arcano, desafiam os deuses e libertam os Traidores; "Era da Necromancia Desenfreada" (sem leis contra a prática).
-- **A Calamidade (200 AD – 0 PD)** — guerra entre deuses e mortais; termina com os Primordiais a selar os irmãos e a si próprios atrás do Portão Divino; um herói esquecido escolhido por três Primordiais (Alyxian).
-- **A Divergência (Ano 0)** — retirada dos Primordiais do Plano Material; Portão Divino.
-- **Era da Reclamação (0 PD – 836 PD)** — começa com a Batalha de Ghor Dranas; calendário PD ("Pós-Divergência").
+- **A Calamidade (200 AD – 0 PD)** — guerra entre deuses e mortais; termina com as Divindades Primárias a selar os Deuses Traidores e a si próprias atrás do Portão Divino; um herói esquecido escolhido por três Divindades Primárias (Alyxian).
+- **A Divergência (Ano 0)** — retirada das Divindades Primárias do Plano Material; Portão Divino.
+- **Era da Reclamação (0 PD – 835 PD)** — começa com a Batalha de Ghor Dranas; calendário PD ("Pós-Divergência").
 
 ## Divindades (páginas "Divindades Primárias"; traduções da wiki de Critical Role)
 
 Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 
-- **Bahamut, o Dragão de Platina** — deus dos dragões bondosos/metálicos, inimigo de Tiamat (a Tirana Escamada); símbolo: escudo com cabeça de dragão platinado de perfil.
-- **Erathis, a Guardiã das Leis** — civilização e leis; encapuzada em armadura num trono de pilares; esposa de Melora (os humanos nasceram dessa paixão); odiada por Zehir; despreza o Imperador da Discórdia. Mandamentos: trabalha com os outros; leva a civilização aos ermos; respeita a invenção.
-- **Kord, o Senhor da Tempestade** — tempestades, batalha e guerra; venerado nos Braving Grounds (Vasselheim) e por marinheiros da Costa da Menagerie; **culto proibido no Império Dwendaliano**. Mandamentos: coragem antes de tudo; força com responsabilidade; glória no campo de batalha.
+- **Bahamut, o Dragão de Platina** — deus dos dragões bondosos/metálicos, inimigo de Tiamat (a Tirana das Escamas); símbolo: escudo com cabeça de dragão platinado de perfil.
+- **Erathis, a Portadora da Lei** — civilização e leis; encapuzada em armadura num trono de pilares; esposa de Melora (os humanos nasceram dessa paixão); odiada por Zehir; despreza o Imperador do Conflito. Mandamentos: trabalha com os outros; leva a civilização aos ermos; respeita a invenção.
+- **Kord, o Senhor da Tempestade** — tempestades, batalha e guerra; venerado nos Braving Grounds (Vasselheim) e por marinheiros da Costa das Maravilhas; **culto proibido no Império Dwendaliano**. Mandamentos: coragem antes de tudo; força com responsabilidade; glória no campo de batalha.
 - **Moradin, o Martelo Supremo** — forja, criação, família e legado; Bigorna Primordial sob o vulcão Scaldseat; símbolo: martelo com rostos de anões / bigorna. Mandamentos: firmeza; honra o clã; o legado é tudo.
 - **Pelor, o Pai da Alvorada** — sol, verão, agricultura; estrela em chamas no lugar da cabeça. Mandamentos: vigilância contra o mal; alivia o sofrimento dos inocentes; leva a luz com compaixão.
 - **Sarenrae, a Luz Eterna (Raei)** — redenção, cura, temperança; divindade menor que se sobrepõe a Pelor; traída por Asmodeus no início da Calamidade. Mandamentos: guia com misericórdia; auxilia os sem rumo; os irredimíveis eliminam-se com justiça célere.
@@ -40,7 +40,7 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 
 ## Ruidus, Predathos e a Weave Mind (canon Critical Role, campanha 3)
 
-- Ruidus, a lua vermelha, é a prisão de **Predathos**, o devorador de deuses. Os **Ruidusborn** nascem durante um *flare* de Ruidus; os **Exaltants** são o vaso de que Predathos precisa. Na lua vivem a **Weave Mind** e os seus **reilora**. Ludinus Da'leth (o fundador vivo mais antigo da Cerberus Assembly) fundou a Ruby Vanguard para libertar Predathos; o solstício em que o tenta é em 843 PD — a campanha passa-se em 836 PD.
+- Ruidus, a lua vermelha, é a prisão de **Predathos**, o devorador de deuses. Os **Ruidusborn** nascem durante um *flare* de Ruidus; os **Exaltants** são o vaso de que Predathos precisa. Na lua vivem a **Weave Mind** e os seus **reilora**. Ludinus Da'leth (o fundador vivo mais antigo da Cerberus Assembly) fundou a Ruby Vanguard para libertar Predathos; o solstício em que o tenta é em 843 PD — a campanha passa-se em 835 PD.
 - **DM**: a "Lua Vermelha" que a caravana do Quasi venera é Predathos, abafado; quem lhe põe palavras é a Weave Mind através do reilora Vesq'ar, que não tem corpo em Exandria e fala de Ruidus. O mesmo intérprete está por cima dos cinco mestres do Consortium of the Vermilion Dream. Ruby Vanguard e Consórcio não têm ligação canónica; a ponte nos nossos dados é a Cerberus Assembly a comprar ruidium em Bazzoxan pela Míriade.
 
 ## Obeliscos negros (DM)
@@ -50,7 +50,7 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 
 ## Baeshra e o clã Ro (DM; fonte: a lenda original da Renata)
 
-- **Ssarik-Ro**, do clã Ro — lizardfolk caçadores-recolectores do Véu-Quebrado, na vila que hoje é o Sunken Boneyard (B3), em cima dos crânios do cemitério das tartarugas-do-horizonte («as irmãs mortas do Guardião do Musgo» é a maneira de lhes chamar em geral; há-as maiores e mais pequenas, e o tamanho não quer dizer nada). Em **809 PD** a Dinastia deu ordem de pacificação ao clã, que sabotava linhas de abastecimento; executou-a **Durth Mirimm (Duarte Mirim)**, então comandante de campo, hoje Intendente de Jigau — e foi promovido a administrador da região que limpou. O rapaz, de 7 anos, estava na Prova da Força e chegou tarde. Ficou meses; fez um altar de criança à lenda do clã, o **Grande Devorador** (uma lenda de um apocalipse futuro), riscou o próprio nome e escreveu "Baeshra" por baixo; deixou lá a adaga do oficial, que ficara cravada no peito do pai. Depois: vilas humanas, prisão, evasão, esclavagistas em Jorhas, 8 anos de arena em Asarius, Zealot pela fé em si, o wish de Vecna aos 33, em **835 PD**. **É deus há um ano** — e o nome de quem matou o clã chegou-lhe com a divindade, dado pela mesma via que lhe deu o poder.
+- **Ssarik-Ro**, do clã Ro — lizardfolk caçadores-recolectores do Véu-Quebrado, na vila que hoje é o Sunken Boneyard (B3), em cima dos crânios do cemitério das tartarugas-do-horizonte («as irmãs mortas do Guardião do Musgo» é a maneira de lhes chamar em geral; há-as maiores e mais pequenas, e o tamanho não quer dizer nada). Em **809 PD** a Dinastia deu ordem de pacificação ao clã, que sabotava linhas de abastecimento; executou-a **Durth Mirimm (Duarte Mirim)**, então comandante de campo, hoje Intendente de Jigau — e foi promovido a administrador da região que limpou. O rapaz, de 7 anos, estava na Prova da Força e chegou tarde. Ficou meses; fez um altar de criança à lenda do clã, o **Grande Devorador** (uma lenda de um apocalipse futuro), riscou o próprio nome e escreveu "Baeshra" por baixo; deixou lá a adaga do oficial, que ficara cravada no peito do pai. Depois: vilas humanas, prisão, evasão, esclavagistas em Jorhas, 8 anos de arena em Asarius, Zealot pela fé em si, o wish de Vecna aos 33, em **835 PD**. **É deus há poucos meses** — e o nome de quem matou o clã chegou-lhe com a divindade, dado pela mesma via que lhe deu o poder.
 - **Hesskar-Ro**, o único sobrevivente adulto, vive velho em Urzin; o filho é o **Morgid** (lizardfolk), o guia do prólogo. O clã de **Skr'a S'orsk** (Sess'inek) ocupou o Boneyard depois e nunca tocou no altar; Skr'a morreu na **sessão 2** (#83) e foi saqueado na sessão 3. **Jogado na sessão 3 (#84):** o Lucan tirou a adaga do altar e sonhou a origem toda pelos olhos do rapaz — a aldeia queimada, o pai com a lâmina no peito, o corpo arrastado até ao crânio mais pequeno, os dias a esculpir o crânio cornudo, o nome riscado e «Baeshra» por cima. Não lhe deram o nome do clã nem a ligação ao Baeshra que venera (ver `docs/canone.md`).
 
 ## Sess'inek, o Emperor Lizard (canon + DM)
@@ -76,6 +76,17 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 
 ## Geografia
 
-- **Os Mares Gelados / Golfo Esmeralda** — locais novos (`l-mares-gelados`, `l-golfo-esmeralda`); **Monte-Selvagem** é só o mapa (Wildemount_Poster_Map_25.webp).
+- **Os Mares Gelados / Golfo Esmeralda** — locais novos (`l-mares-gelados`, `l-golfo-esmeralda`); **Monte Selvagem** é só o mapa (Wildemount_Poster_Map_25.webp).
 - **Jigau, Urzin, Pântano do Véu-Quebrado, Desterros de Jorhas** — traduções do livro/EGtW com dados (população, clãs, gancho "Batalha dos Fanfarrões"); nos patches de local.
 - **Clãs Gakthash, Norgab, Shoomat, Uvuroh, Zetek** — páginas de facção só com título; registados no patch de `l-jigow` (goblins: Gakthash, Uvuroh, Zetek; orcs: Norgab, Shoomat).
+
+## Decrépola (Rotthold) e o rubídio que desce do norte (DM, 2026-10-01)
+
+Fonte: o documento «Decrépola (Rotthold)» da Drive (2025), as notas de DM «Decrépola — contactos dos Bruma v2» e o handout dos irmãos (`docs/handouts.md`). Local: `l-decrepola`.
+
+- **A cidade.** Porto sem lei na Costa das Pragas, com 8.800 habitantes (30% humanos, 15% drow, 15% goblins, 15% tieflings, 5% Ocultos, 20% outros). Não tem muralhas, só **onze torres de vigia**. Um musgo cor de ferrugem cobre tudo e à noite brilha vermelho. Não há governo: líderes de guildas, comerciantes e aventureiros reúnem-se às escondidas uma vez por semana. É o coração do mercado negro do leste de Wynandir. Quem manda no dia-a-dia é uma aliança frágil entre a **Miríade** (o comércio da cidade) e a **Folia** (o Cais e as águas a sul, com os homens do Rei da Prancha); uma **célula secreta da Assembleia de Cerberus** faz negócios em completo segredo. Bairros: **Decrépola Norte** (o mais pobre, à mercê da fauna da Costa), **Decrépola Leste** (o **Mercado Vermelho**), **o Cais** (da Folia, a zona rica) e **a Colina das Catacumbas** (cemitério sobre catacumbas anteriores à Calamidade, onde os agentes se encontram).
+- **A cadeia do rubídio.** O **primeiro lote** chegou por mar, de Marquet: um navio com «carga das profundezas» e metade da tripulação com manchas vermelhas nas mãos. Foi desse navio que o **Fritz** comprou o cristal, e foi aí que os **irmãos Bruma** deram com o rubídio. Agora a Miríade **traz** o rubídio **do norte de Jorhas** (o que sai da Ascensão e o que dá à costa no Golfo Esmeralda): o **canal da Assembleia** segue pelo norte (Bazzoxan → Jigau → Urzin → Império) e há um **ramal para sul, por Asarius, até Decrépola**, para o mercado negro e para a célula da Assembleia. Os irmãos subiram o ramal ao contrário (Decrépola → Asarius → Urzin). O handout só diz «o norte»: Jigau e Bazzoxan ficam para os jogadores investigarem.
+- **Ossório Lume** (`c-ossorio-lume`), receptador da Miríade no Mercado Vermelho: vende ao **Vigost** e à célula da Assembleia (que compra para a Tversky; canon: a Tversky contratava a Miríade para lhe trazer espécimes). Viu o Fritz entrar na Colina das Catacumbas mais de uma vez.
+- **Remendo** (`c-remendo`), da tripulação da **Marisa Sete-Ventos**, no Cais: é o fio para a Marisa. Reconheceu a tatuagem do anzol do Isco e conta-lhe depois que viu a tatuagem do Ruín num homem meio peixe.
+- **Vigost** (`c-vigost`), «o velho das catacumbas»: guarda registos escassos da maldição de Ruidus. **É do culto de Ceratos** (os jogadores não sabem). **Não enviou o Fritz: estuda-o.** Um homem que morreu, voltou e quer arrancar a filha à morte pela força da vontade é o que o Ceratos promete. O Vigost dá-lhe o que ele procura (Ruidus, os registos, Bazzoxan) e toma notas. «O Vigost tinha razão», nas notas do Fritz, é a voz de um aluno que julga ter encontrado um mestre.
+- **Três pistas para o Forte Ventura** (no handout, sem nomes): o homem pálido de casaco de caçador (o Fritz), o pano com a esfera de olhos desencontrados (o Ceratos) e o velho das catacumbas que compra pedras esquisitas (o Vigost).

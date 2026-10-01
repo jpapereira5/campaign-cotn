@@ -1,0 +1,71 @@
+[
+  {
+    "id": "b-0-patrulha-imperio",
+    "title": "PREPARADO (sessão 4) · A Patrulha do Forte Ventura",
+    "arcs": [
+      "a-prologue",
+      "a-pc-lia"
+    ],
+    "chapter": "ch0",
+    "order": 24,
+    "location": "l-brokenveil-marsh",
+    "participants": [
+      "c-corvelo",
+      "c-casqueiro",
+      "c-nalia-vasques",
+      "c-elmiro-trigueiro",
+      "c-lampreia",
+      "c-damiao-prestes",
+      "c-pc-lia",
+      "c-alberto-gnomis",
+      "c-morgid"
+    ],
+    "summary": "PREPARAÇÃO da sessão 4 (sessao-04-preparacao_v2.md, Drive, 2026-09-23); por confirmar com a transcrição. O encontro garantido do cliffhanger da sessão 3 (d20 = 18, tarde do dia 2): a Terceira Lança do Forte Ventura, perdida há dois dias, com uma prisioneira drow amarrada numa jangada para o Padre Perestrelo. É a Lia (Camila), que se deixou apanhar para entrar no forte. Abre com as aves a fugir de leste (presságio do dia 2 do relógio da Bolbara). Três vontades e um intermediário: o Corvelo quer chegar a casa e entregar a prisioneira; a Lia quer chegar ao forte; o Alberto joga os dois lados às escondidas (detect thoughts; message à Nália: «o gnomo é da Assembleia»). É a primeira vez que a mesa ouve falar do forte. Menu de informação: guarnição de trinta e poucos, metade doente; o Felmont manda menos do que devia; uma goblin velha acorrentada na capela que o Padre não deixa morrer; o Padre veio de fora e o comandante tem medo dele; outro prisioneiro «que não pisca» (o Fritz); palavra-passe «Cinza-Doze», já errada; carregamento pelo norte dentro de quatro dias; livro de registos. Despojos: seis uniformes, selo de marcha, ordem de marcha (handout por escrever), folha do acólito (handout por escrever), a jangada, o apito, as duas chaves, o saco com o equipamento da Lia, a trança branca.",
+    "reveals": [
+      "r-bolbara-possessed",
+      "r-how-to-save-bolbara"
+    ],
+    "requires": [
+      "b-0-boneyard-altar"
+    ],
+    "choices": [
+      {
+        "label": "Contrato de guias / escolta em conjunto",
+        "outcome": "Persuasão DC 15 (13 depois das aves); 30 po; chegam ao forte com a patrulha e com a jangada.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Entrega negociada",
+        "outcome": "Pelo Alberto (transferência para «a Assembleia») ou pela Lia (o que faz fugir as aves): a drow, a jangada e direcções; entram no forte esperados, e o Padre Perestrelo quer conhecer o gnomo.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Libertação de noite",
+        "outcome": "Gasta o entardecer do dia 2 e a noite; sobra só o dia 3.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Emboscada",
+        "outcome": "A Lampreia dispara das costas; o apito chama os quatro lizardfolk e uma busca do forte; perde-se o salvo-conduto e a escolta.",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      },
+      {
+        "label": "Deixar passar",
+        "outcome": "A Lia vai para a cela V8, ao lado do Fritz, que lhe fala por telepatia; o Morgid escreve na lousa «6 soldados. 1 prisioneira. Forte.».",
+        "leadsTo": [
+          "b-0-fort-venture"
+        ]
+      }
+    ],
+    "notes": "[a decidir na preparação] o que a Lia viu das Falésias; pertences escondidos por ela (B, recomendado) ou com o acólito (A); regra da jangada (com o Morgid poupa um terço; sem ele, Sobrevivência DC 15 por terço). O selo da Alma de Cobalto em mãos imperiais deixa rasto até ao Arquivo de Rexxentrum (a preparação dizia Valley Archive, da versão antiga de Zadash). Depois da sessão: registar em docs/canone.md o que a mesa confirmou ou mudou.",
+    "source": "dm"
+  }
+]
