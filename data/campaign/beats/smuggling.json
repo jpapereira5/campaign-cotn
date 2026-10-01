@@ -91,7 +91,7 @@
       "c-myriad-couriers",
       "f-aurora-watch"
     ],
-    "summary": "DM: No caravan stop, a patrulha da Vigília da Aurora tem um correio acorrentado (os \"ladrões acorrentados para Bazzoxan\" do portento Kryn): na carroça, uma caixa de minério vermelho e ouro imperial, e uma lista de paragens: Bazzoxan, Jigau, Urzin, Império. O ouro é a única coisa que vem para leste.",
+    "summary": "DM: No caravan stop, a patrulha da Vigia da Aurora tem um correio acorrentado (os \"ladrões acorrentados para Bazzoxan\" do portento Kryn): na carroça, uma caixa de minério vermelho e ouro imperial, e uma lista de paragens: Bazzoxan, Jigau, Urzin, Império. O ouro é a única coisa que vem para leste.",
     "reveals": [
       "r-myriad-route",
       "r-assembly-buys-ruidium"
@@ -131,7 +131,7 @@
       "c-verin-thelyss",
       "c-kalym-telaarin"
     ],
-    "summary": "DM: No refeitório do quartel e no Ready Room corre que uma patrulha trouxe do Rise um farol do Luxon. Verin nega. PROPOSTA: Kalym Telaarin, sacerdote do Luxon, comove-se e quer vê-lo.",
+    "summary": "DM: No refeitório do quartel e no Ready Room corre que uma patrulha trouxe da Ascensão um farol do Luxon. Verin nega. PROPOSTA: Kalym Telaarin, sacerdote do Luxon, comove-se e quer vê-lo.",
     "reveals": [
       "r-beacon-in-barracks"
     ],
@@ -171,7 +171,7 @@
       "c-myriad-bazzoxan-contact",
       "c-bautha-dyrr"
     ],
-    "summary": "DM: O agente da Assembleia já está em Bazzoxan: compra amostras de rubídio pelo contacto da Miríade, sonda Bautha sobre a corrupção, vigia a entrada do Rise e escuta o rumor do farol. Quarto investigador, escondido: qualquer pessoa da vila pode apontar para \"o forasteiro que faz perguntas a mais\".",
+    "summary": "DM: O agente da Assembleia já está em Bazzoxan: compra amostras de rubídio pelo contacto da Miríade, sonda Bautha sobre a corrupção, vigia a entrada da Ascensão e escuta o rumor do farol. Quarto investigador, escondido: qualquer pessoa da vila pode apontar para \"o forasteiro que faz perguntas a mais\".",
     "reveals": [
       "r-assembly-buys-ruidium",
       "r-faction-agendas",
@@ -212,7 +212,7 @@
       "c-myriad-bazzoxan-contact",
       "c-volstrucker-agent"
     ],
-    "summary": "DM: O contacto da Miríade no Ready Room compra o que sai do Rise (o rubídio à volta da entrada) a soldados e aventureiros, e oferece ouro aos PCs pelo que trouxerem. As caixas seguem para oeste todas as semanas; o Volstrucker paga mais do que a Assembleia manda.",
+    "summary": "DM: O contacto da Miríade no Ready Room compra o que sai da Ascensão (o rubídio à volta da entrada) a soldados e aventureiros, e oferece ouro aos PCs pelo que trouxerem. As caixas seguem para oeste todas as semanas; o Volstrucker paga mais do que a Assembleia manda.",
     "reveals": [
       "r-myriad-route",
       "r-ruidium-properties"
@@ -221,7 +221,7 @@
     "choices": [
       {
         "label": "Vender rubídio",
-        "outcome": "DM: ouro; a Miríade e a Assembleia ficam a saber o que os PCs trazem do Rise.",
+        "outcome": "DM: ouro; a Miríade e a Assembleia ficam a saber o que os PCs trazem da Ascensão.",
         "leadsTo": []
       },
       {
@@ -230,7 +230,7 @@
         "leadsTo": []
       }
     ],
-    "notes": "DM: Quarta pista de r-myriad-route. Liga ao rubídio à volta da entrada do Rise (b-3-rise-entrance, Remix).",
+    "notes": "DM: Quarta pista de r-myriad-route. Liga ao rubídio à volta da entrada da Ascensão (b-3-rise-entrance, Remix).",
     "source": "dm"
   },
   {
@@ -248,7 +248,7 @@
       "f-aurora-watch",
       "c-volstrucker-agent"
     ],
-    "summary": "DM: A verdade: uma patrulha de Verin trouxe do Rise um farol do Luxon; está nos dormitórios interditos do Gatehold Barracks, sob guarda, à espera de escolta para Rosohna. Verin só o confia a quem já provou. O Volstrucker sabe e prepara o golpe antes de a escolta partir.",
+    "summary": "DM: A verdade: uma patrulha de Verin trouxe da Ascensão um farol do Luxon; está nos dormitórios interditos do Gatehold Barracks, sob guarda, à espera de escolta para Rosohna. Verin só o confia a quem já provou. O Volstrucker sabe e prepara o golpe antes de a escolta partir.",
     "reveals": [
       "r-beacon-in-barracks"
     ],
@@ -341,7 +341,7 @@
   },
   {
     "id": "b-2-roadside-raiders",
-    "notes": "As seis adagas com nome dão cor; entregar Six-Knives à Vigília da Aurora no caravan stop rende reputação. PROPOSTA: os Road Raiders deixam passar as carroças da Miríade a troco de uma parte (ou não: a decidir pelo DM)."
+    "notes": "As seis adagas com nome dão cor; entregar Six-Knives à Vigia da Aurora no caravan stop rende reputação. PROPOSTA: os Road Raiders deixam passar as carroças da Miríade a troco de uma parte (ou não: a decidir pelo DM)."
   },
   {
     "id": "b-3-barracks-verin",
@@ -353,6 +353,6 @@
   },
   {
     "id": "b-3-wall-unforgotten",
-    "notes": "NOTAS DE DM (extração + Remix): Coração emocional da vila; Kalym não tem informação útil sobre o Rise. Remix: Question pode estar aqui a deixar uma oferenda (fez e perdeu amigos em Bazzoxan), uma terceira pista para a encontrar. Os rivais podem cumprir aqui um objetivo próprio (Dermot e o Luxon). PROPOSTA: Kalym, sacerdote do Luxon, ouviu o rumor do farol e quer vê-lo; pode ser a primeira pista de r-beacon-in-barracks."
+    "notes": "NOTAS DE DM (extração + Remix): Coração emocional da vila; Kalym não tem informação útil sobre a Ascensão. Remix: Question pode estar aqui a deixar uma oferenda (fez e perdeu amigos em Bazzoxan), uma terceira pista para a encontrar. Os rivais podem cumprir aqui um objetivo próprio (Dermot e o Luxon). PROPOSTA: Kalym, sacerdote do Luxon, ouviu o rumor do farol e quer vê-lo; pode ser a primeira pista de r-beacon-in-barracks."
   }
 ]

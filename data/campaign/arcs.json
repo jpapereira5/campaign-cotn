@@ -21,15 +21,15 @@
     "kind": "faction",
     "color": "#8e6bb0",
     "order": 11,
-    "summary": "DM: A Miríade monta um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império (rubídio para oeste, só ouro de volta) e vende à Assembleia de Cerberus ou a quem der mais."
+    "summary": "DM: A Miríade monta um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império (rubídio para oeste, só ouro de volta) e vende à Assembleia de Cerebrus ou a quem der mais."
   },
   {
     "id": "a-cerberus",
-    "name": "Assembleia de Cerberus (Volstruckers)",
+    "name": "Assembleia de Cerebrus (Volstruckers)",
     "kind": "faction",
     "color": "#7d8597",
     "order": 12,
-    "summary": "DM: A Assembleia recebe rubídio pela Miríade para o esforço de guerra; o seu Volstrucker em Bazzoxan investiga o rubídio de perto e o farol do Luxon recuperado no Betrayers' Rise."
+    "summary": "DM: A Assembleia recebe rubídio pela Miríade para o esforço de guerra; o seu Volstrucker em Bazzoxan investiga o rubídio de perto e o farol do Luxon recuperado na Ascensão dos Traidores."
   },
   {
     "id": "a-pc-quasi",

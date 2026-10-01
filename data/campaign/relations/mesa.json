@@ -110,7 +110,7 @@
     "from": "c-tripulacao-passo-lento",
     "to": "f-aurora-watch",
     "type": "memberOf",
-    "label": "Vetra Zun'sar e Dozak Ul'tar são guardas da Vigília da Aurora que vigiam Fritz",
+    "label": "Vetra Zun'sar e Dozak Ul'tar são guardas da Vigia da Aurora que vigiam Fritz",
     "source": "dm"
   },
   {
@@ -427,7 +427,7 @@
     "from": "c-durahk-braco-de-ferro",
     "to": "f-aurora-watch",
     "type": "ally",
-    "label": "ex-mestre de forja da Vigia; o clã Norgab tem relação directa com a Vigia",
+    "label": "ex-mestre de forja da Vigia; o clã Norgab tem relação direta com a Vigia",
     "source": "dm"
   },
   {
@@ -799,7 +799,7 @@
     "from": "c-nara-sol",
     "to": "f-aurora-watch",
     "type": "knows",
-    "label": "o duo Maré de Fogo foi contratado pela Vigília da Aurora em Bazzoxan",
+    "label": "o duo Maré de Fogo foi contratado pela Vigia da Aurora em Bazzoxan",
     "source": "dm"
   },
   {

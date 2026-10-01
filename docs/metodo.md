@@ -29,8 +29,8 @@ Este documento explica o modelo por trás da app e como o usar para preparar *Ca
 
 Pistas (lanes na linha temporal):
 - **Prólogo — Unwelcome Spirits**: Urzin → Pântano do Véu-Quebrado → Forte Ventura → exorcismo de Bol'bara (relógio de 3 dias). Fios para CotN: Kryn vs Império, Jorhas, operativos Kryn reparam nos PCs.
-- **A Jewel of Three Prayers**: Dormant (Emerald Grotto, E12) → Awakened (Betrayers' Rise, R16) → Exalted (Temple of the Coração Arcano, M9) → abre o rift e N22a.
-- **Lore de Alyxian**: puxar as 20 visões do Netherdeep para trás — murais no Grotto, Betrayers' Rise, Question's sketchbook, Olara, Hadarai, M10 — para que os jogadores tenham opiniões fortes e divergentes sobre Alyxian *antes* de Ank'Harel. Pré-estabelecer Perigee.
+- **A Jewel of Three Prayers**: Dormant (Emerald Grotto, E12) → Awakened (Ascensão dos Traidores, R16) → Exalted (Temple of the Coração Arcano, M9) → abre o rift e N22a.
+- **Lore de Alyxian**: puxar as 20 visões do Netherdeep para trás — murais no Grotto, Ascensão dos Traidores, Question's sketchbook, Olara, Hadarai, M10 — para que os jogadores tenham opiniões fortes e divergentes sobre Alyxian *antes* de Ank'Harel. Pré-estabelecer Perigee.
 - **Rubídio**: aparece em todos os sítios do Apotheon; corrupção; tentação mecânica; três agendas (armar/vender, monopólio/estudo, destruir/selar).
 - **Rivais**: cinco modos de ação (parceria / seguem os PCs / independentes / saem / roubam a Jewel) e o **Princípio da Oposição**: a atitude decide o *tom* do desacordo (negociação agressiva / debate / discussão), não a opinião. Se não há forma de os rivais discordarem numa secção, os PCs não têm informação suficiente para ter opinião.
 - **Allegiance of Allsight / Consortium of the Vermilion Dream / Alma de Cobalto**: cada uma com um investigador em Bazzoxan que é a "cara" da fação (Prolix / Aloysia / Question); missões como competição entre fações; controlo territorial de Cael Morrow; as sextas missões da Aliança e do Consórcio são impossíveis por desenho, só a da Alma de Cobalto se ganha.
@@ -39,7 +39,7 @@ Pistas (lanes na linha temporal):
 
 ## 4. Como preparar com a app
 
-1. **Antes da campanha**: cria os PCs na vista "PCs"; escreve 1-3 ambições por PC e liga cada uma a NPCs, arcos e beats. Corrige os avisos de "capítulo sem cena pessoal". Ganchos prontos: rivalidade com um rival; parentesco/dívida em Jigau; Kryn/Vigília da Aurora; ambição académica (Aliança), oculta (Consórcio) ou de justiça (Alma de Cobalto); tentação do rubídio; ligação a Sehanine/Avandra/Corellon; um "Perigee" pessoal.
+1. **Antes da campanha**: cria os PCs na vista "PCs"; escreve 1-3 ambições por PC e liga cada uma a NPCs, arcos e beats. Corrige os avisos de "capítulo sem cena pessoal". Ganchos prontos: rivalidade com um rival; parentesco/dívida em Jigau; Kryn/Vigia da Aurora; ambição académica (Aliança), oculta (Consórcio) ou de justiça (Alma de Cobalto); tentação do rubídio; ligação a Sehanine/Avandra/Corellon; um "Perigee" pessoal.
 2. **Por sessão**: na vista "Sessão" vê "o que vem a seguir por pista"; escolhe 2-4 beats de pistas diferentes (um do principal, um dos rivais, um de fação, um pessoal) e 3-5 pistas de revelações a semear. Depois da sessão marca beats jogados, revelações percebidas, atitudes dos rivais e portentos que avançaram.
 3. **Entre capítulos**: na vista "Frentes" avança os portentos das fações que os PCs ignoraram; nas "Relações" com o capítulo atual escolhido em cima vê que relações estão ativas e onde há NPCs isolados; na "Linha temporal" em modo "jogado" vê a teia a fechar-se.
 4. **Amigos e inimigos rastreados, não pré-escritos**: regista (flags, atitudes, notas) qual investigador os PCs ajudaram/traíram em Bazzoxan; esse torna-se o vilão emergente que tenta roubar a Jewel; a fação dos rivais é a oposta à dos PCs e torna-se o encontro proactivo em Ank'Harel.

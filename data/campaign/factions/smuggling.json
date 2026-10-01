@@ -3,7 +3,7 @@
     "id": "f-myriad",
     "name": "Miríade",
     "motto": "",
-    "agenda": "DM: Sindicato criminoso de Monte Selvagem (EGtW: Port Damali, Costa das Maravilhas). Está a montar um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império: rubídio para oeste, só ouro de volta (o canal da Assembleia). DM (2026-10-01): há um ramal para sul, do norte de Jorhas por Asarius até Decrépola (Rotthold), para o mercado negro e para a célula secreta da Assembleia; lá o recetador é o Ossório Lume. O primeiro lote, antes do canal, chegou a Decrépola por mar, de Marquet. Cliente principal: a Assembleia de Cerberus; mas vende a quem der mais.",
+    "agenda": "DM: Sindicato criminoso de Monte Selvagem (EGtW: Port Damali, Costa das Maravilhas). Está a montar um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império: rubídio para oeste, só ouro de volta (o canal da Assembleia). DM (2026-10-01): há um ramal para sul, do norte de Jorhas por Asarius até Decrépola (Rotthold), para o mercado negro e para a célula secreta da Assembleia; lá o recetador é o Ossório Lume. O primeiro lote, antes do canal, chegou a Decrépola por mar, de Marquet. Cliente principal: a Assembleia de Cerebrus; mas vende a quem der mais.",
     "publicFace": "DM: Sem caras: viajantes, mercadores e correios. Em Urzin a porta é a Névoa do Brejo (loja de ervas); em Jigau um recetador; em Bazzoxan um contacto no Ready Room. A liderança de Urzin fica de fora.",
     "leaders": [],
     "allies": [
@@ -24,11 +24,11 @@
       },
       {
         "chapter": "ch2",
-        "text": "DM: Correios na estrada; a Vigília da Aurora prende um deles (os \"ladrões acorrentados\" do portento Kryn) e a Miríade muda o percurso."
+        "text": "DM: Correios na estrada; a Vigia da Aurora prende um deles (os \"ladrões acorrentados\" do portento Kryn) e a Miríade muda o percurso."
       },
       {
         "chapter": "ch3",
-        "text": "DM: O contacto de Bazzoxan compra o que sai do Rise; caixas semanais para oeste. Se o Volstrucker roubar o farol, vai nas mesmas caixas."
+        "text": "DM: O contacto de Bazzoxan compra o que sai da Ascensão; caixas semanais para oeste. Se o Volstrucker roubar o farol, vai nas mesmas caixas."
       },
       {
         "chapter": "ch4",

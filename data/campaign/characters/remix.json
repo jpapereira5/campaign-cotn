@@ -35,9 +35,9 @@
       "ch3",
       "ch4"
     ],
-    "summary": "DM: Agente Volstrucker da Assembleia de Cerberus (Império Dwendaliano), já instalado em Bazzoxan quando os PCs chegam. Investiga o rubídio de perto (compra amostras pelo contacto da Miríade, sonda Bautha sobre a corrupção, vigia a entrada do Rise) e o rumor do farol do Luxon recuperado no Rise. Em conluio com Aloysia Telfan, é quem tenta roubar a Jóia.",
+    "summary": "DM: Agente Volstrucker da Assembleia de Cerebrus (Império Dwendaliano), já instalado em Bazzoxan quando os PCs chegam. Investiga o rubídio de perto (compra amostras pelo contacto da Miríade, sonda Bautha sobre a corrupção, vigia a entrada da Ascensão) e o rumor do farol do Luxon recuperado na Ascensão. Em conluio com Aloysia Telfan, é quem tenta roubar a Jóia.",
     "goal": "Levar rubídio e o farol para a Assembleia (esforço de guerra); a Jóia, se estiver ao alcance.",
-    "secret": "É a agente da Assembleia na ponta de Bazzoxan do canal da Miríade: paga o que sai do Rise. O conluio com Aloysia é oportunismo: o Consortium e a Assembleia querem a Jóia por razões diferentes.",
+    "secret": "É a agente da Assembleia na ponta de Bazzoxan do canal da Miríade: paga o que sai da Ascensão. O conluio com Aloysia é oportunismo: o Consortium e a Assembleia querem a Jóia por razões diferentes.",
     "wants": "Rubídio; o farol; a Jóia; discrição.",
     "fears": "Ser reconhecida em território Kryn; que a Miríade venda ao Consortium ou à Kryn.",
     "states": [
@@ -73,7 +73,7 @@
     "states": [
       {
         "fromBeat": "b-2-ruins-outside-bazzoxan",
-        "state": "DM: primeiro encontro: com a patrulha da Vigília da Aurora nas Ruins of Sorrow; observa quem recebe a visão; leva uma lasca de rubídio do centro; fica fixada na Jóia desde já se os PCs lhe contarem"
+        "state": "DM: primeiro encontro: com a patrulha da Vigia da Aurora nas Ruins of Sorrow; observa quem recebe a visão; leva uma lasca de rubídio do centro; fica fixada na Jóia desde já se os PCs lhe contarem"
       },
       {
         "fromBeat": "b-3-aloysia-offer",
@@ -117,7 +117,7 @@
       },
       {
         "fromBeat": "b-3-hall-of-holes",
-        "state": "PROPOSTA (Remix). representada nos baixos-relevos do Rise ao lado de Alyxian"
+        "state": "PROPOSTA (Remix). representada nos baixos-relevos da Ascensão ao lado de Alyxian"
       },
       {
         "fromBeat": "b-6-n1-arrival",

@@ -11,7 +11,7 @@
     "goal": "Vender ervas e manter-se fora de sarilhos.",
     "secret": "Sabe onde o viajante dorme e o que ele compra.",
     "wants": "Clientes; que ninguém lhe feche a loja.",
-    "fears": "Buhfal; a Vigília da Aurora.",
+    "fears": "Buhfal; a Vigia da Aurora.",
     "states": [
       {
         "fromBeat": "b-0-nevoa-do-brejo",
@@ -38,7 +38,7 @@
     "goal": "Acertar a rota e os pontos de entrega; seguir para Jigau.",
     "secret": "Compra pedras vermelhas e paga passagem para oeste.",
     "wants": "Discrição; guias que não façam perguntas.",
-    "fears": "Buhfal descobrir; a Vigília da Aurora.",
+    "fears": "Buhfal descobrir; a Vigia da Aurora.",
     "states": [
       {
         "fromBeat": "b-0-nevoa-do-brejo",
@@ -69,7 +69,7 @@
     "goal": "Comprar rubídio barato; mandar a primeira remessa.",
     "secret": "PROPOSTA: oferece ouro pela amostra da gruta que os PCs tragam.",
     "wants": "Pedras vermelhas; silêncio.",
-    "fears": "Durth Mirimm e a Vigília da Aurora.",
+    "fears": "Durth Mirimm e a Vigia da Aurora.",
     "states": [
       {
         "fromBeat": "b-1-myriad-jigow",
@@ -93,7 +93,7 @@
       "ch2",
       "ch3"
     ],
-    "summary": "DM: Os correios que levam as caixas para oeste pelo Emerald Loop e pelo Hallowed Path. Um deles é preso pela patrulha da Vigília da Aurora (os \"ladrões acorrentados\" do portento Kryn) com minério vermelho e ouro imperial.",
+    "summary": "DM: Os correios que levam as caixas para oeste pelo Emerald Loop e pelo Hallowed Path. Um deles é preso pela patrulha da Vigia da Aurora (os \"ladrões acorrentados\" do portento Kryn) com minério vermelho e ouro imperial.",
     "goal": "Chegar ao Império com a carga.",
     "secret": "Trazem a lista da rota: Bazzoxan, Jigau, Urzin, Império.",
     "wants": "Passar despercebidos.",
@@ -121,8 +121,8 @@
     "chapters": [
       "ch3"
     ],
-    "summary": "DM: Contacto da Miríade instalado no Ready Room. Compra o que sai do Rise (rubídio à volta da entrada) a soldados e aventureiros e passa-o ao Volstrucker ou para as caixas que seguem para oeste.",
-    "goal": "Comprar tudo o que sai do Rise; caixas semanais.",
+    "summary": "DM: Contacto da Miríade instalado no Ready Room. Compra o que sai da Ascensão (rubídio à volta da entrada) a soldados e aventureiros e passa-o ao Volstrucker ou para as caixas que seguem para oeste.",
+    "goal": "Comprar tudo o que sai da Ascensão; caixas semanais.",
     "secret": "Sabe que o Volstrucker paga mais do que a Assembleia diz; vende também a quem der mais.",
     "wants": "Rubídio; ouro.",
     "fears": "Verin; Prima Demona reparar em quem lhe paga o quarto.",

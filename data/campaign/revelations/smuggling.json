@@ -14,7 +14,7 @@
   {
     "id": "r-assembly-buys-ruidium",
     "list": "Contrabando",
-    "text": "DM: A Assembleia de Cerberus é o comprador (esforço de guerra); o Volstrucker de Bazzoxan é o seu homem no canal. A Miríade vende a quem der mais.",
+    "text": "DM: A Assembleia de Cerebrus é o comprador (esforço de guerra); o Volstrucker de Bazzoxan é o seu homem no canal. A Miríade vende a quem der mais.",
     "clues": [
       "b-2-myriad-on-the-road",
       "b-3-volstrucker-investigation",
@@ -26,7 +26,7 @@
   {
     "id": "r-beacon-in-barracks",
     "list": "Contrabando",
-    "text": "DM: Foi mesmo recuperado um farol do Luxon no Betrayers' Rise; está no Gatehold Barracks à espera de escolta para Rosohna; Verin nega; o Volstrucker quer-o para o Império.",
+    "text": "DM: Foi mesmo recuperado um farol do Luxon na Ascensão dos Traidores; está no Gatehold Barracks à espera de escolta para Rosohna; Verin nega; o Volstrucker quer-o para o Império.",
     "clues": [
       "b-3-beacon-rumour",
       "b-3-volstrucker-investigation",

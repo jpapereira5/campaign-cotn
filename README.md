@@ -41,7 +41,7 @@ Os ficheiros de uma pasta são concatenados. O que se cria na app vai para `data
 
 ## Usar em vários PCs
 
-A app lê e escreve `data/*.json` directamente no repositório pela API do GitHub. Em **Definições**, cola um *fine-grained personal access token* (GitHub → Settings → Developer settings → Personal access tokens → Fine-grained) com acesso só a este repositório e permissão **Contents: Read and write**. O token fica no `localStorage` do browser; cada "Guardar" faz um commit em `main`. Sem token, a app funciona em modo local com exportar/importar.
+A app lê e escreve `data/*.json` diretamente no repositório pela API do GitHub. Em **Definições**, cola um *fine-grained personal access token* (GitHub → Settings → Developer settings → Personal access tokens → Fine-grained) com acesso só a este repositório e permissão **Contents: Read and write**. O token fica no `localStorage` do browser; cada "Guardar" faz um commit em `main`. Sem token, a app funciona em modo local com exportar/importar.
 
 ## Desenvolvimento
 

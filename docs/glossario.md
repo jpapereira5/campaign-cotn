@@ -65,7 +65,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, os r
 | beacon (Luxon beacon) | farol (pl. faróis); «faróis sagrados» | |
 | consecution | a consecução | |
 | Bright Queen | a Rainha Brilhante | Leylas Kryn |
-| Aurora Watch | a Vigília da Aurora | |
+| Aurora Watch | a Vigia da Aurora | não «Vigília» |
 | dunamancy | dunamancia | |
 | «cricks» (insulto imperial) | grilos | |
 
@@ -75,7 +75,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, os r
 | --- | --- | --- |
 | Dwendalian Empire | o Império Dwendaliano | |
 | the Crown | a Coroa | |
-| Cerberus Assembly | a Assembleia de Cerberus | |
+| Cerberus Assembly | a Assembleia de Cerebrus | grafia escolhida pelo DM |
 | Righteous Brand | a Marca Justa | exército |
 | Crownsguard | a Guarda da Coroa | |
 | Reapers (tithe collectors) | os Ceifeiros | |
@@ -91,7 +91,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, os r
 | Clovis Concord | o Concílio de Clóvis | |
 | Marquis | marquês / marquesa | |
 | the Revelry | a Folia | piratas |
-| Plank King | o Rei da Prancha | o documento de Decrépola (Drive) diz «Rei das Tábuas»: por decidir |
+| Plank King | o Rei da Prancha | não «Rei das Tábuas» |
 | Library of the Cobalt Soul | a Biblioteca da Alma de Cobalto | |
 | expositors | expositores | |
 | the Myriad | a Miríade | |
@@ -108,6 +108,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, os r
 | Deep Row Reef | Recife do Renque Fundo | à mesa: o Renque |
 | Felderwin Tillage | Reguengos de Felderwin | à mesa: os Reguengos |
 | Ashguard Garrison | Guarnição da Cinza | |
+| Betrayers' Rise | a Ascensão dos Traidores | feminino: «na Ascensão», «da Ascensão»; à mesa: a Ascensão |
 | Brokenveil Marsh | Pântano do Véu-Quebrado | com hífen |
 | Greying Wildlands | os Ermos Cinzentos | |
 | Blightshore | a Costa das Pragas | |

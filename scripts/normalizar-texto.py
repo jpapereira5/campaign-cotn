@@ -14,6 +14,17 @@ E = r"(?![\w-])"
 
 # ---------------------------------------------------------------- glossário
 # Ordem importa: expressões longas antes das curtas.
+_ART = {"no": "na", "do": "da", "o": "a", "ao": "à", "pelo": "pela"}
+
+
+def _rise(m):
+    art = _ART[m.group(1).lower()]
+    if m.group(1)[0].isupper():
+        art = art.capitalize()
+    nome = "Ascensão" if m.group(2) == "Rise" else "Ascensão dos Traidores"
+    return f"{art} {nome}"
+
+
 GLOSSARIO = [
     (r"Library of the Cobalt Soul", "Biblioteca da Alma de Cobalto"),
     (r"Cobalt Soul", "Alma de Cobalto"),
@@ -29,12 +40,12 @@ GLOSSARIO = [
     (r"Míriade", "Miríade"),
     (r"The Revelry", "a Folia"),
     (r"Revelry", "Folia"),
-    (r"Aurora Watch", "Vigília da Aurora"),
-    (r"Vigia da Aurora", "Vigília da Aurora"),
-    (r"Cerberus Assembly", "Assembleia de Cerberus"),
-    (r"Assembleia de Cérbero", "Assembleia de Cerberus"),
-    (r"Assembleia Cérbero", "Assembleia de Cerberus"),
-    (r"Assembleia de Cerebrus", "Assembleia de Cerberus"),
+    (r"Aurora Watch", "Vigia da Aurora"),
+    (r"Vigília da Aurora", "Vigia da Aurora"),
+    (r"Cerberus Assembly", "Assembleia de Cerebrus"),
+    (r"Assembleia de Cérbero", "Assembleia de Cerebrus"),
+    (r"Assembleia Cérbero", "Assembleia de Cerebrus"),
+    (r"Assembleia de Cerberus", "Assembleia de Cerebrus"),
     (r"\ba Assembly", "a Assembleia"),
     (r"\bda Assembly", "da Assembleia"),
     (r"\bà Assembly", "à Assembleia"),
@@ -91,6 +102,9 @@ GLOSSARIO = [
     (r"Open Quay", "Porto Franco"),
     (r"Prime Deities", "Divindades Primárias"),
     (r"Divindades Primeiras", "Divindades Primárias"),
+    # Betrayers' Rise > Ascensão dos Traidores (feminino: acerta o artigo antes)
+    (r"\b([Nn]o|[Dd]o|[Oo]|[Aa]o|[Pp]elo) (Betrayers'? Rise|Rise)\b", _rise),
+    (r"Betrayers'? Rise", "Ascensão dos Traidores"),
     (r"Betrayer Gods", "Deuses Traidores"),
     (r"Betrayer God", "Deus Traidor"),
     (r"Divine Gate", "Portão Divino"),
@@ -146,6 +160,8 @@ GRAFIA_RAIZES = [
     ("percepç", "perceç"), ("recepç", "receç"), ("concepç", "conceç"), ("decepç", "deceç"), ("excepç", "exceç"),
     ("fracç", "fraç"), ("atracç", "atraç"), ("extracç", "extraç"), ("transacç", "transaç"), ("interacç", "interaç"),
     ("infracç", "infraç"), ("contracç", "contraç"), ("direccion", "direcion"),
+    ("projecç", "projeç"), ("Projecç", "Projeç"), ("direct", "diret"), ("Direct", "Diret"), ("adopt", "adot"),
+    ("afectiv", "afetiv"), ("recolect", "recolet"),
 ]
 GRAFIA_PALAVRAS = [
     # (padrão sem fronteiras, substituição) — aplicados com \b...\b e sufixos opcionais

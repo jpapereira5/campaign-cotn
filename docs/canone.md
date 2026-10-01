@@ -46,7 +46,7 @@ Corrigidos: `data/campaign/locations/{pcs,zz-mesa-patches}.json` (`l-sunken-bone
 - **A garra e o sonho do Quasi**: na mesma noite em que contempla a garra, sonha que é líder inquestionado de uma caravana. Decidir se é a garra a empurrar (*monkey's paw*) ou só ele — o jogador já disse que o Quasi quer ser questionado, não obedecido, e que o sonho o perturbou por isso.
 - **O sangue de Skr'a**: vermelho quase preto, espesso, com brilho de óleo na água, e cheiro que o Isco liga às entidades de sombra do **Farol Apagado**. Um xamã de pântano com sangue demoníaco pede explicação.
 - **Os dois amuletos por identificar** (disco de ferro com uma lua; mão de madeira com o polegar partido).
-- **Os seis dedos**: se cinco é o posto do rei, de quem é a mão de seis? (Sess'inek tem seis braços e seis espadas: guardar para o Betrayers' Rise.)
+- **Os seis dedos**: se cinco é o posto do rei, de quem é a mão de seis? (Sess'inek tem seis braços e seis espadas: guardar para a Ascensão dos Traidores.)
 - **Lucan contra Quasi**: ameaça de morte explícita no ossário e a adaga por resolver entre os dois.
 - **Encontro garantido** (d20 = 18) no segundo terço do dia 2, a caminho do obelisco, com a torre B4 das aranhas deixada para trás por explorar.
 

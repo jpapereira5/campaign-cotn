@@ -58,7 +58,7 @@
   {
     "id": "r-pc-lucan-obeliscos",
     "list": "Segredos dos PCs",
-    "text": "Há três obeliscos negros (o do mar; a Ritual Stone de Bol'bara no Pântano do Véu-Quebrado; Betrayers' Rise) que rebobinam tempo e têm cada um uma entidade presa (na Ritual Stone, Trush). Ao Lucan mostram a morte dele, um pedaço por obelisco; cada toque acorda-os um pouco.",
+    "text": "Há três obeliscos negros (o do mar; a Ritual Stone de Bol'bara no Pântano do Véu-Quebrado; Ascensão dos Traidores) que rebobinam tempo e têm cada um uma entidade presa (na Ritual Stone, Trush). Ao Lucan mostram a morte dele, um pedaço por obelisco; cada toque acorda-os um pouco.",
     "clues": [
       "b-0-ritual-stone-lucan"
     ],
@@ -67,7 +67,7 @@
   {
     "id": "r-pc-lucan-renegar",
     "list": "Segredos dos PCs",
-    "text": "Renegar Baeshra é possível e devolve a vida ao Lucan — deixa de ser Dhampir, perde a Fera e a fome. O único caminho conhecido é o de Sess'inek, dentro do Betrayers' Rise, e é uma mordida no irmão: uma parte do Isco que não volta a crescer, com o Lucan a escolher onde. A mordida é a renúncia e o regresso à vida ao mesmo tempo — e o preço a sério é ele: fica warlock do Emperor Lizard, com dono novo. Se há saída limpa, ninguém sabe qual é.",
+    "text": "Renegar Baeshra é possível e devolve a vida ao Lucan — deixa de ser Dhampir, perde a Fera e a fome. O único caminho conhecido é o de Sess'inek, dentro da Ascensão dos Traidores, e é uma mordida no irmão: uma parte do Isco que não volta a crescer, com o Lucan a escolher onde. A mordida é a renúncia e o regresso à vida ao mesmo tempo — e o preço a sério é ele: fica warlock do Emperor Lizard, com dono novo. Se há saída limpa, ninguém sabe qual é.",
     "clues": [],
     "source": "dm"
   },
@@ -102,7 +102,7 @@
   {
     "id": "r-pc-lucan-sessinek",
     "list": "Segredos dos PCs",
-    "text": "O ossário do Véu-Quebrado era a corte de Sess'inek, o Emperor Lizard — o demon lord que dá reis aos lizardfolk e que trata Baeshra como heresia, não como rival. Não persegue ninguém fora do seu território: a resposta dele acontece dentro do Betrayers' Rise e é virada para o Lucan. O símbolo — a mão reptiliana de garras gravada nos ossos do templo — é o único aviso: reaparece lá em baixo, à escala errada. No Rise não há corte nenhuma.",
+    "text": "O ossário do Véu-Quebrado era a corte de Sess'inek, o Emperor Lizard — o demon lord que dá reis aos lizardfolk e que trata Baeshra como heresia, não como rival. Não persegue ninguém fora do seu território: a resposta dele acontece dentro da Ascensão dos Traidores e é virada para o Lucan. O símbolo — a mão reptiliana de garras gravada nos ossos do templo — é o único aviso: reaparece lá em baixo, à escala errada. Na Ascensão não há corte nenhuma.",
     "clues": [
       "b-0-boneyard-altar"
     ],

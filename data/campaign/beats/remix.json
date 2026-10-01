@@ -108,7 +108,7 @@
       "c-elder-colbu-kaz",
       "f-rivals"
     ],
-    "summary": "PROPOSTA (Remix). Quem pesquisar a Jóia ou a visão em Jigau encontra três caminhos que apontam todos para Bazzoxan: Ushru viu a Jóia desenhada numa parede do Betrayers' Rise quando era novo; o diário de um explorador que acordou o portal abissal e descreve uma figura igual à da visão; o maior perito no assunto está em missão de campo em Bazzoxan. Se os PCs não pesquisarem, os rivais pesquisam por outro caminho e trazem a pista (ou deixam um diário para trás).",
+    "summary": "PROPOSTA (Remix). Quem pesquisar a Jóia ou a visão em Jigau encontra três caminhos que apontam todos para Bazzoxan: Ushru viu a Jóia desenhada numa parede da Ascensão dos Traidores quando era novo; o diário de um explorador que acordou o portal abissal e descreve uma figura igual à da visão; o maior perito no assunto está em missão de campo em Bazzoxan. Se os PCs não pesquisarem, os rivais pesquisam por outro caminho e trazem a pista (ou deixam um diário para trás).",
     "reveals": [
       "r-go-to-bazzoxan",
       "r-cyst-of-avandra",
@@ -123,7 +123,7 @@
   },
   {
     "id": "b-2-ruins-outside-bazzoxan",
-    "title": "Ruins of Sorrow: demónios, a Vigília da Aurora e Aloysia",
+    "title": "Ruins of Sorrow: demónios, a Vigia da Aurora e Aloysia",
     "arcs": [
       "a-kryn",
       "a-consortium",
@@ -139,7 +139,7 @@
       "c-perigee",
       "f-rivals"
     ],
-    "summary": "PROPOSTA (Reddit, fan-made). A um dia de Bazzoxan, logo após Ruidus cheia, os PCs dão com ruínas cristalinas de onde sai névoa e saem demónios: seis soldados da Vigília da Aurora, dois deles caídos a esvair-se, aguentam um hezrou, um draegloth e um babau escondido. A névoa traz mais vagas (babau, draegloth, 4-6 wretched; outro hezrou; por fim \"The Lonely\") e ataca a mente com ações de covil; os rivais chegam a meio; uma das ações de covil é substituída pela visão da morte de Perigee. Libertar as energias do centro fecha a brecha. DM: Aloysia Telfan veio com a patrulha, \"como perita em folclore\", observa quem é atingido pela visão e leva uma lasca do rubídio do centro; é o primeiro encontro com ela.",
+    "summary": "PROPOSTA (Reddit, fan-made). A um dia de Bazzoxan, logo após Ruidus cheia, os PCs dão com ruínas cristalinas de onde sai névoa e saem demónios: seis soldados da Vigia da Aurora, dois deles caídos a esvair-se, aguentam um hezrou, um draegloth e um babau escondido. A névoa traz mais vagas (babau, draegloth, 4-6 wretched; outro hezrou; por fim \"The Lonely\") e ataca a mente com ações de covil; os rivais chegam a meio; uma das ações de covil é substituída pela visão da morte de Perigee. Libertar as energias do centro fecha a brecha. DM: Aloysia Telfan veio com a patrulha, \"como perita em folclore\", observa quem é atingido pela visão e leva uma lasca do rubídio do centro; é o primeiro encontro com ela.",
     "reveals": [
       "r-perigee",
       "r-faction-agendas",
@@ -288,7 +288,7 @@
   },
   {
     "id": "b-3-rise-entrances",
-    "title": "As várias entradas do Betrayers' Rise",
+    "title": "As várias entradas da Ascensão dos Traidores",
     "arcs": [
       "a-main",
       "a-lore"
@@ -302,7 +302,7 @@
       "c-prolix-yusaf",
       "c-aloysia-telfan"
     ],
-    "summary": "PROPOSTA (Remix). O Rise é um complexo vasto com muitas entradas, um favo de mel de masmorras; a entrada certa tem a Jóia desenhada num baixo-relevo. Encontrá-la é uma revelação com três pistas: o relato de Ushru, as notas dos investigadores, o levantamento do exterior.",
+    "summary": "PROPOSTA (Remix). A Ascensão é um complexo vasto com muitas entradas, um favo de mel de masmorras; a entrada certa tem a Jóia desenhada num baixo-relevo. Encontrá-la é uma revelação com três pistas: o relato de Ushru, as notas dos investigadores, o levantamento do exterior.",
     "reveals": [
       "r-cyst-of-avandra"
     ],
@@ -319,11 +319,11 @@
       },
       {
         "label": "Entrar por outra entrada",
-        "outcome": "Vastidão vazia e perigosa; o DM decide o que há (o Rise vai ser expandido).",
+        "outcome": "Vastidão vazia e perigosa; o DM decide o que há (a Ascensão vai ser expandido).",
         "leadsTo": []
       }
     ],
-    "notes": "PROPOSTA (Remix). Do Remix (2.4, opção 1 \"Multiple Entrances\", com o Rise expandido como o DM quer). Alternativa do Remix: um investigador como guia em tempo abstracto.",
+    "notes": "PROPOSTA (Remix). Do Remix (2.4, opção 1 \"Multiple Entrances\", com a Ascensão expandida como o DM quer). Alternativa do Remix: um investigador como guia em tempo abstracto.",
     "source": "dm"
   },
   {
@@ -466,7 +466,7 @@
   },
   {
     "id": "b-2-ushru-dawn",
-    "summary": "Ushru bate à porta ao amanhecer e conta o sonho do amuleto no lago de sangue. Nomeia a Jóia como Vestige of Divergence, a Jewel of Three Prayers. PROPOSTA (Remix). Procura os dois grupos, PCs e rivais. Em vez de \"a memória da Calamidade vive em Bazzoxan\", dá uma ação: \"Estive em Bazzoxan uma vez e vi esta mesma Jóia desenhada nas paredes do Betrayers' Rise. Talvez lá encontrem respostas.\"",
+    "summary": "Ushru bate à porta ao amanhecer e conta o sonho do amuleto no lago de sangue. Nomeia a Jóia como Vestige of Divergence, a Jewel of Three Prayers. PROPOSTA (Remix). Procura os dois grupos, PCs e rivais. Em vez de \"a memória da Calamidade vive em Bazzoxan\", dá uma ação: \"Estive em Bazzoxan uma vez e vi esta mesma Jóia desenhada nas paredes da Ascensão dos Traidores. Talvez lá encontrem respostas.\"",
     "reveals": [
       "r-jewel-three-prayers",
       "r-go-to-bazzoxan",
@@ -495,7 +495,7 @@
   },
   {
     "id": "b-3-jewel-confrontation",
-    "summary": "A visão desvanece. DM: Quem surge para roubar a Jóia é um agente Volstrucker (Assembleia de Cerberus) em conluio com Aloysia; os rivais não vêm por guião, estão onde a sua atitude e os seus modos de ação os puseram. Aloysia pede a Jóia \"para que ninguém derrame mais sangue\"; o agente é a ameaça real.",
+    "summary": "A visão desvanece. DM: Quem surge para roubar a Jóia é um agente Volstrucker (Assembleia de Cerebrus) em conluio com Aloysia; os rivais não vêm por guião, estão onde a sua atitude e os seus modos de ação os puseram. Aloysia pede a Jóia \"para que ninguém derrame mais sangue\"; o agente é a ameaça real.",
     "participants": [
       "c-aloysia-telfan",
       "c-volstrucker-agent",
@@ -529,7 +529,7 @@
   },
   {
     "id": "b-3-aloysia-next-move",
-    "summary": "Com a Jóia, Aloysia teleporta-se para Ank'Harel e convida os rivais. Sem ela, desata a ranger, lê o scroll of earthquake (DC 13 Dex, 5d6), deixa cair duas tablets de teleporte, sela a saída com um pedregulho e foge com a terceira. DM: O agente Volstrucker, se sobreviver, foge com ela ou fica para trás como prisioneiro: uma fonte sobre o interesse do Império e da Assembleia de Cerberus na Jóia."
+    "summary": "Com a Jóia, Aloysia teleporta-se para Ank'Harel e convida os rivais. Sem ela, desata a ranger, lê o scroll of earthquake (DC 13 Dex, 5d6), deixa cair duas tablets de teleporte, sela a saída com um pedregulho e foge com a terceira. DM: O agente Volstrucker, se sobreviver, foge com ela ou fica para trás como prisioneiro: uma fonte sobre o interesse do Império e da Assembleia de Cerebrus na Jóia."
   },
   {
     "id": "b-3-torog-threshold",
@@ -545,7 +545,7 @@
   },
   {
     "id": "b-3-ready-room-question",
-    "notes": "PROPOSTA (Remix). Investigador como revelação: Question pode estar na estalagem, a deixar uma oferenda no Wall of the Unforgotten, ou a estudar as gravuras do Rise. Perdeu um caderno; suspeita de outro investigador. Ver b-3-researchers-in-town."
+    "notes": "PROPOSTA (Remix). Investigador como revelação: Question pode estar na estalagem, a deixar uma oferenda no Wall of the Unforgotten, ou a estudar as gravuras da Ascensão. Perdeu um caderno; suspeita de outro investigador. Ver b-3-researchers-in-town."
   },
   {
     "id": "b-3-aloysia-offer",

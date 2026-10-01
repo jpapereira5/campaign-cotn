@@ -25,13 +25,13 @@ Na app: "Ver só o livro" na barra lateral alterna para o livro sem alterações
 ## PCs (campanha 2026) e backstory — `data/campaign/*/pcs.json`
 Fonte: fichas dos jogadores, sessão zero e notas DM (ver `docs/pcs.md`); nada inventado. Os PCs têm `chapters` = todos os capítulos, para contarem sempre no tempo; as cenas pessoais são semeadas depois (a app avisa dos capítulos sem cena por PC).
 PCs: `c-pc-quasi` (Quasimodo d'Clopin, Pedro Silva) · `c-pc-lucan` (Lucan "Anzol" Bruma, Renata) · `c-pc-isco` (Ruín "Isco" Bruma, Pedro Ropio) · `c-pc-lia` (Lia, Camila; entra na sessão 4) · pistas `a-pc-quasi` `a-pc-lucan` `a-pc-isco` · ambições `amb-quasi-*` `amb-lucan-*` `amb-isco-*`
-Backstory: `c-baeshra` (semideus, patrono do Lucan) `c-vaelen-bruma` `c-yussa-errenis` `c-aboleto-anciao` `c-tripulante-tomado` `c-filho-ctonico` `c-campeao-lua-vermelha` (Vesq'ar, reilora) `c-raunie-dorina` `c-irmao-tobar` `c-mensageiro-brishen` `c-violinista-cega` · fações `f-caravana-naiat` `f-antepassados` `f-scylla` `f-imperio-aboleto` `f-revelry` · locais `l-zigurate-smouldercrown` `l-cemiterio-ederlezi` · revelações "Segredos dos PCs" `r-pc-*` (ainda sem pistas: a semear) · patch a `c-aloysia-telfan` (reconhece o Quasi) · Lucan: `c-seguidor-tatuagem` `f-fieis-baeshra` `l-obelisco-rise` `c-hesskar-ro` (pai do Morgid, clã Ro) · patches a `c-morgid` (lizardfolk, filho de Hesskar-Ro), `l-obelisco-negro`, `l-ritual-stone` (é o obelisco do pântano; Trush preso), `c-trush`, `l-sunken-boneyard` (o altar de criança de Baeshra), `c-skra-sorsk` (morto na sessão 1), `c-durth-mirimm` (liderou o ataque ao clã Ro) · Isco: `c-tia-zulmira` `c-cacador-afogado` `c-marisa-sete-ventos` `c-claret-segundo` `f-claret-orders` · beats do Lucan no prólogo (PROPOSTA, `data/campaign/beats/pcs.json`): `b-0-boneyard-altar` `b-0-ritual-stone-lucan` `b-0-hesskar-ro` `b-1-mirimm-reconhece` · revelação `r-pc-lucan-adaga` · `c-sessinek` (Emperor Lizard: a corte do ossário e a oferta no Rise) + `r-pc-lucan-sessinek`, com `l-sunken-boneyard` e `c-skra-sorsk` repatchados (o templo dentro do maior crânio, trono, as seis espadas, a mão de garras; Skr'a era lizard king) · `c-tripulante-tomado` é Belmiro · patch a `c-aboleth-do-mar` (fala com o Isco)
+Backstory: `c-baeshra` (semideus, patrono do Lucan) `c-vaelen-bruma` `c-yussa-errenis` `c-aboleto-anciao` `c-tripulante-tomado` `c-filho-ctonico` `c-campeao-lua-vermelha` (Vesq'ar, reilora) `c-raunie-dorina` `c-irmao-tobar` `c-mensageiro-brishen` `c-violinista-cega` · fações `f-caravana-naiat` `f-antepassados` `f-scylla` `f-imperio-aboleto` `f-revelry` · locais `l-zigurate-smouldercrown` `l-cemiterio-ederlezi` · revelações "Segredos dos PCs" `r-pc-*` (ainda sem pistas: a semear) · patch a `c-aloysia-telfan` (reconhece o Quasi) · Lucan: `c-seguidor-tatuagem` `f-fieis-baeshra` `l-obelisco-rise` `c-hesskar-ro` (pai do Morgid, clã Ro) · patches a `c-morgid` (lizardfolk, filho de Hesskar-Ro), `l-obelisco-negro`, `l-ritual-stone` (é o obelisco do pântano; Trush preso), `c-trush`, `l-sunken-boneyard` (o altar de criança de Baeshra), `c-skra-sorsk` (morto na sessão 1), `c-durth-mirimm` (liderou o ataque ao clã Ro) · Isco: `c-tia-zulmira` `c-cacador-afogado` `c-marisa-sete-ventos` `c-claret-segundo` `f-claret-orders` · beats do Lucan no prólogo (PROPOSTA, `data/campaign/beats/pcs.json`): `b-0-boneyard-altar` `b-0-ritual-stone-lucan` `b-0-hesskar-ro` `b-1-mirimm-reconhece` · revelação `r-pc-lucan-adaga` · `c-sessinek` (Emperor Lizard: a corte do ossário e a oferta na Ascensão) + `r-pc-lucan-sessinek`, com `l-sunken-boneyard` e `c-skra-sorsk` repatchados (o templo dentro do maior crânio, trono, as seis espadas, a mão de garras; Skr'a era lizard king) · `c-tripulante-tomado` é Belmiro · patch a `c-aboleth-do-mar` (fala com o Isco)
 
 ## Arcos
-`a-prologue` `a-main` `a-lore` `a-ruidium` `a-rivals` `a-kryn` `a-allegiance` `a-consortium` `a-cobalt` `a-sentinels` · campanha: `a-ruidus-year` (Ato 4) `a-jmon` (J'mon Sa Ord) `a-myriad` (contrabando de rubídio) `a-cerberus` (Assembleia de Cerberus)
+`a-prologue` `a-main` `a-lore` `a-ruidium` `a-rivals` `a-kryn` `a-allegiance` `a-consortium` `a-cobalt` `a-sentinels` · campanha: `a-ruidus-year` (Ato 4) `a-jmon` (J'mon Sa Ord) `a-myriad` (contrabando de rubídio) `a-cerberus` (Assembleia de Cerebrus)
 
 ## Fações
-`f-kryn` Dinastia Kryn · `f-aurora-watch` Vigília da Aurora · `f-jigow-elders` Conselho de Anciãos de Jigau · `f-luxon` Fé do Luxon · `f-allegiance` Allegiance of Allsight · `f-consortium` Consortium of the Vermilion Dream · `f-cobalt-soul` Biblioteca da Alma de Cobalto · `f-sentinels` Sentinels of Memory · `f-hands-of-ord` Hands of Ord · `f-scarbearers` Scarbearers · `f-veil` The Veil · `f-rivals` A companhia dos rivais (na campanha: "Os Bons Demais", nome da mesa) · `f-dwendalian-empire` Império Dwendaliano · `f-road-raiders` Road Raiders · `f-prime-deities` Divindades Primárias · `f-betrayer-gods` Deuses Traidores · campanha: `f-cerulean-palace` (J'mon Sa Ord, Gemeshega) `f-apotheon-cult` (adoradores do Apotheon) `f-cerberus-assembly` (Volstruckers; recebe rubídio pela Miríade; farol) `f-myriad` (Miríade: canal de contrabando Bazzoxan → Jigau → Urzin → Império, com ramal sul por Asarius até Decrépola) · `f-culto-ceratos` (culto de Ceratos: o Fritz e o Vigost)
+`f-kryn` Dinastia Kryn · `f-aurora-watch` Vigia da Aurora · `f-jigow-elders` Conselho de Anciãos de Jigau · `f-luxon` Fé do Luxon · `f-allegiance` Allegiance of Allsight · `f-consortium` Consortium of the Vermilion Dream · `f-cobalt-soul` Biblioteca da Alma de Cobalto · `f-sentinels` Sentinels of Memory · `f-hands-of-ord` Hands of Ord · `f-scarbearers` Scarbearers · `f-veil` The Veil · `f-rivals` A companhia dos rivais (na campanha: "Os Bons Demais", nome da mesa) · `f-dwendalian-empire` Império Dwendaliano · `f-road-raiders` Road Raiders · `f-prime-deities` Divindades Primárias · `f-betrayer-gods` Deuses Traidores · campanha: `f-cerulean-palace` (J'mon Sa Ord, Gemeshega) `f-apotheon-cult` (adoradores do Apotheon) `f-cerberus-assembly` (Volstruckers; recebe rubídio pela Miríade; farol) `f-myriad` (Miríade: canal de contrabando Bazzoxan → Jigau → Urzin → Império, com ramal sul por Asarius até Decrépola) · `f-culto-ceratos` (culto de Ceratos: o Fritz e o Vigost)
 
 Os **portentos** (fronts) de todas as fações vivem em `data/campaign/factions/portents.json` (síntese aprovada pelo DM, não texto do livro); no livro as fações têm `portents: []`.
 
@@ -123,7 +123,7 @@ O DM traduziu nomes do livro para a mesa. Os ids e os campos `name` da camada li
 | Livro | Mesa |
 | --- | --- |
 | Jigau | Jigau |
-| Betrayers' Rise | Ascensão dos Traidores |
+| Ascensão dos Traidores | Ascensão dos Traidores |
 | Ready Room (Bazzoxan) | Estalagem do Soldado Caído |
 | Gatehold Barracks | Quartel do Portão |
 | Emerald Grotto | Gruta Esmeralda |
@@ -159,9 +159,9 @@ O DM traduziu nomes do livro para a mesa. Os ids e os campos `name` da camada li
 
 | Livro | Mesa |
 | --- | --- |
-| Vigília da Aurora | Vigília da Aurora |
+| Vigia da Aurora | Vigia da Aurora |
 | Dinastia Kryn | Dinastia Kryn |
-| Assembleia de Cerberus | Assembleia de Cerberus |
+| Assembleia de Cerebrus | Assembleia de Cerebrus |
 | Miríade | Miríade (grafia do material; "Miríade" no enunciado) |
 | Alma de Cobalto | Alma de Cobalto |
 | Allegiance of Allsight / Scholars of Allsight | Aliança do Saber |

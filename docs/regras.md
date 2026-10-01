@@ -171,7 +171,7 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 **Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excecional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
 
-**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. Como a visão da sessão 3 mostrou: a criança arrancou-a do peito do pai com as duas mãos, arrastou o corpo um dia inteiro até ao ossário, usou a lâmina para esculpir o altar e cravou-a nele — onde ficou até o Lucan a tirar de lá. **Não é relíquia afectiva: é prova** — a arma do crime.
+**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. Como a visão da sessão 3 mostrou: a criança arrancou-a do peito do pai com as duas mãos, arrastou o corpo um dia inteiro até ao ossário, usou a lâmina para esculpir o altar e cravou-a nele — onde ficou até o Lucan a tirar de lá. **Não é relíquia afetiva: é prova** — a arma do crime.
 
 **Reconhecimento, três degraus.** Usar sempre o mais baixo que a cena aguentar.
 
@@ -191,7 +191,7 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 - **Ao voltar de 0 PV**: olhos de sangue, e começa a ouvir uma multidão a gritar-lhe o nome — "Lucan, Lucan, Lucan!".
 - **Em Rage** quer trincar um adversário caído. Roleplay, sem obrigação.
 - **Renegar Baeshra** é possível e devolve-lhe a vida (deixa de ser Dhampir; perde a Fera e a fome). Como se faz, ninguém sabe — nem ele. Descoberta de mesa.
-- **Os obeliscos** (mar; a Ritual Stone de Bol'bara no pântano; Betrayers' Rise): se lhes tocar, rebobinam-no por segundos e mostram-lhe um pedaço da noite em que morreu. Sem custo visível; cada toque acorda o obelisco um pouco — e o que está preso lá dentro (na Ritual Stone, Trush).
+- **Os obeliscos** (mar; a Ritual Stone de Bol'bara no pântano; Ascensão dos Traidores): se lhes tocar, rebobinam-no por segundos e mostram-lhe um pedaço da noite em que morreu. Sem custo visível; cada toque acorda o obelisco um pouco — e o que está preso lá dentro (na Ritual Stone, Trush).
 
 - **À mesa (sessão 2, #83):** a Rage é uma «Tranquil Fury», raiva calma: olhos vermelho-escuro, dobra-se em dores e cresce-lhe uma cauda comprida com espigões ósseos na ponta (verde-escura/azul-marinho), alcance 10 pés, 2d8+4 piercing. Reação: a cauda soma 1d8 à AC contra um ataque que a jogadora vê vir. Reckless Attack em uso.
 
@@ -602,5 +602,5 @@ Variantes às regras acima; as quatro marcadas "DM (decisão)" nas secções res
 - **Medalhão (Jóia das 3 Preces)** — estados Dormant/Awakened/Exalted iguais ao livro. Acrescento do DM: **quem consumir suude e tocar no medalhão tem visões na primeira pessoa da vida de Alyxian, no sítio mais próximo onde estiver.**
 - **Obelisco Negro** — mecânica temporal e Explosão Necromântica já no patch de `l-obelisco-negro`; acrescento: **visão com suude vermelho** junto ao obelisco (quatro figuras encapuçadas a erguê-lo; uma quinta, alta, com um único olho a brilhar — Vecna/Aeor).
 - **Funerais (categoria Regra)** — guião de DM ao estilo Matt Mercer: pausa de tom, perspetiva múltipla (cada jogador tem o seu momento), símbolos pessoais, impacto futuro, espaço para improviso; estrutura: 1 A Chegada, 2 O Ritual (Luxon / Kord / Ioun), 3 As Palavras, 4 O Símbolo Final (flores ao rio, pira, objeto enterrado, música), 5 O Silêncio. (Usado no funeral de Kiri-Kiri, S24.)
-- **Arqueiro da Vigília da Aurora (nível 4)** — statblock da mesa (Jigau), resumido no patch de `f-aurora-watch`.
+- **Arqueiro da Vigia da Aurora (nível 4)** — statblock da mesa (Jigau), resumido no patch de `f-aurora-watch`.
 - **Agente Volstrucker (EGtW p. 294)** — statblock canónico CR 7 guardado como referência (resumido no patch de `c-volstrucker-agent`).

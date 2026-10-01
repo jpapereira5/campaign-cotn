@@ -1,9 +1,9 @@
 [
   {
     "id": "f-cerberus-assembly",
-    "name": "Assembleia de Cerberus (Volstruckers)",
+    "name": "Assembleia de Cerebrus (Volstruckers)",
     "motto": "",
-    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. A guerra com a Dinastia Kryn é pelos faróis do Luxon. Aproveitam a Miríade para receber rubídio para o esforço de guerra; um Volstrucker em Bazzoxan investiga o rubídio de perto e o rumor de que foi recuperado outro Luxon farol no Betrayers' Rise; em conluio com Aloysia, tenta também a Jóia.",
+    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. A guerra com a Dinastia Kryn é pelos faróis do Luxon. Aproveitam a Miríade para receber rubídio para o esforço de guerra; um Volstrucker em Bazzoxan investiga o rubídio de perto e o rumor de que foi recuperado outro Luxon farol na Ascensão dos Traidores; em conluio com Aloysia, tenta também a Jóia.",
     "publicFace": "Académicos e conselheiros do Império; os Volstruckers não existem oficialmente.",
     "leaders": [],
     "allies": [
@@ -16,7 +16,7 @@
     "portents": [
       {
         "chapter": "ch3",
-        "text": "DM: O agente Volstrucker já está em Bazzoxan quando os PCs chegam: compra amostras de rubídio pelo contacto da Miríade, sonda a corrupção e vigia a entrada do Rise."
+        "text": "DM: O agente Volstrucker já está em Bazzoxan quando os PCs chegam: compra amostras de rubídio pelo contacto da Miríade, sonda a corrupção e vigia a entrada da Ascensão."
       },
       {
         "chapter": "ch3",
