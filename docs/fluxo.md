@@ -26,7 +26,7 @@ O chat não guarda nada: no fim de cada conversa, tudo o que vale a pena tem de 
 | **Proposta** (vale a pena guardar, por decidir) | Drive, `cotn_2026/ideias`, ficheiro «brainstorm AAAA-MM-DD — tema» | o Claude escreve-a no fim da conversa; entra num fecho futuro quando for decidida |
 | **Canónico** (o DM decidiu) | repositório, `docs/canone.md` («Decidido pelo DM (data)») e dados | direto, na mesma conversa, sem passar pela Drive |
 
-- Uma decisão do DM no chat é canónica no momento em que ele a diz ou confirma («fica», «canon», «vamos com isto»). Não precisa de passar pela Drive.
+- Uma decisão do DM no chat é canónica quando ele mostra que decidiu, dito de qualquer maneira: «regista», «guarda», «fixa», «torna canónico», escolher uma das opções, ou simplesmente afirmar como a coisa é. Não há palavra-chave: o Claude percebe pelo sentido e, na dúvida entre «decidiu» e «está a pensar alto», pergunta antes de escrever. Vai direto para o repositório, sem passar pela Drive.
 - No fim de um brainstorm, o Claude fecha com uma lista «o que fica»: as decisões (que vão para o repositório) e as propostas (que vão para a Drive). O DM confirma ou corrige.
 - Se a conversa não tiver acesso ao repositório (voz, telemóvel), as decisões vão para a Drive num ficheiro «decisões AAAA-MM-DD», marcado como decidido, e o fecho seguinte passa-as para o repositório sem as discutir de novo.
 - Se uma decisão contradiz um documento da Drive, ganha a decisão: o Claude atualiza o documento (versão nova) ou assinala-o.
