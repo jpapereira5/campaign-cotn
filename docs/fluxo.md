@@ -16,11 +16,26 @@ O dashboard alojado é a consulta à mesa. Não há compêndio na Drive.
 
 Cada informação só se edita num sítio. Na Drive escreve-se o que se prepara. No repositório fica o que já foi decidido ou jogado. Os documentos da Drive que repetem o cânone (*O Mundo de Exandria*, *Panteão*, glossário) são **saídas**: quando o cânone muda, muda-se primeiro aqui e depois gera-se uma versão nova na Drive.
 
+## O que se decide no brainstorm
+
+O chat não guarda nada: no fim de cada conversa, tudo o que vale a pena tem de ir para algum lado. Cada ideia está num de três estados:
+
+| Estado | Onde fica | Como chega lá |
+| --- | --- | --- |
+| **Ideia** | só no chat | não se guarda |
+| **Proposta** (vale a pena guardar, por decidir) | Drive, `cotn_2026/ideias`, ficheiro «brainstorm AAAA-MM-DD — tema» | o Claude escreve-a no fim da conversa; entra num fecho futuro quando for decidida |
+| **Canónico** (o DM decidiu) | repositório, `docs/canone.md` («Decidido pelo DM (data)») e dados | direto, na mesma conversa, sem passar pela Drive |
+
+- Uma decisão do DM no chat é canónica no momento em que ele a diz ou confirma («fica», «canon», «vamos com isto»). Não precisa de passar pela Drive.
+- No fim de um brainstorm, o Claude fecha com uma lista «o que fica»: as decisões (que vão para o repositório) e as propostas (que vão para a Drive). O DM confirma ou corrige.
+- Se a conversa não tiver acesso ao repositório (voz, telemóvel), as decisões vão para a Drive num ficheiro «decisões AAAA-MM-DD», marcado como decidido, e o fecho seguinte passa-as para o repositório sem as discutir de novo.
+- Se uma decisão contradiz um documento da Drive, ganha a decisão: o Claude atualiza o documento (versão nova) ou assinala-o.
+
 ## O fecho
 
 Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho», o Claude:
 
-1. Lista o que mudou na Drive desde o último fecho (data abaixo), nas pastas da campanha.
+1. Lista o que mudou na Drive desde o último fecho (data abaixo), nas pastas da campanha. Os ficheiros «decisões» entram sem discussão; os «brainstorm» só no que o DM decidir.
 2. Lê cada ficheiro novo ou alterado e propõe o que entra no repositório: entidades e campos (`data/campaign`, patches `zz-` quando corrige o livro), cânone, sessões, handouts.
 3. Assinala os conflitos com o cânone e espera pela decisão do DM.
 4. Aplica as decisões, corre `scripts/normalizar-texto.py` e `npm run validate`, e faz commit e push para `main`.
