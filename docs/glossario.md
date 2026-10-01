@@ -1,6 +1,6 @@
 # Glossário pt-PT de Exandria
 
-Nomes de Exandria em português europeu, para consistência entre os dados, os runsheets, os handouts e o que se diz à mesa. É a cópia no repositório do `glossario_pt_v7.md` da Drive (pasta `exandria`), fechado com o DM a 2026-10-01.
+Nomes de Exandria em português europeu, para consistência entre os dados, os runsheets, os handouts e o que se diz à mesa. É a cópia no repositório do `glossario_pt_v8.md` da Drive (pasta `exandria`), fechado com o DM a 2026-10-01.
 
 **Princípio:** traduz-se o máximo possível, sobretudo descritivos, títulos e epítetos; nomes próprios sem significado transparente mantêm-se; termos de regras e de sistema ficam em inglês, mesmo dentro de texto em português. Os ids dos dados continuam em inglês (`c-alonne-frith`, `l-fort-venture`): o glossário é para o texto.
 
@@ -126,4 +126,4 @@ Escolhas ligadas ao módulo, não nomes canónicos: keeper = faroleiro · mercy 
 
 ## Documentos para os jogadores (Drive)
 
-- *Panteão de Exandria v3* e *O Mundo de Exandria v4* (pasta `163OGm6WCbT53Ci2aLraE5xygn5R1Z51B`): o saber comum para criar personagens, já com este glossário. Não nomeiam fações: as ligações a fações sugere-as o DM a cada jogador, por alto e sem nomes.
+- *Panteão de Exandria v3* e *O Mundo de Exandria v5* (pasta `163OGm6WCbT53Ci2aLraE5xygn5R1Z51B`): o saber comum para criar personagens, já com este glossário. Não nomeiam fações: as ligações a fações sugere-as o DM a cada jogador, por alto e sem nomes.
