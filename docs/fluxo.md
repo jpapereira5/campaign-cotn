@@ -2,6 +2,14 @@
 
 Decidido pelo DM a 2026-10-01.
 
+## O caminho habitual
+
+1. **Brainstorm com o Claude** → o que o DM decide entra logo no repositório.
+2. **Saídas** → a partir do repositório, o Claude faz handouts, fichas e documentos: exporta-os para a Drive ou dá o texto no chat para o DM colar.
+3. **Fecho** → só apanha o que entrou na Drive por outro caminho: transcrições das sessões, preparação escrita à mão e factos novos que o DM acrescente ao editar uma saída.
+
+Uma saída nunca traz cânone novo que não esteja já no repositório. Se ao escrever um handout surgir um pormenor novo (um nome, um local), o Claude regista-o no repositório na mesma altura.
+
 ## Os três papéis
 
 | Sítio | Papel | Quem escreve |
