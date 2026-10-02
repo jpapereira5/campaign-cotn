@@ -18,10 +18,10 @@
   {
     "id": "c-alyxian",
     "states": [
-      { "fromBeat": "b-1-adventure-start", "state": "Prisioneiro adormecido no Netherdeep; consciência a despertar desde que o Consortium recolheu ruidium" },
+      { "fromBeat": "b-1-adventure-start", "state": "Prisioneiro adormecido no Netherdeep; consciência a despertar desde que o Consortium recolheu rubídio" },
       { "fromBeat": "b-1-jewel-vision", "state": "Desperto; chama pelos portadores da Jóia (Dormant); aponta Bazzoxan" },
       { "fromBeat": "b-2-ushru-dawn", "state": "Alcança outras mentes: o sonho de Ushru; os rivais na estrada se tiverem a Jóia" },
-      { "fromBeat": "b-3-prayer-site-avandra", "state": "Fala em R16 (Awakened); responde a três perguntas; a fúria assoma quando fala da colheita de ruidium" },
+      { "fromBeat": "b-3-prayer-site-avandra", "state": "Fala em R16 (Awakened); responde a três perguntas; a fúria assoma quando fala da colheita de rubídio" },
       { "fromBeat": "b-5-temple-arch-heart", "state": "Jóia Exalted em M9; a sua prisão pode ser aberta" },
       { "fromBeat": "b-6-theo-and-hunter", "state": "Dividido em si mesmo: Theo Nathope (inocência) e Alyxian the Hunter (raiva)" },
       { "fromBeat": "b-7-alyxian-speaks", "state": "Confronto no Heart of Despair: matar, libertar ou redimir; três formas" },

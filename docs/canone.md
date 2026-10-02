@@ -2,7 +2,7 @@
 
 **O que a mesa jogou manda.** Quando a sessão contradiz a preparação, a preparação é **reescrita** nos ficheiros (`data/campaign/`, `docs/lore.md`, `docs/regras.md`) para passar a dizer o que aconteceu; este documento fica com o registo do que lá estava antes, para não se perder a intenção original. Quando o conflito é entre coisas ditas em sessões diferentes — ou dentro da mesma sessão — nada se decide sozinho: fica assinalado no fim, até o DM decidir, e depois passa a **Decidido**.
 
-Regista, por sessão, **o que a preparação acertou**, **o que mudou em jogo** (e onde já foi corrigido) e **o que continua por revelar**. Os resumos estão em [`docs/sessoes/`](sessoes/); as fichas afectadas ficam com a nota «a mesa (sessão N, #NN)» em `data/campaign/`.
+Regista, por sessão, **o que a preparação acertou**, **o que mudou em jogo** (e onde já foi corrigido) e **o que continua por revelar**. Os resumos estão em [`docs/sessoes/`](sessoes/); as fichas afetadas ficam com a nota «a mesa (sessão N, #NN)» em `data/campaign/`.
 
 Começa na sessão 3 (#84), a primeira em que uma cena preparada com runsheet (`b-0-boneyard-altar`) foi jogada.
 
@@ -27,7 +27,7 @@ Corrigidos: `data/campaign/locations/{pcs,zz-mesa-patches}.json` (`l-sunken-bone
 2. **A voz disse outra coisa.** Não foi "Alimenta-te. Devora. Tal como eles devoraram." — foi **"Perto. Não aqui."**, e o olhar do Lucan virou-se para o Quasi (que tinha a adaga e a garra). Frase muito mais fechada; é o que existe.
 3. **O Lucan lembra-se de ter pegado na adaga.** Arrancou-a do altar deliberadamente, de joelhos com a fome. Cai o remate "não te lembras de teres pegado em nada, mas está na tua mão".
 4. **O altar não está a três metros do trono.** Está noutro crânio — o **mais pequeno**, de uma tartaruga jovem, sem nada desenhado por fora, com entrada de gatas. Encaixa melhor: é o crânio onde o rapaz deitou o pai, "onde a chuva não entra".
-5. **A garra deixou de ser cenário.** Estava **ao peito do xamã**, não pendurada no templo; tem **seis** dedos (nem réptil, nem lizardfolk); cheira a enxofre como os demónios do Farol Apagado (Isco); e é **mágica**: o Quasi tirou-lhe *Command* 1×/dia numa hora de contemplação, e ficou com a sensação de que há mais. Deixa de valer o "nada está activo e nada é perigoso" no que toca à garra — e ela é agora do **Quasi**, não do Lucan.
+5. **A garra deixou de ser cenário.** Estava **ao peito do xamã**, não pendurada no templo; tem **seis** dedos (nem réptil, nem lizardfolk); cheira a enxofre como os demónios do Farol Apagado (Isco); e é **mágica**: o Quasi tirou-lhe *Command* 1×/dia numa hora de contemplação, e ficou com a sensação de que há mais. Deixa de valer o "nada está ativo e nada é perigoso" no que toca à garra — e ela é agora do **Quasi**, não do Lucan.
 6. **Sess'inek não foi nomeado.** A Religion 19 foi gasta nos sete amuletos (Semuanya, Melora, Luxon reconhecidos; disco de ferro com lua e mão de madeira de polegar partido por identificar). A mesa saiu do ossário sem saber de quem é a corte — e já na sessão 2 tinha procurado Sess'inek nas listas de divindades sem o encontrar. `r-pc-lucan-sessinek` continua a zero: a mão de garras é o único aviso, como planeado.
 7. **Os do clã não são os últimos.** Sobraram lizardfolk vivos, parados à distância à espera que o grupo saísse (Isco, passiva 20). Cai a premissa de que "ninguém pode confirmar nem desmentir o que o santuário é" — há testemunhas no pântano, e alguém voltará ao trono.
 8. **A adaga saiu do pântano com o Quasi**, não com o Lucan: foi ele que a identificou (dagger +1) e recusou-se a entregá-la de manhã (200 po, depois 400; o Lucan respondeu "não me testes"). A escolha "Levar a adaga" do beat está meio jogada: `b-1-mirimm-reconhece` tem de ser escrito sem assumir que é o Lucan que a traz ao cinto.
@@ -46,7 +46,7 @@ Corrigidos: `data/campaign/locations/{pcs,zz-mesa-patches}.json` (`l-sunken-bone
 - **A garra e o sonho do Quasi**: na mesma noite em que contempla a garra, sonha que é líder inquestionado de uma caravana. Decidir se é a garra a empurrar (*monkey's paw*) ou só ele — o jogador já disse que o Quasi quer ser questionado, não obedecido, e que o sonho o perturbou por isso.
 - **O sangue de Skr'a**: vermelho quase preto, espesso, com brilho de óleo na água, e cheiro que o Isco liga às entidades de sombra do **Farol Apagado**. Um xamã de pântano com sangue demoníaco pede explicação.
 - **Os dois amuletos por identificar** (disco de ferro com uma lua; mão de madeira com o polegar partido).
-- **Os seis dedos**: se cinco é o posto do rei, de quem é a mão de seis? (Sess'inek tem seis braços e seis espadas: guardar para o Betrayers' Rise.)
+- **Os seis dedos**: se cinco é o posto do rei, de quem é a mão de seis? (Sess'inek tem seis braços e seis espadas: guardar para a Ascensão dos Traidores.)
 - **Lucan contra Quasi**: ameaça de morte explícita no ossário e a adaga por resolver entre os dois.
 - **Encontro garantido** (d20 = 18) no segundo terço do dia 2, a caminho do obelisco, com a torre B4 das aranhas deixada para trás por explorar.
 
@@ -63,3 +63,19 @@ Os quatro conflitos que estavam assinalados aqui foram resolvidos e o cânone j�
 
 - **Dado de encontros**: a sessão 1 usou um d12; na sessão 3 o DM corrigiu-se («enganei-me, é um d20 — 16 ou mais acontece alguma coisa»). Vale o d20; a nota da sessão 1 no patch do pântano ficou marcada como substituída.
 - **Hexágonos do dia 2**: o DM deu por um erro de um hexágono no seu mapa e corrigiu-o em jogo antes de contar a viagem.
+
+## Decidido pelo DM (2026-10-01)
+
+Fechado em conversa de preparação (sem sessão jogada). O cânone já está corrigido nos ficheiros.
+
+1. **A campanha passa-se em 835 P.D.**, não em 836: antes de os Mighty Nein mudarem a guerra, mas já com ela em curso. Consequências corrigidas em `docs/lore.md`, `docs/pcs.md` e nos dados: o **Baeshra é deus há poucos meses** (o *wish* foi em 835, aos 33), e o **clã Ro caiu em 809 P.D., há 26 anos** (substitui o «há 27 anos» da decisão de 2026-09-21; a idade do Baeshra continua a bater: 7 na queda, 33 no *wish*). As datas do Caderno Volstrucker (versão anterior) ficam como estão.
+2. **A rota do rubídio.** O **canal da Assembleia** é o do norte (Bazzoxan → Jigau → Urzin → Império). Há um **ramal para sul, por Asarius, até Decrépola** (Rotthold), para o mercado negro e para a célula secreta da Assembleia em Decrépola. O **primeiro lote**, antes do canal, chegou a Decrépola **por mar, de Marquet**. Corrigido em `f-myriad`, `r-myriad-route`, `docs/lore.md` e `docs/pcs.md`.
+3. **Decrépola e os contactos dos irmãos Bruma**: o recetador **Ossório Lume** (Miríade, Mercado Vermelho) e o **Remendo** (tripulação da Marisa, no Cais; é o fio para a Marisa). Handout em `docs/handouts.md`. Os dois nomes foram inventados na conversa e podem mudar.
+4. **O Vigost é do culto de Ceratos, mas não enviou o Fritz: estuda as motivações dele.** Os jogadores não sabem. Ficha `c-vigost`; patches em `c-alonne-frith` e `f-culto-ceratos`.
+5. **Glossário pt-PT** fechado e copiado para [`docs/glossario.md`](glossario.md). Aplicado em `docs/lore.md` e `docs/handouts.md`; o resto dos dados ainda usa alguns nomes antigos (ver o fim do glossário).
+6. **Ritmo da travessia: 10 hexágonos por dia a ritmo normal** (EGtW), cerca de um terço por terço do dia. Cai a leitura de «10 por terço» de `docs/regras.md`; o dia 2 da sessão 3 corrigido para quatro hexágonos de manhã, como no resumo.
+7. **Fações para os jogadores:** não há documento de fações. O DM sugere as ligações a cada jogador, por alto e sem nomes.
+
+## Sessão 4 (#86, 2026-09-23) — por registar
+
+Jogada, com a **Lia** (Camila) a entrar. No Drive só há o vídeo, o áudio e a preparação (`sessao-04-preparacao_v2.md`), que entrou no repositório como **preparação por confirmar**: `b-0-patrulha-imperio` e as fichas da patrulha. **Falta a transcrição** (WhisperX, como nas sessões 1–3) para escrever o resumo em `docs/sessoes/` e este registo.

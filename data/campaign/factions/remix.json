@@ -1,9 +1,9 @@
 [
   {
     "id": "f-cerberus-assembly",
-    "name": "Cerberus Assembly (Volstruckers)",
+    "name": "Assembleia de Cerebrus (Volstruckers)",
     "motto": "",
-    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. A guerra com a Kryn Dynasty é pelos beacons do Luxon. Aproveitam o Myriad para receber ruidium para o esforço de guerra; um Volstrucker em Bazzoxan investiga o ruidium de perto e o rumor de que foi recuperado outro Luxon beacon no Betrayers' Rise; em conluio com Aloysia, tenta também a Jóia.",
+    "agenda": "DM: Os magos-políticos do Império Dwendaliano e os seus agentes Volstrucker. A guerra com a Dinastia Kryn é pelos faróis do Luxon. Aproveitam a Miríade para receber rubídio para o esforço de guerra; um Volstrucker em Bazzoxan investiga o rubídio de perto e o rumor de que foi recuperado outro Luxon farol na Ascensão dos Traidores; em conluio com Aloysia, tenta também a Jóia.",
     "publicFace": "Académicos e conselheiros do Império; os Volstruckers não existem oficialmente.",
     "leaders": [],
     "allies": [
@@ -16,15 +16,15 @@
     "portents": [
       {
         "chapter": "ch3",
-        "text": "DM: O agente Volstrucker já está em Bazzoxan quando os PCs chegam: compra amostras de ruidium pelo contacto do Myriad, sonda a corrupção e vigia a entrada do Rise."
+        "text": "DM: O agente Volstrucker já está em Bazzoxan quando os PCs chegam: compra amostras de rubídio pelo contacto da Miríade, sonda a corrupção e vigia a entrada da Ascensão."
       },
       {
         "chapter": "ch3",
-        "text": "DM: O agente confirma que o beacon está no Gatehold Barracks e prepara o golpe antes de a escolta partir para Rosohna."
+        "text": "DM: O agente confirma que o farol está no Gatehold Barracks e prepara o golpe antes de a escolta partir para Rosohna."
       },
       {
         "chapter": "ch3",
-        "text": "DM: Se Adélia Krauss (a \"Zyn'thar\") for morta no assalto nocturno, a Assembly perde a única agente em Bazzoxan e ninguém vem buscar o caderno; o canal do Myriad continua sem ela."
+        "text": "DM: Se Adélia Krauss (a \"Zyn'thar\") for morta no assalto nocturno, a Assembleia perde a única agente em Bazzoxan e ninguém vem buscar o caderno; o canal da Miríade continua sem ela."
       },
       {
         "chapter": "ch3",
@@ -32,18 +32,18 @@
       },
       {
         "chapter": "ch4",
-        "text": "DM: Se o agente escapar, a Assembly sabe da Jóia e de Ank'Harel; se o beacon chegou ao Império, a Assembly tem um beacon e ruidium. Laurin Ophidas (membro caído, segundo o livro) é um fio solto na cidade."
+        "text": "DM: Se o agente escapar, a Assembleia sabe da Jóia e de Ank'Harel; se o farol chegou ao Império, a Assembleia tem um farol e rubídio. Laurin Ophidas (membro caído, segundo o livro) é um fio solto na cidade."
       },
       {
         "chapter": "ch5",
-        "text": "PROPOSTA: O que a Assembly faz com ruidium e um beacon (a definir pelo DM)."
+        "text": "PROPOSTA: O que a Assembleia faz com rubídio e um farol (a definir pelo DM)."
       }
     ],
     "source": "dm"
   },
   {
     "id": "f-rivals",
-    "agenda": "Companhia de aventureiros sem nome liderada por Ayo Jabe: provar que são os heróis, ganhar a Jóia e a glória. Crescem em poder e ambição a par dos PCs (tier 1 caps. 1-2, tier 2 caps. 3-4, tier 3 caps. 5-7). Podem tornar-se amigos, amantes, clientes de Aloysia ou inimigos mortais. PROPOSTA (Remix). Princípio da Oposição: seja qual for a posição dos PCs (para onde ir, o que fazer, porquê, como, quem é Alyxian e o que merece), os rivais defendem a oposta. A atitude decide só o tom: hostil = negociação agressiva; amigável = debate; indiferente = discussão. Cinco modos de acção: parceria; seguem os PCs; independentes; saem da campanha; tomam a Jóia.",
-    "publicFace": "Cinco aventureiros de Jigow: Ayo, Dermot, Galsariad, Irvan e Maggie. Atitude inicial indiferente; só se anotam as relações hostis e amigáveis que nascem. PROPOSTA (Remix). Se não há forma de os rivais discordarem numa secção, os jogadores não têm informação suficiente para ter opinião."
+    "agenda": "Companhia de aventureiros sem nome liderada por Ayo Jabe: provar que são os heróis, ganhar a Jóia e a glória. Crescem em poder e ambição a par dos PCs (tier 1 caps. 1-2, tier 2 caps. 3-4, tier 3 caps. 5-7). Podem tornar-se amigos, amantes, clientes de Aloysia ou inimigos mortais. PROPOSTA (Remix). Princípio da Oposição: seja qual for a posição dos PCs (para onde ir, o que fazer, porquê, como, quem é Alyxian e o que merece), os rivais defendem a oposta. A atitude decide só o tom: hostil = negociação agressiva; amigável = debate; indiferente = discussão. Cinco modos de ação: parceria; seguem os PCs; independentes; saem da campanha; tomam a Jóia.",
+    "publicFace": "Cinco aventureiros de Jigau: Ayo, Dermot, Galsariad, Irvan e Maggie. Atitude inicial indiferente; só se anotam as relações hostis e amigáveis que nascem. PROPOSTA (Remix). Se não há forma de os rivais discordarem numa secção, os jogadores não têm informação suficiente para ter opinião."
   }
 ]

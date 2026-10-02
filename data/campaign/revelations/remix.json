@@ -1,7 +1,7 @@
 [
   {
     "id": "r-scarlet-fever",
-    "list": "Ruidium",
+    "list": "Rubídio",
     "text": "DM: A febre escarlate é corrupção rubídica: deixa os mais fracos de espírito em febre e depressão; vem dos tubarões corrompidos do Ifolon.",
     "clues": [
       "b-1-ifolon-plunge",
@@ -12,8 +12,8 @@
   },
   {
     "id": "r-ruidium-history",
-    "list": "Ruidium",
-    "text": "PROPOSTA (Remix). Há gerações que aparecem vestígios de ruidium em Ank'Harel; os alquimistas ligam-no à luz de Ruidus; as escavações recentes em Cael Morrow revelaram afloramentos enormes e começaram a corrida.",
+    "list": "Rubídio",
+    "text": "PROPOSTA (Remix). Há gerações que aparecem vestígios de rubídio em Ank'Harel; os alquimistas ligam-no à luz de Ruidus; as escavações recentes em Cael Morrow revelaram afloramentos enormes e começaram a corrida.",
     "clues": [
       "b-1-grotto-ruidium",
       "b-3-bazzoxan-research",

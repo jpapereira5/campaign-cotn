@@ -1,0 +1,81 @@
+[
+  {
+    "id": "c-ossorio-lume",
+    "name": "Ossório Lume (recetador da Miríade em Decrépola)",
+    "kind": "npc",
+    "factions": [
+      "f-myriad"
+    ],
+    "home": "l-decrepola",
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "DM (2026-10-01): tiefling magro, cara comprida, pele cor de vinho, um corno partido rente à testa; colete de veludo coçado, camisa demasiado branca, anéis em todos os dedos menos nos polegares; conta moedas sem olhar. Banca de «antiguidades» ao fundo do Mercado Vermelho. Aos irmãos Bruma, a troco de dinheiro: o primeiro lote veio por mar de Marquet; o que chega agora desce do norte de Jorhas por Asarius; antes deles veio um homem pálido de casaco de caçador que não pestanejava (o Fritz); mostrou-lhes um cristal embrulhado num pano com uma esfera de olhos desencontrados, já prometido a «um velho das catacumbas». Nome inventado na conversa de preparação: o DM pode mudá-lo.",
+    "goal": "Lucro sem perguntas.",
+    "secret": "Vende rubídio ao Vigost (culto de Ceratos) e à célula secreta da Assembleia de Cerebrus em Decrépola, que compra para a Tversky (canon: a Tversky contratava a Miríade para lhe trazer espécimes). O cristal no pano era a encomenda do Vigost: o pano é do culto, que marca o que compra. Viu o Fritz entrar na Colina das Catacumbas mais de uma vez e não o disse aos irmãos, porque não lhe pagaram para isso.",
+    "wants": "Ouro; clientes que não falem.",
+    "fears": "Que a Miríade descubra que vende para dois lados.",
+    "states": [],
+    "tags": [
+      "dm",
+      "decrepola",
+      "myriad",
+      "bruma"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-remendo",
+    "name": "Remendo (tripulação da Marisa Sete-Ventos)",
+    "kind": "npc",
+    "factions": [
+      "f-revelry"
+    ],
+    "home": "l-decrepola",
+    "chapters": [
+      "ch0",
+      "ch2",
+      "ch4"
+    ],
+    "summary": "DM (2026-10-01): humano velho e queimado do sol, pala de couro no olho esquerdo, barba presa num nó com um anel de cobre, camisa de marinheiro remendada até não se ver o tecido. Cose velas sentado num barril no Cais e não para de coser enquanto fala. Aos irmãos Bruma: há uns meses atracou um navio de Marquet com «carga das profundezas» e metade da tripulação com manchas vermelhas nas mãos e nos pulsos. Parou a agulha ao ver a tatuagem do anzol do Isco: «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.» Nome inventado na conversa de preparação.",
+    "goal": "Navegar com a Marisa na rota de Marquet.",
+    "secret": "É o fio para a Marisa: depois de os irmãos partirem, conta-lhe que viu a tatuagem do Ruín num homem que parecia meio peixe. A Marisa fica a saber que o Isco pode estar vivo e vai à procura dele no mar (cap. 2 ou rota longa de Bazzoxan a Marquet). Não reconheceu o Isco, que está mudado; reconheceu a tatuagem.",
+    "wants": "Bebida à conta dos outros; uma vela que aguente.",
+    "fears": "Gente das profundezas.",
+    "states": [],
+    "tags": [
+      "dm",
+      "decrepola",
+      "revelry",
+      "isco",
+      "marisa"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-vigost",
+    "name": "Vigost, «o velho das catacumbas»",
+    "kind": "npc",
+    "factions": [
+      "f-culto-ceratos"
+    ],
+    "home": "l-decrepola",
+    "chapters": [
+      "ch0",
+      "ch3"
+    ],
+    "summary": "DM: homem de Decrépola que falou ao Fritz da maldição de Ruidus a partir de registos escassos (notas do Fritz, campanha de 2025: «Vigost, homem que conheceu em Decrépola, contou-lhe sobre a maldição de Ruidus, registos parcos…»; em Bazzoxan: «O Vigost tinha razão. Segundo os cultistas de Torog…»). Guarda esses registos na Colina das Catacumbas. Para os irmãos Bruma é só «um velho das catacumbas que paga bem por pedras esquisitas», nas palavras do Ossório Lume.",
+    "goal": "A fonte do rubídio do norte, para o Ceratos: em Bazzoxan o véu é fino.",
+    "secret": "É membro do culto de Ceratos (os jogadores não sabem). Não enviou o Fritz: estuda-o. Um homem que morreu, voltou e quer arrancar a filha à morte pela força da vontade é exatamente o que o Ceratos promete — a imaginação a dobrar a realidade. Dá-lhe o que ele procura (a lenda de Ruidus, os registos, o que se diz de Bazzoxan) e toma notas de até onde a obsessão o leva. O Fritz julga ter encontrado um mestre; o Vigost vê-se como quem toma notas. Sem saber, o Fritz é ao mesmo tempo a experiência e o batedor.",
+    "wants": "Ver até onde vai a obsessão do Fritz; rubídio.",
+    "fears": "Por decidir.",
+    "states": [],
+    "tags": [
+      "dm",
+      "decrepola",
+      "ceratos",
+      "fritz"
+    ],
+    "source": "dm"
+  }
+]

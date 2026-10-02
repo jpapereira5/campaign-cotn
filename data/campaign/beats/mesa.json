@@ -17,7 +17,7 @@
       "f-kryn",
       "f-dwendalian-empire"
     ],
-    "summary": "Os PCs atravessam as pontes suspensas entre as tartarugas-horizonte até à sala do conselho. Olomão Quebra-Sol (minotauro, armadura de prata) preside; à esquerda Bufal II, de braços cruzados; à direita Bolbara, cansada mas recuperada. O forte está vazio graças aos PCs e há que decidir: Bufal quer ocupá-lo (\"Império só entende força\"); Bolbara quer destruí-lo para comprar tempo e não desperdiçar vidas numa armadilha, lembrando as outras tribos do pântano que esperam fraquezas; Olomão expõe os dois lados (ocupar enfraquece Urzin até chegarem reforços da Dinastia; destruir perde uma posição estratégica) e deixa a decisão nos PCs. Depois: uma tartaruga-do-horizonte parte no dia seguinte para Jigau para os levar e trazer mantimentos e soldados; leva também Alone Fritz, com quem \"a Dinastia gostava de ter uma palavra\"; Olomão promete recompensa através do Intendente Duarte Mirim; Bufal nomeia-os representantes de Urzin no Festival do Mérito; Bolbara anuncia a festa: \"Queremos que o pântano lembre o vosso esforço.\" o grupo opinou que Urzin devia ocupar o forte; escolheram o nome a campanha anterior.",
+    "summary": "Os PCs atravessam as pontes suspensas entre as tartarugas-do-horizonte até à sala do conselho. Olomão Quebra-Sol (minotauro, armadura de prata) preside; à esquerda Bufal II, de braços cruzados; à direita Bolbara, cansada mas recuperada. O forte está vazio graças aos PCs e há que decidir: Bufal quer ocupá-lo (\"Império só entende força\"); Bolbara quer destruí-lo para comprar tempo e não desperdiçar vidas numa armadilha, lembrando as outras tribos do pântano que esperam fraquezas; Olomão expõe os dois lados (ocupar enfraquece Urzin até chegarem reforços da Dinastia; destruir perde uma posição estratégica) e deixa a decisão nos PCs. Depois: uma tartaruga-do-horizonte parte no dia seguinte para Jigau para os levar e trazer mantimentos e soldados; leva também Alone Fritz, com quem \"a Dinastia gostava de ter uma palavra\"; Olomão promete recompensa através do Intendente Duarte Mirim; Bufal nomeia-os representantes de Urzin no Festival do Mérito; Bolbara anuncia a festa: \"Queremos que o pântano lembre o vosso esforço.\" o grupo opinou que Urzin devia ocupar o forte; escolheram o nome a campanha anterior.",
     "reveals": [
       "r-kryn-vs-empire"
     ],
@@ -40,7 +40,7 @@
         ]
       }
     ],
-    "notes": "No texto do conselho a tartaruga seria liderada por Varek Garras-de-Aço (hobgoblin), \"chamado a participar depois da tomada de decisão\"; na secção da viagem o comandante é Dhurak Pé-Reto. Manter Dhurak (foi o que se jogou) ou usar Varek como o nome que Olomão diz no conselho. O dilema ocupar/destruir e o ataque do Império a Urzin são a semente do Acto do Império (a definir).",
+    "notes": "No texto do conselho a tartaruga seria liderada por Varek Garras-de-Aço (hobgoblin), \"chamado a participar depois da tomada de decisão\"; na secção da viagem o comandante é Dhurak Pé-Reto. Manter Dhurak (foi o que se jogou) ou usar Varek como o nome que Olomão diz no conselho. O dilema ocupar/destruir e o ataque do Império a Urzin são a semente do Ato do Império (a definir).",
     "source": "dm"
   },
   {
@@ -59,7 +59,7 @@
       "c-durth-mirimm",
       "f-kryn"
     ],
-    "summary": "Em Urzin ninguém reconhece o cristal vermelho de Fritz por aquilo que é: acham que é uma pedra preciosa valiosa (não há joalheiros). Se o mostrarem a alguém, acabam convocados em privado por Olomão depois do conselho: pede a todos os outros líderes para saírem e, com ar pesado, pergunta onde o encontraram e o que sabem. \"Esse cristal chama-se rubídio, começou a surgir em territórios controlados pela Dinastia Kryn. Ninguém mais aqui sabe disto, e prefiro que assim permaneça.\" Pede que o levem em segredo a Duarte Mirim em Jigau, que os recompensará; que não lhe toquem (\"Algum de vocês tocou nele? Não? Óptimo, mantenham-se assim\"); que confiem só em Duarte, porque há muita gente curiosa e perigosa em Jigau durante o festival. \"O futuro de Urzin e de Jorhas pode depender do que decidirem fazer.\"",
+    "summary": "Em Urzin ninguém reconhece o cristal vermelho de Fritz por aquilo que é: acham que é uma pedra preciosa valiosa (não há joalheiros). Se o mostrarem a alguém, acabam convocados em privado por Olomão depois do conselho: pede a todos os outros líderes para saírem e, com ar pesado, pergunta onde o encontraram e o que sabem. \"Esse cristal chama-se rubídio, começou a surgir em territórios controlados pela Dinastia Kryn. Ninguém mais aqui sabe disto, e prefiro que assim permaneça.\" Pede que o levem em segredo a Duarte Mirim em Jigau, que os recompensará; que não lhe toquem (\"Algum de vocês tocou nele? Não? Ótimo, mantenham-se assim\"); que confiem só em Duarte, porque há muita gente curiosa e perigosa em Jigau durante o festival. \"O futuro de Urzin e de Jorhas pode depender do que decidirem fazer.\"",
     "reveals": [
       "r-ruidium-properties"
     ],
@@ -111,7 +111,7 @@
       "c-nevoa-vendor",
       "c-alonne-frith"
     ],
-    "summary": "O dia entre o conselho e a festa é para as lojas de Urzin: Trapo & Tição (bens gerais), Pombal Ninho de Lama (mensagens), Templo do Luxon (bênção, Augury), Templo das Cinzas (leitura das cinzas, totem), Ferreiro Pedra-Dura, Bugigangas de Mekik, O Casco Fumegante (banhos, rumores), A Carapaça Estalada, Raíz da Sorte, Mantimentos Até ao Osso e Névoa do Brejo. Fritz está preso numa tartaruga, vigiado por um guarda da Vigia da Aurora (Zareth Vonn); pode falar telepaticamente para tentar afastar o guarda e diz vir de Marquet para ganhar confiança. Rumores do Casco Fumegante: Grunzha sonha; um poço termal começou a brilhar avermelhado; um drow mascarado paga banhos privados com platina marcada com o símbolo da Míriade; Skirr achou um fragmento cristalino que aquece sozinho e provoca sonhos partilhados; alguns ouvem uma voz a chamar por \"aquele que regressa ao Luxon\". Augury de Artyom (\"o que tu queres está mais perto do que pensas\"); Inês e Eduardo subornaram um guarda por 10 po e obtiveram um mapa; Pedro comprou um battleaxe por 15 po; Elga comprou a galinha Odete, uma foice e rações; a mãe fez bolo de cenoura de Urzin; Fritz falou telepaticamente com Artyom (\"um estudioso que procura conhecimento\"); Artyom suspeitou que Fritz é um demónio ou morto-vivo e que já podia ter escapado.",
+    "summary": "O dia entre o conselho e a festa é para as lojas de Urzin: Trapo & Tição (bens gerais), Pombal Ninho de Lama (mensagens), Templo do Luxon (bênção, Augury), Templo das Cinzas (leitura das cinzas, totem), Ferreiro Pedra-Dura, Bugigangas de Mekik, O Casco Fumegante (banhos, rumores), A Carapaça Estalada, Raíz da Sorte, Mantimentos Até ao Osso e Névoa do Brejo. Fritz está preso numa tartaruga, vigiado por um guarda da Vigia da Aurora (Zareth Vonn); pode falar telepaticamente para tentar afastar o guarda e diz vir de Marquet para ganhar confiança. Rumores do Casco Fumegante: Grunzha sonha; um poço termal começou a brilhar avermelhado; um drow mascarado paga banhos privados com platina marcada com o símbolo da Miríade; Skirr achou um fragmento cristalino que aquece sozinho e provoca sonhos partilhados; alguns ouvem uma voz a chamar por \"aquele que regressa ao Luxon\". Augury de Artyom (\"o que tu queres está mais perto do que pensas\"); Inês e Eduardo subornaram um guarda por 10 po e obtiveram um mapa; Pedro comprou um battleaxe por 15 po; Elga comprou a galinha Odete, uma foice e rações; a mãe fez bolo de cenoura de Urzin; Fritz falou telepaticamente com Artyom (\"um estudioso que procura conhecimento\"); Artyom suspeitou que Fritz é um demónio ou morto-vivo e que já podia ter escapado.",
     "reveals": [
       "r-myriad-route"
     ],
@@ -121,7 +121,7 @@
     "choices": [
       {
         "label": "Seguir os rumores do Casco Fumegante",
-        "outcome": "o poço avermelhado e o fragmento de Skirr são as primeiras pistas de rubídio em Urzin; o drow mascarado com platina da Míriade liga à Névoa do Brejo (b-0-nevoa-do-brejo).",
+        "outcome": "o poço avermelhado e o fragmento de Skirr são as primeiras pistas de rubídio em Urzin; o drow mascarado com platina da Miríade liga à Névoa do Brejo (b-0-nevoa-do-brejo).",
         "leadsTo": [
           "b-0-nevoa-do-brejo"
         ]
@@ -134,7 +134,7 @@
         ]
       }
     ],
-    "notes": "Tabela d20 de bugigangas de Mekik (1 po cada): 1 dente de ogre com buraco (apito gutural, pode atrair criaturas); 2 olho de vidro estalado que parece seguir quem o segura; 3 meia de criança com selo de cera roxo quebrado (pode conter mensagem mágica); 4 pedaço de espelho curvado que deforma reflexos; 5 pedra achatada com um X entalhado (pista falsa); 6 estátua de formiga de cera; 7 botão com símbolo de dragão que brilha à luz da lua; 8 frasco vazio com cheiro a menta (\"para hálito de troglodita\"); 9 pinhão pintado com padrões geométricos (símbolo tribal); 10 concha rachada que serve de flauta desafinada; 11 fragmento de cerâmica com a letra L; 12 corda de cabelo com contas de osso (\"cabelo sagrado da minha tia, era xamã\"); 13 miniatura de tartaruga em madeira (\"traz sorte, três por cento de certeza\"); 14 esfera de barro cozido com fendas que rola de forma imprevisível; 15 argola de metal oxidado; 16 pederneira de cabo de osso com faíscas verdes; 17 corda de fibra seca 50 ft, frágil se molhada; 18 poção de sabor duvidoso (tabela d12: arroto explosivo, visão turva, euforia goblinóide, língua pegajosa, gases inquietos, nada acontece por enquanto, cabelo fluorescente, pupilas de serpente, resistência a ácido 1 h, riso incontrolável, paladar sobre-humano, brilho interior; efeitos 1d4 h); 19 armadilha improvisada de mola e anzol; 20 \"mapa\" que só Mekik entende (gancho de sidequest ou pista falsa). O frasco do djinn (Arufan) e o saco ficam de fora, tratados em Jigau. Preços das lojas nos locais respectivos. Fritz: \"o futuro dele ainda é incerto para abrir o jogo\" (nota do DM).",
+    "notes": "Tabela d20 de bugigangas de Mekik (1 po cada): 1 dente de ogre com buraco (apito gutural, pode atrair criaturas); 2 olho de vidro estalado que parece seguir quem o segura; 3 meia de criança com selo de cera roxo quebrado (pode conter mensagem mágica); 4 pedaço de espelho curvado que deforma reflexos; 5 pedra achatada com um X entalhado (pista falsa); 6 estátua de formiga de cera; 7 botão com símbolo de dragão que brilha à luz da lua; 8 frasco vazio com cheiro a menta (\"para hálito de troglodita\"); 9 pinhão pintado com padrões geométricos (símbolo tribal); 10 concha rachada que serve de flauta desafinada; 11 fragmento de cerâmica com a letra L; 12 corda de cabelo com contas de osso (\"cabelo sagrado da minha tia, era xamã\"); 13 miniatura de tartaruga em madeira (\"traz sorte, três por cento de certeza\"); 14 esfera de barro cozido com fendas que rola de forma imprevisível; 15 argola de metal oxidado; 16 pederneira de cabo de osso com faíscas verdes; 17 corda de fibra seca 50 ft, frágil se molhada; 18 poção de sabor duvidoso (tabela d12: arroto explosivo, visão turva, euforia goblinóide, língua pegajosa, gases inquietos, nada acontece por enquanto, cabelo fluorescente, pupilas de serpente, resistência a ácido 1 h, riso incontrolável, paladar sobre-humano, brilho interior; efeitos 1d4 h); 19 armadilha improvisada de mola e anzol; 20 \"mapa\" que só Mekik entende (gancho de sidequest ou pista falsa). O frasco do djinn (Arufan) e o saco ficam de fora, tratados em Jigau. Preços das lojas nos locais respetivos. Fritz: \"o futuro dele ainda é incerto para abrir o jogo\" (nota do DM).",
     "source": "dm"
   },
   {
@@ -152,7 +152,7 @@
       "c-druida-cego-do-pantano",
       "c-alonne-frith"
     ],
-    "summary": "Depois do resgate, os clãs de Urzin celebram sob o luar na zona elevada e seca: esteiras de fibras, tochas de bambu com chamas esverdeadas, ervas queimadas, carne assada, tambores, fantoches a reencenar o resgate da anciã. Bolbara ergue-se com o cajado: \"Hoje, Urzin não canta para dançar. Canta para lembrar. Canta para guardar.\" Põe ao pescoço de cada PC o Amuleto de Honra de Urzin, uma tartaruga de madeira do pântano com olhos de concha e espirais gravadas, suspensa por fio de fibras e um cabelo goblinóide: \"Esta tartaruga não corre. Não grita. Não se impõe. Mas leva o mundo às costas. E nunca o deixa cair.\" Nome do grupo: Corações de Urzin / Filhos do Véu Momentos por jogador: uma menina goblin oferece uma miniatura de tartaruga de lama (\"a primeira vez que ela oferece algo a alguém que não é família\"); um bugbear velho desafia para braço-de-ferro (Atletismo DC 13, 3 vitórias seguidas; \"não é a força que faz o protector. É isto\" — aponta ao peito); goblins músicos improvisam uma canção desafinada sobre o grupo; um druida goblin cego serve, numa fogueira isolada, o chá ritual em chávenas em forma de concha. Bea tocou flauta com Ricardo; Rakent recebeu a tartaruga de lama; Pedro aumentou a comida; Filipe fez truques com água; Elga falou com Bolbara (\"sacrifícios são necessários, mas não podemos esquecer quem somos\").",
+    "summary": "Depois do resgate, os clãs de Urzin celebram sob o luar na zona elevada e seca: esteiras de fibras, tochas de bambu com chamas esverdeadas, ervas queimadas, carne assada, tambores, fantoches a reencenar o resgate da anciã. Bolbara ergue-se com o cajado: \"Hoje, Urzin não canta para dançar. Canta para lembrar. Canta para guardar.\" Põe ao pescoço de cada PC o Amuleto de Honra de Urzin, uma tartaruga de madeira do pântano com olhos de concha e espirais gravadas, suspensa por fio de fibras e um cabelo goblinóide: \"Esta tartaruga não corre. Não grita. Não se impõe. Mas leva o mundo às costas. E nunca o deixa cair.\" Nome do grupo: Corações de Urzin / Filhos do Véu Momentos por jogador: uma menina goblin oferece uma miniatura de tartaruga de lama (\"a primeira vez que ela oferece algo a alguém que não é família\"); um bugbear velho desafia para braço-de-ferro (Atletismo DC 13, 3 vitórias seguidas; \"não é a força que faz o protetor. É isto\" — aponta ao peito); goblins músicos improvisam uma canção desafinada sobre o grupo; um druida goblin cego serve, numa fogueira isolada, o chá ritual em chávenas em forma de concha. Bea tocou flauta com Ricardo; Rakent recebeu a tartaruga de lama; Pedro aumentou a comida; Filipe fez truques com água; Elga falou com Bolbara (\"sacrifícios são necessários, mas não podemos esquecer quem somos\").",
     "reveals": [],
     "requires": [
       "b-0-urzin-council"
@@ -167,11 +167,11 @@
       },
       {
         "label": "Aceitar a tartaruga de lama da criança",
-        "outcome": "chave emocional ou símbolo de protecção espiritual para mais tarde (num sonho, a tartaruga aparece).",
+        "outcome": "chave emocional ou símbolo de proteção espiritual para mais tarde (num sonho, a tartaruga aparece).",
         "leadsTo": []
       }
     ],
-    "notes": "Amuleto de Honra de Urzin (efeito): visível, dá vantagem em testes de Carisma (Persuasão, Intimidação, Performance) com goblinóides de Urzin ou de clãs aliados de Jigau; goblinóides reconhecem o portador como \"honrado pelo pântano\"; em necessidade, pode invocar o espírito da tartaruga (inspiração, memória ou protecção narrativa, à descrição do DM). Usado só por quem protegeu a vila ou foi reconhecido pelo Guardião do Musgo. Rir e aplaudir a canção dá inspiração.",
+    "notes": "Amuleto de Honra de Urzin (efeito): visível, dá vantagem em testes de Carisma (Persuasão, Intimidação, Performance) com goblinóides de Urzin ou de clãs aliados de Jigau; goblinóides reconhecem o portador como \"honrado pelo pântano\"; em necessidade, pode invocar o espírito da tartaruga (inspiração, memória ou proteção narrativa, à descrição do DM). Usado só por quem protegeu a vila ou foi reconhecido pelo Guardião do Musgo. Rir e aplaudir a canção dá inspiração.",
     "source": "dm"
   },
   {
@@ -190,7 +190,7 @@
       "c-mossback-steward",
       "c-alyxian"
     ],
-    "summary": "Quem bebe o chá abre os olhos de dia, numa floresta como nunca viram: árvores gigantescas, sol entre os ramos, um riacho, dois pássaros de penas vermelhas e azuis; o ar puro, o verde impossível. Depois escurece: nuvens negras ou fumo, fuligem a cair como neve negra que arde nos olhos, as árvores a mirrar, o chão a tremer. Perception: são todos goblins, mas mantêm as suas classes e poderes. Lutam contra seguidores de Melora, que gritam em élfico \"Siletha rae Melorai. Shulkae Bane mor'rash\" (\"A bênção de Melora flui. Que o sangue de Bane seja derramado\") e entoam em ritual de guerra \"Sael'ir Melora, Nakar Bane, Irath ven'tar\" (\"Chamamos Melora, Rejeitamos Bane, Lutamos por equilíbrio\"); o druida invoca uma árvore. Quando o último inimigo cai: um trovão, chuva que lava a fuligem; as árvores ficam pequenas e retorcidas, o chão lama: é o seu pântano. Uma colina de arbustos e mangais que não estava lá aumenta e diminui como se respirasse (Investigation: uma tartaruga-do-horizonte maior e mais antiga do que alguma vez viram). Se lhe tocam, a chuva pára e uma voz grave diz: \"O céu, chorou. O véu, quebrou-se. Mas o pântano... lembra-se, do último Dranassar.\" Ao longe, uma figura humana de cabelos pretos ajoelhada, ombros caídos, cabeça baixa, sem rosto visível; fala-se com ela: silêncio; toca-se-lhe: levanta a cabeça e acordam à volta da fogueira, o druida desaparecido, um círculo de folhas secas no lugar da chaleira, as chávenas ainda mornas nas mãos: são conchas verdadeiras, e o chá seco forma três círculos vermelhos no fundo. acordaram na floresta sem companions nem demónios (warlock); Targost combateu ao lado deles; a flecha veio na direcção de Artyom; com a chuva transformaram-se em goblins; ao tocarem na figura ajoelhada ouviram \"O pântano lembra-se do último Dranassar\"; suspeitaram de uma visão histórica sobre a origem do pântano; Inês falhou o teste de Carisma do cristal e teve uma marca na alma no dia seguinte.",
+    "summary": "Quem bebe o chá abre os olhos de dia, numa floresta como nunca viram: árvores gigantescas, sol entre os ramos, um riacho, dois pássaros de penas vermelhas e azuis; o ar puro, o verde impossível. Depois escurece: nuvens negras ou fumo, fuligem a cair como neve negra que arde nos olhos, as árvores a mirrar, o chão a tremer. Perception: são todos goblins, mas mantêm as suas classes e poderes. Lutam contra seguidores de Melora, que gritam em élfico \"Siletha rae Melorai. Shulkae Bane mor'rash\" (\"A bênção de Melora flui. Que o sangue de Bane seja derramado\") e entoam em ritual de guerra \"Sael'ir Melora, Nakar Bane, Irath ven'tar\" (\"Chamamos Melora, Rejeitamos Bane, Lutamos por equilíbrio\"); o druida invoca uma árvore. Quando o último inimigo cai: um trovão, chuva que lava a fuligem; as árvores ficam pequenas e retorcidas, o chão lama: é o seu pântano. Uma colina de arbustos e mangais que não estava lá aumenta e diminui como se respirasse (Investigation: uma tartaruga-do-horizonte maior e mais antiga do que alguma vez viram). Se lhe tocam, a chuva para e uma voz grave diz: \"O céu, chorou. O véu, quebrou-se. Mas o pântano... lembra-se, do último Dranassar.\" Ao longe, uma figura humana de cabelos pretos ajoelhada, ombros caídos, cabeça baixa, sem rosto visível; fala-se com ela: silêncio; toca-se-lhe: levanta a cabeça e acordam à volta da fogueira, o druida desaparecido, um círculo de folhas secas no lugar da chaleira, as chávenas ainda mornas nas mãos: são conchas verdadeiras, e o chá seco forma três círculos vermelhos no fundo. acordaram na floresta sem companions nem demónios (warlock); Targost combateu ao lado deles; a flecha veio na direção de Artyom; com a chuva transformaram-se em goblins; ao tocarem na figura ajoelhada ouviram \"O pântano lembra-se do último Dranassar\"; suspeitaram de uma visão histórica sobre a origem do pântano; Inês falhou o teste de Carisma do cristal e teve uma marca na alma no dia seguinte.",
     "reveals": [
       "r-alyxian-last-dranassar"
     ],
@@ -257,7 +257,7 @@
         ]
       }
     ],
-    "notes": "Bolbara mostra, ao afastar o manto, um colar de conchas partidas (do rito das tartarugas). A lenda liga aos achados da Alma Cobalto em S21 (Dranassar antepassados dos goblins, seguidores de Bane, Ghor Dranas). Frases-chave para reutilizar: \"Quem espera demasiado... nem sempre espera por salvação\" (Alyxian) e \"Só morre quem é esquecido\" (r-alyxian-wants-remembered).",
+    "notes": "Bolbara mostra, ao afastar o manto, um colar de conchas partidas (do rito das tartarugas). A lenda liga aos achados da Alma de Cobalto em S21 (Dranassar antepassados dos goblins, seguidores de Bane, Ghor Dranas). Frases-chave para reutilizar: \"Quem espera demasiado... nem sempre espera por salvação\" (Alyxian) e \"Só morre quem é esquecido\" (r-alyxian-wants-remembered).",
     "source": "dm"
   },
   {
@@ -315,7 +315,7 @@
       "c-tripulacao-passo-lento",
       "c-durth-mirimm"
     ],
-    "summary": "No dia seguinte à festa e à visão, a caravana (uma tartaruga-do-horizonte guiada por goblinóides e protegida por membros da Vigia da Aurora) parte de Urzin para Jigau: 3 dias pelos Desterros de Jorhas, com paragens nocturnas em pequenos oásis. Missão tripla: representar Urzin no Festival do Mérito, escoltar Alone Fritz até à Dinastia e entregar a carta de Olomão ao Intendente Duarte Mirim (diz o que fizeram por Urzin e pela Dinastia Kryn, que são os representantes de Urzin e pede-lhes alojamento na semana do festival). Despedidas: os pais Adalberto e Framboesa Picanha-Pato (a bisavó Arminda; primos Rosbife e Massapão em Jigau; mais um bolo de cenoura; cada pai pede a um filho que cuide do outro; 20 po para dividir); a criança da festa despede-se de Rakent; o Pombal envia a mensagem para Targost, em Thieves' Cant (\"Um pardal assobiou entre as telhas partidas. Se era segredo ou saudade, o vento levou. - M.\" = \"O teu nome voltou a ser mencionado, mais não sei\"; na realidade fala de movimento de tropas imperiais a norte). Dhurak Pé-Reto: \"Corações, estão aqui como passageiros mas também como reforço e protecção.\" Flor comprou cogumelos \"Solo Vivo\" na Névoa do Brejo; dia de chuva; Elga conversou com Fritz (manchas vermelhas nos pulsos).",
+    "summary": "No dia seguinte à festa e à visão, a caravana (uma tartaruga-do-horizonte guiada por goblinóides e protegida por membros da Vigia da Aurora) parte de Urzin para Jigau: 3 dias pelos Desterros de Jorhas, com paragens nocturnas em pequenos oásis. Missão tripla: representar Urzin no Festival do Mérito, escoltar Alone Fritz até à Dinastia e entregar a carta de Olomão ao Intendente Duarte Mirim (diz o que fizeram por Urzin e pela Dinastia Kryn, que são os representantes de Urzin e pede-lhes alojamento na semana do festival). Despedidas: os pais Adalberto e Framboesa Picanha-Pato (a bisavó Arminda; primos Rosbife e Massapão em Jigau; mais um bolo de cenoura; cada pai pede a um filho que cuide do outro; 20 po para dividir); a criança da festa despede-se de Rakent; o Pombal envia a mensagem para Targost, em Thieves' Cant (\"Um pardal assobiou entre as telhas partidas. Se era segredo ou saudade, o vento levou. - M.\" = \"O teu nome voltou a ser mencionado, mais não sei\"; na realidade fala de movimento de tropas imperiais a norte). Dhurak Pé-Reto: \"Corações, estão aqui como passageiros mas também como reforço e proteção.\" Flor comprou cogumelos \"Solo Vivo\" na Névoa do Brejo; dia de chuva; Elga conversou com Fritz (manchas vermelhas nos pulsos).",
     "reveals": [],
     "requires": [
       "b-0-urzin-council"
@@ -349,7 +349,7 @@
       "c-alonne-frith",
       "c-avandra"
     ],
-    "summary": "Os Desterros de Jorhas: terra seca e rachada, tons avermelhados, formações rochosas, vento com poeira e cheiro metálico; a tradição goblinóide diz que o sangue dos deuses manchou esta terra na Calamidade. A meio da manhã, numa ravina, Tik e Tak dão o alarme (\"parecia... um rabo escuro?\"); Dhurak pára a caravana e deixa o resto nas mãos dos PCs. Encontram Nessa Brilho-Leve, clériga de Avandra, ferida e presa debaixo do seu moorbounder morto: Medicine DC 14 / Survival DC 15 no corpo mostram perfurações profundas quase queimadas, de criatura mágica ou planar; Arcana DC 13 / Nature DC 15: encaixa nos relatos de gloomstalkers; Insight DC 14: Nessa omite algo pessoal. Junta-se temporariamente ao grupo (Guidance, Cure Wounds, intuições divinas). viram alguém ao longe debaixo de um gloomstalker; Elga tentou mandar Odete presa numa flecha; começou a chover; encontraram um medalhão de prata de Avandra (Elga guardou-o); Nessa partilhou a visão de uma vila costeira goblin com nuvens vermelhas; Elga deixou Odete no colo de Fritz; Filipe deu uma coronhada a Fritz por fingir que não o ouvia.",
+    "summary": "Os Desterros de Jorhas: terra seca e rachada, tons avermelhados, formações rochosas, vento com poeira e cheiro metálico; a tradição goblinóide diz que o sangue dos deuses manchou esta terra na Calamidade. A meio da manhã, numa ravina, Tik e Tak dão o alarme (\"parecia... um rabo escuro?\"); Dhurak para a caravana e deixa o resto nas mãos dos PCs. Encontram Nessa Brilho-Leve, clériga de Avandra, ferida e presa debaixo do seu moorbounder morto: Medicine DC 14 / Survival DC 15 no corpo mostram perfurações profundas quase queimadas, de criatura mágica ou planar; Arcana DC 13 / Nature DC 15: encaixa nos relatos de gloomstalkers; Insight DC 14: Nessa omite algo pessoal. Junta-se temporariamente ao grupo (Guidance, Cure Wounds, intuições divinas). viram alguém ao longe debaixo de um gloomstalker; Elga tentou mandar Odete presa numa flecha; começou a chover; encontraram um medalhão de prata de Avandra (Elga guardou-o); Nessa partilhou a visão de uma vila costeira goblin com nuvens vermelhas; Elga deixou Odete no colo de Fritz; Filipe deu uma coronhada a Fritz por fingir que não o ouvia.",
     "reveals": [],
     "requires": [
       "b-0-departure"
@@ -381,7 +381,7 @@
       "c-tripulacao-passo-lento",
       "c-alonne-frith"
     ],
-    "summary": "Ao pôr do sol a caravana chega a um pequeno oásis: arvoredo verdejante entre pedras, um fio de água; os mais velhos dizem que só Melora manteria vivo um lugar assim nos Desterros. Fogueira, carne em espetos, Nessa senta-se com os PCs. Rubídio: se ninguém tocou no cristal, Carisma DC 5 (+5 por dia) contra a Marca na Alma; se alguém o carrega, tem o Sonho de Tempestade: sozinho num planalto vermelho, os companheiros imóveis de costas, o céu a escurecer, uma tempestade vermelha a rodopiar em vórtice; grita, ninguém responde, os olhos deles brilham fixos; o vento empurra, a terra treme, acorda suado com o vento real nos ramos; o cristal está gelado ao toque; Perception DC 20: \"juras que está maior do que a última vez\". a clareira tinha colunas em círculo, protecção antiga de Sehanine; Pedro viu a segunda lua, Ruidus, desaparecer atrás de uma nuvem e falou com Suma (\"não é bom sinal\"); Speak with Animals com a tartaruga (ressonar).",
+    "summary": "Ao pôr do sol a caravana chega a um pequeno oásis: arvoredo verdejante entre pedras, um fio de água; os mais velhos dizem que só Melora manteria vivo um lugar assim nos Desterros. Fogueira, carne em espetos, Nessa senta-se com os PCs. Rubídio: se ninguém tocou no cristal, Carisma DC 5 (+5 por dia) contra a Marca na Alma; se alguém o carrega, tem o Sonho de Tempestade: sozinho num planalto vermelho, os companheiros imóveis de costas, o céu a escurecer, uma tempestade vermelha a rodopiar em vórtice; grita, ninguém responde, os olhos deles brilham fixos; o vento empurra, a terra treme, acorda suado com o vento real nos ramos; o cristal está gelado ao toque; Perception DC 20: \"juras que está maior do que a última vez\". a clareira tinha colunas em círculo, proteção antiga de Sehanine; Pedro viu a segunda lua, Ruidus, desaparecer atrás de uma nuvem e falou com Suma (\"não é bom sinal\"); Speak with Animals com a tartaruga (ressonar).",
     "reveals": [
       "r-ruidium-properties"
     ],
@@ -452,7 +452,7 @@
         ]
       }
     ],
-    "notes": "Refúgio do Caminhante (item raro, sintonia por quem já passou uma noite nos Desterros): 1x/dia, acção, Leomund's Tiny Hut durante 1 h. Perception DC 15: guerreiros com olheiras, privados de sono. Ivo (c-irvan-wastewalker) é deste clã na reconheceu o amuleto do clã em Filipe. Semente dos rivais pró-rubídio: o clã pode querer o poder para se proteger; os druidas do clã usam um pó para se guiar e achar relíquias e água.",
+    "notes": "Refúgio do Caminhante (item raro, sintonia por quem já passou uma noite nos Desterros): 1x/dia, ação, Leomund's Tiny Hut durante 1 h. Perception DC 15: guerreiros com olheiras, privados de sono. Ivo (c-irvan-wastewalker) é deste clã na reconheceu o amuleto do clã em Filipe. Semente dos rivais pró-rubídio: o clã pode querer o poder para se proteger; os druidas do clã usam um pó para se guiar e achar relíquias e água.",
     "source": "dm"
   },
   {
@@ -472,7 +472,7 @@
       "c-zhayra-racha-pedra",
       "c-tripulacao-passo-lento"
     ],
-    "summary": "A caravana acampa em ruínas dentro de um oásis de árvores: o que resta de um santuário secreto de Sehanine dos últimos dias da Calamidade, chamado Kalai (\"Oculto\" na língua antiga dos elfos), onde sacerdotes usaram ilusão, sacrifício e magia lunar para esconder sobreviventes e velar as almas perdidas dos Betrayer Gods; diz-se que fragmentos do poder da deusa ficaram na pedra negra do altar. Inscrição fragmentada: \"Que a lua oculte o sangue, que o véu esconda os últimos. Sehanine, leva-nos em silêncio.\" A luz da lua (ou de Catha) nunca entra de verdade na clareira: uma névoa pálida cobre tudo; magias de Divination e Illusion têm vantagem ou efeitos expandidos. Um dos PCs (o mais intuitivo, ou quem sonhou com Alyxian) ouve durante o descanso: \"Ainda há luz no esquecimento. Segue a esperança que sangra.\" Odete sonhou com o Pato e Elga obteve Nevoeiro Cáustico (uma corrente a menos).",
+    "summary": "A caravana acampa em ruínas dentro de um oásis de árvores: o que resta de um santuário secreto de Sehanine dos últimos dias da Calamidade, chamado Kalai (\"Oculto\" na língua antiga dos elfos), onde sacerdotes usaram ilusão, sacrifício e magia lunar para esconder sobreviventes e velar as almas perdidas dos Deuses Traidores; diz-se que fragmentos do poder da deusa ficaram na pedra negra do altar. Inscrição fragmentada: \"Que a lua oculte o sangue, que o véu esconda os últimos. Sehanine, leva-nos em silêncio.\" A luz da lua (ou de Catha) nunca entra de verdade na clareira: uma névoa pálida cobre tudo; magias de Divination e Illusion têm vantagem ou efeitos expandidos. Um dos PCs (o mais intuitivo, ou quem sonhou com Alyxian) ouve durante o descanso: \"Ainda há luz no esquecimento. Segue a esperança que sangra.\" Odete sonhou com o Pato e Elga obteve Nevoeiro Cáustico (uma corrente a menos).",
     "reveals": [],
     "requires": [
       "b-1-journey-day2-wastewalkers"
@@ -508,7 +508,7 @@
       "c-zhayra-racha-pedra",
       "f-aurora-watch"
     ],
-    "summary": "Fritz segue para Jigau para ser interrogado por Duarte Mirim, porque o grupo disse a Olomão que o cristal veio dele ou porque a Vigia descobriu manchas vermelhas \"suspeitas\" nas mãos dele. Vigiado por Vetra e Dozak, de mãos atadas e cobertas, ri-se e dá respostas vagas: \"O que vocês estariam dispostos a fazer por poder? Poder para curar, poder para matar, poder para dobrar o destino à tua vontade?\"; telepaticamente a um PC: \"Eu sei que vocês o têm. Diz-me, não estás curioso?\", \"Achas que é por acaso que estamos a ir na mesma direcção?\", \"Eu repensaria quem é que está aqui preso com quem.\" Combate: um gloomstalker (Large aberration, NE; AC 16, HP 112; voo 60 ft; imune a medo; multiattack +7: mordida 2d10+4, garras 2d6+4, cauda 2d8+4 com alcance 10 ft) ataca a caravana; a tartaruga tem AC 22 e 227 HP; a tripulação, Nessa, Relk e Zhayra combatem. o gloomstalker agarrou Relk e deixou-o cair (0 HP, curado); Elga usou o rubídio 2x e ficou com 1 nível de corrupção, telepatia e a palma vermelha; Fritz lançou mage armor (AC 14) preso; ataram o gloomstalker à tartaruga e recolheram pele (poção de invisibilidade), sangue (poção de escuridão), 3 garras (adagas) e um olho (darkvision).",
+    "summary": "Fritz segue para Jigau para ser interrogado por Duarte Mirim, porque o grupo disse a Olomão que o cristal veio dele ou porque a Vigia descobriu manchas vermelhas \"suspeitas\" nas mãos dele. Vigiado por Vetra e Dozak, de mãos atadas e cobertas, ri-se e dá respostas vagas: \"O que vocês estariam dispostos a fazer por poder? Poder para curar, poder para matar, poder para dobrar o destino à tua vontade?\"; telepaticamente a um PC: \"Eu sei que vocês o têm. Diz-me, não estás curioso?\", \"Achas que é por acaso que estamos a ir na mesma direção?\", \"Eu repensaria quem é que está aqui preso com quem.\" Combate: um gloomstalker (Large aberration, NE; AC 16, HP 112; voo 60 ft; imune a medo; multiattack +7: mordida 2d10+4, garras 2d6+4, cauda 2d8+4 com alcance 10 ft) ataca a caravana; a tartaruga tem AC 22 e 227 HP; a tripulação, Nessa, Relk e Zhayra combatem. o gloomstalker agarrou Relk e deixou-o cair (0 HP, curado); Elga usou o rubídio 2x e ficou com 1 nível de corrupção, telepatia e a palma vermelha; Fritz lançou mage armor (AC 14) preso; ataram o gloomstalker à tartaruga e recolheram pele (poção de invisibilidade), sangue (poção de escuridão), 3 garras (adagas) e um olho (darkvision).",
     "reveals": [
       "r-ruidium-properties"
     ],
@@ -553,7 +553,7 @@
       "c-zhayra-racha-pedra",
       "f-aurora-watch"
     ],
-    "summary": "Chegada a Jigau, a cidade em preparação para o festival. Vêem uma caravana de Vigias da Aurora a começar a partir para Urzin (os reforços que Olomão pediu para o forte). viram uma tartaruga apinhada de soldados drow na direcção oposta; Elga despediu-se de Fritz; Targost \"saltou\" a meio da entrada na cidade e não voltou; Nessa foi procurar um templo/hospital onde fosse precisa (Flor foi com ela); Rakent vendeu a carcaça do gloomstalker ao Talho do Corte-Grosso por 15 po; reunião com o Intendente.",
+    "summary": "Chegada a Jigau, a cidade em preparação para o festival. Vêem uma caravana de Vigias da Aurora a começar a partir para Urzin (os reforços que Olomão pediu para o forte). viram uma tartaruga apinhada de soldados drow na direção oposta; Elga despediu-se de Fritz; Targost \"saltou\" a meio da entrada na cidade e não voltou; Nessa foi procurar um templo/hospital onde fosse precisa (Flor foi com ela); Rakent vendeu a carcaça do gloomstalker ao Talho do Corte-Grosso por 15 po; reunião com o Intendente.",
     "reveals": [],
     "requires": [
       "b-1-journey-day3-gloomstalker"
@@ -627,7 +627,7 @@
       "c-alonne-frith",
       "c-torog"
     ],
-    "summary": "Na estalagem de Bazzoxan, Fritz desce as escadas na direcção dos PCs, preocupado e surpreendido: queria falar com Elga sobre Odete e ela desapareceu. Oferece-se para explorar a Ascensão com eles de manhã; se não, entra primeiro, sozinho. No quarto dele (Rakent): notas soltas: \"O que será a Odete? Entidade planar, ponto de contacto? Será que gosta de bolachas?\"; \"Luas de Ruidus? Vigost, homem que conheceu em Decrepola, contou-lhe sobre a maldição de Ruidus, registos parcos...\"; \"Elisabete, o pai não desistiu.\"; dois sacos que não conseguiu abrir (um de bolachas, outro de veludo negro com cristais). mais notas: \"O Vigost tinha razão. Segundo os cultistas de Torog, ele foi banido durante a Calamidade para uma prisão entre o Reino Distante e o Subterrâneo Profundo, mas a sua presença é forte em Bazzoxan. Espero estar perto de conseguir obter respostas. A manipulação da realidade através da consciência é cada vez mais palpável aqui.\"; sobre o grupo anterior e Elga com a galinha (\"faz-me lembrar de ti - jovial, animada, reguila\"); \"Elisabete, desde aquele maldito dia em que fomos atacados e tu nos foste roubada, os deuses, por capricho ou por insulto, apenas me voltaram a acordar e amaldiçoaram-me com a tua falta. Mas o Pai ainda não desistiu. Estou cada vez mais perto.\" Fritz entrou na Ascensão ao fim do dia anterior, sozinho; Rakent esperou por ele e ele não apareceu.",
+    "summary": "Na estalagem de Bazzoxan, Fritz desce as escadas na direção dos PCs, preocupado e surpreendido: queria falar com Elga sobre Odete e ela desapareceu. Oferece-se para explorar a Ascensão com eles de manhã; se não, entra primeiro, sozinho. No quarto dele (Rakent): notas soltas: \"O que será a Odete? Entidade planar, ponto de contacto? Será que gosta de bolachas?\"; \"Luas de Ruidus? Vigost, homem que conheceu em Decrépola, contou-lhe sobre a maldição de Ruidus, registos parcos...\"; \"Elisabete, o pai não desistiu.\"; dois sacos que não conseguiu abrir (um de bolachas, outro de veludo negro com cristais). mais notas: \"O Vigost tinha razão. Segundo os cultistas de Torog, ele foi banido durante a Calamidade para uma prisão entre o Reino Distante e o Subterrâneo Profundo, mas a sua presença é forte em Bazzoxan. Espero estar perto de conseguir obter respostas. A manipulação da realidade através da consciência é cada vez mais palpável aqui.\"; sobre o grupo anterior e Elga com a galinha (\"faz-me lembrar de ti - jovial, animada, reguila\"); \"Elisabete, desde aquele maldito dia em que fomos atacados e tu nos foste roubada, os deuses, por capricho ou por insulto, apenas me voltaram a acordar e amaldiçoaram-me com a tua falta. Mas o Pai ainda não desistiu. Estou cada vez mais perto.\" Fritz entrou na Ascensão ao fim do dia anterior, sozinho; Rakent esperou por ele e ele não apareceu.",
     "reveals": [
       "r-fritz-elisabete"
     ],
@@ -694,7 +694,7 @@
   },
   {
     "id": "b-0-return-to-urzin",
-    "notes": "Os PCs chegam a Jigow a nível 3. Se Bol'bara sobreviveu, guardá-la como seer que pode reaparecer (visões, Luxon, Irvan). Semear aqui a fama junto da Kryn. Bolbara possuída foi confrontada no pântano e derrotada inconsciente; de regresso a Urzin, Fritz foi entregue à custódia da Vigia da Aurora e cada PC recebeu 50 po; Olomão Quebra-Sol voltou mais cedo por causa do forte. Na campanha anterior o que se segue em Urzin (conselho, lojas, festa, visão, rubídio, partida) está nos beats 82–98."
+    "notes": "Os PCs chegam a Jigau a nível 3. Se Bol'bara sobreviveu, guardá-la como seer que pode reaparecer (visões, Luxon, Irvan). Semear aqui a fama junto da Kryn. Bolbara possuída foi confrontada no pântano e derrotada inconsciente; de regresso a Urzin, Fritz foi entregue à custódia da Vigia da Aurora e cada PC recebeu 50 po; Olomão Quebra-Sol voltou mais cedo por causa do forte. Na campanha anterior o que se segue em Urzin (conselho, lojas, festa, visão, rubídio, partida) está nos beats 82–98."
   },
   {
     "id": "b-1-jigau-arrival-intendente",
@@ -770,7 +770,7 @@
       "c-ayo-jabe",
       "c-regimia-rosbife"
     ],
-    "summary": "Na véspera do festival, a caixa de prémios \"desapareceu\" e um enigma pregado na Presa Inquebrável lança uma caça ao tesouro pela cidade (one-shot da DnDBeyond, traduzida). J1 Presa: pegadas com fertilizante (Investigação CD 10); Bruno Massapão na cozinha. J5 Arrozais: Beetle e Zag escondem a pista (Intuição CD 13; 5 po cada para a mostrarem); a tira de couro está presa num elemental de terra adormecido (For CD 11 acorda-o) — na mesa Elga quase morreu; descanso em casa dos Rosbife. J6 Curral: tartaruga em fuga (Des CD 13 / 2d10), teste de grupo CD 13, três tartarugas com estrela (Investigação CD 11, Des CD 10 ou 1d10), Lidar com Animais CD 12; Ivo fala com Adão. J4 Talho: concurso de bebida (Con CD 8, +2/copo). J3 Ifolon: Keyeki no caiaque; Percepção CD 10 e d100 pelo baú; 2 swarms of quippers (na mesa: shape water como escafandro e para sufocar as piranhas; Elga repara na joalharia recém-aberta). J2 Labirinto: parede que canta (Sobrevivência CD 14). J9 Tropa Torta: kobolds (teste de grupo CD 11), cofre no telhado (Atletismo 15 / Prestidigitação 13). J8 Igreja do Luxon: Belana dá a palavra final (\"o fim\"; \"Parece que os meios justificam o fim\"). J7 Armazém: Coblu-Kaz revela que foi ele, para criar antecipação: 40 po + medalha de tenacidade. Ayo fica impressionada; os PCs conhecem Dermot e Maggie.",
+    "summary": "Na véspera do festival, a caixa de prémios \"desapareceu\" e um enigma pregado na Presa Inquebrável lança uma caça ao tesouro pela cidade (one-shot da DnDBeyond, traduzida). J1 Presa: pegadas com fertilizante (Investigação CD 10); Bruno Massapão na cozinha. J5 Arrozais: Beetle e Zag escondem a pista (Intuição CD 13; 5 po cada para a mostrarem); a tira de couro está presa num elemental de terra adormecido (For CD 11 acorda-o) — na mesa Elga quase morreu; descanso em casa dos Rosbife. J6 Curral: tartaruga em fuga (Des CD 13 / 2d10), teste de grupo CD 13, três tartarugas com estrela (Investigação CD 11, Des CD 10 ou 1d10), Lidar com Animais CD 12; Ivo fala com Adão. J4 Talho: concurso de bebida (Con CD 8, +2/copo). J3 Ifolon: Keyeki no caiaque; Perceção CD 10 e d100 pelo baú; 2 swarms of quippers (na mesa: shape water como escafandro e para sufocar as piranhas; Elga repara na joalharia recém-aberta). J2 Labirinto: parede que canta (Sobrevivência CD 14). J9 Tropa Torta: kobolds (teste de grupo CD 11), cofre no telhado (Atletismo 15 / Prestidigitação 13). J8 Igreja do Luxon: Belana dá a palavra final (\"o fim\"; \"Parece que os meios justificam o fim\"). J7 Armazém: Coblu-Kaz revela que foi ele, para criar antecipação: 40 po + medalha de tenacidade. Ayo fica impressionada; os PCs conhecem Dermot e Maggie.",
     "reveals": [
       "r-scarlet-fever"
     ],
@@ -864,7 +864,7 @@
       "c-myriad-jigow-fence",
       "c-os-orelhudos"
     ],
-    "summary": "Na banca de gemas do festival (e na loja recém-aberta nas Águas-da-Carne), Ilyra Céu-Pálido, de véu, pergunta telepaticamente a quem carrega rubídio se \"não tem nada para vender\" (\"Compreendo perfeitamente.\"). Vende suude vermelho: 10 po por 2 doses de 5 g; só negocia a sério com quem traga cristais (\"não menos de 30 po\"). Com Identify: 10 g = uma opção de Metamagia (Con CD 10, 2d10; nat 1 → Cha CD 20; falhar ambos = 1 exaustão + 1 corrupção); 5 g = 10 min de olhos vermelhos, detecta cristais a 30 ft e visões do passado do local (bloqueio: 30 cm de pedra, 3 cm de metal, chumbo, 1 m de madeira/terra). Ilyra usa o pó para detectar quem carrega o cristal (Elga). Lê a sorte: \"há uma ponte no teu futuro\" — a ponte do Ifolon leva a um pequeno templo de Avandra na rocha. Ace, com 5 g, encontrou um santuário antigo de Sehanine submerso nas Águas-da-Carne.",
+    "summary": "Na banca de gemas do festival (e na loja recém-aberta nas Águas-da-Carne), Ilyra Céu-Pálido, de véu, pergunta telepaticamente a quem carrega rubídio se \"não tem nada para vender\" (\"Compreendo perfeitamente.\"). Vende suude vermelho: 10 po por 2 doses de 5 g; só negocia a sério com quem traga cristais (\"não menos de 30 po\"). Com Identify: 10 g = uma opção de Metamagia (Con CD 10, 2d10; nat 1 → Cha CD 20; falhar ambos = 1 exaustão + 1 corrupção); 5 g = 10 min de olhos vermelhos, deteta cristais a 30 ft e visões do passado do local (bloqueio: 30 cm de pedra, 3 cm de metal, chumbo, 1 m de madeira/terra). Ilyra usa o pó para detetar quem carrega o cristal (Elga). Lê a sorte: \"há uma ponte no teu futuro\" — a ponte do Ifolon leva a um pequeno templo de Avandra na rocha. Ace, com 5 g, encontrou um santuário antigo de Sehanine submerso nas Águas-da-Carne.",
     "reveals": [
       "r-myriad-route",
       "r-ruidium-properties"
@@ -887,11 +887,11 @@
       },
       {
         "label": "Denunciar a Durth / à Vigia",
-        "outcome": "DM: ver b-1-myriad-jigow: o receptador desaparece; a remessa segue na mesma.",
+        "outcome": "DM: ver b-1-myriad-jigow: o recetador desaparece; a remessa segue na mesma.",
         "leadsTo": []
       }
     ],
-    "notes": "Substitui/expande o \"receptador sem nome\" de b-1-myriad-jigow com Ilyra. A velha do pó da S12 (roubaram-lhe um saquinho de \"especiarias\") e a \"gaja dos cristais\" são a mesma Ilyra; o DM anotou \"tenho de os recompensar e dar pistas concretas\". Pista de r-myriad-route: o alfinete-estrela de prata (código Miríade) e o espelho de sussurros na loja.",
+    "notes": "Substitui/expande o \"recetador sem nome\" de b-1-myriad-jigow com Ilyra. A velha do pó da S12 (roubaram-lhe um saquinho de \"especiarias\") e a \"gaja dos cristais\" são a mesma Ilyra; o DM anotou \"tenho de os recompensar e dar pistas concretas\". Pista de r-myriad-route: o alfinete-estrela de prata (código Miríade) e o espelho de sussurros na loja.",
     "source": "dm"
   },
   {
@@ -1069,7 +1069,7 @@
       "c-alonne-frith",
       "c-myriad-jigow-fence"
     ],
-    "summary": "No Quarto do Arcanista, um livro de capa branca em tinta invisível (Arcana CD 15; Detect Magic: abjuração + ilusão) guarda três palavras em drow antigo — Ulun'ta, Reskaar, Vel'rith — que suprimem por 1 hora o glifo de alarme + hold person da estante giratória. Atrás dela, uma plataforma de pedra desce ao laboratório: fragmentos de rubídio num círculo luxoniano, documentos sobre dunamis (instabilidade, corrupção, sonhos partilhados), um Espelho de Sussurros e um pequeno Beacon experimental suspenso; as runas brilham e o rubídio ressoa quando entra um estranho. Os apontamentos de Velnari falam do Reino Distante, de sacrifícios \"nesta vida ou na próxima\", de Vorrim (arcanista de Bazzoxan), de Fritz (scholar de Decerepula, culto do Reino Distante), de um \"grupo corrompido\" como fonte ou cobaias e do sobrinho corrompido enviado a Bazzoxan. Ilyra é uma das \"agentes aliadas\" com acesso.",
+    "summary": "No Quarto do Arcanista, um livro de capa branca em tinta invisível (Arcana CD 15; Detect Magic: abjuração + ilusão) guarda três palavras em drow antigo — Ulun'ta, Reskaar, Vel'rith — que suprimem por 1 hora o glifo de alarme + hold person da estante giratória. Atrás dela, uma plataforma de pedra desce ao laboratório: fragmentos de rubídio num círculo luxoniano, documentos sobre dunamis (instabilidade, corrupção, sonhos partilhados), um Espelho de Sussurros e um pequeno farol experimental suspenso; as runas brilham e o rubídio ressoa quando entra um estranho. Os apontamentos de Velnari falam do Reino Distante, de sacrifícios \"nesta vida ou na próxima\", de Vorrim (arcanista de Bazzoxan), de Fritz (scholar de Decrépola, culto do Reino Distante), de um \"grupo corrompido\" como fonte ou cobaias e do sobrinho corrompido enviado a Bazzoxan. Ilyra é uma das \"agentes aliadas\" com acesso.",
     "reveals": [
       "r-velnari-corrupted",
       "r-ruidium-properties",
@@ -1101,7 +1101,7 @@
         ]
       }
     ],
-    "notes": "Na mesa Elga e Filipe (\"Pierre Anoiko\") entraram pela porta das traseiras do quartel e encontraram Fritz e Velnari à mesa a tomar chá, com chávenas já à espera (Olhos de Sangue); Fritz: \"tenham cuidado, vão usando\". Em S19 Velnari convidou Elga ao laboratório. Pista de r-velnari-corrupted (a segunda), r-ruidium-properties (documentos) e r-myriad-route (Ilyra como fornecedora). O Beacon experimental liga a r-beacon-in-barracks / Cerberus a decidir pelo DM. Handout \"Notas do Arcanista\" no doc Campanha (4 h de leitura).",
+    "notes": "Na mesa Elga e Filipe (\"Pierre Anoiko\") entraram pela porta das traseiras do quartel e encontraram Fritz e Velnari à mesa a tomar chá, com chávenas já à espera (Olhos de Sangue); Fritz: \"tenham cuidado, vão usando\". Em S19 Velnari convidou Elga ao laboratório. Pista de r-velnari-corrupted (a segunda), r-ruidium-properties (documentos) e r-myriad-route (Ilyra como fornecedora). O farol experimental liga a r-beacon-in-barracks / Cerberus a decidir pelo DM. Handout \"Notas do Arcanista\" no doc Campanha (4 h de leitura).",
     "source": "dm"
   },
   {
@@ -1202,7 +1202,7 @@
         ]
       }
     ],
-    "notes": "a rota marítima substitui b-2-journey e os encontros da estrada; desembarca-se na costa de Xhorhas e faz-se o resto a pé (mamutes vs gloomstalkers na planície ou vrock + udaak na montanha, não detalhado aqui) até às Ruínas da Saudade (b-2-ruins-outside-bazzoxan). Se os PCs partem em paz, a perseguição naval não acontece.",
+    "notes": "a rota marítima substitui b-2-journey e os encontros da estrada; desembarca-se na costa de Jorhas e faz-se o resto a pé (mamutes vs gloomstalkers na planície ou vrock + udaak na montanha, não detalhado aqui) até às Ruínas da Saudade (b-2-ruins-outside-bazzoxan). Se os PCs partem em paz, a perseguição naval não acontece.",
     "source": "dm",
     "timer": "3 dias de mar (Alto Mar) ou 5 (Costa); clima rolado por dia"
   },
@@ -1344,7 +1344,7 @@
       "c-kiri-kiri-da-vela-alta",
       "c-culto-esquecido"
     ],
-    "summary": "Alternativa (a campanha anterior): se os PCs forem por mar… Dia 4: chegada à costa de Xhorhas. Funeral de Kiri-Kiri na praia: o corpo envolto na vela rasgada, a tripulação em círculo, Chekka finca um peixe seco na areia como oferenda a Avandra e faz o elogio fúnebre (\"Sempre quiseste subir mais alto. Hoje, sobes mais alto que todos nós.\"); Grelka distribui um copinho de bebida picante que é veneno drow (CON DC 13); Nok-Nok e Bukka despedem-se; espaço para os PCs falarem. Depois, uma caverna na costa: entrada com gravuras em espiral (\"Sob as ondas não há memória. Apenas morte.\"), túnel inundado, gruta interior com a concha colossal, o olho vertical e a aura psíquica (WIS DC 15 ou 1d4 psíquico e confusão 1 min); sussurros em Deep Speech, o último: \"Um mestre dorme. Sonha contigo.\" Se aceitam a oferta, um portal-olho abre-se em luz vermelha e da concha sai um item (a definir pelo DM; \"O presente é aceito. A vigia começa. O profundo não esquece.\").",
+    "summary": "Alternativa (a campanha anterior): se os PCs forem por mar… Dia 4: chegada à costa de Jorhas. Funeral de Kiri-Kiri na praia: o corpo envolto na vela rasgada, a tripulação em círculo, Chekka finca um peixe seco na areia como oferenda a Avandra e faz o elogio fúnebre (\"Sempre quiseste subir mais alto. Hoje, sobes mais alto que todos nós.\"); Grelka distribui um copinho de bebida picante que é veneno drow (CON DC 13); Nok-Nok e Bukka despedem-se; espaço para os PCs falarem. Depois, uma caverna na costa: entrada com gravuras em espiral (\"Sob as ondas não há memória. Apenas morte.\"), túnel inundado, gruta interior com a concha colossal, o olho vertical e a aura psíquica (WIS DC 15 ou 1d4 psíquico e confusão 1 min); sussurros em Deep Speech, o último: \"Um mestre dorme. Sonha contigo.\" Se aceitam a oferta, um portal-olho abre-se em luz vermelha e da concha sai um item (a definir pelo DM; \"O presente é aceito. A vigia começa. O profundo não esquece.\").",
     "reveals": [],
     "requires": [
       "b-2-sea-iceberg"
@@ -1383,7 +1383,7 @@
       "c-vazia",
       "c-verin-thelyss"
     ],
-    "summary": "ao ver as muralhas de Bazzoxan, WIS save (visão). Os PCs conhecem Gruusk e são levados por Vazia ao Intendente (Verin). Um agente da Alma Cobalto avisa por Sending que \"Questão\" está em Bazzoxan.",
+    "summary": "ao ver as muralhas de Bazzoxan, WIS save (visão). Os PCs conhecem Gruusk e são levados por Vazia ao Intendente (Verin). Um agente da Alma de Cobalto avisa por Sending que \"Questão\" está em Bazzoxan.",
     "reveals": [],
     "requires": [
       "b-2-arrival-bazzoxan"
@@ -1397,7 +1397,7 @@
         ]
       }
     ],
-    "notes": "a campanha anterior. Complementa b-2-arrival-bazzoxan. A visão nas muralhas não está transcrita nos registos. Ao ver as muralhas (50 m), visão da Bazzoxan original e do tempo a passar sobre ela; Wisdom save DC 18. Beau avisa por Sending que há uma agente da Alma Cobalto, nome de código \"Questão\", vinda do Templo da Mentora em Ank'Harel. Ace fez detect magic a Aloysia: ilusão, um cilindro de evocação e tablets de conjuração. Grusk, na muralha: \"Zyn'thar, Darguun, Grumak… Os outros? Vou avisar a enfermaria. Vocês, identifiquem-se!\" — Zyn'thar: \"Amigos da Dinastia!\" — Grusk: \"Mais mercenários? Precisamos de toda a ajuda que conseguirmos.\" Vazia leva-os ao quartel do bastião.",
+    "notes": "a campanha anterior. Complementa b-2-arrival-bazzoxan. A visão nas muralhas não está transcrita nos registos. Ao ver as muralhas (50 m), visão da Bazzoxan original e do tempo a passar sobre ela; Wisdom save DC 18. Beau avisa por Sending que há uma agente da Alma de Cobalto, nome de código \"Questão\", vinda do Templo da Mentora em Ank'Harel. Ace fez detect magic a Aloysia: ilusão, um cilindro de evocação e tablets de conjuração. Grusk, na muralha: \"Zyn'thar, Darguun, Grumak… Os outros? Vou avisar a enfermaria. Vocês, identifiquem-se!\" — Zyn'thar: \"Amigos da Dinastia!\" — Grusk: \"Mais mercenários? Precisamos de toda a ajuda que conseguirmos.\" Vazia leva-os ao quartel do bastião.",
     "source": "dm"
   },
   {
@@ -1470,7 +1470,7 @@
       "c-talan-velyar",
       "c-rolo-wellington"
     ],
-    "summary": "entram na Estalagem do Soldado Caído; conhecem Prolix, que se junta à mesa a investigar Aloysia (mais tarde paga 100 po adiantados, S39); Fritz é visto a falar com Aloysia; conhecem a \"Maré de Fogo\" (Nara Sol e Talan Velyar, bardos); Iliana \"Questão\" mostra as aguarelas do interior da Ascensão e a balada em undercommon. Rolo Wellington vende rubídio em segredo à Míriade.",
+    "summary": "entram na Estalagem do Soldado Caído; conhecem Prolix, que se junta à mesa a investigar Aloysia (mais tarde paga 100 po adiantados, S39); Fritz é visto a falar com Aloysia; conhecem a \"Maré de Fogo\" (Nara Sol e Talan Velyar, bardos); Iliana \"Questão\" mostra as aguarelas do interior da Ascensão e a balada em undercommon. Rolo Wellington vende rubídio em segredo à Miríade.",
     "reveals": [
       "r-faction-agendas"
     ],
@@ -1488,13 +1488,13 @@
       },
       {
         "label": "Falar com a Maré de Fogo",
-        "outcome": "Nara pede ajuda mais tarde a investigar o rubídio e a Míriade.",
+        "outcome": "Nara pede ajuda mais tarde a investigar o rubídio e a Miríade.",
         "leadsTo": [
           "b-3-karesh"
         ]
       }
     ],
-    "notes": "a campanha anterior. Versão da mesa de b-3-ready-room-question e da colocação dos investigadores (b-3-researchers-in-town). O ataque de Vor'zen (b-3-vorzen-attack) rebenta aqui na mesma noite. Diário de Comando de Verin (handout em docs/handouts.md) lista os forasteiros: Aloysia (há 4 dias, casa abandonada, sob vigia), \"Questão\" (ajuda a vigiar Aloysia), Prolix (hospedado na estalagem), Alone Fritz (\"estudioso de Decrepola\", pediu acesso ao laboratório), \"mercadores de Urzin\" (Míriade). Na estalagem: Prolix (envergonhado, carisma não é o forte; objectivos: vigiar Aloysia e investigar a origem do rubídio e a relação com a Calamidade; sabe que há rubídio em Ank'Harel; paga 100 po adiantados e mais 200 se descobrirem as intenções de Aloysia); Fritz à mesa com Aloysia; a Maré de Fogo actua — Nara Sol: elfa de pele morena reluzente, careca, olhos âmbar, casaco de couro vermelho-escuro com costuras douradas, lenço alaranjado, lira de madeira escura com cordas douradas, brinco de meia-lua; chamas acendem-se-lhe no topo da cabeça ao tocar; \"Boa noite, Bazzoxan… onde até as sombras precisam de ouvir uma canção\" / \"Para os que vigiam, para os que choram, e para os que não podem dormir\" / \"Se a noite é longa, então vamos acendê-la\". Nara e Talan são do Sorriso Dourado e estão em Bazzoxan a investigar a Míriade (mensagem do Sorriso Dourado: \"A Lira arde em Bazzoxan, para iluminar a sombra da Miríade. O Rubídio sonha.\"). Aloysia sai acompanhada; Fritz vai para o quarto; o Volstrucker segue o grupo fingindo-se soldado de Verin.",
+    "notes": "a campanha anterior. Versão da mesa de b-3-ready-room-question e da colocação dos investigadores (b-3-researchers-in-town). O ataque de Vor'zen (b-3-vorzen-attack) rebenta aqui na mesma noite. Diário de Comando de Verin (handout em docs/handouts.md) lista os forasteiros: Aloysia (há 4 dias, casa abandonada, sob vigia), \"Questão\" (ajuda a vigiar Aloysia), Prolix (hospedado na estalagem), Alone Fritz (\"estudioso de Decrépola\", pediu acesso ao laboratório), \"mercadores de Urzin\" (Miríade). Na estalagem: Prolix (envergonhado, carisma não é o forte; objetivos: vigiar Aloysia e investigar a origem do rubídio e a relação com a Calamidade; sabe que há rubídio em Ank'Harel; paga 100 po adiantados e mais 200 se descobrirem as intenções de Aloysia); Fritz à mesa com Aloysia; a Maré de Fogo atua — Nara Sol: elfa de pele morena reluzente, careca, olhos âmbar, casaco de couro vermelho-escuro com costuras douradas, lenço alaranjado, lira de madeira escura com cordas douradas, brinco de meia-lua; chamas acendem-se-lhe no topo da cabeça ao tocar; \"Boa noite, Bazzoxan… onde até as sombras precisam de ouvir uma canção\" / \"Para os que vigiam, para os que choram, e para os que não podem dormir\" / \"Se a noite é longa, então vamos acendê-la\". Nara e Talan são do Sorriso Dourado e estão em Bazzoxan a investigar a Miríade (mensagem do Sorriso Dourado: \"A Lira arde em Bazzoxan, para iluminar a sombra da Miríade. O Rubídio sonha.\"). Aloysia sai acompanhada; Fritz vai para o quarto; o Volstrucker segue o grupo fingindo-se soldado de Verin.",
     "source": "dm"
   },
   {
@@ -1512,7 +1512,7 @@
       "c-nara-sol",
       "c-vazia"
     ],
-    "summary": "Karesh \"Asa Rubra\", aarakocra capitã da Vigia, é avistada a caminho do Quartel do Portão e chega ao fim da perseguição ao assaltante Volstrucker. Nara Sol pede ajuda a investigar o rubídio e a Míriade e revela que está corrompida; Vazia pede ajuda com Rolo, que não acorda.",
+    "summary": "Karesh \"Asa Rubra\", aarakocra capitã da Vigia, é avistada a caminho do Quartel do Portão e chega ao fim da perseguição ao assaltante Volstrucker. Nara Sol pede ajuda a investigar o rubídio e a Miríade e revela que está corrompida; Vazia pede ajuda com Rolo, que não acorda.",
     "reveals": [
       "r-myriad-route"
     ],
@@ -1522,7 +1522,7 @@
     "choices": [
       {
         "label": "Ajudar Nara",
-        "outcome": "pista da Míriade em Bazzoxan.",
+        "outcome": "pista da Miríade em Bazzoxan.",
         "leadsTo": [
           "b-3-rolo-wellington"
         ]
@@ -1535,7 +1535,7 @@
         ]
       }
     ],
-    "notes": "a campanha anterior. A ligação \"Sorriso Dourado\"/Míriade confirmada por Nara fica só como menção. Uma aarakocra bordô aterra perto de Verin e ambos partem em direcções distintas. Bazzoxan \"vibra com actividade\": limpam escombros do último ataque, tratam feridos, últimos ritos, reparam fortificações. Na enfermaria curam-se e recebem um token para deixar no muro dos nomes (o coelho de olho-de-tigre de Naevyn Tasithar, do livro). No Quartel do Portão, entrevista de Verin com Zone of Truth. Beau: há um Volstrucker em Bazzoxan.",
+    "notes": "a campanha anterior. A ligação \"Sorriso Dourado\"/Miríade confirmada por Nara fica só como menção. Uma aarakocra bordô aterra perto de Verin e ambos partem em direções distintas. Bazzoxan \"vibra com atividade\": limpam escombros do último ataque, tratam feridos, últimos ritos, reparam fortificações. Na enfermaria curam-se e recebem um token para deixar no muro dos nomes (o coelho de olho-de-tigre de Naevyn Tasithar, do livro). No Quartel do Portão, entrevista de Verin com Zone of Truth. Beau: há um Volstrucker em Bazzoxan.",
     "source": "dm"
   },
   {
@@ -1554,7 +1554,7 @@
       "c-foghome",
       "c-myriad-bazzoxan-contact"
     ],
-    "summary": "Rolo Wellington adormece e não acorda; Vazia encontra-lhe pedras vermelhas no bolso: rubídio dos túneis, que ele vendia em segredo à Míriade (a Tingus). No Templo, Fugon tenta Greater Restoration sem resultado. Pista da ponta de Bazzoxan do canal.",
+    "summary": "Rolo Wellington adormece e não acorda; Vazia encontra-lhe pedras vermelhas no bolso: rubídio dos túneis, que ele vendia em segredo à Miríade (a Tingus). No Templo, Fugon tenta Greater Restoration sem resultado. Pista da ponta de Bazzoxan do canal.",
     "reveals": [
       "r-myriad-route",
       "r-ruidium-properties"
@@ -1571,7 +1571,7 @@
         ]
       },
       {
-        "label": "Seguir as pedras até à Míriade",
+        "label": "Seguir as pedras até à Miríade",
         "outcome": "leva a Tingus da Chuva.",
         "leadsTo": [
           "b-3-myriad-bazzoxan",
@@ -1579,7 +1579,7 @@
         ]
       }
     ],
-    "notes": "a campanha anterior. Quinta pista de r-myriad-route. Tingus diz mais tarde que os PCs lhe eliminaram \"um dos principais clientes\". Rolo \"Well\" Wellington, 15 anos, halfling órfão, sardento, cabelo encaracolado castanho, vive no \"quarto das caixas\" no celeiro; faz de tudo e mete o nariz onde não deve; idolatra aventureiros (\"um dia também vou para a Rise!\"); frase típica: \"Posso guardar as vossas armas, prometo que só brinco um bocadinho!\"; secretamente mensageiro de um agente da Míriade, sem saber o perigo; ideia do DM: mãos enfaixadas ou manchas vermelhas — tenta juntar dinheiro para sair de Bazzoxan com Vazia, que não sabe. Vazia da Uva: halfling adulta, pequena, cabelo ruivo preso num lenço colorido, fala alto, ri-se com facilidade, trata soldados e heróis da mesma maneira, sente um dever para com esta terra; mãe adoptiva de Rolo. Vazia pede ajuda porque Rolo tem febre e não acorda; encontrou-lhe pedras vermelhas no bolso (dos túneis; vendia-as a \"alguém\" em Bazzoxan). No Templo de Avandra (árvore antiga ao meio, mensagens nas alcovas), Fugon vai à estalagem e usa Greater Restoration.",
+    "notes": "a campanha anterior. Quinta pista de r-myriad-route. Tingus diz mais tarde que os PCs lhe eliminaram \"um dos principais clientes\". Rolo \"Well\" Wellington, 15 anos, halfling órfão, sardento, cabelo encaracolado castanho, vive no \"quarto das caixas\" no celeiro; faz de tudo e mete o nariz onde não deve; idolatra aventureiros (\"um dia também vou para a Ascensão!\"); frase típica: \"Posso guardar as vossas armas, prometo que só brinco um bocadinho!\"; secretamente mensageiro de um agente da Miríade, sem saber o perigo; ideia do DM: mãos enfaixadas ou manchas vermelhas — tenta juntar dinheiro para sair de Bazzoxan com Vazia, que não sabe. Vazia da Uva: halfling adulta, pequena, cabelo ruivo preso num lenço colorido, fala alto, ri-se com facilidade, trata soldados e heróis da mesma maneira, sente um dever para com esta terra; mãe adotiva de Rolo. Vazia pede ajuda porque Rolo tem febre e não acorda; encontrou-lhe pedras vermelhas no bolso (dos túneis; vendia-as a \"alguém\" em Bazzoxan). No Templo de Avandra (árvore antiga ao meio, mensagens nas alcovas), Fugon vai à estalagem e usa Greater Restoration.",
     "source": "dm"
   },
   {
@@ -1642,14 +1642,14 @@
     "choices": [
       {
         "label": "Derrotar Vor'zen",
-        "outcome": "estalagem selada; enfermeiros; efeitos de insanidade nos afectados.",
+        "outcome": "estalagem selada; enfermeiros; efeitos de insanidade nos afetados.",
         "leadsTo": [
           "b-3-infirmary",
           "b-3-vorrim"
         ]
       }
     ],
-    "notes": "a campanha anterior. Regras da mesa: Grito do Apoteão (habilidade de corrupção nível 3: CHA save DC 8+prof+CHA, 1d8 psíquico × nível de corrupção + 1d4 emoção) e pontos de insanidade (docs/regras.md, a passar). Mostra que há soldados da Vigia infectados. Vor'zen é o sobrevivente do grupo de \"Questão\" que voltou corrompido; fugiu da enfermaria / laboratório arcano. Gritos na rua em undercommon (\"NÃO! POR FAVOR, VOR'ZEN, PARA!\"), depois silêncio; a porta explode para dentro; ligaduras rasgadas com pus rosado, olhos avermelhados, veias vermelhas grossas, bolhas, pequenos cristais de rubídio a brotar da pele e a estalar; \"Não… não era suposto. Eu… eu tentei… PORQUÊ?! A dor… a dor… a DOR!\"; o chão racha com linhas vermelhas; a voz muda, profunda e ecoante: Grito do Apoteão (quem falha ganha insanidade; Vazia e Rolo inconscientes, Nara só chora, Talan inconsciente). Fritz, telepaticamente: \"Elga, não faças nada!\" e segura-o com Hold Person. Vorrin chega dois turnos depois.",
+    "notes": "a campanha anterior. Regras da mesa: Grito do Apoteão (habilidade de corrupção nível 3: CHA save DC 8+prof+CHA, 1d8 psíquico × nível de corrupção + 1d4 emoção) e pontos de insanidade (docs/regras.md, a passar). Mostra que há soldados da Vigia infetados. Vor'zen é o sobrevivente do grupo de \"Questão\" que voltou corrompido; fugiu da enfermaria / laboratório arcano. Gritos na rua em undercommon (\"NÃO! POR FAVOR, VOR'ZEN, PARA!\"), depois silêncio; a porta explode para dentro; ligaduras rasgadas com pus rosado, olhos avermelhados, veias vermelhas grossas, bolhas, pequenos cristais de rubídio a brotar da pele e a estalar; \"Não… não era suposto. Eu… eu tentei… PORQUÊ?! A dor… a dor… a DOR!\"; o chão racha com linhas vermelhas; a voz muda, profunda e ecoante: Grito do Apoteão (quem falha ganha insanidade; Vazia e Rolo inconscientes, Nara só chora, Talan inconsciente). Fritz, telepaticamente: \"Elga, não faças nada!\" e segura-o com Hold Person. Vorrin chega dois turnos depois.",
     "source": "dm"
   },
   {
@@ -1674,7 +1674,7 @@
     "choices": [
       {
         "label": "Aceitar as Âncoras",
-        "outcome": "uma saída de emergência do Rise; a Dinastia sabe onde os PCs estão.",
+        "outcome": "uma saída de emergência da Ascensão; a Dinastia sabe onde os PCs estão.",
         "leadsTo": [
           "b-3-rise-entrances"
         ]
@@ -1697,7 +1697,7 @@
     "participants": [
       "c-volstrucker-agent"
     ],
-    "summary": "o Volstrucker embosca os PCs para lhes roubar um item; perseguição; o assaltante morto revela-se um humano disfarçado e um selo arcano de morte apaga-lhe a memória. Fica nas mãos dos PCs um caderno selado que só abre com Dispel Magic. Handout — Caderno Volstrucker: Entrada 1, Iniciação Volstrucker (Ikithon): integração em Rexxentrum; formação em interrogatório, infiltração, vigilância e extracção; marca de obediência; \"capacidade adequada de dissociação emocional\". Entrada 2, Operação \"Véu de Cinza\": avaliação da aldeia do Vale Mole (Montanhas da Rocha-Parda); veios de pedra-bruma sob liderança civil; o líder da aldeia recusou a exploração; ameaça ao núcleo familiar; entregou-se para preservar a família; desaparecimento registado como desabamento natural; a esposa e uma filha abandonaram a região, outro descendente já fora da área. Entrada 3, Forte Ventura (Ikithon): posto experimental de contenção e pesquisa arcana; captura de sujeitos de interesse planar; zelo ideológico elevado do inquisidor, vigilância interna recomendada. Entrada 4, Contrabando de Rubídio (Da'leth): na Guarnição das Cinzas, rotas associadas à Myriad e material classificado como rubídio, de origem extra-imperial, elevado potencial arcano; pedido de rastreio sem limitação territorial. Entrada 6, Operação \"Rede Rubra\" (Da'leth): em Bazzoxan, monitorizar a extracção e o tráfico de rubídio, avaliar a contenção da Dinastia e garantir a transferência de activos estratégicos para a Cerberus Assembly, com projecção para Marquet; substituição do soldado drow Zynthar e modificação de memória de aliados próximos; amostras de rubídio Classe III em zonas restritas; recolha local coordenada com o contacto da Myriad \"Tingus\"; intervenções discretas nos Túneis da Ascensão; presença crescente de facções (Miríade, Alma Cobalto, Consórcio do Sonho Vermelho, Culto das Escamas, Aliança do Saber e o grupo dos PCs, que \"parece transportar um item mágico de interesse directo para Aloysia\"); recomenda-se vigilância passiva sobre rumores da Ascensão, prioridade ao reencontro com Da'leth em Ank'Harel e continuação da investigação sobre a verdadeira origem do rubídio.",
+    "summary": "o Volstrucker embosca os PCs para lhes roubar um item; perseguição; o assaltante morto revela-se um humano disfarçado e um selo arcano de morte apaga-lhe a memória. Fica nas mãos dos PCs um caderno selado que só abre com Dispel Magic. Handout — Caderno Volstrucker: Entrada 1, Iniciação Volstrucker (Ikithon): integração em Rexxentrum; formação em interrogatório, infiltração, vigilância e extração; marca de obediência; \"capacidade adequada de dissociação emocional\". Entrada 2, Operação \"Véu de Cinza\": avaliação da aldeia do Vale Mole (Montanhas da Rocha-Parda); veios de pedra-bruma sob liderança civil; o líder da aldeia recusou a exploração; ameaça ao núcleo familiar; entregou-se para preservar a família; desaparecimento registado como desabamento natural; a esposa e uma filha abandonaram a região, outro descendente já fora da área. Entrada 3, Forte Ventura (Ikithon): posto experimental de contenção e pesquisa arcana; captura de sujeitos de interesse planar; zelo ideológico elevado do inquisidor, vigilância interna recomendada. Entrada 4, Contrabando de Rubídio (Da'leth): na Guarnição da Cinza, rotas associadas à Miríade e material classificado como rubídio, de origem extra-imperial, elevado potencial arcano; pedido de rastreio sem limitação territorial. Entrada 6, Operação \"Rede Rubra\" (Da'leth): em Bazzoxan, monitorizar a extração e o tráfico de rubídio, avaliar a contenção da Dinastia e garantir a transferência de ativos estratégicos para a Assembleia de Cerebrus, com projeção para Marquet; substituição do soldado drow Zynthar e modificação de memória de aliados próximos; amostras de rubídio Classe III em zonas restritas; recolha local coordenada com o contacto da Miríade \"Tingus\"; intervenções discretas nos Túneis da Ascensão; presença crescente de fações (Miríade, Alma de Cobalto, Consórcio do Sonho Vermelho, Culto das Escamas, Aliança do Saber e o grupo dos PCs, que \"parece transportar um item mágico de interesse direto para Aloysia\"); recomenda-se vigilância passiva sobre rumores da Ascensão, prioridade ao reencontro com Da'leth em Ank'Harel e continuação da investigação sobre a verdadeira origem do rubídio.",
     "reveals": [
       "r-assembly-buys-ruidium",
       "r-faction-agendas"
@@ -1708,7 +1708,7 @@
     "choices": [
       {
         "label": "Abrir o caderno (Dispel Magic)",
-        "outcome": "o handout; liga a Assembly ao canal do Myriad e a Tingus.",
+        "outcome": "o handout; liga a Assembleia ao canal da Miríade e a Tingus.",
         "leadsTo": [
           "b-3-tingus",
           "b-3-beacon-in-barracks"
@@ -1720,7 +1720,7 @@
         "leadsTo": []
       }
     ],
-    "notes": "A entrada 5 e as referências ao intermediário da Myriad ficam de fora por decisão do DM; o nome do líder da aldeia do Vale Mole também. Quinta pista de r-assembly-buys-ruidium. Se o assaltante morto é o próprio Zyn'thar ou um cúmplice fica ao critério do DM (os registos não o dizem). DM: se Adélia morreu no assalto (b-3-volstrucker-assault), o caderno fica órfão: ninguém vem buscá-lo.",
+    "notes": "A entrada 5 e as referências ao intermediário da Miríade ficam de fora por decisão do DM; o nome do líder da aldeia do Vale Mole também. Quinta pista de r-assembly-buys-ruidium. Se o assaltante morto é o próprio Zyn'thar ou um cúmplice fica ao critério do DM (os registos não o dizem). DM: se Adélia morreu no assalto (b-3-volstrucker-assault), o caderno fica órfão: ninguém vem buscá-lo.",
     "source": "dm"
   },
   {
@@ -1739,7 +1739,7 @@
       "c-kael-rhun",
       "c-lirien-solva"
     ],
-    "summary": "Tingus da Chuva, tabaxi da Míriade (corrupção nível 2, fala telepaticamente), marca encontro no muro dos nomes com dois guardas da Vigia escondidos num beco com bestas. Diz que os PCs lhe eliminaram um dos principais clientes; pede ajuda para descobrir quem roubou aos Kryn \"um artefacto poderoso encontrado antes de vocês chegarem\" e para onde foi (\"Tenho clientes interessados. Clientes cujo nome preferem que não se saiba.\"); quer assaltar o quartel; chantagem: o que faria a liderança local se soubesse que há um agente da Míriade infiltrado; \"Uma vez Míriade, para sempre Míriade.\" Sabe que os PCs vão \"ascender\" amanhã para a Dinastia. Os guardas mostram-se e afastam-se com ela.",
+    "summary": "Tingus da Chuva, tabaxi da Miríade (corrupção nível 2, fala telepaticamente), marca encontro no muro dos nomes com dois guardas da Vigia escondidos num beco com bestas. Diz que os PCs lhe eliminaram um dos principais clientes; pede ajuda para descobrir quem roubou aos Kryn \"um artefacto poderoso encontrado antes de vocês chegarem\" e para onde foi (\"Tenho clientes interessados. Clientes cujo nome preferem que não se saiba.\"); quer assaltar o quartel; chantagem: o que faria a liderança local se soubesse que há um agente da Miríade infiltrado; \"Uma vez Miríade, para sempre Miríade.\" Sabe que os PCs vão \"ascender\" amanhã para a Dinastia. Os guardas mostram-se e afastam-se com ela.",
     "reveals": [
       "r-myriad-route",
       "r-beacon-in-barracks"
@@ -1748,7 +1748,7 @@
     "choices": [
       {
         "label": "Aceitar ajudar Tingus",
-        "outcome": "assalto ao quartel depois do Rise (planeado pelo DM, não jogado).",
+        "outcome": "assalto ao quartel depois da Ascensão (planeado pelo DM, não jogado).",
         "leadsTo": [
           "b-3-beacon-in-barracks"
         ]
@@ -1761,7 +1761,7 @@
         ]
       }
     ],
-    "notes": "a campanha anterior. O \"artefacto roubado aos Kryn\" é a versão da mesa de r-beacon-in-barracks. Um PC que a siga arrisca-se a ser apanhado por guardas da Aurora. A ligação pessoal de Tingus a um PC da campanha anterior fica de fora. a agente da Míriade (tabaxi; na página antiga chama-se Surira, no doc da campanha Tingus da Chuva) aborda um dos PCs a meio da cidade e pergunta se está ali para ajudar ou para pagar o que deve. \"1 contrabandista homem-gato (ligação com a gaja pálida de Jigau)\" — a ligação Tingus ↔ Ilyra Céu-Pálido está prevista.",
+    "notes": "a campanha anterior. O \"artefacto roubado aos Kryn\" é a versão da mesa de r-beacon-in-barracks. Um PC que a siga arrisca-se a ser apanhado por guardas da Aurora. A ligação pessoal de Tingus a um PC da campanha anterior fica de fora. a agente da Miríade (tabaxi; na página antiga chama-se Surira, no doc da campanha Tingus da Chuva) aborda um dos PCs a meio da cidade e pergunta se está ali para ajudar ou para pagar o que deve. \"1 contrabandista homem-gato (ligação com a gaja pálida de Jigau)\" — a ligação Tingus ↔ Ilyra Céu-Pálido está prevista.",
     "source": "dm"
   },
   {
@@ -1802,7 +1802,7 @@
   },
   {
     "id": "b-3-basilica",
-    "notes": "Os nove símbolos apresentam os Betrayer Gods para o epílogo do capítulo 7 (as ofertas dos deuses traidores se Alyxian for libertado). R9 \"Basílica da Folia\": 4 chamas dançantes (succubus/incubus alterado, garra = fogo); dançar (Acrobatics/Performance DC 12) faz a chama tocar o símbolo seguinte do mosaico de vitral com 9 símbolos (Asmodeus coroa de cornos, Bane mangual, Gruumsh olho, Lolth aranha, Zehir serpente, Tharizdun espiral, Vecna mão com olho, Torog trio de braços, Tiamat garra); sequência certa Lolth → Gruumsh → Tharizdun → Torog; símbolo errado: WIS DC 16 ou 8d6 psíquico; partir o vitral (STR 12; AC 11/10 HP): WIS DC 20 ou maldição sem cura; repara-se em 1 h. Sala pentagonal adjacente (a definir pelo DM; o que lá estava na campanha anterior fica de fora)."
+    "notes": "Os nove símbolos apresentam os Deuses Traidores para o epílogo do capítulo 7 (as ofertas dos deuses traidores se Alyxian for libertado). R9 \"Basílica da Folia\": 4 chamas dançantes (succubus/incubus alterado, garra = fogo); dançar (Acrobatics/Performance DC 12) faz a chama tocar o símbolo seguinte do mosaico de vitral com 9 símbolos (Asmodeus coroa de cornos, Bane mangual, Gruumsh olho, Lolth aranha, Zehir serpente, Tharizdun espiral, Vecna mão com olho, Torog trio de braços, Tiamat garra); sequência certa Lolth → Gruumsh → Tharizdun → Torog; símbolo errado: WIS DC 16 ou 8d6 psíquico; partir o vitral (STR 12; AC 11/10 HP): WIS DC 20 ou maldição sem cura; repara-se em 1 h. Sala pentagonal adjacente (a definir pelo DM; o que lá estava na campanha anterior fica de fora)."
   },
   {
     "id": "b-3-volstrucker-assault",
@@ -1819,7 +1819,7 @@
       "c-karesh-asa-rubra",
       "f-aurora-watch"
     ],
-    "summary": "De noite, alguém disfarçado de soldado da Vigia \"enviado por Verin\" (na verdade a Volstrucker Adélia Krauss, a \"Zyn'thar\") segue o grupo e tenta roubar-lhe um item. Habilidades usadas: Shadow Needle (bónus, recarga 5–6, alvo a 9 m, WIS DC 14, falha 3d6 psíquico e incapacitado 1 ronda) e Shadow Step (1/descanso, teleporte de 9 m em escuridão ou penumbra, seguido de Hide). O assaltante foge em direcção à Ascensão; é perseguido e morto; o disguise self cai e revela uma humana ruiva de feições delicadas, olhos revirados, espuma na boca e veias negras; um selo arcano na nuca mata-a no instante e apaga-lhe a memória. Karesh \"Asa Rubra\" chega e leva o corpo.",
+    "summary": "De noite, alguém disfarçado de soldado da Vigia \"enviado por Verin\" (na verdade a Volstrucker Adélia Krauss, a \"Zyn'thar\") segue o grupo e tenta roubar-lhe um item. Habilidades usadas: Shadow Needle (bónus, recarga 5–6, alvo a 9 m, WIS DC 14, falha 3d6 psíquico e incapacitado 1 ronda) e Shadow Step (1/descanso, teleporte de 9 m em escuridão ou penumbra, seguido de Hide). O assaltante foge em direção à Ascensão; é perseguido e morto; o disguise self cai e revela uma humana ruiva de feições delicadas, olhos revirados, espuma na boca e veias negras; um selo arcano na nuca mata-a no instante e apaga-lhe a memória. Karesh \"Asa Rubra\" chega e leva o corpo.",
     "reveals": [
       "r-assembly-buys-ruidium"
     ],
@@ -1829,14 +1829,14 @@
     "choices": [
       {
         "label": "Perseguir a assaltante",
-        "outcome": "DM: apanhada antes da Ascensão; o selo arcano mata-a e apaga-lhe a memória; o disfarce cai (Adélia Krauss). A Assembly fica sem agente em Bazzoxan: ninguém vem buscar o caderno, Aloysia fica sozinha em R16 e o beacon não é atacado pela Assembly.",
+        "outcome": "DM: apanhada antes da Ascensão; o selo arcano mata-a e apaga-lhe a memória; o disfarce cai (Adélia Krauss). A Assembleia fica sem agente em Bazzoxan: ninguém vem buscar o caderno, Aloysia fica sozinha em R16 e o farol não é atacado pela Assembleia.",
         "leadsTo": [
           "b-3-caderno-volstrucker"
         ]
       },
       {
         "label": "Deixá-la fugir",
-        "outcome": "DM: Adélia continua viva e disfarçada de Zyn'thar: volta pelo caderno, entra em R16 com Aloysia e tenta o beacon.",
+        "outcome": "DM: Adélia continua viva e disfarçada de Zyn'thar: volta pelo caderno, entra em R16 com Aloysia e tenta o farol.",
         "leadsTo": [
           "b-3-caderno-volstrucker",
           "b-3-beacon-in-barracks"

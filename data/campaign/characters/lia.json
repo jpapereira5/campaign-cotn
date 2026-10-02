@@ -1,0 +1,163 @@
+[
+  {
+    "id": "c-pc-lia",
+    "name": "Lia",
+    "kind": "pc",
+    "factions": [],
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4",
+      "ch5",
+      "ch6",
+      "ch7",
+      "ch8"
+    ],
+    "summary": "cotn_2026 (fichas «Lia — Ficha e Backstory» e «Lia — Segredos do DM», Drive, pasta Camila). Camila. Drow, Clériga 3 (Twilight Domain), Acólita, 101 anos; olhos lilás, pele obsidiana, cabelo branco; élfico, comum, anão, goblin. CA 16, PV 24, passiva 15. Criada nos arredores de Rexxentrum por um investigador da Biblioteca da Alma de Cobalto a quem chama pai; contaram-lhe que foi resgatada em bebé de experiências da Assembleia de Cerebrus. Poderes divinos perto dos noventa anos, treinada à noite em templos de Rexxentrum. O sonho de Rosohna: «Ysareth Mirimm, anda jantar antes que arrefeça!». O pai partiu pouco depois e deixou um cofre (o pendente com um símbolo que ninguém lê, o selo de expositor, uma carta, dinheiro). A Sia Kresh disse-lhe que ele seguiu para Jorhas por razões pessoais. Entra na sessão 4 (#86, 2026-09-23): deixou-se capturar por uma patrulha do Forte Ventura para entrar no forte e ver o livro de registos.",
+    "goal": "Encontrar o pai.",
+    "secret": "DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista em Bazzoxan, agente da Lente e dunamante, à frente da investigação secreta de uma cura para o typhros. O deus que lhe responde é o Luxon e ela não sabe. É uma alma consecutada com typhros (a Rainha Brilhante tem sinais do mesmo). Sonhos de vidas passadas por sítio, cada conjunto acaba num nome: Mirimm (Rosohna), Kryn (Urzin), Zolaed (Jigau), Hythenos (Bazzoxan), Thelyss (Ascensão). O pai procura no rubídio a cura e acaba corrompido no Heart of Despair. O Fritz é o espelho dele. Ver docs/pcs.md.",
+    "wants": "O rasto do pai; o livro de registos do Forte Ventura.",
+    "fears": "Por definir com a Camila.",
+    "states": [],
+    "tags": [
+      "pc",
+      "cotn_2026",
+      "drow",
+      "luxon",
+      "typhros",
+      "cobalt-soul"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-pai-da-lia",
+    "name": "O pai da Lia (expositor da Alma de Cobalto; nome e raça por definir)",
+    "kind": "npc",
+    "factions": [
+      "f-cobalt-soul"
+    ],
+    "chapters": [
+      "ch3",
+      "ch4",
+      "ch7"
+    ],
+    "summary": "DM: expositor da Biblioteca da Alma de Cobalto ao serviço da High Curator Yudala Fon; criou a Lia nos arredores de Rexxentrum. Depois do sonho de Rosohna partiu por razões pessoais, sem missão da ordem, para falar com a mãe dela em Bazzoxan.",
+    "goal": "Salvar a filha do typhros.",
+    "secret": "Percurso: Bazzoxan (a mãe conta-lhe que a Dinastia estuda o rubídio como cura; oferece-se para arranjar mais) → atravessa a Ascensão (pouco rubídio ali) → Ank'Harel (a Alma de Cobalto diz-lhe que a fonte passa por lá) → Heart of Despair, puxado pelo Alyxian, corrupção 5 ou 6. Procura a cura no rubídio, e é o rubídio que acorda a alma dela. Os vestígios dele podem aparecer perto do final do Fritz na Ascensão («havia outro… não parou»).",
+    "wants": "Rubídio; tempo.",
+    "fears": "Que a filha se perca nas vidas passadas.",
+    "states": [],
+    "tags": [
+      "dm",
+      "lia",
+      "cobalt-soul",
+      "rubidio"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-mae-da-lia",
+    "name": "A mãe da Lia (arcanista de Bazzoxan; nome por definir)",
+    "kind": "npc",
+    "factions": [
+      "f-kryn"
+    ],
+    "home": "l-bazzoxan",
+    "chapters": [
+      "ch3"
+    ],
+    "summary": "DM: por fora, arcanista-mor de Bazzoxan (alternativa: sacerdotisa) — o CotN tem arcanistas da Dinastia em Bazzoxan a tentar selar as fendas, sem nome; NPC original. Espera a Lia em Bazzoxan e não a pode reconhecer em público.",
+    "goal": "Uma cura para o typhros.",
+    "secret": "Agente da Lente, à frente da investigação secreta de uma cura para o typhros, a estudar o rubídio. Dunamante: previu o futuro da alma da filha e entregou-a em bebé ao pai, combinando a história do resgate. Conheceu-o pelos contactos entre a Lente e a Alma de Cobalto. Sabe que ele desceu à Ascensão e sabe mais do que diz.",
+    "wants": "Ver a filha em segredo; a cura.",
+    "fears": "Que a Dinastia descubra a filha typhros e o segredo partilhado com o Império.",
+    "states": [],
+    "tags": [
+      "dm",
+      "lia",
+      "kryn",
+      "lens",
+      "dunamancia",
+      "bazzoxan"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-sia-kresh",
+    "name": "Sia Kresh",
+    "kind": "npc",
+    "factions": [
+      "f-cobalt-soul"
+    ],
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "Canon (EGtW) + DM: expositora halfling da Biblioteca da Alma de Cobalto no Arquivo de Rexxentrum, braço-direito secreto da High Curator Yudala Fon. Recebeu a Lia quando ela usou a carta do pai e disse-lhe que ele partira por razões pessoais, rumo a Jorhas.",
+    "goal": "Proteger a Yudala e o arquivo.",
+    "secret": "DM: é quem trata do caso da Lia, para que a Yudala nunca tenha de se encontrar com ela.",
+    "wants": "",
+    "fears": "O Theolocrat Kon Bruda.",
+    "states": [],
+    "tags": [
+      "canon",
+      "dm",
+      "cobalt-soul",
+      "lia"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-yudala-fon",
+    "name": "High Curator Yudala Fon",
+    "kind": "npc",
+    "factions": [
+      "f-cobalt-soul"
+    ],
+    "chapters": [
+      "ch0"
+    ],
+    "summary": "Canon (EGtW): meia-elfa, leal boa, agénero; dirige o Arquivo de Rexxentrum da Biblioteca da Alma de Cobalto e passou a vida a protegê-lo da Coroa e da Assembleia; guerra de vontades com o Theolocrat Kon Bruda há quase vinte anos.",
+    "goal": "Manter o arquivo fora do controlo do Estado.",
+    "secret": "DM: sabia da Lia — o pai escondeu-a de toda a ordem menos dela. Nunca se encontrou com a Lia: se se soubesse que encobria uma drow, era o pretexto que o Kon Bruda procura.",
+    "wants": "",
+    "fears": "O Kon Bruda.",
+    "states": [],
+    "tags": [
+      "canon",
+      "cobalt-soul",
+      "lia"
+    ],
+    "source": "dm"
+  },
+  {
+    "id": "c-doolan-tversky",
+    "name": "Doolan Tversky, Arquimaga de Disologia",
+    "kind": "npc",
+    "factions": [
+      "f-cerberus-assembly"
+    ],
+    "chapters": [
+      "ch0",
+      "ch1",
+      "ch2",
+      "ch3",
+      "ch4"
+    ],
+    "summary": "Canon (EGtW): gnoma, caótica neutra, a segunda mais velha da Assembleia de Cerebrus; estuda criaturas anómalas e desvios da criação arcana; distraída mas brilhante; importa criaturas do mundo inteiro para desmontar; ressente a Alma de Cobalto, que a baniu das suas instalações; contratou discretamente a Miríade para lhe trazer espécimes.",
+    "goal": "Perceber o rubídio.",
+    "secret": "DM (conspiração rubídica, «Alberto v3»): coordena com o Trent Ikithon testes de rubídio em pessoas (inserções na pele, sujeitos que ninguém procura; o povo chama-lhe «febre escarlate a oeste»): ela tem o saber arcano, ele as pessoas, os Volstrucker fornecem e limpam. Cadeia: o Padre Perestrelo recolhe e envia → a Tversky recebe e distribui → o Alberto analisa. Já encontrou o Alberto: sending de 25 palavras, sem ameaça nenhuma («A sua filha pergunta por si. Onde está?»), e aceita a negociação dele, morna, quase gentil.",
+    "wants": "Os olhos do Alberto dentro do grupo.",
+    "fears": "",
+    "states": [],
+    "tags": [
+      "canon",
+      "dm",
+      "cerberus",
+      "alberto",
+      "rubidio"
+    ],
+    "source": "dm"
+  }
+]

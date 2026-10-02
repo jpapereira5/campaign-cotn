@@ -1,0 +1,51 @@
+[
+  {
+    "from": "c-ossorio-lume",
+    "to": "c-vigost",
+    "type": "knows",
+    "label": "vende-lhe rubídio (o cristal no pano do culto)",
+    "source": "dm"
+  },
+  {
+    "from": "c-ossorio-lume",
+    "to": "f-cerberus-assembly",
+    "type": "knows",
+    "label": "vende à célula secreta da Assembleia em Decrépola",
+    "source": "dm"
+  },
+  {
+    "from": "c-remendo",
+    "to": "c-marisa-sete-ventos",
+    "type": "serves",
+    "label": "tripulação dela; conta-lhe da tatuagem do Ruín",
+    "source": "dm"
+  },
+  {
+    "from": "c-vigost",
+    "to": "c-alonne-frith",
+    "type": "spiesOn",
+    "label": "estuda-o: dá-lhe o que procura e toma notas",
+    "source": "dm"
+  },
+  {
+    "from": "c-alonne-frith",
+    "to": "c-vigost",
+    "type": "knows",
+    "label": "julga ter encontrado um mestre («o Vigost tinha razão»)",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lucan",
+    "to": "c-ossorio-lume",
+    "type": "knows",
+    "label": "pagaram-lhe informação sobre o rubídio",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-isco",
+    "to": "c-remendo",
+    "type": "knows",
+    "label": "o Remendo reparou na tatuagem do anzol",
+    "source": "dm"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "from": "c-pai-da-lia",
+    "to": "c-pc-lia",
+    "type": "family",
+    "label": "criou-a; chama-lhe pai",
+    "source": "dm"
+  },
+  {
+    "from": "c-mae-da-lia",
+    "to": "c-pc-lia",
+    "type": "family",
+    "label": "mãe; entregou-a em bebé (a Lia não sabe)",
+    "source": "dm"
+  },
+  {
+    "from": "c-pai-da-lia",
+    "to": "c-mae-da-lia",
+    "type": "knows",
+    "label": "combinaram a história do resgate",
+    "source": "dm"
+  },
+  {
+    "from": "c-pai-da-lia",
+    "to": "c-yudala-fon",
+    "type": "serves",
+    "label": "expositor",
+    "source": "dm"
+  },
+  {
+    "from": "c-sia-kresh",
+    "to": "c-yudala-fon",
+    "type": "serves",
+    "label": "braço-direito secreto",
+    "source": "dm"
+  },
+  {
+    "from": "c-sia-kresh",
+    "to": "c-pc-lia",
+    "type": "protects",
+    "label": "recebeu-a no arquivo; trata do caso dela",
+    "source": "dm"
+  },
+  {
+    "from": "c-pc-lia",
+    "to": "c-pai-da-lia",
+    "type": "wantsFrom",
+    "label": "encontrá-lo",
+    "source": "dm"
+  },
+  {
+    "from": "c-alberto-gnomis",
+    "to": "c-doolan-tversky",
+    "type": "serves",
+    "label": "antigo investigador dela; agora negocia a filha a troco de informação",
+    "source": "dm"
+  },
+  {
+    "from": "c-doolan-tversky",
+    "to": "c-alberto-gnomis",
+    "type": "spiesOn",
+    "label": "sending: «A sua filha pergunta por si»",
+    "source": "dm"
+  },
+  {
+    "from": "c-alberto-gnomis",
+    "to": "c-pellinost",
+    "type": "knows",
+    "label": "conhecem-se de vista; o Alberto leu o nome dele em dezenas de relatórios",
+    "source": "dm"
+  },
+  {
+    "from": "c-pellinost",
+    "to": "c-doolan-tversky",
+    "type": "serves",
+    "label": "fornecedor de campo: envia relatórios, amostras e itens",
+    "source": "dm"
+  }
+]

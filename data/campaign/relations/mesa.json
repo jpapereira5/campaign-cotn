@@ -68,7 +68,7 @@
     "from": "c-kalmuk-parte-po",
     "to": "c-litcha-das-cinzas",
     "type": "protects",
-    "label": "assistente silencioso, muito protector de Litcha",
+    "label": "assistente silencioso, muito protetor de Litcha",
     "source": "dm"
   },
   {
@@ -427,7 +427,7 @@
     "from": "c-durahk-braco-de-ferro",
     "to": "f-aurora-watch",
     "type": "ally",
-    "label": "ex-mestre de forja da Vigia; o clã Norgab tem relação directa com a Vigia",
+    "label": "ex-mestre de forja da Vigia; o clã Norgab tem relação direta com a Vigia",
     "source": "dm"
   },
   {
@@ -572,14 +572,14 @@
     "from": "c-kael-rhun",
     "to": "c-myriad-bazzoxan-contact",
     "type": "serves",
-    "label": "guarda comprado pela Míriade; fica sempre entre Tingus e a ameaça",
+    "label": "guarda comprado pela Miríade; fica sempre entre Tingus e a ameaça",
     "source": "dm"
   },
   {
     "from": "c-lirien-solva",
     "to": "c-myriad-bazzoxan-contact",
     "type": "serves",
-    "label": "guarda comprada pela Míriade; ainda acredita na Vigia",
+    "label": "guarda comprada pela Miríade; ainda acredita na Vigia",
     "source": "dm"
   },
   {
@@ -621,7 +621,7 @@
     "from": "c-nara-sol",
     "to": "f-myriad",
     "type": "knows",
-    "label": "investiga a Míriade e o rubídio; confirma uma ligação \"Sorriso Dourado\"/Míriade (menção)",
+    "label": "investiga a Miríade e o rubídio; confirma uma ligação \"Sorriso Dourado\"/Miríade (menção)",
     "source": "dm"
   },
   {
@@ -757,7 +757,7 @@
     "from": "c-vazia",
     "to": "c-rolo-wellington",
     "type": "family",
-    "label": "adoptou Rolo, órfão dos Wellington",
+    "label": "adotou Rolo, órfão dos Wellington",
     "source": "dm"
   },
   {
@@ -778,7 +778,7 @@
     "from": "c-nara-sol",
     "to": "f-myriad",
     "type": "spiesOn",
-    "label": "observa discretamente operações suspeitas da Míriade em Bazzoxan",
+    "label": "observa discretamente operações suspeitas da Miríade em Bazzoxan",
     "source": "dm"
   },
   {

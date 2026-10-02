@@ -1,13 +1,13 @@
 [
   {
-    "from": "c-vasco-corvelo",
+    "from": "c-corvelo",
     "to": "f-dwendalian-empire",
     "type": "memberOf",
     "label": "sargento da Terceira Lança, guarnição do Forte Ventura",
     "source": "dm"
   },
   {
-    "from": "c-gilberto-mendanha",
+    "from": "c-casqueiro",
     "to": "f-dwendalian-empire",
     "type": "memberOf",
     "label": "soldado da Terceira Lança",
@@ -28,7 +28,7 @@
     "source": "dm"
   },
   {
-    "from": "c-rosinda-sousela",
+    "from": "c-lampreia",
     "to": "f-dwendalian-empire",
     "type": "memberOf",
     "label": "batedora da Terceira Lança",
@@ -49,7 +49,7 @@
     "source": "dm"
   },
   {
-    "from": "c-vasco-corvelo",
+    "from": "c-corvelo",
     "to": "c-felmont",
     "type": "serves",
     "label": "leva-lhe o relatório de três mortes — e a prisioneira que as justifica",
@@ -64,48 +64,48 @@
   },
   {
     "from": "c-damiao-prestes",
-    "to": "c-vasco-corvelo",
+    "to": "c-corvelo",
     "type": "rival",
     "label": "o padre destacou-o com a patrulha; o sargento manda no carreiro e ele manda na folha",
     "source": "dm"
   },
   {
-    "from": "c-rosinda-sousela",
+    "from": "c-lampreia",
     "to": "c-damiao-prestes",
     "type": "enemy",
     "label": "detesta-o; foi ela que disse para não matarem a drow",
     "source": "dm"
   },
   {
-    "from": "c-gilberto-mendanha",
+    "from": "c-casqueiro",
     "to": "c-elmiro-trigueiro",
     "type": "protects",
     "label": "põe-se à frente do miúdo com o escudo",
     "source": "dm"
   },
   {
-    "from": "c-vasco-corvelo",
-    "to": "c-pc-drow",
+    "from": "c-corvelo",
+    "to": "c-pc-lia",
     "type": "wantsFrom",
-    "label": "entregá-la viva a Perestrelo; a captura de um Kryn é o que paga a patrulha, e por isso ela não se negoceia",
+    "label": "entregá-la viva a Perestrelo; a captura de um Kryn é o que paga a patrulha, e por isso ela não se negoceia (preparação; confirmar com a transcrição)",
     "source": "dm"
   },
   {
     "from": "c-damiao-prestes",
-    "to": "c-pc-drow",
+    "to": "c-pc-lia",
     "type": "wantsFrom",
     "label": "a assinatura numa confissão já escrita; cortou-lhe a trança e usa-a ao pulso",
     "source": "dm"
   },
   {
-    "from": "c-vasco-corvelo",
+    "from": "c-corvelo",
     "to": "c-skra-sorsk",
     "type": "enemy",
     "label": "os lizardfolk do xamã mataram-lhe Bento Ruivo em B2; não sabe que o xamã está morto, e saber disso compra-lhe a atenção, não a prisioneira",
     "source": "dm"
   },
   {
-    "from": "c-pc-drow",
+    "from": "c-pc-lia",
     "to": "f-kryn",
     "type": "memberOf",
     "label": "por confirmar com a jogadora: batedora da Vigia da Aurora, correia da Dinastia ou exilada de Rosohna",

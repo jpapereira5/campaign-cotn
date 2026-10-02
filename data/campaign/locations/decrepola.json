@@ -1,0 +1,14 @@
+[
+  {
+    "id": "l-decrepola",
+    "name": "Decrépola (Rotthold)",
+    "chapter": "ch0",
+    "summary": "DM (backstory dos irmãos Bruma; documento «Decrépola (Rotthold)» da Drive): porto sem lei na Costa das Pragas, 8.800 habitantes, sem muralhas, onze torres de vigia; musgo cor de ferrugem que brilha vermelho à noite. Sem governo: guildas, comerciantes e aventureiros reúnem-se às escondidas uma vez por semana. Coração do mercado negro do leste de Wynandir. A Miríade manda no comércio, a Folia no Cais e nas águas a sul; uma célula secreta da Assembleia de Cerebrus faz negócios em segredo. Bairros: Decrépola Norte (pobre), Decrépola Leste (Mercado Vermelho), o Cais (da Folia, rico), Colina das Catacumbas (cemitério sobre catacumbas anteriores à Calamidade). Foi aqui que chegou por mar o primeiro lote de rubídio, de Marquet; hoje é o fim do ramal sul do canal da Miríade (norte de Jorhas → Asarius → Decrépola). Os irmãos e o Fritz passaram por aqui. Handout: docs/handouts.md."
+  },
+  {
+    "id": "l-asarius",
+    "name": "Asarius",
+    "chapter": "ch0",
+    "summary": "DM: cidade de Jorhas com uma arena de gladiadores e uma estátua de Baeshra, que lá combateu oito anos; há um pequeno culto dele na arena. Os irmãos Bruma conheceram o Quasi aqui. O ramal sul do rubídio passa por Asarius a caminho de Decrépola."
+  }
+]

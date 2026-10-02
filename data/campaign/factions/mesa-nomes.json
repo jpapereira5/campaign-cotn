@@ -9,15 +9,15 @@
   },
   {
     "id": "f-cerberus-assembly",
-    "name": "Assembleia de Cerberus (Volstruckers)"
+    "name": "Assembleia de Cerebrus (Volstruckers)"
   },
   {
     "id": "f-myriad",
-    "name": "Míriade (The Myriad)"
+    "name": "Miríade"
   },
   {
     "id": "f-cobalt-soul",
-    "name": "Alma Cobalto (Library of the Cobalt Soul)"
+    "name": "Biblioteca da Alma de Cobalto"
   },
   {
     "id": "f-allegiance",
@@ -38,5 +38,13 @@
   {
     "id": "f-rivals",
     "name": "Os Bons Demais (a companhia da Ayo)"
+  },
+  {
+    "id": "f-prime-deities",
+    "name": "Divindades Primárias"
+  },
+  {
+    "id": "f-betrayer-gods",
+    "name": "Deuses Traidores"
   }
 ]
