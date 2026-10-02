@@ -55,6 +55,10 @@ npm run dev        # http://localhost:5173
 npm run validate   # integridade dos dados
 npm run check      # svelte-check
 npm run build      # dist/
+
+python3 scripts/transcrever-sessao.py --listar-nomes --beat b-0-patrulha-imperio
+python3 scripts/transcrever-sessao.py FAIXA.m4a --beat b-0-patrulha-imperio
+python3 scripts/transcrever-sessao.py --corrigir transcricao.txt --aplicar
 ```
 
 Deploy automático para GitHub Pages em cada push para `main` (`.github/workflows/deploy.yml`).
