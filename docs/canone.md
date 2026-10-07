@@ -143,3 +143,7 @@ Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
 12. **Só o Padre Perestrelo tem relação com Vesh.** Ninguém da patrulha tem: o Damião Prestes não é acólito, é o escriba aprendiz e assistente do Perestrelo, mandado com a patrulha para catalogar itens mágicos e seres diferentes (sem magia de clérigo); o Casqueiro canta canções de marcha, não hinos.
 13. **O Elmiro acompanha o Isco** no turno do meio da noite do dia 2.
 14. **Cada obelisco negro tem uma entidade planar aprisionada, que é a sua fonte de energia.** O Truche é o inquilino que alimenta a Ritual Stone. Corrigido em `docs/lore.md` e `docs/pcs.md`.
+15. **A Ritual Stone funciona a meio gás**: com o Truche metido na Bolbara, o efeito no tempo falha (para, retoma, volta a parar).
+16. **Na pedra está escrito em dracónico: «Baeshra esteve aqui.»**
+17. **Morta ou exorcizada, a Bolbara devolve o Truche ao obelisco.** Em qualquer dos casos ele volta para a pedra (não para o Shadowfell, como no livro).
+18. **Quem toca na pedra tem uma visão ou sente o que não devia**: um olho (Vecna, sem nome), uma fala do Truche, a dor da Bolbara ou o interior da capela. Acaba sempre num grande grito e num trovão ao longe, do lado do forte. Ao Lucan, a pedra mostra também a voz da noite em que morreu (já decidido).
