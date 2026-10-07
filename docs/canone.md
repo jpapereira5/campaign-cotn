@@ -117,7 +117,7 @@ Corrigidos: `data/campaign/beats/patrulha.json` (`b-0-patrulha-imperio`), `data/
 - **O Morgid foi-se embora roubado e ofendido**, com contas por ajustar com o Império. Foi o Bufal que o deu ao grupo: volta a Urzin? Com que história?
 - **O mapa de marcas visuais**, sem quem o leia.
 - **O Lucan andou na vertical numa árvore à vista dos soldados**, que se acotovelaram a apontar. O Damião, pela preparação, muda de alvo quando vê coisas destas.
-- **Intenções para a noite do dia 2**: Isco pescar junto à jangada e libertar a prisioneira; Quasi perguntar ao soldado do turno qual era a missão; Lucan só vigia. Cada turno tem um soldado: Lucan com a Sousela, Quasi com o escrivão (Damião), Isco com um soldado que não foi dito.
+- **Intenções para a noite do dia 2**: Isco pescar junto à jangada e libertar a prisioneira; Quasi perguntar ao soldado do turno qual era a missão; Lucan só vigia. Cada turno tem um soldado: Lucan com a Sousela, Quasi com o escrivão (Damião), Isco com o Elmiro (decisão do DM, 2026-10-07).
 - **Os irmãos combinaram em Thieves' Cant à frente de toda a gente**; o Quasi não percebeu.
 
 ### Corrigido face ao resumo da Drive
@@ -140,4 +140,5 @@ Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
 9. **Mesa:** o Andrew deixou de ser jogador futuro. Entra o **Tiago Rosa** daqui a duas semanas (personagem por definir). O **Nils Manusso** (a personagem do Andrew) sai da campanha por completo, incluindo do segredo do Alberto.
 10. **O tempo no dia 3** (preparação da sessão 5): no início do dia ouve-se trovoada ao longe, vinda da direção do forte; ao longo do dia, quanto mais se aproximam do forte, mais pesadas ficam as nuvens. É **pista, não só ambiente**: a tempestade não se mexe com o vento, fica parada em cima do forte, e escala por terço do dia (trovões ao longe de manhã; nuvens sobre as falésias à tarde; relâmpagos sobre o forte ao fim da tarde). É o Truche a acordar; não se explica.
 11. **O Morgid segue o grupo à distância.** Não aparece por agora; reaparece daqui a umas sessões (na luta com a Bolbara possuída ou no regresso a Urzin).
-12. **O Damião Prestes não é acólito de Vesh.** Só o Perestrelo tem relação com Vesh. O Damião é o escriba aprendiz e assistente dele, mandado com a patrulha para catalogar itens mágicos e seres diferentes; sem magia de clérigo.
+12. **Só o Padre Perestrelo tem relação com Vesh.** Ninguém da patrulha tem: o Damião Prestes não é acólito, é o escriba aprendiz e assistente do Perestrelo, mandado com a patrulha para catalogar itens mágicos e seres diferentes (sem magia de clérigo); o Casqueiro canta canções de marcha, não hinos.
+13. **O Elmiro acompanha o Isco** no turno do meio da noite do dia 2.
