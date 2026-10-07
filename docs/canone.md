@@ -117,7 +117,7 @@ Corrigidos: `data/campaign/beats/patrulha.json` (`b-0-patrulha-imperio`), `data/
 - **O Morgid foi-se embora roubado e ofendido**, com contas por ajustar com o Império. Foi o Bufal que o deu ao grupo: volta a Urzin? Com que história?
 - **O mapa de marcas visuais**, sem quem o leia.
 - **O Lucan andou na vertical numa árvore à vista dos soldados**, que se acotovelaram a apontar. O Damião, pela preparação, muda de alvo quando vê coisas destas.
-- **Intenções para a noite do dia 2**: Isco pescar junto à jangada e libertar a prisioneira; Quasi perguntar ao soldado do turno qual era a missão; Lucan só vigia. Cada turno tem um soldado, e um deles é o escrivão.
+- **Intenções para a noite do dia 2**: Isco pescar junto à jangada e libertar a prisioneira; Quasi perguntar ao soldado do turno qual era a missão; Lucan só vigia. Cada turno tem um soldado: Lucan com a Sousela, Quasi com o escrivão (Damião), Isco com um soldado que não foi dito.
 - **Os irmãos combinaram em Thieves' Cant à frente de toda a gente**; o Quasi não percebeu.
 
 ### Corrigido face ao resumo da Drive
