@@ -112,7 +112,7 @@
     ],
     "summary": "Preparação da sessão 4 (sessao-04-preparacao_v2.md, Drive, 2026-09-23), jogada na sessão 4 (#86). A que não está lá: deitada na água a trinta pés do carreiro, manto com juncos, cana na boca. Quase não fala; quando fala, estraga a conversa. CA 13, PV 16; besta +4 (×2; era arco longo na preparação, a mesa deu-lhe besta), Furtividade +6, Perceção +5, desengata como ação bónus. Perceção DC 16 para a localizar; o Isco cheira-a. Se o sargento cair, desaparece e avisa o forte. A mesa (sessão 4, #86, 2026-09-23): Chamada pelo nome de família («Sousela!»), levantou-se da lama do lado oposto ao que o Lucan contornou, coberta dos pés à cabeça, de besta na mão. A alcunha «Lampreia» não se ouviu. Fica de olho no Lucan («Alto!»), vai com ele na retaguarda e fica com o primeiro turno de vigia, com ele.",
     "goal": "Que isto acabe sem barulho.",
-    "secret": "Detesta o acólito.",
+    "secret": "Detesta o escriba.",
     "wants": "",
     "fears": "",
     "states": [],
@@ -126,7 +126,7 @@
   },
   {
     "id": "c-damiao-prestes",
-    "name": "Acólito Damião Prestes, escrivão de Vesh",
+    "name": "Damião Prestes, escriba aprendiz do Padre Perestrelo",
     "kind": "npc",
     "factions": [
       "f-dwendalian-empire"
@@ -135,8 +135,8 @@
     "chapters": [
       "ch0"
     ],
-    "summary": "Preparação da sessão 4 (sessao-04-preparacao_v2.md, Drive, 2026-09-23), jogada na sessão 4 (#86). Magro, jovem, capa preta encharcada, dedos manchados de tinta, escritório portátil ao peito; ao pulso, a trança branca cortada à Lia. Trata a prisioneira por «o sujeito». CA 12, PV 11; sacred flame, bless, cure wounds, sanctuary. Tem a chave da mordaça. Pede os nomes «para o registo» e manda o Quasi tirar a máscara. A folha dele é handout (nomes, datas, o que ouvir nesse dia). A mesa (sessão 4, #86, 2026-09-23): O jovem de capa preta manchada de lama, com um livrinho: «Não se movam, por favor. Estou a escrever. Os vossos nomes?» Registou «Quá-quá» (o Quasi), Anzol, Isco e «o vosso patrão», Alberto (Pé-Leve: o Alberto tinha dito o nome completo ao sargento). Não mandou o Quasi tirar a máscara. Acompanha um dos turnos de vigia. Viu o Lucan subir uma árvore a andar na vertical. Sem nome à mesa.",
-    "goal": "Entregar ao Padre Perestrelo uma confissão já escrita.",
+    "summary": "Preparação da sessão 4 (sessao-04-preparacao_v2.md, Drive, 2026-09-23), jogada na sessão 4 (#86). Magro, jovem, capa preta encharcada, dedos manchados de tinta, escritório portátil ao peito; ao pulso, a trança branca cortada à Lia. Trata a prisioneira por «o sujeito». CA 12, PV 11. Não é acólito nem devoto de Vesh (decisão do DM, 2026-10-07): é o escriba aprendiz e assistente do Padre Perestrelo — só o Perestrelo tem relação com Vesh —, mandado com a patrulha para o pântano para catalogar itens mágicos e seres diferentes. Sem magia de clérigo. Tem a chave da mordaça. Pede os nomes «para o registo» e manda o Quasi tirar a máscara. A folha dele é handout (nomes, datas, o que ouvir nesse dia). A mesa (sessão 4, #86, 2026-09-23): O jovem de capa preta manchada de lama, com um livrinho: «Não se movam, por favor. Estou a escrever. Os vossos nomes?» Registou «Quá-quá» (o Quasi), Anzol, Isco e «o vosso patrão», Alberto (Pé-Leve: o Alberto tinha dito o nome completo ao sargento). Não mandou o Quasi tirar a máscara. Acompanha um dos turnos de vigia. Viu o Lucan subir uma árvore a andar na vertical. Sem nome à mesa. Tudo o que é estranho no grupo (o Lucan a andar na vertical, o Isco, a máscara do Quasi) é material para o catálogo dele, e o catálogo vai para o Perestrelo.",
+    "goal": "Levar ao Padre Perestrelo o catálogo do que encontrou no pântano: a prisioneira, objetos mágicos e «seres diferentes».",
     "secret": "Se vir o Isco transformar-se, o Lucan a comer ou o Quasi de máscara, muda de alvo à frente de toda a gente. Um nome da Assembleia num relatório chega à Assembleia.",
     "wants": "Assinaturas.",
     "fears": "",
@@ -146,7 +146,7 @@
       "patrulha",
       "sessao-4",
       "imperio",
-      "vesh"
+      "escriba"
     ],
     "source": "dm"
   },

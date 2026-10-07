@@ -141,4 +141,4 @@ Há umas semanas, antes de Asarius e de Urzin, passaram por Decrépola. O Yussa 
 
 ## Patrulha do Forte Ventura (sessão 4) — por escrever
 
-A preparação da sessão 4 (`b-0-patrulha-imperio`) prevê dois handouts que ainda não têm texto em lado nenhum: a **ordem de marcha** selada (assinada por Felmont; os prisioneiros entregam-se ao Padre, não ao comandante) e a **folha do acólito** Damião Prestes (nomes, datas, a palavra «sujeito» e o que ele tiver ouvido nesse dia). Escrevê-los depois de saber o que a sessão 4 deixou em jogo.
+A preparação da sessão 4 (`b-0-patrulha-imperio`) prevê dois handouts que ainda não têm texto em lado nenhum: a **ordem de marcha** selada (assinada por Felmont; os prisioneiros entregam-se ao Padre, não ao comandante) e a **folha do escriba** Damião Prestes (aprendiz do Perestrelo, a catalogar itens mágicos e seres diferentes) (nomes, datas, a palavra «sujeito» e o que ele tiver ouvido nesse dia). Escrevê-los depois de saber o que a sessão 4 deixou em jogo.
