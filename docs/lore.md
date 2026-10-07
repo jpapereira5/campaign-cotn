@@ -45,7 +45,7 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 
 ## Obeliscos negros (DM)
 
-- Três pilares negros: no mar, a um dia de Jigau (a gaivota parada no ar, o mar lento — `l-obelisco-negro`); **a Ritual Stone de Bol'bara** no Pântano do Véu-Quebrado (`l-ritual-stone`, B6 — o menhir negro é um obelisco); e em Ascensão dos Traidores (`l-obelisco-rise`). Rebobinam tempo localmente. **Cada um tem uma entidade presa**: o da Ritual Stone tem **Trush**, o patrono de Bol'bara; os outros dois, a definir quando for preciso.
+- Três pilares negros: no mar, a um dia de Jigau (a gaivota parada no ar, o mar lento — `l-obelisco-negro`); **a Ritual Stone de Bol'bara** no Pântano do Véu-Quebrado (`l-ritual-stone`, B6 — o menhir negro é um obelisco); e em Ascensão dos Traidores (`l-obelisco-rise`). Rebobinam tempo localmente. **Cada um tem uma entidade planar aprisionada, que é a fonte de energia do obelisco** (DM, 2026-10-07): o da Ritual Stone é alimentado pelo **Truche (Trush)**, o patrono de Bol'bara; os outros dois, a definir quando for preciso.
 - Plot de Vecna para **depois desta campanha** (o *unmade god*: usar os obeliscos para rebobinar o tempo). Baeshra deve a Vecna e paga em activá-los — sem saber como. Nesta campanha são sementes: ao Lucan mostram a morte dele.
 
 ## Baeshra e o clã Ro (DM; fonte: a lenda original da Renata)

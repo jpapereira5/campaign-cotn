@@ -142,3 +142,4 @@ Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
 11. **O Morgid segue o grupo à distância.** Não aparece por agora; reaparece daqui a umas sessões (na luta com a Bolbara possuída ou no regresso a Urzin).
 12. **Só o Padre Perestrelo tem relação com Vesh.** Ninguém da patrulha tem: o Damião Prestes não é acólito, é o escriba aprendiz e assistente do Perestrelo, mandado com a patrulha para catalogar itens mágicos e seres diferentes (sem magia de clérigo); o Casqueiro canta canções de marcha, não hinos.
 13. **O Elmiro acompanha o Isco** no turno do meio da noite do dia 2.
+14. **Cada obelisco negro tem uma entidade planar aprisionada, que é a sua fonte de energia.** O Truche é o inquilino que alimenta a Ritual Stone. Corrigido em `docs/lore.md` e `docs/pcs.md`.
