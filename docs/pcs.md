@@ -6,6 +6,8 @@ Contrato de mesa (DM): pedir aos jogadores permissão para os surpreender; não 
 
 Ids na app: `c-pc-quasi`, `c-pc-lucan`, `c-pc-isco` (`docs/ids.md`).
 
+**Docs consolidados na Drive** (2026-10-07): pasta `PCs_Claude` (`1ZPbWDbs66jTRJxAZl7VOu332f_mKCCH-`), um Google Doc por PC — «Quasi — PC v1», «Lucan — PC v1», «Isco — PC v1», «Lia — PC v1» e «Tiago Rosa — PC (esqueleto) v1». Cada um junta a ficha, a sessão zero e a backstory do jogador (Parte I, exportável) com o que o DM definiu, o que a mesa jogou e o que está em aberto (Parte II). **Este ficheiro continua a ser o canónico**; os docs foram gerados a partir dele e das pastas dos jogadores. Decidido na consolidação: a sessão zero manda nos nomes (Bruma, Scylla, Ruín «Isco»), e a backstory em inglês da Renata fica na íntegra com os nomes antigos assinalados.
+
 ---
 
 ## Quasimodo d'Clopin "Quasi" (Pedro Silva)
