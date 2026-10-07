@@ -137,5 +137,6 @@ Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
 6. **O Quasi não fala Thieves' Cant: fala Paterna.** Não percebeu o que os irmãos combinaram. Cai o «tem thieves' cant» do registo da sessão 1. Os irmãos têm Thieves' Cant (já estava nas fichas).
 7. **As 800 po são uma promessa sem garantia**: o Corvelo prometeu o que não tem.
 8. **O apelido do Alberto é Pé-Leve**, e o nome é verdadeiro, dito com sinceridade.
-9. **Mesa:** o Andrew deixou de ser jogador futuro. Entra o **Tiago Rosa** daqui a duas semanas (personagem por definir). Fica por decidir o que acontece ao Nils Manusso, a personagem do Andrew que está ligada ao segredo do Alberto (`c-alberto-gnomis`).
-10. **O tempo no dia 3** (preparação da sessão 5): no início do dia ouve-se trovoada ao longe, vinda da direção do forte; ao longo do dia, quanto mais se aproximam do forte, mais pesadas ficam as nuvens.
+9. **Mesa:** o Andrew deixou de ser jogador futuro. Entra o **Tiago Rosa** daqui a duas semanas (personagem por definir). O **Nils Manusso** (a personagem do Andrew) sai da campanha por completo, incluindo do segredo do Alberto.
+10. **O tempo no dia 3** (preparação da sessão 5): no início do dia ouve-se trovoada ao longe, vinda da direção do forte; ao longo do dia, quanto mais se aproximam do forte, mais pesadas ficam as nuvens. É **pista, não só ambiente**: a tempestade não se mexe com o vento, fica parada em cima do forte, e escala por terço do dia (trovões ao longe de manhã; nuvens sobre as falésias à tarde; relâmpagos sobre o forte ao fim da tarde). É o Truche a acordar; não se explica.
+11. **O Morgid segue o grupo à distância.** Não aparece por agora; reaparece daqui a umas sessões (na luta com a Bolbara possuída ou no regresso a Urzin).
