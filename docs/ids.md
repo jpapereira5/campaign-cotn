@@ -47,7 +47,7 @@ Visões: `c-alyxian-parents` `c-saqiri` `c-kalagothe` `c-zenthas-family` `c-talm
 Divindades (`kind: deity`): `c-sehanine` `c-avandra` `c-corellon` `c-gruumsh` `c-torog` `c-lolth` `c-tharizdun` `c-melora` `c-the-luxon` `c-ioun` `c-vesh`
 Campanha: `c-finalist-team` (a outra equipa finalista: "Punhos de Ferro e Fogo") `c-volstrucker-agent` (agente Volstrucker: rubídio, farol, Jóia) · Miríade (sem nome): `c-nevoa-vendor` (Névoa do Brejo, Urzin) `c-myriad-traveller` (Urzin) `c-myriad-jigow-fence` (Jigau) `c-myriad-couriers` (estrada, grupo) `c-myriad-bazzoxan-contact` (Ready Room)
 Prólogo: `c-buhfal` `c-bolbara` `c-trush` `c-morgid` `c-pellinost` `c-felmont` `c-alonne-frith` `c-skra-sorsk` `c-mossback-steward`
-Patrulha do Forte Ventura (sessão 4, preparação): `c-corvelo` `c-casqueiro` `c-nalia-vasques` `c-elmiro-trigueiro` `c-lampreia` `c-damiao-prestes` `c-bento-ruivo` · beat `b-0-patrulha-imperio`
+Patrulha do Forte Ventura (sessão 4, jogada): `c-corvelo` `c-casqueiro` `c-nalia-vasques` `c-elmiro-trigueiro` `c-lampreia` `c-damiao-prestes` `c-soldado-doente` `c-bento-ruivo` · beat `b-0-patrulha-imperio`
 Lia (Camila) e a Alma de Cobalto: `c-pc-lia` · arco `a-pc-lia` · ambição `amb-lia-pai` · `c-pai-da-lia` `c-mae-da-lia` `c-sia-kresh` `c-yudala-fon`
 Alberto e a Assembleia: `c-alberto-gnomis` · `c-doolan-tversky`
 Decrépola (backstory dos Bruma): `c-ossorio-lume` (Miríade) `c-remendo` (Folia, tripulação da Marisa) `c-vigost` (culto de Ceratos) · locais `l-decrepola` `l-asarius`

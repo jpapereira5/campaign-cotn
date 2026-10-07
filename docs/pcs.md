@@ -234,7 +234,7 @@ Fechado base a base (linha A: o mar do lado dele; linha B: Ruidus), com os ponto
 
 ## Lia (Camila)
 
-Drow, Clériga 3 (Twilight Domain), antecedente Acólita, 101 anos, 1,70 m. Olhos lilás muito claros, pele obsidiana, cabelo branco. Línguas: élfico, comum, anão, goblin. CA 16 com equipamento, PV 24, Perceção passiva 15. Entra na **sessão 4 (#86, 2026-09-23)**. A Camila tem de sair às 23h. Fontes: «Lia — Ficha e Backstory» (partilhável) e «Lia — Segredos do DM» (Drive, pasta `Camila`); as versões «(antigo, Zadash)» foram substituídas. Backstory oficial, aceite pela jogadora. Dados: `c-pc-lia` em `data/campaign/characters/lia.json`.
+Drow, Clériga 3 (Twilight Domain), antecedente Acólita, 101 anos, 1,70 m. Olhos lilás muito claros, pele azul-acinzentada (decisão do DM, 2026-10-07; a ficha dizia obsidiana), cabelo branco. Línguas: élfico, comum, anão, goblin. CA 16 com equipamento, PV 24, Perceção passiva 15. Entra na **sessão 4 (#86, 2026-09-23)**. A Camila tem de sair às 23h. Fontes: «Lia — Ficha e Backstory» (partilhável) e «Lia — Segredos do DM» (Drive, pasta `Camila`); as versões «(antigo, Zadash)» foram substituídas. Backstory oficial, aceite pela jogadora. Dados: `c-pc-lia` em `data/campaign/characters/lia.json`.
 
 ### O que a Lia sabe
 - Não sabe onde nasceu nem quem foram os pais biológicos. Foi criada nos **arredores de Rexxentrum**, numa casa isolada cheia de livros, por um **investigador da Biblioteca da Alma de Cobalto** a quem chama pai (nome e raça por definir). Vida modesta e escondida: uma drow no Império vive às escondidas.
@@ -265,7 +265,7 @@ Drow, Clériga 3 (Twilight Domain), antecedente Acólita, 101 anos, 1,70 m. Olho
 3. Em que templo de Rexxentrum foi treinada e a que deus julga rezar.
 4. Os nomes das vidas de Urzin, Jigau, Bazzoxan e da Ascensão; se a expedição da vida da Ascensão despertou o portal do Abismo.
 5. Com a Camila: traço, ideal, laço, defeito e memória mais antiga; quem é a mulher do sonho (decide ela).
-6. O que aconteceu na sessão 4 (sem transcrição ainda).
+6. ~~O que aconteceu na sessão 4~~: registado em [`docs/sessoes/sessao-04-2026-09-23.md`](sessoes/sessao-04-2026-09-23.md). Passou a sessão de joelhos, amordaçada, na jangada da patrulha; os PCs ainda não sabem quem é.
 
 ---
 

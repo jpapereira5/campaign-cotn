@@ -76,6 +76,64 @@ Fechado em conversa de preparação (sem sessão jogada). O cânone já está co
 6. **Ritmo da travessia: 10 hexágonos por dia a ritmo normal** (EGtW), cerca de um terço por terço do dia. Cai a leitura de «10 por terço» de `docs/regras.md`; o dia 2 da sessão 3 corrigido para quatro hexágonos de manhã, como no resumo.
 7. **Fações para os jogadores:** não há documento de fações. O DM sugere as ligações a cada jogador, por alto e sem nomes.
 
-## Sessão 4 (#86, 2026-09-23) — por registar
+## Sessão 4 (#86, 2026-09-23) — A Patrulha do Forte Ventura
 
-Jogada, com a **Lia** (Camila) a entrar. No Drive só há o vídeo, o áudio e a preparação (`sessao-04-preparacao_v2.md`), que entrou no repositório como **preparação por confirmar**: `b-0-patrulha-imperio` e as fichas da patrulha. **Falta a transcrição** (WhisperX, como nas sessões 1–3) para escrever o resumo em `docs/sessoes/` e este registo.
+Beat preparado: `b-0-patrulha-imperio` (`sessao-04-preparacao_v2.md`, Drive). É o encontro garantido do cliffhanger da sessão 3 (d20 = 18 no terço da tarde do dia 2). Jogado da tarde ao pôr-do-sol do dia 2; a noite fica por jogar. Resumo em [`docs/sessoes/sessao-04-2026-09-23.md`](sessoes/sessao-04-2026-09-23.md).
+
+### Confirmado como estava preparado
+
+- **A patrulha está perdida** e cansada (Insight passivo do Isco), com comida para um dia, a andar no sentido contrário ao forte. O Isco cheira-a (febre, lã molhada, metal) antes de a ver.
+- **A prisioneira drow na jangada é a Lia**, amordaçada e amarrada; deixou-se apanhar. Os PCs não sabem quem é; a mesa soube fora de jogo, no fim.
+- **O Corvelo leva a mão ao apito antes de decidir**, quer chegar a casa e diz o que for preciso para isto andar (Insight 17 do Lucan: "resignada aceitação").
+- **A Lampreia (Sousela) está escondida na lama** e só aparece quando o sargento a chama. O grande do escudo (Casqueiro), o recruta do capacete grande (Elmiro) a puxar a jangada e o escrivão a pedir os nomes "para o registo" (Damião) aparecem como preparados, ainda sem nome à mesa.
+- **O Alberto joga os dois lados com uma mensagem sussurrada** (*message*) logo a seguir a falar, e só a passiva 20 do Isco a apanha. Lançar magia é confissão: o Isco ouviu-a, sem saber o que era.
+- **Escolha jogada: «Contrato de guias / escolta em conjunto»** — seguem com a patrulha e a jangada para o forte.
+
+### Mudou em jogo (o cânone é o da mesa — já reescrito nos ficheiros)
+
+Corrigidos: `data/campaign/beats/patrulha.json` (`b-0-patrulha-imperio`), `data/campaign/characters/patrulha.json` (fichas da patrulha e `c-soldado-doente`), `data/campaign/characters/mesa.json` (`c-alberto-gnomis`), `data/campaign/characters/zz-mesa-patches.json` (`c-morgid`, `c-pc-quasi`, `c-pc-lucan`, `c-pc-isco`), `data/campaign/characters/lia.json`, `data/campaign/locations/zz-mesa-patches.json` (`l-brokenveil-marsh`), `docs/regras.md` e `docs/pcs.md`.
+
+1. **A mensagem do Alberto foi para o Corvelo**, não para a Nália: foi a cara do sargento que mudou (carregada, espanto, olhos semicerrados, sorriso contido). O conteúdo preparado («o gnomo é da Assembleia») fica como segredo do DM. Ao grupo, o Alberto diz que só avisou que eles eram fortes de mais.
+2. **O preço são 800 po à chegada ao forte, sem garantia** — não os 30 po por Persuasão da preparação. O Corvelo não as tem.
+3. **A Sousela tem besta**, não arco longo, e levantou-se da lama do lado oposto ao que o Lucan contornou. Fica com o primeiro turno de vigia, com o Lucan.
+4. **O doente é um sétimo imperial**, deitado na jangada com um pano na testa (`c-soldado-doente`, sem nome). O Elmiro não está deitado: anda a pé, pálido, e puxa a jangada. A patrulha são seis soldados de pé, mais o doente e a prisioneira; com o grupo, treze, e doze depois de o Morgid sair.
+5. **O Morgid não ficou a ver passar.** Recusou-se a viajar com imperiais, mostrou a cicatriz do pescoço, resistiu a duas Persuasões do Lucan (10 contra 18 e 20), perdeu o mapa para ele (Sleight of Hand 21 contra 20, e percebeu) e desapareceu na lama. Cai a escolha «Deixar passar» (e a lousa «6 soldados. 1 prisioneira. Forte.») e a regra da jangada «com o Morgid». O mapa ficou com o Isco, que agora navega.
+6. **As aves já vinham em voo, de sudoeste para nordeste** — não levantaram ali nem fugiam de leste. Vêm da direção do forte (decisão abaixo).
+7. **O Alberto deu o nome completo e verdadeiro**: Alberto Pé-Leve. Está no livro do escrivão, ao lado de "Quá-quá", Anzol e Isco. Um nome num relatório imperial pode chegar à Assembleia.
+8. **O escrivão não mandou o Quasi tirar a máscara**: registou-o como "Quá-quá", por cortesia do Isco.
+9. **Encontro do último terço do dia 2**: d20 = 16, d12 = 4 → quatro homens-sapo (os bullywugs do B5), um deles com um capacete imperial posto ao contrário e um trapo vermelho na lança — despojos dos dois homens que o Corvelo perdeu no B5. Passaram com peixe e *Suggestion*.
+10. **Nada do menu de informação do forte saiu**, e nada sobre a Bolbara: `r-bolbara-possessed` e `r-how-to-save-bolbara` continuam a zero. O Corvelo só disse que há mais patrulhas no pântano.
+
+### Por revelar (a mesa ainda não sabe)
+
+- Quem é a prisioneira e o que quer (o Isco quer libertá-la de noite).
+- O que o Alberto sussurrou, e que é mago da Assembleia de Cerebrus.
+- Que as 800 po não existem.
+- O menu do forte: guarnição de trinta e poucos, metade doente; o Felmont manda menos do que devia; a goblin velha acorrentada na capela; o Padre veio de fora; o prisioneiro «que não pisca» (o Fritz); a palavra-passe «Cinza-Doze»; o carregamento pelo norte; o livro de registos.
+- O Bento Ruivo e os dois mortos no B5.
+
+### Fios novos que a mesa criou (não estavam na preparação)
+
+- **O Morgid foi-se embora roubado e ofendido**, com contas por ajustar com o Império. Foi o Bufal que o deu ao grupo: volta a Urzin? Com que história?
+- **O mapa de marcas visuais**, sem quem o leia.
+- **O Lucan andou na vertical numa árvore à vista dos soldados**, que se acotovelaram a apontar. O Damião, pela preparação, muda de alvo quando vê coisas destas.
+- **Intenções para a noite do dia 2**: Isco pescar junto à jangada e libertar a prisioneira; Quasi perguntar ao soldado do turno qual era a missão; Lucan só vigia. Cada turno tem um soldado, e um deles é o escrivão.
+- **Os irmãos combinaram em Thieves' Cant à frente de toda a gente**; o Quasi não percebeu.
+
+### Corrigido face ao resumo da Drive
+
+- O resumo dizia que era a primeira vez que a mesa ouvia falar do forte. Não é: na sessão 1 o Bufal disse que a Bolbara foi levada para o Forte Ventura, e o Alberto queria ir para lá desde Urzin. A mesma frase saiu do beat.
+- O encontro dos homens-sapo não foi «da tarde»: o da tarde foi a patrulha (o 18 da sessão 3); este foi o d20 do último terço.
+
+## Decidido pelo DM (2026-10-07)
+
+Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
+
+1. **A Lia tem pele azul-acinzentada** (como se disse à mesa). Substitui «pele obsidiana» da ficha.
+2. **As aves vieram da direção do forte.**
+3. **A cicatriz do pescoço do Morgid foi o Império.** Não foi esta patrulha: o Corvelo nunca o viu.
+4. **Os PCs sabem ler a lousa do Morgid: ele escreve em comum.** Cai o «que os PCs não sabem ler» da sessão 1.
+5. **As marcas do mapa do Morgid são visuais, não escritas.**
+6. **O Quasi não fala Thieves' Cant: fala Paterna.** Não percebeu o que os irmãos combinaram. Cai o «tem thieves' cant» do registo da sessão 1. Os irmãos têm Thieves' Cant (já estava nas fichas).
+7. **As 800 po são uma promessa sem garantia**: o Corvelo prometeu o que não tem.
+8. **O apelido do Alberto é Pé-Leve**, e o nome é verdadeiro, dito com sinceridade.

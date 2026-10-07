@@ -63,4 +63,4 @@ Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho», 
 
 ## Último fecho
 
-2026-10-01T16:50Z (glossário, grafia AO90, ritmo de viagem, Decrépola, Lia, patrulha).
+2026-10-07T01:30Z (sessão 4: resumo, cânone vs. preparação, patrulha, Alberto Pé-Leve, Morgid, Lia).
