@@ -151,3 +151,57 @@ Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
 20. **A Lia sabe que o destino do pai seria Bazzoxan** (foi o que a Sia Kresh lhe disse), e entra no forte para **ter a certeza de que ele passou por lá** — o livro de registos, no gabinete do comandante.
 21. **O Lucan não fala Abissal.** Fala Comum, Halfling e Thieves' Cant (como na ficha). Cai o «Comum, Abissal e Halfling» do registo da sessão 1 para o Lucan; o Isco fala Abissal.
 22. **Os pertences da Lia estão todos num saco, na jangada**: armas, armadura, símbolo sagrado, e o pendente, o selo de expositor e o dinheiro do pai. Fecha a questão da preparação da sessão 4 (escondidos por ela ou com o escriba).
+
+## Sessão 5 (#88, 2026-10-07) — As Noites da Terceira Lança
+
+Sem beat preparado próprio: a sessão gastou-se nas duas noites de vigia com a patrulha (`b-0-patrulha-imperio`) e em dois dias de travessia perdidos, e acabou à vista de `l-ritual-stone`. A preparação em jogo foram as decisões de 2026-10-07 (acima). Resumo em [`docs/sessoes/sessao-05-2026-10-07.md`](sessoes/sessao-05-2026-10-07.md).
+
+### Confirmado como estava preparado
+
+- **O Elmiro acompanha o Isco no turno do meio da noite do dia 2** (decisão 13), e é o medo dele da drow que paga: avisa, e na noite seguinte entrega o segredo ao sargento.
+- **Os pertences da Lia estão num saco, na jangada** (decisão 22), dito pelo DM à mesa.
+- **O Damião Prestes é o escriba aprendiz e assistente do Padre Perestrelo, sem magia de clérigo e sem relação com Vesh** (decisão 12): veio catalogar itens mágicos e «seres diferentes», e remete tudo o que é maldição para o padre.
+- **A trança branca cortada à Lia está no pulso esquerdo do escriba** (ficha da preparação): foi vista, sem explicação.
+- **O Lucan fala halfling, não abissal** (decisão 21): usou-o para falar com o irmão à frente dos soldados.
+- **A tempestade vem da direção do forte e cresce** (decisão 10): relâmpago único e silencioso a sudoeste na noite do dia 2, trovão fraco de madrugada, trovões cada vez mais frequentes a oeste durante o dia 3, trovoada inteira ao longe na noite do dia 3.
+- **A Ritual Stone funciona a meio gás** (decisão 15): à aproximação, o coaxar das rãs fica muito mais grave e volta ao normal, e a lama demora a fechar-se umas vezes e fecha ao ritmo certo noutras.
+- **O Casqueiro é o grande do escudo** e acompanha um turno; a **Sousela** tem besta e fica de olho no Lucan; o **Corvelo** brinca com o apito de osso antes de falar.
+
+### Mudou em jogo (o cânone é o da mesa — já reescrito nos ficheiros)
+
+Corrigidos: `data/campaign/characters/patrulha.json`, `data/campaign/characters/lia.json`, `data/campaign/characters/mesa.json` (`c-alberto-gnomis`), `data/campaign/characters/zz-mesa-patches.json` (PCs, `c-bolbara`, `c-pellinost`, `c-yussa-errenis`), `data/campaign/locations/zz-mesa-patches.json` (`l-brokenveil-marsh`, `l-ritual-stone`, `l-fort-venture`), `data/campaign/beats/zz-mesa-patches.json` (`b-0-patrulha-imperio`) e `data/state.json`.
+
+1. **O forte não foi alcançado no dia 3.** Dois testes de navegação falhados (13 e 14 contra 15) custaram dois dias: o grupo andou em círculos, voltou ao acampamento da segunda noite e só ao meio do dia 4, com um 20 natural, acertou o caminho. A chegada ao forte escorrega pelo menos um dia, e o obelisco passou a ser o próximo sítio.
+2. **«Ela ainda não disse a palavra certa» é do escriba, não do Elmiro.** A frase veio no livro de registos e da boca do Damião, sobre a goblin velha. A ficha do Elmiro deixa de ser a fonte.
+3. **A Nália é elfa**, de cabeça rapada debaixo do capacete e com um véu que só lhe deixa os olhos de fora. A preparação dizia «baixa e larga» sem raça.
+4. **O soldado doente tem nome — Alex — e foi curado**: febre do pântano diagnosticada pela Lia (Medicina 17) e tratada com *Lesser Restoration*. A preparação tinha-o anónimo e a caminho de morrer.
+5. **A Sousela desapareceu uma noite inteira** e voltou de madrugada enlameada da cabeça aos pés, sem explicação. A preparação só a fazia desaparecer se o sargento caísse.
+6. **A adaga drow passou do Quasi para o Lucan**, de manhã e de livre vontade («que se lixa, toma, fica com ela»). Antes disso o Lucan tirou-lha a dormir e devolveu-a. Quem a traz ao cinto é quem o Mirimm vai ver em Jigau (`b-1-mirimm-reconhece`).
+7. **O livro de registos saiu antes do forte.** Estava no menu de informação do forte; o Quasi tirou-o ao escriba no pântano com *Suggestion* e o *Command* da garra, e leu-o todo. Com ele saíram, de uma vez: a Bolbara viva na capela sob estudo do padre, o homem preso «para mais investigação» (o Fritz, por confirmar à mesa), as 800 po por escrito e o Alberto registado como líder do grupo.
+8. **O Corvelo ganhou passado**: único sobrevivente de um pelotão emboscado a atravessar as falésias do Véu-Quebrado, com os colegas atirados ao ar, esmagados contra as pedras e mortos por mãos invisíveis; sobreviveu a fingir-se de morto e foi promovido por isso. Não substitui os três homens que perdeu nesta viagem (Bento Ruivo em B2, dois em B5), que continuam por nomear à mesa.
+9. **O Lucan tem um sextante** (ferramentas de navegação do background), decidido à mesa. Dá-lhe o norte de dia e de noite, e não o salvou.
+10. **O encontro 12 da tabela saiu como aviso, não como combate**: os mortos-vivos goblinóides foram vistos ao longe, a arrastarem-se todos na mesma direção, e contornados. São os de `b-0-marsh-crossing`/sessão 2 (os mortos do Skr'a sem dono).
+
+### Por revelar (a mesa ainda não sabe)
+
+- Que a tempestade parada é o Truche a acordar, e que na pedra está escrito «Baeshra esteve aqui» (decisões 16 e 18).
+- Que quem toca na pedra tem uma visão única pelos olhos da Bolbara, e que os fragmentos lançam *augury* (decisões 18 e 19).
+- Que a Lia quer confirmar no livro de registos do forte que o pai passou por lá, a caminho de Bazzoxan (decisão 20).
+- Que o Morgid os segue à distância (decisão 11).
+- Quem é o homem preso que o padre quer guardar, e que o escriba muda de alvo se vir o Isco a transformar-se ou o Lucan a comer.
+- Onde esteve a Sousela, e o que emboscou o pelotão do Corvelo nas falésias.
+- Que o sussurro do Alberto foi para o Corvelo, e que as 800 po não existem — embora o livro já tenha posto o grupo de sobreaviso sobre o dinheiro.
+
+### Fios novos que a mesa criou (não estavam na preparação)
+
+- **A adaga reage à Lia**: pegar nela baixa a fome do Lucan e puxa-lhe o olhar para a prisioneira, as duas vezes. Ninguém à mesa sabe porquê.
+- **O acordo do Quasi com o escriba** sobre a máscara, e o esboço detalhado que o Damião ficou a guardar. O escriba tentou tirar-lhe a máscara da cara.
+- **As páginas do livro são contadas**: «eles irão saber». O grupo leu um documento que não devia ter lido.
+- **O Isco tem linha aberta com o Yussa** por *sending*, e o Yussa quer saber mais.
+- **As cordas da Lia estão folgadas outra vez**, agora por baixo de uma amarração a sério e com ela a saber que foi o Isco.
+- **O Elmiro escolheu o sargento.** Continua vivo, continua a chamar «senhor» ao Isco, e já sabe o que o grupo vale.
+- **O Lucan come cobras vivas à vista do acampamento imperial.**
+
+### Conflitos por decidir
+
+- Nenhum. As duas versões do turno do Lucan (três horas de perímetro e o rewind que o DM pediu para encaixar a Sousela desaparecida) foram resolvidas na própria sessão.
