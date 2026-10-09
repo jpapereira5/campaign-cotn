@@ -2,7 +2,11 @@
 
 Ferramenta de planeamento de campanha de D&D: um mapa **visual** dos NPCs, das ligações entre eles e de como os enredos concorrentes (rivais, fações de Ank'Harel, rubídio, o lore de Alyxian, as ambições dos PCs) avançam **no tempo** e convergem no Heart of Despair, à maneira da "teia de aranha" que a Larian descreveu para Baldur's Gate 3. Dados de *Call of the Netherdeep* tal como escrito, com prólogo *Unwelcome Spirits*.
 
+<<<<<<< HEAD
+O método está em [`docs/metodo.md`](docs/metodo.md); as convenções de dados em [`docs/ids.md`](docs/ids.md); as regras próprias da campanha em [`docs/regras.md`](docs/regras.md); handouts em [`docs/handouts.md`](docs/handouts.md); backstory e perguntas em aberto dos PCs em [`docs/pcs.md`](docs/pcs.md); lore geral em [`docs/lore.md`](docs/lore.md); resumos das sessões jogadas e preparação da próxima em [`docs/sessoes/`](docs/sessoes/); o que a mesa confirmou ou mudou face à preparação em [`docs/canone.md`](docs/canone.md).
+=======
 O método está em [`docs/metodo.md`](docs/metodo.md); as convenções de dados em [`docs/ids.md`](docs/ids.md); as regras próprias da campanha em [`docs/regras.md`](docs/regras.md); handouts em [`docs/handouts.md`](docs/handouts.md); backstory e perguntas em aberto dos PCs em [`docs/pcs.md`](docs/pcs.md); lore geral em [`docs/lore.md`](docs/lore.md); nomes em português em [`docs/glossario.md`](docs/glossario.md); resumos das sessões jogadas em [`docs/sessoes/`](docs/sessoes/); o que a mesa confirmou ou mudou face à preparação em [`docs/canone.md`](docs/canone.md).
+>>>>>>> origin/main
 
 ## Vistas
 
@@ -51,6 +55,10 @@ npm run dev        # http://localhost:5173
 npm run validate   # integridade dos dados
 npm run check      # svelte-check
 npm run build      # dist/
+
+python3 scripts/transcrever-sessao.py --listar-nomes --beat b-0-patrulha-imperio
+python3 scripts/transcrever-sessao.py FAIXA.m4a --beat b-0-patrulha-imperio
+python3 scripts/transcrever-sessao.py --corrigir transcricao.txt --aplicar
 ```
 
 Deploy automático para GitHub Pages em cada push para `main` (`.github/workflows/deploy.yml`).
