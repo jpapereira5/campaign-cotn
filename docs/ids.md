@@ -30,6 +30,22 @@ Backstory: `c-baeshra` (semideus, patrono do Lucan) `c-vaelen-bruma` `c-yussa-er
 ## Arcos
 `a-prologue` `a-main` `a-lore` `a-ruidium` `a-rivals` `a-kryn` `a-allegiance` `a-consortium` `a-cobalt` `a-sentinels` · campanha: `a-ruidus-year` (Ato 4) `a-jmon` (J'mon Sa Ord) `a-myriad` (contrabando de rubídio) `a-cerberus` (Assembleia de Cerebrus)
 
+## Linhas narrativas, estado dos beats e sessões (Decidido pelo DM, 2026-10-09)
+
+Os arcos **são** as linhas do mapa (um só conceito; brief «brainstorm 2026-10-09 — dashboard», na Drive). Campos novos, todos opcionais, em `data/campaign/arcs.json` (patch por id ou id nova):
+
+- `camada`: `campanha` (seis a oito, sempre visíveis) · `pc` (uma por PC; por omissão para `kind: pcAmbition`) · `fio` (curto, só visível no seu troço: a adaga, o sussurro do Alberto, o mapa do Morgid…). Por omissão `campanha`.
+- `abre`: sessão (`s-…`) ou beat onde a linha nasceu. `paga`: beat ou capítulo onde se pretende fechar (vazio = ainda sem destino). `deixa`: o que fica nos jogadores quando paga.
+- `sementes`: `[{ alvo: capítulo ou sessão, beat?, estado: planeada | posta | jogada, ultimaJanela?: capítulo, nome? }]` — a regra das três pistas estendida no tempo; `nome` quando a semente é um interface futuro sem cena.
+- `estado`: `ativa` (omissão) · `dormente` · `fechada` · `fundida` (com `fundidaEm: a-…`). Uma linha morta não se apaga: adormece, fecha ou funde-se.
+- `sabe`: o que a mesa já sabe. `emJogo`: o que pode acontecer a seguir dado o estado atual (reescrito no fecho; proposta até o DM aprovar). `notes`.
+
+Beats: o estado sai do título. `status: proposta | pronto | jogado | descartado` (omissão `pronto`); `played: { session, asPlayed }` com o «como correu» escrito no fecho; `interface`: nome do beat quando está em duas ou mais linhas. Nunca mais «JOGADO (sessão N) ·», «PROPOSTA ·» nem «COMO CORREU:» em títulos e resumos. O «jogado» vivo é o de `state.json` (`playedBeats`, marcado à mesa); o fecho põe `status: jogado` e escreve `played`.
+
+`state.json` (versão 2): `sessions[].estado: jogada | planeada` e `sessions[].chapter`; a próxima sessão entra como `planeada` com data e beats escolhidos (o runsheet fica na Drive). `choicesMade: { beatId: [label da escolha, …] }` regista a escolha tomada em cada beat jogado (pelo `label` em `choices`).
+
+`npm run validate` também lê `state.json` e avisa do que o fecho tem por reconciliar: beat de sessão não marcado jogado, beat jogado sem `status: jogado` ou sem escolha registada, sessão planeada sem cena para um PC, fio ativo sem pagamento, semente fora da última janela, escolha tomada que leva a um beat descartado, NPC morto (estado que começa por «morto/morta», sem «ou»/«se») a participar numa cena futura.
+
 ## Fações
 `f-kryn` Dinastia Kryn · `f-aurora-watch` Vigia da Aurora · `f-jigow-elders` Conselho de Anciãos de Jigau · `f-luxon` Fé do Luxon · `f-allegiance` Allegiance of Allsight · `f-consortium` Consortium of the Vermilion Dream · `f-cobalt-soul` Biblioteca da Alma de Cobalto · `f-sentinels` Sentinels of Memory · `f-hands-of-ord` Hands of Ord · `f-scarbearers` Scarbearers · `f-veil` The Veil · `f-rivals` A companhia dos rivais (na campanha: "Os Bons Demais", nome da mesa) · `f-dwendalian-empire` Império Dwendaliano · `f-road-raiders` Road Raiders · `f-prime-deities` Divindades Primárias · `f-betrayer-gods` Deuses Traidores · campanha: `f-cerulean-palace` (J'mon Sa Ord, Gemeshega) `f-apotheon-cult` (adoradores do Apotheon) `f-cerberus-assembly` (Volstruckers; recebe rubídio pela Miríade; farol) `f-myriad` (Miríade: canal de contrabando Bazzoxan → Jigau → Urzin → Império, com ramal sul por Asarius até Decrépola) · `f-culto-ceratos` (culto de Ceratos: o Fritz e o Vigost)
 

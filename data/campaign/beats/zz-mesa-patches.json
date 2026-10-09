@@ -71,5 +71,9 @@
   {
     "id": "b-3-beacon-heist",
     "notes": "DM: só se Adélia sobreviveu ao assalto (b-3-volstrucker-assault); se morreu, o golpe não acontece (a Miríade não o tenta sozinha)."
+  },
+  {
+    "id": "b-0-mission-urzin",
+    "status": "jogado"
   }
 ]

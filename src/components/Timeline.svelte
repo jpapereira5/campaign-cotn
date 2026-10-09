@@ -153,6 +153,7 @@
               <div class="title">{c.beat.title}</div>
               <div class="meta">
                 {#if played}<span class="ok">✓ jogado</span>{/if}
+                {#if c.beat.status === 'proposta' || c.beat.status === 'descartado'}<span title="estado no cânone">{c.beat.status}</span>{/if}
                 {#if c.beat.timer}<span title="relógio">⏱ {c.beat.timer}</span>{/if}
                 {#if c.beat.choices.length}<span title="{c.beat.choices.length} escolha(s)">⑂ {c.beat.choices.length}</span>{/if}
                 {#if c.beat.arcs.length > 1}<span title="em {c.beat.arcs.length} pistas">✦ {c.beat.arcs.length}</span>{/if}

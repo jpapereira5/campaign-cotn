@@ -145,6 +145,8 @@
     {#if beat}
       <div class="row meta">
         <span class="muted small">{chapterName(beat.chapter)} · ordem {beat.order}</span>
+        {#if beat.status === 'proposta' || beat.status === 'descartado'}<span class="tag" title="estado no cânone">{beat.status}</span>{/if}
+        {#if beat.interface}<span class="tag" title="interface: beat em duas ou mais linhas">✦ {beat.interface}</span>{/if}
         {#if beat.timer}<span class="tag warnb">⏱ {beat.timer}</span>{/if}
       </div>
       <div class="actions">
@@ -158,13 +160,14 @@
         <div class="row"><button class="primary" onclick={() => saveEdit('beats')}>Guardar</button><button onclick={() => (editing = false)}>Cancelar</button></div>
       {:else}
         <p>{beat.summary}</p>
+        {#if beat.played}<details class="notes" open><summary>Como correu · {world.play.sessions.find((s) => s.id === beat.played?.session)?.title ?? beat.played.session}</summary><p>{beat.played.asPlayed}</p></details>{/if}
         {#if beat.notes}<details class="notes" open><summary>Notas de DM</summary><p>{beat.notes}</p></details>{/if}
         {#if !ro}<button class="small" onclick={() => startEdit({ summary: beat.summary, notes: beat.notes })}>✎ Editar</button>{/if}
       {/if}
       {#if beat.participants.length}<h3>Participantes</h3><div class="row">{#each beat.participants as p, i_ (i_)}<EntityChip kind={isFaction(p) ? 'faction' : 'character'} id={p} />{/each}</div>{/if}
       {#if beat.choices.length}
         <h3>Escolhas</h3>
-        <ul class="choices">{#each beat.choices as ch, i (i)}<li><b>{ch.label}</b> <span class="muted">— {ch.outcome}</span> {#each ch.leadsTo as l, i_ (i_)}<EntityChip kind="beat" id={l} />{/each}</li>{/each}</ul>
+        <ul class="choices">{#each beat.choices as ch, i (i)}<li><b>{ch.label}</b>{#if world.play.choicesMade[beat.id]?.includes(ch.label)} <span class="tag" title="escolha tomada na mesa">✓ tomada</span>{/if} <span class="muted">— {ch.outcome}</span> {#each ch.leadsTo as l, i_ (i_)}<EntityChip kind="beat" id={l} />{/each}</li>{/each}</ul>
       {/if}
       {#if beat.portent}<p class="portent">☠ <b>Portento</b> (<EntityChip kind="faction" id={beat.portent.faction} />): {beat.portent.text}</p>{/if}
       {#if beat.reveals.length}<h3>Revela</h3><ul class="plain">{#each beat.reveals as r, i_ (i_)}<li><EntityChip kind="revelation" id={r} /></li>{/each}</ul>{/if}
@@ -174,8 +177,18 @@
     {/if}
 
     {#if arc}
+      <div class="row meta"><span class="muted small">linha · {arc.camada} · {arc.estado}</span>{#if arc.fundidaEm}<span class="muted small">em <EntityChip kind="arc" id={arc.fundidaEm} /></span>{/if}</div>
       <p>{arc.summary}</p>
       {#if arc.ownerPc}<p>PC: <EntityChip kind="character" id={arc.ownerPc} /></p>{/if}
+      {#if arc.abre || arc.paga}<p class="muted small">abre: {arc.abre ?? '—'} · paga: {arc.paga ?? '?'}</p>{/if}
+      {#if arc.deixa}<p><b>Deixa nos jogadores:</b> {arc.deixa}</p>{/if}
+      {#if arc.sabe}<p><b>A mesa já sabe:</b> {arc.sabe}</p>{/if}
+      {#if arc.emJogo}<p><b>Em jogo:</b> {arc.emJogo}</p>{/if}
+      {#if arc.sementes.length}
+        <h3>Sementes</h3>
+        <ul class="plain">{#each arc.sementes as s, i (i)}<li><span class="tag">{s.estado}</span> {s.alvo}{#if s.nome} · {s.nome}{/if} {#if s.beat}<EntityChip kind="beat" id={s.beat} />{/if}{#if s.ultimaJanela}<span class="muted small"> · até {chapterName(s.ultimaJanela)}</span>{/if}</li>{/each}</ul>
+      {/if}
+      {#if arc.notes}<details class="notes"><summary>Notas</summary><p>{arc.notes}</p></details>{/if}
     {/if}
 
     {#if revelation}

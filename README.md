@@ -34,8 +34,10 @@ data/book/                  o livro tal como escrito (referência; não se edita
 data/campaign/              a nossa campanha: patches, acrescentos e remoções por cima do livro
   <mesma estrutura>         mesma id = patch de campos · `_remove: true` = esconder · id nova = acrescentar
   */mesa*.json              material próprio do DM, incl. nomes em português da mesa
-data/state.json             estado de jogo (beats jogados, revelações, atitudes, sessões, flags, notas)
+data/state.json             estado de jogo (beats jogados, escolhas tomadas, revelações, atitudes, sessões jogadas e planeada, flags, notas)
 ```
+
+Os arcos são as **linhas narrativas** do mapa (camada, abre/paga/deixa, sementes, estado); os beats têm `status` e `played` em vez de estado no título; ver [`docs/ids.md`](docs/ids.md#linhas-narrativas-estado-dos-beats-e-sessões-decidido-pelo-dm-2026-10-09). `npm run validate` também confere `state.json` contra o cânone.
 
 Os ficheiros de uma pasta são concatenados. O que se cria na app vai para `data/campaign/<coleção>/dm.json`; a app nunca escreve em `data/book/`. Na app, "Ver só o livro" (barra lateral) mostra o livro sem as nossas alterações, só para leitura; ✚ marca o que foi acrescentado e ▲ o que foi alterado, e o painel de detalhe mostra o original do livro. Validar: `npm run validate` (ou `-- --warn` para ver avisos, `-- --book` para validar só o livro).
 

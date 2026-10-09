@@ -2,9 +2,10 @@
 // Junta a camada `campaign` por cima de `book` (ou só `book` com --book) e verifica integridade.
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
-import { normalizeCanon, type RawCanon } from '../src/lib/validate.ts'
+import { normalizeCanon, validatePlay, type RawCanon } from '../src/lib/validate.ts'
 import { COLLECTIONS } from '../src/lib/types.ts'
 import { emptyRaw, mergeLayers } from '../src/lib/layers.ts'
+import { normalizePlay } from '../src/lib/play.ts'
 
 const root = join(import.meta.dirname, '..', 'data')
 
@@ -48,7 +49,11 @@ const onlyBook = process.argv.includes('--book')
 const book = readLayer('book')
 const campaign = readLayer('campaign')
 const { raw, layers } = onlyBook ? { raw: book, layers: null } : mergeLayers(book, campaign)
-const { canon, problems } = normalizeCanon(raw)
+const { canon, problems: canonProblems } = normalizeCanon(raw)
+// state.json só se valida contra livro + campanha (o livro sozinho não tem mesa)
+const statePath = join(root, 'state.json')
+const play = normalizePlay(existsSync(statePath) ? readJson(statePath) : null)
+const problems = onlyBook ? canonProblems : [...canonProblems, ...validatePlay(canon, play)]
 const errors = problems.filter((p) => p.level === 'error')
 const warns = problems.filter((p) => p.level === 'warn')
 for (const p of errors) console.error(`✖ ${p.where}: ${p.message}`)
@@ -60,5 +65,6 @@ console.log(
   `${onlyBook ? 'livro' : 'livro + campanha'}: capítulos ${canon.campaign.chapters.length} · arcos ${canon.arcs.length} · personagens ${canon.characters.length} · facções ${canon.factions.length} · locais ${canon.locations.length} · relações ${canon.relations.length} · beats ${canon.beats.length} · revelações ${canon.revelations.length} · ambições ${canon.ambitions.length}`,
 )
 if (layers) console.log(`camada campanha: ${changed} alterada(s), ${added} acrescentada(s)/removida(s)`)
+if (!onlyBook) console.log(`mesa: ${play.sessions.length} sessões · ${play.playedBeats.length} beats jogados · ${Object.keys(play.choicesMade).length} escolhas tomadas · ${Object.keys(play.flags).length} flags`)
 console.log(`${errors.length} erro(s), ${warns.length} aviso(s)${warns.length && !process.argv.includes('--warn') ? ' (usa --warn para os ver)' : ''}`)
 if (errors.length) process.exitCode = 1

@@ -4,6 +4,7 @@
 import type { Ambition, Attitude, Beat, Canon, Character, Collection, PlayState, Problem, Relation, Session } from './types.ts'
 import { COLLECTIONS, relationKey, uid } from './types.ts'
 import { assemble, embeddedFiles, emptyPlay, fileForEdits, normalizePlay, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
+import { validatePlay } from './validate.ts'
 import { makeBeatPos } from './validate.ts'
 import { ConflictError, fetchRemoteFiles, getToken, putFile } from './github.ts'
 import { defaultFilters, type GraphFilters } from './graph.ts'
@@ -77,11 +78,12 @@ export const ui = $state({
 
 const assembled = $derived(assemble(store.files, ui.layerView))
 const canonD = $derived(assembled.canon)
-const problemsD = $derived(assembled.problems)
 const layersD = $derived(assembled.layers)
 const bookRawD = $derived(rawOfLayer(store.files, 'book'))
 const beatPosD = $derived(makeBeatPos(canonD))
 const playD = $derived(normalizePlay(store.files[STATE_PATH]?.content))
+// Com o livro sozinho não há mesa: as regras de state.json só se aplicam à campanha.
+const problemsD = $derived(ui.layerView === 'book' ? assembled.problems : [...assembled.problems, ...validatePlay(canonD, playD)])
 const chapterIndexD = $derived(new Map(canonD.campaign.chapters.map((c, i) => [c.id, i])))
 const beatsSortedD = $derived([...canonD.beats].sort((a, b) => beatPosD(a.id) - beatPosD(b.id) || a.id.localeCompare(b.id)))
 const cursorD = $derived.by(() => {

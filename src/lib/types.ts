@@ -25,6 +25,37 @@ export const RELATION_TYPES: RelationType[] = [
 export type ArcKind = 'prologue' | 'main' | 'lore' | 'ruidium' | 'rivals' | 'faction' | 'pcAmbition'
 export const ARC_KINDS: ArcKind[] = ['prologue', 'main', 'lore', 'ruidium', 'rivals', 'faction', 'pcAmbition']
 
+// Linhas narrativas (Decidido pelo DM, 2026-10-09): os arcos são as linhas do mapa, com camada,
+// abertura, pagamento, sementes e estado. Um só conceito; a camada distingue o que é sempre visível.
+/** campanha (seis a oito, sempre visíveis) · pc (uma por PC) · fio (curto, só no seu troço). */
+export type ArcLayer = 'campanha' | 'pc' | 'fio'
+export const ARC_LAYERS: ArcLayer[] = ['campanha', 'pc', 'fio']
+/** Uma linha morta não se apaga: adormece, fecha num ponto ou funde-se noutra. */
+export type ArcState = 'ativa' | 'dormente' | 'fechada' | 'fundida'
+export const ARC_STATES: ArcState[] = ['ativa', 'dormente', 'fechada', 'fundida']
+export type SeedState = 'planeada' | 'posta' | 'jogada'
+export const SEED_STATES: SeedState[] = ['planeada', 'posta', 'jogada']
+
+/** Semente: a regra das três pistas estendida no tempo. Pagar em ch4 exige pistas em ch1, ch2 e ch3. */
+export interface Seed {
+  /** Capítulo ou sessão onde a pista deve cair. */
+  alvo: string
+  /** Beat que a põe; vazio = intenção sem cena ainda (vira beat quando a semana chega). */
+  beat?: string
+  estado: SeedState
+  /** Último capítulo em que ainda vale a pena pô-la. */
+  ultimaJanela?: string
+  /** Nome, quando a semente é um interface futuro ("adaga × pai da Lia em Bazzoxan"). */
+  nome?: string
+}
+
+/** Estado de uma cena no cânone, fora do título. O "jogado" vivo é o de state.json (playedBeats); aqui fica no fecho. */
+export type BeatStatus = 'proposta' | 'pronto' | 'jogado' | 'descartado'
+export const BEAT_STATUSES: BeatStatus[] = ['proposta', 'pronto', 'jogado', 'descartado']
+
+export type SessionState = 'jogada' | 'planeada'
+export const SESSION_STATES: SessionState[] = ['jogada', 'planeada']
+
 /** Escala do livro (DMG): hostil / indiferente / amigável. */
 export type Attitude = 'hostil' | 'indiferente' | 'amigável'
 export const ATTITUDES: Attitude[] = ['hostil', 'indiferente', 'amigável']
@@ -115,6 +146,23 @@ export interface Arc {
   ownerPc?: string
   order: number
   summary: string
+  /** Por omissão: pc se kind for pcAmbition, campanha para o resto. */
+  camada: ArcLayer
+  /** Sessão ou beat onde a linha nasceu. */
+  abre?: string
+  /** Beat ou capítulo onde se pretende fechar; vazio = ainda sem destino. */
+  paga?: string
+  /** O que fica nos jogadores quando paga: o que têm de saber ou sentir. */
+  deixa?: string
+  sementes: Seed[]
+  estado: ArcState
+  /** Linha onde esta se fundiu (só com estado fundida). */
+  fundidaEm?: string
+  /** O que a mesa já sabe desta linha. */
+  sabe?: string
+  /** O que pode acontecer a seguir, dado o estado atual. Reescrito no fecho; é proposta até o DM aprovar. */
+  emJogo?: string
+  notes: string
 }
 
 export interface Choice {
@@ -143,6 +191,12 @@ export interface Beat {
   /** Portento: se ligado a uma facção, o que ela faz se ninguém a travar. */
   portent?: { faction: string; text: string }
   notes: string
+  /** Por omissão: pronto (o livro tal como escrito). */
+  status: BeatStatus
+  /** Como correu à mesa (escrito no fecho); `session` é a id em state.json. */
+  played?: { session: string; asPlayed: string }
+  /** Nome do interface, quando o beat está em duas ou mais linhas: é o que se lê de longe. */
+  interface?: string
   source: Source
 }
 
@@ -171,13 +225,17 @@ export interface Session {
   id: string
   date: string
   title: string
+  /** Jogada: os beats que se jogaram. Planeada: o esqueleto da próxima (o runsheet fica na Drive). */
   beats: string[]
   notes: string
+  chapter?: string
+  /** Por omissão: jogada. */
+  estado: SessionState
 }
 
 /** Estado de jogo (data/state.json): o que já aconteceu na mesa. */
 export interface PlayState {
-  version: 1
+  version: 2
   playedBeats: string[]
   revealed: string[]
   /** `${factionId}:${chapterId}` */
@@ -187,6 +245,8 @@ export interface PlayState {
   notes: Record<string, string>
   sessions: Session[]
   currentChapter: string | null
+  /** Escolha tomada em cada beat jogado: id do beat → label(s) das escolhas (`choices[].label`). */
+  choicesMade: Record<string, string[]>
 }
 
 export interface Canon {

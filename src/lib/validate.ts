@@ -1,8 +1,8 @@
 // Normalização + validação dos dados. Puro (sem DOM): usado pela app e pelo script.
 import type {
-  Ambition, Arc, Beat, Campaign, Canon, Character, Faction, Location, Problem, Relation, Revelation,
+  Ambition, Arc, Beat, Campaign, Canon, Character, Faction, Location, PlayState, Problem, Relation, Revelation,
 } from './types.ts'
-import { ARC_KINDS, ATTITUDES, CHARACTER_KINDS, RELATION_TYPES } from './types.ts'
+import { ARC_KINDS, ARC_LAYERS, ARC_STATES, ATTITUDES, BEAT_STATUSES, CHARACTER_KINDS, RELATION_TYPES, SEED_STATES } from './types.ts'
 
 const ID_RE = /^[a-z0-9][a-z0-9-]*$/
 
@@ -35,14 +35,31 @@ export function normalizeCampaign(raw: unknown): Campaign {
 
 export function normalizeArc(raw: unknown): Arc {
   const r = obj(raw)
+  const kind = oneOf(r.kind, ARC_KINDS, 'main')
   return {
     id: str(r.id),
     name: str(r.name),
-    kind: oneOf(r.kind, ARC_KINDS, 'main'),
+    kind,
     color: str(r.color, '#888888'),
     ownerPc: str(r.ownerPc) || undefined,
     order: num(r.order),
     summary: str(r.summary),
+    camada: oneOf(r.camada, ARC_LAYERS, kind === 'pcAmbition' ? 'pc' : 'campanha'),
+    abre: str(r.abre) || undefined,
+    paga: str(r.paga) || undefined,
+    deixa: str(r.deixa) || undefined,
+    sementes: arr(r.sementes).map((s) => ({
+      alvo: str(s.alvo),
+      beat: str(s.beat) || undefined,
+      estado: oneOf(s.estado, SEED_STATES, 'planeada'),
+      ultimaJanela: str(s.ultimaJanela) || undefined,
+      nome: str(s.nome) || undefined,
+    })),
+    estado: oneOf(r.estado, ARC_STATES, 'ativa'),
+    fundidaEm: str(r.fundidaEm) || undefined,
+    sabe: str(r.sabe) || undefined,
+    emJogo: str(r.emJogo) || undefined,
+    notes: str(r.notes),
   }
 }
 
@@ -125,6 +142,9 @@ export function normalizeBeat(raw: unknown): Beat {
     timer: str(r.timer) || undefined,
     portent: r.portent ? { faction: str(obj(r.portent).faction), text: str(obj(r.portent).text) } : undefined,
     notes: str(r.notes),
+    status: oneOf(r.status, BEAT_STATUSES, 'pronto'),
+    played: r.played ? { session: str(obj(r.played).session), asPlayed: str(obj(r.played).asPlayed) } : undefined,
+    interface: str(r.interface) || undefined,
     source: src(r.source),
   }
 }
@@ -243,9 +263,25 @@ export function normalizeCanon(raw: RawCanon): { canon: Canon; problems: Problem
   if (!canon.campaign.convergence) warn('campaign', 'sem beat de convergência')
 
   for (const a of canon.arcs) {
+    const w = `arcs/${a.id}`
     if (a.ownerPc) {
-      checkOne(`arcs/${a.id}`, a.ownerPc, ids.characters, 'PC')
-      if (ids.characters.has(a.ownerPc) && !pcs.has(a.ownerPc)) err(`arcs/${a.id}`, 'ownerPc não é um PC')
+      checkOne(w, a.ownerPc, ids.characters, 'PC')
+      if (ids.characters.has(a.ownerPc) && !pcs.has(a.ownerPc)) err(w, 'ownerPc não é um PC')
+    }
+    if (a.camada === 'pc' && !a.ownerPc) warn(w, 'linha de camada pc sem ownerPc')
+    if (a.paga && !ids.beats.has(a.paga) && !ids.chapters.has(a.paga)) err(w, `paga desconhecido (beat ou capítulo): ${a.paga}`)
+    if (a.estado === 'fundida' && !a.fundidaEm) err(w, 'fundida sem fundidaEm')
+    if (a.fundidaEm) {
+      checkOne(w, a.fundidaEm, ids.arcs, 'linha')
+      if (a.fundidaEm === a.id) err(w, 'fundida em si própria')
+      if (a.estado !== 'fundida') warn(w, 'fundidaEm só faz sentido com estado fundida')
+    }
+    if (a.camada === 'fio' && a.estado === 'ativa' && !a.paga) warn(w, 'fio ativo sem beat de pagamento')
+    for (const [i, s] of a.sementes.entries()) {
+      const ws = `${w}/sementes[${i}]`
+      if (!s.alvo) err(ws, 'semente sem alvo')
+      checkOne(ws, s.beat, ids.beats, 'beat')
+      checkOne(ws, s.ultimaJanela, ids.chapters, 'capítulo')
     }
   }
 
@@ -311,7 +347,9 @@ export function normalizeCanon(raw: RawCanon): { canon: Canon; problems: Problem
     if (b.portent) checkOne(w, b.portent.faction, ids.factions, 'facção')
     for (const req of b.requires) {
       if (ids.beats.has(req) && beatPos(req) > beatPos(b.id)) warn(w, `requires aponta para beat posterior: ${req}`)
+      if (beatById.get(req)?.status === 'descartado' && b.status !== 'descartado') warn(w, `requer um beat descartado: ${req}`)
     }
+    if (b.interface && b.arcs.length < 2) warn(w, 'tem nome de interface mas está só numa linha')
     if (b.participants.length === 0) warn(w, 'beat sem participantes')
     for (const a of b.arcs) {
       const key = `${a}|${b.chapter}|${b.order}`
@@ -372,4 +410,126 @@ export function makeBeatPos(canon: Canon): (beatId: string) => number {
     const b = beats.get(id)
     return b ? (chapterIndex.get(b.chapter) ?? 99) * 1000 + b.order : -1
   }
+}
+
+/**
+ * Regras que precisam do estado de jogo (state.json) além do cânone: sessões vs. beats jogados,
+ * escolhas tomadas, estado dos beats por fechar, linhas e sementes, NPCs mortos em cenas futuras.
+ * Nunca lança; os avisos são a lista do que o fecho ainda tem de reconciliar.
+ */
+export function validatePlay(canon: Canon, play: PlayState): Problem[] {
+  const problems: Problem[] = []
+  const err = (where: string, message: string) => problems.push({ level: 'error', where, message })
+  const warn = (where: string, message: string) => problems.push({ level: 'warn', where, message })
+  const beatById = new Map(canon.beats.map((b) => [b.id, b]))
+  const chapterIndex = new Map(canon.campaign.chapters.map((c, i) => [c.id, i]))
+  const sessionIds = new Set(play.sessions.map((s) => s.id))
+  const played = new Set(play.playedBeats)
+  const pcs = canon.characters.filter((c) => c.kind === 'pc')
+  const arcOwner = new Map(canon.arcs.filter((a) => a.ownerPc).map((a) => [a.id, a.ownerPc as string]))
+  const pos = makeBeatPos(canon)
+
+  if (play.currentChapter && !chapterIndex.has(play.currentChapter)) err('state.currentChapter', `capítulo desconhecido: ${play.currentChapter}`)
+  const nowIdx = play.currentChapter ? (chapterIndex.get(play.currentChapter) ?? -1) : -1
+
+  for (const id of play.playedBeats) if (!beatById.has(id)) err('state.playedBeats', `beat desconhecido: ${id}`)
+  const revIds = new Set(canon.revelations.map((r) => r.id))
+  for (const id of play.revealed) if (!revIds.has(id)) err('state.revealed', `revelação desconhecida: ${id}`)
+  const factionIds = new Set(canon.factions.map((f) => f.id))
+  for (const key of play.portentsDone) {
+    const [f, ch] = key.split(':')
+    if (!factionIds.has(f) || !chapterIndex.has(ch)) err('state.portentsDone', `portento desconhecido: ${key}`)
+  }
+  const charIds = new Set(canon.characters.map((c) => c.id))
+  for (const id of Object.keys(play.attitudes)) if (!charIds.has(id)) err('state.attitudes', `personagem desconhecida: ${id}`)
+
+  // sessões: as jogadas têm de bater certo com playedBeats; a planeada tem de dar cena a cada PC
+  const inSession = new Set<string>()
+  for (const s of play.sessions) {
+    const w = `state.sessions/${s.id}`
+    if (s.chapter && !chapterIndex.has(s.chapter)) err(w, `capítulo desconhecido: ${s.chapter}`)
+    for (const id of s.beats) {
+      if (!beatById.has(id)) {
+        err(w, `beat desconhecido: ${id}`)
+        continue
+      }
+      if (s.estado === 'jogada') {
+        inSession.add(id)
+        if (!played.has(id)) warn(w, `beat da sessão não está marcado como jogado: ${id}`)
+      } else if (played.has(id)) warn(w, `sessão planeada com beat já jogado: ${id}`)
+    }
+    if (s.estado === 'planeada') {
+      for (const pc of pcs) {
+        const has = s.beats.some((id) => {
+          const b = beatById.get(id)
+          return b && (b.participants.includes(pc.id) || b.arcs.some((a) => arcOwner.get(a) === pc.id))
+        })
+        if (!has) warn(w, `sessão planeada sem cena para ${pc.name}`)
+      }
+    }
+  }
+  for (const id of play.playedBeats) if (beatById.has(id) && !inSession.has(id)) warn(`beats/${id}`, 'jogado mas nenhuma sessão o lista')
+
+  // escolhas tomadas
+  for (const [beatId, labels] of Object.entries(play.choicesMade)) {
+    const w = `state.choicesMade/${beatId}`
+    const b = beatById.get(beatId)
+    if (!b) {
+      err(w, 'beat desconhecido')
+      continue
+    }
+    if (!played.has(beatId)) warn(w, 'escolha tomada num beat não jogado')
+    for (const label of labels) {
+      const ch = b.choices.find((c) => c.label === label)
+      if (!ch) {
+        err(w, `escolha desconhecida: «${label}»`)
+        continue
+      }
+      for (const next of ch.leadsTo) if (beatById.get(next)?.status === 'descartado') warn(w, `a escolha «${label}» leva a um beat descartado: ${next}`)
+    }
+  }
+
+  // estado dos beats vs. mesa: o que está por fechar
+  for (const b of canon.beats) {
+    const w = `beats/${b.id}`
+    if (b.status === 'jogado' && !played.has(b.id)) warn(w, 'status jogado mas não está em playedBeats')
+    if (played.has(b.id) && b.status !== 'jogado') warn(w, `jogado na mesa mas status «${b.status}» (por fechar)`)
+    if (b.played) {
+      if (!sessionIds.has(b.played.session)) err(w, `played.session desconhecida: ${b.played.session}`)
+      if (b.status !== 'jogado') warn(w, 'tem played (como correu) mas status não é jogado')
+    }
+    if (played.has(b.id) && b.choices.length && !play.choicesMade[b.id]) warn(w, 'jogado com escolhas mas sem escolha tomada registada')
+  }
+
+  // linhas e sementes
+  for (const a of canon.arcs) {
+    const w = `arcs/${a.id}`
+    if (a.abre && !beatById.has(a.abre) && !sessionIds.has(a.abre)) err(w, `abre desconhecido (beat ou sessão): ${a.abre}`)
+    if (a.paga && played.has(a.paga) && a.estado === 'ativa') warn(w, `o beat de pagamento já foi jogado (${a.paga}) e a linha continua ativa`)
+    for (const [i, s] of a.sementes.entries()) {
+      const ws = `${w}/sementes[${i}]`
+      if (s.alvo && !chapterIndex.has(s.alvo) && !sessionIds.has(s.alvo)) err(ws, `alvo desconhecido (capítulo ou sessão): ${s.alvo}`)
+      if (s.estado === 'jogada' && (!s.beat || !played.has(s.beat))) warn(ws, 'semente jogada sem beat jogado')
+      if (s.estado !== 'jogada' && s.beat && played.has(s.beat)) warn(ws, `o beat da semente já foi jogado (${s.beat}): passar a jogada`)
+      if (s.estado === 'posta' && !s.beat) warn(ws, 'semente posta sem beat')
+      if (s.estado === 'planeada' && s.ultimaJanela && nowIdx >= 0) {
+        const last = chapterIndex.get(s.ultimaJanela)
+        if (last !== undefined && last < nowIdx) warn(ws, `fora da última janela (${s.ultimaJanela}) e ainda planeada`)
+      }
+    }
+  }
+
+  // NPC morto a participar em beat futuro. Só mortes certas: o estado começa por «morto/morta» e não é
+  // condicional («morto ou preso», «se passarem 7 dias»); as mortes de um final possível ficam de fora.
+  for (const c of canon.characters) {
+    for (const st of c.states) {
+      if (!/^mort[oa]\b/i.test(st.state) || /\b(ou|se)\b/i.test(st.state) || !beatById.has(st.fromBeat)) continue
+      const deathPos = pos(st.fromBeat)
+      for (const b of canon.beats) {
+        if (b.id === st.fromBeat || b.status === 'descartado' || played.has(b.id) || !b.participants.includes(c.id)) continue
+        if (pos(b.id) > deathPos) warn(`beats/${b.id}`, `${c.name} morre em ${st.fromBeat} mas participa aqui`)
+      }
+    }
+  }
+  return problems
 }

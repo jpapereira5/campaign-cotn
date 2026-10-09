@@ -25,7 +25,7 @@
 
   let editing = $state<Session | null>(null)
   function newSession() {
-    editing = { id: uid(), date: new Date().toISOString().slice(0, 10), title: `Sessão ${sessions.length + 1}`, beats: [], notes: '' }
+    editing = { id: uid(), date: new Date().toISOString().slice(0, 10), title: `Sessão ${sessions.length + 1}`, beats: [], notes: '', chapter: tableChapter, estado: 'jogada' }
   }
   function save() {
     if (!editing) return
@@ -113,13 +113,14 @@
         <div class="row">
           <label class="field"><span>Data</span><input type="date" bind:value={editing.date} /></label>
           <label class="field grow"><span>Título</span><input type="text" bind:value={editing.title} /></label>
+          <label class="field"><span>Estado</span><select bind:value={editing.estado}><option value="jogada">jogada</option><option value="planeada">planeada</option></select></label>
         </div>
         <label class="field"><span>Notas</span><textarea rows="4" bind:value={editing.notes}></textarea></label>
         <div class="field">
-          <span class="muted">Beats jogados nesta sessão ({chapterName(tableChapter)}). Marcar aqui marca-os também como jogados.</span>
+          <span class="muted">{editing.estado === 'planeada' ? 'Beats planeados para esta sessão' : 'Beats jogados nesta sessão'} ({chapterName(tableChapter)}).{#if editing.estado === 'jogada'} Marcar aqui marca-os também como jogados.{/if}</span>
           <div class="beatlist">
             {#each chapterBeats as b (b.id)}
-              <label class:played={isPlayed(b.id)}><input type="checkbox" checked={editing.beats.includes(b.id)} onchange={() => { toggleBeatInSession(b.id); if (!isPlayed(b.id) && editing?.beats.includes(b.id)) togglePlayed(b.id) }} /> {b.title}</label>
+              <label class:played={isPlayed(b.id)}><input type="checkbox" checked={editing.beats.includes(b.id)} onchange={() => { toggleBeatInSession(b.id); if (editing?.estado === 'jogada' && !isPlayed(b.id) && editing?.beats.includes(b.id)) togglePlayed(b.id) }} /> {b.title}</label>
             {/each}
           </div>
         </div>
@@ -134,6 +135,7 @@
           <div class="row nowrap">
             <span class="muted small date">{s.date}</span>
             <b class="ttl">{s.title}</b>
+            {#if s.estado === 'planeada'}<span class="tag">planeada</span>{/if}
             <span class="spacer"></span>
             <button class="icon ghost" onclick={() => (editing = { ...s, beats: [...s.beats] })} title="editar">✎</button>
             <button class="icon ghost danger" onclick={() => confirm('Remover sessão?') && removeSession(s.id)} title="remover">✕</button>

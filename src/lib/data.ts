@@ -5,7 +5,7 @@
 //   data/book/{campaign,arcs}.json, data/book/<colecção>/*.json   — o livro (referência, só leitura na app)
 //   data/campaign/{campaign,arcs}.json, data/campaign/<colecção>/*.json — a nossa campanha (patches, acrescentos, remoções)
 //   data/state.json — estado de jogo
-import type { Canon, Collection, PlayState, Problem } from './types.ts'
+import type { Canon, Collection, Problem } from './types.ts'
 import { COLLECTIONS } from './types.ts'
 import { normalizeCanon, type RawCanon } from './validate.ts'
 import { emptyRaw, mergeLayers, type LayerInfo } from './layers.ts'
@@ -81,42 +81,7 @@ export function assemble(files: Record<string, DataFile>, view: 'book' | 'campai
   return { canon, problems, layers }
 }
 
-export function emptyPlay(): PlayState {
-  return {
-    version: 1,
-    playedBeats: [],
-    revealed: [],
-    portentsDone: [],
-    attitudes: {},
-    flags: {},
-    notes: {},
-    sessions: [],
-    currentChapter: null,
-  }
-}
-
-export function normalizePlay(raw: unknown): PlayState {
-  const r = (raw && typeof raw === 'object' ? raw : {}) as Partial<PlayState>
-  const strs = (v: unknown) => (Array.isArray(v) ? [...new Set(v.filter((x): x is string => typeof x === 'string'))] : [])
-  const rec = <T>(v: unknown): Record<string, T> => (v && typeof v === 'object' && !Array.isArray(v) ? (v as Record<string, T>) : {})
-  return {
-    version: 1,
-    playedBeats: strs(r.playedBeats),
-    revealed: strs(r.revealed),
-    portentsDone: strs(r.portentsDone),
-    attitudes: rec(r.attitudes),
-    flags: rec(r.flags),
-    notes: rec(r.notes),
-    sessions: (Array.isArray(r.sessions) ? r.sessions : []).map((s) => ({
-      id: String((s as { id?: string }).id ?? Math.random().toString(36).slice(2, 10)),
-      date: String((s as { date?: string }).date ?? ''),
-      title: String((s as { title?: string }).title ?? ''),
-      beats: strs((s as { beats?: unknown }).beats),
-      notes: String((s as { notes?: string }).notes ?? ''),
-    })),
-    currentChapter: typeof r.currentChapter === 'string' ? r.currentChapter : null,
-  }
-}
+export { emptyPlay, normalizePlay } from './play.ts'
 
 export function stableJson(value: unknown): string {
   return JSON.stringify(value, null, 2) + '\n'
