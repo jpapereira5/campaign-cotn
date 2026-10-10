@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "validate": "node scripts/validate-data.ts"
+    "validate": "node scripts/validate-data.ts --legado",
+    "validate:estrito": "node scripts/validate-data.ts",
+    "estado": "node scripts/estado.ts"
   },
   "dependencies": {
     "d3-force": "^3.0.0"

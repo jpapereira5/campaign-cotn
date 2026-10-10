@@ -301,7 +301,8 @@ def main():
         if new != raw:
             open(f, "w", encoding="utf-8").write(new)
             changed.append(f)
-    docs = sorted(glob.glob("docs/**/*.md", recursive=True)) + ["README.md"]
+    # docs/estado.md é gerado (npm run estado): não se normaliza, senão dessincroniza-se do registo
+    docs = [f for f in sorted(glob.glob("docs/**/*.md", recursive=True)) if f.replace("\\", "/") != "docs/estado.md"] + ["README.md"]
     for f in docs:
         raw = open(f, encoding="utf-8").read()
         new = texto(raw, gloss=not f.endswith("glossario.md"))

@@ -17,6 +17,7 @@ const arr = (v: unknown): Raw[] => (Array.isArray(v) ? v.map(obj) : [])
 const src = (v: unknown): 'book' | 'dm' => (v === 'dm' ? 'dm' : 'book')
 const oneOf = <T extends string>(v: unknown, allowed: readonly T[], d: T): T =>
   typeof v === 'string' && (allowed as readonly string[]).includes(v) ? (v as T) : d
+const proposta = (v: unknown): true | undefined => (v === true ? true : undefined)
 
 export function normalizeCampaign(raw: unknown): Campaign {
   const r = obj(raw)
@@ -43,6 +44,7 @@ export function normalizeArc(raw: unknown): Arc {
     ownerPc: str(r.ownerPc) || undefined,
     order: num(r.order),
     summary: str(r.summary),
+    proposta: proposta(r.proposta),
   }
 }
 
@@ -63,6 +65,8 @@ export function normalizeCharacter(raw: unknown): Character {
     states: arr(r.states).map((s) => ({ fromBeat: str(s.fromBeat), state: str(s.state) })),
     attitude: typeof r.attitude === 'string' ? oneOf(r.attitude, ATTITUDES, 'indiferente') : undefined,
     tags: strs(r.tags),
+    jogador: str(r.jogador) || undefined,
+    proposta: proposta(r.proposta),
     source: src(r.source),
   }
 }
@@ -79,6 +83,7 @@ export function normalizeFaction(raw: unknown): Faction {
     allies: strs(r.allies),
     enemies: strs(r.enemies),
     portents: arr(r.portents).map((p) => ({ chapter: str(p.chapter), text: str(p.text) })),
+    proposta: proposta(r.proposta),
     source: src(r.source),
   }
 }
@@ -91,6 +96,8 @@ export function normalizeLocation(raw: unknown): Location {
     parent: str(r.parent) || undefined,
     chapter: str(r.chapter),
     summary: str(r.summary),
+    proposta: proposta(r.proposta),
+    source: src(r.source),
   }
 }
 
@@ -125,13 +132,14 @@ export function normalizeBeat(raw: unknown): Beat {
     timer: str(r.timer) || undefined,
     portent: r.portent ? { faction: str(obj(r.portent).faction), text: str(obj(r.portent).text) } : undefined,
     notes: str(r.notes),
+    proposta: proposta(r.proposta),
     source: src(r.source),
   }
 }
 
 export function normalizeRevelation(raw: unknown): Revelation {
   const r = obj(raw)
-  return { id: str(r.id), list: str(r.list, 'Geral'), text: str(r.text), clues: uniq(strs(r.clues)), source: src(r.source) }
+  return { id: str(r.id), list: str(r.list, 'Geral'), text: str(r.text), clues: uniq(strs(r.clues)), proposta: proposta(r.proposta), source: src(r.source) }
 }
 
 export function normalizeAmbition(raw: unknown): Ambition {
@@ -144,6 +152,7 @@ export function normalizeAmbition(raw: unknown): Ambition {
     arcs: strs(r.arcs),
     satisfiedBy: strs(r.satisfiedBy),
     threatenedBy: strs(r.threatenedBy),
+    proposta: proposta(r.proposta),
     source: src(r.source),
   }
 }
@@ -355,6 +364,10 @@ export function normalizeCanon(raw: RawCanon): { canon: Canon; problems: Problem
     check(w, a.threatenedBy, ids.beats, 'beat')
   }
 
+  // prosa a crescer dentro do JSON: o summary de uma ficha da mesa é descrição, não registo de sessões
+  for (const list of [canon.characters, canon.locations, canon.beats, canon.factions] as { id: string; summary?: string; source?: 'book' | 'dm' }[][])
+    for (const e of list) if (e.source === 'dm' && (e.summary?.length ?? 0) > 1500) warn(e.id, `summary com ${e.summary!.length} caracteres (> 1 500): a prosa das sessões vive em docs/sessoes e no registo`)
+
   const inBeats = new Set(canon.beats.flatMap((b) => b.participants))
   for (const c of canon.characters) if (!inBeats.has(c.id) && c.kind !== 'deity' && c.kind !== 'pc') warn(`characters/${c.id}`, 'não participa em nenhum beat')
   const arcsUsed = new Set(canon.beats.flatMap((b) => b.arcs))
@@ -362,6 +375,37 @@ export function normalizeCanon(raw: RawCanon): { canon: Canon; problems: Problem
 
 
   return { canon, problems }
+}
+
+/** Marcadores de estado em texto que a camada campaign já não usa: o estado vive em campos e no registo. */
+export const MARCADORES_PROIBIDOS = ['PROPOSTA', 'DM:', 'NOTAS DE DM', 'A mesa (sessão', 'a mesa (sessão', '(decisão do DM', 'JOGADO (', 'CAIU (', 'Na campanha anterior', 'na campanha anterior']
+export const MARCADORES_DUVIDOSOS = ['na mesa', 'a decidir', 'a definir', 'por definir', 'em aberto', 'o DM escolhe', 'o DM define', 'Fio solto']
+const CAMPOS_TEXTO = ['title', 'name', 'summary', 'notes', 'goal', 'secret', 'wants', 'fears', 'text', 'label', 'outcome', 'state', 'agenda', 'publicFace', 'motto', 'condition']
+
+/**
+ * Procura marcadores de estado no texto da camada campaign (crua, antes de fundir com o livro).
+ * `nivel` = 'error' depois da limpeza; 'warn' (--legado) enquanto a migração decorre.
+ */
+export function lintMarcadores(campaign: RawCanon, nivel: 'error' | 'warn'): Problem[] {
+  const problems: Problem[] = []
+  const visit = (where: string, v: unknown, key?: string): void => {
+    if (typeof v === 'string') {
+      if (!key || !CAMPOS_TEXTO.includes(key)) return
+      for (const m of MARCADORES_PROIBIDOS) if (v.includes(m)) problems.push({ level: nivel, where, message: `«${m}» em ${key}: o estado vive em campos e no registo, não no texto` })
+      for (const m of MARCADORES_DUVIDOSOS) if (v.includes(m)) problems.push({ level: 'warn', where, message: `«${m}» em ${key}: pergunta por abrir em registo/fios.json?` })
+      return
+    }
+    if (Array.isArray(v)) v.forEach((x) => visit(where, x, key))
+    else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v as Record<string, unknown>)) visit(where, x, k)
+  }
+  for (const c of ['arcs', 'characters', 'factions', 'locations', 'relations', 'beats', 'revelations', 'ambitions'] as const)
+    for (const e of campaign[c]) {
+      const r = (e ?? {}) as Record<string, unknown>
+      const id = typeof r.id === 'string' ? r.id : typeof r.from === 'string' ? `${r.from}→${String(r.to)}` : '?'
+      visit(`${c}/${id}`, e)
+    }
+  if (campaign.campaign) visit('campaign', campaign.campaign)
+  return problems
 }
 
 /** Posição temporal global de um beat: (capítulo, ordem) → número comparável. */

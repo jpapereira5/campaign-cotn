@@ -57,8 +57,11 @@ async function readRaw(path: string): Promise<string> {
   return res.text()
 }
 
-/** Lê todos os ficheiros data/**.json do repositório (conteúdo + sha). */
-export async function fetchRemoteFiles(): Promise<Record<string, DataFile>> {
+/**
+ * Lê todos os ficheiros data/**.json do repositório (conteúdo + sha). Um ficheiro com JSON inválido
+ * não aborta a leitura: fica de fora e `onError` recebe o caminho e o erro.
+ */
+export async function fetchRemoteFiles(onError?: (path: string, message: string) => void): Promise<Record<string, DataFile>> {
   const entries = (await listDir('data')).filter((e) => e.path.endsWith('.json'))
   const out: Record<string, DataFile> = {}
   await Promise.all(
@@ -66,7 +69,14 @@ export async function fetchRemoteFiles(): Promise<Record<string, DataFile>> {
       const p = parsePath(e.path)
       if (!p) return
       const text = await readRaw(e.path)
-      out[e.path] = { path: e.path, kind: p.kind, layer: p.layer, content: JSON.parse(text), sha: e.sha, dirty: false }
+      let content: unknown
+      try {
+        content = JSON.parse(text)
+      } catch (err) {
+        onError?.(e.path, (err as Error).message)
+        return
+      }
+      out[e.path] = { path: e.path, kind: p.kind, layer: p.layer, content, sha: e.sha, dirty: false }
     }),
   )
   return out

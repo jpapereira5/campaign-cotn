@@ -1,6 +1,9 @@
 // Modelo de dados da campanha. Tudo é JSON simples, editável à mão em data/.
 // Ids: kebab-case ASCII. Prefixos: c- (personagem), f- (facção), l- (local),
 // b-<cap>- (beat), r- (revelação), a- (arco), amb- (ambição), ch0..ch7 (capítulos).
+// O registo (sessões, decisões, fios, itens, relógios) está em registo.ts; o estado de jogo deriva-se de lá.
+// `proposta: true` marca material herdado (Remix, Ato 4, Reddit) ainda por decidir: a camada campaign é, por
+// omissão, decidida pelo DM. Nunca se escreve estado em prefixos de texto (PROPOSTA, DM:, A mesa (sessão N)).
 
 export type CharacterKind = 'pc' | 'npc' | 'rival' | 'deity'
 export const CHARACTER_KINDS: CharacterKind[] = ['pc', 'npc', 'rival', 'deity']
@@ -63,6 +66,9 @@ export interface Character {
   /** Só para rivais: atitude inicial para com os PCs. */
   attitude?: Attitude
   tags: string[]
+  /** Nome do jogador (só PCs). */
+  jogador?: string
+  proposta?: boolean
   source: Source
 }
 
@@ -82,6 +88,7 @@ export interface Faction {
   enemies: string[]
   /** Fronts / grim portents: o que acontece se os PCs não intervierem, por capítulo. */
   portents: Portent[]
+  proposta?: boolean
   source: Source
 }
 
@@ -91,6 +98,8 @@ export interface Location {
   parent?: string
   chapter: string
   summary: string
+  proposta?: boolean
+  source?: Source
 }
 
 export interface Relation {
@@ -115,6 +124,7 @@ export interface Arc {
   ownerPc?: string
   order: number
   summary: string
+  proposta?: boolean
 }
 
 export interface Choice {
@@ -143,6 +153,7 @@ export interface Beat {
   /** Portento: se ligado a uma facção, o que ela faz se ninguém a travar. */
   portent?: { faction: string; text: string }
   notes: string
+  proposta?: boolean
   source: Source
 }
 
@@ -153,6 +164,7 @@ export interface Revelation {
   text: string
   /** Beats onde há uma pista para esta revelação (regra das três pistas). */
   clues: string[]
+  proposta?: boolean
   source: Source
 }
 
@@ -164,29 +176,8 @@ export interface Ambition {
   arcs: string[]
   satisfiedBy: string[]
   threatenedBy: string[]
+  proposta?: boolean
   source: Source
-}
-
-export interface Session {
-  id: string
-  date: string
-  title: string
-  beats: string[]
-  notes: string
-}
-
-/** Estado de jogo (data/state.json): o que já aconteceu na mesa. */
-export interface PlayState {
-  version: 1
-  playedBeats: string[]
-  revealed: string[]
-  /** `${factionId}:${chapterId}` */
-  portentsDone: string[]
-  attitudes: Record<string, Attitude>
-  flags: Record<string, boolean>
-  notes: Record<string, string>
-  sessions: Session[]
-  currentChapter: string | null
 }
 
 export interface Canon {

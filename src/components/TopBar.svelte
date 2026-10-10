@@ -4,7 +4,7 @@
   const TITLES: Record<string, { title: string; help: string }> = {
     tempo: {
       title: 'Linha temporal',
-      help: 'Uma pista por arco (prólogo, Jóia, lore, ruidium, rivais, facções, ambições dos PCs); cada cartão é um beat. Uma linha vertical liga o mesmo beat nas várias pistas em que entra. Clique abre o detalhe; duplo clique marca como jogado.',
+      help: 'Uma pista por arco (prólogo, Jóia, lore, ruidium, rivais, facções, ambições dos PCs); cada cartão é um beat. Uma linha vertical liga o mesmo beat nas várias pistas em que entra. Clique abre o detalhe; o que está jogado ou em curso vem do registo (data/registo, escrito no fecho).',
     },
     grafo: {
       title: 'Relações',
@@ -12,15 +12,15 @@
     },
     frentes: {
       title: 'Frentes',
-      help: 'Cada facção tem portentos: o que faz se ninguém a travar, capítulo a capítulo. Marca os que já aconteceram; o relógio mostra quanto a frente avançou.',
+      help: 'Cada facção tem portentos: o que faz se ninguém a travar, capítulo a capítulo. Os que já dispararam vêm das sessões do registo; o relógio mostra quanto a frente avançou.',
     },
     revelacoes: {
       title: 'Revelações',
-      help: 'Regra das três pistas: cada conclusão necessária deve ter pelo menos 3 pistas em cenas diferentes. A barra mostra quantas pistas os jogadores já jogaram. Marca a revelação quando a mesa a tiver percebido.',
+      help: 'Regra das três pistas: cada conclusão necessária deve ter pelo menos 3 pistas em cenas diferentes. A barra mostra quantas pistas os jogadores já jogaram; o que a mesa já percebeu vem das sessões do registo.',
     },
     sessao: {
       title: 'Sessão',
-      help: 'Painel para preparar e registar sessões: o próximo beat pronto em cada pista, as sessões jogadas e as flags (factos que a mesa estabeleceu).',
+      help: 'Consulta do registo (só leitura): a sessão planeada, o que falta jogar, o próximo beat pronto por pista, planos e relógios, as sessões jogadas, os fios abertos e quem tem o quê. Escreve-se no fecho, em data/registo.',
     },
     pcs: {
       title: 'PCs e ambições',
@@ -32,7 +32,7 @@
   const meta = $derived(TITLES[ui.view] ?? { title: ui.view, help: '' })
   const chapters = $derived(world.canon.campaign.chapters)
   const current = $derived(chapters.find((c) => c.id === ui.chapter))
-  const tableChapter = $derived(world.play.currentChapter)
+  const tableChapter = $derived(world.estado.capituloAtual)
   const showCursor = $derived(ui.view !== 'definicoes' && ui.view !== 'pcs')
   const readOnly = $derived(world.readOnly)
 </script>
@@ -60,12 +60,12 @@
             {chapterShort(ch.id)}
           </button>
         {/each}
-        <button class="chp played" class:active={ui.cursorMode === 'played'} onclick={() => (ui.cursorMode = 'played')} title="Só o que já foi jogado (beats marcados na Sessão)">
+        <button class="chp played" class:active={ui.cursorMode === 'played'} onclick={() => (ui.cursorMode = 'played')} title="Só o que já foi jogado (beats das sessões do registo)">
           ✓ jogado
         </button>
       </div>
       <span class="current small">
-        {#if ui.cursorMode === 'played'}até ao último beat jogado <span class="muted">({world.play.playedBeats.length})</span>{:else if current}{current.name} <span class="muted">· níveis {current.levels}</span>{/if}
+        {#if ui.cursorMode === 'played'}até ao último beat jogado <span class="muted">({world.estado.playedBeats.length})</span>{:else if current}{current.name} <span class="muted">· níveis {current.levels}</span>{/if}
       </span>
     </div>
   {/if}

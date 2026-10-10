@@ -1,16 +1,16 @@
 // Estado da app: ficheiros de dados (fonte de verdade), estado de jogo, UI.
 // Os ficheiros embebidos no build são o fallback; com token, lê-se o repo e escreve-se de volta.
 // Duas camadas: `book` (o livro, nunca editado pela app) e `campaign` (a nossa campanha).
-import type { Ambition, Attitude, Beat, Canon, Character, Collection, PlayState, Problem, Relation, Session } from './types.ts'
+import type { Ambition, Attitude, Beat, Canon, Character, Collection, Problem, Relation } from './types.ts'
 import { COLLECTIONS, relationKey, uid } from './types.ts'
-import { assemble, embeddedFiles, emptyPlay, fileForEdits, normalizePlay, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
-import { makeBeatPos } from './validate.ts'
+import { assemble, assembleRegisto, embeddedFiles, fileForEdits, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
+import { lintMarcadores, makeBeatPos } from './validate.ts'
+import { derivar, validateRegisto, type Estado, type Registo } from './registo.ts'
 import { ConflictError, fetchRemoteFiles, getToken, putFile } from './github.ts'
 import { defaultFilters, type GraphFilters } from './graph.ts'
 import type { Layer, LayerInfo } from './layers.ts'
 
 const STORAGE_KEY = 'campaign-cotn-v1'
-const STATE_PATH = 'data/state.json'
 
 export type View = 'tempo' | 'grafo' | 'pcs' | 'frentes' | 'revelacoes' | 'sessao' | 'indice' | 'definicoes'
 export type SelKind = 'character' | 'faction' | 'location' | 'beat' | 'arc' | 'revelation' | 'ambition'
@@ -40,9 +40,12 @@ function loadPersisted(): Persisted {
 
 function initialFiles(): Record<string, DataFile> {
   const files = embeddedFiles()
-  if (!files[STATE_PATH]) files[STATE_PATH] = { path: STATE_PATH, kind: 'state', layer: 'state', content: emptyPlay(), dirty: false }
   const p = loadPersisted()
-  for (const [path, f] of Object.entries(p.files)) if (f.dirty && parsePath(path)) files[path] = { ...f, ...parsePath(path)! }
+  // edições locais por gravar; o registo nunca se edita na app, por isso não se repõe do localStorage
+  for (const [path, f] of Object.entries(p.files)) {
+    const pp = parsePath(path)
+    if (f.dirty && pp && pp.layer !== 'registo') files[path] = { ...f, ...pp }
+  }
   for (const [path, sha] of Object.entries(p.shas)) if (files[path] && !files[path].sha) files[path].sha = sha
   return files
 }
@@ -52,6 +55,8 @@ function initialFiles(): Record<string, DataFile> {
 export const store = $state({
   files: initialFiles(),
   sync: { status: 'idle' as 'idle' | 'loading' | 'saving' | 'ok' | 'error', message: '', remoteLoaded: false, lastSync: '' },
+  /** Ficheiros do repositório com JSON inválido (ficou a versão do build). */
+  remoteProblems: [] as Problem[],
 })
 
 export const ui = $state({
@@ -77,16 +82,23 @@ export const ui = $state({
 
 const assembled = $derived(assemble(store.files, ui.layerView))
 const canonD = $derived(assembled.canon)
-const problemsD = $derived(assembled.problems)
 const layersD = $derived(assembled.layers)
 const bookRawD = $derived(rawOfLayer(store.files, 'book'))
+const campaignRawD = $derived(rawOfLayer(store.files, 'campaign'))
 const beatPosD = $derived(makeBeatPos(canonD))
-const playD = $derived(normalizePlay(store.files[STATE_PATH]?.content))
+// O registo (data/registo) é só leitura na app: o fecho é quem o escreve. O estado de jogo deriva-se dele.
+const registoD = $derived(assembleRegisto(store.files))
+const estadoD = $derived(derivar(canonD, registoD.registo))
+const problemsD = $derived(
+  ui.layerView === 'book'
+    ? [...store.remoteProblems, ...assembled.problems, ...registoD.problems]
+    : [...store.remoteProblems, ...assembled.problems, ...registoD.problems, ...validateRegisto(canonD, registoD.registo), ...lintMarcadores(campaignRawD, 'warn')],
+)
 const chapterIndexD = $derived(new Map(canonD.campaign.chapters.map((c, i) => [c.id, i])))
 const beatsSortedD = $derived([...canonD.beats].sort((a, b) => beatPosD(a.id) - beatPosD(b.id) || a.id.localeCompare(b.id)))
 const cursorD = $derived.by(() => {
   if (ui.cursorMode === 'played') {
-    const played = playD.playedBeats.map(beatPosD).filter((p) => p >= 0)
+    const played = estadoD.playedBeats.map(beatPosD).filter((p) => p >= 0)
     return played.length ? Math.max(...played) : -1
   }
   const idx = chapterIndexD.get(ui.chapter)
@@ -105,8 +117,11 @@ export const world = {
   get layers(): LayerInfo {
     return layersD
   },
-  get play(): PlayState {
-    return playD
+  get registo(): Registo {
+    return registoD.registo
+  },
+  get estado(): Estado {
+    return estadoD
   },
   get beatPos(): (id: string) => number {
     return beatPosD
@@ -120,8 +135,9 @@ export const world = {
   get beatsSorted(): Beat[] {
     return beatsSortedD
   },
+  /** Por gravar. O registo fica de fora: só o fecho o escreve. */
   get dirtyFiles(): DataFile[] {
-    return Object.values(store.files).filter((f) => f.dirty)
+    return Object.values(store.files).filter((f) => f.dirty && f.layer !== 'registo')
   },
   get readOnly(): boolean {
     return ui.layerView === 'book'
@@ -171,16 +187,24 @@ export function nameOf(id: string): string {
     id
   )
 }
+/** Em modo «jogado» manda o registo (último estado nas sessões); em modo «capítulo» manda o livro (states por beat). */
 export function characterState(c: Character, cursor = cursorD): string {
+  const registado = estadoD.npcs[c.id]?.estado
+  if (ui.cursorMode === 'played' && registado) return registado
   let state = ''
   for (const s of c.states) if (beatPosD(s.fromBeat) <= cursor && beatPosD(s.fromBeat) >= 0) state = s.state
   return state
 }
+/** Em modo «jogado» manda o registo; em modo «capítulo» manda o livro. */
 export function attitudeOf(c: Character): Attitude | undefined {
-  return playD.attitudes[c.id] ?? c.attitude
+  return ui.cursorMode === 'played' ? (estadoD.atitudes[c.id] ?? c.attitude) : c.attitude
 }
 export function isPlayed(beatId: string): boolean {
-  return playD.playedBeats.includes(beatId)
+  return estadoD.playedBeats.includes(beatId)
+}
+/** Em curso: apareceu em sessões jogadas sempre com `continua`. */
+export function isEmCurso(beatId: string): boolean {
+  return estadoD.jogados.get(beatId)?.emCurso ?? false
 }
 
 // ---- persistência local ----------------------------------------------------
@@ -190,7 +214,7 @@ function persist(): void {
     const files: Record<string, DataFile> = {}
     const shas: Record<string, string> = {}
     for (const f of Object.values(store.files)) {
-      if (f.dirty) files[f.path] = $state.snapshot(f) as DataFile
+      if (f.dirty && f.layer !== 'registo') files[f.path] = $state.snapshot(f) as DataFile
       if (f.sha) shas[f.path] = f.sha
     }
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, files, shas } satisfies Persisted))
@@ -205,9 +229,9 @@ $effect.root(() => {
   })
 })
 
-// Cursor inicial: o capítulo em que a mesa está (state.json) ou o primeiro.
+// Cursor inicial: o capítulo da última sessão jogada (registo) ou o primeiro.
 if (canonD.campaign.chapters.length) {
-  const cur = playD.currentChapter
+  const cur = estadoD.capituloAtual
   ui.chapter = cur && canonD.campaign.chapters.some((c) => c.id === cur) ? cur : canonD.campaign.chapters[0].id
 }
 
@@ -356,60 +380,6 @@ export function addAmbition(pc: string, text: string): void {
   addEntity('ambitions', { id: 'amb-' + uid(), pc, text, npcs: [], arcs: [], satisfiedBy: [], threatenedBy: [], source: 'dm' } satisfies Ambition)
 }
 
-// ---- estado de jogo --------------------------------------------------------
-
-function updatePlay(fn: (p: PlayState) => void): void {
-  const f = store.files[STATE_PATH]
-  const p = normalizePlay(f.content)
-  fn(p)
-  f.content = p
-  f.dirty = true
-}
-
-const toggle = (list: string[], id: string) => (list.includes(id) ? list.filter((x) => x !== id) : [...list, id])
-
-export function togglePlayed(beatId: string): void {
-  updatePlay((p) => (p.playedBeats = toggle(p.playedBeats, beatId)))
-}
-export function toggleRevealed(id: string): void {
-  updatePlay((p) => (p.revealed = toggle(p.revealed, id)))
-}
-export function togglePortent(factionId: string, chapter: string): void {
-  updatePlay((p) => (p.portentsDone = toggle(p.portentsDone, `${factionId}:${chapter}`)))
-}
-export function setAttitude(characterId: string, a: Attitude | null): void {
-  updatePlay((p) => {
-    if (a) p.attitudes[characterId] = a
-    else delete p.attitudes[characterId]
-  })
-}
-export function setNote(id: string, text: string): void {
-  updatePlay((p) => {
-    if (text.trim()) p.notes[id] = text
-    else delete p.notes[id]
-  })
-}
-export function setFlag(key: string, value: boolean): void {
-  updatePlay((p) => {
-    if (value) p.flags[key] = true
-    else delete p.flags[key]
-  })
-}
-export function setCurrentChapter(id: string | null): void {
-  updatePlay((p) => (p.currentChapter = id))
-  if (id) setChapter(id)
-}
-export function upsertSession(s: Session): void {
-  updatePlay((p) => {
-    const i = p.sessions.findIndex((x) => x.id === s.id)
-    if (i >= 0) p.sessions[i] = s
-    else p.sessions.push(s)
-  })
-}
-export function removeSession(id: string): void {
-  updatePlay((p) => (p.sessions = p.sessions.filter((x) => x.id !== id)))
-}
-
 // ---- selecção / navegação --------------------------------------------------
 
 export function select(kind: SelKind, id: string): void {
@@ -455,19 +425,25 @@ export async function loadRemote(): Promise<void> {
   store.sync.status = 'loading'
   store.sync.message = 'A ler o repositório…'
   try {
-    const remote = await fetchRemoteFiles()
+    const partidos: string[] = []
+    store.remoteProblems = []
+    const remote = await fetchRemoteFiles((path, msg) => {
+      partidos.push(`${path} (${msg})`)
+      store.remoteProblems = [...store.remoteProblems, { level: 'error', where: path, message: `JSON inválido no repositório (a app usa a versão do build): ${msg}` }]
+    })
     for (const [path, f] of Object.entries(remote)) {
       const local = store.files[path]
-      if (local?.dirty) {
-        local.sha = f.sha // manter edições locais; sha actual para gravar por cima
+      // o registo vem sempre do repositório; as outras camadas mantêm as edições locais por gravar
+      if (local?.dirty && f.layer !== 'registo') {
+        local.sha = f.sha // sha actual para gravar por cima
         continue
       }
       store.files[path] = f
     }
     store.sync.remoteLoaded = true
-    store.sync.status = 'ok'
+    store.sync.status = partidos.length ? 'error' : 'ok'
     store.sync.lastSync = new Date().toLocaleTimeString('pt-PT')
-    store.sync.message = `Dados do repositório carregados (${Object.keys(remote).length} ficheiros).`
+    store.sync.message = `Dados do repositório carregados (${Object.keys(remote).length} ficheiros).${partidos.length ? ` JSON inválido, ignorado: ${partidos.join('; ')}` : ''}`
   } catch (e) {
     store.sync.status = 'error'
     store.sync.message = (e as Error).message
@@ -486,7 +462,9 @@ export async function saveRemote(): Promise<void> {
   try {
     if (!store.sync.remoteLoaded) {
       // obter shas actuais sem perder edições locais
-      const remote = await fetchRemoteFiles()
+      const remote = await fetchRemoteFiles((path, msg) => {
+        store.remoteProblems = [...store.remoteProblems.filter((p) => p.where !== path), { level: 'error', where: path, message: `JSON inválido no repositório: ${msg}` }]
+      })
       for (const [path, f] of Object.entries(remote)) if (store.files[path]) store.files[path].sha = f.sha
       store.sync.remoteLoaded = true
     }
@@ -543,14 +521,10 @@ export function importAll(file: File): void {
   file.text().then((text) => {
     try {
       const obj = JSON.parse(text) as Record<string, unknown>
-      if (obj && typeof obj === 'object' && 'playedBeats' in obj) {
-        // ficheiro de estado isolado
-        store.files[STATE_PATH] = { path: STATE_PATH, kind: 'state', layer: 'state', content: normalizePlay(obj), dirty: true }
-        return
-      }
       for (const [path, content] of Object.entries(obj)) {
         const p = parsePath(path)
-        if (!p) continue
+        // o registo não se importa: só o fecho o escreve
+        if (!p || p.layer === 'registo') continue
         store.files[path] = { path, kind: p.kind, layer: p.layer, content, sha: store.files[path]?.sha, dirty: true }
       }
     } catch {

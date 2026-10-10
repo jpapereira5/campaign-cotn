@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { world, togglePortent, characterState, select, chapterName, chapterShort } from '../lib/state.svelte'
+  import { world, characterState, select, chapterName, chapterShort } from '../lib/state.svelte'
   import EntityChip from './EntityChip.svelte'
 
   const c = $derived(world.canon)
@@ -19,7 +19,7 @@
   })
 
   function done(fid: string, ch: string) {
-    return world.play.portentsDone.includes(`${fid}:${ch}`)
+    return world.estado.portentos.has(`${fid}:${ch}`)
   }
   function arcPath(cx: number, cy: number, r: number, a0: number, a1: number) {
     const p = (a: number) => [cx + r * Math.cos(a), cy + r * Math.sin(a)]
@@ -76,7 +76,7 @@
             {@const isDone = done(f.id, p.chapter)}
             <li class:future class:done={isDone}>
               <label>
-                <input type="checkbox" checked={isDone} onchange={() => togglePortent(f.id, p.chapter)} />
+                <input type="checkbox" checked={isDone} disabled title={isDone ? 'disparado (registo: portentos[] de uma sessão)' : 'por disparar — regista-se no fecho'} />
                 <span class="chp" title={chapterName(p.chapter)}>{chapterShort(p.chapter)}</span>
                 <span class="txt">{p.text}</span>
               </label>

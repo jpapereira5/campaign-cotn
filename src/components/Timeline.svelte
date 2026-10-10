@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ui, world, select, togglePlayed, isPlayed, layerOf, setChapter, chapterShort } from '../lib/state.svelte'
+  import { ui, world, select, isPlayed, isEmCurso, layerOf, setChapter, chapterShort } from '../lib/state.svelte'
   import { layoutTimeline, AXIS_H, OVERVIEW, CHAPTER, type Card } from '../lib/timeline'
 
   let hover = $state<string | null>(null)
@@ -139,7 +139,6 @@
           role="button"
           tabindex="0"
           onclick={(e) => onCardClick(c, e)}
-          ondblclick={(e) => { e.stopPropagation(); togglePlayed(c.beat.id) }}
           onkeydown={(e) => e.key === 'Enter' && select('beat', c.beat.id)}
           onpointerenter={() => (hover = c.beat.id)}
           onpointerleave={() => (hover = null)}
@@ -152,7 +151,8 @@
             <div class="card-text" class:big={mode === 'chapter'} title={c.beat.summary}>
               <div class="title">{c.beat.title}</div>
               <div class="meta">
-                {#if played}<span class="ok">✓ jogado</span>{/if}
+                {#if played}<span class="ok">✓ jogado</span>{:else if isEmCurso(c.beat.id)}<span title="apareceu em sessões, ainda a continuar">… em curso</span>{/if}
+                {#if c.beat.proposta}<span title="material herdado, por decidir">proposta</span>{/if}
                 {#if c.beat.timer}<span title="relógio">⏱ {c.beat.timer}</span>{/if}
                 {#if c.beat.choices.length}<span title="{c.beat.choices.length} escolha(s)">⑂ {c.beat.choices.length}</span>{/if}
                 {#if c.beat.arcs.length > 1}<span title="em {c.beat.arcs.length} pistas">✦ {c.beat.arcs.length}</span>{/if}

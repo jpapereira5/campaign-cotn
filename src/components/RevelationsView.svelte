@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { world, toggleRevealed, isPlayed, select } from '../lib/state.svelte'
+  import { world, isPlayed, select } from '../lib/state.svelte'
   import EntityChip from './EntityChip.svelte'
 
   const c = $derived(world.canon)
@@ -15,7 +15,8 @@
     for (const b of c.beats) for (const r of b.reveals) m.set(r, [...(m.get(r) ?? []), b.id])
     return m
   })
-  const visible = $derived(lists.filter(([name]) => !listFilter || name === listFilter).map(([name, items]) => [name, items.filter((r) => !onlyPending || !world.play.revealed.includes(r.id))] as const))
+  const revelados = $derived(world.estado.revelados)
+  const visible = $derived(lists.filter(([name]) => !listFilter || name === listFilter).map(([name, items]) => [name, items.filter((r) => !onlyPending || !revelados.has(r.id))] as const))
 </script>
 
 <div class="toolbar">
@@ -27,21 +28,21 @@
   </div>
   <label class="toggle" class:on={onlyPending}><input type="checkbox" bind:checked={onlyPending} />só por revelar</label>
   <span class="spacer"></span>
-  <span class="muted small">{world.play.revealed.length}/{c.revelations.length} reveladas</span>
+  <span class="muted small">{revelados.size}/{c.revelations.length} reveladas</span>
 </div>
 <div class="page">
   {#each visible as [name, items] (name)}
     {@const all = lists.find(([n]) => n === name)?.[1] ?? []}
-    {@const done = all.filter((r) => world.play.revealed.includes(r.id)).length}
+    {@const done = all.filter((r) => revelados.has(r.id)).length}
     <h3 class="section-title">{name} <span class="muted">· {done}/{all.length} reveladas</span></h3>
     <div class="grid revs">
       {#each items as r (r.id)}
         {@const met = r.clues.filter(isPlayed).length}
-        {@const revealed = world.play.revealed.includes(r.id)}
+        {@const revealed = revelados.has(r.id)}
         {@const by = revealedBy.get(r.id) ?? []}
         <div class="card rev" class:revealed>
           <label class="top">
-            <input type="checkbox" checked={revealed} onchange={() => toggleRevealed(r.id)} title="A mesa já percebeu isto" />
+            <input type="checkbox" checked={revealed} disabled title={revealed ? `dada à mesa em ${revelados.get(r.id)}` : 'por revelar — regista-se no fecho (revelacoes[] da sessão)'} />
             <button class="linkish text" onclick={() => select('revelation', r.id)}>{r.text}</button>
           </label>
           <div class="meterrow">

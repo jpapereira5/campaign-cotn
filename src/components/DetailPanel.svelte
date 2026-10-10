@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { ui, world, characterState, attitudeOf, isPlayed, togglePlayed, toggleRevealed, setNote, setAttitude, editEntity, removeRelation, addRelation, nameOf, layerOf, bookOriginal, revertToBook, relationLayer, back, closeSelection, goToBeat, chapterName, type Selection } from '../lib/state.svelte'
+  import { ui, world, characterState, attitudeOf, isPlayed, isEmCurso, editEntity, removeRelation, addRelation, nameOf, layerOf, bookOriginal, revertToBook, relationLayer, back, closeSelection, goToBeat, chapterName, type Selection } from '../lib/state.svelte'
   import { diffFields } from '../lib/layers'
   import { relationActive } from '../lib/graph'
   import { RELATION_LABELS, KIND_LABELS } from '../lib/colors'
-  import { ATTITUDES, RELATION_TYPES, type Attitude, type RelationType } from '../lib/types'
+  import { RELATION_TYPES, type RelationType } from '../lib/types'
   import EntityChip from './EntityChip.svelte'
 
   let { selection }: { selection: Selection } = $props()
@@ -19,11 +19,21 @@
   const missing = $derived(!character && !faction && !location && !beat && !arc && !revelation && !ambition)
 
   const KIND_TITLE: Record<Selection['kind'], string> = { character: 'Personagem', faction: 'Facção', location: 'Local', beat: 'Beat', arc: 'Pista', revelation: 'Revelação', ambition: 'Ambição' }
-  const note = $derived(world.play.notes[selection.id] ?? '')
+  // O que o registo diz desta entrada (só leitura): sessões que a referem, fios sobre ela, decisões que a afetam.
+  const sessoesRef = $derived(
+    world.estado.sessoes.filter(
+      (s) => s.beats.some((b) => b.id === selection.id) || s.npcs.some((n) => n.id === selection.id) || s.loot.some((l) => l.para === selection.id || l.de === selection.id) || s.revelacoes.includes(selection.id) || s.mesa.presentes.includes(selection.id),
+    ),
+  )
+  const fiosRef = $derived(world.registo.fios.filter((f) => f.sobre.includes(selection.id)))
+  const decisoesRef = $derived(world.registo.decisoes.filter((d) => d.afeta.includes(selection.id) || d.gatilho.includes(selection.id)))
+  const jogado = $derived(world.estado.jogados.get(selection.id))
+  const npcRegisto = $derived(world.estado.npcs[selection.id])
   const layer = $derived(layerOf(selection.kind, selection.id))
   const original = $derived(layer === 'modified' ? bookOriginal(selection.kind, selection.id) : undefined)
   const merged = $derived((character ?? faction ?? location ?? beat ?? arc ?? revelation ?? ambition ?? {}) as unknown as Record<string, unknown>)
   const changed = $derived(original ? diffFields(original, merged) : [])
+  const proposta = $derived((merged as { proposta?: boolean }).proposta === true)
   const COLL = { character: 'characters', faction: 'factions', location: 'locations', beat: 'beats', arc: 'arcs', revelation: 'revelations', ambition: 'ambitions' } as const
   const ro = $derived(world.readOnly)
   const relations = $derived(c.relations.filter((r) => r.from === selection.id || r.to === selection.id))
@@ -65,6 +75,7 @@
     {#if ui.history.length}<button class="icon ghost" onclick={back} title="Voltar à selecção anterior">←</button>{/if}
     <span class="kind muted">{selection.kind === 'character' ? KIND_LABELS[character?.kind ?? 'npc'] : KIND_TITLE[selection.kind]}</span>
     {#if ro}<span class="tag book">📖 só o livro</span>{:else if layer === 'campaign'}<span class="tag new" title="Só existe na nossa campanha">✚ nosso</span>{:else if layer === 'modified'}<span class="tag mod" title="Entrada do livro com alterações nossas">▲ alterado</span>{:else}<span class="tag book" title="Tal como no livro">📖 livro</span>{/if}
+    {#if proposta}<span class="tag warnb" title="Material herdado (Remix, Ato 4, Reddit) ainda por decidir">proposta</span>{/if}
     <span class="spacer"></span>
     <button class="icon ghost" onclick={closeSelection} title="Fechar (Esc)">✕</button>
   </div>
@@ -84,15 +95,9 @@
         {#if character.home}<span class="muted small">📍 <EntityChip kind="location" id={character.home} /></span>{/if}
         {#if character.chapters.length}<span class="muted small">caps. {character.chapters.map((x) => x.replace(/^ch/, '')).join(', ')}</span>{/if}
       </div>
-      {#if st}<div class="state"><span class="muted small">Estado agora</span><b>{st}</b></div>{/if}
-      {#if character.kind === 'rival' || att}
-        <label class="field"><span>Atitude para com os PCs</span>
-          <select value={att ?? ''} onchange={(e) => setAttitude(character.id, ((e.target as HTMLSelectElement).value || null) as Attitude | null)}>
-            <option value="">(livro: {character.attitude ?? '—'})</option>
-            {#each ATTITUDES as a, i_ (i_)}<option value={a}>{a}</option>{/each}
-          </select>
-        </label>
-      {/if}
+      {#if st}<div class="state"><span class="muted small">Estado agora</span><b>{st}</b>{#if npcRegisto?.estado && npcRegisto.estado === st}<span class="muted small"> (registo, {npcRegisto.sessaoEstado ?? npcRegisto.sessao})</span>{/if}</div>{/if}
+      {#if att}<div class="state"><span class="muted small">Atitude para com os PCs</span><b>{att}</b>{#if character.attitude && att !== character.attitude}<span class="muted small"> (livro: {character.attitude})</span>{/if}</div>{/if}
+      {#if character.jogador}<p class="muted small">Jogador: {character.jogador}</p>{/if}
       {#if editing}
         <label class="field"><span>Resumo</span><textarea rows="3" bind:value={draft.summary}></textarea></label>
         <label class="field"><span>Objectivo</span><textarea rows="2" bind:value={draft.goal}></textarea></label>
@@ -148,7 +153,9 @@
         {#if beat.timer}<span class="tag warnb">⏱ {beat.timer}</span>{/if}
       </div>
       <div class="actions">
-        <button class:primary={!isPlayed(beat.id)} onclick={() => togglePlayed(beat.id)}>{isPlayed(beat.id) ? '✓ Jogado · desmarcar' : 'Marcar como jogado'}</button>
+        {#if isPlayed(beat.id)}<span class="tag ok" title="jogado em {jogado?.sessoes.join(', ')}">✓ jogado{#if jogado?.sessoes.length} · {jogado.sessoes.join(', ')}{/if}{#if jogado?.escolha} · ⑂ {jogado.escolha}{/if}</span>
+        {:else if isEmCurso(beat.id)}<span class="tag" title="apareceu em {jogado?.sessoes.join(', ')} sempre com continua">… em curso · {jogado?.sessoes.join(', ')}</span>
+        {:else}<span class="muted small">por jogar (marca-se no fecho, em data/registo)</span>{/if}
         {#if ui.view !== 'tempo' || ui.timelineMode !== 'chapter' || ui.chapter !== beat.chapter}<button onclick={() => goToBeat(beat.id)} title="Abrir a linha temporal neste capítulo">⏳ Ver na linha temporal</button>{/if}
       </div>
       <div class="row">{#each beat.arcs as a, i_ (i_)}<EntityChip kind="arc" id={a} />{/each}{#if beat.location}<span class="muted small">📍 <EntityChip kind="location" id={beat.location} /></span>{/if}</div>
@@ -182,7 +189,7 @@
       <p class="muted small">{revelation.list}</p>
       <p class="lead">{revelation.text}</p>
       <div class="actions">
-        <button class:primary={!world.play.revealed.includes(revelation.id)} onclick={() => toggleRevealed(revelation.id)}>{world.play.revealed.includes(revelation.id) ? '✓ Revelada · desmarcar' : 'Marcar como revelada'}</button>
+        {#if world.estado.revelados.has(revelation.id)}<span class="tag ok">✓ dada à mesa em {world.estado.revelados.get(revelation.id)}</span>{:else}<span class="muted small">por revelar (regista-se no fecho)</span>{/if}
       </div>
       {@const met = revelation.clues.filter(isPlayed).length}
       <h3>Pistas · {met}/{revelation.clues.length} jogadas {#if revelation.clues.length < 3}<span class="tag warnb">menos de 3</span>{/if}</h3>
@@ -249,8 +256,12 @@
       </details>
     {/if}
 
-    <h3>Nota do DM</h3>
-    <textarea rows="3" value={note} onchange={(e) => setNote(selection.id, (e.target as HTMLTextAreaElement).value)} placeholder="Notas privadas sobre esta entrada (ficam em state.json)"></textarea>
+    {#if sessoesRef.length || fiosRef.length || decisoesRef.length}
+      <h3>No registo</h3>
+      {#if sessoesRef.length}<div class="row"><span class="muted small">Sessões</span>{#each sessoesRef as s (s.id)}<span class="tag" title={s.titulo}>{s.id}</span>{/each}</div>{/if}
+      {#if fiosRef.length}<ul class="plain">{#each fiosRef as f (f.id)}<li><span class="tag">{world.estado.fios[f.id]?.estado ?? 'aberto'}</span> {f.titulo} <span class="muted tiny">{f.id}</span></li>{/each}</ul>{/if}
+      {#if decisoesRef.length}<ul class="plain">{#each decisoesRef as d (d.id)}<li><span class="muted small">{d.data}{d.tipo ? ` · ${d.tipo}` : ''}{world.estado.decisoes.substituidas.has(d.id) ? ' · substituída' : ''}</span> {d.texto}</li>{/each}</ul>{/if}
+    {/if}
     <p class="muted tiny">id: <code>{selection.id}</code></p>
   </div>
 </div>

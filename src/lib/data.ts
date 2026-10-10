@@ -4,14 +4,16 @@
 // Estrutura:
 //   data/book/{campaign,arcs}.json, data/book/<colecção>/*.json   — o livro (referência, só leitura na app)
 //   data/campaign/{campaign,arcs}.json, data/campaign/<colecção>/*.json — a nossa campanha (patches, acrescentos, remoções)
-//   data/state.json — estado de jogo
-import type { Canon, Collection, PlayState, Problem } from './types.ts'
+//   data/registo/sessoes/s-NN.json, data/registo/decisoes/AAAA-MM.json, data/registo/{fios,itens,relogios}.json — o registo
+//   (o estado de jogo deriva-se dele; a app só o lê — o fecho é quem o escreve)
+import type { Canon, Collection, Problem } from './types.ts'
 import { COLLECTIONS } from './types.ts'
 import { normalizeCanon, type RawCanon } from './validate.ts'
 import { emptyRaw, mergeLayers, type LayerInfo } from './layers.ts'
+import { normalizeRegisto, type Registo, type RegistoFile, type RegistoKind } from './registo.ts'
 
-export type FileKind = Collection | 'campaign' | 'state'
-export type FileLayer = 'book' | 'campaign' | 'state'
+export type FileKind = Collection | 'campaign' | RegistoKind
+export type FileLayer = 'book' | 'campaign' | 'registo'
 
 export interface DataFile {
   /** Caminho relativo à raiz do repo, ex.: data/book/characters/ch1-2.json */
@@ -27,7 +29,8 @@ export interface DataFile {
 const modules = import.meta.glob('/data/**/*.json', { eager: true, import: 'default' }) as Record<string, unknown>
 
 export function parsePath(path: string): { kind: FileKind; layer: FileLayer } | null {
-  if (path === 'data/state.json') return { kind: 'state', layer: 'state' }
+  const reg = path.match(/^data\/registo\/(?:(sessoes)\/[^/]+\.json|(decisoes)\/[^/]+\.json|(fios|itens|relogios)\.json)$/)
+  if (reg) return { kind: reg[1] ? 'sessao' : reg[2] ? 'decisoes' : (reg[3] as RegistoKind), layer: 'registo' }
   const m = path.match(/^data\/(book|campaign)\/(?:([a-z]+)\/[^/]+\.json|([a-z]+)\.json)$/)
   if (!m) return null
   const layer = m[1] as FileLayer
@@ -64,8 +67,7 @@ export function rawOfLayer(files: Record<string, DataFile>, layer: 'book' | 'cam
     const f = files[p]
     if (f.layer !== layer) continue
     if (f.kind === 'campaign') raw.campaign = f.content
-    else if (f.kind === 'state') continue
-    else if (Array.isArray(f.content)) raw[f.kind].push(...f.content)
+    else if (Array.isArray(f.content)) raw[f.kind as Collection].push(...f.content)
   }
   return raw
 }
@@ -81,41 +83,15 @@ export function assemble(files: Record<string, DataFile>, view: 'book' | 'campai
   return { canon, problems, layers }
 }
 
-export function emptyPlay(): PlayState {
-  return {
-    version: 1,
-    playedBeats: [],
-    revealed: [],
-    portentsDone: [],
-    attitudes: {},
-    flags: {},
-    notes: {},
-    sessions: [],
-    currentChapter: null,
-  }
+/** Os ficheiros da camada registo, prontos para normalizeRegisto. */
+export function registoFiles(files: Record<string, DataFile>): RegistoFile[] {
+  return Object.values(files)
+    .filter((f) => f.layer === 'registo')
+    .map((f) => ({ path: f.path, kind: f.kind as RegistoKind, content: f.content }))
 }
 
-export function normalizePlay(raw: unknown): PlayState {
-  const r = (raw && typeof raw === 'object' ? raw : {}) as Partial<PlayState>
-  const strs = (v: unknown) => (Array.isArray(v) ? [...new Set(v.filter((x): x is string => typeof x === 'string'))] : [])
-  const rec = <T>(v: unknown): Record<string, T> => (v && typeof v === 'object' && !Array.isArray(v) ? (v as Record<string, T>) : {})
-  return {
-    version: 1,
-    playedBeats: strs(r.playedBeats),
-    revealed: strs(r.revealed),
-    portentsDone: strs(r.portentsDone),
-    attitudes: rec(r.attitudes),
-    flags: rec(r.flags),
-    notes: rec(r.notes),
-    sessions: (Array.isArray(r.sessions) ? r.sessions : []).map((s) => ({
-      id: String((s as { id?: string }).id ?? Math.random().toString(36).slice(2, 10)),
-      date: String((s as { date?: string }).date ?? ''),
-      title: String((s as { title?: string }).title ?? ''),
-      beats: strs((s as { beats?: unknown }).beats),
-      notes: String((s as { notes?: string }).notes ?? ''),
-    })),
-    currentChapter: typeof r.currentChapter === 'string' ? r.currentChapter : null,
-  }
+export function assembleRegisto(files: Record<string, DataFile>): { registo: Registo; problems: Problem[] } {
+  return normalizeRegisto(registoFiles(files))
 }
 
 export function stableJson(value: unknown): string {
