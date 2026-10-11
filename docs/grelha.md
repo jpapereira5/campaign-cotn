@@ -1,5 +1,7 @@
 # Grelha: especificação
 
+> **Nota (2026-10-11):** a base de dados desta especificação (`data/grid/rows.json`, `facts.json`, as ids `g-` e `e-`, as fases 1 a 4) foi substituída por [`docs/arquitetura.md`](arquitetura.md): as linhas passam a ser as próprias entidades e os factos passam a ser os acontecimentos de cada sessão, em `registo/`. Continuam válidas as secções sobre a linha dona (7), os ecos (7), os estados e as contagens (8), a camada do DM (9), a revisão (10), a vista (11) e o Claude (12). **Não implementar as fases desta especificação; seguir as fases de `arquitetura.md`.**
+
 Decidido pelo DM a 2026-10-11. Implementar no Claude Code, uma fase de cada vez (secção 14), mostrando o resultado ao DM no fim de cada fase. O conteúdo do mockup feito no claude.ai está em `docs/grelha-semente.json` e é a semente da fase 1.
 
 ## 1. Para que serve
