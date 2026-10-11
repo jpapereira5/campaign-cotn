@@ -7,6 +7,7 @@
   import { KIND_COLORS, FACTION_NODE_COLOR } from '../lib/colors'
   import type { TipoPersonagem } from '../lib/grafo'
   import type { Pasta } from '../lib/ficha'
+  import Icone from './Icone.svelte'
 
   let q = $state('')
   let active = $state(0)
@@ -61,7 +62,7 @@
 <div class="backdrop" role="presentation" onclick={() => (ui.searchOpen = false)}>
   <div class="palette" role="dialog" tabindex="-1" aria-label="Pesquisar" onclick={(e) => e.stopPropagation()} onkeydown={onKey}>
     <div class="inp">
-      <span>🔍</span>
+      <span class="lupa"><Icone nome="pesquisa" /></span>
       <input bind:this={input} type="text" placeholder="Personagem, fação, local, item, segredo, beat, fio, sessão…" bind:value={q} />
       <kbd>Esc</kbd>
     </div>
@@ -90,7 +91,7 @@
   .backdrop {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(11, 31, 41, 0.45);
     z-index: 50;
     display: flex;
     justify-content: center;
@@ -121,6 +122,14 @@
     border: 0;
     font-size: 1.05rem;
     padding: 0.2rem;
+    min-height: 0;
+  }
+  .inp input:focus {
+    box-shadow: none;
+  }
+  .lupa {
+    display: inline-flex;
+    color: var(--muted);
   }
   .results {
     overflow: auto;
@@ -131,12 +140,13 @@
     margin: 0;
   }
   .group-title {
-    font-size: 0.72rem;
+    font-family: var(--font-cond);
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--muted-2);
+    color: var(--muted);
     padding: 0.5rem 0.6rem 0.2rem;
-    font-weight: 600;
+    font-weight: 700;
   }
   .hit {
     display: flex;
@@ -151,6 +161,7 @@
   .hit.active {
     background: var(--accent-soft);
     border-color: transparent;
+    color: var(--accent-deep);
   }
   .dot {
     width: 0.65em;

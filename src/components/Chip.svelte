@@ -24,7 +24,7 @@
   const texto = $derived(label ?? world.indice.nome(id))
 </script>
 
-<button class="chip" class:jogado onclick={(e) => { e.stopPropagation(); abrirFicha(id) }} title="{doc ? tipoDe(doc) : id}: {texto}{jogado ? ' · jogado' : ''}">
+<button class="ent" class:jogado onclick={(e) => { e.stopPropagation(); abrirFicha(id) }} title="{doc ? tipoDe(doc) : id}: {texto}{jogado ? ' · jogado' : ''}">
   <span class="dot" style:background={cor}></span><span class="t">{texto}</span>
 </button>
 
@@ -34,7 +34,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .chip.jogado {
+  .ent.jogado {
     opacity: 0.7;
     text-decoration: line-through;
   }

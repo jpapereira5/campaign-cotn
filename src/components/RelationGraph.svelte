@@ -264,7 +264,7 @@
     <label class="toggle" class:on={ui.filtros.ego} title={selectedId ? 'Mostrar só a personagem escolhida e quem se liga a ela' : 'Escolhe primeiro uma personagem (um clique num nó)'}>
       <input type="checkbox" bind:checked={ui.filtros.ego} disabled={!selectedId} />◎ só vizinhos
     </label>
-    {#if selectedId}<button class="chip" onclick={() => abrirFicha(selectedId!)} title="Abrir a ficha">{nomeFoco} →</button>{/if}
+    {#if selectedId}<button class="chip small" onclick={() => abrirFicha(selectedId!)} title="Abrir a ficha">{nomeFoco} →</button>{/if}
     <span class="spacer"></span>
     <span class="muted small">{drawn.nodes.length} nós · {drawn.links.length} ligações</span>
     <button class="icon ghost" onclick={resetView} title="Repor zoom">⤢</button>
@@ -288,18 +288,18 @@
             <title>{world.indice.nome(d.l.aresta.de)} {rotulo(d.l.aresta.relacao.tipo)} {world.indice.nome(d.l.aresta.com)}{d.l.aresta.relacao.nota ? `: ${d.l.aresta.relacao.nota}` : ''}{registo ? ' (do registo)' : ''}</title>
           </path>
           {#if f}
-            <text x={(d.x1 + d.x2) / 2} y={(d.y1 + d.y2) / 2 - 4} font-size="10" fill={st.color} text-anchor="middle" paint-order="stroke" stroke="#15120f" stroke-width="3">{d.l.aresta.relacao.nota || rotulo(d.l.aresta.relacao.tipo)}</text>
+            <text x={(d.x1 + d.x2) / 2} y={(d.y1 + d.y2) / 2 - 4} font-size="10" font-family="IBM Plex Sans Condensed, sans-serif" font-weight="600" fill={st.color} text-anchor="middle" paint-order="stroke" stroke="#ffffff" stroke-width="3">{d.l.aresta.relacao.nota || rotulo(d.l.aresta.relacao.tipo)}</text>
           {/if}
         {/each}
         {#each drawn.nodes as d (d.n.id)}
           {@const dim = focus && focus !== d.n.id && !links.some((l) => (l.aresta.de === focus && l.aresta.com === d.n.id) || (l.aresta.com === focus && l.aresta.de === d.n.id))}
           <g transform="translate({d.x},{d.y})" class="node" opacity={dim ? 0.25 : 1} onpointerdown={(e) => onNodeDown(d.n, e)} onpointerenter={() => (hover = d.n.id)} onpointerleave={() => (hover = null)} role="button" tabindex="-1">
             {#if d.n.tipo === 'facao'}
-              <rect x={-d.n.raio} y={-d.n.raio} width={d.n.raio * 2} height={d.n.raio * 2} rx="4" fill={d.n.cor} stroke={selectedId === d.n.id ? '#fff' : '#15120f'} stroke-width="1.5" />
+              <rect x={-d.n.raio} y={-d.n.raio} width={d.n.raio * 2} height={d.n.raio * 2} rx="4" fill={d.n.cor} stroke={selectedId === d.n.id ? '#0b1f29' : '#ffffff'} stroke-width={selectedId === d.n.id ? 3 : 1.5} />
             {:else}
-              <circle r={d.n.raio} fill={d.n.cor} stroke={selectedId === d.n.id ? '#fff' : d.n.anel ?? '#15120f'} stroke-width={d.n.anel ? 2.5 : 1.5} />
+              <circle r={d.n.raio} fill={d.n.cor} stroke={selectedId === d.n.id ? '#0b1f29' : d.n.anel ?? '#ffffff'} stroke-width={selectedId === d.n.id ? 3 : d.n.anel ? 2.5 : 1.5} />
             {/if}
-            <text y={d.n.raio + 11} font-size={d.n.tipo === 'pc' || d.n.tipo === 'facao' ? 12 : 10} text-anchor="middle" fill="#ece3d4" paint-order="stroke" stroke="#15120f" stroke-width="3">{d.n.nome}</text>
+            <text y={d.n.raio + 11} font-size={d.n.tipo === 'pc' || d.n.tipo === 'facao' ? 12 : 10} font-family="Atkinson Hyperlegible, sans-serif" font-weight={d.n.tipo === 'pc' || d.n.tipo === 'facao' ? 700 : 400} text-anchor="middle" fill="#0b1f29" paint-order="stroke" stroke="#edf1f2" stroke-width="3">{d.n.nome}</text>
           </g>
         {/each}
       </g>
@@ -330,7 +330,10 @@
     height: 100%;
   }
   .toolbar input[type='search'] {
-    width: 170px;
+    width: 190px;
+  }
+  .toolbar select {
+    max-width: 280px;
   }
   .popwrap {
     position: relative;
@@ -342,7 +345,7 @@
     z-index: 10;
     background: var(--bg-2);
     border: 1px solid var(--line-2);
-    border-radius: var(--radius);
+    border-radius: var(--radius-s);
     box-shadow: var(--shadow);
     padding: 0.7rem 0.9rem;
     width: min(360px, 90vw);
@@ -353,11 +356,12 @@
     margin-bottom: 0.7rem;
   }
   .pop-title {
-    font-size: 0.72rem;
+    font-family: var(--font-cond);
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--muted-2);
-    font-weight: 600;
+    color: var(--muted);
+    font-weight: 700;
     margin-bottom: 0.25rem;
   }
   .pop label {
@@ -376,7 +380,10 @@
     flex: 1;
     position: relative;
     overflow: hidden;
-    background: var(--bg);
+    margin: 0 1.4rem 1rem;
+    border: 1px solid var(--line-2);
+    border-radius: var(--radius);
+    background: var(--bg-2);
   }
   svg {
     display: block;
@@ -401,7 +408,7 @@
     gap: 0.2rem;
     font-size: 0.78em;
     color: var(--text);
-    background: rgba(31, 26, 21, 0.94);
+    background: rgba(255, 255, 255, 0.96);
     border: 1px solid var(--line);
     padding: 0.5rem 0.7rem;
     border-radius: var(--radius-s);
@@ -409,11 +416,12 @@
     overflow: auto;
   }
   .legend-title {
-    font-size: 0.72rem;
+    font-family: var(--font-cond);
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--muted-2);
-    font-weight: 600;
+    color: var(--muted);
+    font-weight: 700;
     margin-top: 0.3rem;
   }
   .legend span {
@@ -442,9 +450,15 @@
   .empty-overlay .empty {
     max-width: 420px;
     background: var(--bg-2);
+    pointer-events: auto;
   }
   button.small {
     font-size: 0.86em;
-    padding: 0.25rem 0.6rem;
+    padding: 0.3rem 0.7rem;
+  }
+  .toolbar > button:not(.icon):not(.small) {
+    min-height: 44px;
+    border-radius: 999px;
+    padding: 0 14px;
   }
 </style>

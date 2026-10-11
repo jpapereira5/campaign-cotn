@@ -101,11 +101,11 @@
 
   {#if tab === 'proxima'}
     <div class="tiles">
-      <button class="tile" onclick={() => setView('grelha')} title="Ver na Grelha"><b class="aberto">{totais.abertos}</b><span>Abertos</span></button>
-      <button class="tile" onclick={() => setView('grelha')} title="Abertos há 3 ou mais sessões, sem plano"><b class="esquecido">{totais.esquecidos}</b><span>Esquecidos</span></button>
-      <button class="tile" onclick={() => setView('grelha')} title="Planos preparados para a próxima sessão"><b class="planeado">{totais.planeados}</b><span>Planeado para a S{mesa.proximaN}</span></button>
-      <button class="tile" onclick={() => setView('grelha')} title="Planos por preparar e PCs sem cena"><b class="falta">{totais.faltas}</b><span>Falta preparar</span></button>
-      <button class="tile" onclick={() => setView('grelha')} title="Perguntas do Claude por responder"><b>{totais.porResponder}</b><span>Por responder</span></button>
+      <button class="tile" onclick={() => setView('grelha')} title="Ver na Grelha"><b>{totais.abertos}</b><span><span class="mk mk-aberto"></span>Abertos</span></button>
+      <button class="tile" class:alarme={totais.esquecidos > 0} onclick={() => setView('grelha')} title="Abertos há 3 ou mais sessões, sem plano"><b>{totais.esquecidos}</b><span><span class="mk mk-esquecido"></span>Esquecidos</span></button>
+      <button class="tile" onclick={() => setView('grelha')} title="Planos preparados para a próxima sessão"><b>{totais.planeados}</b><span><span class="mk mk-planeado"></span>Planeado para a S{mesa.proximaN}</span></button>
+      <button class="tile" onclick={() => setView('grelha')} title="Planos por preparar e PCs sem cena"><b>{totais.faltas}</b><span><span class="mk mk-falta"></span>Falta preparar</span></button>
+      <button class="tile" onclick={() => setView('grelha')} title="Perguntas do Claude por responder"><b>{totais.porResponder}</b><span><span class="mk mk-ideia"></span>Por responder</span></button>
     </div>
 
     <h3 class="section-title">O plano da S{mesa.proximaN} <span class="muted">· o que está na coluna da próxima sessão, linha a linha</span></h3>
@@ -121,8 +121,8 @@
             <ul class="plain itens">
               {#each p.itens as it, i_ (i_)}
                 <li class="it {it.estatuto ?? ''} {it.tipo}">
-                  <span class="mk" title={it.estatuto ?? it.tipo}></span>
-                  {#if ROTULO[it.tipo]}<span class="tag">{ROTULO[it.tipo]}</span>{/if}
+                  <span class="mk mk-{it.estatuto ?? (it.tipo === 'ideia' ? 'ideia' : 'registo')}" title={it.estatuto ?? it.tipo}></span>
+                  {#if ROTULO[it.tipo]}<span class="tag soft">{ROTULO[it.tipo]}</span>{/if}
                   <span>{it.texto}</span>
                   {#if it.refs?.length}<span class="refs">{#each it.refs as r (r)}<a href="#/ficha/{r}">{indice.nome(r)}</a>{/each}</span>{/if}
                 </li>
@@ -148,7 +148,7 @@
           {@const id = String(b.meta.id)}
           <div class="pend" class:curso={estadoBeat(id) === 'em-curso'}>
             <Chip {id} />
-            {#if estadoBeat(id) === 'em-curso'}<span class="tag">em curso</span>{:else if b.meta.estado === 'proposta'}<span class="tag">proposta</span>{/if}
+            {#if estadoBeat(id) === 'em-curso'}<span class="tag estado">em curso</span>{:else if b.meta.estado === 'proposta'}<span class="tag soft">proposta</span>{/if}
             <button class="icon ghost" title={semToken ? 'Marcar jogado à mesa (sem token fica só neste browser)' : 'Marcar jogado à mesa: fica na tua camada até ao fecho'} onclick={() => marcarJogado(id)}>✓</button>
           </div>
         {/each}
@@ -201,7 +201,7 @@
           <div class="row nowrap">
             <span class="muted small date">{hora(n.at)}</span>
             {#if n.row}<Chip id={n.row} />{/if}
-            {#if n.col}<span class="tag">{n.col}</span>{/if}
+            {#if n.col}<span class="tag soft">{n.col}</span>{/if}
             <span class="spacer"></span>
             {#if ui.view === 'sessao'}<button class="icon ghost danger" onclick={() => confirm('Apagar a nota?') && apagar(n.id, `grelha: apagar nota ${n.id}`)} title="apagar">✕</button>{/if}
           </div>
@@ -246,94 +246,66 @@
     flex-wrap: wrap;
   }
   .tabs {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
   }
   .tiles {
     display: flex;
-    gap: 0.5rem;
+    gap: 10px;
     flex-wrap: wrap;
     margin-bottom: 0.5rem;
   }
-  .tile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.1rem;
-    min-width: 110px;
-    padding: 0.45rem 0.7rem;
-    background: var(--bg-2);
-    border: 1px solid var(--line);
-    border-radius: var(--radius-s);
-    text-align: left;
-  }
-  .tile b {
-    font-size: 1.3rem;
-    line-height: 1.1;
-  }
-  .tile span {
-    font-size: 0.74rem;
-    color: var(--muted);
-  }
-  .aberto { color: #D98208; }
-  .esquecido { color: #C4320A; }
-  .planeado { color: #2B62D9; }
-  .falta { color: var(--muted-2); }
   .planos {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
   .linha {
-    padding: 0.6rem 0.8rem;
+    padding: 0.7rem 0.9rem;
   }
   .itens {
     margin: 0.4rem 0 0;
+    padding: 0;
+    list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.35rem;
   }
   .it {
     display: flex;
-    gap: 0.4rem;
+    gap: 7px;
     align-items: baseline;
-    font-size: 0.9em;
+    font-size: 12.5px;
+    line-height: 1.38;
   }
-  .mk {
-    flex: none;
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: var(--muted-2);
+  .it .mk {
     position: relative;
     top: 1px;
   }
-  .it.planeado .mk { background: #2B62D9; transform: rotate(45deg); border-radius: 1px; }
-  .it.falta .mk { background: transparent; border: 1px dashed var(--muted-2); }
-  .it.aberto .mk { background: #D98208; }
-  .it.esquecido .mk { background: #C4320A; }
-  .it.pista .mk { background: #7B4DC2; }
-  .it.ideia .mk { background: transparent; border: 1px dashed #2B62D9; }
+  .it.ideia {
+    color: var(--muted);
+  }
   .refs a {
     margin-left: 0.3rem;
     font-size: 0.85em;
   }
   .warnline {
-    margin: 0.3rem 0 0;
-    color: var(--warn);
+    margin: 0.4rem 0 0;
+    color: var(--warn-ink);
   }
   .warnline.esq {
-    color: #e0795c;
+    color: var(--danger);
   }
   .pending {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.3rem 0.5rem;
+    gap: 6px 10px;
   }
   .pend {
     display: inline-flex;
     align-items: center;
-    gap: 0.1rem;
+    gap: 2px;
   }
   .pend.curso {
-    outline: 1px dashed var(--line-2);
+    outline: 1.5px dashed var(--accent-strong);
+    outline-offset: 2px;
     border-radius: 999px;
   }
   .lanes {
@@ -341,29 +313,35 @@
   }
   .lane {
     border-left: 4px solid;
-    padding: 0.65rem 0.85rem;
+    padding: 0.7rem 0.9rem;
   }
   .lane .top,
   .linha .top {
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.25rem;
   }
   .nextb {
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
-    gap: 0.2rem;
+    gap: 0.25rem;
   }
   .sessions {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    margin-top: 0.6rem;
+    gap: 0.6rem;
+    margin-top: 0.7rem;
   }
   .sess {
-    padding: 0.6rem 0.85rem;
+    padding: 0.7rem 0.9rem;
   }
   .date {
     min-width: 5.5rem;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+  }
+  .ttl {
+    font-family: var(--font-cond);
+    font-size: 15px;
   }
   .notes {
     margin: 0.3rem 0 0;

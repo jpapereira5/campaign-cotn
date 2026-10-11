@@ -89,7 +89,7 @@
         {#if ef?.estado}<span class="tag estado">{ef.estado.valor} <small>{rotuloMarca(ef.estado.marca)}</small></span>{/if}
         {#if ef?.relogio}<span class="tag estado">relógio {ef.relogio.valor}{meta.passos && typeof meta.passos === 'number' ? ` / ${meta.passos}` : ''} <small>{rotuloMarca(ef.relogio.marca)}</small></span>{/if}
         {#if eb}<span class="tag estado">{ESTADO_BEAT[eb.estado] ?? eb.estado} <small>{rotuloMarca(eb.marca)}</small></span>{:else if pasta === 'beats'}<span class="tag" title={meta.estado === 'proposta' ? 'Ainda só uma proposta: entra no cânone quando se jogar ou quando o DM decidir' : ''}>{meta.estado === 'proposta' ? 'proposta' : 'por jogar'}</span>{/if}
-        {#each lista(meta.origem) as o, i_ (i_)}<span class="tag book" title="de onde veio">{o}</span>{/each}
+        {#each lista(meta.origem) as o, i_ (i_)}<span class="tag soft" title="de onde veio">{o}</span>{/each}
       </div>
     </header>
 
@@ -184,7 +184,7 @@
             {#each sessao.acontecimentos as ac (ac.id)}
               {@const d = dona(ac.tipo, ac.envolve)}
               <div class="ac">
-                <div class="row nowrap small"><span class="mono muted">{ac.id}</span><span class="tag">{ac.tipo}</span>{#if d}<a href="#/ficha/{d}">{nome(d)}</a>{/if}{#each ac.tags ?? [] as t, i_ (i_)}<span class="tag warnb">{t}</span>{/each}</div>
+                <div class="row nowrap small"><span class="mono muted">{ac.id}</span><span class="tag soft">{ac.tipo}</span>{#if d}<a href="#/ficha/{d}">{nome(d)}</a>{/if}{#each ac.tags ?? [] as t, i_ (i_)}<span class="tag warnb">{t}</span>{/each}</div>
                 <div>{ac.texto}</div>
                 {#if ac.efeitos?.length}<div class="small muted">{ac.efeitos.map((e) => efeitoLegivel(e, nome)).join(' · ')}</div>{/if}
                 {#if ac.origem?.length}<div class="small muted">← {ac.origem.join(', ')}</div>{/if}
@@ -200,7 +200,7 @@
               {#each lista_ as h (h.ac.id)}
                 {@const d = dona(h.ac.tipo, h.ac.envolve)}
                 <div class="ac">
-                  <div class="row nowrap small"><span class="tag">{h.ac.tipo}</span>{#if d && d !== id}<span class="muted">↳ <a href="#/ficha/{d}">{nome(d)}</a></span>{/if}{#each h.ac.tags ?? [] as t, i_ (i_)}<span class="tag warnb">{t}</span>{/each}{#if h.ac.fechado}<span class="tag">fecha</span>{/if}</div>
+                  <div class="row nowrap small"><span class="tag soft">{h.ac.tipo}</span>{#if d && d !== id}<span class="muted">↳ <a href="#/ficha/{d}">{nome(d)}</a></span>{/if}{#each h.ac.tags ?? [] as t, i_ (i_)}<span class="tag warnb">{t}</span>{/each}{#if h.ac.fechado}<span class="tag">fecha</span>{/if}</div>
                   <div>{h.ac.texto}</div>
                   {#if h.ac.efeitos?.length}<div class="small muted">{h.ac.efeitos.map((e) => efeitoLegivel(e, nome)).join(' · ')}</div>{/if}
                 </div>
@@ -251,16 +251,21 @@
     max-width: 1280px;
   }
   .cabeca h2 {
-    margin: 0.2rem 0 0.4rem;
+    margin: 0.2rem 0 0.5rem;
+    font-size: 26px;
+    line-height: 1.1;
   }
   .cabeca .kind {
+    font-family: var(--font-cond);
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    color: var(--accent);
   }
   .mono {
-    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-    font-size: 0.78rem;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
   }
   .pills {
     margin-bottom: 0.8rem;
@@ -269,17 +274,17 @@
     opacity: 0.7;
     margin-left: 0.3em;
   }
-  .tag.estado {
-    background: var(--accent-soft);
-    color: var(--accent);
-  }
   .tag.att.hostil {
-    background: var(--danger-soft);
-    color: var(--danger);
+    background: #fde0d9;
+    color: #962a0b;
   }
   .tag.att.amigavel {
-    background: var(--ok-soft);
-    color: var(--ok);
+    background: #ddf1ec;
+    color: #0b5a4a;
+  }
+  .tag.att.desconfiado {
+    background: #ffedcc;
+    color: var(--warn-ink);
   }
   .colunas {
     display: grid;
@@ -298,7 +303,12 @@
   }
   dt {
     color: var(--muted);
-    font-size: 0.85rem;
+    font-family: var(--font-cond);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-top: 2px;
   }
   dd {
     margin: 0;
@@ -324,6 +334,17 @@
     padding: 0.3rem 0.5rem;
     vertical-align: top;
   }
+  .md :global(th) {
+    background: var(--bg-1);
+    font-family: var(--font-cond);
+    font-weight: 600;
+  }
+  .md :global(blockquote) {
+    margin: 0.5rem 0;
+    padding: 0.2rem 0.9rem;
+    border-left: 3px solid var(--line-2);
+    color: var(--muted);
+  }
   .md :global(ul),
   .md :global(ol) {
     padding-left: 1.3rem;
@@ -334,8 +355,10 @@
   }
   .sess {
     color: var(--accent);
-    font-size: 0.85rem;
-    margin: 0.6rem 0 0.2rem;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0.7rem 0 0.25rem;
   }
   .ac {
     padding: 0.35rem 0 0.35rem 0.6rem;
@@ -343,11 +366,12 @@
     margin-bottom: 0.3rem;
   }
   a {
-    color: var(--text);
-    text-decoration: underline dotted var(--muted-2);
+    color: var(--accent);
+    text-decoration: underline dotted var(--line-3);
+    text-underline-offset: 2px;
   }
   a:hover {
-    color: var(--accent);
+    color: var(--accent-deep);
   }
   @media (max-width: 900px) {
     .colunas {
