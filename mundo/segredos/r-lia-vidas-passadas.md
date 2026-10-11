@@ -1,5 +1,6 @@
 ---
 id: r-lia-vidas-passadas
+nome: As vidas passadas da Lia
 lista: Segredos dos PCs
 pistas: []
 legenda: três sonhos por sítio; o deus dela é o Luxon

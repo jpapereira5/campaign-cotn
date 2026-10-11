@@ -1,12 +1,11 @@
-// Monta os dados para a app a partir da estrutura nova: node scripts/montar.ts [--warn]
-// Escreve src/generated/antigo.json (os ficheiros que a app de hoje conhece, pelo adaptador) e
-// src/generated/dados.json (a estrutura nova, já lida). Valida como o validate-data.ts validava.
+// Monta o pacote de dados para a app a partir da estrutura nova: node scripts/montar.ts [--warn]
+// Escreve src/generated/dados.json (os documentos já lidos, o livro e a grelha); a app monta daí, em runtime,
+// o cânone na forma antiga (adaptador) e o estado calculado. Valida como o validate-data.ts validava, e mais.
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import { lerArvore } from './lib/arvore.ts'
-import { adaptarParaAntigo } from './lib/adaptador.ts'
+import { adaptarParaAntigo } from '../src/lib/arquivo/adaptador.ts'
 import { canonDeFicheiros } from './lib/antigo.ts'
-import { secoes } from './lib/md.ts'
 import { validarArvore } from './lib/validar-arvore.ts'
 
 const raiz = resolve(import.meta.dirname, '..')
@@ -21,14 +20,9 @@ const warns = todos.filter((p) => p.level === 'warn')
 for (const p of errors) console.error(`✖ ${p.where}: ${p.message}`)
 if (process.argv.includes('--warn') || process.argv.includes('-w')) for (const p of warns) console.warn(`⚠ ${p.where}: ${p.message}`)
 
-const dados = {
-  geradoEm: new Date().toISOString(),
-  docs: arvore.docs.map((d) => ({ caminho: d.caminho, meta: d.meta, corpo: secoes(d.body) })),
-  grelha: arvore.grelha,
-}
+const dados = { geradoEm: new Date().toISOString(), docs: arvore.docs, livro: arvore.livro, grelha: arvore.grelha }
 const dir = join(raiz, 'src/generated')
 mkdirSync(dir, { recursive: true })
-writeFileSync(join(dir, 'antigo.json'), JSON.stringify(ficheiros) + '\n')
 writeFileSync(join(dir, 'dados.json'), JSON.stringify(dados) + '\n')
 
 const changed = [...layers.entities.values()].filter((l) => l === 'modified').length

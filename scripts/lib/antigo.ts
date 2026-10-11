@@ -5,7 +5,7 @@ import { join, relative } from 'node:path'
 import { normalizeCanon, type RawCanon } from '../../src/lib/validate.ts'
 import { COLLECTIONS, type Canon, type PlayState } from '../../src/lib/types.ts'
 import { emptyRaw, mergeLayers, type LayerInfo } from '../../src/lib/layers.ts'
-import { LIVRO } from './esquema.ts'
+import { LIVRO } from '../../src/lib/arquivo/esquema.ts'
 
 export interface Antigo {
   raiz: string

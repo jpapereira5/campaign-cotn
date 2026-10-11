@@ -7,8 +7,8 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative, resolve } from 'node:path'
 import { lerAntigo, canonDeFicheiros } from './lib/antigo.ts'
 import { lerArvore } from './lib/arvore.ts'
-import { adaptarParaAntigo } from './lib/adaptador.ts'
-import { secoesNivel } from './lib/md.ts'
+import { adaptarParaAntigo } from '../src/lib/arquivo/adaptador.ts'
+import { secoesNivel } from '../src/lib/arquivo/md.ts'
 import { COLLECTIONS } from '../src/lib/types.ts'
 
 const raiz = resolve(import.meta.dirname, '..')

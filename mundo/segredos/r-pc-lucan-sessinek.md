@@ -4,6 +4,7 @@ lista: Segredos dos PCs
 pistas:
   - b-0-boneyard-altar
 sabe: o DM
+nome: A corte é de Sess'inek
 origem:
   - pcs
 ---

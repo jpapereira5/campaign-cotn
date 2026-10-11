@@ -3,7 +3,7 @@
 import type { Problem } from '../../src/lib/types.ts'
 import { donaDe, TIPOS_ACONTECIMENTO, tipoLinhaDe } from '../../src/lib/grelha/dona.ts'
 import { porPasta, type Arvore, type DocArvore } from './arvore.ts'
-import { PASTAS } from './esquema.ts'
+import { PASTAS } from '../../src/lib/arquivo/esquema.ts'
 
 const ID_RE = /^[a-z0-9][a-z0-9-]*$/
 const TIPOS_FIO = ['arco', 'ambicao', 'frente', 'relogio', 'missao', 'promessa', 'decisao', 'gatilho', 'semente', 'desfecho', 'laco', 'agenda', 'teoria', 'mesa']

@@ -1,5 +1,6 @@
 ---
 id: r-prisioneira-lia
+nome: Quem é a prisioneira
 lista: Segredos dos PCs
 pistas: []
 sabe: a Lia

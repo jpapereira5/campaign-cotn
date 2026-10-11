@@ -225,7 +225,7 @@ Mundo: Noite do dia 2 → meio-dia do dia 4 · nível 3 · beats: b-0-patrulha-i
 - **e-s5-06** · estado · Morgid · [so-dm]: Segue o grupo à distância.
   - efeitos: Morgid: vivo (a seguir o grupo à distância)
 - **e-s5-07** · registo · Alberto Pé-Leve, «Gnomis» (o gnomo do tambor) (+ Livro de registos do escriba, Damião Prestes, escriba aprendiz do Padre Perestrelo): No livro do escriba, como líder do grupo.
-- **e-s5-08** · registo · Sargento Vasco Corvelo (+ B7 Brokenveil Bluffs, Lia): Único sobrevivente de um pelotão emboscado nas falésias; manda amarrar a Lia a sério.
+- **e-s5-08** · registo · Sargento Vasco Corvelo (+ B7 Falésias do Véu-Quebrado, Lia): Único sobrevivente de um pelotão emboscado nas falésias; manda amarrar a Lia a sério.
   - nasce de: e-s5-36
 - **e-s5-09** · consequencia · Batedora Rosinda Sousela, «Lampreia»: Desaparece a noite inteira do dia 3 e volta enlameada, sem explicação.
 - **e-s5-10** · consequencia · Recruta Elmiro Trigueiro (+ Lia, O soldado doente da jangada, Sargento Vasco Corvelo): Vê a Lia curar o Alex e conta ao sargento. Já sabe o que o grupo vale.
@@ -259,7 +259,7 @@ Mundo: Noite do dia 2 → meio-dia do dia 4 · nível 3 · beats: b-0-patrulha-i
   - nasce de: e-s5-36
 - **e-s5-25** · consequencia · B6 Ritual Stone: À vista, num espelho de água: as rãs coaxam mais grave e a lama demora a fechar.
 - **e-s5-26** · registo · Forte Ventura: Os trovões vêm sempre do lado do forte, a oeste.
-- **e-s5-27** · consequencia · B7 Brokenveil Bluffs (+ Sargento Vasco Corvelo, Lia): Onde «mãos invisíveis» emboscaram o pelotão do Corvelo, e onde a Lia esperou que a apanhassem.
+- **e-s5-27** · consequencia · B7 Falésias do Véu-Quebrado (+ Sargento Vasco Corvelo, Lia): Onde «mãos invisíveis» emboscaram o pelotão do Corvelo, e onde a Lia esperou que a apanhassem.
 - **e-s5-28** · estado · Adaga drow +1 (+ Lucan "Anzol" Bruma) · [fecha]: Agora ao cinto do Lucan.
   - efeitos: Adaga drow +1 com Lucan "Anzol" Bruma
   - nasce de: e-s3-17

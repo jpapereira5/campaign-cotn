@@ -318,6 +318,16 @@ Feito no ramo `fase-a`, por aprovar pelo DM. O que ficou decidido ao implementar
 - **Os portentos** das fações passaram a fios `frente` (`t-frente-<fação>.md`), com um passo por capítulo (`passos`).
 - **Marcadores ✚ e ▲:** 29 entidades criadas pela campanha e corrigidas por um segundo ficheiro de patches levavam ▲ («alterado face ao livro») sem estarem no livro; passam a ✚. É a única diferença que a verificação aceita.
 - **O normalizador** (`scripts/normalizar-texto.py`) passa pelo corpo dos ficheiros novos e deixa o cabeçalho (ids, tags, campos curtos) como está; salta as entidades com `livro` em `origem`, `livro/` e `grelha/`.
-- **A app** lê `src/generated/antigo.json` (gerado por `scripts/montar.ts` no `dev`, `build` e `check`, ignorado pelo git) e deixou de ler e escrever `data/` ao vivo. A edição está desligada até à fase D; o token fica guardado nas Definições.
+- **A app** lê `src/generated/dados.json` (a árvore já lida, gerada por `scripts/montar.ts` no `dev`, `build` e `check`, ignorada pelo git), monta daí em runtime o cânone na forma antiga (adaptador) e deixou de ler e escrever `data/` ao vivo. A edição está desligada até à fase D; o token fica guardado nas Definições.
 - **Scripts:** `npm run migrar` (refaz a estrutura nova a partir de `data/` e `docs/`), `npm run verificar` (compara com o antigo), `npm run validate` (monta e valida), `npm test`. Os antigos `data/` e `docs/` ficam intactos até à fase E.
-- **Por fazer, de propósito e não por acidente:** os hubs dos capítulos continuam em inglês em `plano/campanha.md` («Jigow», «Estrada de Xhorhas»); a correção é uma decisão de cânone à parte.
+- **Por fazer, de propósito e não por acidente:** os hubs dos capítulos continuam em inglês em `plano/campanha.md`, tal como no livro; a correção é uma decisão de cânone à parte.
+
+## 14. Estado da fase B (2026-10-11)
+
+Feito no ramo `fase-b`. O que ficou:
+
+- **`src/lib/estado.ts`** calcula o estado a partir do registo, sessão a sessão, só com as sessões jogadas (data até hoje) e a sessão zero: estado e onde está, atitude, relações do registo, contadores e cenas pessoais de cada personagem; quem tem cada item; quem sabe cada segredo (e se a mesa sabe fora de jogo), pistas dadas; relógios e estados dos fios; o estado de cada beat; a mesa (última sessão, próxima, nível, dia no mundo, presenças). Cada valor traz a marca de onde veio (sessão e acontecimento).
+- **A Ficha** (`#/ficha/<id>`, `src/components/Ficha.svelte`) é uma página por coisa, para qualquer documento com id, sessões incluídas: cabeçalho com o tipo e as pílulas do estado atual; «Agora», com os campos e o estado por tipo; o texto do ficheiro em Markdown, com `[[id]]` e ids soltos a apontar para fichas; «História», os acontecimentos em que entra, por sessão, com a dona e os efeitos; «Plano», os beats à frente que a envolvem, por capítulo; «Relações», as do cabeçalho e as que chegam; «Menções», os outros ficheiros que a referem. Abre-se pelo botão «Ficha →» do painel de detalhe e por qualquer ligação.
+- **Nomes:** os segredos que vieram do mockup têm `nome` (a linha da Grelha); os do livro mostram a verdade encurtada.
+- **Bibliotecas:** `md`, `esquema`, `adaptador` e o modelo da árvore passaram para `src/lib/arquivo/`, para a app e os scripts usarem o mesmo código. O pacote do build é só `dados.json`.
+- **Por fazer:** a Ficha ainda não substitui o painel de detalhe (fase E) e não edita nada (fase D).

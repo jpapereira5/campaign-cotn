@@ -1,7 +1,7 @@
 // Esquema da estrutura nova (docs/arquitetura.md): um ficheiro Markdown por coisa.
 // Converte entre o modelo antigo (src/lib/types.ts) e os documentos novos, nos dois sentidos.
 // Puro: usado por migrar.ts, montar.ts e verificar-migracao.ts.
-import type { Ambition, Arc, Beat, Campaign, Character, Faction, Location, Relation, Revelation } from '../../src/lib/types.ts'
+import type { Ambition, Arc, Beat, Campaign, Character, Faction, Location, Relation, Revelation } from '../types.ts'
 import { juntarSecoes, secao, secaoSe, secoes, type Doc, type Secao } from './md.ts'
 
 export const LIVRO = 'livro'

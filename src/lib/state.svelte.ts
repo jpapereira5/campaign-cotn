@@ -3,7 +3,9 @@
 // Duas camadas: `book` (o livro, nunca editado pela app) e `campaign` (a nossa campanha).
 import type { Ambition, Attitude, Beat, Canon, Character, Collection, PlayState, Problem, Relation, Session } from './types.ts'
 import { COLLECTIONS, relationKey, uid } from './types.ts'
-import { assemble, embeddedFiles, emptyPlay, fileForEdits, normalizePlay, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
+import { arvore, assemble, embeddedFiles, emptyPlay, fileForEdits, normalizePlay, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
+import { calcularEstado, type Estado } from './estado.ts'
+import { Indice } from './ficha.ts'
 import { makeBeatPos } from './validate.ts'
 import { ConflictError, fetchRemoteFiles, getToken, putFile } from './github.ts'
 import { defaultFilters, type GraphFilters } from './graph.ts'
@@ -12,7 +14,7 @@ import type { Layer, LayerInfo } from './layers.ts'
 const STORAGE_KEY = 'campaign-cotn-v1'
 const STATE_PATH = 'data/state.json'
 
-export type View = 'tempo' | 'grafo' | 'pcs' | 'frentes' | 'revelacoes' | 'sessao' | 'indice' | 'definicoes'
+export type View = 'tempo' | 'grafo' | 'pcs' | 'frentes' | 'revelacoes' | 'sessao' | 'indice' | 'definicoes' | 'ficha'
 export type SelKind = 'character' | 'faction' | 'location' | 'beat' | 'arc' | 'revelation' | 'ambition'
 export interface Selection {
   kind: SelKind
@@ -78,7 +80,13 @@ export const ui = $state({
   searchOpen: false,
   sidebarCollapsed: false,
   helpOpen: false,
+  /** Ficha aberta (vista «ficha»): a id do documento. */
+  fichaId: null as string | null,
 })
+
+// A estrutura nova, já lida pelo build, e o que se calcula dela: o estado (docs/arquitetura.md, secção 6) e o índice das fichas.
+const estadoD: Estado = calcularEstado(arvore)
+const indiceD: Indice = new Indice(arvore)
 
 const assembled = $derived(assemble(store.files, ui.layerView))
 const canonD = $derived(assembled.canon)
@@ -130,6 +138,12 @@ export const world = {
   },
   get readOnly(): boolean {
     return ui.layerView === 'book'
+  },
+  get estado(): Estado {
+    return estadoD
+  },
+  get indice(): Indice {
+    return indiceD
   },
 }
 
@@ -440,10 +454,24 @@ export function goToBeat(id: string): void {
 }
 export function setView(v: View): void {
   ui.view = v
-  if (location.hash !== `#/${v}`) history.replaceState(null, '', `#/${v}`)
+  const alvo = v === 'ficha' && ui.fichaId ? `#/ficha/${ui.fichaId}` : `#/${v}`
+  if (location.hash !== alvo) history.replaceState(null, '', alvo)
+}
+/** Abre a ficha de uma coisa (qualquer documento com id, sessões incluídas). */
+export function abrirFicha(id: string): void {
+  ui.fichaId = id
+  ui.selection = null
+  setView('ficha')
 }
 function readHash(): void {
-  const v = location.hash.replace(/^#\/?/, '') as View
+  const h = location.hash.replace(/^#\/?/, '')
+  const f = h.match(/^ficha\/([a-z0-9-]+)$/)
+  if (f) {
+    ui.fichaId = f[1]
+    ui.view = 'ficha'
+    return
+  }
+  const v = h as View
   const views: View[] = ['tempo', 'grafo', 'pcs', 'frentes', 'revelacoes', 'sessao', 'indice', 'definicoes']
   if (views.includes(v)) ui.view = v
 }

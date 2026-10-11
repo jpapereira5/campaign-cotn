@@ -4,12 +4,12 @@ import assert from 'node:assert/strict'
 import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { lerAntigo, chaveRel } from './antigo.ts'
-import { parseMd, stringifyMd } from './md.ts'
+import { parseMd, stringifyMd } from '../../src/lib/arquivo/md.ts'
 import {
   ambicaoParaDoc, arcoParaDoc, beatParaDoc, campanhaParaDoc, docParaAmbicao, docParaArco, docParaBeat, docParaCampanha, docParaFacao,
   docParaLocal, docParaPersonagem, docParaSegredo, facaoParaDoc, frenteParaDoc, localParaDoc, personagemParaDoc, relacaoParaNova, segredoParaDoc,
   partirTitulo, tituloAntigo,
-} from './esquema.ts'
+} from '../../src/lib/arquivo/esquema.ts'
 import {
   normalizeAmbition, normalizeArc, normalizeBeat, normalizeCampaign, normalizeCharacter, normalizeFaction, normalizeLocation, normalizeRelation, normalizeRevelation,
 } from '../../src/lib/validate.ts'

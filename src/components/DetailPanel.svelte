@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ui, world, characterState, attitudeOf, isPlayed, togglePlayed, toggleRevealed, setNote, setAttitude, editEntity, removeRelation, addRelation, nameOf, layerOf, bookOriginal, revertToBook, relationLayer, back, closeSelection, goToBeat, chapterName, type Selection } from '../lib/state.svelte'
+  import { ui, world, characterState, attitudeOf, isPlayed, togglePlayed, toggleRevealed, setNote, setAttitude, editEntity, removeRelation, addRelation, nameOf, layerOf, bookOriginal, revertToBook, relationLayer, back, closeSelection, goToBeat, chapterName, abrirFicha, type Selection } from '../lib/state.svelte'
   import { diffFields } from '../lib/layers'
   import { relationActive } from '../lib/graph'
   import { RELATION_LABELS, KIND_LABELS } from '../lib/colors'
@@ -66,6 +66,7 @@
     <span class="kind muted">{selection.kind === 'character' ? KIND_LABELS[character?.kind ?? 'npc'] : KIND_TITLE[selection.kind]}</span>
     {#if ro}<span class="tag book">📖 só o livro</span>{:else if layer === 'campaign'}<span class="tag new" title="Só existe na nossa campanha">✚ nosso</span>{:else if layer === 'modified'}<span class="tag mod" title="Entrada do livro com alterações nossas">▲ alterado</span>{:else}<span class="tag book" title="Tal como no livro">📖 livro</span>{/if}
     <span class="spacer"></span>
+    {#if world.indice.doc(selection.id)}<button class="ghost small" onclick={() => abrirFicha(selection.id)} title="Abrir a ficha completa: estado atual, história, plano, relações e menções">Ficha →</button>{/if}
     <button class="icon ghost" onclick={closeSelection} title="Fechar (Esc)">✕</button>
   </div>
 

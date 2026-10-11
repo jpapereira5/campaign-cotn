@@ -1,5 +1,6 @@
 ---
 id: r-tranca-branca-lia
+nome: A trança branca é da Lia
 lista: Segredos dos PCs
 pistas: []
 sabe: o DM

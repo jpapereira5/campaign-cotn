@@ -5,6 +5,7 @@ pistas:
   - b-0-boneyard-altar
   - b-0-hesskar-ro
 sabe: o DM; o Lucan, em parte
+nome: Baeshra e o clã Ro
 origem:
   - pcs
 ---
