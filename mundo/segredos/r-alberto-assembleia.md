@@ -1,5 +1,6 @@
 ---
 id: r-alberto-assembleia
+nome: O Alberto é da Assembleia
 lista: Prólogo
 pistas: []
 sabe: o DM

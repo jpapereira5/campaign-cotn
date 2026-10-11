@@ -4,6 +4,7 @@ lista: Segredos dos PCs
 pistas: []
 legenda: o Lucan salvou o Isco, através de Baeshra
 sabe: "Baeshra; testemunha: o aboleto ancião"
+nome: A verdade do resgate
 origem:
   - pcs
 ---

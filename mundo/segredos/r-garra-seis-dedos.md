@@ -1,5 +1,6 @@
 ---
 id: r-garra-seis-dedos
+nome: O que a garra faz
 lista: Segredos dos PCs
 pistas: []
 legenda: Command 1×/dia

@@ -1,11 +1,14 @@
-// Ficheiros de dados. Desde a fase A da migração (docs/arquitetura.md), a fonte de verdade é a estrutura nova
+// Ficheiros de dados. Desde a migração (docs/arquitetura.md), a fonte de verdade é a estrutura nova
 // (mundo/, plano/, registo/, mesa/, livro/), em Markdown com cabeçalho. `scripts/montar.ts` corre no build e escreve
-// src/generated/antigo.json: os ficheiros virtuais que esta app conhece, na forma antiga das duas camadas:
+// src/generated/dados.json com a árvore já lida; daí, em runtime, o adaptador monta os ficheiros virtuais que as
+// vistas antigas conhecem, na forma das duas camadas:
 //   data/book/{campaign,arcs}.json, data/book/<colecção>/*.json   — o livro (referência, só leitura na app)
 //   data/campaign/{campaign,arcs}.json, data/campaign/<colecção>/*.json — a nossa campanha (patches, acrescentos)
 //   data/state.json — estado de jogo (calculado do registo)
 // A app não lê nem escreve data/ ao vivo: as alterações ao cânone chegam com o deploy.
-import antigo from '../generated/antigo.json'
+import dados from '../generated/dados.json'
+import type { Arvore } from './arquivo/arvore.ts'
+import { adaptarParaAntigo } from './arquivo/adaptador.ts'
 import type { Canon, Collection, PlayState, Problem } from './types.ts'
 import { COLLECTIONS } from './types.ts'
 import { normalizeCanon, type RawCanon } from './validate.ts'
@@ -25,7 +28,9 @@ export interface DataFile {
   dirty: boolean
 }
 
-const modules = antigo as Record<string, unknown>
+/** A árvore da estrutura nova, tal como o build a deixou. */
+export const arvore = dados as unknown as Arvore & { geradoEm: string }
+const modules = adaptarParaAntigo(arvore).ficheiros
 
 export function parsePath(path: string): { kind: FileKind; layer: FileLayer } | null {
   if (path === 'data/state.json') return { kind: 'state', layer: 'state' }

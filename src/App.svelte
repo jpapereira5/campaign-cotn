@@ -13,6 +13,7 @@
   import IndexView from './components/IndexView.svelte'
   import Settings from './components/Settings.svelte'
   import DetailPanel from './components/DetailPanel.svelte'
+  import Ficha from './components/Ficha.svelte'
 
   onMount(() => {
     void loadRemote()
@@ -57,6 +58,7 @@
       {:else if ui.view === 'revelacoes'}<RevelationsView />
       {:else if ui.view === 'sessao'}<SessionPanel />
       {:else if ui.view === 'indice'}<IndexView />
+      {:else if ui.view === 'ficha'}<Ficha />
       {:else}<Settings />{/if}
     </main>
   </div>

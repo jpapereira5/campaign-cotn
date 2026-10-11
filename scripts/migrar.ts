@@ -7,8 +7,8 @@ import { lerAntigo, chaveRel } from './lib/antigo.ts'
 import {
   ambicaoParaDoc, arcoParaDoc, beatParaDoc, campanhaParaDoc, facaoParaDoc, frenteParaDoc, localParaDoc, pastaDeId,
   personagemParaDoc, relacaoParaNova, segredoParaDoc, partirTitulo, type RelacaoNova,
-} from './lib/esquema.ts'
-import { parseMd, secoes, secoesNivel, stringifyMd, type Doc, type Secao } from './lib/md.ts'
+} from '../src/lib/arquivo/esquema.ts'
+import { parseMd, secoes, secoesNivel, stringifyMd, type Doc, type Secao } from '../src/lib/arquivo/md.ts'
 import { cabecalhosDaSemente, gerarAcontecimentos, gerarIdeias, type Ajustes, type Mapa, type Semente } from './migracao/semente.ts'
 
 const raiz = resolve(import.meta.dirname, '..')
@@ -43,6 +43,7 @@ for (const linha of semente.linhas) {
   if (linha.flags) e.marcas = linha.flags
   if (linha.badges) e.etiquetas = linha.badges
   if (linha.sabe) e.sabe = linha.sabe
+  if (linha.tipo === 'revelacao') e.nome = linha.nome
   if (Object.keys(e).length) extras.set(m.id, e)
 }
 
@@ -208,7 +209,7 @@ for (const [nome, m] of Object.entries(mapa)) {
       corpoExtra.delete(m.id)
     }
   } else if (pasta === 'segredos') {
-    Object.assign(base, { lista: n.lista, pistas: [], ...(linha?.sub ? { legenda: linha.sub } : {}), ...(linha?.sabe ? { sabe: linha.sabe } : {}) })
+    Object.assign(base, { nome, lista: n.lista, pistas: [], ...(linha?.sub ? { legenda: linha.sub } : {}), ...(linha?.sabe ? { sabe: linha.sabe } : {}) })
     corpoSecs.push(secao('Verdade', String(n.verdade)))
   } else if (pasta === 'jogadores') {
     Object.assign(base, { nome: n.nome, pc: n.pc })

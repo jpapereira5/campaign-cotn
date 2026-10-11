@@ -1,5 +1,6 @@
 ---
 id: r-padre-entrega-bolbara
+nome: O padre entrega a Bolbara ao Truche
 lista: Prólogo
 pistas: []
 legenda: sem saber

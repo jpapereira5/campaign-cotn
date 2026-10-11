@@ -1,5 +1,6 @@
 ---
 id: r-tempestade-truche
+nome: A tempestade é o Truche
 lista: Prólogo
 pistas: []
 legenda: a acordar

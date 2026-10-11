@@ -1,7 +1,7 @@
 // Adaptador: da estrutura nova para os ficheiros que a app atual conhece (data/book, data/campaign, data/state.json).
 // O livro vem de livro/ tal como está; a camada campaign são as entidades com origem fora do livro, inteiras.
 // Juntas pela app (mergeLayers) dão exatamente o cânone de hoje — é o que verificar-migracao.ts confirma.
-import type { PlayState } from '../../src/lib/types.ts'
+import type { PlayState } from '../types.ts'
 import {
   docParaAmbicao, docParaArco, docParaBeat, docParaCampanha, docParaFacao, docParaLocal, docParaPersonagem, docParaSegredo,
   docParaSessaoAntiga, beatsJogados, temOrigemCampanha, LIVRO,
