@@ -6,6 +6,7 @@ import { porPasta } from '../arquivo/arvore.ts'
 import type { Acontecimento, Estado, SessaoLida } from '../estado.ts'
 import { pastaDe } from '../ficha.ts'
 import { donaDe, tipoLinhaDe, type TipoLinha } from './dona.ts'
+import type { DmEntry } from './dm.ts'
 
 export type TipoGrelha =
   | 'sessao'
@@ -56,7 +57,7 @@ export interface Arco {
 }
 
 export interface Item {
-  tipo: 'facto' | 'eco' | 'ideia' | 'falta' | 'plano-canone' | 'texto'
+  tipo: 'facto' | 'eco' | 'ideia' | 'falta' | 'plano-canone' | 'texto' | 'plano' | 'nota'
   estatuto: Estatuto | null
   texto: string
   ac?: Acontecimento
@@ -69,6 +70,15 @@ export interface Item {
   /** ids de beats (plano do cânone) ou nota (ideia) */
   refs?: string[]
   nota?: string
+  /** camada do DM: a entrada que criou ou alterou este item */
+  dm?: DmEntry
+  porRever?: boolean
+  /** texto antes da correção do DM */
+  original?: string
+  arquivado?: boolean
+  /** «→ S6»: um plano do DM aponta para este facto */
+  planeadoEm?: string
+  fromIdea?: string
 }
 
 export interface Celula {
@@ -102,6 +112,11 @@ export interface Linha {
   esquecidos: number
   faltas: number
   notas: number
+  /** camada do DM */
+  editada?: boolean
+  porRever?: boolean
+  dm?: DmEntry
+  planeados?: number
 }
 
 export interface Contagens {
@@ -119,6 +134,8 @@ export interface Grelha {
   pcs: { id: string; nome: string; curto: string; cor: string }[]
   proximaN: number
   capituloAtual: string
+  /** beats marcados como jogados à mesa (camada do DM), por absorver no fecho */
+  beatsJogadosDm?: string[]
   /** modo Plano: arcos × capítulos */
   plano: { arcos: { id: string; nome: string; cor: string; porCapitulo: Record<string, { id: string; titulo: string; estado: string }[]> }[]; capitulos: { id: string; nome: string; curto: string }[] }
 }
@@ -133,6 +150,8 @@ export interface Entrada {
   capituloAtual: string
   curto: (capitulo: string) => string
   corPc: (pc: string) => string
+  /** beats marcados como jogados à mesa (camada do DM) */
+  jogadosDm?: Set<string>
 }
 
 const lista = (v: unknown): string[] => (Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : [])
@@ -164,6 +183,19 @@ export function tipoGrelhaDe(d: DocArvore, forcado?: string): TipoGrelha {
   }
   if (p === 'jogadores') return 'jogador'
   return 'mesa'
+}
+
+/** Tipos das linhas (personagens e fios dizem o seu tipo) para a regra da dona. */
+export function tiposDeLinha(a: Arvore): Map<string, string> {
+  const tipos = new Map<string, string>()
+  for (const d of a.docs) {
+    const id = typeof d.meta.id === 'string' ? d.meta.id : ''
+    if (!id) continue
+    const pasta = pastaDe(d)
+    if (pasta === 'personagens') tipos.set(id, String(d.meta.tipo ?? 'npc'))
+    else if (pasta === 'fios') tipos.set(id, String(d.meta.tipo ?? ''))
+  }
+  return tipos
 }
 
 export function grupoDe(tipo: TipoGrelha): string {
@@ -198,22 +230,15 @@ export function construirGrelha(e: Entrada): Grelha {
   const porId = new Map<string, DocArvore>()
   for (const d of e.arvore.docs) if (typeof d.meta.id === 'string') porId.set(d.meta.id, d)
   const sessoes = e.estado.mesa.sessoes
+  const jogadosDm = e.jogadosDm ?? new Set<string>()
+  const estadoBeat = (id: string): string | undefined => (jogadosDm.has(id) ? 'jogado' : e.estado.beats.get(id)?.estado)
   const { colunas, arcos, proximaN } = colunasDe(sessoes, e.capitulos, e.capituloAtual, e.curto)
   const colunaDaSessao = new Map<string, string>()
   for (const c of colunas) if (c.sessao) colunaDaSessao.set(c.sessao.id, c.chave)
   const nDaSessao = new Map<string, number>()
   for (const s of sessoes) nDaSessao.set(s.id, s.n)
 
-  // tipos de linha para a regra da dona
-  const tiposDona = new Map<string, string>()
-  for (const d of e.arvore.docs) {
-    const id = typeof d.meta.id === 'string' ? d.meta.id : ''
-    if (!id) continue
-    const pasta = pastaDe(d)
-    if (pasta === 'personagens') tiposDona.set(id, String(d.meta.tipo ?? 'npc'))
-    else if (pasta === 'fios') tiposDona.set(id, String(d.meta.tipo ?? ''))
-  }
-  const tipoLinha: TipoLinha = tipoLinhaDe(tiposDona)
+  const tipoLinha: TipoLinha = tipoLinhaDe(tiposDeLinha(e.arvore))
 
   // linhas
   const linhas: Linha[] = []
@@ -318,11 +343,11 @@ export function construirGrelha(e: Entrada): Grelha {
     const passos = Array.isArray(d?.meta.passos) ? (d!.meta.passos as { capitulo: string; texto: string }[]) : []
     for (const c of colunas) {
       if (!c.capitulo) continue
-      const beats = (beatsPorCapitulo.get(c.capitulo) ?? []).filter((b) => beatToca(b, l.id) && e.estado.beats.get(String(b.meta.id))?.estado !== 'jogado')
+      const beats = (beatsPorCapitulo.get(c.capitulo) ?? []).filter((b) => beatToca(b, l.id) && estadoBeat(String(b.meta.id)) !== 'jogado')
       if (beats.length) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: `${beats.length} beat${beats.length > 1 ? 's' : ''}: ${beats.map((b) => String(b.meta.titulo ?? b.meta.id)).join(' · ')}`, refs: beats.map((b) => String(b.meta.id)) })
       for (const passo of passos.filter((x) => x.capitulo === c.capitulo)) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: passo.texto })
       if (l.tipo === 'revelacao') {
-        const pistas = lista(d?.meta.pistas).filter((b) => porId.get(b)?.meta.capitulo === c.capitulo && e.estado.beats.get(b)?.estado !== 'jogado')
+        const pistas = lista(d?.meta.pistas).filter((b) => porId.get(b)?.meta.capitulo === c.capitulo && estadoBeat(b) !== 'jogado')
         if (pistas.length) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: `${pistas.length} pista${pistas.length > 1 ? 's' : ''} planeada${pistas.length > 1 ? 's' : ''}`, refs: pistas })
       }
     }
@@ -371,7 +396,7 @@ export function construirGrelha(e: Entrada): Grelha {
       for (const b of p.beats) {
         if (!lista(b.meta.arcos).includes(id)) continue
         const cap = String(b.meta.capitulo ?? '')
-        porCapitulo[cap] = [...(porCapitulo[cap] ?? []), { id: String(b.meta.id), titulo: String(b.meta.titulo ?? ''), estado: e.estado.beats.get(String(b.meta.id))?.estado ?? 'por-jogar' }]
+        porCapitulo[cap] = [...(porCapitulo[cap] ?? []), { id: String(b.meta.id), titulo: String(b.meta.titulo ?? ''), estado: estadoBeat(String(b.meta.id)) ?? 'por-jogar' }]
       }
       for (const capBeats of Object.values(porCapitulo)) capBeats.sort((x, y) => Number(porId.get(x.id)?.meta.ordem ?? 0) - Number(porId.get(y.id)?.meta.ordem ?? 0))
       return { id, nome: String(a.meta.nome ?? id), cor: String(a.meta.cor ?? '#888'), porCapitulo }

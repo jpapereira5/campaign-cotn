@@ -106,3 +106,23 @@ export async function checkToken(): Promise<{ ok: boolean; login?: string; canPu
     return { ok: false, message: (e as Error).message }
   }
 }
+
+// ---- leituras ao vivo (Grelha): sempre sem cache, porque a API responde com max-age=60 ----
+
+/** Lê um ficheiro do ramo: conteúdo e sha, sem cache. */
+export async function fetchFile(path: string): Promise<{ text: string; sha: string }> {
+  const res = await fetch(`${API}/repos/${REPO.owner}/${REPO.repo}/contents/${path}?ref=${REPO.branch}`, { headers: headers(), cache: 'no-store' })
+  if (res.status === 404) return { text: '', sha: '' }
+  if (!res.ok) throw new Error(`GitHub ${res.status} ao ler ${path}`)
+  const body = (await res.json()) as { sha: string; content: string; encoding: string }
+  const bin = atob(body.content.replace(/\n/g, ''))
+  const bytes = Uint8Array.from(bin, (c) => c.charCodeAt(0))
+  return { text: new TextDecoder().decode(bytes), sha: body.sha }
+}
+
+/** O sha do último commit do ramo, sem cache: para saber se há coisas novas. */
+export async function headSha(): Promise<string> {
+  const res = await fetch(`${API}/repos/${REPO.owner}/${REPO.repo}/commits/${REPO.branch}`, { headers: headers('application/vnd.github.sha'), cache: 'no-store' })
+  if (!res.ok) throw new Error(`GitHub ${res.status} ao ler o ramo`)
+  return (await res.text()).trim()
+}

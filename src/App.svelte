@@ -15,9 +15,12 @@
   import DetailPanel from './components/DetailPanel.svelte'
   import Ficha from './components/Ficha.svelte'
   import Grelha from './components/Grelha.svelte'
+  import GrelhaEditor from './components/GrelhaEditor.svelte'
+  import { iniciarSonda } from './lib/grelha/store.svelte'
 
   onMount(() => {
     void loadRemote()
+    iniciarSonda()
     try {
       ui.sidebarCollapsed = localStorage.getItem('cc-sidebar') === '1'
     } catch {
@@ -47,7 +50,7 @@
 
 <svelte:window onkeydown={onKeydown} />
 
-<div class="app" class:rail={ui.sidebarCollapsed} class:with-panel={ui.selection}>
+<div class="app" class:rail={ui.sidebarCollapsed} class:with-panel={ui.selection || ui.edicao}>
   <Sidebar />
   <div class="main">
     <TopBar />
@@ -66,6 +69,8 @@
   </div>
   {#if ui.selection}
     <aside class="drawer"><DetailPanel selection={ui.selection} /></aside>
+  {:else if ui.edicao}
+    <aside class="drawer"><GrelhaEditor edicao={ui.edicao} /></aside>
   {/if}
 </div>
 {#if ui.searchOpen}<SearchPalette />{/if}

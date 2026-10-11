@@ -1,7 +1,8 @@
 <script lang="ts">
   // A Ficha: uma página por coisa (docs/arquitetura.md, secção 8): o texto, os campos, o estado atual,
   // a história (os acontecimentos em que entra), o plano (os beats à frente), as relações e as menções.
-  import { ui, world, chapterShort } from '../lib/state.svelte'
+  import { ui, world, chapterShort, abrirEdicao, setView } from '../lib/state.svelte'
+  import { camada, registar } from '../lib/grelha/store.svelte'
   import { ESTADO_BEAT, efeitoLegivel, pastaDe, tipoDe } from '../lib/ficha'
   import { rotuloMarca } from '../lib/estado'
   import { donaDe, tipoLinhaDe } from '../lib/grelha/dona'
@@ -48,6 +49,14 @@
   const TIPO_ESTADO: Record<string, string> = { vivo: 'vivo', morto: 'morto', desaparecido: 'desaparecido', preso: 'preso/a' }
   const escolhas = $derived(Array.isArray(meta.escolhas) ? (meta.escolhas as { opcao: string; resultado: string; levaA: string[] }[]) : [])
   const passos = $derived(Array.isArray(meta.passos) ? (meta.passos as { capitulo: string; texto: string }[]) : [])
+  const naGrelha = $derived(world.grelha.linhas.some((l) => l.id === id))
+  const jogadoNaMesa = $derived(camada.dm.some((e) => e.kind === 'jogado' && !e.deleted && e.beat === id))
+  async function acompanhar() {
+    await registar({ kind: 'acompanhar', row: id }, `grelha: acompanhar ${id}`)
+  }
+  async function marcarJogado() {
+    await registar({ kind: 'jogado', beat: id }, `grelha: jogado à mesa ${id}`)
+  }
   const historiaPorSessao = $derived.by(() => {
     const m = new Map<string, typeof historia>()
     for (const h of historia) m.set(h.sessao.id, [...(m.get(h.sessao.id) ?? []), h])
@@ -65,6 +74,10 @@
         <span class="kind muted">{tipoDe(doc)}</span>
         {#if typeof meta.legenda === 'string'}<span class="muted small">· {meta.legenda}</span>{/if}
         <span class="spacer"></span>
+        {#if pasta !== 'sessoes' && pasta !== 'jogadores'}
+          {#if naGrelha}<button class="ghost small" onclick={() => { setView('grelha'); abrirEdicao({ modo: 'cabecalho', linha: id }) }} title="Está na Grelha: editar o cabeçalho">Na Grelha ✎</button>{:else}<button class="ghost small" onclick={acompanhar} title="Pôr esta coisa na Grelha">+ Acompanhar na Grelha</button>{/if}
+        {/if}
+        {#if pasta === 'beats' && eb?.estado !== 'jogado'}<button class="ghost small" onclick={marcarJogado} disabled={jogadoNaMesa} title="Marcar como jogado à mesa; o fecho passa-o para o registo">{jogadoNaMesa ? '✓ jogado à mesa (por absorver)' : 'Marcar jogado à mesa'}</button>{/if}
         <span class="muted small mono">{doc.caminho}</span>
       </div>
       <h2>{titulo}</h2>

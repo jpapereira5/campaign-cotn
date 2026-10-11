@@ -6,7 +6,22 @@ import { COLLECTIONS, relationKey, uid } from './types.ts'
 import { arvore, assemble, embeddedFiles, emptyPlay, fileForEdits, normalizePlay, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
 import { calcularEstado, type Estado } from './estado.ts'
 import { Indice } from './ficha.ts'
-import { construirGrelha, type Grelha } from './grelha/modelo.ts'
+import { construirGrelha, tiposDeLinha, type Grelha, type Linha } from './grelha/modelo.ts'
+import { aplicarDm, type DmEntry } from './grelha/dm.ts'
+import { tipoLinhaDe } from './grelha/dona.ts'
+import { camada } from './grelha/store.svelte.ts'
+
+export type Edicao =
+  | { modo: 'celula'; linha: string; col: string }
+  | { modo: 'cabecalho'; linha: string }
+  | { modo: 'nota'; linha?: string; col?: string }
+  | { modo: 'nova-linha' }
+  | { modo: 'acompanhar' }
+
+export interface GrelhaViva extends Grelha {
+  notasSoltas: DmEntry[]
+  planosPassados: { entrada: DmEntry; linha: Linha }[]
+}
 import { makeBeatPos } from './validate.ts'
 import { ConflictError, fetchRemoteFiles, getToken, putFile } from './github.ts'
 import { defaultFilters, type GraphFilters } from './graph.ts'
@@ -45,7 +60,7 @@ function loadPersisted(): Persisted {
  * Fase A da migração (docs/arquitetura.md): a edição do cânone e do estado de jogo na app está desligada.
  * As correções e as marcas da mesa entram pelo fecho, com o Claude; a app volta a escrever na fase D, só em grelha/dm.json.
  */
-export const EDICAO_DESLIGADA = 'Edição desligada durante a migração (fase A): as correções e as marcas da mesa entram pelo fecho, com o Claude.'
+export const EDICAO_DESLIGADA = 'As vistas antigas já não editam: edita na Grelha (a tua camada) ou na Ficha; o resto entra pelo fecho, com o Claude.'
 
 function initialFiles(): Record<string, DataFile> {
   const files = embeddedFiles()
@@ -83,6 +98,8 @@ export const ui = $state({
   helpOpen: false,
   /** Ficha aberta (vista «ficha»): a id do documento. */
   fichaId: null as string | null,
+  /** Gaveta de edição da Grelha (camada do DM). */
+  edicao: null as Edicao | null,
 })
 
 // A estrutura nova, já lida pelo build, e o que se calcula dela: o estado (docs/arquitetura.md, secção 6) e o índice das fichas.
@@ -108,16 +125,31 @@ const cursorD = $derived.by(() => {
   return idx * 1000 + 999
 })
 
-const grelhaD: Grelha = construirGrelha({
-  arvore,
-  estado: estadoD,
-  nome: (id) => indiceD.nome(id),
-  linhas: Array.isArray(arvore.grelha.linhas) ? (arvore.grelha.linhas as { id: string; tipo?: string; pcs?: string[] }[]) : [],
-  notas: Array.isArray((arvore.grelha.revisao as { notes?: unknown[] })?.notes) ? ((arvore.grelha.revisao as { notes: Record<string, unknown>[] }).notes) : [],
-  capitulos: canonD.campaign.chapters,
-  capituloAtual: playD.currentChapter ?? canonD.campaign.chapters[0]?.id ?? '',
-  curto: (c) => chapterShort(c),
-  corPc: (pc) => canonD.arcs.find((a) => a.ownerPc === pc)?.color ?? '#8A96A0',
+const tipoLinhaD = tipoLinhaDe(tiposDeLinha(arvore))
+// A Grelha: a camada automática (registo + cânone) com a camada do DM por cima; refaz-se quando dm/revisao/linhas mudam.
+const grelhaD = $derived.by((): GrelhaViva => {
+  const jogadosDm = new Set(camada.dm.filter((e) => e.kind === 'jogado' && !e.deleted && e.beat).map((e) => String(e.beat)))
+  const g = construirGrelha({
+    arvore,
+    estado: estadoD,
+    nome: (id) => indiceD.nome(id),
+    linhas: camada.linhas,
+    notas: camada.revisao.notes as unknown as Record<string, unknown>[],
+    capitulos: canonD.campaign.chapters,
+    capituloAtual: playD.currentChapter ?? canonD.campaign.chapters[0]?.id ?? '',
+    curto: (c) => chapterShort(c),
+    corPc: (pc) => canonD.arcs.find((a) => a.ownerPc === pc)?.color ?? '#8A96A0',
+    jogadosDm,
+  })
+  const proxima = g.colunas.find((c) => c.tipo === 'proxima')
+  const extra = aplicarDm(g, camada.dm, camada.revisao, {
+    tipoLinha: tipoLinhaD,
+    nome: (id) => indiceD.nome(id),
+    jogadas: new Set(g.colunas.filter((c) => c.sessao).map((c) => c.chave)),
+    proximaChave: proxima?.chave ?? '',
+    rotuloColuna: (chave) => `→ ${g.colunas.find((c) => c.chave === chave)?.label ?? chave}`,
+  })
+  return { ...g, ...extra }
 })
 
 /** Acesso ao estado derivado (Svelte não permite exportar $derived directamente). */
@@ -158,12 +190,23 @@ export const world = {
   get indice(): Indice {
     return indiceD
   },
-  get grelha(): Grelha {
+  get grelha(): GrelhaViva {
     return grelhaD
   },
   get arvore() {
     return arvore
   },
+  get tipoLinha() {
+    return tipoLinhaD
+  },
+}
+
+export function abrirEdicao(e: Edicao): void {
+  ui.selection = null
+  ui.edicao = e
+}
+export function fecharEdicao(): void {
+  ui.edicao = null
 }
 
 const KIND_TO_COLLECTION: Record<SelKind, Collection | null> = {
@@ -461,6 +504,7 @@ export function back(): void {
 export function closeSelection(): void {
   ui.selection = null
   ui.history = []
+  ui.edicao = null
 }
 /** Abre a linha temporal no capítulo do beat. */
 export function goToBeat(id: string): void {
@@ -480,6 +524,7 @@ export function setView(v: View): void {
 export function abrirFicha(id: string): void {
   ui.fichaId = id
   ui.selection = null
+  ui.edicao = null
   setView('ficha')
 }
 function readHash(): void {
