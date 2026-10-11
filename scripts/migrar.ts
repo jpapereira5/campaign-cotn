@@ -307,11 +307,15 @@ doc('registo/sessoes/s00-sessao-zero.md', {
 texto('registo/sessoes/README.md', `# Sessões — Call of the Netherdeep 2026\n\nUm ficheiro por sessão: cabeçalho com a mesa, o dia no mundo, os beats tocados e os acontecimentos com efeitos; o resumo por baixo. A sessão zero guarda o ponto de partida. As transcrições ficam só na Drive, em \`session_records/\`, fora do repositório.\n\n| Sessão | Global | Data | Título | Ficheiro |\n|---|---|---|---|---|\n${indice.reverse().join('\n')}`)
 
 // ---- grelha ------------------------------------------------------------------------------------
-const linhas: { id: string; tipo?: string }[] = []
+// As linhas da Grelha: id, tipo forçado (quando não se deduz da entidade) e os PCs a que a linha diz respeito
+// por natureza («*» = contexto, aparece com qualquer PC), vindos do mockup.
+const PC_ID: Record<string, string> = { Lucan: 'c-pc-lucan', Isco: 'c-pc-isco', Quasi: 'c-pc-quasi', Lia: 'c-pc-lia', Tiago: 'c-pc-tiago' }
+const linhas: { id: string; tipo?: string; pcs?: string[] }[] = []
 for (const linha of semente.linhas) {
   const m = mapa[linha.nome]
   if (!m?.id) continue
-  linhas.push({ id: m.id, ...(m.tipo ? { tipo: m.tipo } : {}) })
+  const pcs = linha.pcs?.map((p) => (p === '*' ? '*' : (PC_ID[p] ?? p)))
+  linhas.push({ id: m.id, ...(m.tipo ? { tipo: m.tipo } : {}), ...(pcs?.length ? { pcs } : {}) })
 }
 json('grelha/linhas.json', linhas)
 json('grelha/dm.json', [])

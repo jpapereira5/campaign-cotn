@@ -12,6 +12,7 @@
     {
       title: 'Planear',
       items: [
+        { id: 'grelha', label: 'Grelha', icon: '▦', hint: 'Tudo o que está em aberto, sessão a sessão' },
         { id: 'tempo', label: 'Linha temporal', icon: '⏳', hint: 'Beats por capítulo e por pista' },
         { id: 'grafo', label: 'Relações', icon: '🕸️', hint: 'Quem se liga a quem' },
         { id: 'frentes', label: 'Frentes', icon: '⏰', hint: 'O que cada facção faz se ninguém a travar' },

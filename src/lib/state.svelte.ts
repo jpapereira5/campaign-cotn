@@ -6,6 +6,7 @@ import { COLLECTIONS, relationKey, uid } from './types.ts'
 import { arvore, assemble, embeddedFiles, emptyPlay, fileForEdits, normalizePlay, parsePath, rawOfLayer, stableJson, type DataFile } from './data.ts'
 import { calcularEstado, type Estado } from './estado.ts'
 import { Indice } from './ficha.ts'
+import { construirGrelha, type Grelha } from './grelha/modelo.ts'
 import { makeBeatPos } from './validate.ts'
 import { ConflictError, fetchRemoteFiles, getToken, putFile } from './github.ts'
 import { defaultFilters, type GraphFilters } from './graph.ts'
@@ -14,7 +15,7 @@ import type { Layer, LayerInfo } from './layers.ts'
 const STORAGE_KEY = 'campaign-cotn-v1'
 const STATE_PATH = 'data/state.json'
 
-export type View = 'tempo' | 'grafo' | 'pcs' | 'frentes' | 'revelacoes' | 'sessao' | 'indice' | 'definicoes' | 'ficha'
+export type View = 'grelha' | 'tempo' | 'grafo' | 'pcs' | 'frentes' | 'revelacoes' | 'sessao' | 'indice' | 'definicoes' | 'ficha'
 export type SelKind = 'character' | 'faction' | 'location' | 'beat' | 'arc' | 'revelation' | 'ambition'
 export interface Selection {
   kind: SelKind
@@ -107,6 +108,18 @@ const cursorD = $derived.by(() => {
   return idx * 1000 + 999
 })
 
+const grelhaD: Grelha = construirGrelha({
+  arvore,
+  estado: estadoD,
+  nome: (id) => indiceD.nome(id),
+  linhas: Array.isArray(arvore.grelha.linhas) ? (arvore.grelha.linhas as { id: string; tipo?: string; pcs?: string[] }[]) : [],
+  notas: Array.isArray((arvore.grelha.revisao as { notes?: unknown[] })?.notes) ? ((arvore.grelha.revisao as { notes: Record<string, unknown>[] }).notes) : [],
+  capitulos: canonD.campaign.chapters,
+  capituloAtual: playD.currentChapter ?? canonD.campaign.chapters[0]?.id ?? '',
+  curto: (c) => chapterShort(c),
+  corPc: (pc) => canonD.arcs.find((a) => a.ownerPc === pc)?.color ?? '#8A96A0',
+})
+
 /** Acesso ao estado derivado (Svelte não permite exportar $derived directamente). */
 export const world = {
   get canon(): Canon {
@@ -144,6 +157,12 @@ export const world = {
   },
   get indice(): Indice {
     return indiceD
+  },
+  get grelha(): Grelha {
+    return grelhaD
+  },
+  get arvore() {
+    return arvore
   },
 }
 
@@ -472,7 +491,7 @@ function readHash(): void {
     return
   }
   const v = h as View
-  const views: View[] = ['tempo', 'grafo', 'pcs', 'frentes', 'revelacoes', 'sessao', 'indice', 'definicoes']
+  const views: View[] = ['grelha', 'tempo', 'grafo', 'pcs', 'frentes', 'revelacoes', 'sessao', 'indice', 'definicoes']
   if (views.includes(v)) ui.view = v
 }
 if (typeof window !== 'undefined') {

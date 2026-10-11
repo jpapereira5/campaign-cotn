@@ -331,3 +331,14 @@ Feito no ramo `fase-b`. O que ficou:
 - **Nomes:** os segredos que vieram do mockup têm `nome` (a linha da Grelha); os do livro mostram a verdade encurtada.
 - **Bibliotecas:** `md`, `esquema`, `adaptador` e o modelo da árvore passaram para `src/lib/arquivo/`, para a app e os scripts usarem o mesmo código. O pacote do build é só `dados.json`.
 - **Por fazer:** a Ficha ainda não substitui o painel de detalhe (fase E) e não edita nada (fase D).
+
+## 15. Estado da fase C (2026-10-11)
+
+Feito no ramo `fase-c`. O que ficou:
+
+- **O modelo da Grelha** (`src/lib/grelha/modelo.ts`, puro, com testes) constrói as colunas (sessões jogadas, a próxima, o resto do capítulo atual e os capítulos seguintes), as linhas (as ids de `grelha/linhas.json`, com o tipo deduzido da entidade ou forçado, mais as quatro linhas de Sessão calculadas dos cabeçalhos) e as células: os acontecimentos na linha dona (regra de `dona.ts`), os ecos nas outras linhas envolvidas, o estado de cada um (pista, registo, fechado, pago, aberto, esquecido), o plano do cânone nas colunas futuras (beats por capítulo que envolvem a linha, passos das frentes, pistas planeadas), as ideias de `grelha/revisao.json` na célula alvo e o item «sem cena pessoal planeada» na próxima sessão para os PCs que já jogaram. Os filtros (grupo, PC, só com pendentes) e as contagens seguem `docs/grelha.md`.
+- **`grelha/linhas.json`** passou a guardar também os PCs a que cada linha diz respeito por natureza (`pcs`, com `*` para as linhas de contexto), vindos do mockup; o filtro por PC junta-lhes os PCs tocados pelos acontecimentos de que a linha é dona.
+- **A vista** (`src/components/Grelha.svelte`, `#/grelha`, a primeira da barra lateral) segue o mockup: cabeçalhos e colunas de tipo e nome fixos, faixas por grupo, a coluna da sessão atual destacada, marcadores com as formas e as cores do mockup e fundos adaptados ao tema escuro, dois ecos por célula mais «+N», ideias tracejadas, legenda. Clicar numa linha, numa sessão, num beat ou num eco abre a Ficha. No telemóvel só a grelha faz scroll.
+- **O modo Plano** é a antiga Linha temporal dentro da Grelha: os arcos nas linhas, os capítulos nas colunas, os beats nas células com o seu estado.
+- **Estados ainda sem fonte:** `planeado` e `falta preparar` (fora do «sem cena») só aparecem com a camada do DM, na fase D. Os ecos saltam a dona quando ela não está na Grelha.
+- **Por fazer:** a camada do DM, a revisão na célula e o `/vigia` (fase D); a saída das vistas antigas e do painel de detalhe (fase E).

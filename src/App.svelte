@@ -14,6 +14,7 @@
   import Settings from './components/Settings.svelte'
   import DetailPanel from './components/DetailPanel.svelte'
   import Ficha from './components/Ficha.svelte'
+  import Grelha from './components/Grelha.svelte'
 
   onMount(() => {
     void loadRemote()
@@ -51,7 +52,8 @@
   <div class="main">
     <TopBar />
     <main>
-      {#if ui.view === 'tempo'}<Timeline />
+      {#if ui.view === 'grelha'}<Grelha />
+      {:else if ui.view === 'tempo'}<Timeline />
       {:else if ui.view === 'grafo'}<RelationGraph />
       {:else if ui.view === 'pcs'}<PcView />
       {:else if ui.view === 'frentes'}<FrontsView />
