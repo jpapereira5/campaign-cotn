@@ -28,13 +28,14 @@
     },
     indice: { title: 'Índice', help: 'Listas completas por tipo. ✚ marca o que acrescentámos ao livro, ▲ o que alterámos.' },
     definicoes: { title: 'Definições', help: 'Sincronização com o GitHub, exportar/importar e problemas nos dados.' },
+    grelha: { title: 'Grelha', help: 'Tudo o que está em aberto, sessão a sessão: uma linha por coisa que vale a pena acompanhar, as sessões jogadas e o que vem a seguir nas colunas. Clica numa linha para abrir a ficha.' },
     ficha: { title: 'Ficha', help: 'Uma página por coisa: o estado atual, a história (os acontecimentos em que entra), o plano (os beats à frente), as relações e as menções. Os ids no texto são ligações.' },
   }
   const meta = $derived(TITLES[ui.view] ?? { title: ui.view, help: '' })
   const chapters = $derived(world.canon.campaign.chapters)
   const current = $derived(chapters.find((c) => c.id === ui.chapter))
   const tableChapter = $derived(world.play.currentChapter)
-  const showCursor = $derived(ui.view !== 'definicoes' && ui.view !== 'pcs' && ui.view !== 'ficha')
+  const showCursor = $derived(ui.view !== 'definicoes' && ui.view !== 'pcs' && ui.view !== 'ficha' && ui.view !== 'grelha')
   const readOnly = $derived(world.readOnly)
 </script>
 

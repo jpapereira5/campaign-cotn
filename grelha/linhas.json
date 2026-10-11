@@ -1,321 +1,739 @@
 [
   {
     "id": "f-grupo",
-    "tipo": "grupo"
+    "tipo": "grupo",
+    "pcs": [
+      "*"
+    ]
   },
   {
-    "id": "c-pc-lucan"
+    "id": "c-pc-lucan",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "c-pc-isco"
+    "id": "c-pc-isco",
+    "pcs": [
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "c-pc-quasi"
+    "id": "c-pc-quasi",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "c-pc-lia"
+    "id": "c-pc-lia",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-pc-tiago"
+    "id": "c-pc-tiago",
+    "pcs": [
+      "c-pc-tiago"
+    ]
   },
   {
-    "id": "c-buhfal"
+    "id": "c-buhfal",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "c-jevan"
+    "id": "c-jevan",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "c-azrok"
+    "id": "c-azrok",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "c-litcha-das-cinzas"
+    "id": "c-litcha-das-cinzas",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "c-morgid"
+    "id": "c-morgid",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "c-alberto-gnomis"
+    "id": "c-alberto-gnomis",
+    "pcs": [
+      "c-pc-quasi",
+      "c-pc-isco",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-corvelo"
+    "id": "c-corvelo",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-lampreia"
+    "id": "c-lampreia",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "c-elmiro-trigueiro"
+    "id": "c-elmiro-trigueiro",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-damiao-prestes"
+    "id": "c-damiao-prestes",
+    "pcs": [
+      "c-pc-quasi",
+      "c-pc-lucan",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-soldado-doente"
+    "id": "c-soldado-doente",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-bolbara"
+    "id": "c-bolbara",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "c-pellinost"
+    "id": "c-pellinost",
+    "pcs": [
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-alonne-frith"
+    "id": "c-alonne-frith",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-yussa-errenis"
+    "id": "c-yussa-errenis",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "c-durth-mirimm"
+    "id": "c-durth-mirimm",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "c-skra-sorsk"
+    "id": "c-skra-sorsk",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "c-lizardfolk-do-ossario"
+    "id": "c-lizardfolk-do-ossario",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lucan"
+    ]
   },
   {
     "id": "f-rivals",
-    "tipo": "rival"
+    "tipo": "rival",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "f-dwendalian-empire"
+    "id": "f-dwendalian-empire",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "f-kryn"
+    "id": "f-kryn",
+    "pcs": [
+      "c-pc-lia",
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "f-myriad"
+    "id": "f-myriad",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "f-cerberus-assembly"
+    "id": "f-cerberus-assembly",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "f-cobalt-soul"
+    "id": "f-cobalt-soul",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "amb-quasi-maldicao"
+    "id": "amb-quasi-maldicao",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "amb-quasi-vinganca"
+    "id": "amb-quasi-vinganca",
+    "pcs": [
+      "c-pc-quasi",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "amb-lucan-baeshra"
+    "id": "amb-lucan-baeshra",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "amb-lucan-irmao"
+    "id": "amb-lucan-irmao",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "amb-isco-monstro"
+    "id": "amb-isco-monstro",
+    "pcs": [
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "amb-isco-campeao"
+    "id": "amb-isco-campeao",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "amb-isco-tripulacao"
+    "id": "amb-isco-tripulacao",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "amb-lia-pai"
+    "id": "amb-lia-pai",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-agenda-baeshra-lucan"
+    "id": "t-agenda-baeshra-lucan",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "t-agenda-sessinek-lucan"
+    "id": "t-agenda-sessinek-lucan",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "t-agenda-caca-isco"
+    "id": "t-agenda-caca-isco",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-agenda-vesqar-quasi"
+    "id": "t-agenda-vesqar-quasi",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-laco-lucan-quasi"
+    "id": "t-laco-lucan-quasi",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-laco-lucan-isco"
+    "id": "t-laco-lucan-isco",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "t-laco-isco-lia"
+    "id": "t-laco-isco-lia",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-laco-quasi-alberto"
+    "id": "t-laco-quasi-alberto",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-laco-quasi-damiao"
+    "id": "t-laco-quasi-damiao",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-laco-isco-elmiro"
+    "id": "t-laco-isco-elmiro",
+    "pcs": [
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "l-urzin"
+    "id": "l-urzin",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "l-sunken-boneyard"
+    "id": "l-sunken-boneyard",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "l-crumbling-tower"
+    "id": "l-crumbling-tower",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "l-ritual-stone"
+    "id": "l-ritual-stone",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "l-fort-venture"
+    "id": "l-fort-venture",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "l-brokenveil-bluffs"
+    "id": "l-brokenveil-bluffs",
+    "pcs": [
+      "c-pc-lia",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "i-adaga-drow"
+    "id": "i-adaga-drow",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "i-garra-seis-dedos"
+    "id": "i-garra-seis-dedos",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "i-mapa-do-morgid"
+    "id": "i-mapa-do-morgid",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "i-livro-de-registos"
+    "id": "i-livro-de-registos",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "i-saco-da-lia"
+    "id": "i-saco-da-lia",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "i-amuletos-do-trono"
+    "id": "i-amuletos-do-trono",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "t-missao-bolbara"
+    "id": "t-missao-bolbara",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-missao-patrulha"
+    "id": "t-missao-patrulha",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-missao-rubidio"
+    "id": "t-missao-rubidio",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "t-missao-nevoa-do-brejo"
+    "id": "t-missao-nevoa-do-brejo",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-decisao-miriade-jevan"
+    "id": "t-decisao-miriade-jevan",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-decisao-matar-skra"
+    "id": "t-decisao-matar-skra",
+    "pcs": [
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "t-decisao-mapa-morgid"
+    "id": "t-decisao-mapa-morgid",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "t-decisao-livro-escriba"
+    "id": "t-decisao-livro-escriba",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-decisao-curar-alex"
+    "id": "t-decisao-curar-alex",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-promessa-800po"
+    "id": "t-promessa-800po",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-promessa-mapa-morgid"
+    "id": "t-promessa-mapa-morgid",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "t-promessa-segredo-mascara"
+    "id": "t-promessa-segredo-mascara",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-promessa-alex-vida"
+    "id": "t-promessa-alex-vida",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-relogio-terceira-vez"
+    "id": "t-relogio-terceira-vez",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
     "id": "t-frente-kryn",
-    "tipo": "relogio"
+    "tipo": "relogio",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-relogio-urzin-sem-seer"
+    "id": "t-relogio-urzin-sem-seer",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-relogio-guerra"
+    "id": "t-relogio-guerra",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-gatilho-tocar-na-pedra"
+    "id": "t-gatilho-tocar-na-pedra",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-gatilho-damiao-ve"
+    "id": "t-gatilho-damiao-ve",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "t-gatilho-mascara-cai"
+    "id": "t-gatilho-mascara-cai",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-gatilho-bolbara-truche"
+    "id": "t-gatilho-bolbara-truche",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-gatilho-flash-ruidus"
+    "id": "t-gatilho-flash-ruidus",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "r-pc-baeshra-cla-ro"
+    "id": "r-pc-baeshra-cla-ro",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "r-pc-lucan-salvou-isco"
+    "id": "r-pc-lucan-salvou-isco",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "r-padre-entrega-bolbara"
+    "id": "r-padre-entrega-bolbara",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "r-garra-seis-dedos"
+    "id": "r-garra-seis-dedos",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "r-lia-vidas-passadas"
+    "id": "r-lia-vidas-passadas",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "r-alberto-assembleia"
+    "id": "r-alberto-assembleia",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "r-pc-lucan-sessinek"
+    "id": "r-pc-lucan-sessinek",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "r-tempestade-truche"
+    "id": "r-tempestade-truche",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "r-prisioneira-lia"
+    "id": "r-prisioneira-lia",
+    "pcs": [
+      "c-pc-lia",
+      "c-pc-isco",
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "r-tranca-branca-lia"
+    "id": "r-tranca-branca-lia",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-semente-cranio-dente-ouro"
+    "id": "t-semente-cranio-dente-ouro",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-semente-sonho-quasi"
+    "id": "t-semente-sonho-quasi",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-semente-adaga-lia"
+    "id": "t-semente-adaga-lia",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "t-semente-mortos-vivos"
+    "id": "t-semente-mortos-vivos",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "t-semente-aves-sudoeste"
+    "id": "t-semente-aves-sudoeste",
+    "pcs": [
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "t-desfecho-alyxian"
+    "id": "t-desfecho-alyxian",
+    "pcs": [
+      "*"
+    ]
   },
   {
-    "id": "p-renata"
+    "id": "p-renata",
+    "pcs": [
+      "c-pc-lucan"
+    ]
   },
   {
-    "id": "p-pedro-silva"
+    "id": "p-pedro-silva",
+    "pcs": [
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "p-pedro-ropio"
+    "id": "p-pedro-ropio",
+    "pcs": [
+      "c-pc-isco"
+    ]
   },
   {
-    "id": "p-camila"
+    "id": "p-camila",
+    "pcs": [
+      "c-pc-lia"
+    ]
   },
   {
-    "id": "p-tiago-rosa"
+    "id": "p-tiago-rosa",
+    "pcs": [
+      "c-pc-tiago"
+    ]
   },
   {
-    "id": "t-teoria-alberto-dois-lados"
+    "id": "t-teoria-alberto-dois-lados",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
-    "id": "t-teoria-sessinek"
+    "id": "t-teoria-sessinek",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi"
+    ]
   },
   {
     "id": "t-mesa-regras-da-casa"

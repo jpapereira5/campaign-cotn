@@ -45,9 +45,11 @@ export class Indice {
   /** id → relações que chegam (de quem parte, e a relação) */
   chegam = new Map<string, { de: string; rel: Record<string, unknown> }[]>()
   readonly ids: Set<string>
+  readonly arvore: Arvore
   private reIds: RegExp
 
-  constructor(readonly arvore: Arvore) {
+  constructor(arvore: Arvore) {
+    this.arvore = arvore
     for (const d of arvore.docs) if (typeof d.meta.id === 'string') this.porId.set(d.meta.id, d)
     this.ids = new Set(this.porId.keys())
     for (const d of arvore.docs) if (typeof d.meta.id === 'string') this.nomes.set(d.meta.id, this.calcNome(d))
