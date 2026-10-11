@@ -1,0 +1,2508 @@
+{
+  "nota": "Conteúdo do mockup da Grelha de 2026-10-11 (sessão atual: S5). Semente para data/grid/rows.json e data/grid/facts.json; regras de conversão em docs/grelha.md, secção 14 (fase 1). As células de s1 a s5 são factos já jogados (tirados de docs/sessoes, docs/canone.md e docs/pcs.md, com citações verificadas). As células de s6 em diante são propostas do Claude no mockup: entram como ideias, nunca como planos.",
+  "colunas": {
+    "s1": "Sessão 1 (s-081, 2 set.)",
+    "s2": "Sessão 2 (s-083, 9 set.)",
+    "s3": "Sessão 3 (s-084, 16 set.)",
+    "s4": "Sessão 4 (s-086, 23 set.)",
+    "s5": "Sessão 5 (s-088, 7 out.)",
+    "s6": "Sessão 6 (próxima)",
+    "ch0": "Resto do prólogo",
+    "ch1": "Cap. 1 · Jigau",
+    "ch2": "Cap. 2 · Estrada de Jorhas",
+    "ch3": "Cap. 3 · Bazzoxan",
+    "ch4": "Cap. 4 · Ank'Harel",
+    "ch5": "Cap. 5 · Cael Morrow",
+    "ch6": "Cap. 6 · Netherdeep",
+    "ch7": "Cap. 7 · Heart of Despair"
+  },
+  "pcs": {
+    "Lucan": "c-pc-lucan",
+    "Isco": "c-pc-isco",
+    "Quasi": "c-pc-quasi",
+    "Lia": "c-pc-lia",
+    "Tiago": "(por definir)"
+  },
+  "linhas": [
+    {
+      "tipo": "sessao",
+      "nome": "Dia no mundo",
+      "pcs": [
+        "*"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Dia 1"
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "Dia 1, ao entardecer"
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "Dia 1 → meio-dia do dia 2"
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Tarde do dia 2"
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Noite do dia 2 → meio-dia do dia 4"
+        }
+      }
+    },
+    {
+      "tipo": "sessao",
+      "nome": "Nível do grupo",
+      "sub": "decide o tier dos rivais",
+      "pcs": [
+        "*"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "3"
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "3"
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "3"
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "3"
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "3"
+        },
+        "ch1": {
+          "estado": "registo",
+          "texto": "3 → 4"
+        },
+        "ch2": {
+          "estado": "registo",
+          "texto": "4 → 5"
+        },
+        "ch3": {
+          "estado": "registo",
+          "texto": "5 → 7"
+        },
+        "ch4": {
+          "estado": "registo",
+          "texto": "7 → 9"
+        },
+        "ch5": {
+          "estado": "registo",
+          "texto": "9 → 10"
+        },
+        "ch6": {
+          "estado": "registo",
+          "texto": "10 → 12"
+        },
+        "ch7": {
+          "estado": "registo",
+          "texto": "12 → 13"
+        }
+      }
+    },
+    {
+      "tipo": "sessao",
+      "nome": "Resumo",
+      "pcs": [
+        "*"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Chegada a Urzin: o Bufal II contrata o grupo; partida para o pântano."
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "A Conquista de Alberto: combate no Cemitério Afundado; o Skr'a morre."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "O Descanso de Alberto Bravo: saque, a adaga, a garra e os sonhos."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "A Traição de Alberto: a patrulha imperial; o Morgid vai-se embora."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "As Noites da Terceira Lança: vigias, o livro de registos, dois dias perdidos."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "O obelisco negro: a pedra que rebobina (b-0-ritual-stone)."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Guardião do Musgo, Forte Ventura, a capela, regresso a Urzin."
+        },
+        "ch1": {
+          "estado": "registo",
+          "texto": "Festival do Mérito, os rivais, o Emerald Grotto, a primeira visão."
+        },
+        "ch2": {
+          "estado": "registo",
+          "texto": "Viagem para Bazzoxan; o roubo noturno da Jóia."
+        },
+        "ch3": {
+          "estado": "registo",
+          "texto": "Os três investigadores de Ank'Harel; a Ascensão dos Traidores."
+        },
+        "ch4": {
+          "estado": "registo",
+          "texto": "Escolher fação; os rivais escolhem a oposta."
+        },
+        "ch5": {
+          "estado": "registo",
+          "texto": "Missões em Cael Morrow; a Key to the Netherdeep."
+        },
+        "ch6": {
+          "estado": "registo",
+          "texto": "As memórias de Alyxian; o Perigee; os rivais."
+        },
+        "ch7": {
+          "estado": "registo",
+          "texto": "Alyxian fala: matar, libertar ou redimir."
+        }
+      }
+    },
+    {
+      "tipo": "sessao",
+      "nome": "Onde parou",
+      "pcs": [
+        "*"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Cercados no Cemitério Afundado, com flechas no ar."
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "Combate ganho; o saque fica por fazer."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "A caminho do obelisco; encontro garantido (d20 = 18)."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Acampados com a patrulha; a noite do dia 2 por jogar."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "O obelisco negro à vista; as rãs graves e a lama lenta."
+        }
+      }
+    },
+    {
+      "tipo": "grupo",
+      "nome": "O grupo",
+      "sub": "reputação e agenda",
+      "pcs": [
+        "*"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Contratados pelo Bufal II para resgatar a Bolbara; o nome do grupo fica por decidir."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "No registo da patrulha: «Quá-quá», Anzol, Isco e «o vosso patrão», Alberto."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "No livro do escriba: «liderados por um gnomo chamado Alberto», com 800 po prometidas."
+        }
+      }
+    },
+    {
+      "tipo": "pc",
+      "nome": "Lucan Anzol-Bruma",
+      "sub": "Renata · water genasi",
+      "badges": [
+        "insanidade: por registar"
+      ],
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "registo",
+          "texto": "Arranca a adaga do altar: uma fome que não passa e «Perto. Não aqui.»"
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Contorna a patrulha sem ser visto; anda na vertical numa árvore, à vista dos soldados."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Medita com a adaga junto à fogueira; come uma cobra viva à vista da patrulha."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Cena pessoal: a pedra que rebobina."
+        }
+      }
+    },
+    {
+      "tipo": "pc",
+      "nome": "Isco Anzol-Bruma",
+      "sub": "Pedro Ropio · water genasi",
+      "badges": [
+        "insanidade: por registar"
+      ],
+      "pcs": [
+        "Isco"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "«Bait and vomit»: rouba o hobgoblin e o Azrok; fixa o cheiro da Bolbara no colar de conchas."
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "Mata o Skr'a S'orsk com a besta e dois lizardfolk à dentada."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "Pesca a noite toda: peixe para dez."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Ouve o sussurro do Alberto (passiva 20); quer libertar a prisioneira."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Pesca com o Elmiro e alimenta a coluna inteira; manda um sending ao Yussa."
+        },
+        "s6": {
+          "estado": "falta",
+          "texto": "Sem cena pessoal planeada."
+        }
+      }
+    },
+    {
+      "tipo": "pc",
+      "nome": "Quasi",
+      "sub": "Pedro Silva · Quasimodo d'Clopin, bardo",
+      "badges": [
+        "insanidade: por registar"
+      ],
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Paga a dormida com música; diz «Miríade» ao Jevan."
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "Quebra a concentração do Skr'a com Vicious Mockery; fica a 5 PV."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "Uma hora com a adaga, outra com a garra; sonha que lidera uma caravana."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Passa os homens-sapo com Suggestion; fica no registo como «Quá-quá»."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Lê o livro do escriba; ao Corvelo: «a pior coisa que me podia acontecer já me aconteceu»."
+        },
+        "s6": {
+          "estado": "falta",
+          "texto": "Sem cena pessoal planeada."
+        }
+      }
+    },
+    {
+      "tipo": "pc",
+      "nome": "Lia",
+      "sub": "Camila · drow, clériga",
+      "badges": [
+        "insanidade: por registar"
+      ],
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Estreia: prisioneira amordaçada na jangada; segue o Lucan com o olhar."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Cura o Alex com Lesser Restoration à frente do Elmiro e é amarrada a sério."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Soltar-se das amarras (o cliffhanger do DM)."
+        }
+      }
+    },
+    {
+      "tipo": "pc",
+      "nome": "PC do Tiago",
+      "sub": "Tiago Rosa · por definir",
+      "pcs": [
+        "Tiago"
+      ],
+      "celulas": {
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Entra in media res."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Bufal II",
+      "sub": "ogre, líder interino de Urzin",
+      "atitude": "neutro",
+      "quer": "a seer de volta; que ninguém lhe questione a liderança",
+      "teme": "perder Urzin para o Império",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Contrata o grupo pela Bolbara: «Voltem com ela, ou não voltem de todo.»"
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Jevan",
+      "sub": "soldado drow da Dinastia",
+      "atitude": "neutro",
+      "quer": "sossego",
+      "teme": "o Império; mais trabalho",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Recebe o grupo à entrada de Urzin e leva-o ao Bufal."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Azrok",
+      "sub": "hobgoblin, capitão de uma tartaruga",
+      "atitude": "neutro",
+      "flags": [
+        "rancor"
+      ],
+      "quer": "manter a autoridade sobre a tartaruga",
+      "pcs": [
+        "Isco",
+        "Lucan"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "aberto",
+          "texto": "Humilhado no concurso de cerveja e roubado pelo Isco."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Litcha das Cinzas",
+      "sub": "curandeira cega do Templo das Cinzas",
+      "atitude": "amigavel",
+      "quer": "que Urzin escute Melora e não Bane",
+      "pcs": [
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Dá ao Isco o colar da Bolbara: «Ela foi buscar algo que só existe no pântano.»"
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "O Ritual da Libertação no Templo das Cinzas (b-0-ritual-libertacao)."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Morgid",
+      "sub": "batedor lizardfolk, mudo",
+      "atitude": "desconfiado",
+      "flags": [
+        "devemos-lhe"
+      ],
+      "quer": "uma missão sem heroísmos",
+      "teme": "o Cemitério Afundado",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Dado pelo Bufal como guia; escreve numa lousa e assobia."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "Reza com as mãos na lama, no chão do clã do pai; ninguém lhe pergunta nada.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "s4": {
+          "estado": "aberto",
+          "texto": "Recusa viajar com imperiais; o Lucan tira-lhe o mapa e ele desaparece na lama."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Segue o grupo à distância.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Reaparece na luta com a Bolbara possuída ou no regresso a Urzin (← S4)."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Alberto Pé-Leve",
+      "sub": "gnomo «alquimista», acompanhante",
+      "atitude": "amigavel",
+      "quer": "um lugar no Império; a filha a salvo",
+      "teme": "ser reconhecido",
+      "pcs": [
+        "Quasi",
+        "Isco",
+        "Lia"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "«Gnomis», alquimista perdido do Império; quer ir para casa."
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "Uma adaga a 60 pés quebra a concentração do Skr'a: «A Conquista de Alberto»."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "Lê o dracónico do altar; o crânio com dente de ouro incomoda-o."
+        },
+        "s4": {
+          "estado": "aberto",
+          "texto": "Dá o nome verdadeiro, diz que contratou o grupo e sussurra ao Corvelo."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "No livro do escriba, como líder do grupo."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Vasco Corvelo",
+      "sub": "sargento da patrulha",
+      "atitude": "neutro",
+      "flags": [
+        "deve-nos"
+      ],
+      "quer": "um relatório que não seja derrota",
+      "teme": "explicar três mortes ao Felmont",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Aceita o grupo como guia; muda de cara depois do sussurro do Alberto."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Único sobrevivente de um pelotão emboscado nas falésias; manda amarrar a Lia a sério."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Rosinda Sousela",
+      "sub": "batedora, de besta",
+      "atitude": "desconfiado",
+      "quer": "que isto acabe sem barulho",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Escondida na lama; aponta a besta ao Lucan junto à jangada: «Alto!»"
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "Desaparece a noite inteira do dia 3 e volta enlameada, sem explicação."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Elmiro Trigueiro",
+      "sub": "recruta da patrulha",
+      "atitude": "desconfiado",
+      "quer": "ir para casa, a norte do rio",
+      "teme": "a drow",
+      "pcs": [
+        "Isco",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "O recruta do capacete grande de mais, a puxar a jangada."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "Vê a Lia curar o Alex e conta ao sargento. Já sabe o que o grupo vale."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Damião Prestes",
+      "sub": "escriba, assistente do Padre Perestrelo",
+      "atitude": "neutro",
+      "quer": "assinaturas; levar o catálogo ao padre",
+      "pcs": [
+        "Quasi",
+        "Lucan",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Regista os nomes do grupo «para o registo»."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "Entrega o livro sob feitiço: «Eles irão saber.»"
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Alex",
+      "sub": "soldado da patrulha",
+      "atitude": "neutro",
+      "flags": [
+        "deve-nos"
+      ],
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "registo",
+          "texto": "Curado da febre do pântano pela Lia."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Bolbara",
+      "sub": "xamã goblin de Urzin",
+      "atitude": "por-conhecer",
+      "quer": "que os ritos sejam retomados",
+      "teme": "perder a mente para o Truche",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Desaparecida há três noites; terá sido levada para o Forte Ventura."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "No livro: na capela do forte, sob estudo do padre; «ainda não disse a palavra certa»."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Padre Perestrelo",
+      "sub": "capelão do Forte Ventura",
+      "atitude": "por-conhecer",
+      "quer": "confissões; a aprovação de Vesh",
+      "teme": "nada visível",
+      "pcs": [
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "registo",
+          "texto": "No livro: «ele não a deixa morrer»; para o escriba, é «a pessoa mais competente»."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "A capela: interromper o padre (b-0-chapel). Só ele tem relação com Vesh.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Prisioneiro do padre",
+      "sub": "o Fritz",
+      "atitude": "por-conhecer",
+      "pcs": [
+        "Lucan",
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "No livro: um homem perdido no pântano, guardado «para mais investigação»."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "No forte: «o prisioneiro que não pisca»."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Yussa Errenis",
+      "sub": "mago de Nicodranas",
+      "atitude": "amigavel",
+      "flags": [
+        "patrono"
+      ],
+      "quer": "saber o que é o rubídio, e mais nada",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "pago",
+          "texto": "Mandou os irmãos a Urzin; à mesa, por confirmar (confirmado na S5)."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "Responde ao sending: «Há uma guerra agora. Há algum sinal daquilo que procurou?»"
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Duarte Mirim",
+      "sub": "drow do conselho; Intendente de Jigau",
+      "atitude": "por-conhecer",
+      "quer": "relatórios para Rosohna",
+      "teme": "parecer fraco perante a corte",
+      "pcs": [
+        "Lucan",
+        "Lia"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "aberto",
+          "texto": "No sonho do Lucan, o drow velho do conselho cruza-lhe o olhar."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Partida de Urzin: a carta a Duarte Mirim (b-0-departure)."
+        },
+        "ch1": {
+          "estado": "planeado",
+          "texto": "Reconhece a adaga ao cinto do Lucan: foi ele que a cravou no pai de Baeshra (b-1-mirimm-reconhece).",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Skr'a S'orsk",
+      "sub": "xamã lizardfolk de Sess'inek",
+      "atitude": "morto",
+      "pcs": [
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Quer «dádivas» para o seu senhor, Sess'inek; as flechas começam a voar."
+        },
+        "s2": {
+          "estado": "fechado",
+          "texto": "Morto pelo Isco, com uma seta na cabeça. Linha fechada."
+        }
+      }
+    },
+    {
+      "tipo": "npc",
+      "nome": "Lizardfolk do ossário",
+      "sub": "quatro sobreviventes",
+      "atitude": "hostil",
+      "teme": "o Isco",
+      "pcs": [
+        "Isco",
+        "Lucan"
+      ],
+      "celulas": {
+        "s2": {
+          "estado": "registo",
+          "texto": "Quatro fogem pela água."
+        },
+        "s3": {
+          "estado": "aberto",
+          "texto": "Vigiam o grupo à distância, à espera que saia; alguém voltará ao trono."
+        }
+      }
+    },
+    {
+      "tipo": "rival",
+      "nome": "Os Bons Demais",
+      "sub": "Ayo, Dermot, Galsariad, Ivo e Maggie",
+      "atitude": "por-conhecer",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "ch1": {
+          "estado": "planeado",
+          "texto": "Entram no Festival do Mérito, em Jigau; cada rival passa a ter linha própria."
+        }
+      }
+    },
+    {
+      "tipo": "facao",
+      "nome": "Império Dwendaliano",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "O Bufal: «O Império chegou a Jorhas e só trouxe desgraça.»"
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Uma patrulha perdida do Forte Ventura; um soldado: «Ou são os piores espiões do mundo…»"
+        }
+      }
+    },
+    {
+      "tipo": "facao",
+      "nome": "Dinastia Kryn",
+      "pcs": [
+        "Lia",
+        "Lucan"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Urzin é vila militar Kryn: «cuidado com os Kryn»."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "Uma couraça Kryn partida ao meio, troféu ao lado do trono do ossário."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "O Elmiro: «Vocês não são da dinastia, pois não?»"
+        }
+      }
+    },
+    {
+      "tipo": "facao",
+      "nome": "Miríade",
+      "sub": "contrabando de rubídio",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "O Jevan reconhece o nome; a Névoa do Brejo é a porta em Urzin."
+        }
+      }
+    },
+    {
+      "tipo": "facao",
+      "nome": "Assembleia de Cerebrus",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "O nome verdadeiro do Alberto, mago da Assembleia, ficou num registo imperial.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "facao",
+      "nome": "Biblioteca da Alma de Cobalto",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "registo",
+          "texto": "O selo de expositor do pai da Lia está no saco, na jangada."
+        },
+        "ch4": {
+          "estado": "planeado",
+          "texto": "Uma das três fações de Ank'Harel."
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Tirar a maldição: poder ser visto",
+      "sub": "Quasi · oculta: ser amado por alguém que o viu",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "O Damião remete as maldições para o Padre Perestrelo, «a pessoa mais competente»."
+        },
+        "ch7": {
+          "estado": "planeado",
+          "texto": "A cura: alguém que o amou tira-lhe a máscara lá dentro; é a mesma mecânica de redimir Alyxian.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Vingar-se da caravana",
+      "sub": "Quasi · travar os sacrifícios ao Filho Ctónico",
+      "pcs": [
+        "Quasi",
+        "Isco"
+      ],
+      "celulas": {
+        "ch3": {
+          "estado": "planeado",
+          "texto": "Antes de Marquet, o Brishen chega com a bruma: o aviso do Tobar.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch4": {
+          "estado": "planeado",
+          "texto": "Feira impromptu em Marquet; a raunie pode lá estar.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Perceber a ligação a Baeshra",
+      "sub": "Lucan · oculta: ser necessário ao irmão, e depois deixar de o ser",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "registo",
+          "texto": "O altar de criança, a fome e o sonho da origem."
+        },
+        "ch1": {
+          "estado": "planeado",
+          "texto": "No Festival, um seguidor de Baeshra com a caveira com chifres tatuada nas costas.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch7": {
+          "estado": "planeado",
+          "texto": "Escolhe no fim: renegar Baeshra e voltar à vida, ou devorar Alyxian e subir.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Proteger o irmão",
+      "sub": "Lucan · sem lhe contar o que aconteceu no aboleto",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "registo",
+          "texto": "Trava o Quasi: «Voltas a pôr o meu irmão em perigo e não sais deste pântano vivo.»"
+        },
+        "ch3": {
+          "estado": "planeado",
+          "texto": "Na Ascensão, o preço que Sess'inek pede é o próprio Isco.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Pescar aquele Monstro",
+      "sub": "Isco · oculta: não ser descartável",
+      "pcs": [
+        "Isco"
+      ],
+      "celulas": {
+        "ch2": {
+          "estado": "planeado",
+          "texto": "No mar, um aboleto oferece-lhe saber o que o engoliu.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Fazer do irmão campeão, ou livrá-lo",
+      "sub": "Isco",
+      "pcs": [
+        "Isco",
+        "Lucan"
+      ],
+      "celulas": {
+        "ch3": {
+          "estado": "planeado",
+          "texto": "Livrá-lo passa a ser possível na Ascensão, e o custo é ele, em carne.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Uma tripulação; quem cortou a corda",
+      "sub": "Isco",
+      "pcs": [
+        "Isco",
+        "Lucan"
+      ],
+      "celulas": {
+        "ch2": {
+          "estado": "planeado",
+          "texto": "O Scylla, a Marisa Sete-Ventos e o Belmiro podem cruzar-se no mar.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "ambicao",
+      "nome": "Encontrar o pai",
+      "sub": "Lia",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Deixa-se apanhar pela patrulha para entrar no forte pela porta da frente.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "No forte, o livro de registos do comandante: o pai passou por lá?",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch1": {
+          "estado": "planeado",
+          "texto": "Em Jigau, alguém reconhece o símbolo da Den no pendente.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch3": {
+          "estado": "planeado",
+          "texto": "Em Bazzoxan, a mãe espera-a, sem a poder reconhecer em público.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch7": {
+          "estado": "planeado",
+          "texto": "No Heart of Despair encontram o pai, puxado por Alyxian, com corrupção 5 ou 6.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "agenda",
+      "nome": "Baeshra → Lucan",
+      "sub": "os três pedidos",
+      "quer": "duelos com público",
+      "teme": "chegar tarde outra vez",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "registo",
+          "texto": "Primeiro contacto: a fome e «Perto. Não aqui.»; depois cala-se até ao momento escolhido."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Na pedra: «Ele agora também te vê.» Cada toque no obelisco paga a renda a Vecna.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch1": {
+          "estado": "planeado",
+          "texto": "1.º pedido: desafiar a mais forte do Festival, a Ayo Jabe.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch3": {
+          "estado": "planeado",
+          "texto": "2.º pedido: desafiar o Verin Thelyss; se cair a 0 PV e voltar em Rage, devorar.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch7": {
+          "estado": "planeado",
+          "texto": "3.º pedido: devorar Alyxian, um semideus a comer um semideus.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "agenda",
+      "nome": "Sess'inek → Lucan",
+      "sub": "a oferta da Ascensão",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "ch3": {
+          "estado": "planeado",
+          "texto": "Oferece-lhe a vida de volta; o preço é devorar uma parte do Isco, que não volta a crescer.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "agenda",
+      "nome": "Quem caça o Isco",
+      "sub": "o Império aboleto, a caravana Naiat, as Claret Orders",
+      "pcs": [
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "ch2": {
+          "estado": "planeado",
+          "texto": "O Império aboleto quer-no pelo sangue de Ruidus; o Belmiro, que lhe cortou a corda, é deles.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch4": {
+          "estado": "planeado",
+          "texto": "Em Marquet, a caravana do Quasi caça-o como alimento; chega o segundo caçador das Claret Orders.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch5": {
+          "estado": "planeado",
+          "texto": "O Belmiro pode persegui-lo até Cael Morrow.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "agenda",
+      "nome": "Vesq'ar → Quasi",
+      "sub": "o campeão da Lua Vermelha; só observa",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "ch3": {
+          "estado": "planeado",
+          "texto": "A Aloysia reconhece o bardo mascarado e reporta, sem saber porquê.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch4": {
+          "estado": "planeado",
+          "texto": "O Consórcio tem ficha sobre ele.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "laco",
+      "nome": "Lucan ↔ Quasi",
+      "sub": "a adaga",
+      "pcs": [
+        "Lucan",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Conheceram-se numa rixa: os irmãos foram atirados para a lama e caíram-lhe em cima."
+        },
+        "s3": {
+          "estado": "aberto",
+          "texto": "Exige a adaga; o Quasi pede 200, depois 400 po. «Não me testes.»"
+        },
+        "s5": {
+          "estado": "pago",
+          "texto": "Rouba-lha a dormir e devolve-a; de manhã o Quasi dá-lha: «Toma, fica com ela.» (← S3)"
+        }
+      }
+    },
+    {
+      "tipo": "laco",
+      "nome": "Lucan ↔ Isco",
+      "sub": "os irmãos Anzol-Bruma",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "registo",
+          "texto": "O Isco ouve-lhe a fome a roncar e deixa-lhe peixe ao lado."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Combinam em Thieves' Cant à frente de todos; o Quasi não percebe."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Em halfling: os soldados do sargento são inúteis."
+        }
+      }
+    },
+    {
+      "tipo": "laco",
+      "nome": "Isco ↔ Lia",
+      "sub": "as cordas",
+      "pcs": [
+        "Isco",
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Falam baixo na jangada; na noite seguinte ele folga-lhe as cordas, e ela sabe que foi ele."
+        }
+      }
+    },
+    {
+      "tipo": "laco",
+      "nome": "Quasi ↔ Alberto",
+      "sub": "o gnomo agarrado à roupa dele",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Aceita-o como companhia."
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "«Esta é a parte em que fugimos, não é?» — «Oh não, esta é a melhor parte.»"
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "O Alberto dorme agarrado ao Quasi."
+        },
+        "s4": {
+          "estado": "aberto",
+          "texto": "«O que é que tu sabes, Alberto?» A confissão fica a meio."
+        }
+      }
+    },
+    {
+      "tipo": "laco",
+      "nome": "Quasi ↔ Damião",
+      "sub": "a máscara",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Desenha-o enquanto conversam e estende a mão para lhe tirar a máscara."
+        }
+      }
+    },
+    {
+      "tipo": "laco",
+      "nome": "Isco ↔ Elmiro",
+      "sub": "a pesca",
+      "pcs": [
+        "Isco"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Pescam juntos; na noite seguinte o Elmiro escolhe o sargento e conta o que viu."
+        }
+      }
+    },
+    {
+      "tipo": "local",
+      "nome": "Urzin",
+      "sub": "vila nómada sobre tartarugas-do-horizonte",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "A Carapaça Estalada (duas noites grátis) e o Templo das Cinzas."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Regresso a Urzin: conselho sobre o destino do forte, festa e Hesskar-Ro (b-0-return-to-urzin)."
+        }
+      }
+    },
+    {
+      "tipo": "local",
+      "nome": "Cemitério Afundado",
+      "sub": "o ossário (B3)",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Emboscada do Skr'a S'orsk."
+        },
+        "s3": {
+          "estado": "aberto",
+          "texto": "Saqueado; ficaram a couraça Kryn, os sete amuletos e quatro lizardfolk de vigia."
+        }
+      }
+    },
+    {
+      "tipo": "local",
+      "nome": "Torre das aranhas",
+      "sub": "B4",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "aberto",
+          "texto": "Passam ao lado; teias brancas em cada janela.",
+          "tags": [
+            "ultima"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "local",
+      "nome": "Obelisco negro",
+      "sub": "a pedra ritual",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "O Morgid aponta-o no mapa."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "À vista, num espelho de água: as rãs coaxam mais grave e a lama demora a fechar."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Os fragmentos de cristal lançam augury (← S5)."
+        }
+      }
+    },
+    {
+      "tipo": "local",
+      "nome": "Forte Ventura",
+      "sub": "destino da patrulha",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "O Bufal acha que a Bolbara foi levada para lá."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Os trovões vêm sempre do lado do forte, a oeste."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "À chegada: guarnição meio doente, o Felmont manda menos do que devia, a palavra-passe «Cinza-Doze».",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "local",
+      "nome": "Falésias do Véu-Quebrado",
+      "pcs": [
+        "Lia",
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Onde «mãos invisíveis» emboscaram o pelotão do Corvelo, e onde a Lia esperou que a apanhassem."
+        }
+      }
+    },
+    {
+      "tipo": "item",
+      "nome": "Adaga drow +1",
+      "sub": "do altar de Baeshra",
+      "pcs": [
+        "Lucan",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "aberto",
+          "texto": "Arrancada do altar pelo Lucan; o Quasi fica com ela e recusa vendê-la."
+        },
+        "s5": {
+          "estado": "pago",
+          "texto": "Agora ao cinto do Lucan (← S3)."
+        }
+      }
+    },
+    {
+      "tipo": "item",
+      "nome": "Garra de seis dedos",
+      "sub": "do peito do Skr'a",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "aberto",
+          "texto": "Cheira a enxofre, como os demónios do Farol Apagado; parece haver mais."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Usada para tirar o livro ao escriba."
+        }
+      }
+    },
+    {
+      "tipo": "item",
+      "nome": "Mapa do Morgid",
+      "sub": "marcas visuais, por decifrar",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Tirado ao Morgid pelo Lucan; passa para a mochila do Isco."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Com o mapa e o sextante, o Lucan perde-se dois dias seguidos."
+        }
+      }
+    },
+    {
+      "tipo": "item",
+      "nome": "Livro de registos",
+      "sub": "do escriba Damião Prestes",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Lido pelo Quasi: a Bolbara, um homem preso, as 800 po. «As páginas são contadas.»"
+        }
+      }
+    },
+    {
+      "tipo": "item",
+      "nome": "Saco da Lia",
+      "sub": "na jangada",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Armas, armadura, símbolo sagrado, o pendente, o selo de expositor e o dinheiro do pai."
+        }
+      }
+    },
+    {
+      "tipo": "item",
+      "nome": "Sete amuletos do trono",
+      "sub": "ficaram no ossário",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "aberto",
+          "texto": "O Lucan reconhece três (Semuanya, Melora, Luxon); dois por identificar: um disco de ferro com uma lua e uma mão de madeira de polegar partido.",
+          "tags": [
+            "ultima"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "missao",
+      "nome": "Resgatar a Bolbara",
+      "sub": "Bufal II · 200 po e «armas premium»",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "Aceite em Urzin."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Destino confirmado: a capela do forte."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "A capela e o exorcismo, ou a Bolbara à solta; se ela voltar, a festa e os Amuletos de Honra (b-0-urzin-feast).",
+          "tags": [
+            "trunfo"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "missao",
+      "nome": "Guiar a patrulha ao forte",
+      "sub": "o Corvelo contrata o grupo",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Aceite: o grupo vai à frente da coluna."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Dois dias perdidos em círculos: a chegada escorrega pelo menos um dia."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Chegada ao Forte Ventura (b-0-fort-venture)."
+        }
+      }
+    },
+    {
+      "tipo": "missao",
+      "nome": "Investigar o rubídio",
+      "sub": "encomenda do Yussa Errenis",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "O que trouxe os irmãos a Urzin."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Olomão reconhece o rubídio (b-0-salomao-rubidio)."
+        }
+      }
+    },
+    {
+      "tipo": "missao",
+      "nome": "Névoa do Brejo",
+      "sub": "pista do Jevan, em Urzin",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "aberto",
+          "texto": "«Clientes diferentes»: a porta da Miríade em Urzin. Ainda não foram."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Fica para o regresso a Urzin (b-0-nevoa-do-brejo)."
+        }
+      }
+    },
+    {
+      "tipo": "decisao",
+      "nome": "Dizer «Miríade» ao Jevan",
+      "sub": "Quasi · S1",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "aberto",
+          "texto": "O Jevan reconhece o nome e fica a olhar: está acima do que ele pode resolver."
+        }
+      }
+    },
+    {
+      "tipo": "decisao",
+      "nome": "Matar o Skr'a S'orsk",
+      "sub": "Isco · S2",
+      "pcs": [
+        "Isco"
+      ],
+      "celulas": {
+        "s2": {
+          "estado": "pago",
+          "texto": "A corte fica sem rei; a resposta veio na S3: os sobreviventes de vigia."
+        }
+      }
+    },
+    {
+      "tipo": "decisao",
+      "nome": "Tirar o mapa ao Morgid",
+      "sub": "Lucan · S4",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "O Morgid percebe e vai-se embora ofendido, com contas por ajustar com o Império."
+        }
+      }
+    },
+    {
+      "tipo": "decisao",
+      "nome": "Ler o livro do escriba",
+      "sub": "Quasi · S5",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "À força de Suggestion e do Command da garra; o escriba avisa: «Eles irão saber.»"
+        }
+      }
+    },
+    {
+      "tipo": "decisao",
+      "nome": "Curar o Alex à vista do Elmiro",
+      "sub": "Lia · S5",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "pago",
+          "texto": "O Elmiro conta ao sargento e a Lia é amarrada a sério."
+        }
+      }
+    },
+    {
+      "tipo": "promessa",
+      "nome": "800 po à chegada ao forte",
+      "sub": "o Corvelo ao grupo",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "Prometidas sem garantia; o Lucan vê que ele diz o que for preciso."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "No livro: «Não sabia que o sargento tinha tanto dinheiro para dar às pessoas.»"
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "À chegada, não existem (← S4).",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "promessa",
+      "nome": "Devolver o mapa ao Morgid",
+      "sub": "o Lucan ao Morgid",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "Promete devolvê-lo se os caminhos se cruzarem."
+        }
+      }
+    },
+    {
+      "tipo": "promessa",
+      "nome": "O segredo da máscara",
+      "sub": "o Damião ao Quasi",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Fica entre os dois; se se lembrar de alguma coisa, fala primeiro com o Quasi. Guarda um esboço."
+        }
+      }
+    },
+    {
+      "tipo": "promessa",
+      "nome": "O Alex deve a vida à Lia",
+      "sub": "dívida",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Curado da febre do pântano à frente do Elmiro.",
+          "tags": [
+            "trunfo"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "relogio",
+      "nome": "A terceira vez",
+      "sub": "o Truche e a Bolbara · 2/3",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "A Bolbara desapareceu há três noites."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "Dois dias perdidos no pântano. No livro, o relógio acabava ao dia 3; o grupo vai no dia 4.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Na visão da pedra: «Já falta pouco, velha. A terceira é minha.»"
+        }
+      }
+    },
+    {
+      "tipo": "relogio",
+      "nome": "A Dinastia observa o pântano",
+      "sub": "frente Kryn",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "A frente diz «observam quem enfrentou o Império no Pântano do Véu-Quebrado»; o grupo, em vez disso, guiou uma patrulha imperial.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch1": {
+          "estado": "planeado",
+          "texto": "Chegam a Jigau com a atenção da Dinastia; o Duarte Mirim relata os finalistas a Rosohna.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "relogio",
+      "nome": "Urzin sem seer",
+      "sub": "o Bufal já pensa em substituí-la",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "registo",
+          "texto": "Fora de cena: o Bufal não confia que voltem e pondera quem substitui a Bolbara.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Conselho de Urzin: o destino do Forte Ventura (b-0-urzin-council)."
+        }
+      }
+    },
+    {
+      "tipo": "relogio",
+      "nome": "Guerra Império–Dinastia",
+      "sub": "835 P.D.",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Patrulhas imperiais na fronteira: «Há mais patrulhas neste pântano.»"
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "O Corvelo: «Há quem diga que era inevitável. Há quem diga que foi provocada.»"
+        }
+      }
+    },
+    {
+      "tipo": "gatilho",
+      "nome": "Tocar na pedra",
+      "sub": "→ uma visão, pelos olhos da Bolbara",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "registo",
+          "texto": "A pedra à vista."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "No presente: correntes num altar, cheiro a cera, a luz dourada a puxá-la de volta pela segunda vez.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "gatilho",
+      "nome": "O Damião vê algo estranho",
+      "sub": "o Isco a transformar-se ou o Lucan a comer",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Quase: o Lucan anda na vertical numa árvore."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "Cumprido: o Lucan come uma cobra viva à vista do acampamento."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "O Damião muda de alvo, à frente de toda a gente (← S5)."
+        }
+      }
+    },
+    {
+      "tipo": "gatilho",
+      "nome": "A máscara do Quasi cai",
+      "sub": "→ horror, ou o demiplano",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Quase: o Damião estende a mão para lha tirar e o Quasi impede-o."
+        },
+        "ch0": {
+          "estado": "falta",
+          "texto": "Decidir onde entra a primeira queda, por acidente.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "gatilho",
+      "nome": "A Bolbara morre ou é exorcizada",
+      "sub": "→ o Truche volta à pedra",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "ch0": {
+          "estado": "planeado",
+          "texto": "O Truche regressa ao obelisco, não ao Shadowfell.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "gatilho",
+      "nome": "Um flash de Ruidus",
+      "sub": "→ o Isco transforma-se sem controlo",
+      "pcs": [
+        "Isco",
+        "Lucan"
+      ],
+      "celulas": {
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Sem calendário. Escalada: acorda longe, sangue que não é dele, alguém morre.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "Baeshra e o clã Ro",
+      "sabe": "o DM; o Lucan, em parte",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "pista",
+          "texto": "O altar: «Ssarik-Ro» riscado e «Baeshra» por baixo; o sonho da origem pelos olhos do rapaz.",
+          "pistas": 2
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Pista: «Baeshra esteve aqui», escrito em dracónico na pedra."
+        },
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Pista: Hesskar-Ro, o pai do Morgid, em Urzin (b-0-hesskar-ro)."
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "A verdade do resgate",
+      "sub": "o Lucan salvou o Isco, através de Baeshra",
+      "sabe": "Baeshra; testemunha: o aboleto ancião",
+      "pcs": [
+        "Lucan",
+        "Isco"
+      ],
+      "celulas": {
+        "s2": {
+          "estado": "pista",
+          "texto": "Primeira Rage à mesa: a cauda e os olhos vermelhos."
+        },
+        "s3": {
+          "estado": "pista",
+          "texto": "Come um lizardfolk cru, e a fome não passa."
+        },
+        "s5": {
+          "estado": "pista",
+          "texto": "Come uma cobra viva."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "A pedra mostra-lhe um pedaço da noite no aboleto: a voz.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch2": {
+          "estado": "planeado",
+          "texto": "O obelisco do mar: o salto.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch3": {
+          "estado": "planeado",
+          "texto": "O obelisco da Ascensão: o que o corpo fez.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "O padre entrega a Bolbara ao Truche",
+      "sub": "sem saber",
+      "sabe": "ninguém, nem o padre",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "pista",
+          "texto": "No livro: «ele não a deixa morrer»; «ainda não disse a palavra certa».",
+          "pistas": 2
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Pista: na visão da pedra, um homem de mãos levantadas: «Outra vez.»"
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "O que a garra faz",
+      "sub": "Command 1×/dia",
+      "sabe": "só o Quasi",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "registo",
+          "texto": "O Quasi descobre-o numa hora de contemplação e esconde-o do grupo."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Usa-a no escriba, sem ninguém do grupo ver."
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "As vidas passadas da Lia",
+      "sub": "três sonhos por sítio; o deus dela é o Luxon",
+      "sabe": "ninguém",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "ch0": {
+          "estado": "planeado",
+          "texto": "Urzin: o terceiro sonho dá o nome Kryn, com um gatilho no sítio.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch1": {
+          "estado": "planeado",
+          "texto": "Jigau: Zolaed; a Belana Zolaed pode reconhecer-lhe os gestos.",
+          "tags": [
+            "so-dm"
+          ]
+        },
+        "ch3": {
+          "estado": "planeado",
+          "texto": "Bazzoxan: Hythenos; a Ascensão: Thelyss.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "O Alberto é da Assembleia",
+      "sabe": "o DM",
+      "pcs": [
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "pista",
+          "texto": "O Isco ouve o sussurro; o Quasi vê o sorriso do Corvelo."
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "A corte é de Sess'inek",
+      "sabe": "o DM",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "pista",
+          "texto": "O Skr'a fala do seu senhor, Sess'inek."
+        },
+        "s3": {
+          "estado": "pista",
+          "texto": "Trono, seis espadas, postos em cicatrizes de 2, 3 e 5 dedos; a garra tem seis."
+        },
+        "ch3": {
+          "estado": "planeado",
+          "texto": "Guardado para a Ascensão dos Traidores: seis braços, seis espadas."
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "A tempestade é o Truche",
+      "sub": "a acordar",
+      "sabe": "o DM",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi",
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "pista",
+          "texto": "Relâmpago sem som, trovões a oeste o dia inteiro, trovoada à noite; de manhã, céu limpo.",
+          "pistas": 3
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "Quem é a prisioneira",
+      "sabe": "a Lia",
+      "pcs": [
+        "Lia",
+        "Isco",
+        "Lucan"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "pista",
+          "texto": "Drow amordaçada na jangada; segue o Lucan com o olhar."
+        },
+        "s5": {
+          "estado": "pista",
+          "texto": "O Elmiro: «estava sentada à espera deles»; lança feitiços.",
+          "pistas": 2
+        }
+      }
+    },
+    {
+      "tipo": "revelacao",
+      "nome": "A trança branca é da Lia",
+      "sabe": "o DM",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "pista",
+          "texto": "Uma madeixa branca platinada, entrançada no pulso esquerdo do Damião."
+        }
+      }
+    },
+    {
+      "tipo": "semente",
+      "nome": "O crânio com dente de ouro",
+      "sub": "incomodou o Alberto",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "aberto",
+          "texto": "Na saia de crânios do Skr'a; o Alberto não diz porquê. Por definir."
+        }
+      }
+    },
+    {
+      "tipo": "semente",
+      "nome": "O sonho do Quasi",
+      "sub": "é a garra a empurrar?",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "aberto",
+          "texto": "Líder inquestionado de uma caravana. O jogador: o Quasi quer ser questionado, não obedecido. Por decidir."
+        }
+      }
+    },
+    {
+      "tipo": "semente",
+      "nome": "A adaga reage à Lia",
+      "sub": "criada pela mesa",
+      "pcs": [
+        "Lucan",
+        "Lia"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "As duas vezes que o Lucan pega nela, a fome baixa e o olhar vai para a Lia. Por decidir."
+        }
+      }
+    },
+    {
+      "tipo": "semente",
+      "nome": "Os mortos-vivos sem dono",
+      "sub": "goblinóides, numa só direção",
+      "pcs": [
+        "Isco",
+        "Lucan"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "aberto",
+          "texto": "Arrastam-se todos para o mesmo lado, sem reagir ao grupo; o Corvelo não comenta."
+        }
+      }
+    },
+    {
+      "tipo": "semente",
+      "nome": "As aves de sudoeste",
+      "sub": "vêm do forte",
+      "pcs": [
+        "Isco"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "Passam de sudoeste para nordeste; ninguém lhes deu seguimento."
+        }
+      }
+    },
+    {
+      "tipo": "desfecho",
+      "nome": "Matar, soltar ou redimir Alyxian",
+      "sub": "ainda nada pesa",
+      "pcs": [
+        "*"
+      ],
+      "celulas": {
+        "ch1": {
+          "estado": "planeado",
+          "texto": "Primeira visão de Alyxian, na Jewel of Three Prayers."
+        },
+        "ch7": {
+          "estado": "planeado",
+          "texto": "Matá-lo na 3.ª fase derrete o rubídio; o Lucan pode devorá-lo; redimi-lo é a mecânica da cura do Quasi.",
+          "tags": [
+            "so-dm"
+          ]
+        }
+      }
+    },
+    {
+      "tipo": "jogador",
+      "nome": "Renata",
+      "sub": "joga com o Lucan",
+      "pcs": [
+        "Lucan"
+      ],
+      "celulas": {
+        "s2": {
+          "estado": "registo",
+          "texto": "Canta «TPK, TPK» quando aparecem as oito cobras."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "Ajuda a Camila com as cartas de feitiços."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Pede um sextante para o Lucan (background)."
+        }
+      }
+    },
+    {
+      "tipo": "jogador",
+      "nome": "Pedro Silva",
+      "sub": "joga com o Quasi",
+      "pcs": [
+        "Quasi"
+      ],
+      "celulas": {
+        "s3": {
+          "estado": "registo",
+          "texto": "Quer um Quasi que seja questionado, não obedecido."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "Quinta sessão seguida: recorde pessoal."
+        }
+      }
+    },
+    {
+      "tipo": "jogador",
+      "nome": "Pedro Ropio",
+      "sub": "joga com o Isco",
+      "pcs": [
+        "Isco"
+      ],
+      "celulas": {
+        "s1": {
+          "estado": "pago",
+          "texto": "Avisa: Alemanha de 29/09 a 03/10 (não houve sessão a 30/09)."
+        }
+      }
+    },
+    {
+      "tipo": "jogador",
+      "nome": "Camila",
+      "sub": "joga com a Lia",
+      "pcs": [
+        "Lia"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "registo",
+          "texto": "Estreia; tem de sair às 23h."
+        },
+        "s5": {
+          "estado": "aberto",
+          "texto": "Duas sessões amarrada, a falar quase só com o Isco."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Soltar a Lia e pô-la a falar com o grupo todo (← S5)."
+        }
+      }
+    },
+    {
+      "tipo": "jogador",
+      "nome": "Tiago Rosa",
+      "sub": "novo jogador",
+      "pcs": [
+        "Tiago"
+      ],
+      "celulas": {
+        "s5": {
+          "estado": "registo",
+          "texto": "Entra daqui a duas semanas; personagem por definir."
+        },
+        "s6": {
+          "estado": "planeado",
+          "texto": "Entrevista de apresentação, do jogador e da personagem, antes de entrar."
+        }
+      }
+    },
+    {
+      "tipo": "teoria",
+      "nome": "O Alberto joga dos dois lados",
+      "sub": "certa",
+      "pcs": [
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "«A Traição de Alberto»: o sussurro e o sorriso do Corvelo."
+        }
+      }
+    },
+    {
+      "tipo": "teoria",
+      "nome": "Sess'inek: deus de quê?",
+      "sub": "aberta",
+      "pcs": [
+        "Lucan",
+        "Isco",
+        "Quasi"
+      ],
+      "celulas": {
+        "s2": {
+          "estado": "aberto",
+          "texto": "Procuram-no nos PDFs dos deuses e não o encontram; o DM: «está na terceira caixa»."
+        }
+      }
+    },
+    {
+      "tipo": "mesa",
+      "nome": "Regras da casa",
+      "sub": "e decisões de regras",
+      "celulas": {
+        "s2": {
+          "estado": "registo",
+          "texto": "Ressurreição incompleta, insanity tracker, flanking; «ferido» só abaixo de metade."
+        },
+        "s3": {
+          "estado": "registo",
+          "texto": "Vantagem num teste passivo soma +5; encontros com d20, de 16 para cima."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "PVP permitido; Suggestion e Command não avisam o alvo."
+        }
+      }
+    },
+    {
+      "tipo": "mesa",
+      "nome": "Piadas internas",
+      "sub": "e callbacks",
+      "celulas": {
+        "s1": {
+          "estado": "registo",
+          "texto": "«Bait and vomit»; nomes para o grupo: Pescadores, Os Mordidos, Alberto e Companhia."
+        },
+        "s2": {
+          "estado": "registo",
+          "texto": "«Alberto Bravo»; «Ser nerd salva vidas»."
+        },
+        "s4": {
+          "estado": "registo",
+          "texto": "«A Traição de Alberto», assumidamente clickbait; «Quá-quá»."
+        },
+        "s5": {
+          "estado": "registo",
+          "texto": "«Este episódio foi trazido pela Coca-Cola»."
+        }
+      }
+    },
+    {
+      "tipo": "mesa",
+      "nome": "Confessionário",
+      "celulas": {
+        "s4": {
+          "estado": "aberto",
+          "texto": "Falou-se em fazê-lo na semana sem sessão."
+        }
+      }
+    }
+  ]
+}
