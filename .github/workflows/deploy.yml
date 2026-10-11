@@ -3,6 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # Cada «Guardar» na app é um commit só de grelha/dm.json; a app lê esse ficheiro ao vivo (com o token),
+    # por isso esses commits não precisam de deploy. Um push que toque noutros ficheiros continua a fazer deploy.
+    paths-ignore:
+      - 'grelha/dm.json'
   workflow_dispatch:
 
 permissions:

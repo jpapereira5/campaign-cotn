@@ -123,7 +123,7 @@
           {#each g.plano.capitulos as c (c.id)}
             <div class="cell" class:col-cur={c.id === g.capituloAtual}>
               {#each a.porCapitulo[c.id] ?? [] as b (b.id)}
-                <button class="beat {b.estado}" onclick={() => abrir(b.id)} title={b.estado}>{b.estado === 'jogado' ? '✓ ' : b.estado === 'em-curso' ? '… ' : ''}{b.titulo}</button>
+                <button class="beat {b.estado}" onclick={() => abrir(b.id)} title={b.estado}>{b.estado === 'jogado' ? '✓ ' : b.estado === 'em-curso' ? '… ' : b.estado === 'proposta' ? '? ' : ''}{b.titulo}</button>
               {/each}
             </div>
           {/each}
@@ -683,6 +683,10 @@
   }
   .beat.em-curso {
     border-color: var(--accent);
+  }
+  .beat.proposta {
+    border-style: dashed;
+    color: var(--muted);
   }
   .beat:hover {
     border-color: var(--accent);

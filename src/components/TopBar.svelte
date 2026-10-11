@@ -1,76 +1,24 @@
 <script lang="ts">
-  import { ui, world, chapterShort, setChapter } from '../lib/state.svelte'
+  import { ui } from '../lib/state.svelte'
 
   const TITLES: Record<string, { title: string; help: string }> = {
-    tempo: {
-      title: 'Linha temporal',
-      help: 'Uma pista por arco (prólogo, Jóia, lore, ruidium, rivais, facções, ambições dos PCs); cada cartão é um beat. Uma linha vertical liga o mesmo beat nas várias pistas em que entra. Clique abre o detalhe; duplo clique marca como jogado.',
-    },
-    grafo: {
-      title: 'Relações',
-      help: 'Quem se liga a quem, no momento escolhido. Por omissão mostra só quem entra no capítulo actual; muda o âmbito para "até agora" ou "tudo". Clica num nó para ver o detalhe; "só vizinhos" isola a rede dessa personagem. Arrastar move (Shift fixa), roda faz zoom.',
-    },
-    frentes: {
-      title: 'Frentes',
-      help: 'Cada facção tem portentos: o que faz se ninguém a travar, capítulo a capítulo. Marca os que já aconteceram; o relógio mostra quanto a frente avançou.',
-    },
-    revelacoes: {
-      title: 'Revelações',
-      help: 'Regra das três pistas: cada conclusão necessária deve ter pelo menos 3 pistas em cenas diferentes. A barra mostra quantas pistas os jogadores já jogaram. Marca a revelação quando a mesa a tiver percebido.',
-    },
-    sessao: {
-      title: 'Sessão',
-      help: 'Painel para preparar e registar sessões: o próximo beat pronto em cada pista, as sessões jogadas e as flags (factos que a mesa estabeleceu).',
-    },
-    pcs: {
-      title: 'PCs e ambições',
-      help: 'Cada ambição deve tocar pelo menos um NPC com poder de a satisfazer ou negar, um arco e, idealmente, um beat por capítulo. A tabela mostra os capítulos sem cena pessoal.',
-    },
-    indice: { title: 'Índice', help: 'Listas completas por tipo. ✚ marca o que acrescentámos ao livro, ▲ o que alterámos.' },
-    definicoes: { title: 'Definições', help: 'Sincronização com o GitHub, exportar/importar e problemas nos dados.' },
-    grelha: { title: 'Grelha', help: 'Tudo o que está em aberto, sessão a sessão: uma linha por coisa que vale a pena acompanhar, as sessões jogadas e o que vem a seguir nas colunas. Clica numa linha para abrir a ficha.' },
+    grelha: { title: 'Grelha', help: 'Tudo o que está em aberto, sessão a sessão: uma linha por coisa que vale a pena acompanhar, as sessões jogadas e o que vem a seguir nas colunas. Clica numa célula para editar (a tua camada), numa linha para abrir a ficha. O modo Plano mostra os arcos por capítulo.' },
+    grafo: { title: 'Relações', help: 'Quem se liga a quem, no fim do capítulo escolhido: as relações do cabeçalho de cada ficha e as que o registo das sessões criou (traço mais grosso). Um clique escolhe o nó, o segundo abre a ficha; «só vizinhos» isola a rede dessa personagem. Arrastar move (Shift fixa), roda faz zoom.' },
+    sessao: { title: 'Sessão', help: 'A ferramenta para a mesa: o plano da próxima sessão tirado da Grelha, os beats do capítulo por jogar (✓ marca «jogado à mesa», que fica na tua camada até ao fecho), notas rápidas e as sessões do registo.' },
+    indice: { title: 'Índice', help: 'Listas por pasta, com filtro por texto e «só este capítulo». Clica em qualquer coisa para abrir a ficha.' },
+    definicoes: { title: 'Definições', help: 'O token do GitHub, o estado da tua camada e os atalhos.' },
     ficha: { title: 'Ficha', help: 'Uma página por coisa: o estado atual, a história (os acontecimentos em que entra), o plano (os beats à frente), as relações e as menções. Os ids no texto são ligações.' },
   }
   const meta = $derived(TITLES[ui.view] ?? { title: ui.view, help: '' })
-  const chapters = $derived(world.canon.campaign.chapters)
-  const current = $derived(chapters.find((c) => c.id === ui.chapter))
-  const tableChapter = $derived(world.play.currentChapter)
-  const showCursor = $derived(ui.view !== 'definicoes' && ui.view !== 'pcs' && ui.view !== 'ficha' && ui.view !== 'grelha')
-  const readOnly = $derived(world.readOnly)
 </script>
 
 <header class="topbar">
   <div class="left">
     <h1>{meta.title}</h1>
-    {#if readOnly}<span class="tag book" title="Estás a ver o livro sem as nossas alterações; nada é editável">📖 só o livro</span>{/if}
     {#if meta.help}
       <button class="icon ghost help-btn" class:active={ui.helpOpen} onclick={() => (ui.helpOpen = !ui.helpOpen)} title="Ajuda desta vista">?</button>
     {/if}
   </div>
-  {#if showCursor}
-    <div class="cursor" title="Momento da campanha em que estás a olhar: condiciona a linha temporal, as relações activas e os estados das personagens">
-      <span class="muted small lbl">Capítulo</span>
-      <div class="chapters">
-        {#each chapters as ch (ch.id)}
-          <button
-            class="chp"
-            class:active={ui.cursorMode === 'chapter' && ui.chapter === ch.id}
-            class:table={tableChapter === ch.id}
-            onclick={() => setChapter(ch.id)}
-            title="{ch.name} · níveis {ch.levels}{tableChapter === ch.id ? ' · a mesa está aqui' : ''}"
-          >
-            {chapterShort(ch.id)}
-          </button>
-        {/each}
-        <button class="chp played" class:active={ui.cursorMode === 'played'} onclick={() => (ui.cursorMode = 'played')} title="Só o que já foi jogado (beats marcados na Sessão)">
-          ✓ jogado
-        </button>
-      </div>
-      <span class="current small">
-        {#if ui.cursorMode === 'played'}até ao último beat jogado <span class="muted">({world.play.playedBeats.length})</span>{:else if current}{current.name} <span class="muted">· níveis {current.levels}</span>{/if}
-      </span>
-    </div>
-  {/if}
 </header>
 {#if ui.helpOpen && meta.help}
   <div class="helpbar">
@@ -109,66 +57,6 @@
     padding: 0;
     font-weight: 700;
   }
-  .cursor {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    flex-wrap: wrap;
-    margin-left: auto;
-  }
-  .chapters {
-    display: inline-flex;
-    gap: 2px;
-    background: var(--bg-1);
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 2px;
-  }
-  .chp {
-    border: 0;
-    background: transparent;
-    color: var(--muted);
-    border-radius: 999px;
-    padding: 0.2rem 0.6rem;
-    min-width: 2.1em;
-    position: relative;
-    font-variant-numeric: tabular-nums;
-  }
-  .chp:hover {
-    background: var(--bg-3);
-    color: var(--text);
-  }
-  .chp.active {
-    background: var(--accent);
-    color: #1a1206;
-    font-weight: 600;
-  }
-  .chp.table::after {
-    content: '';
-    position: absolute;
-    bottom: 1px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--ok);
-  }
-  .chp.played {
-    border-left: 1px solid var(--line);
-    border-radius: 0 999px 999px 0;
-    margin-left: 2px;
-    padding-left: 0.7rem;
-  }
-  .chp.played.active {
-    background: var(--ok);
-  }
-  .current {
-    white-space: nowrap;
-    max-width: 320px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
   .helpbar {
     display: flex;
     align-items: flex-start;
@@ -181,13 +69,5 @@
   }
   .helpbar span {
     flex: 1;
-  }
-  @media (max-width: 900px) {
-    .current {
-      display: none;
-    }
-    .lbl {
-      display: none;
-    }
   }
 </style>

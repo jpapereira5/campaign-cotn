@@ -1,15 +1,17 @@
 <script lang="ts">
+  // O grafo de relações (docs/arquitetura.md, secção 8): quem se liga a quem, com as relações do cabeçalho e as do
+  // registo, no fim do capítulo escolhido. Clicar num nó abre a Ficha; «só vizinhos» isola a rede de uma personagem.
   import { onMount } from 'svelte'
   import { forceSimulation, forceLink, forceManyBody, forceCollide, forceCenter, forceX, forceY, type Simulation, type SimulationNodeDatum, type SimulationLinkDatum } from 'd3-force'
-  import { ui, world, select, closeSelection, chapterName } from '../lib/state.svelte'
-  import { buildGraph, type GNode, type GLink } from '../lib/graph'
-  import { KIND_COLORS, FACTION_NODE_COLOR, RELATION_STYLES, RELATION_LABELS, KIND_LABELS } from '../lib/colors'
-  import { CHARACTER_KINDS } from '../lib/types'
+  import { ui, world, abrirFicha } from '../lib/state.svelte'
+  import { construirGrafo, TIPOS_PERSONAGEM, type No, type Aresta } from '../lib/grafo'
+  import { KIND_COLORS, FACTION_NODE_COLOR, RELATION_STYLES, RELATION_LABELS, KIND_LABELS, type RelationType } from '../lib/colors'
+  import { porPasta } from '../lib/arquivo/arvore'
 
-  interface SimNode extends SimulationNodeDatum, GNode {}
+  interface SimNode extends SimulationNodeDatum, No {}
   interface SimLink extends SimulationLinkDatum<SimNode> {
-    key: string
-    link: GLink
+    chave: string
+    aresta: Aresta
   }
 
   let width = $state(800)
@@ -27,12 +29,26 @@
   let links: SimLink[] = []
   let sim: Simulation<SimNode, SimLink> | null = null
 
-  const factionColors = $derived(new Map(world.canon.factions.map((f, i) => [f.id, world.canon.arcs.find((a) => a.id === 'a-' + f.id.slice(2))?.color ?? ['#5d8fd1', '#b8443c', '#3f79b8', '#8a7f6b', '#8fa3c7', '#b08968', '#6fbf73', '#e08bb0'][i % 8]])))
-  const selectedId = $derived(ui.selection && (ui.selection.kind === 'character' || ui.selection.kind === 'faction') ? ui.selection.id : null)
-  const cursorChapter = $derived(ui.cursorMode === 'played' ? (world.canon.campaign.chapters[Math.min(Math.floor(world.cursor / 1000), world.canon.campaign.chapters.length - 1)]?.id ?? ui.chapter) : ui.chapter)
-  const graph = $derived(buildGraph(world.canon, world.cursor, ui.filters, world.beatPos, KIND_COLORS, FACTION_NODE_COLOR, factionColors, { chapterId: cursorChapter, focusId: selectedId }))
+  const campanha = $derived(world.campanha)
+  const pastas = $derived(porPasta(world.arvore))
+  const facoes = $derived(pastas.facoes.map((d) => ({ id: String(d.meta.id), nome: String(d.meta.nome ?? d.meta.id) })))
+  const arcos = $derived(campanha.arcos.filter((a) => a.meta.subtipo !== 'pcAmbition').map((a) => ({ id: String(a.meta.id), nome: String(a.meta.nome ?? a.meta.id), cor: String(a.meta.cor ?? '#888') })))
+  const pcs = $derived(campanha.pcs.map((d) => ({ id: String(d.meta.id), nome: String(d.meta.nome ?? d.meta.id) })))
+  const PALETA = ['#5d8fd1', '#b8443c', '#3f79b8', '#8a7f6b', '#8fa3c7', '#b08968', '#6fbf73', '#e08bb0']
+  const corFacao = $derived.by(() => {
+    const m = new Map<string, string>()
+    facoes.forEach((f, i) => {
+      const arco = campanha.arcos.find((a) => a.meta.id === 'a-' + f.id.slice(2))
+      m.set(f.id, arco && typeof arco.meta.cor === 'string' ? arco.meta.cor : PALETA[i % PALETA.length])
+    })
+    return (id: string) => m.get(id) ?? FACTION_NODE_COLOR
+  })
+  const selectedId = $derived(ui.focoGrafo)
+  const grafo = $derived(construirGrafo({ arvore: world.arvore, campanha, estado: world.estado, filtros: ui.filtros, capitulo: ui.capituloGrafo, foco: selectedId, corTipo: KIND_COLORS, corFacao }))
   const focus = $derived(hover ?? selectedId)
-  const activeFilters = $derived(ui.filters.factions.length + ui.filters.arcs.length + (ui.filters.pc ? 1 : 0) + (CHARACTER_KINDS.length - ui.filters.kinds.length) + (ui.filters.showFactions ? 0 : 1))
+  const activeFilters = $derived(ui.filtros.facoes.length + ui.filtros.arcos.length + (ui.filtros.pc ? 1 : 0) + (TIPOS_PERSONAGEM.length - ui.filtros.tipos.length) + (ui.filtros.mostrarFacoes ? 0 : 1))
+  const estilo = (tipo: string) => RELATION_STYLES[tipo as RelationType] ?? RELATION_STYLES.knows
+  const rotulo = (tipo: string) => RELATION_LABELS[tipo as RelationType] ?? tipo
 
   // Ponte d3 → Svelte: cada tick incrementa `frame`; o template lê `drawn`.
   const drawn = $derived.by(() => {
@@ -47,9 +63,9 @@
     }
   })
 
-  function anchorFor(n: GNode): { x: number; y: number } {
-    const f = n.kind === 'faction' ? n.id : n.character?.factions[0]
-    const fs = world.canon.factions.map((x) => x.id)
+  function anchorFor(n: No): { x: number; y: number } {
+    const f = n.tipo === 'facao' ? n.id : (Array.isArray(n.doc.meta.facoes) ? (n.doc.meta.facoes as string[])[0] : undefined)
+    const fs = facoes.map((x) => x.id)
     const idx = f ? fs.indexOf(f) : -1
     if (idx < 0) return { x: width / 2, y: height / 2 }
     const a = (idx / Math.max(fs.length, 1)) * Math.PI * 2
@@ -58,10 +74,10 @@
   }
 
   $effect(() => {
-    const g = graph
+    const g = grafo
     const w = width
     const h = height
-    const next: SimNode[] = g.nodes.map((n) => {
+    const next: SimNode[] = g.nos.map((n) => {
       const existing = nodeMap.get(n.id)
       const a = anchorFor(n)
       const sn: SimNode = existing ? Object.assign(existing, n) : { ...n, x: a.x + (Math.random() - 0.5) * 80, y: a.y + (Math.random() - 0.5) * 80 }
@@ -69,19 +85,19 @@
       return sn
     })
     const ids = new Set(next.map((n) => n.id))
-    const nextLinks: SimLink[] = g.links.filter((l) => ids.has(l.source) && ids.has(l.target)).map((l) => ({ key: l.key, link: l, source: l.source, target: l.target }))
+    const nextLinks: SimLink[] = g.arestas.filter((l) => ids.has(l.de) && ids.has(l.com)).map((l) => ({ chave: l.chave, aresta: l, source: l.de, target: l.com }))
     nodes = next
     links = nextLinks
     if (!sim) {
       sim = forceSimulation<SimNode, SimLink>()
         .force('charge', forceManyBody().strength(-380))
-        .force('collide', forceCollide<SimNode>().radius((d) => d.radius + 8))
+        .force('collide', forceCollide<SimNode>().radius((d) => d.raio + 8))
         .force('center', forceCenter(w / 2, h / 2))
         .on('tick', () => frame++)
     }
     sim.force('link', null)
     sim.nodes(next)
-    sim.force('link', forceLink<SimNode, SimLink>(nextLinks).id((d) => d.id).distance(next.length < 40 ? 120 : 95).strength((l) => (l.link.relation.type === 'memberOf' ? 0.8 : l.link.relation.type === 'knows' ? 0.15 : 0.4)))
+    sim.force('link', forceLink<SimNode, SimLink>(nextLinks).id((d) => d.id).distance(next.length < 40 ? 120 : 95).strength((l) => (l.aresta.relacao.tipo === 'memberOf' ? 0.8 : l.aresta.relacao.tipo === 'knows' ? 0.15 : 0.4)))
     sim.force('x', forceX<SimNode>((d) => anchorFor(d).x).strength(0.05))
     sim.force('y', forceY<SimNode>((d) => anchorFor(d).y).strength(0.05))
     sim.force('center', forceCenter(w / 2, h / 2))
@@ -102,7 +118,7 @@
     }
   })
 
-  // ---- interacção: pan/zoom/drag ------------------------------------------
+  // ---- interação: pan/zoom/drag ------------------------------------------
   let drag: { node: SimNode | null; sx: number; sy: number; ox: number; oy: number; moved: boolean } | null = null
 
   function toWorld(e: PointerEvent): { x: number; y: number } {
@@ -138,14 +154,18 @@
   function onUp(e: PointerEvent) {
     if (!drag) return
     if (drag.node) {
-      if (!drag.moved) select(drag.node.kind === 'faction' ? 'faction' : 'character', drag.node.id)
+      // um clique escolhe o nó (foco); um segundo clique no mesmo nó abre a Ficha
+      if (!drag.moved) {
+        if (ui.focoGrafo === drag.node.id) abrirFicha(drag.node.id)
+        else ui.focoGrafo = drag.node.id
+      }
       if (!e.shiftKey) {
         drag.node.fx = null
         drag.node.fy = null
       }
       sim?.alphaTarget(0)
     } else if (!drag.moved) {
-      closeSelection()
+      ui.focoGrafo = null
     }
     drag = null
   }
@@ -162,7 +182,6 @@
   function resetView() {
     view = { x: 0, y: 0, k: 1 }
   }
-
   function edgePath(x1: number, y1: number, x2: number, y2: number, curve: number): string {
     if (!curve) return `M${x1},${y1} L${x2},${y2}`
     const mx = (x1 + x2) / 2
@@ -173,67 +192,68 @@
     const off = 18 * curve
     return `M${x1},${y1} Q${mx - (dy / len) * off},${my + (dx / len) * off} ${x2},${y2}`
   }
-  function isFocused(l: GLink) {
-    return focus === l.source || focus === l.target
+  function isFocused(l: Aresta) {
+    return focus === l.de || focus === l.com
   }
-
-  const factions = $derived(world.canon.factions)
-  const arcs = $derived(world.canon.arcs.filter((a) => a.kind !== 'pcAmbition'))
-  const pcs = $derived(world.canon.characters.filter((c) => c.kind === 'pc'))
   function toggleIn(list: string[], id: string) {
     return list.includes(id) ? list.filter((x) => x !== id) : [...list, id]
   }
   function clearFilters() {
-    ui.filters.factions = []
-    ui.filters.arcs = []
-    ui.filters.pc = null
-    ui.filters.search = ''
-    ui.filters.kinds = [...CHARACTER_KINDS]
-    ui.filters.showFactions = true
+    ui.filtros.facoes = []
+    ui.filtros.arcos = []
+    ui.filtros.pc = null
+    ui.filtros.pesquisa = ''
+    ui.filtros.tipos = [...TIPOS_PERSONAGEM]
+    ui.filtros.mostrarFacoes = true
   }
+  const nomeFoco = $derived(selectedId ? world.indice.nome(selectedId) : '')
 </script>
 
 <div class="wrap">
   <div class="toolbar">
-    <div class="seg" title="Quem aparece: só quem entra no capítulo escolhido, toda a gente até esse capítulo, ou toda a campanha">
-      <button class:active={ui.filters.scope === 'chapter'} onclick={() => (ui.filters.scope = 'chapter')}>Neste capítulo</button>
-      <button class:active={ui.filters.scope === 'upto'} onclick={() => (ui.filters.scope = 'upto')}>Até agora</button>
-      <button class:active={ui.filters.scope === 'all'} onclick={() => (ui.filters.scope = 'all')}>Tudo</button>
+    <div class="seg" title="Quem aparece: quem entra no capítulo escolhido, toda a gente até esse capítulo, quem a mesa já conheceu, ou toda a campanha">
+      <button class:active={ui.filtros.ambito === 'capitulo'} onclick={() => (ui.filtros.ambito = 'capitulo')}>Neste capítulo</button>
+      <button class:active={ui.filtros.ambito === 'ate-agora'} onclick={() => (ui.filtros.ambito = 'ate-agora')}>Até agora</button>
+      <button class:active={ui.filtros.ambito === 'registo'} onclick={() => (ui.filtros.ambito = 'registo')} title="Só quem já entrou no registo das sessões">Já conhecidos</button>
+      <button class:active={ui.filtros.ambito === 'tudo'} onclick={() => (ui.filtros.ambito = 'tudo')}>Tudo</button>
     </div>
-    <input type="search" placeholder="filtrar por nome…" bind:value={ui.filters.search} />
+    <select bind:value={ui.capituloGrafo} title="O capítulo: condiciona quem aparece e as relações com início ou fim">
+      {#each campanha.capitulos as ch (ch.id)}<option value={ch.id}>{ch.nome}{ch.id === campanha.capituloAtual ? ' (a mesa está aqui)' : ''}</option>{/each}
+    </select>
+    <input type="search" placeholder="filtrar por nome…" bind:value={ui.filtros.pesquisa} />
     <div class="popwrap">
       <button class:active={showFilters || activeFilters > 0} onclick={() => (showFilters = !showFilters)}>Filtros{#if activeFilters} ({activeFilters}){/if} ▾</button>
       {#if showFilters}
         <div class="pop">
           <div class="pop-sec">
             <div class="pop-title">Tipos</div>
-            {#each CHARACTER_KINDS as k (k)}
-              <label><input type="checkbox" checked={ui.filters.kinds.includes(k)} onchange={() => (ui.filters.kinds = toggleIn(ui.filters.kinds, k) as typeof ui.filters.kinds)} /> <span style:color={KIND_COLORS[k]}>●</span> {KIND_LABELS[k]}</label>
+            {#each TIPOS_PERSONAGEM as k (k)}
+              <label><input type="checkbox" checked={ui.filtros.tipos.includes(k)} onchange={() => (ui.filtros.tipos = toggleIn(ui.filtros.tipos, k) as typeof ui.filtros.tipos)} /> <span style:color={KIND_COLORS[k]}>●</span> {KIND_LABELS[k]}</label>
             {/each}
-            <label><input type="checkbox" bind:checked={ui.filters.showFactions} /> ■ Facções como nós</label>
+            <label><input type="checkbox" bind:checked={ui.filtros.mostrarFacoes} /> ■ Fações como nós</label>
           </div>
           <div class="pop-sec">
-            <div class="pop-title">Só destas facções</div>
+            <div class="pop-title">Só destas fações</div>
             <div class="pop-list">
-              {#each factions as f (f.id)}
-                <label><input type="checkbox" checked={ui.filters.factions.includes(f.id)} onchange={() => (ui.filters.factions = toggleIn(ui.filters.factions, f.id))} /> {f.name}</label>
+              {#each facoes as f (f.id)}
+                <label><input type="checkbox" checked={ui.filtros.facoes.includes(f.id)} onchange={() => (ui.filtros.facoes = toggleIn(ui.filtros.facoes, f.id))} /> {f.nome}</label>
               {/each}
             </div>
           </div>
           <div class="pop-sec">
-            <div class="pop-title">Só quem entra nestas pistas</div>
+            <div class="pop-title">Só quem entra nestes arcos</div>
             <div class="pop-list">
-              {#each arcs as a (a.id)}
-                <label><input type="checkbox" checked={ui.filters.arcs.includes(a.id)} onchange={() => (ui.filters.arcs = toggleIn(ui.filters.arcs, a.id))} /> <span style:color={a.color}>●</span> {a.name}</label>
+              {#each arcos as a (a.id)}
+                <label><input type="checkbox" checked={ui.filtros.arcos.includes(a.id)} onchange={() => (ui.filtros.arcos = toggleIn(ui.filtros.arcos, a.id))} /> <span style:color={a.cor}>●</span> {a.nome}</label>
               {/each}
             </div>
           </div>
           {#if pcs.length}
             <div class="pop-sec">
               <div class="pop-title">À volta de um PC</div>
-              <select bind:value={ui.filters.pc}>
+              <select bind:value={ui.filtros.pc}>
                 <option value={null}>todos</option>
-                {#each pcs as p (p.id)}<option value={p.id}>{p.name}</option>{/each}
+                {#each pcs as p (p.id)}<option value={p.id}>{p.nome}</option>{/each}
               </select>
             </div>
           {/if}
@@ -241,9 +261,10 @@
         </div>
       {/if}
     </div>
-    <label class="toggle" class:on={ui.filters.ego} title={selectedId ? 'Mostrar só a personagem seleccionada e quem se liga a ela' : 'Selecciona primeiro uma personagem'}>
-      <input type="checkbox" bind:checked={ui.filters.ego} disabled={!selectedId} />◎ só vizinhos
+    <label class="toggle" class:on={ui.filtros.ego} title={selectedId ? 'Mostrar só a personagem escolhida e quem se liga a ela' : 'Escolhe primeiro uma personagem (um clique num nó)'}>
+      <input type="checkbox" bind:checked={ui.filtros.ego} disabled={!selectedId} />◎ só vizinhos
     </label>
+    {#if selectedId}<button class="chip" onclick={() => abrirFicha(selectedId!)} title="Abrir a ficha">{nomeFoco} →</button>{/if}
     <span class="spacer"></span>
     <span class="muted small">{drawn.nodes.length} nós · {drawn.links.length} ligações</span>
     <button class="icon ghost" onclick={resetView} title="Repor zoom">⤢</button>
@@ -259,42 +280,43 @@
         {/each}
       </defs>
       <g transform="translate({view.x},{view.y}) scale({view.k})">
-        {#each drawn.links as d (d.l.key)}
-          {@const st = RELATION_STYLES[d.l.link.relation.type]}
-          {@const f = isFocused(d.l.link)}
-          <path d={edgePath(d.x1, d.y1, d.x2, d.y2, d.l.link.curve)} fill="none" stroke={st.color} stroke-width={f ? st.width + 1.2 : st.width} stroke-dasharray={st.dash} opacity={focus && !f ? 0.1 : 0.85} marker-end={st.arrow ? `url(#arrow-${d.l.link.relation.type})` : undefined}>
-            <title>{d.l.link.source} {RELATION_LABELS[d.l.link.relation.type]} {d.l.link.target}: {d.l.link.relation.label}</title>
+        {#each drawn.links as d (d.l.chave)}
+          {@const st = estilo(d.l.aresta.relacao.tipo)}
+          {@const f = isFocused(d.l.aresta)}
+          {@const registo = d.l.aresta.relacao.fonte === 'registo'}
+          <path d={edgePath(d.x1, d.y1, d.x2, d.y2, d.l.aresta.curva)} fill="none" stroke={st.color} stroke-width={(f ? st.width + 1.2 : st.width) + (registo ? 0.8 : 0)} stroke-dasharray={st.dash} opacity={focus && !f ? 0.1 : registo ? 1 : 0.85} marker-end={st.arrow ? `url(#arrow-${d.l.aresta.relacao.tipo})` : undefined}>
+            <title>{world.indice.nome(d.l.aresta.de)} {rotulo(d.l.aresta.relacao.tipo)} {world.indice.nome(d.l.aresta.com)}{d.l.aresta.relacao.nota ? `: ${d.l.aresta.relacao.nota}` : ''}{registo ? ' (do registo)' : ''}</title>
           </path>
           {#if f}
-            <text x={(d.x1 + d.x2) / 2} y={(d.y1 + d.y2) / 2 - 4} font-size="10" fill={st.color} text-anchor="middle" paint-order="stroke" stroke="#15120f" stroke-width="3">{d.l.link.relation.label || RELATION_LABELS[d.l.link.relation.type]}</text>
+            <text x={(d.x1 + d.x2) / 2} y={(d.y1 + d.y2) / 2 - 4} font-size="10" fill={st.color} text-anchor="middle" paint-order="stroke" stroke="#15120f" stroke-width="3">{d.l.aresta.relacao.nota || rotulo(d.l.aresta.relacao.tipo)}</text>
           {/if}
         {/each}
         {#each drawn.nodes as d (d.n.id)}
-          {@const dim = focus && focus !== d.n.id && !links.some((l) => (l.link.source === focus && l.link.target === d.n.id) || (l.link.target === focus && l.link.source === d.n.id))}
+          {@const dim = focus && focus !== d.n.id && !links.some((l) => (l.aresta.de === focus && l.aresta.com === d.n.id) || (l.aresta.com === focus && l.aresta.de === d.n.id))}
           <g transform="translate({d.x},{d.y})" class="node" opacity={dim ? 0.25 : 1} onpointerdown={(e) => onNodeDown(d.n, e)} onpointerenter={() => (hover = d.n.id)} onpointerleave={() => (hover = null)} role="button" tabindex="-1">
-            {#if d.n.kind === 'faction'}
-              <rect x={-d.n.radius} y={-d.n.radius} width={d.n.radius * 2} height={d.n.radius * 2} rx="4" fill={d.n.color} stroke={selectedId === d.n.id ? '#fff' : '#15120f'} stroke-width="1.5" />
+            {#if d.n.tipo === 'facao'}
+              <rect x={-d.n.raio} y={-d.n.raio} width={d.n.raio * 2} height={d.n.raio * 2} rx="4" fill={d.n.cor} stroke={selectedId === d.n.id ? '#fff' : '#15120f'} stroke-width="1.5" />
             {:else}
-              <circle r={d.n.radius} fill={d.n.color} stroke={selectedId === d.n.id ? '#fff' : d.n.ring ?? '#15120f'} stroke-width={d.n.ring ? 2.5 : 1.5} />
+              <circle r={d.n.raio} fill={d.n.cor} stroke={selectedId === d.n.id ? '#fff' : d.n.anel ?? '#15120f'} stroke-width={d.n.anel ? 2.5 : 1.5} />
             {/if}
-            <text y={d.n.radius + 11} font-size={d.n.kind === 'pc' || d.n.kind === 'faction' ? 12 : 10} text-anchor="middle" fill="#ece3d4" paint-order="stroke" stroke="#15120f" stroke-width="3">{d.n.label}</text>
+            <text y={d.n.raio + 11} font-size={d.n.tipo === 'pc' || d.n.tipo === 'facao' ? 12 : 10} text-anchor="middle" fill="#ece3d4" paint-order="stroke" stroke="#15120f" stroke-width="3">{d.n.nome}</text>
           </g>
         {/each}
       </g>
     </svg>
     {#if !drawn.nodes.length}
-      <div class="empty-overlay"><div class="empty">Ninguém a mostrar com estes filtros{ui.filters.scope === 'chapter' ? ` em ${chapterName(cursorChapter)}` : ''}. Experimenta o âmbito "Até agora" ou "Tudo".</div></div>
+      <div class="empty-overlay"><div class="empty">Ninguém a mostrar com estes filtros{ui.filtros.ambito === 'capitulo' ? ` em ${campanha.nomeCapitulo(ui.capituloGrafo)}` : ''}. Experimenta o âmbito «Até agora» ou «Tudo».</div></div>
     {/if}
-    <div class="hint muted tiny">arrastar: mover (Shift fixa) · roda: zoom · clique no fundo: limpar selecção</div>
+    <div class="hint muted tiny">clique: escolher · segundo clique: ficha · arrastar: mover (Shift fixa) · roda: zoom · clique no fundo: limpar</div>
     {#if showLegend}
       <div class="legend">
         <div class="legend-title">Nós</div>
-        {#each CHARACTER_KINDS as k (k)}<span><i class="sw" style:background={KIND_COLORS[k]}></i>{KIND_LABELS[k]}</span>{/each}
-        <span><i class="sw sq" style:background={FACTION_NODE_COLOR}></i>Facção</span>
-        <span class="muted">anel = 1.ª facção · tamanho = n.º de relações</span>
+        {#each TIPOS_PERSONAGEM as k (k)}<span><i class="sw" style:background={KIND_COLORS[k]}></i>{KIND_LABELS[k]}</span>{/each}
+        <span><i class="sw sq" style:background={FACTION_NODE_COLOR}></i>Fação</span>
+        <span class="muted">anel = 1.ª fação · tamanho = n.º de relações · traço mais grosso = relação vinda do registo</span>
         <div class="legend-title">Ligações</div>
         {#each Object.entries(RELATION_STYLES) as [t, s] (t)}
-          <span><svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke={s.color} stroke-width="2" stroke-dasharray={s.dash} /></svg>{RELATION_LABELS[t as keyof typeof RELATION_LABELS]}</span>
+          <span><svg width="26" height="8"><line x1="0" y1="4" x2="26" y2="4" stroke={s.color} stroke-width="2" stroke-dasharray={s.dash} /></svg>{RELATION_LABELS[t as RelationType]}</span>
         {/each}
       </div>
     {/if}

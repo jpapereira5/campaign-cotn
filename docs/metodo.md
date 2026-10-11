@@ -16,18 +16,18 @@ Este documento explica o modelo por trás da app e como o usar para preparar *Ca
 
 ## 2. Técnicas de mesa que mapeiam para o mesmo problema
 
-- **Revelation lists e regra das três pistas** (Justin Alexander, *The Alexandrian*): cada conclusão necessária tem ≥3 pistas em cenas diferentes. É a versão de mesa das flags. O *Remixing Call of the Netherdeep* dá duas listas prontas: *Campaign Agendas* e *Lore of Alyxian* — estão em `data/revelations/`.
+- **Revelation lists e regra das três pistas** (Justin Alexander, *The Alexandrian*): cada conclusão necessária tem ≥3 pistas em cenas diferentes. É a versão de mesa das flags. O *Remixing Call of the Netherdeep* dá duas listas prontas: *Campaign Agendas* e *Lore of Alyxian* — estão em `mundo/segredos/`.
 - **Node-based design**: cenas são nós ligados por pistas, não uma sequência; é isso que deixa os enredos cruzarem-se.
-- **Fronts e grim portents** (Dungeon World): cada fação/vilão tem uma sequência de portentos que avança se os PCs não intervierem. É a dimensão temporal de cada enredo concorrente. Vista "Frentes".
-- **Relationship map** (DramaSystem/Hillfolk): quem quer o quê de quem. Vista "Relações".
+- **Fronts e grim portents** (Dungeon World): cada fação/vilão tem uma sequência de portentos que avança se os PCs não intervierem. É a dimensão temporal de cada enredo concorrente: os fios `frente` (`plano/fios/t-frente-*.md`) e as linhas Relógio da Grelha.
+- **Relationship map** (DramaSystem/Hillfolk): quem quer o quê de quem. Vista «Relações».
 - **Secrets & clues** (Lazy DM): 10 segredos soltos por sessão, reveláveis em qualquer nó.
-- **Ambições como motores**: cada PC declara 1-3 ambições; cada ambição liga-se a ≥1 NPC que a pode satisfazer ou negar, ≥1 fação/arco e ≥1 beat por capítulo. Vista "PCs" mostra os buracos.
+- **Ambições como motores**: cada PC declara 1-3 ambições; cada ambição liga-se a ≥1 NPC que a pode satisfazer ou negar, ≥1 fação/arco e ≥1 beat por capítulo. A Grelha mostra os buracos («sem cena pessoal planeada»).
 
 ## 3. As pistas concorrentes de CotN e o centro da teia
 
 **Centro = Heart of Despair.** Todas as pistas terminam na mesma pergunta: matar, libertar ou redimir Alyxian. O que muda é o estado com que se chega: quem tem a Jewel, atitude dos rivais, fação dos PCs, quem está corrompido por rubídio, quantos Fragments of Suffering e quantas "placações" no Netherdeep.
 
-Pistas (lanes na linha temporal):
+Pistas (os arcos, `plano/fios/a-*.md`; no modo Plano da Grelha, uma linha por arco):
 - **Prólogo — Unwelcome Spirits**: Urzin → Pântano do Véu-Quebrado → Forte Ventura → exorcismo de Bol'bara (relógio de 3 dias). Fios para CotN: Kryn vs Império, Jorhas, operativos Kryn reparam nos PCs.
 - **A Jewel of Three Prayers**: Dormant (Emerald Grotto, E12) → Awakened (Ascensão dos Traidores, R16) → Exalted (Temple of the Coração Arcano, M9) → abre o rift e N22a.
 - **Lore de Alyxian**: puxar as 20 visões do Netherdeep para trás — murais no Grotto, Ascensão dos Traidores, Question's sketchbook, Olara, Hadarai, M10 — para que os jogadores tenham opiniões fortes e divergentes sobre Alyxian *antes* de Ank'Harel. Pré-estabelecer Perigee.
@@ -35,14 +35,16 @@ Pistas (lanes na linha temporal):
 - **Rivais**: cinco modos de ação (parceria / seguem os PCs / independentes / saem / roubam a Jewel) e o **Princípio da Oposição**: a atitude decide o *tom* do desacordo (negociação agressiva / debate / discussão), não a opinião. Se não há forma de os rivais discordarem numa secção, os PCs não têm informação suficiente para ter opinião.
 - **Allegiance of Allsight / Consortium of the Vermilion Dream / Alma de Cobalto**: cada uma com um investigador em Bazzoxan que é a "cara" da fação (Prolix / Aloysia / Question); missões como competição entre fações; controlo territorial de Cael Morrow; as sextas missões da Aliança e do Consórcio são impossíveis por desenho, só a da Alma de Cobalto se ganha.
 - **Sentinels of Memory**: Lymmle Wist infiltrada na Aliança (emboscada no Life Dome, Prolix incriminado, assassinos).
-- **Ambições de cada PC**: uma lane por PC, criada na app.
+- **Ambições de cada PC**: um arco por PC (`plano/fios/a-pc-*.md`), com as ambições em `plano/fios/amb-*.md`.
 
 ## 4. Como preparar com a app
 
-1. **Antes da campanha**: cria os PCs na vista "PCs"; escreve 1-3 ambições por PC e liga cada uma a NPCs, arcos e beats. Corrige os avisos de "capítulo sem cena pessoal". Ganchos prontos: rivalidade com um rival; parentesco/dívida em Jigau; Kryn/Vigia da Aurora; ambição académica (Aliança), oculta (Consórcio) ou de justiça (Alma de Cobalto); tentação do rubídio; ligação a Sehanine/Avandra/Corellon; um "Perigee" pessoal.
-2. **Por sessão**: na vista "Sessão" vê "o que vem a seguir por pista"; escolhe 2-4 beats de pistas diferentes (um do principal, um dos rivais, um de fação, um pessoal) e 3-5 pistas de revelações a semear. Depois da sessão marca beats jogados, revelações percebidas, atitudes dos rivais e portentos que avançaram.
-3. **Entre capítulos**: na vista "Frentes" avança os portentos das fações que os PCs ignoraram; nas "Relações" com o capítulo atual escolhido em cima vê que relações estão ativas e onde há NPCs isolados; na "Linha temporal" em modo "jogado" vê a teia a fechar-se.
-4. **Amigos e inimigos rastreados, não pré-escritos**: regista (flags, atitudes, notas) qual investigador os PCs ajudaram/traíram em Bazzoxan; esse torna-se o vilão emergente que tenta roubar a Jewel; a fação dos rivais é a oposta à dos PCs e torna-se o encontro proactivo em Ank'Harel.
+A app (`docs/arquitetura.md`) tem quatro vistas: a **Grelha**, as **Relações**, a **Sessão** e o **Índice**, mais a **Ficha** de cada coisa. O cânone e o registo vivem nos ficheiros (`mundo/`, `plano/`, `registo/`, `mesa/`) e entram pelo fecho, com o Claude; a app só grava a camada do DM (`grelha/dm.json`).
+
+1. **Antes da campanha**: cada PC tem a sua ficha (`mundo/personagens/c-pc-*.md`), um arco de ambições (`plano/fios/a-pc-*.md`) e 1-3 ambições (`plano/fios/amb-*.md`) ligadas a NPCs, arcos e beats. A Grelha avisa, na coluna da próxima sessão, dos PCs «sem cena pessoal planeada». Ganchos prontos: rivalidade com um rival; parentesco/dívida em Jigau; Kryn/Vigia da Aurora; ambição académica (Aliança), oculta (Consórcio) ou de justiça (Alma de Cobalto); tentação do rubídio; ligação a Sehanine/Avandra/Corellon; um «Perigee» pessoal.
+2. **Por sessão**: na Grelha, lê a coluna da próxima sessão: o que está aberto, o que está esquecido (aberto há três ou mais sessões), o que o cânone planeia para o capítulo. Escreve os planos nas células (2-4 cenas de arcos diferentes: um do principal, um dos rivais, um de fação, um pessoal) e liga-os aos acontecimentos que pagam («nasce de»). O `/preparar` do Claude faz a mesma leitura e deixa ideias e avisos nas células. Na vista Sessão vês o plano arrumado, os beats do capítulo por jogar e o próximo beat pronto de cada arco. À mesa, marca os beats «jogado à mesa» e usa as notas rápidas; o fecho passa tudo ao registo.
+3. **Entre capítulos**: o fecho muda `capituloAtual` em `plano/campanha.md`; as linhas Relógio da Grelha mostram os passos das frentes (o que cada fação faz se ninguém a travar) e as linhas Revelação as pistas planeadas e dadas; nas Relações, com o capítulo escolhido em cima, vês que relações estão ativas, as que o registo criou (traço mais grosso) e onde há NPCs isolados; o modo Plano da Grelha mostra a teia a fechar-se, arco a arco.
+4. **Amigos e inimigos rastreados, não pré-escritos**: as escolhas e as atitudes ficam como acontecimentos com efeitos (`atitude`, `relacao`, `fio`) no registo de cada sessão, e o estado calcula-se daí: qual investigador os PCs ajudaram/traíram em Bazzoxan torna-se o vilão emergente que tenta roubar a Jewel; a fação dos rivais é a oposta à dos PCs e torna-se o encontro proactivo em Ank'Harel.
 
 ## 5. Templates
 

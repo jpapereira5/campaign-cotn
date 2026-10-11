@@ -41,7 +41,7 @@ const entrada = () => ({
   nome: (id: string) => id,
   linhas: arvore.grelha.linhas as { id: string; pcs?: string[] }[],
   notas: (arvore.grelha.revisao as { notes: Record<string, unknown>[] }).notes,
-  capitulos: [{ id: 'ch0', name: 'Prólogo', hub: 'Urzin', levels: '1→3', summary: 'p' }, { id: 'ch1', name: 'Um', hub: 'Jigau', levels: '3→4', summary: 'u' }],
+  capitulos: [{ id: 'ch0', nome: 'Prólogo', hub: 'Urzin', niveis: '1→3', resumo: 'p' }, { id: 'ch1', nome: 'Um', hub: 'Jigau', niveis: '3→4', resumo: 'u' }],
   capituloAtual: 'ch0',
   curto: (c: string) => (c === 'ch0' ? 'Prólogo' : '1'),
   corPc: () => '#000',

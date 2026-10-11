@@ -1,6 +1,9 @@
-import type { CharacterKind, RelationType } from './types.ts'
+// Cores e rótulos do grafo de relações e das fichas.
+import type { TipoPersonagem } from './grafo.ts'
 
-export const KIND_COLORS: Record<CharacterKind, string> = {
+export type RelationType = 'ally' | 'enemy' | 'serves' | 'loves' | 'betrays' | 'rival' | 'memberOf' | 'wantsFrom' | 'knows' | 'spiesOn' | 'protects' | 'family'
+
+export const KIND_COLORS: Record<TipoPersonagem, string> = {
   pc: '#d9a441',
   npc: '#8fa3c7',
   rival: '#6fbf73',
@@ -8,7 +11,7 @@ export const KIND_COLORS: Record<CharacterKind, string> = {
 }
 export const FACTION_NODE_COLOR = '#b08968'
 
-export const KIND_LABELS: Record<CharacterKind, string> = {
+export const KIND_LABELS: Record<TipoPersonagem, string> = {
   pc: 'PC',
   npc: 'NPC',
   rival: 'Rival',

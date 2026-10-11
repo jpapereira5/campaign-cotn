@@ -1,6 +1,6 @@
 # Fluxo: Drive, Claude e repositório
 
-Decidido pelo DM a 2026-10-01.
+Decidido pelo DM a 2026-10-01; o fecho reescrito para a estrutura nova (`docs/arquitetura.md`) a 2026-10-12.
 
 ## O caminho habitual
 
@@ -16,7 +16,7 @@ Uma saída nunca traz cânone novo que não esteja já no repositório. Se ao es
 | --- | --- | --- |
 | **Claude** | brainstorm: ideias, propostas, conflitos com o cânone | conversa |
 | **Drive** | trabalho: preparação de sessões, handouts, documentos para jogadores, ideias, transcrições | o DM (e o Claude, a pedido) |
-| **Repositório** | verdade: dados do dashboard (`data/campaign`), cânone, lore, glossário, registo das sessões | só através do fecho |
+| **Repositório** | verdade: o mundo (`mundo/`), o plano (`plano/`), o registo das sessões e as decisões (`registo/`), a mesa (`mesa/`), o glossário | o fecho e o brainstorm (o Claude); a app só grava `grelha/dm.json` |
 
 O dashboard alojado é a consulta à mesa. Não há compêndio na Drive.
 
@@ -32,7 +32,7 @@ O chat não guarda nada: no fim de cada conversa, tudo o que vale a pena tem de 
 | --- | --- | --- |
 | **Ideia** | só no chat | não se guarda |
 | **Proposta** (vale a pena guardar, por decidir) | Drive, `cotn_2026/ideias`, ficheiro «brainstorm AAAA-MM-DD — tema» | o Claude escreve-a no fim da conversa; entra num fecho futuro quando for decidida |
-| **Canónico** (o DM decidiu) | repositório, `docs/canone.md` («Decidido pelo DM (data)») e dados | direto, na mesma conversa, sem passar pela Drive |
+| **Canónico** (o DM decidiu) | repositório: o ficheiro da coisa (`mundo/…`, `plano/…`) e `registo/decisoes.md` («Decidido pelo DM (data)») | direto, na mesma conversa, sem passar pela Drive |
 
 - Uma decisão do DM no chat é canónica quando ele mostra que decidiu, dito de qualquer maneira: «regista», «guarda», «fixa», «torna canónico», escolher uma das opções, ou simplesmente afirmar como a coisa é. Não há palavra-chave: o Claude percebe pelo sentido e, na dúvida entre «decidiu» e «está a pensar alto», pergunta antes de escrever. Vai direto para o repositório, sem passar pela Drive.
 - No fim de um brainstorm, o Claude fecha com uma lista «o que fica»: as decisões (que vão para o repositório) e as propostas (que vão para a Drive). O DM confirma ou corrige.
@@ -41,14 +41,17 @@ O chat não guarda nada: no fim de cada conversa, tudo o que vale a pena tem de 
 
 ## O fecho
 
-Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho», o Claude:
+Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho» (skill `/fecho`), o Claude:
 
-1. Lista o que mudou na Drive desde o último fecho (data abaixo), nas pastas da campanha. Os ficheiros «decisões» entram sem discussão; os «brainstorm» só no que o DM decidir.
-2. Lê cada ficheiro novo ou alterado e propõe o que entra no repositório: entidades e campos (`data/campaign`, patches `zz-` quando corrige o livro), cânone, sessões, handouts.
-3. Assinala os conflitos com o cânone e espera pela decisão do DM.
-4. Aplica as decisões, corre `scripts/normalizar-texto.py` e `npm run validate`, e faz commit e push para `main`.
-5. Atualiza na Drive as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo).
-6. Atualiza a data do último fecho.
+1. **Lê o que a mesa deixou.** A transcrição e a preparação na Drive (pastas abaixo) desde o último fecho; e, no repositório, a camada do DM em `grelha/dm.json`: os beats marcados «jogado à mesa» (`jogado`), as notas rápidas (`nota`), os planos da sessão que se jogou (`plano`, na coluna dessa sessão) e as correções e decisões ainda por absorver (`revisao.absorbed`).
+2. **Escreve a sessão** em `registo/sessoes/sNN-AAAA-MM-DD.md`: o cabeçalho (`n`, `global`, `data`, `titulo`, `capitulo`, `mesa`, `nivel`, `mundo`, `resumo`, `ondeParou`, `beats`), o resumo no corpo e os **acontecimentos com efeitos** (`docs/arquitetura.md`, secção 5): cada plano jogado vira acontecimento com `origem`, cada plano que caiu fica apagado (`deleted`) em `dm.json`.
+3. **Atualiza as entidades**: NPCs novos ou corrigidos (`mundo/`), fios novos (`plano/fios/`, `mesa/fios/`), beats jogados no cabeçalho da sessão, o capítulo da mesa em `plano/campanha.md` quando muda, e as decisões do DM em `registo/decisoes.md`. As ids a acompanhar entram em `grelha/linhas.json`.
+4. **Absorve a camada do DM**: cada entrada tratada passa a `revisao.absorbed` (`"d-…": "<id do acontecimento ou da entidade>"`) ou a `revisao.reviewed`; as notas de revisão respondidas ficam `fechada`. Nunca se apaga nada de `dm.json`: a app é a única que lá escreve.
+5. **Assinala os conflitos** com o cânone e espera pela decisão do DM antes de os escrever; o que depende do DM fica em `grelha/revisao.json` como `pergunta` ou `discrepancia`.
+6. **Valida e grava:** `python3 scripts/normalizar-texto.py`, `npm run validate` e `npm test` limpos; commit e push para `main` (o deploy leva um ou dois minutos).
+7. **Atualiza na Drive** as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo) e a data do último fecho, abaixo.
+
+Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e deixa ideias e avisos nas células (`grelha/revisao.json`); durante a edição, o `/vigia` revê cada gravação do DM em tempo real. As regras estão em `.claude/skills/`.
 
 ## Pastas da Drive que o fecho lê
 

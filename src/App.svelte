@@ -1,25 +1,19 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import { ui, loadRemote, closeSelection } from './lib/state.svelte'
+  import { ui, fecharPaineis } from './lib/state.svelte'
   import Sidebar from './components/Sidebar.svelte'
   import TopBar from './components/TopBar.svelte'
   import SearchPalette from './components/SearchPalette.svelte'
-  import Timeline from './components/Timeline.svelte'
   import RelationGraph from './components/RelationGraph.svelte'
-  import PcView from './components/PcView.svelte'
-  import FrontsView from './components/FrontsView.svelte'
-  import RevelationsView from './components/RevelationsView.svelte'
-  import SessionPanel from './components/SessionPanel.svelte'
-  import IndexView from './components/IndexView.svelte'
+  import Sessao from './components/Sessao.svelte'
+  import Indice from './components/Indice.svelte'
   import Settings from './components/Settings.svelte'
-  import DetailPanel from './components/DetailPanel.svelte'
   import Ficha from './components/Ficha.svelte'
   import Grelha from './components/Grelha.svelte'
   import GrelhaEditor from './components/GrelhaEditor.svelte'
   import { iniciarSonda } from './lib/grelha/store.svelte'
 
   onMount(() => {
-    void loadRemote()
     iniciarSonda()
     try {
       ui.sidebarCollapsed = localStorage.getItem('cc-sidebar') === '1'
@@ -37,8 +31,7 @@
       return
     }
     if (e.key === 'Escape') {
-      if (ui.searchOpen) ui.searchOpen = false
-      else closeSelection()
+      fecharPaineis()
       return
     }
     if (!typing && e.key === '/') {
@@ -50,26 +43,20 @@
 
 <svelte:window onkeydown={onKeydown} />
 
-<div class="app" class:rail={ui.sidebarCollapsed} class:with-panel={ui.selection || ui.edicao}>
+<div class="app" class:rail={ui.sidebarCollapsed} class:with-panel={ui.edicao}>
   <Sidebar />
   <div class="main">
     <TopBar />
     <main>
       {#if ui.view === 'grelha'}<Grelha />
-      {:else if ui.view === 'tempo'}<Timeline />
       {:else if ui.view === 'grafo'}<RelationGraph />
-      {:else if ui.view === 'pcs'}<PcView />
-      {:else if ui.view === 'frentes'}<FrontsView />
-      {:else if ui.view === 'revelacoes'}<RevelationsView />
-      {:else if ui.view === 'sessao'}<SessionPanel />
-      {:else if ui.view === 'indice'}<IndexView />
+      {:else if ui.view === 'sessao'}<Sessao />
+      {:else if ui.view === 'indice'}<Indice />
       {:else if ui.view === 'ficha'}<Ficha />
       {:else}<Settings />{/if}
     </main>
   </div>
-  {#if ui.selection}
-    <aside class="drawer"><DetailPanel selection={ui.selection} /></aside>
-  {:else if ui.edicao}
+  {#if ui.edicao}
     <aside class="drawer"><GrelhaEditor edicao={ui.edicao} /></aside>
   {/if}
 </div>

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Normaliza o texto da camada campanha e dos docs: glossário pt-PT (docs/glossario.md) e grafia do AO90.
+"""Normaliza o texto da estrutura nova e dos docs: glossário pt-PT (docs/glossario.md) e grafia do AO90.
 
 Uso: python3 scripts/normalizar-texto.py [--so-grafia FICHEIRO ...]
-Não toca em data/book/ nem em ids (valores kebab-case, campos de referência).
+Só toca no corpo (prosa) dos ficheiros de mundo/, plano/, registo/ e mesa/ e nos docs; nunca em livro/, em grelha/,
+nos cabeçalhos YAML (ids, tags, campos curtos) nem nas entidades que vêm do livro (origem com «livro»).
 """
 import glob
-import json
 import re
 import sys
 
@@ -261,46 +261,9 @@ def texto(s: str, gloss=True) -> str:
     return grafia(s)
 
 
-# ---------------------------------------------------------------- JSON
-REF_KEYS = {"id", "from", "to", "type", "kind", "source", "chapter", "location", "parent", "home", "pc",
-            "ownerPc", "color", "fromBeat", "untilBeat", "attitude"}
-KEBAB = re.compile(r"^[a-z0-9][a-z0-9-]*$")
-
-
-def walk(v, key=None, pairs=None):
-    if isinstance(v, dict):
-        return {k: walk(x, k, pairs) for k, x in v.items()}
-    if isinstance(v, list):
-        return [walk(x, key, pairs) for x in v]
-    if isinstance(v, str):
-        if key in REF_KEYS or KEBAB.match(v):
-            return v
-        n = texto(v)
-        if n != v and pairs is not None:
-            pairs.append((v, n))
-        return n
-    return v
-
-
+# ---------------------------------------------------------------- ficheiros
 def main():
     changed = []
-    for f in sorted(glob.glob("data/campaign/**/*.json", recursive=True)):
-        raw = open(f, encoding="utf-8").read()
-        data = json.loads(raw)
-        pairs = []
-        out = walk(data, pairs=pairs)
-        if not pairs:
-            continue
-        if json.dumps(data, ensure_ascii=False, indent=2) + "\n" == raw:
-            new = json.dumps(out, ensure_ascii=False, indent=2) + "\n"
-        else:  # formato próprio: substituir só as strings, sem reformatar
-            new = raw
-            for old, rep in pairs:
-                new = new.replace(json.dumps(old, ensure_ascii=False)[1:-1], json.dumps(rep, ensure_ascii=False)[1:-1])
-            assert json.loads(new) == out, f
-        if new != raw:
-            open(f, "w", encoding="utf-8").write(new)
-            changed.append(f)
     docs = sorted(glob.glob("docs/**/*.md", recursive=True)) + ["README.md"]
     for f in docs:
         raw = open(f, encoding="utf-8").read()

@@ -1,6 +1,6 @@
 ---
 id: b-0-boneyard-altar
-titulo: JOGADO (sessão 3) · O Santuário do Véu-Quebrado
+titulo: O Santuário do Véu-Quebrado
 arcos:
   - a-pc-lucan
   - a-prologue
