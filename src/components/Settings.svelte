@@ -1,6 +1,7 @@
 <script lang="ts">
   import { world, store, loadRemote, saveRemote, discardLocalChanges, exportDirty, exportAll, importAll } from '../lib/state.svelte'
   import { getToken, setToken, checkToken, REPO } from '../lib/github'
+  import { iniciarSonda, gravarPendentes, camada } from '../lib/grelha/store.svelte'
 
   let token = $state(getToken())
   let check = $state<{ ok: boolean; login?: string; canPush?: boolean; message?: string } | null>(null)
@@ -9,7 +10,11 @@
   async function save() {
     setToken(token.trim())
     check = token.trim() ? await checkToken() : null
-    if (check?.ok) await loadRemote()
+    if (check?.ok) {
+      await loadRemote()
+      iniciarSonda()
+      await gravarPendentes()
+    }
   }
   const errors = $derived(world.problems.filter((p) => p.level === 'error'))
   const warns = $derived(world.problems.filter((p) => p.level === 'warn'))
@@ -20,8 +25,8 @@
   <div class="grid settings">
     <div class="card">
       <h4>Sincronização com o GitHub</h4>
-      <p class="small"><b>Fase A da migração</b> (<code>docs/arquitetura.md</code>): a app lê a estrutura nova (<code>mundo/</code>, <code>plano/</code>, <code>registo/</code>, <code>mesa/</code>), montada no build; as alterações ao cânone chegam com o deploy seguinte. A edição na app está desligada até à fase D: as correções e as marcas da mesa entram pelo fecho, com o Claude.</p>
-      <p class="muted small">O token continua a ser preciso a partir da fase D, para a Grelha gravar <code>grelha/dm.json</code> em <code>{REPO.owner}/{REPO.repo}</code> (branch <code>{REPO.branch}</code>). Cria um <i>fine-grained personal access token</i> em GitHub → Settings → Developer settings → Personal access tokens, com acesso só a este repositório e permissão <b>Contents: Read and write</b>. O token fica apenas neste browser.</p>
+      <p class="small"><b>Como a app lê e escreve</b> (<code>docs/arquitetura.md</code>): o cânone e o registo vêm da estrutura nova (<code>mundo/</code>, <code>plano/</code>, <code>registo/</code>, <code>mesa/</code>), montada no build, e as alterações chegam com o deploy seguinte. A tua camada (<code>grelha/dm.json</code>) é a única coisa que a app grava: cada «Guardar» na Grelha faz logo um commit. Com o token, a Grelha lê também <code>grelha/revisao.json</code> e <code>grelha/linhas.json</code> ao vivo e verifica de 30 em 30 segundos se o Claude deixou notas.</p>
+      <p class="muted small">Para gravar é preciso o token: um <i>fine-grained personal access token</i> em GitHub → Settings → Developer settings → Personal access tokens, com acesso só a <code>{REPO.owner}/{REPO.repo}</code> (branch <code>{REPO.branch}</code>) e permissão <b>Contents: Read and write</b>. O token fica apenas neste browser. Sem token, o que editares na Grelha fica só aqui.</p>
       <div class="row">
         <input type="password" placeholder="github_pat_…" bind:value={token} style:flex="1" style:min-width="220px" />
         <button class="primary" onclick={save}>Ligar</button>
@@ -36,6 +41,7 @@
         <button class="danger" onclick={() => confirm('Descartar todas as alterações locais por gravar?') && discardLocalChanges()} disabled={!world.dirtyFiles.length}>Descartar locais</button>
       </div>
       {#if store.sync.message}<p class="muted small">{store.sync.message}</p>{/if}
+      {#if camada.mensagem}<p class="muted small">Grelha: {camada.mensagem}{camada.porGravar ? ' · há edições por gravar' : ''}</p>{/if}
       {#if world.dirtyFiles.length}
         <div class="muted small">Por gravar:</div>
         <ul class="small">{#each world.dirtyFiles as f (f.path)}<li><code>{f.path}</code></li>{/each}</ul>

@@ -122,8 +122,24 @@ export function validarArvore(a: Arvore): Problem[] {
     }
   })
 
-  // grelha
+  // grelha: linhas.json e revisao.json são do Claude (erros); dm.json é da app e nunca pode partir o deploy (avisos)
   for (const l of Array.isArray(a.grelha.linhas) ? (a.grelha.linhas as Record<string, unknown>[]) : []) ref('grelha/linhas.json', l.id, 'linha')
+  const DM_KINDS = ['correcao', 'verdade', 'plano', 'decisao', 'arquivo', 'linha', 'acompanhar', 'jogado', 'nota', 'resposta', 'ideia-rejeitada']
+  const dmIds = new Set<string>()
+  for (const e of Array.isArray(a.grelha.dm) ? (a.grelha.dm as Record<string, unknown>[]) : []) {
+    const id = String(e.id ?? '')
+    const where = `grelha/dm.json › ${id || '(sem id)'}`
+    if (!id.startsWith('d-')) warn(where, 'entrada sem id d-…')
+    if (dmIds.has(id)) warn(where, 'id repetida')
+    dmIds.add(id)
+    if (!DM_KINDS.includes(String(e.kind))) warn(where, `kind desconhecido: ${String(e.kind)}`)
+    if (typeof e.at !== 'string') warn(where, 'sem data (at)')
+    for (const [campo, oQue] of [['row', 'linha'], ['beat', 'beat']] as const) if (typeof e[campo] === 'string' && e[campo] && !existe(String(e[campo])) && e.kind !== 'linha') warn(where, `${oQue} desconhecida: ${String(e[campo])}`)
+    for (const id2 of lista(e.involves)) if (!existe(id2)) warn(where, `id em involves desconhecida: ${id2}`)
+    if (typeof e.fact === 'string' && !eventos.has(e.fact) && !dmIds.has(e.fact)) warn(where, `facto desconhecido: ${e.fact}`)
+  }
+  const revisao0 = obj(a.grelha.revisao)
+  for (const chave of ['reviewed', 'absorbed'] as const) for (const id of Object.keys(obj(revisao0[chave]))) if (!dmIds.has(id)) err('grelha/revisao.json', `${chave} aponta para uma entrada que não existe em dm.json: ${id}`)
   const revisao = obj(a.grelha.revisao)
   for (const n of Array.isArray(revisao.notes) ? (revisao.notes as Record<string, unknown>[]) : []) {
     const t = obj(n.target)

@@ -1,7 +1,9 @@
 <script lang="ts">
   // A Grelha (docs/grelha.md, secção 11): uma linha por coisa, as sessões jogadas e o que vem a seguir nas colunas.
   // Fase C: só leitura. A camada do DM e a revisão entram na fase D.
-  import { world, abrirFicha, ui } from '../lib/state.svelte'
+  import { world, abrirFicha, abrirEdicao, ui } from '../lib/state.svelte'
+  import { camada, alterar, apagar, gravarPendentes } from '../lib/grelha/store.svelte'
+  import { getToken } from '../lib/github'
   import { GRUPOS, ROTULO_ESTATUTO, ROTULO_TIPO, contagens, linhaVisivel, type Estatuto, type Item, type Linha } from '../lib/grelha/modelo'
 
   const g = $derived(world.grelha)
@@ -16,9 +18,15 @@
   const proximaChave = $derived(g.colunas.find((c) => c.tipo === 'proxima')?.chave ?? '')
   const notasAbertas = $derived.by(() => {
     const ids = new Set(visiveis.map((l) => l.id))
-    const notas = (world.arvore.grelha.revisao as { notes?: { kind: string; status: string; target?: { row?: string } }[] })?.notes ?? []
-    return notas.filter((n) => n.status !== 'fechada' && n.kind !== 'ideia' && (!n.target?.row || ids.has(n.target.row))).length
+    const respondidas = new Set(camada.dm.filter((e) => e.kind === 'resposta' && !e.deleted).map((e) => String(e.note)))
+    return camada.revisao.notes.filter((n) => n.status !== 'fechada' && n.kind !== 'ideia' && !respondidas.has(n.id) && (!n.target?.row || ids.has(n.target.row))).length
   })
+  const capituloAtualCol = $derived(g.colunas.find((c) => c.tipo === 'resto')?.chave ?? '')
+  const editavel = $derived(ui.view === 'grelha')
+  function editarCelula(l: Linha, chave: string) {
+    if (l.calculada) return
+    abrirEdicao({ modo: 'celula', linha: l.id, col: chave })
+  }
   const totais = $derived(contagens(visiveis, proximaChave, notasAbertas))
   const contaGrupo = (id: string) => g.linhas.filter((l) => linhaVisivel(l, { grupo: id, pc, soPendentes })).length
   const contaPc = (id: string) => g.linhas.filter((l) => linhaVisivel(l, { grupo, pc: id, soPendentes })).length
@@ -62,6 +70,10 @@
         <button class="chip" class:on={mostrarEcos} onclick={() => (mostrarEcos = !mostrarEcos)}>Ecos</button>
         <span class="sep"></span>
         <button class="chip" class:on={modo === 'plano'} onclick={() => (modo = modo === 'plano' ? 'normal' : 'plano')} title="Os arcos nas linhas e os beats por capítulo nas células">Plano</button>
+        <span class="sep"></span>
+        <button class="chip" onclick={() => abrirEdicao({ modo: 'nota' })} title="Registar já alguma coisa sem saber onde vai">+ Nota rápida</button>
+        <button class="chip" onclick={() => abrirEdicao({ modo: 'nova-linha' })} title="Criar uma coisa nova para acompanhar">+ Nova linha</button>
+        <button class="chip" onclick={() => abrirEdicao({ modo: 'acompanhar' })} title="Pôr na Grelha algo que já existe no cânone">+ Acompanhar</button>
       </div>
       <div class="chips">
         <button class="chip" class:on={pc === 'todos'} onclick={() => (pc = 'todos')}>Todos os PCs <small>{contaPc('todos')}</small></button>
@@ -74,6 +86,28 @@
       </div>
     </div>
   </div>
+
+  <div class="estado small">
+    <span class="muted">{camada.fonte === 'repositorio' ? `Camada do DM lida do repositório${camada.ultimaLeitura ? ` às ${camada.ultimaLeitura}` : ''}; verifica de 30 em 30 s.` : getToken() ? 'A ler a camada do DM do repositório…' : 'Sem token: a camada do DM vem do build e o que editares fica só neste browser (Definições).'}</span>
+    {#if camada.porGravar}<span class="err">Por gravar.</span> <button class="chip" onclick={() => gravarPendentes()}>Tentar de novo</button>{/if}
+    {#if camada.estado === 'erro'}<span class="err">{camada.mensagem}</span>{/if}
+  </div>
+  {#if g.planosPassados.length || g.notasSoltas.length}
+    <div class="entrada small">
+      {#each g.planosPassados as p (p.entrada.id)}
+        <div class="row nowrap">
+          <span class="tag">plano que ficou para trás</span>
+          <span><b>{p.linha.nome}</b> · {p.entrada.col}: {p.entrada.text}</span>
+          <button class="chip" onclick={() => alterar(p.entrada.id, { col: `s${g.proximaN}` }, `grelha: plano ${p.entrada.id} passa para a S${g.proximaN}`)}>Passa para a S{g.proximaN}</button>
+          {#if capituloAtualCol}<button class="chip" onclick={() => alterar(p.entrada.id, { col: capituloAtualCol }, `grelha: plano ${p.entrada.id} fica para o capítulo`)}>Fica para o capítulo</button>{/if}
+          <button class="chip" onclick={() => apagar(p.entrada.id, `grelha: plano ${p.entrada.id} cai`)}>Cai</button>
+        </div>
+      {/each}
+      {#each g.notasSoltas as n (n.id)}
+        <div class="row nowrap"><span class="tag">nota rápida</span><span>{n.text}</span><span class="muted">(o fecho decide onde entra)</span><button class="chip" onclick={() => apagar(n.id, `grelha: apagar nota ${n.id}`)}>Apagar</button></div>
+      {/each}
+    </div>
+  {/if}
 
   {#if modo === 'plano'}
     <div class="sheet" style:--cols={`96px 252px repeat(${g.plano.capitulos.length}, 180px)`}>
@@ -122,6 +156,8 @@
               <div class="row1">
                 {#if l.calculada}<span class="nm static">{l.nome}</span>{:else}<button class="nm" onclick={() => abrir(l.id)} title="Abrir a ficha">{l.nome}</button>{/if}
                 {#each linhaPcs(l) as p (p)}<span class="pdot" style:background={corPc(p)} title={nome(p)}></span>{/each}
+                {#if !l.calculada && editavel}<button class="edit" onclick={() => abrirEdicao({ modo: 'cabecalho', linha: l.id })} title="Editar o cabeçalho (uma decisão tua sobre o mundo)">✎</button>{/if}
+                {#if l.porRever}<span class="rever" title="há edições tuas por rever"></span>{/if}
               </div>
               {#if l.legenda}<div class="sub muted small">{l.legenda}</div>{/if}
               <div class="pills">
@@ -135,23 +171,30 @@
             </div>
             {#each g.colunas as c (c.chave)}
               {@const cel = l.celulas[c.chave]}
-              <div class="cell {cel.fundo ? 'st-' + cel.fundo : ''}" class:col-cur={c.tipo === 'atual'} class:col-fut={c.tipo === 'capitulo'}>
+              <!-- svelte-ignore a11y_click_events_have_key_events -->
+              <div role="button" tabindex="-1" class="cell {cel.fundo ? 'st-' + cel.fundo : ''}" class:col-cur={c.tipo === 'atual'} class:col-fut={c.tipo === 'capitulo'} class:clicavel={!l.calculada && editavel} onclick={() => editarCelula(l, c.chave)} title={l.calculada ? undefined : 'Editar esta célula'}>
                 {#each cel.itens as it, i_ (i_)}
                   {#if it.tipo === 'ideia'}
-                    <div class="it ideia" title="ideia da revisão, por aceitar ou rejeitar (fase D)"><span class="tx">{it.texto}</span>{#each it.tags ?? [] as t (t)}<span class="tag">{TAG[t] ?? t}</span>{/each}</div>
+                    <div class="it ideia" title="ideia da revisão: abre a célula para aceitar ou rejeitar"><span class="tx">{it.texto}</span>{#each it.tags ?? [] as t (t)}<span class="tag">{TAG[t] ?? t}</span>{/each}</div>
+                  {:else if it.tipo === 'nota'}
+                    <div class="it notadm"><span class="tx">{it.texto}</span><span class="tag">nota rápida</span>{#if it.porRever}<span class="rever" title="por rever"></span>{/if}</div>
                   {:else if it.tipo === 'plano-canone'}
-                    <div class="it canone"><span class="tx">{#if it.refs?.length}{#each it.refs as r, j_ (j_)}<button class="lk" onclick={() => abrir(r)}>{nome(r)}</button>{j_ < it.refs.length - 1 ? ' · ' : ''}{/each}{:else}{it.texto}{/if}</span></div>
+                    <div class="it canone"><span class="tx">{#if it.refs?.length}{#each it.refs as r, j_ (j_)}<button class="lk" onclick={(e) => { e.stopPropagation(); abrir(r) }}>{nome(r)}</button>{j_ < it.refs.length - 1 ? ' · ' : ''}{/each}{:else}{it.texto}{/if}</span></div>
                   {:else}
-                    <div class="it" class:falta={it.tipo === 'falta'}>
-                      {#if it.estatuto && it.estatuto !== 'registo'}<span class="mk mk-{it.estatuto}" title={ROTULO_ESTATUTO[it.estatuto]}></span>{/if}
-                      <span class="tx">{it.texto}</span>
+                    <div class="it" class:falta={it.tipo === 'falta'} class:dmit={!!it.dm}>
+                      {#if it.estatuto && it.estatuto !== 'registo'}<span class="mk mk-{it.estatuto}" title={ROTULO_ESTATUTO[it.estatuto] + (it.arquivado ? ' (arquivado)' : '')}></span>{/if}
+                      <span class="tx" title={it.original ? `original: ${it.original}` : undefined}>{it.texto}</span>
                       {#if it.origemLabel}<span class="orig" title="nasce de">{it.origemLabel}</span>{/if}
+                      {#if it.planeadoEm}<span class="orig plan" title="um plano teu responde a isto">{it.planeadoEm}</span>{/if}
                       {#each it.tags ?? [] as t (t)}<span class="tag tag-{t}">{TAG[t] ?? t}</span>{/each}
+                      {#if it.arquivado}<span class="tag">arquivado</span>{/if}
+                      {#if it.dm}<span class="dmmark" title="edição tua ({it.dm.kind})">✎</span>{/if}
+                      {#if it.porRever}<span class="rever" title="por rever"></span>{/if}
                     </div>
                   {/if}
                 {/each}
                 {#each ecosVisiveis(cel.ecos) as eco, i_ (i_)}
-                  <button class="eco" onclick={() => eco.dona && abrir(eco.dona)} title="eco: a célula dona está em {eco.dona ? nome(eco.dona) : '?'}">↳ <b>{eco.dona ? nome(eco.dona) : ''}</b>: {eco.texto}</button>
+                  <button class="eco" onclick={(e) => { e.stopPropagation(); if (eco.dona) { const d = g.linhas.find((x) => x.id === eco.dona); if (d && editavel) editarCelula(d, c.chave); else if (eco.dona) abrir(eco.dona) } }} title="eco: a célula dona está em {eco.dona ? nome(eco.dona) : '?'}">↳ <b>{eco.dona ? nome(eco.dona) : ''}</b>: {eco.texto}</button>
                 {/each}
                 {#if mostrarEcos && cel.ecos.length > 2}<span class="muted small">+{cel.ecos.length - 2}</span>{/if}
               </div>
@@ -299,18 +342,18 @@
   }
   .h.arc-cur {
     color: var(--accent);
-    background: var(--accent-soft);
+    background: linear-gradient(var(--accent-soft), var(--accent-soft)), var(--bg-2);
   }
   .h.ses small {
     color: var(--muted);
     font-size: 0.7rem;
   }
   .h.ses.cur {
-    background: var(--accent-soft);
+    background: linear-gradient(var(--accent-soft), var(--accent-soft)), var(--bg-2);
     box-shadow: inset 0 -2px 0 var(--accent);
   }
   .h.ses.proxima {
-    background: rgba(43, 98, 217, 0.12);
+    background: linear-gradient(rgba(43, 98, 217, 0.12), rgba(43, 98, 217, 0.12)), var(--bg-2);
   }
   .h.corner {
     z-index: 5;
@@ -646,6 +689,69 @@
   }
   .row.calc .c {
     background: var(--bg-2);
+  }
+  .estado {
+    padding: 0.3rem 1rem;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .entrada {
+    padding: 0.4rem 1rem;
+    border-bottom: 1px solid var(--line);
+    background: rgba(43, 98, 217, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .entrada .chip {
+    cursor: pointer;
+  }
+  .err {
+    color: var(--danger);
+  }
+  .cell.clicavel {
+    cursor: pointer;
+  }
+  .cell.clicavel:hover {
+    outline: 1px solid var(--accent-2);
+    outline-offset: -1px;
+  }
+  .edit {
+    background: none;
+    border: 0;
+    padding: 0 0.2rem;
+    color: var(--muted-2);
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  .edit:hover {
+    color: var(--accent);
+  }
+  .rever {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #c9a5ff;
+    display: inline-block;
+    margin-left: 0.2rem;
+  }
+  .dmmark {
+    color: var(--accent);
+    font-size: 0.8rem;
+  }
+  .it.dmit .tx {
+    color: var(--text);
+  }
+  .it.notadm {
+    border-left: 2px solid #5a3f8a;
+    padding-left: 0.3rem;
+    color: var(--muted);
+  }
+  .orig.plan {
+    color: #7aa0ff;
   }
   @media (max-width: 640px) {
     .sheet {

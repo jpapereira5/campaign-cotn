@@ -247,12 +247,16 @@ O sítio onde o DM edita diz que tipo de edição é, por isso ele nunca tem de 
 | ao responder a uma nota de revisão | `resposta` | `note`, `text`, `accepted` (aceitou a sugestão) |
 | ao aceitar uma ideia | `plano` com `fromIdea` | como um plano, com os dados da ideia |
 | ao rejeitar uma ideia | `ideia-rejeitada` | `idea` |
+| botão «Acompanhar» (na Grelha ou na Ficha), para uma id que já existe no cânone | `acompanhar` | `row` (a id) e, se o DM forçar, `patch.type` |
+| botão «Marcar jogado à mesa», na Ficha de um beat | `jogado` | `beat` |
+
+Os dois últimos vieram da arquitetura nova (`docs/arquitetura.md`, secção 7): a Grelha deixou de ter cópias das entidades, por isso «acompanhar» é só pôr uma id em `grelha/linhas.json`, e a app deixou de escrever `beats` no estado, por isso os beats jogados à mesa ficam na camada do DM até ao fecho.
 
 ```ts
 interface DmEntry {
   id: string           // d-<tempo em base36>-<aleatório>, gerado na app
   at: string           // ISO; muda quando o DM edita a entrada
-  kind: 'correcao' | 'verdade' | 'plano' | 'decisao' | 'arquivo' | 'linha' | 'nota' | 'resposta' | 'ideia-rejeitada'
+  kind: 'correcao' | 'verdade' | 'plano' | 'decisao' | 'arquivo' | 'linha' | 'acompanhar' | 'jogado' | 'nota' | 'resposta' | 'ideia-rejeitada'
   fact?: string
   row?: string
   col?: string
@@ -267,6 +271,7 @@ interface DmEntry {
   accepted?: boolean
   idea?: string
   fromIdea?: string
+  beat?: string        // jogado: a id do beat marcado à mesa
   deleted?: boolean    // o DM apagou-a: fica no histórico e deixa de contar
 }
 ```
