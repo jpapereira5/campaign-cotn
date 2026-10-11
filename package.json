@@ -4,23 +4,32 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "montar": "node scripts/montar.ts",
+    "dev": "npm run montar && vite",
+    "build": "npm run montar && vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "validate": "node scripts/validate-data.ts"
+    "check": "npm run montar && svelte-check --tsconfig ./tsconfig.json",
+    "validate": "node scripts/montar.ts",
+    "validate:antigo": "node scripts/validate-data.ts",
+    "verificar": "node scripts/verificar-migracao.ts",
+    "migrar": "node scripts/migrar.ts",
+    "test": "node --test 'scripts/**/*.test.ts' 'src/**/*.test.ts'"
+  },
+  "engines": {
+    "node": ">=22.18"
   },
   "dependencies": {
-    "d3-force": "^3.0.0"
+    "d3-force": "^3.0.0",
+    "yaml": "^2.8.1"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.3.0",
     "@tsconfig/svelte": "^5.0.8",
     "@types/d3-force": "^3.0.10",
+    "@types/node": "^24.0.0",
     "svelte": "^5.57.0",
     "svelte-check": "^4.7.6",
     "typescript": "^6.0.3",
-    "vite": "^8.2.2",
-    "@types/node": "^24.0.0"
+    "vite": "^8.2.2"
   }
 }

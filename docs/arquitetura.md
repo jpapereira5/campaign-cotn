@@ -305,3 +305,19 @@ Por defeito, salvo veto do DM:
 - **Vistas:** Linha temporal, Frentes, Revelações e PCs saem, absorvidas pela Grelha e pela Ficha; «Ver só o livro» e «repor do livro» também.
 - **Sessão zero:** `s00` guarda o ponto de partida dos PCs e da mesa.
 - **Edição na app:** só a camada do DM; as fichas corrigem-se pela revisão.
+
+## 13. Estado da fase A (2026-10-11)
+
+Feito no ramo `fase-a`, por aprovar pelo DM. O que ficou decidido ao implementar:
+
+- **Ficheiros de prosa sem cabeçalho** (`mundo/lore.md`, `mesa/regras.md`, `registo/decisoes.md`) convivem com os ficheiros de entidades. Só os ficheiros com cabeçalho têm id.
+- **Sessões:** o nome do ficheiro é `sNN-AAAA-MM-DD.md`, legível, e a id fica no cabeçalho (`id: s-088`, a de sempre). É a única exceção à regra «o nome do ficheiro é a id». A sessão zero é `s00-sessao-zero.md`, sem data, e não conta como jogada.
+- **Campos novos vindos do mockup**, guardados no cabeçalho e por confirmar pelo DM: `legenda` (a linha curta da Grelha), `atitudeAtual` (a pílula de atitude), `marcas` (deve-nos, devemos-lhe, rancor, patrono), `etiquetas` (ex.: «insanidade: por registar») e, nos segredos, `sabe` (quem já sabe, em texto). `atitudeAtual` é um ponto de partida: o registo manda, como nas relações.
+- **`origem`** guarda os nomes dos antigos ficheiros de patches (`mesa`, `remix`, `pcs`, `zz-mesa-patches`…), `livro` para o que vem do livro e `grelha`, `regras` ou `handouts` para o que nasceu na migração.
+- **`plano/campanha.md`** não tem id: é um só, e guarda também o capítulo atual (`capituloAtual`).
+- **Os portentos** das fações passaram a fios `frente` (`t-frente-<fação>.md`), com um passo por capítulo (`passos`).
+- **Marcadores ✚ e ▲:** 29 entidades criadas pela campanha e corrigidas por um segundo ficheiro de patches levavam ▲ («alterado face ao livro») sem estarem no livro; passam a ✚. É a única diferença que a verificação aceita.
+- **O normalizador** (`scripts/normalizar-texto.py`) passa pelo corpo dos ficheiros novos e deixa o cabeçalho (ids, tags, campos curtos) como está; salta as entidades com `livro` em `origem`, `livro/` e `grelha/`.
+- **A app** lê `src/generated/antigo.json` (gerado por `scripts/montar.ts` no `dev`, `build` e `check`, ignorado pelo git) e deixou de ler e escrever `data/` ao vivo. A edição está desligada até à fase D; o token fica guardado nas Definições.
+- **Scripts:** `npm run migrar` (refaz a estrutura nova a partir de `data/` e `docs/`), `npm run verificar` (compara com o antigo), `npm run validate` (monta e valida), `npm test`. Os antigos `data/` e `docs/` ficam intactos até à fase E.
+- **Por fazer, de propósito e não por acidente:** os hubs dos capítulos continuam em inglês em `plano/campanha.md` («Jigow», «Estrada de Xhorhas»); a correção é uma decisão de cânone à parte.

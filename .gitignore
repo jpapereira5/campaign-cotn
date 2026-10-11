@@ -4,3 +4,5 @@ dist
 .DS_Store
 # Extracções do livro (citações): ficam fora do repo público
 research/
+# Pacote de dados montado no build (scripts/montar.ts)
+src/generated/

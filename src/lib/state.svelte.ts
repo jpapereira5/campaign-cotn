@@ -38,12 +38,17 @@ function loadPersisted(): Persisted {
   return { version: 1, files: {}, shas: {} }
 }
 
+/**
+ * Fase A da migração (docs/arquitetura.md): a edição do cânone e do estado de jogo na app está desligada.
+ * As correções e as marcas da mesa entram pelo fecho, com o Claude; a app volta a escrever na fase D, só em grelha/dm.json.
+ */
+export const EDICAO_DESLIGADA = 'Edição desligada durante a migração (fase A): as correções e as marcas da mesa entram pelo fecho, com o Claude.'
+
 function initialFiles(): Record<string, DataFile> {
   const files = embeddedFiles()
   if (!files[STATE_PATH]) files[STATE_PATH] = { path: STATE_PATH, kind: 'state', layer: 'state', content: emptyPlay(), dirty: false }
-  const p = loadPersisted()
-  for (const [path, f] of Object.entries(p.files)) if (f.dirty && parsePath(path)) files[path] = { ...f, ...parsePath(path)! }
-  for (const [path, sha] of Object.entries(p.shas)) if (files[path] && !files[path].sha) files[path].sha = sha
+  // Edições locais guardadas antes da migração já não têm onde entrar: ignoram-se.
+  void loadPersisted
   return files
 }
 
@@ -232,11 +237,9 @@ export function setChapter(id: string): void {
 // ---- edição (sempre na camada campaign; o livro nunca é alterado) ----------
 
 function guard(): boolean {
-  if (ui.layerView === 'book') {
-    alert('Estás a ver só o livro (referência). Muda para "Campanha" para editar.')
-    return false
-  }
-  return true
+  store.sync.status = 'error'
+  store.sync.message = EDICAO_DESLIGADA
+  return false
 }
 
 function campaignFileOf(kind: Collection, id: string): DataFile | undefined {
@@ -359,6 +362,7 @@ export function addAmbition(pc: string, text: string): void {
 // ---- estado de jogo --------------------------------------------------------
 
 function updatePlay(fn: (p: PlayState) => void): void {
+  if (!guard()) return
   const f = store.files[STATE_PATH]
   const p = normalizePlay(f.content)
   fn(p)
@@ -450,59 +454,22 @@ if (typeof window !== 'undefined') {
 
 // ---- sincronização GitHub --------------------------------------------------
 
+/** Fase A: o cânone vem do build (src/generated/antigo.json); não se lê data/ ao vivo. O token fica guardado para a fase D. */
 export async function loadRemote(): Promise<void> {
   if (!getToken()) return
-  store.sync.status = 'loading'
-  store.sync.message = 'A ler o repositório…'
-  try {
-    const remote = await fetchRemoteFiles()
-    for (const [path, f] of Object.entries(remote)) {
-      const local = store.files[path]
-      if (local?.dirty) {
-        local.sha = f.sha // manter edições locais; sha actual para gravar por cima
-        continue
-      }
-      store.files[path] = f
-    }
-    store.sync.remoteLoaded = true
-    store.sync.status = 'ok'
-    store.sync.lastSync = new Date().toLocaleTimeString('pt-PT')
-    store.sync.message = `Dados do repositório carregados (${Object.keys(remote).length} ficheiros).`
-  } catch (e) {
-    store.sync.status = 'error'
-    store.sync.message = (e as Error).message
-  }
+  store.sync.status = 'ok'
+  store.sync.lastSync = new Date().toLocaleTimeString('pt-PT')
+  store.sync.message = 'Os dados vêm do build da estrutura nova; as alterações ao cânone chegam com o deploy seguinte.'
+  void fetchRemoteFiles
 }
 
+/** Fase A: nada se grava a partir da app. */
 export async function saveRemote(): Promise<void> {
-  const dirty = world.dirtyFiles
-  if (!dirty.length) return
-  if (!getToken()) {
-    store.sync.status = 'error'
-    store.sync.message = 'Sem token GitHub: exporta os ficheiros e faz commit à mão (Definições).'
-    return
-  }
-  store.sync.status = 'saving'
-  try {
-    if (!store.sync.remoteLoaded) {
-      // obter shas actuais sem perder edições locais
-      const remote = await fetchRemoteFiles()
-      for (const [path, f] of Object.entries(remote)) if (store.files[path]) store.files[path].sha = f.sha
-      store.sync.remoteLoaded = true
-    }
-    for (const f of dirty) {
-      store.sync.message = `A gravar ${f.path}…`
-      const sha = await putFile(f.path, stableJson(f.content), f.sha, `data: ${f.path.replace(/^data\//, '')}`)
-      f.sha = sha
-      f.dirty = false
-    }
-    store.sync.status = 'ok'
-    store.sync.lastSync = new Date().toLocaleTimeString('pt-PT')
-    store.sync.message = `Gravado (${dirty.length} ficheiro(s)).`
-  } catch (e) {
-    store.sync.status = 'error'
-    store.sync.message = e instanceof ConflictError ? e.message : (e as Error).message
-  }
+  store.sync.status = 'error'
+  store.sync.message = EDICAO_DESLIGADA
+  void putFile
+  void stableJson
+  void ConflictError
 }
 
 export function discardLocalChanges(): void {

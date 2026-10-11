@@ -308,6 +308,22 @@ def main():
         if new != raw:
             open(f, "w", encoding="utf-8").write(new)
             changed.append(f)
+    # Estrutura nova (docs/arquitetura.md): um ficheiro por coisa. Só se normaliza o corpo (prosa); o cabeçalho
+    # YAML tem ids, tags e campos curtos e fica como está. Nunca toca em livro/ nem em grelha/, e salta as
+    # entidades que vêm do livro (origem com «livro»), que ficam como o livro as diz.
+    for pasta in ("mundo", "plano", "registo", "mesa"):
+        for f in sorted(glob.glob(f"{pasta}/**/*.md", recursive=True)):
+            raw = open(f, encoding="utf-8").read()
+            cabecalho, corpo = "", raw
+            if raw.startswith("---\n") and "\n---\n" in raw:
+                cabecalho, corpo = raw.split("\n---\n", 1)
+                cabecalho += "\n---\n"
+                if re.search(r"^origem:\s*\n(\s*- .*\n)*\s*- livro\b", cabecalho, re.M) or re.search(r"^origem:.*\blivro\b", cabecalho, re.M):
+                    continue
+            new = cabecalho + texto(corpo)
+            if new != raw:
+                open(f, "w", encoding="utf-8").write(new)
+                changed.append(f)
     print("\n".join(changed))
 
 

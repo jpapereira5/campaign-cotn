@@ -1,0 +1,169 @@
+---
+id: c-pc-lucan
+nome: Lucan "Anzol" Bruma
+tipo: pc
+facoes: []
+capitulos:
+  - ch0
+  - ch1
+  - ch2
+  - ch3
+  - ch4
+  - ch5
+  - ch6
+  - ch7
+  - ch8
+quer: Adrenalina; perigo real; sobrevivência dos dois; quartos sozinho para ninguém o ver com pesadelos; saber o que aconteceu no escuro.
+teme: Os pesadelos da própria morte; que o orgulho acabe o que o mar começou; que o irmão se descubra; que o irmão deixe de precisar dele.
+tags:
+  - pc
+  - cotn_2026
+  - baeshra
+  - dhampir
+relacoes:
+  - com: c-ossorio-lume
+    tipo: knows
+    nota: pagaram-lhe informação sobre o rubídio
+    origem: decrepola
+  - com: c-pc-isco
+    tipo: family
+    nota: irmãos; o Lucan protege-o sem lhe dizer porquê
+    origem: pcs
+  - com: c-baeshra
+    tipo: serves
+    nota: "pacto: salvação a troco de devoção"
+    origem: pcs
+  - com: f-myriad
+    tipo: knows
+    nota: contactos de Nicodranas (ficha)
+    origem: pcs
+  - com: f-revelry
+    tipo: knows
+    nota: piratas de Nicodranas (ficha)
+    origem: pcs
+  - com: c-ayo-jabe
+    tipo: rival
+    nota: "Baeshra: desafia a mais forte do Festival"
+    origem: pcs
+  - com: c-verin-thelyss
+    tipo: rival
+    nota: "Baeshra: desafia o líder de Bazzoxan"
+    origem: pcs
+  - com: c-durth-mirimm
+    tipo: rival
+    nota: a adaga é dele; Baeshra quer-lhe a cabeça
+    origem: pcs
+legenda: Renata · water genasi
+etiquetas:
+  - "insanidade: por registar"
+origem:
+  - pcs
+  - zz-mesa-patches
+---
+
+## Resumo
+
+cotn_2026 (ficha do jogador + notas DM na Drive). Renata Surrécio. Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, N, 29 anos. Filho do capitão Vaelen Bruma (caravela de caça Scylla, Nicodranas); a mãe morreu no parto do irmão. Saltou ao mar atrás do Isco quando o aboleto o engoliu, afogou-se e morreu; no escuro ouviu Baeshra, o Grande Devorador — 'o mar devorou-te; agora aprende a devorar o mundo' — e aceitou de morto. Voltou como corpo levantado: olhos negros, pele azul-pálida cheia de cicatrizes, fome de carne crua, a voz do patrono que nunca se cala. O pai e a tripulação expulsaram-no. Acha que chegou tarde e que o irmão se salvou sozinho. Veio de Nicodranas (Yussa Errenis) por Decrépola (Rotthold) e Asarius atrás do rubídio contrabandeado pela Miríade; em Asarius soube que Baeshra foi gladiador e viu a caveira com chifres tatuada nas costas de um lutador. A mesa (sessão 1, #81, 2026-09-02): Descrito à mesa: 1,93 m, «bombadão», pele azul-pálida com cicatrizes por todo o lado, olhos totalmente negros, cabelo feito de água suja e verde de pântano que existe em suspensão — «se passares a mão fica molhada», não dá para man bun; sem armadura, só roupa e armas; tatuagem de anzol no braço (à mesa, ambos os irmãos a têm). Fala Comum, Halfling e Thieves' Cant; não fala Abissal (decisão do DM, 2026-10-07; o registo da sessão 1 dizia que sim). CON +3 (6 cervejas sem teste no concurso); 35 pés; AC 15. A mesa (sessão 2, #83, 2026-09-09): A Rage manifesta-se como «Tranquil Fury», uma raiva calma: dobra-se em dores, os olhos ficam vermelho-escuro e cresce-lhe uma cauda comprida verde-escura/azul-marinho com espigões ósseos na ponta — alcance 10 pés, 2d8+4 piercing («o Anzol só a dar 360º com a cauda»); como reação a cauda soma 1d8 à AC contra um ataque. Reckless Attack. Aguentou quatro lizardfolk com multiattack e vantagem sem cair. A mesa (sessão 3, #84, 2026-09-16): Come lizardfolk cru «sem babete». Entra no crânio mais pequeno e abre-se-lhe dentro um buraco de fome que não é dele; arranca a adaga do altar de joelhos, devora mais dois corpos e a fome não diminui. Ouve na cabeça «Perto. Não aqui.», passa o Wisdom save e olha para o Quasi. Religion 19 nos sete amuletos: reconhece Semuanya (de marinheiros), Melora e o Luxon. Ameaça o Quasi no ossário («voltas a pôr o meu irmão em perigo e não sais deste pântano vivo»). Fica com o escudo de carapaça (+2 AC), um maço de fémur, os 145 po dos cordéis (148 no total) e o crânio cornudo do altar. Dorme sozinho no topo da árvore, de olhos abertos e vermelhos, e sonha a origem de Baeshra pelos olhos do rapaz, até ao conselho dos três no dodecaedro. De manhã continua com fome depois de uma refeição inteira e exige a adaga ao Quasi: «Não me testes.» A mesa (sessão 4, #86, 2026-09-23): Perceção 19 e Furtividade 19: fica oculto e contorna a patrulha até 25 pés; aparece de braços cruzados quando as armas descem. Combina com o irmão em Thieves' Cant. «Não precisamos de proteção, mas aceitamos ouro. Quanto vale a vossa vida? Não é uma ameaça.» Insight 17 no Corvelo. Impasse com a Sousela junto à jangada. Falha duas Persuasões ao Morgid e tira-lhe o mapa; ao irmão diz que o Morgid lhes desejou boa sorte e o emprestou. Retaguarda com a Sousela. Sobe a uma árvore a andar na vertical à vista dos soldados e dorme no seu casulo; primeiro turno de vigia. A mesa (sessão 5, #88, 2026-10-07): Primeiro turno da noite do dia 2, vigiado pela Sousela. Passada hora e meia, foi ao sítio onde o Quasi dormia e TIROU-LHE A ADAGA (Sleight of Hand 20 com vantagem contra a passiva 13). De perto: lâmina muito afiada, sem um pingo de ferrugem, metal escuro, punho muito bem trabalhado em metal, prática e sem ornamentos a mais — mas não é adaga de soldado de primeira linha. Assim que lhe pegou, a FOME CONSTANTE DIMINUIU um pouco (não passou), e um cheiro novo roubou-lhe a atenção na direção da jangada, para a figura ajoelhada (a Lia), até a atenção voltar a ser dele. Meditou com ela junto à fogueira a tentar ligá-la à última frase do sonho da sessão 3 («não eu, não tu»): o que lhe veio foi reconhecimento — «faz sentido tu teres esta adaga» — e a pergunta de como seria usá-la, «tantas coisas que poderias comer com ela»; ficou com pena de a devolver, e devolveu-a (20 natural). No fim do turno viu um clarão branco único a sudoeste, sem trovão, que não se repetiu, e cheirou a chuva com o ar seco e sem nuvens; avisou o irmão. De manhã o Quasi deu-lhe a adaga de vez, e o instinto de olhar para a jangada repetiu-se. Tem um SEXTANTE (ferramentas de navegação do background, decidido à mesa): dá-lhe o norte de dia e de noite. Navegou os dois dias e perdeu-se nos dois (13 e 14 contra 15), e ao meio do dia 4 acertou com um 20 natural (24). À noite caçou sozinho a 150 pés do campo: em vez de crocodilo encontrou uma cobra, atirou-se a ela de boca aberta e comeu-a viva, à vista do acampamento. No turno do meio da noite do dia 3 percorreu o perímetro e reparou que faltava a Sousela. Fala halfling com o irmão para os soldados não entenderem.
+
+## Objetivo
+
+Investigar o rubídio para Yussa; perceber o que Baeshra quer, enquanto protege o irmão.
+
+## Segredo
+
+DM: morreu mesmo; Baeshra levantou-o e é o que o mantém a andar. Foi a intervenção de Baeshra, através do corpo levantado do Lucan (a Fera, a fome, a mordida — as três ao mesmo tempo), que devorou a saída do aboleto e salvou o Isco; ele acha que falhou; Baeshra sabe e nunca o diz em palavras; o aboleto ancião é quem pode mostrar como. Baeshra escolheu-o porque saltou por um irmão mais novo — a cena dele, repetida. Renegar Baeshra é possível e devolve-lhe a vida (perde Dhampir, Fera, fome); como, ninguém sabe. Necessidade oculta: ser necessário ao irmão e depois deixar de o ser — descobrir quem é sem Baeshra. Os obeliscos mostram-lhe a morte. Sabe que o Isco é Ruidusborn e cala-se. Na Ascensão dos Traidores (cap. 3), Sess'inek — o demon lord da corte do ossário — oferece-lhe o regresso à vida a sério, com custo, para o converter, e o Baeshra aceita o desafio apostando-o. É a mesma porta de r-pc-lucan-renegar, e chega pela pior boca possível, logo depois de ele ver o Fritz percorrer o mesmo caminho por uma filha morta. Pode aceitar ali, ou sair sem aceitar e passar a campanha a pensar se escolheu bem. O PREÇO: devorar o irmão — uma parte que não volta a crescer, com o Sess'inek a mandá-lo escolher onde morde, à frente dele. A mordida é a renúncia e o regresso à vida numa só dentada, e o que ele ganha em troca é um patrono novo. É a inversão exata do aboleto: lá devorou para salvar o Isco, aqui devora o Isco para se salvar — e se souber a verdade da primeira vez, terá comido o irmão duas vezes. Decide-se com o grupo informado, nunca às escondidas; se disserem que não, a oferta fica de pé o resto da campanha e ele passa a saber quanto vale o irmão em carne. Conversa com a Renata antes: deixa de ser Dhampir, perde a Fera do Baeshra e ganha pacto com Sess'inek.
+
+## O que o DM já definiu
+
+Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições resolvidas. Nada disto é para a jogadora saber já.
+
+**O mar e a morte**
+- **Morreu mesmo. Baeshra trouxe-o.** Afogou-se e parou; a voz veio depois, no escuro, e ele aceitou de morto. O corpo que voltou é um corpo levantado — olhos negros, pele fria, fome. Baeshra é literalmente o que o mantém a andar.
+- **A verdade do resgate**: ele acha que falhou; na verdade **foi a intervenção de Baeshra, através do corpo levantado do Lucan, que salvou o Isco**. O que devorou a saída do aboleto foi **três coisas ao mesmo tempo**: a Fera do Path of the Beast (nasceu ali), a fome de Baeshra a usar-lhe o corpo pela primeira vez, e a primeira refeição do Dhampir. Cada rage, cada refeição crua e cada "fui eu" de Baeshra apontam para a mesma noite. O Lucan não sabe; o Isco não sabe; **Baeshra sabe**. A única testemunha do *como* é o aboleto ancião.
+- **Porquê o Lucan**: saltou por um irmão mais novo. Baeshra chegou tarde aos sete anos; um homem a saltar atrás do irmão mais novo é o momento dele repetido — e desta vez chega a tempo. Não escolheu o Lucan; escolheu a cena. Sincero e egoísta.
+- **Renegar Baeshra é possível e devolve-lhe a vida** — deixa de ser Dhampir, perde a Fera e a fome, volta a ser homem. **Como, ninguém sabe — nem ele.** É descoberta de mesa, não regra. Custa à Renata a build, como o Quasi perde a Besta.
+- **O pai e o Scylla reaparecem**: no caminho marítimo de Jigau a Bazzoxan (cap. 2) ou, se a mesa quiser a rota longa de Bazzoxan a Marquet, por barco. A forma fica em aberto (ver abaixo).
+
+**Baeshra**
+- Lizardfolk de escamas brancas, olhos de bronze e chifres; escravo do Pântano do Véu-Quebrado, gladiador em Asarius (arena com estátua); **ascendeu por um wish, e o wish foi de Vecna** (sem mais detalhes). Vive dos seguidores e da multidão; símbolo: a própria caveira com chifres; monta a wyvern Darastrix. **É só Baeshra**: sem Zehir, sem Caos Aprisionado, sem Rei Rastejante.
+- **Acredita mesmo que dar poder e fome é bom.** Não se vê como monstro. Está a fabricar mais gente como ele sem o saber. Intervém sempre no mesmo instante — quando alguém está prestes a chegar tarde — e só fala a quem está à beira. **Não corteja o Isco.**
+- **A dívida a Vecna paga-se em ativar os obeliscos** (o plot do *unmade god*: Vecna quer usar os obeliscos para rebobinar o tempo — **para depois desta campanha**). Nesta, só sementes.
+- **Sabe que salvou o Isco através do Lucan e joga essa carta cedo, em Jigau**: "salvei o teu irmão através de ti". A partir daí o Lucan sabe que deve o irmão ao deus; o que falta descobrir é *como* (o aboleto mostra-lho) e o que isso faz ao Isco quando souber.
+- **Os três pedidos**: **Jigau** — desafiar a mais forte do Festival (Ayo Jabe) para duelo · **Bazzoxan** — desafiar o líder drow (Verin Thelyss) para duelo; e se cair a 0 PV e voltar em Rage, devorar · **Heart of Despair** — devorar Alyxian, o que sobra dele: um semideus a comer um semideus para subir. **É o inaceitável — e é um dos finais do livro** (matar Alyxian na 3.ª fase derrete todo o rubídio). É isso que o torna perigoso.
+- **Pedido recorrente**: procurar o adversário maior que vir pela frente / a pessoa mais forte de cada sítio, e desafiá-la.
+- **Os fiéis**: velhos gladiadores libertos espalhados por Jorhas (Jigau, Bazzoxan…) e um pequeno culto na arena de Asarius. Reconhecem-no pelos olhos e vêem nele um ***second coming* de Baeshra — mas querem provas: querem vê-lo vencer.** Cada duelo tem público. O seguidor com a **caveira com chifres tatuada nas costas** no Festival do Mérito (cap. 1) é um deles; o Lucan viu a tatuagem em Asarius.
+- **A lenda de Baeshra** (fonte: texto original da Renata no doc "Renata - Lucan Saltbreaker"; cronologia e ligação a Mirimm, DM): nasceu **Ssarik-Ro**, no **clã Ro**, lizardfolk caçadores-recoletores do Pântano do Véu-Quebrado, na vila que hoje é o **Sunken Boneyard**. Em **809 PD** — há 26 anos — a Dinastia deu ordem de pacificação ao clã, que sabotava linhas de abastecimento; executou-a **Durth Mirimm (Duarte Mirim), então comandante de campo**: a maioria enjaulada e levada, os defensores chacinados, alguns soldados Kryn caídos também. O rapaz, de 7 anos, estava numa floresta a milhas na **Prova da Força** (caçar um urso sozinho) e voltou para uma vila queimada — "a porta a que chegou tarde". **Ficou meses** entre os mortos e, antes de partir, fez **um altar de criança à lenda do seu povo**: o Grande Devorador era uma lenda de um apocalipse futuro que o clã contava, e ele decidiu ser essa entidade. Depois: vilas humanas, um braço cortado por levar uma metáfora à letra, prisão, evasão; **esclavagistas em Jorhas** venderam-no a uma arena — 8 anos de gladiador em Asarius; Zealot pela fé em si e pelos fãs; **aos 33, em 835 PD**, numa masmorra de um demilich ao serviço de Vecna, o wish. **É deus há poucos meses.** O nome de quem matou o clã chegou-lhe com a divindade — não o descobriu: **foi-lhe dado, pela mesma via que lhe deu o poder**. Não decidir se o alvo é de Baeshra ou de Vecna: a história corre igual, e se o grupo perceber um dia que a vingança lhes chegou embrulhada, há segundo ato. "É só Baeshra"; Sess'inek (o demónio do clã que ocupou o Boneyard depois) não tem nada a ver com ele.
+- **Mirimm não é vilão**: um homem competente numa cadeira, que resolveu um problema logístico e esqueceu o pântano na semana seguinte — e foi **promovido a administrador da região que limpou**. A ordem não foi dele; a execução foi. Isso torna-o indefensável e simpático ao mesmo tempo. Deixar encontrável em Jigau: uma comenda, uma nota de serviço, o registo. **Baeshra passou 26 anos a alimentar-se disto; Mirimm esqueceu-o na semana seguinte.**
+- **O Sunken Boneyard (B3), enriquecido**: os crânios afundados são **as irmãs mortas do Guardião do Musgo** — o cemitério das tartarugas-do-horizonte; a vila do clã Ro ficava em cima deles; depois, o clã de **Skr'a S'orsk** (Sess'inek) viveu em cima de ossos de outra gente. **Skr'a morreu na sessão 1; os restantes dispersaram; o Boneyard não tem dono** — e eram os últimos do pântano: ninguém pode confirmar nem desmentir o que o santuário é. O que já lá está: **o altar de criança**, mal cuidado há 26 anos — um crânio de lizardfolk com chifres esculpido em osso de tartaruga, um dente de leite, uma escama branca, o nome **Ssarik-Ro gravado e riscado com "Baeshra" por baixo**, e **a adaga cravada**. Ninguém risca símbolos nem põe nada de novo; tudo é obra de uma criança de 7 anos.
+- **O templo de Sess'inek no ossário** (o que o clã de Skr'a lá deixou): não era um bando, era uma **corte**. O Emperor Lizard é o demon lord que dá aos lizardfolk o que eles nunca tiveram — tronos, coroas, escalões — e o clã montou isso **em cima de um cemitério**.
+  - **O templo é dentro do maior dos crânios de tartaruga**: entra-se por onde a mandíbula assentou; o interior está raspado e polido; ao fundo, no lugar mais alto, o **trono talhado no próprio osso da cabeça**.
+  - **Gravadas grandes por cima do trono, as seis espadas** — os seis braços do senhor deles. Poder e mais nada: sem história, sem cena, impossível de confundir com o Baeshra.
+  - **Por fora**, os restantes crânios arrumados **por ordem de posto** (de longe parece despejo; Investigation dá a hierarquia), com a **mão reptiliana de garras** — o símbolo dele — gravada no osso de cada um, e repetida em escamas soltas e cabos de lança.
+  - **Lá dentro**: uma **garra de réptil seca** pendurada — o símbolo sagrado que o clero usa, de nenhum bicho em especial — e o **espólio** do que um clã junta em anos.
+  - **Nada está ativo e nada é perigoso**: não há guarda, não há mecanismo, não há voz. A sessão 1 já teve o combate.
+  - **O Skr'a era um lizard king** (meio-demónio, como quase todos os xamãs de Sess'inek): **o trono era dele por sangue** — mataram um rei na sessão 1 sem saber. Está vazio desde então e continua limpo; um dos que fugiram há-de voltar para o ocupar, muito depois de o grupo sair do pântano e **sem contas a ajustar com eles** — é o que acontece ao sítio, não um NPC de mesa.
+  - O **altar do Baeshra fica a três metros do trono e nunca foi tocado**: é isto o "medo" — uma corte do domínio não sabe o que fazer com um santuário a um Devorador.
+  - **A mão de garras é a semente**: reaparece, à escala errada, dentro da Ascensão dos Traidores (cap. 3) — **só o símbolo; lá em baixo não há corte nenhuma**. É a paga de ter investigado um sítio que não era preciso investigar. Canon em `docs/lore.md`.
+- **Sess'inek e o Baeshra: heresia, não rivalidade.** O que o Emperor Lizard vende há séculos (sair do lodo, subir, mandar) um lizardfolk conseguiu sozinho, sem lhe dever nada — **e a pregar o contrário**: devora, sê a fera, volta ao lodo. O Baeshra nunca lhe rezou; o clã Ro também não (eram caçadores-recoletores de "survival of the fittest", que é o domínio do Semuanya sem lhe chamarem nome). **Um demon lord recluso não faz campanhas e não se desloca**: nada no pântano, nada em Jigau, nada contra o Baeshra diretamente.
+- **A resposta acontece na Ascensão dos Traidores, e é virada para o Lucan.** Sess'inek tenta **convertê-lo**, e o isco é **o regresso à vida**. A oferta **é verdadeira** — um demon lord de domínio tem poder para isso — e tem **custo** (hipótese: o Lucan passa a **warlock**, patrono Sess'inek; o custo exato está por decidir). **É a mesma porta de `r-pc-lucan-renegar`**: pode aceitar ali, ou sair sem aceitar e passar a campanha a pensar se escolheu bem e a procurar outra saída. E o **Baeshra aceita o desafio — apostando o Lucan**: se o campeão devorar o que é do Emperor Lizard lá dentro, ganha a casa; se ceder, perde-o. O Lucan não é avisado de que é ficha de outro.
+- **O preço: devorar o irmão.** Canibalismo, de livre vontade, e o custo de voltar à vida. Em detalhe:
+  - **Não volta a crescer.** A regeneração de licantropo do Isco para onde o Sess'inek morde — um demon lord não compra o que se regenera.
+  - **A parte não é escolhida pelo Isco: o Sess'inek aponta ao Lucan** e manda-o escolher onde morde. **O preço é a escolha, não a carne** — e o Isco fica a ver o irmão decidir.
+  - **De livre vontade e em grupo**: o Lucan informa o grupo e decidem juntos; nada acontece às escondidas. (O Quasi está na sala — e é o único ali que sabe o que é ser cortado ao meio pela sentença de outro.)
+  - **Uma coisa só**: a mordida **é** a renúncia. Larga o Baeshra e volta à vida na mesma dentada — a última refeição de fera, e nunca mais.
+  - **O que o Sess'inek leva é ele**: devolve a vida e fica com o homem, posto na corte e patrono novo. O Lucan troca de dono a pensar que se libertou, e só percebe pela primeira ordem que lhe chegar.
+  - **Se disserem que não, a oferta fica de pé** o resto da campanha — e daí em diante, cada vez que o irmão o salva, ele sabe quanto vale o irmão em carne.
+  - **Porque é que isto é o golpe do Emperor Lizard**: não lhe pede que abandone o Baeshra, pede-lhe que **complete** o que o Baeshra lhe ensinou ("devora"), virado para a família — que é como se sobe numa corte. O patrono treinou o campeão para o movimento que o perde, e é por isso que perde a aposta.
+  - **É a inversão exata do aboleto**: lá devorou para salvar o Isco (sem o saber, por intervenção do Baeshra); aqui devora o Isco para se salvar a si. Quando descobrir a verdade da primeira vez (`r-pc-lucan-salvou-isco`), descobre que **comeu o irmão duas vezes**.
+  - **Consequência**: "renegar o Baeshra e voltar à vida" **deixa de ser o final limpo**. Custa o corpo do irmão e um dono novo; se há saída limpa, continua por descobrir — e procurá-la passa a ser escolha ativa, não espera.
+  - **Conversa com a Renata**: deixa de ser Dhampir, perde a Fera, ganha pacto com Sess'inek. **Conversa com o Pedro Ropio**: é mutilação permanente da personagem dele, e sem o sim dele a cena não corre.
+- **A rima com o Fritz, deliberada e por dizer**: `c-fritz` — Hollow One, cultista de Ceratos, atrás do Reino Distante e do rubídio **para ressuscitar a filha Elisabete**, e que acaba a sacrificar-se para a reencontrar (`b-1-fritz-velnari`, `b-3-fritz-returns`, `b-3-fritz-end`) — faz o percurso todo à frente do Lucan nos cap. 1-3, mesmo antes da oferta na Ascensão. **Não comentar o paralelo à mesa**: a Renata vê-o sozinha.
+- **A adaga** (`dagger +1`, mágica, aura ténue de transmutação): fabrico drow, **lâmina de oficial Kryn**, encantada **antes de 809** — têmpera com trabalho arcano, equipamento de exército, não presente de deus (`detect magic` não prova autoria de nada). Foi a arma com que Mirimm rematou **o líder místico do clã, o pai de Baeshra**, e ficou cravada no corpo: recuperá-la não valia a paragem numa operação já concluída. A criança encontrou-a no rescaldo e deixou-a no altar; está lá desde 809. **Não é relíquia afetiva: é prova** — a arma do crime, à espera do primeiro seguidor que pisasse aquela terra. Regras de reconhecimento em `docs/regras.md`.
+- **A cena do santuário** (sessão 2; runsheet completa no beat `b-0-boneyard-altar`): primeiro contacto de Baeshra com o Lucan — não é reencontro, não é recompensa, não é pacto. **A compulsão vem do sítio e do objeto, não dele**: chão onde morreu um clã, arma que ficou no peito de quem os guardava. Um **save de Wisdom que não resiste a nada** (ele pega na adaga em qualquer caso; muda o que guarda). Os outros vêem-no parado em frente ao santuário, a chorar, sem responder — janela para agirem; o que interessa é a mesa ver o Lucan **sem controlo**. A visão em três blocos (memória, transição, agora) e o remate: *"Alimenta-te. Devora. Tal como eles devoraram."* **Sem nome, sem símbolo, sem crânio cornudo** — se a jogadora perguntar se foi Baeshra, devolver a pergunta em jogo: não houve confirmação nenhuma.
+- **O erro a deixar correr**: no terceiro bloco o Lucan vê Mirimm, Ushru e Coblu-Kaz sentados lado a lado e vai **assumir cumplicidade** — quando os dois anciãos são, em canon, a oposição a ele. É a cena mais difícil da campanha; deixar correr. (O edifício da visão é o **Salão de Pedra**, J9 — dodecaedro, Câmara dos Líderes com a mesa de obsidiana e as três cadeiras: madeira escura de Coblu, osso branco de Ushru, metal forjado de Duarte. Não nomear Jigau na visão.)
+- **A ligação a Baeshra faz-se em camadas**: o Lucan reconhece os chifres (sabe como o deus é, pela estátua de Asarius); o **Morgid** conta a história do pai; e a voz — que nunca se identifica. **Depois do santuário, Baeshra cala-se** até ao momento escolhido.
+- **A voz, regra geral**: a **fome e os impulsos são permanentes** (como na ficha); **frases inteiras são raras e sempre ambíguas**. **Não há "salvei o teu irmão através de ti"**: Baeshra sabe o que fez no aboleto e nunca o diz em palavras — o Lucan descobre pelo aboleto ancião ou pelos obeliscos.
+- **As complicações de matar Mirimm**: (a) **consecução** — se for consecutado, matá-lo não o acaba, renasce; uma vingança que não pode ser concluída é o combustível perfeito para um Devorador; (b) **custo político** — matar o taskhand de uma cidade Kryn é assassinato político e colide de frente com a boa vontade do cap. 1 e com os rivais. É esse o preço.
+- **Morgid é lizardfolk, homem** (retcon ao livro: hobgoblin → lizardfolk), nascido em Urzin, guia do prólogo. O pai, **Hesskar-Ro**, é o **único sobrevivente do clã Ro**, vivo, velho, em Urzin: o único que conheceu o rapaz; sabe o nome de nascimento. **Só confirma o clã** — o massacre, o nome, quem era o pai; encontrou o altar anos depois e percebeu quem o fez pelo nome riscado, mas **não sabe nada de deuses nem de visões e não pode dizer quem falou ao Lucan**. A frase da sessão 1 ("o pai do Morgid fazia parte do clã que encontraram") fica verdadeira: o clã que encontraram é o extinto — os ossos são dele.
+- Eco de Alyxian: Alyxian sacrificou-se e apodreceu esquecido; Baeshra não sacrificou nada e vive porque uma cidade grita o nome dele.
+
+**Os obeliscos**
+- Há **três**: o obelisco negro no mar (cap. 2, já nos dados: a gaivota parada no ar), **a Ritual Stone de Bol'bara (B6) no Pântano do Véu-Quebrado** — o menhir negro é um obelisco — e **um em Ascensão dos Traidores**. Rebobinam tempo localmente. **Cada obelisco tem uma entidade planar aprisionada que o alimenta (DM, 2026-10-07): o da Ritual Stone é alimentado por Trush**, o patrono de Bol'bara (o "pacto com algo do Shadowfell" é com o prisioneiro do obelisco; os ritos dela funcionam por cima disso). Os inquilinos dos outros dois definem-se quando for preciso. O que é preciso para os ativar, ninguém sabe ainda.
+- **Ao Lucan mostram a morte dele**: tocar num obelisco rebobina-o a ele por segundos — um pedaço da noite no aboleto por obelisco (o mar: o salto; o pântano: a voz; a Ascensão: o que o corpo fez). O boon é memória, e é o que ele mais quer. Baeshra não pede nada: só diz "vai ver". Cada toque deixa o obelisco um pouco mais acordado — a renda a Vecna, sem ninguém saber.
+
+**Objetivos**
+- **Declarado**: o rubídio e Yussa (que quer só saber o que o rubídio é, e mais nada — patrono limpo). Por cima, a influência e a dívida de Baeshra.
+- **Necessidade oculta**: **ser necessário ao irmão — e depois deixar de o ser**: descobrir quem quer realmente ser, sem Baeshra. Morreu pelo Isco; desde aí é "o que salva o Isco". O arco é largar.
+- **Vitória: o jogador escolhe no fim** — renegar Baeshra e voltar à vida, ou devorar Alyxian e subir. A escolha sobre Alyxian é a escolha sobre si, como no Quasi.
+
+**Regras (ver `docs/regras.md`)**
+- **A Fera a 0 PV**: não fica inconsciente — levanta-se com a Fera, trinca o caído mais próximo (amigo ou inimigo) e só depois cai. Ao voltar, olhos de sangue e uma multidão a gritar "Lucan, Lucan, Lucan". Em Rage *quer* trincar — roleplay, sem obrigação. Sem tabelas.
+
+## Em aberto (para o DM decidir)
+
+1. **O reencontro com o Scylla** — ideias do DM: o pai precisa da ajuda dos filhos e tem de engolir o ego; o barco vazio à deriva; o pai falta e a pergunta surge; o pai tomado pelas profundezas (tripulação do Davy Jones). Decidir ao desenhar o cap. 2 / a rota longa.
+2. **Como se volta à vida** depois de renegar Baeshra: descoberta de mesa. Há agora **uma** resposta conhecida — a oferta de Sess'inek na Ascensão —, mas falta decidir **o custo** (warlock?) e se existe outra saída.
+2b. **A sala da Ascensão** onde isto acontece: *hold*. As Shifting Halls dão licença canónica para uma sala só deste grupo (traz um deus lizardfolk ao cinto); alternativas já existentes no livro: R8 Spiders' Chancel (os livros abissais sobre alianças de demon lords), R12 Threshold (já tem uma maldição de fome), R3 devouring wall.
+2c. **Conversa com a Renata**, quando a sala existir: a oferta é real e mexe na ficha.
+3. **Beats por capítulo** (ronda seguinte): o altar de criança no Boneyard (**jogado** na sessão 3, #84 — o que mudou está em `docs/canone.md`) e Hesskar-Ro em Urzin, a Ritual Stone, o seguidor no Festival, o duelo com a Ayo (e Duarte como segundo alvo), o obelisco do mar, Bazzoxan e o Verin, o obelisco da Ascensão, o aboleto que mostra o *como*, o Heart of Despair.
+4. **Cruzado com o Isco**: matar Alyxian derrete todo o rubídio — o que faz isso à licantropia rubídica do Isco? Decidir no Isco.
+5. **A adaga ficou com o Quasi** (sessão 3): foi ele que a identificou e recusou-se a entregá-la; o Lucan respondeu «não me testes». Decidir se o reconhecimento em Jigau (`b-1-mirimm-reconhece`) dispara em quem a traz ao cinto ou em quem a reclama — e o que acontece se a tensão entre os dois rebentar antes disso.
+6. **A fome do santuário** não passa com comida desde a sessão 3. Decidir quanto tempo dura, se tem custo mecânico, e o que quer dizer «Perto. Não aqui.» — a única coisa que a voz disse.
+
+---
+
+## Ficha (de docs/pcs.md: Lucan "Anzol" Bruma (Renata Surrécio))
+
+Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, Neutral, 29 anos, 1,93 m. Línguas: comum, halfling, thieves' cant. Venera Baeshra, o Grande Devorador. Nasceu em Nicodranas (Concílio de Clóvis); casa de infância: o porão da caravela de caça Scylla. Memória mais antiga: a mãe a cantar-lhe uma sea shanty; o irmão a nascer sob a lua vermelha cheia.
+
+## A Fera do Lucan (DM; base na ficha da Renata) (de docs/regras.md)
+
+- **A 0 PV, a Fera alimenta-se.** Quando o Lucan cai a 0 PV não fica inconsciente: levanta-se com a Fera (Path of the Beast), ataca a criatura caída mais próxima até morder carne — amiga ou inimiga — e só depois cai. Sem contagem, sem tabela: é um gatilho, e é o que aconteceu dentro do aboleto.
+- **Ao voltar de 0 PV**: olhos de sangue, e começa a ouvir uma multidão a gritar-lhe o nome — "Lucan, Lucan, Lucan!".
+- **Em Rage** quer trincar um adversário caído. Roleplay, sem obrigação.
+- **Renegar Baeshra** é possível e devolve-lhe a vida (deixa de ser Dhampir; perde a Fera e a fome). Como se faz, ninguém sabe — nem ele. Descoberta de mesa.
+- **Os obeliscos** (mar; a Ritual Stone de Bol'bara no pântano; Ascensão dos Traidores): se lhes tocar, rebobinam-no por segundos e mostram-lhe um pedaço da noite em que morreu. Sem custo visível; cada toque acorda o obelisco um pouco — e o que está preso lá dentro (na Ritual Stone, Trush).
+
+- **À mesa (sessão 2, #83):** a Rage é uma «Tranquil Fury», raiva calma: olhos vermelho-escuro, dobra-se em dores e cresce-lhe uma cauda comprida com espigões ósseos na ponta (verde-escura/azul-marinho), alcance 10 pés, 2d8+4 piercing. Reação: a cauda soma 1d8 à AC contra um ataque que a jogadora vê vir. Reckless Attack em uso.
+
+- **À mesa (sessão 3, #84) — a fome do santuário:** dentro do crânio do altar abre-se-lhe «um buraco enorme de fome e de vontade de devorar tudo»; fora dele passa. Ao arrancar a adaga a fome fica absurda e ele cai de joelhos. Comer não a resolve: devorou dois corpos de lizardfolk e, passados dois minutos, a fome estava na mesma; de manhã, depois de uma refeição inteira, continuava. Ouviu na cabeça **«Perto. Não aqui.»** (Wisdom save passado: fica lúcido, e olha para quem tem a adaga e a garra). A fome não é mecânica: é estado, e mantém-se até o DM decidir o contrário.

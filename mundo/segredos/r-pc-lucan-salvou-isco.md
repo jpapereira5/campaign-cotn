@@ -1,0 +1,13 @@
+---
+id: r-pc-lucan-salvou-isco
+lista: Segredos dos PCs
+pistas: []
+legenda: o Lucan salvou o Isco, através de Baeshra
+sabe: "Baeshra; testemunha: o aboleto ancião"
+origem:
+  - pcs
+---
+
+## Verdade
+
+O Lucan morreu naquela água. Foi a intervenção de Baeshra, através do corpo levantado do Lucan — a Fera, a fome, a mordida, as três ao mesmo tempo — que devorou a saída do aboleto e salvou o Isco. O Lucan acha que falhou; o Isco não sabe; Baeshra sabe e nunca o diz em palavras. Só o aboleto ancião, ou os obeliscos, podem mostrar como.

@@ -1,0 +1,419 @@
+[
+  {
+    "id": "r-jewel-properties",
+    "list": "Campaign Agendas",
+    "text": "A Jewel of Three Prayers é uma Vestige of Divergence que cresce em poder (Dormant → Awakened → Exalted) e cujos estados abrem caminhos: o rift em Cael Morrow e a porta secreta de N22a.",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-2-ushru-dawn",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-6-n22-graves-intransigence"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-jewel-three-prayers",
+    "list": "Campaign Agendas",
+    "text": "A Jóia foi fortalecida três vezes pelos deuses (Sehanine, Avandra, Corellon) em resposta às três preces de Alyxian durante a Calamity.",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-6-n25-effigy-loathing"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-shrines",
+    "list": "Campaign Agendas",
+    "text": "Em cada sítio onde a Jóia foi fortalecida ergueu-se um santuário: Emerald Grotto (Sehanine), Betrayers' Rise (Avandra), Temple of the Arch Heart em Cael Morrow (Corellon); ruínas deles existem também no Heart of Despair.",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-7-alyxian-speaks",
+      "b-7-battle-tormented"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-jewel-reactivate",
+    "list": "Campaign Agendas",
+    "text": "A Jóia só se reactiva por completo visitando os três santuários por ordem; é por isso que o caminho vai de Jigow a Bazzoxan e a Cael Morrow.",
+    "clues": [
+      "b-2-ushru-dawn",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-5-open-rift"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-ruidium-properties",
+    "list": "Campaign Agendas",
+    "text": "O ruidium é um mineral carmesim que cresce em tudo o que toca, dá poder a objectos e corrompe criaturas (save de Charisma, exaustão, veias vermelhas) e só desaparece com wish, intervenção divina ou o fim do Apotheon.",
+    "clues": [
+      "b-4-a1-deliver-figurine",
+      "b-4-b3-elephant",
+      "b-4-c2-kruuk",
+      "b-4-c3-first-eclipse",
+      "b-6-n1-arrival",
+      "b-6-n12-ruidium-weapons",
+      "b-6-c6-destroy-netherdeep",
+      "b-7-ending-neutral"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-ruidium-apotheon-sites",
+    "list": "Campaign Agendas",
+    "text": "O ruidium aparece exactamente nos sítios ligados ao Apotheon (o brilho carmesim do seu cárcere, o Betrayers' Rise, Cael Morrow, o Netherdeep): é a emoção dele tornada matéria.",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-4-b3-elephant",
+      "b-5-temple-arch-heart",
+      "b-5-open-rift",
+      "b-6-n16-moon-abhorrence-key"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-faction-agendas",
+    "list": "Campaign Agendas",
+    "text": "As três facções de Ank'Harel têm agendas opostas para o ruidium: a Allegiance quer fabricar e vender, o Consortium quer o monopólio e os seus mistérios, a Cobalt Soul quer destruí-lo ou selá-lo.",
+    "clues": [
+      "b-4-choose-faction",
+      "b-4-a3-proxies-of-prolix",
+      "b-4-b3-elephant",
+      "b-4-c3-first-eclipse",
+      "b-6-a6-secure-netherdeep",
+      "b-6-b6-monopoly",
+      "b-6-c6-destroy-netherdeep",
+      "b-6-rivals-n26"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-alyxian-ruidus-birth",
+    "list": "Lore of Alyxian",
+    "text": "Alyxian nasceu em Wildemount, no início da Calamity, sob uma Ruidus cheia, e foi tido por amaldiçoado por todos menos pelos pais.",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-6-n2-parents",
+      "b-6-n16-moon-abhorrence-key",
+      "b-6-n25-effigy-loathing",
+      "b-6-apotheon-lore-visions"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-alyxian-bad-luck",
+    "list": "Lore of Alyxian",
+    "text": "A vida inteira de Alyxian foi uma cadeia de azares (Saqiri, Kalagothe, as Zenthas), e ele escolheu proteger os outros da dor porque já estava condenado a sofrer.",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-6-n2-parents",
+      "b-6-n3-saqiri",
+      "b-6-n4-kalagothe-despondence",
+      "b-6-n5-zenthas-attachment",
+      "b-6-apotheon-lore-visions"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-alyxian-three-prayers",
+    "list": "Lore of Alyxian",
+    "text": "Durante a Calamity, Alyxian pediu ajuda aos deuses três vezes para salvar quem estava em perigo, e três vezes foi atendido: Sehanine na costa de Wildemount, Avandra no Betrayers' Rise, Corellon na cidade de elfos e orcs em Marquet.",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-6-n7-battle-pity",
+      "b-6-n14-sepulcher-rancor",
+      "b-6-n22-graves-intransigence",
+      "b-6-n24-perigee-deception",
+      "b-6-n25-effigy-loathing",
+      "b-6-apotheon-lore-visions"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-alyxian-gruumsh",
+    "list": "Lore of Alyxian",
+    "text": "Quando Gruumsh tentou destruir toda a vida de Marquet com um golpe de lança, Alyxian aparou-o com o seu poder semidivino: Cael Morrow foi destruída, o resto do continente poupado.",
+    "clues": [
+      "b-5-temple-arch-heart",
+      "b-6-n6-red-door",
+      "b-6-n7-battle-pity",
+      "b-6-n8-ruiners-spear",
+      "b-6-apotheon-lore-visions"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-netherdeep-prison",
+    "list": "Lore of Alyxian",
+    "text": "A fúria do golpe de Gruumsh, a defesa de Alyxian e a queda de Cael Morrow rasgaram um espaço interdimensional onde correram as energias de Ruidus: o Netherdeep, que se tornou o cárcere de Alyxian, e nada o prende ali senão a convicção de que não merece sair.",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-5-temple-arch-heart",
+      "b-5-open-rift",
+      "b-6-n1-arrival",
+      "b-6-n8-ruiners-spear",
+      "b-6-apotheon-lore-visions",
+      "b-7-alyxian-speaks"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-netherdeep-leaking",
+    "list": "Lore of Alyxian",
+    "text": "O Netherdeep está a vazar: as suas energias escapam pelo rift de Cael Morrow sob a forma de ruidium, e os mortais que o colhem deixam Alyxian na escuridão.",
+    "clues": [
+      "b-4-a2-life-dome",
+      "b-5-b5-aboleth",
+      "b-5-open-rift",
+      "b-6-b6-monopoly",
+      "b-6-c6-destroy-netherdeep",
+      "b-6-n1-arrival",
+      "b-7-ending-worst"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-perigee",
+    "list": "Lore of Alyxian",
+    "text": "Perigee, deva de Sehanine, combateu ao lado de Alyxian na sua última batalha, foi destruída, reformou-se e procurou-o durante séculos até ficar presa e corrompida no Netherdeep.",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-6-n7-battle-pity",
+      "b-6-n14-sepulcher-rancor",
+      "b-6-n24-perigee-deception",
+      "b-6-apotheon-lore-visions"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-alyxian-wants-remembered",
+    "list": "Lore of Alyxian",
+    "text": "Mais do que liberdade, Alyxian quer ser lembrado: o Netherdeep transformou esse desejo numa obsessão por ser idolatrado por um mundo que o esqueceu, e é essa a chave para o julgar.",
+    "clues": [
+      "b-3-prayer-site-avandra",
+      "b-5-c4-insight",
+      "b-5-temple-arch-heart",
+      "b-6-n4-kalagothe-despondence",
+      "b-6-n17-n18-theo-briefing",
+      "b-6-chasm-loneliness",
+      "b-6-n23-many-futures",
+      "b-6-apotheon-lore-visions",
+      "b-7-alyxian-speaks",
+      "b-7-battle-callous",
+      "b-7-battle-dispossessed",
+      "b-7-ending-best",
+      "b-7-heroes-unsung"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-alyxian-split-self",
+    "list": "Lore of Alyxian",
+    "text": "Alyxian está partido em pedaços (o aboleth que se julga ele, Theo a inocência, o Hunter o ódio, as três formas do Heart) e só um pedaço intacto, escondido sob a raiva, pode ser alcançado para o salvar de verdade.",
+    "clues": [
+      "b-5-b5-aboleth",
+      "b-5-c5-enemy-of-enemies",
+      "b-6-n1-arrival",
+      "b-6-vents-fury-escalation",
+      "b-6-theo-and-hunter",
+      "b-6-n17-n18-theo-briefing",
+      "b-6-fragments-gate",
+      "b-7-alyxian-speaks",
+      "b-7-battle-tormented",
+      "b-7-battle-dispossessed"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-go-to-bazzoxan",
+    "list": "Navegação",
+    "text": "A segunda prece foi feita no coração de um templo do mal em Bazzoxan: é para lá que a Jóia e a memória da Calamity apontam.",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-2-ushru-dawn",
+      "b-2-jewel-theft"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-cyst-of-avandra",
+    "list": "Navegação",
+    "text": "Dentro do Betrayers' Rise existe um antigo sítio de oração de Avandra (o cisto no fundo da cratera), só acessível com a Jóia.",
+    "clues": [
+      "b-1-jewel-vision",
+      "b-3-prayer-site-avandra",
+      "b-3-ready-room-question",
+      "b-3-temple-foghome",
+      "b-3-barracks-verin"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-go-to-ank-harel",
+    "list": "Navegação",
+    "text": "As respostas seguintes (a terceira prece, a cidade afundada de elfos e orcs, os peritos em ruidium) estão em Ank'Harel, em Marquet.",
+    "clues": [
+      "b-2-jewel-theft",
+      "b-3-prayer-site-avandra",
+      "b-3-jewel-confrontation"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-cael-morrow-entrance",
+    "list": "Navegação",
+    "text": "Cael Morrow, a cidade afundada, fica sob Ank'Harel e entra-se pelo Maw (controlado pela Allegiance) ou pelas cavernas inundadas ligadas ao oásis do Life Dome.",
+    "clues": [
+      "b-4-choose-faction",
+      "b-4-a2-life-dome",
+      "b-4-a3-proxies-of-prolix",
+      "b-4-c3-first-eclipse"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-rift-location",
+    "list": "Navegação",
+    "text": "O rift para o Netherdeep está em Cael Morrow (M17), guardado por um aboleth, e é dele que sai a água e o ruidium.",
+    "clues": [
+      "b-5-a5-scout-rift",
+      "b-5-b4-key",
+      "b-5-c4-insight",
+      "b-5-b5-aboleth",
+      "b-5-open-rift"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-rift-key",
+    "list": "Navegação",
+    "text": "O rift abre-se com qualquer arma de ruidium a tocar a barreira (a 'Key' é só um machado de ruidium) ou com a Jóia em estado Exalted a 10 ft.",
+    "clues": [
+      "b-5-a4-double-agent",
+      "b-5-a5-scout-rift",
+      "b-5-b4-key",
+      "b-5-c4-insight",
+      "b-5-temple-arch-heart",
+      "b-6-b6-monopoly"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-lymmle-traitor",
+    "list": "Facções",
+    "text": "A professora Lymmle Wist da Allegiance é uma agente dos Sentinels of Memory: plantou o rumor do Life Dome, incriminou Prolix e apagou memórias das suas expedições.",
+    "clues": [
+      "b-4-a1-deliver-figurine",
+      "b-4-a2-life-dome",
+      "b-4-a3-proxies-of-prolix"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-galeokaerda-spy",
+    "list": "Facções",
+    "text": "Galeokaerda, a amiga desaparecida de Insight Acuere, é a espia do Consortium dentro da escavação da Allegiance em Cael Morrow.",
+    "clues": [
+      "b-4-b3-elephant",
+      "b-4-c3-first-eclipse",
+      "b-5-a4-double-agent",
+      "b-5-b4-key"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-aboleth-not-alyxian",
+    "list": "Facções",
+    "text": "O aboleth que guarda o rift acredita ser Alyxian, mas é apenas um eco corrompido: o verdadeiro Apotheon está preso mais fundo, no Netherdeep.",
+    "clues": [
+      "b-4-c3-first-eclipse",
+      "b-5-b5-aboleth",
+      "b-5-c5-enemy-of-enemies",
+      "b-5-temple-arch-heart",
+      "b-6-theo-and-hunter"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-cryon-vs-alakritos",
+    "list": "Facções",
+    "text": "Os dois headmasters da Allegiance estão em ruptura: Cryon quer o rift aberto e o ruidium explorado nas costas de Alakritos, que teme as consequências.",
+    "clues": [
+      "b-5-a4-double-agent",
+      "b-5-a5-scout-rift",
+      "b-6-a6-secure-netherdeep"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-consortium-funds-sentinels",
+    "list": "Facções",
+    "text": "O Consortium e os Sentinels of Memory trabalham juntos contra o inimigo comum, a Allegiance of Allsight.",
+    "clues": [
+      "b-4-a2-life-dome",
+      "b-4-a3-proxies-of-prolix",
+      "b-4-b3-elephant"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-sixth-missions-doomed",
+    "list": "Facções",
+    "text": "As sextas missões da Allegiance (negociar extracção) e do Consortium (aliar ou capturar a fonte) são impossíveis: só a da Cobalt Soul se cumpre, e apenas matando ou redimindo Alyxian, o que apaga todo o ruidium.",
+    "clues": [
+      "b-6-a6-secure-netherdeep",
+      "b-6-b6-monopoly",
+      "b-6-c6-destroy-netherdeep",
+      "b-6-n1-rival-ambush",
+      "b-6-rivals-n26",
+      "b-7-alyxian-speaks",
+      "b-7-ending-worst",
+      "b-7-ending-neutral",
+      "b-7-ending-best"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-bolbara-possessed",
+    "list": "Prólogo",
+    "text": "Com os ritos interrompidos, o patrono de Bol'bara, o demónio-sombra Trush, está a possuí-la; ao terceiro revivify de Pellinost a possessão completa-se.",
+    "clues": [
+      "b-0-return-to-urzin",
+      "b-0-ritual-stone",
+      "b-0-chapel"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-how-to-save-bolbara",
+    "list": "Prólogo",
+    "text": "Bol'bara salva-se reduzindo-a a 0 hp e curando-a até 1 hp em três rondas, antes de Trush terminar o ritual.",
+    "clues": [
+      "b-0-return-to-urzin",
+      "b-0-mossback-steward",
+      "b-0-exorcism"
+    ],
+    "source": "book"
+  },
+  {
+    "id": "r-kryn-vs-empire",
+    "list": "Prólogo",
+    "text": "A Kryn Dynasty e o Império Dwendaliano disputam Xhorhas; opor-se ao Império atrai a atenção positiva de operativos Kryn, que abrem caminho para Jigow.",
+    "clues": [
+      "b-0-return-to-urzin",
+      "b-0-mossback-steward",
+      "b-0-mission-urzin"
+    ],
+    "source": "book"
+  }
+]
