@@ -88,7 +88,7 @@
         {#if ei?.posse}<span class="tag estado">{ei.posse.com ? `com ${nome(ei.posse.com)}` : ei.posse.onde} <small>{rotuloMarca(ei.posse.marca)}</small></span>{/if}
         {#if ef?.estado}<span class="tag estado">{ef.estado.valor} <small>{rotuloMarca(ef.estado.marca)}</small></span>{/if}
         {#if ef?.relogio}<span class="tag estado">relógio {ef.relogio.valor}{meta.passos && typeof meta.passos === 'number' ? ` / ${meta.passos}` : ''} <small>{rotuloMarca(ef.relogio.marca)}</small></span>{/if}
-        {#if eb}<span class="tag estado">{ESTADO_BEAT[eb.estado] ?? eb.estado} <small>{rotuloMarca(eb.marca)}</small></span>{:else if pasta === 'beats'}<span class="tag">por jogar</span>{/if}
+        {#if eb}<span class="tag estado">{ESTADO_BEAT[eb.estado] ?? eb.estado} <small>{rotuloMarca(eb.marca)}</small></span>{:else if pasta === 'beats'}<span class="tag" title={meta.estado === 'proposta' ? 'Ainda só uma proposta: entra no cânone quando se jogar ou quando o DM decidir' : ''}>{meta.estado === 'proposta' ? 'proposta' : 'por jogar'}</span>{/if}
         {#each lista(meta.origem) as o, i_ (i_)}<span class="tag book" title="de onde veio">{o}</span>{/each}
       </div>
     </header>

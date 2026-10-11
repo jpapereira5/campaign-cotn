@@ -148,7 +148,7 @@
           {@const id = String(b.meta.id)}
           <div class="pend" class:curso={estadoBeat(id) === 'em-curso'}>
             <Chip {id} />
-            {#if estadoBeat(id) === 'em-curso'}<span class="tag">em curso</span>{/if}
+            {#if estadoBeat(id) === 'em-curso'}<span class="tag">em curso</span>{:else if b.meta.estado === 'proposta'}<span class="tag">proposta</span>{/if}
             <button class="icon ghost" title={semToken ? 'Marcar jogado à mesa (sem token fica só neste browser)' : 'Marcar jogado à mesa: fica na tua camada até ao fecho'} onclick={() => marcarJogado(id)}>✓</button>
           </div>
         {/each}

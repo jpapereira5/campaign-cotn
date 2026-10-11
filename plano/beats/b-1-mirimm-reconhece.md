@@ -1,6 +1,7 @@
 ---
 id: b-1-mirimm-reconhece
-titulo: PROPOSTA · Mirimm reconhece a lâmina
+titulo: Mirimm reconhece a lâmina
+estado: proposta
 arcos:
   - a-pc-lucan
   - a-kryn

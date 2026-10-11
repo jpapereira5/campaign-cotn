@@ -145,6 +145,8 @@ export function validarArvore(a: Arvore): Problem[] {
     for (const a of arcs) if (!arcos.has(a)) err(d.caminho, `arco desconhecido: ${a}`)
     if (!d.meta.capitulo) err(d.caminho, 'beat sem capítulo')
     cap(d.caminho, d.meta.capitulo)
+    if (d.meta.estado !== undefined && d.meta.estado !== 'proposta') err(d.caminho, `estado desconhecido no beat: ${String(d.meta.estado)} (só «proposta»; jogado/em-curso/saltado vêm do registo)`)
+    if (/^(JOGADO|PROPOSTA)\b/.test(String(d.meta.titulo ?? ''))) err(d.caminho, 'título com prefixo JOGADO/PROPOSTA: o estado vem do registo ou de `estado: proposta`')
     ref(d.caminho, d.meta.local, 'local')
     for (const x of lista(d.meta.participantes)) if (!nosRel.has(x)) err(d.caminho, `participante desconhecido: ${x}`)
     if (!lista(d.meta.participantes).length) warn(d.caminho, 'beat sem participantes')

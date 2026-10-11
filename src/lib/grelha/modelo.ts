@@ -344,7 +344,7 @@ export function construirGrelha(e: Entrada): Grelha {
     for (const c of colunas) {
       if (!c.capitulo) continue
       const beats = (beatsPorCapitulo.get(c.capitulo) ?? []).filter((b) => beatToca(b, l.id) && estadoBeat(String(b.meta.id)) !== 'jogado')
-      if (beats.length) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: `${beats.length} beat${beats.length > 1 ? 's' : ''}: ${beats.map((b) => String(b.meta.titulo ?? b.meta.id)).join(' · ')}`, refs: beats.map((b) => String(b.meta.id)) })
+      if (beats.length) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: `${beats.length} beat${beats.length > 1 ? 's' : ''}: ${beats.map((b) => `${String(b.meta.titulo ?? b.meta.id)}${b.meta.estado === 'proposta' ? ' (proposta)' : ''}`).join(' · ')}`, refs: beats.map((b) => String(b.meta.id)) })
       for (const passo of passos.filter((x) => x.capitulo === c.capitulo)) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: passo.texto })
       if (l.tipo === 'revelacao') {
         const pistas = lista(d?.meta.pistas).filter((b) => porId.get(b)?.meta.capitulo === c.capitulo && estadoBeat(b) !== 'jogado')
@@ -396,7 +396,8 @@ export function construirGrelha(e: Entrada): Grelha {
       for (const b of p.beats) {
         if (!lista(b.meta.arcos).includes(id)) continue
         const cap = String(b.meta.capitulo ?? '')
-        porCapitulo[cap] = [...(porCapitulo[cap] ?? []), { id: String(b.meta.id), titulo: String(b.meta.titulo ?? ''), estado: estadoBeat(String(b.meta.id)) ?? 'por-jogar' }]
+        // um beat ainda só proposto (estado: proposta no cabeçalho) mostra-se como tal até ser jogado
+        porCapitulo[cap] = [...(porCapitulo[cap] ?? []), { id: String(b.meta.id), titulo: String(b.meta.titulo ?? ''), estado: estadoBeat(String(b.meta.id)) ?? (b.meta.estado === 'proposta' ? 'proposta' : 'por-jogar') }]
       }
       for (const capBeats of Object.values(porCapitulo)) capBeats.sort((x, y) => Number(porId.get(x.id)?.meta.ordem ?? 0) - Number(porId.get(y.id)?.meta.ordem ?? 0))
       return { id, nome: String(a.meta.nome ?? id), cor: String(a.meta.cor ?? '#888'), porCapitulo }

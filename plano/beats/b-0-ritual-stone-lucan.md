@@ -1,6 +1,7 @@
 ---
 id: b-0-ritual-stone-lucan
-titulo: "PROPOSTA · A pedra que rebobina: a voz no escuro"
+titulo: "A pedra que rebobina: a voz no escuro"
+estado: proposta
 arcos:
   - a-pc-lucan
   - a-prologue

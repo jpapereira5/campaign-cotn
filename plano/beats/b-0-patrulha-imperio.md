@@ -1,6 +1,6 @@
 ---
 id: b-0-patrulha-imperio
-titulo: JOGADO (sessão 4) · A Patrulha do Forte Ventura
+titulo: A Patrulha do Forte Ventura
 arcos:
   - a-prologue
   - a-pc-lia

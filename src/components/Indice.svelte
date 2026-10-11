@@ -167,7 +167,7 @@
             <td class="muted">{chapterShort(texto(d.meta.capitulo))} <span class="tiny">· {d.meta.ordem}</span></td>
             <td><Chip {id} /></td>
             <td class="muted tiny">{lista(d.meta.arcos).map((a) => indice.nome(a)).join(', ')}</td>
-            <td class="muted small">{eb ? `${eb.estado} · ${rotuloMarca(eb.marca)}` : ''}</td>
+            <td class="muted small">{eb ? `${eb.estado} · ${rotuloMarca(eb.marca)}` : d.meta.estado === 'proposta' ? 'proposta' : ''}</td>
             <td class="muted small clamp-2">{resumo(d)}</td>
           </tr>
         {:else}
