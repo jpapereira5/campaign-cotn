@@ -1,5 +1,7 @@
 # Campanha · Call of the Netherdeep
 
+> **Migração em curso (fase A, 2026-10-11):** a fonte de verdade passou para a estrutura nova descrita em [`docs/arquitetura.md`](docs/arquitetura.md): um ficheiro Markdown por coisa em `mundo/`, `plano/`, `registo/` e `mesa/`, o livro de referência em `livro/` e a Grelha em `grelha/`. `data/` e `docs/` antigos ficam intactos até à fase E. A app lê um pacote montado no build (`npm run montar`) e, nesta fase, não edita nada.
+
 Ferramenta de planeamento de campanha de D&D: um mapa **visual** dos NPCs, das ligações entre eles e de como os enredos concorrentes (rivais, fações de Ank'Harel, rubídio, o lore de Alyxian, as ambições dos PCs) avançam **no tempo** e convergem no Heart of Despair, à maneira da "teia de aranha" que a Larian descreveu para Baldur's Gate 3. Dados de *Call of the Netherdeep* tal como escrito, com prólogo *Unwelcome Spirits*.
 
 O método está em [`docs/metodo.md`](docs/metodo.md); as convenções de dados em [`docs/ids.md`](docs/ids.md); as regras próprias da campanha em [`docs/regras.md`](docs/regras.md); handouts em [`docs/handouts.md`](docs/handouts.md); backstory e perguntas em aberto dos PCs em [`docs/pcs.md`](docs/pcs.md); lore geral em [`docs/lore.md`](docs/lore.md); nomes em português em [`docs/glossario.md`](docs/glossario.md); resumos das sessões jogadas em [`docs/sessoes/`](docs/sessoes/); o que a mesa confirmou ou mudou face à preparação em [`docs/canone.md`](docs/canone.md).

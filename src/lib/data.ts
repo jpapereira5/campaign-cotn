@@ -1,10 +1,11 @@
-// Ficheiros de dados: os JSON em data/ são embebidos no build (fallback) e, com token,
-// substituídos pela versão actual do repositório. Cada ficheiro é a unidade de sincronização.
-//
-// Estrutura:
+// Ficheiros de dados. Desde a fase A da migração (docs/arquitetura.md), a fonte de verdade é a estrutura nova
+// (mundo/, plano/, registo/, mesa/, livro/), em Markdown com cabeçalho. `scripts/montar.ts` corre no build e escreve
+// src/generated/antigo.json: os ficheiros virtuais que esta app conhece, na forma antiga das duas camadas:
 //   data/book/{campaign,arcs}.json, data/book/<colecção>/*.json   — o livro (referência, só leitura na app)
-//   data/campaign/{campaign,arcs}.json, data/campaign/<colecção>/*.json — a nossa campanha (patches, acrescentos, remoções)
-//   data/state.json — estado de jogo
+//   data/campaign/{campaign,arcs}.json, data/campaign/<colecção>/*.json — a nossa campanha (patches, acrescentos)
+//   data/state.json — estado de jogo (calculado do registo)
+// A app não lê nem escreve data/ ao vivo: as alterações ao cânone chegam com o deploy.
+import antigo from '../generated/antigo.json'
 import type { Canon, Collection, PlayState, Problem } from './types.ts'
 import { COLLECTIONS } from './types.ts'
 import { normalizeCanon, type RawCanon } from './validate.ts'
@@ -24,7 +25,7 @@ export interface DataFile {
   dirty: boolean
 }
 
-const modules = import.meta.glob('/data/**/*.json', { eager: true, import: 'default' }) as Record<string, unknown>
+const modules = antigo as Record<string, unknown>
 
 export function parsePath(path: string): { kind: FileKind; layer: FileLayer } | null {
   if (path === 'data/state.json') return { kind: 'state', layer: 'state' }

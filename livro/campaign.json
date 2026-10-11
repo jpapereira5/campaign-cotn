@@ -1,0 +1,14 @@
+{
+  "title": "Call of the Netherdeep",
+  "chapters": [
+    { "id": "ch0", "name": "Prólogo: Unwelcome Spirits", "levels": "1→3", "hub": "Urzin / Brokenveil Marsh", "summary": "Resgate de Bol'bara ao Fort Venture antes de Trush a possuir. Os PCs chegam a Jigow a nível 3 com a atenção da Kryn Dynasty." },
+    { "id": "ch1", "name": "A Fateful Competition", "levels": "3→4", "hub": "Jigow", "summary": "Festival of Merit, os rivais, a corrida no Emerald Grotto e a Jewel of Three Prayers (Dormant). Primeira visão de Alyxian." },
+    { "id": "ch2", "name": "The Leave-Taking", "levels": "4→5", "hub": "Estrada de Xhorhas", "summary": "Ushru nomeia a Vestige e aponta Bazzoxan. Viagem de 9/12/15 dias, roubo nocturno da Jóia, caravana e chegada a Bazzoxan." },
+    { "id": "ch3", "name": "Bazzoxan", "levels": "5→7", "hub": "Bazzoxan / Betrayers' Rise", "summary": "Os três investigadores de Ank'Harel (Prolix, Aloysia, Question), o Betrayers' Rise, a Jóia Awakened em R16 e o confronto pela Jóia." },
+    { "id": "ch4", "name": "The Jewel of Hope", "levels": "7→9", "hub": "Ank'Harel", "summary": "Ank'Harel: escolher facção; os rivais escolhem a oposta. Três missões na cidade por facção (18 no total), espiões e traições." },
+    { "id": "ch5", "name": "The Drowned City", "levels": "9→10", "hub": "Cael Morrow", "summary": "Missões 4-5 em Cael Morrow; Temple of the Arch Heart (Jóia Exalted); a Key to the Netherdeep; o Aboleth que se julga Alyxian; o rift." },
+    { "id": "ch6", "name": "The Netherdeep", "levels": "10→12", "hub": "Netherdeep", "summary": "Grottoes of Regret, Vents of Fury, Chasm of Yearning; 9 Fragments of Suffering; Theo Nathope e Alyxian the Hunter; Perigee; rivais em N26." },
+    { "id": "ch7", "name": "The Heart of Despair", "levels": "12→13", "hub": "Heart of Despair", "summary": "Alyxian fala. Matar, libertar ou redimir. Três formas, DC 15/17/19, finais Worst/Neutral/Best e a matriz dos rivais." }
+  ],
+  "convergence": "b-7-alyxian-speaks"
+}

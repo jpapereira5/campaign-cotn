@@ -1,0 +1,14 @@
+[
+  { "id": "l-urzin", "name": "Urzin (B1)", "chapter": "ch0", "summary": "Aldeia goblinoide móvel sobre tartarugas horizonback; desloca-se 1 milha/dia. Casa de Buhfal II, Bol'bara e Morgid. Ponto de partida e de regresso do prólogo." },
+  { "id": "l-brokenveil-marsh", "name": "Brokenveil Marsh", "chapter": "ch0", "summary": "Pântano em Eastern Wynandir entre Urzin e o Fort Venture. Travessia de 3+ dias; navegação DC 15; encontros B2-B7." },
+  { "id": "l-withered-grove", "name": "B2 Withered Grove", "parent": "l-brokenveil-marsh", "chapter": "ch0", "summary": "Bosque seco com um soldado imperial morto numa jangada; cobras. Primeira pista de que o Império anda pelo pântano." },
+  { "id": "l-sunken-boneyard", "name": "B3 Sunken Boneyard", "parent": "l-brokenveil-marsh", "chapter": "ch0", "summary": "Crânios de tartaruga afundados; território dos lizardfolk de Skr'a S'orsk." },
+  { "id": "l-crumbling-tower", "name": "B4 Crumbling Tower", "parent": "l-brokenveil-marsh", "chapter": "ch0", "summary": "Torre pré-Calamity infestada de aranhas." },
+  { "id": "l-bullywug-cave", "name": "B5 Bullywug Cave", "parent": "l-brokenveil-marsh", "chapter": "ch0", "summary": "Caverna de bullywugs." },
+  { "id": "l-ritual-stone", "name": "B6 Ritual Stone", "parent": "l-brokenveil-marsh", "chapter": "ch0", "summary": "Menhir negro onde Bol'bara fazia os ritos comunais; commune 1x por lua cheia, augury. Pistas sobre o patrono Trush." },
+  { "id": "l-brokenveil-bluffs", "name": "B7 Brokenveil Bluffs", "parent": "l-brokenveil-marsh", "chapter": "ch0", "summary": "Falésias com harpias." },
+  { "id": "l-mossback-steward-rest", "name": "B8 Mossback Steward", "parent": "l-brokenveil-marsh", "chapter": "ch0", "summary": "Repouso da tartaruga horizonback senciente. Revela como salvar Bol'bara e a tensão Kryn/Império." },
+  { "id": "l-fort-venture", "name": "Fort Venture", "chapter": "ch0", "summary": "Forte do Império Dwendaliano à beira do pântano (V1-V11). Comandado por Felmont; Pellinost interroga Bol'bara na capela." },
+  { "id": "l-fort-venture-chapel", "name": "V6 Capela", "parent": "l-fort-venture", "chapter": "ch0", "summary": "Bol'bara acorrentada ao altar; Pellinost tortura e revivifica. Janela de 1 minuto antes de Trush completar a possessão." },
+  { "id": "l-fort-venture-prison", "name": "V8 Prisão", "parent": "l-fort-venture", "chapter": "ch0", "summary": "Celas do forte; Alonne Frith está aqui preso." }
+]

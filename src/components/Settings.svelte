@@ -20,7 +20,8 @@
   <div class="grid settings">
     <div class="card">
       <h4>Sincronização com o GitHub</h4>
-      <p class="muted small">A app lê e escreve <code>data/*.json</code> em <code>{REPO.owner}/{REPO.repo}</code> (branch <code>{REPO.branch}</code>), para funcionar igual em qualquer PC. Cria um <i>fine-grained personal access token</i> em GitHub → Settings → Developer settings → Personal access tokens, com acesso só a este repositório e permissão <b>Contents: Read and write</b>. O token fica apenas neste browser.</p>
+      <p class="small"><b>Fase A da migração</b> (<code>docs/arquitetura.md</code>): a app lê a estrutura nova (<code>mundo/</code>, <code>plano/</code>, <code>registo/</code>, <code>mesa/</code>), montada no build; as alterações ao cânone chegam com o deploy seguinte. A edição na app está desligada até à fase D: as correções e as marcas da mesa entram pelo fecho, com o Claude.</p>
+      <p class="muted small">O token continua a ser preciso a partir da fase D, para a Grelha gravar <code>grelha/dm.json</code> em <code>{REPO.owner}/{REPO.repo}</code> (branch <code>{REPO.branch}</code>). Cria um <i>fine-grained personal access token</i> em GitHub → Settings → Developer settings → Personal access tokens, com acesso só a este repositório e permissão <b>Contents: Read and write</b>. O token fica apenas neste browser.</p>
       <div class="row">
         <input type="password" placeholder="github_pat_…" bind:value={token} style:flex="1" style:min-width="220px" />
         <button class="primary" onclick={save}>Ligar</button>

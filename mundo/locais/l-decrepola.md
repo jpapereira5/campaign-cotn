@@ -1,0 +1,22 @@
+---
+id: l-decrepola
+nome: Decrépola (Rotthold)
+capitulo: ch0
+origem:
+  - decrepola
+---
+
+## Resumo
+
+DM (backstory dos irmãos Bruma; documento «Decrépola (Rotthold)» da Drive): porto sem lei na Costa das Pragas, 8.800 habitantes, sem muralhas, onze torres de vigia; musgo cor de ferrugem que brilha vermelho à noite. Sem governo: guildas, comerciantes e aventureiros reúnem-se às escondidas uma vez por semana. Coração do mercado negro do leste de Wynandir. A Miríade manda no comércio, a Folia no Cais e nas águas a sul; uma célula secreta da Assembleia de Cerebrus faz negócios em segredo. Bairros: Decrépola Norte (pobre), Decrépola Leste (Mercado Vermelho), o Cais (da Folia, rico), Colina das Catacumbas (cemitério sobre catacumbas anteriores à Calamidade). Foi aqui que chegou por mar o primeiro lote de rubídio, de Marquet; hoje é o fim do ramal sul do canal da Miríade (norte de Jorhas → Asarius → Decrépola). Os irmãos e o Fritz passaram por aqui. Handout: docs/handouts.md.
+
+## Decrépola (Rotthold) e o rubídio que desce do norte (DM, 2026-10-01) (de docs/lore.md)
+
+Fonte: o documento «Decrépola (Rotthold)» da Drive (2025), as notas de DM «Decrépola — contactos dos Bruma v2» e o handout dos irmãos (`docs/handouts.md`). Local: `l-decrepola`.
+
+- **A cidade.** Porto sem lei na Costa das Pragas, com 8.800 habitantes (30% humanos, 15% drow, 15% goblins, 15% tieflings, 5% Ocultos, 20% outros). Não tem muralhas, só **onze torres de vigia**. Um musgo cor de ferrugem cobre tudo e à noite brilha vermelho. Não há governo: líderes de guildas, comerciantes e aventureiros reúnem-se às escondidas uma vez por semana. É o coração do mercado negro do leste de Wynandir. Quem manda no dia-a-dia é uma aliança frágil entre a **Miríade** (o comércio da cidade) e a **Folia** (o Cais e as águas a sul, com os homens do Rei da Prancha); uma **célula secreta da Assembleia de Cerebrus** faz negócios em completo segredo. Bairros: **Decrépola Norte** (o mais pobre, à mercê da fauna da Costa), **Decrépola Leste** (o **Mercado Vermelho**), **o Cais** (da Folia, a zona rica) e **a Colina das Catacumbas** (cemitério sobre catacumbas anteriores à Calamidade, onde os agentes se encontram).
+- **A cadeia do rubídio.** O **primeiro lote** chegou por mar, de Marquet: um navio com «carga das profundezas» e metade da tripulação com manchas vermelhas nas mãos. Foi desse navio que o **Fritz** comprou o cristal, e foi aí que os **irmãos Bruma** deram com o rubídio. Agora a Miríade **traz** o rubídio **do norte de Jorhas** (o que sai da Ascensão e o que dá à costa no Golfo Esmeralda): o **canal da Assembleia** segue pelo norte (Bazzoxan → Jigau → Urzin → Império) e há um **ramal para sul, por Asarius, até Decrépola**, para o mercado negro e para a célula da Assembleia. Os irmãos subiram o ramal ao contrário (Decrépola → Asarius → Urzin). O handout só diz «o norte»: Jigau e Bazzoxan ficam para os jogadores investigarem.
+- **Ossório Lume** (`c-ossorio-lume`), recetador da Miríade no Mercado Vermelho: vende ao **Vigost** e à célula da Assembleia (que compra para a Tversky; canon: a Tversky contratava a Miríade para lhe trazer espécimes). Viu o Fritz entrar na Colina das Catacumbas mais de uma vez.
+- **Remendo** (`c-remendo`), da tripulação da **Marisa Sete-Ventos**, no Cais: é o fio para a Marisa. Reconheceu a tatuagem do anzol do Isco e conta-lhe depois que viu a tatuagem do Ruín num homem meio peixe.
+- **Vigost** (`c-vigost`), «o velho das catacumbas»: guarda registos escassos da maldição de Ruidus. **É do culto de Ceratos** (os jogadores não sabem). **Não enviou o Fritz: estuda-o.** Um homem que morreu, voltou e quer arrancar a filha à morte pela força da vontade é o que o Ceratos promete. O Vigost dá-lhe o que ele procura (Ruidus, os registos, Bazzoxan) e toma notas. «O Vigost tinha razão», nas notas do Fritz, é a voz de um aluno que julga ter encontrado um mestre.
+- **Três pistas para o Forte Ventura** (no handout, sem nomes): o homem pálido de casaco de caçador (o Fritz), o pano com a esfera de olhos desencontrados (o Ceratos) e o velho das catacumbas que compra pedras esquisitas (o Vigost).

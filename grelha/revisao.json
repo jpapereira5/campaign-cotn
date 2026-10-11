@@ -1,0 +1,1254 @@
+{
+  "reviewed": {},
+  "absorbed": {},
+  "notes": [
+    {
+      "id": "n-mig-01",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "c-skra-sorsk"
+      },
+      "text": "O Skr'a S'orsk morreu na sessão 2 (#83) no cânone, mas docs/pcs.md, docs/ids.md e um patch antigo dizem sessão 1.",
+      "suggestion": "Corrigir para sessão 2 nos três sítios.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-02",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "c-soldado-doente"
+      },
+      "text": "A ficha chama-lhe «O soldado doente da jangada», mas à mesa já tem nome: Alex.",
+      "suggestion": "Passar o nome a «Alex, o soldado da jangada».",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-03",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "c-morgid"
+      },
+      "text": "Os estados da ficha dizem só «Guia dos PCs»; à mesa foi-se embora ofendido na sessão 4 e segue o grupo à distância.",
+      "suggestion": "Acrescentar os estados a partir de b-0-patrulha-imperio.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-04",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "s-086"
+      },
+      "text": "A sessão 4 tem dois títulos: «A Traição de Alberto» no estado de jogo e «A Patrulha do Forte Ventura» no cânone e no índice.",
+      "suggestion": "Ficar com «A Traição de Alberto», o título da mesa, e pôr o outro como subtítulo.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-05",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "i-adaga-drow"
+      },
+      "text": "docs/pcs.md e docs/regras.md ainda põem a adaga com o Quasi; desde a sessão 5 está ao cinto do Lucan.",
+      "suggestion": "Atualizar as duas referências.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-06",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "docs/fluxo.md"
+      },
+      "text": "O último fecho registado é o da sessão 4, mas a sessão 5 já foi fechada.",
+      "suggestion": "Atualizar a data do último fecho.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-07",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "p-pedro-silva"
+      },
+      "text": "docs/pcs.md diz que o Pedro Silva joga 2 a 3 vezes por mês e também que joga todas as semanas.",
+      "suggestion": "Ficar com «todas as semanas» (cinco sessões seguidas).",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-08",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "b-0-urzin-day",
+        "col": "s1"
+      },
+      "text": "O dia em Urzin foi jogado na sessão 1 mas não está marcado como jogado.",
+      "suggestion": "Marcar jogado na sessão 1.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-09",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "b-0-marsh-crossing"
+      },
+      "text": "A travessia do pântano está em curso desde a sessão 1, em todas as sessões.",
+      "suggestion": "Confirmar que fica «em curso» até à chegada ao forte.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-10",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "grelha/linhas.json"
+      },
+      "text": "As atitudes atuais dos NPCs (campo atitudeAtual) vieram do mockup, não do registo.",
+      "suggestion": "Confirmar a lista; passam a efeitos no fecho seguinte.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-11",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "s-000"
+      },
+      "text": "Os efeitos «sabe» da sessão zero (o que cada PC sabe ao começar) estão por preencher.",
+      "suggestion": "Preencher a partir de «O que cada PC sabe ao começar», segredo a segredo.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-12",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "r-pc-lucan-sessinek"
+      },
+      "text": "O beat b-0-boneyard-altar está jogado e é pista de r-pc-lucan-sessinek, mas o cânone diz que a revelação «continua a zero».",
+      "suggestion": "Contar as pistas dadas pelo registo, não pelos beats.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-13",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "r-bolbara-possessed"
+      },
+      "text": "A pista da sessão 5 sobre a Bolbara veio de b-0-patrulha-imperio, que não está nas pistas da revelação.",
+      "suggestion": "Acrescentar o beat às pistas.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-14",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "t-relogio-terceira-vez",
+        "col": "s5"
+      },
+      "text": "O relógio dos revivify ficou em 2 de 3 por decisão do DM (2026-10-07, #18), sem acontecimento à mesa.",
+      "suggestion": "Confirmar o valor.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-15",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "registo"
+      },
+      "text": "Os acontecimentos das sessões 1 a 5 e os seus efeitos foram gerados a partir do mockup; «envolve» foi preenchido por deteção de nomes no texto.",
+      "suggestion": "Rever sessão a sessão na Grelha.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-16",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s6"
+      },
+      "text": "Cena pessoal: a pedra que rebobina.",
+      "factKind": "cena",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-17",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s6"
+      },
+      "text": "Soltar-se das amarras (o cliffhanger do DM).",
+      "factKind": "cena",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-18",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-tiago",
+        "col": "ch0"
+      },
+      "text": "Entra in media res.",
+      "factKind": "cena",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-19",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-litcha-das-cinzas",
+        "col": "ch0"
+      },
+      "text": "O Ritual da Libertação no Templo das Cinzas (b-0-ritual-libertacao).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-20",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-morgid",
+        "col": "ch0"
+      },
+      "text": "Reaparece na luta com a Bolbara possuída ou no regresso a Urzin (← S4).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-21",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pellinost",
+        "col": "ch0"
+      },
+      "text": "A capela: interromper o padre (b-0-chapel). Só ele tem relação com Vesh.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-22",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-alonne-frith",
+        "col": "ch0"
+      },
+      "text": "No forte: «o prisioneiro que não pisca».",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-23",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-durth-mirimm",
+        "col": "ch0"
+      },
+      "text": "Partida de Urzin: a carta a Duarte Mirim (b-0-departure).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-24",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-durth-mirimm",
+        "col": "ch1"
+      },
+      "text": "Reconhece a adaga ao cinto do Lucan: foi ele que a cravou no pai de Baeshra (b-1-mirimm-reconhece).",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-25",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "f-rivals",
+        "col": "ch1"
+      },
+      "text": "Entram no Festival do Mérito, em Jigau; cada rival passa a ter linha própria.",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-26",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "f-cobalt-soul",
+        "col": "ch4"
+      },
+      "text": "Uma das três fações de Ank'Harel.",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-27",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-quasi-maldicao",
+        "col": "ch7"
+      },
+      "text": "A cura: alguém que o amou tira-lhe a máscara lá dentro; é a mesma mecânica de redimir Alyxian.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-28",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-quasi-vinganca",
+        "col": "ch3"
+      },
+      "text": "Antes de Marquet, o Brishen chega com a bruma: o aviso do Tobar.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-29",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-quasi-vinganca",
+        "col": "ch4"
+      },
+      "text": "Feira impromptu em Marquet; a raunie pode lá estar.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-30",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lucan-baeshra",
+        "col": "ch1"
+      },
+      "text": "No Festival, um seguidor de Baeshra com a caveira com chifres tatuada nas costas.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-31",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lucan-baeshra",
+        "col": "ch7"
+      },
+      "text": "Escolhe no fim: renegar Baeshra e voltar à vida, ou devorar Alyxian e subir.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-32",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lucan-irmao",
+        "col": "ch3"
+      },
+      "text": "Na Ascensão, o preço que Sess'inek pede é o próprio Isco.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-33",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-isco-monstro",
+        "col": "ch2"
+      },
+      "text": "No mar, um aboleto oferece-lhe saber o que o engoliu.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-34",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-isco-campeao",
+        "col": "ch3"
+      },
+      "text": "Livrá-lo passa a ser possível na Ascensão, e o custo é ele, em carne.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-35",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-isco-tripulacao",
+        "col": "ch2"
+      },
+      "text": "O Scylla, a Marisa Sete-Ventos e o Belmiro podem cruzar-se no mar.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-36",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lia-pai",
+        "col": "ch0"
+      },
+      "text": "No forte, o livro de registos do comandante: o pai passou por lá?",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-37",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lia-pai",
+        "col": "ch1"
+      },
+      "text": "Em Jigau, alguém reconhece o símbolo da Den no pendente.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-38",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lia-pai",
+        "col": "ch3"
+      },
+      "text": "Em Bazzoxan, a mãe espera-a, sem a poder reconhecer em público.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-39",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lia-pai",
+        "col": "ch7"
+      },
+      "text": "No Heart of Despair encontram o pai, puxado por Alyxian, com corrupção 5 ou 6.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-40",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-baeshra-lucan",
+        "col": "s6"
+      },
+      "text": "Na pedra: «Ele agora também te vê.» Cada toque no obelisco paga a renda a Vecna.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-41",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-baeshra-lucan",
+        "col": "ch1"
+      },
+      "text": "1.º pedido: desafiar a mais forte do Festival, a Ayo Jabe.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-42",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-baeshra-lucan",
+        "col": "ch3"
+      },
+      "text": "2.º pedido: desafiar o Verin Thelyss; se cair a 0 PV e voltar em Rage, devorar.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-43",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-baeshra-lucan",
+        "col": "ch7"
+      },
+      "text": "3.º pedido: devorar Alyxian, um semideus a comer um semideus.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-44",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-sessinek-lucan",
+        "col": "ch3"
+      },
+      "text": "Oferece-lhe a vida de volta; o preço é devorar uma parte do Isco, que não volta a crescer.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-45",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-caca-isco",
+        "col": "ch2"
+      },
+      "text": "O Império aboleto quer-no pelo sangue de Ruidus; o Belmiro, que lhe cortou a corda, é deles.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-46",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-caca-isco",
+        "col": "ch4"
+      },
+      "text": "Em Marquet, a caravana do Quasi caça-o como alimento; chega o segundo caçador das Claret Orders.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-47",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-caca-isco",
+        "col": "ch5"
+      },
+      "text": "O Belmiro pode persegui-lo até Cael Morrow.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-48",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-vesqar-quasi",
+        "col": "ch3"
+      },
+      "text": "A Aloysia reconhece o bardo mascarado e reporta, sem saber porquê.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-49",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-agenda-vesqar-quasi",
+        "col": "ch4"
+      },
+      "text": "O Consórcio tem ficha sobre ele.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-50",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-urzin",
+        "col": "ch0"
+      },
+      "text": "Regresso a Urzin: conselho sobre o destino do forte, festa e Hesskar-Ro (b-0-return-to-urzin).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-51",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s6"
+      },
+      "text": "Os fragmentos de cristal lançam augury (← S5).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-52",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "ch0"
+      },
+      "text": "À chegada: guarnição meio doente, o Felmont manda menos do que devia, a palavra-passe «Cinza-Doze».",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-53",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-missao-bolbara",
+        "col": "ch0"
+      },
+      "text": "A capela e o exorcismo, ou a Bolbara à solta; se ela voltar, a festa e os Amuletos de Honra (b-0-urzin-feast).",
+      "tags": [
+        "trunfo"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-54",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-missao-patrulha",
+        "col": "ch0"
+      },
+      "text": "Chegada ao Forte Ventura (b-0-fort-venture).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-55",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-missao-rubidio",
+        "col": "ch0"
+      },
+      "text": "Olomão reconhece o rubídio (b-0-salomao-rubidio).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-56",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-missao-nevoa-do-brejo",
+        "col": "ch0"
+      },
+      "text": "Fica para o regresso a Urzin (b-0-nevoa-do-brejo).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-57",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-promessa-800po",
+        "col": "ch0"
+      },
+      "text": "À chegada, não existem (← S4).",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-58",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-relogio-terceira-vez",
+        "col": "s6"
+      },
+      "text": "Na visão da pedra: «Já falta pouco, velha. A terceira é minha.»",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-59",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-frente-kryn",
+        "col": "ch1"
+      },
+      "text": "Chegam a Jigau com a atenção da Dinastia; o Duarte Mirim relata os finalistas a Rosohna.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-60",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-relogio-urzin-sem-seer",
+        "col": "ch0"
+      },
+      "text": "Conselho de Urzin: o destino do Forte Ventura (b-0-urzin-council).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-61",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-gatilho-tocar-na-pedra",
+        "col": "s6"
+      },
+      "text": "No presente: correntes num altar, cheiro a cera, a luz dourada a puxá-la de volta pela segunda vez.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-62",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-gatilho-damiao-ve",
+        "col": "s6"
+      },
+      "text": "O Damião muda de alvo, à frente de toda a gente (← S5).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-63",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-gatilho-mascara-cai",
+        "col": "ch0"
+      },
+      "text": "Decidir onde entra a primeira queda, por acidente.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-64",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-gatilho-bolbara-truche",
+        "col": "ch0"
+      },
+      "text": "O Truche regressa ao obelisco, não ao Shadowfell.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-65",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-gatilho-flash-ruidus",
+        "col": "ch0"
+      },
+      "text": "Sem calendário. Escalada: acorda longe, sangue que não é dele, alguém morre.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-66",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-pc-baeshra-cla-ro",
+        "col": "s6"
+      },
+      "text": "Pista: «Baeshra esteve aqui», escrito em dracónico na pedra.",
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-67",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-pc-baeshra-cla-ro",
+        "col": "ch0"
+      },
+      "text": "Pista: Hesskar-Ro, o pai do Morgid, em Urzin (b-0-hesskar-ro).",
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-68",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-pc-lucan-salvou-isco",
+        "col": "s6"
+      },
+      "text": "A pedra mostra-lhe um pedaço da noite no aboleto: a voz.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-69",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-pc-lucan-salvou-isco",
+        "col": "ch2"
+      },
+      "text": "O obelisco do mar: o salto.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-70",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-pc-lucan-salvou-isco",
+        "col": "ch3"
+      },
+      "text": "O obelisco da Ascensão: o que o corpo fez.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-71",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-padre-entrega-bolbara",
+        "col": "s6"
+      },
+      "text": "Pista: na visão da pedra, um homem de mãos levantadas: «Outra vez.»",
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-72",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-lia-vidas-passadas",
+        "col": "ch0"
+      },
+      "text": "Urzin: o terceiro sonho dá o nome Kryn, com um gatilho no sítio.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-73",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-lia-vidas-passadas",
+        "col": "ch1"
+      },
+      "text": "Jigau: Zolaed; a Belana Zolaed pode reconhecer-lhe os gestos.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-74",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-lia-vidas-passadas",
+        "col": "ch3"
+      },
+      "text": "Bazzoxan: Hythenos; a Ascensão: Thelyss.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-75",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-pc-lucan-sessinek",
+        "col": "ch3"
+      },
+      "text": "Guardado para a Ascensão dos Traidores: seis braços, seis espadas.",
+      "factKind": "pista",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-76",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-desfecho-alyxian",
+        "col": "ch1"
+      },
+      "text": "Primeira visão de Alyxian, na Jewel of Three Prayers.",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-77",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-desfecho-alyxian",
+        "col": "ch7"
+      },
+      "text": "Matá-lo na 3.ª fase derrete o rubídio; o Lucan pode devorá-lo; redimi-lo é a mecânica da cura do Quasi.",
+      "tags": [
+        "so-dm"
+      ],
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-78",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "p-camila",
+        "col": "s6"
+      },
+      "text": "Soltar a Lia e pô-la a falar com o grupo todo (← S5).",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-mig-79",
+      "at": "2026-10-11T22:00:00Z",
+      "kind": "ideia",
+      "target": {
+        "row": "p-tiago-rosa",
+        "col": "s6"
+      },
+      "text": "Entrevista de apresentação, do jogador e da personagem, antes de entrar.",
+      "factKind": "consequencia",
+      "because": [
+        "docs/grelha-semente.json"
+      ],
+      "status": "aberta"
+    }
+  ],
+  "lastReview": "2026-10-11T22:00:00Z"
+}

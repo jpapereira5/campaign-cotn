@@ -1,0 +1,27 @@
+---
+id: i-adaga-drow
+nome: Adaga drow +1
+tipoItem: arma
+segredo: r-pc-lucan-adaga
+legenda: do altar de Baeshra
+origem:
+  - grelha
+---
+
+## A Adaga de Duarte Mirim (DM) (de docs/regras.md)
+
+**Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excecional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
+
+**Origem**: fabrico drow, **lâmina de oficial Kryn**, encantada antes de 809 PD. Foi a arma com que Durth Mirimm, então comandante de campo, rematou o líder místico do clã Ro (o pai de Baeshra); ficou cravada no corpo. Como a visão da sessão 3 mostrou: a criança arrancou-a do peito do pai com as duas mãos, arrastou o corpo um dia inteiro até ao ossário, usou a lâmina para esculpir o altar e cravou-a nele — onde ficou até o Lucan a tirar de lá. **Não é relíquia afetiva: é prova** — a arma do crime.
+
+**Reconhecimento, três degraus.** Usar sempre o mais baixo que a cena aguentar.
+
+| Degrau | Quem | O que acontece | Custo |
+|---|---|---|---|
+| **Olhar** | Qualquer drow, ou não-drow criado em cidade da Dinastia | Não diz nada. Olha um segundo a mais. | Zero. Repetível; ensina a jogadora sozinha. |
+| **Comentário** | Mercador, guarda, ferreiro | "Aquilo não se compra: ou é herança, ou é despojo." | Obriga o Lucan a mentir. As mentiras acumulam-se. |
+| **Autoridade** | Alguém de farda | Pergunta a proveniência. | Detenção, confisco, ou um nome numa lista. **Guardar para Jigau.** |
+
+**A cena a guardar**: o próprio Mirimm reconhece a sua lâmina ao cinto de um forasteiro, no festival, ao alcance de um aperto de mão — sem intermediário. A partir desse segundo sabe que alguém sobreviveu, e **move-se primeiro** (`b-1-mirimm-reconhece`).
+
+**À mesa (sessão 3, #84):** encontrada e arrancada do altar pelo Lucan, no crânio mais pequeno do ossário. Descrição usada: lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas em duas pinças como mandíbulas de inseto; cabo em couro escuro ressequido. History 3 deu só «não foi feita por lizardfolk, é um misto de fabrico delicado com arma prática de tempo de guerra» — nem origem, nem dono. O Isco não lhe cheira nada extraplanar, só ferro. Identificada pelo Quasi numa hora de short rest a contemplá-la: **dagger +1** (+1 a acertar e +1 ao dano, d4+DEX). Ficou com o **Quasi**: de manhã o Lucan exigiu-a, o Quasi pediu 200 po e depois 400, e a cena acabou em «não me testes». Quem a traz ao cinto quando chegarem a Jigau ainda está por decidir — o degrau de reconhecimento (`b-1-mirimm-reconhece`) depende disso.

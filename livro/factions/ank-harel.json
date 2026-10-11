@@ -1,0 +1,130 @@
+[
+  {
+    "id": "f-allegiance",
+    "name": "Allegiance of Allsight",
+    "motto": "To peer into the past is to illuminate the future.",
+    "agenda": "Recuperar a tradição académica dos elfos e orcs da antiga Cael Morrow e desenterrar os seus segredos. Descobriu o ruidium primeiro e tentou mantê-lo secreto; em Ank'Harel já aperfeiçoou armas e armaduras de ruidium (que dão sobrevivência subaquática) e quer usá-lo como fonte de poder e riqueza. Dividida por dentro: Alakritos não quer perturbar o rift, Cryon quer armá-lo contra o Consortium e os Sentinels.",
+    "publicFace": "Universidade arcana de elite no Crystal Chateau (Sigil District) e a Teres Schoolhouse aberta a todos; controla a escavação da Maw of Cael Morrow com autorização de J'mon Sa Ord. Emblema: pergaminho com um olho vigilante. Em Bazzoxan é representada por Prolix Yusaf, oficialmente a ajudar a selar o rift.",
+    "leaders": [
+      "c-james-cryon",
+      "c-gryz-alakritos"
+    ],
+    "allies": [
+      "f-cobalt-soul",
+      "f-scarbearers"
+    ],
+    "enemies": [
+      "f-consortium",
+      "f-sentinels"
+    ],
+    "portents": [],
+    "source": "book"
+  },
+  {
+    "id": "f-consortium",
+    "name": "Consortium of the Vermilion Dream",
+    "motto": "Seek the stories others fear to know.",
+    "agenda": "Sociedade oculta secreta obsecada por Ruidus, a lua de mau agoiro. Baptizou o ruidium, invadiu a escavação da Allegiance, encontrou o rift e a agente que trouxe a primeira amostra morreu esmagada pela pressão — o acto que acordou o Apotheon. Quer monopolizar o ruidium, abraça a corrupção (Aradrine exibe as veias vermelhas) e crê que a Jóia é a chave para o obter. Cronicamente sem fundos, aluga os seus agentes.",
+    "publicFace": "Um grupo de aficionados de folclore, nas palavras de Aloysia. Sede escondida atrás da tampa de barril com lua carmesim no First Eclipse (Suncut Bazaar), mudada com frequência. Cinco mestres fundadores ainda vivos: Owl, Sun Bear, Wolf, Gull e Moth.",
+    "leaders": [
+      "c-aradrine",
+      "c-dendarron",
+      "c-larthul",
+      "c-khelkur",
+      "c-vrill"
+    ],
+    "allies": [
+      "f-sentinels"
+    ],
+    "enemies": [
+      "f-allegiance",
+      "f-cobalt-soul"
+    ],
+    "portents": [],
+    "source": "book"
+  },
+  {
+    "id": "f-cobalt-soul",
+    "name": "Library of the Cobalt Soul",
+    "motto": "Reason. Knowledge. Truth.",
+    "agenda": "Ordem monástica-erudita de Ioun que procura a verdade e erradica o mal nas facções civis de Ank'Harel, sobretudo o Consortium e as suas armas de mineral vermelho. Jamil A'alithiya quer o Netherdeep selado ou destruído para que o ruidium deixe de entrar na cidade; considera que a Allegiance e o Consortium agem por egoísmo. A sua sexta missão é a única que pode ser cumprida (matar ou redimir Alyxian).",
+    "publicFace": "Temple of the Mentor (Guided District), fundado há quase 150 anos, com arquivo subterrâneo privado. Em Bazzoxan mantém uma expedição sobre as batalhas da Calamity dentro do Rise; Question é a sobrevivente.",
+    "leaders": [
+      "c-jamil-aalithiya"
+    ],
+    "allies": [
+      "f-allegiance",
+      "f-hands-of-ord"
+    ],
+    "enemies": [
+      "f-consortium"
+    ],
+    "portents": [],
+    "source": "book"
+  },
+  {
+    "id": "f-sentinels",
+    "name": "Sentinels of Memory",
+    "motto": "Let the past die in peace.",
+    "agenda": "A cidade afundada sob Ank'Harel não é uma maravilha antiga: é uma prisão que tem de ficar selada a todo o custo. A ausência de registos sobre Cael Morrow prova que forças poderosas quiseram apagá-la, e os Sentinels farão o que for preciso para que ninguém volte a falar dela. Financiados pelo Consortium, mas desconfiam dos seus motivos.",
+    "publicFace": "Facção menor sediada na Tower of Memory, torta e a desfazer-se (Guided District). Watcher Trast, antigo clérigo de Ioun, fundou-a; Watcher Byron perde a paciência com a via política e planeia sabotagem. Watcher Lymmle Wist está infiltrada na Allegiance há meses.",
+    "leaders": [
+      "c-watcher-trast",
+      "c-watcher-byron"
+    ],
+    "allies": [
+      "f-consortium"
+    ],
+    "enemies": [
+      "f-allegiance"
+    ],
+    "portents": [],
+    "source": "book"
+  },
+  {
+    "id": "f-hands-of-ord",
+    "name": "Hands of Ord",
+    "motto": "By the code of Ord, we stand vigilant.",
+    "agenda": "Fazer cumprir o Code of Ord e manter a ordem em Ank'Harel; travar a Veil (sem sucesso). Nas rixas de rua chegam na ronda 3 e prendem toda a gente (multa de 50 gp, noite na cela), o que pode fazer falhar missões do Consortium e da Cobalt Soul.",
+    "publicFace": "Guarda e exército da cidade, fundados há 400 anos por J'mon Sa Ord; sede em Ord Bastion (Sand-Herald District). Comandados por Ironhand Sem, um minotauro leal e bom.",
+    "leaders": [
+      "c-ironhand-sem"
+    ],
+    "allies": [
+      "f-cobalt-soul"
+    ],
+    "enemies": [
+      "f-veil"
+    ],
+    "portents": [],
+    "source": "book"
+  },
+  {
+    "id": "f-scarbearers",
+    "name": "Scarbearers",
+    "motto": "We do not break.",
+    "agenda": "Guilda de mercenários sem aliados nem inimigos declarados; vende espadas a quem pagar. Contratada pela Allegiance para guardar a Maw of Cael Morrow (os veteranos de Hakzorne).",
+    "publicFace": "Sede na arena Bowl of Judgment; liderados pela Quartermaster Croog Lynn, goliath gladiadora. Os fundadores reformados Irawan e Calinao gerem a estalagem Step Aside e um esconderijo com palavra-passe.",
+    "leaders": [],
+    "allies": [
+      "f-allegiance"
+    ],
+    "enemies": [],
+    "portents": [],
+    "source": "book"
+  },
+  {
+    "id": "f-veil",
+    "name": "The Veil",
+    "motto": "Sem lema: o contraponto caótico à ordem das Hands of Ord.",
+    "agenda": "Sindicato criminoso sem sede fixa, recentemente tomado por Ilena Hapayhari, assassina e pirata de vinte anos que governa das sombras. Financiado há gerações por Adima Shemsilver com metade dos lucros do Luck's Run. Não tem papel directo na aventura, mas cruza-se com a missão do casino e com Old Man Kruuk.",
+    "publicFace": "Invisível: só os membros de topo sabem quem manda. Rumores ligam Old Man Kruuk e o casino Luck's Run à organização.",
+    "leaders": [],
+    "allies": [],
+    "enemies": [
+      "f-hands-of-ord"
+    ],
+    "portents": [],
+    "source": "book"
+  }
+]

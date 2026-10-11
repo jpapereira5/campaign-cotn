@@ -1,0 +1,329 @@
+[
+  {
+    "id": "f-grupo",
+    "tipo": "grupo"
+  },
+  {
+    "id": "c-pc-lucan"
+  },
+  {
+    "id": "c-pc-isco"
+  },
+  {
+    "id": "c-pc-quasi"
+  },
+  {
+    "id": "c-pc-lia"
+  },
+  {
+    "id": "c-pc-tiago"
+  },
+  {
+    "id": "c-buhfal"
+  },
+  {
+    "id": "c-jevan"
+  },
+  {
+    "id": "c-azrok"
+  },
+  {
+    "id": "c-litcha-das-cinzas"
+  },
+  {
+    "id": "c-morgid"
+  },
+  {
+    "id": "c-alberto-gnomis"
+  },
+  {
+    "id": "c-corvelo"
+  },
+  {
+    "id": "c-lampreia"
+  },
+  {
+    "id": "c-elmiro-trigueiro"
+  },
+  {
+    "id": "c-damiao-prestes"
+  },
+  {
+    "id": "c-soldado-doente"
+  },
+  {
+    "id": "c-bolbara"
+  },
+  {
+    "id": "c-pellinost"
+  },
+  {
+    "id": "c-alonne-frith"
+  },
+  {
+    "id": "c-yussa-errenis"
+  },
+  {
+    "id": "c-durth-mirimm"
+  },
+  {
+    "id": "c-skra-sorsk"
+  },
+  {
+    "id": "c-lizardfolk-do-ossario"
+  },
+  {
+    "id": "f-rivals",
+    "tipo": "rival"
+  },
+  {
+    "id": "f-dwendalian-empire"
+  },
+  {
+    "id": "f-kryn"
+  },
+  {
+    "id": "f-myriad"
+  },
+  {
+    "id": "f-cerberus-assembly"
+  },
+  {
+    "id": "f-cobalt-soul"
+  },
+  {
+    "id": "amb-quasi-maldicao"
+  },
+  {
+    "id": "amb-quasi-vinganca"
+  },
+  {
+    "id": "amb-lucan-baeshra"
+  },
+  {
+    "id": "amb-lucan-irmao"
+  },
+  {
+    "id": "amb-isco-monstro"
+  },
+  {
+    "id": "amb-isco-campeao"
+  },
+  {
+    "id": "amb-isco-tripulacao"
+  },
+  {
+    "id": "amb-lia-pai"
+  },
+  {
+    "id": "t-agenda-baeshra-lucan"
+  },
+  {
+    "id": "t-agenda-sessinek-lucan"
+  },
+  {
+    "id": "t-agenda-caca-isco"
+  },
+  {
+    "id": "t-agenda-vesqar-quasi"
+  },
+  {
+    "id": "t-laco-lucan-quasi"
+  },
+  {
+    "id": "t-laco-lucan-isco"
+  },
+  {
+    "id": "t-laco-isco-lia"
+  },
+  {
+    "id": "t-laco-quasi-alberto"
+  },
+  {
+    "id": "t-laco-quasi-damiao"
+  },
+  {
+    "id": "t-laco-isco-elmiro"
+  },
+  {
+    "id": "l-urzin"
+  },
+  {
+    "id": "l-sunken-boneyard"
+  },
+  {
+    "id": "l-crumbling-tower"
+  },
+  {
+    "id": "l-ritual-stone"
+  },
+  {
+    "id": "l-fort-venture"
+  },
+  {
+    "id": "l-brokenveil-bluffs"
+  },
+  {
+    "id": "i-adaga-drow"
+  },
+  {
+    "id": "i-garra-seis-dedos"
+  },
+  {
+    "id": "i-mapa-do-morgid"
+  },
+  {
+    "id": "i-livro-de-registos"
+  },
+  {
+    "id": "i-saco-da-lia"
+  },
+  {
+    "id": "i-amuletos-do-trono"
+  },
+  {
+    "id": "t-missao-bolbara"
+  },
+  {
+    "id": "t-missao-patrulha"
+  },
+  {
+    "id": "t-missao-rubidio"
+  },
+  {
+    "id": "t-missao-nevoa-do-brejo"
+  },
+  {
+    "id": "t-decisao-miriade-jevan"
+  },
+  {
+    "id": "t-decisao-matar-skra"
+  },
+  {
+    "id": "t-decisao-mapa-morgid"
+  },
+  {
+    "id": "t-decisao-livro-escriba"
+  },
+  {
+    "id": "t-decisao-curar-alex"
+  },
+  {
+    "id": "t-promessa-800po"
+  },
+  {
+    "id": "t-promessa-mapa-morgid"
+  },
+  {
+    "id": "t-promessa-segredo-mascara"
+  },
+  {
+    "id": "t-promessa-alex-vida"
+  },
+  {
+    "id": "t-relogio-terceira-vez"
+  },
+  {
+    "id": "t-frente-kryn",
+    "tipo": "relogio"
+  },
+  {
+    "id": "t-relogio-urzin-sem-seer"
+  },
+  {
+    "id": "t-relogio-guerra"
+  },
+  {
+    "id": "t-gatilho-tocar-na-pedra"
+  },
+  {
+    "id": "t-gatilho-damiao-ve"
+  },
+  {
+    "id": "t-gatilho-mascara-cai"
+  },
+  {
+    "id": "t-gatilho-bolbara-truche"
+  },
+  {
+    "id": "t-gatilho-flash-ruidus"
+  },
+  {
+    "id": "r-pc-baeshra-cla-ro"
+  },
+  {
+    "id": "r-pc-lucan-salvou-isco"
+  },
+  {
+    "id": "r-padre-entrega-bolbara"
+  },
+  {
+    "id": "r-garra-seis-dedos"
+  },
+  {
+    "id": "r-lia-vidas-passadas"
+  },
+  {
+    "id": "r-alberto-assembleia"
+  },
+  {
+    "id": "r-pc-lucan-sessinek"
+  },
+  {
+    "id": "r-tempestade-truche"
+  },
+  {
+    "id": "r-prisioneira-lia"
+  },
+  {
+    "id": "r-tranca-branca-lia"
+  },
+  {
+    "id": "t-semente-cranio-dente-ouro"
+  },
+  {
+    "id": "t-semente-sonho-quasi"
+  },
+  {
+    "id": "t-semente-adaga-lia"
+  },
+  {
+    "id": "t-semente-mortos-vivos"
+  },
+  {
+    "id": "t-semente-aves-sudoeste"
+  },
+  {
+    "id": "t-desfecho-alyxian"
+  },
+  {
+    "id": "p-renata"
+  },
+  {
+    "id": "p-pedro-silva"
+  },
+  {
+    "id": "p-pedro-ropio"
+  },
+  {
+    "id": "p-camila"
+  },
+  {
+    "id": "p-tiago-rosa"
+  },
+  {
+    "id": "t-teoria-alberto-dois-lados"
+  },
+  {
+    "id": "t-teoria-sessinek"
+  },
+  {
+    "id": "t-mesa-regras-da-casa"
+  },
+  {
+    "id": "t-mesa-piadas-internas"
+  },
+  {
+    "id": "t-mesa-confessionario"
+  }
+]
