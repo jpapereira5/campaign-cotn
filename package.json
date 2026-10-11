@@ -10,10 +10,9 @@
     "preview": "vite preview",
     "check": "npm run montar && svelte-check --tsconfig ./tsconfig.json",
     "validate": "node scripts/montar.ts",
-    "validate:antigo": "node scripts/validate-data.ts",
-    "verificar": "node scripts/verificar-migracao.ts",
-    "migrar": "node scripts/migrar.ts",
-    "test": "node --test 'scripts/**/*.test.ts' 'src/**/*.test.ts'"
+    "test": "node --test 'scripts/**/*.test.ts' 'src/**/*.test.ts'",
+    "validate:avisos": "node scripts/montar.ts --warn",
+    "grelha": "node scripts/grelha.ts"
   },
   "engines": {
     "node": ">=22.18"

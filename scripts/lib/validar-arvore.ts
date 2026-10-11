@@ -1,9 +1,15 @@
-// Validação da estrutura nova, além do que o cânone antigo já verifica: ids e referências entre ficheiros,
-// sessões e acontecimentos (tipos, dona, origem, efeitos), grelha/.
-import type { Problem } from '../../src/lib/types.ts'
+// Validação da estrutura nova (docs/arquitetura.md): ids e referências entre ficheiros (personagens, fações, locais,
+// relações, beats, segredos, fios), sessões e acontecimentos (tipos, dona, origem, efeitos) e grelha/.
+// Os erros param o deploy; os avisos são sugestões (regra das três pistas, personagens sem beats…).
 import { donaDe, TIPOS_ACONTECIMENTO, tipoLinhaDe } from '../../src/lib/grelha/dona.ts'
 import { porPasta, type Arvore, type DocArvore } from './arvore.ts'
 import { PASTAS } from '../../src/lib/arquivo/esquema.ts'
+
+export interface Problem {
+  level: 'error' | 'warn'
+  where: string
+  message: string
+}
 
 const ID_RE = /^[a-z0-9][a-z0-9-]*$/
 const TIPOS_FIO = ['arco', 'ambicao', 'frente', 'relogio', 'missao', 'promessa', 'decisao', 'gatilho', 'semente', 'desfecho', 'laco', 'agenda', 'teoria', 'mesa']
@@ -46,28 +52,171 @@ export function validarArvore(a: Arvore): Problem[] {
     for (const id of lista(l)) ref(where, id, oQue)
   }
 
+  // a campanha e os capítulos
+  const capitulos = Array.isArray(p.campanha?.meta.capitulos) ? (p.campanha!.meta.capitulos as Record<string, unknown>[]).map((c) => String(c.id ?? '')) : []
+  const iCap = new Map(capitulos.map((c, i) => [c, i]))
+  if (!p.campanha) err('plano/campanha.md', 'falta o ficheiro da campanha')
+  else {
+    if (!capitulos.length) err('plano/campanha.md', 'sem capítulos')
+    if (typeof p.campanha.meta.capituloAtual === 'string' && !iCap.has(p.campanha.meta.capituloAtual)) err('plano/campanha.md', `capituloAtual desconhecido: ${String(p.campanha.meta.capituloAtual)}`)
+    if (!p.campanha.meta.convergencia) warn('plano/campanha.md', 'sem beat de convergência')
+    else ref('plano/campanha.md', p.campanha.meta.convergencia, 'beat de convergência')
+  }
+  const cap = (where: string, id: unknown, oQue = 'capítulo') => {
+    if (typeof id === 'string' && id && !iCap.has(id)) err(where, `${oQue} desconhecido: ${id}`)
+  }
+  const caps = (where: string, l: unknown) => {
+    for (const id of lista(l)) cap(where, id)
+  }
+  const pcs = new Set(p.personagens.filter((d) => d.meta.tipo === 'pc').map((d) => String(d.meta.id)))
+  const facoes = new Set(p.facoes.map((d) => String(d.meta.id)))
+  const beatPorId = new Map(p.beats.map((d) => [String(d.meta.id), d]))
+  const posicaoBeat = (id: string): number => {
+    const b = beatPorId.get(id)
+    if (!b) return -1
+    return (iCap.get(String(b.meta.capitulo ?? '')) ?? 99) * 1000 + Number(b.meta.ordem ?? 0)
+  }
+
+  // personagens
+  const nosBeats = new Set(p.beats.flatMap((b) => lista(b.meta.participantes)))
+  for (const d of p.personagens) {
+    const tipo = String(d.meta.tipo ?? 'npc')
+    if (!['pc', 'npc', 'rival', 'deity'].includes(tipo)) err(d.caminho, `tipo de personagem desconhecido: ${tipo}`)
+    for (const f of lista(d.meta.facoes)) if (!facoes.has(f)) err(d.caminho, `fação desconhecida: ${f}`)
+    ref(d.caminho, d.meta.casa, 'local (casa)')
+    caps(d.caminho, d.meta.capitulos)
+    for (const e of Array.isArray(d.meta.estados) ? (d.meta.estados as Record<string, unknown>[]) : []) ref(d.caminho, e.desde, 'beat em estados')
+    if (!nosBeats.has(String(d.meta.id)) && tipo !== 'deity' && tipo !== 'pc') warn(d.caminho, 'não participa em nenhum beat')
+  }
+
+  // fações
+  for (const d of p.facoes) {
+    refs(d.caminho, d.meta.lideres, 'personagem em lideres')
+    for (const f of [...lista(d.meta.aliados), ...lista(d.meta.inimigos)]) if (!facoes.has(f)) err(d.caminho, `fação desconhecida: ${f}`)
+  }
+
+  // locais: dentro de (pai), capítulo, ciclos
+  const localPorId = new Map(p.locais.map((d) => [String(d.meta.id), d]))
+  for (const d of p.locais) {
+    ref(d.caminho, d.meta.pai, 'local (pai)')
+    cap(d.caminho, d.meta.capitulo)
+    const vistos = new Set<string>()
+    let cur: DocArvore | undefined = d
+    while (cur && typeof cur.meta.pai === 'string') {
+      const id = String(cur.meta.id)
+      if (vistos.has(id)) {
+        err(d.caminho, 'ciclo em pai')
+        break
+      }
+      vistos.add(id)
+      cur = localPorId.get(cur.meta.pai)
+    }
+  }
+
+  // relações no cabeçalho de personagens e fações
+  const nosRel = new Set([...p.personagens, ...p.facoes].map((d) => String(d.meta.id)))
+  for (const d of [...p.personagens, ...p.facoes]) {
+    const de = String(d.meta.id)
+    const vistasRel = new Set<string>()
+    for (const r of Array.isArray(d.meta.relacoes) ? (d.meta.relacoes as Record<string, unknown>[]) : []) {
+      const com = String(r.com ?? '')
+      const where = `${d.caminho} › ${de}→${com}`
+      if (!nosRel.has(com)) err(where, `destino desconhecido: ${com}`)
+      if (com === de) err(where, 'relação consigo próprio')
+      if (!r.tipo) err(where, 'relação sem tipo')
+      if (r.tipo === 'memberOf' && !facoes.has(com)) err(where, 'memberOf tem de apontar para uma fação')
+      ref(where, r.desde, 'beat (desde)')
+      ref(where, r.ate, 'beat (ate)')
+      if (typeof r.desde === 'string' && typeof r.ate === 'string' && beatPorId.has(r.desde) && beatPorId.has(r.ate) && posicaoBeat(r.ate) <= posicaoBeat(r.desde)) err(where, 'ate não é posterior a desde')
+      const chave = `${com}|${String(r.tipo)}|${String(r.desde ?? '')}`
+      if (vistasRel.has(chave)) warn(where, `relação repetida (${String(r.tipo)})`)
+      vistasRel.add(chave)
+    }
+  }
+
+  // beats
+  const arcos = new Set(p.fios.filter((d) => d.meta.tipo === 'arco').map((d) => String(d.meta.id)))
+  const segredos = new Set(p.segredos.map((d) => String(d.meta.id)))
+  const posicoes = new Map<string, string>()
+  for (const d of p.beats) {
+    const id = String(d.meta.id)
+    const arcs = lista(d.meta.arcos)
+    if (!arcs.length) err(d.caminho, 'beat sem arco')
+    for (const a of arcs) if (!arcos.has(a)) err(d.caminho, `arco desconhecido: ${a}`)
+    if (!d.meta.capitulo) err(d.caminho, 'beat sem capítulo')
+    cap(d.caminho, d.meta.capitulo)
+    ref(d.caminho, d.meta.local, 'local')
+    for (const x of lista(d.meta.participantes)) if (!nosRel.has(x)) err(d.caminho, `participante desconhecido: ${x}`)
+    if (!lista(d.meta.participantes).length) warn(d.caminho, 'beat sem participantes')
+    for (const r of lista(d.meta.revela)) if (!segredos.has(r)) err(d.caminho, `segredo desconhecido em revela: ${r}`)
+    for (const r of lista(d.meta.requer)) {
+      if (!beatPorId.has(r)) err(d.caminho, `beat desconhecido em requer: ${r}`)
+      else if (posicaoBeat(r) > posicaoBeat(id)) warn(d.caminho, `requer aponta para beat posterior: ${r}`)
+    }
+    for (const e of Array.isArray(d.meta.escolhas) ? (d.meta.escolhas as Record<string, unknown>[]) : []) for (const b of lista(e.levaA)) if (!beatPorId.has(b)) err(d.caminho, `beat desconhecido em escolhas: ${b}`)
+    const portento = obj(d.meta.portento)
+    if (typeof portento.facao === 'string' && !facoes.has(portento.facao)) err(d.caminho, `fação desconhecida no portento: ${portento.facao}`)
+    for (const a of arcs) {
+      const chave = `${a}|${String(d.meta.capitulo)}|${String(d.meta.ordem)}`
+      const antes = posicoes.get(chave)
+      if (antes) warn(d.caminho, `mesma posição (${String(d.meta.capitulo)}, ${String(d.meta.ordem)}) que ${antes} no arco ${a}`)
+      else posicoes.set(chave, id)
+    }
+  }
+  // ciclos em requer
+  const marca = new Map<string, number>()
+  const visita = (id: string, caminho: string[]): void => {
+    const s = marca.get(id) ?? 0
+    if (s === 1) {
+      err(`plano/beats/${id}.md`, `ciclo em requer: ${[...caminho, id].join(' → ')}`)
+      return
+    }
+    if (s === 2) return
+    marca.set(id, 1)
+    for (const r of lista(beatPorId.get(id)?.meta.requer)) if (beatPorId.has(r)) visita(r, [...caminho, id])
+    marca.set(id, 2)
+  }
+  for (const id of beatPorId.keys()) visita(id, [])
+  const arcosUsados = new Set(p.beats.flatMap((b) => lista(b.meta.arcos)))
+
+  // segredos: regra das três pistas e quem os revela
+  const reveladoPor = new Map<string, number>()
+  for (const b of p.beats) for (const r of lista(b.meta.revela)) reveladoPor.set(r, (reveladoPor.get(r) ?? 0) + 1)
+  for (const d of p.segredos) {
+    const id = String(d.meta.id)
+    refs(d.caminho, d.meta.pistas, 'beat em pistas')
+    if (lista(d.meta.pistas).length < 3) warn(d.caminho, `só ${lista(d.meta.pistas).length} pista(s) (regra das três pistas)`)
+    if (!reveladoPor.get(id)) warn(d.caminho, 'nenhum beat o revela (revela)')
+  }
+
+  // fios
   for (const d of p.fios) {
     const tipo = String(d.meta.tipo ?? '')
     if (!TIPOS_FIO.includes(tipo)) err(d.caminho, `tipo de fio desconhecido: ${tipo}`)
     if (['teoria', 'mesa'].includes(tipo) !== d.caminho.startsWith(PASTAS.mesaFios)) err(d.caminho, `fio do tipo ${tipo} na pasta errada`)
     refs(d.caminho, d.meta.envolve, 'id em envolve')
     ref(d.caminho, d.meta.pc, 'PC')
+    if (typeof d.meta.pc === 'string' && existe(d.meta.pc) && !pcs.has(d.meta.pc)) err(d.caminho, 'pc não é um PC')
     ref(d.caminho, d.meta.facao, 'fação')
     if (tipo === 'laco') {
       const par = lista(d.meta.par)
       if (par.length !== 2) err(d.caminho, 'laço sem par de duas linhas')
       refs(d.caminho, par, 'id em par')
     }
+    if (tipo === 'arco' && !arcosUsados.has(String(d.meta.id)) && d.meta.subtipo !== 'pcAmbition') warn(d.caminho, 'arco sem beats')
+    if (tipo === 'ambicao') {
+      refs(d.caminho, d.meta.npcs, 'personagem em npcs')
+      for (const a of lista(d.meta.arcos)) if (!arcos.has(a)) err(d.caminho, `arco desconhecido: ${a}`)
+      refs(d.caminho, d.meta.satisfeitaPor, 'beat em satisfeitaPor')
+      refs(d.caminho, d.meta.ameacadaPor, 'beat em ameacadaPor')
+    }
+    if (tipo === 'frente') for (const passo of Array.isArray(d.meta.passos) ? (d.meta.passos as Record<string, unknown>[]) : []) cap(d.caminho, passo.capitulo)
   }
   for (const d of p.itens) {
     ref(d.caminho, d.meta.segredo, 'segredo')
     refs(d.caminho, d.meta.para, 'PC em para')
   }
-  for (const d of p.segredos) refs(d.caminho, d.meta.pistas, 'beat em pistas')
   for (const d of p.jogadores) ref(d.caminho, d.meta.pc, 'PC')
-  for (const d of [...p.personagens, ...p.facoes]) {
-    for (const r of Array.isArray(d.meta.relacoes) ? (d.meta.relacoes as Record<string, unknown>[]) : []) ref(d.caminho, r.com, 'id em relacoes')
-  }
 
   // sessões e acontecimentos
   const eventos = new Map<string, number>()

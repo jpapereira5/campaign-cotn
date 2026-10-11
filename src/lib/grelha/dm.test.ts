@@ -29,7 +29,7 @@ const base = () => {
   const tipos = new Map<string, string>([['c-pc-lucan', 'pc'], ['c-npc', 'npc'], ['t-prom', 'promessa'], ['t-laco', 'laco']])
   const g = construirGrelha({
     arvore, estado, nome: (id) => id, linhas: arvore.grelha.linhas as { id: string }[], notas: (arvore.grelha.revisao as { notes: Record<string, unknown>[] }).notes,
-    capitulos: [{ id: 'ch0', name: 'Prólogo', hub: 'Urzin', levels: '1→3', summary: 'p' }], capituloAtual: 'ch0', curto: () => 'Prólogo', corPc: () => '#000',
+    capitulos: [{ id: 'ch0', nome: 'Prólogo', hub: 'Urzin', niveis: '1→3', resumo: 'p' }], capituloAtual: 'ch0', curto: () => 'Prólogo', corPc: () => '#000',
   })
   const ctx = { tipoLinha: tipoLinhaDe(tipos), nome: (id: string) => id, jogadas: new Set(['s1', 's2']), proximaChave: 's3', rotuloColuna: (c: string) => `→ ${c.toUpperCase()}` }
   return { g, ctx }

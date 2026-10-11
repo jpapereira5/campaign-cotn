@@ -146,7 +146,7 @@ export interface Entrada {
   nome: (id: string) => string
   linhas: { id: string; tipo?: string; pcs?: string[] }[]
   notas: Record<string, unknown>[]
-  capitulos: { id: string; name: string; hub: string; levels: string; summary: string }[]
+  capitulos: { id: string; nome: string; hub: string; niveis: string; resumo: string }[]
   capituloAtual: string
   curto: (capitulo: string) => string
   corPc: (pc: string) => string
@@ -219,7 +219,7 @@ export function colunasDe(sessoes: SessaoLida[], capitulos: Entrada['capitulos']
   for (const c of capitulos.slice(iAtual + 1)) colunas.push({ chave: c.id, label: `Cap. ${curto(c.id)}`, sub: c.hub, tipo: 'capitulo', capitulo: c.id })
   const nAtual = colunas.filter((c) => c.tipo !== 'capitulo').length
   const arcos: Arco[] = [
-    { label: atual ? `${atual.name}` : 'Agora', span: nAtual, atual: true },
+    { label: atual ? `${atual.nome}` : 'Agora', span: nAtual, atual: true },
     ...(colunas.length > nAtual ? [{ label: 'Capítulos seguintes', span: colunas.length - nAtual, atual: false }] : []),
   ]
   return { colunas, arcos, proximaN }
@@ -261,8 +261,8 @@ export function construirGrelha(e: Entrada): Grelha {
       if (c.sessao) texto = String(c.sessao.doc.meta[campo] ?? '')
       else if (c.capitulo) {
         const cap = e.capitulos.find((x) => x.id === c.capitulo)
-        if (campo === 'nivel') texto = cap?.levels ?? ''
-        if (campo === 'resumo') texto = cap?.name ?? ''
+        if (campo === 'nivel') texto = cap?.niveis ?? ''
+        if (campo === 'resumo') texto = cap?.nome ?? ''
       }
       if (texto) l.celulas[c.chave].itens.push({ tipo: 'texto', estatuto: 'registo', texto })
     }
@@ -409,7 +409,7 @@ export function construirGrelha(e: Entrada): Grelha {
     pcs,
     proximaN,
     capituloAtual: e.capituloAtual,
-    plano: { arcos: arcosPlano, capitulos: e.capitulos.map((c) => ({ id: c.id, nome: c.name, curto: e.curto(c.id) })) },
+    plano: { arcos: arcosPlano, capitulos: e.capitulos.map((c) => ({ id: c.id, nome: c.nome, curto: e.curto(c.id) })) },
   }
 }
 

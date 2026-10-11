@@ -6,8 +6,7 @@
   import { ESTADO_BEAT, efeitoLegivel, pastaDe, tipoDe } from '../lib/ficha'
   import { rotuloMarca } from '../lib/estado'
   import { donaDe, tipoLinhaDe } from '../lib/grelha/dona'
-  import { RELATION_LABELS } from '../lib/colors'
-  import type { RelationType } from '../lib/types'
+  import { RELATION_LABELS, type RelationType } from '../lib/colors'
 
   const indice = $derived(world.indice)
   const estado = $derived(world.estado)

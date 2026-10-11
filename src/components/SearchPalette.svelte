@@ -1,32 +1,43 @@
 <script lang="ts">
+  // A pesquisa global (Ctrl+K ou /): qualquer coisa com id, sessões incluídas; Enter abre a Ficha.
   import { onMount } from 'svelte'
-  import { ui, world, select, goToBeat } from '../lib/state.svelte'
-  import { searchCanon, SEARCH_KIND_LABELS, type SearchHit, type SearchKind } from '../lib/search'
+  import { ui, world, abrirFicha } from '../lib/state.svelte'
+  import { pesquisar, ROTULO_PASTA, ORDEM_PASTAS, type Resultado } from '../lib/pesquisa'
+  import { pastaDe } from '../lib/ficha'
   import { KIND_COLORS, FACTION_NODE_COLOR } from '../lib/colors'
+  import type { TipoPersonagem } from '../lib/grafo'
+  import type { Pasta } from '../lib/ficha'
 
   let q = $state('')
   let active = $state(0)
   let input: HTMLInputElement
 
-  const hits = $derived(searchCanon(world.canon, q))
+  const hits = $derived(pesquisar(world.indice, q, (c) => world.campanha.curto(c)))
   const groups = $derived.by(() => {
-    const order: SearchKind[] = ['character', 'faction', 'location', 'beat', 'revelation']
-    const m = new Map<SearchKind, SearchHit[]>()
-    for (const h of hits) m.set(h.kind, [...(m.get(h.kind) ?? []), h])
-    return order.filter((k) => m.has(k)).map((k) => ({ kind: k, label: SEARCH_KIND_LABELS[k], items: m.get(k)! }))
+    const m = new Map<Pasta, Resultado[]>()
+    for (const h of hits) m.set(h.pasta, [...(m.get(h.pasta) ?? []), h])
+    // os grupos pela melhor pontuação, para o primeiro resultado ser o melhor; empate pela ordem das pastas
+    return ORDEM_PASTAS.filter((k) => m.has(k))
+      .map((k) => ({ pasta: k, label: ROTULO_PASTA[k], items: m.get(k)!, melhor: Math.max(...m.get(k)!.map((h) => h.pontos)) }))
+      .sort((a, b) => b.melhor - a.melhor || ORDEM_PASTAS.indexOf(a.pasta) - ORDEM_PASTAS.indexOf(b.pasta))
   })
   const flat = $derived(groups.flatMap((g) => g.items))
 
-  function colorOf(h: SearchHit): string {
-    if (h.kind === 'character') return KIND_COLORS[world.canon.characters.find((c) => c.id === h.id)?.kind ?? 'npc']
-    if (h.kind === 'faction') return FACTION_NODE_COLOR
-    if (h.kind === 'beat') return world.canon.arcs.find((a) => a.id === world.canon.beats.find((b) => b.id === h.id)?.arcs[0])?.color ?? '#888'
-    if (h.kind === 'location') return '#7aa2a8'
-    return '#c7b7e0'
+  function colorOf(h: Resultado): string {
+    const d = world.indice.doc(h.id)
+    if (!d) return '#888'
+    const p = pastaDe(d)
+    if (p === 'personagens') return KIND_COLORS[(d.meta.tipo as TipoPersonagem) ?? 'npc'] ?? '#888'
+    if (p === 'facoes') return FACTION_NODE_COLOR
+    if (p === 'beats') return world.campanha.corBeat(d)
+    if (p === 'fios') return typeof d.meta.cor === 'string' ? d.meta.cor : '#c7b7e0'
+    if (p === 'locais') return '#7aa2a8'
+    if (p === 'itens') return '#d9a441'
+    if (p === 'segredos') return '#7B4DC2'
+    return '#888'
   }
-  function open(h: SearchHit, e?: MouseEvent) {
-    if (h.kind === 'beat' && (e?.altKey || ui.view === 'tempo')) goToBeat(h.id)
-    else select(h.kind, h.id)
+  function open(h: Resultado) {
+    abrirFicha(h.id)
     ui.searchOpen = false
   }
   function onKey(e: KeyboardEvent) {
@@ -51,23 +62,23 @@
   <div class="palette" role="dialog" tabindex="-1" aria-label="Pesquisar" onclick={(e) => e.stopPropagation()} onkeydown={onKey}>
     <div class="inp">
       <span>🔍</span>
-      <input bind:this={input} type="text" placeholder="Personagem, facção, local, beat, revelação…" bind:value={q} />
+      <input bind:this={input} type="text" placeholder="Personagem, fação, local, item, segredo, beat, fio, sessão…" bind:value={q} />
       <kbd>Esc</kbd>
     </div>
     <div class="results">
       {#if q.trim().length < 2}
-        <p class="muted hint">Escreve pelo menos 2 letras. <kbd>↑</kbd><kbd>↓</kbd> navega, <kbd>Enter</kbd> abre. Num beat, <kbd>Alt</kbd>+clique abre-o na linha temporal.</p>
+        <p class="muted hint">Escreve pelo menos 2 letras. <kbd>↑</kbd><kbd>↓</kbd> navega, <kbd>Enter</kbd> abre a ficha.</p>
       {:else if !flat.length}
         <p class="muted hint">Nada encontrado para “{q}”.</p>
       {/if}
-      {#each groups as g (g.kind)}
+      {#each groups as g (g.pasta)}
         <div class="group-title">{g.label} <span class="muted">({g.items.length})</span></div>
-        {#each g.items as h (h.kind + h.id)}
+        {#each g.items as h (h.id)}
           {@const i = flat.indexOf(h)}
-          <button class="hit" class:active={i === active} onclick={(e) => open(h, e)} onpointerenter={() => (active = i)}>
+          <button class="hit" class:active={i === active} onclick={() => open(h)} onpointerenter={() => (active = i)}>
             <span class="dot" style:background={colorOf(h)}></span>
-            <span class="t">{h.title}</span>
-            <span class="muted s">{h.subtitle}</span>
+            <span class="t">{h.titulo}</span>
+            <span class="muted s">{h.sub}</span>
           </button>
         {/each}
       {/each}

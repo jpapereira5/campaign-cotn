@@ -1,7 +1,5 @@
-// Leitura/escrita de data/*.json no repositório via GitHub REST API.
+// Leitura e escrita no repositório pela API REST do GitHub: só grelha/*.json (docs/arquitetura.md, secção 8).
 // O token (fine-grained, só este repo, Contents: read/write) fica em localStorage.
-import type { DataFile } from './data.ts'
-import { parsePath } from './data.ts'
 
 export const REPO = { owner: 'jpapereira5', repo: 'campaign-cotn', branch: 'main' }
 const API = 'https://api.github.com'
@@ -29,47 +27,6 @@ function headers(accept = 'application/vnd.github+json'): HeadersInit {
   const t = getToken()
   if (t) h.Authorization = `Bearer ${t}`
   return h
-}
-
-interface Entry {
-  path: string
-  type: 'file' | 'dir'
-  sha: string
-}
-
-async function listDir(path: string): Promise<Entry[]> {
-  const res = await fetch(`${API}/repos/${REPO.owner}/${REPO.repo}/contents/${path}?ref=${REPO.branch}`, { headers: headers() })
-  if (!res.ok) throw new Error(`GitHub ${res.status} ao listar ${path}`)
-  const list = (await res.json()) as Entry[]
-  const out: Entry[] = []
-  for (const e of list) {
-    if (e.type === 'dir') out.push(...(await listDir(e.path)))
-    else out.push(e)
-  }
-  return out
-}
-
-async function readRaw(path: string): Promise<string> {
-  const res = await fetch(`${API}/repos/${REPO.owner}/${REPO.repo}/contents/${path}?ref=${REPO.branch}`, {
-    headers: headers('application/vnd.github.raw+json'),
-  })
-  if (!res.ok) throw new Error(`GitHub ${res.status} ao ler ${path}`)
-  return res.text()
-}
-
-/** Lê todos os ficheiros data/**.json do repositório (conteúdo + sha). */
-export async function fetchRemoteFiles(): Promise<Record<string, DataFile>> {
-  const entries = (await listDir('data')).filter((e) => e.path.endsWith('.json'))
-  const out: Record<string, DataFile> = {}
-  await Promise.all(
-    entries.map(async (e) => {
-      const p = parsePath(e.path)
-      if (!p) return
-      const text = await readRaw(e.path)
-      out[e.path] = { path: e.path, kind: p.kind, layer: p.layer, content: JSON.parse(text), sha: e.sha, dirty: false }
-    }),
-  )
-  return out
 }
 
 function toBase64(text: string): string {
