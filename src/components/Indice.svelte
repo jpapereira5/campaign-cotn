@@ -233,10 +233,13 @@
     max-width: none;
   }
   .toolbar input[type='search'] {
-    width: 200px;
+    width: 220px;
   }
   .toolbar .seg {
     flex-wrap: wrap;
+  }
+  .page.wide {
+    padding-top: 1rem;
   }
   .chs {
     white-space: nowrap;

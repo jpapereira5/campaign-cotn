@@ -271,12 +271,12 @@
         {#each celula.itens as it, i_ (i_)}
           {#if it.tipo === 'ideia'}
             <div class="it ideia">
-              <div><span class="tag">ideia</span> {it.texto}</div>
+              <div><span class="tag soft">ideia</span> {it.texto}</div>
               <div class="row"><button class="small" onclick={() => aceitarIdeia(it)}>Aceitar</button><button class="small ghost" onclick={() => rejeitarIdeia(it)}>Rejeitar</button></div>
             </div>
           {:else if it.tipo === 'facto' || it.tipo === 'plano' || it.tipo === 'nota'}
             <div class="it" class:dm={!!it.dm}>
-              <div><span class="tag">{it.tipo === 'plano' ? 'plano' : it.tipo === 'nota' ? 'nota' : (ROTULO_AC[it.ac?.tipo ?? it.dm?.factKind ?? ''] ?? it.tipo)}</span>{#if it.estatuto && it.estatuto !== 'registo'} <span class="tag">{it.estatuto}</span>{/if}{#if it.dm} <span class="tag dmtag">✎ {it.dm.kind}</span>{/if}{#if it.porRever} <span class="tag rever">por rever</span>{/if} {it.texto}</div>
+              <div><span class="tag soft">{it.tipo === 'plano' ? 'plano' : it.tipo === 'nota' ? 'nota' : (ROTULO_AC[it.ac?.tipo ?? it.dm?.factKind ?? ''] ?? it.tipo)}</span>{#if it.estatuto && it.estatuto !== 'registo'} <span class="tag soft">{it.estatuto}</span>{/if}{#if it.dm} <span class="tag dmtag">✎ {it.dm.kind}</span>{/if}{#if it.porRever} <span class="tag rever">por rever</span>{/if} {it.texto}</div>
               {#if it.original}<div class="muted small">original: {it.original}</div>{/if}
               <div class="row">
                 {#if it.ac && !it.dm}<button class="small" onclick={() => corrigir(it)}>Corrigir</button>{/if}
@@ -299,12 +299,12 @@
             <select bind:value={factKind}>{#each TIPOS_ACONTECIMENTO as t (t)}<option value={t}>{ROTULO_AC[t]}</option>{/each}</select>
           </label>
           <div class="field"><span>Toca em</span>
-            <div class="chips">{#each toca as t (t)}<button class="chip" onclick={() => (toca = toca.filter((x) => x !== t))} title="tirar">{nome(t)} ✕</button>{/each}</div>
+            <div class="chips">{#each toca as t (t)}<button class="chip small" onclick={() => (toca = toca.filter((x) => x !== t))} title="tirar">{nome(t)} ✕</button>{/each}</div>
             <input type="text" placeholder="procurar uma coisa…" bind:value={pesquisa} />
             {#if candidatos.length}<div class="lista">{#each candidatos as c (c)}<button class="opt" onclick={() => { toca = [...toca, c]; pesquisa = '' }}>{nome(c)} <small class="muted">{c}</small></button>{/each}</div>{/if}
           </div>
           <div class="field"><span>Nasce de</span>
-            <div class="chips">{#each origem as o (o)}<button class="chip" onclick={() => (origem = origem.filter((x) => x !== o))} title="tirar">{rotuloOrigem(o)} ✕</button>{/each}</div>
+            <div class="chips">{#each origem as o (o)}<button class="chip small" onclick={() => (origem = origem.filter((x) => x !== o))} title="tirar">{rotuloOrigem(o)} ✕</button>{/each}</div>
             <input type="text" placeholder="procurar um facto ou plano anterior…" bind:value={pesquisaOrigem} />
             {#if pesquisaOrigem.trim().length >= 2 && candidatosOrigem.length}<div class="lista">{#each candidatosOrigem as c (c.id)}<button class="opt" onclick={() => { origem = [...origem, c.id]; pesquisaOrigem = '' }}>{c.label}</button>{/each}</div>{/if}
           </div>
@@ -327,7 +327,7 @@
         {#each notas as n (n.id)}
           {@const r = respostas.get(n.id)}
           <div class="it nota">
-            <div><span class="tag">{n.kind}</span> {n.text}</div>
+            <div><span class="tag soft">{n.kind}</span> {n.text}</div>
             {#if n.suggestion}<div class="small"><b>Sugestão:</b> {n.suggestion}</div>{/if}
             {#if r}<div class="small ok">Respondido{r.accepted ? ' (aceitaste a sugestão)' : ''}: {r.text}</div>{:else}
               <div class="row">{#if n.suggestion}<button class="small" onclick={() => responder(n, true)}>Aceitar sugestão</button>{/if}</div>
@@ -354,7 +354,7 @@
       <p class="muted small">Para registar já alguma coisa sem saber onde vai. O fecho seguinte transforma-a num facto ou numa ideia.</p>
       <label class="field"><span>Texto</span><textarea rows="4" bind:value={notaTexto}></textarea></label>
       <div class="field"><span>Linha (opcional)</span>
-        {#if notaLinha}<div class="chips"><button class="chip" onclick={() => (notaLinha = '')}>{nome(notaLinha)} ✕</button></div>{:else}
+        {#if notaLinha}<div class="chips"><button class="chip small" onclick={() => (notaLinha = '')}>{nome(notaLinha)} ✕</button></div>{:else}
           <input type="text" placeholder="procurar uma linha…" bind:value={notaPesquisa} />
           {#if candidatosNota.length}<div class="lista">{#each candidatosNota as c (c)}<button class="opt" onclick={() => { notaLinha = c; notaPesquisa = '' }}>{nome(c)}</button>{/each}</div>{/if}
         {/if}
@@ -367,7 +367,7 @@
       <label class="field"><span>Tipo</span><select bind:value={novaTipo}>{#each TIPOS_NOVA as t (t)}<option value={t}>{ROTULO_TIPO[t]}</option>{/each}</select></label>
       <label class="field"><span>Nome</span><input type="text" bind:value={novaNome} placeholder={novaTipo === 'laco' ? 'ex.: Lucan ↔ Corvelo' : ''} /></label>
       <div class="field"><span>{novaTipo === 'laco' ? 'As duas linhas do laço' : 'Envolve'}</span>
-        <div class="chips">{#each novaEnvolve as t (t)}<button class="chip" onclick={() => (novaEnvolve = novaEnvolve.filter((x) => x !== t))}>{nome(t)} ✕</button>{/each}</div>
+        <div class="chips">{#each novaEnvolve as t (t)}<button class="chip small" onclick={() => (novaEnvolve = novaEnvolve.filter((x) => x !== t))}>{nome(t)} ✕</button>{/each}</div>
         <input type="text" placeholder="procurar uma coisa…" bind:value={novaPesquisa} />
         {#if candidatosNova.length}<div class="lista">{#each candidatosNova as c (c)}<button class="opt" onclick={() => { novaEnvolve = [...novaEnvolve, c]; novaPesquisa = '' }}>{nome(c)} <small class="muted">{c}</small></button>{/each}</div>{/if}
       </div>
@@ -405,9 +405,12 @@
     z-index: 1;
   }
   .kind {
+    font-family: var(--font-cond);
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    color: var(--accent);
   }
   .spacer {
     flex: 1;
@@ -420,45 +423,44 @@
   }
   h2 {
     margin: 0;
-    font-size: 1.05rem;
+    font-size: 18px;
   }
   h3 {
-    margin: 0.6rem 0 0.2rem;
-    font-size: 0.8rem;
+    margin: 0.7rem 0 0.2rem;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
     color: var(--muted);
+    font-weight: 700;
   }
   .it {
-    border: 1px solid var(--line);
+    border: 1px solid #cbd5da;
     border-radius: var(--radius-s);
-    padding: 0.4rem 0.5rem;
-    font-size: 0.86rem;
+    padding: 0.5rem 0.65rem;
+    font-size: 12.5px;
+    line-height: 1.4;
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    background: var(--bg-2);
   }
   .it.dm {
-    border-color: var(--line-2);
+    border-color: var(--accent);
   }
   .it.ideia {
     border-style: dashed;
+    border-color: #8a96a0;
   }
   .it.nota {
-    border-color: #5a3f8a;
-  }
-  .tag {
-    font-size: 0.66rem;
-    padding: 0 0.35rem;
-    border-radius: 4px;
-    background: var(--bg-4);
-    color: var(--muted);
+    border-color: var(--pista);
   }
   .tag.dmtag {
-    color: var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent-deep);
   }
   .tag.rever {
-    color: #c9a5ff;
+    background: var(--pista-soft);
+    color: var(--pista-ink);
   }
   .lk {
     background: none;
@@ -478,16 +480,15 @@
     gap: 0.25rem;
   }
   .field > span {
-    font-size: 0.75rem;
+    font-family: var(--font-cond);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     color: var(--muted);
   }
   .chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem;
-  }
-  .chips .chip {
-    cursor: pointer;
+    gap: 6px;
   }
   .lista {
     display: flex;
@@ -497,18 +498,19 @@
     overflow: hidden;
   }
   .opt {
-    background: var(--bg-3);
+    background: var(--bg-2);
     border: 0;
-    border-bottom: 1px solid var(--line);
+    border-bottom: 1px solid var(--line-soft);
+    border-radius: 0;
     text-align: left;
-    padding: 0.35rem 0.5rem;
+    padding: 0.45rem 0.6rem;
     color: var(--text);
     font: inherit;
-    font-size: 0.84rem;
+    font-size: 12.5px;
     cursor: pointer;
   }
   .opt:hover {
-    background: var(--bg-4);
+    background: var(--bg-1);
   }
   .chk {
     display: inline-flex;
@@ -527,8 +529,8 @@
     border-top: 1px solid var(--line);
     padding-top: 0.5rem;
   }
-  button.small {
-    font-size: 0.78rem;
-    padding: 0.2rem 0.5rem;
+  button.small:not(.chip) {
+    font-size: 12px;
+    padding: 0.25rem 0.6rem;
   }
 </style>

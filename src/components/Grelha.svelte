@@ -37,7 +37,10 @@
   const ESTATUTOS: Estatuto[] = ['aberto', 'esquecido', 'planeado', 'falta', 'pago', 'pista', 'fechado', 'registo']
   const ATT: Record<string, string> = { amigavel: 'amigável', neutro: 'neutro', desconfiado: 'desconfiado', hostil: 'hostil', 'por-conhecer': 'por conhecer', morto: 'morto' }
   const TAG: Record<string, string> = { 'so-dm': 'só DM', ultima: 'última oportunidade', trunfo: 'trunfo' }
-  const cols = $derived(`96px 252px ${g.colunas.map((c) => (c.tipo === 'capitulo' ? '148px' : c.tipo === 'proxima' ? '216px' : c.tipo === 'resto' ? '196px' : '208px')).join(' ')}`)
+  const larguras = $derived(g.colunas.map((c) => (c.tipo === 'capitulo' ? '148px' : c.tipo === 'proxima' ? '216px' : c.tipo === 'resto' ? '196px' : '208px')).join(' '))
+  const cols = $derived(`96px 252px ${larguras}`)
+  // no telemóvel a coluna do tipo desaparece (0px), como no mockup
+  const colsPhone = $derived(`0px 164px ${larguras}`)
   const ecosVisiveis = (itens: Item[]) => (mostrarEcos ? itens.slice(0, 2) : [])
   const nome = (id: string) => world.indice.nome(id)
   function abrir(id: string) {
@@ -52,65 +55,68 @@
 <div class="grelha-page">
   <div class="topo">
     <div class="stats">
-      <div class="view-label muted small">Contagens: {viewLabel}</div>
+      <div class="view-label">Contagens: {viewLabel}</div>
       <div class="tiles">
-        <div class="tile"><b>{totais.abertos}</b><span>Abertos</span></div>
-        <div class="tile alarme"><b>{totais.esquecidos}</b><span>Esquecidos</span></div>
-        <div class="tile plan"><b>{totais.planeados}</b><span>Planeado para a S{g.proximaN}</span></div>
-        <div class="tile"><b>{totais.faltas}</b><span>Falta preparar</span></div>
-        <div class="tile"><b>{totais.porResponder}</b><span>Por responder</span></div>
+        <div class="tile"><b>{totais.abertos}</b><span><span class="mk mk-aberto"></span>Abertos</span></div>
+        <div class="tile" class:alarme={totais.esquecidos > 0}><b>{totais.esquecidos}</b><span><span class="mk mk-esquecido"></span>Esquecidos</span></div>
+        <div class="tile"><b>{totais.planeados}</b><span><span class="mk mk-planeado"></span>Planeado para a S{g.proximaN}</span></div>
+        <div class="tile"><b>{totais.faltas}</b><span><span class="mk mk-falta"></span>Falta preparar</span></div>
+        <div class="tile"><b>{totais.porResponder}</b><span><span class="mk mk-ideia"></span>Por responder</span></div>
       </div>
     </div>
     <div class="filtros">
-      <div class="chips">
-        <button class="chip" class:on={grupo === 'todos'} onclick={() => (grupo = 'todos')}>Todos <small>{contaGrupo('todos')}</small></button>
-        {#each GRUPOS as gr (gr.id)}<button class="chip" class:on={grupo === gr.id} onclick={() => (grupo = gr.id)}>{gr.label} <small>{contaGrupo(gr.id)}</small></button>{/each}
+      <div class="chips" role="group" aria-label="Filtrar por grupo">
+        <button class="chip" class:on={grupo === 'todos'} aria-pressed={grupo === 'todos'} onclick={() => (grupo = 'todos')}>Todos <small>{contaGrupo('todos')}</small></button>
+        {#each GRUPOS as gr (gr.id)}<button class="chip" class:on={grupo === gr.id} aria-pressed={grupo === gr.id} onclick={() => (grupo = gr.id)}>{gr.label} <small>{contaGrupo(gr.id)}</small></button>{/each}
+        <button class="chip" class:on={soPendentes} aria-pressed={soPendentes} onclick={() => (soPendentes = !soPendentes)}>Só com pendentes</button>
+      </div>
+      <div class="chips" role="group" aria-label="Filtrar por PC">
+        <span class="flabel">PC</span>
+        <button class="chip" class:on={pc === 'todos'} aria-pressed={pc === 'todos'} onclick={() => (pc = 'todos')}>Todos os PCs <small>{contaPc('todos')}</small></button>
+        {#each g.pcs as p (p.id)}<button class="chip" class:on={pc === p.id} aria-pressed={pc === p.id} onclick={() => (pc = p.id)}><span class="dot" style:background={p.cor}></span>{p.curto} <small>{contaPc(p.id)}</small></button>{/each}
         <span class="sep"></span>
-        <button class="chip" class:on={soPendentes} onclick={() => (soPendentes = !soPendentes)}>Só com pendentes</button>
-        <button class="chip" class:on={mostrarEcos} onclick={() => (mostrarEcos = !mostrarEcos)}>Ecos</button>
-        <span class="sep"></span>
-        <button class="chip" class:on={modo === 'plano'} onclick={() => (modo = modo === 'plano' ? 'normal' : 'plano')} title="Os arcos nas linhas e os beats por capítulo nas células">Plano</button>
+        <button class="chip" class:on={mostrarEcos} aria-pressed={mostrarEcos} onclick={() => (mostrarEcos = !mostrarEcos)} title="Mostrar nas outras linhas os ecos dos acontecimentos">Ecos</button>
+        <button class="chip" class:on={modo === 'plano'} aria-pressed={modo === 'plano'} onclick={() => (modo = modo === 'plano' ? 'normal' : 'plano')} title="Os arcos nas linhas e os beats por capítulo nas células">Plano</button>
         <span class="sep"></span>
         <button class="chip" onclick={() => abrirEdicao({ modo: 'nota' })} title="Registar já alguma coisa sem saber onde vai">+ Nota rápida</button>
         <button class="chip" onclick={() => abrirEdicao({ modo: 'nova-linha' })} title="Criar uma coisa nova para acompanhar">+ Nova linha</button>
         <button class="chip" onclick={() => abrirEdicao({ modo: 'acompanhar' })} title="Pôr na Grelha algo que já existe no cânone">+ Acompanhar</button>
       </div>
-      <div class="chips">
-        <button class="chip" class:on={pc === 'todos'} onclick={() => (pc = 'todos')}>Todos os PCs <small>{contaPc('todos')}</small></button>
-        {#each g.pcs as p (p.id)}<button class="chip" class:on={pc === p.id} onclick={() => (pc = p.id)}><span class="dot" style:background={p.cor}></span>{p.curto} <small>{contaPc(p.id)}</small></button>{/each}
-      </div>
-      <div class="legenda small muted">
+      <div class="legenda" aria-label="Legenda">
         {#each ESTATUTOS as e (e)}<span class="leg"><span class="mk mk-{e}"></span>{ROTULO_ESTATUTO[e]}</span>{/each}
         <span class="leg"><span class="eco-mk">↳</span>eco de outra linha</span>
         <span class="leg"><span class="ideia-mk"></span>ideia, por aceitar</span>
+        <span class="leg"><span class="tag">só DM</span>a mesa não sabe</span>
+        <span class="leg"><span class="tag tag-ultima">última oportunidade</span>fecha ao mudar de capítulo</span>
+        <span class="leg"><span class="tag tag-trunfo">trunfo</span>pode voltar no fim</span>
       </div>
     </div>
   </div>
 
   <div class="estado small">
     <span class="muted">{camada.fonte === 'repositorio' ? `Camada do DM lida do repositório${camada.ultimaLeitura ? ` às ${camada.ultimaLeitura}` : ''}; verifica de 30 em 30 s.` : getToken() ? 'A ler a camada do DM do repositório…' : 'Sem token: a camada do DM vem do build e o que editares fica só neste browser (Definições).'}</span>
-    {#if camada.porGravar}<span class="err">Por gravar.</span> <button class="chip" onclick={() => gravarPendentes()}>Tentar de novo</button>{/if}
+    {#if camada.porGravar}<span class="err">Por gravar.</span> <button class="chip small" onclick={() => gravarPendentes()}>Tentar de novo</button>{/if}
     {#if camada.estado === 'erro'}<span class="err">{camada.mensagem}</span>{/if}
   </div>
   {#if g.planosPassados.length || g.notasSoltas.length}
     <div class="entrada small">
       {#each g.planosPassados as p (p.entrada.id)}
         <div class="row nowrap">
-          <span class="tag">plano que ficou para trás</span>
+          <span class="tag warnb">plano que ficou para trás</span>
           <span><b>{p.linha.nome}</b> · {p.entrada.col}: {p.entrada.text}</span>
-          <button class="chip" onclick={() => alterar(p.entrada.id, { col: `s${g.proximaN}` }, `grelha: plano ${p.entrada.id} passa para a S${g.proximaN}`)}>Passa para a S{g.proximaN}</button>
-          {#if capituloAtualCol}<button class="chip" onclick={() => alterar(p.entrada.id, { col: capituloAtualCol }, `grelha: plano ${p.entrada.id} fica para o capítulo`)}>Fica para o capítulo</button>{/if}
-          <button class="chip" onclick={() => apagar(p.entrada.id, `grelha: plano ${p.entrada.id} cai`)}>Cai</button>
+          <button class="chip small" onclick={() => alterar(p.entrada.id, { col: `s${g.proximaN}` }, `grelha: plano ${p.entrada.id} passa para a S${g.proximaN}`)}>Passa para a S{g.proximaN}</button>
+          {#if capituloAtualCol}<button class="chip small" onclick={() => alterar(p.entrada.id, { col: capituloAtualCol }, `grelha: plano ${p.entrada.id} fica para o capítulo`)}>Fica para o capítulo</button>{/if}
+          <button class="chip small" onclick={() => apagar(p.entrada.id, `grelha: plano ${p.entrada.id} cai`)}>Cai</button>
         </div>
       {/each}
       {#each g.notasSoltas as n (n.id)}
-        <div class="row nowrap"><span class="tag">nota rápida</span><span>{n.text}</span><span class="muted">(o fecho decide onde entra)</span><button class="chip" onclick={() => apagar(n.id, `grelha: apagar nota ${n.id}`)}>Apagar</button></div>
+        <div class="row nowrap"><span class="tag soft">nota rápida</span><span>{n.text}</span><span class="muted">(o fecho decide onde entra)</span><button class="chip small" onclick={() => apagar(n.id, `grelha: apagar nota ${n.id}`)}>Apagar</button></div>
       {/each}
     </div>
   {/if}
 
   {#if modo === 'plano'}
-    <div class="sheet" style:--cols={`96px 252px repeat(${g.plano.capitulos.length}, 180px)`}>
+    <div class="sheet" style:--cols={`96px 252px repeat(${g.plano.capitulos.length}, 180px)`} style:--cols-phone={`0px 164px repeat(${g.plano.capitulos.length}, 180px)`}>
       <div class="hrow h2 so">
         <div class="h corner tipo">Arco</div>
         <div class="h corner nome">Nome</div>
@@ -131,7 +137,7 @@
       {/each}
     </div>
   {:else}
-    <div class="sheet" style:--cols={cols}>
+    <div class="sheet" style:--cols={cols} style:--cols-phone={colsPhone}>
       <div class="hrow h1">
         <div class="h corner tipo"></div>
         <div class="h corner nome"></div>
@@ -148,7 +154,7 @@
         {/each}
       </div>
       {#each porGrupo as gr (gr.id)}
-        <div class="band" style:grid-column={`1 / span ${g.colunas.length + 2}`}>{gr.label}</div>
+        <div class="band" style:grid-column={`1 / span ${g.colunas.length + 2}`}>{gr.label}<span class="band-n">{gr.linhas.length}</span></div>
         {#each gr.linhas as l (l.id)}
           <div class="row" class:calc={l.calculada}>
             <div class="tipo c"><span class="tp">{ROTULO_TIPO[l.tipo]}</span></div>
@@ -177,7 +183,7 @@
                   {#if it.tipo === 'ideia'}
                     <div class="it ideia" title="ideia da revisão: abre a célula para aceitar ou rejeitar"><span class="tx">{it.texto}</span>{#each it.tags ?? [] as t (t)}<span class="tag">{TAG[t] ?? t}</span>{/each}</div>
                   {:else if it.tipo === 'nota'}
-                    <div class="it notadm"><span class="tx">{it.texto}</span><span class="tag">nota rápida</span>{#if it.porRever}<span class="rever" title="por rever"></span>{/if}</div>
+                    <div class="it notadm"><span class="tx">{it.texto}</span><span class="tag soft">nota rápida</span>{#if it.porRever}<span class="rever" title="por rever"></span>{/if}</div>
                   {:else if it.tipo === 'plano-canone'}
                     <div class="it canone"><span class="tx">{#if it.refs?.length}{#each it.refs as r, j_ (j_)}<button class="lk" onclick={(e) => { e.stopPropagation(); abrir(r) }}>{nome(r)}</button>{j_ < it.refs.length - 1 ? ' · ' : ''}{/each}{:else}{it.texto}{/if}</span></div>
                   {:else}
@@ -187,7 +193,7 @@
                       {#if it.origemLabel}<span class="orig" title="nasce de">{it.origemLabel}</span>{/if}
                       {#if it.planeadoEm}<span class="orig plan" title="um plano teu responde a isto">{it.planeadoEm}</span>{/if}
                       {#each it.tags ?? [] as t (t)}<span class="tag tag-{t}">{TAG[t] ?? t}</span>{/each}
-                      {#if it.arquivado}<span class="tag">arquivado</span>{/if}
+                      {#if it.arquivado}<span class="tag soft">arquivado</span>{/if}
                       {#if it.dm}<span class="dmmark" title="edição tua ({it.dm.kind})">✎</span>{/if}
                       {#if it.porRever}<span class="rever" title="por rever"></span>{/if}
                     </div>
@@ -207,6 +213,8 @@
 </div>
 
 <style>
+  /* O desenho é o do mockup (claude.ai, 2026-10-11): folha branca com cabeçalhos fixos, a coluna atual em
+     verde-azulado escuro, a próxima em azul claro, os estados por fundo e por forma do marcador. */
   .grelha-page {
     display: flex;
     flex-direction: column;
@@ -214,88 +222,63 @@
     min-height: 0;
   }
   .topo {
-    padding: 0.7rem 1rem 0.5rem;
-    border-bottom: 1px solid var(--line);
-    background: var(--bg-1);
+    padding: 0.2rem 1.4rem 0.6rem;
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem 1.4rem;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+  }
+  .view-label {
+    font-size: 11.5px;
+    color: var(--muted);
   }
   .tiles {
     display: flex;
-    gap: 0.5rem;
+    gap: 10px;
     flex-wrap: wrap;
-  }
-  .tile {
-    background: var(--bg-3);
-    border: 1px solid var(--line);
-    border-radius: var(--radius-s);
-    padding: 0.3rem 0.6rem;
-    min-width: 92px;
-    display: flex;
-    flex-direction: column;
-  }
-  .tile b {
-    font-size: 1.25rem;
-    line-height: 1.2;
-  }
-  .tile span {
-    font-size: 0.72rem;
-    color: var(--muted);
-  }
-  .tile.alarme b {
-    color: #e0603a;
-  }
-  .tile.plan b {
-    color: #7aa0ff;
+    justify-content: flex-end;
   }
   .filtros {
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
-    flex: 1;
-    min-width: 280px;
-  }
-  .chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem;
-    align-items: center;
-  }
-  .chips .chip {
-    cursor: pointer;
-    gap: 0.3rem;
-  }
-  .chips .chip.on {
-    background: var(--accent-soft);
-    border-color: var(--accent);
-    color: var(--text);
-  }
-  .chips .chip small {
-    color: var(--muted);
-  }
-  .chips .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    display: inline-block;
+    gap: 8px;
   }
   .sep {
     width: 1px;
-    height: 18px;
+    height: 24px;
     background: var(--line-2);
-    margin: 0 0.3rem;
+    margin: 0 4px;
   }
   .legenda {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.2rem 0.9rem;
+    gap: 6px 14px;
+    font-size: 12px;
+    color: #3d4d58;
   }
   .leg {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
+    gap: 6px;
+  }
+  .leg .mk {
+    margin: 0;
+  }
+  .eco-mk {
+    color: var(--muted-2);
+    font-weight: 700;
+  }
+  .ideia-mk {
+    width: 12px;
+    height: 10px;
+    border: 1.5px dashed #6f7c86;
+    border-radius: 3px;
+    display: inline-block;
   }
   .sheet {
     flex: 1;
@@ -305,7 +288,12 @@
     grid-template-columns: var(--cols);
     grid-auto-rows: max-content;
     align-content: start;
-    font-size: 0.82rem;
+    margin: 0 1.4rem 1rem;
+    border: 1px solid var(--line-2);
+    border-radius: var(--radius);
+    background: var(--bg-2);
+    font-size: 12.5px;
+    line-height: 1.38;
   }
   .hrow,
   .row {
@@ -315,71 +303,137 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    background: var(--bg-2);
-    border-bottom: 1px solid var(--line);
+    padding: 7px 10px;
+    background: var(--bg-1);
     border-right: 1px solid var(--line);
-    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid #c5cfd5;
+    font-family: var(--font-cond);
+    font-size: 12.5px;
+    color: #2a3a45;
   }
   .h1 .h {
     top: 0;
-    height: 28px;
-    font-size: 0.72rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--muted);
+    height: 34px;
     display: flex;
     align-items: center;
+    border-bottom: none;
+  }
+  .h.arc {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding-left: 12px;
+  }
+  .h.arc-cur {
+    background: var(--accent-strong);
+  }
+  .h.arc-fut {
+    background: #56636d;
   }
   .h2.so .h {
     top: 0;
   }
   .h2 .h {
-    top: 28px;
-    height: 46px;
+    top: 34px;
+    height: 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1px;
   }
-  .h.arc-cur {
+  .h2 .h b,
+  .h2 .h .nm {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text-strong);
+  }
+  .h2 .h .nm:hover {
     color: var(--accent);
-    background: linear-gradient(var(--accent-soft), var(--accent-soft)), var(--bg-2);
   }
   .h.ses small {
-    color: var(--muted);
-    font-size: 0.7rem;
+    font-family: var(--font);
+    font-size: 11.5px;
+    color: #56656f;
   }
   .h.ses.cur {
-    background: linear-gradient(var(--accent-soft), var(--accent-soft)), var(--bg-2);
-    box-shadow: inset 0 -2px 0 var(--accent);
+    background: var(--accent-strong);
+    border-right-color: var(--accent-strong);
+  }
+  .h.ses.cur b,
+  .h.ses.cur .nm,
+  .h.ses.cur small {
+    color: #ffffff;
   }
   .h.ses.proxima {
-    background: linear-gradient(rgba(43, 98, 217, 0.12), rgba(43, 98, 217, 0.12)), var(--bg-2);
+    background: #e6edff;
+  }
+  .h.ses.proxima b {
+    color: var(--plan-ink);
+  }
+  .h.ses.resto {
+    background: #eef2fa;
+  }
+  .h.ses.capitulo {
+    background: #eef1f3;
   }
   .h.corner {
     z-index: 5;
     left: 0;
+    background: var(--accent-deep);
+    color: var(--accent-ink);
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-bottom: none;
+    border-right-color: var(--accent-deep);
+    display: flex;
+    align-items: center;
   }
   .h.corner.nome {
     left: 96px;
+    box-shadow: inset -1px 0 0 #1f4f5c;
+  }
+  .h2 .h.corner {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .band-n {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    font-size: 11.5px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--muted);
   }
   .band {
     position: sticky;
     left: 0;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 12px;
     background: var(--bg-3);
-    color: var(--muted);
-    font-size: 0.7rem;
+    border-bottom: 1px solid #c5cfd5;
+    font-family: var(--font-cond);
+    font-weight: 700;
+    font-size: 12.5px;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    padding: 0.25rem 0.6rem;
-    border-bottom: 1px solid var(--line);
+    color: #2a3a45;
   }
   .c,
   .cell {
-    border-bottom: 1px solid var(--line);
-    border-right: 1px solid var(--line);
-    padding: 0.35rem 0.45rem;
-    min-height: 44px;
+    min-height: 38px;
+    padding: 8px 10px;
+    border-right: 1px solid var(--line-soft);
+    border-bottom: 1px solid var(--line-soft);
+    background: var(--bg-2);
+    color: var(--text);
   }
   .tipo {
     position: sticky;
@@ -388,18 +442,23 @@
     background: var(--bg-1);
     border-left: 3px solid transparent;
   }
+  .tp {
+    font-family: var(--font-cond);
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
   .nome {
     position: sticky;
     left: 96px;
     z-index: 2;
-    background: var(--bg-1);
-    box-shadow: 2px 0 0 var(--line);
-  }
-  .tp {
-    font-size: 0.68rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: var(--bg-2);
+    box-shadow: inset -1px 0 0 var(--line-3);
   }
   .row1 {
     display: flex;
@@ -411,9 +470,10 @@
     background: none;
     border: 0;
     padding: 0;
-    color: var(--text);
+    color: var(--text-strong);
     font: inherit;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 13px;
     cursor: pointer;
     text-align: left;
   }
@@ -423,99 +483,80 @@
   .nm.static {
     cursor: default;
   }
+  .nome .sub {
+    font-size: 11.5px;
+    color: #56656f;
+  }
   .pdot {
     width: 8px;
     height: 8px;
     border-radius: 50%;
     display: inline-block;
   }
-  .pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.2rem;
-    margin-top: 0.15rem;
-  }
-  .pill {
-    font-size: 0.66rem;
-    padding: 0.05rem 0.4rem;
-    border-radius: 999px;
-    background: var(--bg-3);
-    border: 1px solid var(--line-2);
-    color: var(--muted);
-  }
-  .pill.att-hostil {
-    color: #ff8d7a;
-    border-color: #7a3b31;
-  }
-  .pill.att-amigavel {
-    color: #8fd99a;
-    border-color: #3f6b44;
-  }
-  .pill.att-desconfiado {
-    color: #e8c177;
-    border-color: #6b5520;
-  }
-  .pill.att-morto {
-    text-decoration: line-through;
-  }
-  .pill.warnp {
-    color: var(--warn);
-  }
-  .pill.notap {
-    color: #c9a5ff;
-    border-color: #5a3f8a;
-  }
   .qm {
-    margin-top: 0.15rem;
+    margin-top: 3px;
     display: flex;
     flex-direction: column;
-    gap: 0.05rem;
+    gap: 1px;
+    font-size: 11px;
+    line-height: 1.3;
+    color: var(--muted);
   }
   .qm b {
     color: var(--muted-2);
-    font-weight: 600;
+    font-weight: 700;
     margin-right: 0.25rem;
   }
   .cell {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 5px;
   }
   .cell.col-cur {
-    box-shadow: inset 2px 0 0 var(--accent-2), inset -2px 0 0 var(--accent-2);
+    box-shadow: inset 2px 0 0 var(--accent-strong), inset -2px 0 0 var(--accent-strong);
   }
-  .cell.col-fut {
-    background: rgba(255, 255, 255, 0.015);
+  .cell.col-fut:empty {
+    background: #fafbfb;
   }
   .st-aberto {
-    background: rgba(217, 130, 8, 0.13);
+    background: var(--warn-soft);
   }
   .st-esquecido {
-    background: rgba(196, 50, 10, 0.18);
-    box-shadow: inset 0 0 0 1px rgba(196, 50, 10, 0.45);
+    background: var(--danger-soft);
+    box-shadow: inset 0 0 0 1px var(--danger-line);
   }
   .st-planeado {
-    background: rgba(43, 98, 217, 0.14);
+    background: var(--plan-soft);
   }
   .st-pago {
-    background: rgba(22, 131, 78, 0.13);
+    background: var(--ok-soft);
   }
   .st-pista {
-    background: rgba(123, 77, 194, 0.14);
+    background: var(--pista-soft);
   }
   .st-fechado {
-    background: rgba(122, 135, 144, 0.1);
+    background: var(--fechado-soft);
     color: var(--muted);
   }
   .st-falta {
-    outline: 1.5px dashed var(--muted-2);
+    outline: 1.5px dashed #8a96a0;
     outline-offset: -5px;
+  }
+  .cell.col-cur.st-aberto,
+  .cell.col-cur.st-esquecido,
+  .cell.col-cur.st-planeado,
+  .cell.col-cur.st-pago,
+  .cell.col-cur.st-pista {
+    box-shadow: inset 2px 0 0 var(--accent-strong), inset -2px 0 0 var(--accent-strong);
   }
   .it {
     display: flex;
-    gap: 0.35rem;
+    gap: 7px;
     align-items: flex-start;
     flex-wrap: wrap;
+  }
+  .it .mk {
+    margin-top: 4px;
   }
   .it .tx {
     flex: 1 1 100px;
@@ -527,13 +568,14 @@
   }
   .it.canone .tx {
     color: var(--muted);
-    font-size: 0.76rem;
+    font-size: 11.5px;
   }
   .it.ideia {
-    border: 1.5px dashed #7a8790;
+    border: 1.5px dashed #8a96a0;
     border-radius: 6px;
-    padding: 0.2rem 0.35rem;
+    padding: 4px 7px;
     color: var(--muted);
+    background: rgba(255, 255, 255, 0.6);
   }
   .lk {
     background: none;
@@ -548,25 +590,17 @@
     color: var(--accent);
   }
   .orig {
-    font-size: 0.7rem;
-    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--muted-2);
     white-space: nowrap;
+    margin-top: 2px;
   }
-  .tag {
-    font-size: 0.64rem;
-    padding: 0 0.35rem;
-    border-radius: 4px;
-    background: var(--bg-4);
-    color: var(--muted);
+  .orig.plan {
+    color: var(--plan-ink);
   }
-  .tag-so-dm {
-    color: #c9a5ff;
-  }
-  .tag-ultima {
-    color: #ff8d7a;
-  }
-  .tag-trunfo {
-    color: var(--warn);
+  .cell .tag {
+    margin-top: 1px;
   }
   .eco {
     background: none;
@@ -574,107 +608,31 @@
     padding: 0;
     text-align: left;
     font: inherit;
-    font-size: 0.76rem;
-    color: var(--muted-2);
+    font-size: 11.5px;
+    line-height: 1.35;
+    color: #56656f;
     cursor: pointer;
   }
   .eco b {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--muted);
   }
   .eco:hover {
     color: var(--accent);
   }
-  .eco-mk {
-    color: var(--muted-2);
-  }
-  .ideia-mk {
-    width: 12px;
-    height: 10px;
-    border: 1.5px dashed #7a8790;
-    border-radius: 3px;
-    display: inline-block;
-  }
-  /* marcadores: as formas distinguem os estados mesmo sem cor */
-  .mk {
-    display: inline-block;
-    width: 11px;
-    height: 11px;
-    flex: none;
-    margin-top: 3px;
-  }
-  .mk-aberto {
-    border-radius: 50%;
-    background: #D98208;
-  }
-  .mk-esquecido {
-    position: relative;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    background: #C4320A;
-  }
-  .mk-esquecido::after {
-    content: '!';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 13px;
-    font: 700 10px/13px ui-monospace, monospace;
-    color: #fff;
-    text-align: center;
-  }
-  .mk-planeado {
-    width: 9px;
-    height: 9px;
-    margin-left: 1px;
-    background: #2B62D9;
-    transform: rotate(45deg);
-  }
-  .mk-pago {
-    width: 11px;
-    height: 6px;
-    border-left: 2.5px solid #16834E;
-    border-bottom: 2.5px solid #16834E;
-    transform: rotate(-45deg);
-    margin-top: 4px;
-  }
-  .mk-pista {
-    width: 9px;
-    height: 9px;
-    border-radius: 2px;
-    background: #7B4DC2;
-  }
-  .mk-fechado {
-    width: 11px;
-    height: 3px;
-    border-radius: 2px;
-    background: #7A8790;
-    margin-top: 7px;
-  }
-  .mk-falta {
-    border: 1.5px dashed #6F7C86;
-    border-radius: 3px;
-  }
-  .mk-registo {
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background: var(--muted-2);
-    margin-top: 6px;
-  }
   .beat {
     display: block;
     width: 100%;
     text-align: left;
-    background: var(--bg-3);
+    background: var(--bg-2);
     border: 1px solid var(--line-2);
     border-radius: 6px;
-    padding: 0.15rem 0.4rem;
-    margin-bottom: 0.2rem;
+    padding: 3px 7px;
+    margin-bottom: 4px;
     color: var(--text);
     font: inherit;
-    font-size: 0.74rem;
+    font-size: 11.5px;
+    line-height: 1.35;
     cursor: pointer;
   }
   .beat.jogado {
@@ -682,7 +640,8 @@
     text-decoration: line-through;
   }
   .beat.em-curso {
-    border-color: var(--accent);
+    border-color: var(--accent-strong);
+    box-shadow: inset 0 0 0 1px var(--accent-strong);
   }
   .beat.proposta {
     border-style: dashed;
@@ -691,37 +650,33 @@
   .beat:hover {
     border-color: var(--accent);
   }
-  .row.calc .c {
-    background: var(--bg-2);
+  .row.calc .c,
+  .row.calc .cell {
+    background: var(--bg-1);
   }
   .estado {
-    padding: 0.3rem 1rem;
-    border-bottom: 1px solid var(--line);
+    padding: 0.2rem 1.4rem 0.5rem;
     display: flex;
     gap: 0.6rem;
     align-items: center;
     flex-wrap: wrap;
+    font-size: 12px;
   }
   .entrada {
-    padding: 0.4rem 1rem;
-    border-bottom: 1px solid var(--line);
-    background: rgba(43, 98, 217, 0.08);
+    margin: 0 1.4rem 0.6rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #b9c8f0;
+    border-radius: var(--radius-s);
+    background: var(--plan-soft);
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-  }
-  .entrada .chip {
-    cursor: pointer;
-  }
-  .err {
-    color: var(--danger);
+    gap: 0.35rem;
   }
   .cell.clicavel {
     cursor: pointer;
   }
   .cell.clicavel:hover {
-    outline: 1px solid var(--accent-2);
-    outline-offset: -1px;
+    box-shadow: inset 0 0 0 2px var(--accent);
   }
   .edit {
     background: none;
@@ -729,7 +684,7 @@
     padding: 0 0.2rem;
     color: var(--muted-2);
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   .edit:hover {
     color: var(--accent);
@@ -738,36 +693,80 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #c9a5ff;
+    background: var(--pista);
     display: inline-block;
     margin-left: 0.2rem;
   }
   .dmmark {
     color: var(--accent);
-    font-size: 0.8rem;
-  }
-  .it.dmit .tx {
-    color: var(--text);
+    font-size: 0.85rem;
   }
   .it.notadm {
-    border-left: 2px solid #5a3f8a;
-    padding-left: 0.3rem;
+    border-left: 2px solid var(--pista);
+    padding-left: 0.4rem;
     color: var(--muted);
   }
-  .orig.plan {
-    color: #7aa0ff;
-  }
-  @media (max-width: 640px) {
-    .sheet {
-      font-size: 0.78rem;
+  @media (max-width: 700px) {
+    .topo,
+    .estado {
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
     }
-    .tipo {
+    .topo {
+      gap: 6px;
+    }
+    .stats {
+      align-items: stretch;
+    }
+    .view-label {
       display: none;
     }
-    .nome {
-      left: 0;
-      width: 150px;
+    .tiles {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 6px;
+      justify-content: flex-start;
     }
+    .tiles .tile {
+      min-width: 0;
+      flex: 0 0 auto;
+      padding: 5px 9px 6px;
+      gap: 1px;
+    }
+    .tiles .tile b {
+      font-size: 18px;
+    }
+    .tiles .tile span {
+      font-size: 11px;
+    }
+    .chips {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      padding-bottom: 2px;
+      gap: 6px;
+    }
+    .chips .chip {
+      min-height: 36px;
+      padding: 0 11px;
+      white-space: nowrap;
+      flex: 0 0 auto;
+    }
+    .legenda {
+      display: none;
+    }
+    .sheet,
+    .entrada {
+      margin-left: 0.6rem;
+      margin-right: 0.6rem;
+      grid-template-columns: var(--cols-phone);
+    }
+    .tipo,
+    .h.corner.tipo {
+      padding: 0;
+      border: 0;
+      overflow: hidden;
+    }
+    .nome,
     .h.corner.nome {
       left: 0;
     }
