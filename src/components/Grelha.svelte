@@ -33,7 +33,45 @@
   const viewLabel = $derived(
     [grupo === 'todos' ? 'todas as linhas' : GRUPOS.find((x) => x.id === grupo)?.label, pc === 'todos' ? null : g.pcs.find((x) => x.id === pc)?.curto, soPendentes ? 'só com pendentes' : null].filter(Boolean).join(' · '),
   )
-  const porGrupo = $derived(GRUPOS.map((gr) => ({ ...gr, linhas: visiveis.filter((l) => l.grupo === gr.id) })).filter((gr) => gr.linhas.length))
+  // Faixas por grupo e, dentro de cada grupo, cabeçalhos por tipo (PC, NPC, …); cada um abre e fecha com um clique.
+  // O que está recolhido fica só neste browser.
+  const CHAVE_RECOLHIDAS = 'cc-grelha-recolhidas'
+  function lerRecolhidas(): Set<string> {
+    try {
+      const v = JSON.parse(localStorage.getItem(CHAVE_RECOLHIDAS) ?? '[]')
+      return new Set(Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : [])
+    } catch {
+      return new Set()
+    }
+  }
+  let recolhidas = $state<Set<string>>(lerRecolhidas())
+  function alternar(chave: string) {
+    const s = new Set(recolhidas)
+    if (s.has(chave)) s.delete(chave)
+    else s.add(chave)
+    recolhidas = s
+    try {
+      localStorage.setItem(CHAVE_RECOLHIDAS, JSON.stringify([...s]))
+    } catch {
+      /* privado / cheio */
+    }
+  }
+  function expandirTudo() {
+    recolhidas = new Set()
+    try {
+      localStorage.removeItem(CHAVE_RECOLHIDAS)
+    } catch {
+      /* ignore */
+    }
+  }
+  const porGrupo = $derived(
+    GRUPOS.map((gr) => {
+      const linhas = visiveis.filter((l) => l.grupo === gr.id)
+      const tipos = gr.tipos.map((tipo) => ({ tipo, chave: `${gr.id}:${tipo}`, linhas: linhas.filter((l) => l.tipo === tipo) })).filter((t) => t.linhas.length)
+      return { ...gr, linhas, tipos, resumo: tipos.map((t) => `${t.linhas.length} ${ROTULO_TIPO[t.tipo]}`).join(' · ') }
+    }).filter((gr) => gr.linhas.length),
+  )
+  const algumaRecolhida = $derived(porGrupo.some((gr) => recolhidas.has(gr.id) || gr.tipos.some((t) => recolhidas.has(t.chave))))
   const ESTATUTOS: Estatuto[] = ['aberto', 'esquecido', 'planeado', 'falta', 'pago', 'pista', 'fechado', 'registo']
   const ATT: Record<string, string> = { amigavel: 'amigável', neutro: 'neutro', desconfiado: 'desconfiado', hostil: 'hostil', 'por-conhecer': 'por conhecer', morto: 'morto' }
   const TAG: Record<string, string> = { 'so-dm': 'só DM', ultima: 'última oportunidade', trunfo: 'trunfo' }
@@ -97,6 +135,7 @@
     <span class="muted">{camada.fonte === 'repositorio' ? `Camada do DM lida do repositório${camada.ultimaLeitura ? ` às ${camada.ultimaLeitura}` : ''}; verifica de 30 em 30 s.` : getToken() ? 'A ler a camada do DM do repositório…' : 'Sem token: a camada do DM vem do build e o que editares fica só neste browser (Definições).'}</span>
     {#if camada.porGravar}<span class="err">Por gravar.</span> <button class="chip small" onclick={() => gravarPendentes()}>Tentar de novo</button>{/if}
     {#if camada.estado === 'erro'}<span class="err">{camada.mensagem}</span>{/if}
+    {#if algumaRecolhida}<button class="linkish exp" onclick={expandirTudo}>Mostrar todos os grupos</button>{/if}
   </div>
   {#if g.planosPassados.length || g.notasSoltas.length}
     <div class="entrada small">
@@ -154,8 +193,25 @@
         {/each}
       </div>
       {#each porGrupo as gr (gr.id)}
-        <div class="band" style:grid-column={`1 / span ${g.colunas.length + 2}`}>{gr.label}<span class="band-n">{gr.linhas.length}</span></div>
-        {#each gr.linhas as l (l.id)}
+        {@const fechado = recolhidas.has(gr.id)}
+        <div class="band" style:grid-column={`1 / span ${g.colunas.length + 2}`}>
+          <button class="band-l" aria-expanded={!fechado} onclick={() => alternar(gr.id)} title={fechado ? 'Mostrar o grupo' : 'Ocultar o grupo'}>
+            <span class="chev" class:fechado></span>{gr.label}<span class="band-n">{gr.linhas.length}</span>
+            {#if fechado && gr.tipos.length > 1}<span class="band-resumo">{gr.resumo}</span>{/if}
+          </button>
+        </div>
+        {#if !fechado}
+        {#each gr.tipos as t (t.chave)}
+        {@const subFechada = gr.tipos.length > 1 && recolhidas.has(t.chave)}
+        {#if gr.tipos.length > 1}
+          <div class="band sub" style:grid-column={`1 / span ${g.colunas.length + 2}`}>
+            <button class="band-l" aria-expanded={!subFechada} onclick={() => alternar(t.chave)} title={subFechada ? `Mostrar ${ROTULO_TIPO[t.tipo]}` : `Ocultar ${ROTULO_TIPO[t.tipo]}`}>
+              <span class="chev" class:fechado={subFechada}></span>{ROTULO_TIPO[t.tipo]}<span class="band-n">{t.linhas.length}</span>
+            </button>
+          </div>
+        {/if}
+        {#if !subFechada}
+        {#each t.linhas as l (l.id)}
           <div class="row" class:calc={l.calculada}>
             <div class="tipo c"><span class="tp">{ROTULO_TIPO[l.tipo]}</span></div>
             <div class="nome c">
@@ -207,6 +263,9 @@
             {/each}
           </div>
         {/each}
+        {/if}
+        {/each}
+        {/if}
       {/each}
     </div>
   {/if}
@@ -410,21 +469,75 @@
     color: var(--muted);
   }
   .band {
+    background: var(--bg-3);
+    border-bottom: 1px solid #c5cfd5;
+    min-width: 0;
+  }
+  .band-l {
     position: sticky;
     left: 0;
     z-index: 2;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 7px 12px;
-    background: var(--bg-3);
-    border-bottom: 1px solid #c5cfd5;
+    max-width: 100%;
+    padding: 7px 12px 7px 10px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
     font-family: var(--font-cond);
     font-weight: 700;
     font-size: 12.5px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #2a3a45;
+    cursor: pointer;
+    text-align: left;
+  }
+  .band-l:hover {
+    color: var(--accent);
+  }
+  .band-l:focus-visible {
+    outline-offset: -3px;
+  }
+  .band.sub {
+    background: var(--bg-1);
+    border-bottom: 1px solid var(--line);
+  }
+  .band.sub .band-l {
+    padding: 5px 12px 5px 22px;
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .chev {
+    display: inline-block;
+    flex: none;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid currentColor;
+    transition: transform 0.12s;
+  }
+  .chev.fechado {
+    transform: rotate(-90deg);
+  }
+  .band-resumo {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 11.5px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .exp {
+    color: var(--accent);
+    font-size: 12px;
   }
   .c,
   .cell {
