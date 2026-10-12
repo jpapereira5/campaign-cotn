@@ -59,5 +59,12 @@
     "row": "t-relogio-terceira-vez",
     "accepted": false,
     "text": "a sessao 5 terminou no 4º dia, a Bolbara esta possuida e ja saiu do forte"
+  },
+  {
+    "id": "d-mv4ob28w-hfsc",
+    "at": "2026-10-12T03:09:14.144Z",
+    "kind": "arquivo",
+    "fact": "e-s5-40",
+    "row": "t-relogio-terceira-vez"
   }
 ]
