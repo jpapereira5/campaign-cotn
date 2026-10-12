@@ -26,5 +26,17 @@
     "kind": "arquivo",
     "fact": "e-s3-19",
     "row": "i-amuletos-do-trono"
+  },
+  {
+    "id": "d-mv4mbnnh-kb0k",
+    "at": "2026-10-12T02:13:42.653Z",
+    "kind": "correcao",
+    "fact": "e-s5-52",
+    "row": "t-semente-adaga-lia",
+    "col": "s5",
+    "patch": {
+      "text": "As duas vezes que o Lucan pega nela, a fome baixa e o olhar vai para a Lia. Lia é filha de Duarte Mirim e a adaga / fome de Baeshra reconhece isso.",
+      "tags": []
+    }
   }
 ]
