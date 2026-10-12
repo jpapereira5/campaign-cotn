@@ -55,7 +55,7 @@ export function grelhaViva(arvore: Arvore, estado: Estado, indice: Indice, campa
 
 /** As notas da revisão abertas que contam como «por responder»: sem linha, ou com uma linha que está na Grelha; sem resposta na camada do DM. */
 export function notasPorResponder(g: Grelha, camada: CamadaGrelha) {
-  const ids = new Set(g.linhas.map((l) => l.id))
+  const ids = new Set([...g.linhas.map((l) => l.id), ...Object.keys(g.alias ?? {})])
   const respondidas = new Set(camada.dm.filter((e) => e.kind === 'resposta' && !e.deleted).map((e) => String(e.note)))
   return camada.revisao.notes.filter((n) => n.status !== 'fechada' && n.kind !== 'ideia' && !respondidas.has(n.id) && (!n.target?.row || ids.has(n.target.row)))
 }

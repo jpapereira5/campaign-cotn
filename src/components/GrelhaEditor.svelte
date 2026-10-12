@@ -276,7 +276,7 @@
             </div>
           {:else if it.tipo === 'facto' || it.tipo === 'plano' || it.tipo === 'nota'}
             <div class="it" class:dm={!!it.dm}>
-              <div><span class="tag soft">{it.tipo === 'plano' ? 'plano' : it.tipo === 'nota' ? 'nota' : (ROTULO_AC[it.ac?.tipo ?? it.dm?.factKind ?? ''] ?? it.tipo)}</span>{#if it.estatuto && it.estatuto !== 'registo'} <span class="tag soft">{it.estatuto}</span>{/if}{#if it.dm} <span class="tag dmtag">✎ {it.dm.kind}</span>{/if}{#if it.porRever} <span class="tag rever">por rever</span>{/if} {it.texto}</div>
+              <div>{#if it.fio}<span class="tag tag-trunfo" title="do fio «{it.fio.nome}»">{it.fio.nome}</span> {/if}<span class="tag soft">{it.tipo === 'plano' ? 'plano' : it.tipo === 'nota' ? 'nota' : (ROTULO_AC[it.ac?.tipo ?? it.dm?.factKind ?? ''] ?? it.tipo)}</span>{#if it.estatuto && it.estatuto !== 'registo'} <span class="tag soft">{it.estatuto}</span>{/if}{#if it.dm} <span class="tag dmtag">✎ {it.dm.kind}</span>{/if}{#if it.porRever} <span class="tag rever">por rever</span>{/if} {it.texto}</div>
               {#if it.original}<div class="muted small">original: {it.original}</div>{/if}
               <div class="row">
                 {#if it.ac && !it.dm}<button class="small" onclick={() => corrigir(it)}>Corrigir</button>{/if}

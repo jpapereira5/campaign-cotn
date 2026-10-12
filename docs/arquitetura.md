@@ -199,6 +199,7 @@ O modelo da Grelha (`docs/grelha.md`) mantém-se: linha dona, ecos, estados, cam
 - **Linhas:** são as ids listadas em `grelha/linhas.json`, de qualquer pasta. Não são cópias.
   - O tipo da linha vem da entidade. `personagens` dá PC, NPC ou Rival; `facoes`, Fação; `locais`, Local; `itens`, Item; `segredos`, Revelação. Os `fios` dão o seu tipo (Ambição, Agenda, Laço, Missão, Decisão, Promessa, Relógio, Gatilho, Semente, Desfecho, Teoria, Mesa) e `jogadores` dá Jogador.
   - As linhas de Sessão (dia no mundo, nível, resumo, onde parou, presenças) calculam-se a partir dos cabeçalhos.
+  - As ambições de um PC (`amb-*`) e as agendas (`t-agenda-*`) não são linhas à parte: vivem na linha do PC (ambições) ou de quem tem a agenda (`envolve[0]`; se esse não estiver na Grelha, o PC a que a agenda diz respeito). Os acontecimentos de que o fio é dono aparecem na célula dessa linha com a etiqueta do fio, as contagens somam-se, e o cabeçalho da linha lista os fios. `grelha.alias` guarda a correspondência (fio → linha), para a camada do DM e as notas da revisão continuarem a resolver a id do fio.
 - **Regra da dona**, com as mesmas regras de antes: `relacao` vai para o fio `laco`, `promessa` para o fio `promessa`, `escolha` para o fio `decisao`, `pista` para o segredo, `cena` para o primeiro PC, e o resto para `envolve[0]`.
 - **Colunas jogadas:** os acontecimentos das sessões.
 - **Colunas futuras:** os planos da camada do DM e o plano do cânone.
@@ -378,3 +379,8 @@ A app segue o desenho do mockup da Grelha feito no claude.ai («Grelha CotN · m
 - **Tipografia:** Atkinson Hyperlegible no texto, IBM Plex Sans Condensed em títulos, rótulos e cabeçalhos (maiúsculas pequenas espaçadas), IBM Plex Mono em números, chaves e ids. As fontes estão embutidas em `src/fonts/` (woff2 dos pacotes `@fontsource`, subconjuntos latin e latin-ext, OFL 1.1, licenças ao lado); o Vite copia-as para `dist/` e nada se carrega de fora.
 - **Componentes partilhados:** chips de 44 px (`.chip`, `.seg`, `.toggle`), a pílula pequena de uma coisa que abre a Ficha (`.ent`), tiles de contagem (`.tile`), etiquetas (`.tag`: escura só para «só DM» e marcas; `.tag-ultima`, `.tag-trunfo`, `.soft`, `.warnb`, `.estado`), pílulas de atitude (`.pill.att-*`), marcadores por forma (`.mk-*`), tabelas (`table.list`), ícones de traço (`Icone.svelte`, sem emoji).
 - **A Grelha** é a folha do mockup tal e qual (cabeçalhos fixos, arco atual escuro, próxima sessão a azul, faixas por grupo com contagem, legenda com as etiquetas); no telemóvel a coluna do tipo passa a 0 px, as filas de filtros deslizam e os tiles encolhem.
+
+## 19. Depois da fase E (2026-10-12)
+
+- **Cabeçalhos por tipo na Grelha:** dentro de cada grupo há uma sub-faixa por tipo (PC, NPC, Rival, Fação; Laço; Local, Item; …), com contagem; faixas e sub-faixas abrem e fecham com um clique, um grupo fechado mostra o resumo dos tipos, e o que está recolhido fica no browser («Mostrar todos os grupos» reabre).
+- **As ambições e as agendas vivem na linha do PC ou do NPC** (secção 7): deixaram de ser linhas do grupo «Arcos pessoais», que ficou só com os laços. A Grelha passou de 112 para 100 linhas sem perder nada: os itens estão nas células dos PCs com a etiqueta do fio.

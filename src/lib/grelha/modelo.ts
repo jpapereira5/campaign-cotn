@@ -79,6 +79,8 @@ export interface Item {
   /** «→ S6»: um plano do DM aponta para este facto */
   planeadoEm?: string
   fromIdea?: string
+  /** o fio (ambição ou agenda) de onde o item veio, quando o fio vive na linha do PC ou do NPC */
+  fio?: { id: string; nome: string }
 }
 
 export interface Celula {
@@ -117,6 +119,8 @@ export interface Linha {
   porRever?: boolean
   dm?: DmEntry
   planeados?: number
+  /** as ambições (PC) ou agendas (NPC, fação) que vivem nesta linha */
+  fios?: { id: string; nome: string; tipo: TipoGrelha; abertos: number }[]
 }
 
 export interface Contagens {
@@ -136,6 +140,8 @@ export interface Grelha {
   capituloAtual: string
   /** beats marcados como jogados à mesa (camada do DM), por absorver no fecho */
   beatsJogadosDm?: string[]
+  /** id de um fio que vive noutra linha → a linha onde está (ambições no PC, agendas no NPC) */
+  alias: Record<string, string>
   /** modo Plano: arcos × capítulos */
   plano: { arcos: { id: string; nome: string; cor: string; porCapitulo: Record<string, { id: string; titulo: string; estado: string }[]> }[]; capitulos: { id: string; nome: string; curto: string }[] }
 }
@@ -375,6 +381,39 @@ export function construirGrelha(e: Entrada): Grelha {
     } else l.notas++
   }
 
+  // As ambições de um PC e as agendas de um NPC ou fação não são linhas à parte: vivem na linha dele. Os itens e os
+  // ecos passam para lá com a etiqueta do fio, as contagens somam-se, e o fio fica em `fios` para o cabeçalho.
+  const alias: Record<string, string> = {}
+  for (const l of [...linhas]) {
+    if (l.tipo !== 'ambicao' && l.tipo !== 'agenda') continue
+    const d = porId.get(l.id)
+    // a ambição vive no PC; a agenda vive em quem a tem (envolve[0]) e, se esse não estiver na Grelha, no PC a que diz respeito
+    const candidatos = l.tipo === 'ambicao' ? [String(d?.meta.pc ?? '')] : [lista(d?.meta.envolve)[0] ?? '', String(d?.meta.pc ?? '')]
+    const host = candidatos.map((id) => (id ? porLinha.get(id) : undefined)).find((h) => h)
+    if (!host || host === l || host.tipo === 'ambicao' || host.tipo === 'agenda') continue
+    const fio = { id: l.id, nome: l.nome }
+    for (const [chave, c] of Object.entries(l.celulas)) {
+      const hc = host.celulas[chave]
+      if (!hc) continue
+      // o eco que a linha dona tinha deste fio deixa de fazer sentido: o item passa a estar nela
+      hc.ecos = hc.ecos.filter((x) => x.dona !== l.id)
+      for (const it of c.itens) hc.itens.push({ ...it, fio })
+      for (const ec of c.ecos) if (ec.dona !== host.id) hc.ecos.push({ ...ec, fio })
+    }
+    host.abertos += l.abertos
+    host.esquecidos += l.esquecidos
+    host.faltas += l.faltas
+    host.notas += l.notas
+    for (const pc of l.pcsTocados) host.pcsTocados.add(pc)
+    for (const pc of l.pcs) if (pc !== '*' && !host.pcs.includes(pc)) host.pcs.push(pc)
+    host.fios = [...(host.fios ?? []), { id: l.id, nome: l.nome, tipo: l.tipo, abertos: l.abertos }]
+    alias[l.id] = host.id
+    linhas.splice(linhas.indexOf(l), 1)
+    porLinha.delete(l.id)
+  }
+  // os ecos que apontavam para um fio fundido passam a apontar para a linha onde ele vive
+  for (const l of linhas) for (const c of Object.values(l.celulas)) for (const ec of c.ecos) if (ec.dona && alias[ec.dona]) ec.dona = alias[ec.dona]
+
   // fundo das células e pendentes
   for (const l of linhas) {
     for (const c of Object.values(l.celulas)) {
@@ -410,6 +449,7 @@ export function construirGrelha(e: Entrada): Grelha {
     pcs,
     proximaN,
     capituloAtual: e.capituloAtual,
+    alias,
     plano: { arcos: arcosPlano, capitulos: e.capitulos.map((c) => ({ id: c.id, nome: c.nome, curto: e.curto(c.id) })) },
   }
 }

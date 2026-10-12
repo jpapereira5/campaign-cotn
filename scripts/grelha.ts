@@ -28,16 +28,17 @@ const linhas = g.linhas.filter((l) => !l.calculada)
 
 const MARCA: Record<string, string> = { aberto: '●', esquecido: '!', planeado: '◆', falta: '◇', pago: '✓', pista: '◗', fechado: '—', registo: '·' }
 const idItem = (i: Item) => i.ac?.id ?? i.dm?.id ?? i.nota ?? ''
-const linhaTxt = (i: Item) => `${MARCA[i.estatuto ?? ''] ?? (i.tipo === 'ideia' ? '?' : '·')} ${i.texto}${idItem(i) ? ` [${idItem(i)}]` : ''}${i.origem?.length ? ` (nasce de ${i.origem.join(', ')})` : ''}${i.planeadoEm ? ` ${i.planeadoEm}` : ''}${i.porRever ? ' ✎ por rever' : ''}${i.tags?.length ? ` {${i.tags.join(', ')}}` : ''}`
-const cabeca = (l: Linha) => `${l.nome} [${l.id}] · ${l.tipo}${l.atitude ? ` · ${l.atitude}` : ''}${l.legenda ? ` · ${l.legenda}` : ''}`
+const linhaTxt = (i: Item) => `${MARCA[i.estatuto ?? ''] ?? (i.tipo === 'ideia' ? '?' : '·')} ${i.fio ? `[${i.fio.nome}] ` : ''}${i.texto}${idItem(i) ? ` [${idItem(i)}]` : ''}${i.origem?.length ? ` (nasce de ${i.origem.join(', ')})` : ''}${i.planeadoEm ? ` ${i.planeadoEm}` : ''}${i.porRever ? ' ✎ por rever' : ''}${i.tags?.length ? ` {${i.tags.join(', ')}}` : ''}`
+const cabeca = (l: Linha) => `${l.nome} [${l.id}] · ${l.tipo}${l.atitude ? ` · ${l.atitude}` : ''}${l.legenda ? ` · ${l.legenda}` : ''}${l.fios?.length ? ` · fios: ${l.fios.map((f) => `${f.nome} [${f.id}]`).join(', ')}` : ''}`
 
 if (args.includes('--json')) {
   const saida = {
     proxima: { chave: proximaChave, n: g.proximaN, label: proxima?.label },
     capituloAtual: campanha.capituloAtual,
     contagens: { abertos: linhas.reduce((n, l) => n + l.abertos, 0), esquecidos: linhas.reduce((n, l) => n + l.esquecidos, 0), faltas: linhas.reduce((n, l) => n + l.faltas, 0), porResponder: porResponder.length },
+    alias: g.alias,
     linhas: linhas.map((l) => ({
-      id: l.id, nome: l.nome, tipo: l.tipo, grupo: l.grupo, atitude: l.atitude, legenda: l.legenda, abertos: l.abertos, esquecidos: l.esquecidos, faltas: l.faltas, porRever: l.porRever,
+      id: l.id, nome: l.nome, tipo: l.tipo, grupo: l.grupo, atitude: l.atitude, legenda: l.legenda, abertos: l.abertos, esquecidos: l.esquecidos, faltas: l.faltas, porRever: l.porRever, fios: l.fios,
       celulas: Object.fromEntries(Object.entries(l.celulas).filter(([, c]) => c.itens.length || c.ecos.length).map(([k, c]) => [k, { itens: c.itens.map((i) => ({ tipo: i.tipo, estatuto: i.estatuto, texto: i.texto, id: idItem(i) || undefined, origem: i.origem, tags: i.tags, planeadoEm: i.planeadoEm, porRever: i.porRever, refs: i.refs })), ecos: c.ecos.map((e) => ({ dona: e.dona, texto: e.texto })) }])),
     })),
     porResponder,
@@ -51,11 +52,12 @@ if (args.includes('--json')) {
 const iLinha = args.indexOf('--linha')
 if (iLinha >= 0) {
   const id = args[iLinha + 1]
-  const l = g.linhas.find((x) => x.id === id)
+  const l = g.linhas.find((x) => x.id === id) ?? g.linhas.find((x) => x.id === g.alias[id])
   if (!l) {
     console.error(`linha desconhecida: ${id} (está em grelha/linhas.json?)`)
     process.exit(1)
   }
+  if (g.alias[id]) console.log(`(${id} vive na linha ${l.id})`)
   console.log(cabeca(l))
   for (const c of g.colunas) {
     const cel = l.celulas[c.chave]

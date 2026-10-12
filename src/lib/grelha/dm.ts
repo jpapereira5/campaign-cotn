@@ -119,6 +119,9 @@ function estatutoDeFacto(kind: string | undefined, fechado: boolean | undefined)
  */
 export function aplicarDm(g: Grelha, dm: DmEntry[], r: Revisao, ctx: ContextoDm): { notasSoltas: DmEntry[]; planosPassados: { entrada: DmEntry; linha: Linha }[] } {
   const porLinha = new Map(g.linhas.map((l) => [l.id, l]))
+  // um fio que vive noutra linha (ambição no PC, agenda no NPC) resolve-se para essa linha
+  const linhaDe = (id: string | undefined): Linha | undefined => (id ? (porLinha.get(id) ?? porLinha.get(g.alias?.[id] ?? '')) : undefined)
+  const donaIds = (id: string) => [id, ...Object.entries(g.alias ?? {}).filter(([, h]) => h === id).map(([k]) => k)]
   const todosItens = (): { linha: Linha; chave: string; item: Item }[] => {
     const out: { linha: Linha; chave: string; item: Item }[] = []
     for (const l of g.linhas) for (const [chave, c] of Object.entries(l.celulas)) for (const item of c.itens) out.push({ linha: l, chave, item })
@@ -152,11 +155,12 @@ export function aplicarDm(g: Grelha, dm: DmEntry[], r: Revisao, ctx: ContextoDm)
   }
 
   for (const e of entradas) {
-    const l = e.row ? porLinha.get(e.row) : undefined
+    const l = linhaDe(e.row)
     const rever = porRever(e, r)
     switch (e.kind) {
       case 'decisao': {
-        if (!l) break
+        // uma decisão de cabeçalho só se aplica a uma linha a sério, nunca à linha onde um fio vive
+        if (!l || (e.row && g.alias?.[e.row])) break
         const p = e.patch ?? {}
         if (typeof p.name === 'string') l.nome = p.name
         if (typeof p.legenda === 'string') l.legenda = p.legenda
@@ -186,7 +190,7 @@ export function aplicarDm(g: Grelha, dm: DmEntry[], r: Revisao, ctx: ContextoDm)
           break
         }
         if (e.kind === 'plano' && e.fromIdea && rejeitadas.has(e.fromIdea)) break
-        const alvoLinha = l ?? (e.involves?.[0] ? porLinha.get(e.involves[0]) : undefined)
+        const alvoLinha = l ?? linhaDe(e.involves?.[0])
         const col = String(e.col ?? '')
         if (!alvoLinha || !col) {
           if (e.kind === 'plano') notasSoltas.push(e)
@@ -194,7 +198,7 @@ export function aplicarDm(g: Grelha, dm: DmEntry[], r: Revisao, ctx: ContextoDm)
         }
         const envolve = e.involves?.length ? e.involves : [alvoLinha.id]
         const dona = donaDe(String(e.factKind ?? 'consequencia'), envolve, ctx.tipoLinha) ?? alvoLinha.id
-        const linhaDona = porLinha.get(dona) ?? alvoLinha
+        const linhaDona = linhaDe(dona) ?? alvoLinha
         if (!linhaDona.celulas[col]) {
           // coluna que já não existe (sessão jogada entretanto, capítulo acabado): o plano fica por resolver
           if (e.kind === 'plano') planosPassados.push({ entrada: e, linha: linhaDona })
@@ -211,8 +215,8 @@ export function aplicarDm(g: Grelha, dm: DmEntry[], r: Revisao, ctx: ContextoDm)
         for (const id of envolve) if (id.startsWith('c-pc-')) linhaDona.pcsTocados.add(id)
         for (const id of envolve) {
           if (id === linhaDona.id) continue
-          const outra = porLinha.get(id)
-          if (outra?.celulas[col]) outra.celulas[col].ecos.push({ tipo: 'eco', estatuto: null, texto: item.texto, dona: linhaDona.id })
+          const outra = linhaDe(id)
+          if (outra && outra !== linhaDona && outra.celulas[col]) outra.celulas[col].ecos.push({ tipo: 'eco', estatuto: null, texto: item.texto, dona: linhaDona.id })
         }
         if (e.kind === 'plano' && jogada) planosPassados.push({ entrada: e, linha: linhaDona })
         if (e.kind === 'plano') {
@@ -275,9 +279,10 @@ export function aplicarDm(g: Grelha, dm: DmEntry[], r: Revisao, ctx: ContextoDm)
   // ideias: as rejeitadas saem; as aceites deixam de ser ideias
   for (const l of g.linhas) for (const c of Object.values(l.celulas)) c.itens = c.itens.filter((i) => i.tipo !== 'ideia' || !(rejeitadas.has(i.nota ?? '') || aceites.has(i.nota ?? '')))
 
-  // notas da revisão: respondidas deixam de contar
+  // notas da revisão: respondidas deixam de contar (as dos fios que vivem na linha contam nela)
   for (const l of g.linhas) {
-    const minhas = r.notes.filter((n) => n.status !== 'fechada' && n.kind !== 'ideia' && n.target?.row === l.id)
+    const ids = donaIds(l.id)
+    const minhas = r.notes.filter((n) => n.status !== 'fechada' && n.kind !== 'ideia' && n.target?.row && ids.includes(n.target.row))
     l.notas = minhas.filter((n) => !respondidas.has(n.id)).length
   }
 

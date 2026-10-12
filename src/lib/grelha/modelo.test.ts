@@ -11,7 +11,7 @@ const sessao = (n: number, data: string | null, acontecimentos: unknown[], beats
 const arvore: Arvore = {
   livro: {},
   grelha: {
-    linhas: [{ id: 'c-pc-lucan', pcs: ['c-pc-lucan'] }, { id: 'c-npc', pcs: ['c-pc-lucan'] }, { id: 't-laco', pcs: ['c-pc-lucan'] }, { id: 'r-x' }, { id: 't-prom' }],
+    linhas: [{ id: 'c-pc-lucan', pcs: ['c-pc-lucan'] }, { id: 'c-npc', pcs: ['c-pc-lucan'] }, { id: 't-laco', pcs: ['c-pc-lucan'] }, { id: 'r-x' }, { id: 't-prom' }, { id: 'amb-x', pcs: ['c-pc-lucan'] }],
     dm: [],
     revisao: { notes: [{ id: 'n-1', kind: 'ideia', status: 'aberta', target: { row: 'c-npc', col: 's3' }, text: 'ideia X' }, { id: 'n-2', kind: 'pergunta', status: 'aberta', target: { row: 'c-npc' }, text: '?' }] },
   },
@@ -21,6 +21,7 @@ const arvore: Arvore = {
     doc('mundo/personagens/c-npc.md', { id: 'c-npc', nome: 'NPC', tipo: 'npc', facoes: [], capitulos: ['ch0'], atitudeAtual: 'hostil', legenda: 'um npc' }),
     doc('plano/fios/t-laco.md', { id: 't-laco', tipo: 'laco', nome: 'Lucan ↔ NPC', par: ['c-pc-lucan', 'c-npc'], envolve: ['c-pc-lucan', 'c-npc'] }),
     doc('plano/fios/t-prom.md', { id: 't-prom', tipo: 'promessa', nome: 'Promessa', envolve: ['c-npc'] }),
+    doc('plano/fios/amb-x.md', { id: 'amb-x', tipo: 'ambicao', nome: 'Ambição X', pc: 'c-pc-lucan', npcs: ['c-npc'] }),
     doc('mundo/segredos/r-x.md', { id: 'r-x', nome: 'Segredo X', lista: 'L', pistas: ['b-1'] }, '## Verdade\n\nv'),
     doc('plano/beats/b-1.md', { id: 'b-1', titulo: 'Beat 1', arcos: ['a-main'], capitulo: 'ch1', ordem: 1, participantes: ['c-npc'], revela: ['r-x'], requer: [], escolhas: [] }),
     doc('plano/fios/a-main.md', { id: 'a-main', tipo: 'arco', nome: 'Principal', subtipo: 'main', cor: '#fff', ordem: 1 }),
@@ -31,7 +32,7 @@ const arvore: Arvore = {
     ]),
     sessao(2, '2026-09-09', [{ id: 'e-s2-01', tipo: 'cena', texto: 'cena', envolve: ['c-pc-lucan'] }]),
     sessao(3, '2026-09-16', [{ id: 'e-s3-01', tipo: 'consequencia', texto: 'paga', envolve: ['c-npc', 'c-pc-lucan'], origem: ['e-s1-02'] }]),
-    sessao(4, '2026-09-23', [{ id: 'e-s4-01', tipo: 'consequencia', texto: 'aberto recente', envolve: ['c-npc'] }]),
+    sessao(4, '2026-09-23', [{ id: 'e-s4-01', tipo: 'consequencia', texto: 'aberto recente', envolve: ['c-npc'] }, { id: 'e-s4-02', tipo: 'consequencia', texto: 'da ambição', envolve: ['amb-x', 'c-npc'] }]),
   ],
 }
 
@@ -77,7 +78,20 @@ test('células: dona, ecos, estados, esquecidos, plano do cânone, ideias, sem c
   assert.ok(vis.includes('t-laco') && vis.includes('c-npc') && vis.includes('sessao:mundo') && !vis.includes('r-x'))
   const c = contagens(g.linhas, 's5', 1)
   assert.equal(c.esquecidos, 1)
-  assert.equal(c.abertos, 3) // o laço (esquecido), a consequência de S3 e a de S4
+  assert.equal(c.abertos, 4) // o laço (esquecido), a consequência de S3, a de S4 e a da ambição (na linha do PC)
   assert.equal(c.faltas, 1)
   assert.equal(g.plano.arcos[0].porCapitulo.ch1[0].id, 'b-1')
+})
+
+test('as ambições vivem na linha do PC: itens com a etiqueta do fio, ecos remapeados, contagens somadas', () => {
+  const g = construirGrelha(entrada())
+  const l = Object.fromEntries(g.linhas.map((x) => [x.id, x]))
+  assert.equal(l['amb-x'], undefined) // já não é linha
+  assert.equal(g.alias['amb-x'], 'c-pc-lucan')
+  assert.deepEqual(l['c-pc-lucan'].fios?.map((f) => [f.id, f.tipo, f.abertos]), [['amb-x', 'ambicao', 1]])
+  const it = l['c-pc-lucan'].celulas.s4.itens.find((i) => i.ac?.id === 'e-s4-02')
+  assert.equal(it?.fio?.id, 'amb-x')
+  assert.equal(it?.estatuto, 'aberto')
+  assert.equal(l['c-pc-lucan'].abertos, 1) // o aberto da ambição conta no PC
+  assert.equal(l['c-npc'].celulas.s4.ecos.find((e) => e.texto === 'da ambição')?.dona, 'c-pc-lucan') // o eco aponta para o PC
 })

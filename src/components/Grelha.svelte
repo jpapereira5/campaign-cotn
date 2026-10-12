@@ -18,6 +18,7 @@
   const proximaChave = $derived(g.colunas.find((c) => c.tipo === 'proxima')?.chave ?? '')
   const notasAbertas = $derived.by(() => {
     const ids = new Set(visiveis.map((l) => l.id))
+    for (const [fio, host] of Object.entries(g.alias)) if (ids.has(host)) ids.add(fio)
     const respondidas = new Set(camada.dm.filter((e) => e.kind === 'resposta' && !e.deleted).map((e) => String(e.note)))
     return camada.revisao.notes.filter((n) => n.status !== 'fechada' && n.kind !== 'ideia' && !respondidas.has(n.id) && (!n.target?.row || ids.has(n.target.row))).length
   })
@@ -228,6 +229,11 @@
                 {#each l.etiquetas as m (m)}<span class="pill warnp">{m}</span>{/each}
                 {#if l.notas}<span class="pill notap" title="notas de revisão por responder">? {l.notas}</span>{/if}
               </div>
+              {#if l.fios?.length}
+                <div class="fios">
+                  {#each l.fios as f (f.id)}<a class="fio-l" href="#/ficha/{f.id}" title={f.tipo === 'ambicao' ? 'Ambição (abre a ficha)' : 'Agenda (abre a ficha)'}><span class="fio-mk" class:agenda={f.tipo === 'agenda'}></span>{f.nome}{#if f.abertos}<span class="fio-n">{f.abertos}</span>{/if}</a>{/each}
+                </div>
+              {/if}
               {#if l.tipo !== 'pc' && (l.quer || l.teme)}<div class="qm small muted">{#if l.quer}<span><b>Quer</b> {l.quer}</span>{/if}{#if l.teme}<span><b>Teme</b> {l.teme}</span>{/if}</div>{/if}
               {#if l.tipo === 'revelacao'}<div class="qm small muted"><span>{l.pistas ?? 0} pista{l.pistas === 1 ? '' : 's'}{l.sabe ? ` · sabe: ${l.sabe}` : ''}</span></div>{/if}
             </div>
@@ -237,7 +243,7 @@
               <div role="button" tabindex="-1" class="cell {cel.fundo ? 'st-' + cel.fundo : ''}" class:col-cur={c.tipo === 'atual'} class:col-fut={c.tipo === 'capitulo'} class:clicavel={!l.calculada && editavel} onclick={() => editarCelula(l, c.chave)} title={l.calculada ? undefined : 'Editar esta célula'}>
                 {#each cel.itens as it, i_ (i_)}
                   {#if it.tipo === 'ideia'}
-                    <div class="it ideia" title="ideia da revisão: abre a célula para aceitar ou rejeitar"><span class="tx">{it.texto}</span>{#each it.tags ?? [] as t (t)}<span class="tag">{TAG[t] ?? t}</span>{/each}</div>
+                    <div class="it ideia" title="ideia da revisão: abre a célula para aceitar ou rejeitar"><span class="tx">{#if it.fio}<span class="fio-tag">{it.fio.nome}</span> {/if}{it.texto}</span>{#each it.tags ?? [] as t (t)}<span class="tag">{TAG[t] ?? t}</span>{/each}</div>
                   {:else if it.tipo === 'nota'}
                     <div class="it notadm"><span class="tx">{it.texto}</span><span class="tag soft">nota rápida</span>{#if it.porRever}<span class="rever" title="por rever"></span>{/if}</div>
                   {:else if it.tipo === 'plano-canone'}
@@ -245,7 +251,7 @@
                   {:else}
                     <div class="it" class:falta={it.tipo === 'falta'} class:dmit={!!it.dm}>
                       {#if it.estatuto && it.estatuto !== 'registo'}<span class="mk mk-{it.estatuto}" title={ROTULO_ESTATUTO[it.estatuto] + (it.arquivado ? ' (arquivado)' : '')}></span>{/if}
-                      <span class="tx" title={it.original ? `original: ${it.original}` : undefined}>{it.texto}</span>
+                      <span class="tx" title={it.original ? `original: ${it.original}` : undefined}>{#if it.fio}<span class="fio-tag" title="do fio «{it.fio.nome}»">{it.fio.nome}</span> {/if}{it.texto}</span>
                       {#if it.origemLabel}<span class="orig" title="nasce de">{it.origemLabel}</span>{/if}
                       {#if it.planeadoEm}<span class="orig plan" title="um plano teu responde a isto">{it.planeadoEm}</span>{/if}
                       {#each it.tags ?? [] as t (t)}<span class="tag tag-{t}">{TAG[t] ?? t}</span>{/each}
@@ -256,7 +262,7 @@
                   {/if}
                 {/each}
                 {#each ecosVisiveis(cel.ecos) as eco, i_ (i_)}
-                  <button class="eco" onclick={(e) => { e.stopPropagation(); if (eco.dona) { const d = g.linhas.find((x) => x.id === eco.dona); if (d && editavel) editarCelula(d, c.chave); else if (eco.dona) abrir(eco.dona) } }} title="eco: a célula dona está em {eco.dona ? nome(eco.dona) : '?'}">↳ <b>{eco.dona ? nome(eco.dona) : ''}</b>: {eco.texto}</button>
+                  <button class="eco" onclick={(e) => { e.stopPropagation(); if (eco.dona) { const d = g.linhas.find((x) => x.id === eco.dona); if (d && editavel) editarCelula(d, c.chave); else if (eco.dona) abrir(eco.dona) } }} title="eco: a célula dona está em {eco.dona ? nome(eco.dona) : '?'}">↳ <b>{eco.dona ? nome(eco.dona) : ''}</b>{#if eco.fio} <span class="fio-tag">{eco.fio.nome}</span>{/if}: {eco.texto}</button>
                 {/each}
                 {#if mostrarEcos && cel.ecos.length > 2}<span class="muted small">+{cel.ecos.length - 2}</span>{/if}
               </div>
@@ -605,6 +611,57 @@
     height: 8px;
     border-radius: 50%;
     display: inline-block;
+  }
+  .fios {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 4px;
+  }
+  .fio-l {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11.5px;
+    line-height: 1.3;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .fio-l:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .fio-mk {
+    flex: none;
+    width: 7px;
+    height: 7px;
+    border: 1.5px solid var(--pista);
+    transform: rotate(45deg);
+  }
+  .fio-mk.agenda {
+    border-radius: 50%;
+    transform: none;
+    border-color: var(--accent);
+  }
+  .fio-n {
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    color: var(--warn);
+  }
+  .fio-tag {
+    display: inline-block;
+    margin-right: 2px;
+    padding: 0 5px;
+    border-radius: 4px;
+    background: var(--pista-soft);
+    color: var(--pista-ink);
+    font-family: var(--font-cond);
+    font-weight: 600;
+    font-size: 10.5px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    vertical-align: 1px;
+    white-space: nowrap;
   }
   .qm {
     margin-top: 3px;
