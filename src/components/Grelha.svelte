@@ -77,9 +77,9 @@
   const ATT: Record<string, string> = { amigavel: 'amigável', neutro: 'neutro', desconfiado: 'desconfiado', hostil: 'hostil', 'por-conhecer': 'por conhecer', morto: 'morto' }
   const TAG: Record<string, string> = { 'so-dm': 'só DM', ultima: 'última oportunidade', trunfo: 'trunfo' }
   const larguras = $derived(g.colunas.map((c) => (c.tipo === 'capitulo' ? '148px' : c.tipo === 'proxima' ? '216px' : c.tipo === 'resto' ? '196px' : '208px')).join(' '))
-  const cols = $derived(`96px 252px ${larguras}`)
+  const cols = $derived(`264px ${larguras}`)
   // no telemóvel a coluna do tipo desaparece (0px), como no mockup
-  const colsPhone = $derived(`0px 164px ${larguras}`)
+  const colsPhone = $derived(`172px ${larguras}`)
   const ecosVisiveis = (itens: Item[]) => (mostrarEcos ? itens.slice(0, 2) : [])
   const nome = (id: string) => world.indice.nome(id)
   function abrir(id: string) {
@@ -156,16 +156,14 @@
   {/if}
 
   {#if modo === 'plano'}
-    <div class="sheet" style:--cols={`96px 252px repeat(${g.plano.capitulos.length}, 180px)`} style:--cols-phone={`0px 164px repeat(${g.plano.capitulos.length}, 180px)`}>
+    <div class="sheet" style:--cols={`264px repeat(${g.plano.capitulos.length}, 180px)`} style:--cols-phone={`172px repeat(${g.plano.capitulos.length}, 180px)`}>
       <div class="hrow h2 so">
-        <div class="h corner tipo">Arco</div>
-        <div class="h corner nome">Nome</div>
+        <div class="h corner nome">Arco</div>
         {#each g.plano.capitulos as c (c.id)}<div class="h ses" class:cur={c.id === g.capituloAtual}><b>{c.curto}</b><small>{c.nome}</small></div>{/each}
       </div>
       {#each g.plano.arcos as a (a.id)}
         <div class="row">
-          <div class="tipo c" style:border-left-color={a.cor}><span class="tp">Arco</span></div>
-          <div class="nome c"><button class="nm" onclick={() => abrir(a.id)}>{a.nome}</button></div>
+          <div class="nome c arco" style:border-left-color={a.cor}><button class="nm" onclick={() => abrir(a.id)}>{a.nome}</button></div>
           {#each g.plano.capitulos as c (c.id)}
             <div class="cell" class:col-cur={c.id === g.capituloAtual}>
               {#each a.porCapitulo[c.id] ?? [] as b (b.id)}
@@ -179,12 +177,10 @@
   {:else}
     <div class="sheet" style:--cols={cols} style:--cols-phone={colsPhone}>
       <div class="hrow h1">
-        <div class="h corner tipo"></div>
         <div class="h corner nome"></div>
         {#each g.arcos as a, i_ (i_)}<div class="h arc" class:arc-cur={a.atual} class:arc-fut={!a.atual} style:grid-column={`span ${a.span}`}>{a.label}</div>{/each}
       </div>
       <div class="hrow h2">
-        <div class="h corner tipo">Tipo</div>
         <div class="h corner nome">Linha</div>
         {#each g.colunas as c (c.chave)}
           <div class="h ses {c.tipo}" class:cur={c.tipo === 'atual'}>
@@ -195,7 +191,7 @@
       </div>
       {#each porGrupo as gr (gr.id)}
         {@const fechado = recolhidas.has(gr.id)}
-        <div class="band" style:grid-column={`1 / span ${g.colunas.length + 2}`}>
+        <div class="band" style:grid-column={`1 / span ${g.colunas.length + 1}`}>
           <button class="band-l" aria-expanded={!fechado} onclick={() => alternar(gr.id)} title={fechado ? 'Mostrar o grupo' : 'Ocultar o grupo'}>
             <span class="chev" class:fechado></span>{gr.label}<span class="band-n">{gr.linhas.length}</span>
             {#if fechado && gr.tipos.length > 1}<span class="band-resumo">{gr.resumo}</span>{/if}
@@ -205,7 +201,7 @@
         {#each gr.tipos as t (t.chave)}
         {@const subFechada = gr.tipos.length > 1 && recolhidas.has(t.chave)}
         {#if gr.tipos.length > 1}
-          <div class="band sub" style:grid-column={`1 / span ${g.colunas.length + 2}`}>
+          <div class="band sub" style:grid-column={`1 / span ${g.colunas.length + 1}`}>
             <button class="band-l" aria-expanded={!subFechada} onclick={() => alternar(t.chave)} title={subFechada ? `Mostrar ${ROTULO_TIPO[t.tipo]}` : `Ocultar ${ROTULO_TIPO[t.tipo]}`}>
               <span class="chev" class:fechado={subFechada}></span>{ROTULO_TIPO[t.tipo]}<span class="band-n">{t.linhas.length}</span>
             </button>
@@ -214,8 +210,7 @@
         {#if !subFechada}
         {#each t.linhas as l (l.id)}
           <div class="row" class:calc={l.calculada}>
-            <div class="tipo c"><span class="tp">{ROTULO_TIPO[l.tipo]}</span></div>
-            <div class="nome c">
+            <div class="nome c" title={ROTULO_TIPO[l.tipo]}>
               <div class="row1">
                 {#if l.calculada}<span class="nm static">{l.nome}</span>{:else}<button class="nm" onclick={() => abrir(l.id)} title="Abrir a ficha">{l.nome}</button>{/if}
                 {#each linhaPcs(l) as p (p)}<span class="pdot" style:background={corPc(p)} title={nome(p)}></span>{/each}
@@ -459,7 +454,7 @@
     align-items: center;
   }
   .h.corner.nome {
-    left: 96px;
+    left: 0;
     box-shadow: inset -1px 0 0 #1f4f5c;
   }
   .h2 .h.corner {
@@ -554,30 +549,19 @@
     background: var(--bg-2);
     color: var(--text);
   }
-  .tipo {
-    position: sticky;
-    left: 0;
-    z-index: 2;
-    background: var(--bg-1);
-    border-left: 3px solid transparent;
-  }
-  .tp {
-    font-family: var(--font-cond);
-    font-weight: 600;
-    font-size: 11.5px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--muted);
-  }
   .nome {
     position: sticky;
-    left: 96px;
+    left: 0;
     z-index: 2;
     display: flex;
     flex-direction: column;
     gap: 2px;
     background: var(--bg-2);
     box-shadow: inset -1px 0 0 var(--line-3);
+  }
+  .nome.arco {
+    border-left: 4px solid transparent;
+    justify-content: center;
   }
   .row1 {
     display: flex;
@@ -929,16 +913,6 @@
       margin-left: 0.6rem;
       margin-right: 0.6rem;
       grid-template-columns: var(--cols-phone);
-    }
-    .tipo,
-    .h.corner.tipo {
-      padding: 0;
-      border: 0;
-      overflow: hidden;
-    }
-    .nome,
-    .h.corner.nome {
-      left: 0;
     }
   }
 </style>
