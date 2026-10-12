@@ -47,3 +47,5 @@ Infiltração (ou assalto) ao forte imperial V1-V11. Felmont é rígido mas nego
 ## Notas
 
 Alonne Frith (Hollow One, cultista de Ceratos) é NE: libertá-lo tem consequências, mas conhece o forte. Felmont não é mau: um argumento humano pode chegar. chegaram ao forte ao 6.º dia; Bolbara não estava lá, só soldados mortos; Excel (orc) morreu diante de dois guardas no salão principal e Tai (goblin) tinha morrido na viagem; Eduardo tentou domar os cães; Simba tentou libertar Fritz da jaula (V8); na S2 os PCs renderam Fritz, deixaram-no inconsciente e fizeram-no prisioneiro: Elga ficou com o Casaco de Caçador e com o cristal vermelho (rubídio) dele. Na campanha anterior o forte ficou vazio e o conselho de Urzin decidiu ocupá-lo (b-0-urzin-council).
+
+DM (2026-10-12): a mesa chega depois da saída da Bolbara (noite do dia 3), por isso o forte é o das secções «Bol'bara's Possession» do livro (decisão 14). O preso de V8 é o Fritz, única testemunha viva (decisão 15). O livro de registos do forte está intacto na tenda do comandante, V3 (decisão 16).
