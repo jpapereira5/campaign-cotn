@@ -423,7 +423,12 @@ export function construirGrelha(e: Entrada): Grelha {
     l.pendentes = l.abertos + l.faltas + l.notas
   }
 
-  const pcs = linhas.filter((l) => l.tipo === 'pc').map((l) => ({ id: l.id, nome: l.nome, curto: l.nome.replace(/\s.*$/, '').replace(/"/g, ''), cor: e.corPc(l.id) }))
+  // nome curto para os filtros: o primeiro nome («Lucan»); um PC ainda sem nome («PC do Tiago (por definir)») fica com o do jogador
+  const curtoPc = (nome: string) => {
+    const semNome = nome.match(/^PC d[oa] (\S+)/i)
+    return semNome ? `PC do ${semNome[1]}` : nome.replace(/\s.*$/, '').replace(/"/g, '')
+  }
+  const pcs = linhas.filter((l) => l.tipo === 'pc').map((l) => ({ id: l.id, nome: l.nome, curto: curtoPc(l.nome), cor: e.corPc(l.id) }))
 
   // modo Plano: arcos × capítulos
   const arcosPlano = p.fios
