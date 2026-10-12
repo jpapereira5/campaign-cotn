@@ -127,5 +127,18 @@
     "kind": "arquivo",
     "fact": "e-s3-07",
     "row": "c-lizardfolk-do-ossario"
+  },
+  {
+    "id": "d-mv4rzroh-ceaj",
+    "at": "2026-10-12T04:52:25.697Z",
+    "kind": "plano",
+    "row": "c-azrok",
+    "col": "viagem-urzin-jigau",
+    "text": "Capitao da tartaruga que os levara a Jigau",
+    "factKind": "consequencia",
+    "involves": [
+      "c-azrok"
+    ],
+    "prepared": false
   }
 ]
