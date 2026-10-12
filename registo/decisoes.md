@@ -67,7 +67,7 @@ Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
 
 Na revisão da Grelha (respostas às notas da migração):
 
-1. **A sessão 5 terminou no 4.º dia; a Bolbara já está possuída e já saiu do forte.** O terceiro *revivify* aconteceu: o relógio «A terceira vez» fechou sem a mesa saber (por revelar). Consequências por confirmar na revisão (`grelha/revisao.json`).
+1. **A sessão 5 terminou no 4.º dia (meio-dia); a Bolbara foi possuída no dia 3 e já saiu do forte.** O terceiro *revivify* aconteceu na noite do dia 3: o relógio «A terceira vez» fechou sem a mesa saber (por revelar). Consequências por confirmar na revisão (`grelha/revisao.json`).
 2. **O Skr'a S'orsk morreu na sessão 2** (#83), não na 1; corrigido nas fichas.
 3. **O soldado doente da jangada chama-se Alex** («Alex, o soldado da jangada»).
 4. **O Morgid foi-se embora na sessão 4** (recusa viajar com imperiais) e segue o grupo à distância: estado novo na ficha, a partir de `b-0-patrulha-imperio`.
@@ -76,6 +76,7 @@ Na revisão da Grelha (respostas às notas da migração):
 7. **As pistas dos segredos contam-se pelo registo** (efeitos `pista`), não pelos beats jogados.
 8. **A filiação da Lia ligada ao Duarte Mirim é verdade só do DM.** A mesa só viu o olhar do Lucan a ir para a Lia quando pega na adaga. Falta decidir como encaixa com o pai desaparecido (nota `n-v-004`).
 9. **Sess'innek (Sess'inek) é um demon lord, não um deus:** o tanar'ri que os lizardfolk veneram como deus da civilização e do domínio, pai dos lizard kings (confirmado: *Monster Mythology*, *Serpent Kingdoms*, *Fiendish Codex I*).
-10. **Fora de cena, na sessão 5:** relógio «A terceira vez» a 3/3; a capela fica saltada; «Bol'bara à solta» passa a ser o caminho do prólogo. A Lia continua a querer o livro de registos do forte.
+10. **Fora de cena, na sessão 5:** relógio «A terceira vez» a 3/3 na noite do dia 3; a capela fica saltada; «Bol'bara à solta» passa a ser o caminho do prólogo. A Lia continua a querer o livro de registos do forte.
 11. **O pai biológico da Lia é o Intendente Duarte Mirim; o expositor é o pai adotivo.** A mãe entregou-a ao expositor em mão. A Lia não sabe. Segredo novo: `r-pc-lia-filha-de-mirim`, com a primeira pista na sessão 5 (a adaga, que é a lâmina de oficial do Mirim).
 12. **A Lia quer encontrar o pai adotivo** (o expositor). A ambição `amb-lia-pai` é ele; o Duarte Mirim fica só no segredo `r-pc-lia-filha-de-mirim`.
+13. **A tempestade acabou com a possessão.** A tempestade parada sobre o forte era o Truche a acordar (decisão 10 de 2026-10-07); cresceu ao longo do dia 3, culminou na trovoada inteira da noite do dia 3 (o terceiro *revivify*) e desfez-se. Por isso, ao 4.º dia, o céu está limpo e já não há tempestade na direção do forte. Para a mesa é pista: a tempestade que vinham a seguir desapareceu.

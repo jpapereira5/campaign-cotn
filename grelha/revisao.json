@@ -1327,15 +1327,32 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "Bol'bara à solta: a Bolbara possuída cruza-se com o grupo no pântano ou a caminho de Urzin (b-0-bolbara-unleashed); o Morgid reaparece nessa luta.",
-      "suggestion": "Bol'bara à solta: a Bolbara possuída cruza-se com o grupo no pântano ou a caminho de Urzin; o Morgid reaparece nessa luta.",
+      "text": "Bol'bara à solta: possuída desde a noite do dia 3, já fora do forte; cruza-se com o grupo no pântano ou a caminho de Urzin (b-0-bolbara-unleashed); o Morgid reaparece nessa luta.",
+      "suggestion": "Bol'bara à solta: possuída desde a noite do dia 3, já fora do forte; cruza-se com o grupo no pântano ou a caminho de Urzin (b-0-bolbara-unleashed); o Morgid reaparece nessa luta.",
       "because": [
         "e-s5-60",
         "b-0-bolbara-unleashed",
         "registo/decisoes.md 2026-10-07 #11"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-v-006",
+      "at": "2026-10-12T12:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s6"
+      },
+      "text": "A visão da pedra (decisão 18 de 2026-10-07) foi escrita com a Bolbara ainda entre o 2.º e o 3.º revivify («Outra vez.», a luz dourada que a puxa de volta «pela segunda vez», «A terceira é minha»). A visão é no presente, e agora (dia 4) ela já está possuída e fora do forte. O que vê quem toca na pedra na S6?",
+      "suggestion": "Mostrar o presente: a Bolbara já de pé, fora do forte, a andar pelo pântano; a voz do Truche a falar pela boca dela («A terceira foi minha.»); a mão com o olho igual; no fim, céu limpo e silêncio, sem trovão. O grupo percebe que chegou tarde e que ela vem a caminho.",
+      "because": [
+        "e-s5-60",
+        "registo/decisoes.md 2026-10-07 #18",
+        "registo/decisoes.md 2026-10-12 #13"
+      ],
+      "status": "aberta"
     }
   ],
-  "lastReview": "2026-10-12T03:44:36.485Z"
+  "lastReview": "2026-10-12T12:00:00.000Z"
 }
