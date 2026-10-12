@@ -38,6 +38,10 @@ O chat não guarda nada: no fim de cada conversa, tudo o que vale a pena tem de 
 - No fim de um brainstorm, o Claude fecha com uma lista «o que fica»: as decisões (que vão para o repositório) e as propostas (que vão para a Drive). O DM confirma ou corrige.
 - Se a conversa não tiver acesso ao repositório (voz, telemóvel), as decisões vão para a Drive num ficheiro «decisões AAAA-MM-DD», marcado como decidido, e o fecho seguinte passa-as para o repositório sem as discutir de novo.
 - Se uma decisão contradiz um documento da Drive, ganha a decisão: o Claude atualiza o documento (versão nova) ou assinala-o.
+- **Uma decisão de preparação também vai para a Grelha.** O que o DM decide para uma sessão que ainda não se jogou (quem está onde, o que um NPC sabe, o estado de um sítio quando o grupo lá chegar, a forma de uma visão) não é acontecimento e não aparece numa célula só por estar em `registo/decisoes.md` ou na ficha da coisa. Por isso o Claude grava-a em dois sítios, na mesma conversa:
+  1. **o cânone**: o ficheiro da coisa e `registo/decisoes.md` (a verdade);
+  2. **o lembrete**: uma nota `ideia` em `grelha/revisao.json`, na linha da coisa e na coluna da sessão em que deve entrar (normalmente a próxima), com `because` a apontar para a decisão (`registo/decisoes.md AAAA-MM-DD #N`). Se a coisa ainda não tem linha, entra em `grelha/linhas.json`; um relógio novo entra como fio `t-relogio-*` e como linha.
+- A ideia aparece na célula como «?». Quando o DM a aceita na app, passa a plano dele (◆); depois de jogada, o fecho torna-a acontecimento. Uma decisão que substitui outra fecha as notas antigas que a contradizem (`status: fechada`, com a referência à decisão nova).
 
 ## O fecho
 
