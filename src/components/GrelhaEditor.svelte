@@ -16,7 +16,17 @@
   const coluna = $derived('col' in edicao && edicao.col ? g.colunas.find((c) => c.chave === edicao.col) : undefined)
   const jogada = $derived(!!coluna?.sessao)
   const celula = $derived(linha && coluna ? linha.celulas[coluna.chave] : undefined)
-  const notas = $derived(linha ? camada.revisao.notes.filter((n) => n.status !== 'fechada' && n.kind !== 'ideia' && n.target?.row === linha.id && (!coluna || !n.target.col || n.target.col === coluna.chave)) : [])
+  // as notas desta célula (com coluna) ou, no cabeçalho, as da linha sem coluna; os fios fundidos contam na linha onde vivem
+  const notas = $derived.by(() => {
+    if (!linha) return []
+    const ids = new Set([linha.id, ...Object.entries(g.alias).filter(([, h]) => h === linha!.id).map(([k]) => k)])
+    const colunas = new Set(g.colunas.map((c) => c.chave))
+    return camada.revisao.notes.filter((n) => {
+      if (n.status === 'fechada' || n.kind === 'ideia' || !n.target?.row || !ids.has(n.target.row)) return false
+      const temCol = !!n.target.col && colunas.has(n.target.col)
+      return coluna ? temCol && n.target.col === coluna.chave : !temCol
+    })
+  })
   const respostas = $derived(new Map(camada.dm.filter((e) => e.kind === 'resposta' && !e.deleted).map((e) => [String(e.note), e])))
   const ideias = $derived(celula ? celula.itens.filter((i) => i.tipo === 'ideia') : [])
   const notaDe = (id: string | undefined): ReviewNote | undefined => camada.revisao.notes.find((n) => n.id === id)
@@ -253,6 +263,24 @@
   }
 </script>
 
+{#snippet blocoNotas()}
+      {#if notas.length}
+  <h3>Notas da revisão</h3>
+  {#each notas as n (n.id)}
+    {@const r = respostas.get(n.id)}
+    <div class="it nota">
+      <div><span class="tag soft">{n.kind}</span> {n.text}</div>
+      {#if n.suggestion}<div class="small"><b>Sugestão:</b> {n.suggestion}</div>{/if}
+      {#if r}<div class="small ok">Respondido{r.accepted ? ' (aceitaste a sugestão)' : ''}: {r.text}</div>{:else}
+        <div class="row">{#if n.suggestion}<button class="small" onclick={() => responder(n, true)}>Aceitar sugestão</button>{/if}</div>
+        <div class="row"><input type="text" placeholder="a tua resposta…" bind:value={resposta[n.id]} style:flex="1" /><button class="small" onclick={() => responder(n, false)}>Responder</button></div>
+      {/if}
+    </div>
+  {/each}
+{/if}
+{/snippet}
+
+
 <div class="panel">
   <div class="head">
     <span class="kind muted">
@@ -322,22 +350,10 @@
         <div class="row"><button class="primary" disabled={!podeGravar || aGravar} onclick={gravarItem}>Guardar</button><button onclick={limpar}>Cancelar</button></div>
       {/if}
 
-      {#if notas.length}
-        <h3>Notas da revisão</h3>
-        {#each notas as n (n.id)}
-          {@const r = respostas.get(n.id)}
-          <div class="it nota">
-            <div><span class="tag soft">{n.kind}</span> {n.text}</div>
-            {#if n.suggestion}<div class="small"><b>Sugestão:</b> {n.suggestion}</div>{/if}
-            {#if r}<div class="small ok">Respondido{r.accepted ? ' (aceitaste a sugestão)' : ''}: {r.text}</div>{:else}
-              <div class="row">{#if n.suggestion}<button class="small" onclick={() => responder(n, true)}>Aceitar sugestão</button>{/if}</div>
-              <div class="row"><input type="text" placeholder="a tua resposta…" bind:value={resposta[n.id]} style:flex="1" /><button class="small" onclick={() => responder(n, false)}>Responder</button></div>
-            {/if}
-          </div>
-        {/each}
-      {/if}
+      {@render blocoNotas()}
     {:else if edicao.modo === 'cabecalho' && linha}
       <h2>{linha.nome}</h2>
+      {@render blocoNotas()}
       <p class="muted small">Uma decisão tua sobre o mundo: entra no cânone depois da revisão.</p>
       <label class="field"><span>Legenda</span><input type="text" bind:value={cab.legenda} /></label>
       <label class="field"><span>Quer</span><input type="text" bind:value={cab.quer} /></label>

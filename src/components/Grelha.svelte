@@ -4,6 +4,7 @@
   import { world, abrirFicha, abrirEdicao, setView, ui } from '../lib/state.svelte'
   import { camada, alterar, apagar, gravarPendentes } from '../lib/grelha/store.svelte'
   import Desbloquear from './Desbloquear.svelte'
+  import type { ReviewNote } from '../lib/grelha/dm'
   import { GRUPOS, ROTULO_ESTATUTO, ROTULO_TIPO, contagens, linhaVisivel, type Estatuto, type Item, type Linha } from '../lib/grelha/modelo'
 
   const g = $derived(world.grelha)
@@ -12,9 +13,40 @@
   let soPendentes = $state(false)
   let mostrarEcos = $state(true)
   let modo = $state<'normal' | 'plano'>('normal')
+  /** filtro pelas notas da revisão: '' = sem filtro, 'todas' = qualquer nota aberta, ou um tipo (discrepancia, pergunta…) */
+  let revisao = $state('')
+
+  // As notas da revisão abertas e sem resposta, por linha (os fios fundidos contam na linha onde vivem):
+  // as que apontam para uma coluna vão para essa célula; as outras ficam no nome da linha.
+  const notasPorLinha = $derived.by(() => {
+    const respondidas = new Set(camada.dm.filter((e) => e.kind === 'resposta' && !e.deleted).map((e) => String(e.note)))
+    const colunas = new Set(g.colunas.map((c) => c.chave))
+    const m = new Map<string, { linha: ReviewNote[]; celula: Map<string, ReviewNote[]> }>()
+    for (const n of camada.revisao.notes) {
+      if (n.status === 'fechada' || n.kind === 'ideia' || respondidas.has(n.id) || !n.target?.row) continue
+      const row = g.alias[n.target.row] ?? n.target.row
+      let e = m.get(row)
+      if (!e) m.set(row, (e = { linha: [], celula: new Map() }))
+      if (n.target.col && colunas.has(n.target.col)) e.celula.set(n.target.col, [...(e.celula.get(n.target.col) ?? []), n])
+      else e.linha.push(n)
+    }
+    return m
+  })
+  const notasDaLinha = (id: string): ReviewNote[] => {
+    const e = notasPorLinha.get(id)
+    return e ? [...e.linha, ...[...e.celula.values()].flat()] : []
+  }
+  const ROTULO_NOTA: Record<string, string> = { discrepancia: 'Discrepâncias', pergunta: 'Perguntas', efeito: 'Efeitos', aviso: 'Avisos' }
+  const contaNotas = $derived.by(() => {
+    const c: Record<string, number> = {}
+    for (const l of g.linhas) for (const n of notasDaLinha(l.id)) c[n.kind] = (c[n.kind] ?? 0) + 1
+    return c
+  })
+  const totalNotas = $derived(Object.values(contaNotas).reduce((a, b) => a + b, 0))
+  const passaRevisao = (l: Linha) => !revisao || notasDaLinha(l.id).some((n) => revisao === 'todas' || n.kind === revisao)
 
   const filtro = $derived({ grupo, pc, soPendentes })
-  const visiveis = $derived(g.linhas.filter((l) => linhaVisivel(l, filtro)))
+  const visiveis = $derived(g.linhas.filter((l) => linhaVisivel(l, filtro) && passaRevisao(l)))
   const proximaChave = $derived(g.colunas.find((c) => c.tipo === 'proxima')?.chave ?? '')
   const notasAbertas = $derived.by(() => {
     const ids = new Set(visiveis.map((l) => l.id))
@@ -108,6 +140,14 @@
         <button class="chip" class:on={grupo === 'todos'} aria-pressed={grupo === 'todos'} onclick={() => (grupo = 'todos')}>Todos <small>{contaGrupo('todos')}</small></button>
         {#each GRUPOS as gr (gr.id)}<button class="chip" class:on={grupo === gr.id} aria-pressed={grupo === gr.id} onclick={() => (grupo = gr.id)}>{gr.label} <small>{contaGrupo(gr.id)}</small></button>{/each}
         <button class="chip" class:on={soPendentes} aria-pressed={soPendentes} onclick={() => (soPendentes = !soPendentes)}>Só com pendentes</button>
+        <label class="chip sel" class:on={!!revisao} title="Mostrar só as linhas com notas da revisão por responder">
+          <span class="nota-mk" aria-hidden="true">?</span>
+          <select bind:value={revisao} aria-label="Filtrar pelas notas da revisão">
+            <option value="">Revisão: todas as linhas</option>
+            <option value="todas">Com notas por responder ({totalNotas})</option>
+            {#each Object.entries(ROTULO_NOTA) as [k, rot] (k)}{#if contaNotas[k]}<option value={k}>{rot} ({contaNotas[k]})</option>{/if}{/each}
+          </select>
+        </label>
       </div>
       <div class="chips" role="group" aria-label="Filtrar por PC">
         <span class="flabel">PC</span>
@@ -223,7 +263,7 @@
                 {#if l.atitude}<span class="pill att-{l.atitude}">{ATT[l.atitude] ?? l.atitude}</span>{/if}
                 {#each l.marcas as m (m)}<span class="pill">{m}</span>{/each}
                 {#each l.etiquetas as m (m)}<span class="pill warnp">{m}</span>{/each}
-                {#if l.notas}<span class="pill notap" title="notas de revisão por responder">? {l.notas}</span>{/if}
+                {#if notasPorLinha.get(l.id)?.linha.length}{@const ns = notasPorLinha.get(l.id)!.linha}<button class="nota-badge linha k-{ns[0].kind}" onclick={() => abrirEdicao({ modo: 'cabecalho', linha: l.id })} title={ns.map((n) => `${n.kind}: ${n.text}`).join('\n')}>? {ns.length} {ns.length === 1 ? (ns[0].kind === 'discrepancia' ? 'discrepância' : ns[0].kind) : 'notas'}</button>{/if}
               </div>
               {#if l.fios?.length}
                 <div class="fios">
@@ -237,6 +277,7 @@
               {@const cel = l.celulas[c.chave]}
               <!-- svelte-ignore a11y_click_events_have_key_events -->
               <div role="button" tabindex="-1" class="cell {cel.fundo ? 'st-' + cel.fundo : ''}" class:col-cur={c.tipo === 'atual'} class:col-fut={c.tipo === 'capitulo'} class:clicavel={!l.calculada && editavel} onclick={() => editarCelula(l, c.chave)} title={l.calculada ? undefined : 'Editar esta célula'}>
+                {#if notasPorLinha.get(l.id)?.celula.get(c.chave)?.length}{@const ns = notasPorLinha.get(l.id)!.celula.get(c.chave)!}<span class="nota-badge k-{ns[0].kind}" title={ns.map((n) => `${n.kind}: ${n.text}`).join('\n')}>? {ns.length}</span>{/if}
                 {#each cel.itens as it, i_ (i_)}
                   {#if it.tipo === 'ideia'}
                     <div class="it ideia" title="ideia da revisão: abre a célula para aceitar ou rejeitar"><span class="tx">{#if it.fio}<span class="fio-tag">{it.fio.nome}</span> {/if}{it.texto}</span>{#each it.tags ?? [] as t (t)}<span class="tag">{TAG[t] ?? t}</span>{/each}</div>
@@ -596,6 +637,72 @@
     height: 8px;
     border-radius: 50%;
     display: inline-block;
+  }
+  .cell {
+    position: relative;
+  }
+  .nota-badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 0 6px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--pista);
+    color: #fff;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 10.5px;
+    line-height: 18px;
+    cursor: pointer;
+  }
+  .nota-badge.k-discrepancia {
+    background: var(--danger);
+  }
+  .nota-badge.k-aviso {
+    background: var(--warn);
+  }
+  .nota-badge.linha {
+    position: static;
+    font-family: var(--font-cond);
+    letter-spacing: 0.02em;
+  }
+  .chip.sel {
+    padding-right: 6px;
+    gap: 6px;
+  }
+  .chip.sel select {
+    border: 0;
+    background: transparent;
+    color: inherit;
+    min-height: 0;
+    padding: 0 4px;
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .chip.sel select:focus {
+    box-shadow: none;
+  }
+  .chip.on.sel select option {
+    color: var(--text);
+  }
+  .nota-mk {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--pista);
+    color: #fff;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    font-weight: 600;
   }
   .fios {
     display: flex;
