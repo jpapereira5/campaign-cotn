@@ -130,7 +130,7 @@
   },
   {
     "id": "d-mv4rzroh-ceaj",
-    "at": "2026-10-12T04:52:25.697Z",
+    "at": "2026-10-12T13:35:56.394Z",
     "kind": "plano",
     "row": "c-azrok",
     "col": "viagem-urzin-jigau",
@@ -139,6 +139,6 @@
     "involves": [
       "c-azrok"
     ],
-    "prepared": false
+    "prepared": true
   }
 ]
