@@ -66,5 +66,14 @@
     "kind": "arquivo",
     "fact": "e-s5-40",
     "row": "t-relogio-terceira-vez"
+  },
+  {
+    "id": "d-mv4obq37-lbzy",
+    "at": "2026-10-12T03:09:45.043Z",
+    "kind": "resposta",
+    "note": "n-mig-03",
+    "row": "c-morgid",
+    "accepted": true,
+    "text": "Acrescentar os estados a partir de b-0-patrulha-imperio."
   }
 ]
