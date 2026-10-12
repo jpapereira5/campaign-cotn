@@ -11,9 +11,13 @@
   import Ficha from './components/Ficha.svelte'
   import Grelha from './components/Grelha.svelte'
   import GrelhaEditor from './components/GrelhaEditor.svelte'
-  import { iniciarSonda } from './lib/grelha/store.svelte'
+  import { iniciarSonda, carregarAcesso, marcarLigado } from './lib/grelha/store.svelte'
+  import { lerLinkDeLigacao } from './lib/acesso'
 
   onMount(() => {
+    lerLinkDeLigacao()
+    marcarLigado()
+    void carregarAcesso()
     iniciarSonda()
     try {
       ui.sidebarCollapsed = localStorage.getItem('cc-sidebar') === '1'

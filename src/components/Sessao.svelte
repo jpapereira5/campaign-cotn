@@ -7,7 +7,6 @@
   import { contagens, type Item, type Linha } from '../lib/grelha/modelo'
   import { notasPorResponder } from '../lib/grelha/viva'
   import { porPasta } from '../lib/arquivo/arvore'
-  import { getToken } from '../lib/github'
   import Chip from './Chip.svelte'
 
   const estado = $derived(world.estado)
@@ -77,7 +76,7 @@
   const presencas = $derived(Object.entries(mesa.presencas).sort((a, b) => b[1] - a[1]))
 
   let tab = $state<'proxima' | 'notas' | 'sessoes'>('proxima')
-  const semToken = $derived(!getToken())
+  const semToken = $derived(!camada.ligado)
 </script>
 
 <div class="toolbar">

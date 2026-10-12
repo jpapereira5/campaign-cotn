@@ -3,6 +3,7 @@
 // Cada «Guardar» grava logo um commit só de dm.json; em conflito, relê, funde por id (fica o `at` mais recente) e repete uma vez.
 import { arvore } from '../data.ts'
 import { ConflictError, fetchFile, getToken, headSha, putFile } from '../github.ts'
+import { lerAcesso, type Acesso } from '../acesso.ts'
 import { fundirDm, normalizarDm, normalizarRevisao, novaIdDm, type DmEntry, type Revisao } from './dm.ts'
 
 export interface LinhaDef {
@@ -27,6 +28,10 @@ export const camada = $state({
   mensagem: '',
   ultimaLeitura: '',
   porGravar: false,
+  /** o token cifrado no repositório, para desbloquear um browser novo com a palavra-passe */
+  acesso: null as Acesso | null,
+  /** este browser tem token (reativo; o token em si fica no localStorage) */
+  ligado: !!getToken(),
 })
 
 let sonda: ReturnType<typeof setInterval> | null = null
@@ -57,6 +62,14 @@ export async function lerGrelhaRemota(): Promise<void> {
   }
 }
 
+export function marcarLigado(): void {
+  camada.ligado = !!getToken()
+}
+
+export async function carregarAcesso(): Promise<void> {
+  camada.acesso = await lerAcesso(arvore.grelha.acesso)
+}
+
 /** De 30 em 30 segundos: se o ramo mudou, relê. */
 export function iniciarSonda(): void {
   if (sonda || !getToken()) return
@@ -84,7 +97,7 @@ function serializar(dm: DmEntry[]): string {
 async function gravar(mensagem: string): Promise<void> {
   if (!getToken()) {
     camada.estado = 'erro'
-    camada.mensagem = 'Sem token GitHub: a edição fica só neste browser até ligares o token (Definições).'
+    camada.mensagem = 'Sem acesso neste browser: desbloqueia com a palavra-passe da mesa (ou o token, nas Definições).'
     camada.porGravar = true
     return
   }

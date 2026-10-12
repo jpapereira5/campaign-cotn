@@ -1,7 +1,6 @@
 <script lang="ts">
   import { ui, world, setView, type View } from '../lib/state.svelte'
   import { camada } from '../lib/grelha/store.svelte'
-  import { getToken } from '../lib/github'
   import Icone from './Icone.svelte'
 
   interface Item {
@@ -30,7 +29,7 @@
 
   let innerWidth = $state(1400)
   const collapsed = $derived(ui.sidebarCollapsed || innerWidth < 1000)
-  const estadoCamada = $derived(camada.estado === 'erro' ? '✖' : camada.porGravar ? 'por gravar' : camada.estado === 'a-gravar' ? 'a gravar…' : camada.estado === 'a-ler' ? 'a ler…' : camada.fonte === 'repositorio' ? '✓' : getToken() ? '…' : 'local')
+  const estadoCamada = $derived(camada.estado === 'erro' ? '✖' : camada.porGravar ? 'por gravar' : camada.estado === 'a-gravar' ? 'a gravar…' : camada.estado === 'a-ler' ? 'a ler…' : camada.fonte === 'repositorio' ? '✓' : camada.ligado ? '…' : 'local')
 
   function toggleCollapsed() {
     ui.sidebarCollapsed = !ui.sidebarCollapsed

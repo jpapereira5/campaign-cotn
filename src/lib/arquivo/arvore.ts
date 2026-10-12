@@ -13,6 +13,8 @@ export interface Grelha {
   linhas: unknown
   dm: unknown
   revisao: unknown
+  /** o token cifrado com a palavra-passe da mesa (src/lib/acesso.ts) */
+  acesso?: unknown
 }
 
 export interface Arvore {

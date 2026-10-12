@@ -37,6 +37,6 @@ export function lerArvore(raiz: string): Arvore {
   return {
     docs,
     livro,
-    grelha: { linhas: lerJson('linhas.json', []), dm: lerJson('dm.json', []), revisao: lerJson('revisao.json', { reviewed: {}, absorbed: {}, notes: [] }) },
+    grelha: { linhas: lerJson('linhas.json', []), dm: lerJson('dm.json', []), revisao: lerJson('revisao.json', { reviewed: {}, absorbed: {}, notes: [] }), acesso: lerJson('acesso.json', null) },
   }
 }

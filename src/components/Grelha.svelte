@@ -3,7 +3,7 @@
   // Fase C: só leitura. A camada do DM e a revisão entram na fase D.
   import { world, abrirFicha, abrirEdicao, setView, ui } from '../lib/state.svelte'
   import { camada, alterar, apagar, gravarPendentes } from '../lib/grelha/store.svelte'
-  import { getToken } from '../lib/github'
+  import Desbloquear from './Desbloquear.svelte'
   import { GRUPOS, ROTULO_ESTATUTO, ROTULO_TIPO, contagens, linhaVisivel, type Estatuto, type Item, type Linha } from '../lib/grelha/modelo'
 
   const g = $derived(world.grelha)
@@ -133,10 +133,10 @@
   </div>
 
   <div class="estado small">
-    <span class="muted">{camada.fonte === 'repositorio' ? `Camada do DM lida do repositório${camada.ultimaLeitura ? ` às ${camada.ultimaLeitura}` : ''}; verifica de 30 em 30 s.` : getToken() ? 'A ler a camada do DM do repositório…' : 'Sem token neste browser: a camada do DM vem do build e o que editares fica só aqui até ligares o token.'}</span>
-    {#if !getToken()}<button class="chip small" onclick={() => setView('definicoes')}>Ligar o token →</button>{/if}
-    {#if camada.porGravar}<span class="err">Por gravar.</span> {#if getToken()}<button class="chip small" onclick={() => gravarPendentes()}>Tentar de novo</button>{/if}{/if}
-    {#if camada.estado === 'erro' && getToken()}<span class="err">{camada.mensagem}</span>{/if}
+    <span class="muted">{camada.fonte === 'repositorio' ? `Camada do DM lida do repositório${camada.ultimaLeitura ? ` às ${camada.ultimaLeitura}` : ''}; verifica de 30 em 30 s.` : camada.ligado ? 'A ler a camada do DM do repositório…' : 'Este browser ainda não tem acesso: o que editares fica só aqui até o desbloqueares.'}</span>
+    {#if !camada.ligado}{#if camada.acesso}<Desbloquear compacto />{:else}<button class="chip small" onclick={() => setView('definicoes')}>Ligar o token →</button>{/if}{/if}
+    {#if camada.porGravar}<span class="err">Por gravar.</span> {#if camada.ligado}<button class="chip small" onclick={() => gravarPendentes()}>Tentar de novo</button>{/if}{/if}
+    {#if camada.estado === 'erro' && camada.ligado}<span class="err">{camada.mensagem}</span>{/if}
     {#if algumaRecolhida}<button class="linkish exp" onclick={expandirTudo}>Mostrar todos os grupos</button>{/if}
   </div>
   {#if g.planosPassados.length || g.notasSoltas.length}
