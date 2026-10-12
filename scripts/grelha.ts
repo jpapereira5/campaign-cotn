@@ -11,6 +11,7 @@ import { Campanha } from '../src/lib/campanha.ts'
 import { tiposDeLinha, type Item, type Linha } from '../src/lib/grelha/modelo.ts'
 import { tipoLinhaDe } from '../src/lib/grelha/dona.ts'
 import { camadaDaArvore, grelhaViva, notasPorResponder } from '../src/lib/grelha/viva.ts'
+import { candidatos } from '../src/lib/grelha/candidatos.ts'
 
 const raiz = resolve(import.meta.dirname, '..')
 const arvore = lerArvore(raiz)
@@ -25,6 +26,8 @@ const proxima = g.colunas.find((c) => c.tipo === 'proxima')
 const proximaChave = proxima?.chave ?? ''
 const porResponder = notasPorResponder(g, camada)
 const linhas = g.linhas.filter((l) => !l.calculada)
+const cands = candidatos({ grelha: g, arvore, estado, jogadosDm: new Set(camada.dm.filter((e) => e.kind === 'jogado' && !e.deleted && e.beat).map((e) => String(e.beat))) })
+const candsOrd = [...cands.values()].sort((a, b) => b.pontos - a.pontos)
 
 const MARCA: Record<string, string> = { aberto: '●', esquecido: '!', planeado: '◆', falta: '◇', pago: '✓', pista: '◗', fechado: '—', registo: '·' }
 const idItem = (i: Item) => i.ac?.id ?? i.dm?.id ?? i.nota ?? ''
@@ -41,6 +44,7 @@ if (args.includes('--json')) {
       id: l.id, nome: l.nome, tipo: l.tipo, grupo: l.grupo, atitude: l.atitude, legenda: l.legenda, abertos: l.abertos, esquecidos: l.esquecidos, faltas: l.faltas, porRever: l.porRever, fios: l.fios,
       celulas: Object.fromEntries(Object.entries(l.celulas).filter(([, c]) => c.itens.length || c.ecos.length).map(([k, c]) => [k, { itens: c.itens.map((i) => ({ tipo: i.tipo, estatuto: i.estatuto, texto: i.texto, id: idItem(i) || undefined, origem: i.origem, tags: i.tags, planeadoEm: i.planeadoEm, porRever: i.porRever, refs: i.refs })), ecos: c.ecos.map((e) => ({ dona: e.dona, texto: e.texto })) }])),
     })),
+    candidatos: candsOrd,
     porResponder,
     notasSoltas: g.notasSoltas,
     planosPassados: g.planosPassados.map((p) => ({ linha: p.linha.id, entrada: p.entrada })),
@@ -85,6 +89,10 @@ secao(
     const itens = (l.celulas[proximaChave]?.itens ?? []).filter((i) => i.tipo !== 'texto')
     return itens.length ? [`- ${cabeca(l)}`, ...itens.map((i) => `    ${linhaTxt(i)}`)] : []
   }),
+)
+secao(
+  `Candidatos à S${g.proximaN} (o que vem de trás e vale a pena pensar; pontos)`,
+  candsOrd.map((c) => `- ${c.pontos.toString().padStart(2)} · ${g.linhas.find((l) => l.id === c.linha)?.nome} [${c.linha}]${c.planeado ? ' · já tem plano' : ''}: ${c.razoes.join('; ')}`),
 )
 secao(
   'Esquecidos (abertos há 3 ou mais sessões, sem plano)',

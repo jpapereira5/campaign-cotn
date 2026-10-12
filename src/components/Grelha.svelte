@@ -5,6 +5,7 @@
   import { camada, alterar, apagar, gravarPendentes } from '../lib/grelha/store.svelte'
   import Desbloquear from './Desbloquear.svelte'
   import type { ReviewNote } from '../lib/grelha/dm'
+  import { candidatos, FORTE } from '../lib/grelha/candidatos'
   import { GRUPOS, ROTULO_ESTATUTO, ROTULO_TIPO, contagens, linhaVisivel, type Estatuto, type Item, type Linha } from '../lib/grelha/modelo'
 
   const g = $derived(world.grelha)
@@ -45,8 +46,11 @@
   const totalNotas = $derived(Object.values(contaNotas).reduce((a, b) => a + b, 0))
   const passaRevisao = (l: Linha) => !revisao || notasDaLinha(l.id).some((n) => revisao === 'todas' || n.kind === revisao)
 
+  // candidatos à próxima sessão: o que vem de trás e vale a pena pensar para a sessão a preparar
+  let soCandidatos = $state(false)
+  const cands = $derived(candidatos({ grelha: g, arvore: world.arvore, estado: world.estado, jogadosDm: new Set(camada.dm.filter((e) => e.kind === 'jogado' && !e.deleted && e.beat).map((e) => String(e.beat))) }))
   const filtro = $derived({ grupo, pc, soPendentes })
-  const visiveis = $derived(g.linhas.filter((l) => linhaVisivel(l, filtro) && passaRevisao(l)))
+  const visiveis = $derived(g.linhas.filter((l) => linhaVisivel(l, filtro) && passaRevisao(l) && (!soCandidatos || cands.has(l.id))))
   const proximaChave = $derived(g.colunas.find((c) => c.tipo === 'proxima')?.chave ?? '')
   const notasAbertas = $derived.by(() => {
     const ids = new Set(visiveis.map((l) => l.id))
@@ -100,7 +104,8 @@
   const porGrupo = $derived(
     GRUPOS.map((gr) => {
       const linhas = visiveis.filter((l) => l.grupo === gr.id)
-      const tipos = gr.tipos.map((tipo) => ({ tipo, chave: `${gr.id}:${tipo}`, linhas: linhas.filter((l) => l.tipo === tipo) })).filter((t) => t.linhas.length)
+      const porPontos = (a: Linha, b: Linha) => (cands.get(b.id)?.pontos ?? 0) - (cands.get(a.id)?.pontos ?? 0)
+      const tipos = gr.tipos.map((tipo) => ({ tipo, chave: `${gr.id}:${tipo}`, linhas: linhas.filter((l) => l.tipo === tipo).sort(soCandidatos ? porPontos : () => 0) })).filter((t) => t.linhas.length)
       return { ...gr, linhas, tipos, resumo: tipos.map((t) => `${t.linhas.length} ${ROTULO_TIPO[t.tipo]}`).join(' · ') }
     }).filter((gr) => gr.linhas.length),
   )
@@ -140,6 +145,7 @@
         <button class="chip" class:on={grupo === 'todos'} aria-pressed={grupo === 'todos'} onclick={() => (grupo = 'todos')}>Todos <small>{contaGrupo('todos')}</small></button>
         {#each GRUPOS as gr (gr.id)}<button class="chip" class:on={grupo === gr.id} aria-pressed={grupo === gr.id} onclick={() => (grupo = gr.id)}>{gr.label} <small>{contaGrupo(gr.id)}</small></button>{/each}
         <button class="chip" class:on={soPendentes} aria-pressed={soPendentes} onclick={() => (soPendentes = !soPendentes)}>Só com pendentes</button>
+        <button class="chip cand-chip" class:on={soCandidatos} aria-pressed={soCandidatos} onclick={() => (soCandidatos = !soCandidatos)} title="As linhas que, vindas de trás, valem a pena pensar para a S{g.proximaN}: fios abertos, quem esteve na última sessão, o beat em curso, PCs sem cena, relógios, última oportunidade">Candidatos à S{g.proximaN} <small>{[...cands.values()].filter((c) => c.pontos >= FORTE).length} fortes · {cands.size}</small></button>
         <label class="chip sel" class:on={!!revisao} title="Mostrar só as linhas com notas da revisão por responder">
           <span class="nota-mk" aria-hidden="true">?</span>
           <select bind:value={revisao} aria-label="Filtrar pelas notas da revisão">
@@ -277,6 +283,12 @@
               {@const cel = l.celulas[c.chave]}
               <!-- svelte-ignore a11y_click_events_have_key_events -->
               <div role="button" tabindex="-1" class="cell {cel.fundo ? 'st-' + cel.fundo : ''}" class:col-cur={c.tipo === 'atual'} class:col-fut={c.tipo === 'capitulo'} class:clicavel={!l.calculada && editavel} onclick={() => editarCelula(l, c.chave)} title={l.calculada ? undefined : 'Editar esta célula'}>
+                {#if soCandidatos && c.tipo === 'proxima' && cands.get(l.id)}{@const cd = cands.get(l.id)!}
+                  <div class="cand" class:feito={cd.planeado} class:forte={cd.pontos >= FORTE && !cd.planeado}>
+                    <span class="cand-t">{cd.planeado ? 'Já tem plano' : cd.pontos >= FORTE ? 'Pensar aqui · forte' : 'Pensar aqui'} <span class="cand-p">{cd.pontos}</span></span>
+                    <ul>{#each cd.razoes as r (r)}<li>{r}</li>{/each}</ul>
+                  </div>
+                {/if}
                 {#if notasPorLinha.get(l.id)?.celula.get(c.chave)?.length}{@const ns = notasPorLinha.get(l.id)!.celula.get(c.chave)!}<span class="nota-badge k-{ns[0].kind}" title={ns.map((n) => `${n.kind}: ${n.text}`).join('\n')}>? {ns.length}</span>{/if}
                 {#each cel.itens as it, i_ (i_)}
                   {#if it.tipo === 'ideia'}
@@ -703,6 +715,42 @@
     font-family: var(--font-mono);
     font-size: 10.5px;
     font-weight: 600;
+  }
+  .cand {
+    border: 1.5px dashed var(--plan);
+    border-radius: 6px;
+    padding: 5px 7px;
+    background: rgba(232, 238, 255, 0.7);
+    color: var(--plan-ink);
+    font-size: 11.5px;
+    line-height: 1.35;
+  }
+  .cand.forte {
+    border-style: solid;
+    border-width: 2px;
+    background: var(--plan-soft);
+  }
+  .cand.feito {
+    border-color: var(--ok);
+    background: var(--ok-soft);
+    color: var(--ok);
+  }
+  .cand-t {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-cond);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .cand-p {
+    font-family: var(--font-mono);
+  }
+  .cand ul {
+    margin: 3px 0 0;
+    padding-left: 14px;
+    color: var(--text);
   }
   .fios {
     display: flex;
