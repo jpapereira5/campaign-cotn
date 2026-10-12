@@ -17,7 +17,8 @@
     "d-mv4ochhw-ctsl": "n-mig-12",
     "d-mv4ocw45-vuay": "n-mig-07",
     "d-mv4oab3c-l206": "n-mig-14",
-    "d-mv4md39m-jlxw": "e-s2-10"
+    "d-mv4md39m-jlxw": "e-s2-10",
+    "d-mv4mbnnh-kb0k": "r-pc-lia-filha-de-mirim"
   },
   "notes": [
     {
@@ -1315,7 +1316,7 @@
       },
       "text": "«Lia, filha do Duarte Mirim» choca com o que está na ficha: o pai dela é um expositor ao serviço da Yudala Fon (c-pai-da-lia), partiu para Bazzoxan e está desaparecido; o Duarte Mirim está aqui, no conselho de Urzin. E «Mirimm» já é, nas notas da Lia, o nome de uma das Dens mais antigas, que ela disse ao pai em sonho. Qual é?",
       "suggestion": "(a) O pai da Lia é da Den Mirimm e o Duarte é família dele (tio ou avô): a adaga reconhece o sangue da casa, e o pai continua desaparecido a caminho de Bazzoxan. (b) O Duarte Mirim É o pai: junta-se c-pai-da-lia a c-durth-mirimm e a ambição «Encontrar o pai» acaba aqui, no prólogo.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-v-005",
@@ -1336,5 +1337,5 @@
       "status": "aberta"
     }
   ],
-  "lastReview": "2026-10-12T03:40:43.161Z"
+  "lastReview": "2026-10-12T03:44:36.485Z"
 }

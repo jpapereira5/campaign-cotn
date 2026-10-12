@@ -23,6 +23,10 @@ estados:
   - desde: b-1-velnari-confrontation
     estado: manda a Vigia prender os PCs; 10 arqueiros perseguem-nos até ao barco
 relacoes:
+  - com: c-pc-lia
+    tipo: family
+    nota: pai biológico da Lia (só DM)
+    origem: grelha
   - com: f-aurora-watch
     tipo: memberOf
     nota: Taskhand em Jigow
@@ -65,5 +69,7 @@ Drow elite warrior LN, Taskhand da Vigia da Aurora em Jigau e ligação polític
 Extrair valor de Jigau para a Dinastia Kryn; expandir o controlo da Dinastia sobre Jigau.
 
 ## Segredo
+
+**É o pai biológico da Lia** (Decidido pelo DM (2026-10-12); `r-pc-lia-filha-de-mirim`). A adaga do altar, a lâmina de oficial dele, reconhece-lhe o sangue: nas duas vezes que o Lucan pega nela, o olhar vai para a Lia.
 
 Fala com Rosohna por um espelho de obsidiana nos seus aposentos do Salão de Pedra. Sabe do laboratório de Velnari e dá-lhe cobertura: quer explorar o potencial bélico do rubídio e descobrir a fonte. Traz tinta invisível e a chave do arsenal.

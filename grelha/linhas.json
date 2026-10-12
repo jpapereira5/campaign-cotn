@@ -587,6 +587,13 @@
     ]
   },
   {
+    "id": "r-pc-lia-filha-de-mirim",
+    "pcs": [
+      "c-pc-lia",
+      "c-pc-lucan"
+    ]
+  },
+  {
     "id": "r-pc-lucan-salvou-isco",
     "pcs": [
       "c-pc-lucan",

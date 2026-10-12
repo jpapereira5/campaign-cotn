@@ -77,3 +77,4 @@ Na revisão da Grelha (respostas às notas da migração):
 8. **A filiação da Lia ligada ao Duarte Mirim é verdade só do DM.** A mesa só viu o olhar do Lucan a ir para a Lia quando pega na adaga. Falta decidir como encaixa com o pai desaparecido (nota `n-v-004`).
 9. **Sess'innek (Sess'inek) é um demon lord, não um deus:** o tanar'ri que os lizardfolk veneram como deus da civilização e do domínio, pai dos lizard kings (confirmado: *Monster Mythology*, *Serpent Kingdoms*, *Fiendish Codex I*).
 10. **Fora de cena, na sessão 5:** relógio «A terceira vez» a 3/3; a capela fica saltada; «Bol'bara à solta» passa a ser o caminho do prólogo. A Lia continua a querer o livro de registos do forte.
+11. **O pai biológico da Lia é o Intendente Duarte Mirim; o expositor é o pai adotivo.** A mãe entregou-a ao expositor em mão. A Lia não sabe. Segredo novo: `r-pc-lia-filha-de-mirim`, com a primeira pista na sessão 5 (a adaga, que é a lâmina de oficial do Mirim).

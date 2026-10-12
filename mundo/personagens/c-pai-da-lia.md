@@ -1,6 +1,6 @@
 ---
 id: c-pai-da-lia
-nome: O pai da Lia (expositor da Alma de Cobalto; nome e raça por definir)
+nome: O pai adotivo da Lia (expositor da Alma de Cobalto; nome e raça por definir)
 tipo: npc
 facoes:
   - f-cobalt-soul
@@ -41,5 +41,7 @@ DM: expositor da Biblioteca da Alma de Cobalto ao serviço da High Curator Yudal
 Salvar a filha do typhros.
 
 ## Segredo
+
+**É o pai adotivo** (Decidido pelo DM (2026-10-12)): a mãe entregou-lha em mão, e o pai biológico da Lia é o Intendente Duarte Mirim (`r-pc-lia-filha-de-mirim`). Ele sabe-o? Por decidir.
 
 Percurso: Bazzoxan (a mãe conta-lhe que a Dinastia estuda o rubídio como cura; oferece-se para arranjar mais) → atravessa a Ascensão (pouco rubídio ali) → Ank'Harel (a Alma de Cobalto diz-lhe que a fonte passa por lá) → Heart of Despair, puxado pelo Alyxian, corrupção 5 ou 6. Procura a cura no rubídio, e é o rubídio que acorda a alma dela. Os vestígios dele podem aparecer perto do final do Fritz na Ascensão («havia outro… não parou»).
