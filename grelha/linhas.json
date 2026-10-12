@@ -517,6 +517,15 @@
     ]
   },
   {
+    "id": "t-relogio-bolbara-urzin",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia"
+    ]
+  },
+  {
     "id": "t-frente-kryn",
     "tipo": "relogio",
     "pcs": [

@@ -910,12 +910,12 @@
         "row": "t-relogio-terceira-vez",
         "col": "s6"
       },
-      "text": "Na visão da pedra: «Já falta pouco, velha. A terceira é minha.»",
+      "text": "Na visão da pedra: «Já falta pouco, velha. A terceira é minha.» [substituída pela visão nova: n-v-010, decisão 2026-10-12 #18]",
       "factKind": "consequencia",
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-59",
@@ -958,7 +958,7 @@
         "row": "t-gatilho-tocar-na-pedra",
         "col": "s6"
       },
-      "text": "No presente: correntes num altar, cheiro a cera, a luz dourada a puxá-la de volta pela segunda vez.",
+      "text": "No presente: correntes num altar, cheiro a cera, a luz dourada a puxá-la de volta pela segunda vez. [substituída pela visão nova: n-v-010, decisão 2026-10-12 #18]",
       "tags": [
         "so-dm"
       ],
@@ -966,7 +966,7 @@
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-62",
@@ -1351,8 +1351,74 @@
         "registo/decisoes.md 2026-10-07 #18",
         "registo/decisoes.md 2026-10-12 #13"
       ],
+      "status": "fechada"
+    },
+    {
+      "id": "n-v-007",
+      "at": "2026-10-12T15:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-alonne-frith",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O Fritz na jaula (V8), única testemunha viva: viu a goblin virar os soldados uns contra os outros e sabe para onde ela foi. Só fala a quem o soltar; juntar-se ao grupo com desvantagem.",
+      "suggestion": "O Fritz na jaula (V8), única testemunha viva: viu a goblin virar os soldados uns contra os outros e sabe para onde ela foi. Só fala a quem o soltar; juntar-se ao grupo com desvantagem.",
+      "because": [
+        "registo/decisoes.md 2026-10-12 #15"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-v-008",
+      "at": "2026-10-12T15:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O livro de registos do forte, intacto na tenda do comandante (V3): a prova de que o pai adotivo passou pelo forte.",
+      "suggestion": "O livro de registos do forte, intacto na tenda do comandante (V3): a prova de que o pai adotivo passou pelo forte.",
+      "because": [
+        "registo/decisoes.md 2026-10-12 #16",
+        "amb-lia-pai"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-v-009",
+      "at": "2026-10-12T15:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O forte depois da Bolbara, como no livro: portão entreaberto, mortos no pátio e fardos a arder, os guardas da capela mortos um pelo outro, o padre morto, cães aterrados, sobreviventes talvez fechados no salão.",
+      "suggestion": "O forte depois da Bolbara, como no livro: portão entreaberto, mortos no pátio e fardos a arder, os guardas da capela mortos um pelo outro, o padre morto, cães aterrados, sobreviventes talvez fechados no salão.",
+      "because": [
+        "registo/decisoes.md 2026-10-12 #14"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-v-010",
+      "at": "2026-10-12T15:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "A visão da mão: uma mão esquelética abre-se e oferece um olho na palma. Quem pega vê o Truche a andar pelo pântano dentro da Bolbara (mortos-vivos atrás dela; um relâmpago seco rasga uma árvore e, por um segundo, a voz dela: «Melora…»). Só quem pegou viu; e fica visto.",
+      "suggestion": "A visão da mão: uma mão esquelética abre-se e oferece um olho na palma. Quem pega vê o Truche a andar pelo pântano dentro da Bolbara (mortos-vivos atrás dela; um relâmpago seco rasga uma árvore e, por um segundo, a voz dela: «Melora…»). Só quem pegou viu; e fica visto.",
+      "because": [
+        "registo/decisoes.md 2026-10-07 #18",
+        "n-v-006"
+      ],
       "status": "aberta"
     }
   ],
-  "lastReview": "2026-10-12T12:00:00.000Z"
+  "lastReview": "2026-10-12T15:00:00.000Z"
 }
