@@ -84,5 +84,14 @@
     "row": "c-soldado-doente",
     "accepted": true,
     "text": "Passar o nome a «Alex, o soldado da jangada»."
+  },
+  {
+    "id": "d-mv4oc4v3-28yw",
+    "at": "2026-10-12T03:10:04.191Z",
+    "kind": "resposta",
+    "note": "n-mig-01",
+    "row": "c-skra-sorsk",
+    "accepted": true,
+    "text": "Corrigir para sessão 2 nos três sítios."
   }
 ]
