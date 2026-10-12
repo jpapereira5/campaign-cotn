@@ -44,10 +44,28 @@ export interface Coluna {
   chave: string
   label: string
   sub: string
-  tipo: 'jogada' | 'atual' | 'proxima' | 'resto' | 'capitulo'
+  tipo: 'jogada' | 'atual' | 'proxima' | 'resto' | 'capitulo' | 'etapa'
   /** sessão (colunas jogadas) ou capítulo (resto e capítulos) */
   sessao?: SessaoLida
   capitulo?: string
+  /** etapa entre capítulos (uma viagem, por exemplo), de plano/campanha.md → etapas */
+  etapa?: string
+}
+
+/** Uma etapa entre dois capítulos (plano/campanha.md → etapas): ganha uma coluna futura própria entre os dois. */
+export interface Etapa {
+  id: string
+  nome: string
+  sub: string
+  /** os dois capítulos entre os quais fica */
+  entre: [string, string]
+}
+
+export function etapasDe(meta: Record<string, unknown> | undefined): Etapa[] {
+  return (Array.isArray(meta?.etapas) ? (meta!.etapas as Record<string, unknown>[]) : []).map((x) => {
+    const entre = Array.isArray(x.entre) ? (x.entre as string[]) : []
+    return { id: String(x.id ?? ''), nome: String(x.nome ?? x.id ?? ''), sub: String(x.sub ?? ''), entre: [String(entre[0] ?? ''), String(entre[1] ?? '')] as [string, string] }
+  }).filter((x) => x.id)
 }
 
 export interface Arco {
@@ -208,7 +226,7 @@ export function grupoDe(tipo: TipoGrelha): string {
   return GRUPOS.find((g) => g.tipos.includes(tipo))?.id ?? 'enredo'
 }
 
-export function colunasDe(sessoes: SessaoLida[], capitulos: Entrada['capitulos'], capituloAtual: string, curto: (c: string) => string): { colunas: Coluna[]; arcos: Arco[]; proximaN: number } {
+export function colunasDe(sessoes: SessaoLida[], capitulos: Entrada['capitulos'], capituloAtual: string, curto: (c: string) => string, etapas: Etapa[] = []): { colunas: Coluna[]; arcos: Arco[]; proximaN: number } {
   const jogadas = sessoes.filter((s) => s.jogada)
   const colunas: Coluna[] = jogadas.map((s, i) => ({
     chave: `s${s.n}`,
@@ -221,9 +239,19 @@ export function colunasDe(sessoes: SessaoLida[], capitulos: Entrada['capitulos']
   colunas.push({ chave: `s${proximaN}`, label: `S${proximaN}`, sub: 'próxima', tipo: 'proxima' })
   const iAtual = Math.max(0, capitulos.findIndex((c) => c.id === capituloAtual))
   const atual = capitulos[iAtual]
-  if (atual) colunas.push({ chave: atual.id, label: `Resto: ${curto(atual.id)}`, sub: atual.hub, tipo: 'resto', capitulo: atual.id })
-  for (const c of capitulos.slice(iAtual + 1)) colunas.push({ chave: c.id, label: `Cap. ${curto(c.id)}`, sub: c.hub, tipo: 'capitulo', capitulo: c.id })
-  const nAtual = colunas.filter((c) => c.tipo !== 'capitulo').length
+  // as etapas a seguir a um capítulo entram logo depois da coluna desse capítulo
+  const etapasDepois = (cap: string) => etapas.filter((x) => x.entre[0] === cap).map((x): Coluna => ({ chave: x.id, label: x.nome, sub: x.sub, tipo: 'etapa', etapa: x.id }))
+  if (atual) {
+    colunas.push({ chave: atual.id, label: `Resto: ${curto(atual.id)}`, sub: atual.hub, tipo: 'resto', capitulo: atual.id })
+    colunas.push(...etapasDepois(atual.id))
+  }
+  for (const c of capitulos.slice(iAtual + 1)) {
+    colunas.push({ chave: c.id, label: `Cap. ${curto(c.id)}`, sub: c.hub, tipo: 'capitulo', capitulo: c.id })
+    colunas.push(...etapasDepois(c.id))
+  }
+  // o cabeçalho «agora» vai até ao fim das etapas que seguem o capítulo atual
+  const iPrimeiroSeguinte = colunas.findIndex((c) => c.tipo === 'capitulo')
+  const nAtual = iPrimeiroSeguinte < 0 ? colunas.length : iPrimeiroSeguinte
   const arcos: Arco[] = [
     { label: atual ? `${atual.nome}` : 'Agora', span: nAtual, atual: true },
     ...(colunas.length > nAtual ? [{ label: 'Capítulos seguintes', span: colunas.length - nAtual, atual: false }] : []),
@@ -238,7 +266,7 @@ export function construirGrelha(e: Entrada): Grelha {
   const sessoes = e.estado.mesa.sessoes
   const jogadosDm = e.jogadosDm ?? new Set<string>()
   const estadoBeat = (id: string): string | undefined => (jogadosDm.has(id) ? 'jogado' : e.estado.beats.get(id)?.estado)
-  const { colunas, arcos, proximaN } = colunasDe(sessoes, e.capitulos, e.capituloAtual, e.curto)
+  const { colunas, arcos, proximaN } = colunasDe(sessoes, e.capitulos, e.capituloAtual, e.curto, etapasDe(p.campanha?.meta))
   const colunaDaSessao = new Map<string, string>()
   for (const c of colunas) if (c.sessao) colunaDaSessao.set(c.sessao.id, c.chave)
   const nDaSessao = new Map<string, number>()
@@ -348,8 +376,13 @@ export function construirGrelha(e: Entrada): Grelha {
     const d = porId.get(l.id)
     const passos = Array.isArray(d?.meta.passos) ? (d!.meta.passos as { capitulo: string; texto: string }[]) : []
     for (const c of colunas) {
+      if (c.etapa) {
+        const beatsEtapa = p.beats.filter((b) => b.meta.etapa === c.etapa && beatToca(b, l.id) && estadoBeat(String(b.meta.id)) !== 'jogado')
+        if (beatsEtapa.length) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: `${beatsEtapa.length} beat${beatsEtapa.length > 1 ? 's' : ''}: ${beatsEtapa.map((b) => String(b.meta.titulo ?? b.meta.id)).join(' · ')}`, refs: beatsEtapa.map((b) => String(b.meta.id)) })
+        continue
+      }
       if (!c.capitulo) continue
-      const beats = (beatsPorCapitulo.get(c.capitulo) ?? []).filter((b) => beatToca(b, l.id) && estadoBeat(String(b.meta.id)) !== 'jogado')
+      const beats = (beatsPorCapitulo.get(c.capitulo) ?? []).filter((b) => !b.meta.etapa && beatToca(b, l.id) && estadoBeat(String(b.meta.id)) !== 'jogado')
       if (beats.length) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: `${beats.length} beat${beats.length > 1 ? 's' : ''}: ${beats.map((b) => `${String(b.meta.titulo ?? b.meta.id)}${b.meta.estado === 'proposta' ? ' (proposta)' : ''}`).join(' · ')}`, refs: beats.map((b) => String(b.meta.id)) })
       for (const passo of passos.filter((x) => x.capitulo === c.capitulo)) l.celulas[c.chave].itens.push({ tipo: 'plano-canone', estatuto: null, texto: passo.texto })
       if (l.tipo === 'revelacao') {

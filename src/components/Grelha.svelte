@@ -113,7 +113,7 @@
   const ESTATUTOS: Estatuto[] = ['aberto', 'esquecido', 'planeado', 'falta', 'pago', 'pista', 'fechado', 'registo']
   const ATT: Record<string, string> = { amigavel: 'amigável', neutro: 'neutro', desconfiado: 'desconfiado', hostil: 'hostil', 'por-conhecer': 'por conhecer', morto: 'morto' }
   const TAG: Record<string, string> = { 'so-dm': 'só DM', ultima: 'última oportunidade', trunfo: 'trunfo' }
-  const larguras = $derived(g.colunas.map((c) => (c.tipo === 'capitulo' ? '148px' : c.tipo === 'proxima' ? '216px' : c.tipo === 'resto' ? '196px' : '208px')).join(' '))
+  const larguras = $derived(g.colunas.map((c) => (c.tipo === 'capitulo' ? '148px' : c.tipo === 'etapa' ? '196px' : c.tipo === 'proxima' ? '216px' : c.tipo === 'resto' ? '196px' : '208px')).join(' '))
   const cols = $derived(`264px ${larguras}`)
   // no telemóvel a coluna do tipo desaparece (0px), como no mockup
   const colsPhone = $derived(`172px ${larguras}`)
@@ -489,6 +489,12 @@
   }
   .h.ses.resto {
     background: #eef2fa;
+  }
+  .h.ses.etapa {
+    background: #f3eefb;
+  }
+  .h.ses.etapa b {
+    color: var(--pista-ink);
   }
   .h.ses.capitulo {
     background: #eef1f3;

@@ -2,6 +2,13 @@
 titulo: Call of the Netherdeep
 convergencia: b-7-alyxian-speaks
 capituloAtual: ch0
+etapas:
+  - id: viagem-urzin-jigau
+    nome: Viagem
+    sub: Urzin → Jigau
+    entre:
+      - ch0
+      - ch1
 capitulos:
   - id: ch0
     nome: "Prólogo: Unwelcome Spirits"

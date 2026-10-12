@@ -62,6 +62,15 @@ export function validarArvore(a: Arvore): Problem[] {
     if (!p.campanha.meta.convergencia) warn('plano/campanha.md', 'sem beat de convergência')
     else ref('plano/campanha.md', p.campanha.meta.convergencia, 'beat de convergência')
   }
+  const etapas = Array.isArray(p.campanha?.meta.etapas) ? (p.campanha!.meta.etapas as Record<string, unknown>[]) : []
+  const idsEtapa = new Set<string>()
+  for (const x of etapas) {
+    const id = String(x.id ?? '')
+    if (!ID_RE.test(id)) err('plano/campanha.md', `etapa com id inválido: ${id}`)
+    if (idsEtapa.has(id)) err('plano/campanha.md', `etapa repetida: ${id}`)
+    idsEtapa.add(id)
+    for (const c of Array.isArray(x.entre) ? (x.entre as string[]) : []) if (!iCap.has(c)) err('plano/campanha.md', `etapa ${id}: capítulo desconhecido em entre: ${c}`)
+  }
   const cap = (where: string, id: unknown, oQue = 'capítulo') => {
     if (typeof id === 'string' && id && !iCap.has(id)) err(where, `${oQue} desconhecido: ${id}`)
   }
@@ -145,6 +154,7 @@ export function validarArvore(a: Arvore): Problem[] {
     for (const a of arcs) if (!arcos.has(a)) err(d.caminho, `arco desconhecido: ${a}`)
     if (!d.meta.capitulo) err(d.caminho, 'beat sem capítulo')
     cap(d.caminho, d.meta.capitulo)
+    if (typeof d.meta.etapa === 'string' && !idsEtapa.has(d.meta.etapa)) err(d.caminho, `etapa desconhecida: ${d.meta.etapa}`)
     if (d.meta.estado !== undefined && d.meta.estado !== 'proposta') err(d.caminho, `estado desconhecido no beat: ${String(d.meta.estado)} (só «proposta»; jogado/em-curso/saltado vêm do registo)`)
     if (/^(JOGADO|PROPOSTA)\b/.test(String(d.meta.titulo ?? ''))) err(d.caminho, 'título com prefixo JOGADO/PROPOSTA: o estado vem do registo ou de `estado: proposta`')
     ref(d.caminho, d.meta.local, 'local')
