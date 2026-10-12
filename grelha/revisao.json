@@ -16,7 +16,8 @@
     "d-mv4oc9kw-76ax": "n-mig-05",
     "d-mv4ochhw-ctsl": "n-mig-12",
     "d-mv4ocw45-vuay": "n-mig-07",
-    "d-mv4oab3c-l206": "n-mig-14"
+    "d-mv4oab3c-l206": "n-mig-14",
+    "d-mv4md39m-jlxw": "e-s2-10"
   },
   "notes": [
     {
@@ -1277,7 +1278,7 @@
       },
       "text": "«A Lia é filha do Duarte Mirim» é uma verdade só tua (os jogadores viram só o olhar do Lucan a ir para a Lia), ou foi dito à mesa?",
       "suggestion": "Só DM: o acontecimento fica como a mesa o viu e a filiação entra como verdade escondida (tag só DM) e como segredo novo, r-pc-lia-filha-de-mirim, ligado à ambição «amb-lia-pai».",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-v-002",
@@ -1290,7 +1291,7 @@
       },
       "text": "«Demon lord dos lizardfolk»: os jogadores ficaram a saber isto na sessão 2, ou é a resposta que tu sabes?",
       "suggestion": "Só DM: a teoria da mesa fica «não o encontram nos PDFs»; o facto já está na ficha de Sess'inek (c-sessinek).",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-v-003",
@@ -1302,8 +1303,38 @@
       },
       "text": "Bolbara possuída e fora do forte ao 4.º dia: o relógio «A terceira vez» fica a 3/3, e os beats Fort Venture / A capela / Exorcismo dão lugar a «Bol'bara à solta» (b-0-bolbara-unleashed). Confirmas?",
       "suggestion": "Sim: registar no fecho da S5 um acontecimento só DM (relógio 3/3, estado da Bolbara «possuída, à solta»), marcar a capela como saltada e pôr «Bol'bara à solta» como o beat da S6. A Lia continua a querer o livro de registos do forte.",
+      "status": "fechada"
+    },
+    {
+      "id": "n-v-004",
+      "at": "2026-10-12T03:40:43.161Z",
+      "kind": "discrepancia",
+      "target": {
+        "dm": "d-mv4mbnnh-kb0k",
+        "row": "c-pc-lia"
+      },
+      "text": "«Lia, filha do Duarte Mirim» choca com o que está na ficha: o pai dela é um expositor ao serviço da Yudala Fon (c-pai-da-lia), partiu para Bazzoxan e está desaparecido; o Duarte Mirim está aqui, no conselho de Urzin. E «Mirimm» já é, nas notas da Lia, o nome de uma das Dens mais antigas, que ela disse ao pai em sonho. Qual é?",
+      "suggestion": "(a) O pai da Lia é da Den Mirimm e o Duarte é família dele (tio ou avô): a adaga reconhece o sangue da casa, e o pai continua desaparecido a caminho de Bazzoxan. (b) O Duarte Mirim É o pai: junta-se c-pai-da-lia a c-durth-mirimm e a ambição «Encontrar o pai» acaba aqui, no prólogo.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-v-005",
+      "at": "2026-10-12T03:40:43.161Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-bolbara",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "Bol'bara à solta: a Bolbara possuída cruza-se com o grupo no pântano ou a caminho de Urzin (b-0-bolbara-unleashed); o Morgid reaparece nessa luta.",
+      "suggestion": "Bol'bara à solta: a Bolbara possuída cruza-se com o grupo no pântano ou a caminho de Urzin; o Morgid reaparece nessa luta.",
+      "because": [
+        "e-s5-60",
+        "b-0-bolbara-unleashed",
+        "registo/decisoes.md 2026-10-07 #11"
+      ],
       "status": "aberta"
     }
   ],
-  "lastReview": "2026-10-12T03:34:41.684Z"
+  "lastReview": "2026-10-12T03:40:43.161Z"
 }

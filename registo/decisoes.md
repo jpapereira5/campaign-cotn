@@ -74,3 +74,6 @@ Na revisão da Grelha (respostas às notas da migração):
 5. **A adaga drow está com o Lucan desde a sessão 5**; corrigidas as fichas que ainda a punham com o Quasi.
 6. **O Pedro Silva joga todas as semanas** (cinco sessões seguidas).
 7. **As pistas dos segredos contam-se pelo registo** (efeitos `pista`), não pelos beats jogados.
+8. **A filiação da Lia ligada ao Duarte Mirim é verdade só do DM.** A mesa só viu o olhar do Lucan a ir para a Lia quando pega na adaga. Falta decidir como encaixa com o pai desaparecido (nota `n-v-004`).
+9. **Sess'innek (Sess'inek) é um demon lord, não um deus:** o tanar'ri que os lizardfolk veneram como deus da civilização e do domínio, pai dos lizard kings (confirmado: *Monster Mythology*, *Serpent Kingdoms*, *Fiendish Codex I*).
+10. **Fora de cena, na sessão 5:** relógio «A terceira vez» a 3/3; a capela fica saltada; «Bol'bara à solta» passa a ser o caminho do prólogo. A Lia continua a querer o livro de registos do forte.
