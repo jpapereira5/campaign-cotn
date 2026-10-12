@@ -120,5 +120,12 @@
     "row": "p-pedro-silva",
     "accepted": true,
     "text": "Ficar com «todas as semanas» (cinco sessões seguidas)."
+  },
+  {
+    "id": "d-mv4p3g8i-68u0",
+    "at": "2026-10-12T03:31:18.642Z",
+    "kind": "arquivo",
+    "fact": "e-s3-07",
+    "row": "c-lizardfolk-do-ossario"
   }
 ]
