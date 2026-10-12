@@ -22,7 +22,7 @@ relacoes:
     origem: livro
   - com: c-sessinek
     tipo: serves
-    nota: o ossário era a corte dele; sem sacerdote desde a sessão 1
+    nota: o ossário era a corte dele; sem sacerdote desde a sessão 2
     origem: pcs
 legenda: xamã lizardfolk de Sess'inek
 atitudeAtual: morto

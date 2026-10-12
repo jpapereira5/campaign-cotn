@@ -14,6 +14,8 @@ tags:
 estados:
   - desde: b-0-mission-urzin
     estado: Guia dos PCs
+  - desde: b-0-patrulha-imperio
+    estado: Foi-se embora ofendido (recusa viajar com imperiais); segue o grupo à distância
 relacoes:
   - com: c-buhfal
     tipo: serves

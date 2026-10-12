@@ -62,3 +62,15 @@ Fechado na revisão da sessão 4. O cânone já está corrigido nos ficheiros.
 20. **A Lia sabe que o destino do pai seria Bazzoxan** (foi o que a Sia Kresh lhe disse), e entra no forte para **ter a certeza de que ele passou por lá** — o livro de registos, no gabinete do comandante.
 21. **O Lucan não fala Abissal.** Fala Comum, Halfling e Thieves' Cant (como na ficha). Cai o «Comum, Abissal e Halfling» do registo da sessão 1 para o Lucan; o Isco fala Abissal.
 22. **Os pertences da Lia estão todos num saco, na jangada**: armas, armadura, símbolo sagrado, e o pendente, o selo de expositor e o dinheiro do pai. Fecha a questão da preparação da sessão 4 (escondidos por ela ou com o escriba).
+
+## Decidido pelo DM (2026-10-12)
+
+Na revisão da Grelha (respostas às notas da migração):
+
+1. **A sessão 5 terminou no 4.º dia; a Bolbara já está possuída e já saiu do forte.** O terceiro *revivify* aconteceu: o relógio «A terceira vez» fechou sem a mesa saber (por revelar). Consequências por confirmar na revisão (`grelha/revisao.json`).
+2. **O Skr'a S'orsk morreu na sessão 2** (#83), não na 1; corrigido nas fichas.
+3. **O soldado doente da jangada chama-se Alex** («Alex, o soldado da jangada»).
+4. **O Morgid foi-se embora na sessão 4** (recusa viajar com imperiais) e segue o grupo à distância: estado novo na ficha, a partir de `b-0-patrulha-imperio`.
+5. **A adaga drow está com o Lucan desde a sessão 5**; corrigidas as fichas que ainda a punham com o Quasi.
+6. **O Pedro Silva joga todas as semanas** (cinco sessões seguidas).
+7. **As pistas dos segredos contam-se pelo registo** (efeitos `pista`), não pelos beats jogados.

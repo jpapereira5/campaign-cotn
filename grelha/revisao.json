@@ -1,6 +1,23 @@
 {
-  "reviewed": {},
-  "absorbed": {},
+  "reviewed": {
+    "d-mv4m4gva-084u": "2026-10-12T02:08:07.270Z",
+    "d-mv4m4n53-wgz7": "2026-10-12T02:08:15.399Z",
+    "d-mv4m4s7t-z0fs": "2026-10-12T02:08:21.977Z",
+    "d-mv4m6eu2-m98i": "2026-10-12T02:09:37.946Z",
+    "d-mv4ob28w-hfsc": "2026-10-12T03:09:14.144Z",
+    "d-mv4p3g8i-68u0": "2026-10-12T03:31:18.642Z",
+    "d-mv4mbnnh-kb0k": "2026-10-12T02:13:42.653Z",
+    "d-mv4md39m-jlxw": "2026-10-12T02:14:49.546Z"
+  },
+  "absorbed": {
+    "d-mv4obq37-lbzy": "n-mig-03",
+    "d-mv4oby6o-u12d": "n-mig-02",
+    "d-mv4oc4v3-28yw": "n-mig-01",
+    "d-mv4oc9kw-76ax": "n-mig-05",
+    "d-mv4ochhw-ctsl": "n-mig-12",
+    "d-mv4ocw45-vuay": "n-mig-07",
+    "d-mv4oab3c-l206": "n-mig-14"
+  },
   "notes": [
     {
       "id": "n-mig-01",
@@ -11,7 +28,7 @@
       },
       "text": "O Skr'a S'orsk morreu na sessão 2 (#83) no cânone, mas docs/pcs.md, docs/ids.md e um patch antigo dizem sessão 1.",
       "suggestion": "Corrigir para sessão 2 nos três sítios.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-02",
@@ -22,7 +39,7 @@
       },
       "text": "A ficha chama-lhe «O soldado doente da jangada», mas à mesa já tem nome: Alex.",
       "suggestion": "Passar o nome a «Alex, o soldado da jangada».",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-03",
@@ -33,7 +50,7 @@
       },
       "text": "Os estados da ficha dizem só «Guia dos PCs»; à mesa foi-se embora ofendido na sessão 4 e segue o grupo à distância.",
       "suggestion": "Acrescentar os estados a partir de b-0-patrulha-imperio.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-04",
@@ -55,7 +72,7 @@
       },
       "text": "docs/pcs.md e docs/regras.md ainda põem a adaga com o Quasi; desde a sessão 5 está ao cinto do Lucan.",
       "suggestion": "Atualizar as duas referências.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-06",
@@ -77,7 +94,7 @@
       },
       "text": "docs/pcs.md diz que o Pedro Silva joga 2 a 3 vezes por mês e também que joga todas as semanas.",
       "suggestion": "Ficar com «todas as semanas» (cinco sessões seguidas).",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-08",
@@ -133,7 +150,7 @@
       },
       "text": "O beat b-0-boneyard-altar está jogado e é pista de r-pc-lucan-sessinek, mas o cânone diz que a revelação «continua a zero».",
       "suggestion": "Contar as pistas dadas pelo registo, não pelos beats.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-13",
@@ -156,7 +173,7 @@
       },
       "text": "O relógio dos revivify ficou em 2 de 3 por decisão do DM (2026-10-07, #18), sem acontecimento à mesa.",
       "suggestion": "Confirmar o valor.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-15",
@@ -1248,7 +1265,45 @@
         "docs/grelha-semente.json"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-v-001",
+      "at": "2026-10-12T03:34:41.684Z",
+      "kind": "pergunta",
+      "target": {
+        "dm": "d-mv4mbnnh-kb0k",
+        "row": "t-semente-adaga-lia",
+        "col": "s5"
+      },
+      "text": "«A Lia é filha do Duarte Mirim» é uma verdade só tua (os jogadores viram só o olhar do Lucan a ir para a Lia), ou foi dito à mesa?",
+      "suggestion": "Só DM: o acontecimento fica como a mesa o viu e a filiação entra como verdade escondida (tag só DM) e como segredo novo, r-pc-lia-filha-de-mirim, ligado à ambição «amb-lia-pai».",
+      "status": "aberta"
+    },
+    {
+      "id": "n-v-002",
+      "at": "2026-10-12T03:34:41.684Z",
+      "kind": "pergunta",
+      "target": {
+        "dm": "d-mv4md39m-jlxw",
+        "row": "t-teoria-sessinek",
+        "col": "s2"
+      },
+      "text": "«Demon lord dos lizardfolk»: os jogadores ficaram a saber isto na sessão 2, ou é a resposta que tu sabes?",
+      "suggestion": "Só DM: a teoria da mesa fica «não o encontram nos PDFs»; o facto já está na ficha de Sess'inek (c-sessinek).",
+      "status": "aberta"
+    },
+    {
+      "id": "n-v-003",
+      "at": "2026-10-12T03:34:41.684Z",
+      "kind": "efeito",
+      "target": {
+        "row": "c-bolbara",
+        "col": "s6"
+      },
+      "text": "Bolbara possuída e fora do forte ao 4.º dia: o relógio «A terceira vez» fica a 3/3, e os beats Fort Venture / A capela / Exorcismo dão lugar a «Bol'bara à solta» (b-0-bolbara-unleashed). Confirmas?",
+      "suggestion": "Sim: registar no fecho da S5 um acontecimento só DM (relógio 3/3, estado da Bolbara «possuída, à solta»), marcar a capela como saltada e pôr «Bol'bara à solta» como o beat da S6. A Lia continua a querer o livro de registos do forte.",
+      "status": "aberta"
     }
   ],
-  "lastReview": "2026-10-11T22:00:00Z"
+  "lastReview": "2026-10-12T03:34:41.684Z"
 }

@@ -1,6 +1,6 @@
 ---
 id: c-soldado-doente
-nome: O soldado doente da jangada
+nome: Alex, o soldado da jangada
 tipo: npc
 facoes:
   - f-dwendalian-empire
