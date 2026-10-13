@@ -1969,11 +1969,12 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "Abertura: lacedons saem da água na periferia do obelisco (longe da pedra). A Lia escorrega das cordas que o Isco folgou e luta e cura à vista de todos; o Corvelo já não a pode amarrar de novo sem perder a cara.",
-      "suggestion": "Lacedons na periferia do obelisco; a Lia solta-se e luta à vista de todos.",
+      "text": "Abertura: 5 lacedons na periferia do obelisco (longe da pedra); dois saem de debaixo da jangada. A Lia escorrega das cordas que o Isco folgou e luta e cura à vista de todos (drow: imune à paralisia). O Corvelo já não a pode amarrar de novo sem perder a cara.",
+      "suggestion": "Abertura: 5 lacedons na periferia do obelisco (longe da pedra); dois saem de debaixo da jangada. A Lia escorrega das cordas que o Isco folgou e luta e cura à vista de todos (drow: imune à paralisia). O Corvelo já não a pode amarrar de novo sem perder a cara.",
       "because": [
         "registo/decisoes.md 2026-10-13 #26",
-        "e-s5-22"
+        "e-s5-22",
+        "registo/decisoes.md 2026-10-13 #27"
       ],
       "status": "aberta"
     }
