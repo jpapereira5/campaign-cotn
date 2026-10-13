@@ -1129,12 +1129,12 @@
         "row": "r-padre-entrega-bolbara",
         "col": "s6"
       },
-      "text": "Pista: na visão da pedra, um homem de mãos levantadas: «Outra vez.»",
+      "text": "Pista: na visão da pedra, um homem de mãos levantadas: «Outra vez.» [substituída pela visão nova: n-v-010, decisão 2026-10-12 #18]",
       "factKind": "pista",
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-72",
@@ -1418,7 +1418,195 @@
         "n-v-006"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-p6-01",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-laco-quasi-alberto",
+        "col": "s6"
+      },
+      "text": "O livro de registos da tenda do comandante tem também o registo imperial com o nome verdadeiro do Alberto. A Lia vai lá pelo pai; quem ler a página ao lado encontra o Alberto. Paga a confissão que ficou a meio (e-s4-16) e os três esquecidos do laço.",
+      "because": [
+        "e-s4-13",
+        "e-s4-16",
+        "e-s1-17",
+        "e-s3-14",
+        "registo/decisoes.md 2026-10-12 #16"
+      ],
+      "status": "aberta",
+      "factKind": "cena",
+      "suggestion": "O livro de registos da tenda do comandante tem também o registo imperial com o nome verdadeiro do Alberto. A Lia vai lá pelo pai; quem ler a página ao lado encontra o Alberto. Paga a confissão que ficou a meio (e-s4-16) e os três esquecidos do laço."
+    },
+    {
+      "id": "n-p6-02",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s6"
+      },
+      "text": "O Padre Perestrelo está morto: a pista da maldição que o Damião deu ao Quasi («a pessoa mais competente») morre com ele. Mas o Damião é o aprendiz e sabe onde o padre guardava as notas sobre o paranormal. O acordo da máscara (só fala com o Quasi primeiro) passa a valer alguma coisa.",
+      "because": [
+        "e-s5-19",
+        "e-s5-38",
+        "amb-quasi-maldicao",
+        "registo/decisoes.md 2026-10-12 #14"
+      ],
+      "status": "aberta",
+      "factKind": "cena",
+      "suggestion": "O Padre Perestrelo está morto: a pista da maldição que o Damião deu ao Quasi («a pessoa mais competente») morre com ele. Mas o Damião é o aprendiz e sabe onde o padre guardava as notas sobre o paranormal. O acordo da máscara (só fala com o Quasi primeiro) passa a valer alguma coisa."
+    },
+    {
+      "id": "n-p6-03",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s6"
+      },
+      "text": "O Corvelo chega a um forte de mortos: pela segunda vez, o único a sobrar. As 800 po desaparecem com o forte (nunca existiram). O que ele faz a seguir (fugir, culpar os goblinóides, seguir com o grupo) decide a patrulha.",
+      "because": [
+        "e-s5-08",
+        "e-s4-20",
+        "e-s5-37",
+        "registo/decisoes.md 2026-10-12 #14"
+      ],
+      "status": "aberta",
+      "factKind": "cena",
+      "suggestion": "O Corvelo chega a um forte de mortos: pela segunda vez, o único a sobrar. As 800 po desaparecem com o forte (nunca existiram). O que ele faz a seguir (fugir, culpar os goblinóides, seguir com o grupo) decide a patrulha."
+    },
+    {
+      "id": "n-p6-04",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-laco-isco-elmiro",
+        "col": "s6"
+      },
+      "text": "O Elmiro, que entregou a Lia ao sargento «pela segurança de todos», vê no forte o que é perigo a sério. Cena para o Isco: o rapaz pede-lhe perdão, ou pede-lhe que fique com ele quando a patrulha se desfizer.",
+      "because": [
+        "e-s5-24",
+        "e-s5-10",
+        "registo/decisoes.md 2026-10-12 #14"
+      ],
+      "status": "aberta",
+      "factKind": "cena",
+      "suggestion": "O Elmiro, que entregou a Lia ao sargento «pela segurança de todos», vê no forte o que é perigo a sério. Cena para o Isco: o rapaz pede-lhe perdão, ou pede-lhe que fique com ele quando a patrulha se desfizer."
+    },
+    {
+      "id": "n-p6-05",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-crumbling-tower",
+        "col": "s6"
+      },
+      "text": "O livro sugere reutilizar um sítio já visitado para a emboscada da Bolbara. A Torre em Ruínas (teias brancas, passaram ao lado) é a última oportunidade do prólogo para esse fio: o rasto de relâmpagos passa por lá.",
+      "because": [
+        "e-s3-16",
+        "b-0-bolbara-unleashed",
+        "livro: Return to Urzin"
+      ],
+      "status": "aberta",
+      "factKind": "cena",
+      "suggestion": "O livro sugere reutilizar um sítio já visitado para a emboscada da Bolbara. A Torre em Ruínas (teias brancas, passaram ao lado) é a última oportunidade do prólogo para esse fio: o rasto de relâmpagos passa por lá."
+    },
+    {
+      "id": "n-p6-06",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-relogio-bolbara-urzin",
+        "col": "s6"
+      },
+      "text": "Relógio a correr: cada dia do mundo na S6 é um passo. A S6 começa ao meio-dia do dia 4, com ela já meio dia a caminho. Se a S6 cobrir o forte e um dia de perseguição, chega a 2/5.",
+      "because": [
+        "registo/decisoes.md 2026-10-12 #17"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-07",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-durth-mirimm",
+        "col": "s6"
+      },
+      "text": "Esquecido desde a S3 (o olhar no sonho do Lucan). Não cabe na S6: o pagamento natural é em Jigau (b-1-mirimm-reconhece, a adaga ao cinto do Lucan). Deixar aberto.",
+      "because": [
+        "e-s3-06",
+        "b-1-mirimm-reconhece"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-08",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-missao-nevoa-do-brejo",
+        "col": "s6"
+      },
+      "text": "Os fios de Urzin (Névoa do Brejo, a Miríade e o Jevan, o Azrok roubado) só se pagam se voltarem a Urzin. Se a perseguição acabar lá, entram todos de uma vez; se não, ficam para o regresso.",
+      "because": [
+        "e-s1-24",
+        "e-s1-25",
+        "e-s1-06"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-09",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "r-tempestade-truche",
+        "col": "s6"
+      },
+      "text": "O rasto: confirmas a trovoada sem nuvem (relâmpagos secos quando a Bolbara luta por dentro, árvores rachadas, eco nas falésias, sem farol)? Sem isto, o grupo depende só do Fritz e da visão para a encontrar.",
+      "because": [
+        "registo/decisoes.md 2026-10-12 #13",
+        "registo/decisoes.md 2026-10-12 #18"
+      ],
+      "status": "aberta",
+      "suggestion": "Sim: relâmpagos secos e intermitentes, sem nuvem; rasto no chão, não no céu."
+    },
+    {
+      "id": "n-p6-10",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s6"
+      },
+      "text": "A visão nova da mão substitui a antiga. O Lucan continua a ter uma visão só dele (a voz da noite em que morreu, n-mig-16 e n-mig-68), ou só a do olho, com «Ele agora também te vê» se for ele a pegar?",
+      "because": [
+        "registo/decisoes.md 2026-10-12 #18",
+        "n-mig-16",
+        "n-mig-68",
+        "n-mig-40"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-11",
+      "at": "2026-10-13T01:20:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-lampreia",
+        "col": "s6"
+      },
+      "text": "A Sousela passou fora a noite do dia 3, a noite da possessão, e voltou enlameada. Há ligação, ou é outro fio (o que emboscou o pelotão do Corvelo nas falésias)?",
+      "because": [
+        "e-s5-09",
+        "e-s5-27",
+        "e-s5-60"
+      ],
+      "status": "aberta"
     }
   ],
-  "lastReview": "2026-10-12T15:00:00.000Z"
+  "lastReview": "2026-10-13T01:20:00.000Z"
 }
