@@ -105,3 +105,5 @@ Na revisão da Grelha (respostas às notas da migração):
 13. **O Duarte Mirim julga que a filha morreu** em bebé: foi o que a mãe lhe disse.
 14. **O pai adotivo não sabe que o pai biológico da Lia é o Mirim.** A mãe escondeu-o.
 15. **O primeiro flash de Ruidus do Isco é no pântano**, numa noite em que o grupo ainda esteja com a patrulha imperial. O Isco acorda de manhã de um pesadelo em que matou o Elmiro, o rapaz que o ajudou a pescar e o trata por «senhor Isco»; ninguém sabe do Elmiro. A pista fica subentendida. Só DM: foi mesmo o Isco, transformado; o corpo ficou na água, longe do acampamento.
+16. **A lista da vingança de Baeshra segue a lenda dele.** Primeiro o Duarte Mirim (o clã Ro, 809 PD). Depois os esclavagistas hobgoblin que, depois da prisão por cortar um braço e da evasão, o levaram para venda em Asarius. Um deles é hoje oficial de alta patente em Bazzoxan: o **Darguun Velk**, veterano da Vigia da Aurora, que acompanha o grupo à Ascensão dos Traidores.
+17. **O Lucan descobre que salvou o Isco pelo aboleto ancião**: na travessia do mar (cap. 2) ou no Netherdeep. Fica por escolher entre os dois; não é pelos obeliscos.

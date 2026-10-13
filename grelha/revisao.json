@@ -1742,6 +1742,26 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-p6-20",
+      "at": "2026-10-13T03:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "ch3"
+      },
+      "factKind": "pista",
+      "text": "O Darguun Velk, que acompanha o grupo à Ascensão, foi um dos esclavagistas hobgoblin que venderam o Ssarik-Ro em Asarius. Baeshra aponta-o ao Lucan, perto da oferta de Sess'inek.",
+      "suggestion": "Baeshra aponta o Darguun Velk ao Lucan: um dos esclavagistas que o venderam em Asarius.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #16",
+        "c-darguun-velk"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

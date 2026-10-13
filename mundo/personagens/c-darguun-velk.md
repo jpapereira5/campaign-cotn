@@ -36,3 +36,7 @@ Hobgoblin veterano da Vigia da Aurora; pele vermelho-alaranjada, cabelo negro ra
 ## Objetivo
 
 Cumprir o protocolo; manter a patrulha viva.
+
+## Segredo
+
+Há uns vinte anos era esclavagista em Jorhas: foi um dos hobgoblins que levaram o jovem Ssarik-Ro (o futuro Baeshra) para venda em Asarius. Subiu de esclavagista a oficial da Vigia da Aurora. É o segundo nome da lista da vingança de Baeshra, depois do Duarte Mirim (Decidido pelo DM (2026-10-13)).
