@@ -87,3 +87,7 @@ Na revisão da Grelha (respostas às notas da migração):
 18. **A visão da pedra muda** (substitui a decisão 18 de 2026-10-07): ao tocar na pedra, uma mão esquelética estende-se à frente do jogador e abre-se, oferecendo um olho na palma (Vecna, sem nome). Só quem pega no olho tem a visão: o Truche a andar pelo pântano dentro da Bolbara. A visão serve para o grupo ponderar ir ou não ao forte, com a tensão já em jogo: a Lia quer o forte, o resto quer resgatar a Bolbara sem saber onde ela está.
 19. **O rasto da Bolbara é uma trovoada sem nuvem.** Sempre que a Bolbara luta por dentro, o poder do Truche rebenta para fora: relâmpagos secos e intermitentes, sem nuvem, como o primeiro relâmpago silencioso da noite do dia 2. O rasto fica no chão (árvores rachadas e queimadas, juncos chamuscados, cheiro a ozono, peixes mortos a boiar); no céu não há farol, e o trovão curto faz eco nas falésias, por isso não dá para tirar a direção de longe. Encaixa na pedra a meio gás (decisão 15 de 2026-10-07).
 20. **Na pedra, o Lucan só tem a visão do olho**, como os outros. Se for ele a pegar no olho, a fome sobe e Baeshra diz «Ele agora também te vê». Cai a visão só dele (a voz da noite em que morreu) nesta pedra.
+
+## Decidido pelo DM (2026-10-13)
+
+1. **A noite fora da Sousela não esconde nada.** Ficou escondida na periferia do acampamento, deitada na água como é costume dela, pronta a atacar de surpresa num combate que não aconteceu; a lama vem daí. Fecha o «desaparece sem explicação» da sessão 5 (`e-s5-09`).

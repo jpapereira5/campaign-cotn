@@ -1599,13 +1599,13 @@
         "row": "c-lampreia",
         "col": "s6"
       },
-      "text": "A Sousela passou fora a noite do dia 3, a noite da possessão, e voltou enlameada. Há ligação, ou é outro fio (o que emboscou o pelotão do Corvelo nas falésias)?",
+      "text": "A Sousela passou fora a noite do dia 3, a noite da possessão, e voltou enlameada. Há ligação, ou é outro fio (o que emboscou o pelotão do Corvelo nas falésias)? [decidido: escondida à espera de um combate que não aconteceu, decisão 2026-10-13 #1]",
       "because": [
         "e-s5-09",
         "e-s5-27",
         "e-s5-60"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-12",
