@@ -211,12 +211,12 @@
         "row": "c-pc-lia",
         "col": "s6"
       },
-      "text": "Soltar-se das amarras (o cliffhanger do DM).",
+      "text": "Soltar-se das amarras (o cliffhanger do DM). [decidido: solta-se no combate dos lacedons, decisão 2026-10-13 #26]",
       "factKind": "cena",
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-18",
@@ -1246,12 +1246,12 @@
         "row": "p-camila",
         "col": "s6"
       },
-      "text": "Soltar a Lia e pô-la a falar com o grupo todo (← S5).",
+      "text": "Soltar a Lia e pô-la a falar com o grupo todo (← S5). [decidido: solta-se no combate dos lacedons, decisão 2026-10-13 #26]",
       "factKind": "consequencia",
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-79",
@@ -1957,6 +1957,23 @@
       ],
       "tags": [
         "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-32",
+      "at": "2026-10-13T03:45:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "Abertura: lacedons saem da água na periferia do obelisco (longe da pedra). A Lia escorrega das cordas que o Isco folgou e luta e cura à vista de todos; o Corvelo já não a pode amarrar de novo sem perder a cara.",
+      "suggestion": "Lacedons na periferia do obelisco; a Lia solta-se e luta à vista de todos.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #26",
+        "e-s5-22"
       ],
       "status": "aberta"
     }
