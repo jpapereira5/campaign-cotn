@@ -196,12 +196,12 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "Cena pessoal: a pedra que rebobina.",
+      "text": "Cena pessoal: a pedra que rebobina. [substituída: o Lucan só tem a visão do olho, decisão 2026-10-12 #20]",
       "factKind": "cena",
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-17",
@@ -1075,7 +1075,7 @@
         "row": "r-pc-lucan-salvou-isco",
         "col": "s6"
       },
-      "text": "A pedra mostra-lhe um pedaço da noite no aboleto: a voz.",
+      "text": "A pedra mostra-lhe um pedaço da noite no aboleto: a voz. [substituída: o Lucan só tem a visão do olho, decisão 2026-10-12 #20]",
       "tags": [
         "so-dm"
       ],
@@ -1083,7 +1083,7 @@
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-69",
@@ -1566,12 +1566,12 @@
         "row": "r-tempestade-truche",
         "col": "s6"
       },
-      "text": "O rasto: confirmas a trovoada sem nuvem (relâmpagos secos quando a Bolbara luta por dentro, árvores rachadas, eco nas falésias, sem farol)? Sem isto, o grupo depende só do Fritz e da visão para a encontrar.",
+      "text": "O rasto: confirmas a trovoada sem nuvem (relâmpagos secos quando a Bolbara luta por dentro, árvores rachadas, eco nas falésias, sem farol)? Sem isto, o grupo depende só do Fritz e da visão para a encontrar. [decidido: registo/decisoes.md 2026-10-12 #19]",
       "because": [
         "registo/decisoes.md 2026-10-12 #13",
         "registo/decisoes.md 2026-10-12 #18"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "suggestion": "Sim: relâmpagos secos e intermitentes, sem nuvem; rasto no chão, não no céu."
     },
     {
@@ -1582,14 +1582,14 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "A visão nova da mão substitui a antiga. O Lucan continua a ter uma visão só dele (a voz da noite em que morreu, n-mig-16 e n-mig-68), ou só a do olho, com «Ele agora também te vê» se for ele a pegar?",
+      "text": "A visão nova da mão substitui a antiga. O Lucan continua a ter uma visão só dele (a voz da noite em que morreu, n-mig-16 e n-mig-68), ou só a do olho, com «Ele agora também te vê» se for ele a pegar? [decidido: registo/decisoes.md 2026-10-12 #20]",
       "because": [
         "registo/decisoes.md 2026-10-12 #18",
         "n-mig-16",
         "n-mig-68",
         "n-mig-40"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-11",
@@ -1604,6 +1604,22 @@
         "e-s5-09",
         "e-s5-27",
         "e-s5-60"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-12",
+      "at": "2026-10-13T01:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "r-tempestade-truche",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "O rasto: relâmpagos secos sem nuvem à volta da Bolbara; no chão, árvores rachadas e queimadas, juncos chamuscados, ozono, peixes mortos a boiar. Nada no céu; o trovão curto faz eco nas falésias.",
+      "suggestion": "O rasto: relâmpagos secos sem nuvem; árvores rachadas, juncos chamuscados, ozono, peixes mortos. Nada no céu.",
+      "because": [
+        "registo/decisoes.md 2026-10-12 #19"
       ],
       "status": "aberta"
     }
