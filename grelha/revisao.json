@@ -1640,6 +1640,24 @@
         "t-agenda-baeshra-lucan"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-p6-14",
+      "at": "2026-10-13T02:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "ch1"
+      },
+      "factKind": "cena",
+      "text": "Um caçador das Claret Orders já está em Jigau, sem saber que o Isco é o rapaz do sonho. Cruzam-se antes de qualquer um dos dois perceber.",
+      "suggestion": "Um caçador das Claret Orders em Jigau, ainda sem saber que o Isco é o rapaz do sonho.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #5",
+        "f-claret-orders",
+        "t-agenda-caca-isco"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
