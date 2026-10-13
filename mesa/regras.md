@@ -370,6 +370,7 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 - **Searing Smite:** Arde (Burn)
 - **Shield:** Macte virtute (Be blessed for your courage)
 - **Shield of Faith:** Macte virtute (Be blessed for your courage)
+- **Silvery Barbs:** Fallere, Labere (Deceive; Slip) — decisão do DM, 2026-10-13 (não existe no BG3)
 - **Sleep:** Impero te, Impero tibi (I command you)
 - **Speak with Animals:** Amicus animalis, Loquere si tibi placet (Friend of animals; Speak if you please)
 - **Thunderous Smite:** Detono (I thunder)
@@ -419,6 +420,7 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 - **Shatter:** Detono
 - **Silence:** Silentium, Te adstringo linguam
 - **Spike Growth:** Ira et dolor
+- **Suggestion:** Audi me (Hear me) — decisão do DM, 2026-10-13 (não existe no BG3)
 - **Spiritual Weapon:** Ex Textura
 - **Web:** Voco araneae
 - **Warding Bond:** Resisto, Tuebor
