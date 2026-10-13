@@ -91,3 +91,4 @@ Na revisão da Grelha (respostas às notas da migração):
 ## Decidido pelo DM (2026-10-13)
 
 1. **A noite fora da Sousela não esconde nada.** Ficou escondida na periferia do acampamento, deitada na água como é costume dela, pronta a atacar de surpresa num combate que não aconteceu; a lama vem daí. Fecha o «desaparece sem explicação» da sessão 5 (`e-s5-09`).
+2. **«Ele não.» / «Tu sim.»** Na sessão 3, quando o Quasi pegou na adaga pela primeira vez, o Lucan ouviu uma voz: «Ele não.» (registado agora como `e-s3-28`). Na sessão 6, ao chegar ao obelisco, à distância e sem lhe tocar, o Lucan ouve a mesma voz: «Tu sim.» A voz é de Baeshra, a mesma que mais tarde diz «Ele agora também te vê».

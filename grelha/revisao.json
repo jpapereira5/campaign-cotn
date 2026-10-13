@@ -1622,6 +1622,24 @@
         "registo/decisoes.md 2026-10-12 #19"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-p6-13",
+      "at": "2026-10-13T01:40:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "Ao chegar ao obelisco, à distância e sem lhe tocar, o Lucan ouve a voz de Baeshra: «Tu sim.» É a resposta ao «Ele não.» que ouviu quando o Quasi pegou na adaga pela primeira vez (S3).",
+      "suggestion": "À distância do obelisco, sem tocar, o Lucan ouve Baeshra: «Tu sim.» (eco do «Ele não.» da S3).",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #2",
+        "e-s3-28",
+        "t-agenda-baeshra-lucan"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
