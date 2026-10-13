@@ -1485,13 +1485,13 @@
         "row": "t-laco-isco-elmiro",
         "col": "s6"
       },
-      "text": "O Elmiro, que entregou a Lia ao sargento «pela segurança de todos», vê no forte o que é perigo a sério. Cena para o Isco: o rapaz pede-lhe perdão, ou pede-lhe que fique com ele quando a patrulha se desfizer.",
+      "text": "O Elmiro, que entregou a Lia ao sargento «pela segurança de todos», vê no forte o que é perigo a sério. Cena para o Isco: o rapaz pede-lhe perdão, ou pede-lhe que fique com ele quando a patrulha se desfizer. [substituída: o Elmiro desaparece depois do primeiro flash do Isco, decisão 2026-10-13 #15]",
       "because": [
         "e-s5-24",
         "e-s5-10",
         "registo/decisoes.md 2026-10-12 #14"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "factKind": "cena",
       "suggestion": "O Elmiro, que entregou a Lia ao sargento «pela segurança de todos», vê no forte o que é perigo a sério. Cena para o Isco: o rapaz pede-lhe perdão, ou pede-lhe que fique com ele quando a patrulha se desfizer."
     },
@@ -1684,8 +1684,8 @@
         "col": "s6"
       },
       "factKind": "pista",
-      "text": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem de missão assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «sem missão da ordem».",
-      "suggestion": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem de missão assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «sem missão da ordem».",
+      "text": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «razões pessoais, sem missão da ordem»: não mentiu, ocultou.",
+      "suggestion": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «razões pessoais, sem missão da ordem»: não mentiu, ocultou.",
       "because": [
         "registo/decisoes.md 2026-10-13 #10"
       ],
@@ -1720,6 +1720,26 @@
       "suggestion": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz. Lê mentes também.",
       "because": [
         "registo/decisoes.md 2026-10-13 #7"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-19",
+      "at": "2026-10-13T02:45:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "Se o grupo ainda estiver com a patrulha à noite: primeiro flash de Ruidus. O Isco acorda de um pesadelo em que matou o Elmiro; de manhã ninguém sabe do Elmiro. Não se explica.",
+      "suggestion": "Primeiro flash de Ruidus: o Isco acorda de um pesadelo em que matou o Elmiro; de manhã o Elmiro desapareceu.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #15",
+        "r-pc-isco-ruidusborn"
+      ],
+      "tags": [
+        "so-dm"
       ],
       "status": "aberta"
     }

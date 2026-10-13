@@ -17,4 +17,4 @@ O pai biológico da Lia é o Intendente Duarte Mirim, da Dinastia Kryn. O exposi
 
 - Sessão 5: as duas vezes que o Lucan pega na adaga, a fome baixa e o olhar vai para a Lia.
 - Jigau (`b-1-mirimm-reconhece`): o Mirim reconhece a lâmina; se a Lia estiver perto, pode reconhecer mais do que isso.
-- Por decidir: o Mirim sabe que tem uma filha? O expositor sabe de quem ela é?
+- O Mirim julga que a filha morreu em bebé (foi o que a mãe lhe disse); o expositor não sabe que o pai biológico é o Mirim (Decidido pelo DM (2026-10-13)).
