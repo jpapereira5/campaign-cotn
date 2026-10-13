@@ -44,4 +44,6 @@ Salvar a filha do typhros.
 
 **É o pai adotivo** (Decidido pelo DM (2026-10-12)): a mãe entregou-lha em mão, e o pai biológico da Lia é o Intendente Duarte Mirim (`r-pc-lia-filha-de-mirim`). Ele sabe-o? Por decidir.
 
+**O rasto no Forte Ventura** (Decidido pelo DM (2026-10-13)): passou pelo forte há dois anos, a caminho de Jigau, com uma ordem de missão oficial assinada pela Yudala Fon (escolta imperial, acesso a Jorhas pela guarnição a sul do pântano, estadia no forte, proteção na travessia). A Sia Kresh disse à Lia que ele partiu sem missão da ordem: uma das duas versões é mentira. Fica no livro de registos do forte, na tenda do comandante.
+
 Percurso: Bazzoxan (a mãe conta-lhe que a Dinastia estuda o rubídio como cura; oferece-se para arranjar mais) → atravessa a Ascensão (pouco rubídio ali) → Ank'Harel (a Alma de Cobalto diz-lhe que a fonte passa por lá) → Heart of Despair, puxado pelo Alyxian, corrupção 5 ou 6. Procura a cura no rubídio, e é o rubídio que acorda a alma dela. Os vestígios dele podem aparecer perto do final do Fritz na Ascensão («havia outro… não parou»).
