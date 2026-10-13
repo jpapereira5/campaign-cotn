@@ -38,4 +38,4 @@ Em Urzin, o Morgid leva o Lucan (ou o Lucan procura-o) ao pai: um lizardfolk vel
 
 ## Notas
 
-PROPOSTA. Pista 2 de r-pc-baeshra-cla-ro (a 3.ª: o seguidor da tatuagem em Jigau, ou a estátua de Asarius por um gladiador velho). Cria tensão direta com a carta a Duarte Mirim que o grupo leva.
+Decidido pelo DM (2026-10-13): fica. Pista 2 de r-pc-baeshra-cla-ro (a 3.ª: o seguidor da tatuagem em Jigau, ou a estátua de Asarius por um gladiador velho). Cria tensão direta com a carta a Duarte Mirim que o grupo leva.

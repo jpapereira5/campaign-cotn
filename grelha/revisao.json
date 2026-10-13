@@ -1650,12 +1650,13 @@
         "col": "ch1"
       },
       "factKind": "cena",
-      "text": "Um caçador das Claret Orders já está em Jigau, sem saber que o Isco é o rapaz do sonho. Cruzam-se antes de qualquer um dos dois perceber.",
-      "suggestion": "Um caçador das Claret Orders em Jigau, ainda sem saber que o Isco é o rapaz do sonho.",
+      "text": "Um caçador das Claret Orders em Jigau anda atrás do Anzol (um morto que anda e come carne crua). Dá com o Isco a usar o rito de sangue da Ordem: «quem te ensinou isso?»",
+      "suggestion": "Um caçador das Claret Orders em Jigau anda atrás do Anzol (um morto que anda e come carne crua). Dá com o Isco a usar o rito de sangue da Ordem: «quem te ensinou isso?»",
       "because": [
         "registo/decisoes.md 2026-10-13 #5",
         "f-claret-orders",
-        "t-agenda-caca-isco"
+        "t-agenda-caca-isco",
+        "registo/decisoes.md 2026-10-13 #20"
       ],
       "status": "aberta"
     },
@@ -1716,8 +1717,8 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz. Lê mentes também.",
-      "suggestion": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz. Lê mentes também.",
+      "text": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz (corrupção de rubídio). Lê mentes também, por ser Hollow One.",
+      "suggestion": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz (corrupção de rubídio). Lê mentes também, por ser Hollow One.",
       "because": [
         "registo/decisoes.md 2026-10-13 #7"
       ],
@@ -1762,6 +1763,182 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-p6-21",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O faro e o colar da Bolbara põem o Isco à frente da perseguição, a ler o rasto de relâmpagos.",
+      "suggestion": "O faro e o colar da Bolbara põem o Isco à frente da perseguição, a ler o rasto de relâmpagos.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #20"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-22",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "As notas do Perestrelo (o Damião sabe lê-las): estudava a maldição da Bolbara; os envios de rubídio da Miríade iam para a Doolan Tversky. O Alberto reconhece o nome.",
+      "suggestion": "As notas do Perestrelo (o Damião sabe lê-las): estudava a maldição da Bolbara; os envios de rubídio da Miríade iam para a Doolan Tversky. O Alberto reconhece o nome.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #22"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-23",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-bolbara",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "Se a Bolbara voltar a si, diz ao Quasi só isto: «Essa maldição não se tira, abre-se. Alguém tem de olhar.»",
+      "suggestion": "Se a Bolbara voltar a si, diz ao Quasi só isto: «Essa maldição não se tira, abre-se. Alguém tem de olhar.»",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #22",
+        "r-pc-quasi-cura"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-24",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "ch1"
+      },
+      "factKind": "pista",
+      "text": "Vida de Jigau (Zolaed): uma briga de miúdos; ela faz ao pequeno Duarte Mirim a cicatriz vertical por cima de um olho. Reconhece-a no rosto do Intendente.",
+      "suggestion": "Vida de Jigau (Zolaed): uma briga de miúdos; ela faz ao pequeno Duarte Mirim a cicatriz vertical por cima de um olho. Reconhece-a no rosto do Intendente.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #21"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-p6-25",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "ch1"
+      },
+      "factKind": "cena",
+      "text": "Os fiéis de Baeshra: um gladiador liberto com a caveira de chifres tatuada ajoelha perante os olhos negros do Lucan. Querem vê-lo vencer.",
+      "suggestion": "Os fiéis de Baeshra: um gladiador liberto com a caveira de chifres tatuada ajoelha perante os olhos negros do Lucan. Querem vê-lo vencer.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #19"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-26",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "ch1"
+      },
+      "factKind": "pista",
+      "text": "No laboratório do Velnari, o cristal de rubídio aquece quando o Quasi se aproxima: a maldição e o rubídio têm a mesma fonte.",
+      "suggestion": "No laboratório do Velnari, o cristal de rubídio aquece quando o Quasi se aproxima: a maldição e o rubídio têm a mesma fonte.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #22",
+        "r-pc-quasi-lua-vermelha"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-27",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "ch1"
+      },
+      "factKind": "cena",
+      "text": "O sonho do Caçador afogado dá ao Isco um nome (o do Caçador) e um sítio (um forte da Ordem). Na competição, a Ayo Jabe quer-o no barco dela.",
+      "suggestion": "O sonho do Caçador afogado dá ao Isco um nome (o do Caçador) e um sítio (um forte da Ordem). Na competição, a Ayo Jabe quer-o no barco dela.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #20"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p6-28",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "ch2"
+      },
+      "factKind": "cena",
+      "text": "Na emboscada do aboleto na viagem de mar, um náufrago: o Belmiro, contramestre do Scylla, que cortou a corda do Isco.",
+      "suggestion": "Na emboscada do aboleto na viagem de mar, um náufrago: o Belmiro, contramestre do Scylla, que cortou a corda do Isco.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #20",
+        "r-pc-corda-cortada"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-p6-29",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "ch2"
+      },
+      "factKind": "pista",
+      "text": "«A renda»: cada toque num obelisco paga uma prestação da dívida de Baeshra a Vecna. Baeshra pede (não manda) ao Lucan que ative o obelisco do mar.",
+      "suggestion": "«A renda»: cada toque num obelisco paga uma prestação da dívida de Baeshra a Vecna. Baeshra pede (não manda) ao Lucan que ative o obelisco do mar.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #19",
+        "r-pc-baeshra-vecna"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-p6-30",
+      "at": "2026-10-13T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "ch2"
+      },
+      "factKind": "pista",
+      "text": "A primeira marca física do typhros, que ela esconde.",
+      "suggestion": "A primeira marca física do typhros, que ela esconde.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #21"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
