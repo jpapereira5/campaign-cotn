@@ -2037,6 +2037,44 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-d15-04",
+      "at": "2026-10-15T05:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "ch2"
+      },
+      "factKind": "cena",
+      "text": "Sonho na viagem a Bazzoxan, antes das Ruínas: a mulher da primeira vida revê a véspera da Ascensão; o Alyxian pede-lhe que se lembre deles se ele cair. Sem explicação; o nome que fica é «Alyxian».",
+      "suggestion": "Sonho na viagem a Bazzoxan, antes das Ruínas: a mulher da primeira vida revê a véspera da Ascensão; o Alyxian pede-lhe que se lembre deles se ele cair. Sem explicação; o nome que fica é «Alyxian».",
+      "because": [
+        "registo/decisoes.md 2026-10-15 #9"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d15-05",
+      "at": "2026-10-15T05:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "ch3"
+      },
+      "factKind": "cena",
+      "text": "Visão da Ascensão (livro): é a memória do Alyxian, que dá a companhia toda como morta. A Lia sabe que está errada: ela sobreviveu. É por isso que ele não a reconhece.",
+      "suggestion": "Visão da Ascensão (livro): é a memória do Alyxian, que dá a companhia toda como morta. A Lia sabe que está errada: ela sobreviveu. É por isso que ele não a reconhece.",
+      "because": [
+        "registo/decisoes.md 2026-10-15 #10"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
