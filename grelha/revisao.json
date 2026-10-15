@@ -1977,6 +1977,26 @@
         "registo/decisoes.md 2026-10-13 #27"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-d15-01",
+      "at": "2026-10-15T02:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "ch1"
+      },
+      "factKind": "pista",
+      "text": "Visão da Jóia: a Lia vê o Alyxian de outro ângulo, ao lado dele, como companheira de armas na Calamidade (a primeira vida consecutada, antes da Mirimm). Ninguém explica nada. O Alyxian não a reconhece.",
+      "suggestion": "Na visão da Jóia, a Lia vê o Alyxian de lado, como quem lutava com ele; uma sensação física de já ter estado ali. Sem nome e sem explicação.",
+      "because": [
+        "registo/decisoes.md 2026-10-15 #1",
+        "registo/decisoes.md 2026-10-15 #3"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

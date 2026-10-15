@@ -120,3 +120,11 @@ Na revisão da Grelha (respostas às notas da migração):
 28. **Folhas de batalha e a página «Batalha».** Cada combate preparado tem uma folha em Google Doc na Session Prep («Batalha — <nome>»), pela skill `batalha`; a primeira é «Batalha — Lacedons no obelisco» (S6). Depois, o DM Dashboard ganha uma página «Batalha» para o portátil: ordem de iniciativa com barras de PV e estados (magoado/ferido), ficha do combatente, botões de variante que mostram uma descrição ao acaso sem repetir a última, tabela de zonas e eventos por ronda. Os dados da batalha ficam num ficheiro do repositório; a iniciativa, os PV e as condições gravam-se na camada do DM (`grelha/dm.json`, escrita só pela app).
 29. **Latim de dois feitiços do Quasi** (não existem no BG3, a fonte da tabela): *Silvery Barbs* «Fallere, Labere»; *Sugestão* «Audi me». Ficam em `mesa/regras.md`.
 30. **O lacedon de farda é o Tibério, guarda da capela do Forte Ventura,** morto na noite do dia 3. O Corvelo reconhece-lhe a cara. **Expulsar Mortos-Vivos da Lia pode acabar o combate numa ação:** é a cena dela; os que fogem vão todos para o lado da Bolbara.
+
+## Decidido pelo DM (2026-10-15)
+
+1. **A primeira vida consecutada da Lia foi ao lado do Alyxian, como companheira de armas.** A alma dela é uma das primeiras ligadas ao primeiro farol, há cerca de um milénio, em plena Calamidade (EGtW: os drow encontraram-no ainda sob Lolth, e a Rainha Brilhante estava lá). Nessa vida era uma drow que desertou dos Deuses Traidores para lutar com o Alyxian. Vem antes da Mirimm e não substitui nenhuma das cinco vidas dos sonhos.
+2. **O Alyxian não a reconhece.** Ele teme ter sido esquecido, e foi ele que a esqueceu.
+3. **O primeiro sinal à mesa é a visão da Jóia** (`b-1-jewel-vision`, cap. 1). A Lia vê o Alyxian de outro ângulo, como alguém que estava ao lado dele.
+4. **Ficam de fora:** a «vida zero» anterior à consecução; substituir uma das cinco vidas; o Alyxian a reconhecê-la.
+
