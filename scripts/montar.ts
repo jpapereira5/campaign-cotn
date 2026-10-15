@@ -16,7 +16,7 @@ const warns = problemas.filter((p) => p.level === 'warn')
 for (const p of errors) console.error(`✖ ${p.where}: ${p.message}`)
 if (process.argv.includes('--warn') || process.argv.includes('-w')) for (const p of warns) console.warn(`⚠ ${p.where}: ${p.message}`)
 
-const dados = { geradoEm: new Date().toISOString(), docs: arvore.docs, livro: arvore.livro, grelha: arvore.grelha }
+const dados = { geradoEm: new Date().toISOString(), docs: arvore.docs, livro: arvore.livro, grelha: arvore.grelha, batalhas: arvore.batalhas ?? {} }
 const dir = join(raiz, 'src/generated')
 mkdirSync(dir, { recursive: true })
 writeFileSync(join(dir, 'dados.json'), JSON.stringify(dados) + '\n')
@@ -29,6 +29,6 @@ const capitulos = Array.isArray(p.campanha?.meta.capitulos) ? p.campanha!.meta.c
 console.log(
   `estrutura: ${arvore.docs.length} ficheiros · capítulos ${capitulos} · personagens ${p.personagens.length} · fações ${p.facoes.length} · locais ${p.locais.length} · itens ${p.itens.length} · segredos ${p.segredos.length} · beats ${p.beats.length} · fios ${p.fios.length} · relações ${relacoes}`,
 )
-console.log(`registo: ${estado.mesa.sessoes.filter((s) => s.jogada).length} sessões jogadas · ${acontecimentos} acontecimentos · próxima S${estado.mesa.proximaN} · camada do DM: ${Array.isArray(arvore.grelha.dm) ? arvore.grelha.dm.length : 0} entradas`)
+console.log(`registo: ${estado.mesa.sessoes.filter((s) => s.jogada).length} sessões jogadas · ${acontecimentos} acontecimentos · próxima S${estado.mesa.proximaN} · camada do DM: ${Array.isArray(arvore.grelha.dm) ? arvore.grelha.dm.length : 0} entradas · batalhas ${Object.keys(arvore.batalhas ?? {}).length}`)
 console.log(`${errors.length} erro(s), ${warns.length} aviso(s)${warns.length && !process.argv.includes('--warn') ? ' (usa --warn para os ver)' : ''}`)
 if (errors.length) process.exitCode = 1

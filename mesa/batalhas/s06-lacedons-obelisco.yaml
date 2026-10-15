@@ -1,0 +1,672 @@
+# Batalha da S6 (skill batalha). Folha: «Batalha — Lacedons no obelisco v2» (Drive, Session Prep).
+# O estado do combate (iniciativa, PV, condições) não vive aqui: é da app, em grelha/dm.json.
+id: s06-lacedons-obelisco
+nome: Lacedons no obelisco
+sessao: s6
+onde: Bacia do menir, Pântano do Véu-Quebrado · meio-dia do dia 4
+doc: https://docs.google.com/document/d/1rLc41p7qXBhKUgBGTbIbgZTWVrA54OgV3pot3NPhfOc/edit
+resumo: '5 lacedons: dois saem de debaixo da jangada (a Lia e o Alex), três vêm pelos flancos. É o momento da Lia. A pedra não mexe com ninguém durante a luta. 3 a 4 rondas.'
+lembretes:
+- 'Elfos imunes à paralisia: a Lia (drow) e a Nália (elfa).'
+- 'Sol do meio-dia: a Lia ataca com desvantagem; Chama Sagrada, Comando e Raio Lunar são salvaguardas e não sofrem.'
+- 'Os lacedons percebem goblin: Comando resulta. Sugestão e Sono não.'
+- 'Expulsar Mortos-Vivos: SAB CD 13 contra +0; pode acabar o combate e o DM deixa.'
+- 'Não há surpresa: o Isco cheira-os e ninguém tem passiva abaixo de 12.'
+- 'A fome do Lucan: mortos-vivos não saciam. A Fera a 0 PV trinca o mais perto.'
+terreno:
+- nome: A bacia
+  texto: Água rasa até ao joelho, fundo de lodo. Terreno difícil para quem anda; os lacedons nadam (9 m).
+- nome: Submersos
+  texto: Debaixo de água turva estão escondidos; saem e atacam no mesmo turno. O Isco ouve-os e cheira-os sempre.
+- nome: A jangada
+  texto: '3 × 3 m. Quando um lacedon a puxa por baixo: DES CD 10 para quem está em cima, ou cai à água.'
+- nome: O saco da Lia
+  texto: Machado e símbolo saem com a interação gratuita; o escudo leva uma ação; o gibão, 5 minutos. CA 12 / 14 com escudo.
+- nome: Juncos
+  texto: Meia cobertura; é por aí que a Sousela aparece.
+- nome: O menir
+  texto: A 30 passos. O tempo lento da pedra não afeta ninguém durante a luta.
+- nome: Luz e som
+  texto: Sol a pino. As rãs calam-se quando o primeiro lacedon sai da água e só voltam no fim.
+modelos:
+  lacedon:
+    lado: inimigo
+    ca: 12
+    pv: 22
+    ini: 2
+    resumo: Ghoul aquático goblinóide · 9 m, natação 9 m · imune a veneno, enfeitiçado, exaustão, envenenado · percebe goblin
+    notas:
+    - 'Querem comer: vão ao mais fraco, ao caído e ao paralisado (Alex, Elmiro, Damião).'
+    - 'Arrastam paralisados para a água: uma ronda para alguém o tirar.'
+    - Com dois ou na 4.ª ronda, mergulham e vão-se para o lado da Bolbara.
+    acoes:
+    - nome: Garras
+      mecanica: '+4, 1,5 m, 2d4+2 cortante. Alvo que não seja elfo nem morto-vivo: CON CD 10 ou paralisado 1 minuto (repete no fim de cada turno).'
+      falha:
+      - As garras riscam a água a um palmo da tua perna e levantam lodo.
+      - Unhas pretas, partidas, passam-te pela cara; sentes-lhes o frio, não o toque.
+      - Agarra a tua roupa em vez de ti e fica com um farrapo entre os dedos.
+      magoa:
+      - Três riscos no antebraço, rasos, que ardem como sal numa ferida.
+      - As unhas entram na coxa e saem; o sangue mistura-se com a água.
+      - Rasga-te o ombro por cima da roupa; um frio que não é da água sobe-te pelo braço.
+      fere:
+      - As garras afundam-se nas costelas e ficam lá; ele puxa e tu vens com elas.
+      - Abre-te a face do queixo à orelha; o mundo fica dormente desse lado.
+      - Fecha a mão no teu pulso e aperta até os dedos deixarem de responder.
+      critico:
+      - As unhas entram fundo no pescoço; o corpo esquece-se de como se mexe antes de a dor chegar.
+      - Quatro dedos atrás da clavícula, como ganchos; ele usa-os para te puxar para a boca.
+      - Arranca-te um pedaço da barriga do braço e mete-o à boca à tua frente.
+      final:
+      - Cais de costas na água rasa; o céu fica azul por cima, e as rãs calaram-se.
+      - Ele monta-te o peito e baixa a cabeça para comer; é aí que o mundo se apaga.
+      - A água entra-te na boca, morna; a última coisa que ouves é a corda da jangada a ranger.
+      pergunta: Como queres cair?
+    - nome: Mordida
+      mecanica: +2, 1,5 m, 2d6+2 perfurante.
+      falha:
+      - Os dentes fecham-se no ar com um estalo de osso.
+      - Morde o escudo, ou a arma, e parte um dente; não pára.
+      - Atira-se e cai de cara na água ao teu lado.
+      magoa:
+      - Dentes amarelos no braço, um puxão, e larga.
+      - Morde a perna por cima da bota; sente-se-lhe a língua, áspera como cortiça.
+      - Apanha-te a mão e fica com sangue nos dentes; lambe-os.
+      fere:
+      - Fecha os dentes no ombro e sacode a cabeça como um cão com um rato.
+      - Morde por baixo do braço e arranca carne; mastiga enquanto olha para ti.
+      - Os dentes chegam ao osso da canela; ouves o som antes de o sentir.
+      critico:
+      - Ferra-te o pescoço por trás e não larga; o hálito é de pântano velho.
+      - Arranca-te uma orelha, ou dois dedos (escolhe o jogador), e engole.
+      - Morde a cara de quem está paralisado; ninguém à volta consegue desviar os olhos.
+      final:
+      - Cais de costas na água rasa; o céu fica azul por cima, e as rãs calaram-se.
+      - Ele monta-te o peito e baixa a cabeça para comer; é aí que o mundo se apaga.
+      - A água entra-te na boca, morna; a última coisa que ouves é a corda da jangada a ranger.
+      pergunta: Como queres cair?
+    - nome: Paralisia (falha no save)
+      mecanica: CON CD 10; elfos e mortos-vivos imunes.
+      efeito:
+      - O frio sobe do ferimento e trava-te os músculos um a um; ficas de pé, sem poder cair.
+      - Os dedos abrem-se sozinhos e a arma cai à água; não a consegues ir buscar.
+      - Ficas com os olhos abertos; vês tudo e não pestanejas.
+combatentes:
+- id: lacedon-1
+  nome: Lacedon 1
+  modelo: lacedon
+  grupo: lacedons-jangada
+  aspeto: Goblin, sem lábios, a pele pendurada como pano molhado
+  notas:
+  - Debaixo da jangada; vai à Lia.
+- id: lacedon-2
+  nome: Lacedon 2
+  modelo: lacedon
+  grupo: lacedons-jangada
+  aspeto: Hobgoblin magro, um olho branco, cordas de alga presas aos dentes
+  notas:
+  - Debaixo da jangada; vai ao Alex.
+- id: tiberio
+  nome: Tibério (lacedon 3)
+  modelo: lacedon
+  grupo: lacedons-flancos
+  aspeto: 'Humano: farda imperial rasgada, insígnia da guarnição do Forte Ventura'
+  notas:
+  - 'Guarda da capela, morto na noite do dia 3. O Corvelo reconhece-lhe a cara: «Tibério. Estava de guarda à capela.»'
+  - Flanco esquerdo; vai ao Elmiro.
+- id: lacedon-4
+  nome: Lacedon 4
+  modelo: lacedon
+  grupo: lacedons-flancos
+  aspeto: Goblin pequeno, a barriga inchada de água
+  notas:
+  - Flanco esquerdo; vai ao Damião. Na barriga, um dente de ouro que não é dele.
+- id: lacedon-5
+  nome: Lacedon 5
+  modelo: lacedon
+  grupo: lacedons-flancos
+  aspeto: Bugbear, o maior, falta-lhe o queixo
+  notas:
+  - Flanco direito; vai a quem estiver mais à frente (Casqueiro ou Lucan).
+- id: lucan
+  nome: Lucan «Anzol» Bruma
+  lado: pc
+  ref: c-pc-lucan
+  ca: 15 (17 com escudo)
+  resumo: Bárbaro, Caminho da Fera · Renata · deslocamento 10,5 m
+  equipamento: Escudo de carapaça, maço de fémur, o crânio cornudo do altar
+  notas:
+  - Mortos-vivos comem-se, mas não saciam.
+  - 'A Fera a 0 PV: trinca o mais perto, amigo ou inimigo.'
+  acoes:
+  - nome: Fúria Tranquila (entrar)
+    efeito:
+    - Dobra-se como se lhe tivessem dado um soco no estômago; quando se endireita, os olhos estão da cor de sangue seco.
+    - Não grita. Fica muito quieto, e a pele das costas abre-se para deixar sair a cauda.
+    - A cauda bate na água uma vez e a água inteira treme; os lacedons viram a cabeça para ele.
+    mecanica: Ação bónus. Ataque Imprudente disponível.
+  - nome: Maço de fémur
+    mecanica: ficha (D&D Beyond)
+    falha:
+    - O osso desce e afunda-se no lodo onde o lacedon estava há meio segundo.
+    - Bate no ombro de raspão; o lacedon nem dá por isso.
+    - O lacedon mergulha; o maço levanta uma coluna de água.
+    magoa:
+    - 'Fémur contra crânio: um som oco, de cabaça.'
+    - Partes-lhe o braço; ele olha para o braço, depois para ti.
+    - O golpe tira-lhe três dentes, que boiam.
+    fere:
+    - A cabeça amolga-se para dentro como um ovo cozido; ele continua de pé.
+    - Afundas-lhe as costelas; sai água pela boca dele.
+    - O golpe atira-o de costas na água; levanta-se mais devagar.
+    critico:
+    - 'Osso contra osso, e o teu ganha: a cabeça dele vira-se para trás.'
+    - O maço entra-lhe no peito e fica preso; tens de o arrancar com o pé.
+    - Parte-lhe as duas pernas de um golpe; arrasta-se para ti com os braços.
+    final:
+    - O maço desce, e o que fica não volta a levantar-se; o Lucan fica a olhar para o corpo um segundo a mais.
+    - A cauda prende-o e o Lucan morde-lhe o pescoço; sabe a cinza molhada. A fome não passa.
+    - Arranca-lhe a cabeça com as mãos e atira-a para longe, na direção da pedra.
+  - nome: Cauda
+    mecanica: Alcance 3 m, 2d8+4 perfurante (ficha)
+    falha:
+    - A cauda chicoteia e corta juncos em vez de carne.
+    - Os espigões riscam a água a um palmo dele.
+    - A cauda bate na jangada; toda a gente lá em cima se agarra.
+    magoa:
+    - Os espigões abrem-lhe três furos no flanco; não sai sangue, sai lodo.
+    - A cauda apanha-o pelas pernas e deita-o na água.
+    - Um espigão espeta-se no ombro e sai com carne cinzenta agarrada.
+    fere:
+    - A cauda enrola-lhe o pescoço e aperta; ouve-se estalar.
+    - Os espigões entram na barriga e rasgam para o lado.
+    - Atira-o contra o lacedon do lado; caem os dois.
+    critico:
+    - A cauda atravessa-o de lado a lado e levanta-o no ar, espetado.
+    - Um espigão entra-lhe pela boca e sai pela nuca.
+    - A cauda bate-lhe na cabeça com o peso de um remo de galé; a cabeça deixa de estar lá.
+    final:
+    - O maço desce, e o que fica não volta a levantar-se; o Lucan fica a olhar para o corpo um segundo a mais.
+    - A cauda prende-o e o Lucan morde-lhe o pescoço; sabe a cinza molhada. A fome não passa.
+    - Arranca-lhe a cabeça com as mãos e atira-a para longe, na direção da pedra.
+  - nome: Reação da cauda (+1d8 CA)
+    efeito:
+    - A cauda põe-se entre ti e as garras; as unhas raspam espigões.
+    - A cauda desvia o braço dele no último instante.
+    - A cauda enrola-se à tua frente como um escudo vivo.
+  - nome: A Fera a 0 PV
+    efeito:
+    - Devia cair, e não cai; levanta-se com a água a escorrer, procura o corpo mais perto e trinca-o.
+    - Os olhos apagam-se e voltam vermelhos; morde o que está caído ao lado dele, seja quem for. Só depois cai.
+    - 'Ao fundo, sem ninguém a gritar, ouve uma multidão: «Lucan, Lucan, Lucan!».'
+    mecanica: 'Não cai: trinca a criatura caída mais próxima, amiga ou inimiga, e só depois cai.'
+- id: isco
+  nome: Ruín «Isco» Bruma
+  lado: pc
+  ref: c-pc-isco
+  ca: ficha (17 transformado)
+  resumo: Blood Hunter 3, Ordem do Licano · Pedro Ropio · 9 m, natação
+  equipamento: Flamberge, maço de fémur, besta ligeira, 4 dardos, o colar da Bolbara, o mapa do Morgid
+  notas:
+  - 'Não é surpreendido: cheira carne morta antes de os ver (passiva 24 com faro).'
+  acoes:
+  - nome: Transformação (a segunda)
+    efeito:
+    - Os dentes descem em fila dupla; o pescoço engrossa e as fendas das guelras abrem-se.
+    - Cresce um palmo; a pele fica lisa e cinzenta como a de um tubarão-azul.
+    - Faíscas entre os dentes; cheira a trovoada, aqui, ao meio-dia.
+    mecanica: 'Ação bónus: +7 PV temporários, CA 17.'
+  - nome: Rito Carmesim (ativar)
+    efeito:
+    - Passa a palma pela lâmina ondulada e o sangue corre pelas ondas do aço e acende-se.
+    - O sangue entra nas ondulações da lâmina como água num canal.
+    - Morde o próprio polegar e esfrega a lâmina; o metal fica quente.
+    mecanica: Conforme a ficha.
+  - nome: Greatsword (flamberge)
+    mecanica: ficha (Bait_CampaignFlat.pdf)
+    falha:
+    - A lâmina ondulada corta a água e levanta um leque de gotas.
+    - O lacedon abaixa-se; a espada corta juncos.
+    - Batida no escudo de alguém ao lado; desculpa à pressa.
+    magoa:
+    - As ondas da lâmina rasgam em vez de cortar; a carne sai aos farrapos.
+    - Corte no ombro, fundo, sem sangue.
+    - Apanha-lhe a mão das garras e leva-lhe dois dedos.
+    fere:
+    - Abre-o da clavícula ao umbigo; ele dobra-se e continua.
+    - Corta-lhe a perna pelo joelho; ajoelha-se na água.
+    - A lâmina entra no flanco e as ondas prendem-se nas costelas.
+    critico:
+    - Um arco inteiro, e a cabeça voa e cai na água a três metros.
+    - Corta-o ao meio pela cintura; as duas metades mexem-se.
+    - A lâmina entra pelo ombro e só pára na anca.
+    final:
+    - A flamberge entra e roda; o lacedon desmancha-se como pão molhado.
+    - Morde e não larga até a faísca acabar; quando abre a boca, não há nada para largar.
+    - 'Pisa-o para debaixo de água e fica em cima até as bolhas pararem. Não há bolhas: não respira.'
+  - nome: Mordida elétrica
+    mecanica: 14 de dano num acerto; ao falhar morde a língua (3 de dano a si próprio)
+    falha:
+    - Os dentes fecham-se no ar e apanham a tua própria língua; sabes a cobre.
+    - A faísca salta, mas para dentro; o maxilar treme.
+    - Morde água; a descarga sobe-te pelos dentes.
+    magoa:
+    - Dentes triangulares no braço dele; uma faísca azul e cheiro a carne queimada.
+    - Morde e larga; o lacedon treme da cabeça aos pés.
+    - A descarga passa-lhe pela água à volta dos pés e faz-lhe saltar as pernas.
+    fere:
+    - Arranca-lhe a garganta; a faísca acende-lhe os olhos por dentro.
+    - Morde o ombro e sacode; o braço vem atrás.
+    - A descarga pára-lhe os músculos; fica rígido, de boca aberta.
+    critico:
+    - Morde-lhe a cara e a descarga rebenta-lhe a cabeça em vapor.
+    - Fecha os dentes no pescoço e a eletricidade corre a água à volta; os peixes mortos vêm à tona.
+    - Arranca-lhe o tronco a meio; fica com metade na boca.
+    final:
+    - A flamberge entra e roda; o lacedon desmancha-se como pão molhado.
+    - Morde e não larga até a faísca acabar; quando abre a boca, não há nada para largar.
+    - 'Pisa-o para debaixo de água e fica em cima até as bolhas pararem. Não há bolhas: não respira.'
+  - nome: Besta ligeira
+    mecanica: ficha
+    falha:
+    - O virote entra na água com um «tchac» e desaparece.
+    magoa:
+    - Virote no ombro; ele nem olha.
+    fere:
+    - Virote no olho bom; anda às voltas.
+    critico:
+    - Virote na boca aberta; sai pela nuca e espeta-se num tronco.
+- id: quasi
+  nome: Quasimodo «Quasi»
+  lado: pc
+  ref: c-pc-quasi
+  ca: ficha
+  resumo: Bardo, Colégio do Saber · Pedro Silva · 9 m
+  equipamento: Adaga +1, garra de seis dedos, varinha de osso, alaúde
+  notas:
+  - Sugestão falha (imunes a enfeitiçado).
+  acoes:
+  - nome: Adaga +1
+    mecanica: ficha (D&D Beyond)
+    falha:
+    - A adaga risca o ar onde a cara dele estava.
+    - O lacedon apanha-lhe o pulso; ele solta-se com um passo de dança.
+    - A lâmina bate em osso e escorrega.
+    magoa:
+    - Entra entre duas costelas, rápida, e sai.
+    - Um corte fino no pescoço, preciso como um traço de pena.
+    - Espeta a mão das garras à jangada por um instante.
+    fere:
+    - A adaga entra no olho e ele recua a gemer sem voz.
+    - Corta-lhe os tendões do joelho; cai de lado.
+    - Três golpes rápidos no mesmo sítio; o terceiro já não encontra resistência.
+    critico:
+    - A lâmina entra por baixo do queixo até ao punho.
+    - Gira à volta dele e corta-lhe o pescoço por trás; a cabeça pende.
+    - A adaga do altar brilha um instante; o corte fecha-se em gelo à volta da lâmina.
+    final:
+    - Inclina a máscara, como quem cumprimenta um público, e enterra a adaga na nuca.
+    - Toca uma nota que não é de alaúde, e o lacedon desfaz-se na água como cera.
+    - Faz uma vénia sobre o corpo; ninguém lhe vê a cara, e toda a gente imagina.
+  - nome: Escárnio Cruel
+    efeito:
+    - «Até os teus vermes têm vergonha de ti.» O lacedon hesita, ofendido sem saber porquê.
+    - Uma gargalhada fina através da máscara; a garra que vinha pára a meio.
+    - Canta o nome dele em vida, desafinado; o lacedon leva as mãos à cabeça.
+    mecanica: SAB save, 1d4 psíquico e desvantagem no próximo ataque.
+    componentes: V · sem latim (é o insulto)
+  - nome: Sussurros Dissonantes
+    efeito:
+    - Diz «Dolor» só para ele; o lacedon foge pela água como se o chamassem de casa.
+    - Uma melodia que só um ouve; vira costas e corre, e passa ao lado do machado do Corvelo.
+    - O lacedon grita sem voz e mergulha para fugir de alguma coisa dentro da cabeça.
+    mecanica: SAB save, 3d6 psíquico e foge (ataque de oportunidade; usa o próprio movimento).
+    componentes: V · «Dolor»
+  - nome: Fogo das Fadas
+    efeito:
+    - «Te video.» Os lacedons debaixo de água acendem-se de violeta; vê-se onde estão.
+    - A luz pega-se-lhes como pólen; ficam desenhados contra o sol.
+    - Um deles mergulha e a luz vai com ele, a tremer debaixo da água.
+    mecanica: DES save; vantagem nos ataques contra eles, não se escondem.
+    componentes: V · «Te video, Ubi es?»
+  - nome: Palavra Curativa
+    efeito:
+    - Uma frase cantada; a ferida fecha-se com uma comichão quente.
+    - «Te curo», abafado pela máscara; quem está caído abre os olhos.
+    - Duas notas de alaúde; o sangue pára de correr.
+    mecanica: Ação bónus.
+    componentes: V · «Te curo, Vis medicatrix»
+  - nome: Silvery Barbs
+    efeito:
+    - «Fallere.» Uma palavra prateada; as garras que iam acertar resvalam.
+    - A sorte do lacedon escorrega-lhe dos dedos e cai na mão de um aliado.
+    - Um brilho de prata nos olhos dele; tropeça no próprio pé.
+    mecanica: 'Regra da mesa: o inimigo rola um terceiro d20 e usa o mais baixo entre esse e o que lhe deu o sucesso.'
+    componentes: V · «Fallere, Labere»
+  - nome: Palavras Cortantes
+    efeito:
+    - «Falhaste o pescoço por um palmo. Outra vez.» E o acerto passa a falha.
+    - Uma piada sobre a barriga dele; a garra vacila.
+    - Um acorde dissonante no instante exato; o golpe perde força.
+    mecanica: Reação.
+  - nome: 'Garra de seis dedos: Comando'
+    efeito:
+    - A garra aquece-lhe a mão por dentro da luva; «Cai!», e o lacedon cai.
+    - «Foge!» — e foge. O Quasi sente que a garra queria outra palavra.
+    - A palavra sai com uma voz que não é a dele, mais grave, mais velha.
+    mecanica: 1×/dia; resulta em goblin (e provavelmente em comum).
+    componentes: V · «Impero te, Impero tibi» + a palavra
+  - nome: Sugestão
+    efeito:
+    - Olha-te sem perceber.
+    mecanica: 'Os lacedons são imunes a enfeitiçado: falha.'
+    componentes: V, M (língua de cobra e mel ou óleo doce) · «Audi me»
+- id: lia
+  nome: Lia
+  lado: pc
+  ref: c-pc-lia
+  ca: 12 (14 com escudo)
+  pv: 24
+  ini: 2
+  resumo: Clériga 3, Crepúsculo · Camila · magias CD 13, +5 · 4×1.º, 2×2.º
+  equipamento: 'No saco, na jangada: machado, escudo, gibão (5 min, não há tempo), símbolo sagrado, besta'
+  notas:
+  - Imune à paralisia (drow).
+  - Desvantagem nos ataques ao sol; magias de save não.
+  - Comando em goblin resulta. Sono não.
+  acoes:
+  - nome: Soltar-se
+    efeito:
+    - As cordas que o Isco lhe folgou caem-lhe dos pulsos como se nunca tivessem estado lá.
+    - Puxa o pano da boca com uma mão e com a outra já está dentro do saco.
+    - Levanta-se na jangada que balança, o capote cinzento escorrega-lhe dos ombros e o cabelo branco fica ao sol.
+    mecanica: 'Ronda 1: o gatilho do combate.'
+  - nome: Machado de guerra
+    mecanica: +3, 1d8+1 (1d10+1 a duas mãos) · desvantagem ao sol
+    falha:
+    - O sol bate-lhe nos olhos no pior momento; o machado corta a água.
+    - O lacedon desvia; o machado prende-se na madeira da jangada.
+    - Golpe largo, cego de luz, que só lhe tira um farrapo da roupa.
+    magoa:
+    - O machado entra no ombro com um som de lenha molhada.
+    - Corta-lhe a mão das garras pelo pulso.
+    - Golpe de baixo para cima no queixo; a cabeça dele vai para trás.
+    fere:
+    - Abre-lhe o peito; ele olha para baixo, sem perceber.
+    - Corta-lhe a perna pela coxa; cai da borda da jangada.
+    - Duas mãos no machado, e a clavícula dele fica em duas.
+    critico:
+    - Um golpe só, e a cabeça rola pela jangada até aos pés do Alex.
+    - O machado entra no crânio até ao olho; ela tem de pôr o pé no peito dele para o tirar.
+    - Corta-o de lado a lado pela cintura; a metade de cima agarra-se à jangada.
+    final:
+    - O machado desce uma última vez, sem raiva, como quem acaba um trabalho.
+    - Pousa-lhe o símbolo sagrado na testa e diz uma palavra; a carne desfaz-se em cinza cinzenta.
+    - Fica de pé sobre ele, ao sol, de machado na mão, e a patrulha inteira olha para ela.
+  - nome: Besta leve
+    mecanica: +4, 1d8+2 · desvantagem ao sol
+    falha:
+    - O reflexo do sol na água; o virote passa alto.
+    magoa:
+    - Virote no ombro; ele vira-se para ela.
+    fere:
+    - Virote no joelho; arrasta-se.
+    critico:
+    - Virote na testa; fica de pé um segundo e cai para trás, de braços abertos.
+  - nome: Chama Sagrada
+    efeito:
+    - «Incende.» Uma coluna de luz pálida cai do céu limpo sobre o lacedon; a pele dele estala.
+    - Aponta com dois dedos; o lacedon arde por dentro, e a luz sai-lhe pelos olhos.
+    - A luz é mais lilás do que branca (ninguém repara, a não ser a Lia).
+    mecanica: DES save, 1d8 radiante; sem desvantagem do sol.
+    componentes: V, S · «Incende»
+  - nome: Comando (em goblin)
+    efeito:
+    - Uma palavra em goblin, seca, de oficial; o lacedon pára e obedece, como obedecia em vida.
+    - «Cai.» Em goblin. Cai de joelhos na água.
+    - «Larga.» E as garras abrem-se à volta do pescoço do Alex.
+    mecanica: SAB save.
+    componentes: V · «Impero te, Impero tibi» + a palavra
+  - nome: Palavra Curativa
+    efeito:
+    - «Te curo.» Uma luz de crepúsculo, cinzenta e violeta, entra na ferida e fecha-a.
+    - Fala baixo, como no turno da noite; o soldado caído respira.
+    - A ferida fecha-se e deixa um frio bom, de noite de verão.
+    mecanica: Ação bónus.
+    componentes: V · «Te curo, Vis medicatrix»
+  - nome: Bênção
+    efeito:
+    - Molha os dedos na água e asperge; a água do pântano brilha um instante ao cair.
+    - «Macte virtute.» Três pessoas sentem a mão firme no punho da arma.
+    - Toca no símbolo sagrado e depois no ombro de quem está mais perto; ele endireita-se.
+    mecanica: Concentração.
+    componentes: V, S, M (aspersão de água benta) · «Macte virtute»
+  - nome: Santuário
+    efeito:
+    - Ergue a mão sobre o Alex; o lacedon que vinha a ele vira-se para outro lado.
+    - Uma penumbra fina à volta do protegido; os lacedons olham através dele.
+    - As garras param a um palmo, como se batessem num vidro.
+    mecanica: Ação bónus; SAB save para o atacar.
+    componentes: V, S, M (pequeno espelho de prata) · «Macte virtute»
+  - nome: Expulsar Mortos-Vivos
+    efeito:
+    - Ergue o símbolo ao sol; os lacedons guincham e fogem pela água, todos para o mesmo lado.
+    - A voz dela muda, mais velha, como se já tivesse dito aquilo mil vezes; os mortos recuam.
+    - A luz que sai do símbolo é a de uma noite com estrelas, ao meio-dia; os mortos-vivos não a aguentam.
+    mecanica: SAB CD 13 a 9 m; os lacedons têm SAB +0. O DM deixa acabar o combate (decisão 30).
+    componentes: Símbolo sagrado e uma oração (sem latim)
+  - nome: Santuário Crepuscular
+    efeito:
+    - 'Ao meio-dia, à volta dela, cai o crepúsculo: luz cinzenta, uma brisa fresca, o céu escurece só ali.'
+    - O Elmiro, que estava paralisado de medo, deixa de tremer dentro da penumbra.
+    - Os soldados olham para cima, à procura de nuvens que não há.
+    mecanica: 'Esfera de 9 m, 1 minuto; quem acabar o turno dentro: 1d6+3 PV temporários, ou acaba enfeitiçado/amedrontado.'
+  - nome: Raio Lunar
+    efeito:
+    - «Ex Textura.» Uma coluna de luz de lua, prateada, ao meio-dia, no meio da água.
+    - O lacedon dentro do raio fumega como lenha verde ao lume.
+    - Ela move o raio com a mão; a água por onde passa fica a brilhar.
+    mecanica: Concentração; CON save, 2d10 radiante.
+    componentes: V, S, M (sementes de moonseed e feldspato opalescente) · «Ex Textura»
+  - nome: Sono
+    efeito:
+    - Não afeta mortos-vivos.
+    mecanica: Não serve aqui.
+    componentes: V, S, M · «Impero te, Impero tibi»
+- id: corvelo
+  nome: Corvelo
+  lado: aliado
+  ref: c-corvelo
+  ca: 17
+  pv: 45
+  ini: 1
+  resumo: Sargento · grita ordens · Passo Firme (reação, +2 CA)
+  equipamento: Sobretudo de couro, machado de abordagem, apito de osso, chave da canga
+  notas:
+  - Reconhece o Tibério.
+  acoes:
+  - nome: Machado ×2
+    mecanica: +5, 1d8+3
+    falha:
+    - O machado de abordagem crava-se num tronco submerso; puxa-o com um rosnido.
+    magoa:
+    - Um golpe curto, de quem já o deu mil vezes; o braço do lacedon fica pendurado.
+    fere:
+    - O segundo golpe vem antes de o primeiro acabar; o lacedon dobra-se.
+    critico:
+    - Corta-lhe a cabeça sem levantar a voz, e já está a olhar para o próximo.
+    final:
+    - Sopra o apito de osso uma vez, curto, e a patrulha sabe que é menos um.
+  - nome: Besta pesada
+    mecanica: +3, 1d10*
+    falha:
+    - O virote levanta água.
+    magoa:
+    - O virote pesado atira o lacedon de costas.
+    fere:
+    - O virote pesado atira o lacedon de costas.
+    critico:
+    - Atravessa-o e espeta-se no lacedon de trás.
+- id: casqueiro
+  nome: Casqueiro
+  lado: aliado
+  ref: c-casqueiro
+  ca: 18
+  pv: 22
+  ini: 0
+  resumo: Protege o Damião · «Ó amigo!»
+  equipamento: Escudo de tábuas com chapa, cota de malha, a corda da jangada
+  acoes:
+  - nome: Lança
+    mecanica: +4, 1d6+2*
+    falha:
+    - A lança desliza nas costelas molhadas.
+    magoa:
+    - Espeta-o na barriga e empurra-o para trás com o escudo.
+    fere:
+    - Levanta-o na ponta da lança como quem levanta um fardo de feno.
+    critico:
+    - Prega-o ao fundo da bacia com a lança e fica em cima do cabo.
+    final:
+    - Canta o refrão de uma canção de marcha enquanto o pisa.
+  - nome: Empurrão
+    efeito:
+    - «Sai daí, amigo!» — e o escudo atira o lacedon para longe do Damião.
+- id: nalia
+  nome: Nália
+  lado: aliado
+  ref: c-nalia-vasques
+  ca: 14
+  pv: 13
+  ini: 3
+  resumo: 'Elfa: imune à paralisia · a primeira a ver o segundo grupo'
+  equipamento: Capacete com véu, besta de mão
+  acoes:
+  - nome: Besta de mão
+    mecanica: +4*, 1d6+2*
+    falha:
+    - Dispara, recarrega, nem pestaneja.
+    magoa:
+    - Virote na nuca de um que ia ao Elmiro.
+    fere:
+    - Virote na nuca de um que ia ao Elmiro.
+    critico:
+    - Virote no olho, a vinte passos, com o véu a esvoaçar.
+    final:
+    - «Mais um.» É a primeira vez que a ouvem falar alto.
+- id: elmiro
+  nome: Elmiro
+  lado: aliado
+  ref: c-elmiro-trigueiro
+  ca: 16
+  pv: 9
+  ini: 0
+  resumo: Desvantagem contra medo · congela com água à cintura · larga a lança à primeira baixa
+  equipamento: Elmo grande de mais, lança
+  acoes:
+  - nome: Lança
+    mecanica: +3*, 1d6+1*
+    falha:
+    - A lança treme-lhe nas mãos e bate na água.
+    magoa:
+    - Espeta por acaso, de olhos fechados.
+    fere:
+    - Espeta por acaso, de olhos fechados.
+    critico:
+    - Espeta o lacedon que tinha a mão no tornozelo do Alex, e fica a olhar para o que fez.
+    final:
+    - Chora sem barulho e continua a espetar depois de estar morto.
+- id: sousela
+  nome: Sousela
+  lado: aliado
+  ref: c-lampreia
+  ca: 13
+  pv: 16
+  ini: 3
+  resumo: Aparece onde ninguém a viu entrar · desengata como ação bónus
+  equipamento: Manto com juncos, cana, besta
+  acoes:
+  - nome: Besta ×2
+    mecanica: +4, 1d8+2*
+    falha:
+    - O virote vem de onde ninguém está a olhar e espeta-se na lama.
+    magoa:
+    - Dois virotes, um atrás do outro, no mesmo sítio.
+    fere:
+    - Dois virotes, um atrás do outro, no mesmo sítio.
+    critico:
+    - Virote na boca de um que ia morder o Lucan; o Lucan olha para os juncos e não a vê.
+    final:
+    - Levanta-se da água ao lado do corpo, coberta de lodo, como se tivesse estado sempre ali.
+- id: damiao
+  nome: Damião
+  lado: aliado
+  ref: c-damiao-prestes
+  ca: 12
+  pv: 11
+  passivo: true
+  resumo: Não luta. Escreve.
+  notas:
+  - Se vir o Isco transformado ou o Lucan a comer, muda de alvo à frente de toda a gente.
+- id: alex
+  nome: Alex
+  lado: aliado
+  ref: c-soldado-doente
+  passivo: true
+  resumo: Fraco, na jangada; alvo do lacedon 2. Falha sempre o save da jangada.
+- id: alberto
+  nome: Alberto
+  lado: neutro
+  ref: c-alberto-gnomis
+  passivo: true
+  resumo: Não age. Fica atrás do Damião.
+zonas:
+  lacedon:
+  - d: 1
+    zona: Cabeça
+    texto: O couro cabeludo descola como casca molhada; por baixo, osso verde.
+  - d: 2
+    zona: Pescoço
+    texto: Abre-se sem sangue; sai água do pântano e um cheiro a peixe podre.
+  - d: 3
+    zona: Tronco
+    texto: As costelas cedem como vime molhado; lá dentro mexem-se sanguessugas.
+  - d: 4
+    zona: Braço das garras
+    texto: O braço dobra-se no sítio errado e continua a arranhar.
+  - d: 5
+    zona: Perna
+    texto: A carne sai do osso aos farrapos; arrasta-se, mas não pára.
+  - d: 6
+    zona: Barriga
+    texto: Rebenta como um odre; sai lodo negro, enguias pequenas e um dente que não é dele.
+rondas:
+- ronda: Antes
+  texto: O Isco cheira água parada e, por baixo, carne morta. As rãs calam-se.
+- ronda: '1'
+  texto: Os lacedons 1 e 2 saem de debaixo da jangada. DES CD 10 para quem está em cima (o Alex falha sempre). A Lia escorrega das cordas. O Casqueiro larga a corda e vira-se.
+- ronda: '2'
+  texto: O Tibério e os lacedons 4 e 5 saem pelos flancos. A Nália grita «Esquerda!». O Elmiro congela com água à cintura. A Sousela dispara dos juncos. O Corvelo vê a farda e pára meio segundo.
+- ronda: '3'
+  texto: 'O lacedon 2 arrasta o Alex para a água, ou o Tibério arrasta o Elmiro paralisado: alguém escolhe quem tira. O Damião escreve, encostado ao escudo do Casqueiro.'
+- ronda: '4'
+  texto: Os que restam mergulham e vão-se, longe da pedra, todos para o mesmo lado (o da Bolbara).
+rescaldo:
+- As rãs voltam, graves, e depois afinam.
+- 'O Corvelo vira o Tibério com o pé: «Tibério. Estava de guarda à capela.» Primeira pista de que o forte caiu.'
+- Os paralisados acordam ao fim de 1 minuto e lembram-se de tudo.
+- 'O Corvelo à Lia: «Vais tentar fugir?» Se hesitar, o Alex: «Ela salvou-me a vida, sargento. Duas vezes.»'
+- O Elmiro não consegue olhar para ela.
+- O Damião escreve tudo; se viu o Isco ou o Lucan, muda de alvo agora.
+- 'Oração Curativa (Lia, 10 minutos): os soldados deixam de saber o que pensar dela.'
+- Depois disto, a pedra.
+checklist:
+- 'Elfos imunes à paralisia: Lia e Nália'
+- Lia com desvantagem ao sol; magias de save não
+- Comando em goblin; Sugestão e Sono não
+- 'Ronda 1: jangada e a Lia solta-se'
+- 'Ronda 2: o Tibério'
+- 'Paralisado arrastado: uma ronda para o salvar'
+- Os que fogem vão todos para o lado da Bolbara
+- O Corvelo, a Lia e o Alex no fim

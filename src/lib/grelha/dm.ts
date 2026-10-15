@@ -4,8 +4,8 @@ import type { Grelha, Item, Linha, Estatuto } from './modelo.ts'
 import { GRUPOS, grupoDe, URGENCIA, type TipoGrelha } from './modelo.ts'
 import { donaDe, type TipoLinha } from './dona.ts'
 
-export type DmKind = 'correcao' | 'verdade' | 'plano' | 'decisao' | 'arquivo' | 'linha' | 'acompanhar' | 'jogado' | 'nota' | 'resposta' | 'ideia-rejeitada'
-export const DM_KINDS: DmKind[] = ['correcao', 'verdade', 'plano', 'decisao', 'arquivo', 'linha', 'acompanhar', 'jogado', 'nota', 'resposta', 'ideia-rejeitada']
+export type DmKind = 'correcao' | 'verdade' | 'plano' | 'decisao' | 'arquivo' | 'linha' | 'acompanhar' | 'jogado' | 'nota' | 'resposta' | 'ideia-rejeitada' | 'batalha'
+export const DM_KINDS: DmKind[] = ['correcao', 'verdade', 'plano', 'decisao', 'arquivo', 'linha', 'acompanhar', 'jogado', 'nota', 'resposta', 'ideia-rejeitada', 'batalha']
 
 export interface DmEntry {
   id: string

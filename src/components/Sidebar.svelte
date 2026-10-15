@@ -6,7 +6,7 @@
   interface Item {
     id: View
     label: string
-    icon: 'grelha' | 'grafo' | 'sessao' | 'indice'
+    icon: 'grelha' | 'grafo' | 'sessao' | 'batalha' | 'indice'
     hint: string
   }
   const groups: { title: string; items: Item[] }[] = [
@@ -19,7 +19,10 @@
     },
     {
       title: 'Jogar',
-      items: [{ id: 'sessao', label: 'Sessão', icon: 'sessao', hint: 'O plano da próxima sessão, os beats por jogar, notas rápidas e as sessões jogadas' }],
+      items: [
+        { id: 'sessao', label: 'Sessão', icon: 'sessao', hint: 'O plano da próxima sessão, os beats por jogar, notas rápidas e as sessões jogadas' },
+        { id: 'batalha', label: 'Batalha', icon: 'batalha', hint: 'Iniciativa, PV e descrições de combate; o estado grava-se na tua camada' },
+      ],
     },
     {
       title: 'Consultar',

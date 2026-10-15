@@ -6,6 +6,7 @@
   import SearchPalette from './components/SearchPalette.svelte'
   import RelationGraph from './components/RelationGraph.svelte'
   import Sessao from './components/Sessao.svelte'
+  import Batalha from './components/Batalha.svelte'
   import Indice from './components/Indice.svelte'
   import Settings from './components/Settings.svelte'
   import Ficha from './components/Ficha.svelte'
@@ -55,6 +56,7 @@
       {#if ui.view === 'grelha'}<Grelha />
       {:else if ui.view === 'grafo'}<RelationGraph />
       {:else if ui.view === 'sessao'}<Sessao />
+      {:else if ui.view === 'batalha'}<Batalha />
       {:else if ui.view === 'indice'}<Indice />
       {:else if ui.view === 'ficha'}<Ficha />
       {:else}<Settings />{/if}

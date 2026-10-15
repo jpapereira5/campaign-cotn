@@ -285,7 +285,7 @@ export function validarArvore(a: Arvore): Problem[] {
 
   // grelha: linhas.json e revisao.json são do Claude (erros); dm.json é da app e nunca pode partir o deploy (avisos)
   for (const l of Array.isArray(a.grelha.linhas) ? (a.grelha.linhas as Record<string, unknown>[]) : []) ref('grelha/linhas.json', l.id, 'linha')
-  const DM_KINDS = ['correcao', 'verdade', 'plano', 'decisao', 'arquivo', 'linha', 'acompanhar', 'jogado', 'nota', 'resposta', 'ideia-rejeitada']
+  const DM_KINDS = ['correcao', 'verdade', 'plano', 'decisao', 'arquivo', 'linha', 'acompanhar', 'jogado', 'nota', 'resposta', 'ideia-rejeitada', 'batalha']
   const dmIds = new Set<string>()
   for (const e of Array.isArray(a.grelha.dm) ? (a.grelha.dm as Record<string, unknown>[]) : []) {
     const id = String(e.id ?? '')
@@ -305,6 +305,22 @@ export function validarArvore(a: Arvore): Problem[] {
   for (const n of Array.isArray(revisao.notes) ? (revisao.notes as Record<string, unknown>[]) : []) {
     const t = obj(n.target)
     if (typeof t.row === 'string' && !existe(t.row) && !/[/.]/.test(t.row) && !eventos.has(t.row) && t.row !== 'registo') warn('grelha/revisao.json', `nota ${String(n.id)} aponta para uma linha que não existe: ${t.row}`)
+  }
+  // mesa/batalhas: as fichas e os modelos que os combatentes referem têm de existir
+  for (const [id, raw] of Object.entries(a.batalhas ?? {})) {
+    const bt = obj(raw)
+    const where = `mesa/batalhas/${id}.yaml`
+    if (bt.id && bt.id !== id) warn(where, `id ${String(bt.id)} diferente do nome do ficheiro`)
+    const modelos = obj(bt.modelos)
+    const vistos = new Set<string>()
+    for (const c of Array.isArray(bt.combatentes) ? (bt.combatentes as Record<string, unknown>[]) : []) {
+      const cid = String(c.id ?? '')
+      if (!cid) err(where, 'combatente sem id')
+      if (vistos.has(cid)) err(where, `combatente repetido: ${cid}`)
+      vistos.add(cid)
+      if (typeof c.ref === 'string' && !existe(c.ref)) err(where, `ficha desconhecida em ${cid}: ${c.ref}`)
+      if (typeof c.modelo === 'string' && !modelos[c.modelo]) err(where, `modelo desconhecido em ${cid}: ${c.modelo}`)
+    }
   }
   return out
 }

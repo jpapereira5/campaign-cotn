@@ -1,6 +1,7 @@
 // Leitura da estrutura nova a partir do disco (os scripts); o modelo em si está em src/lib/arquivo/arvore.ts.
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
+import YAML from 'yaml'
 import { parseMd } from '../../src/lib/arquivo/md.ts'
 import type { Arvore, DocArvore } from '../../src/lib/arquivo/arvore.ts'
 
@@ -34,9 +35,12 @@ export function lerArvore(raiz: string): Arvore {
     const p = join(raiz, 'grelha', nome)
     return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : vazio
   }
+  const batalhas: Record<string, unknown> = {}
+  for (const p of listar(join(raiz, 'mesa', 'batalhas'), '.yaml')) batalhas[relative(join(raiz, 'mesa', 'batalhas'), p).replace(/\.yaml$/, '')] = YAML.parse(readFileSync(p, 'utf8'))
   return {
     docs,
     livro,
+    batalhas,
     grelha: { linhas: lerJson('linhas.json', []), dm: lerJson('dm.json', []), revisao: lerJson('revisao.json', { reviewed: {}, absorbed: {}, notes: [] }), acesso: lerJson('acesso.json', null) },
   }
 }

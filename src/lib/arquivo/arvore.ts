@@ -22,6 +22,8 @@ export interface Arvore {
   /** livro/<rel> → conteúdo JSON */
   livro: Record<string, unknown>
   grelha: Grelha
+  /** mesa/batalhas/<id>.yaml → conteúdo (a página «Batalha»; src/lib/batalha.ts) */
+  batalhas?: Record<string, unknown>
 }
 
 export const naPasta = (a: Arvore, pasta: string): DocArvore[] => a.docs.filter((d) => d.caminho.startsWith(pasta + '/'))

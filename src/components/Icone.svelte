@@ -1,6 +1,6 @@
 <script lang="ts">
   // Ícones de traço, em linha (o mockup não usa emoji). 20×20, traço 1.8, cor herdada.
-  let { nome, tamanho = 18 }: { nome: 'grelha' | 'grafo' | 'sessao' | 'indice' | 'definicoes' | 'pesquisa' | 'ficha'; tamanho?: number } = $props()
+  let { nome, tamanho = 18 }: { nome: 'grelha' | 'grafo' | 'sessao' | 'batalha' | 'indice' | 'definicoes' | 'pesquisa' | 'ficha'; tamanho?: number } = $props()
 </script>
 
 <svg width={tamanho} height={tamanho} viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -10,6 +10,8 @@
     <circle cx="5" cy="6" r="2.2" /><circle cx="15" cy="5" r="2.2" /><circle cx="10" cy="15" r="2.2" /><path d="M7 7l1.5 6M13 6.5l-1.5 6.5M7.2 6.2l5.6-.9" />
   {:else if nome === 'sessao'}
     <rect x="3" y="3" width="14" height="14" rx="3" /><circle cx="7" cy="7" r="1.1" fill="currentColor" stroke="none" /><circle cx="13" cy="13" r="1.1" fill="currentColor" stroke="none" /><circle cx="13" cy="7" r="1.1" fill="currentColor" stroke="none" /><circle cx="7" cy="13" r="1.1" fill="currentColor" stroke="none" /><circle cx="10" cy="10" r="1.1" fill="currentColor" stroke="none" />
+  {:else if nome === 'batalha'}
+    <path d="M3.5 3.5l9 9M3.5 3.5h3l8.5 8.5M3.5 3.5v3l8.5 8.5" /><path d="M16.5 3.5l-9 9M16.5 3.5h-3L5 12M16.5 3.5v3L8 15" /><path d="M11.5 13.5l3 3M8.5 13.5l-3 3" />
   {:else if nome === 'indice'}
     <path d="M4 4h12v12H4z" /><path d="M7 7.5h6M7 10.5h6M7 13.5h3" />
   {:else if nome === 'definicoes'}

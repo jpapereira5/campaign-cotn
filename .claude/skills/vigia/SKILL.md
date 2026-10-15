@@ -15,7 +15,7 @@ Regras completas em `docs/grelha.md` (secções 9, 10 e 12) e `docs/arquitetura.
 1. Confirma que tens acesso de escrita ao repositório (`git push` tem de funcionar) e que estás em `main`, atualizado (`git pull`).
 2. Liga a escuta num Monitor (30 minutos; volta a ligar enquanto o DM estiver a trabalhar):
    `bash scripts/escuta.sh`
-   Cada aviso traz os commits novos e os ficheiros tocados. Só interessa quando `grelha/dm.json` mudou.
+   Cada aviso traz os commits novos e os ficheiros tocados. Só interessa quando `grelha/dm.json` mudou. Os commits «batalha: …» são o estado de um combate na página Batalha (entradas `kind: batalha`): não se revêem.
 3. Diz ao DM que estás à escuta. «Para» desliga.
 
 ## A cada aviso

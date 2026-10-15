@@ -11,8 +11,8 @@ import { camada } from './grelha/store.svelte.ts'
 import { grelhaViva, type GrelhaViva } from './grelha/viva.ts'
 import { filtrosPorDefeito, type FiltrosGrafo } from './grafo.ts'
 
-export type View = 'grelha' | 'grafo' | 'sessao' | 'indice' | 'definicoes' | 'ficha'
-export const VIEWS: View[] = ['grelha', 'grafo', 'sessao', 'indice', 'definicoes', 'ficha']
+export type View = 'grelha' | 'grafo' | 'sessao' | 'batalha' | 'indice' | 'definicoes' | 'ficha'
+export const VIEWS: View[] = ['grelha', 'grafo', 'sessao', 'batalha', 'indice', 'definicoes', 'ficha']
 
 export type Edicao =
   | { modo: 'celula'; linha: string; col: string }
