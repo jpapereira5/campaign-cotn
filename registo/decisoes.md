@@ -127,4 +127,8 @@ Na revisão da Grelha (respostas às notas da migração):
 2. **O Alyxian não a reconhece.** Ele teme ter sido esquecido, e foi ele que a esqueceu.
 3. **O primeiro sinal à mesa é a visão da Jóia** (`b-1-jewel-vision`, cap. 1). A Lia vê o Alyxian de outro ângulo, como alguém que estava ao lado dele.
 4. **Ficam de fora:** a «vida zero» anterior à consecução; substituir uma das cinco vidas; o Alyxian a reconhecê-la.
+5. **A primeira vida da Lia enquadra-se à cabeça da lista das vidas:** Calamidade (sem Den, porque os Dens nascem depois, já com a Dinastia; o nome que a memória deixa é «Alyxian», o de outra pessoa) → Mirimm → Kryn → Zolaed → Hythenos → Thelyss. Não é preciso desenvolver mais esta vida.
+6. **O percurso dessa vida:** luta ao lado do Alyxian nas Ruínas do Pesar (a batalha em que a Perigee morre), sobrevive com ele à Ascensão dos Traidores, segue-o até Marquet e faz a última resistência em Cael Morrow, fora do templo, sem nunca chegar a ele. **Sobrevive ao afundamento** e morre anos depois perto do primeiro farol; é isso que a mantém na consecução, porque em Cael Morrow não há farol.
+7. **As duas batalhas são visões interativas**, no formato da visão do último Dranassar em Urzin: cada jogador assume uma personagem da visão. A primeira é fora de Bazzoxan, nas Ruínas do Pesar (`b-2-vision-perigee-death`, que passa de proposta a adotada). A segunda é em Cael Morrow, fora do templo, e despoleta-se quando se abre o rasgão para o Netherdeep (`b-5-open-rift`). A Camila joga a vida passada da Lia e sabe que é ela.
+8. **Ficam de fora:** morrer em Cael Morrow (não há farol); um farol perdido no fundo de Cael Morrow.
 

@@ -46,3 +46,5 @@ A fenda pulsa com luz vermelha e espinhos de ruidium. Abre-se com uma arma de ru
 ## Notas
 
 NOTAS DE DM (extração + Remix): Remix: pôr o rift o mais longe possível do acampamento na pointmap e decidir quem sabe onde está, se há defesas à volta e se os PCs ajudam a construí-las. A água que sai daqui é a que sobe até ao oásis (ligação ao Life Dome). Pressão do Netherdeep: sem rubídio ou a Jóia, 10d6 por minuto.
+
+Decidido pelo DM (2026-10-15): abrir o rasgão despoleta uma **visão interativa** fora do templo: a última resistência de Cael Morrow enquanto o Gruumsh avança para o coração da cidade, até ao golpe da lança. Formato da visão do último Dranassar: cada jogador assume um defensor. A Camila joga a primeira vida da Lia, que não chega ao Alyxian e sobrevive ao afundamento. Ver `registo/decisoes.md` 2026-10-15 #6-7.

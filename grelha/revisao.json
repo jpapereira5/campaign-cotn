@@ -1997,6 +1997,46 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-d15-02",
+      "at": "2026-10-15T02:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "ch2"
+      },
+      "factKind": "cena",
+      "text": "Visão interativa nas Ruínas do Pesar (morte da Perigee): cada jogador é um soldado do Alyxian; a Camila joga a primeira vida da Lia e sabe. Formato da visão do último Dranassar.",
+      "suggestion": "Visão interativa nas Ruínas do Pesar (morte da Perigee): cada jogador é um soldado do Alyxian; a Camila joga a primeira vida da Lia e sabe. Formato da visão do último Dranassar.",
+      "because": [
+        "registo/decisoes.md 2026-10-15 #6",
+        "registo/decisoes.md 2026-10-15 #7"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d15-03",
+      "at": "2026-10-15T02:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "ch5"
+      },
+      "factKind": "cena",
+      "text": "Abrir o rasgão despoleta a visão interativa da última resistência de Cael Morrow, fora do templo, até ao golpe do Gruumsh. A vida passada da Lia não chega ao Alyxian e sobrevive ao afundamento.",
+      "suggestion": "Abrir o rasgão despoleta a visão interativa da última resistência de Cael Morrow, fora do templo, até ao golpe do Gruumsh. A vida passada da Lia não chega ao Alyxian e sobrevive ao afundamento.",
+      "because": [
+        "registo/decisoes.md 2026-10-15 #6",
+        "registo/decisoes.md 2026-10-15 #7"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
