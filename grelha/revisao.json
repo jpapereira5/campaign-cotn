@@ -2388,6 +2388,25 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-d16-18",
+      "at": "2026-10-16T20:40:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-alonne-frith",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O Damião usa um Ring of Mind Shielding (presente do Perestrelo): o Fritz não o consegue ler e repara nisso. Detect Magic mostra-o (abjuração).",
+      "suggestion": "O Damião usa um Ring of Mind Shielding (presente do Perestrelo): o Fritz não o consegue ler e repara nisso. Detect Magic mostra-o (abjuração).",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #25"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

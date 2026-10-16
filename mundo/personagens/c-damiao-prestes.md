@@ -31,3 +31,5 @@ Levar ao Padre Perestrelo o catálogo do que encontrou no pântano: a prisioneir
 ## Segredo
 
 Se vir o Isco transformar-se, o Lucan a comer ou o Quasi de máscara, muda de alvo à frente de toda a gente. Um nome da Assembleia num relatório chega à Assembleia.
+
+Usa um *Ring of Mind Shielding* (`i-anel-do-damiao`), presente do Perestrelo para proteger o catálogo que traz na cabeça: ninguém lhe lê os pensamentos nem lhe deteta mentiras. O Fritz não o consegue ler. (Decidido pelo DM (2026-10-16))
