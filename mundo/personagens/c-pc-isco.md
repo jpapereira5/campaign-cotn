@@ -60,7 +60,7 @@ DM: não sabe que se transforma sem controlo sob os flashes de Ruidus (sem calen
 
 ## Decrépola (backstory)
 
-Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco)», Session Prep), que é cânone da backstory dos dois {D}:
+Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco) v2», Session Prep), que é cânone da backstory dos dois {D}:
 
 - **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Quem mais compra em Decrépola é **um culto** («não lhes pergunto a quem rezam»); mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados, a marca do culto. É o culto de Serratos, onde o Fritz se infiltrou, mas o Ossório não dá o nome do deus nem fala do Fritz (Decidido pelo DM (2026-10-16)).
 - **Remendo** (`c-remendo`), no Cais: o navio de Marquet com a tripulação de manchas vermelhas nas mãos; ao ver a tatuagem do anzol do Isco: «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.»

@@ -11,7 +11,7 @@ origem:
 
 ## Decrépola — o que vocês se lembram (só Lucan e Isco) (de docs/handouts.md)
 
-**DM:** cânone da backstory do Lucan e do Isco (fichas `c-pc-lucan` e `c-pc-isco`, secção «Decrépola (backstory)»). Entregar à Renata e ao Pedro Ropio. Versão na Drive: «Handout — Decrépola (Lucan e Isco)», pasta Session Prep. Os segredos dos contactos estão em `docs/lore.md` (Decrépola) e nas fichas `c-ossorio-lume`, `c-remendo` e `c-vigost`. O Ossório só fala de um culto que compra muito, sem nome de deus e sem falar do Fritz; o pano com a esfera de olhos é a marca do culto. Que o Fritz é (ou foi) desse culto, e porquê anda por aqui, é para os jogadores descobrirem (Decidido pelo DM (2026-10-16)).
+**DM:** cânone da backstory do Lucan e do Isco (fichas `c-pc-lucan` e `c-pc-isco`, secção «Decrépola (backstory)»). Entregar à Renata e ao Pedro Ropio. Versão na Drive: «Handout — Decrépola (Lucan e Isco) v2», pasta Session Prep. Os segredos dos contactos estão em `docs/lore.md` (Decrépola) e nas fichas `c-ossorio-lume`, `c-remendo` e `c-vigost`. O Ossório só fala de um culto que compra muito, sem nome de deus e sem falar do Fritz; o pano com a esfera de olhos é a marca do culto. Que o Fritz é (ou foi) desse culto, e porquê anda por aqui, é para os jogadores descobrirem (Decidido pelo DM (2026-10-16)).
 
 Há umas semanas, antes de Asarius e de Urzin, passaram por Decrépola. O Yussa Errenis mandou-vos atrás do rubídio, a pedra vermelha que começou a aparecer no mercado negro, e Decrépola era o sítio onde perguntar.
 
