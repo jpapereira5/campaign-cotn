@@ -137,3 +137,6 @@ Na revisão da Grelha (respostas às notas da migração):
 ## Decidido pelo DM (2026-10-16)
 
 1. **O menir tem efeito mecânico no tempo, fora do combate:** num raio de 3 m da pedra, cada teste ou toque rola 1d6; com 4–6 o tempo «pega» e a ação custa meia hora lá fora (o sol mexe-se depressa demais). É o meio gás da decisão de 2026-10-07 #15 com número: o obelisco come o relógio da Bolbara aos soluços. Durante o combate na periferia não afeta ninguém (2026-10-13). Fica de fora: só mistério, sem custo; uma hora por ação (o efeito do obelisco do mar).
+2. **A magia do tempo dos obeliscos é dunamancia verdadeira.** *Detect Magic* na Ritual Stone mostra necromancia, abjuração (o selo do Truche) e uma terceira aura que a varinha não nomeia: dunamancia. Quem conheça a Dinastia ou a Alma de Cobalto (History ou Arcana CD 15) reconhece «a magia dos Kryn». Não é pista falsa: a tecnologia de Aeor usava dunamancia, que os Kryn redescobriram depois. Ficam de fora: dunamancia como pista falsa; só necromancia e abjuração.
+3. **A pedra cheira a enxofre, o mesmo da garra de seis dedos e do sangue do Skr'a S'orsk** (o Isco). O Truche é demónio e os dois tocaram em coisas do mesmo lado. O Farol Apagado fica só como lembrança do Isco, sem ligação de enredo. Ficam de fora: ligar a pedra à origem do Farol Apagado; a pedra sem cheiro.
+
