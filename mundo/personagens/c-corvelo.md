@@ -33,3 +33,5 @@ Chegar a casa antes de escurecer amanhã; entregar a prisioneira viva; não perd
 ## Segredo
 
 Estão perdidos há dois dias. Perdeu três homens (o Bento Ruivo em B2, dois em B5). A prisioneira não está à venda: só a entrega se ficar sem homens, se lhe derem uma versão que possa contar (transferência, não perda) ou se lhe mostrarem uma coisa pior a caminho. Sessão 4: o *message* do Alberto foi para ele, não para a Nália. As 800 po não existem.
+
+No forte (dia 5): escoltou o pai da Lia há dois anos; vê o caderno de recompensas do Alberto (1500 po, vivo), fecha-o e sai; reconhece a espada do Tibério no peito do padre; não segue o grupo atrás da Bolbara, fica com os sobreviventes. (Decidido pelo DM (2026-10-16))

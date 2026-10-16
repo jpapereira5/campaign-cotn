@@ -54,3 +54,5 @@ Quebrar Bol'bara e extrair tudo o que ela sabe sobre Urzin e o pântano.
 ## Segredo
 
 Os seus métodos estão a entregar Bol'bara a Trush — e ele nem imagina.
+
+O que queria da Bolbara era Urzin (onde fica, quem a protege, as tartarugas); as notas são um interrogatório com mapas riscados a cada morte. Morto pela espada do Tibério. (Decidido pelo DM (2026-10-16))
