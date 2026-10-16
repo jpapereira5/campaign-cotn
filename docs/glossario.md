@@ -97,6 +97,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, os r
 | the Myriad | a Miríade | |
 | Children of Malice | os Filhos da Malícia | |
 | Marquesian | marquesiano | língua |
+| Ceratos | Serratos | entidade do Reino Distante; o culto não tem nome próprio além de «o culto de Serratos» (decidido 2026-10-16) |
 
 ## Toponímia
 

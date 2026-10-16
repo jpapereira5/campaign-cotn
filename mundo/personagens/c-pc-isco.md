@@ -62,10 +62,10 @@ DM: não sabe que se transforma sem controlo sob os flashes de Ruidus (sem calen
 
 Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco)», Session Prep), que é cânone da backstory dos dois {D}:
 
-- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Um homem pálido de casaco de caçador comprido (o Fritz) fez as mesmas perguntas antes deles. Mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados (o Ceratos), prometido a «um velho das catacumbas» (o Vigost, `c-vigost`).
+- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Quem mais compra em Decrépola é **um culto** («não lhes pergunto a quem rezam»); mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados, a marca do culto. É o culto de Serratos, onde o Fritz se infiltrou, mas o Ossório não dá o nome do deus nem fala do Fritz (Decidido pelo DM (2026-10-16)).
 - **Remendo** (`c-remendo`), no Cais: o navio de Marquet com a tripulação de manchas vermelhas nas mãos; ao ver a tatuagem do anzol do Isco: «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.»
-- **O que trouxeram:** o rubídio desce do norte de Jorhas por Asarius; há mais gente atrás dele; quem lhe toca fica com manchas vermelhas.
-- **Perguntas em aberto para os jogadores:** quem é o homem do casaco; quem é o velho das catacumbas e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
+- **O que trouxeram:** o rubídio desce do norte de Jorhas por Asarius; em Decrépola, quem mais o compra é um culto que marca o que compra com a esfera de olhos; quem lhe toca fica com manchas vermelhas.
+- **Perguntas em aberto para os jogadores:** que culto é esse e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
 
 O contexto do DM (a cidade, a cadeia do rubídio, os segredos dos contactos) está em `l-decrepola`.
 
