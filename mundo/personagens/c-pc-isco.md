@@ -58,6 +58,17 @@ Encontrar uma tripulação a que pertença; pescar aquele Monstro; fazer do irm�
 
 DM: não sabe que se transforma sem controlo sob os flashes de Ruidus (sem calendário; escalada: acorda longe → sangue que não é dele → alguém morre, na mesa). Não sabe que o irmão lá esteve nem que foi a intervenção de Baeshra através dele que o salvou. Belmiro, o contramestre do Scylla, tomado pelo Império aboleto, cortou-lhe a corda; o Isco descobre primeiro que o Império o quer (aboleto do mar, cap. 2), depois que foi alguém de casa. A caravana do Quasi caça-o como alimento do Filho. Sabe que comeu e que mudou; nunca juntou as duas coisas. A classe veio das visões do Caçador; a Ordem não sabe que ele existe. Necessidade oculta: não ser descartável. O preço do regresso do irmão à vida é carne dele, e não volta a crescer — e ele diria que sim sem ser preciso convencê-lo: livrar o irmão do deus está escrito no que ele quer. É a confirmação final de 'não ser descartável': o Império quer-lhe o sangue, a caravana quer-lhe o sangue, e o irmão quer-lhe a carne. Chamam-lhe Isco e usaram-no como isco vivo desde criança; isto é sê-lo uma última vez, para o Anzol. Não é ele que escolhe a parte — é o Lucan, mandado pelo Sess'inek, à frente dele. Conversa com o Pedro Ropio antes: é mutilação permanente da personagem, e sem o sim dele a cena não corre.
 
+## Decrépola (backstory)
+
+Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco)», Session Prep), que é cânone da backstory dos dois {D}:
+
+- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Um homem pálido de casaco de caçador comprido (o Fritz) fez as mesmas perguntas antes deles. Mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados (o Ceratos), prometido a «um velho das catacumbas» (o Vigost, `c-vigost`).
+- **Remendo** (`c-remendo`), no Cais: o navio de Marquet com a tripulação de manchas vermelhas nas mãos; ao ver a tatuagem do anzol do Isco: «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.»
+- **O que trouxeram:** o rubídio desce do norte de Jorhas por Asarius; há mais gente atrás dele; quem lhe toca fica com manchas vermelhas.
+- **Perguntas em aberto para os jogadores:** quem é o homem do casaco; quem é o velho das catacumbas e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
+
+O contexto do DM (a cidade, a cadeia do rubídio, os segredos dos contactos) está em `l-decrepola`.
+
 ## O que o DM já definiu
 
 Fechado base a base (linha A: o mar do lado dele; linha B: Ruidus), com os pontos cruzados do Quasi e do Lucan resolvidos aqui.

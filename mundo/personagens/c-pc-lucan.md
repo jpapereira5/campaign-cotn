@@ -73,6 +73,17 @@ Investigar o rubídio para Yussa; perceber o que Baeshra quer, enquanto protege 
 
 DM: morreu mesmo; Baeshra levantou-o e é o que o mantém a andar. Foi a intervenção de Baeshra, através do corpo levantado do Lucan (a Fera, a fome, a mordida — as três ao mesmo tempo), que devorou a saída do aboleto e salvou o Isco; ele acha que falhou; Baeshra sabe e nunca o diz em palavras; o aboleto ancião é quem pode mostrar como. Baeshra escolheu-o porque saltou por um irmão mais novo — a cena dele, repetida. Renegar Baeshra é possível e devolve-lhe a vida (perde Dhampir, Fera, fome); como, ninguém sabe. Necessidade oculta: ser necessário ao irmão e depois deixar de o ser — descobrir quem é sem Baeshra. Os obeliscos mostram-lhe a morte. Sabe que o Isco é Ruidusborn e cala-se. Na Ascensão dos Traidores (cap. 3), Sess'inek — o demon lord da corte do ossário — oferece-lhe o regresso à vida a sério, com custo, para o converter, e o Baeshra aceita o desafio apostando-o. É a mesma porta de r-pc-lucan-renegar, e chega pela pior boca possível, logo depois de ele ver o Fritz percorrer o mesmo caminho por uma filha morta. Pode aceitar ali, ou sair sem aceitar e passar a campanha a pensar se escolheu bem. O PREÇO: devorar o irmão — uma parte que não volta a crescer, com o Sess'inek a mandá-lo escolher onde morde, à frente dele. A mordida é a renúncia e o regresso à vida numa só dentada, e o que ele ganha em troca é um patrono novo. É a inversão exata do aboleto: lá devorou para salvar o Isco, aqui devora o Isco para se salvar — e se souber a verdade da primeira vez, terá comido o irmão duas vezes. Decide-se com o grupo informado, nunca às escondidas; se disserem que não, a oferta fica de pé o resto da campanha e ele passa a saber quanto vale o irmão em carne. Conversa com a Renata antes: deixa de ser Dhampir, perde a Fera do Baeshra e ganha pacto com Sess'inek.
 
+## Decrépola (backstory)
+
+Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco)», Session Prep), que é cânone da backstory dos dois {D}:
+
+- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Um homem pálido de casaco de caçador comprido (o Fritz) fez as mesmas perguntas antes deles. Mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados (o Ceratos), prometido a «um velho das catacumbas» (o Vigost, `c-vigost`).
+- **Remendo** (`c-remendo`), no Cais: o navio de Marquet com a tripulação de manchas vermelhas nas mãos; ao ver a tatuagem do anzol do Isco: «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.»
+- **O que trouxeram:** o rubídio desce do norte de Jorhas por Asarius; há mais gente atrás dele; quem lhe toca fica com manchas vermelhas.
+- **Perguntas em aberto para os jogadores:** quem é o homem do casaco; quem é o velho das catacumbas e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
+
+O contexto do DM (a cidade, a cadeia do rubídio, os segredos dos contactos) está em `l-decrepola`.
+
 ## O que o DM já definiu
 
 Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições resolvidas. Nada disto é para a jogadora saber já.
