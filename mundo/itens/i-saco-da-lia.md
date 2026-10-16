@@ -9,4 +9,4 @@ origem:
 
 ## Resumo
 
-O que a patrulha tirou à Lia e guarda na jangada: armas, armadura, símbolo sagrado, o pendente, o selo de expositor e o dinheiro do pai.
+O que a patrulha tirou à Lia e guarda na jangada: armas, armadura, símbolo sagrado, o pendente (`i-pendente-da-lia`: símbolo Tasithar, selo da mãe e um *Time Stop* por disparar), o selo de expositor e o dinheiro do pai.

@@ -61,7 +61,7 @@ DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista e
 - **O desfecho:** confronto entre os dois. Está para lá da salvação, ou salvá-lo significa chegar à fonte do rubídio e decidir o que fazer com o Alyxian. Um momento de lucidez antes do fim; o pai não sequestra a decisão do grupo.
 - **O Fritz é o espelho do pai.** A Ascensão é do Fritz (o final dele); o pai atravessa-a e segue. Opção: os vestígios do pai aparecem perto do Fritz, ou uma sala à frente, e o Fritz diz «havia outro… não parou».
 - **O Alberto** conhece as experiências da Assembleia por dentro e pode ser quem percebe que a história do resgate não bate certo.
-- **O rasto:** Jigau (alguém reconhece o símbolo da Den no pendente; candidata, a Belana Zolaed) → Bazzoxan (a mãe, a Alma de Cobalto de Ank'Harel, o Muro) → Ascensão (os vestígios do pai, o final do Fritz, a exploradora) → Ank'Harel e o Netherdeep → Heart of Despair.
+- **O rasto:** Jigau (a Belana Zolaed reconhece no pendente o símbolo da Den Tasithar, a da mãe, e aponta para Bazzoxan; `i-pendente-da-lia` (Decidido pelo DM (2026-10-16))) → Bazzoxan (a mãe, a Alma de Cobalto de Ank'Harel, o Muro) → Ascensão (os vestígios do pai, o final do Fritz, a exploradora) → Ank'Harel e o Netherdeep → Heart of Despair.
 
 ## Em aberto (para o DM decidir)
 

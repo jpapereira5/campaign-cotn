@@ -547,7 +547,7 @@
         "row": "amb-lia-pai",
         "col": "ch1"
       },
-      "text": "Em Jigau, alguém reconhece o símbolo da Den no pendente.",
+      "text": "Em Jigau, alguém reconhece o símbolo da Den no pendente. [substituída: pendente com o símbolo Tasithar, decisão 2026-10-16 #16]",
       "tags": [
         "so-dm"
       ],
@@ -555,7 +555,7 @@
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-38",
@@ -1395,12 +1395,12 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "O forte depois da Bolbara, como no livro: portão entreaberto, mortos no pátio e fardos a arder, os guardas da capela mortos um pelo outro, o padre morto, cães aterrados, sobreviventes talvez fechados no salão.",
+      "text": "O forte depois da Bolbara, como no livro: portão entreaberto, mortos no pátio e fardos a arder, os guardas da capela mortos um pelo outro, o padre morto, cães aterrados, sobreviventes talvez fechados no salão. [substituída: sobreviventes no salão, decisão 2026-10-16 #6]",
       "suggestion": "O forte depois da Bolbara, como no livro: portão entreaberto, mortos no pátio e fardos a arder, os guardas da capela mortos um pelo outro, o padre morto, cães aterrados, sobreviventes talvez fechados no salão.",
       "because": [
         "registo/decisoes.md 2026-10-12 #14"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-v-010",
@@ -1466,14 +1466,14 @@
         "row": "c-corvelo",
         "col": "s6"
       },
-      "text": "O Corvelo chega a um forte de mortos: pela segunda vez, o único a sobrar. As 800 po desaparecem com o forte (nunca existiram). O que ele faz a seguir (fugir, culpar os goblinóides, seguir com o grupo) decide a patrulha.",
+      "text": "O Corvelo chega a um forte de mortos: pela segunda vez, o único a sobrar. As 800 po desaparecem com o forte (nunca existiram). O que ele faz a seguir (fugir, culpar os goblinóides, seguir com o grupo) decide a patrulha. [substituída: ninguém da patrulha segue o grupo, decisão 2026-10-16 #9]",
       "because": [
         "e-s5-08",
         "e-s4-20",
         "e-s5-37",
         "registo/decisoes.md 2026-10-12 #14"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "factKind": "cena",
       "suggestion": "O Corvelo chega a um forte de mortos: pela segunda vez, o único a sobrar. As 800 po desaparecem com o forte (nunca existiram). O que ele faz a seguir (fugir, culpar os goblinóides, seguir com o grupo) decide a patrulha."
     },
@@ -1717,12 +1717,12 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz (corrupção de rubídio). Lê mentes também, por ser Hollow One.",
+      "text": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz (corrupção de rubídio). Lê mentes também, por ser Hollow One. [substituída: como e quando lê mentes, decisão 2026-10-16 #5 e #12]",
       "suggestion": "Se o soltarem, o Fritz fala dentro da cabeça deles: a primeira vez que alguém o faz (corrupção de rubídio). Lê mentes também, por ser Hollow One.",
       "because": [
         "registo/decisoes.md 2026-10-13 #7"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-19",
@@ -1789,12 +1789,12 @@
         "col": "s6"
       },
       "factKind": "pista",
-      "text": "As notas do Perestrelo (o Damião sabe lê-las): estudava a maldição da Bolbara; os envios de rubídio da Miríade iam para a Doolan Tversky. O Alberto reconhece o nome.",
+      "text": "As notas do Perestrelo (o Damião sabe lê-las): estudava a maldição da Bolbara; os envios de rubídio da Miríade iam para a Doolan Tversky. O Alberto reconhece o nome. [substituída: as notas são sobre Urzin, decisão 2026-10-16 #13]",
       "suggestion": "As notas do Perestrelo (o Damião sabe lê-las): estudava a maldição da Bolbara; os envios de rubídio da Miríade iam para a Doolan Tversky. O Alberto reconhece o nome.",
       "because": [
         "registo/decisoes.md 2026-10-13 #22"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-23",
@@ -2073,6 +2073,280 @@
       ],
       "tags": [
         "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d16-01",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O menir mexe com o tempo fora do combate: a 3 m da pedra, cada teste ou toque rola 1d6; com 4–6 a ação custa meia hora lá fora. Não afeta o combate da periferia.",
+      "suggestion": "O menir mexe com o tempo fora do combate: a 3 m da pedra, cada teste ou toque rola 1d6; com 4–6 a ação custa meia hora lá fora. Não afeta o combate da periferia.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #1"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-02",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "Detect Magic na pedra: necromancia, abjuração (o selo do Truche) e dunamancia; History ou Arcana CD 15 reconhece «a magia dos Kryn».",
+      "suggestion": "Detect Magic na pedra: necromancia, abjuração (o selo do Truche) e dunamancia; History ou Arcana CD 15 reconhece «a magia dos Kryn».",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #2"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-03",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "A pedra cheira a enxofre, o mesmo da garra de seis dedos e do sangue do Skr'a S'orsk (o Isco reconhece-o).",
+      "suggestion": "A pedra cheira a enxofre, o mesmo da garra de seis dedos e do sangue do Skr'a S'orsk (o Isco reconhece-o).",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #3"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-04",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "Junto à pedra: conchas brancas dos ritos da Bolbara e pegadas imperiais com cerca de uma semana, a seguir para o forte.",
+      "suggestion": "Junto à pedra: conchas brancas dos ritos da Bolbara e pegadas imperiais com cerca de uma semana, a seguir para o forte.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #4"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-05",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-alonne-frith",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O Fritz lê só pensamentos à superfície, uma pessoa, 9 m, uma ação; quem é lido sente frio atrás dos olhos (SAB CD 13). Lê raramente porque pode ser apanhado: no forte, no máximo uma vez (a Lia ou o Quasi). Não ouve o Baeshra; o Lucan não é alvo.",
+      "suggestion": "O Fritz lê só pensamentos à superfície, uma pessoa, 9 m, uma ação; quem é lido sente frio atrás dos olhos (SAB CD 13). Lê raramente porque pode ser apanhado: no forte, no máximo uma vez (a Lia ou o Quasi). Não ouve o Baeshra; o Lucan não é alvo.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #12"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-06",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "Três sobreviventes fechados no salão: o ferreiro veterano («Corvelo. Vieste tarde.») e dois guardas novos, um de braço queimado. Um aponta à Lia; o Corvelo: «Baixa isso. Ela está comigo.»",
+      "suggestion": "Três sobreviventes fechados no salão: o ferreiro veterano («Corvelo. Vieste tarde.») e dois guardas novos, um de braço queimado. Um aponta à Lia; o Corvelo: «Baixa isso. Ela está comigo.»",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #6"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d16-07",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-laco-quasi-alberto",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "Na tenda do comandante, o caderno de recompensas: «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» Sem a função. O Corvelo vê, fecha o caderno e sai sem dizer nada.",
+      "suggestion": "Na tenda do comandante, o caderno de recompensas: «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» Sem a função. O Corvelo vê, fecha o caderno e sai sem dizer nada.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #7"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-08",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "Foi o Corvelo que escoltou o pai adotivo até à guarnição do sul: «Lembro-me desse. Escoltei-o até à guarnição do sul. Não falava. Escrevia à noite.»",
+      "suggestion": "Foi o Corvelo que escoltou o pai adotivo até à guarnição do sul: «Lembro-me desse. Escoltei-o até à guarnição do sul. Não falava. Escrevia à noite.»",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #8"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-09",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s6"
+      },
+      "factKind": "consequencia",
+      "text": "Ninguém da patrulha vai com o grupo atrás da Bolbara: o Corvelo, a Nália, o Damião e os outros ficam no forte com os sobreviventes.",
+      "suggestion": "Ninguém da patrulha vai com o grupo atrás da Bolbara: o Corvelo, a Nália, o Damião e os outros ficam no forte com os sobreviventes.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #9"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d16-10",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "Pátio (V4): o caderninho do torneio, junto à garrafa de brandy, acaba em «Tibério ganhou», com a data do dia 3. O Corvelo devolve-o calado e guarda a garrafa.",
+      "suggestion": "Pátio (V4): o caderninho do torneio, junto à garrafa de brandy, acaba em «Tibério ganhou», com a data do dia 3. O Corvelo devolve-o calado e guarda a garrafa.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #10"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d16-11",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "Capela (V6): a espada do Tibério enterrada no peito do Perestrelo; o corpo do Tibério não está, e um rasto de pegadas molhadas vai do altar à água (Survival CD 12). O Corvelo: «Tibério.»",
+      "suggestion": "Capela (V6): a espada do Tibério enterrada no peito do Perestrelo; o corpo do Tibério não está, e um rasto de pegadas molhadas vai do altar à água (Survival CD 12). O Corvelo: «Tibério.»",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #11"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-12",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s6"
+      },
+      "factKind": "pista",
+      "text": "As notas do Perestrelo (lidas pelo Damião) são um interrogatório sobre Urzin: onde fica, quem a protege, as tartarugas, com mapas riscados a cada morte. Apontam também para os envios de rubídio à Doolan Tversky.",
+      "suggestion": "As notas do Perestrelo (lidas pelo Damião) são um interrogatório sobre Urzin: onde fica, quem a protege, as tartarugas, com mapas riscados a cada morte. Apontam também para os envios de rubídio à Doolan Tversky.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #13"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-13",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O pendente guarda um Time Stop: da primeira vez que a Lia chega a 0 PV, cai e o tempo para à volta dela 1d4+1 rondas (ninguém lhe toca, sem testes contra a morte). Depois o selo parte-se: sonhos mais invasivos, typhros +1.",
+      "suggestion": "O pendente guarda um Time Stop: da primeira vez que a Lia chega a 0 PV, cai e o tempo para à volta dela 1d4+1 rondas (ninguém lhe toca, sem testes contra a morte). Depois o selo parte-se: sonhos mais invasivos, typhros +1.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #15"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-14",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-lia-pai",
+        "col": "ch1"
+      },
+      "factKind": "pista",
+      "text": "Em Jigau, a Belana Zolaed lê no pendente o símbolo da Den Tasithar, a da mãe, e aponta para Bazzoxan.",
+      "suggestion": "Em Jigau, a Belana Zolaed lê no pendente o símbolo da Den Tasithar, a da mãe, e aponta para Bazzoxan.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #16"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-d16-15",
+      "at": "2026-10-16T08:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-missao-patrulha",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "Se a S6 chegar ao forte: o material está na Drive, «Sessão 06 — Extra: O Forte Ventura v2» (Session Prep), com o texto do livro para V1–V11 e as reações da patrulha. Distância obelisco–forte: cerca de 7 hexágonos, não 10; partindo a meio da tarde do dia 4, chegam a meio da manhã do dia 5.",
+      "suggestion": "Se a S6 chegar ao forte: o material está na Drive, «Sessão 06 — Extra: O Forte Ventura v2» (Session Prep), com o texto do livro para V1–V11 e as reações da patrulha. Distância obelisco–forte: cerca de 7 hexágonos, não 10; partindo a meio da tarde do dia 4, chegam a meio da manhã do dia 5.",
+      "because": [
+        "registo/decisoes.md 2026-10-13 #27",
+        "registo/decisoes.md 2026-10-16 #6"
       ],
       "status": "aberta"
     }

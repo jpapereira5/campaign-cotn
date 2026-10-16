@@ -11,7 +11,7 @@ origem:
 
 ## Decrépola — o que vocês se lembram (só Lucan e Isco) (de docs/handouts.md)
 
-**DM:** entregar à Renata e ao Pedro Ropio. Versão na Drive: «Handout — Decrépola (Lucan e Isco)», pasta Session Prep. Os segredos dos contactos estão em `docs/lore.md` (Decrépola) e nas fichas `c-ossorio-lume`, `c-remendo` e `c-vigost`. As três pistas para o Forte Ventura (o homem do casaco, o símbolo, o velho das catacumbas) estão misturadas no texto, sem destaque.
+**DM:** cânone da backstory do Lucan e do Isco (fichas `c-pc-lucan` e `c-pc-isco`, secção «Decrépola (backstory)»). Entregar à Renata e ao Pedro Ropio. Versão na Drive: «Handout — Decrépola (Lucan e Isco)», pasta Session Prep. Os segredos dos contactos estão em `docs/lore.md` (Decrépola) e nas fichas `c-ossorio-lume`, `c-remendo` e `c-vigost`. As três pistas para o Forte Ventura (o homem do casaco, o símbolo, o velho das catacumbas) estão misturadas no texto, sem destaque.
 
 Há umas semanas, antes de Asarius e de Urzin, passaram por Decrépola. O Yussa Errenis mandou-vos atrás do rubídio, a pedra vermelha que começou a aparecer no mercado negro, e Decrépola era o sítio onde perguntar.
 
