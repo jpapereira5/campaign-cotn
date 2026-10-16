@@ -414,6 +414,12 @@
     ]
   },
   {
+    "id": "i-pendente-da-lia",
+    "pcs": [
+      "c-pc-lia"
+    ]
+  },
+  {
     "id": "i-amuletos-do-trono",
     "pcs": [
       "c-pc-lucan"
