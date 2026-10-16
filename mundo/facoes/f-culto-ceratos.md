@@ -16,3 +16,5 @@ Culto ligado ao Far Realm (Reino Distante) de que Alone Fritz é membro: um estu
 ## Face pública
 
 Nenhuma: só Fritz, um prisioneiro "estudioso que procura conhecimento". Bellatriz viu pessoas a entrar no mar ao largo de Orc Skelly e o Culto Esquecido da gruta do altar aberrante é também do Far Realm, mas o material não os liga explicitamente a Serratos.
+
+**O Vigost é o líder do culto em Decrépola** (a célula da cidade, não o culto todo) (Decidido pelo DM (2026-10-16)).

@@ -29,7 +29,7 @@ origem:
 
 ## Resumo
 
-DM (2026-10-01): tiefling magro, cara comprida, pele cor de vinho, um corno partido rente à testa; colete de veludo coçado, camisa demasiado branca, anéis em todos os dedos menos nos polegares; conta moedas sem olhar. Banca de «antiguidades» ao fundo do Mercado Vermelho. Aos irmãos Bruma, a troco de dinheiro: o primeiro lote veio por mar de Marquet; o que chega agora desce do norte de Jorhas por Asarius; quem mais compra em Decrépola é um culto, de que não diz o deus («não lhes pergunto a quem rezam»); mostrou-lhes um cristal embrulhado num pano com uma esfera de olhos desencontrados, a marca do culto: «Este já é deles.» Não fala do Fritz (Decidido pelo DM (2026-10-16)). Nome inventado na conversa de preparação: o DM pode mudá-lo.
+DM (2026-10-01): tiefling magro, cara comprida, pele cor de vinho, um corno partido rente à testa; colete de veludo coçado, camisa demasiado branca, anéis em todos os dedos menos nos polegares; conta moedas sem olhar. Banca de «antiguidades» ao fundo do Mercado Vermelho. Aos irmãos Bruma, a troco de dinheiro: o primeiro lote veio por mar de Marquet; o que chega agora desce do norte de Jorhas por Asarius; quem mais compra em Decrépola é um culto, de que não diz o deus («não lhes pergunto a quem rezam»), e quem trata das compras é «um velho das catacumbas, o Vigost» (Decidido pelo DM (2026-10-16)); mostrou-lhes um cristal embrulhado num pano com uma esfera de olhos desencontrados, a marca do culto: «Este já é deles.» Não fala do Fritz (Decidido pelo DM (2026-10-16)). Nome inventado na conversa de preparação: o DM pode mudá-lo.
 
 ## Objetivo
 

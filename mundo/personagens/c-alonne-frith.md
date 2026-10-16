@@ -80,3 +80,5 @@ Já morreu uma vez: "os deuses, por capricho ou por insulto, apenas me voltaram 
 Leitura de mentes: só pensamentos à superfície, uma pessoa de cada vez, a até 9 m, com uma ação; quem é lido sente um frio atrás dos olhos (SAB CD 13 para perceber). Não lê memórias nem o passado. (Decidido pelo DM (2026-10-16))
 
 Lê mentes raramente, porque pode ser apanhado: no forte, no máximo uma vez, e só se valer o risco. Não ouve o Baeshra. (Decidido pelo DM (2026-10-16))
+
+**Reconhece o nome do Vigost.** Se os jogadores falarem dele (o Lucan e o Isco ouviram-no ao Ossório, em Decrépola), o Fritz reconhece-o: é por aí que se descobre que é (ou foi) do culto de Serratos. Como reage fica para o momento (Decidido pelo DM (2026-10-16)).

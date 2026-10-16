@@ -75,12 +75,12 @@ DM: morreu mesmo; Baeshra levantou-o e é o que o mantém a andar. Foi a interve
 
 ## Decrépola (backstory)
 
-Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco) v2», Session Prep), que é cânone da backstory dos dois {D}:
+Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco) v3», Session Prep), que é cânone da backstory dos dois {D}:
 
-- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Quem mais compra em Decrépola é **um culto** («não lhes pergunto a quem rezam»); mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados, a marca do culto. É o culto de Serratos, onde o Fritz se infiltrou, mas o Ossório não dá o nome do deus nem fala do Fritz (Decidido pelo DM (2026-10-16)).
+- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Quem mais compra em Decrépola é **um culto** («não lhes pergunto a quem rezam»), e quem trata das compras é **o Vigost**, «um velho das catacumbas» (Decidido pelo DM (2026-10-16)); mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados, a marca do culto. É o culto de Serratos, onde o Fritz se infiltrou, mas o Ossório não dá o nome do deus nem fala do Fritz (Decidido pelo DM (2026-10-16)).
 - **Remendo** (`c-remendo`), no Cais: o navio de Marquet com a tripulação de manchas vermelhas nas mãos; ao ver a tatuagem do anzol do Isco: «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.»
 - **O que trouxeram:** o rubídio desce do norte de Jorhas por Asarius; em Decrépola, quem mais o compra é um culto que marca o que compra com a esfera de olhos; quem lhe toca fica com manchas vermelhas.
-- **Perguntas em aberto para os jogadores:** que culto é esse e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
+- **Perguntas em aberto para os jogadores:** que culto é esse, quem é o Vigost e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
 
 O contexto do DM (a cidade, a cadeia do rubídio, os segredos dos contactos) está em `l-decrepola`.
 
@@ -178,3 +178,5 @@ Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, Neutral, 29 anos, 1,9
 - **À mesa (sessão 2, #83):** a Rage é uma «Tranquil Fury», raiva calma: olhos vermelho-escuro, dobra-se em dores e cresce-lhe uma cauda comprida com espigões ósseos na ponta (verde-escura/azul-marinho), alcance 10 pés, 2d8+4 piercing. Reação: a cauda soma 1d8 à AC contra um ataque que a jogadora vê vir. Reckless Attack em uso.
 
 - **À mesa (sessão 3, #84) — a fome do santuário:** dentro do crânio do altar abre-se-lhe «um buraco enorme de fome e de vontade de devorar tudo»; fora dele passa. Ao arrancar a adaga a fome fica absurda e ele cai de joelhos. Comer não a resolve: devorou dois corpos de lizardfolk e, passados dois minutos, a fome estava na mesma; de manhã, depois de uma refeição inteira, continuava. Ouviu na cabeça **«Perto. Não aqui.»** (Wisdom save passado: fica lúcido, e olha para quem tem a adaga e a garra). A fome não é mecânica: é estado, e mantém-se até o DM decidir o contrário.
+
+**A ponte para o Fritz:** se os jogadores falarem do Vigost à frente do Fritz, ele reconhece o nome. É assim que se descobre que o Fritz é (ou foi) do culto (Decidido pelo DM (2026-10-16)).

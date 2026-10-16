@@ -60,12 +60,12 @@ DM: não sabe que se transforma sem controlo sob os flashes de Ruidus (sem calen
 
 ## Decrépola (backstory)
 
-Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco) v2», Session Prep), que é cânone da backstory dos dois {D}:
+Há umas semanas, antes de Asarius e de Urzin, os irmãos Bruma passaram por Decrépola (Rotthold), mandados pelo Yussa Errenis atrás do rubídio. O que se lembram está no handout `i-doc-decrepola-memorias` (Drive: «Handout — Decrépola (Lucan e Isco) v3», Session Prep), que é cânone da backstory dos dois {D}:
 
-- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Quem mais compra em Decrépola é **um culto** («não lhes pergunto a quem rezam»); mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados, a marca do culto. É o culto de Serratos, onde o Fritz se infiltrou, mas o Ossório não dá o nome do deus nem fala do Fritz (Decidido pelo DM (2026-10-16)).
+- **Ossório Lume** (`c-ossorio-lume`), no Mercado Vermelho: o primeiro lote veio por mar, de Marquet; agora o rubídio desce do norte de Jorhas, por Asarius. Quem mais compra em Decrépola é **um culto** («não lhes pergunto a quem rezam»), e quem trata das compras é **o Vigost**, «um velho das catacumbas» (Decidido pelo DM (2026-10-16)); mostrou um cristal embrulhado num pano com uma esfera coberta de olhos desencontrados, a marca do culto. É o culto de Serratos, onde o Fritz se infiltrou, mas o Ossório não dá o nome do deus nem fala do Fritz (Decidido pelo DM (2026-10-16)).
 - **Remendo** (`c-remendo`), no Cais: o navio de Marquet com a tripulação de manchas vermelhas nas mãos; ao ver a tatuagem do anzol do Isco: «Conheci um rapaz com uma tatuagem dessas. Morreu no mar.»
 - **O que trouxeram:** o rubídio desce do norte de Jorhas por Asarius; em Decrépola, quem mais o compra é um culto que marca o que compra com a esfera de olhos; quem lhe toca fica com manchas vermelhas.
-- **Perguntas em aberto para os jogadores:** que culto é esse e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
+- **Perguntas em aberto para os jogadores:** que culto é esse, quem é o Vigost e o que quer dizer o símbolo; quem era o rapaz da tatuagem.
 
 O contexto do DM (a cidade, a cadeia do rubídio, os segredos dos contactos) está em `l-decrepola`.
 
@@ -124,3 +124,5 @@ Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fi
 - Derreter o rubídio no fim do livro **não** lhe desfaz a forma: foi a Lua Vermelha, não o rubídio.
 
 **À mesa (sessão 2, #83):** a 1.ª transformação (bonus action) torna as feições mais de tubarão; a 2.ª dá +7 PV temporários e +1 AC (17) e fá-lo crescer. Mordida com descarga elétrica (faíscas entre os dentes): 14 de dano num acerto; quando falha morde a língua e leva 3. Em lama profunda pode espetar a greatsword no chão para sacar a besta ligeira sem gastar ação (decisão do DM).
+
+**A ponte para o Fritz:** se os jogadores falarem do Vigost à frente do Fritz, ele reconhece o nome. É assim que se descobre que o Fritz é (ou foi) do culto (Decidido pelo DM (2026-10-16)).
