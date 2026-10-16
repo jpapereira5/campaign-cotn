@@ -66,7 +66,7 @@ DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista e
 ## Em aberto (para o DM decidir)
 
 1. Nome e raça do pai; nome da mãe; arcanista-mor ou sacerdotisa; Lente no ativo ou reformada.
-2. ~~A Den de origem nesta vida~~: Tasithar, a da mãe; o pendente tem o símbolo da Tasithar e o selo da mãe (`i-pendente-da-lia`) (Decidido pelo DM (2026-10-16)). Falta: a ligação de parentesco à Naevyn.
+2. ~~A Den de origem nesta vida~~: Tasithar, a da mãe; o pendente tem o símbolo da Tasithar e o selo da mãe e a paragem no tempo 1/dia a 0 PV (`i-pendente-da-lia`) (Decidido pelo DM (2026-10-16)). Falta: a ligação de parentesco à Naevyn.
 3. Em que templo de Rexxentrum foi treinada e a que deus julga rezar.
 4. O nome da primeira vida (a do Alyxian) e da Den dessa vida; os nomes das vidas de Urzin, Jigau, Bazzoxan e da Ascensão; se a expedição da vida da Ascensão despertou o portal do Abismo.
 5. Com a Camila: traço, ideal, laço, defeito e memória mais antiga; quem é a mulher do sonho (decide ela).

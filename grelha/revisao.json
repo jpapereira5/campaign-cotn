@@ -2304,12 +2304,12 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "O pendente guarda um Time Stop: da primeira vez que a Lia chega a 0 PV, cai e o tempo para à volta dela 1d4+1 rondas (ninguém lhe toca, sem testes contra a morte). Depois o selo parte-se: sonhos mais invasivos, typhros +1.",
+      "text": "O pendente guarda um Time Stop: da primeira vez que a Lia chega a 0 PV, cai e o tempo para à volta dela 1d4+1 rondas (ninguém lhe toca, sem testes contra a morte). Depois o selo parte-se: sonhos mais invasivos, typhros +1. [substituída: 1/dia, uma ronda, sem custo, decisão 2026-10-16 #24]",
       "suggestion": "O pendente guarda um Time Stop: da primeira vez que a Lia chega a 0 PV, cai e o tempo para à volta dela 1d4+1 rondas (ninguém lhe toca, sem testes contra a morte). Depois o selo parte-se: sonhos mais invasivos, typhros +1.",
       "because": [
         "registo/decisoes.md 2026-10-16 #15"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "tags": [
         "so-dm"
       ]
@@ -2364,6 +2364,25 @@
       "suggestion": "Se os jogadores falarem do Vigost à frente do Fritz (o Lucan e o Isco ouviram o nome ao Ossório, em Decrépola), o Fritz reconhece-o: é a primeira prova de que é (ou foi) do culto de Serratos.",
       "because": [
         "registo/decisoes.md 2026-10-16 #23"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d16-17",
+      "at": "2026-10-16T19:55:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo.",
+      "suggestion": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #24"
       ],
       "tags": [
         "so-dm"
