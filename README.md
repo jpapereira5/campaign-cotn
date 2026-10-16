@@ -32,7 +32,7 @@ A pesquisa global abre com `Ctrl+K` ou `/`. Com o token do GitHub (Definições)
 
 ## O Claude
 
-Seis skills em `.claude/skills/`, para usar numa conversa com acesso ao repositório. Não é preciso chamá-las: o Claude carrega cada uma quando o pedido encaixa na descrição dela (o `/nome` é só atalho).
+Sete skills em `.claude/skills/`, para usar numa conversa com acesso ao repositório. Não é preciso chamá-las: o Claude carrega cada uma quando o pedido encaixa na descrição dela (o `/nome` é só atalho). **O repositório é a cópia de referência das skills:** uma skill nova ou alterada (mesmo que também esteja guardada na conta do Claude) grava-se aqui. Cada `SKILL.md` é Markdown simples, por isso serve a outros projetos e a outras ferramentas de IA (ver `AGENTS.md`).
 
 - **`/vigia`** — fica à escuta (`scripts/escuta.sh`) e revê cada gravação do DM em tempo real: perguntas curtas com resposta sugerida, escritas em `grelha/revisao.json` para aparecerem na célula.
 - **`/preparar`** — lê a Grelha para a próxima sessão (`node scripts/grelha.ts`), assinala os esquecidos, os PCs sem cena e o cânone à frente, e deixa ideias e avisos nas células.
@@ -40,6 +40,7 @@ Seis skills em `.claude/skills/`, para usar numa conversa com acesso ao reposit�
 - **`decidir`** — sempre que o DM decide ou há algo a confirmar: perguntas interativas, e cada decisão vai para o ficheiro da coisa, para `registo/decisoes.md` e para uma ideia na célula certa da Grelha.
 - **`arcos`** — os arcos dos PCs: três descobertas por personagem e por capítulo, cânone separado de proposta, propostas como perguntas.
 - **`runsheet`** — o documento de preparação de uma sessão, como Google Doc na pasta Session Prep.
+- **`batalha`** — a folha de um combate (Google Doc) e o ficheiro da página Batalha (`mesa/batalhas/<id>.yaml`): combatentes, terreno, táticas e descrições por resultado.
 
 ## Desenvolvimento
 
