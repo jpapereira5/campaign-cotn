@@ -76,3 +76,5 @@ Rubídio e respostas: chegar ao que há em Jigau e depois em Bazzoxan; "manipula
 ## Segredo
 
 Já morreu uma vez: "os deuses, por capricho ou por insulto, apenas me voltaram a acordar". Elisabete (filha ou irmã) foi-lhe roubada num ataque e ele não desistiu de a reencontrar: "o Pai ainda não desistiu. Estou cada vez mais perto." Segundo os cultistas de Torog, Torog foi banido na Calamidade para uma prisão entre o Reino Distante e o Subterrâneo Profundo, mas a sua presença é forte em Bazzoxan. Considera-se o único a compreender a verdadeira ameaça de Ceratos. (a ficha antiga chamava-lhe Alice; DM: Elisabete): o plano do DM é o sacrifício final para salvar um PC.
+
+Leitura de mentes: só pensamentos à superfície, uma pessoa de cada vez, a até 9 m, com uma ação; quem é lido sente um frio atrás dos olhos (SAB CD 13 para perceber). Não lê memórias nem o passado. (Decidido pelo DM (2026-10-16))
