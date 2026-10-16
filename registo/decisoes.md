@@ -134,3 +134,6 @@ Na revisão da Grelha (respostas às notas da migração):
 9. **O sonho preventivo da Lia:** na viagem a Bazzoxan (cap. 2), antes da visão das Ruínas do Pesar, a Lia sonha com a mulher da primeira vida e, dentro do sonho, essa mulher está a rever uma memória com o Alyxian: a véspera da Ascensão dos Traidores, quando ninguém espera voltar e ele lhe pede que se lembre deles se cair. Ela lembrou-se a vida inteira; ele esqueceu-a. Planta o tema do desfecho.
 10. **A visão canónica da Ascensão (cap. 3) é a memória do Alyxian,** não a verdade: a companhia toda morta e só ele de pé. Ele dá-a como morta, e é por isso que não a reconhece. A Lia, que já sonhou e já jogou essa vida, sabe que a visão está errada. Fica de fora: mudar a visão do livro para a mostrar viva.
 
+## Decidido pelo DM (2026-10-16)
+
+1. **O menir tem efeito mecânico no tempo, fora do combate:** num raio de 3 m da pedra, cada teste ou toque rola 1d6; com 4–6 o tempo «pega» e a ação custa meia hora lá fora (o sol mexe-se depressa demais). É o meio gás da decisão de 2026-10-07 #15 com número: o obelisco come o relógio da Bolbara aos soluços. Durante o combate na periferia não afeta ninguém (2026-10-13). Fica de fora: só mistério, sem custo; uma hora por ação (o efeito do obelisco do mar).
