@@ -16,3 +16,5 @@ Menhir negro onde Bol'bara fazia os ritos comunais; commune 1x por lua cheia, au
 Tempo a meio gás: num raio de 3 m, cada teste ou toque rola 1d6; com 4–6 a ação custa meia hora lá fora. Não se aplica ao combate na periferia. (Decidido pelo DM (2026-10-16))
 
 *Detect Magic*: necromancia, abjuração (o selo) e dunamancia verdadeira (a tecnologia de Aeor; «a magia dos Kryn», History ou Arcana CD 15). Cheira a enxofre, como a garra de seis dedos e o sangue do Skr'a S'orsk. (Decidido pelo DM (2026-10-16))
+
+Vestígios do rapto: conchas brancas dos ritos (iguais às do colar que o Isco traz) e pegadas de botas imperiais, com cerca de uma semana, para o forte. (Decidido pelo DM (2026-10-16))
