@@ -13,6 +13,10 @@ Os procedimentos de trabalho estão em `.claude/skills/<nome>/SKILL.md`. São Ma
 | `preparar` | Preparar a próxima sessão a partir da Grelha |
 | `runsheet` | O documento de preparação de uma sessão |
 | `batalha` | Preparar um combate (folha e página Batalha) |
+| `capitulo` | Desenhar um capítulo ou arco novo (Mass Effect, por rondas) |
+| `npc` | Criar ou aprofundar um NPC (figurante ou elenco) |
+| `local` | Criar um local ou uma loja |
+| `livro` | O que dizem os livros, separado do que a campanha mudou |
 | `fecho` | Fechar uma sessão no registo |
 | `vigia` | Rever em tempo real as edições do DM na Grelha |
 
