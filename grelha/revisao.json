@@ -2407,6 +2407,25 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-d16-18",
+      "at": "2026-10-16T20:40:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-damiao-prestes",
+        "col": "s6"
+      },
+      "factKind": "cena",
+      "text": "O Damião usa um Periapt of Proof against Poison (presente do Perestrelo): é o único da patrulha que nunca adoeceu no pântano. Detect Magic mostra-o (abjuração), ao pescoço, por baixo da túnica.",
+      "suggestion": "O Damião usa um Periapt of Proof against Poison (presente do Perestrelo): é o único da patrulha que nunca adoeceu no pântano. Detect Magic mostra-o (abjuração), ao pescoço, por baixo da túnica.",
+      "because": [
+        "registo/decisoes.md 2026-10-16 #25"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
