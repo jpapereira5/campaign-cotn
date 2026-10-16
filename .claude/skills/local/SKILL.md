@@ -1,6 +1,6 @@
 ---
 name: local
-description: Criar ou aprofundar um local da CotN (cidade, bairro, masmorra, ermo, edifício, taberna ou loja) no estilo cinematográfico de Matt Mercer e Brennan Lee Mulligan, com texto para ler, vida própria, segredos e, se vender coisas, o comércio. Usar quando o DM pede um local, uma loja ou o que há para comprar num sítio.
+description: Criar ou aprofundar um local de uma campanha ou one-shot de D&D (cidade, bairro, masmorra, ermo, edifício, taberna ou loja) no estilo cinematográfico de Matt Mercer e Brennan Lee Mulligan, com texto para ler, vida própria, segredos e, se vender coisas, o comércio. Usar quando o DM pede um local, uma loja ou o que há para comprar num sítio.
 ---
 
 # local: um sítio vivo, e as lojas
@@ -9,10 +9,11 @@ Um local não é um cenário parado: é um sítio onde está a acontecer alguma 
 
 ## 1. Antes de escrever
 
-- `git pull`. Procura se já existe (`mundo/locais/l-*.md`, `grep -rli "<nome>" mundo/ plano/ registo/`) e o que a mesa já viu. Nunca contradigas o jogado.
-- **O mundo à volta:** clima, geografia, ecologia, cultura, economia, política e religião da região (PDFs do projeto: CotN, Explorer's Guide to Wildemount, Tal'Dorei Reborn; `livro/`). Isso decide os materiais, a arquitetura, a roupa, a comida, a língua e o que se vende.
-- **O papel na história:** que beats passam por aqui (`plano/beats/`, campo `local`), que NPCs vivem cá (`casa`), que segredos se podem descobrir (`mundo/segredos/`), e que objetivo de PC pode avançar aqui (skill `arcos`).
-- Nomes pelo glossário pt-PT (`glossario_pt_v8.md`).
+- Lê a secção `## Para as skills` do `AGENTS.md` do projeto (onde vivem os locais, os itens, os segredos e as cenas; o glossário; os livros). Sem projeto, pergunta ao DM a região, a época e o papel do sítio.
+- Procura se o local já existe e o que a mesa já viu. Nunca contradigas o jogado.
+- **O mundo à volta:** clima, geografia, ecologia, cultura, economia, política e religião da região (skill `livro`). Isso decide os materiais, a arquitetura, a roupa, a comida, a língua e o que se vende.
+- **O papel na história:** que cenas passam por aqui, que NPCs vivem cá, que segredos se podem descobrir, e que objetivo de PC pode avançar aqui (skill `arcos`).
+- Nomes pelo glossário e pelo tom do projeto.
 
 ## 2. Princípios
 
@@ -30,7 +31,7 @@ Um local não é um cenário parado: é um sítio onde está a acontecer alguma 
 - **Layout:** tabela de áreas (área · descrição · o que se pode fazer) e acessos.
 - **Vida do lugar:** movimento, conversas, conflitos a decorrer.
 - **NPCs presentes:** tabela (nome · papel · o que está a fazer · ficha) e uma ou duas frases de primeira impressão por NPC.
-- **Comércio** (só se vende coisas): nível da loja (1–4), regateio (CD e regra), stock normal, stock especial (raridade, efeito), serviços, e **o que não está à venda** (objetos à vista que não se vendem: ganchos de quest, apego do NPC). Preços do Player's Handbook e do DMG; itens de Wildemount e de CotN (rubídio incluído) pelas regras do livro e de `mesa/regras.md`. Itens próprios da loja vão para `mundo/itens/i-*.md` se forem importantes.
+- **Comércio** (só se vende coisas): nível da loja (1–4), regateio (CD e regra), stock normal, stock especial (raridade, efeito), serviços, e **o que não está à venda** (objetos à vista que não se vendem: ganchos de quest, apego do NPC). Preços do Player's Handbook e do DMG; itens do cenário pelas regras do livro e pelas regras da casa do projeto. Itens próprios da loja ganham ficha própria no projeto se forem importantes.
 - **Perigo** (só se houver): tabela de riscos (efeito, CD, onde) e notas táticas (cobertura, elevação, luz, terreno). Se for palco de combate, a skill `batalha` aproveita isto.
 - **Segredos:** tabela em três camadas (superfície, fundo, escondido), com o modo de descobrir, a CD e o impacto.
 - **Mudança com o tempo:** dia e noite, depois de um acontecimento, se os jogadores fizerem algo.
@@ -38,10 +39,11 @@ Um local não é um cenário parado: é um sítio onde está a acontecer alguma 
 
 ## 4. Gravar
 
-- **No repositório:** `mundo/locais/l-<nome>.md` com o cabeçalho dos outros locais (`id`, `nome`, `pai` se estiver dentro de outro, `capitulo`, `origem`) e as secções acima por baixo de `## Resumo`. Se deve aparecer na Grelha, a id vai para `grelha/linhas.json`.
-- O local é proposta até o DM o aprovar: as escolhas vão como perguntas interativas (skill `decidir`).
-- **Na Drive (opcional):** Google Doc para a mesa na Session Prep, sem YAML; versões novas como ficheiros novos.
-- `python3 scripts/normalizar-texto.py`, `npm run validate` (0 erros), commit com as linhas de atribuição da sessão, push.
+- **No projeto:** a ficha no sítio e no formato que o `AGENTS.md` indica (copia o cabeçalho de uma ficha existente do mesmo tipo). Se o projeto tiver uma lista do que acompanha (ex.: as linhas de uma grelha), acrescenta lá a id.
+- **Sem projeto:** entrega na conversa ou num documento na Drive.
+- O local é proposta até o DM o aprovar: as escolhas vão como perguntas interativas (skill `decidir`), e o aprovado grava-se pela mesma skill.
+- **Na Drive (opcional):** se o DM quiser a ficha para a mesa, um Google Doc na pasta de preparações do projeto, sem cabeçalho YAML; versões novas como ficheiros novos.
+- Valida e grava com os comandos do projeto.
 
 ## 5. Responder
 

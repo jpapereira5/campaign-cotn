@@ -1,6 +1,6 @@
 ---
 name: npc
-description: Criar ou aprofundar um NPC da CotN em dois níveis, figurante (estilo Brennan Lee Mulligan, um traço memorável) e elenco (estilo Matt Mercer, complexo, imersivo, com segredos e side quests). Usar quando o DM pede um NPC novo, improvisa um, ou quer promover um figurante a elenco.
+description: Criar ou aprofundar um NPC de uma campanha ou one-shot de D&D em dois níveis, figurante (estilo Brennan Lee Mulligan, um traço memorável) e elenco (estilo Matt Mercer, complexo, imersivo, com segredos e side quests). Usar quando o DM pede um NPC novo, improvisa um, ou quer promover um figurante a elenco.
 ---
 
 # npc: figurante (Mulligan) ou elenco (Mercer)
@@ -18,10 +18,11 @@ Por defeito, **figurante**, a não ser que o DM peça elenco ou o NPC vá voltar
 
 ## 1. Antes de escrever
 
-- `git pull`. Procura se o NPC já existe (`grep -rli "<nome>" mundo/ registo/`) e lê a ficha, as relações e o que a mesa já viu (`## A mesa` nos resumos das sessões). Nunca contradigas o que foi jogado.
-- O contexto: o local (`mundo/locais/`), a fação (`mundo/facoes/`), o capítulo (`plano/campanha.md`) e os beats onde entra (`plano/beats/`). O mundo molda tudo: clima, cultura, economia, religião da região (os PDFs do projeto, `livro/`).
-- Os nomes seguem o glossário pt-PT (`glossario_pt_v8.md` na Drive). Nomes portugueses para o Império e a costa, como os que já existem (Corvelo, Casqueiro, Sousela).
-- **Os PCs:** pensa que objetivo pessoal de um PC este NPC pode tocar (`mundo/personagens/c-pc-*.md`, `quer`/`teme`, e a skill `arcos`). Um NPC de elenco deve servir pelo menos um arco.
+- Lê a secção `## Para as skills` do `AGENTS.md` do projeto (onde vivem as fichas, o glossário, os locais, as fações, os capítulos e os PCs). Sem projeto, pergunta ao DM o sítio, a época e o papel do NPC.
+- Procura se o NPC já existe e lê a ficha, as relações e o que a mesa já viu. Nunca contradigas o que foi jogado.
+- O contexto: o local, a fação, o capítulo e as cenas onde entra. O mundo molda tudo: clima, cultura, economia, religião da região (skill `livro`).
+- Os nomes seguem o glossário e o tom do projeto.
+- **Os PCs:** pensa que objetivo pessoal de um PC este NPC pode tocar (skill `arcos`). Um NPC de elenco deve servir pelo menos um arco.
 
 ## 2. Princípios dos dois níveis
 
@@ -53,10 +54,12 @@ Por defeito, **figurante**, a não ser que o DM peça elenco ou o NPC vá voltar
 
 ## 5. Gravar
 
-- **No repositório:** `mundo/personagens/c-<nome>.md` com o cabeçalho das outras fichas (`id`, `nome`, `tipo: npc`, `facoes`, `casa`, `capitulos`, `quer`, `teme`, `tags`, `legenda`, `relacoes`, `origem`) e as secções `## Resumo`, `## Objetivo`, `## Segredo`. A ficha completa de elenco vai em secções a seguir (`## Aparência`, `## Voz`, `## Frases`, `## Na mesa`). Se deve aparecer na Grelha, acrescenta a id a `grelha/linhas.json`.
-- **Decisões:** o NPC só é cânone quando o DM o aprova; até lá é proposta. Apresenta as escolhas como perguntas interativas (skill `decidir`) e grava a decisão.
-- **Na Drive (opcional):** se o DM quiser a ficha para a mesa, um Google Doc na Session Prep, sem YAML, versões novas como ficheiros novos.
-- `python3 scripts/normalizar-texto.py`, `npm run validate` (0 erros), commit com as linhas de atribuição da sessão, push.
+- **No projeto:** a ficha no sítio e no formato que o `AGENTS.md` indica (copia o cabeçalho de uma ficha existente do mesmo tipo). Se o projeto tiver uma lista do que acompanha (ex.: as linhas de uma grelha), acrescenta lá a id.
+- **Sem projeto:** entrega na conversa ou num documento na Drive.
+- O NPC é proposta até o DM o aprovar: as escolhas vão como perguntas interativas (skill `decidir`), e o aprovado grava-se pela mesma skill.
+- **Na Drive (opcional):** se o DM quiser a ficha para a mesa, um Google Doc na pasta de preparações do projeto, sem cabeçalho YAML; versões novas como ficheiros novos.
+- Valida e grava com os comandos do projeto.
+- Ficha de elenco: as secções de cima (Aparência, Voz, Frases, Sabe e segredos, Na mesa, Side quest) por baixo do resumo e do objetivo.
 
 ## 6. Responder
 

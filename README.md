@@ -32,7 +32,7 @@ A pesquisa global abre com `Ctrl+K` ou `/`. Com o token do GitHub (Definições)
 
 ## O Claude
 
-Onze skills em `.claude/skills/`, para usar numa conversa com acesso ao repositório. Não é preciso chamá-las: o Claude carrega cada uma quando o pedido encaixa na descrição dela (o `/nome` é só atalho). **O repositório é a cópia de referência das skills:** uma skill nova ou alterada (mesmo que também esteja guardada na conta do Claude) grava-se aqui. Cada `SKILL.md` é Markdown simples, por isso serve a outros projetos e a outras ferramentas de IA (ver `AGENTS.md`).
+Onze skills em `.claude/skills/`, para usar numa conversa com acesso ao repositório. Não é preciso chamá-las: o Claude carrega cada uma quando o pedido encaixa na descrição dela (o `/nome` é só atalho). Oito são **genéricas** e servem a qualquer campanha ou one-shot: a cópia-mãe está no repositório `jpapereira5/dnd-skills` e o que é próprio da CotN (pastas, Drive, Grelha, validação) está em `AGENTS.md`, secção «Para as skills». As outras três (`preparar`, `fecho`, `vigia`) são só deste projeto, porque vivem da Grelha. Outras ferramentas de IA começam pelo `AGENTS.md`.
 
 - **`/vigia`** — fica à escuta (`scripts/escuta.sh`) e revê cada gravação do DM em tempo real: perguntas curtas com resposta sugerida, escritas em `grelha/revisao.json` para aparecerem na célula.
 - **`/preparar`** — lê a Grelha para a próxima sessão (`node scripts/grelha.ts`), assinala os esquecidos, os PCs sem cena e o cânone à frente, e deixa ideias e avisos nas células.

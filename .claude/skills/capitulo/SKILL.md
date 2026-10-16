@@ -1,11 +1,11 @@
 ---
 name: capitulo
-description: Construir a estrutura narrativa de um capítulo ou de uma secção nova da CotN à maneira de Mass Effect (missão principal, secundária com mistério e dilema, missões de caminho, escolhas binárias, consequências), ligando as missões aos objetivos pessoais dos PCs. Usar quando o DM quer desenhar ou rever um capítulo, um arco ou uma zona nova. É a skill com mais discussão: trabalha por rondas, com pontos de controlo.
+description: Construir a estrutura narrativa de um capítulo, arco ou zona nova de uma campanha de D&D à maneira de Mass Effect (missão principal, secundária com mistério e dilema, missões de caminho, escolhas binárias, consequências), ligando as missões aos objetivos pessoais dos PCs. Usar quando o DM quer desenhar ou rever um capítulo, um arco ou uma zona nova. É a skill com mais discussão: trabalha por rondas, com pontos de controlo.
 ---
 
 # capitulo: um capítulo à Mass Effect, a dois
 
-Esta é a skill que mais perguntas e discussão gera. Não se escreve o capítulo de uma vez: trabalha-se por **rondas**, e cada ronda acaba num **ponto de controlo** onde o DM decide antes de seguir. Fontes: «Estrutura narrativa Mass Effect» (Google Doc na Drive), os checkpoints do mapeamento Mass Effect da *Unmade God* (Drive, `claude_2026_05_22_checkpoint2_mass_effect_mapping.md`), `docs/metodo.md` (BG3 e Mass Effect) e `campaign_design.md` (pasta `reference/`).
+Esta é a skill que mais perguntas e discussão gera. Não se escreve o capítulo de uma vez: trabalha-se por **rondas**, e cada ronda acaba num **ponto de controlo** onde o DM decide antes de seguir. Fontes do método na Drive do DM: «Estrutura narrativa Mass Effect» (Google Doc), o mapeamento Mass Effect da *Unmade God* (`claude_2026_05_22_checkpoint2_mass_effect_mapping.md`) e `campaign_design.md` (pasta `reference/`).
 
 ## A estrutura (Mass Effect)
 
@@ -33,7 +33,7 @@ Em cada ronda: lê, propõe pouco e bem, e pergunta com perguntas interativas (a
 
 ### Ronda 0 · Ler
 
-- `git pull`. `plano/campanha.md` (o capítulo: níveis, hub, resumo), os beats do capítulo (`plano/beats/b-<cap>-*.md`), o livro (skill `livro`), as decisões (`registo/decisoes.md`), a Grelha nas colunas do capítulo (`node scripts/grelha.ts`), e os arcos dos PCs (`mundo/personagens/c-pc-*.md`, `plano/fios/amb-*.md`, skill `arcos`).
+- Lê a secção `## Para as skills` do `AGENTS.md` do projeto e, por ela, a estrutura da campanha (o capítulo: níveis, hub, resumo), as cenas planeadas, o livro (skill `livro`), as decisões, as notas para o DM e os arcos dos PCs (skill `arcos`). Sem projeto, pede ao DM o resumo da campanha, os PCs e o que quer do capítulo.
 - Diz o que já existe, o que o livro dá, onde estão os buracos e as incoerências (tempo, distâncias, regras, decisões anteriores).
 
 ### Ronda 1 · O que o capítulo faz
@@ -59,17 +59,17 @@ Em cada ronda: lê, propõe pouco e bem, e pergunta com perguntas interativas (a
 - Para cada lado: a consequência imediata e o lembrete futuro (em que capítulo e por quem).
 - **Ponto de controlo 4.**
 
-### Ronda 5 · Para o repositório
+### Ronda 5 · Para o projeto
 
-- Os beats do capítulo em `plano/beats/b-<cap>-<nome>.md`, com o cabeçalho dos outros (`id`, `titulo`, `estado: proposta` até o DM aprovar, `arcos`, `capitulo`, `ordem`, `local`, `participantes`, `revela`, `requer`, `escolhas` com `opcao`/`resultado`/`levaA`).
-- Os relógios e as consequências futuras em `plano/fios/` (`t-relogio-*`, `t-*`), e as notas na Grelha nas colunas `ch<N>` (`grelha/revisao.json`, `kind: ideia`).
+- As cenas do capítulo no formato do projeto (ex.: uma ficha por beat, com participantes, o que revela, o que requer e as escolhas com os resultados), marcadas como proposta até o DM aprovar.
+- Os relógios e as consequências futuras como fios do projeto, e as notas para o DM onde ele as vai ver.
 - Os NPCs e locais novos pelas skills `npc` e `local`.
-- O que o DM aprovou grava-se pela skill `decidir` (decisões, ficheiros, Grelha); o rejeitado fica em «Ficam de fora».
-- `python3 scripts/normalizar-texto.py`, `npm run validate` (0 erros), commit com as linhas de atribuição da sessão, push.
+- O que o DM aprovou grava-se pela skill `decidir`; o rejeitado fica em «Ficam de fora».
+- Valida e grava com os comandos do projeto. Sem projeto, tudo fica no documento.
 
 ## Documento
 
-Ao longo das rondas, um documento na Drive, pasta `cotn_2026/ideias` (`1MIP9LYli1gLw7DMgz5UYruOzhkbnrP6j`): «capitulo <N> <nome> AAAA-MM-DD vN.md» (`text/markdown`, sem conversão). Uma versão nova por ponto de controlo; a anterior que tu criaste vai para o lixo. Secções: tema e pergunta; enredos A–E; PCs; escolhas e consequências; por decidir; rejeitado. No fim, uma versão «(decidido)» só com o aprovado.
+Ao longo das rondas, um documento na Drive, na pasta de ideias do projeto (ou na conversa, sem projeto): «capitulo <N> <nome> AAAA-MM-DD vN.md» (`text/markdown`, sem conversão). Uma versão nova por ponto de controlo; a anterior que tu criaste vai para o lixo. Secções: tema e pergunta; enredos A–E; PCs; escolhas e consequências; por decidir; rejeitado. No fim, uma versão «(decidido)» só com o aprovado.
 
 ## Regras
 
