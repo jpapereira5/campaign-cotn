@@ -26,4 +26,4 @@ Líder místico do clã Ro, o clã lizardfolk arrasado por um destacamento Kryn 
 
 ## Segredo
 
-É o corpo que está ao lado do altar do crânio mais pequeno; a adaga que o matou é a que o Lucan tirou de lá.
+É o corpo que está ao lado do altar do crânio mais pequeno; a adaga que o matou é a que o Quasi tirou de lá (Decidido pelo DM (2026-10-17)).

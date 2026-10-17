@@ -976,12 +976,12 @@
         "row": "t-gatilho-damiao-ve",
         "col": "s6"
       },
-      "text": "O Damião muda de alvo, à frente de toda a gente (← S5).",
+      "text": "O Damião muda de alvo, à frente de toda a gente (← S5). [substituída: o Damião morreu na S6, decisão 2026-10-17 #5]",
       "factKind": "consequencia",
       "because": [
         "docs/grelha-semente.json"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-mig-63",
@@ -1447,14 +1447,14 @@
         "row": "c-pc-quasi",
         "col": "s6"
       },
-      "text": "O Padre Perestrelo está morto: a pista da maldição que o Damião deu ao Quasi («a pessoa mais competente») morre com ele. Mas o Damião é o aprendiz e sabe onde o padre guardava as notas sobre o paranormal. O acordo da máscara (só fala com o Quasi primeiro) passa a valer alguma coisa.",
+      "text": "O Padre Perestrelo está morto: a pista da maldição que o Damião deu ao Quasi («a pessoa mais competente») morre com ele. Mas o Damião é o aprendiz e sabe onde o padre guardava as notas sobre o paranormal. O acordo da máscara (só fala com o Quasi primeiro) passa a valer alguma coisa. [substituída: o Damião morreu na S6, decisão 2026-10-17 #5]",
       "because": [
         "e-s5-19",
         "e-s5-38",
         "amb-quasi-maldicao",
         "registo/decisoes.md 2026-10-12 #14"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "factKind": "cena",
       "suggestion": "O Padre Perestrelo está morto: a pista da maldição que o Damião deu ao Quasi («a pessoa mais competente») morre com ele. Mas o Damião é o aprendiz e sabe onde o padre guardava as notas sobre o paranormal. O acordo da máscara (só fala com o Quasi primeiro) passa a valer alguma coisa."
     },
@@ -2416,7 +2416,7 @@
         "row": "c-bolbara",
         "col": "s1"
       },
-      "text": "[alta] O e-s1-07 dá aos três PCs `sabe: r-bolbara-possessed` (parcial), mas na transcrição a Litcha só diz que a Bolbara foi procurar «algo que só existe no pântano» (2:05:37) e o Quasi só percebe que «alguma coisa está a ser preparada» (2:02:53). Nada aponta para a possessão, e o segredo não tem a S1 nas pistas. Afeta registo/sessoes/s01-2026-09-02.md (e-s1-07).",
+      "text": "[alta] O e-s1-07 dá aos três PCs `sabe: r-bolbara-possessed` (parcial), mas na transcrição a Litcha só diz que a Bolbara foi procurar «algo que só existe no pântano» (2:05:37) e o Quasi só percebe que «alguma coisa está a ser preparada» (2:02:53). Nada aponta para a possessão, e o segredo não tem a S1 nas pistas. Afeta registo/sessoes/s01-2026-09-02.md (e-s1-07). [substituída: decisão 2026-10-17 #4]",
       "suggestion": "Retirar o efeito `sabe` do e-s1-07, ou trocá-lo por uma pista para o motivo da saída dela (r-how-to-save-bolbara ou l-ritual-stone), se o DM quiser.",
       "because": [
         "transcrição S1 (#81) 2:05:37"
@@ -2424,7 +2424,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-02",
@@ -2995,7 +2995,7 @@
         "row": "i-adaga-drow",
         "col": "s3"
       },
-      "text": "[alta] O cânone (e-s3-01, e-s3-17, i-adaga-drow, c-pc-lucan) diz que o Lucan arrancou a adaga do altar, mas na transcrição é o Quasi: «Eu pego no crânio e na adaga», «Tu separas a adaga do crânio. Tu não vês isto…» enquanto o Lucan se ajoelha lá fora com a fome (1:10:05–1:10:34), e depois o Quasi «que tem a lâmina na mão» (1:17:07). O e-s3-28 só faz sentido com esta leitura. Afeta s03 (e-s3-01, e-s3-17, notas, cronologia 11, Cânone 3 e 8), i-adaga-drow, c-pc-lucan, b-0-boneyard-altar e o resumo.",
+      "text": "[alta] O cânone (e-s3-01, e-s3-17, i-adaga-drow, c-pc-lucan) diz que o Lucan arrancou a adaga do altar, mas na transcrição é o Quasi: «Eu pego no crânio e na adaga», «Tu separas a adaga do crânio. Tu não vês isto…» enquanto o Lucan se ajoelha lá fora com a fome (1:10:05–1:10:34), e depois o Quasi «que tem a lâmina na mão» (1:17:07). O e-s3-28 só faz sentido com esta leitura. Afeta s03 (e-s3-01, e-s3-17, notas, cronologia 11, Cânone 3 e 8), i-adaga-drow, c-pc-lucan, b-0-boneyard-altar e o resumo. [substituída: decisão 2026-10-17 #3]",
       "suggestion": "O Quasi arranca a adaga; o Lucan, à porta, ajoelha-se com a fome; cai o ponto «o Lucan lembra-se de ter pegado na adaga».",
       "because": [
         "transcrição S3 (#84) 1:10:05"
@@ -3003,7 +3003,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-02",
@@ -3847,7 +3847,7 @@
         "row": "c-damiao-prestes",
         "col": "s6"
       },
-      "text": "[alta] O Damião morreu à mesa (foge, leva o ataque de oportunidade, Medicina do Isco 22 «o coração não bate», 2:11:06–2:43:49), mas o cânone conta com ele vivo no forte: ler as notas do Perestrelo (2026-10-13 #3 e #22; 2026-10-16 #13), «fica no forte» (#9), t-gatilho-damiao-ve, t-promessa-segredo-mascara, t-laco-quasi-damiao e falas da preparação «Extra: O Forte Ventura v2».",
+      "text": "[alta] O Damião morreu à mesa (foge, leva o ataque de oportunidade, Medicina do Isco 22 «o coração não bate», 2:11:06–2:43:49), mas o cânone conta com ele vivo no forte: ler as notas do Perestrelo (2026-10-13 #3 e #22; 2026-10-16 #13), «fica no forte» (#9), t-gatilho-damiao-ve, t-promessa-segredo-mascara, t-laco-quasi-damiao e falas da preparação «Extra: O Forte Ventura v2». [substituída: decisão 2026-10-17 #5]",
       "suggestion": "Estado `morto` (dia 4, junto ao obelisco); fechar o gatilho e a promessa da máscara como «caiu: morto na S6»; reescrever as falas do Damião na preparação do forte.",
       "because": [
         "transcrição S6 (#89) 2:43:49"
@@ -3855,7 +3855,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-02",
@@ -3901,12 +3901,12 @@
         "row": "c-soldado-doente",
         "col": "s6"
       },
-      "text": "[alta] O Alex parece ter morrido («arrastado inerte», 2:37:00; o Lucan sai da água «com o corpo a sangrar e inerte do Alex», 2:49:45), sem Medicina que o declare; c-soldado-doente continua vivo e amigável e t-promessa-alex-vida e a preparação do forte dependem dele.",
+      "text": "[alta] O Alex parece ter morrido («arrastado inerte», 2:37:00; o Lucan sai da água «com o corpo a sangrar e inerte do Alex», 2:49:45), sem Medicina que o declare; c-soldado-doente continua vivo e amigável e t-promessa-alex-vida e a preparação do forte dependem dele. [substituída: decisão 2026-10-17 #5]",
       "suggestion": "Confirmar com o DM; se morto, estado `morto` e fechar a promessa («caiu: morto na S6, horas depois de curado»).",
       "because": [
         "transcrição S6 (#89) 2:49:45"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-05",
@@ -4321,7 +4321,7 @@
         "row": "i-adaga-drow",
         "col": "s3"
       },
-      "text": "Quem arrancou a adaga do altar e quem levou o crânio cornudo? O áudio aponta para o Quasi (ouvir 1:07:20–1:11:30 e 1:16:30–1:17:20); se foi ele, cai «o Lucan lembra-se de ter pegado» e o e-s3-28 passa a ser o momento em que a adaga sai do altar.",
+      "text": "Quem arrancou a adaga do altar e quem levou o crânio cornudo? O áudio aponta para o Quasi (ouvir 1:07:20–1:11:30 e 1:16:30–1:17:20); se foi ele, cai «o Lucan lembra-se de ter pegado» e o e-s3-28 passa a ser o momento em que a adaga sai do altar. [substituída: decisão 2026-10-17 #3; o crânio cornudo continua em n-tr3-02]",
       "suggestion": "O Quasi arrancou a adaga e levou o crânio.",
       "because": [
         "transcrição S3 (#84) 1:10:05"
@@ -4329,7 +4329,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-p02",
@@ -4663,12 +4663,12 @@
         "row": "c-soldado-doente",
         "col": "s6"
       },
-      "text": "O Alex está morto? Ninguém fez Medicina; o resumo dá-o como morto.",
+      "text": "O Alex está morto? Ninguém fez Medicina; o resumo dá-o como morto. [substituída: decisão 2026-10-17 #5]",
       "suggestion": "Provavelmente morto (arrastado inerte, a sangrar).",
       "because": [
         "transcrição S6 (#89) 2:49:45"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p02",
@@ -4796,6 +4796,98 @@
       "suggestion": "Qual é a origem do Daylight do Lucan?",
       "because": [
         "transcrição S6 (#89)"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d17-01",
+      "at": "2026-10-17T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-promessa-alex-vida",
+        "col": "s7"
+      },
+      "factKind": "consequencia",
+      "text": "O Alex morreu na S6: cai o trunfo «Ela salvou-me a vida, sargento» e, com ele, as cenas da preparação do forte em que o Alex fala pela Lia ou o Casqueiro conta com ele.",
+      "suggestion": "Fechar t-promessa-alex-vida («caiu: morto na S6») e decidir quem, se alguém, fala agora pela Lia diante do Corvelo.",
+      "because": [
+        "registo/decisoes.md 2026-10-17 #5"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d17-02",
+      "at": "2026-10-17T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-damiao-prestes",
+        "col": "s7"
+      },
+      "factKind": "consequencia",
+      "text": "O Damião morreu na S6, e a preparação do Forte Ventura contava com ele vivo: era ele quem lia depressa as notas do Perestrelo (2026-10-13 #3 e #22; 2026-10-16 #13), ficava no forte com os sobreviventes (2026-10-16 #9) e tinha falas em várias cenas de «Extra: O Forte Ventura v2».",
+      "suggestion": "Decidir quem lê agora as notas do Perestrelo (n-tr6-p02) e reescrever as falas do Damião na preparação do forte.",
+      "because": [
+        "registo/decisoes.md 2026-10-17 #5"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d17-03",
+      "at": "2026-10-17T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-gatilho-damiao-ve",
+        "col": "s7"
+      },
+      "factKind": "consequencia",
+      "text": "O gatilho «o Damião vê algo estranho e muda de alvo à frente de toda a gente» cai com a morte dele na S6. O que ele já viu ficou escrito no livro de registos, que está com o corpo.",
+      "suggestion": "Fechar t-gatilho-damiao-ve («caiu: morto na S6»).",
+      "because": [
+        "registo/decisoes.md 2026-10-17 #5"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d17-04",
+      "at": "2026-10-17T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-promessa-segredo-mascara",
+        "col": "s7"
+      },
+      "factKind": "consequencia",
+      "text": "O acordo da máscara (o Damião só fala com o Quasi primeiro) cai com a morte dele na S6. O esboço da máscara continua no livro de registos, com o corpo, e o livro é para o Perestrelo («as páginas são contadas»).",
+      "suggestion": "Fechar t-promessa-segredo-mascara e rever t-laco-quasi-damiao; decidir se o livro chega ao forte e a quem.",
+      "because": [
+        "registo/decisoes.md 2026-10-17 #5"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d17-05",
+      "at": "2026-10-17T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "i-livro-de-registos",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Com o corpo do Damião, na água junto ao obelisco, ficam a trança branca da Lia no pulso esquerdo (r-tranca-branca-lia), o periapto (i-periapto-do-damiao) e o livro de registos com o esboço da máscara do Quasi. Ninguém lhes mexeu na S6.",
+      "suggestion": "Preparar o saque do corpo na S7: quem fica com o livro e o periapto, e a Lia a reconhecer a própria trança.",
+      "because": [
+        "registo/decisoes.md 2026-10-17 #5"
+      ],
+      "tags": [
+        "so-dm"
       ],
       "status": "aberta"
     }
