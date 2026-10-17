@@ -38,3 +38,5 @@ Uma cura para o typhros.
 Agente da Lente, à frente da investigação secreta de uma cura para o typhros, a estudar o rubídio. Dunamante: previu o futuro da alma da filha e entregou-a em bebé ao pai, combinando a história do resgate. Conheceu-o pelos contactos entre a Lente e a Alma de Cobalto. Sabe que ele desceu à Ascensão e sabe mais do que diz.
 
 É da Den Tasithar (a Naevyn Tasithar está em Bazzoxan; parentesco por decidir). Pôs no pendente da filha um selo de dunamancia que mantém as vidas passadas a dormir e que, uma vez por dia, a para no tempo durante uma ronda quando chega a 0 PV (`i-pendente-da-lia`). (Decidido pelo DM (2026-10-16))
+
+A Den dela, a Tasithar, tem por emblema uma lebre e por pedra o olho-de-tigre (os batedores da fuga de Lolth). (Decidido pelo DM (2026-10-17))

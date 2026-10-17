@@ -43,3 +43,5 @@ Ver o seu nome no Wall antes de morrer; não explica porquê (desvia o olhar e r
 ## Segredo
 
 Como muitos soldados jovens de Bazzoxan, não espera viver o suficiente para ser chorada, por isso prepara o próprio memorial.
+
+O emblema da Den Tasithar é uma lebre. Quando a Leylas Kryn fugiu de Lolth com os seus, os primeiros Tasithar iam à frente pelos túneis e foram os primeiros a sair para a superfície: a lebre é o bicho que corre à frente e encontra a saída. A Den ainda dá batedores à Vigia da Aurora (a Naevyn é uma delas). O olho-de-tigre é a cor da primeira luz que viram cá fora. O coelho de olho-de-tigre que a Naevyn quer pôr no Muro é também um sinal da Den: a Lia reconhece a pedra e o bicho do pendente dela. (Decidido pelo DM (2026-10-17))
