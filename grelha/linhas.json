@@ -420,6 +420,12 @@
     ]
   },
   {
+    "id": "i-selo-expositor",
+    "pcs": [
+      "c-pc-lia"
+    ]
+  },
+  {
     "id": "i-periapto-do-damiao",
     "pcs": [
       "c-pc-quasi"

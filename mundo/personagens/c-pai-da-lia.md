@@ -49,3 +49,5 @@ Salvar a filha do typhros.
 Percurso: Bazzoxan (a mãe conta-lhe que a Dinastia estuda o rubídio como cura; oferece-se para arranjar mais) → atravessa a Ascensão (pouco rubídio ali) → Ank'Harel (a Alma de Cobalto diz-lhe que a fonte passa por lá) → Heart of Despair, puxado pelo Alyxian, corrupção 5 ou 6. Procura a cura no rubídio, e é o rubídio que acorda a alma dela. Os vestígios dele podem aparecer perto do final do Fritz na Ascensão («havia outro… não parou»).
 
 Foi o Corvelo que o escoltou do forte até à guarnição a sul do pântano: «Não falava. Escrevia à noite.» (Decidido pelo DM (2026-10-16))
+
+O selo de expositor que deixou à Lia é um anel azul-escuro com o sinal da Alma de Cobalto: três círculos nos vértices de um triângulo, cada um com um pequeno cristal de água-marinha (`i-selo-expositor`). (Decidido pelo DM (2026-10-17))
