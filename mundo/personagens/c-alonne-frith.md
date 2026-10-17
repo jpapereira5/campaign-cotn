@@ -82,5 +82,3 @@ Leitura de mentes: só pensamentos à superfície, uma pessoa de cada vez, a at�
 Lê mentes raramente, porque pode ser apanhado: no forte, no máximo uma vez, e só se valer o risco. Não ouve o Baeshra. (Decidido pelo DM (2026-10-16))
 
 **Reconhece o nome do Vigost.** Se os jogadores falarem dele (o Lucan e o Isco ouviram-no ao Ossório, em Decrépola), o Fritz reconhece-o: é por aí que se descobre que é (ou foi) do culto de Serratos. Como reage fica para o momento (Decidido pelo DM (2026-10-16)).
-
-Não consegue ler o Damião, que usa um *Ring of Mind Shielding* (`i-anel-do-damiao`), e repara nisso. (Decidido pelo DM (2026-10-16))

@@ -166,8 +166,6 @@ Na revisão da Grelha (respostas às notas da migração):
 
 24. **O pendente da Lia para o tempo uma vez por dia**: quando a Lia chega a 0 PV, fica parada no tempo durante 6 segundos (uma ronda); ninguém lhe pode tocar, nem para a atacar nem para a curar; só no turno seguinte começa a fazer testes contra a morte. Não tem custo: não parte o selo nem faz avançar o typhros. Substitui a parte do *Time Stop* da decisão #15 (1d4+1 rondas, só da primeira vez, e o selo a partir-se depois). O selo que mantém as vidas passadas a dormir continua igual. Ficam de fora: cada disparo gastar o selo; partir à primeira; os aliados poderem curá-la durante a paragem.
 
-25. **O Damião usa um *Ring of Mind Shielding*** (DMG, incomum, sintonização), presente do Padre Perestrelo para proteger o catálogo que o Damião traz na cabeça: ninguém lhe lê os pensamentos nem lhe deteta mentiras, e se morrer com ele posto a alma pode ficar no anel. No forte, é a única mente que o Fritz não consegue ler, e o Fritz repara nisso. Ficam de fora: *Brooch of Shielding*; *Cloak of Protection*; *Periapt of Proof against Poison*.
-
 25. **O Damião usa um *Periapt of Proof against Poison*** (DMG, raro), presente do Padre Perestrelo para manusear os espécimes do catálogo: imune a veneno e à condição de envenenado. É o único da patrulha que nunca adoeceu no pântano, ao lado do Alex com a febre que a Lia diagnosticou como envenenamento. Não o protege contra encantamentos, o que bate certo com a sessão 5. Ficam de fora: *Ring of Mind Shielding* (à mesa pareceria contradizer a *Suggestion* e o *Command* do Quasi); *Amulet of Proof against Detection and Location*; *Brooch of Shielding*; *Cloak of Protection*.
 
 ## Decidido pelo DM (2026-10-17)
