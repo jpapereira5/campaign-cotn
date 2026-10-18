@@ -1521,11 +1521,11 @@
         "row": "t-relogio-bolbara-urzin",
         "col": "s6"
       },
-      "text": "Relógio a correr: cada dia do mundo na S6 é um passo. A S6 começa ao meio-dia do dia 4, com ela já meio dia a caminho. Se a S6 cobrir o forte e um dia de perseguição, chega a 2/5.",
+      "text": "Relógio a correr: cada dia do mundo na S6 é um passo. A S6 começa ao meio-dia do dia 4, com ela já meio dia a caminho. Se a S6 cobrir o forte e um dia de perseguição, chega a 2/5. [substituída: e-s6-34, decisão 2026-10-18 #13 — o relógio fica a ½]",
       "because": [
         "registo/decisoes.md 2026-10-12 #17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-07",
@@ -1632,14 +1632,14 @@
         "col": "s6"
       },
       "factKind": "pista",
-      "text": "Ao chegar ao obelisco, à distância e sem lhe tocar, o Lucan ouve a voz de Baeshra: «Tu sim.» É a resposta ao «Ele não.» que ouviu quando o Quasi pegou na adaga pela primeira vez (S3).",
+      "text": "Ao chegar ao obelisco, à distância e sem lhe tocar, o Lucan ouve a voz de Baeshra: «Tu sim.» É a resposta ao «Ele não.» que ouviu quando o Quasi pegou na adaga pela primeira vez (S3). [jogado: e-s6-09, S6 1:16:03, a meio da cena e não antes de tudo]",
       "suggestion": "À distância do obelisco, sem tocar, o Lucan ouve Baeshra: «Tu sim.» (eco do «Ele não.» da S3).",
       "because": [
         "registo/decisoes.md 2026-10-13 #2",
         "e-s3-28",
         "t-agenda-baeshra-lucan"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-14",
@@ -1969,14 +1969,14 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "Abertura: 5 lacedons na periferia do obelisco (longe da pedra); dois saem de debaixo da jangada. A Lia escorrega das cordas que o Isco folgou e luta e cura à vista de todos (drow: imune à paralisia). O Corvelo já não a pode amarrar de novo sem perder a cara.",
+      "text": "Abertura: 5 lacedons na periferia do obelisco (longe da pedra); dois saem de debaixo da jangada. A Lia escorrega das cordas que o Isco folgou e luta e cura à vista de todos (drow: imune à paralisia). O Corvelo já não a pode amarrar de novo sem perder a cara. [jogado em parte: e-s6-13, e-s6-14; sem Expulsar Mortos-Vivos e sem reação do Corvelo à Lia solta]",
       "suggestion": "Abertura: 5 lacedons na periferia do obelisco (longe da pedra); dois saem de debaixo da jangada. A Lia escorrega das cordas que o Isco folgou e luta e cura à vista de todos (drow: imune à paralisia). O Corvelo já não a pode amarrar de novo sem perder a cara.",
       "because": [
         "registo/decisoes.md 2026-10-13 #26",
         "e-s5-22",
         "registo/decisoes.md 2026-10-13 #27"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d15-01",
@@ -2085,12 +2085,12 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "O menir mexe com o tempo fora do combate: a 3 m da pedra, cada teste ou toque rola 1d6; com 4–6 a ação custa meia hora lá fora. Não afeta o combate da periferia.",
+      "text": "O menir mexe com o tempo fora do combate: a 3 m da pedra, cada teste ou toque rola 1d6; com 4–6 a ação custa meia hora lá fora. Não afeta o combate da periferia. [jogado: e-s6-33, d6 = 3, nada; a regra fica em l-ritual-stone]",
       "suggestion": "O menir mexe com o tempo fora do combate: a 3 m da pedra, cada teste ou toque rola 1d6; com 4–6 a ação custa meia hora lá fora. Não afeta o combate da periferia.",
       "because": [
         "registo/decisoes.md 2026-10-16 #1"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "tags": [
         "so-dm"
       ]
@@ -2104,12 +2104,12 @@
         "col": "s6"
       },
       "factKind": "pista",
-      "text": "Detect Magic na pedra: necromancia, abjuração (o selo do Truche) e dunamancia; History ou Arcana CD 15 reconhece «a magia dos Kryn».",
+      "text": "Detect Magic na pedra: necromancia, abjuração (o selo do Truche) e dunamancia; History ou Arcana CD 15 reconhece «a magia dos Kryn». [jogado em parte: e-s6-01; ninguém fez History ou Arcana à pedra; fica em l-ritual-stone]",
       "suggestion": "Detect Magic na pedra: necromancia, abjuração (o selo do Truche) e dunamancia; History ou Arcana CD 15 reconhece «a magia dos Kryn».",
       "because": [
         "registo/decisoes.md 2026-10-16 #2"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "tags": [
         "so-dm"
       ]
@@ -2234,8 +2234,8 @@
         "col": "s6"
       },
       "factKind": "consequencia",
-      "text": "Ninguém da patrulha vai com o grupo atrás da Bolbara: o Corvelo, a Nália, o Damião e os outros ficam no forte com os sobreviventes.",
-      "suggestion": "Ninguém da patrulha vai com o grupo atrás da Bolbara: o Corvelo, a Nália, o Damião e os outros ficam no forte com os sobreviventes.",
+      "text": "Ninguém da patrulha vai com o grupo atrás da Bolbara: o Corvelo, a Nália e os outros ficam no forte com os sobreviventes. (O Damião morreu na S6, decisão 2026-10-17 #5.)",
+      "suggestion": "Ninguém da patrulha vai com o grupo atrás da Bolbara: o Corvelo, a Nália e os outros ficam no forte com os sobreviventes.",
       "because": [
         "registo/decisoes.md 2026-10-16 #9"
       ],
@@ -2380,7 +2380,7 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo. Só funciona com a Lia a usá-lo: desde a S6 está com o Quasi, e no bolso dele é só um objeto.",
+      "text": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo. Só funciona com a Lia a usá-lo: desde a S6 está com o Quasi, e no bolso dele é só um objeto. [aplicada: i-pendente-da-lia; posse com o Quasi em e-s6-08]",
       "suggestion": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo. Só funciona com a Lia a usá-lo: desde a S6 está com o Quasi, e no bolso dele é só um objeto.",
       "because": [
         "registo/decisoes.md 2026-10-16 #24",
@@ -2389,7 +2389,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d16-18",
@@ -2400,7 +2400,7 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "O Damião usa um Periapt of Proof against Poison (presente do Perestrelo): é o único da patrulha que nunca adoeceu no pântano. Detect Magic mostra-o (abjuração), ao pescoço, por baixo da túnica.",
+      "text": "O Damião usa um Periapt of Proof against Poison (presente do Perestrelo): é o único da patrulha que nunca adoeceu no pântano. Detect Magic mostra-o (abjuração), ao pescoço, por baixo da túnica. [jogado: e-s6-01 (abjuração no escriba); com o corpo do Damião desde e-s6-26]",
       "suggestion": "O Damião usa um Periapt of Proof against Poison (presente do Perestrelo): é o único da patrulha que nunca adoeceu no pântano. Detect Magic mostra-o (abjuração), ao pescoço, por baixo da túnica.",
       "because": [
         "registo/decisoes.md 2026-10-16 #25"
@@ -2408,7 +2408,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-01",
@@ -4810,12 +4810,12 @@
         "col": "s7"
       },
       "factKind": "consequencia",
-      "text": "O Alex morreu na S6: cai o trunfo «Ela salvou-me a vida, sargento» e, com ele, as cenas da preparação do forte em que o Alex fala pela Lia ou o Casqueiro conta com ele.",
+      "text": "O Alex morreu na S6: cai o trunfo «Ela salvou-me a vida, sargento» e, com ele, as cenas da preparação do forte em que o Alex fala pela Lia ou o Casqueiro conta com ele. [aplicada: fecho da S6, e-s6-31]",
       "suggestion": "Fechar t-promessa-alex-vida («caiu: morto na S6») e decidir quem, se alguém, fala agora pela Lia diante do Corvelo.",
       "because": [
         "registo/decisoes.md 2026-10-17 #5"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d17-02",
@@ -4846,7 +4846,7 @@
         "col": "s7"
       },
       "factKind": "consequencia",
-      "text": "O gatilho «o Damião vê algo estranho e muda de alvo à frente de toda a gente» cai com a morte dele na S6. O que ele já viu ficou escrito no livro de registos, que está com o corpo.",
+      "text": "O gatilho «o Damião vê algo estranho e muda de alvo à frente de toda a gente» cai com a morte dele na S6. O que ele já viu ficou escrito no livro de registos, que está com o corpo. [aplicada: fecho da S6, e-s6-27]",
       "suggestion": "Fechar t-gatilho-damiao-ve («caiu: morto na S6»).",
       "because": [
         "registo/decisoes.md 2026-10-17 #5"
@@ -4854,7 +4854,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d17-04",
@@ -4865,7 +4865,7 @@
         "col": "s7"
       },
       "factKind": "consequencia",
-      "text": "O acordo da máscara (o Damião só fala com o Quasi primeiro) cai com a morte dele na S6. O esboço da máscara continua no livro de registos, com o corpo, e o livro é para o Perestrelo («as páginas são contadas»).",
+      "text": "O acordo da máscara (o Damião só fala com o Quasi primeiro) cai com a morte dele na S6. O esboço da máscara continua no livro de registos, com o corpo, e o livro é para o Perestrelo («as páginas são contadas»). [aplicada: fecho da S6, e-s6-28]",
       "suggestion": "Fechar t-promessa-segredo-mascara e rever t-laco-quasi-damiao; decidir se o livro chega ao forte e a quem.",
       "because": [
         "registo/decisoes.md 2026-10-17 #5"
@@ -4873,7 +4873,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d17-05",
@@ -4884,7 +4884,7 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Com o corpo do Damião, na água junto ao obelisco, ficam a trança branca da Lia no pulso esquerdo (r-tranca-branca-lia), o periapto (i-periapto-do-damiao) e o livro de registos com o esboço da máscara do Quasi. Ninguém lhes mexeu na S6.",
+      "text": "Com o corpo do Damião, na água junto ao obelisco, ficam a trança branca da Lia no pulso esquerdo (r-tranca-branca-lia), o periapto (i-periapto-do-damiao) e o livro de registos com o esboço da máscara do Quasi. Ninguém lhes mexeu na S6. [aplicada: fecho da S6, e-s6-26]",
       "suggestion": "Preparar o saque do corpo na S7: quem fica com o livro e o periapto, e a Lia a reconhecer a própria trança.",
       "because": [
         "registo/decisoes.md 2026-10-17 #5"
@@ -4892,7 +4892,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d18-01",
@@ -4922,12 +4922,12 @@
         "col": "s7"
       },
       "factKind": "estado",
-      "text": "Para o fecho da S6: a sessão acabou no início da tarde do dia 4, e o relógio da Bolbara continua a ½. Não avançar.",
+      "text": "Para o fecho da S6: a sessão acabou no início da tarde do dia 4, e o relógio da Bolbara continua a ½. Não avançar. [aplicada: fecho da S6, e-s6-34]",
       "because": [
         "registo/decisoes.md 2026-10-18 #13"
       ],
       "suggestion": "Para o fecho da S6: a sessão acabou no início da tarde do dia 4, e o relógio da Bolbara continua a ½. Não avançar.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d18-03",
@@ -4938,7 +4938,7 @@
         "col": "s7"
       },
       "factKind": "estado",
-      "text": "Para o fecho da S6: efeito `posse: i-pendente-da-lia com: c-pc-quasi` («estou a levar emprestado. Já devolvo.», 1:13:39). Com o Quasi, o pendente é só um objeto: a paragem no tempo a 0 PV só funciona com a Lia a usá-lo. Aspeto: medalhão prateado, a lebre de um lado e um dodecaedro (o símbolo do Luxon) do outro.",
+      "text": "Para o fecho da S6: efeito `posse: i-pendente-da-lia com: c-pc-quasi` («estou a levar emprestado. Já devolvo.», 1:13:39). Com o Quasi, o pendente é só um objeto: a paragem no tempo a 0 PV só funciona com a Lia a usá-lo. Aspeto: medalhão prateado, a lebre de um lado e um dodecaedro (o símbolo do Luxon) do outro. [aplicada: fecho da S6, e-s6-08]",
       "because": [
         "registo/decisoes.md 2026-10-18 #1",
         "registo/decisoes.md 2026-10-18 #2"
@@ -4947,7 +4947,7 @@
         "so-dm"
       ],
       "suggestion": "Para o fecho da S6: efeito `posse: i-pendente-da-lia com: c-pc-quasi` («estou a levar emprestado. Já devolvo.», 1:13:39). Com o Quasi, o pendente é só um objeto: a paragem no tempo a 0 PV só funciona com a Lia a usá-lo. Aspeto: medalhão prateado, a lebre de um lado e um dodecaedro (o símbolo do Luxon) do outro.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d18-04",
@@ -4958,7 +4958,7 @@
         "col": "s7"
       },
       "factKind": "estado",
-      "text": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Ossório não vendeu o pano. Os irmãos ficaram com o pano do culto e o Ossório com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem).",
+      "text": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Ossório não vendeu o pano. Os irmãos ficaram com o pano do culto e o Ossório com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem). [posse aplicada no fecho da S6: e-s6-36, `i-pano-do-culto`; falta a versão da Drive e qual dos irmãos o tem]",
       "because": [
         "registo/decisoes.md 2026-10-18 #12"
       ],
@@ -4974,12 +4974,12 @@
         "col": "s7"
       },
       "factKind": "estado",
-      "text": "Para o fecho da S6: a Lia recuperou o saco (pé de cabra, martelo, tochas, caixa de fazer fogo, rações, besta ligeira; o escudo e o martelo de guerra; o selo de expositor) e tem a armadura vestida desde sempre. O pendente não está no saco: está com o Quasi.",
+      "text": "Para o fecho da S6: a Lia recuperou o saco (pé de cabra, martelo, tochas, caixa de fazer fogo, rações, besta ligeira; o escudo e o martelo de guerra; o selo de expositor) e tem a armadura vestida desde sempre. O pendente não está no saco: está com o Quasi. [aplicada: fecho da S6, e-s6-14]",
       "because": [
         "registo/decisoes.md 2026-10-18 #6"
       ],
       "suggestion": "Para o fecho da S6: a Lia recuperou o saco (pé de cabra, martelo, tochas, caixa de fazer fogo, rações, besta ligeira; o escudo e o martelo de guerra; o selo de expositor) e tem a armadura vestida desde sempre. O pendente não está no saco: está com o Quasi.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d18-06",
@@ -4998,6 +4998,52 @@
         "so-dm"
       ],
       "suggestion": "O livro de registos tem uma página a menos (a folha da máscara, que o Quasi rasgou e guardou). Com o Damião morto, quem o ler no forte pode dar por isso: «Estas páginas são contadas. Eles irão saber.»",
+      "status": "aberta"
+    },
+    {
+      "id": "n-f6-01",
+      "at": "2026-10-18T14:00:00.000Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s6"
+      },
+      "text": "[média] O handout entregue na S6, «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep), chama ao tiefling do Mercado Vermelho «Oscar Lume»; o cânone (c-ossorio-lume, i-doc-decrepola-memorias, decisões 2026-10-16) diz «Ossório Lume». O handout também diz que o pano «não o vendeu», sem dizer que o pano ficou com os irmãos (decisão 2026-10-18 #12).",
+      "suggestion": "O DM escolhe o nome que fica (o que os jogadores leram ou o do cânone) e se faz uma v4 do handout.",
+      "because": [
+        "transcrição S6 (#89) 0:08:36",
+        "registo/decisoes.md 2026-10-18 #12"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-f6-02",
+      "at": "2026-10-18T14:00:00.000Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "i-pano-do-culto",
+        "col": "s6"
+      },
+      "text": "[baixa] O handout e i-doc-decrepola-memorias dizem que a esfera bordada tem olhos «todos diferentes uns dos outros»; à mesa o DM disse que é «uma coisa pequenina, bordada. Não dá para distinguir se são diferentes» (S6, 0:22:33).",
+      "suggestion": "Manter os olhos diferentes como verdade do bordado, só que pequenos de mais para se notar a olho nu; ou tirar o «todos diferentes».",
+      "because": [
+        "transcrição S6 (#89) 0:22:33"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-f6-03",
+      "at": "2026-10-18T14:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "f-grupo",
+        "col": "s6"
+      },
+      "text": "O nome da S6 ficou por decidir à mesa (2:52:13): o registo usa «Mortos na Água» (sugestão do Pedro Silva) como provisório; o Pedro Ropio sugeriu «O Triunfo da Nália». Qual fica?",
+      "suggestion": "«Mortos na Água».",
+      "because": [
+        "transcrição S6 (#89) 2:52:13"
+      ],
       "status": "aberta"
     }
   ],

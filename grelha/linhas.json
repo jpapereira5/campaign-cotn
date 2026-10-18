@@ -445,6 +445,13 @@
     ]
   },
   {
+    "id": "i-pano-do-culto",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
+  },
+  {
     "id": "t-missao-bolbara",
     "pcs": [
       "c-pc-lucan",

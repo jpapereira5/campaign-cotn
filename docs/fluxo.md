@@ -71,6 +71,6 @@ Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e 
 
 ## Último fecho
 
-2026-10-07T01:30Z (sessão 4: resumo, cânone vs. preparação, patrulha, Alberto Pé-Leve, Morgid, Lia).
+2026-10-18 (sessão 6, #89: registo a partir da transcrição, mortes do Damião e do Alex, o pendente com o Quasi, o pano do culto; resumo v4 na Drive).
 
 Revisão das sessões 1 a 6 contra as transcrições: 2026-10-18 (notas `n-tr…` em `grelha/revisao.json`; a sessão 6 ainda não tem fecho).
