@@ -3028,12 +3028,12 @@
         "row": "t-semente-sonho-quasi",
         "col": "s3"
       },
-      "text": "[média] O e-s3-25, as notas, c-pc-quasi e o resumo falam de «líder inquestionado de uma caravana», mas à mesa o DM diz «o líder inquestionado desta comunidade», com fogueiras e tendas (2:09:18, 2:12:14); «caravana» nunca é dita.",
+      "text": "[média] O e-s3-25, as notas, c-pc-quasi e o resumo falam de «líder inquestionado de uma caravana», mas à mesa o DM diz «o líder inquestionado desta comunidade», com fogueiras e tendas (2:09:18, 2:12:14); «caravana» nunca é dita. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «de uma comunidade em festa (fogueiras, tendas)».",
       "because": [
         "transcrição S3 (#84) 2:12:14"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-04",
@@ -3043,7 +3043,7 @@
         "row": "i-garra-seis-dedos",
         "col": "s3"
       },
-      "text": "[média] O registo só fala da influência da garra à noite, mas já no ossário, com Arcana 5, o Quasi pensa na «chain of command» do grupo e ordena-a (0:23:24–0:26:51); é o primeiro sinal da garra e outra jogada além da Arcana 3 da noite.",
+      "text": "[média] O registo só fala da influência da garra à noite, mas já no ossário, com Arcana 5, o Quasi pensa na «chain of command» do grupo e ordena-a (0:23:24–0:26:51); é o primeiro sinal da garra e outra jogada além da Arcana 3 da noite. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar um acontecimento com i-garra-seis-dedos e c-pc-quasi.",
       "because": [
         "transcrição S3 (#84) 0:25:02"
@@ -3051,7 +3051,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-05",
@@ -3061,12 +3061,12 @@
         "row": "l-crumbling-tower",
         "col": "s3"
       },
-      "text": "[média] Falta o d12 = 11 da tabela de encontros depois do d20 = 18 (2:54:20–2:54:49), e falta a oferta do Quasi diante da torre: «Se explorarmos aquele sítio… eu dou-vos a adaga» (2:50:04–2:50:49), que caducou.",
+      "text": "[média] Falta o d12 = 11 da tabela de encontros depois do d20 = 18 (2:54:20–2:54:49), e falta a oferta do Quasi diante da torre: «Se explorarmos aquele sítio… eu dou-vos a adaga» (2:50:04–2:50:49), que caducou. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Registar o d12 = 11 (e confirmar que corresponde à patrulha) e a oferta da adaga.",
       "because": [
         "transcrição S3 (#84) 2:54:20"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-06",
@@ -3076,12 +3076,12 @@
         "row": "t-laco-lucan-quasi",
         "col": "s3"
       },
-      "text": "[média] O e-s3-17 diz que o Quasi «recusa vendê-la», mas ele pôs-lhe preço («vendo por 200… 400», 2:28:47); faltam a frase do Lucan «Falei contigo ontem. Não me testes» (2:33:33), a resposta «Eu não te vou testar» e as ofertas do Isco (besta ligeira) e do Lucan (machado de mão).",
+      "text": "[média] O e-s3-17 diz que o Quasi «recusa vendê-la», mas ele pôs-lhe preço («vendo por 200… 400», 2:28:47); faltam a frase do Lucan «Falei contigo ontem. Não me testes» (2:33:33), a resposta «Eu não te vou testar» e as ofertas do Isco (besta ligeira) e do Lucan (machado de mão). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Emendar o e-s3-17 e o e-s3-12.",
       "because": [
         "transcrição S3 (#84) 2:33:33"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-07",
@@ -3127,12 +3127,12 @@
         "row": "i-adaga-drow",
         "col": "s3"
       },
-      "text": "[baixa] O registo e i-adaga-drow dão History 3 à adaga, o resumo 2; na transcrição «dá dois no total» (1:13:20), com o +1 de Jack of All Trades do Quasi.",
+      "text": "[baixa] O registo e i-adaga-drow dão History 3 à adaga, o resumo 2; na transcrição «dá dois no total» (1:13:20), com o +1 de Jack of All Trades do Quasi. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever History 2, feita pelo Quasi.",
       "because": [
         "transcrição S3 (#84) 1:13:20"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-10",
@@ -3142,12 +3142,12 @@
         "row": "c-pc-quasi",
         "col": "s3"
       },
-      "text": "[baixa] O registo (cronologia 13) dá 20 ao Sleight of Hand do Quasi nas camas de rede; na transcrição é «17 mais 4, 21» (1:41:36), como diz o resumo.",
+      "text": "[baixa] O registo (cronologia 13) dá 20 ao Sleight of Hand do Quasi nas camas de rede; na transcrição é «17 mais 4, 21» (1:41:36), como diz o resumo. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir para 21 no registo.",
       "because": [
         "transcrição S3 (#84) 1:41:36"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-11",
@@ -3157,12 +3157,12 @@
         "row": "i-amuletos-do-trono",
         "col": "s3"
       },
-      "text": "[baixa] O registo, c-pc-lucan e o Cânone 6 falam de «Religion 19» para os amuletos, mas o DM pediu uma jogada por símbolo: 19 (Semuanya), 10 (Melora), 4 (disco com lua), ~12 (Luxon), ~6 (mão de madeira) (0:56:59–1:00:24).",
+      "text": "[baixa] O registo, c-pc-lucan e o Cânone 6 falam de «Religion 19» para os amuletos, mas o DM pediu uma jogada por símbolo: 19 (Semuanya), 10 (Melora), 4 (disco com lua), ~12 (Luxon), ~6 (mão de madeira) (0:56:59–1:00:24). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Registar as jogadas uma a uma.",
       "because": [
         "transcrição S3 (#84) 0:56:59"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-12",
@@ -3172,12 +3172,12 @@
         "row": "c-morgid",
         "col": "s3"
       },
-      "text": "[baixa] O registo diz que o Morgid abana a cabeça quando lhe perguntam pela adaga; na transcrição respondeu com a lousa («não me pagam o suficiente», 1:23:28) e abanou a cabeça à proposta de passar a noite no ossário (1:25:00–1:25:11).",
+      "text": "[baixa] O registo diz que o Morgid abana a cabeça quando lhe perguntam pela adaga; na transcrição respondeu com a lousa («não me pagam o suficiente», 1:23:28) e abanou a cabeça à proposta de passar a noite no ossário (1:25:00–1:25:11). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir e acrescentar que o Morgid recusa acampar no ossário.",
       "because": [
         "transcrição S3 (#84) 1:25:00"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-13",
@@ -3187,12 +3187,12 @@
         "row": "c-pc-lucan",
         "col": "s3"
       },
-      "text": "[baixa] c-pc-lucan diz que o Lucan «devora mais dois corpos», mas a transcrição diz «passa um minuto, dois minutos… a fome não diminui» (1:14:48): são minutos, não corpos.",
+      "text": "[baixa] c-pc-lucan diz que o Lucan «devora mais dois corpos», mas a transcrição diz «passa um minuto, dois minutos… a fome não diminui» (1:14:48): são minutos, não corpos. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir para «passam dois minutos e a fome não diminui».",
       "because": [
         "transcrição S3 (#84) 1:14:48"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-14",
@@ -3202,7 +3202,7 @@
         "row": "c-morgid",
         "col": "s3"
       },
-      "text": "[baixa] O registo (NPCs e Fios) e o resumo público dizem «o pai (o velho do clã Ro)» e «o chão do clã do pai», mas à mesa só se ouviu «Ssarik-Ro» e o Cânone do registo diz que a mesa não sabe que o clã é o Ro.",
+      "text": "[baixa] O registo (NPCs e Fios) e o resumo público dizem «o pai (o velho do clã Ro)» e «o chão do clã do pai», mas à mesa só se ouviu «Ssarik-Ro» e o Cânone do registo diz que a mesa não sabe que o clã é o Ro. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Tirar do resumo da Drive ou marcar como «DM».",
       "because": [
         "transcrição S3 (#84)"
@@ -3210,7 +3210,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-15",
@@ -3220,12 +3220,12 @@
         "row": "f-grupo",
         "col": "s3"
       },
-      "text": "[baixa] O resumo diz «Cheira a citronela» (13), mas na transcrição é conversa sobre as velas da sala (1:42:42), não do jogo.",
+      "text": "[baixa] O resumo diz «Cheira a citronela» (13), mas na transcrição é conversa sobre as velas da sala (1:42:42), não do jogo. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Tirar a frase do resumo.",
       "because": [
         "transcrição S3 (#84) 1:42:42"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-16",
@@ -3235,12 +3235,12 @@
         "row": "c-morgid",
         "col": "s3"
       },
-      "text": "[baixa] O registo (NPCs) diz que o Morgid guia «depois de o Quasi se perder», mas o Quasi só falhou o teste (8+2 = 10) e o Morgid fez 15 antes de partirem (2:37:17–2:38:38).",
+      "text": "[baixa] O registo (NPCs) diz que o Morgid guia «depois de o Quasi se perder», mas o Quasi só falhou o teste (8+2 = 10) e o Morgid fez 15 antes de partirem (2:37:17–2:38:38). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir para «o Quasi falha a navegação e o Morgid guia».",
       "because": [
         "transcrição S3 (#84) 2:37:17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-17",
@@ -3268,12 +3268,12 @@
         "row": "t-laco-lucan-isco",
         "col": "s3"
       },
-      "text": "[baixa] Faltam no registo: o Lucan também fez vigia, a primeira e a última hora, no alto da árvore (1:35:00, 2:14:09); o DM rolou o movimento de Urzin nessa noite (1:43:37); o Isco perguntou se ligava a fome do irmão a alguma coisa (1:28:57–1:29:04).",
+      "text": "[baixa] Faltam no registo: o Lucan também fez vigia, a primeira e a última hora, no alto da árvore (1:35:00, 2:14:09); o DM rolou o movimento de Urzin nessa noite (1:43:37); o Isco perguntou se ligava a fome do irmão a alguma coisa (1:28:57–1:29:04). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar os três pormenores ao registo da S3.",
       "because": [
         "transcrição S3 (#84) 1:35:00"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-19",
@@ -3283,12 +3283,12 @@
         "row": "f-grupo",
         "col": "s3"
       },
-      "text": "[baixa] O resumo da Drive (17) escreve «costa norte de Xhorhas»; o glossário e o registo usam «Jorhas».",
+      "text": "[baixa] O resumo da Drive (17) escreve «costa norte de Xhorhas»; o glossário e o registo usam «Jorhas». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Uniformizar o resumo para «Jorhas».",
       "because": [
         "transcrição S3 (#84)"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-01",
@@ -3298,7 +3298,7 @@
         "row": "r-alberto-assembleia",
         "col": "s4"
       },
-      "text": "[média] O e-s4-13, o resumo, «Mudou em jogo» #7, r-alberto-assembleia e c-damiao-prestes dão o nome completo do Alberto como escrito no livro do escrivão, mas o «Alberto Peleve» foi dito ao sargento (0:59:30); ao escrivão o grupo só disse «Albert» (1:30:28–1:30:48), e a S5 confirma «um gnomo chamado Alberto».",
+      "text": "[média] O e-s4-13, o resumo, «Mudou em jogo» #7, r-alberto-assembleia e c-damiao-prestes dão o nome completo do Alberto como escrito no livro do escrivão, mas o «Alberto Peleve» foi dito ao sargento (0:59:30); ao escrivão o grupo só disse «Albert» (1:30:28–1:30:48), e a S5 confirma «um gnomo chamado Alberto». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «O Corvelo ouviu o nome completo (Alberto Pé-Leve); no livro ficou «o vosso patrão, Alberto»»; o apelido no livro seria decisão nova.",
       "because": [
         "transcrição S4 (#86) 0:59:30"
@@ -3306,7 +3306,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-02",
@@ -3316,12 +3316,12 @@
         "row": "c-corvelo",
         "col": "s4"
       },
-      "text": "[média] Falta no registo e no resumo que, logo depois de verem o gnomo e antes do sussurro do Alberto, um soldado vem sussurrar ao ouvido do veterano (0:53:52); pode ser uma pista (alguém reconhece o gnomo?).",
+      "text": "[média] Falta no registo e no resumo que, logo depois de verem o gnomo e antes do sussurro do Alberto, um soldado vem sussurrar ao ouvido do veterano (0:53:52); pode ser uma pista (alguém reconhece o gnomo?). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar e-s4-33 (`cena`, envolve c-corvelo, c-alberto-gnomis, f-dwendalian-empire) e perguntar ao DM quem sussurrou e o quê.",
       "because": [
         "transcrição S4 (#86) 0:53:52"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-03",
@@ -3346,12 +3346,12 @@
         "row": "i-mapa-do-morgid",
         "col": "s4"
       },
-      "text": "[média] Falta que o Isco mostrou o mapa do Morgid ao Corvelo e este não reconheceu nada: «Tudo aqui é diferente.» (1:04:55–1:05:15), antes de o Lucan o roubar. Afeta e-s4-17/e-s4-06, i-mapa-do-morgid e c-corvelo.",
+      "text": "[média] Falta que o Isco mostrou o mapa do Morgid ao Corvelo e este não reconheceu nada: «Tudo aqui é diferente.» (1:04:55–1:05:15), antes de o Lucan o roubar. Afeta e-s4-17/e-s4-06, i-mapa-do-morgid e c-corvelo. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar um acontecimento `registo` com i-mapa-do-morgid, c-corvelo e c-pc-isco.",
       "because": [
         "transcrição S4 (#86) 1:05:15"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-05",
@@ -3361,12 +3361,12 @@
         "row": "c-morgid",
         "col": "s4"
       },
-      "text": "[baixa] O resumo diz que só o Lucan falhou em convencer o Morgid, mas antes o Isco tentou e rolou 8 (1:12:43–1:14:31); antes ainda, o Morgid mostrou a lousa e o Quasi leu «Não confias neles?» (1:12:26), por isso a primeira mensagem não é a que «a gravação não apanhou».",
+      "text": "[baixa] O resumo diz que só o Lucan falhou em convencer o Morgid, mas antes o Isco tentou e rolou 8 (1:12:43–1:14:31); antes ainda, o Morgid mostrou a lousa e o Quasi leu «Não confias neles?» (1:12:26), por isso a primeira mensagem não é a que «a gravação não apanhou». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar «Persuasão do Isco 8 (falha)» e a primeira lousa (texto exato por confirmar).",
       "because": [
         "transcrição S4 (#86) 1:12:43"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-06",
@@ -3376,12 +3376,12 @@
         "row": "t-promessa-mapa-morgid",
         "col": "s4"
       },
-      "text": "[baixa] O e-s4-21 e i-mapa-do-morgid dão como promessa ao Morgid devolver o mapa, mas o Lucan só o disse ao Isco, em Thieves' Cant, depois de o Morgid desaparecer (1:37:11–1:37:30), e mentiu ao irmão que o Morgid o «emprestou» (1:36:50).",
+      "text": "[baixa] O e-s4-21 e i-mapa-do-morgid dão como promessa ao Morgid devolver o mapa, mas o Lucan só o disse ao Isco, em Thieves' Cant, depois de o Morgid desaparecer (1:37:11–1:37:30), e mentiu ao irmão que o Morgid o «emprestou» (1:36:50). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «diz ao Isco que o devolve se os caminhos se cruzarem; o Morgid não ouviu».",
       "because": [
         "transcrição S4 (#86) 1:37:11"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-07",
@@ -3391,12 +3391,12 @@
         "row": "t-gatilho-damiao-ve",
         "col": "s4"
       },
-      "text": "[baixa] c-damiao-prestes diz que o Damião viu o Lucan subir a árvore a andar na vertical, o e-s4-24 diz «Quase»; a transcrição só diz que «algumas pessoas começam a reparar» (1:51:09), sem nomear o escriba.",
+      "text": "[baixa] c-damiao-prestes diz que o Damião viu o Lucan subir a árvore a andar na vertical, o e-s4-24 diz «Quase»; a transcrição só diz que «algumas pessoas começam a reparar» (1:51:09), sem nomear o escriba. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Alinhar as duas («os soldados viram; o escriba, por confirmar») e decidir se o gatilho disparou.",
       "because": [
         "transcrição S4 (#86) 1:51:09"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-08",
@@ -3421,12 +3421,12 @@
         "row": "t-laco-quasi-alberto",
         "col": "s4"
       },
-      "text": "[baixa] O resumo e o s04 (cronologia 17) dizem que o Isco larga o Alberto na lama; na transcrição larga-o em cima da carapaça, com estardalhaço (1:27:36–1:27:50).",
+      "text": "[baixa] O resumo e o s04 (cronologia 17) dizem que o Isco larga o Alberto na lama; na transcrição larga-o em cima da carapaça, com estardalhaço (1:27:36–1:27:50). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «larga-o em cima da carapaça, com estardalhaço».",
       "because": [
         "transcrição S4 (#86) 1:27:36"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-10",
@@ -3436,12 +3436,12 @@
         "row": "t-missao-patrulha",
         "col": "s4"
       },
-      "text": "[baixa] O s04 dá como jogado o que é da preparação: «A Terceira Lança do Forte Ventura, perdida» nunca se diz à mesa, e a ligação dos homens-sapo ao B5 e do capacete aos homens perdidos pelo Corvelo é do DM (à mesa só o capacete ao contrário e o trapo vermelho, 1:45:14–1:45:31).",
+      "text": "[baixa] O s04 dá como jogado o que é da preparação: «A Terceira Lança do Forte Ventura, perdida» nunca se diz à mesa, e a ligação dos homens-sapo ao B5 e do capacete aos homens perdidos pelo Corvelo é do DM (à mesa só o capacete ao contrário e o trapo vermelho, 1:45:14–1:45:31). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Marcar estas passagens como «(DM, não dito à mesa)».",
       "because": [
         "transcrição S4 (#86) 1:45:14"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-11",
@@ -3451,12 +3451,12 @@
         "row": "t-laco-quasi-damiao",
         "col": "s4"
       },
-      "text": "[baixa] O resumo da Drive diz só que «um deles» vai de vigia com o escrivão; o registo diz Quasi com o escrivão, Isco com o Elmiro e Lucan com a Sousela, e a transcrição confirma o Quasi com «o que estava a apontar nomes» (1:52:07).",
+      "text": "[baixa] O resumo da Drive diz só que «um deles» vai de vigia com o escrivão; o registo diz Quasi com o escrivão, Isco com o Elmiro e Lucan com a Sousela, e a transcrição confirma o Quasi com «o que estava a apontar nomes» (1:52:07). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Copiar a frase do registo para o resumo, com a marca da decisão 2026-10-07 #13.",
       "because": [
         "transcrição S4 (#86) 1:52:07"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-12",
@@ -3466,12 +3466,12 @@
         "row": "f-grupo",
         "col": "s4"
       },
-      "text": "[baixa] O s04 e o resumo remetem para docs/canone.md e docs/sessoes/sessao-04-2026-09-23.md, e «Corrigidos:» aponta para data/campaign/...; nada disto existe. O mesmo em c-pc-lia.md (linha 73).",
+      "text": "[baixa] O s04 e o resumo remetem para docs/canone.md e docs/sessoes/sessao-04-2026-09-23.md, e «Corrigidos:» aponta para data/campaign/...; nada disto existe. O mesmo em c-pc-lia.md (linha 73). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Apontar para registo/decisoes.md (2026-10-07) e para o próprio registo.",
       "because": [
         "transcrição S4 (#86)"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-13",
@@ -3481,12 +3481,12 @@
         "row": "c-corvelo",
         "col": "s4"
       },
-      "text": "[baixa] O nome do sargento sai duas vezes como «Corvel. Sargento Corvel» (1:29:29, 1:31:26), e a Renata pergunta «Corvão?»; pode ser só o ASR a cortar o «-o».",
+      "text": "[baixa] O nome do sargento sai duas vezes como «Corvel. Sargento Corvel» (1:29:29, 1:31:26), e a Renata pergunta «Corvão?»; pode ser só o ASR a cortar o «-o». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Confirmar com o DM; sem mudança se for do ASR.",
       "because": [
         "transcrição S4 (#86) 1:29:29"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-01",

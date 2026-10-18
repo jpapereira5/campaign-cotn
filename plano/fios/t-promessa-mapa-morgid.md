@@ -2,7 +2,7 @@
 id: t-promessa-mapa-morgid
 tipo: promessa
 nome: Devolver o mapa ao Morgid
-legenda: o Lucan ao Morgid
+legenda: dita pelo Lucan ao Isco; o Morgid não ouviu
 envolve:
   - c-pc-lucan
   - c-morgid

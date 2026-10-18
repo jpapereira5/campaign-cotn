@@ -70,7 +70,7 @@ DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista e
 3. Em que templo de Rexxentrum foi treinada e a que deus julga rezar.
 4. O nome da primeira vida (a do Alyxian) e da Den dessa vida; os nomes das vidas de Urzin, Jigau, Bazzoxan e da Ascensão; se a expedição da vida da Ascensão despertou o portal do Abismo.
 5. Com a Camila: traço, ideal, laço, defeito e memória mais antiga; quem é a mulher do sonho (decide ela).
-6. ~~O que aconteceu na sessão 4~~: registado em [`docs/sessoes/sessao-04-2026-09-23.md`](sessoes/sessao-04-2026-09-23.md). Passou a sessão de joelhos, amordaçada, na jangada da patrulha; os PCs ainda não sabem quem é.
+6. ~~O que aconteceu na sessão 4~~: registado em `registo/sessoes/s04-2026-09-23.md`. Passou a sessão de joelhos, amordaçada, na jangada da patrulha; os PCs ainda não sabem quem é.
 
 ---
 

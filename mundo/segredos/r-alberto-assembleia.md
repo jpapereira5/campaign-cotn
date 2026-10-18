@@ -10,4 +10,4 @@ origem:
 
 ## Verdade
 
-O Alberto Pé-Leve, «Gnomis», é um mago da Assembleia de Cerebrus. O nome verdadeiro ficou num registo imperial na sessão 4.
+O Alberto Pé-Leve, «Gnomis», é um mago da Assembleia de Cerebrus. Na sessão 4 deu o nome verdadeiro e completo ao sargento Corvelo; no livro do escrivão ficou só «o vosso patrão, Alberto».
