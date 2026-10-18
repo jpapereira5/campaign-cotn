@@ -599,7 +599,7 @@
       "kind": "ideia",
       "target": {
         "row": "t-agenda-baeshra-lucan",
-        "col": "s6"
+        "col": "s7"
       },
       "text": "Na pedra: «Ele agora também te vê.» Cada toque no obelisco paga a renda a Vecna.",
       "tags": [
@@ -794,7 +794,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-ritual-stone",
-        "col": "s6"
+        "col": "s7"
       },
       "text": "Os fragmentos de cristal lançam augury (← S5).",
       "factKind": "consequencia",
@@ -1043,7 +1043,7 @@
       "kind": "ideia",
       "target": {
         "row": "r-pc-baeshra-cla-ro",
-        "col": "s6"
+        "col": "s7"
       },
       "text": "Pista: «Baeshra esteve aqui», escrito em dracónico na pedra.",
       "factKind": "pista",
@@ -1324,7 +1324,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-bolbara",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "Bol'bara à solta: possuída desde a noite do dia 3, já fora do forte; cruza-se com o grupo no pântano ou a caminho de Urzin (b-0-bolbara-unleashed); o Morgid reaparece nessa luta.",
@@ -1359,7 +1359,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-alonne-frith",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "O Fritz na jaula (V8), única testemunha viva: viu a goblin virar os soldados uns contra os outros e sabe para onde ela foi. Só fala a quem o soltar; juntar-se ao grupo com desvantagem.",
@@ -1408,7 +1408,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-ritual-stone",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "A visão da mão: uma mão esquelética abre-se e oferece um olho na palma. Quem pega vê o Truche a andar pelo pântano dentro da Bolbara (mortos-vivos atrás dela; um relâmpago seco rasga uma árvore e, por um segundo, a voz dela: «Melora…»). Só quem pegou viu; e fica visto.",
@@ -1425,7 +1425,7 @@
       "kind": "ideia",
       "target": {
         "row": "t-laco-quasi-alberto",
-        "col": "s6"
+        "col": "s7"
       },
       "text": "O livro de registos da tenda do comandante tem também o registo imperial com o nome verdadeiro do Alberto. A Lia vai lá pelo pai; quem ler a página ao lado encontra o Alberto. Paga a confissão que ficou a meio (e-s4-16) e os três esquecidos do laço.",
       "because": [
@@ -1501,7 +1501,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-crumbling-tower",
-        "col": "s6"
+        "col": "s7"
       },
       "text": "O livro sugere reutilizar um sítio já visitado para a emboscada da Bolbara. A Torre em Ruínas (teias brancas, passaram ao lado) é a última oportunidade do prólogo para esse fio: o rasto de relâmpagos passa por lá.",
       "because": [
@@ -1548,7 +1548,7 @@
       "kind": "aviso",
       "target": {
         "row": "t-missao-nevoa-do-brejo",
-        "col": "s6"
+        "col": "s7"
       },
       "text": "Os fios de Urzin (Névoa do Brejo, a Miríade e o Jevan, o Azrok roubado) só se pagam se voltarem a Urzin. Se a perseguição acabar lá, entram todos de uma vez; se não, ficam para o regresso.",
       "because": [
@@ -1613,7 +1613,7 @@
       "kind": "ideia",
       "target": {
         "row": "r-tempestade-truche",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "O rasto: relâmpagos secos sem nuvem à volta da Bolbara; no chão, árvores rachadas e queimadas, juncos chamuscados, ozono, peixes mortos a boiar. Nada no céu; o trovão curto faz eco nas falésias.",
@@ -1666,7 +1666,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-pc-lia",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "Ao ver a Bolbara (na visão ou em pessoa), a Lia tem um déjà vu; na noite seguinte sonha com ela, em criança, noutra vida.",
@@ -1682,7 +1682,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-pc-lia",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «razões pessoais, sem missão da ordem»: não mentiu, ocultou.",
@@ -1733,7 +1733,7 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "Se o grupo ainda estiver com a patrulha à noite: primeiro flash de Ruidus. O Isco acorda de um pesadelo em que matou o Elmiro; de manhã ninguém sabe do Elmiro. Não se explica.",
+      "text": "Se o grupo ainda estiver com a patrulha à noite: primeiro flash de Ruidus. O Isco acorda de um pesadelo em que matou o Elmiro; de manhã ninguém sabe do Elmiro. Não se explica. [substituída: flash sem vítima, decisão 2026-10-18 #34]",
       "suggestion": "Primeiro flash de Ruidus: o Isco acorda de um pesadelo em que matou o Elmiro; de manhã o Elmiro desapareceu.",
       "because": [
         "registo/decisoes.md 2026-10-13 #15",
@@ -1742,7 +1742,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-20",
@@ -1770,7 +1770,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-pc-isco",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "O faro e o colar da Bolbara põem o Isco à frente da perseguição, a ler o rasto de relâmpagos.",
@@ -1802,7 +1802,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-bolbara",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "Se a Bolbara voltar a si, diz ao Quasi só isto: «Essa maldição não se tira, abre-se. Alguém tem de olhar.»",
@@ -2120,7 +2120,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-ritual-stone",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "A pedra cheira a enxofre, o mesmo da garra de seis dedos e do sangue do Skr'a S'orsk (o Isco reconhece-o).",
@@ -2139,7 +2139,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-ritual-stone",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "Junto à pedra: conchas brancas dos ritos da Bolbara e pegadas imperiais com cerca de uma semana, a seguir para o forte.",
@@ -2158,7 +2158,7 @@
       "kind": "aviso",
       "target": {
         "row": "c-alonne-frith",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "O Fritz lê só pensamentos à superfície, uma pessoa, 9 m, uma ação; quem é lido sente frio atrás dos olhos (SAB CD 13). Lê raramente porque pode ser apanhado: no forte, no máximo uma vez (a Lia ou o Quasi). Não ouve o Baeshra; o Lucan não é alvo.",
@@ -2177,7 +2177,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-fort-venture",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "Três sobreviventes fechados no salão: o ferreiro veterano («Corvelo. Vieste tarde.») e dois guardas novos, um de braço queimado. Um aponta à Lia; o Corvelo: «Baixa isso. Ela está comigo.»",
@@ -2193,7 +2193,7 @@
       "kind": "ideia",
       "target": {
         "row": "t-laco-quasi-alberto",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "Na tenda do comandante, o caderno de recompensas: «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» Sem a função. O Corvelo vê, fecha o caderno e sai sem dizer nada.",
@@ -2212,7 +2212,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-pc-lia",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "cena",
       "text": "Foi o Corvelo que escoltou o pai adotivo até à guarnição do sul: «Lembro-me desse. Escoltei-o até à guarnição do sul. Não falava. Escrevia à noite.»",
@@ -2231,7 +2231,7 @@
       "kind": "aviso",
       "target": {
         "row": "c-corvelo",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "consequencia",
       "text": "Ninguém da patrulha vai com o grupo atrás da Bolbara: o Corvelo, a Nália e os outros ficam no forte com os sobreviventes. (O Damião morreu na S6, decisão 2026-10-17 #5.)",
@@ -2247,7 +2247,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-fort-venture",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "Pátio (V4): o caderninho do torneio, junto à garrafa de brandy, acaba em «Tibério ganhou», com a data do dia 3. O Corvelo devolve-o calado e guarda a garrafa.",
@@ -2263,7 +2263,7 @@
       "kind": "ideia",
       "target": {
         "row": "l-fort-venture",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "Capela (V6): a espada do Tibério enterrada no peito do Perestrelo; o corpo do Tibério não está, e um rasto de pegadas molhadas vai do altar à água (Survival CD 12). O Corvelo: «Tibério.»",
@@ -2282,7 +2282,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-pc-quasi",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "As notas do Perestrelo (sem leitor marcado: ficam atrás do altar e lê-as quem as apanhar) são um interrogatório sobre Urzin: onde fica, quem a protege, as tartarugas, com mapas riscados a cada morte. Apontam também para os envios de rubídio à Doolan Tversky.",
@@ -2343,14 +2343,14 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "Preparação da S6: «Sessão 06 — Preparação: O Olho na Palma v2» (Drive, Session Prep). Se a S6 chegar ao forte: «Sessão 06 — Extra: O Forte Ventura v2», com o texto do livro para V1–V11 e as reações da patrulha. Distância obelisco–forte: cerca de 7 hexágonos; partindo a meio da tarde do dia 4, chegam a meio da manhã do dia 5.",
+      "text": "Preparação da S6: «Sessão 06 — Preparação: O Olho na Palma v2» (Drive, Session Prep). Se a S6 chegar ao forte: «Sessão 06 — Extra: O Forte Ventura v2», com o texto do livro para V1–V11 e as reações da patrulha. Distância obelisco–forte: cerca de 7 hexágonos; partindo a meio da tarde do dia 4, chegam a meio da manhã do dia 5. [substituída: âmbito da S7, decisão 2026-10-18 #32]",
       "suggestion": "Preparação da S6: «Sessão 06 — Preparação: O Olho na Palma v2» (Drive, Session Prep). Se a S6 chegar ao forte: «Sessão 06 — Extra: O Forte Ventura v2», com o texto do livro para V1–V11 e as reações da patrulha. Distância obelisco–forte: cerca de 7 hexágonos; partindo a meio da tarde do dia 4, chegam a meio da manhã do dia 5.",
       "because": [
         "registo/decisoes.md 2026-10-13 #27",
         "registo/decisoes.md 2026-10-16 #6",
         "registo/decisoes.md 2026-10-16 #17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d16-16",
@@ -2358,7 +2358,7 @@
       "kind": "ideia",
       "target": {
         "row": "c-alonne-frith",
-        "col": "s6"
+        "col": "s7"
       },
       "factKind": "pista",
       "text": "Se os jogadores falarem do Vigost à frente do Fritz (o Lucan e o Isco ouviram o nome ao Óscar, em Decrépola), o Fritz reconhece-o: é a primeira prova de que é (ou foi) do culto de Serratos.",
@@ -5043,6 +5043,112 @@
       "suggestion": "«Mortos na Água».",
       "because": [
         "transcrição S6 (#89) 2:52:13"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p7-01",
+      "at": "2026-10-18T09:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-missao-patrulha",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Âmbito da S7: rescaldo e pedra, decisão forte/Bolbara, marcha, noite com a patrulha, chegada ao forte a meio da manhã do dia 5 (7 hexágonos). Material: «Sessão 06 — Preparação: O Olho na Palma v2» (secções 4 a 9) e «Sessão 06 — Extra: O Forte Ventura v2».",
+      "suggestion": "Âmbito da S7: rescaldo e pedra, decisão forte/Bolbara, marcha, noite com a patrulha, chegada ao forte a meio da manhã do dia 5 (7 hexágonos). Material: «Sessão 06 — Preparação: O Olho na Palma v2» (secções 4 a 9) e «Sessão 06 — Extra: O Forte Ventura v2».",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #32"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p7-02",
+      "at": "2026-10-18T09:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s7"
+      },
+      "factKind": "consequencia",
+      "text": "O Corvelo não deixa ninguém na água: o Damião, o Alex e o Tibério vão na jangada para o forte. Fica com o livro de registos e o periapto do Damião. A trança da Lia continua no pulso do escriba.",
+      "suggestion": "O Corvelo não deixa ninguém na água: o Damião, o Alex e o Tibério vão na jangada para o forte. Fica com o livro de registos e o periapto do Damião. A trança da Lia continua no pulso do escriba.",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #33"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-p7-03",
+      "at": "2026-10-18T09:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "s7"
+      },
+      "factKind": "pista",
+      "text": "Flash sem vítima: na noite com a patrulha, o Isco sonha que mata o Elmiro e acorda molhado até à cintura e com sangue nas mãos; o Elmiro está vivo; na água, perto do acampamento, um animal morto e desfeito. Não se explica.",
+      "suggestion": "Flash sem vítima: na noite com a patrulha, o Isco sonha que mata o Elmiro e acorda molhado até à cintura e com sangue nas mãos; o Elmiro está vivo; na água, perto do acampamento, um animal morto e desfeito. Não se explica.",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #34"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
+    },
+    {
+      "id": "n-p7-04",
+      "at": "2026-10-18T09:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "O pendente está com o Quasi («estou a levar emprestado»), e a Lia viu. Cena pessoal: ela quer-o de volta, e o Corvelo, sem o Alex para falar por ela, decide se volta a amarrá-la depois de a ver lutar e curar.",
+      "suggestion": "O pendente está com o Quasi («estou a levar emprestado»), e a Lia viu. Cena pessoal: ela quer-o de volta, e o Corvelo, sem o Alex para falar por ela, decide se volta a amarrá-la depois de a ver lutar e curar.",
+      "because": [
+        "registo/sessoes/s06-2026-10-16.md e-s6-08",
+        "registo/decisoes.md 2026-10-17 #5"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p7-05",
+      "at": "2026-10-18T09:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s7"
+      },
+      "factKind": "pista",
+      "text": "O Quasi foi para o menir com o pendente para comparar os dois: a mesma natureza «alienígena» (dunamancia). Com ele, o pendente é só um objeto; se o encostar à pedra, o d6 do menir pode comer meia hora. Está a 2 PV.",
+      "suggestion": "O Quasi foi para o menir com o pendente para comparar os dois: a mesma natureza «alienígena» (dunamancia). Com ele, o pendente é só um objeto; se o encostar à pedra, o d6 do menir pode comer meia hora. Está a 2 PV.",
+      "because": [
+        "registo/sessoes/s06-2026-10-16.md e-s6-01",
+        "registo/decisoes.md 2026-10-18 #2",
+        "registo/decisoes.md 2026-10-18 #28"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-p7-06",
+      "at": "2026-10-18T09:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "«Tu… sim.» Se o Lucan for ao menir, é ele que a pedra quer: a mão e o olho, e no fim «Ele agora também te vê.» Ainda com o corpo do Alex nos braços, no arranque.",
+      "suggestion": "«Tu… sim.» Se o Lucan for ao menir, é ele que a pedra quer: a mão e o olho, e no fim «Ele agora também te vê.» Ainda com o corpo do Alex nos braços, no arranque.",
+      "because": [
+        "registo/sessoes/s06-2026-10-16.md e-s6-09",
+        "registo/decisoes.md 2026-10-12 #18"
       ],
       "status": "aberta"
     }
