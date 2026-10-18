@@ -197,6 +197,8 @@ Por definir (não está no documento): o limiar de pontos que dispara a loucura 
 
 **À mesa (sessão 2, #83) — como foi anunciado aos jogadores:** ganham pontos ao ver coisas que nenhum mortal devia ver, ao cair a 0 PV, ou por trauma que o próprio jogador declare em roleplay («isto seria traumatizante para a minha personagem»). Aos 10, 20 e 30 pontos recebem um add-on de roleplay tirado ao acaso de uma tabela, sem penalização mecânica («começas a ficar um bocadinho mais desconfiado…»). Aos 40 a mente parte: o jogador perde o controlo da personagem, que passa a NPC — «o maluquinho da aldeia que balbucia». Recuperação: uma semana de downtime num sítio sagrado ou calmo (retiro), à Darkest Dungeon — álcool, jogo, bordel, reza, flagelação. Referência dos jogadores: o insight do Bloodborne (quanto mais sabes, mais coisas eldritch vês, e elas passam a ver-te).
 
+**À mesa (sessão 6, #89, 2026-10-16) — quantos pontos por evento:** cada experiência traumática (incluindo chegar a 0 PV) lança **1d10**, mas com teto: **até aos 10 pontos, no máximo 5 de uma só vez; dos 10 aos 20, no máximo 7 de uma só vez**. Os efeitos de cada nível são partilhados só com o jogador da personagem, para os outros não saberem.
+
 ## Ressurreição (DM, sessão 2)
 
 Existe — há feitiços para isso —, mas «voltam, mas não voltam inteiros»: há qualquer coisa que já não regressa como era. Detalhes por definir caso a caso; vale também para NPCs («quando o Alberto voltar já lhe fizemos a perna no refogado»).

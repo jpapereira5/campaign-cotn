@@ -9,4 +9,5 @@ origem:
 
 ## Resumo
 
-O mapa do pântano do Morgid, com marcas visuais por decifrar. Na sessão 4 o Isco mostrou-o ao Corvelo, que não reconheceu nada («Tudo aqui é diferente»); depois o Lucan tirou-o ao Morgid e disse ao Isco, em Thieves' Cant, que com sorte o devolvem se os caminhos se cruzarem (quando encontrarem as tartarugas). O Morgid já tinha desaparecido e não ouviu.
+O mapa do pântano do Morgid, com marcas visuais por decifrar. 
+Na sessão 4 o Isco mostrou-o ao Corvelo, que não reconheceu nada («Tudo aqui é diferente»); depois o Lucan tirou-o ao Morgid e disse ao Isco, em Thieves' Cant, que com sorte o devolvem se os caminhos se cruzarem (quando encontrarem as tartarugas). O Morgid já tinha desaparecido e não ouviu. Ficou com o Isco; na manhã do dia 3 (sessão 5, #88) passou para o Lucan, que o usa para navegar, escondido dos soldados, com o sextante e a luneta do Isco.
