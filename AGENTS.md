@@ -25,7 +25,7 @@ O que é próprio da CotN. As skills genéricas leem esta secção.
 - **PCs:** fichas em `mundo/personagens/c-pc-*.md`; um documento consolidado por PC na Drive, pasta `PCs_Claude` (`1ZPbWDbs66jTRJxAZl7VOu332f_mKCCH-`); a Lia tem também a pasta `Camila` (`1BjFqdDVnXiBCrDh82SwipwHegeHzGgxl`). Fichas completas no D&D Beyond dos jogadores.
 - **Livros e regras:** os PDFs (Call of the Netherdeep, Explorer's Guide to Wildemount, Tal'Dorei Reborn) estão no Projeto «Dungeons & Dragons» do claude.ai (pesquisa do projeto); a extração do livro está em `livro/` (JSON, só leitura). Regras da casa em `mesa/regras.md`, incluindo a tabela «Componentes verbais em latim (DM)» (fonte: «All Latin spell chants», BG3).
 - **Drive:** preparações de sessão e folhas de batalha na pasta `Session Prep` (`1WGi5hzOj2oPHEfFmvlwDmJN33X7Ed6h1`); ideias, arcos e capítulos em `cotn_2026/ideias` (`1MIP9LYli1gLw7DMgz5UYruOzhkbnrP6j`), como `.md` (`text/markdown`, sem conversão). Google Docs sem cabeçalho YAML. Versões novas como ficheiros novos (`v2`); a anterior criada pelo assistente vai para o lixo; os originais do DM nunca se apagam. Formato de referência das preparações: «Sessão 06 — Preparação: O Olho na Palma».
-- **Sessões:** `registo/sessoes/sNN-AAAA-MM-DD.md` (o de maior `n` é a última; `ondeParou`, acontecimentos); `node scripts/grelha.ts [--linha <id>]` mostra a Grelha em texto.
+- **Sessões:** `registo/sessoes/sNN-AAAA-MM-DD.md` (o de maior `n` é a última; `ondeParou`, acontecimentos). **O que se jogou verifica-se na transcrição**, não no resumo: `session_records/<global>_cotn_<n>/transcript_whisperx.txt` (pasta `1bmnSRbTupGWiWyjzsHIwIF4_2lQYf_OZ`); os resumos da Drive (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`) escrevem-se a partir do registo e nunca servem de fonte. Qualquer skill que afirme ou decida algo sobre o que já se jogou confere a transcrição primeiro; `node scripts/grelha.ts [--linha <id>]` mostra a Grelha em texto.
 - **Validar e gravar:**
   ```
   python3 scripts/normalizar-texto.py
@@ -42,3 +42,4 @@ O que é próprio da CotN. As skills genéricas leem esta secção.
 - O repositório é público: não guardar tokens nem segredos de acesso em texto.
 - Decisões do DM apresentam-se como perguntas interativas, com uma recomendação, e gravam-se pela skill `decidir`.
 - Nunca apresentar uma invenção como cânone: cada proposta diz de onde nasce.
+- Uma correção só está feita quando todas as ocorrências do facto errado no repositório foram corrigidas (`grep`).

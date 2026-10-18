@@ -15,6 +15,7 @@ Lê a secção `## Para as skills` do `AGENTS.md` do projeto: onde vive o cânon
 
 - **Confirma o que já existe.** Procura no cânone do projeto, nos livros (skill `livro`) e na Drive antes de propor. Se a resposta já está escrita, diz onde está e pede só confirmação.
 - **Procura incoerências** que a decisão criaria: tempo (dias, idades), distâncias (viagem por dia), regras da casa, decisões anteriores. Diz-as primeiro, em poucas linhas.
+- **O que já se jogou confere-se na fonte primária**, a transcrição da sessão quando o projeto a tem (`AGENTS.md`), não num resumo. Uma decisão sobre algo que os jogadores já viram ou ouviram (o aspeto de um objeto, quem fez o quê, um nome dito à mesa) tem de bater com o que se disse; se não bate, mostra a citação e a discrepância antes de perguntar.
 - **Se a ideia é tua, diz de onde veio.** Nunca apresentes uma invenção como se estivesse nos ficheiros.
 
 ## 2. Perguntar
@@ -29,6 +30,7 @@ Lê a secção `## Para as skills` do `AGENTS.md` do projeto: onde vive o cânon
 
 Uma decisão do DM é canónica quando ele mostra que decidiu, dita de qualquer maneira.
 
+0. **Todas as ocorrências.** Antes de dar a decisão por gravada, procura (`grep`) no cânone todas as menções do que ela substitui e corrige-as; uma correção feita num só sítio volta a aparecer.
 1. **O ficheiro da coisa** (a ficha do NPC, do local, do beat…): acrescenta ou corrige, com «(Decidido pelo DM (AAAA-MM-DD))». Se substitui texto antigo, substitui-o; não deixes duas versões.
 2. **O registo de decisões** do projeto: uma secção por dia, itens numerados, uma frase a negrito com a decisão e o resto em prosa curta. Se corrige uma anterior, diz qual. As rejeitadas também ficam: «Ficam de fora: …».
 3. **As notas para o DM** (se o projeto as tiver): uma nota por decisão de preparação, no sítio onde ele a vai ver quando preparar, com a referência à decisão. Fecha as notas que a decisão contradiz.

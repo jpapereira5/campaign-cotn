@@ -47,13 +47,13 @@ O chat não guarda nada: no fim de cada conversa, tudo o que vale a pena tem de 
 
 Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho» (skill `/fecho`), o Claude:
 
-1. **Lê o que a mesa deixou.** A transcrição e a preparação na Drive (pastas abaixo) desde o último fecho; e, no repositório, a camada do DM em `grelha/dm.json`: os beats marcados «jogado à mesa» (`jogado`), as notas rápidas (`nota`), os planos da sessão que se jogou (`plano`, na coluna dessa sessão) e as correções e decisões ainda por absorver (`revisao.absorbed`).
-2. **Escreve a sessão** em `registo/sessoes/sNN-AAAA-MM-DD.md`: o cabeçalho (`n`, `global`, `data`, `titulo`, `capitulo`, `mesa`, `nivel`, `mundo`, `resumo`, `ondeParou`, `beats`), o resumo no corpo e os **acontecimentos com efeitos** (`docs/arquitetura.md`, secção 5): cada plano jogado vira acontecimento com `origem`, cada plano que caiu fica apagado (`deleted`) em `dm.json`.
-3. **Atualiza as entidades**: NPCs novos ou corrigidos (`mundo/`), fios novos (`plano/fios/`, `mesa/fios/`), beats jogados no cabeçalho da sessão, o capítulo da mesa em `plano/campanha.md` quando muda, e as decisões do DM em `registo/decisoes.md`. As ids a acompanhar entram em `grelha/linhas.json`.
+1. **Lê o que a mesa deixou.** A transcrição inteira (a fonte do registo) e a preparação (só para separar o jogado do planeado) na Drive, desde o último fecho; o resumo da Drive não é fonte, escreve-se depois a partir do registo; e, no repositório, a camada do DM em `grelha/dm.json`: os beats marcados «jogado à mesa» (`jogado`), as notas rápidas (`nota`), os planos da sessão que se jogou (`plano`, na coluna dessa sessão) e as correções e decisões ainda por absorver (`revisao.absorbed`).
+2. **Escreve a sessão** em `registo/sessoes/sNN-AAAA-MM-DD.md`: o cabeçalho (`n`, `global`, `data`, `titulo`, `capitulo`, `mesa`, `nivel`, `mundo`, `resumo`, `ondeParou`, `beats`), o resumo no corpo e os **acontecimentos com efeitos** (`docs/arquitetura.md`, secção 5), cada um com `fonte: transcrição S<n> (#<global>) <marca de tempo>`: cada plano jogado vira acontecimento com `origem`, cada plano que caiu fica apagado (`deleted`) em `dm.json`.
+3. **Atualiza as entidades** (cada correção com `grep` por todas as ocorrências do facto antigo): NPCs novos ou corrigidos (`mundo/`), fios novos (`plano/fios/`, `mesa/fios/`), beats jogados no cabeçalho da sessão, o capítulo da mesa em `plano/campanha.md` quando muda, e as decisões do DM em `registo/decisoes.md`. As ids a acompanhar entram em `grelha/linhas.json`.
 4. **Absorve a camada do DM**: cada entrada tratada passa a `revisao.absorbed` (`"d-…": "<id do acontecimento ou da entidade>"`) ou a `revisao.reviewed`; as notas de revisão respondidas ficam `fechada`. Nunca se apaga nada de `dm.json`: a app é a única que lá escreve.
 5. **Assinala os conflitos** com o cânone e espera pela decisão do DM antes de os escrever; o que depende do DM fica em `grelha/revisao.json` como `pergunta` ou `discrepancia`.
 6. **Valida e grava:** `python3 scripts/normalizar-texto.py`, `npm run validate` e `npm test` limpos; commit e push para `main` (o deploy leva um ou dois minutos).
-7. **Atualiza na Drive** as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo) e a data do último fecho, abaixo.
+7. **Atualiza na Drive** o resumo da sessão (escrito a partir do registo, pasta «Resumo de Sessoes») e as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo), e a data do último fecho, abaixo.
 
 Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e deixa ideias e avisos nas células (`grelha/revisao.json`); durante a edição, o `/vigia` revê cada gravação do DM em tempo real. As regras estão em `.claude/skills/`.
 
@@ -66,8 +66,11 @@ Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e 
 | Camila (Lia) | `1BjFqdDVnXiBCrDh82SwipwHegeHzGgxl` |
 | Documentos para jogadores (Mundo, Panteão) | `163OGm6WCbT53Ci2aLraE5xygn5R1Z51B` |
 | `exandria` (glossário) | `1ziSnT3gXuEu_NcHzV0C5iAIFoP4tOLDc` |
-| `session_records` (transcrições) | sem id registado |
+| `session_records` (transcrições: `<global>_cotn_<n>/transcript_whisperx.txt`) | `1bmnSRbTupGWiWyjzsHIwIF4_2lQYf_OZ` |
+| Resumo de Sessoes (Google Docs, escritos a partir do registo) | `1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-` |
 
 ## Último fecho
 
 2026-10-07T01:30Z (sessão 4: resumo, cânone vs. preparação, patrulha, Alberto Pé-Leve, Morgid, Lia).
+
+Revisão das sessões 1 a 6 contra as transcrições: 2026-10-18 (notas `n-tr…` em `grelha/revisao.json`; a sessão 6 ainda não tem fecho).

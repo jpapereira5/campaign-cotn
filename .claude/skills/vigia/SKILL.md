@@ -35,7 +35,7 @@ Regras completas em `docs/grelha.md` (secções 9, 10 e 12) e `docs/arquitetura.
 
 - **`correcao`** (numa coluna jogada, com `fact`, ou sem `fact` = facto em falta). Pergunta primeiro se os jogadores viram aquilo.
   - Não viram → é uma verdade escondida: só tem de bater com o que eles viram.
-  - Viram → ou o registo estava errado (mostra o que diz o resumo da sessão em `registo/sessoes/` e, se tiveres acesso, a transcrição na Drive) ou é um retcon, e os jogadores lembram-se do original.
+  - Viram → confere a transcrição da sessão (`AGENTS.md`, «Sessões») na marca de tempo do acontecimento: ou o registo estava errado ou é um retcon, e os jogadores lembram-se do original. Mostra ao DM a citação.
   - Mostra os acontecimentos que nasceram deste (os que o têm em `origem`): podem deixar de fazer sentido.
   - Depois de confirmada: altera o acontecimento em `registo/sessoes/sNN-….md` (texto, `envolve`, `efeitos`), corrige o resumo da sessão e `registo/decisoes.md` se for o caso, regista a entrada em `revisao.absorbed` (`"d-…": "e-…"`).
 - **`verdade`** (só DM). Tem de bater com tudo o que os jogadores viram. Sugere onde pode virar pista (um segredo em `mundo/segredos/`). Depois de confirmada: acontecimento novo com a tag `so-dm`, e `absorbed`.
