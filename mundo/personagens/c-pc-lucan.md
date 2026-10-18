@@ -67,6 +67,8 @@ cotn_2026 (ficha do jogador + notas DM na Drive). Renata Surrécio. Water Genasi
 
 **À mesa (sessão 6, #89, 2026-10-16):** à vista do obelisco ouve, quase sussurrado, uma voz que só ele ouve: «Tu… sim…» (DM: Baeshra; a resposta ao «Ele não.» da S3). O *Detect Magic* do Quasi vê nele uma coisa de evocação («eu tenho Daylight»; origem por confirmar, `n-tr6-p09`) e a adaga, de transmutação. No combate, raiva em garras, sem cauda; repara na farda do lacedon desfeito (vermelho imperial, mocho com espigas de trigo, a do escriba); mata o goblin que agarrava o Quasi e o hobgoblin que arrastava o Alex, e sai da água com o corpo do Alex ao colo.
 
+Tem a **Luneta da Alvorada** (`i-luneta-da-alvorada`), do Farol Apagado, que o Isco lhe deu na manhã do dia 3 (S5): é dela o *Daylight* (60 pés, uma vez por alvorada) (Decidido pelo DM (2026-10-18)).
+
 ## Objetivo
 
 Investigar o rubídio para Yussa; perceber o que Baeshra quer, enquanto protege o irmão.

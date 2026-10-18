@@ -52,6 +52,8 @@ cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Ropio. Blood Hunter 3 (O
 
 **À mesa (sessão 6, #89, 2026-10-16):** avisa o irmão, em halfling, que a bacia não é normal; vê caracteres na pedra à distância; cheira a carne podre antes do ataque e avisa o sargento. No combate, duas transformações: destrói o lacedon de farda e esmaga-o na jangada; anima o Elmiro, em vão; Medicina ao Damião (22 e 14): morto. Acaba junto ao pilar, sem lhe tocar (d6 da pedra: 3). 31 PV.
 
+Trouxe do Farol Apagado a **Luneta da Alvorada** (`i-luneta-da-alvorada`) e deu-a ao Lucan na manhã do dia 3 (S5) (Decidido pelo DM (2026-10-18)).
+
 ## Objetivo
 
 Encontrar uma tripulação a que pertença; pescar aquele Monstro; fazer do irmão o campeão escolhido do deus dele.

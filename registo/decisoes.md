@@ -212,3 +212,4 @@ Ficam em aberto (o DM ainda vê): o Quasi a 2 PV no fim da S6 e a insanidade da 
 27. **É o Isco que guarda o pano do culto.** Completa o #12.
 28. **O Quasi acaba a S6 com 2 PV; ninguém ganha pontos de insanidade pelas mortes do Damião e do Alex.**
 29. **O título da S6 fica por definir.** «Mortos na Água» e «O Triunfo da Nália» foram sugestões da mesa; o registo usa «Título por definir» até o DM escolher.
+30. **O *Daylight* do Lucan vem da Luneta da Alvorada, a luneta de latão do Farol Apagado (lente de cristal de altar; *daylight* a 60 pés, uma vez por alvorada; vantagem em Perception à vista).** É a mesma luneta que o Isco deu ao Lucan na manhã do dia 3 (S5); os irmãos trouxeram-na do Farol. Ficha nova `i-luneta-da-alvorada`. Origem: pergunta n-tr6-p09.

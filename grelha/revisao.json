@@ -4794,12 +4794,12 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "De onde vem o Daylight do Lucan?",
+      "text": "De onde vem o Daylight do Lucan? [substituída: decisão 2026-10-18 #30]",
       "suggestion": "Qual é a origem do Daylight do Lucan?",
       "because": [
         "transcrição S6 (#89)"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d17-01",

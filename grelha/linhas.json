@@ -439,6 +439,13 @@
     ]
   },
   {
+    "id": "i-luneta-da-alvorada",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
+  },
+  {
     "id": "i-colar-de-conchas-bolbara",
     "pcs": [
       "c-pc-isco"
