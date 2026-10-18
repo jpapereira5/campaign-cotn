@@ -12,3 +12,5 @@ par:
 origem:
   - grelha
 ---
+
+Fechado na S6 (#89): o Quasi tenta salvar o Damião com *Healing Word*, tarde demais (e-s6-29).
