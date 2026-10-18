@@ -2434,7 +2434,7 @@
         "row": "r-pc-lucan-sessinek",
         "col": "s1"
       },
-      "text": "[alta] A ficha c-skra-sorsk diz que «Sess'inek não foi nomeado», mas à mesa o Skr'a diz o nome duas vezes: «O nosso senhor Sessinek» (2:32:05) e «Sess'inek vai gostar de os saborear!» (2:34:30). O registo (e-s1-12, e-s1-27) está certo. Afeta mundo/personagens/c-skra-sorsk.md.",
+      "text": "[alta] A ficha c-skra-sorsk diz que «Sess'inek não foi nomeado», mas à mesa o Skr'a diz o nome duas vezes: «O nosso senhor Sessinek» (2:32:05) e «Sess'inek vai gostar de os saborear!» (2:34:30). O registo (e-s1-12, e-s1-27) está certo. Afeta mundo/personagens/c-skra-sorsk.md. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Reescrever para «o nome Sess'inek foi dito na S1 pelo Skr'a; o que a mesa não sabe é que o ossário era a corte dele».",
       "because": [
         "transcrição S1 (#81) 2:32:05"
@@ -2442,7 +2442,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-03",
@@ -2452,12 +2452,12 @@
         "row": "t-missao-rubidio",
         "col": "s1"
       },
-      "text": "[média] À mesa o DM combinou que o Yussa deu «tipo 50 [po] a cada um» (0:43:01) e não contradisse que é o Yussa quem os manda a Urzin (0:10:13). O registo não tem efeito de dinheiro, o e-s1-11 ainda diz «por confirmar» e os «Fios em aberto» perguntam «quem é o patrono (Yussa?) e quanto dinheiro deu».",
+      "text": "[média] À mesa o DM combinou que o Yussa deu «tipo 50 [po] a cada um» (0:43:01) e não contradisse que é o Yussa quem os manda a Urzin (0:10:13). O registo não tem efeito de dinheiro, o e-s1-11 ainda diz «por confirmar» e os «Fios em aberto» perguntam «quem é o patrono (Yussa?) e quanto dinheiro deu». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Tirar o «por confirmar» do e-s1-11, juntar «~50 po a cada irmão para a viagem (valor exato por fechar)» e tirar o «(Yussa?)» dos fios.",
       "because": [
         "transcrição S1 (#81) 0:43:01"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-04",
@@ -2467,12 +2467,12 @@
         "row": "c-pc-isco",
         "col": "s1"
       },
-      "text": "[média] O corpo do registo e o resumo põem o reavivar do Lucan com carne crua e balde de água na Carapaça, logo após o concurso. Na transcrição o Isco pendura o irmão lá fora durante a conversa com o Jevan (1:23:53) e só no salão do Bufal, depois de o Lucan falhar o CON save, lhe esfrega carne crua e pede ao Bufal o balde (1:47:35–1:48:34). Afeta o corpo do registo (passos 5 e 7) e o resumo da Drive.",
+      "text": "[média] O corpo do registo e o resumo põem o reavivar do Lucan com carne crua e balde de água na Carapaça, logo após o concurso. Na transcrição o Isco pendura o irmão lá fora durante a conversa com o Jevan (1:23:53) e só no salão do Bufal, depois de o Lucan falhar o CON save, lhe esfrega carne crua e pede ao Bufal o balde (1:47:35–1:48:34). Afeta o corpo do registo (passos 5 e 7) e o resumo da Drive. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Mover o reavivar com carne crua e balde para o passo 7 (audiência no salão do Bufal).",
       "because": [
         "transcrição S1 (#81) 1:47:35"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-05",
@@ -2482,12 +2482,12 @@
         "row": "c-buhfal",
         "col": "s1"
       },
-      "text": "[média] A ficha c-buhfal diz que foi o Isco a tentar subir os 200 po (Persuasão 13), mas o lançamento «6 mais 7» (1:46:21) é do bardo; o Isco tem Carisma negativo. Também falta que os 200 po são para o grupo, não para cada um («Para cada? Não.», 1:41:20). Afeta mundo/personagens/c-buhfal.md e o passo 7 do registo.",
+      "text": "[média] A ficha c-buhfal diz que foi o Isco a tentar subir os 200 po (Persuasão 13), mas o lançamento «6 mais 7» (1:46:21) é do bardo; o Isco tem Carisma negativo. Também falta que os 200 po são para o grupo, não para cada um («Para cada? Não.», 1:41:20). Afeta mundo/personagens/c-buhfal.md e o passo 7 do registo. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «o Quasi tenta subir o preço (Persuasão 13, falha); 200 po no total».",
       "because": [
         "transcrição S1 (#81) 1:46:21"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-06",
@@ -2497,12 +2497,12 @@
         "row": "c-pc-isco",
         "col": "s1"
       },
-      "text": "[média] O registo diz «Lucan lança o desafio» do concurso de bebida, mas na transcrição é o Isco que saca a moeda e desafia os hobgoblins em nome do irmão (1:00:51–1:01:17). Afeta o corpo (passo 5) e o e-s1-02.",
+      "text": "[média] O registo diz «Lucan lança o desafio» do concurso de bebida, mas na transcrição é o Isco que saca a moeda e desafia os hobgoblins em nome do irmão (1:00:51–1:01:17). Afeta o corpo (passo 5) e o e-s1-02. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir para «o Isco lança o desafio em nome do irmão; quem bebe é o Lucan».",
       "because": [
         "transcrição S1 (#81) 1:00:51"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-07",
@@ -2512,12 +2512,12 @@
         "row": "c-azrok",
         "col": "s1"
       },
-      "text": "[média] O e-s1-06 e o corpo não dizem que o Jevan viu o Isco roubar o Azrok; na transcrição o DM avisa «O soldado que veio falar convosco… está a ver isto» e o Jevan alerta para quem é o Azrok (1:19:59–1:21:28). A ficha c-azrok já o tem.",
+      "text": "[média] O e-s1-06 e o corpo não dizem que o Jevan viu o Isco roubar o Azrok; na transcrição o DM avisa «O soldado que veio falar convosco… está a ver isto» e o Jevan alerta para quem é o Azrok (1:19:59–1:21:28). A ficha c-azrok já o tem. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Juntar c-jevan ao `envolve` do e-s1-06 com «visto pelo Jevan, que só avisou».",
       "because": [
         "transcrição S1 (#81) 1:19:59"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-08",
@@ -2527,12 +2527,12 @@
         "row": "l-urzin",
         "col": "s1"
       },
-      "text": "[média] O registo só tem «duas noites grátis» na Carapaça, mas a estadia foi trocada por música: «como combinado, toca à noite» (1:22:46). O grupo partiu nessa tarde, por isso a contrapartida do Quasi à Rikka ficou por cumprir. Afeta e-s1-03 e e-s1-18.",
+      "text": "[média] O registo só tem «duas noites grátis» na Carapaça, mas a estadia foi trocada por música: «como combinado, toca à noite» (1:22:46). O grupo partiu nessa tarde, por isso a contrapartida do Quasi à Rikka ficou por cumprir. Afeta e-s1-03 e e-s1-18. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Registar a contrapartida («o Quasi toca à noite») e que ficou por cumprir, com as 2 noites por usar.",
       "because": [
         "transcrição S1 (#81) 1:22:46"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-09",
@@ -2542,12 +2542,12 @@
         "row": "t-decisao-miriade-jevan",
         "col": "s1"
       },
-      "text": "[média] O registo só diz que o Jevan «reconhece o nome e fica a olhar». Na transcrição o Jevan pergunta «Vocês são da Miríade?», o grupo responde «Não» (com um teste de 8) e ele oferece trabalho pago (1:28:06–1:29:19). Afeta e-s1-15 e e-s1-25.",
+      "text": "[média] O registo só diz que o Jevan «reconhece o nome e fica a olhar». Na transcrição o Jevan pergunta «Vocês são da Miríade?», o grupo responde «Não» (com um teste de 8) e ele oferece trabalho pago (1:28:06–1:29:19). Afeta e-s1-15 e e-s1-25. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Registar a pergunta do Jevan, a negação e a oferta de dinheiro.",
       "because": [
         "transcrição S1 (#81) 1:28:38"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-10",
@@ -2557,7 +2557,7 @@
         "row": "c-morgid",
         "col": "s1"
       },
-      "text": "[média] O «facto de mesa (sessão 1): o pai dele fazia parte do clã» citado em c-morgid e c-pc-lucan vem da lousa do Morgid no Cemitério Afundado («Só porque sou lizardfolk agora tenho de pertencer a este?… O meu pai era…», 2:29:06–2:29:50), mas o registo da S1 não tem acontecimento com isto.",
+      "text": "[média] O «facto de mesa (sessão 1): o pai dele fazia parte do clã» citado em c-morgid e c-pc-lucan vem da lousa do Morgid no Cemitério Afundado («Só porque sou lizardfolk agora tenho de pertencer a este?… O meu pai era…», 2:29:06–2:29:50), mas o registo da S1 não tem acontecimento com isto. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Criar um acontecimento `pista` ou `cena` com c-morgid (e c-hesskar-ro) com o texto truncado tal como foi dito.",
       "because": [
         "transcrição S1 (#81) 2:29:06"
@@ -2565,7 +2565,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-11",
@@ -2590,12 +2590,12 @@
         "row": "c-alberto-gnomis",
         "col": "s1"
       },
-      "text": "[média] A ficha c-litcha-das-cinzas diz que ela recusou fazer poções à pressa, mas na transcrição quem responde «precisava de estudar melhor o que tenho aqui… algumas horas» é o Alberto, a quem o grupo perguntou (2:08:00–2:08:58). Afeta mundo/personagens/c-litcha-das-cinzas.md e c-alberto-gnomis.md.",
+      "text": "[média] A ficha c-litcha-das-cinzas diz que ela recusou fazer poções à pressa, mas na transcrição quem responde «precisava de estudar melhor o que tenho aqui… algumas horas» é o Alberto, a quem o grupo perguntou (2:08:00–2:08:58). Afeta mundo/personagens/c-litcha-das-cinzas.md e c-alberto-gnomis.md. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Passar a frase da ficha da Litcha para a ficha do Alberto.",
       "because": [
         "transcrição S1 (#81) 2:08:00"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-13",
@@ -2605,12 +2605,12 @@
         "row": "t-relogio-terceira-vez",
         "col": "s1"
       },
-      "text": "[média] O corpo e o resumo dizem «Partida… início da tarde» e chegada ao entardecer, mas o DM corrigiu à mesa: «vamos considerar que é um dia inteiro» (2:16:03) e «ainda estão de manhã» (2:17:56); os três d12 são manhã, tarde e entardecer. Afeta o passo 9 do corpo e a contagem de dias do relógio.",
+      "text": "[média] O corpo e o resumo dizem «Partida… início da tarde» e chegada ao entardecer, mas o DM corrigiu à mesa: «vamos considerar que é um dia inteiro» (2:16:03) e «ainda estão de manhã» (2:17:56); os três d12 são manhã, tarde e entardecer. Afeta o passo 9 do corpo e a contagem de dias do relógio. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «saída ao meio-dia, contada como um dia inteiro de viagem (10 hexágonos)» e rever a contagem de dias.",
       "because": [
         "transcrição S1 (#81) 2:16:03"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-14",
@@ -2620,12 +2620,12 @@
         "row": "c-pc-lucan",
         "col": "s1"
       },
-      "text": "[média] O corpo do registo da S1 e o resumo ainda dizem «Fala Comum, Abissal e Halfling» (Lucan) e «Tem thieves' cant e alaúdo» (Quasi), contra as decisões 2026-10-07 #6 e #21; também «que os PCs não sabem ler» (lousa do Morgid) já não se aplica (#4). Afeta a secção «Apresentação das personagens» e o resumo da Drive.",
+      "text": "[média] O corpo do registo da S1 e o resumo ainda dizem «Fala Comum, Abissal e Halfling» (Lucan) e «Tem thieves' cant e alaúdo» (Quasi), contra as decisões 2026-10-07 #6 e #21; também «que os PCs não sabem ler» (lousa do Morgid) já não se aplica (#4). Afeta a secção «Apresentação das personagens» e o resumo da Drive. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Aplicar as decisões (Lucan: Comum, Halfling e Thieves' Cant; Quasi sem thieves' cant) ou pôr «[substituído: decisão 2026-10-07 #6/#21]».",
       "because": [
         "transcrição S1 (#81)"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-15",
@@ -2635,12 +2635,12 @@
         "row": "c-lizardfolk-do-ossario",
         "col": "s1"
       },
-      "text": "[baixa] O registo da S1 (e-s1-12, ondeParou, passo 10) fala de arcos e flechas, fiel à mesa (2:22:29, 2:34:30), mas o DM fez retcon na S2 (javelins, sem arcos) e a ficha dos lizardfolk já o diz; a S1 não tem nota do retcon.",
+      "text": "[baixa] O registo da S1 (e-s1-12, ondeParou, passo 10) fala de arcos e flechas, fiel à mesa (2:22:29, 2:34:30), mas o DM fez retcon na S2 (javelins, sem arcos) e a ficha dos lizardfolk já o diz; a S1 não tem nota do retcon. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar «(retcon S2: javelins, não flechas)» ao e-s1-12, ao ondeParou e ao corpo.",
       "because": [
         "transcrição S1 (#81) 2:34:30"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-16",
@@ -2650,12 +2650,12 @@
         "row": "c-skra-sorsk",
         "col": "s1"
       },
-      "text": "[baixa] O registo diz «Quasi lança Dissonant Whispers (nat 20, 5 de dano)», que parece um 20 do Quasi; na transcrição o 20 natural é do Skr'a na resistência e leva metade, «5 de dano» (2:33:59–2:34:33). c-skra-sorsk repete a forma ambígua.",
+      "text": "[baixa] O registo diz «Quasi lança Dissonant Whispers (nat 20, 5 de dano)», que parece um 20 do Quasi; na transcrição o 20 natural é do Skr'a na resistência e leva metade, «5 de dano» (2:33:59–2:34:33). c-skra-sorsk repete a forma ambígua. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «o Skr'a passa a resistência com 20 natural e leva metade (5)».",
       "because": [
         "transcrição S1 (#81) 2:33:59"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-17",
@@ -2665,12 +2665,12 @@
         "row": "c-morgid",
         "col": "s1"
       },
-      "text": "[baixa] O corpo e as fichas c-morgid e c-lizardfolk-do-ossario dizem que discutem «em dracónico», mas à mesa o DM só diz «uma língua… sibilante; não percebes nenhuma palavra» (2:24:20). Que é dracónico é conhecimento do DM.",
+      "text": "[baixa] O corpo e as fichas c-morgid e c-lizardfolk-do-ossario dizem que discutem «em dracónico», mas à mesa o DM só diz «uma língua… sibilante; não percebes nenhuma palavra» (2:24:20). Que é dracónico é conhecimento do DM. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «numa língua sibilante (dracónico, DM)».",
       "because": [
         "transcrição S1 (#81) 2:24:20"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-18",
@@ -2680,12 +2680,12 @@
         "row": "c-litcha-das-cinzas",
         "col": "s1"
       },
-      "text": "[baixa] «Litcha das Cinzas» e «Três-Dentes» nunca se dizem à mesa (a Rikka é só «Rica/Rika», 1:18:00), mas o e-s1-07 e o corpo dão-nos como ditos; ao contrário, o DM nomeou os guardas do salão («o Felderon, o Cira», 1:34:55, ASR de Velran e Ossyra) e as fichas deles só dizem «Notas do DM».",
+      "text": "[baixa] «Litcha das Cinzas» e «Três-Dentes» nunca se dizem à mesa (a Rikka é só «Rica/Rika», 1:18:00), mas o e-s1-07 e o corpo dão-nos como ditos; ao contrário, o DM nomeou os guardas do salão («o Felderon, o Cira», 1:34:55, ASR de Velran e Ossyra) e as fichas deles só dizem «Notas do DM». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Marcar «nome do DM, não dito» na Litcha e na Rikka e «nome dito à mesa (S1)» em c-velran-thumaz e c-ossyra-mirimm.",
       "because": [
         "transcrição S1 (#81) 1:34:55"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-19",
@@ -2725,12 +2725,12 @@
         "row": "f-grupo",
         "col": "s1"
       },
-      "text": "[baixa] O resumo da Drive diz «Xhorhas» e «baptizado» onde o registo e o glossário dizem «Jorhas» e «batizado»; cita «Mudskippers» e «Guardiões do Alberto» que o e-s1-29 não lista; e as notas do registo apontam para docs/sessoes/sessao-01-2026-09-02.md, que não existe.",
+      "text": "[baixa] O resumo da Drive diz «Xhorhas» e «baptizado» onde o registo e o glossário dizem «Jorhas» e «batizado»; cita «Mudskippers» e «Guardiões do Alberto» que o e-s1-29 não lista; e as notas do registo apontam para docs/sessoes/sessao-01-2026-09-02.md, que não existe. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Uniformizar o resumo («Jorhas») e corrigir ou retirar o caminho do resumo nas `notas` do registo.",
       "because": [
         "transcrição S1 (#81)"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-22",
@@ -2740,12 +2740,12 @@
         "row": "c-buhfal",
         "col": "s1"
       },
-      "text": "[baixa] A ficha c-buhfal diz que o Lucan levou um corno do banquete, mas na transcrição bebeu-o: «pego um dos cálices/cornos… bebo tudo. Saúde.» (1:47:10).",
+      "text": "[baixa] A ficha c-buhfal diz que o Lucan levou um corno do banquete, mas na transcrição bebeu-o: «pego um dos cálices/cornos… bebo tudo. Saúde.» (1:47:10). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «bebeu de um corno do banquete».",
       "because": [
         "transcrição S1 (#81) 1:47:10"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-01",
@@ -2755,7 +2755,7 @@
         "row": "i-adaga-drow",
         "col": "s2"
       },
-      "text": "[alta] O e-s2-03 tem i-adaga-drow em `envolve`, mas a adaga que o Alberto atira ao Skr'a é a sua adaga enferrujada («esta Rusty Dagger», 2:28:18); a adaga drow só aparece na S3, no altar. A Grelha mostra assim um acontecimento falso da S2 num item com segredo. Afeta registo/sessoes/s02-2026-09-09.md (e-s2-03).",
+      "text": "[alta] O e-s2-03 tem i-adaga-drow em `envolve`, mas a adaga que o Alberto atira ao Skr'a é a sua adaga enferrujada («esta Rusty Dagger», 2:28:18); a adaga drow só aparece na S3, no altar. A Grelha mostra assim um acontecimento falso da S2 num item com segredo. Afeta registo/sessoes/s02-2026-09-09.md (e-s2-03). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Tirar i-adaga-drow do `envolve` do e-s2-03 e deixar c-alberto-gnomis e c-skra-sorsk.",
       "because": [
         "transcrição S2 (#83) 2:28:18"
@@ -2763,7 +2763,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-02",
@@ -2773,7 +2773,7 @@
         "row": "c-skra-sorsk",
         "col": "s2"
       },
-      "text": "[média] A secção «Segredo» de c-skra-sorsk diz «o grupo matou um rei na sessão 1», mas morreu na S2 («He's dead», 2:32:49), como dizem a decisão #2 e c-pc-lucan.",
+      "text": "[média] A secção «Segredo» de c-skra-sorsk diz «o grupo matou um rei na sessão 1», mas morreu na S2 («He's dead», 2:32:49), como dizem a decisão #2 e c-pc-lucan. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Trocar «sessão 1» por «sessão 2» no Segredo de c-skra-sorsk.",
       "because": [
         "transcrição S2 (#83) 2:32:49"
@@ -2781,7 +2781,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-03",
@@ -2791,12 +2791,12 @@
         "row": "c-pc-lucan",
         "col": "s2"
       },
-      "text": "[média] c-pc-lucan diz «A cena do santuário (sessão 2…)», mas a S2 é só combate e acaba antes do saque («Podemos acabar aqui», 3:00:14); o altar foi jogado na S3. Afeta mundo/personagens/c-pc-lucan.md.",
+      "text": "[média] c-pc-lucan diz «A cena do santuário (sessão 2…)», mas a S2 é só combate e acaba antes do saque («Podemos acabar aqui», 3:00:14); o altar foi jogado na S3. Afeta mundo/personagens/c-pc-lucan.md. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «sessão 3 (#84)» ou retirar o número.",
       "because": [
         "transcrição S2 (#83) 3:00:14"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-04",
@@ -2806,12 +2806,12 @@
         "row": "c-pc-isco",
         "col": "s2"
       },
-      "text": "[média] c-pc-isco diz que o Isco «quando falha morde a língua e leva 3», mas na transcrição os 3 de dano são o custo de ativar a descarga como bonus action, antes do ataque (2:33:29–2:34:43). Afeta mundo/personagens/c-pc-isco.md.",
+      "text": "[média] c-pc-isco diz que o Isco «quando falha morde a língua e leva 3», mas na transcrição os 3 de dano são o custo de ativar a descarga como bonus action, antes do ataque (2:33:29–2:34:43). Afeta mundo/personagens/c-pc-isco.md. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «ao ativá-la (bonus action) morde a língua e leva 3; o ataque seguinte soma dano elétrico».",
       "because": [
         "transcrição S2 (#83) 2:33:29"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-05",
@@ -2821,7 +2821,7 @@
         "row": "t-teoria-sessinek",
         "col": "s2"
       },
-      "text": "[média] O e-s2-10 diz «É um demon lord, não um deus: o tanar'ri que os lizardfolk veneram», mas à mesa só se disse que não está nas listas de divindades e o DM respondeu «vai estar na terceira caixa» (0:12:51–0:13:29); nunca se ouve «demon lord» nem «tanar'ri». Num acontecimento `consequencia` lê-se como conhecimento dos PCs.",
+      "text": "[média] O e-s2-10 diz «É um demon lord, não um deus: o tanar'ri que os lizardfolk veneram», mas à mesa só se disse que não está nas listas de divindades e o DM respondeu «vai estar na terceira caixa» (0:12:51–0:13:29); nunca se ouve «demon lord» nem «tanar'ri». Num acontecimento `consequencia` lê-se como conhecimento dos PCs. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Deixar no e-s2-10 só o que se passou à mesa e pôr a natureza de Sess'inek como «(DM: …)».",
       "because": [
         "transcrição S2 (#83) 0:12:51"
@@ -2829,7 +2829,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-06",
@@ -2839,7 +2839,7 @@
         "row": "c-pc-lucan",
         "col": "s2"
       },
-      "text": "[média] Falta no e-s2-08 e em c-pc-lucan que a cauda da Rage é «estilo de Lizard Folk» (1:19:08), vista pelos lizardfolk de Sess'inek e pelo xamã; importa porque a corte trata Baeshra como heresia.",
+      "text": "[média] Falta no e-s2-08 e em c-pc-lucan que a cauda da Rage é «estilo de Lizard Folk» (1:19:08), vista pelos lizardfolk de Sess'inek e pelo xamã; importa porque a corte trata Baeshra como heresia. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar «cauda ao estilo lizardfolk, vista pelos lizardfolk do ossário» ao e-s2-08 e a c-pc-lucan.",
       "because": [
         "transcrição S2 (#83) 1:19:08"
@@ -2847,7 +2847,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-07",
@@ -2857,12 +2857,12 @@
         "row": "c-lizardfolk-do-ossario",
         "col": "s2"
       },
-      "text": "[média] O resumo da Drive diz que três lizardfolk fugiram e as `notas` do registo da S2 também; o cânone (e-s2-05) e a transcrição dão quatro sobreviventes, um que mergulhou no início e três na retirada («Os outros três restantes… disengage», 2:59:15).",
+      "text": "[média] O resumo da Drive diz que três lizardfolk fugiram e as `notas` do registo da S2 também; o cânone (e-s2-05) e a transcrição dão quatro sobreviventes, um que mergulhou no início e três na retirada («Os outros três restantes… disengage», 2:59:15). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "No resumo da Drive e nas notas do s02: «quatro sobreviveram (um mergulhou no início, três na retirada)».",
       "because": [
         "transcrição S2 (#83) 2:59:15"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-08",
@@ -2872,12 +2872,12 @@
         "row": "c-pc-lucan",
         "col": "s2"
       },
-      "text": "[baixa] c-pc-lucan dá à cauda «2d8+4 piercing», mas o 2d8 foi um crítico («primeira crit da sessão», 1:31:23; «Então 2d8 mais 4», 1:31:52); a cauda do Path of the Beast é 1d8.",
+      "text": "[baixa] c-pc-lucan dá à cauda «2d8+4 piercing», mas o 2d8 foi um crítico («primeira crit da sessão», 1:31:23; «Então 2d8 mais 4», 1:31:52); a cauda do Path of the Beast é 1d8. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «1d8 + For + Rage (2d8 no crítico)».",
       "because": [
         "transcrição S2 (#83) 1:31:52"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-09",
@@ -2887,12 +2887,12 @@
         "row": "f-grupo",
         "col": "s2"
       },
-      "text": "[baixa] Os dois resumos dão a iniciativa «Morgid 20, Skr'a 17, Isco 12, Quasi 10, Alberto 10, Lucan 9», mas a ordem jogada foi Morgid, Alberto, Isco, Quasi, Lucan, lizardfolk e Skr'a por último; o 17 parece ser do Alberto (1:02:46).",
+      "text": "[baixa] Os dois resumos dão a iniciativa «Morgid 20, Skr'a 17, Isco 12, Quasi 10, Alberto 10, Lucan 9», mas a ordem jogada foi Morgid, Alberto, Isco, Quasi, Lucan, lizardfolk e Skr'a por último; o 17 parece ser do Alberto (1:02:46). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Pôr a ordem jogada na «Cronologia» 2 dos resumos e marcar os valores como incertos.",
       "because": [
         "transcrição S2 (#83) 1:02:46"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-10",
@@ -2902,12 +2902,12 @@
         "row": "f-grupo",
         "col": "s2"
       },
-      "text": "[baixa] Os resumos têm detalhes de combate errados: o ataque de 1:45 foi sem Reckless Attack; os golpes «3, 8, 5, 7, 6, 4, 6» ao Lucan foram numa só volta (2:43:02–2:46:36); e o combate não acabou «por volta das 23h30» (o DM diz «são 11h30» a meio, 2:41:29).",
+      "text": "[baixa] Os resumos têm detalhes de combate errados: o ataque de 1:45 foi sem Reckless Attack; os golpes «3, 8, 5, 7, 6, 4, 6» ao Lucan foram numa só volta (2:43:02–2:46:36); e o combate não acabou «por volta das 23h30» (o DM diz «são 11h30» a meio, 2:41:29). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir os três pormenores nos dois resumos.",
       "because": [
         "transcrição S2 (#83) 2:41:29"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-11",
@@ -2917,12 +2917,12 @@
         "row": "c-pc-quasi",
         "col": "s2"
       },
-      "text": "[baixa] Os resumos não referem os dois Silvery Barbs do Quasi: o primeiro transforma um 20 natural contra o Lucan em 13 (1:56:42–1:59:06), o segundo não resulta contra a cobra (2:14:29); a contagem de slots em «Recursos do Quasi» não fecha.",
+      "text": "[baixa] Os resumos não referem os dois Silvery Barbs do Quasi: o primeiro transforma um 20 natural contra o Lucan em 13 (1:56:42–1:59:06), o segundo não resulta contra a cobra (2:14:29); a contagem de slots em «Recursos do Quasi» não fecha. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar os dois Silvery Barbs aos resumos e rever a contagem de slots.",
       "because": [
         "transcrição S2 (#83) 1:56:42"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-12",
@@ -2932,12 +2932,12 @@
         "row": "c-alberto-gnomis",
         "col": "s2"
       },
-      "text": "[baixa] Falta no registo da S2 o efeito de posse da adaga do Alberto, cravada na perna do Skr'a (2:28:46), e a fala do Skr'a «Sess'inek aprecia o vosso contributo» (0:56:02), que volta a dizer o nome em jogo.",
+      "text": "[baixa] Falta no registo da S2 o efeito de posse da adaga do Alberto, cravada na perna do Skr'a (2:28:46), e a fala do Skr'a «Sess'inek aprecia o vosso contributo» (0:56:02), que volta a dizer o nome em jogo. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar um acontecimento (ou nota) com a perda da adaga e a fala do Skr'a.",
       "because": [
         "transcrição S2 (#83) 2:28:46"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-13",
@@ -2947,12 +2947,12 @@
         "row": "c-pc-quasi",
         "col": "s2"
       },
-      "text": "[baixa] O e-s2-02 diz «Quebra a concentração do Skr'a com Vicious Mockery; fica a 5 PV», misturando dois momentos: o Vicious Mockery é da ronda 1 e os 5 PV vêm das cobras (2:15:47); depois do Healing Word fica a 8 (2:37:23).",
+      "text": "[baixa] O e-s2-02 diz «Quebra a concentração do Skr'a com Vicious Mockery; fica a 5 PV», misturando dois momentos: o Vicious Mockery é da ronda 1 e os 5 PV vêm das cobras (2:15:47); depois do Healing Word fica a 8 (2:37:23). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «…; desce a 5 PV com as cobras e cura-se para 8».",
       "because": [
         "transcrição S2 (#83) 2:15:47"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-14",
@@ -2962,12 +2962,12 @@
         "row": "c-lizardfolk-do-ossario",
         "col": "s2"
       },
-      "text": "[baixa] Na S2 o DM corrige à mesa: «eu vou ter de retcon nisso. Porque eles não usam arcos» (0:53:41), mas o registo da S1 (e-s1-12 e corpo) ainda tem arcos e flechas.",
+      "text": "[baixa] Na S2 o DM corrige à mesa: «eu vou ter de retcon nisso. Porque eles não usam arcos» (0:53:41), mas o registo da S1 (e-s1-12 e corpo) ainda tem arcos e flechas. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Anotar «(retcon na S2: javelins, não arcos)» no e-s1-12 e no corpo da S1.",
       "because": [
         "transcrição S2 (#83) 0:53:41"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-15",
@@ -2977,7 +2977,7 @@
         "row": "t-teoria-sessinek",
         "col": "s2"
       },
-      "text": "[baixa] c-sessinek diz «Sess'inek continua sem nome à mesa», mas na S2 os jogadores discutem o nome (0:11:57–0:13:58) e o Skr'a di-lo em jogo (0:56:02); o que falta é ligá-lo à corte e ao trono.",
+      "text": "[baixa] c-sessinek diz «Sess'inek continua sem nome à mesa», mas na S2 os jogadores discutem o nome (0:11:57–0:13:58) e o Skr'a di-lo em jogo (0:56:02); o que falta é ligá-lo à corte e ao trono. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «Sess'inek nomeado como deus deles, mas nunca ligado à corte à mesa».",
       "because": [
         "transcrição S2 (#83) 0:56:02"
@@ -2985,7 +2985,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-01",
@@ -3091,7 +3091,7 @@
         "row": "c-skra-sorsk",
         "col": "s3"
       },
-      "text": "[média] O Segredo de c-skra-sorsk diz que o grupo matou o rei «na sessão 1», contra o Cânone 9 da S3, o e-s2-04, l-sunken-boneyard e c-pc-lucan, que dizem sessão 2.",
+      "text": "[média] O Segredo de c-skra-sorsk diz que o grupo matou o rei «na sessão 1», contra o Cânone 9 da S3, o e-s2-04, l-sunken-boneyard e c-pc-lucan, que dizem sessão 2. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Trocar para «sessão 2».",
       "because": [
         "transcrição S3 (#84)"
@@ -3099,7 +3099,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-08",

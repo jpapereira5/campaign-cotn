@@ -169,7 +169,7 @@ combatentes:
     - A cauda prende-o e o Lucan morde-lhe o pescoço; sabe a cinza molhada. A fome não passa.
     - Arranca-lhe a cabeça com as mãos e atira-a para longe, na direção da pedra.
   - nome: Cauda
-    mecanica: Alcance 3 m, 2d8+4 perfurante (ficha)
+    mecanica: Alcance 3 m, 1d8+4 perfurante (2d8+4 no crítico)
     falha:
     - A cauda chicoteia e corta juncos em vez de carne.
     - Os espigões riscam a água a um palmo dele.
@@ -246,7 +246,7 @@ combatentes:
     - Morde e não larga até a faísca acabar; quando abre a boca, não há nada para largar.
     - 'Pisa-o para debaixo de água e fica em cima até as bolhas pararem. Não há bolhas: não respira.'
   - nome: Mordida elétrica
-    mecanica: 14 de dano num acerto; ao falhar morde a língua (3 de dano a si próprio)
+    mecanica: ao ativá-la (ação bónus) morde a língua e leva 3; o ataque seguinte soma dano elétrico (14 de dano num acerto)
     falha:
     - Os dentes fecham-se no ar e apanham a tua própria língua; sabes a cobre.
     - A faísca salta, mas para dentro; o maxilar treme.
