@@ -7,6 +7,7 @@ Este repositório é a fonte de verdade da campanha Call of the Netherdeep do DM
 Os procedimentos de trabalho estão em `.claude/skills/<nome>/SKILL.md` (Markdown simples com cabeçalho `name`/`description`; qualquer ferramenta os pode seguir).
 
 - **Genéricas** (cópia-mãe no repositório `jpapereira5/dnd-skills`; aqui ficam cópias): `decidir`, `arcos`, `capitulo`, `npc`, `local`, `batalha`, `runsheet`, `livro`. Uma mudança a uma delas faz-se primeiro no `dnd-skills` e copia-se para cá.
+- **Uma mudança a uma skill atualiza-a em todo o lado, na mesma conversa:** (1) `jpapereira5/dnd-skills` se for genérica; (2) `.claude/skills/` deste repositório; (3) as skills da conta do claude.ai (proposta de atualização com o SKILL.md completo); (4) a cópia local do repositório na Drive do DM (`campaign-cotn` com `.git`), que só se atualiza com `git pull` no computador dele: se a sessão estiver ligada ao computador, faz-se; senão, diz-se ao DM. Não se editam os ficheiros dessa cópia pela API da Drive.
 - **Só deste projeto** (dependem da Grelha): `preparar`, `fecho`, `vigia`.
 
 ## Para as skills
