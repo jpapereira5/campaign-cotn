@@ -5055,10 +5055,11 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Âmbito da S7: rescaldo e pedra, decisão forte/Bolbara, marcha, noite com a patrulha, chegada ao forte a meio da manhã do dia 5 (7 hexágonos). Material: «Sessão 06 — Preparação: O Olho na Palma v2» (secções 4 a 9) e «Sessão 06 — Extra: O Forte Ventura v2».",
-      "suggestion": "Âmbito da S7: rescaldo e pedra, decisão forte/Bolbara, marcha, noite com a patrulha, chegada ao forte a meio da manhã do dia 5 (7 hexágonos). Material: «Sessão 06 — Preparação: O Olho na Palma v2» (secções 4 a 9) e «Sessão 06 — Extra: O Forte Ventura v2».",
+      "text": "Preparação da S7: «Sessão 07 — Preparação: A Jangada dos Mortos» (Drive, Session Prep). Do rescaldo e da pedra à chegada ao forte, perto do meio-dia do dia 5 (7 hexágonos, mais lentos com os mortos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
+      "suggestion": "Preparação da S7: «Sessão 07 — Preparação: A Jangada dos Mortos» (Drive, Session Prep). Do rescaldo e da pedra à chegada ao forte, perto do meio-dia do dia 5 (7 hexágonos, mais lentos com os mortos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
       "because": [
-        "registo/decisoes.md 2026-10-18 #32"
+        "registo/decisoes.md 2026-10-18 #32",
+        "registo/decisoes.md 2026-10-18 #36"
       ],
       "status": "aberta"
     },
