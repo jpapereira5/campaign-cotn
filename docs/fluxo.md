@@ -53,7 +53,7 @@ Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho» (
 4. **Absorve a camada do DM**: cada entrada tratada passa a `revisao.absorbed` (`"d-…": "<id do acontecimento ou da entidade>"`) ou a `revisao.reviewed`; as notas de revisão respondidas ficam `fechada`. Nunca se apaga nada de `dm.json`: a app é a única que lá escreve.
 5. **Assinala os conflitos** com o cânone e espera pela decisão do DM antes de os escrever; o que depende do DM fica em `grelha/revisao.json` como `pergunta` ou `discrepancia`.
 6. **Valida e grava:** `python3 scripts/normalizar-texto.py`, `npm run validate` e `npm test` limpos; commit e push para `main` (o deploy leva um ou dois minutos).
-7. **Atualiza na Drive** o resumo da sessão (escrito a partir do registo, pasta «Resumo de Sessoes») e as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo), e a data do último fecho, abaixo.
+7. **Atualiza na Drive** o resumo da sessão (escrito a partir do registo, pasta «Resumo de Sessoes»), o documento consolidado de cada PC (pasta `PCs_Claude`, refeito a partir das fichas e dos registos em cada fecho) e as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo), e a data do último fecho, abaixo.
 
 Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e deixa ideias e avisos nas células (`grelha/revisao.json`); durante a edição, o `/vigia` revê cada gravação do DM em tempo real. As regras estão em `.claude/skills/`.
 

@@ -24,7 +24,8 @@ trabalho e os cuidados.
 7. `python3 scripts/normalizar-texto.py`, `npm run validate`, `npm test`; commit por partes (`registo: sessão N`, `mundo: …`, `grelha: absorver N entradas`) e push. Atualiza a data do último fecho em `docs/fluxo.md`.
 8. **Confere antes de gravar:** relê cada acontecimento contra a marca de tempo que cita (quem fez, quem disse, números, ordem). O que a transcrição não sustenta sai ou passa a pergunta.
 9. **Resumo na Drive:** escreve-o a partir do registo já validado (nunca ao contrário), na pasta «Resumo de Sessoes» (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`), como Google Doc criado a partir de Markdown.
-10. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, e se o deploy já está no ar.
+10. **Documentos dos PCs na Drive:** em cada fecho, refaz o documento consolidado de cada PC na pasta `PCs_Claude` (`1ZPbWDbs66jTRJxAZl7VOu332f_mKCCH-`) a partir das fichas `mundo/personagens/c-pc-*.md` e dos registos já validados (inventário, posses, o que sabe, laços, a sessão nova), sem segredos `so-dm` de outros PCs; versão seguinte como Google Doc criado a partir de Markdown, a anterior vai para o lixo.
+11. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, e se o deploy já está no ar.
 
 ## A transcrição
 
