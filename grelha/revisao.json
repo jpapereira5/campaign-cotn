@@ -3496,12 +3496,12 @@
         "row": "t-decisao-livro-escriba",
         "col": "s5"
       },
-      "text": "[alta] O registo e o resumo põem «Estas páginas são contadas. Eles irão saber» na entrega do livro, mas o aviso vem logo depois de o Quasi lhe rasgar a folha com o desenho da máscara (0:51:17–0:52:00) e antes do Command (0:52:24). Falta no cânone que o livro tem uma página arrancada. Afeta s05 (e-s5-11, e-s5-35, e-s5-31, itens 13 e 15), c-damiao-prestes e i-livro-de-registos.",
+      "text": "[alta] O registo e o resumo põem «Estas páginas são contadas. Eles irão saber» na entrega do livro, mas o aviso vem logo depois de o Quasi lhe rasgar a folha com o desenho da máscara (0:51:17–0:52:00) e antes do Command (0:52:24). Falta no cânone que o livro tem uma página arrancada. Afeta s05 (e-s5-11, e-s5-35, e-s5-31, itens 13 e 15), c-damiao-prestes e i-livro-de-registos. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir a ordem e acrescentar «O Quasi rasga-lhe a folha com o desenho dele; o escriba: as páginas são contadas» (posse da folha a confirmar).",
       "because": [
         "transcrição S5 (#88) 0:52:00"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-02",
@@ -3511,12 +3511,12 @@
         "row": "c-damiao-prestes",
         "col": "s5"
       },
-      "text": "[alta] Falta no registo e no resumo que o Quasi perguntou ao escriba, enquanto este escrevia, por «uma goblin velha» (1:02:24) e lhe deu o nome completo, «de Clopin… é com K», que o Damião registou (1:07:19–1:07:41); o grupo fica ligado por escrito à Bolbara num catálogo para o Perestrelo.",
+      "text": "[alta] Falta no registo e no resumo que o Quasi perguntou ao escriba, enquanto este escrevia, por «uma goblin velha» (1:02:24) e lhe deu o nome completo, «de Clopin… é com K», que o Damião registou (1:07:19–1:07:41); o grupo fica ligado por escrito à Bolbara num catálogo para o Perestrelo. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar «O Quasi pergunta pela goblin velha e dá o nome (d'Clopin); o Damião escreve» junto do e-s5-35/e-s5-23.",
       "because": [
         "transcrição S5 (#88) 1:07:19"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-03",
@@ -3526,7 +3526,7 @@
         "row": "t-gatilho-damiao-ve",
         "col": "s5"
       },
-      "text": "[alta] O e-s5-44 marca t-gatilho-damiao-ve como cumprido («o Lucan come uma cobra viva à vista do acampamento»), mas o Damião não aparece na cena e o DM fica no condicional (1:42:05); o «muda de alvo» da ficha não aconteceu. Afeta e-s5-44, e-s5-02 e «Fios novos».",
+      "text": "[alta] O e-s5-44 marca t-gatilho-damiao-ve como cumprido («o Lucan come uma cobra viva à vista do acampamento»), mas o Damião não aparece na cena e o DM fica no condicional (1:42:05); o «muda de alvo» da ficha não aconteceu. Afeta e-s5-44, e-s5-02 e «Fios novos». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Tirar o efeito `cumprido`, ou o DM confirma que o Damião viu e as consequências ficaram adiadas.",
       "because": [
         "transcrição S5 (#88) 1:42:05"
@@ -3534,7 +3534,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-04",
@@ -3544,7 +3544,7 @@
         "row": "r-padre-entrega-bolbara",
         "col": "s5"
       },
-      "text": "[média] O registo põe no livro «ele não a deixa morrer» e «ainda não disse a palavra certa», mas no livro só há «foi capturada, foi levada ao padre Perestrelo e está sob estudo» (0:56:01); as duas frases e a «capela» foram ditas pelo Damião na conversa (1:02:51, 1:03:09). Afeta e-s5-13, e-s5-14, e-s5-47, e-s5-31 e c-bolbara.",
+      "text": "[média] O registo põe no livro «ele não a deixa morrer» e «ainda não disse a palavra certa», mas no livro só há «foi capturada, foi levada ao padre Perestrelo e está sob estudo» (0:56:01); as duas frases e a «capela» foram ditas pelo Damião na conversa (1:02:51, 1:03:09). Afeta e-s5-13, e-s5-14, e-s5-47, e-s5-31 e c-bolbara. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Mudar para «Dito pelo Damião» e deixar no livro só «capturada, levada ao padre, sob estudo».",
       "because": [
         "transcrição S5 (#88) 1:02:51"
@@ -3552,7 +3552,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-05",
@@ -3580,7 +3580,7 @@
         "row": "t-laco-isco-lia",
         "col": "s5"
       },
-      "text": "[média] O e-s5-22 e o Cânone dizem que a Lia sabe que foi o Isco a folgar-lhe as cordas, mas à mesa ela só sente «alguma coisa a mexer nas cordas atrás de ti» e os jogadores admitem que «pode ser um bicho qualquer» (2:10:26–2:10:33).",
+      "text": "[média] O e-s5-22 e o Cânone dizem que a Lia sabe que foi o Isco a folgar-lhe as cordas, mas à mesa ela só sente «alguma coisa a mexer nas cordas atrás de ti» e os jogadores admitem que «pode ser um bicho qualquer» (2:10:26–2:10:33). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «sente as cordas a folgar e mantém a posição; não sabe quem foi».",
       "because": [
         "transcrição S5 (#88) 2:10:33"
@@ -3588,7 +3588,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-07",
@@ -3598,12 +3598,12 @@
         "row": "t-missao-patrulha",
         "col": "s5"
       },
-      "text": "[média] O item 35 diz que o Isco apanha a areia movediça e dá «d12: 5, 9», mas o 5 é o dado de direção; os d12 são 9 (2:28:43), 12 (2:29:10) e 5 (2:30:12), e com o 12 quem repara é o Lucan, perceção passiva 20 (2:29:26–2:29:56).",
+      "text": "[média] O item 35 diz que o Isco apanha a areia movediça e dá «d12: 5, 9», mas o 5 é o dado de direção; os d12 são 9 (2:28:43), 12 (2:29:10) e 5 (2:30:12), e com o 12 quem repara é o Lucan, perceção passiva 20 (2:29:26–2:29:56). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Escrever «d12: 9, 12 (areia movediça, o Lucan dá por ela e contorna), 5».",
       "because": [
         "transcrição S5 (#88) 2:29:26"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-08",
@@ -3613,12 +3613,12 @@
         "row": "t-missao-patrulha",
         "col": "s5"
       },
-      "text": "[média] O registo e o resumo dão 13 contra 15 à navegação do dia 3 (item 21, tabela, Cânone #1, e-s5-30/e-s5-34), mas na transcrição o total parece ser 10 («8 mais quê? 10», 1:21:42–1:22:17); não se ouve 13. O dia 4 (14) bate certo.",
+      "text": "[média] O registo e o resumo dão 13 contra 15 à navegação do dia 3 (item 21, tabela, Cânone #1, e-s5-30/e-s5-34), mas na transcrição o total parece ser 10 («8 mais quê? 10», 1:21:42–1:22:17); não se ouve 13. O dia 4 (14) bate certo. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Confirmar o número com o DM; não fica 13 sem confirmação.",
       "because": [
         "transcrição S5 (#88) 1:22:17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-09",
@@ -3646,12 +3646,12 @@
         "row": "t-decisao-curar-alex",
         "col": "s5"
       },
-      "text": "[média] Falta que, de manhã, o Isco disse ao sargento «ouvi dizer que o Alex já está melhor» e o Corvelo perguntou como sabia o nome e mandou o Elmiro ver (1:14:24–1:14:51); o registo dá a entender que o sargento só soube pelo Elmiro à noite (e-s5-10, e-s5-36).",
+      "text": "[média] Falta que, de manhã, o Isco disse ao sargento «ouvi dizer que o Alex já está melhor» e o Corvelo perguntou como sabia o nome e mandou o Elmiro ver (1:14:24–1:14:51); o registo dá a entender que o sargento só soube pelo Elmiro à noite (e-s5-10, e-s5-36). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar um acontecimento no dia 3 de manhã e rever o e-s5-10.",
       "because": [
         "transcrição S5 (#88) 1:14:24"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-11",
@@ -3661,12 +3661,12 @@
         "row": "c-corvelo",
         "col": "s5"
       },
-      "text": "[média] Falta que, sob Suggestion, o Quasi disse ao Corvelo «temos o mesmo destino» e este perguntou «Quem é que estás à procura?» (1:57:17–1:57:40); faltam também «Importa-me é fazer esta gente toda chegar a casa» (1:55:47) e que o Quasi deixou «a estrada» há muito (1:56:41).",
+      "text": "[média] Falta que, sob Suggestion, o Quasi disse ao Corvelo «temos o mesmo destino» e este perguntou «Quem é que estás à procura?» (1:57:17–1:57:40); faltam também «Importa-me é fazer esta gente toda chegar a casa» (1:55:47) e que o Quasi deixou «a estrada» há muito (1:56:41). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar um acontecimento (ou juntar ao e-s5-04) nos itens 28–29.",
       "because": [
         "transcrição S5 (#88) 1:57:17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-12",
@@ -3676,12 +3676,12 @@
         "row": "c-alberto-gnomis",
         "col": "s5"
       },
-      "text": "[média] O item 20, o Loot e c-alberto-gnomis dizem que o Isco deu ao Alberto o peixe mais estranho, mas foi para o Lucan («Para ti escolhi o peixe mais estranho… cru», 1:19:20); a carapaça parece ser o Alberto posto numa carapaça e entregue ao Quasi (1:18:48–1:19:09).",
+      "text": "[média] O item 20, o Loot e c-alberto-gnomis dizem que o Isco deu ao Alberto o peixe mais estranho, mas foi para o Lucan («Para ti escolhi o peixe mais estranho… cru», 1:19:20); a carapaça parece ser o Alberto posto numa carapaça e entregue ao Quasi (1:18:48–1:19:09). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Peixe para o Lucan; a carapaça fica «por confirmar».",
       "because": [
         "transcrição S5 (#88) 1:19:20"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-13",
@@ -3691,12 +3691,12 @@
         "row": "t-laco-lucan-isco",
         "col": "s5"
       },
-      "text": "[média] O e-s5-21 diz «Em halfling…» e o Cânone confirma o halfling à frente dos soldados, mas a Renata diz «eu digo isto em common» (2:04:20); e a frase vem antes do rewind da Sousela (2:15:55), por isso não reage ao desaparecimento.",
+      "text": "[média] O e-s5-21 diz «Em halfling…» e o Cânone confirma o halfling à frente dos soldados, mas a Renata diz «eu digo isto em common» (2:04:20); e a frase vem antes do rewind da Sousela (2:15:55), por isso não reage ao desaparecimento. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir a língua (ou marcar como misturada) e a ordem no e-s5-21, item 30 e Cânone.",
       "because": [
         "transcrição S5 (#88) 2:04:20"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-14",
@@ -3706,12 +3706,12 @@
         "row": "i-adaga-drow",
         "col": "s5"
       },
-      "text": "[média] i-adaga-drow, c-pc-lucan (l. 161) e c-pc-quasi dizem que o Lucan tem a adaga porque a tirou ao Quasi a dormir, mas devolveu-a (20 natural, 0:20:19) e o Quasi deu-lha de manhã: «Toma… Fica com ela» (1:19:39).",
+      "text": "[média] i-adaga-drow, c-pc-lucan (l. 161) e c-pc-quasi dizem que o Lucan tem a adaga porque a tirou ao Quasi a dormir, mas devolveu-a (20 natural, 0:20:19) e o Quasi deu-lha de manhã: «Toma… Fica com ela» (1:19:39). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir para «devolveu-a; o Quasi deu-lha de livre vontade na manhã do dia 3».",
       "because": [
         "transcrição S5 (#88) 1:19:39"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-15",
@@ -3721,12 +3721,12 @@
         "row": "i-mapa-do-morgid",
         "col": "s5"
       },
-      "text": "[média] Falta a luneta que o Isco dá («Já agora dou-te Spyglass», 1:16:12) e usa na navegação; e o Lucan usa o mapa do Morgid (1:21:21) sem efeito de posse, que continua no Isco desde o e-s4-17.",
+      "text": "[média] Falta a luneta que o Isco dá («Já agora dou-te Spyglass», 1:16:12) e usa na navegação; e o Lucan usa o mapa do Morgid (1:21:21) sem efeito de posse, que continua no Isco desde o e-s4-17. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar a luneta e `posse: i-mapa-do-morgid → c-pc-lucan`, se o DM confirmar.",
       "because": [
         "transcrição S5 (#88) 1:16:12"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-16",
@@ -3736,7 +3736,7 @@
         "row": "c-lampreia",
         "col": "s5"
       },
-      "text": "[baixa] A decisão 2026-10-13 #1 explica onde esteve a Sousela e o e-s5-09 está fechado, mas o texto do e-s5-09, o corpo, o Cânone («Por revelar») e c-lampreia ainda dizem «sem explicação».",
+      "text": "[baixa] A decisão 2026-10-13 #1 explica onde esteve a Sousela e o e-s5-09 está fechado, mas o texto do e-s5-09, o corpo, o Cânone («Por revelar») e c-lampreia ainda dizem «sem explicação». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar a decisão à ficha («só DM») e tirar do «Por revelar».",
       "because": [
         "transcrição S5 (#88) 2:15:55"
@@ -3744,7 +3744,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-17",
@@ -3754,12 +3754,12 @@
         "row": "c-elmiro-trigueiro",
         "col": "s5"
       },
-      "text": "[baixa] c-elmiro-trigueiro ainda diz «febre do pântano» e «Ouvi o padre dizer que ela ainda não disse a palavra certa», da preparação, que a mesa contradisse (o doente é o Alex).",
+      "text": "[baixa] c-elmiro-trigueiro ainda diz «febre do pântano» e «Ouvi o padre dizer que ela ainda não disse a palavra certa», da preparação, que a mesa contradisse (o doente é o Alex). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Assinalar as duas linhas como preparação substituída.",
       "because": [
         "transcrição S5 (#88)"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-18",
@@ -3784,12 +3784,12 @@
         "row": "r-tempestade-truche",
         "col": "s5"
       },
-      "text": "[baixa] O item 4 lê-se como se o Lucan tivesse cheirado a chuva, mas foi o Isco: o cheiro vem «de onde o teu irmão te apontou o relâmpago» (0:22:44) e o Isco diz «cheirei a chuva» (0:48:12).",
+      "text": "[baixa] O item 4 lê-se como se o Lucan tivesse cheirado a chuva, mas foi o Isco: o cheiro vem «de onde o teu irmão te apontou o relâmpago» (0:22:44) e o Isco diz «cheirei a chuva» (0:48:12). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Atribuir o cheiro a chuva ao Isco no item 4 e no resumo.",
       "because": [
         "transcrição S5 (#88) 0:22:44"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-20",
@@ -3817,12 +3817,12 @@
         "row": "t-semente-adaga-lia",
         "col": "s5"
       },
-      "text": "[baixa] «Só duas pessoas precisam de rações» é do fim do dia 3 (1:36:15), não do pequeno-almoço (item 18); falta o Lucan dizer ao sargento que ainda estão a um dia (1:34:57–1:35:35); e na segunda vez que pega na adaga a fome não é referida (1:19:48), contra o e-s5-52.",
+      "text": "[baixa] «Só duas pessoas precisam de rações» é do fim do dia 3 (1:36:15), não do pequeno-almoço (item 18); falta o Lucan dizer ao sargento que ainda estão a um dia (1:34:57–1:35:35); e na segunda vez que pega na adaga a fome não é referida (1:19:48), contra o e-s5-52. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Ajustar os itens 18 e 23 e o e-s5-52.",
       "because": [
         "transcrição S5 (#88) 1:19:48"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-22",
@@ -3832,12 +3832,12 @@
         "row": "f-grupo",
         "col": "s5"
       },
-      "text": "[baixa] O registo e o resumo remetem para docs/canone.md e docs/sessoes/sessao-05-2026-10-07.md, que não existem (o Cânone está no fim do próprio registo).",
+      "text": "[baixa] O registo e o resumo remetem para docs/canone.md e docs/sessoes/sessao-05-2026-10-07.md, que não existem (o Cânone está no fim do próprio registo). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Apontar para o próprio registo.",
       "because": [
         "transcrição S5 (#88)"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-01",
@@ -3916,12 +3916,12 @@
         "row": "c-pc-quasi",
         "col": "s6"
       },
-      "text": "[média] O resumo põe no Lucan as garradas (4, 6, 7, 8) e o CON save 19 contra a paralisia, mas foram do Quasi (CA 13, save do Pedro Silva, 1:54:29; mais 8 e CON 12, 2:21:53–2:23:42); o Lucan levou uma garrada de 6 e os 7 foram da Lia. O Quasi pode ter acabado a 2 PV (2:51:21).",
+      "text": "[média] O resumo põe no Lucan as garradas (4, 6, 7, 8) e o CON save 19 contra a paralisia, mas foram do Quasi (CA 13, save do Pedro Silva, 1:54:29; mais 8 e CON 12, 2:21:53–2:23:42); o Lucan levou uma garrada de 6 e os 7 foram da Lia. O Quasi pode ter acabado a 2 PV (2:51:21). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Corrigir a cronologia e a tabela de testes no resumo e no registo s06; registar os PV do Quasi (por confirmar).",
       "because": [
         "transcrição S6 (#89) 1:54:29"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-06",
@@ -3949,7 +3949,7 @@
         "row": "i-livro-de-registos",
         "col": "s6"
       },
-      "text": "[média] O corpo do Damião, na água junto ao obelisco, tem a trança branca da Lia, o periapto (abjuração, 0:51:16) e o livro de registos com o esboço da máscara; ninguém lhes mexeu e o resumo só pergunta «quem fica com o livro?».",
+      "text": "[média] O corpo do Damião, na água junto ao obelisco, tem a trança branca da Lia, o periapto (abjuração, 0:51:16) e o livro de registos com o esboço da máscara; ninguém lhes mexeu e o resumo só pergunta «quem fica com o livro?». [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Efeitos de posse «com o corpo do Damião, na água junto ao obelisco» e nota para a S7 (saque do corpo; a Lia a reconhecer a trança).",
       "because": [
         "transcrição S6 (#89) 0:51:16"
@@ -3957,7 +3957,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-08",
@@ -4000,12 +4000,12 @@
         "row": "t-mesa-regras-da-casa",
         "col": "s6"
       },
-      "text": "[média] O DM disse à mesa a regra de insanidade (d10 por evento, máximo 5 pontos de uma vez até aos 10 e 7 dos 10 aos 20, efeitos partilhados só com cada jogador; 0:23:13–0:30:07), mas mesa/regras.md não tem o dado nem os tetos; e ninguém rolou insanidade pelas mortes.",
+      "text": "[média] O DM disse à mesa a regra de insanidade (d10 por evento, máximo 5 pontos de uma vez até aos 10 e 7 dos 10 aos 20, efeitos partilhados só com cada jogador; 0:23:13–0:30:07), mas mesa/regras.md não tem o dado nem os tetos; e ninguém rolou insanidade pelas mortes. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar o dado e os tetos a mesa/regras.md e perguntar ao DM se as mortes do Alex e do Damião dão pontos.",
       "because": [
         "transcrição S6 (#89) 0:23:13"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-11",
@@ -4030,12 +4030,12 @@
         "row": "f-grupo",
         "col": "s6"
       },
-      "text": "[baixa] O resumo dá como ditas frases da preparação: «O sol do meio-dia bate-lhe e não brilha», «PVP continua autorizado», «a abertura quase palavra por palavra», o «Tu sim» «antes de tudo» (veio às 1:16:03) e «Nada disto foi dito em voz alta» (o pano foi dito).",
+      "text": "[baixa] O resumo dá como ditas frases da preparação: «O sol do meio-dia bate-lhe e não brilha», «PVP continua autorizado», «a abertura quase palavra por palavra», o «Tu sim» «antes de tudo» (veio às 1:16:03) e «Nada disto foi dito em voz alta» (o pano foi dito). [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Tirar estas frases do resumo ou dizer que vêm da preparação.",
       "because": [
         "transcrição S6 (#89) 1:16:03"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-13",
@@ -4045,12 +4045,12 @@
         "row": "f-grupo",
         "col": "s6"
       },
-      "text": "[baixa] O resumo conta mal pormenores do combate: «Mata o hobgoblin (8 e depois 10)» foi um só golpe (2:47:11–2:47:33); quatro lacedons foram destruídos e só um fugiu (2:49:02); quem se fecha de costas é a patrulha; o Damião caiu na água, não na lama.",
+      "text": "[baixa] O resumo conta mal pormenores do combate: «Mata o hobgoblin (8 e depois 10)» foi um só golpe (2:47:11–2:47:33); quatro lacedons foram destruídos e só um fugiu (2:49:02); quem se fecha de costas é a patrulha; o Damião caiu na água, não na lama. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Ajustar no registo s06.",
       "because": [
         "transcrição S6 (#89) 2:47:11"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-14",
@@ -4093,12 +4093,12 @@
         "row": "t-laco-isco-elmiro",
         "col": "s6"
       },
-      "text": "[baixa] Faltam no resumo: o Isco anima o Elmiro, que continua parado (2:16:25); o Isco vê inscrições na pedra à distância (1:17:37); o Quasi dá bolachas à Lia antes da mordaça; a Lia diz ao Quasi «Não gosto de pessoas mal-educadas»; o Lucan tem Daylight sem fonte no cânone.",
+      "text": "[baixa] Faltam no resumo: o Isco anima o Elmiro, que continua parado (2:16:25); o Isco vê inscrições na pedra à distância (1:17:37); o Quasi dá bolachas à Lia antes da mordaça; a Lia diz ao Quasi «Não gosto de pessoas mal-educadas»; o Lucan tem Daylight sem fonte no cânone. [aplicada: revisão das transcrições, 2026-10-18]",
       "suggestion": "Acrescentar ao registo s06 e confirmar a origem do Daylight do Lucan.",
       "because": [
         "transcrição S6 (#89) 2:16:25"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p01",
