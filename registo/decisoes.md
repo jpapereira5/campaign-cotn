@@ -207,3 +207,8 @@ Revisão das transcrições, ronda 2: as decisões do DM sobre as notas `n-tr…
 25. **Arrumação do registo:** saem as pistas repetidas no mesmo acontecimento (e-s3-20, e-s5-47, e-s5-49, e-s5-50) e o e-s5-41 («o Bufal não confia»), que não tinha fonte; o e-s2-08 (a primeira Rage) passa de `pista` a `cena`; o «Badalufas» (o Jevan chama assim ao Bufal e pede segredo) e o «o futuro da nossa população depende dela» (Litcha) ficam só nas fichas `c-jevan` e `c-litcha-das-cinzas`; na S1 entra a cena do Alberto posto no chão à frente do xamã como «algo valioso», sem dizer quem o fez, e a ração atirada aos pés do Skr'a fica como parte do *Suggestion* do Quasi.
 
 Ficam em aberto (o DM ainda vê): o Quasi a 2 PV no fim da S6 e a insanidade da Lia (`n-tr6-p07`); as fichas do D&D Beyond (`n-tr1-p07`, `n-tr6-p09`).
+
+26. **O vendedor de Decrépola chama-se Óscar Lume, como no handout entregue aos jogadores.** Substitui «Ossório Lume» no cânone (a id `c-ossorio-lume` fica). Os olhos da esfera bordada («todos diferentes» no handout, «não dá para distinguir» à mesa) não interessam. Origem: fecho da S6 (notas n-f6-01 e n-f6-02).
+27. **É o Isco que guarda o pano do culto.** Completa o #12.
+28. **O Quasi acaba a S6 com 2 PV; ninguém ganha pontos de insanidade pelas mortes do Damião e do Alex.**
+29. **O título da S6 fica por definir.** «Mortos na Água» e «O Triunfo da Nália» foram sugestões da mesa; o registo usa «Título por definir» até o DM escolher.

@@ -25,7 +25,7 @@ origem:
 
 ## Agenda
 
-DM: Sindicato criminoso de Monte Selvagem (EGtW: Port Damali, Costa das Maravilhas). Está a montar um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império: rubídio para oeste, só ouro de volta (o canal da Assembleia). DM (2026-10-01): há um ramal para sul, do norte de Jorhas por Asarius até Decrépola (Rotthold), para o mercado negro e para a célula secreta da Assembleia; lá o recetador é o Ossório Lume. O primeiro lote, antes do canal, chegou a Decrépola por mar, de Marquet. Cliente principal: a Assembleia de Cerebrus; mas vende a quem der mais.
+DM: Sindicato criminoso de Monte Selvagem (EGtW: Port Damali, Costa das Maravilhas). Está a montar um canal de contrabando de rubídio Bazzoxan → Jigau → Urzin → Império: rubídio para oeste, só ouro de volta (o canal da Assembleia). DM (2026-10-01): há um ramal para sul, do norte de Jorhas por Asarius até Decrépola (Rotthold), para o mercado negro e para a célula secreta da Assembleia; lá o recetador é o Óscar Lume. O primeiro lote, antes do canal, chegou a Decrépola por mar, de Marquet. Cliente principal: a Assembleia de Cerebrus; mas vende a quem der mais.
 
 ## Face pública
 

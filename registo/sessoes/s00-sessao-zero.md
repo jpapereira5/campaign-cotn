@@ -99,7 +99,7 @@ Ids na app: `c-pc-quasi`, `c-pc-lucan`, `c-pc-isco` (`docs/ids.md`).
 - Os três têm uma ligação a Ruidus/rubídio (Lua Vermelha, Ruidusborn, aboleto e rubídio): é o fio comum para o Apotheon. A licantropia do Isco e os fantasmas-fera do cemitério do Quasi **não** estão ligados (decisão do DM): rimam, e a mesa vai reparar sozinha.
 - **A caravana do Quasi caça Ruidusborn como alimento do Filho** e o Isco é o único da mesa: em Marquet o Isco é alvo sem saber porquê, e o Quasi é o único que percebe o que está a acontecer.
 - **O Scylla é cena partilhada dos irmãos**: o pai (Lucan), Belmiro tomado (Isco) e a Marisa da Folia podem cruzar-se todos no mar do cap. 2 ou na rota longa de Bazzoxan a Marquet.
-- **Decrépola (Rotthold)**: os irmãos deram lá com o primeiro lote de rubídio; os contactos deles (o recetador Ossório Lume e o Remendo, da tripulação da Marisa) estão no handout. O **Remendo** é o fio para a **Marisa**: conta-lhe que viu a tatuagem do Ruín num homem meio peixe, e ela vai à procura do Isco no mar. O **Vigost**, que estuda o Fritz, é «o velho das catacumbas» de quem o Ossório fala.
+- **Decrépola (Rotthold)**: os irmãos deram lá com o primeiro lote de rubídio; os contactos deles (o recetador Óscar Lume e o Remendo, da tripulação da Marisa) estão no handout. O **Remendo** é o fio para a **Marisa**: conta-lhe que viu a tatuagem do Ruín num homem meio peixe, e ela vai à procura do Isco no mar. O **Vigost**, que estuda o Fritz, é «o velho das catacumbas» de quem o Óscar fala.
 - Yussa Errenis é o patrono declarado dos irmãos (quer só saber o que o rubídio é); o Quasi pode ter trabalhado para a Miríade, que é quem contrabandeia o rubídio que os irmãos investigam.
 
 ## Passo seguinte (depois de fechar o "em aberto")

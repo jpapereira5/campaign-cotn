@@ -2361,8 +2361,8 @@
         "col": "s6"
       },
       "factKind": "pista",
-      "text": "Se os jogadores falarem do Vigost à frente do Fritz (o Lucan e o Isco ouviram o nome ao Ossório, em Decrépola), o Fritz reconhece-o: é a primeira prova de que é (ou foi) do culto de Serratos.",
-      "suggestion": "Se os jogadores falarem do Vigost à frente do Fritz (o Lucan e o Isco ouviram o nome ao Ossório, em Decrépola), o Fritz reconhece-o: é a primeira prova de que é (ou foi) do culto de Serratos.",
+      "text": "Se os jogadores falarem do Vigost à frente do Fritz (o Lucan e o Isco ouviram o nome ao Óscar, em Decrépola), o Fritz reconhece-o: é a primeira prova de que é (ou foi) do culto de Serratos.",
+      "suggestion": "Se os jogadores falarem do Vigost à frente do Fritz (o Lucan e o Isco ouviram o nome ao Óscar, em Decrépola), o Fritz reconhece-o: é a primeira prova de que é (ou foi) do culto de Serratos.",
       "because": [
         "registo/decisoes.md 2026-10-16 #23"
       ],
@@ -3987,7 +3987,7 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "[média] À mesa o DM entrega o pano do culto aos irmãos («esta merda vocês têm convosco. Decidam qual», 0:15:38), mas i-doc-decrepola-memorias e a decisão 2026-10-16 #20 dizem que o Ossório não o vendeu; e o DM diz que não se distingue se os olhos são diferentes (0:22:33), contra «olhos desencontrados». [substituída: decisão 2026-10-18 #12]",
+      "text": "[média] À mesa o DM entrega o pano do culto aos irmãos («esta merda vocês têm convosco. Decidam qual», 0:15:38), mas i-doc-decrepola-memorias e a decisão 2026-10-16 #20 dizem que o Óscar não o vendeu; e o DM diz que não se distingue se os olhos são diferentes (0:22:33), contra «olhos desencontrados». [substituída: decisão 2026-10-18 #12]",
       "suggestion": "Perguntar ao DM se o pano (e o cristal) está com um dos irmãos; se sim, criar o item, corrigir o handout e marcá-lo como entregue na S6.",
       "because": [
         "transcrição S6 (#89) 0:15:38"
@@ -4761,12 +4761,12 @@
         "row": "c-pc-quasi",
         "col": "s6"
       },
-      "text": "PV no fim: o Quasi ficou a 2? Há pontos de insanidade por ver o Alex e o Damião morrer?",
+      "text": "PV no fim: o Quasi ficou a 2? Há pontos de insanidade por ver o Alex e o Damião morrer? [substituída: decisão 2026-10-18 #28]",
       "suggestion": "O Quasi a 2 PV («Eu tenho 2»); insanidade por decidir.",
       "because": [
         "transcrição S6 (#89) 2:51:21"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p08",
@@ -4958,11 +4958,11 @@
         "col": "s7"
       },
       "factKind": "estado",
-      "text": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Ossório não vendeu o pano. Os irmãos ficaram com o pano do culto e o Ossório com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem). [posse aplicada no fecho da S6: e-s6-36, `i-pano-do-culto`; falta a versão da Drive e qual dos irmãos o tem]",
+      "text": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Óscar não vendeu o pano. Os irmãos ficaram com o pano do culto e o Óscar com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem). [posse aplicada no fecho da S6: e-s6-36, `i-pano-do-culto`; falta a versão da Drive e qual dos irmãos o tem] O pano fica com o Isco (decisão 2026-10-18 #27); falta só o handout da Drive.",
       "because": [
         "registo/decisoes.md 2026-10-18 #12"
       ],
-      "suggestion": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Ossório não vendeu o pano. Os irmãos ficaram com o pano do culto e o Ossório com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem).",
+      "suggestion": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Óscar não vendeu o pano. Os irmãos ficaram com o pano do culto e o Óscar com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem).",
       "status": "aberta"
     },
     {
@@ -5008,13 +5008,13 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "[média] O handout entregue na S6, «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep), chama ao tiefling do Mercado Vermelho «Oscar Lume»; o cânone (c-ossorio-lume, i-doc-decrepola-memorias, decisões 2026-10-16) diz «Ossório Lume». O handout também diz que o pano «não o vendeu», sem dizer que o pano ficou com os irmãos (decisão 2026-10-18 #12).",
+      "text": "[média] O handout entregue na S6, «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep), chama ao tiefling do Mercado Vermelho «Oscar Lume»; o cânone (c-ossorio-lume, i-doc-decrepola-memorias, decisões 2026-10-16) diz «Óscar Lume». O handout também diz que o pano «não o vendeu», sem dizer que o pano ficou com os irmãos (decisão 2026-10-18 #12). [substituída: decisão 2026-10-18 #26]",
       "suggestion": "O DM escolhe o nome que fica (o que os jogadores leram ou o do cânone) e se faz uma v4 do handout.",
       "because": [
         "transcrição S6 (#89) 0:08:36",
         "registo/decisoes.md 2026-10-18 #12"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-f6-02",
@@ -5024,12 +5024,12 @@
         "row": "i-pano-do-culto",
         "col": "s6"
       },
-      "text": "[baixa] O handout e i-doc-decrepola-memorias dizem que a esfera bordada tem olhos «todos diferentes uns dos outros»; à mesa o DM disse que é «uma coisa pequenina, bordada. Não dá para distinguir se são diferentes» (S6, 0:22:33).",
+      "text": "[baixa] O handout e i-doc-decrepola-memorias dizem que a esfera bordada tem olhos «todos diferentes uns dos outros»; à mesa o DM disse que é «uma coisa pequenina, bordada. Não dá para distinguir se são diferentes» (S6, 0:22:33). [substituída: decisão 2026-10-18 #26]",
       "suggestion": "Manter os olhos diferentes como verdade do bordado, só que pequenos de mais para se notar a olho nu; ou tirar o «todos diferentes».",
       "because": [
         "transcrição S6 (#89) 0:22:33"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-f6-03",
