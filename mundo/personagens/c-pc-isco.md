@@ -54,6 +54,8 @@ cotn_2026 (ficha do jogador + notas DM na Drive). Pedro Ropio. Blood Hunter 3 (O
 
 Trouxe do Farol Apagado a **Luneta da Alvorada** (`i-luneta-da-alvorada`) e deu-a ao Lucan na manhã do dia 3 (S5) (Decidido pelo DM (2026-10-18)).
 
+Ferramentas: a proficiência em alchemist's supplies da classe (dita à mesa na S1) foi trocada por Cook e cooking supplies (Decidido pelo DM (2026-10-18)).
+
 ## Objetivo
 
 Encontrar uma tripulação a que pertença; pescar aquele Monstro; fazer do irmão o campeão escolhido do deus dele.

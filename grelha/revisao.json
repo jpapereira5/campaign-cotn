@@ -4200,12 +4200,12 @@
         "row": "c-pc-quasi",
         "col": "s1"
       },
-      "text": "Quem tem proficiência em alchemist's supplies? À mesa diz-se «é da classe», o que aponta para o Blood Hunter (Isco), mas c-pc-quasi dá-as ao Quasi; e quem disse «eu também sou alquimista» na bancada da Litcha?",
+      "text": "Quem tem proficiência em alchemist's supplies? À mesa diz-se «é da classe», o que aponta para o Blood Hunter (Isco), mas c-pc-quasi dá-as ao Quasi; e quem disse «eu também sou alquimista» na bancada da Litcha? [substituída: decisão 2026-10-18 #31]",
       "suggestion": "Confirmar nas fichas do D&D Beyond; pela classe, o Isco.",
       "because": [
         "transcrição S1 (#81) 1:08:00"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p08",
