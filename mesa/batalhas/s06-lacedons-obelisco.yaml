@@ -111,9 +111,9 @@ combatentes:
   nome: Tibério (lacedon 3)
   modelo: lacedon
   grupo: lacedons-flancos
-  aspeto: 'Humano: farda imperial rasgada, insígnia da guarnição do Forte Ventura'
+  aspeto: 'Humano: farda imperial rasgada, vermelho imperial, insígnia da guarnição do Forte Ventura (um mocho a segurar espigas de trigo, a mesma do escriba)'
   notas:
-  - 'Guarda da capela, morto na noite do dia 3. O Corvelo reconhece-lhe a cara: «Tibério. Estava de guarda à capela.»'
+  - 'Guarda da capela, morto na noite do dia 3. Na S6 ninguém disse o nome e o Corvelo não o reconheceu em combate; o Isco desfê-lo em cima da jangada e foi o Lucan quem reparou na farda. O Corvelo reconhece-o no rescaldo, no arranque da S7: «Tibério. Estava de guarda à capela.» (Decidido pelo DM (2026-10-18))'
   - Flanco esquerdo; vai ao Elmiro.
 - id: lacedon-4
   nome: Lacedon 4
@@ -135,7 +135,7 @@ combatentes:
   ref: c-pc-lucan
   ca: 15 (17 com escudo)
   resumo: Bárbaro, Caminho da Fera · Renata · deslocamento 10,5 m
-  equipamento: Escudo de carapaça, maço de fémur, o crânio cornudo do altar
+  equipamento: Escudo de carapaça, maço de fémur, a adaga drow +1
   notas:
   - Mortos-vivos comem-se, mas não saciam.
   - 'A Fera a 0 PV: trinca o mais perto, amigo ou inimigo.'
@@ -484,7 +484,7 @@ combatentes:
   resumo: Sargento · grita ordens · Passo Firme (reação, +2 CA)
   equipamento: Sobretudo de couro, machado de abordagem, apito de osso, chave da canga
   notas:
-  - Reconhece o Tibério.
+  - Reconhece o Tibério no rescaldo, não em combate (Decidido pelo DM (2026-10-18)).
   acoes:
   - nome: Machado ×2
     mecanica: +5, 1d8+3
@@ -654,7 +654,7 @@ rondas:
   texto: Os que restam mergulham e vão-se, longe da pedra, todos para o mesmo lado (o da Bolbara).
 rescaldo:
 - As rãs voltam, graves, e depois afinam.
-- 'O Corvelo vira o Tibério com o pé: «Tibério. Estava de guarda à capela.» Primeira pista de que o forte caiu.'
+- 'O Corvelo vira o que resta do Tibério, em cima da jangada: «Tibério. Estava de guarda à capela.» Primeira pista de que o forte caiu. Não se jogou na S6: fica para o arranque da S7 (Decidido pelo DM (2026-10-18)).'
 - Os paralisados acordam ao fim de 1 minuto e lembram-se de tudo.
 - 'O Corvelo à Lia: «Vais tentar fugir?» Se hesitar, o Alex: «Ela salvou-me a vida, sargento. Duas vezes.»'
 - O Elmiro não consegue olhar para ela.

@@ -37,4 +37,4 @@ Lucro sem perguntas.
 
 ## Segredo
 
-Vende rubídio ao Vigost (culto de Serratos) e à célula secreta da Assembleia de Cerebrus em Decrépola, que compra para a Tversky (canon: a Tversky contratava a Miríade para lhe trazer espécimes). O cristal no pano era a encomenda do Vigost: o pano é do culto, que marca o que compra. Viu o Fritz entrar na Colina das Catacumbas mais de uma vez e não o disse aos irmãos, porque não lhe pagaram para isso.
+Vende rubídio ao Vigost (culto de Serratos) e à célula secreta da Assembleia de Cerebrus em Decrépola, que compra para a Tversky (canon: a Tversky contratava a Miríade para lhe trazer espécimes). O cristal no pano era a encomenda do Vigost: o pano é do culto, que marca o que compra. O cristal ficou com ele; o pano ficou com os irmãos Bruma (Decidido pelo DM (2026-10-18)). Viu o Fritz entrar na Colina das Catacumbas mais de uma vez e não o disse aos irmãos, porque não lhe pagaram para isso.

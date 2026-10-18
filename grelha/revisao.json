@@ -2285,10 +2285,11 @@
         "col": "s6"
       },
       "factKind": "pista",
-      "text": "As notas do Perestrelo (lidas pelo Damião) são um interrogatório sobre Urzin: onde fica, quem a protege, as tartarugas, com mapas riscados a cada morte. Apontam também para os envios de rubídio à Doolan Tversky.",
-      "suggestion": "As notas do Perestrelo (lidas pelo Damião) são um interrogatório sobre Urzin: onde fica, quem a protege, as tartarugas, com mapas riscados a cada morte. Apontam também para os envios de rubídio à Doolan Tversky.",
+      "text": "As notas do Perestrelo (sem leitor marcado: ficam atrás do altar e lê-as quem as apanhar) são um interrogatório sobre Urzin: onde fica, quem a protege, as tartarugas, com mapas riscados a cada morte. Apontam também para os envios de rubídio à Doolan Tversky.",
+      "suggestion": "As notas do Perestrelo (sem leitor marcado: ficam atrás do altar e lê-as quem as apanhar) são um interrogatório sobre Urzin: onde fica, quem a protege, as tartarugas, com mapas riscados a cada morte. Apontam também para os envios de rubídio à Doolan Tversky.",
       "because": [
-        "registo/decisoes.md 2026-10-16 #13"
+        "registo/decisoes.md 2026-10-16 #13",
+        "registo/decisoes.md 2026-10-18 #9"
       ],
       "status": "aberta",
       "tags": [
@@ -2379,10 +2380,11 @@
         "col": "s6"
       },
       "factKind": "cena",
-      "text": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo.",
-      "suggestion": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo.",
+      "text": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo. Só funciona com a Lia a usá-lo: desde a S6 está com o Quasi, e no bolso dele é só um objeto.",
+      "suggestion": "O pendente, uma vez por dia: quando a Lia chega a 0 PV, fica parada no tempo uma ronda (6 s); ninguém lhe toca, nem para curar; os testes contra a morte só começam no turno seguinte. Sem custo. Só funciona com a Lia a usá-lo: desde a S6 está com o Quasi, e no bolso dele é só um objeto.",
       "because": [
-        "registo/decisoes.md 2026-10-16 #24"
+        "registo/decisoes.md 2026-10-16 #24",
+        "registo/decisoes.md 2026-10-18 #2"
       ],
       "tags": [
         "so-dm"
@@ -2575,12 +2577,12 @@
         "row": "t-laco-quasi-alberto",
         "col": "s1"
       },
-      "text": "[média] Falta no registo que um PC pôs o Alberto no chão à frente do xamã como «algo valioso» (2:27:24–2:28:16), o que explica a piada final do «gnomo recrutado à força» (2:36:17). O Isco ofereceu ainda a corda e a besta ligeira (2:28:43).",
+      "text": "[média] Falta no registo que um PC pôs o Alberto no chão à frente do xamã como «algo valioso» (2:27:24–2:28:16), o que explica a piada final do «gnomo recrutado à força» (2:36:17). O Isco ofereceu ainda a corda e a besta ligeira (2:28:43). [substituída: decisão 2026-10-18 #25]",
       "suggestion": "Acrescentar um acontecimento `relacao` em t-laco-quasi-alberto (ou no laço do PC que o fez).",
       "because": [
         "transcrição S1 (#81) 2:27:24"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-12",
@@ -2695,12 +2697,12 @@
         "row": "c-jevan",
         "col": "s1"
       },
-      "text": "[baixa] Faltam pormenores úteis: o Jevan chama ao Bufal «Badalufas» e pede segredo (1:33:09); a Litcha diz que «o futuro da nossa população» depende da Bolbara (1:59:47).",
+      "text": "[baixa] Faltam pormenores úteis: o Jevan chama ao Bufal «Badalufas» e pede segredo (1:33:09); a Litcha diz que «o futuro da nossa população» depende da Bolbara (1:59:47). [substituída: decisão 2026-10-18 #25]",
       "suggestion": "Juntar ao e-s1-15 e ao e-s1-07, ou só às fichas.",
       "because": [
         "transcrição S1 (#81) 1:33:09"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-20",
@@ -2710,12 +2712,12 @@
         "row": "c-pc-isco",
         "col": "s1"
       },
-      "text": "[baixa] O colar de conchas brancas da Bolbara ficou com o Isco e o Alberto levou a adaga enferrujada do monte do Forroco (1:43:59), mas nenhum dos dois tem efeito `posse` no registo (e-s1-02/e-s1-07; e-s1-08/e-s1-09).",
+      "text": "[baixa] O colar de conchas brancas da Bolbara ficou com o Isco e o Alberto levou a adaga enferrujada do monte do Forroco (1:43:59), mas nenhum dos dois tem efeito `posse` no registo (e-s1-02/e-s1-07; e-s1-08/e-s1-09). [substituída: decisão 2026-10-18 #21]",
       "suggestion": "Acrescentar `posse` do colar com c-pc-isco (criar i-colar-de-conchas-bolbara se o DM quiser seguir o objeto) e da adaga com c-alberto-gnomis.",
       "because": [
         "transcrição S1 (#81) 1:43:59"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-21",
@@ -3013,12 +3015,12 @@
         "row": "c-pc-quasi",
         "col": "s3"
       },
-      "text": "[média] O Loot do registo e c-pc-lucan dão ao Lucan o crânio cornudo do altar, mas na transcrição é o Quasi que pega «no crânio e na adaga» (1:07:51) e diz à noite «Eu ainda tenho… o crânio» (1:48:31); o inventário do Lucan de manhã não o tem (2:28:12).",
+      "text": "[média] O Loot do registo e c-pc-lucan dão ao Lucan o crânio cornudo do altar, mas na transcrição é o Quasi que pega «no crânio e na adaga» (1:07:51) e diz à noite «Eu ainda tenho… o crânio» (1:48:31); o inventário do Lucan de manhã não o tem (2:28:12). [substituída: decisão 2026-10-18 #10]",
       "suggestion": "Passar o crânio para o Quasi no Loot e em c-pc-lucan, ou marcar «por confirmar».",
       "because": [
         "transcrição S3 (#84) 1:07:51"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-03",
@@ -3109,7 +3111,7 @@
         "row": "t-agenda-baeshra-lucan",
         "col": "s3"
       },
-      "text": "[média] O s05 (cronologia 3) e c-pc-lucan citam «a última frase do sonho da sessão 3 («não eu, não tu»)», mas na transcrição o sonho acaba no olhar do drow sem frase (2:26:28); a voz da S3 foi «Perto. Não aqui.», acordado, no ossário (há uma fala confusa «E ele não. Tu.» a 1:16:34).",
+      "text": "[média] O s05 (cronologia 3) e c-pc-lucan citam «a última frase do sonho da sessão 3 («não eu, não tu»)», mas na transcrição o sonho acaba no olhar do drow sem frase (2:26:28); a voz da S3 foi «Perto. Não aqui.», acordado, no ossário (há uma fala confusa «E ele não. Tu.» a 1:16:34). [substituída: decisão 2026-10-18 #11]",
       "suggestion": "O DM decide se «não eu, não tu» é retcon (fonte «dito pelo DM») ou erro do s05.",
       "because": [
         "transcrição S3 (#84) 2:26:28"
@@ -3117,7 +3119,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-09",
@@ -3250,7 +3252,7 @@
         "row": "r-pc-baeshra-cla-ro",
         "col": "s3"
       },
-      "text": "[baixa] O e-s3-20 tem duas vezes o mesmo efeito `pista: r-pc-baeshra-cla-ro`.",
+      "text": "[baixa] O e-s3-20 tem duas vezes o mesmo efeito `pista: r-pc-baeshra-cla-ro`. [substituída: decisão 2026-10-18 #25]",
       "suggestion": "Tirar o duplicado, a não ser que seja de propósito (altar e sonho).",
       "because": [
         "transcrição S3 (#84)"
@@ -3258,7 +3260,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-18",
@@ -3331,12 +3333,12 @@
         "row": "f-dwendalian-empire",
         "col": "s4"
       },
-      "text": "[média] À mesa o DM diz da patrulha «Não, são todos humanos» (0:43:33), mas c-nalia-vasques (S5) diz «À mesa é uma ELFA»; o s04 não regista a frase.",
+      "text": "[média] À mesa o DM diz da patrulha «Não, são todos humanos» (0:43:33), mas c-nalia-vasques (S5) diz «À mesa é uma ELFA»; o s04 não regista a frase. [substituída: decisão 2026-10-18 #5]",
       "suggestion": "O DM decide (a Nália passou despercebida de capacete e véu, ou foi um olhar rápido) e acrescenta-se ao s04 a frase dita.",
       "because": [
         "transcrição S4 (#86) 0:43:33"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-04",
@@ -3406,12 +3408,12 @@
         "row": "f-dwendalian-empire",
         "col": "s4"
       },
-      "text": "[baixa] Na S4 o DM diz que o soldado do escudo tem «um metro e… oitentas… És maior que ele» (0:39:23), mas c-casqueiro e o registo da S5 (passo 30) dizem «mais de dois metros».",
+      "text": "[baixa] Na S4 o DM diz que o soldado do escudo tem «um metro e… oitentas… És maior que ele» (0:39:23), mas c-casqueiro e o registo da S5 (passo 30) dizem «mais de dois metros». [substituída: decisão 2026-10-18 #16]",
       "suggestion": "O DM escolhe; se valer a S4, «~1,80 m, entroncado, mais baixo do que o Lucan».",
       "because": [
         "transcrição S4 (#86) 0:39:23"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-09",
@@ -3562,7 +3564,7 @@
         "row": "r-garra-seis-dedos",
         "col": "s5"
       },
-      "text": "[média] O e-s5-48 diz que o Quasi usou a garra no escriba «sem ninguém do grupo ver» e o e-s5-13 dá `sabe` só ao Quasi, mas o DM diz à Lia, que meditava: «Tu assististe a isto tudo» (1:11:21), e o Quasi esfregou a garra no cinto para o Command (0:52:24).",
+      "text": "[média] O e-s5-48 diz que o Quasi usou a garra no escriba «sem ninguém do grupo ver» e o e-s5-13 dá `sabe` só ao Quasi, mas o DM diz à Lia, que meditava: «Tu assististe a isto tudo» (1:11:21), e o Quasi esfregou a garra no cinto para o Command (0:52:24). [substituída: decisão 2026-10-18 #7]",
       "suggestion": "Confirmar o que a Lia viu e ouviu; no mínimo, juntar c-pc-lia ao `sabe` parcial do que o Damião disse.",
       "because": [
         "transcrição S5 (#88) 1:11:21"
@@ -3570,7 +3572,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-06",
@@ -3628,7 +3630,7 @@
         "row": "i-saco-da-lia",
         "col": "s5"
       },
-      "text": "[média] O e-s5-32, i-saco-da-lia e a decisão 2026-10-07 #22 põem a armadura no saco, mas à mesa o DM diz «também está vestido, está vestido» (0:45:21–0:45:23); o pendente, o selo e o símbolo não foram ditos (o e-s5-18 vem da preparação).",
+      "text": "[média] O e-s5-32, i-saco-da-lia e a decisão 2026-10-07 #22 põem a armadura no saco, mas à mesa o DM diz «também está vestido, está vestido» (0:45:21–0:45:23); o pendente, o selo e o símbolo não foram ditos (o e-s5-18 vem da preparação). [substituída: decisão 2026-10-18 #6]",
       "suggestion": "Tirar a armadura do saco se o DM confirmar e marcar o e-s5-18 como decisão do DM, não da mesa.",
       "because": [
         "transcrição S5 (#88) 0:45:21"
@@ -3636,7 +3638,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-10",
@@ -3769,12 +3771,12 @@
         "row": "c-elmiro-trigueiro",
         "col": "s5"
       },
-      "text": "[baixa] O registo canoniza que o sargento chama «Belmiro» ao Elmiro e se corrige (1:14:32–1:14:59), mas Belmiro é o contramestre do Scylla que cortou a corda do Isco (decisão 2026-10-13 #20); ao DM saiu também «Almir» (1:47:22).",
+      "text": "[baixa] O registo canoniza que o sargento chama «Belmiro» ao Elmiro e se corrige (1:14:32–1:14:59), mas Belmiro é o contramestre do Scylla que cortou a corda do Isco (decisão 2026-10-13 #20); ao DM saiu também «Almir» (1:47:22). [substituída: decisão 2026-10-18 #15]",
       "suggestion": "O DM decide se o lapso fica como cânone (eco de propósito) ou sai como lapso dele.",
       "because": [
         "transcrição S5 (#88) 1:14:32"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-19",
@@ -3799,7 +3801,7 @@
         "row": "t-relogio-urzin-sem-seer",
         "col": "s5"
       },
-      "text": "[baixa] O e-s5-41 (Bufal não confia que voltem; so-dm, fonte grelha-semente.json) não tem decisão do DM que o sustente; o e-s5-57 vem da decisão 2026-10-07 #9 (à mesa só «quando o Tiago voltar», 0:07:58); e há pistas repetidas no mesmo acontecimento (e-s5-47, e-s5-49, e-s5-50).",
+      "text": "[baixa] O e-s5-41 (Bufal não confia que voltem; so-dm, fonte grelha-semente.json) não tem decisão do DM que o sustente; o e-s5-57 vem da decisão 2026-10-07 #9 (à mesa só «quando o Tiago voltar», 0:07:58); e há pistas repetidas no mesmo acontecimento (e-s5-47, e-s5-49, e-s5-50). [substituída: decisão 2026-10-18 #25]",
       "suggestion": "Pôr a fonte ou tirar o e-s5-41 e confirmar se as pistas repetidas são de propósito.",
       "because": [
         "transcrição S5 (#88) 0:07:58"
@@ -3807,7 +3809,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-21",
@@ -3865,7 +3867,7 @@
         "row": "i-pendente-da-lia",
         "col": "s6"
       },
-      "text": "[alta] O Quasi tirou o pendente do saco da Lia: «estou a levar emprestado. Já devolvo.» (1:13:39), e a Lia viu; i-pendente-da-lia e i-saco-da-lia ainda o põem no saco, na jangada.",
+      "text": "[alta] O Quasi tirou o pendente do saco da Lia: «estou a levar emprestado. Já devolvo.» (1:13:39), e a Lia viu; i-pendente-da-lia e i-saco-da-lia ainda o põem no saco, na jangada. [substituída: decisão 2026-10-18 #2]",
       "suggestion": "Efeito `posse: i-pendente-da-lia` com c-pc-quasi; perguntar ao DM se o efeito de parar o tempo (2026-10-16 #24) exige estar com a Lia.",
       "because": [
         "transcrição S6 (#89) 1:13:39"
@@ -3873,7 +3875,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-03",
@@ -3883,7 +3885,7 @@
         "row": "i-pendente-da-lia",
         "col": "s6"
       },
-      "text": "[alta] À mesa o pendente é «um medalhão prateado», com a lebre e, nas costas, «um dado de 20 faces» gravado (1:09:26–1:11:17); a ficha (decisão 2026-10-17 #1, depois da sessão) diz disco escuro mate, olho-de-tigre e «as costas lisas». O resumo omite o d20.",
+      "text": "[alta] À mesa o pendente é «um medalhão prateado», com a lebre e, nas costas, «um dado de 20 faces» gravado (1:09:26–1:11:17); a ficha (decisão 2026-10-17 #1, depois da sessão) diz disco escuro mate, olho-de-tigre e «as costas lisas». O resumo omite o d20. [substituída: decisão 2026-10-18 #1]",
       "suggestion": "O DM escolhe entre o que a mesa viu (prateado, d20 nas costas) ou um retcon assumido; se mantiver, o d20 pede explicação.",
       "because": [
         "transcrição S6 (#89) 1:09:26"
@@ -3891,7 +3893,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-04",
@@ -3931,7 +3933,7 @@
         "row": "l-fort-venture",
         "col": "s6"
       },
-      "text": "[média] A decisão 2026-10-13 #30 diz que o Corvelo reconhece o lacedon de farda, mas à mesa ninguém o reconheceu nem disse «Tibério»; o Isco destruiu-o em cima da jangada (2:15:23) e quem reparou na farda foi o Lucan (2:16:50), não o Isco, como diz o resumo. Insígnia dita à mesa: vermelho imperial, um mocho com espigas de trigo.",
+      "text": "[média] A decisão 2026-10-13 #30 diz que o Corvelo reconhece o lacedon de farda, mas à mesa ninguém o reconheceu nem disse «Tibério»; o Isco destruiu-o em cima da jangada (2:15:23) e quem reparou na farda foi o Lucan (2:16:50), não o Isco, como diz o resumo. Insígnia dita à mesa: vermelho imperial, um mocho com espigas de trigo. [substituída: decisão 2026-10-18 #4]",
       "suggestion": "Registar que o Tibério foi destruído e o corpo está na jangada; o reconhecimento passa para o forte ou para os restos; corrigir para «o Lucan» e guardar a insígnia do mocho.",
       "because": [
         "transcrição S6 (#89) 2:16:50"
@@ -3939,7 +3941,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-07",
@@ -3967,7 +3969,7 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "[média] A Renata diz à mesa que a cauda do Lucan «era branca… por razões que não vão ser ditas à mesa» e o DM aceita (1:51:20); c-pc-lucan (S2) diz verde-escura/azul-marinho. Desta vez a raiva tem garras e escamas brancas no antebraço, sem cauda.",
+      "text": "[média] A Renata diz à mesa que a cauda do Lucan «era branca… por razões que não vão ser ditas à mesa» e o DM aceita (1:51:20); c-pc-lucan (S2) diz verde-escura/azul-marinho. Desta vez a raiva tem garras e escamas brancas no antebraço, sem cauda. [substituída: decisão 2026-10-18 #3]",
       "suggestion": "Confirmar com o DM/Renata e acrescentar a forma de garras (Path of the Beast, escolhida em cada raiva).",
       "because": [
         "transcrição S6 (#89) 1:51:20"
@@ -3975,7 +3977,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-09",
@@ -3985,12 +3987,12 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "[média] À mesa o DM entrega o pano do culto aos irmãos («esta merda vocês têm convosco. Decidam qual», 0:15:38), mas i-doc-decrepola-memorias e a decisão 2026-10-16 #20 dizem que o Ossório não o vendeu; e o DM diz que não se distingue se os olhos são diferentes (0:22:33), contra «olhos desencontrados».",
+      "text": "[média] À mesa o DM entrega o pano do culto aos irmãos («esta merda vocês têm convosco. Decidam qual», 0:15:38), mas i-doc-decrepola-memorias e a decisão 2026-10-16 #20 dizem que o Ossório não o vendeu; e o DM diz que não se distingue se os olhos são diferentes (0:22:33), contra «olhos desencontrados». [substituída: decisão 2026-10-18 #12]",
       "suggestion": "Perguntar ao DM se o pano (e o cristal) está com um dos irmãos; se sim, criar o item, corrigir o handout e marcá-lo como entregue na S6.",
       "because": [
         "transcrição S6 (#89) 0:15:38"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-10",
@@ -4015,12 +4017,12 @@
         "row": "t-relogio-bolbara-urzin",
         "col": "s6"
       },
-      "text": "[média] O resumo e a decisão 2026-10-12 #1 dão o fim da sessão ao meio-dia do dia 4, mas à mesa fala-se de almoço (1:19:34) e depois de «três horas para o jantar» (1:59:52), com o DM a hesitar. Afeta o relógio e o plano de marcha.",
+      "text": "[média] O resumo e a decisão 2026-10-12 #1 dão o fim da sessão ao meio-dia do dia 4, mas à mesa fala-se de almoço (1:19:34) e depois de «três horas para o jantar» (1:59:52), com o DM a hesitar. Afeta o relógio e o plano de marcha. [substituída: decisão 2026-10-18 #13]",
       "suggestion": "Confirmar com o DM (sugestão: início da tarde do dia 4; relógio ainda a ½).",
       "because": [
         "transcrição S6 (#89) 1:59:52"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-12",
@@ -4060,7 +4062,7 @@
         "row": "i-selo-expositor",
         "col": "s6"
       },
-      "text": "[baixa] À mesa o selo tem «uma pirâmide desenhada no topo… três pequenas pedras… aquamarinas» «azul clarinho» (1:08:49); a ficha (2026-10-17 #2) diz azul-escuro, três círculos num triângulo, sem pirâmide. O Quasi reconheceu-o (20 natural): sabe que a prisioneira traz um anel da Alma de Cobalto.",
+      "text": "[baixa] À mesa o selo tem «uma pirâmide desenhada no topo… três pequenas pedras… aquamarinas» «azul clarinho» (1:08:49); a ficha (2026-10-17 #2) diz azul-escuro, três círculos num triângulo, sem pirâmide. O Quasi reconheceu-o (20 natural): sabe que a prisioneira traz um anel da Alma de Cobalto. [substituída: decisão 2026-10-18 #8]",
       "suggestion": "Alinhar a descrição e registar em r-prisioneira-lia o que o Quasi sabe.",
       "because": [
         "transcrição S6 (#89) 1:08:49"
@@ -4068,7 +4070,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-15",
@@ -4078,12 +4080,12 @@
         "row": "i-saco-da-lia",
         "col": "s6"
       },
-      "text": "[baixa] À mesa o saco da Lia tem pé de cabra, martelo, tochas, caixa de fogo, rações e besta ligeira, com escudo e martelo de guerra ao lado (2:02:53); a ficha fala de armadura, símbolo sagrado e dinheiro, não mencionados. A Lia recuperou o saco e está solta e armada.",
+      "text": "[baixa] À mesa o saco da Lia tem pé de cabra, martelo, tochas, caixa de fogo, rações e besta ligeira, com escudo e martelo de guerra ao lado (2:02:53); a ficha fala de armadura, símbolo sagrado e dinheiro, não mencionados. A Lia recuperou o saco e está solta e armada. [substituída: decisão 2026-10-18 #6]",
       "suggestion": "Pôr o inventário como visto à mesa e a posse do saco com a Lia.",
       "because": [
         "transcrição S6 (#89) 2:02:53"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-16",
@@ -4108,12 +4110,12 @@
         "row": "t-decisao-miriade-jevan",
         "col": "s1"
       },
-      "text": "Quem disse «Miríade» ao Jevan e quem lhe pôs a mão no ombro? O cânone diz o Quasi, mas a gravação pode ser um dos irmãos (que têm os contactos da Miríade) com o Quasi a encobrir.",
+      "text": "Quem disse «Miríade» ao Jevan e quem lhe pôs a mão no ombro? O cânone diz o Quasi, mas a gravação pode ser um dos irmãos (que têm os contactos da Miríade) com o Quasi a encobrir. [substituída: decisão 2026-10-18 #20]",
       "suggestion": "Confirmar quem foi; pelo cânone atual, o Quasi.",
       "because": [
         "transcrição S1 (#81) 1:28:06"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p02",
@@ -4123,12 +4125,12 @@
         "row": "l-urzin",
         "col": "s1"
       },
-      "text": "Quem pagou as cervejas do concurso? O DM pergunta «Quem pediu cerveja?» e o Isco diz «Eu é que não vou pagar isto»; a conta não fecha na gravação.",
+      "text": "Quem pagou as cervejas do concurso? O DM pergunta «Quem pediu cerveja?» e o Isco diz «Eu é que não vou pagar isto»; a conta não fecha na gravação. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Se ninguém pagou, é mais uma dívida à Rikka.",
       "because": [
         "transcrição S1 (#81) 1:20:29"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p03",
@@ -4138,12 +4140,12 @@
         "row": "c-alberto-gnomis",
         "col": "s1"
       },
-      "text": "O grupo levou ingredientes da bancada da Litcha («Gamamos todos? — Não, não é tudo»)? Não é claro se o Alberto levou material para fazer poções pelo caminho.",
+      "text": "O grupo levou ingredientes da bancada da Litcha («Gamamos todos? — Não, não é tudo»)? Não é claro se o Alberto levou material para fazer poções pelo caminho. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Confirmar se o Alberto levou ingredientes.",
       "because": [
         "transcrição S1 (#81) 2:08:24"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p04",
@@ -4153,12 +4155,12 @@
         "row": "c-skra-sorsk",
         "col": "s1"
       },
-      "text": "Quem pôs o Alberto no chão à frente do Skr'a e quem atirou alguma coisa aos pés dele no fim («Sess'inek! E eu atiro!»)?",
+      "text": "Quem pôs o Alberto no chão à frente do Skr'a e quem atirou alguma coisa aos pés dele no fim («Sess'inek! E eu atiro!»)? [substituída: decisão 2026-10-18 #25]",
       "suggestion": "Provavelmente a ração do Suggestion; confirmar quem foi.",
       "because": [
         "transcrição S1 (#81) 2:34:30"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p05",
@@ -4168,12 +4170,12 @@
         "row": "c-morgid",
         "col": "s1"
       },
-      "text": "O teste de Sobrevivência do Morgid («precisam de um 15… vamos ter um 10») não tem resultado audível; o «Morgid navega com sucesso» do registo é inferido.",
+      "text": "O teste de Sobrevivência do Morgid («precisam de um 15… vamos ter um 10») não tem resultado audível; o «Morgid navega com sucesso» do registo é inferido. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Confirmar o resultado do teste.",
       "because": [
         "transcrição S1 (#81) 2:17:01"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p06",
@@ -4183,12 +4185,12 @@
         "row": "t-relogio-terceira-vez",
         "col": "s1"
       },
-      "text": "A regra do d12 de encontros foi dita como «6 ou mais, encontro», mas saíram 10, 11 e 12 sem encontro. A regra estava invertida ou mal ouvida? (Já foi substituída pelo d20, decisões 2026-09-21.)",
+      "text": "A regra do d12 de encontros foi dita como «6 ou mais, encontro», mas saíram 10, 11 e 12 sem encontro. A regra estava invertida ou mal ouvida? (Já foi substituída pelo d20, decisões 2026-09-21.) [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Ficar registado que a S1 não aplicou a regra como foi dita.",
       "because": [
         "transcrição S1 (#81) 2:18:27"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr1-p07",
@@ -4213,12 +4215,12 @@
         "row": "l-urzin",
         "col": "s1"
       },
-      "text": "O preço do dormitório: «São três moedas de ouro. São dez. Sim, são dez.» c-rikka-tres-dentes lê como «riu-se da oferta de 3 po»; pode ser só a Rikka a subir o preço.",
+      "text": "O preço do dormitório: «São três moedas de ouro. São dez. Sim, são dez.» c-rikka-tres-dentes lê como «riu-se da oferta de 3 po»; pode ser só a Rikka a subir o preço. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Confirmar o preço; provavelmente 10 po, com a Rikka a subir.",
       "because": [
         "transcrição S1 (#81) 0:45:23"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-p01",
@@ -4228,12 +4230,12 @@
         "row": "c-skra-sorsk",
         "col": "s2"
       },
-      "text": "Quem pegou no javelin atrás da rocha (2:03:52–2:05:16)? A ordem sugere duas criaturas (o lizardfolk que mergulhou e depois o Skr'a), mas o resumo atribui o javelin e a cobertura ao xamã.",
+      "text": "Quem pegou no javelin atrás da rocha (2:03:52–2:05:16)? A ordem sugere duas criaturas (o lizardfolk que mergulhou e depois o Skr'a), mas o resumo atribui o javelin e a cobertura ao xamã. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Confirmar; a ordem sugere um lizardfolk e depois o Skr'a.",
       "because": [
         "transcrição S2 (#83) 2:03:52"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-p02",
@@ -4243,12 +4245,12 @@
         "row": "c-pc-quasi",
         "col": "s2"
       },
-      "text": "A contagem de slots do Quasi: a 1:44:17 tem dois de 1.º e um de 2.º, mas depois lança Silvery Barbs ×2, Healing Word e Dissonant Whispers. Um deles não gastou slot, ou a contagem está errada?",
+      "text": "A contagem de slots do Quasi: a 1:44:17 tem dois de 1.º e um de 2.º, mas depois lança Silvery Barbs ×2, Healing Word e Dissonant Whispers. Um deles não gastou slot, ou a contagem está errada? [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Confirmar a contagem de slots.",
       "because": [
         "transcrição S2 (#83) 1:44:17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-p03",
@@ -4258,7 +4260,7 @@
         "row": "r-pc-lucan-salvou-isco",
         "col": "s2"
       },
-      "text": "O e-s2-08 (Rage com cauda) é pista de r-pc-lucan-salvou-isco? A ficha do segredo tem `pistas: []`; talvez sirva melhor como `cena` ou como pista do Baeshra.",
+      "text": "O e-s2-08 (Rage com cauda) é pista de r-pc-lucan-salvou-isco? A ficha do segredo tem `pistas: []`; talvez sirva melhor como `cena` ou como pista do Baeshra. [substituída: decisão 2026-10-18 #25]",
       "suggestion": "Passar o e-s2-08 a `cena` ou a pista do Baeshra.",
       "because": [
         "transcrição S2 (#83) 1:19:08"
@@ -4266,7 +4268,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-p04",
@@ -4276,12 +4278,12 @@
         "row": "c-pc-lucan",
         "col": "s2"
       },
-      "text": "A primeira trinca do Lucan foi ao xamã, com desvantagem e 2 de dano, como diz o resumo? A transcrição não diz claramente quem trinca quem nem porquê a desvantagem.",
+      "text": "A primeira trinca do Lucan foi ao xamã, com desvantagem e 2 de dano, como diz o resumo? A transcrição não diz claramente quem trinca quem nem porquê a desvantagem. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Confirmar alvo e desvantagem.",
       "because": [
         "transcrição S2 (#83) 1:14:12"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-p05",
@@ -4291,12 +4293,12 @@
         "row": "c-pc-lucan",
         "col": "s2"
       },
-      "text": "O primeiro javelin ao Lucan fez 3 de dano, ou 3 reduzidos a 1 pela Rage («3 de total. Então 1»)? O resumo diz 3.",
+      "text": "O primeiro javelin ao Lucan fez 3 de dano, ou 3 reduzidos a 1 pela Rage («3 de total. Então 1»)? O resumo diz 3. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Provavelmente 1, depois da Rage.",
       "because": [
         "transcrição S2 (#83) 1:22:24"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr2-p06",
@@ -4306,12 +4308,12 @@
         "row": "p-renata",
         "col": "s2"
       },
-      "text": "O cântico «TPK, TPK» do e-s2-09 começa com a cobra gigante (0:59:38) e repete-se com as oito cobras; o registo só fala das oito e não é certo que tenha sido a Renata a começar.",
+      "text": "O cântico «TPK, TPK» do e-s2-09 começa com a cobra gigante (0:59:38) e repete-se com as oito cobras; o registo só fala das oito e não é certo que tenha sido a Renata a começar. [substituída: decisão 2026-10-18 #23]",
       "suggestion": "Acrescentar o primeiro momento e confirmar quem começou.",
       "because": [
         "transcrição S2 (#83) 0:59:38"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-p01",
@@ -4339,12 +4341,12 @@
         "row": "t-missao-patrulha",
         "col": "s3"
       },
-      "text": "O que dá o d12 = 11 na tabela de encontros do pântano, e o encontro da S4 (a patrulha) foi o resultado dela ou foi escolhido à parte?",
+      "text": "O que dá o d12 = 11 na tabela de encontros do pântano, e o encontro da S4 (a patrulha) foi o resultado dela ou foi escolhido à parte? [substituída: decisão 2026-10-18 #22]",
       "suggestion": "Confirmar que o 11 da tabela é a patrulha imperial.",
       "because": [
         "transcrição S3 (#84) 2:54:49"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-p03",
@@ -4354,7 +4356,7 @@
         "row": "t-agenda-baeshra-lucan",
         "col": "s3"
       },
-      "text": "O «não eu, não tu» que o s05 atribui ao sonho da S3 é retcon do DM ou erro de transcrição/resumo?",
+      "text": "O «não eu, não tu» que o s05 atribui ao sonho da S3 é retcon do DM ou erro de transcrição/resumo? [substituída: decisão 2026-10-18 #11]",
       "suggestion": "Se for retcon, registá-lo com fonte «dito pelo DM».",
       "because": [
         "transcrição S3 (#84) 2:26:28"
@@ -4362,7 +4364,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-p04",
@@ -4372,12 +4374,12 @@
         "row": "c-pc-isco",
         "col": "s3"
       },
-      "text": "Quem fez o Survival 13 do sítio para dormir? A transcrição sugere o Isco («eu aponto o meu irmão para o sítio bom»), mas o registo atribui-o ao Quasi.",
+      "text": "Quem fez o Survival 13 do sítio para dormir? A transcrição sugere o Isco («eu aponto o meu irmão para o sítio bom»), mas o registo atribui-o ao Quasi. [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Provavelmente o Isco.",
       "because": [
         "transcrição S3 (#84) 1:32:17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr3-p05",
@@ -4387,12 +4389,12 @@
         "row": "t-laco-lucan-quasi",
         "col": "s3"
       },
-      "text": "A oferta do Quasi («se explorarmos a torre, dou-vos a adaga») fica registada como intenção ou não conta?",
+      "text": "A oferta do Quasi («se explorarmos a torre, dou-vos a adaga») fica registada como intenção ou não conta? [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Registar como intenção que caducou.",
       "because": [
         "transcrição S3 (#84) 2:50:04"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p01",
@@ -4402,12 +4404,12 @@
         "row": "t-promessa-800po",
         "col": "s4"
       },
-      "text": "Quem disse as 800 po? O número só aparece na leitura do Insight pelo DM; antes, o Isco propõe «metade agora, metade depois» e o Corvelo adia para o forte. A proposta pode ter ficado no intervalo sem microfone da Renata.",
+      "text": "Quem disse as 800 po? O número só aparece na leitura do Insight pelo DM; antes, o Isco propõe «metade agora, metade depois» e o Corvelo adia para o forte. A proposta pode ter ficado no intervalo sem microfone da Renata. [substituída: decisão 2026-10-18 #24]",
       "suggestion": "O cânone (promessa sem garantia) não muda; confirmar só quem a fez.",
       "because": [
         "transcrição S4 (#86) 1:10:08"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p02",
@@ -4417,12 +4419,12 @@
         "row": "c-corvelo",
         "col": "s4"
       },
-      "text": "Quem foi o soldado que sussurrou ao ouvido do Corvelo logo depois de verem o gnomo, e o que disse?",
+      "text": "Quem foi o soldado que sussurrou ao ouvido do Corvelo logo depois de verem o gnomo, e o que disse? [substituída: decisão 2026-10-18 #17]",
       "suggestion": "Confirmar quem e o quê; pode ser alguém que reconhece o Alberto.",
       "because": [
         "transcrição S4 (#86) 0:53:52"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p03",
@@ -4432,12 +4434,12 @@
         "row": "t-decisao-mapa-morgid",
         "col": "s4"
       },
-      "text": "O Isco sabe que o mapa foi roubado? O Lucan diz-lhe que o Morgid o «emprestou» e o DM diz ao Isco «estás longe».",
+      "text": "O Isco sabe que o mapa foi roubado? O Lucan diz-lhe que o Morgid o «emprestou» e o DM diz ao Isco «estás longe». [substituída: decisão 2026-10-18 #18]",
       "suggestion": "Provavelmente não sabe; importa para t-laco-lucan-isco.",
       "because": [
         "transcrição S4 (#86) 1:36:50"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p04",
@@ -4447,12 +4449,12 @@
         "row": "c-alberto-gnomis",
         "col": "s4"
       },
-      "text": "O Alberto rolou um teste ao falar com o sargento («Diz-lhe um 1… Estou a lançar»; o DM: «Está um bocadinho melhor»). Que teste era, e o 1 conta?",
+      "text": "O Alberto rolou um teste ao falar com o sargento («Diz-lhe um 1… Estou a lançar»; o DM: «Está um bocadinho melhor»). Que teste era, e o 1 conta? [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Confirmar o teste e o resultado.",
       "because": [
         "transcrição S4 (#86) 1:00:11"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p05",
@@ -4462,12 +4464,12 @@
         "row": "c-pc-quasi",
         "col": "s4"
       },
-      "text": "A Bardic Inspiration do Quasi ao Isco na intimidação foi gasta? O resultado passa de 9 para 13; se foi, falta nos recursos do s04.",
+      "text": "A Bardic Inspiration do Quasi ao Isco na intimidação foi gasta? O resultado passa de 9 para 13; se foi, falta nos recursos do s04. [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Provavelmente gasta; acrescentar aos recursos.",
       "because": [
         "transcrição S4 (#86) 1:17:04"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p06",
@@ -4477,12 +4479,12 @@
         "row": "t-missao-patrulha",
         "col": "s4"
       },
-      "text": "Quanto peixe foi dado aos homens-sapo? O registo diz «menos um peixe»; o DM fala em «comida suficiente para 4».",
+      "text": "Quanto peixe foi dado aos homens-sapo? O registo diz «menos um peixe»; o DM fala em «comida suficiente para 4». [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Confirmar a quantidade.",
       "because": [
         "transcrição S4 (#86) 1:46:31"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p07",
@@ -4492,12 +4494,12 @@
         "row": "c-corvelo",
         "col": "s4"
       },
-      "text": "Quem disse «os piores espiões do mundo»: «um soldado», como diz o registo, ou o Corvelo, que ia à frente com o Isco?",
+      "text": "Quem disse «os piores espiões do mundo»: «um soldado», como diz o registo, ou o Corvelo, que ia à frente com o Isco? [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Confirmar quem disse.",
       "because": [
         "transcrição S4 (#86) 1:49:17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr4-p08",
@@ -4507,12 +4509,12 @@
         "row": "f-dwendalian-empire",
         "col": "s4"
       },
-      "text": "A Nália é humana ou elfa (a mesa ouviu «são todos humanos»), e qual é a altura do Casqueiro (~1,80 m na S4, mais de dois metros na S5)?",
+      "text": "A Nália é humana ou elfa (a mesa ouviu «são todos humanos»), e qual é a altura do Casqueiro (~1,80 m na S4, mais de dois metros na S5)? [substituída: decisão 2026-10-18 #5 e #16]",
       "suggestion": "Decidir a versão de cada um.",
       "because": [
         "transcrição S4 (#86) 0:43:33"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p01",
@@ -4522,12 +4524,12 @@
         "row": "t-decisao-livro-escriba",
         "col": "s5"
       },
-      "text": "A página rasgada: o Quasi ficou com a folha do desenho? O Damião vai dar por ela no forte («eles irão saber»)?",
+      "text": "A página rasgada: o Quasi ficou com a folha do desenho? O Damião vai dar por ela no forte («eles irão saber»)? [substituída: decisão 2026-10-18 #19]",
       "suggestion": "Provavelmente a folha ficou com o Quasi.",
       "because": [
         "transcrição S5 (#88) 0:51:17"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p02",
@@ -4537,12 +4539,12 @@
         "row": "t-missao-patrulha",
         "col": "s5"
       },
-      "text": "A navegação do dia 3 foi 13 ou ~10? E a Bardic Inspiration («canto uma canção que relembra os pontos cardinais») entrou no 14 do dia 4?",
+      "text": "A navegação do dia 3 foi 13 ou ~10? E a Bardic Inspiration («canto uma canção que relembra os pontos cardinais») entrou no 14 do dia 4? [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Confirmar os totais; a gravação aponta para ~10.",
       "because": [
         "transcrição S5 (#88) 2:24:42"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p03",
@@ -4552,12 +4554,12 @@
         "row": "c-alberto-gnomis",
         "col": "s5"
       },
-      "text": "A carapaça: o Lucan pôs o Alberto numa carapaça e entregou-a ao Quasi, ou deixou um escudo com o Alberto?",
+      "text": "A carapaça: o Lucan pôs o Alberto numa carapaça e entregou-a ao Quasi, ou deixou um escudo com o Alberto? [substituída: decisão 2026-10-18 #24]",
       "suggestion": "A gravação sugere o Alberto numa carapaça entregue ao Quasi.",
       "because": [
         "transcrição S5 (#88) 1:18:48"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p04",
@@ -4567,12 +4569,12 @@
         "row": "i-saco-da-lia",
         "col": "s5"
       },
-      "text": "A armadura da Lia ficou vestida, como o DM disse à mesa, ou mantém-se a decisão 2026-10-07 #22 (no saco)?",
+      "text": "A armadura da Lia ficou vestida, como o DM disse à mesa, ou mantém-se a decisão 2026-10-07 #22 (no saco)? [substituída: decisão 2026-10-18 #6]",
       "suggestion": "Ficou vestida, como dito à mesa.",
       "because": [
         "transcrição S5 (#88) 0:45:21"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p05",
@@ -4582,7 +4584,7 @@
         "row": "r-garra-seis-dedos",
         "col": "s5"
       },
-      "text": "O que a Lia viu: viu o Quasi tirar o livro (e usar a garra)? Ouviu o Damião falar da goblin na capela?",
+      "text": "O que a Lia viu: viu o Quasi tirar o livro (e usar a garra)? Ouviu o Damião falar da goblin na capela? [substituída: decisão 2026-10-18 #7]",
       "suggestion": "Pelo DM à mesa, «assististe a isto tudo»: viu a cena e ouviu a conversa.",
       "because": [
         "transcrição S5 (#88) 1:11:21"
@@ -4590,7 +4592,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p06",
@@ -4600,7 +4602,7 @@
         "row": "t-gatilho-damiao-ve",
         "col": "s5"
       },
-      "text": "O Damião viu o Lucan a comer a cobra viva? Se viu, porque não reagiu?",
+      "text": "O Damião viu o Lucan a comer a cobra viva? Se viu, porque não reagiu? [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Pela gravação, não viu; o gatilho não disparou.",
       "because": [
         "transcrição S5 (#88) 1:42:05"
@@ -4608,7 +4610,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p07",
@@ -4618,12 +4620,12 @@
         "row": "c-elmiro-trigueiro",
         "col": "s5"
       },
-      "text": "«Belmiro» fica como lapso do sargento ou foi lapso do DM?",
+      "text": "«Belmiro» fica como lapso do sargento ou foi lapso do DM? [substituída: decisão 2026-10-18 #15]",
       "suggestion": "Confirmar com o DM.",
       "because": [
         "transcrição S5 (#88) 1:14:32"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p08",
@@ -4633,12 +4635,12 @@
         "row": "c-yussa-errenis",
         "col": "s5"
       },
-      "text": "Na resposta do Yussa ao sending a transcrição tem «Interessante. Velk Brando.». É um nome (pista) ou erro do ASR?",
+      "text": "Na resposta do Yussa ao sending a transcrição tem «Interessante. Velk Brando.». É um nome (pista) ou erro do ASR? [substituída: decisão 2026-10-18 #14]",
       "suggestion": "Confirmar com o DM.",
       "because": [
         "transcrição S5 (#88) 2:21:08"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr5-p09",
@@ -4648,12 +4650,12 @@
         "row": "c-pc-quasi",
         "col": "s5"
       },
-      "text": "O sextante (e-s5-54) é cânone de equipamento? O DM aceitou à mesa: «podes pôr aí que tens um sextante».",
+      "text": "O sextante (e-s5-54) é cânone de equipamento? O DM aceitou à mesa: «podes pôr aí que tens um sextante». [substituída: decisão 2026-10-18 #24]",
       "suggestion": "Sim, o DM aceitou à mesa.",
       "because": [
         "transcrição S5 (#88) 0:43:55"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p01",
@@ -4678,7 +4680,7 @@
         "row": "c-damiao-prestes",
         "col": "s6"
       },
-      "text": "Quem lê as notas do Perestrelo agora que o Damião morreu (o Alberto, o Quasi com tempo, ninguém)?",
+      "text": "Quem lê as notas do Perestrelo agora que o Damião morreu (o Alberto, o Quasi com tempo, ninguém)? [substituída: decisão 2026-10-18 #9]",
       "suggestion": "Quem lê as notas do Perestrelo agora?",
       "because": [
         "transcrição S6 (#89) 2:43:49"
@@ -4686,7 +4688,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p03",
@@ -4696,7 +4698,7 @@
         "row": "i-pendente-da-lia",
         "col": "s6"
       },
-      "text": "O pendente: fica o aspeto da mesa (prateado, d20 nas costas) ou o da ficha (olho-de-tigre, costas lisas)? E o efeito de parar o tempo funciona com o pendente no bolso do Quasi?",
+      "text": "O pendente: fica o aspeto da mesa (prateado, d20 nas costas) ou o da ficha (olho-de-tigre, costas lisas)? E o efeito de parar o tempo funciona com o pendente no bolso do Quasi? [substituída: decisão 2026-10-18 #1 e #2]",
       "suggestion": "Manter o que a mesa viu, ou fazer um retcon assumido.",
       "because": [
         "transcrição S6 (#89) 1:09:26"
@@ -4704,7 +4706,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p04",
@@ -4714,12 +4716,12 @@
         "row": "c-pc-lucan",
         "col": "s6"
       },
-      "text": "A cauda do Lucan era branca desde a S2?",
+      "text": "A cauda do Lucan era branca desde a S2? [substituída: decisão 2026-10-18 #3]",
       "suggestion": "A Renata disse que sim e o DM aceitou à mesa.",
       "because": [
         "transcrição S6 (#89) 1:51:20"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p05",
@@ -4729,12 +4731,12 @@
         "row": "c-pc-isco",
         "col": "s6"
       },
-      "text": "Os irmãos têm o pano do culto (e o cristal)?",
+      "text": "Os irmãos têm o pano do culto (e o cristal)? [substituída: decisão 2026-10-18 #12]",
       "suggestion": "O DM disse à mesa que o pano está com eles; o cristal por confirmar.",
       "because": [
         "transcrição S6 (#89) 0:15:38"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p06",
@@ -4744,12 +4746,12 @@
         "row": "t-relogio-bolbara-urzin",
         "col": "s6"
       },
-      "text": "A que horas do dia 4 acabou a sessão (relógio da Bolbara e marcha)?",
+      "text": "A que horas do dia 4 acabou a sessão (relógio da Bolbara e marcha)? [substituída: decisão 2026-10-18 #13]",
       "suggestion": "Início da tarde do dia 4; relógio ainda a ½.",
       "because": [
         "transcrição S6 (#89) 1:59:52"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p07",
@@ -4774,7 +4776,7 @@
         "row": "c-corvelo",
         "col": "s6"
       },
-      "text": "O Tibério: o Corvelo reconhece-o no forte (pela espada), ou alguém o reconhece pelos restos na jangada?",
+      "text": "O Tibério: o Corvelo reconhece-o no forte (pela espada), ou alguém o reconhece pelos restos na jangada? [substituída: decisão 2026-10-18 #4]",
       "suggestion": "Reconhecimento no forte, pela espada e pegadas (2026-10-16 #11).",
       "because": [
         "transcrição S6 (#89) 2:16:50"
@@ -4782,7 +4784,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-tr6-p09",
@@ -4824,10 +4826,11 @@
         "col": "s7"
       },
       "factKind": "consequencia",
-      "text": "O Damião morreu na S6, e a preparação do Forte Ventura contava com ele vivo: era ele quem lia depressa as notas do Perestrelo (2026-10-13 #3 e #22; 2026-10-16 #13), ficava no forte com os sobreviventes (2026-10-16 #9) e tinha falas em várias cenas de «Extra: O Forte Ventura v2».",
-      "suggestion": "Decidir quem lê agora as notas do Perestrelo (n-tr6-p02) e reescrever as falas do Damião na preparação do forte.",
+      "text": "O Damião morreu na S6, e a preparação do Forte Ventura contava com ele vivo: era ele quem lia depressa as notas do Perestrelo (2026-10-13 #3 e #22; 2026-10-16 #13), ficava no forte com os sobreviventes (2026-10-16 #9) e tinha falas em várias cenas de «Extra: O Forte Ventura v2». As notas do Perestrelo ficam sem leitor marcado: lê-as quem as apanhar (decisão 2026-10-18 #9).",
+      "suggestion": "Reescrever as falas do Damião na preparação do forte.",
       "because": [
-        "registo/decisoes.md 2026-10-17 #5"
+        "registo/decisoes.md 2026-10-17 #5",
+        "registo/decisoes.md 2026-10-18 #9"
       ],
       "tags": [
         "so-dm"
@@ -4889,6 +4892,112 @@
       "tags": [
         "so-dm"
       ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d18-01",
+      "at": "2026-10-18T12:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Arranque da S7, no rescaldo do combate do obelisco: o Corvelo reconhece o Tibério no lacedon desfeito em cima da jangada, pela cara e pela farda (vermelho imperial, insígnia de um mocho a segurar espigas de trigo, a mesma do escriba): «Tibério. Estava de guarda à capela.» Primeira pista de que o forte caiu. Na S6 ninguém disse o nome; foi o Lucan quem reparou na farda.",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #4"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "suggestion": "Arranque da S7, no rescaldo do combate do obelisco: o Corvelo reconhece o Tibério no lacedon desfeito em cima da jangada, pela cara e pela farda (vermelho imperial, insígnia de um mocho a segurar espigas de trigo, a mesma do escriba): «Tibério. Estava de guarda à capela.» Primeira pista de que o forte caiu. Na S6 ninguém disse o nome; foi o Lucan quem reparou na farda.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-d18-02",
+      "at": "2026-10-18T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-relogio-bolbara-urzin",
+        "col": "s7"
+      },
+      "factKind": "estado",
+      "text": "Para o fecho da S6: a sessão acabou no início da tarde do dia 4, e o relógio da Bolbara continua a ½. Não avançar.",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #13"
+      ],
+      "suggestion": "Para o fecho da S6: a sessão acabou no início da tarde do dia 4, e o relógio da Bolbara continua a ½. Não avançar.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-d18-03",
+      "at": "2026-10-18T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "i-pendente-da-lia",
+        "col": "s7"
+      },
+      "factKind": "estado",
+      "text": "Para o fecho da S6: efeito `posse: i-pendente-da-lia com: c-pc-quasi` («estou a levar emprestado. Já devolvo.», 1:13:39). Com o Quasi, o pendente é só um objeto: a paragem no tempo a 0 PV só funciona com a Lia a usá-lo. Aspeto: medalhão prateado, a lebre de um lado e um dodecaedro (o símbolo do Luxon) do outro.",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #1",
+        "registo/decisoes.md 2026-10-18 #2"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "suggestion": "Para o fecho da S6: efeito `posse: i-pendente-da-lia com: c-pc-quasi` («estou a levar emprestado. Já devolvo.», 1:13:39). Com o Quasi, o pendente é só um objeto: a paragem no tempo a 0 PV só funciona com a Lia a usá-lo. Aspeto: medalhão prateado, a lebre de um lado e um dodecaedro (o símbolo do Luxon) do outro.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-d18-04",
+      "at": "2026-10-18T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s7"
+      },
+      "factKind": "estado",
+      "text": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Ossório não vendeu o pano. Os irmãos ficaram com o pano do culto e o Ossório com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem).",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #12"
+      ],
+      "suggestion": "O handout «Handout — Decrépola (Lucan e Isco) v3» (Drive, Session Prep) ainda diz que o Ossório não vendeu o pano. Os irmãos ficaram com o pano do culto e o Ossório com o cristal; o handout foi entregue na S6. No fecho da S6: `posse` do handout e do pano com os irmãos (decidam qual dos dois o tem).",
+      "status": "aberta"
+    },
+    {
+      "id": "n-d18-05",
+      "at": "2026-10-18T12:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s7"
+      },
+      "factKind": "estado",
+      "text": "Para o fecho da S6: a Lia recuperou o saco (pé de cabra, martelo, tochas, caixa de fazer fogo, rações, besta ligeira; o escudo e o martelo de guerra; o selo de expositor) e tem a armadura vestida desde sempre. O pendente não está no saco: está com o Quasi.",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #6"
+      ],
+      "suggestion": "Para o fecho da S6: a Lia recuperou o saco (pé de cabra, martelo, tochas, caixa de fazer fogo, rações, besta ligeira; o escudo e o martelo de guerra; o selo de expositor) e tem a armadura vestida desde sempre. O pendente não está no saco: está com o Quasi.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-d18-06",
+      "at": "2026-10-18T12:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "i-livro-de-registos",
+        "col": "s7"
+      },
+      "factKind": "pista",
+      "text": "O livro de registos tem uma página a menos (a folha da máscara, que o Quasi rasgou e guardou). Com o Damião morto, quem o ler no forte pode dar por isso: «Estas páginas são contadas. Eles irão saber.»",
+      "because": [
+        "registo/decisoes.md 2026-10-18 #19"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "suggestion": "O livro de registos tem uma página a menos (a folha da máscara, que o Quasi rasgou e guardou). Com o Damião morto, quem o ler no forte pode dar por isso: «Estas páginas são contadas. Eles irão saber.»",
       "status": "aberta"
     }
   ],

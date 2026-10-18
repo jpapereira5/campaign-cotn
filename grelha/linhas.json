@@ -416,7 +416,8 @@
   {
     "id": "i-pendente-da-lia",
     "pcs": [
-      "c-pc-lia"
+      "c-pc-lia",
+      "c-pc-quasi"
     ]
   },
   {
@@ -435,6 +436,12 @@
     "id": "i-amuletos-do-trono",
     "pcs": [
       "c-pc-lucan"
+    ]
+  },
+  {
+    "id": "i-colar-de-conchas-bolbara",
+    "pcs": [
+      "c-pc-isco"
     ]
   },
   {

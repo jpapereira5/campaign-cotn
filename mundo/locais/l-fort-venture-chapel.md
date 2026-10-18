@@ -11,4 +11,4 @@ origem:
 
 Bol'bara acorrentada ao altar; Pellinost tortura e revivifica. Janela de 1 minuto antes de Trush completar a possessão.
 
-Depois da possessão: o Perestrelo morto, com a espada do Tibério enterrada no peito; o corpo do Tibério não está, e um rasto de pegadas molhadas vai do altar à água (Survival CD 12). As notas do padre, atrás do altar, são um interrogatório sobre Urzin (onde fica, quem a protege, as tartarugas), com mapas riscados a cada morte; só o Damião as lê depressa. (Decidido pelo DM (2026-10-16))
+Depois da possessão: o Perestrelo morto, com a espada do Tibério enterrada no peito; o corpo do Tibério não está, e um rasto de pegadas molhadas vai do altar à água (Survival CD 12). As notas do padre, atrás do altar, são um interrogatório sobre Urzin (onde fica, quem a protege, as tartarugas), com mapas riscados a cada morte (Decidido pelo DM (2026-10-16)). Não têm leitor marcado: ficam ali e lê-as quem as apanhar (Decidido pelo DM (2026-10-18); o Damião, que as lia depressa, morreu na S6).

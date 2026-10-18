@@ -2,12 +2,13 @@
 id: t-decisao-miriade-jevan
 tipo: decisao
 nome: Dizer «Miríade» ao Jevan
-legenda: Quasi · S1
+legenda: Lucan · S1
 envolve:
-  - c-pc-quasi
+  - c-pc-lucan
   - c-jevan
   - f-myriad
-pc: c-pc-quasi
+  - c-pc-quasi
+pc: c-pc-lucan
 origem:
   - grelha
 ---

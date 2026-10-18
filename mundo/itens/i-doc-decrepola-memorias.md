@@ -11,7 +11,7 @@ origem:
 
 ## Decrépola — o que vocês se lembram (só Lucan e Isco) (de docs/handouts.md)
 
-**DM:** cânone da backstory do Lucan e do Isco (fichas `c-pc-lucan` e `c-pc-isco`, secção «Decrépola (backstory)»). Entregar à Renata e ao Pedro Ropio. Versão na Drive: «Handout — Decrépola (Lucan e Isco) v3», pasta Session Prep. Os segredos dos contactos estão em `docs/lore.md` (Decrépola) e nas fichas `c-ossorio-lume`, `c-remendo` e `c-vigost`. O Ossório só fala de um culto que compra muito, sem nome de deus e sem falar do Fritz, e dá o nome de quem trata das compras, o Vigost (líder do culto em Decrépola) (Decidido pelo DM (2026-10-16)); o pano com a esfera de olhos é a marca do culto. Que o Fritz é (ou foi) desse culto, e porquê anda por aqui, é para os jogadores descobrirem (Decidido pelo DM (2026-10-16)).
+**DM:** cânone da backstory do Lucan e do Isco (fichas `c-pc-lucan` e `c-pc-isco`, secção «Decrépola (backstory)»). Entregar à Renata e ao Pedro Ropio. Versão na Drive: «Handout — Decrépola (Lucan e Isco) v3», pasta Session Prep. Os segredos dos contactos estão em `docs/lore.md` (Decrépola) e nas fichas `c-ossorio-lume`, `c-remendo` e `c-vigost`. O Ossório só fala de um culto que compra muito, sem nome de deus e sem falar do Fritz, e dá o nome de quem trata das compras, o Vigost (líder do culto em Decrépola) (Decidido pelo DM (2026-10-16)); o pano com a esfera de olhos é a marca do culto. Os irmãos ficaram com o pano; o cristal ficou com o Ossório (Decidido pelo DM (2026-10-18)). **Entregue na S6 (#89, 2026-10-16):** à mesa, o DM deu-lhes o pano («esta merda vocês têm convosco. Decidam qual vocês é que têm.», 0:15:38). A versão da Drive ainda diz que o Ossório não o vendeu. Que o Fritz é (ou foi) desse culto, e porquê anda por aqui, é para os jogadores descobrirem (Decidido pelo DM (2026-10-16)).
 
 Há umas semanas, antes de Asarius e de Urzin, passaram por Decrépola. O Yussa Errenis mandou-vos atrás do rubídio, a pedra vermelha que começou a aparecer no mercado negro, e Decrépola era o sítio onde perguntar.
 
@@ -21,7 +21,7 @@ Há umas semanas, antes de Asarius e de Urzin, passaram por Decrépola. O Yussa 
 
 - «O primeiro lote veio por mar, de Marquet. Isso acabou. O que chega agora desce do norte de Jorhas, pelo caminho de Asarius. De onde vem antes disso, não sei, e não pergunto.»
 - «Quem compra mais, aqui, é um culto. Não lhes pergunto a quem rezam. Quem trata das compras é um velho das catacumbas, o Vigost. Paga bem e leva tudo o que me aparece.»
-- Mostrou-vos um cristal do tamanho de um dente, embrulhado num pano escuro com um símbolo bordado: uma esfera coberta de olhos, todos diferentes uns dos outros. Não o vendeu. «Este já é deles. Marcam tudo o que compram.»
+- Mostrou-vos um cristal do tamanho de um dente, embrulhado num pano escuro com um símbolo bordado: uma esfera coberta de olhos, todos diferentes uns dos outros. O cristal não o vendeu: «Este já é deles. Marcam tudo o que compram.» O pano ficou convosco.
 
 **Remendo, no Cais.** Um humano velho e queimado do sol, com uma pala de couro no olho esquerdo e a barba presa num nó com um anel de cobre. Veste uma camisa de marinheiro remendada tantas vezes que já não se vê o tecido original. Estava sentado num barril, a coser uma vela, e não parou de coser enquanto falava. Bebeu à vossa conta e contou:
 
