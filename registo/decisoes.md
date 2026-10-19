@@ -231,7 +231,7 @@ Leitura da «Ficha de perguntas sobre a personagem» do Tiago Rosa (Drive, 2026-
 4. **O djinni da moeda mente por omissão:** nunca mente ao Boblin e nunca lhe diz tudo. O Boblin não sabe que fala com um djinni, e o djinni não o corrige.
 5. **O humano do desenho anterior da moeda era alguém de Nicodranas.** Trouxe a moeda da Costa das Maravilhas até ao pântano, onde morreu; é o corpo onde o Boblin a encontrou. Quem era fica por decidir.
 6. **O djinni da moeda serve o Khedive Xundi porque lhe perdeu uma aposta, e paga com serviço.** A moeda é um isco do Xundi (Tal'Dorei Reborn, «Lesser Idols»: o marid libertado de debaixo de Nicodranas, que dá poder em troca de aventuras emocionantes e quer vingança), como a ânfora de Stilben. É o espelho do Boblin: outro perdeu uma aposta e ele paga com a liberdade. Ficam de fora: herança de cativeiro, castigo entre génios.
-7. **O humano de Nicodranas era um correio da Miríade na rota do rubídio (que passa por Urzin), e a moeda foi cunhada em Nicodranas.** Viajou no meio do ouro que volta para oeste (`r-myriad-route`). Ficam de fora: o campeão anterior do Xundi, alguém ligado aos Bruma.
+7. **O humano de Nicodranas era um correio da Miríade na rota do rubídio (que passa por Urzin), e a moeda foi cunhada em Nicodranas.** Viajou no meio do ouro que vem para leste (`r-myriad-route`). Ficam de fora: o campeão anterior do Xundi, alguém ligado aos Bruma.
 
 Ficam em aberto: como se liberta do serviço; o que o djinni quer para si (um corpo? a sugestão do Tiago); o nome do correio.
 
