@@ -53,13 +53,13 @@ Melhorar a vida dos irmãos; acabar o serviço com um grande feito e depois junt
 
 - **O djinni mente por omissão:** nunca mente ao Boblin e nunca lhe diz tudo; o Boblin não sabe que fala com um djinni (Decidido pelo DM (2026-10-19)).
 - **O djinni serve o Khedive Xundi porque lhe perdeu uma aposta.** A moeda é um isco do marid (Tal'Dorei Reborn, «Lesser Idols»: libertado de debaixo de Nicodranas, dá poder em troca de aventuras emocionantes, convida os que sobrevivem para um banquete no Palácio do Lodo de Prata e quer vingança). O espelho do Boblin: outro perdeu uma aposta e ele paga com a liberdade (Decidido pelo DM (2026-10-19)).
-- **A moeda foi cunhada em Nicodranas.** O humano do desenho anterior era um correio da Miríade na rota do rubídio, que passa por Urzin; a moeda viajou no meio do ouro e o correio morreu no pântano (`r-myriad-route`; Decidido pelo DM (2026-10-19)).
+- **A moeda foi cunhada em Nicodranas.** Uma patrulha encontrou-a e levou-a para o Forte Ventura; o Tibério, guarda da capela e homem da Miríade no forte (nascido em Nicodranas), ganhou-a no concurso de apostas do pátio. A face humana era a cara dele. O Boblin tirou-lha do corpo na água, depois de o Tibério sair morto da capela na noite do dia 3 e antes do combate do obelisco: os poderes são de há menos de um dia (`c-tiberio`; Decidido pelo DM (2026-10-19)).
 - **O credor é o Bufal II:** foi a ele que a irmã tentou enganar, e é ele quem fixa o preço da liberdade do Boblin. O exílio no pântano era para o Boblin não voltar (Decidido pelo DM (2026-10-19)).
 - **Entrada:** no pântano, atrás da Bolbara, depois do forte; batedor sozinho (Decidido pelo DM (2026-10-19)).
-- **Descobertas do capítulo 0:** a carga do correio junto ao corpo (pedras vermelhas e ouro imperial); os Bruma reconhecem o cunho de Nicodranas (brasão da Concórdia de Clóvis, mas a outra face é um goblin); em Urzin, sabe que o exílio era para morrer (Decidido pelo DM (2026-10-19); arcos do Boblin 2026-10-20 v1).
+- **Descobertas do capítulo 0:** quando entra, junta as peças com o que o grupo achou no corpo do Tibério (a caixinha de cristais vermelhos; decisão 2026-10-19 #14); os Bruma reconhecem o cunho de Nicodranas (brasão da Concórdia de Clóvis, mas a outra face é um goblin); em Urzin, sabe que o exílio era para morrer (Decidido pelo DM (2026-10-19); arcos do Boblin 2026-10-20 v1).
 - **A irmã com febre escarlate:** no regresso a Urzin, a irmã mais nova está doente; tentou contrabandear cristais vermelhos para pagar a dívida (Decidido pelo DM (2026-10-19)).
 - **Capítulo 1:** o djinni empurra-o para as apostas do festival e acerta sempre; quando ganha, a moeda pesa mais (Decidido pelo DM (2026-10-19)).
-- **Por decidir:** o que o djinni quer para si (a sugestão do Tiago: um corpo); o nome do correio; os valores da liberdade.
+- **Por decidir:** o que o djinni quer para si (a sugestão do Tiago: um corpo); os valores da liberdade.
 
 ## Ideias substituídas
 

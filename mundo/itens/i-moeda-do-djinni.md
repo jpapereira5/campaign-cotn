@@ -13,7 +13,7 @@ Moeda de ouro grossa, o vaso do génio do Boblin (Warlock, Génio). O Boblin pod
 
 **Aspeto:** numa face, um goblin de perfil; na outra, o brasão da Concórdia de Clóvis. A face muda com o utilizador mais recente: hoje um goblin, antes um humano; o brasão fica. (Decidido pelo DM (2026-10-19))
 
-**Cunhada em Nicodranas.** O humano do desenho anterior era um correio da Miríade na rota do rubídio (que passa por Urzin); a moeda viajou no meio do ouro que vem para leste, e o correio morreu no pântano. (Decidido pelo DM (2026-10-19))
+**Cunhada em Nicodranas.** Uma patrulha encontrou-a e levou-a para o Forte Ventura; o Tibério, guarda da capela e homem da Miríade no forte, ganhou-a no concurso de apostas do pátio («Tibério ganhou»). A face humana era a cara dele. O Boblin tirou-lha do corpo na água, depois de o Tibério sair morto da capela (noite do dia 3). (Decidido pelo DM (2026-10-19))
 
 ## Segredo
 
