@@ -6,9 +6,9 @@ Este repositório é a fonte de verdade da campanha Call of the Netherdeep do DM
 
 Os procedimentos de trabalho estão em `.claude/skills/<nome>/SKILL.md` (Markdown simples com cabeçalho `name`/`description`; qualquer ferramenta os pode seguir).
 
-- **Genéricas** (cópia-mãe no repositório `jpapereira5/dnd-skills`; aqui ficam cópias): `decidir`, `arcos`, `capitulo`, `npc`, `local`, `batalha`, `runsheet`, `livro`. Uma mudança a uma delas faz-se primeiro no `dnd-skills` e copia-se para cá.
+- **Genéricas** (cópia-mãe no repositório `jpapereira5/dnd-skills`; aqui ficam cópias): `decidir`, `arcos`, `capitulo`, `npc`, `local`, `batalha`, `livro`. Uma mudança a uma delas faz-se primeiro no `dnd-skills` e copia-se para cá.
 - **Uma mudança a uma skill atualiza-a em todo o lado, na mesma conversa:** (1) `jpapereira5/dnd-skills` se for genérica, (2) `.claude/skills/` deste repositório, (3) as skills da conta do claude.ai (proposta de atualização com o SKILL.md completo) e (4) a cópia de leitura na Drive, pasta `DND/skills/` (`1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H`): um `<nome>.md` por skill (`text/markdown`, sem conversão; as só da CotN como «<nome> (só CotN).md»), versão nova como ficheiro novo e a anterior para o lixo; (5) os documentos do Projeto «Dungeons & Dragons» do claude.ai, `skills/<nome>.md` (as só da CotN como «skills/<nome> (só CotN).md»), reescritos no mesmo caminho. Não há cópia do repositório na Drive (as três que lá estavam foram para o lixo a 2026-10-19): o repositório vive só no GitHub.
-- **Só deste projeto** (dependem da Grelha): `preparar`, `fecho`, `vigia`.
+- **Só deste projeto** (dependem da Grelha): `preparar` (a leitura da Grelha e o documento de preparação da sessão; a antiga skill genérica `runsheet` foi fundida nela a 2026-10-19), `fecho`, `vigia`.
 
 ## Para as skills
 
