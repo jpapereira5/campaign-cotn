@@ -228,5 +228,7 @@ Leitura da «Ficha de perguntas sobre a personagem» do Tiago Rosa (Drive, 2026-
 2. **O questionário do Tiago (2026-10-18) é a backstory do Boblin e substitui as notas da primeira conversa (2026-10-06):** família nómada miserável de 18 filhos, assentou em Urzin; batedor sozinho nos pântanos em troca de não condenarem a irmã mais nova (a 17.ª); a moeda veio de um corpo no pântano. Saem os pais ricos e a partida voluntária de Urzin.
 3. **A fé da família do Boblin é Melora,** a dos antigos patronos goblinoides de Urzin (os santuários que viajam ao lado dos templos do Luxon). O Boblin não é devoto.
 
+4. **O djinni da moeda mente por omissão:** nunca mente ao Boblin e nunca lhe diz tudo. O Boblin não sabe que fala com um djinni, e o djinni não o corrige.
+
 Ficam em aberto: como se liberta do serviço (depende do que quer o djinni); o que quer o djinni, como foi preso e quem era o humano da moeda.
 

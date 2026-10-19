@@ -46,7 +46,7 @@ Melhorar a vida dos irmãos; acabar o serviço com um grande feito e depois junt
 
 ## Segredo
 
-Por decidir: o que quer o djinni, porque e como foi preso, quem era o humano do desenho anterior da moeda (o corpo do pântano?).
+O djinni mente por omissão: nunca mente ao Boblin e nunca lhe diz tudo; o Boblin não sabe que fala com um djinni (Decidido pelo DM (2026-10-19)). Por decidir: o que quer o djinni, porque e como foi preso, quem era o humano do desenho anterior da moeda (o corpo do pântano?).
 
 ## Ideias substituídas
 
