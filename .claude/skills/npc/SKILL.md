@@ -5,7 +5,7 @@ description: Criar ou aprofundar um NPC de uma campanha ou one-shot de D&D em do
 
 # npc: figurante (Mulligan) ou elenco (Mercer)
 
-Uma só skill com dois níveis: o nível escolhe-se pelo papel do NPC, não pela vontade de escrever muito. Fontes do método na Drive: `task_npc.md`, `npc_quick_template.md` (figurante) e `npc_template.md` (elenco), na pasta de templates; princípios no `dm_profile.md` (repositório `dnd-skills`, pasta `reference/`).
+Uma só skill com dois níveis: o nível escolhe-se pelo papel do NPC, não pela vontade de escrever muito. Princípios no `dm_profile.md` (repositório `dnd-skills`, pasta `reference/`).
 
 ## 0. Escolher o nível
 

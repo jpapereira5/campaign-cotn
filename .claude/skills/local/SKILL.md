@@ -5,7 +5,7 @@ description: Criar ou aprofundar um local de uma campanha ou one-shot de D&D (ci
 
 # local: um sítio vivo, e as lojas
 
-Um local não é um cenário parado: é um sítio onde está a acontecer alguma coisa quando o grupo chega. Fonte do método: `task_location.md` na Drive (pasta de tarefas).
+Um local não é um cenário parado: é um sítio onde está a acontecer alguma coisa quando o grupo chega. Uma loja é um local primeiro (atmosfera, o que não encaixa, vida) e o comércio vem por cima.
 
 ## 1. Antes de escrever
 
@@ -31,7 +31,12 @@ Um local não é um cenário parado: é um sítio onde está a acontecer alguma 
 - **Layout:** tabela de áreas (área · descrição · o que se pode fazer) e acessos.
 - **Vida do lugar:** movimento, conversas, conflitos a decorrer.
 - **NPCs presentes:** tabela (nome · papel · o que está a fazer · ficha) e uma ou duas frases de primeira impressão por NPC.
-- **Comércio** (só se vende coisas): nível da loja (1–4), regateio (CD e regra), stock normal, stock especial (raridade, efeito), serviços, e **o que não está à venda** (objetos à vista que não se vendem: ganchos de quest, apego do NPC). Preços do Player's Handbook e do DMG; itens do cenário pelas regras do livro e pelas regras da casa do projeto. Itens próprios da loja ganham ficha própria no projeto se forem importantes.
+- **Comércio** (só se vende coisas): o stock conta a história do dono e do estado do mundo.
+  - **Nível da loja**, que decide o teto de preço e de raridade: **1** aldeia (comum, armas e armaduras básicas, até 50 po); **2** vila (incomum, uma arma +1 é possível, até 500 po); **3** cidade (raro, até 5000 po); **4** metrópole ou sítio mágico (muito raro; lendário possível).
+  - **Regateio:** CD 15 (Persuasão ou a perícia social que fizer sentido), ajustada à atitude do dono e à reputação do grupo. Sucesso: 10–20% de desconto. Falhar por 5 ou mais: o dono ofende-se e os preços sobem 10%. 20 natural: desconto grande e aparece stock especial.
+  - **Stock normal:** 6–10 itens (item · preço · nota). **Stock especial:** 2–4 itens únicos (item · preço · raridade · efeito e sabor; homebrew com efeito mecânico). **Serviços:** pelo menos 2 (reparar, identificar, encomendas; preço e tempo).
+  - **O que não está à venda:** sempre pelo menos um objeto à vista que não se vende. Descreve-o, diz onde está e porque o dono o guarda, e o que acontece se os jogadores insistirem: é um gancho de quest disfarçado de inventário.
+  - Preços do Player's Handbook e do DMG; itens do cenário pelas regras do livro e pelas regras da casa do projeto. O dono é um NPC: aqui só o resumo de cena, a ficha faz-se com a skill `npc`. Itens próprios da loja ganham ficha própria no projeto se forem importantes.
 - **Perigo** (só se houver): tabela de riscos (efeito, CD, onde) e notas táticas (cobertura, elevação, luz, terreno). Se for palco de combate, a skill `batalha` aproveita isto.
 - **Segredos:** tabela em três camadas (superfície, fundo, escondido), com o modo de descobrir, a CD e o impacto.
 - **Mudança com o tempo:** dia e noite, depois de um acontecimento, se os jogadores fizerem algo.
