@@ -57,6 +57,8 @@ Melhorar a vida dos irmãos; acabar o serviço com um grande feito e depois junt
 - **O credor é o Bufal II:** foi a ele que a irmã tentou enganar, e é ele quem fixa o preço da liberdade do Boblin. O exílio no pântano era para o Boblin não voltar (Decidido pelo DM (2026-10-19)).
 - **Entrada:** no pântano, atrás da Bolbara, depois do forte; batedor sozinho (Decidido pelo DM (2026-10-19)).
 - **Descobertas do capítulo 0:** a carga do correio junto ao corpo (pedras vermelhas e ouro imperial); os Bruma reconhecem o cunho de Nicodranas (brasão da Concórdia de Clóvis, mas a outra face é um goblin); em Urzin, sabe que o exílio era para morrer (Decidido pelo DM (2026-10-19); arcos do Boblin 2026-10-20 v1).
+- **A irmã com febre escarlate:** no regresso a Urzin, a irmã mais nova está doente; tentou contrabandear cristais vermelhos para pagar a dívida (Decidido pelo DM (2026-10-19)).
+- **Capítulo 1:** o djinni empurra-o para as apostas do festival e acerta sempre; quando ganha, a moeda pesa mais (Decidido pelo DM (2026-10-19)).
 - **Por decidir:** o que o djinni quer para si (a sugestão do Tiago: um corpo); o nome do correio; os valores da liberdade.
 
 ## Ideias substituídas
