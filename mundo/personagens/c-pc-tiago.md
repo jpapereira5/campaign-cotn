@@ -46,7 +46,10 @@ Melhorar a vida dos irmãos; acabar o serviço com um grande feito e depois junt
 
 ## Segredo
 
-O djinni mente por omissão: nunca mente ao Boblin e nunca lhe diz tudo; o Boblin não sabe que fala com um djinni (Decidido pelo DM (2026-10-19)). Por decidir: o que quer o djinni, porque e como foi preso, quem era, ao certo, o humano do desenho anterior da moeda: alguém de Nicodranas, que a trouxe até ao pântano e morreu lá (é o corpo onde o Boblin a encontrou; Decidido pelo DM (2026-10-19)).
+- **O djinni mente por omissão:** nunca mente ao Boblin e nunca lhe diz tudo; o Boblin não sabe que fala com um djinni (Decidido pelo DM (2026-10-19)).
+- **O djinni serve o Khedive Xundi porque lhe perdeu uma aposta.** A moeda é um isco do marid (Tal'Dorei Reborn, «Lesser Idols»: libertado de debaixo de Nicodranas, dá poder em troca de aventuras emocionantes, convida os que sobrevivem para um banquete no Palácio do Lodo de Prata e quer vingança). O espelho do Boblin: outro perdeu uma aposta e ele paga com a liberdade (Decidido pelo DM (2026-10-19)).
+- **A moeda foi cunhada em Nicodranas.** O humano do desenho anterior era um correio da Miríade na rota do rubídio, que passa por Urzin; a moeda viajou no meio do ouro e o correio morreu no pântano (`r-myriad-route`; Decidido pelo DM (2026-10-19)).
+- **Por decidir:** o que o djinni quer para si (a sugestão do Tiago: um corpo); o nome do correio; como se liberta o Boblin do serviço.
 
 ## Ideias substituídas
 
