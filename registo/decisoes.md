@@ -229,6 +229,7 @@ Leitura da «Ficha de perguntas sobre a personagem» do Tiago Rosa (Drive, 2026-
 3. **A fé da família do Boblin é Melora,** a dos antigos patronos goblinoides de Urzin (os santuários que viajam ao lado dos templos do Luxon). O Boblin não é devoto.
 
 4. **O djinni da moeda mente por omissão:** nunca mente ao Boblin e nunca lhe diz tudo. O Boblin não sabe que fala com um djinni, e o djinni não o corrige.
+5. **O humano do desenho anterior da moeda era alguém de Nicodranas.** Trouxe a moeda da Costa das Maravilhas até ao pântano, onde morreu; é o corpo onde o Boblin a encontrou. Quem era fica por decidir.
 
 Ficam em aberto: como se liberta do serviço (depende do que quer o djinni); o que quer o djinni, como foi preso e quem era o humano da moeda.
 
