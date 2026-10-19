@@ -219,3 +219,14 @@ Ficam em aberto (o DM ainda vê): o Quasi a 2 PV no fim da S6 e a insanidade da 
 34. **O primeiro flash de Ruidus do Isco não faz vítima** (substitui a decisão 2026-10-13 #15 na parte do Elmiro): na noite com a patrulha, o Isco sonha que mata o Elmiro e acorda de manhã molhado até à cintura e com sangue nas mãos; o Elmiro está vivo, e na água, perto do acampamento, há um animal morto, desfeito. A pista fica subentendida; não se explica. Ficam de fora: o Elmiro morto; adiar o flash.
 35. **Ninguém novo entra na S7:** joga a mesa dos quatro (Renata, Pedro Ropio, Pedro Silva, Camila). A entrada do Tiago Rosa fica para mais tarde.
 36. **Na S7, o grupo descansa junto à pedra se quiser** (o Quasi está a 2 PV); a mais de 3 m do menir, o menir não interfere. A preparação da S7 é «Sessão 07 — Preparação: A Jangada dos Mortos» (Drive, Session Prep; título provisório), com o arranque novo e as mortes do Damião e do Alex.
+
+## Decidido pelo DM (2026-10-19)
+
+Leitura da «Ficha de perguntas sobre a personagem» do Tiago Rosa (Drive, 2026-10-18).
+
+1. **A personagem do Tiago chama-se Boblin.** O nome provisório do jogador fica; os pais não ligaram ao nome.
+2. **O questionário do Tiago (2026-10-18) é a backstory do Boblin e substitui as notas da primeira conversa (2026-10-06):** família nómada miserável de 18 filhos, assentou em Urzin; batedor sozinho nos pântanos em troca de não condenarem a irmã mais nova (a 17.ª); a moeda veio de um corpo no pântano. Saem os pais ricos e a partida voluntária de Urzin.
+3. **A fé da família do Boblin é Melora,** a dos antigos patronos goblinoides de Urzin (os santuários que viajam ao lado dos templos do Luxon). O Boblin não é devoto.
+
+Ficam em aberto: como se liberta do serviço (depende do que quer o djinni); o que quer o djinni, como foi preso e quem era o humano da moeda.
+
