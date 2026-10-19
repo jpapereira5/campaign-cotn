@@ -5152,6 +5152,26 @@
         "registo/decisoes.md 2026-10-12 #18"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-boblin-01",
+      "at": "2026-10-20T00:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-tiago",
+        "col": "ch0"
+      },
+      "factKind": "cena",
+      "text": "Entrada do Boblin no pântano, atrás da Bolbara, depois do forte. Três descobertas no capítulo 0: a carga do correio junto ao corpo (pedras vermelhas e ouro imperial); os Bruma reconhecem o cunho de Nicodranas; em Urzin, o exílio do Bufal era para morrer.",
+      "suggestion": "Preparar a cena de entrada e o corpo do correio (onde, o que tem, quem o procura).",
+      "because": [
+        "registo/decisoes.md 2026-10-19 #10",
+        "registo/decisoes.md 2026-10-19 #11"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

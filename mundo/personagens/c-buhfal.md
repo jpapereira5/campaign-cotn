@@ -45,3 +45,5 @@ Recuperar Bol'bara viva e manter Urzin unida e segura sem provocar o Império.
 ## Segredo
 
 Não confia que os PCs voltem; já pondera quem substituirá Bol'bara como seer.
+
+**O Boblin (PC do Tiago):** a irmã mais nova do Boblin tentou enganá-lo num esquema de apostas e foi apanhada; para ela não ser condenada, o Bufal mandou o Boblin sozinho para o pântano como batedor, até cumprir um tempo, fazer um grande feito ou pagar em prata. O preço é ele quem o fixa, e o exílio era para o Boblin não voltar. (Decidido pelo DM (2026-10-19))

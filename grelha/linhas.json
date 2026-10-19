@@ -798,5 +798,11 @@
   },
   {
     "id": "t-mesa-confessionario"
+  },
+  {
+    "id": "i-moeda-do-djinni",
+    "pcs": [
+      "c-pc-tiago"
+    ]
   }
 ]

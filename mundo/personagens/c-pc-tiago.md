@@ -15,6 +15,11 @@ capitulos:
 legenda: Tiago Rosa · goblin, warlock (Génio)
 quer: Tirar os irmãos da miséria e viverem todos com luxo e boa comida.
 teme: Que alguém de quem gosta pague pelos erros dele outra vez.
+relacoes:
+  - com: c-buhfal
+    tipo: wantsFrom
+    nota: a liberdade; foi o Bufal que o mandou para o pântano pela irmã
+    origem: tiago
 tags:
   - pc
   - cotn_2026
@@ -49,7 +54,10 @@ Melhorar a vida dos irmãos; acabar o serviço com um grande feito e depois junt
 - **O djinni mente por omissão:** nunca mente ao Boblin e nunca lhe diz tudo; o Boblin não sabe que fala com um djinni (Decidido pelo DM (2026-10-19)).
 - **O djinni serve o Khedive Xundi porque lhe perdeu uma aposta.** A moeda é um isco do marid (Tal'Dorei Reborn, «Lesser Idols»: libertado de debaixo de Nicodranas, dá poder em troca de aventuras emocionantes, convida os que sobrevivem para um banquete no Palácio do Lodo de Prata e quer vingança). O espelho do Boblin: outro perdeu uma aposta e ele paga com a liberdade (Decidido pelo DM (2026-10-19)).
 - **A moeda foi cunhada em Nicodranas.** O humano do desenho anterior era um correio da Miríade na rota do rubídio, que passa por Urzin; a moeda viajou no meio do ouro e o correio morreu no pântano (`r-myriad-route`; Decidido pelo DM (2026-10-19)).
-- **Por decidir:** o que o djinni quer para si (a sugestão do Tiago: um corpo); o nome do correio; como se liberta o Boblin do serviço.
+- **O credor é o Bufal II:** foi a ele que a irmã tentou enganar, e é ele quem fixa o preço da liberdade do Boblin. O exílio no pântano era para o Boblin não voltar (Decidido pelo DM (2026-10-19)).
+- **Entrada:** no pântano, atrás da Bolbara, depois do forte; batedor sozinho (Decidido pelo DM (2026-10-19)).
+- **Descobertas do capítulo 0:** a carga do correio junto ao corpo (pedras vermelhas e ouro imperial); os Bruma reconhecem o cunho de Nicodranas (brasão da Concórdia de Clóvis, mas a outra face é um goblin); em Urzin, sabe que o exílio era para morrer (Decidido pelo DM (2026-10-19); arcos do Boblin 2026-10-20 v1).
+- **Por decidir:** o que o djinni quer para si (a sugestão do Tiago: um corpo); o nome do correio; os valores da liberdade.
 
 ## Ideias substituídas
 
