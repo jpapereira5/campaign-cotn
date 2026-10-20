@@ -19,7 +19,7 @@ legenda: guarda da capela; homem da Miríade no forte; morto
 relacoes:
   - com: c-pc-tiago
     tipo: other
-    nota: o Boblin tirou-lhe a moeda do corpo
+    nota: ganhou a moeda do Boblin numa aposta, com o Boblin lá dentro
     origem: mesa
 origem:
   - mesa
@@ -35,4 +35,4 @@ Passar a carga da Miríade pelo forte.
 
 ## Segredo
 
-DM: **era o homem da Miríade dentro do Forte Ventura, nascido em Nicodranas**, a porta da rota do rubídio Urzin → Império (`r-myriad-route`). **A moeda do Boblin** (`i-moeda-do-djinni`) foi encontrada por uma patrulha, que a levou para o forte; o Tibério ganhou-a no concurso de apostas do pátio («Tibério ganhou»). A face humana da moeda era a cara dele. O Boblin tirou-lha do corpo, na água, depois de ele sair morto do forte e antes do combate do obelisco. **No corpo ficou uma caixinha de cristais vermelhos**, que o grupo encontra quando mexer no Tibério na jangada (S7). (Decidido pelo DM (2026-10-19))
+DM: **era o homem da Miríade dentro do Forte Ventura, nascido em Nicodranas**, a porta da rota do rubídio Urzin → Império (`r-myriad-route`) (Decidido pelo DM (2026-10-19)). **Ganhou a moeda do Boblin** (`i-moeda-do-boblin`) numa aposta no forte, depois de uma patrulha a trazer do pântano; não sabia que o Boblin estava lá dentro. Morreu e levantou-se como lacedon com ela. **No corpo, em cima da jangada, estão a moeda (com o Boblin dentro) e uma caixinha de cristais vermelhos,** que o grupo encontra quando o revistar no arranque da S7. (Decidido pelo DM (2026-10-20))
