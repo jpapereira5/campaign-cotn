@@ -30,7 +30,7 @@ Os cinco que existem como `c-*` recebem patches curtos; os restantes ficam aqui:
 - **Raunie**: título da mulher do acampamento com mais poder na Sight. Guia a vida espiritual da família, julga e dá sentença nos crimes internos; a voz dela é ouvida em tudo. Normalmente a mais velha, nem sempre.
 - **Evil eye**: enegrecer misticamente a sorte de alguém; dispara por ato de vontade, focando raiva, ódio, ciúme ou inveja pelos olhos. **Sight**: divinação a sério. Toda a raunie tem os dois; muitas outras mulheres da família também.
 - **A Sight só é permitida entre mulheres.** Ocorre em homens, mas qualquer bebé macho a quem seja detetada é morto.
-- **As Brumas**: funcionam por si; todos os clãs vistani as usam para atravessar continentes (DM). Os antepassados não dão atalhos.
+- **As Brumas**: funcionam por si; todos os clãs vistani as usam para atravessar continentes (DM). Exandria não tem Brumas — só nevoeiro comum, onde a coisa se reflete marginalmente. O **atalho do Quasi** é exceção e vem dos antepassados, pela máscara: com nevoeiro à partida, a viagem por estrada demora metade do tempo (Decidido pelo DM (2026-10-20); ver [[c-pc-quasi]]).
 - **Ederlezi**: festa vistani/romani de primavera. Na campanha (DM) é o além vistani: os mortos festejam-na para sempre.
 
 ## Zigurates de Exandria (canon Critical Role)
