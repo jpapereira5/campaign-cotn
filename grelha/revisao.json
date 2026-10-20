@@ -367,7 +367,7 @@
         "row": "amb-quasi-maldicao",
         "col": "ch7"
       },
-      "text": "A cura: alguém tem de ver a Besta lá dentro e reconhecer o Quasi nela, em três sucessos que a humanizam; é a mesma mecânica de redimir Alyxian (decisão 2026-10-20 #24-#26).",
+      "text": "A cura: alguém tem de ver a Besta lá dentro e reconhecer o Quasi nela, em nove brechas, três por fase, que a humanizam; é a mesma mecânica de redimir Alyxian (decisão 2026-10-20 #24-#26).",
       "tags": [
         "so-dm"
       ],
@@ -5289,8 +5289,8 @@
         "col": "ch7"
       },
       "factKind": "cena",
-      "text": "A chave da cura ficou decidida: alguém tem de ver a Besta e reconhecer o Quasi nela. Libertam-na das correntes (ela luta melhor) e alcançam-na em tres testes de Carisma, CD 16, +2 por ronda em que lhe causem dano, teto +6, -2 por quem leve um ataque dela e nao retalie. A cada sucesso ela humaniza e perde habilidades, ate recuperar a cara dele e as duas metades se fundirem. O Quasi nao se pode alcançar a si proprio.",
-      "suggestion": "Semear ao longo da campanha momentos em que o lado amavel do Quasi apareça e alguem repare: cada um vale uma vantagem na cena, e o numero diz-se aos jogadores antes de começar. Sem sementeira a cena final nao tem alicerce. Comecar ja na S7.",
+      "text": "A chave da cura ficou decidida: alguem tem de ver a Besta e reconhecer o Quasi nela. Libertam-na das correntes (ela luta melhor) e abrem-lhe nove brechas, tres por fase, humanizando-a ate a cara dele e a fusao. Mecanica: rola a Besta, nao o jogador. Resistencia comeca em +8 (chao +0, teto +10); cada tentativa e d20 + Resistencia contra CD 15 fixa, e abaixo de 15 e brecha. Brecha baixa 1; ronda em que lhe batem sobe 1; quem leve um ataque e nao retalie baixa 1, uma vez por pessoa. Cada personagem tenta uma vez por ronda, gastando a acao. O Quasi nao se pode alcançar a si proprio.",
+      "suggestion": "Dizer o numero alto a cada ronda: e o tell que lhes mostra que bater piora, e e o que torna isto descoberta em vez de ratoeira. Julgar a qualidade de cada tentativa: momento semeado da-lhe dois dados e fica com o pior; improviso honesto rola normal; lisonja ou argumento repetido da-lhe dois e fica com o melhor. Por isso: semear ao longo da campanha momentos em que o lado amavel do Quasi apareça e alguem repare, a começar ja na S7 — sem sementeira a cena final nao tem alicerce.",
       "because": [
         "registo/decisoes.md 2026-10-20 #24",
         "registo/decisoes.md 2026-10-20 #25",
