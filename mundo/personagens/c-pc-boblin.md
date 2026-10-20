@@ -12,7 +12,7 @@ capitulos:
   - ch5
   - ch6
   - ch7
-legenda: Tiago Rosa · goblin, warlock (Génio, Marid)
+legenda: Tiago Rosas · goblin, warlock (Génio, Marid)
 quer: Tirar os irmãos da miséria e viverem todos com luxo e boa comida.
 teme: Que alguém de quem gosta pague pelos erros dele outra vez.
 relacoes:
@@ -33,7 +33,7 @@ origem:
 
 ## Resumo
 
-Personagem do Tiago Rosa. **Nome: Boblin** (os pais não ligaram ao nome; Decidido pelo DM (2026-10-19)). Goblin, Warlock 3 (Génio, Marid: o patrono é o Khedive Xundi; o Tiago decide se muda as features da ficha, que dizia Djinni; Decidido pelo DM (2026-10-20)), antecedente Charlatão; alinhamento por fechar com o DM (o jogador aponta para Neutro, a puxar para Caótico Neutro com a moeda). 10 anos, 98 cm, 23 kg; olhos amarelos que às vezes ficam azuis (o génio); pele verde; cabelo preto. Fala comum e goblin. **Fé da família: Melora** (Decidido pelo DM (2026-10-19)), a dos antigos patronos goblinoides que viajam nas tartarugas ao lado dos templos do Luxon; o Boblin não é devoto. Ficha completa no D&D Beyond (dndbeyond.com/characters/172024157). Fonte: «Ficha de perguntas sobre a personagem» (Drive, pasta Tiago Rosas, 2026-10-18), que substitui as notas da primeira conversa («Tiago Rosa», 2026-10-06).
+Personagem do Tiago Rosas. **Nome: Boblin** (os pais não ligaram ao nome; Decidido pelo DM (2026-10-19)). Goblin, Warlock 3 (Génio, Marid: o patrono é o Khedive Xundi; o Tiago decide se muda as features da ficha, que dizia Djinni; Decidido pelo DM (2026-10-20)), antecedente Charlatão; alinhamento por fechar com o DM (o jogador aponta para Neutro, a puxar para Caótico Neutro com a moeda). 10 anos, 98 cm, 23 kg; olhos amarelos que às vezes ficam azuis (o génio); pele verde; cabelo preto. Fala comum e goblin. **Fé da família: Melora** (Decidido pelo DM (2026-10-19)), a dos antigos patronos goblinoides que viajam nas tartarugas ao lado dos templos do Luxon; o Boblin não é devoto. Ficha completa no D&D Beyond (dndbeyond.com/characters/172024157). Fonte: «Ficha de perguntas sobre a personagem» (Drive, pasta Tiago Rosas, 2026-10-18), que substitui as notas da primeira conversa («Tiago Rosas», 2026-10-06).
 
 **Origem.** Nasceu em campos selvagens, numa família nómada de coletores, miserável: cabanas de palha e madeira desmontadas a cada migração. Memória mais antiga: as papas de larvas e terra (daí, mais tarde, o gosto de gourmet). É o 12.º de 18 irmãos (10 irmãos, 6 mais velhos; 7 irmãs, 5 mais velhas). Os pais não tinham apego aos filhos e deixavam alguns para trás nas migrações; não se lembra dos nomes deles, mas reconhecia-os. Criaram-no os irmãos, que tiraram do pouco que tinham para ele sobreviver (cresceu fraco).
 

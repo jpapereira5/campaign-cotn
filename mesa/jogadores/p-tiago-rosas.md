@@ -1,6 +1,6 @@
 ---
-id: p-tiago-rosa
-nome: Tiago Rosa
+id: p-tiago-rosas
+nome: Tiago Rosas
 pc: c-pc-boblin
 origem:
   - grelha
