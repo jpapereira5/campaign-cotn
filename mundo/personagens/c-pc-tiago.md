@@ -59,7 +59,8 @@ Melhorar a vida dos irmãos; acabar o serviço com um grande feito e depois junt
 - **Descobertas do capítulo 0:** os Bruma reconhecem o cunho de Nicodranas (o brasão), mas a outra face é um goblin; em Urzin, sabe que o exílio era para morrer (Decidido pelo DM (2026-10-19)).
 - **A irmã com febre escarlate:** no regresso a Urzin, a irmã mais nova está doente; tentou contrabandear cristais vermelhos para pagar a dívida (Decidido pelo DM (2026-10-19)).
 - **Capítulo 1:** o Xundi empurra-o para as apostas do festival e acerta sempre; quando ganha, a moeda pesa mais (Decidido pelo DM (2026-10-19)).
-- **Por decidir:** a face humana da moeda (o dono antes do Boblin, o corpo onde a achou); o que o Xundi quer dele para além do espetáculo; os valores da liberdade.
+- **A face humana da moeda era a do Tibério;** quando o grupo a encontra, tem um goblin de perfil (Decidido pelo DM (2026-10-20)).
+- **Por decidir:** o que o Xundi quer dele para além do espetáculo; os valores da liberdade.
 
 ## Ideias substituídas
 
