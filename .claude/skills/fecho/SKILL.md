@@ -25,7 +25,8 @@ trabalho e os cuidados.
 8. **Confere antes de gravar:** relê cada acontecimento contra a marca de tempo que cita (quem fez, quem disse, números, ordem). O que a transcrição não sustenta sai ou passa a pergunta.
 9. **Resumo na Drive:** escreve-o a partir do registo já validado (nunca ao contrário), na pasta «Resumo de Sessoes» (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`), como Google Doc criado a partir de Markdown.
 10. **Documentos dos PCs na Drive:** em cada fecho, refaz o documento consolidado de cada PC na pasta desse PC (dentro de `PCs`, `1DlPuhGA7npun4bEQ7ZD7vGm3Tka9ZJot`; as ids estão no `AGENTS.md`, secção «Para as skills») a partir das fichas `mundo/personagens/c-pc-*.md` e dos registos já validados (inventário, posses, o que sabe, laços, a sessão nova), sem segredos `so-dm` de outros PCs; versão seguinte como Google Doc criado a partir de Markdown, a anterior vai para o lixo.
-11. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, e se o deploy já está no ar.
+11. **Cópia do repositório na Drive:** depois do push, atualiza a cópia de leitura em `cotn_2026/copia_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`) pelo passo a passo de `docs/copia-drive.md` (só as peças que mudaram, manifesto no fim). Não espera pela tarefa diária.
+12. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar e quantas peças da cópia na Drive foram atualizadas.
 
 ## A transcrição
 
