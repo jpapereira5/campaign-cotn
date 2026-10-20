@@ -143,6 +143,15 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
 - Alyxian está no Netherdeep e nada o prende ali senão a convicção de que não merece sair; a metade do Quasi está acorrentada por uma sentença que diz que ele não merece ser amado.
 - A absolvição de Alyxian faz-se recebendo bondade e sendo lembrado do homem que ainda podia ser, em três sucessos que o fazem mudar para formas menos monstruosas; a cura do Quasi faz-se com alguém a reconhecê-lo na Besta, em nove brechas que a humanizam de três em três. É a mesma mecânica, de propósito, com os dados do outro lado. O que o grupo decidir sobre Alyxian no cap. 6-7 é o que está a decidir sobre o Quasi.
 
+**O evil eye** (Decidido pelo DM (2026-10-20); pedido do Pedro, números do *Curse of Strahd*)
+- **Fica Boem e Naiat.** O tasque e a tribo não mudam; o Pedro chegou a pôr Manusa em cima da mesa e fica de fora, porque Manusa é outra nação e não outra tribo, e levava o circo, as feras e os licantropos espectrais do cemitério atrás.
+- **Só entra o evil eye.** Não entra a tabela de maldições do CoS: é a arma carregada e fica fora por agora.
+- **Regras, como no livro:** ação, um alvo a 10 pés que ele consiga ver; replica *animal friendship*, *charm person* ou *hold person*, à escolha dele, sem componentes somáticos nem materiais; CD 8 + proficiência + Carisma; uma vez por descanso curto ou longo. **Se o alvo passar no save, é o Quasi que fica cego** até ao fim do turno seguinte dele. Um alvo que passe fica imune ao evil eye de **todos** os vistani durante 24 horas.
+- **Não é de tasque nenhum**: todo o vistana tem evil eye, por sangue. Não vem dos antepassados nem passa pela máscara, e por isso a cura não lho tira. O *animal friendship* é o que lhe assenta melhor na mão — cresceu num circo de feras amestradas.
+- **A máscara não estorva:** o livro só exige que ele veja o alvo, não o contrário. Lança sem que ninguém lhe veja os olhos. Simetria com o resto dele: o evil eye precisa que **ele** olhe; a máscara a cair precisa que **os outros** olhem.
+- **Logo, não é mortu.** O conceito do Pedro falava em estatuto mortu, mas mortu em 2e é quem perdeu os poderes místicos por ficar parado. Se lança evil eye, não é um. Foi cortado ao meio por sentença, que é outra coisa — vale a pena dizer-lho, que é vocabulário dele.
+- **Aviso para a mesa:** como quem passa o save fica imune ao evil eye de todos os vistani por 24 horas, um jogador atento pode lançá-lo nos próprios companheiros antes de Marquet para os vacinar contra a caravana. É jogada legítima e boa cena; decidir se passa quando aparecer.
+
 **O atalho pelo nevoeiro** (Decidido pelo DM (2026-10-20); aprovado, deixa de ser corte à ficha do Pedro)
 - **Existe, vem dos antepassados e passa pela máscara.** Não é herança vistani comum: é dom deles, como a própria máscara e os sonhos.
 - **É a versão fraca.** Exandria não tem Brumas; o que cá há é nevoeiro comum, e a habilidade só se reflete nele marginalmente — o resto de uma coisa que noutro sítio seria uma porta.
