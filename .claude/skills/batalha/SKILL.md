@@ -16,6 +16,7 @@ O DM quer, num só sítio, tudo o que é relevante para um combate: quem luta, c
 - **PCs:** CA, PV, deslocamento, ataques, magias preparadas, espaços, habilidades, equipamento e as mecânicas especiais da mesa.
 - **Componentes verbais:** se o projeto tiver uma tabela de palavras para os feitiços (ex.: latim), cada feitiço usa exatamente essas palavras. Se faltar uma, procura na fonte da tabela; se não existir, propõe duas ou três ao DM com perguntas interativas e grava a escolha nas regras da casa e nas decisões.
 - **Confirma imunidades e interações** que mudam o combate: imunidades a condições, línguas que os monstros percebem, luz solar, terreno, surpresa pelas passivas. Põe-nas logo no topo.
+- **A referência de combate:** `referencia-combate.md`, nesta pasta: zonas do corpo com efeitos sugeridos, vocabulário por arma e por ataque natural (movimentos, zonas, sons, verbos, exemplos), escala de dano, reações ao dano e o que o sítio faz. É a fonte das descrições; se não estiver à mão (ex.: na conta do Claude), aplica as regras da secção 3.
 - O que estiver por decidir e mudar o combate vai ao DM como pergunta interativa (skill `decidir`) antes de escrever.
 
 ## 1b. Equilibrar (quando o DM pede um encontro novo ou pergunta se é difícil)
@@ -56,9 +57,9 @@ Mostra as contas. Regras do DMG de 2014 (p. 82); em caso de dúvida, confere no 
 ## 2. Estrutura do conteúdo
 
 0. **Lembretes que decidem o combate** — imunidades, desvantagens, interações de regras, mecânicas especiais.
-1. **Terreno** — água, cobertura, objetos interativos, luz e som; uma regra simples por elemento.
+1. **Terreno** — água, cobertura, objetos interativos, luz e som; uma regra simples por elemento, e **como reage ao combate** (terra que vira lama, pedra que ecoa e faz faíscas, madeira que estilhaça, água que salpica e dilui o sangue, tochas que caem; os que estão à volta e o que fazem).
 2. **Iniciativa e quem está onde.**
-3. **Os monstros** — bloco resumido; «quem é quem» (aspeto para os distinguir e alvo preferido); **postura** (como se posiciona, distância preferida); **táticas** pela INT (≤4: instinto, sem coordenação, luta até morrer ou foge com medo; 5–9: táticas simples, flanquear, focar o ferido, proteger a cria; 10–14: coordenação, adapta-se a meio, recua em ordem; 15+: fintas, usa o terreno, sacrifica peões), pelo texto do bloco, pelo tipo, pela fação e pelo sítio; **quando fica ferido** (mais agressivo, foge, muda de tática, pede ajuda, rende-se a partir de quê); **moral** (quando fogem, para onde, e o que isso diz à mesa); **tabela de zonas do corpo** (d6 ou d8: zona e o que se vê); descrições dos ataques deles.
+3. **Os monstros** — bloco resumido; «quem é quem» (aspeto para os distinguir e alvo preferido); **postura** (como se posiciona, distância preferida); **táticas** pela INT (≤4: instinto, sem coordenação, luta até morrer ou foge com medo; 5–9: táticas simples, flanquear, focar o ferido, proteger a cria; 10–14: coordenação, adapta-se a meio, recua em ordem; 15+: fintas, usa o terreno, sacrifica peões), pelo texto do bloco, pelo tipo, pela fação e pelo sítio; **quando fica ferido** (mais agressivo, foge, muda de tática, pede ajuda, rende-se a partir de quê); **moral** (quando fogem, para onde, e o que isso diz à mesa); **tabela de zonas do corpo** (d6 ou d8: zona, o que se vê e, à parte, um efeito mecânico sugerido só para críticos; num humanoide, parte da tabela geral da referência e adapta ao corpo e à armadura); descrições dos ataques deles.
 4. **Os PCs** — por PC: números essenciais, equipamento, e descrições de cada ataque, feitiço e habilidade relevante.
 5. **Aliados (NPCs)** — CA/PV, ataques, equipamento, o que fazem; descrições dos ataques.
 6. **Ronda a ronda** — eventos por ronda (o que entra, o que muda no terreno, o que um NPC faz).
@@ -68,6 +69,13 @@ Mostra as contas. Regras do DMG de 2014 (p. 82); em caso de dúvida, confere no 
 ## 3. As descrições
 
 - **Ataques com arma ou naturais:** 3 linhas curtas para cada variante: **falha**, **magoa** (o alvo fica acima de metade dos PV), **fere** (metade ou menos), **crítico**. Armas secundárias (besta, dardos) podem levar uma linha por variante.
+- **Dois eixos em cada linha:** o **golpe**, pelo dano que sai no dado (raspão 1–3, sólido 4–7, pesado 8–12, brutal 13–18, catastrófico 19+), e **quem o recebe**, pelos PV que lhe restam (magoa: acusa, cerra os dentes, ajusta a guarda, protege o lado ferido; fere: coxeia, braço pendurado, desespero nos olhos, mal se aguenta). Nas 3 linhas de magoa e de fere, uma de dano baixo, uma de médio e uma de alto, para o DM escolher pelo dado.
+- **Vocabulário da arma:** os movimentos, as zonas preferidas, os sons e os verbos daquela arma (referência); uma adaga é quase silenciosa e procura garganta, rins e tendões; um martelo esmaga cabeças, ombros e joelhos; garras rasgam em tiras; uma mordida fecha, sacode e arranca.
+- **O som primeiro:** à mesa, o DM narra pelo impacto e pela consequência mais do que pela coreografia; o som leva a cena (estalo, baque, tinido, osso a partir). Os ataques dos monstros levam mais descrição do que os dos PCs; o horror do corpo é permitido.
+- **Falhar é narrativo:** a falha descreve o que **quase** aconteceu (a flecha a vibrar na parede a dois dedos da cara), nunca «não acerta».
+- **Varia a zona** de linha para linha; **escala com o contexto** (o mesmo dano é outra coisa vindo de um goblin ou de um dragão).
+- **Os PCs são heróis:** o dano marca-os, mas não os incapacita antes de 0 PV; as linhas contra PCs ferem sem tirar membros nem sentidos.
+- **Efeitos mecânicos das zonas** (cair, largar a arma, deslocamento a metade, −2 CA…) só como sugestão num crítico ou num momento narrativo, à escolha do DM; não em cada ataque.
 - **Golpe final:** primeiro a pergunta ao jogador, **«Como queres fazer isto?»** (para um PC a cair: «Como queres cair?»), e só depois 3 sugestões para quando ele devolver a escolha.
 - **Feitiços:** uma linha de componentes (V/S/M, com o material em palavras e o latim da tabela entre «»), a mecânica numa frase, e 3 descrições do efeito.
   - **Congruência:** o gesto provoca a palavra e a palavra liberta o efeito, numa só sequência; nunca três acontecimentos separados. O gesto termina como o texto do feitiço diz (se aponta, o dedo fica apontado).
