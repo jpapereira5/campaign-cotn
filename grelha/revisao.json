@@ -367,7 +367,7 @@
         "row": "amb-quasi-maldicao",
         "col": "ch7"
       },
-      "text": "A cura: alguém que o amou tira-lhe a máscara lá dentro; é a mesma mecânica de redimir Alyxian.",
+      "text": "A cura: alguém tem de ver a Besta lá dentro e reconhecer o Quasi nela, em três sucessos que a humanizam; é a mesma mecânica de redimir Alyxian (decisão 2026-10-20 #24-#26).",
       "tags": [
         "so-dm"
       ],
@@ -5248,7 +5248,7 @@
         "col": "ch7"
       },
       "factKind": "cena",
-      "text": "A chave da cura ficou em aberto. A violinista cega passou a aviso e não a chave: amou-o, nunca viu a Besta, e o amor degradou-se à mesma (natureza eldritch). Se a degradação é inevitável, a condição escrita só se sustenta pelo pretérito — «alguém que o amou» não exige amor presente, exige ter amado e estar disposto a entrar e olhar.",
+      "text": "A chave da cura ficou em aberto. A violinista cega passou a aviso e não a chave: amou-o, nunca viu a Besta, e o amor degradou-se à mesma (natureza eldritch). Se a degradação é inevitável, a condição escrita só se sustenta pelo pretérito — «alguém que o amou» não exige amor presente, exige ter amado e estar disposto a entrar e olhar. [substituída: a chave é o reconhecimento, decisão 2026-10-20 #24]",
       "suggestion": "Decidir antes de qualquer cena de cura: ou manter a condição atual (e a maldição passa a tornar o dono da chave indisposto a rodá-la, em vez de tornar a chave impossível), ou adotar a ideia do Pedro — alguém que ame a Besta, à maneira da bela e o monstro. São promessas diferentes para o fim da campanha.",
       "because": [
         "registo/decisoes.md 2026-10-20 #13"
@@ -5256,7 +5256,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-quasi-04",
@@ -5274,6 +5274,28 @@
         "registo/decisoes.md 2026-10-20 #19",
         "registo/decisoes.md 2026-10-20 #20",
         "registo/decisoes.md 2026-10-20 #22"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-quasi-05",
+      "at": "2026-10-20T04:15:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "amb-quasi-maldicao",
+        "col": "ch7"
+      },
+      "factKind": "cena",
+      "text": "A chave da cura ficou decidida: alguém tem de ver a Besta e reconhecer o Quasi nela. Libertam-na das correntes (ela luta melhor) e alcançam-na em tres testes de Carisma, CD 16, +2 por ronda em que lhe causem dano, teto +6, -2 por quem leve um ataque dela e nao retalie. A cada sucesso ela humaniza e perde habilidades, ate recuperar a cara dele e as duas metades se fundirem. O Quasi nao se pode alcançar a si proprio.",
+      "suggestion": "Semear ao longo da campanha momentos em que o lado amavel do Quasi apareça e alguem repare: cada um vale uma vantagem na cena, e o numero diz-se aos jogadores antes de começar. Sem sementeira a cena final nao tem alicerce. Comecar ja na S7.",
+      "because": [
+        "registo/decisoes.md 2026-10-20 #24",
+        "registo/decisoes.md 2026-10-20 #25",
+        "registo/decisoes.md 2026-10-20 #26",
+        "registo/decisoes.md 2026-10-20 #27"
       ],
       "tags": [
         "so-dm"
