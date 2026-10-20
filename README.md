@@ -32,7 +32,7 @@ A pesquisa global abre com `Ctrl+K` ou `/`. Com o token do GitHub (Definições)
 
 ## O Claude
 
-Dez skills em `.claude/skills/`, para usar numa conversa com acesso ao repositório. Não é preciso chamá-las: o Claude carrega cada uma quando o pedido encaixa na descrição dela (o `/nome` é só atalho). Sete são **genéricas** e servem a qualquer campanha ou one-shot: a cópia-mãe está no repositório `jpapereira5/dnd-skills` e o que é próprio da CotN (pastas, Drive, Grelha, validação) está em `AGENTS.md`, secção «Para as skills». As outras três (`preparar`, `fecho`, `vigia`) são só deste projeto, porque vivem da Grelha. Outras ferramentas de IA começam pelo `AGENTS.md`.
+Onze skills em `.claude/skills/`, para usar numa conversa com acesso ao repositório. Não é preciso chamá-las: o Claude carrega cada uma quando o pedido encaixa na descrição dela (o `/nome` é só atalho). Oito são **genéricas** e servem a qualquer campanha ou one-shot: a cópia-mãe está no repositório `jpapereira5/dnd-skills` e o que é próprio da CotN (pastas, Drive, Grelha, validação) está em `AGENTS.md`, secção «Para as skills». As outras três (`preparar`, `fecho`, `vigia`) são só deste projeto, porque vivem da Grelha. Outras ferramentas de IA começam pelo `AGENTS.md`.
 
 - **`/vigia`** — fica à escuta (`scripts/escuta.sh`) e revê cada gravação do DM em tempo real: perguntas curtas com resposta sugerida, escritas em `grelha/revisao.json` para aparecerem na célula.
 - **`/preparar`** — lê a Grelha para a próxima sessão (`node scripts/grelha.ts`), assinala os esquecidos, os PCs sem cena e o cânone à frente, e deixa ideias e avisos nas células; a pedido, escreve o documento de preparação da sessão (Google Doc na pasta Session Prep).
@@ -44,6 +44,7 @@ Dez skills em `.claude/skills/`, para usar numa conversa com acesso ao repositó
 - **`local`** — um local ou loja vivo: texto para ler, o que não encaixa, vida, segredos, comércio.
 - **`livro`** — o que dizem os livros (CotN, Monte Selvagem, Tal'Dorei Reborn), com a referência, separado do que a campanha mudou.
 - **`batalha`** — a folha de um combate (Google Doc) e o ficheiro da página Batalha (`mesa/batalhas/<id>.yaml`): combatentes, terreno, táticas e descrições por resultado.
+- **`registo-mesa`** — o índice de sessões e a lista de jogadores do DM (Google Docs na pasta `tabletop` da Drive): no fim de cada fecho e de cada sessão fora da campanha; nas sessões sem registo, pergunta ao DM o que aconteceu e quem jogou.
 
 ## Desenvolvimento
 

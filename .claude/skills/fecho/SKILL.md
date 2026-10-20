@@ -26,7 +26,8 @@ trabalho e os cuidados.
 9. **Resumo na Drive:** escreve-o a partir do registo já validado (nunca ao contrário), na pasta «Resumo de Sessoes» (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`), como Google Doc criado a partir de Markdown.
 10. **Documentos dos PCs na Drive:** em cada fecho, refaz o documento consolidado de cada PC na pasta desse PC (dentro de `PCs`, `1DlPuhGA7npun4bEQ7ZD7vGm3Tka9ZJot`; as ids estão no `AGENTS.md`, secção «Para as skills») a partir das fichas `mundo/personagens/c-pc-*.md` e dos registos já validados (inventário, posses, o que sabe, laços, a sessão nova), sem segredos `so-dm` de outros PCs; versão seguinte como Google Doc criado a partir de Markdown, a anterior vai para o lixo.
 11. **Cópia do repositório na Drive:** depois do push, atualiza a cópia de leitura em `cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`) pelo passo a passo de `docs/copia-drive.md` (só as peças que mudaram, manifesto no fim). Não espera pela tarefa diária.
-12. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar e quantas peças da cópia na Drive foram atualizadas.
+12. **Registo da mesa:** atualiza o «Índice de sessões» e os «Jogadores» (Google Docs na pasta `tabletop` da Drive) com a sessão fechada, pela skill `registo-mesa`: o número global, a data, o título, a mesa e uma nota do que aconteceu, tudo tirado do registo.
+13. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar e quantas peças da cópia na Drive foram atualizadas., e o que mudou no registo da mesa.
 
 ## A transcrição
 
