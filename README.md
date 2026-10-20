@@ -1,6 +1,6 @@
 # Campanha · Call of the Netherdeep
 
-O assistente de DM da campanha *Call of the Netherdeep* (com o prólogo *Unwelcome Spirits*) da mesa Contos & Escudos: a base de dados da campanha em ficheiros Markdown, a Grelha que mostra semana a semana o que aconteceu e o que falta preparar, e o Claude a rever, a preparar e a fechar cada sessão. A arquitetura está em [`docs/arquitetura.md`](docs/arquitetura.md); o modelo da Grelha em [`docs/grelha.md`](docs/grelha.md); o método em [`docs/metodo.md`](docs/metodo.md); o fluxo de trabalho (Drive, Claude, repositório) em [`docs/fluxo.md`](docs/fluxo.md); os nomes em português em [`docs/glossario.md`](docs/glossario.md).
+O assistente de DM da campanha *Call of the Netherdeep* (com o prólogo *Unwelcome Spirits*) da mesa Contos & Escudos: a base de dados da campanha em ficheiros Markdown, a Grelha que mostra semana a semana o que aconteceu e o que falta preparar, e o Claude a rever, a preparar e a fechar cada sessão. A arquitetura está em [`docs/arquitetura.md`](docs/arquitetura.md); o modelo da Grelha em [`docs/grelha.md`](docs/grelha.md); o método em [`docs/metodo.md`](docs/metodo.md); o fluxo de trabalho (Drive, Claude, repositório) em [`docs/fluxo.md`](docs/fluxo.md); os nomes em português em [`docs/glossario.md`](docs/glossario.md); a cópia automática do repositório na Drive em [`docs/copia-drive.md`](docs/copia-drive.md).
 
 ## A base de dados
 
