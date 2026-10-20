@@ -17,7 +17,7 @@ requer:
   - b-1-festival-seeds
 escolhas:
   - opcao: Comprar suude
-    resultado: 10 po por 2 doses; regras do suude (docs/regras.md); Ilyra fica a saber que os PCs consomem.
+    resultado: 10 po por 2 doses; regras do suude (mesa/regras.md); Ilyra fica a saber que os PCs consomem.
     levaA: []
   - opcao: Trazer-lhe cristais
     resultado: abre a porta ao esquema de contrabando; Ilyra pode partilhar quem mais compra (o arcanista; "comerciantes marítimos").

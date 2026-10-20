@@ -1,6 +1,6 @@
 # Glossário pt-PT de Exandria
 
-Nomes de Exandria em português europeu, para consistência entre os dados, os runsheets, os handouts e o que se diz à mesa. É a cópia no repositório do `glossario_pt_v8.md` da Drive (pasta `exandria`), fechado com o DM a 2026-10-01.
+Nomes de Exandria em português europeu, para consistência entre os dados, as preparações, os handouts e o que se diz à mesa. É a cópia no repositório do `glossario_pt_v8.md` da Drive (pasta `exandria`), fechado com o DM a 2026-10-01.
 
 **Princípio:** traduz-se o máximo possível, sobretudo descritivos, títulos e epítetos; nomes próprios sem significado transparente mantêm-se; termos de regras e de sistema ficam em inglês, mesmo dentro de texto em português. Os ids dos dados continuam em inglês (`c-alonne-frith`, `l-fort-venture`): o glossário é para o texto.
 

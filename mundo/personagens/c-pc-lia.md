@@ -46,7 +46,7 @@ Encontrar o pai.
 
 ## Segredo
 
-DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista em Bazzoxan, agente da Lente e dunamante, à frente da investigação secreta de uma cura para o typhros. O deus que lhe responde é o Luxon e ela não sabe. É uma alma consecutada com typhros (a Rainha Brilhante tem sinais do mesmo). Sonhos de vidas passadas por sítio, cada conjunto acaba num nome: Mirimm (Rosohna), Kryn (Urzin), Zolaed (Jigau), Hythenos (Bazzoxan), Thelyss (Ascensão). A primeira vida consecutada, antes de todas, foi ao lado do Alyxian na Calamidade (Decidido pelo DM (2026-10-15)). O pai procura no rubídio a cura e acaba corrompido no Heart of Despair. O Fritz é o espelho dele. Ver docs/pcs.md.
+DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista em Bazzoxan, agente da Lente e dunamante, à frente da investigação secreta de uma cura para o typhros. O deus que lhe responde é o Luxon e ela não sabe. É uma alma consecutada com typhros (a Rainha Brilhante tem sinais do mesmo). Sonhos de vidas passadas por sítio, cada conjunto acaba num nome: Mirimm (Rosohna), Kryn (Urzin), Zolaed (Jigau), Hythenos (Bazzoxan), Thelyss (Ascensão). A primeira vida consecutada, antes de todas, foi ao lado do Alyxian na Calamidade (Decidido pelo DM (2026-10-15)). O pai procura no rubídio a cura e acaba corrompido no Heart of Despair. O Fritz é o espelho dele.
 
 ## O que o DM já definiu
 
@@ -78,4 +78,4 @@ DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista e
 
 ## Ficha: Lia (Camila)
 
-Drow, Clériga 3 (Twilight Domain), antecedente Acólita, 101 anos, 1,70 m. Olhos lilás muito claros, pele azul-acinzentada (decisão do DM, 2026-10-07; a ficha dizia obsidiana), cabelo branco. Línguas: élfico, comum, anão, goblin. CA 16 com equipamento, PV 24, Perceção passiva 15. Entra na **sessão 4 (#86, 2026-09-23)**. A Camila tem de sair às 23h. Fontes: «Lia — Ficha e Backstory» (partilhável) e «Lia — Segredos do DM» (Drive, pasta `Camila`); as versões «(antigo, Zadash)» foram substituídas. Backstory oficial, aceite pela jogadora. Dados: `c-pc-lia` em `data/campaign/characters/lia.json`.
+Drow, Clériga 3 (Twilight Domain), antecedente Acólita, 101 anos, 1,70 m. Olhos lilás muito claros, pele azul-acinzentada (decisão do DM, 2026-10-07; a ficha dizia obsidiana), cabelo branco. Línguas: élfico, comum, anão, goblin. CA 16 com equipamento, PV 24, Perceção passiva 15. Entra na **sessão 4 (#86, 2026-09-23)**. A Camila tem de sair às 23h. Fontes: «Lia — Ficha e Backstory» (partilhável) e «Lia — Segredos do DM» (Drive, pasta `Camila`); as versões «(antigo, Zadash)» foram substituídas. Backstory oficial, aceite pela jogadora.

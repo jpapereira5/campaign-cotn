@@ -2,13 +2,13 @@
 
 Diário das decisões tomadas entre sessões, por data. A verdade atual fica no ficheiro de cada coisa; a decisão aponta para ele.
 
-# Cânone da mesa: o que foi jogado vs. o que estava preparado
+## Cânone da mesa: o que foi jogado vs. o que estava preparado
 
-**O que a mesa jogou manda.** Quando a sessão contradiz a preparação, a preparação é **reescrita** nos ficheiros (`data/campaign/`, `docs/lore.md`, `docs/regras.md`) para passar a dizer o que aconteceu; este documento fica com o registo do que lá estava antes, para não se perder a intenção original. Quando o conflito é entre coisas ditas em sessões diferentes — ou dentro da mesma sessão — nada se decide sozinho: fica assinalado no fim, até o DM decidir, e depois passa a **Decidido**.
+**O que a mesa jogou manda.** Quando a sessão contradiz a preparação, a preparação é **reescrita** no cânone (`mundo/`, `plano/`, `mesa/regras.md`) para passar a dizer o que aconteceu; este documento fica com o registo do que lá estava antes, para não se perder a intenção original. Quando o conflito é entre coisas ditas em sessões diferentes, ou dentro da mesma sessão, nada se decide sozinho: fica assinalado até o DM decidir, e depois passa a **Decidido**.
 
-Regista, por sessão, **o que a preparação acertou**, **o que mudou em jogo** (e onde já foi corrigido) e **o que continua por revelar**. Os resumos estão em [`docs/sessoes/`](sessoes/); as fichas afetadas ficam com a nota «a mesa (sessão N, #NN)» em `data/campaign/`.
+Regista, por sessão, **o que a preparação acertou**, **o que mudou em jogo** (e onde já foi corrigido) e **o que continua por revelar**. Os registos das sessões estão em [`registo/sessoes/`](sessoes/).
 
-Começa na sessão 3 (#84), a primeira em que uma cena preparada com runsheet (`b-0-boneyard-altar`) foi jogada.
+Começa na sessão 3 (#84), a primeira em que uma cena com documento de preparação (`b-0-boneyard-altar`) foi jogada.
 
 ## Decidido pelo DM (2026-09-21)
 

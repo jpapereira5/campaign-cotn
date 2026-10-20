@@ -112,7 +112,7 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
 
 - **Quem cumpre a condição**: qualquer pessoa da mesa que a alcance, menos o Quasi. Não é preciso tê-lo amado — é preciso reconhecê-lo. Isso separa duas coisas que podem estar em personagens diferentes: quem o ama mais não é necessariamente quem o conhece melhor.
 - **Vitória**: inteiro, sem máscara. As duas metades voltam a ser uma; sai do demiplano com cara e sem Besta. **A cura é ficar inteiro e não custa features** (Decidido pelo DM (2026-10-20); substitui «o preço é a Besta e as features dela»): os gritos e a Inspiração nunca foram da Besta, são dele — estavam do lado de lá porque metade dele estava do lado de lá, e com a metade reabsorvida voltam como coisa própria, sem máscara e sem monstro. Se algum dia a cura tiver preço, o preço é da mesa — de quem atravessa a cerca e olha a besta nos olhos —, não da ficha dele.
-- **A repulsa nos companheiros não tem mecânica própria**: é roleplay, com notas privadas do DM; quando pesar, conviver com ele dá pontos de insanidade como estar perto de rubídio ou dentro de Bazzoxan (ver `docs/regras.md`). O Pedro joga todas as semanas.
+- **A repulsa nos companheiros não tem mecânica própria**: é roleplay, com notas privadas do DM; quando pesar, conviver com ele dá pontos de insanidade como estar perto de rubídio ou dentro de Bazzoxan (ver `mesa/regras.md`). O Pedro joga todas as semanas.
 - **Necessidade oculta** (que ele não diria): ser amado por alguém que o viu. É a mesma coisa que o objetivo declarado, vista do outro lado — e ele não sabe. Vai passar a campanha à procura de um remédio quando o remédio é o grupo.
 
 **O demiplano**

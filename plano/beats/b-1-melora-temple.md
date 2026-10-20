@@ -38,4 +38,4 @@ No templo de Melora sobre a tartaruga viva Tualka, Verema Brisa-Mansa ouve os PC
 
 ## Notas
 
-Contraponto ao encobrimento do Luxon: aqui ninguém esconde nada mas também ninguém cura (lesser restoration não resolve; ver docs/regras.md). Pistas: r-scarlet-fever (terceira: sintomas que não passam com cura) e r-ruidium-properties (contacto → doença). Na mesa Ace e Pedro; depois voltaram para identificar a figura de Sehanine no medalhão.
+Contraponto ao encobrimento do Luxon: aqui ninguém esconde nada mas também ninguém cura (lesser restoration não resolve; ver mesa/regras.md). Pistas: r-scarlet-fever (terceira: sintomas que não passam com cura) e r-ruidium-properties (contacto → doença). Na mesa Ace e Pedro; depois voltaram para identificar a figura de Sehanine no medalhão.
