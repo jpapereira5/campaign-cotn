@@ -5257,6 +5257,28 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-quasi-04",
+      "at": "2026-10-20T03:55:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "A máscara tem um selo mágico: só o Quasi a pode tirar. Ninguém lha arranca da cara, e não há desmascaramentos por acidente — o escriba Damião, que estendeu a mão para isso na S5, nunca teria conseguido. Quebrar o selo exige conhecimento arcano e analisar a máscara.",
+      "suggestion": "Nunca resolver uma cena com a máscara a cair por acaso. Se quiseres a entrada cedo no demiplano, prepara o contexto: decisão dele, pânico, ou alguém da mesa a estudar a máscara e a quebrar o selo. A lista de cortes a combinar com o Pedro fica fechada — e a cura deixou de custar os gritos e a Inspiração.",
+      "because": [
+        "registo/decisoes.md 2026-10-20 #18",
+        "registo/decisoes.md 2026-10-20 #19",
+        "registo/decisoes.md 2026-10-20 #20",
+        "registo/decisoes.md 2026-10-20 #22"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

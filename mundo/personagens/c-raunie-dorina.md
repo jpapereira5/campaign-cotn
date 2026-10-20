@@ -35,7 +35,7 @@ origem:
 
 ## Resumo
 
-cotn_2026 (notas DM). Matriarca da caravana Naiat do Quasi, sem parentesco próximo com ele: a mulher com mais poder na Visão, que guia a vida espiritual do clã e julga e dá sentença nos crimes internos. Foi ela que julgou a recusa do Quasi como crime — o primeiro traidor em gerações — e improvisou a sentença com o poder novo do pacto: cortou-o ao meio e acorrentou, à força, a metade no cemitério dos antepassados. A catedral à volta das correntes não é dela — ergueram-na os antepassados, depois, para o proteger (Decidido pelo DM (2026-10-20)). Vive no zigurate das Smouldercrown a cuidar do Filho Ctónico; vem e vai pelas Brumas. Crente: acredita que está a comprar o fim do exílio do seu povo e fala do Filho com ternura.
+cotn_2026 (notas DM). Matriarca da caravana Naiat do Quasi, sem parentesco próximo com ele: a mulher com mais poder na Visão, que guia a vida espiritual do clã e julga e dá sentença nos crimes internos. Foi ela que julgou a recusa do Quasi como crime — o primeiro traidor em gerações — e improvisou a sentença com o poder novo do pacto: cortou-o ao meio e acorrentou, à força, a metade no cemitério dos antepassados. A catedral à volta das correntes não é dela — ergueram-na os antepassados, depois, para o proteger (Decidido pelo DM (2026-10-20)). Não precisou de prever o resultado: **foi o poder da Lua que garantiu o que ela não sabia fazer** (Decidido pelo DM (2026-10-20)), o que fecha a tensão entre a sentença ter sido improvisada e o destino dele estar garantido. Vive no zigurate das Smouldercrown a cuidar do Filho Ctónico; vem e vai pelas Brumas. Crente: acredita que está a comprar o fim do exílio do seu povo e fala do Filho com ternura.
 
 ## Objetivo
 
