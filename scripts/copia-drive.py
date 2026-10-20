@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cópia de leitura do repositório na Drive (pasta cotn_2026/copia_repo).
+"""Cópia de leitura do repositório na Drive (pasta cotn_2026/github_repo).
 
 Quem a envia é o Claude, numa tarefa agendada diária (docs/copia-drive.md). Como o
 Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, a cópia vai em
