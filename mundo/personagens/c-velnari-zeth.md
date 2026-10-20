@@ -20,7 +20,6 @@ tags:
   - drow
   - corrompido
   - vilão
-  - notion
 estados:
   - desde: b-1-jigau-arrival-intendente
     estado: arcanista residente; estuda o rubídio no laboratório secreto

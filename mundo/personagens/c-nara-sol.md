@@ -15,7 +15,6 @@ tags:
   - bardo
   - maré-de-fogo
   - corrompida
-  - notion
   - sorriso-dourado
   - genasi
 estados:

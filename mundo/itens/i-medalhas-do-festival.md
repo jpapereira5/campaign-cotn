@@ -6,7 +6,7 @@ origem:
   - regras
 ---
 
-## Medalhas do Festival do Mérito (livro, traduzidas na mesa) (de docs/regras.md)
+## Medalhas do Festival do Mérito (livro, traduzidas na mesa)
 
 Todas *Wondrous Item, common*, **uso único** (depois de usada a medalha perde a magia).
 

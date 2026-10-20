@@ -13,7 +13,6 @@ tags:
   - mesa
   - kryn
   - arcanista
-  - notion
   - aurora-watch
   - capitão-do-crepúsculo
   - drow

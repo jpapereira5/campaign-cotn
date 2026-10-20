@@ -13,7 +13,6 @@ tags:
   - dm
   - mesa
   - bazzoxan
-  - notion
   - aurora-watch
   - halfling
 estados:

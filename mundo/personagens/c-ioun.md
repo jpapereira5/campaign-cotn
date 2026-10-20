@@ -8,7 +8,6 @@ capitulos: []
 tags:
   - prime
   - conhecimento
-  - notion
 origem:
   - livro
   - mesa

@@ -14,7 +14,6 @@ tags:
   - jigau
   - loja
   - goblin
-  - notion
   - mesa
 estados:
   - desde: b-0-urzin-day

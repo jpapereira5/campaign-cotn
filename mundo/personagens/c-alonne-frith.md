@@ -18,7 +18,6 @@ tags:
   - telepata
   - ruidium
   - hollow-one
-  - notion
 estados:
   - desde: b-0-fort-venture
     estado: Prisioneiro em V8; rendido e capturado pelos PCs, entregue à Vigia da Aurora em Urzin

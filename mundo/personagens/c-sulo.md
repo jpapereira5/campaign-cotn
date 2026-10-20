@@ -10,7 +10,6 @@ capitulos:
 tags:
   - dm
   - mesa
-  - notion
   - aurora-watch
   - drow
   - stub

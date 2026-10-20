@@ -167,11 +167,11 @@ Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições re
 
 ---
 
-## Ficha (de docs/pcs.md: Lucan "Anzol" Bruma (Renata Surrécio))
+## Ficha: Lucan "Anzol" Bruma (Renata Surrécio)
 
 Water Genasi Dhampir, Barbarian Path of the Beast, Sailor, Neutral, 29 anos, 1,93 m. Línguas: comum, halfling, thieves' cant. Venera Baeshra, o Grande Devorador. Nasceu em Nicodranas (Concílio de Clóvis); casa de infância: o porão da caravela de caça Scylla. Memória mais antiga: a mãe a cantar-lhe uma sea shanty; o irmão a nascer sob a lua vermelha cheia.
 
-## A Fera do Lucan (DM; base na ficha da Renata) (de docs/regras.md)
+## A Fera do Lucan (DM; base na ficha da Renata)
 
 - **A 0 PV, a Fera alimenta-se.** Quando o Lucan cai a 0 PV não fica inconsciente: levanta-se com a Fera (Path of the Beast), ataca a criatura caída mais próxima até morder carne — amiga ou inimiga — e só depois cai. Sem contagem, sem tabela: é um gatilho, e é o que aconteceu dentro do aboleto.
 - **Ao voltar de 0 PV**: olhos de sangue, e começa a ouvir uma multidão a gritar-lhe o nome — "Lucan, Lucan, Lucan!".

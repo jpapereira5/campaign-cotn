@@ -200,11 +200,11 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
 
 ---
 
-## Ficha (de docs/pcs.md: Quasimodo d'Clopin "Quasi" (Pedro Silva))
+## Ficha: Quasimodo d'Clopin "Quasi" (Pedro Silva)
 
 Humano Vistani, bardo (Lore), Entertainer, CG, 26 anos, 1,81 m. Línguas: comum, Vistani, Paterna (thieves' cant Vistani). Venera os espíritos dos antepassados. Joga todas as semanas (cinco sessões seguidas).
 
-## A máscara do Quasi (DM; base na ficha do Pedro) (de docs/regras.md)
+## A máscara do Quasi (DM; base na ficha do Pedro)
 
 - **Só o Quasi pode tirar a máscara.** Um selo mágico impede toda a gente; quem tiver bastante conhecimento arcano percebe o mecanismo por alto, mas quebrar o selo exige analisar a máscara (Decidido pelo DM (2026-10-20)).
 - **Tirar parcialmente** (qualquer porção de pele à vista): horror psicológico, paralisia e amnésia em quem vê. Pontos de insanidade conforme a tabela abaixo.

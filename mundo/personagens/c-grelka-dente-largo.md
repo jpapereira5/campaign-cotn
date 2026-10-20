@@ -13,7 +13,6 @@ tags:
   - mesa
   - mar
   - tripulação
-  - notion
   - orc
 estados:
   - desde: b-2-sea-departure

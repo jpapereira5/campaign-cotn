@@ -11,7 +11,6 @@ tags:
   - mesa
   - aurora-watch
   - corrompido
-  - notion
   - veterano
   - drow
 estados:

@@ -6,7 +6,7 @@ origem:
   - handouts
 ---
 
-## Balada do "deus a meio caminho" (página de Iliana "Questão") (de docs/handouts.md)
+## Balada do "deus a meio caminho" (página de Iliana "Questão")
 
 Tradução em português da balada do livro (com uma versão "em undercommon" inventada pelo DM, não transcrita):
 

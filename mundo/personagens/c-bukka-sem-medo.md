@@ -13,7 +13,6 @@ tags:
   - mesa
   - mar
   - tripulação
-  - notion
   - goblin
 estados:
   - desde: b-2-sea-departure

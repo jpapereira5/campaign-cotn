@@ -6,7 +6,7 @@ origem:
   - regras
 ---
 
-## Itens da mesa (sessão 3, #84) (de docs/regras.md)
+## Itens da mesa (sessão 3, #84)
 
 - **Garra de réptil de seis dedos** (do peito de Skr'a S'orsk; cortada pelo pulso, quase preta, mais fria do que o ar do pântano, com cheiro a enxofre): uma hora de contemplação (Arcana 3) dá **`command` 1×/dia**. Só o Quasi sabe o que ela faz. Enquanto a estuda cresce-lhe a vontade de mandar nos outros, e nessa noite sonha que é líder inquestionado — o DM deixou em aberto se há mais a descobrir nela (ver `docs/canone.md`).
 - **Varinha de osso de ponta enegrecida**: **`detect magic`**, **3 cargas**, recupera todas num long rest; a esfera a expandir-se só é visível a quem a usa.

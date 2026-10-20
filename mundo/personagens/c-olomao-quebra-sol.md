@@ -14,7 +14,6 @@ tags:
   - urzin
   - kryn
   - minotauro
-  - notion
   - alias-salomao
   - luxon
 estados:

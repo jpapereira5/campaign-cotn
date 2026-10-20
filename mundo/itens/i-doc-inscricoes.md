@@ -6,7 +6,7 @@ origem:
   - handouts
 ---
 
-## Inscrições (de docs/handouts.md)
+## Inscrições
 
 **Ruínas de Kalai — "Sussurro da Última Luz" (segunda noite nos Desterros; santuário secreto de Sehanine; Kalai = "Oculto/Escondido" na língua antiga dos elfos).** Inscrição fragmentada nas pedras do altar:
 > "Que a lua oculte o sangue, que o véu esconda os últimos. Sehanine, leva-nos em silêncio."

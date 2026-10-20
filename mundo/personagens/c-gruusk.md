@@ -11,7 +11,6 @@ tags:
   - dm
   - mesa
   - bazzoxan
-  - notion
   - aurora-watch
   - orc
   - guarda

@@ -6,7 +6,7 @@ origem:
   - handouts
 ---
 
-## Diário de Comando do Intendente Verin Thelyss (de docs/handouts.md)
+## Diário de Comando do Intendente Verin Thelyss
 
 Registo dos forasteiros em Bazzoxan (para ler ou entregar quando os PCs ganharem a confiança de Verin):
 

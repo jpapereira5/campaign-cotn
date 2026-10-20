@@ -9,7 +9,6 @@ quer: Que a Jóia encontre portadores dignos.
 tags:
   - prime
   - lua
-  - notion
 relacoes:
   - com: c-alyxian
     tipo: protects

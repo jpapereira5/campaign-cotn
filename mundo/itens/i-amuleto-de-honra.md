@@ -6,7 +6,7 @@ origem:
   - regras
 ---
 
-## Amuleto de Honra de Urzin (DM) (de docs/regras.md)
+## Amuleto de Honra de Urzin (DM)
 
 Objeto cerimonial goblinóide (único por grupo ou indivíduo homenageado). Pequena tartaruga esculpida à mão em madeira húmida do pântano, polida com gordura de raiz, olhos de concha branca e carapaça gravada com espirais; suspensa por fio entrançado de fibras vegetais, musgo seco e um único fio de cabelo goblinóide ("ligação viva"). Valor material nenhum; "inestimável para quem entende". Representa a confiança máxima de Urzin — resiliência (a tartaruga nunca corre, mas nunca para), memória (a lama lembra), proteção (carrega a casa às costas, como Urzin carrega o seu povo). Só se entrega a quem protegeu a vila em tempo de necessidade ou foi reconhecido pelo Guardião do Musgo.
 

@@ -8,7 +8,7 @@ origem:
   - grelha
 ---
 
-## A Adaga de Duarte Mirim (DM) (de docs/regras.md)
+## A Adaga de Duarte Mirim (DM)
 
 **Mecânica**: `dagger +1`, mágica, aura ténue de transmutação. Em 5e não há *masterwork*: a ficção é **fabrico excecional com trabalho arcano na têmpera**, não encantamento posterior. Equipamento de um exército, não presente de um deus — `detect magic` não prova autoria de nada.
 

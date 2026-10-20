@@ -6,7 +6,7 @@ origem:
   - handouts
 ---
 
-## Livro em tinta invisível (de docs/handouts.md)
+## Livro em tinta invisível
 
 No quarto do arcanista do Posto Avançado da Dinastia (Jigau): um livro de capa branca, discreto na estante, parece em branco — páginas lisas, papel espesso e esbranquiçado.
 - **Intelligence (Arcana) DC 15:** a textura do papel esconde algo mágico. Calor (chama de vela) ou luz mágica concentrada (*Detect Magic*, *Dancing Lights*) revela a tinta por instantes em padrões brilhantes.

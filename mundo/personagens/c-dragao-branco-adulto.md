@@ -12,7 +12,6 @@ tags:
   - mar
   - dragão
   - encontro
-  - notion
 estados:
   - desde: b-2-sea-iceberg
     estado: acorda; foge pelo olho da tempestade

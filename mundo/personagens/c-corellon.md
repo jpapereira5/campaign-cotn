@@ -8,7 +8,6 @@ capitulos: []
 tags:
   - prime
   - arte
-  - notion
 relacoes:
   - com: c-alyxian
     tipo: protects

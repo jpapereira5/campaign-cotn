@@ -15,7 +15,6 @@ tags:
   - cobalt-soul
   - lore
   - caderno
-  - notion
   - aasimar
   - monge
 estados:

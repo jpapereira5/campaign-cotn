@@ -117,11 +117,11 @@ Fechado base a base (linha A: o mar do lado dele; linha B: Ruidus), com os ponto
 
 ---
 
-## Ficha (de docs/pcs.md: Ruín "Isco" Bruma (Pedro Ropio))
+## Ficha: Ruín "Isco" Bruma (Pedro Ropio)
 
 Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fisher, 23 anos, 1,89 m. Era water genasi; hoje parece meio-tubarão. Línguas: comum, halfling, abyssal, thieves' cant. Não venera deuses; muito supersticioso. Nascido em Nicodranas, criado no barco — **o Scylla** (decidido; "Gavião do Mar" da sessão zero cai — dizer ao Pedro Ropio). Memória mais antiga: ser pendurado como isco.
 
-## As transformações do Isco (DM; base na ficha do Pedro Ropio) (de docs/regras.md)
+## As transformações do Isco (DM; base na ficha do Pedro Ropio)
 
 - **Por vontade**: a transformação da Order of the Lycan, como na ficha. Controlável.
 - **Por flash de Ruidus**: incontrolável; nem o jogador nem a personagem sabem. **Sem calendário** — o DM dispara um flash quando servir a cena. Abrigo = teto que o Lucan arranjar (ele sabe; escolhe os quartos).

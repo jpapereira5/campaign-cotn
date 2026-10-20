@@ -12,7 +12,6 @@ tags:
   - mesa
   - bardo
   - maré-de-fogo
-  - notion
   - elfo
   - cronista
 estados:

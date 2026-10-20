@@ -12,7 +12,6 @@ tags:
   - mesa
   - myriad
   - corrompido
-  - notion
   - halfling
   - órfão
 estados:

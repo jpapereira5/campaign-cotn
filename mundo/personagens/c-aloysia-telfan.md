@@ -16,7 +16,6 @@ tags:
   - consortium
   - vilã-emergente
   - ruidium
-  - notion
 estados:
   - desde: b-2-ruins-outside-bazzoxan
     estado: "DM: primeiro encontro: com a patrulha da Vigia da Aurora nas Ruins of Sorrow; observa quem recebe a visão; leva uma lasca de rubídio do centro; fica fixada na Jóia desde já se os PCs lhe contarem"

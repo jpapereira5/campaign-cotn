@@ -6,7 +6,7 @@ origem:
   - regras
 ---
 
-## Dádiva da Possibilidade — Mote of Possibility (Belana Zolaed, DM) (de docs/regras.md)
+## Dádiva da Possibilidade — Mote of Possibility (Belana Zolaed, DM)
 
 Belana não concede a dádiva a pedido; só quando sente que a alma do alvo chegou a um ponto de bifurcação interior — após uma decisão moral difícil, quando alguém demonstra verdadeiro desejo de mudança ou redenção, como sinal de confiança rara após partilha de algo pessoal ou espiritual, ou durante um ritual de reflexo interior se a alma parecer "prestes a reiniciar".
 

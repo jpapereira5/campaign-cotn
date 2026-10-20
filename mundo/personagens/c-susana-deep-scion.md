@@ -13,7 +13,6 @@ tags:
   - mar
   - aberração
   - far-realm
-  - notion
 estados:
   - desde: b-2-sea-aboleth
     estado: resgatada como náufraga; revela-se; derrotada

@@ -8,7 +8,6 @@ capitulos: []
 tags:
   - prime
   - sorte
-  - notion
 relacoes:
   - com: c-alyxian
     tipo: protects

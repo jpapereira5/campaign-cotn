@@ -6,7 +6,7 @@ origem:
   - handouts
 ---
 
-## Notas do Arcanista (de docs/handouts.md)
+## Notas do Arcanista
 
 Caderno de um scholar (as primeiras notas são as mais organizadas) que se foi corrompendo. Ler tudo leva **4 h** por bloco.
 

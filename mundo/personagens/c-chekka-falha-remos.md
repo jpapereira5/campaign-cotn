@@ -13,7 +13,6 @@ tags:
   - mesa
   - mar
   - capitã
-  - notion
 estados:
   - desde: b-2-sea-departure
     estado: aceita levar os PCs (80 po ida e volta)

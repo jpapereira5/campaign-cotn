@@ -11,7 +11,6 @@ quer: Que ninguém morra à fome nem sem tratamento na guarnição.
 tags:
   - dm
   - mesa
-  - notion
   - aurora-watch
   - capitã
   - drow

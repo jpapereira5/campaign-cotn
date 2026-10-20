@@ -6,7 +6,7 @@ origem:
   - handouts
 ---
 
-## Caderno Volstrucker (de docs/handouts.md)
+## Caderno Volstrucker
 
 **DM (decisão):** a autora do caderno é **Adélia Krauss**, a Volstrucker que se faz passar pelo soldado drow "Zyn'thar Veylin"; se morrer no assalto nocturno, o caderno fica órfão: ninguém vem buscá-lo.
 
@@ -36,6 +36,6 @@ Recomenda-se vigilância passiva sobre rumores associados à Ascensão, prioriza
 
 *(Nota DM: a entrada 5, "Carregamento Perdido", e as frases da entrada 6 sobre o intermediário desaparecido e sobre o grupo antigo pertenciam a arcos de PCs da campanha anterior e não transitam. Na entrada 2 o nome do líder foi substituído por "o líder da aldeia"; a frase sobre "outro descendente" também vinha desse arco — o DM decide se fica.)*
 
-## Caderno Volstrucker — versão anterior (diferenças) (de docs/handouts.md)
+## Caderno Volstrucker — versão anterior (diferenças)
 
 Versão anterior à "versão final" já em handouts.md; o que acrescenta (no patch de `f-cerberus-assembly`): datas (834, 836, 837, 841, 842, 843 P.D.); Entrada 2 reporta a **Oremid Hass**; Entrada 3 sob o comando do **Inquisidor Perestrelo**, supervisão geral de **Elaina Lehmen**; Entrada 4 autorização de **Lletys do Brilho (Brighthall)**; Entrada 6 "canal Brighthall", "Envio R-III / Canal do Brilho", **"considerar eliminação de Verin Thelyss"**, reencontro com **Oremid Hass em Marquet**, lista de fações inclui "Culto do Dragão" e "". Excluído por decisão do DM: Entrada 5 (Jigau, 842), o intermediário "Jack Sparrow" e o nome "Granito Serra-Dura" (Entrada 2). Nota da página: "Preciso de mecânica de magic ink".

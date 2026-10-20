@@ -13,7 +13,6 @@ tags:
   - aurora-watch
   - capitã
   - aarakocra
-  - notion
   - capitã-do-crepúsculo
 estados:
   - desde: b-3-karesh

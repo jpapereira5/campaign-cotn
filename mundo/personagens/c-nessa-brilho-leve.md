@@ -12,7 +12,6 @@ tags:
   - viagem
   - avandra
   - clériga
-  - notion
   - mesa
   - halfling
 estados:

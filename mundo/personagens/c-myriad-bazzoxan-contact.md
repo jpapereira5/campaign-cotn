@@ -14,7 +14,6 @@ tags:
   - mesa
   - tabaxi
   - corrompida
-  - notion
   - alias-surira
 estados:
   - desde: b-3-myriad-bazzoxan

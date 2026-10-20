@@ -12,7 +12,6 @@ tags:
   - mar
   - aberração
   - ruidium
-  - notion
 estados:
   - desde: b-2-sea-obelisco
     estado: ataca de noite (Mekik morre); corpo avistado de manhã sem ser reconhecido

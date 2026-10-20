@@ -11,7 +11,6 @@ tags:
   - mar
   - gigante
   - encontro
-  - notion
   - tempestar
 estados:
   - desde: b-2-sea-iceberg

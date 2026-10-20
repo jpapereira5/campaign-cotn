@@ -15,7 +15,6 @@ tags:
   - allegiance
   - espião
   - ank-harel
-  - notion
 estados:
   - desde: b-3-estalagem-soldado-caido
     estado: junta-se à mesa a investigar Aloysia; paga 100 po adiantados

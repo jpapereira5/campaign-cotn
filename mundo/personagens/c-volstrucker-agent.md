@@ -12,7 +12,6 @@ quer: Rubídio; o farol; a Jóia; discrição.
 teme: Ser reconhecida em território Kryn; que a Miríade venda ao Consortium ou à Kryn.
 tags:
   - dm
-  - notion
   - volstrucker
   - assassino
 estados:

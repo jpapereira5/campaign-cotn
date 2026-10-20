@@ -14,7 +14,6 @@ tags:
   - mar
   - tripulação
   - kobold
-  - notion
 estados:
   - desde: b-2-sea-departure
     estado: no cesto da gávea

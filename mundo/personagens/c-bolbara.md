@@ -13,7 +13,6 @@ tags:
   - seer
   - warlock
   - goblin
-  - notion
   - mesa
 estados:
   - desde: b-0-mission-urzin

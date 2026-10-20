@@ -8,7 +8,6 @@ capitulos: []
 tags:
   - prime
   - natureza
-  - notion
 origem:
   - livro
   - mesa
