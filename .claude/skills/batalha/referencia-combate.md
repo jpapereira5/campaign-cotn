@@ -1,6 +1,6 @@
 # Referência de combate
 
-Referência rápida para narrar combate físico: zonas do corpo, vocabulário por arma, escala de dano e reações. Consultar por secção. Vem do `combat_reference.md` da pasta `reference/` da Drive (2026-05-20), revisto para a skill `batalha` a 2026-10-20 (grafia de 1990, rótulos em português). Os exemplos são ponto de partida: adapta-os ao sítio, à criatura e ao equipamento, não os copies.
+Referência rápida para narrar combate físico: zonas do corpo, vocabulário por arma, escala de dano e reações. Consultar por secção. Vem do `combat_reference.md` da pasta `reference/` da Drive (2026-05-20), revisto para a skill `batalha` a 2026-10-20 (grafia de 1990, rótulos em português). Os exemplos são ponto de partida: adapta-os ao sítio, à criatura e ao equipamento, não os copies. A cópia-mãe está no repositório `dnd-skills`, em `skills/batalha/referencia-combate.md`.
 
 ---
 
