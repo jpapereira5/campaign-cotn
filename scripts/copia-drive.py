@@ -186,8 +186,8 @@ def espelho(repo, saida):
     leia = [f'# Cópia do repositório {nome}', '',
             f'Cópia de leitura de `jpapereira5/{nome}`, commit `{commit}` ({data}), gerada a {agora}.', '',
             'Cada ficheiro do repositório está aqui com o mesmo caminho e o mesmo conteúdo. A fonte de verdade é o '
-            'GitHub: o que se mudar aqui perde-se na próxima cópia. O Claude atualiza esta pasta uma vez por dia e só '
-            'reenvia os ficheiros que mudaram (`manifesto.json`). Para reconstruir o projeto: descarrega a pasta, '
+            'GitHub: o que se mudar aqui perde-se na próxima cópia. Atualiza-se só quando o DM a pede, e só com os '
+            'ficheiros que mudaram (`manifesto.json`). Para reconstruir o projeto: descarrega a pasta, '
             '`npm ci` e `npm run dev`.', '', f'{len(hashes)} ficheiros.', '']
     open(os.path.join(saida, LEIA_ME), 'w', encoding='utf-8').write('\n'.join(leia))
     json.dump({'repo': f'jpapereira5/{nome}', 'commit': commit, 'data': data, 'gerado': agora, 'pecas': hashes,
