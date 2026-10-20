@@ -23,7 +23,6 @@
     "src/**/*.js",
     "src/**/*.svelte",
     "scripts/**/*.ts",
-    "data/*.json",
     "src/generated/*.json"
   ]
 }

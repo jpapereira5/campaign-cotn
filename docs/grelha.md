@@ -1,6 +1,19 @@
 # Grelha: especificação
 
-> **Nota (2026-10-11):** a base de dados desta especificação (`data/grid/rows.json`, `facts.json`, as ids `g-` e `e-`, as fases 1 a 4) foi substituída por [`docs/arquitetura.md`](arquitetura.md): as linhas passam a ser as próprias entidades e os factos passam a ser os acontecimentos de cada sessão, em `registo/`. Continuam válidas as secções sobre a linha dona (7), os ecos (7), os estados e as contagens (8), a camada do DM (9), a revisão (10), a vista (11) e o Claude (12). **Não implementar as fases desta especificação; seguir as fases de `arquitetura.md`.**
+> **Nota (2026-10-11, revista a 2026-10-20):** a base de dados desta especificação foi substituída por [`docs/arquitetura.md`](arquitetura.md): as linhas passam a ser as próprias entidades e os factos passam a ser os acontecimentos de cada sessão, em `registo/`. **As secções 7 a 12** (linha dona, ecos, estados e contagens, camada do DM, revisão, vista, o Claude) **continuam válidas e estão atualizadas** para os ficheiros de hoje. As secções 1 a 6, 13 e 14 e os anexos ficam como registo do desenho original: os nomes que lá aparecem correspondem a estes de hoje.
+>
+> | Na especificação original | Hoje |
+> | --- | --- |
+> | `data/grid/rows.json` (linhas `g-…`) | as entidades (`mundo/`, `plano/fios/`) e a lista de linhas `grelha/linhas.json` |
+> | `data/grid/facts.json` (factos `e-…`) | os acontecimentos dos registos das sessões (`registo/sessoes/`) |
+> | `data/grid/dm.json` | `grelha/dm.json` (só a app escreve) |
+> | `data/grid/review.json` | `grelha/revisao.json` |
+> | `src/lib/grid/` | `src/lib/grelha/` |
+> | `data/state.json`, `data/campaign/campaign.json` | os cabeçalhos dos registos e `plano/campanha.md` |
+> | `scripts/validate-data.ts` | `scripts/montar.ts` e `scripts/lib/validar-arvore.ts` |
+> | `docs/sessoes/`, `docs/canone.md`, `docs/ids.md` | `registo/sessoes/`, `registo/decisoes.md`, os próprios ficheiros |
+>
+> **Não implementar as fases desta especificação; seguir `arquitetura.md`.**
 
 Decidido pelo DM a 2026-10-11. Implementar no Claude Code, uma fase de cada vez (secção 14), mostrando o resultado ao DM no fim de cada fase. O conteúdo do mockup feito no claude.ai está em `docs/grelha-semente.json` e é a semente da fase 1.
 
@@ -157,7 +170,7 @@ As tags são três:
 
 ## 7. Linha dona e ecos
 
-Cada facto pertence a uma só linha, a dona. O mesmo vale para os planos, as verdades escondidas e os factos em falta da camada do DM. A dona não se guarda: calcula-a `ownerOf(kind, involves, rows)`, uma função pura em `src/lib/grid/owner.ts`, usada pela app e pelo `npm run validate`.
+Cada facto pertence a uma só linha, a dona. O mesmo vale para os planos, as verdades escondidas e os factos em falta da camada do DM. A dona não se guarda: calcula-a `donaDe(tipo, envolve, tipoLinha)`, uma função pura em `src/lib/grelha/dona.ts`, usada pela app e pelos scripts.
 
 | kind | Dona |
 | --- | --- |
@@ -168,7 +181,7 @@ Cada facto pertence a uma só linha, a dona. O mesmo vale para os planos, as ver
 | `cena` | o primeiro `pc` em `involves` |
 | `consequencia`, `estado`, `registo` | `involves[0]` |
 
-Se a linha esperada faltar ou aparecer mais de uma vez, `ownerOf` devolve `null`.
+Se a linha esperada faltar ou aparecer mais de uma vez, `donaDe` devolve `null`.
 - Num facto, o validate dá erro («dona ambígua»). No fecho, o Claude pergunta ao DM; se a resposta pedir uma regra nova, acrescenta-se a esta tabela.
 - Numa entrada do DM, a app não deixa gravar (secção 9).
 
@@ -186,7 +199,7 @@ Se a linha esperada faltar ou aparecer mais de uma vez, `ownerOf` devolve `null`
 
 ## 8. Estados e contagens
 
-`statusOf(fact, ctx)` decide o estado de um facto, por esta ordem:
+O estado de um facto (calculado em `src/lib/grelha/modelo.ts`, `construirGrelha`) decide-se, por esta ordem:
 
 1. `pista`, se o kind é `pista`;
 2. `registo`, se o kind é `cena`, `estado` ou `registo`;
@@ -276,31 +289,30 @@ interface DmEntry {
 }
 ```
 
-Os itens do DM (planos, verdades, factos em falta) podem ser referidos por outros, em `origin` ou `involves`, pela sua id `d-`. Depois de absorvidos, a id `d-` continua a valer: resolve-se através de `review.absorbed` (secção 10).
+Os itens do DM (planos, verdades, factos em falta) podem ser referidos por outros, em `origin` ou `involves`, pela sua id `d-`. Depois de absorvidos, a id `d-` continua a valer: resolve-se através de `revisao.absorbed` (secção 10).
 
 **O editor** sugere o `factKind` pelo tipo da linha: `cena` num PC, `pista` numa revelação, `consequencia` nos restantes.
 - Antes de gravar, mostra em que linha o item vai ficar (a dona, calculada pela regra da secção 7).
 - Se a dona não existir, por exemplo o Laço entre dois PCs, oferece-se para a criar com uma entrada `linha`.
 - Sem dona, não grava.
 
-**Junção das camadas.** Para o DM, editar é só editar a célula. Por baixo, `applyDm()`, em `src/lib/grid/merge.ts`, junta as camadas:
-- ignora as entradas que estão em `review.absorbed` (já estão na camada automática) e as que têm `deleted`;
+**Junção das camadas.** Para o DM, editar é só editar a célula. Por baixo, `aplicarDm()`, em `src/lib/grelha/dm.ts`, junta as camadas:
+- ignora as entradas que estão em `revisao.absorbed` (já estão na camada automática) e as que têm `deleted`;
 - `correcao` mostra o facto corrigido com ✎ e guarda o original, para «ver original»;
 - `verdade` e `plano` aparecem como itens da célula, com ✎;
 - `decisao` corrige o cabeçalho, com ✎;
 - `arquivo` passa o facto a fechado («arquivado»);
 - `linha` mostra a linha nova no seu grupo, com ✎;
-- uma entrada leva o ponto «por rever» se não estiver em `review.reviewed` nem em `review.absorbed`, ou se o seu `at` for mais recente do que a data em `review.reviewed`.
+- uma entrada leva o ponto «por rever» se não estiver em `revisao.reviewed` nem em `revisao.absorbed`, ou se o seu `at` for mais recente do que a data em `revisao.reviewed`.
 
 **Planos em colunas passadas.** Depois de uma sessão, os planos que ficaram para trás sem serem absorvidos aparecem destacados, com três botões: «Passa para a S{N+1}», «Fica para o capítulo» e «Cai». Os dois primeiros mudam `col`; «Cai» marca `deleted`. Nada desaparece sem o DM decidir.
 
-**Guardar.** Cada «Guardar» no editor grava logo um commit, só de `data/grid/dm.json`.
+**Guardar.** Cada «Guardar» no editor grava logo um commit, só de `grelha/dm.json`.
 - A mensagem diz o que mudou, por exemplo `grelha: plano g-elmiro-trigueiro s6`.
-- O «Guardar (N)» da barra lateral (`saveRemote`) não grava ficheiros de `data/grid/`: a Grelha grava o seu.
 - Num `ConflictError` (o ficheiro mudou noutro dispositivo), a app relê o `dm.json` remoto e junta as entradas por `id`, ficando a que tem o `at` mais recente. Depois repete uma vez. Se voltar a falhar, a entrada fica «por gravar» e a app tenta de novo na gravação seguinte.
 - As leituras de que a fusão e a atualização dependem usam `cache: 'no-store'`, porque a API do GitHub responde com `max-age=60`. Há uma função nova `fetchFile(path)` em `src/lib/github.ts`, que devolve o conteúdo e o sha.
 
-## 10. Revisão (`review.json`)
+## 10. Revisão (`grelha/revisao.json`)
 
 ```ts
 interface ReviewFile {
@@ -334,14 +346,14 @@ Na app:
 - **Ideias.** Uma `ideia` aparece tracejada na célula de destino (`target.row`, `target.col`), com dois botões:
   - «Aceitar» cria um `plano` com `fromIdea`, com a coluna, o texto, o `factKind`, as `tags` e, como `origin`, os factos em `because`;
   - «Rejeitar» cria `ideia-rejeitada`, e essa ideia não volta a ser sugerida.
-- **Atualização.** Enquanto a Grelha está aberta e há token, a app verifica de 30 em 30 segundos se o ramo mudou, com `GET /repos/{owner}/{repo}/commits/main`, `Accept: application/vnd.github.sha` e `cache: 'no-store'`. Se mudou, relê só os ficheiros de `data/grid/` que não estão por gravar. Assim, as notas do Claude aparecem sem recarregar a página. Há também um botão «Atualizar».
+- **Atualização.** Enquanto a Grelha está aberta e há token, a app verifica de 30 em 30 segundos se o ramo mudou, com `GET /repos/{owner}/{repo}/commits/main`, `Accept: application/vnd.github.sha` e `cache: 'no-store'`. Se mudou, relê só os ficheiros de `grelha/` que não estão por gravar. Assim, as notas do Claude aparecem sem recarregar a página. Há também um botão «Atualizar».
 
 ## 11. A vista
 
 - **Onde:**
   - `View` `grelha`, com o hash `#/grelha`;
-  - na barra lateral, antes da «Linha temporal»: «Grelha», ▦, com a dica «Tudo o que está em aberto, sessão a sessão»;
-  - componente `src/components/GridView.svelte`, partido em subcomponentes quando fizer sentido.
+  - na barra lateral: «Grelha», ▦, com a dica «Tudo o que está em aberto, sessão a sessão»;
+  - componentes `src/components/Grelha.svelte` e `src/components/GrelhaEditor.svelte`.
 - **Disposição**, como no mockup:
   - tabela com scroll nos dois sentidos dentro da vista;
   - as colunas de tipo e de nome ficam fixas à esquerda e as duas linhas de cabeçalho (arco e sessão) fixas em cima;
@@ -363,7 +375,7 @@ Na app:
 
 ## 12. O Claude: vigia, preparar e fecho
 
-Há duas skills no repositório. Carregam numa conversa do Claude com o repositório, que é a forma que o DM prefere, e também no Claude Code.
+Há três skills no repositório só para a Grelha (`vigia`, `preparar` e `fecho`, em `.claude/skills/`). Carregam numa conversa do Claude com o repositório, que é a forma que o DM prefere. Os passos completos estão nas skills; esta secção dá as regras.
 
 ### `/vigia`: revisão em tempo real
 
@@ -374,10 +386,10 @@ Ficheiros: `.claude/skills/vigia/SKILL.md` e `scripts/escuta.sh` (anexo B).
    - O script verifica `origin/main` de 10 em 10 segundos, espera que o DM pare de guardar e avisa com os commits novos.
    - A escuta expira ao fim de 30 minutos e volta a ligar-se enquanto o DM estiver a trabalhar.
    - «Para» desliga-a.
-3. **A cada aviso,** o Claude faz `git pull`. Se `data/grid/dm.json` mudou, revê as entradas por rever (secção 9).
+3. **A cada aviso,** o Claude faz `git pull`. Se `grelha/dm.json` mudou, revê as entradas por rever (secção 9).
 4. **Perguntas.** O Claude responde na conversa com três perguntas no máximo.
    - Primeiro vêm as que mexem na próxima sessão, cada uma com a resposta sugerida.
-   - As mesmas perguntas vão para `review.json` (`notes`), com commit, para aparecerem na célula.
+   - As mesmas perguntas vão para `grelha/revisao.json` (`notes`), com commit, para aparecerem na célula.
    - As restantes ficam para a ronda seguinte.
 5. **Respostas.** Quando o DM responde, na conversa ou na app (numa `resposta`), o Claude aplica a resposta, fecha a nota e regista a entrada em `reviewed` (com o seu `at`) ou em `absorbed` (com a id em que se tornou).
    - Antes do commit, corre `python3 scripts/normalizar-texto.py` e `npm run validate`.
@@ -389,17 +401,17 @@ Regras da revisão, por tipo de entrada:
   - Se não viram, é uma verdade escondida e só tem de bater com o que eles viram.
   - Se viram, há duas hipóteses: ou o registo estava errado (o Claude mostra o que diz a transcrição ou o resumo), ou é um retcon, e os jogadores lembram-se do original.
   - Mostra os factos que nasceram deste (a cadeia de `origin`), porque podem deixar de fazer sentido.
-  - Depois de confirmada, a correção passa para `facts.json` e corrige também o resumo da sessão (`docs/sessoes/sessao-NN-AAAA-MM-DD.md`) e `docs/canone.md`.
+  - Depois de confirmada, a correção passa para o acontecimento no registo da sessão (`registo/sessoes/sNN-AAAA-MM-DD.md`) e para as fichas que ele toca; o resumo da Drive refaz-se a partir do registo.
 - **`verdade`.** Tem de bater com tudo o que os jogadores viram. O Claude sugere onde pode virar pista.
 - **`plano`.** Um plano nunca é cânone antes de se jogar. O Claude procura efeitos cruzados:
   - que linhas o plano toca e não estão em `involves`;
   - que factos abertos pode pagar (e sugere-os como `origin`);
   - quem mais estaria lá;
   - se algum PC fica sem cena.
-- **`decisao`.** O Claude confirma que não contradiz nada do que já se disse à mesa. Depois de confirmada, passa para `rows.json`. Se for verdade do mundo, vai também para `docs/canone.md`, como «Decidido pelo DM (data)», por revelar.
-- **`linha`.** O Claude vê se a linha já existe com outro nome. Depois de confirmada, passa para `rows.json`, com a mesma id.
+- **`decisao`.** O Claude confirma que não contradiz nada do que já se disse à mesa. Depois de confirmada, passa para a ficha da coisa e para `registo/decisoes.md`, como «Decidido pelo DM (data)»; se for verdade do mundo, fica marcada por revelar.
+- **`linha`.** O Claude vê se a linha já existe com outro nome. Depois de confirmada, a coisa ganha o seu ficheiro (`mundo/…` ou `plano/fios/…`, com a mesma id) e entra em `grelha/linhas.json`.
 - **`nota`.** O Claude percebe onde a nota vai.
-  - Se for um facto, propõe-no e escreve-o em `facts.json` quando o DM disser que sim.
+  - Se for um facto, propõe-o e escreve-o como acontecimento no registo da sessão quando o DM disser que sim.
   - Se for um plano, cria uma `ideia` nessa célula, porque os planos são do DM.
 - **`arquivo`.** Só se regista. O Claude pergunta apenas se o fio devia deixar um eco.
 
@@ -415,19 +427,19 @@ Ficheiro: `.claude/skills/preparar/SKILL.md`. Corre a pedido do DM ou numa taref
   - os planos da próxima sessão que falta preparar;
   - os PCs sem cena na próxima sessão;
   - os ecos por dar.
-- Propõe até três ideias ou ramificações, como `ideia` em `review.json`, cada uma com `because`.
+- Propõe até cinco ideias ou ramificações, como `ideia` em `grelha/revisao.json`, cada uma com `because`.
 - Primeiro vêm os ecos do que já aconteceu e só depois as coisas novas.
 - Não repete ideias rejeitadas.
 
-### Fecho: acrescentar a `docs/fluxo.md`
+### Fecho
 
-Depois de cada sessão, além do que o fecho já faz:
+Ficheiro: `.claude/skills/fecho/SKILL.md` (os passos em `docs/fluxo.md`). Na parte da Grelha:
 
-1. escreve os factos da sessão em `facts.json`, com `kind`, `involves` e `origin`, e pergunta quando a dona é ambígua;
+1. escreve os acontecimentos da sessão no registo (`registo/sessoes/`), com `tipo`, `envolve` e `origem`, e pergunta quando a dona é ambígua;
 2. para cada plano da sessão jogada:
    - se aconteceu, vira facto (com `origin`) e o plano passa a `absorbed`;
    - se não aconteceu, fica para os três botões da app;
-3. atualiza `rows.json` (linhas novas que valham a pena, atitudes, `knows`), com o sim do DM.
+3. atualiza as fichas e `grelha/linhas.json` (linhas novas que valham a pena, atitudes, `sabe`), com o sim do DM.
 
 ## 13. Validação
 

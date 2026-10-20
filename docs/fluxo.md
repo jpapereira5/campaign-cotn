@@ -68,9 +68,12 @@ Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e 
 | `exandria` (glossário) | `1ziSnT3gXuEu_NcHzV0C5iAIFoP4tOLDc` |
 | `session_records` (transcrições: `<global>_cotn_<n>/transcript_whisperx.txt`) | `1bmnSRbTupGWiWyjzsHIwIF4_2lQYf_OZ` |
 | Resumo de Sessoes (Google Docs, escritos a partir do registo) | `1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-` |
+| PCs (uma pasta por PC, com o documento consolidado; ids no `AGENTS.md`) | `1DlPuhGA7npun4bEQ7ZD7vGm3Tka9ZJot` |
+| `cotn_2026/github_repo` (cópia de leitura do repositório; `docs/copia-drive.md`) | `1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R` |
+| `DND/skills` (cópia de leitura das skills) | `1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H` |
 
 ## Último fecho
 
 2026-10-18 (sessão 6, #89: registo a partir da transcrição, mortes do Damião e do Alex, o pendente com o Quasi, o pano do culto; resumo v4 na Drive).
 
-Revisão das sessões 1 a 6 contra as transcrições: 2026-10-18 (notas `n-tr…` em `grelha/revisao.json`; a sessão 6 ainda não tem fecho).
+Revisão das sessões 1 a 6 contra as transcrições: 2026-10-18 (notas `n-tr…` em `grelha/revisao.json`), feita no mesmo dia, antes do fecho da sessão 6.

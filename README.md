@@ -1,6 +1,6 @@
 # Campanha · Call of the Netherdeep
 
-O assistente de DM da campanha *Call of the Netherdeep* (com o prólogo *Unwelcome Spirits*) da mesa Contos & Escudos: a base de dados da campanha em ficheiros Markdown, a Grelha que mostra semana a semana o que aconteceu e o que falta preparar, e o Claude a rever, a preparar e a fechar cada sessão. A arquitetura está em [`docs/arquitetura.md`](docs/arquitetura.md); o modelo da Grelha em [`docs/grelha.md`](docs/grelha.md); o método em [`docs/metodo.md`](docs/metodo.md); o fluxo de trabalho (Drive, Claude, repositório) em [`docs/fluxo.md`](docs/fluxo.md); os nomes em português em [`docs/glossario.md`](docs/glossario.md); a cópia automática do repositório na Drive em [`docs/copia-drive.md`](docs/copia-drive.md).
+O assistente de DM da campanha *Call of the Netherdeep* (com o prólogo *Unwelcome Spirits*) da mesa Contos & Escudos: a base de dados da campanha em ficheiros Markdown, a Grelha que mostra semana a semana o que aconteceu e o que falta preparar, e o Claude a rever, a preparar e a fechar cada sessão. A arquitetura está em [`docs/arquitetura.md`](docs/arquitetura.md); o modelo da Grelha em [`docs/grelha.md`](docs/grelha.md); o método em [`docs/metodo.md`](docs/metodo.md); o fluxo de trabalho (Drive, Claude, repositório) em [`docs/fluxo.md`](docs/fluxo.md); os nomes em português em [`docs/glossario.md`](docs/glossario.md); a cópia automática do repositório na Drive em [`docs/copia-drive.md`](docs/copia-drive.md); o formato das batalhas em [`docs/batalhas.md`](docs/batalhas.md). Os documentos só de registo (a migração, a semente da Grelha, a história das fases) estão em `docs/migracao-fase-a.md`, `docs/grelha-semente.json` e [`docs/arquivo/`](docs/arquivo/).
 
 ## A base de dados
 
@@ -12,7 +12,7 @@ plano/        o que pode acontecer: campanha.md (capítulos, capítulo atual), b
 registo/      o que aconteceu: sessoes/sNN-AAAA-MM-DD.md (cabeçalho, resumo e acontecimentos com efeitos), decisoes.md
 mesa/         quem joga: jogadores/ (p-*), fios/ (teorias e piadas da mesa), regras.md, batalhas/ (*.yaml, a página Batalha)
 livro/        o livro tal como escrito, em JSON, só para consulta
-grelha/       linhas.json (o que a Grelha acompanha) · dm.json (a camada do DM, só a app escreve) · revisao.json (as notas do Claude)
+grelha/       linhas.json (o que a Grelha acompanha) · dm.json (a camada do DM, só a app escreve) · revisao.json (as notas do Claude) · acesso.json (o token cifrado com a palavra-passe da mesa)
 ```
 
 O estado do mundo (quem está onde, quem sabe o quê, quem tem o quê, as atitudes, os relógios) não se escreve: calcula-se dos acontecimentos das sessões, por ordem (`src/lib/estado.ts`). Nada se edita à mão na app: o cânone entra pelo fecho, com o Claude; a app só grava a camada do DM.
@@ -51,11 +51,13 @@ Dez skills em `.claude/skills/`, para usar numa conversa com acesso ao repositó
 npm install
 npm run dev        # monta src/generated/dados.json e abre http://localhost:5173
 npm run validate   # lê e valida a estrutura (0 erros é obrigatório; --warn mostra os avisos)
-npm test           # testes das bibliotecas puras (estado, Grelha, camada do DM, grafo, pesquisa, Markdown)
+npm test           # testes das bibliotecas puras (estado, Grelha, camada do DM, grafo, batalha, acesso, Markdown)
 npm run check      # svelte-check
 npm run build      # dist/
 npm run grelha     # a Grelha em texto (--linha <id>, --json)
 python3 scripts/normalizar-texto.py   # glossário pt-PT e grafia do AO90 no corpo dos ficheiros
+bash scripts/escuta.sh                # escuta as gravações da app (skill vigia)
+python3 scripts/copia-drive.py gerar SAIDA   # a cópia de leitura para a Drive (docs/copia-drive.md)
 ```
 
 Deploy automático para GitHub Pages em cada push para `main` (`.github/workflows/deploy.yml`): valida, testa, verifica e constrói.
