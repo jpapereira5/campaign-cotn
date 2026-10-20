@@ -1,6 +1,6 @@
 ---
 name: "confessionario"
-description: "Perguntas de confessionário, à maneira de um reality show, para os jogadores responderem em personagem depois de uma sessão de D&D, e a entrevista de apresentação antes da primeira. Usar quando o DM quer perguntas para gravar sobre uma sessão já jogada ou para o episódio de apresentação."
+description: "Perguntas de confessionário, à maneira de um reality show, para os jogadores responderem em personagem depois de uma sessão de D&D. Usar quando o DM quer perguntas para gravar sobre uma sessão já jogada."
 ---
 
 # confessionario: a reação da personagem, em câmara
@@ -56,16 +56,8 @@ No fim da lista, propõe a **ordem de gravação** e diz porquê em meia linha: 
 
 Três a quatro no fim, para todos responderem em separado, sempre sobre o que ficou por resolver à mesa: o NPC que ninguém defendeu, a pista que ninguém seguiu, o sinal que ninguém comentou.
 
-## 5. Antes da primeira sessão
-
-A entrevista de apresentação é a mesma coisa, sem sessão: quem és, como te chamam, o que fazes, como vieste aqui parar, o que te liga aos outros, o que queres, e um segredo — só sim ou não. Em personagem, como tudo o resto. Perguntas ao jogador (quem é, como entrou na campanha, o que espera) só se o DM as pedir expressamente, e em bloco separado.
-
-Se o projeto tiver questionário de sessão zero, as perguntas de moralidade e de passado desse questionário são boa matéria-prima: uma por episódio, escolhida pelo que aconteceu nessa noite.
-
-## 6. Entregar
+## 5. Entregar
 
 Uma secção por personagem, pela ordem do episódio, com as perguntas em lista. Se o DM quiser contexto (e da primeira vez que se fala de uma sessão, quer), põe acima de cada bloco duas ou três linhas a dizer o que aconteceu, com a citação da transcrição quando ela for melhor do que a paráfrase. A seguir às personagens, as perguntas de grupo e a ordem de gravação.
-
-Antes da primeira gravação, lembra o DM de acordar com cada jogador o que pode ser publicado e o direito a cortar: uma pessoa sozinha à frente de uma câmara diz coisas que não diria à mesa.
 
 Se o projeto tiver pasta de produção, grava lá o ficheiro, com uma secção por sessão.
