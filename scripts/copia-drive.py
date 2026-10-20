@@ -14,6 +14,12 @@ peças pequenas (até ~65 KB cada) e só se reenviam as que mudaram.
       (novas ou mudadas) e que nomes apagar (já não existem). MANIFESTO_ANTIGO pode
       não existir (primeira cópia: envia tudo).
 
+  python3 scripts/copia-drive.py espelho REPO SAIDA
+      Para repositórios de código (como o jpapereira5/dnd-soundboard): copia para
+      SAIDA/ficheiros/ cada ficheiro do git tal como está (mesmos caminhos) e escreve o
+      `00 LEIA-ME.md` e o `manifesto.json` (sha256, tamanho e tipo de cada ficheiro,
+      com o caminho como nome). O `diferencas` serve para os dois.
+
 Nunca escreve no repositório.
 """
 import datetime, glob, hashlib, json, os, re, subprocess, sys
@@ -158,6 +164,37 @@ def gerar(saida):
     print(f'{len(hashes)} peças, commit {commit}')
 
 
+TIPOS = {'.md': 'text/markdown', '.json': 'application/json', '.html': 'text/html', '.css': 'text/css',
+         '.js': 'text/javascript', '.yml': 'text/yaml', '.yaml': 'text/yaml'}
+
+
+def espelho(repo, saida):
+    repo = os.path.abspath(repo)
+    os.makedirs(saida, exist_ok=True)
+    subprocess.run(['rm', '-rf', os.path.join(saida, 'ficheiros')], check=True)
+    run = lambda *a: subprocess.run(['git', *a], cwd=repo, check=True, capture_output=True, text=True).stdout.strip()
+    nome, commit, data = os.path.basename(repo), run('rev-parse', '--short', 'HEAD'), run('log', '-1', '--format=%cI')
+    agora = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+    hashes, info = {}, {}
+    for rel in run('ls-files').split('\n'):
+        dados = open(os.path.join(repo, rel), 'rb').read()
+        destino = os.path.join(saida, 'ficheiros', rel)
+        os.makedirs(os.path.dirname(destino), exist_ok=True)
+        open(destino, 'wb').write(dados)
+        hashes[rel] = hashlib.sha256(dados).hexdigest()
+        info[rel] = {'bytes': len(dados), 'tipo': TIPOS.get(os.path.splitext(rel)[1], 'text/plain')}
+    leia = [f'# Cópia do repositório {nome}', '',
+            f'Cópia de leitura de `jpapereira5/{nome}`, commit `{commit}` ({data}), gerada a {agora}.', '',
+            'Cada ficheiro do repositório está aqui com o mesmo caminho e o mesmo conteúdo. A fonte de verdade é o '
+            'GitHub: o que se mudar aqui perde-se na próxima cópia. O Claude atualiza esta pasta uma vez por dia e só '
+            'reenvia os ficheiros que mudaram (`manifesto.json`). Para reconstruir o projeto: descarrega a pasta, '
+            '`npm ci` e `npm run dev`.', '', f'{len(hashes)} ficheiros.', '']
+    open(os.path.join(saida, LEIA_ME), 'w', encoding='utf-8').write('\n'.join(leia))
+    json.dump({'repo': f'jpapereira5/{nome}', 'commit': commit, 'data': data, 'gerado': agora, 'pecas': hashes,
+               'ficheiros': info}, open(os.path.join(saida, MANIFESTO), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f'{len(hashes)} ficheiros, commit {commit}')
+
+
 def diferencas(saida, antigo):
     novo = json.load(open(os.path.join(saida, MANIFESTO), encoding='utf-8'))
     velho = json.load(open(antigo, encoding='utf-8')) if os.path.exists(antigo) else {'commit': None, 'pecas': {}}
@@ -171,6 +208,8 @@ def diferencas(saida, antigo):
 if __name__ == '__main__':
     if len(sys.argv) == 3 and sys.argv[1] == 'gerar':
         gerar(sys.argv[2])
+    elif len(sys.argv) == 4 and sys.argv[1] == 'espelho':
+        espelho(sys.argv[2], sys.argv[3])
     elif len(sys.argv) == 4 and sys.argv[1] == 'diferencas':
         diferencas(sys.argv[2], sys.argv[3])
     else:

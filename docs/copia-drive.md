@@ -23,3 +23,13 @@ Várias peças podem ir em paralelo, por agentes, cada um com um lote.
 - Uma peça acima de ~80 KB dá um aviso no `gerar`: parte-se em `pecas()`, no script (por letra, por capítulo…).
 - Uma peça nova (um PC novo, uma sessão nova, um capítulo novo) entra sozinha: o script gera-a e a cópia cria-a.
 - Mudar o nome de uma peça no script faz a cópia criar a nova e apagar a antiga.
+
+## A cópia do dnd-soundboard
+
+O repositório `jpapereira5/dnd-soundboard` (a app de som da mesa) tem também uma cópia na Drive, em `DND/dm_tools/dnd-soundboard` (`1lG6V6yb6Nu9kcQcqPCFOqkKMBa1T9N1r`), feita na mesma tarefa diária (decidido pelo DM a 2026-10-20). Como é código, a cópia é um **espelho**: cada ficheiro do git com o mesmo caminho (subpastas `src`, `src/components`, `src/lib`, `.github/workflows`) e o mesmo conteúdo, mais o `00 LEIA-ME.md` e o `manifesto.json` (os nomes no manifesto são os caminhos).
+
+1. `git clone https://github.com/jpapereira5/dnd-soundboard` (ou `git pull`).
+2. Descarrega o `manifesto.json` da pasta, como acima.
+3. `python3 scripts/copia-drive.py espelho <clone do soundboard> SAIDA` e `python3 scripts/copia-drive.py diferencas SAIDA manifesto-antigo.json`.
+4. Para cada caminho a enviar: a subpasta certa (procura-a pelo nome dentro da pasta-mãe; cria-a se não existir), o ficheiro `SAIDA/ficheiros/<caminho>` com o nome do ficheiro e o tipo que o manifesto novo dá em `ficheiros.<caminho>.tipo` (`disableConversionToGoogleType: true`); depois, o antigo para o lixo. Os caminhos em `apagar` vão para o lixo.
+5. No fim, o `00 LEIA-ME.md` e o `manifesto.json`, e a conferência dos tamanhos.
