@@ -1,5 +1,5 @@
 ---
-id: c-pc-tiago
+id: c-pc-boblin
 nome: Boblin
 tipo: pc
 facoes: []

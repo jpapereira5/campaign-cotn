@@ -17,7 +17,7 @@ tags:
   - morto
 legenda: guarda da capela; homem da Miríade no forte; morto
 relacoes:
-  - com: c-pc-tiago
+  - com: c-pc-boblin
     tipo: other
     nota: ganhou a moeda do Boblin numa aposta, com o Boblin lá dentro
     origem: mesa

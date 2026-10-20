@@ -223,7 +223,7 @@
       "at": "2026-10-11T22:00:00Z",
       "kind": "ideia",
       "target": {
-        "row": "c-pc-tiago",
+        "row": "c-pc-boblin",
         "col": "ch0"
       },
       "text": "Entra in media res.",
@@ -5158,7 +5158,7 @@
       "at": "2026-10-20T00:30:00.000Z",
       "kind": "ideia",
       "target": {
-        "row": "c-pc-tiago",
+        "row": "c-pc-boblin",
         "col": "ch0"
       },
       "factKind": "cena",

@@ -2,7 +2,7 @@
 
 Nomes de Exandria em português europeu, para consistência entre os dados, as preparações, os handouts e o que se diz à mesa. É a cópia no repositório do `glossario_pt_v8.md` da Drive (pasta `exandria`), fechado com o DM a 2026-10-01.
 
-**Princípio:** traduz-se o máximo possível, sobretudo descritivos, títulos e epítetos; nomes próprios sem significado transparente mantêm-se; termos de regras e de sistema ficam em inglês, mesmo dentro de texto em português. Os ids dos dados continuam em inglês (`c-alonne-frith`, `l-fort-venture`): o glossário é para o texto.
+**Princípio:** traduz-se o máximo possível, sobretudo descritivos, títulos e epítetos; nomes próprios sem significado transparente mantêm-se; termos de regras e de sistema ficam em inglês, mesmo dentro de texto em português. As ids dos dados (minúsculas, sem acentos, com hífen) ficam como nasceram: as do livro em inglês (`c-alonne-frith`, `l-fort-venture`, `l-jigow`), as criadas pela mesa em português (`l-jigau-molho`, `f-fieis-baeshra`); o glossário é para o texto (decidido pelo DM, 2026-10-20).
 
 **Mantêm-se no original:** Exandria, Rosohna, Ghor Dranas, Rexxentrum, Zadash, Nicodranas, Darktow, Eiselcross, Aeor, Marquet, Ank'Harel, Tal'Dorei, Issylra, Urzin, Asarius, Kai Malama, os nomes dos deuses (Avandra, Bahamut, Corellon…), Luxon, Umavi, Den(s), starosta, Zhelezo, Ki'Nau, dranassar, Soltryce.
 

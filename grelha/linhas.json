@@ -31,9 +31,9 @@
     ]
   },
   {
-    "id": "c-pc-tiago",
+    "id": "c-pc-boblin",
     "pcs": [
-      "c-pc-tiago"
+      "c-pc-boblin"
     ]
   },
   {
@@ -772,7 +772,7 @@
   {
     "id": "p-tiago-rosa",
     "pcs": [
-      "c-pc-tiago"
+      "c-pc-boblin"
     ]
   },
   {
@@ -802,13 +802,13 @@
   {
     "id": "i-moeda-do-boblin",
     "pcs": [
-      "c-pc-tiago"
+      "c-pc-boblin"
     ]
   },
   {
     "id": "c-tiberio",
     "pcs": [
-      "c-pc-tiago",
+      "c-pc-boblin",
       "c-pc-isco"
     ]
   }
