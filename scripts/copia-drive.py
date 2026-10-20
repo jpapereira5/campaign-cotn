@@ -1,41 +1,27 @@
 #!/usr/bin/env python3
-"""Cópia do repositório para a Drive (pasta cotn_2026/copia_repo).
+"""Cópia de leitura do repositório na Drive (pasta cotn_2026/copia_repo).
 
-Dois passos, usados pela GitHub Action `.github/workflows/copia-drive.yml`:
+Quem a envia é o Claude, numa tarefa agendada diária (docs/copia-drive.md). Como o
+Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, a cópia vai em
+peças pequenas (até ~65 KB cada) e só se reenviam as que mudaram.
 
   python3 scripts/copia-drive.py gerar SAIDA
-      Escreve em SAIDA o `campaign-cotn.zip` (git archive do HEAD) e um documento
-      Markdown legível por área do cânone (personagens, locais, fações…).
+      Escreve em SAIDA um documento Markdown por peça, o `00 LEIA-ME.md` e o
+      `manifesto.json` (commit e sha256 de cada peça).
 
-  python3 scripts/copia-drive.py enviar SAIDA
-      Substitui o conteúdo dos ficheiros com o mesmo nome na pasta da Drive.
-      Precisa das variáveis GDRIVE_SA_KEY (a chave JSON da conta de serviço, num
-      segredo do GitHub) e GDRIVE_PASTA (a id da pasta). A conta de serviço não tem
-      espaço próprio na Drive, por isso só atualiza ficheiros que já existam (criados
-      pelo dono da pasta); um ficheiro em falta dá erro com o nome dele.
+  python3 scripts/copia-drive.py diferencas SAIDA MANIFESTO_ANTIGO
+      Compara com o manifesto que está na Drive e diz, em JSON, que peças enviar
+      (novas ou mudadas) e que nomes apagar (já não existem). MANIFESTO_ANTIGO pode
+      não existir (primeira cópia: envia tudo).
 
 Nunca escreve no repositório.
 """
-import datetime, glob, json, os, re, subprocess, sys
+import datetime, glob, hashlib, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ZIP = 'campaign-cotn.zip'
-
-# (nome do documento, ficheiros que entram, por ordem)
-AREAS = [
-    ('01 Personagens', ['mundo/personagens/*.md']),
-    ('02 Locais', ['mundo/locais/*.md']),
-    ('03 Fações', ['mundo/facoes/*.md']),
-    ('04 Itens', ['mundo/itens/*.md']),
-    ('05 Segredos e lore', ['mundo/lore.md', 'mundo/segredos/*.md']),
-    ('06 Campanha e beats', ['plano/campanha.md', 'plano/beats/*.md']),
-    ('07 Fios', ['plano/fios/*.md']),
-    ('08 Sessões', ['registo/sessoes/*.md']),
-    ('09 Decisões', ['registo/decisoes.md']),
-    ('10 Mesa', ['mesa/**/*.md', 'mesa/**/*.yaml']),
-    ('11 Documentação', ['README.md', 'AGENTS.md', 'docs/*.md']),
-]
-LEIA_ME = '00 LEIA-ME'
+LEIA_ME = '00 LEIA-ME.md'
+MANIFESTO = 'manifesto.json'
+LIMITE = 80_000  # aviso acima disto: partir a peça
 
 FENCE = re.compile(r'^(```|~~~)')
 HEAD = re.compile(r'^(#{1,6})(\s)')
@@ -45,18 +31,60 @@ def git(*args):
     return subprocess.run(['git', *args], cwd=ROOT, check=True, capture_output=True, text=True).stdout.strip()
 
 
-def ficheiros(padroes):
+def ficheiros(*padroes, letras=None, exceto=None):
+    """Ficheiros (relativos à raiz) por ordem; `letras` filtra pela primeira letra depois do prefixo `x-`."""
     vistos = []
     for p in padroes:
         for f in sorted(glob.glob(os.path.join(ROOT, p), recursive=True)):
             rel = os.path.relpath(f, ROOT)
+            base = os.path.basename(rel)
+            if exceto and re.match(exceto, base):
+                continue
+            if letras:
+                ini = base.split('-', 1)[1][:1].lower() if '-' in base else base[:1].lower()
+                if not (letras[0] <= ini <= letras[1]):
+                    continue
             if rel not in vistos:
                 vistos.append(rel)
     return vistos
 
 
+def pecas():
+    """(nome da peça, ficheiros) por ordem."""
+    out = []
+    for f in ficheiros('mundo/personagens/c-pc-*.md'):
+        out.append((f'01 Personagens · PC {os.path.basename(f)[5:-3]}', [f]))
+    for a, b in [('a', 'b'), ('c', 'f'), ('g', 'k'), ('l', 'n'), ('o', 'r'), ('s', 'u'), ('v', 'z')]:
+        out.append((f'01 Personagens · NPCs {a}–{b}', ficheiros('mundo/personagens/c-*.md', letras=(a, b), exceto=r'c-pc-')))
+    out.append(('02 Locais · a–m', ficheiros('mundo/locais/*.md', letras=('a', 'm'))))
+    out.append(('02 Locais · n–z', ficheiros('mundo/locais/*.md', letras=('n', 'z'))))
+    out.append(('03 Fações', ficheiros('mundo/facoes/*.md')))
+    out.append(('04 Itens', ficheiros('mundo/itens/*.md')))
+    out.append(('05 Segredos e lore', ficheiros('mundo/lore.md', 'mundo/segredos/*.md')))
+    out.append(('06 Campanha', ficheiros('plano/campanha.md')))
+    caps = sorted({re.match(r'b-([^-]+)-', os.path.basename(f)).group(1) for f in ficheiros('plano/beats/b-*.md')},
+                  key=lambda c: (len(c), c))
+    for c in caps:
+        out.append((f'06 Beats · capítulo {c}', ficheiros(f'plano/beats/b-{c}-*.md')))
+    out.append(('07 Fios', ficheiros('plano/fios/*.md')))
+    out.append(('08 Sessões · índice', ficheiros('registo/sessoes/README.md')))
+    for f in ficheiros('registo/sessoes/s*.md'):
+        out.append((f'08 Sessão {os.path.basename(f)[1:3]}', [f]))
+    out.append(('09 Decisões', ficheiros('registo/decisoes.md')))
+    out.append(('10 Mesa · regras', ficheiros('mesa/regras.md')))
+    out.append(('10 Mesa · resto', [f for f in ficheiros('mesa/**/*.md', 'mesa/**/*.yaml') if f != 'mesa/regras.md']))
+    out.append(('11 Documentação · geral', ficheiros('README.md', 'AGENTS.md', 'docs/fluxo.md', 'docs/metodo.md',
+                                                    'docs/glossario.md', 'docs/batalhas.md', 'docs/copia-drive.md')))
+    out.append(('11 Documentação · arquitetura', ficheiros('docs/arquitetura.md')))
+    out.append(('11 Documentação · grelha', ficheiros('docs/grelha.md')))
+    usados = {f for _, fs in out for f in fs}
+    resto = [f for f in ficheiros('docs/*.md') if f not in usados]
+    if resto:
+        out.append(('11 Documentação · outros', resto))
+    return [(n, fs) for n, fs in out if fs]
+
+
 def separar(texto):
-    """(cabeçalho YAML ou '', corpo)."""
     if texto.startswith('---\n'):
         fim = texto.find('\n---\n', 4)
         if fim != -1:
@@ -83,8 +111,11 @@ def nome_de(rel, cab):
     return m.group(1).strip().strip('"\'') if m else os.path.splitext(os.path.basename(rel))[0]
 
 
-def documento(titulo, rels, rodape):
-    partes = [f'# {titulo}', '', rodape, '', f'{len(rels)} ficheiros.', '']
+def documento(titulo, rels):
+    partes = [f'# {titulo}', '',
+              'Cópia de leitura do repositório `jpapereira5/campaign-cotn` (o commit está no `00 LEIA-ME`). '
+              'As mudanças fazem-se no repositório; o que se escrever aqui perde-se na próxima cópia.', '',
+              f'{len(rels)} ficheiro(s).', '']
     for rel in rels:
         texto = open(os.path.join(ROOT, rel), encoding='utf-8').read()
         if rel.endswith('.yaml'):
@@ -100,64 +131,47 @@ def documento(titulo, rels, rodape):
 
 def gerar(saida):
     os.makedirs(saida, exist_ok=True)
-    commit = git('rev-parse', '--short', 'HEAD')
-    data = git('log', '-1', '--format=%cI')
+    for n in os.listdir(saida):
+        os.remove(os.path.join(saida, n))
+    commit, data = git('rev-parse', '--short', 'HEAD'), git('log', '-1', '--format=%cI')
     agora = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-    rodape = (f'Cópia automática do repositório `jpapereira5/campaign-cotn`, commit `{commit}` ({data}), '
-              f'gerada a {agora}. Só leitura: as mudanças fazem-se no repositório.')
-    git('archive', '--format=zip', '-o', os.path.join(os.path.abspath(saida), ZIP), 'HEAD')
-    indice = []
-    for titulo, padroes in AREAS:
-        rels = ficheiros(padroes)
-        with open(os.path.join(saida, titulo + '.md'), 'w', encoding='utf-8') as f:
-            f.write(documento(titulo, rels, rodape))
-        indice.append(f'| {titulo} | {", ".join("`" + p + "`" for p in padroes)} | {len(rels)} |')
-    leia = [f'# Cópia do repositório da CotN', '', rodape, '',
-            f'- `{ZIP}`: o repositório inteiro (tudo o que está no git, incluindo `grelha/` e `livro/`).',
-            '- Um documento por área do cânone, para ler ou pesquisar na Drive:', '',
-            '| Documento | Ficheiros do repositório | N.º |', '| :-- | :-- | --: |', *indice, '',
-            'Atualiza-se sozinha (GitHub Action `copia-drive`) a cada push para `main` e uma vez por dia. '
-            'O que se escrever aqui perde-se na próxima cópia.', '']
-    with open(os.path.join(saida, LEIA_ME + '.md'), 'w', encoding='utf-8') as f:
-        f.write('\n'.join(leia))
-    for n in sorted(os.listdir(saida)):
-        print(f'{os.path.getsize(os.path.join(saida, n)):>10}  {n}')
+    hashes, linhas = {}, []
+    for titulo, rels in pecas():
+        texto = documento(titulo, rels)
+        nome = titulo + '.md'
+        open(os.path.join(saida, nome), 'w', encoding='utf-8').write(texto)
+        hashes[nome] = hashlib.sha256(texto.encode()).hexdigest()
+        tam = len(texto.encode())
+        linhas.append(f'| {titulo} | {len(rels)} | {tam // 1000} KB |')
+        if tam > LIMITE:
+            print(f'AVISO: «{nome}» tem {tam // 1000} KB; parte-a em pecas() no script', file=sys.stderr)
+    leia = ['# Cópia do repositório da CotN', '',
+            f'Cópia de leitura do repositório `jpapereira5/campaign-cotn`, commit `{commit}` ({data}), gerada a {agora}.', '',
+            'A fonte de verdade é o repositório: o que se escrever aqui perde-se na próxima cópia. '
+            'O Claude atualiza esta pasta uma vez por dia (tarefa agendada) e só reenvia as peças que mudaram; '
+            'o `manifesto.json` diz que versão de cada peça está aqui. O repositório inteiro descarrega-se do GitHub '
+            '(Code → Download ZIP).', '',
+            '| Peça | Ficheiros | Tamanho |', '| :-- | --: | --: |', *linhas, '']
+    open(os.path.join(saida, LEIA_ME), 'w', encoding='utf-8').write('\n'.join(leia))
+    json.dump({'commit': commit, 'data': data, 'gerado': agora, 'pecas': hashes},
+              open(os.path.join(saida, MANIFESTO), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f'{len(hashes)} peças, commit {commit}')
 
 
-def enviar(saida):
-    from google.oauth2 import service_account
-    from googleapiclient.discovery import build
-    from googleapiclient.http import MediaFileUpload
-
-    chave = json.loads(os.environ['GDRIVE_SA_KEY'])
-    pasta = os.environ['GDRIVE_PASTA']
-    cred = service_account.Credentials.from_service_account_info(
-        chave, scopes=['https://www.googleapis.com/auth/drive'])
-    drive = build('drive', 'v3', credentials=cred, cache_discovery=False)
-    existentes, token = {}, None
-    while True:
-        r = drive.files().list(q=f"'{pasta}' in parents and trashed = false",
-                               fields='nextPageToken, files(id, name)', pageToken=token,
-                               supportsAllDrives=True, includeItemsFromAllDrives=True).execute()
-        existentes.update({f['name']: f['id'] for f in r['files']})
-        token = r.get('nextPageToken')
-        if not token:
-            break
-    faltam = []
-    for n in sorted(os.listdir(saida)):
-        if n not in existentes:
-            faltam.append(n)
-            continue
-        tipo = 'application/zip' if n.endswith('.zip') else 'text/markdown'
-        drive.files().update(fileId=existentes[n], media_body=MediaFileUpload(os.path.join(saida, n), mimetype=tipo),
-                             supportsAllDrives=True).execute()
-        print(f'atualizado: {n}')
-    if faltam:
-        sys.exit('Ficheiros em falta na pasta da Drive (cria-os lá, com estes nomes, como dono da pasta): '
-                 + ', '.join(faltam))
+def diferencas(saida, antigo):
+    novo = json.load(open(os.path.join(saida, MANIFESTO), encoding='utf-8'))
+    velho = json.load(open(antigo, encoding='utf-8')) if os.path.exists(antigo) else {'commit': None, 'pecas': {}}
+    enviar = [n for n, h in novo['pecas'].items() if velho['pecas'].get(n) != h]
+    apagar = [n for n in velho['pecas'] if n not in novo['pecas']]
+    igual = velho.get('commit') == novo['commit'] or (not enviar and not apagar)
+    print(json.dumps({'commit_antigo': velho.get('commit'), 'commit_novo': novo['commit'], 'nada_a_fazer': igual,
+                      'enviar': enviar, 'apagar': apagar}, ensure_ascii=False, indent=1))
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3 or sys.argv[1] not in ('gerar', 'enviar'):
+    if len(sys.argv) == 3 and sys.argv[1] == 'gerar':
+        gerar(sys.argv[2])
+    elif len(sys.argv) == 4 and sys.argv[1] == 'diferencas':
+        diferencas(sys.argv[2], sys.argv[3])
+    else:
         sys.exit(__doc__)
-    {'gerar': gerar, 'enviar': enviar}[sys.argv[1]](sys.argv[2])
