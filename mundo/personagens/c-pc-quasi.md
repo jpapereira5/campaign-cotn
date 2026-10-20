@@ -156,7 +156,24 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
   - **Uma fonte só: a máscara.** Tudo o que é vistani nele — evil eye, sonhos de precognição, atalho pelo nevoeiro — vem dali. Acabam as categorias por origem. A máscara deixa de ser disfarce e passa a ser tudo o que ele tem.
   - **O que a máscara não dá:** as features de bardo e a Canção do Mundo, que é dom da Sehanine. Mortu é condição vistani e não toca na classe — senão perdia metade da ficha com um objeto.
   - **A cura não lhe tira nada**, e não parte a decisão de que a cura não custa features: os poderes foram-se com a metade roubada, e a máscara tem estado a fazer de prótese dessa metade (é o que já estava escrito, que ela lhe segura a parte humana). Inteiro, recebe o sangue de volta com a outra metade e deixa de precisar de prótese. **Deixa de ser mortu no dia em que deixa de estar cortado.**
-- **Aviso para a mesa:** como quem passa o save fica imune ao evil eye de todos os vistani por 24 horas, um jogador atento pode lançá-lo nos próprios companheiros antes de Marquet para os vacinar contra a caravana. É jogada legítima e boa cena; decidir se passa quando aparecer.
+- **Decisões de mesa** (Decidido pelo DM (2026-10-20)): o *hold person* exige **concentração**, como a magia, e as outras duas não — a opção forte compete com o *Faerie Fire* e o *Suggestion* que ele já usa. **Não escala**: fica estático até ao fim da campanha, e se um dia parecer fraco acrescenta-se uma segunda utilização por descanso, nunca magias melhores (competiria com a progressão de bardo). **É magia**: apanha *counterspell* e *dispel magic* e morre em *antimagic field*; o livro dispensa componentes somáticos e materiais e **cala-se sobre os verbais**, por isso *silence* trava-o. **O que a mesa vê:** o alvo sabe sempre de onde veio e olha para ele; mais ninguém dá por nada — a não ser que falhe, e aí a cegueira do CoS é o tell, e é público. A arma secreta só se torna visível quando não resulta.
+- **A maldição fica para depois da cura.** Mortu, ele não a tem; recupera-a com a outra metade.
+- **A primeira utilização à frente do grupo é uma revelação.** Até aqui é um bardo mascarado que toca alaúde; no momento em que prende alguém com um olhar, passa a ser outra coisa e vão perguntar. Ter pensado antes no que ele responde, e se responde.
+- **Aviso para a mesa:** como quem passa o save fica imune ao evil eye de todos os vistani por 24 horas, um jogador atento pode lançá-lo nos próprios companheiros antes de Marquet para os vacinar contra a caravana. É jogada legítima e boa cena; decidir se passa quando aparecer. Não lho dar de bandeja.
+
+**Mau-olhado — bloco para o jogador** (entregue ao Pedro, 2026-10-20)
+
+> **MAU-OLHADO** (*Evil Eye*) — traço vistani
+>
+> Como **ação**, escolhes uma criatura a **10 pés** que consigas ver. O olhar atravessa a máscara: ninguém precisa de te ver os olhos. Escolhes um destes três efeitos, que funciona com a duração e o efeito da magia correspondente: *animal friendship*, *charm person* ou *hold person*.
+>
+> Não precisas de componentes somáticos nem materiais. **CD do save = 8 + bónus de proficiência + modificador de Carisma.**
+>
+> **Se o alvo passar no save**, o mau-olhado volta-se contra ti: ficas **cego** até ao fim do teu turno seguinte. E esse alvo fica **imune ao mau-olhado de qualquer vistana durante 24 horas**.
+>
+> Usas o mau-olhado **uma vez por descanso curto ou longo**.
+>
+> **Notas de mesa:** o *hold person* exige concentração, como a magia; as outras duas não. É magia: apanha *counterspell* e *dispel magic*, e não funciona dentro de *antimagic field*; precisa de voz, por isso *silence* trava-o. O alvo sabe sempre de onde veio e olha para ti; mais ninguém dá por nada — a não ser que falhes e fiques ali cego, à frente de toda a gente.
 
 **O atalho pelo nevoeiro** (Decidido pelo DM (2026-10-20); aprovado, deixa de ser corte à ficha do Pedro)
 - **Existe, vem dos antepassados e passa pela máscara.** Não é herança vistani comum: é dom deles, como a própria máscara e os sonhos.
