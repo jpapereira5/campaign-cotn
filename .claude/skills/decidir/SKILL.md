@@ -39,6 +39,10 @@ Uma decisão do DM é canónica quando ele mostra que decidiu, dita de qualquer 
 6. **Documentos da Drive** que a decisão desatualiza: versão nova como ficheiro novo; a anterior que tu criaste vai para o lixo. Os originais do DM não se apagam.
 7. **Valida e grava** com os comandos do projeto.
 
+## 3b. Decisão rápida
+
+Quando o DM decide uma coisa pequena e clara sobre uma personagem, um item ou um local (uma frase que ele diz, um nome, um valor, «fica assim»), não abras ronda de perguntas: confirma numa linha se houver ambiguidade e grava de uma vez os três sítios do passo 3 (a ficha, o registo de decisões, a nota para o DM na linha e na coluna certas), com o `grep` do passo 0 pelo que a decisão substitui. Responde com a decisão numa linha e os três sítios onde ficou. Se a decisão puxar outras (passo 2, cascata), pergunta-as a seguir, já com a primeira gravada.
+
 ## 4. Responder
 
 Curto: o que ficou decidido (uma linha por decisão, com o efeito na mesa), onde ficou, e o que falta decidir, já como pergunta interativa.

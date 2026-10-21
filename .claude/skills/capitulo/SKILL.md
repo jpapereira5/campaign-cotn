@@ -5,7 +5,7 @@ description: Construir a estrutura narrativa de um capítulo, arco ou zona nova 
 
 # capitulo: um capítulo à Mass Effect, a dois
 
-Esta é a skill que mais perguntas e discussão gera. Não se escreve o capítulo de uma vez: trabalha-se por **rondas**, e cada ronda acaba num **ponto de controlo** onde o DM decide antes de seguir. Fontes do método na Drive do DM: «Estrutura narrativa Mass Effect» (Google Doc), o mapeamento Mass Effect da *Unmade God* (`claude_2026_05_22_checkpoint2_mass_effect_mapping.md`) e `campaign_design.md` (repositório `dnd-skills`, pasta `reference/`).
+Esta é a skill que mais perguntas e discussão gera. Não se escreve o capítulo de uma vez: trabalha-se por **rondas**, e cada ronda acaba num **ponto de controlo** onde o DM decide antes de seguir. Fontes do método: «Estrutura narrativa Mass Effect» (Google Doc na Drive, `dm_tools/references/narrative/`), o mapeamento Mass Effect da *Unmade God* (`_arquivo/unmade_god/` na Drive) e `campaign_design.md` (repositório `dnd-skills`, pasta `reference/`).
 
 ## A estrutura (Mass Effect)
 

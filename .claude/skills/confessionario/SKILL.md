@@ -1,6 +1,6 @@
 ---
-name: "confessionario"
-description: "Perguntas de confessionário, à maneira de um reality show, para os jogadores responderem em personagem depois de uma sessão de D&D. Usar quando o DM quer perguntas para gravar sobre uma sessão já jogada."
+name: confessionario
+description: Perguntas de confessionário, à maneira de um reality show, para os jogadores responderem em personagem depois de uma sessão de D&D. Usar quando o DM quer perguntas para gravar sobre uma sessão já jogada.
 ---
 
 # confessionario: a reação da personagem, em câmara
