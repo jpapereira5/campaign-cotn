@@ -77,7 +77,8 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
   - **A sala está quase sempre vazia.** O Boblin vai passar quase todo o tempo cá fora; quando entrar, muitas vezes estará sozinho, com a porta fechada. **Um dia a porta estará encostada,** e o Boblin pode sentir-se tentado a explorar o palácio.
   - **Dentro da moeda está o par do espelho de transpondência infinita do Xundi** (Tal'Dorei Reborn: o Xundi é um dos donos possíveis do par, d8 = 6). Só imagem, sem som (leitura estrita de «visual link»); 10 minutos de cada vez e até três ativações por dia, contando os dois lados. **Serve para mostrar ao Xundi o que se passa fora da moeda** (o Boblin tira-o da moeda, ativa-o e aponta-o: é ele que escolhe o que o Xundi vê) **e para o chamar à moeda** (o espelho do Xundi acende-se no palácio; ele vem pela porta se quiser). Não dá voz: para falar, o Xundi entra em corpo. Fica dentro da moeda; é o Tiago que tem de ter a ideia de o usar ou de o tirar (Decidido pelo DM (2026-10-21)).
   - **As prendas:** de vez em quando, o Xundi deixa itens mágicos dentro da moeda, em cima de uma mesa baixa: raros, e só quando uma aventura o diverte (paga o espetáculo, não as boas ações). **A primeira é uma Pedra da Sorte** (Stone of Good Luck, DMG: +1 em testes e salvaguardas; `i-pedra-da-sorte-boblin`); quando aparece fica por decidir (Decidido pelo DM (2026-10-21)).
-  - **O chá:** há sempre chá acabado de fazer no centro da mesa redonda, e às vezes um pequeno lanche; quem o mantém é um criado genasi da água do Xundi, que o Boblin nunca vê. Um dia, o Boblin vai apanhar alguém a arrumar e a limpar a sala (Decidido pelo DM (2026-10-21)).
+  - **O interior** (piscina quente com o brasão do Concílio em mosaico no fundo, a mesa de coral no meio, a porta e o espelho de cobre) e **a tabela do lanche do dia** (d20, vale uma ração) estão na ficha da moeda (`i-moeda-do-boblin`; Decidido pelo DM (2026-10-21)).
+  - **O chá:** há sempre chá acabado de fazer no centro da mesa redonda, e um lanche de coisas do mar; quem o mantém é um criado genasi da água do Xundi, que o Boblin nunca vê. Um dia, o Boblin vai apanhar alguém a arrumar e a limpar a sala (Decidido pelo DM (2026-10-21)).
   - **O Deck of Many Things** (DMG, lendário) é uma prenda para o fim da campanha (Decidido pelo DM (2026-10-21)).
   - **Na S7 o Xundi está lá em corpo:** é a primeira visita, e é ele que empurra o Boblin para fora.
 
@@ -106,7 +107,7 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 **Por decidir:**
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
 - Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio). O Xundi vai perceber que são filhos do capitão que o caçou (decisão 2026-10-21 #30).
-- O aspeto do interior da moeda (para além das regras do Tasha's: cilindro de 6 m por 6 m, com o aspeto da moeda, almofadas, mesas baixas, e a mesa redonda do chá).
+- Fios em aberto: o criado apanhado a meio de arrumar a sala ou a trocar a comida; uma ou outra visita do Xundi (sem especificar).
 - O que acontece ao Scylla (ideias do DM, por desenvolver: sobrevive e caça o aboleto que engoliu o Isco; ou os irmãos têm outro barco; ou encontram o Scylla naufragado ou transformado, talvez pelo rubídio).
 - O que o Xundi quer do Boblin para além do espetáculo; os valores da liberdade junto do Bufal; os arcos dos capítulos 2 e 3.
 

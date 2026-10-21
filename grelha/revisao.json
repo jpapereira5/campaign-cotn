@@ -5411,10 +5411,30 @@
         "col": "ch1"
       },
       "factKind": "cena",
-      "text": "A sala da moeda: chá sempre acabado de fazer na mesa redonda, às vezes um lanche, posto por um criado genasi da água que o Boblin nunca vê. Um dia, o Boblin apanha alguém a arrumar e a limpar a sala.",
+      "text": "Fio em aberto: um dia o Boblin entra na moeda e apanha o criado genasi da água a arrumar a sala ou a trocar a comida (o chá e o lanche do dia estão sempre lá).",
       "suggestion": "Guardar o encontro com o criado para depois da primeira vez que a sala esteja vazia; o criado foge pela porta do palácio.",
       "because": [
-        "registo/decisoes.md 2026-10-21 #33"
+        "registo/decisoes.md 2026-10-21 #33",
+        "registo/decisoes.md 2026-10-21 #37"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-boblin-09",
+      "at": "2026-10-21T06:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-khedive-xundi",
+        "col": "ch1"
+      },
+      "factKind": "cena",
+      "text": "Fio em aberto: uma ou outra visita do Xundi à moeda, em corpo, pela porta de cobre (ainda sem especificar quando nem porquê). A primeira é na S7.",
+      "suggestion": "Marcar as visitas quando o Boblin fizer algo que o divirta muito ou o aborreça muito.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #37"
       ],
       "tags": [
         "so-dm"
