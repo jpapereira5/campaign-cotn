@@ -5510,7 +5510,7 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "No registo da S6, os lacedons são «os mesmos mortos-vivos que viram a arrastar-se no dia 3», incluindo um humano (e-s6-15, e-s6-32). Mas o Tibério só morreu na noite do dia 3: o humano visto de dia não pode ser ele.",
+      "text": "No registo da S6, os lacedons são «os mesmos mortos-vivos que viram a arrastar-se no dia 3», incluindo um humano (e-s6-15, e-s6-32). Mas o Tibério só morreu na noite do dia 3: o humano visto de dia não pode ser ele. [substituída: decisão 2026-10-21 #55 — não importa, os lacedons são irreconhecíveis]",
       "suggestion": "O humano visto no dia 3 era outro (o quinto, que fugiu), ou no dia 3 só se viram o goblin e o hobgoblin.",
       "because": [
         "registo/sessoes/s06-2026-10-16.md e-s6-15",
@@ -5519,7 +5519,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d21-53",

@@ -37,6 +37,8 @@ O Refúgio no Vaso do Tasha's (cilindro de 6 m de raio e 6 m de altura, com o as
 
 **Handout para o Tiago:** «Boblin — Handout: A moeda e o senhor da água v1» (Google Doc, Drive, pasta `tiago_boblin`, 2026-10-21): o interior e o Xundi, do ponto de vista do Boblin, sem dizer «génio» nem «marid»; diz o nome com que o Xundi se apresentou, Khedive Xundi.
 
+**Handout em estilo de objeto mágico:** «Moeda de Ouro de Nicodranas» (PDF A5, 2026-10-21; decisão 2026-10-21 #56).
+
 ## O lanche do dia (d20)
 
 Sempre que o Boblin entra na moeda há um lanche na mesa redonda, ao lado do chá: **vale uma ração** (comida para um dia) e pode ser levado cá para fora. Como só entra uma vez por descanso longo, é no máximo uma ração por dia. Os resultados altos são os dias em que o Xundi gostou do espetáculo; se o Boblin o aborreceu, o DM pode dar o 1 ou o 2 sem rolar. (Decidido pelo DM (2026-10-21))
