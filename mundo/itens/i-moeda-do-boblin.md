@@ -37,7 +37,7 @@ O Refúgio no Vaso do Tasha's (cilindro de 6 m de raio e 6 m de altura, com o as
 
 **Handout para o Tiago:** «Boblin — Handout: A moeda e o senhor da água v1» (Google Doc, Drive, pasta `tiago_boblin`, 2026-10-21): o interior e o Xundi, do ponto de vista do Boblin, sem dizer «génio» nem «marid»; diz o nome com que o Xundi se apresentou, Khedive Xundi.
 
-**Handout em estilo de objeto mágico:** «A Moeda do Boblin» (PDF A5, 2026-10-21; decisão 2026-10-21 #56). Sem Nicodranas nem Concílio de Clóvis: o Boblin não sabe de onde é o brasão.
+**Handout em estilo de objeto mágico:** «A Moeda de Xundi» (PDF A5, 2026-10-21; decisão 2026-10-21 #56). Sem Nicodranas nem Concílio de Clóvis: o Boblin não sabe de onde é o brasão.
 
 ## O lanche do dia (d20)
 
