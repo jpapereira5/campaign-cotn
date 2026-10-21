@@ -5055,8 +5055,8 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Preparação da S7: «Sessão 07 — Preparação v8» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco e da pedra à chegada ao forte, a meio da manhã do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
-      "suggestion": "Preparação da S7: «Sessão 07 — Preparação v8» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco e da pedra à chegada ao forte, a meio da manhã do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
+      "text": "Preparação da S7: «Sessão 07 — Preparação v9» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco (sobre a jangada) e da pedra à chegada ao forte, a pé, perto do meio-dia do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
+      "suggestion": "Preparação da S7: «Sessão 07 — Preparação v9» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco (sobre a jangada) e da pedra à chegada ao forte, a pé, perto do meio-dia do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
       "because": [
         "registo/decisoes.md 2026-10-18 #32",
         "registo/decisoes.md 2026-10-18 #36",
@@ -5547,12 +5547,14 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "No obelisco, na primeira hora a seguir ao combate: o discurso do Corvelo (soltar a Lia; «Sousela, Nália, Casqueiro…»; «Estaremos prontos em uma hora») e a pira do Damião, do Alex e do Tibério na margem. O Corvelo engasga-se nas palavras da Madrinha dos Corvos e pede à Lia: «Tu és clériga. Diz tu.» Partem sem os mortos. Se alguém prestar os ritos à Madrinha dos Corvos, um corvo à distância, numa árvore (#61).",
-      "suggestion": "Discurso do Corvelo e pira no obelisco, na primeira hora.",
+      "text": "No obelisco, na primeira hora a seguir ao combate: o discurso do Corvelo (soltar a Lia; «Sousela, Nália, Casqueiro…»; «Estaremos prontos em uma hora») e a pira do Damião, do Alex e do Tibério, com a jangada por base. O Corvelo não sabe as palavras da Madrinha dos Corvos e entrega a tarefa à Lia: «Tu és clériga. Diz tu.» Se alguém prestar os ritos, um corvo à distância, numa árvore. Partem a pé.",
+      "suggestion": "Discurso do Corvelo e pira no obelisco, sobre a jangada; partem a pé.",
       "because": [
         "registo/decisoes.md 2026-10-21 #57",
         "registo/decisoes.md 2026-10-21 #58",
-        "registo/decisoes.md 2026-10-21 #61"
+        "registo/decisoes.md 2026-10-21 #61",
+        "registo/decisoes.md 2026-10-21 #62",
+        "registo/decisoes.md 2026-10-21 #63"
       ],
       "status": "aberta"
     }
