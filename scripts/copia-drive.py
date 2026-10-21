@@ -55,12 +55,38 @@ def ficheiros(*padroes, letras=None, exceto=None):
     return vistos
 
 
+# A decisoes.md parte-se por datas das secções «## Decidido pelo DM (AAAA-MM-DD)» (de..ate, inclusive);
+# o que vem antes da primeira secção vai na primeira peça. Acrescenta uma linha quando a última passar dos 80 KB.
+DECISOES = [
+    ('09 Decisões · até 2026-10-13', '0000-00-00', '2026-10-13'),
+    ('09 Decisões · 2026-10-15 a 2026-10-19', '2026-10-14', '2026-10-19'),
+    ('09 Decisões · desde 2026-10-20', '2026-10-20', '9999-99-99'),
+]
+
+
+def ler(rel):
+    """Lê um ficheiro; `caminho#de..ate` devolve só as secções de decisões entre essas datas."""
+    if '#' not in rel:
+        return open(os.path.join(ROOT, rel), encoding='utf-8').read()
+    caminho, intervalo = rel.split('#', 1)
+    de, ate = intervalo.split('..')
+    texto = open(os.path.join(ROOT, caminho), encoding='utf-8').read()
+    blocos = re.split(r'(?m)^(?=## Decidido pelo DM \()', texto)
+    out = []
+    for b in blocos:
+        m = re.match(r'## Decidido pelo DM \((\d{4}-\d{2}-\d{2})\)', b)
+        data = m.group(1) if m else '0000-00-00'
+        if de <= data <= ate:
+            out.append(b)
+    return ''.join(out)
+
+
 def pecas():
     """(nome da peça, ficheiros) por ordem."""
     out = []
     for f in ficheiros('mundo/personagens/c-pc-*.md'):
         out.append((f'01 Personagens · PC {os.path.basename(f)[5:-3]}', [f]))
-    for a, b in [('a', 'b'), ('c', 'f'), ('g', 'k'), ('l', 'n'), ('o', 'r'), ('s', 'u'), ('v', 'z')]:
+    for a, b in [('a', 'b'), ('c', 'f'), ('g', 'h'), ('i', 'k'), ('l', 'n'), ('o', 'r'), ('s', 'u'), ('v', 'z')]:
         out.append((f'01 Personagens · NPCs {a}–{b}', ficheiros('mundo/personagens/c-*.md', letras=(a, b), exceto=r'c-pc-')))
     out.append(('02 Locais · a–m', ficheiros('mundo/locais/*.md', letras=('a', 'm'))))
     out.append(('02 Locais · n–z', ficheiros('mundo/locais/*.md', letras=('n', 'z'))))
@@ -76,7 +102,8 @@ def pecas():
     out.append(('08 Sessões · índice', ficheiros('registo/sessoes/README.md')))
     for f in ficheiros('registo/sessoes/s*.md'):
         out.append((f'08 Sessão {os.path.basename(f)[1:3]}', [f]))
-    out.append(('09 Decisões', ficheiros('registo/decisoes.md')))
+    for nome, de, ate in DECISOES:
+        out.append((nome, [f'registo/decisoes.md#{de}..{ate}']))
     out.append(('10 Mesa · regras', ficheiros('mesa/regras.md')))
     out.append(('10 Mesa · resto', [f for f in ficheiros('mesa/**/*.md', 'mesa/**/*.yaml') if f != 'mesa/regras.md']))
     out.append(('11 Documentação · geral', ficheiros('README.md', 'AGENTS.md', 'docs/fluxo.md', 'docs/metodo.md',
@@ -123,7 +150,7 @@ def documento(titulo, rels):
               'As mudanças fazem-se no repositório; o que se escrever aqui perde-se na próxima cópia.', '',
               f'{len(rels)} ficheiro(s).', '']
     for rel in rels:
-        texto = open(os.path.join(ROOT, rel), encoding='utf-8').read()
+        texto = ler(rel)
         if rel.endswith('.yaml'):
             partes += [f'## {os.path.basename(rel)} · `{rel}`', '', '```yaml', texto.rstrip(), '```', '']
             continue
