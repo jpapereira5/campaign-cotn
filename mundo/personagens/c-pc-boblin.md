@@ -70,7 +70,13 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 - **Livro (Tal'Dorei Reborn, «Lesser Idols»):** génio da água (marid), caótico neutro, solto há cerca de um ano de um cativeiro debaixo de Nicodranas; voltou ao seu Palácio do Lodo de Prata, no Plano Elemental da Água, e quer vingança. Entretém-se a manipular mortais na Costa das Maravilhas e deixa iscos (uma ânfora em Stilben) por onde vê quem passa; a quem lhes pega dá poder «sem condições», com um só pedido: que viva as aventuras mais emocionantes que um pequeno mortal consegue. Aos que sobrevivem e ficam fortes convida-os, com os amigos, para um banquete no palácio, e no fim pede-lhes a aventura mais emocionante em que pensou durante o cativeiro. **A moeda do Boblin é um desses iscos.**
 - **Critical Role, campanha 2 (2x33–2x35):** estava preso na Sluice Weave, em Nicodranas, a mandar água para as fornalhas que moviam os motores do comércio da cidade, com uma coleira grossa de metal ao pescoço, às ordens de Algar Dyomin, homem do Concílio vindo de Port Zoon, que o controlava com uma pulseira. O Mighty Nein libertou-o (o Fjord cortou a mão ao Algar e tirou-lhe a pulseira). Apresenta-se com cerimónia: «Khedive Xundi».
 - **Monster Manual:** os marids são conhecidos pela vaidade e pela arrogância e julgam-se os mais nobres dos génios; falam aquano e comum, têm telepatia a 36 m e, uma vez por dia, *plane shift* e *gaseous form*. Os genasi da água descendem dos marids. O patrono Génio (Tasha's): os génios nobres adoram virar o jogo contra os mortais, que tantas vezes os prendem em servidão.
-- **Na mesa:** mente por omissão; o Boblin não sabe que fala com um génio, nem que tem plateia (Decidido pelo DM (2026-10-20)). **Está dentro da moeda em corpo**, a ouvir as aventuras do Boblin, e não só como um espelho de água (Decidido pelo DM (2026-10-21)); como lá chega fica por decidir.
+- **Na mesa:** mente por omissão; o Boblin não sabe que fala com um génio, nem que tem plateia (Decidido pelo DM (2026-10-20)). 
+**Está dentro da moeda em corpo, mas só uma minoria do tempo** (Decidido pelo DM (2026-10-21)):
+  - **Ouve sempre** o que se passa à volta da moeda; **não vê**.
+  - **Entra por uma porta:** dentro da moeda há uma porta fechada, um portal fixo para o Palácio do Lodo de Prata. O Xundi entra por ela, em corpo, quando quer, e só então fala com o Boblin.
+  - **A sala está quase sempre vazia.** O Boblin vai passar quase todo o tempo cá fora; quando entrar, muitas vezes estará sozinho, com a porta fechada. **Um dia a porta estará encostada,** e o Boblin pode sentir-se tentado a explorar o palácio.
+  - **Lá dentro há um espelho de transpondência infinita, o par do do Xundi** (Tal'Dorei Reborn: o Xundi é um dos donos possíveis do par, d8 = 6). Dá só imagem, sem som, 10 minutos de cada vez e até três vezes por dia; o Xundi não fala por ele. Fica lá dentro; se o Tiago tiver a ideia de o tirar cá para fora, o Xundi passa a ver o mundo e o grupo passa a vê-lo a ele.
+  - **Na S7 o Xundi está lá em corpo:** é a primeira visita, e é ele que empurra o Boblin para fora.
 
 **Quem o caçou: o Scylla e o capitão Vaelen Bruma, o pai do Lucan e do Isco,** contratados pelo Algar Dyomin. A Miríade não teve nada a ver com o cativeiro (Decidido pelo DM (2026-10-21)). A vingança do Xundi aponta ao Concílio (o Algar e quem estava por cima dele) e ao Scylla. O Vaelen é genasi da água, descendente de marids. Se os irmãos sabem alguma coisa e se o Xundi chega a ligar o nome «Scylla» ficam por decidir.
 
@@ -91,7 +97,6 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 **Capítulo 1:** o Xundi empurra-o para as apostas do Festival do Mérito e acerta sempre; quando o Boblin ganha, a moeda pesa mais (Decidido pelo DM (2026-10-19)).
 
 **Por decidir:**
-- Como está o Xundi dentro da moeda em corpo: o interior ancorado a uma sala do Palácio do Lodo de Prata (o livro não o proíbe nem o diz), ou o Xundi a vir por *plane shift* (o Tasha's não deixa outra criatura entrar no Refúgio no Vaso antes do 10.º nível, por isso seria regra da casa).
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
 - Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio); se o Xundi reconhece o nome «Scylla».
 - O que o Xundi quer do Boblin para além do espetáculo; os valores da liberdade junto do Bufal; os arcos dos capítulos 2 e 3.
@@ -99,7 +104,8 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 ## Ideias substituídas
 
 - **O djinni** da primeira conversa e a aposta que o prendia ao Xundi: o patrono é o próprio Xundi (decisão 2026-10-20 #1).
-- **O espelho de água vertical** como única presença do Xundi na moeda: está lá em corpo (decisão 2026-10-21).
+- **O espelho de água vertical** como presença do Xundi na moeda: está lá em corpo, de vez em quando, e entra por uma porta (decisões 2026-10-21 #21 e #25).
+- **O Xundi a ver pela moeda, como pela ânfora:** só ouve (decisão 2026-10-21 #25).
 - **O Tibério como homem da Miríade no forte e correio da moeda** (decisões 2026-10-19 #7 e #14): era só um soldado com sorte ao jogo; a mula da Miríade é outra pessoa (decisão 2026-10-21).
 - **A entrada no pântano, atrás da Bolbara** (decisão 2026-10-19 #10): entra na S7, de dentro da moeda.
 - **Das notas da primeira conversa** (2026-10-06), substituídas pelo questionário do jogador: os pais com a vida demasiado arranjada; saiu de Urzin por vontade própria, para se provar; o motor como vontade de reconhecimento. Fica: o desenho da moeda muda com o utilizador mais recente; pode entrar na moeda como refúgio e ouve o que se passa fora; magias quase todas de afetar a mente; o trinket.

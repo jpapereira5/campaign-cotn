@@ -5183,7 +5183,7 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "S7, arranque: no corpo do Tibério, na jangada, estão a caixinha de cristais vermelhos (rubídio de uma mula da Miríade, confiscado pelo Perestrelo; o Tibério ganhou-a numa aposta com a moeda) e a moeda do Boblin, com o Boblin lá dentro. O Xundi, lá dentro em corpo, empurra-o para fora. De dentro ouviu a noite do dia 3: gritos de uma goblin, trovoada, risos da mesma goblin, dezenas a combater; desconfia que era a Bolbara.",
+      "text": "S7, arranque: no corpo do Tibério, na jangada, estão a caixinha de cristais vermelhos (rubídio de uma mula da Miríade, confiscado pelo Perestrelo; o Tibério ganhou-a numa aposta com a moeda) e a moeda do Boblin, com o Boblin lá dentro. O Xundi está lá em corpo (entrou pela porta do palácio) e empurra-o para fora; pendurado na parede, o espelho de transpondência. De dentro ouviu a noite do dia 3: gritos de uma goblin, trovoada, risos da mesma goblin, dezenas a combater; desconfia que era a Bolbara.",
       "suggestion": "Abrir a S7 com o Boblin dentro da moeda e o Xundi a empurrá-lo; sai com ação bónus para o espaço livre mais perto. Quem revistar o Tibério acha a caixinha (contacto com o cristal: regra da febre escarlate).",
       "because": [
         "registo/decisoes.md 2026-10-19 #14",
@@ -5191,7 +5191,8 @@
         "registo/decisoes.md 2026-10-20 #3",
         "registo/decisoes.md 2026-10-20 #4",
         "registo/decisoes.md 2026-10-21 #19",
-        "registo/decisoes.md 2026-10-21 #21"
+        "registo/decisoes.md 2026-10-21 #21",
+        "registo/decisoes.md 2026-10-21 #25"
       ],
       "tags": [
         "so-dm"
@@ -5313,7 +5314,7 @@
         "col": "ch0"
       },
       "factKind": "cena",
-      "text": "Como está o Xundi em corpo dentro da moeda? (a) o interior da moeda é uma sala do Palácio do Lodo de Prata (o livro não o proíbe nem o diz); (b) vem por plane shift (regra da casa: o Tasha's não deixa outra criatura entrar no Refúgio no Vaso antes do 10.º nível).",
+      "text": "Como está o Xundi em corpo dentro da moeda? (a) o interior da moeda é uma sala do Palácio do Lodo de Prata (o livro não o proíbe nem o diz); (b) vem por plane shift (regra da casa: o Tasha's não deixa outra criatura entrar no Refúgio no Vaso antes do 10.º nível). [substituída: decisão 2026-10-21 #25 — porta fixa para o palácio; o Xundi entra em corpo de vez em quando]",
       "suggestion": "(a): o Boblin vai ter com ele; a sala tem uma porta fechada para o resto do palácio, onde é o banquete.",
       "because": [
         "registo/decisoes.md 2026-10-21 #21"
@@ -5321,7 +5322,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-boblin-04",
@@ -5336,6 +5337,25 @@
       "suggestion": "Os irmãos não sabem de nada; a verdade guarda-se para o regresso do Scylla (cap. 2 ou 4).",
       "because": [
         "registo/decisoes.md 2026-10-21 #20"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-boblin-05",
+      "at": "2026-10-21T05:15:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-khedive-xundi",
+        "col": "ch1"
+      },
+      "factKind": "cena",
+      "text": "A sala da moeda vazia: quando o Boblin entrar sem o Xundi, está sozinho com a porta fechada e o espelho na parede. Um dia, a porta encostada para o Palácio do Lodo de Prata. Se o Tiago tirar o espelho cá para fora, o Xundi passa a ver e o grupo vê-o a ele (só imagem).",
+      "suggestion": "Guardar a porta encostada para uma altura em que o Boblin esteja tentado (por exemplo, depois de uma grande vitória nas apostas).",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #25"
       ],
       "tags": [
         "so-dm"

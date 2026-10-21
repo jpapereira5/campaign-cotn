@@ -19,4 +19,4 @@ Moeda de ouro grossa, o vaso do génio do Boblin (Warlock, Génio). O Boblin enc
 
 ## Segredo
 
-DM: é um isco do Khedive Xundi (`c-khedive-xundi`), o marid de Tal'Dorei Reborn, como a ânfora de Stilben: o Xundi acompanha por ela as aventuras do Boblin e **está lá dentro em corpo** (Decidido pelo DM (2026-10-21); como lá chega fica por decidir). Mente por omissão. (Decidido pelo DM (2026-10-20))
+DM: é um isco do Khedive Xundi (`c-khedive-xundi`), o marid de Tal'Dorei Reborn, como a ânfora de Stilben: o Xundi ouve por ela tudo o que se passa à volta (não vê). Lá dentro há **uma porta fechada, um portal fixo para o Palácio do Lodo de Prata,** por onde o Xundi entra em corpo de vez em quando; a sala está quase sempre vazia, e um dia a porta estará encostada. **Pendurado lá dentro, o par do espelho de transpondência infinita do Xundi** (Tal'Dorei Reborn): só imagem, sem som, 10 minutos e até três vezes por dia; quem o tirar cá para fora dá ao Xundi olhos no mundo. (Decidido pelo DM (2026-10-21)) Mente por omissão. (Decidido pelo DM (2026-10-20))
