@@ -25,6 +25,8 @@ Preparação da sessão 4 («Sessão 04 — Preparação: A Patrulha do Forte Ve
 
 A mesa (sessão 6, #89, 2026-10-16): no combate dos lacedons, junto ao obelisco, fica de lança em riste, «demasiado nervoso», e não faz nada a ronda inteira; o Isco chega-lhe ao pé e grita «Elmiro, vai! Tu consegues! Enfrenta os teus medos, rapaz!», e ele continua parado (2:16:25).
 
+Na noite da lua vermelha (S7) aparece no sonho do Isco ensanguentado da cabeça aos pés, com um peixe grande nas mãos: «Senhor Isco, o que é que se passa? Porquê essa cara? Eu estou bem. Está tudo ok. Não? Devia estar preocupado.» O Isco acorda e o Elmiro não está; de manhã volta com o peixe grande, limpo: «Olha, senhor Isco, olha o que eu consegui buscar!» No forte, o Rui Felder, amigo dele, julgava-o morto: «Trigueiro? Estás vivo?» (Decidido pelo DM (2026-10-21))
+
 ## Objetivo
 
 Ir para casa, uma aldeia a norte do rio.

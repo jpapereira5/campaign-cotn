@@ -81,3 +81,5 @@ Leitura de mentes: só pensamentos à superfície, uma pessoa de cada vez, a at�
 Lê mentes raramente, porque pode ser apanhado: no forte, no máximo uma vez, e só se valer o risco. Não ouve o Baeshra. (Decidido pelo DM (2026-10-16))
 
 **Reconhece o nome do Vigost.** Se os jogadores falarem dele (o Lucan e o Isco ouviram-no ao Óscar, em Decrépola), o Fritz reconhece-o: é por aí que se descobre que é (ou foi) do culto de Serratos. Como reage fica para o momento (Decidido pelo DM (2026-10-16)).
+
+**Na S7, no forte** (Decidido pelo DM (2026-10-21)): as falas mentais, uma pessoa de cada vez: a quem chegar perto, «Ela saiu há duas noites. Eu vi tudo.»; ao Quasi, «Ele não te vai ajudar a encontrá-la. Eu vou.»; à Lia, «O que procuras está na tenda grande. O comandante não deixava ninguém tocar-lhe.»; ao Boblin, «Tu também a ouviste. A rir.»; a quem o ameaçar, «Eu repensaria quem é que está aqui preso com quem.» A Sousela, da paliçada, não o vê (está quieto, sentado ao fundo da jaula). Se o deixarem na jaula, sai sozinho nessa noite e volta a cruzar-se com o grupo em Jigau.

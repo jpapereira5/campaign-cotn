@@ -25,6 +25,8 @@ A mesa (sessão 6, #89, 2026-10-16): a primeira atacada pelos lacedons: grita de
 
 Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obelisco (S7). (Decidido pelo DM (2026-10-21))
 
+Depois do forte (S7), vai com a Sousela à Guarnição da Cinza pedir reforços. Próxima da Marta Coelho, sobrevivente do salão (`c-marta-coelho`). (Decidido pelo DM (2026-10-21))
+
 ## Objetivo
 
 Chegar ao forte antes de escurecer.

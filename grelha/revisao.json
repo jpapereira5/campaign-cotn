@@ -1427,7 +1427,7 @@
         "row": "t-laco-quasi-alberto",
         "col": "s7"
       },
-      "text": "O livro de registos da tenda do comandante tem também o registo imperial com o nome verdadeiro do Alberto. A Lia vai lá pelo pai; quem ler a página ao lado encontra o Alberto. Paga a confissão que ficou a meio (e-s4-16) e os três esquecidos do laço.",
+      "text": "O livro de registos da tenda do comandante tem também o registo imperial com o nome verdadeiro do Alberto. A Lia vai lá pelo pai; quem ler a página ao lado encontra o Alberto. Paga a confissão que ficou a meio (e-s4-16) e os três esquecidos do laço. [substituída: o Alberto arranca a página e não se confessa, decisão 2026-10-21 #73]",
       "because": [
         "e-s4-13",
         "e-s4-16",
@@ -1435,7 +1435,7 @@
         "e-s3-14",
         "registo/decisoes.md 2026-10-12 #16"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "factKind": "cena",
       "suggestion": "O livro de registos da tenda do comandante tem também o registo imperial com o nome verdadeiro do Alberto. A Lia vai lá pelo pai; quem ler a página ao lado encontra o Alberto. Paga a confissão que ficou a meio (e-s4-16) e os três esquecidos do laço."
     },
@@ -1685,12 +1685,12 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «razões pessoais, sem missão da ordem»: não mentiu, ocultou.",
+      "text": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «razões pessoais, sem missão da ordem»: não mentiu, ocultou. [substituída: há três meses, o Aldo Kesh, decisões 2026-10-21 #65, #67 e #68]",
       "suggestion": "No livro de registos do forte: o pai passou há dois anos, a caminho de Jigau, com uma ordem assinada pela Yudala Fon (escolta imperial, estadia no forte). A Sia disse-lhe «razões pessoais, sem missão da ordem»: não mentiu, ocultou.",
       "because": [
         "registo/decisoes.md 2026-10-13 #10"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-17",
@@ -2196,12 +2196,12 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Na tenda do comandante, o caderno de recompensas: «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» Sem a função. O Corvelo vê, fecha o caderno e sai sem dizer nada.",
+      "text": "Na tenda do comandante, o caderno de recompensas: «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» Sem a função. O Corvelo vê, fecha o caderno e sai sem dizer nada. [substituída: o Corvelo não vê o caderno, o Alberto arranca a página antes, decisão 2026-10-21 #73]",
       "suggestion": "Na tenda do comandante, o caderno de recompensas: «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» Sem a função. O Corvelo vê, fecha o caderno e sai sem dizer nada.",
       "because": [
         "registo/decisoes.md 2026-10-16 #7"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "tags": [
         "so-dm"
       ]
@@ -5055,12 +5055,13 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Preparação da S7: «Sessão 07 — Preparação v9» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco (sobre a jangada) e da pedra à chegada ao forte, a pé, perto do meio-dia do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
-      "suggestion": "Preparação da S7: «Sessão 07 — Preparação v9» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco (sobre a jangada) e da pedra à chegada ao forte, a pé, perto do meio-dia do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
+      "text": "Preparação da S7: «Sessão 07 — Preparação v10» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco (sobre a jangada) e da pedra à chegada ao forte, a pé, ao anoitecer do dia 4 (7 hexágonos); entrar de noite ou de manhã é dos jogadores. O forte inteiro está na v10 (secções 7 a 10), e a Bolbara possuída em «Batalha — A Bolbara possuída».",
+      "suggestion": "Preparação da S7: «Sessão 07 — Preparação v10» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco (sobre a jangada) e da pedra à chegada ao forte, a pé, ao anoitecer do dia 4 (7 hexágonos); entrar de noite ou de manhã é dos jogadores. O forte inteiro está na v10 (secções 7 a 10), e a Bolbara possuída em «Batalha — A Bolbara possuída».",
       "because": [
         "registo/decisoes.md 2026-10-18 #32",
         "registo/decisoes.md 2026-10-18 #36",
-        "registo/decisoes.md 2026-10-21 #60"
+        "registo/decisoes.md 2026-10-21 #60",
+        "registo/decisoes.md 2026-10-21 #78"
       ],
       "status": "aberta"
     },
@@ -5092,12 +5093,12 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "Flash sem vítima: na noite com a patrulha, o Isco sonha que mata o Elmiro e acorda molhado até à cintura e com sangue nas mãos; o Elmiro está vivo; na água, perto do acampamento, um animal morto e desfeito. Não se explica.",
+      "text": "Flash sem vítima: na noite com a patrulha, o Isco sonha que mata o Elmiro e acorda molhado até à cintura e com sangue nas mãos; o Elmiro está vivo; na água, perto do acampamento, um animal morto e desfeito. Não se explica. [substituída: o Elmiro desaparece até de manhã e volta com o peixe, decisão 2026-10-21 #75]",
       "suggestion": "Flash sem vítima: na noite com a patrulha, o Isco sonha que mata o Elmiro e acorda molhado até à cintura e com sangue nas mãos; o Elmiro está vivo; na água, perto do acampamento, um animal morto e desfeito. Não se explica.",
       "because": [
         "registo/decisoes.md 2026-10-18 #34"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "tags": [
         "so-dm"
       ]
@@ -5555,6 +5556,145 @@
         "registo/decisoes.md 2026-10-21 #61",
         "registo/decisoes.md 2026-10-21 #62",
         "registo/decisoes.md 2026-10-21 #63"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-68",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s7"
+      },
+      "factKind": "pista",
+      "text": "No livro de registos do forte (tenda do comandante, debaixo do mapa): «835 P.D. Aldo Kesh, halfling, Expositor da Alma de Cobalto (Rexxentrum). Ordem de missão assinada pela Alta Curadora Yudala Fon… Destino declarado: Jigau… Escolta: Sgt. V. Corvelo e dois homens, até à guarnição do sul.» Há três meses. O Corvelo: «Lembro-me desse.»",
+      "suggestion": "A entrada do Aldo no livro de registos do forte, há três meses; o Corvelo lembra-se.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #65",
+        "registo/decisoes.md 2026-10-21 #67",
+        "registo/decisoes.md 2026-10-21 #68"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-71",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-lampreia",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Antes de entrarem no forte, a Sousela espreita do topo da paliçada e volta com o relato: os vigias mortos nos postos, o pátio, a mesa das jaulas; «Não há deles. São todos nossos.» Não vê o Fritz. A desconfiança dos Kryn fica nos olhares, para a Lia e para o Boblin.",
+      "suggestion": "O relato da Sousela da paliçada; «São todos nossos.»",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #71"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-69",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "No salão (portas escancaradas, mesas deitadas como proteção): o Bigorna, anão de Grimgolir («Corvelo. Vieste tarde.»; «Não entrem ali. Ainda se ouve.»), o Rui Felder, halfling de braço queimado («Trigueiro? Estás vivo?»; «E isso… isso é um goblin.»), e a Marta Coelho, anã, besta firme e sangue no pescoço («Quem fechou a porta da capela?»).",
+      "suggestion": "Os três sobreviventes do salão, com nome e espécie.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #69",
+        "registo/decisoes.md 2026-10-21 #70"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-72",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Depois de vasculhar o forte, o Corvelo segura-o com os sobreviventes e manda a Sousela e a Nália, juntas, à Guarnição da Cinza (em mãos imperiais) pedir reforços. A coluna chega mais tarde.",
+      "suggestion": "Plano A: o forte fica; as batedoras vão à Guarnição da Cinza.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #72"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-73",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-laco-quasi-alberto",
+        "col": "s7"
+      },
+      "factKind": "segredo",
+      "text": "No forte, o Alberto vai sozinho à tenda do comandante e arranca a página dele do caderno de recompensas (Stealth contra passivas); fica um rasgão fresco. Se o apanharem: *prestidigitação* queima-a num instante, *fire bolt* se for preciso; é mago. À noite, *sending* à Tversky. Fica no forte à espera da coluna; volta em Bazzoxan.",
+      "suggestion": "O Alberto arranca a página, não se confessa, e fica no forte.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #73"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-74",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-alonne-frith",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "O Fritz na S7: «Ela saiu há duas noites. Eu vi tudo.»; ao Quasi, «Ele não te vai ajudar a encontrá-la. Eu vou.»; à Lia, a tenda grande; ao Boblin, «Tu também a ouviste. A rir.»; a quem o ameaçar, «Eu repensaria…». Se o deixarem, sai sozinho nessa noite.",
+      "suggestion": "As falas mentais do Fritz no forte.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #74"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-75",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "s7"
+      },
+      "factKind": "pista",
+      "text": "Noite da lua vermelha: o Elmiro aparece no sonho do Isco ensanguentado, com um peixe grande («Senhor Isco… Porquê essa cara? Eu estou bem. Está tudo ok. Não? Devia estar preocupado.»). O Isco acorda com sangue na boca e nas mãos e o Elmiro não está. De manhã volta com o peixe, limpo: «Olha, senhor Isco, olha o que eu consegui buscar!» O crocodilo novo, desfeito, na água.",
+      "suggestion": "O sonho do Isco e o Elmiro desaparecido até de manhã.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #75"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-78",
+      "at": "2026-10-21T18:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-missao-patrulha",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "A pé, depois da pira, os 7 hexágonos levam o resto da tarde: avistam o forte ao anoitecer do dia 4. Entrar de noite ou acampar e entrar de manhã é dos jogadores; a noite da lua vermelha acontece onde dormirem. Cliffhanger pelo ritmo: o silêncio do forte, o relato da Sousela, os sonhos, ou o Elmiro desaparecido. Pode haver subida de nível no fim.",
+      "suggestion": "Chegada ao anoitecer; entrar ou esperar é dos jogadores.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #78",
+        "registo/decisoes.md 2026-10-21 #79",
+        "registo/decisoes.md 2026-10-21 #80"
       ],
       "status": "aberta"
     }

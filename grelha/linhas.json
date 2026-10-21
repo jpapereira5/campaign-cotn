@@ -834,5 +834,35 @@
     "pcs": [
       "c-pc-boblin"
     ]
+  },
+  {
+    "id": "c-anselmo-bras",
+    "pcs": [
+      "c-pc-lucan",
+      "c-pc-isco",
+      "c-pc-quasi",
+      "c-pc-lia",
+      "c-pc-boblin"
+    ]
+  },
+  {
+    "id": "c-rui-felder",
+    "pcs": [
+      "c-pc-isco",
+      "c-pc-lia",
+      "c-pc-boblin"
+    ]
+  },
+  {
+    "id": "c-marta-coelho",
+    "pcs": [
+      "c-pc-lia"
+    ]
+  },
+  {
+    "id": "c-pai-da-lia",
+    "pcs": [
+      "c-pc-lia"
+    ]
   }
 ]

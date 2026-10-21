@@ -7,7 +7,7 @@ pc: c-pc-lia
 npcs:
   - c-pai-da-lia
   - c-mae-da-lia
-  - c-sia-kresh
+  - c-sia-kesh
 arcos:
   - a-pc-lia
   - a-ruidium

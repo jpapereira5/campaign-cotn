@@ -38,6 +38,8 @@ Estão perdidos há dois dias. Perdeu três homens (o Bento Ruivo em B2, dois em
 
 No rescaldo do combate do obelisco (arranque da S7, ainda não jogado): reconhece o Tibério no lacedon desfeito em cima da jangada, pela cara e pela farda (vermelho imperial, o mocho com espigas de trigo): «Tibério. Estava de guarda à capela.» Na S6 não o reconheceu em combate, e ninguém disse o nome. (Decidido pelo DM (2026-10-18))
 
-No forte (dia 5): escoltou o pai da Lia há dois anos; vê o caderno de recompensas do Alberto (1500 po, vivo), fecha-o e sai; reconhece a espada do Tibério no peito do padre; não segue o grupo atrás da Bolbara, fica com os sobreviventes. (Decidido pelo DM (2026-10-16))
+No forte: escoltou o pai da Lia (o Aldo Kesh) há três meses, até à Guarnição da Cinza (Decidido pelo DM (2026-10-21); antes «há dois anos»); reconhece a espada do Tibério no peito do padre; não segue o grupo atrás da Bolbara, fica com os sobreviventes (Decidido pelo DM (2026-10-16)). Não vê o caderno de recompensas do Alberto: o Alberto arranca a página antes (Decidido pelo DM (2026-10-21)).
 
 No rescaldo do obelisco (dia 4) solta a Lia com um discurso aos seus («Esta guerra colocou-nos uns contra os outros, mas neste momento precisamos de todos se queremos sobreviver ao pântano») e queima o Damião, o Alex e o Tibério numa pira ali mesmo, com a jangada por base, na primeira hora, para não se levantarem; não sabe as palavras da Madrinha dos Corvos nem tem jeito para rezas, e entrega a tarefa à Lia: «Tu és clériga. Diz tu.» (Decidido pelo DM (2026-10-21))
+
+Na chegada ao forte (S7): manda a Sousela espreitar da paliçada antes de entrar e ouve-lhe o relato («Não há deles. São todos nossos.»). Depois de vasculhar o forte, segura-o com os sobreviventes e manda a Sousela e a Nália, juntas, à Guarnição da Cinza pedir reforços (plano A). Se a Lia oferecer *Gentle Repose* para levar um morto ao forte, aceita, relutantemente. (Decidido pelo DM (2026-10-21))

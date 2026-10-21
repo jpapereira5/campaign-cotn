@@ -26,6 +26,8 @@ A mesa (sessão 6, #89, 2026-10-16): no combate dos lacedons, junta-se à Nália
 
 Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obelisco (S7). (Decidido pelo DM (2026-10-21))
 
+Na chegada ao forte (S7): vai à frente e espreita do topo da paliçada antes de a patrulha entrar; volta com o relato dos mortos e «Não há deles. São todos nossos.» Não vê o Fritz, quieto e sentado ao fundo da jaula. A desconfiança dos Kryn fica nos olhares, para a Lia e para o Boblin, quando diz que não «havia deles». Depois do forte, vai com a Nália à Guarnição da Cinza pedir reforços. (Decidido pelo DM (2026-10-21))
+
 ## Objetivo
 
 Que isto acabe sem barulho.
