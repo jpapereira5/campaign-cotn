@@ -825,5 +825,11 @@
       "c-pc-lucan",
       "c-pc-isco"
     ]
+  },
+  {
+    "id": "i-pedra-da-sorte-boblin",
+    "pcs": [
+      "c-pc-boblin"
+    ]
   }
 ]
