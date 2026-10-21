@@ -24,6 +24,8 @@ Preparação da sessão 4 («Sessão 04 — Preparação: A Patrulha do Forte Ve
 
 A mesa (sessão 6, #89, 2026-10-16): no combate dos lacedons, junta-se à Nália contra o mesmo lacedon, espeta as duas espadas curtas por baixo do corpo, ergue-o fora da água e rebenta-o (2:10:10).
 
+Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obelisco (S7). (Decidido pelo DM (2026-10-21))
+
 ## Objetivo
 
 Que isto acabe sem barulho.

@@ -40,4 +40,4 @@ No rescaldo do combate do obelisco (arranque da S7, ainda não jogado): reconhec
 
 No forte (dia 5): escoltou o pai da Lia há dois anos; vê o caderno de recompensas do Alberto (1500 po, vivo), fecha-o e sai; reconhece a espada do Tibério no peito do padre; não segue o grupo atrás da Bolbara, fica com os sobreviventes. (Decidido pelo DM (2026-10-16))
 
-Ao anoitecer do dia 4 queima o Damião, o Alex e o Tibério numa pira, no acampamento, para não se levantarem; tenta as palavras da Madrinha dos Corvos e acaba por pedir à Lia: «Tu és clériga. Diz tu.» (Decidido pelo DM (2026-10-21))
+No rescaldo do obelisco (dia 4) solta a Lia com um discurso aos seus («Esta guerra colocou-nos uns contra os outros, mas neste momento precisamos de todos se queremos sobreviver ao pântano») e queima o Damião, o Alex e o Tibério numa pira ali mesmo, na primeira hora, para não se levantarem; tenta as palavras da Madrinha dos Corvos e acaba por pedir à Lia: «Tu és clériga. Diz tu.» (Decidido pelo DM (2026-10-21))

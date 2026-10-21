@@ -36,4 +36,4 @@ Se vir o Isco transformar-se, o Lucan a comer ou o Quasi de máscara, muda de al
 
 Usa um *Periapt of Proof against Poison* (`i-periapto-do-damiao`), presente do Perestrelo para manusear os espécimes: é o único da patrulha que nunca adoeceu no pântano. (Decidido pelo DM (2026-10-16))
 
-Queimado numa pira ao anoitecer do dia 4, no acampamento da patrulha, com os outros mortos da patrulha e o Tibério (S7, ainda por jogar). (Decidido pelo DM (2026-10-21))
+Queimado numa pira no obelisco, na primeira hora depois do combate do dia 4, com os outros mortos da patrulha e o Tibério (S7, ainda por jogar). (Decidido pelo DM (2026-10-21))

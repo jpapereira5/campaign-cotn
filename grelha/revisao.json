@@ -5055,11 +5055,12 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Preparação da S7: «Sessão 07 — Preparação: A Jangada dos Mortos v7» (Drive, `session_prep`). Do rescaldo e da pedra à chegada ao forte, perto do meio-dia do dia 5 (7 hexágonos, mais lentos com os mortos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
-      "suggestion": "Preparação da S7: «Sessão 07 — Preparação: A Jangada dos Mortos v7» (Drive, `session_prep`). Do rescaldo e da pedra à chegada ao forte, perto do meio-dia do dia 5 (7 hexágonos, mais lentos com os mortos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
+      "text": "Preparação da S7: «Sessão 07 — Preparação v8» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco e da pedra à chegada ao forte, a meio da manhã do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
+      "suggestion": "Preparação da S7: «Sessão 07 — Preparação v8» (Drive, `session_prep`; sem título até a mesa o dar). Do rescaldo, da pira no obelisco e da pedra à chegada ao forte, a meio da manhã do dia 5 (7 hexágonos). Se a mesa correr: «Sessão 06 — Extra: O Forte Ventura v2», com os ajustes da secção 8 da preparação.",
       "because": [
         "registo/decisoes.md 2026-10-18 #32",
-        "registo/decisoes.md 2026-10-18 #36"
+        "registo/decisoes.md 2026-10-18 #36",
+        "registo/decisoes.md 2026-10-21 #60"
       ],
       "status": "aberta"
     },
@@ -5530,10 +5531,28 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Ao anoitecer do dia 4, no acampamento: a pira do Damião, do Alex e do Tibério, para não se levantarem. O Corvelo tenta as palavras da Madrinha dos Corvos e pede à Lia: «Tu és clériga. Diz tu.» A pira arde a noite toda (a noite da lua vermelha). O Corvelo fica com o livro de registos.",
+      "text": "Ao anoitecer do dia 4, no acampamento: a pira do Damião, do Alex e do Tibério, para não se levantarem. O Corvelo tenta as palavras da Madrinha dos Corvos e pede à Lia: «Tu és clériga. Diz tu.» A pira arde a noite toda (a noite da lua vermelha). O Corvelo fica com o livro de registos. [substituída: a pira é no obelisco, na primeira hora; decisão 2026-10-21 #57]",
       "suggestion": "Ao anoitecer do dia 4, no acampamento: a pira do Damião, do Alex e do Tibério, para não se levantarem. O Corvelo tenta as palavras da Madrinha dos Corvos e pede à Lia: «Tu és clériga. Diz tu.» A pira arde a noite toda (a noite da lua vermelha). O Corvelo fica com o livro de registos.",
       "because": [
         "registo/decisoes.md 2026-10-21 #53"
+      ],
+      "status": "fechada"
+    },
+    {
+      "id": "n-d21-57",
+      "at": "2026-10-21T11:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "No obelisco, na primeira hora a seguir ao combate: o discurso do Corvelo (soltar a Lia; «Sousela, Nália, Casqueiro…»; «Estaremos prontos em uma hora») e a pira do Damião, do Alex e do Tibério na margem. O Corvelo engasga-se nas palavras da Madrinha dos Corvos e pede à Lia: «Tu és clériga. Diz tu.» Partem sem os mortos. Se alguém prestar os ritos à Madrinha dos Corvos, um corvo à distância, numa árvore (#61).",
+      "suggestion": "Discurso do Corvelo e pira no obelisco, na primeira hora.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #57",
+        "registo/decisoes.md 2026-10-21 #58",
+        "registo/decisoes.md 2026-10-21 #61"
       ],
       "status": "aberta"
     }

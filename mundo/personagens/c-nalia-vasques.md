@@ -23,6 +23,8 @@ Preparação da sessão 4 («Sessão 04 — Preparação: A Patrulha do Forte Ve
 
 A mesa (sessão 6, #89, 2026-10-16): a primeira atacada pelos lacedons: grita de dor e de surpresa, mas não fica paralisada (elfa); saca das duas espadas curtas e acerta duas vezes (12). Fecha-se costas com costas com a Sousela.
 
+Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obelisco (S7). (Decidido pelo DM (2026-10-21))
+
 ## Objetivo
 
 Chegar ao forte antes de escurecer.

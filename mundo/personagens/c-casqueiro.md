@@ -23,6 +23,8 @@ Preparação da sessão 4 («Sessão 04 — Preparação: A Patrulha do Forte Ve
 
 A mesa (sessão 6, #89, 2026-10-16): barra o Quasi com o escudo à frente da jangada e cede à ordem da garra («Sai.», SAB 11 contra 13). No combate, segue debaixo de água o rasto do Alex, baixa o escudo, fica a olhar e grita «merda, merda, merda» (2:34:34).
 
+Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obelisco (S7). (Decidido pelo DM (2026-10-21))
+
 ## Objetivo
 
 Comer alguma coisa que não seja enguia salgada.
