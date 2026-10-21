@@ -98,7 +98,7 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 
 **O que ouviu de dentro da moeda na noite do dia 3:** gritos de uma goblin, trovoada, risos da mesma goblin e depois dezenas de pessoas a combater. Desconfia que era a Bolbara; não percebeu palavras (Decidido pelo DM (2026-10-20)).
 
-**Entrada: arranque da S7.** Dentro da moeda, no corpo do Tibério, em cima da jangada, ao lado da caixinha de cristais vermelhos; o Xundi faz de tudo para que saia e viva a sua aventura (Decidido pelo DM (2026-10-20)). Quando o grupo encontra a moeda, tem um goblin de perfil.
+**Entrada: arranque da S7.** Dentro da moeda, no corpo do Tibério, em cima da jangada, ao lado da caixinha de cristais vermelhos; o Xundi faz de tudo para que saia e viva a sua aventura (Decidido pelo DM (2026-10-20)). **Aparece quando alguém pegar na moeda ou a for meter ao bolso**, ao lado de quem a tem, depois do discurso do Xundi dito à mesa para o Tiago (texto na decisão 2026-10-21 #45; Decidido pelo DM (2026-10-21)). Quando o grupo encontra a moeda, tem um goblin de perfil.
 
 **Capítulo 0, depois da entrada:** os irmãos Bruma reconhecem o cunho de Nicodranas (o brasão do Concílio), mas a outra face é um goblin, o que nenhuma casa da moeda cunharia; de volta a Urzin, o Boblin sabe pela família que o exílio era para não voltar; a irmã mais nova está com febre escarlate, porque tentou contrabandear cristais vermelhos para pagar a dívida ao Bufal (Decidido pelo DM (2026-10-19)).
 
