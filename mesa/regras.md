@@ -164,33 +164,29 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 ## Insanidade (DM)
 
-**Fontes de pontos.** Experiências traumáticas, quase morrer, níveis de corrupção, marcas na alma, ou passar um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep) acumulam pontos nas tabelas de insanidade. Conviver de perto com o Quasi conta como sítio amaldiçoado (ver "A máscara do Quasi"). Na mesa, os pontos registados vieram de: cicatrizes; cada visita à Ascensão; cada quase-morte; cada marca na alma; ver um aliado/NPC querido morrer; cada nível de corrupção; ser alvo do Grito do Apoteão; visões falhadas; e "pontos extra" ao atingir cada nível de corrupção (nível 1: +2 a +5; nível 2: +3 a +5, conforme a personagem). Na Ascensão: +1 ponto por dia (sessão 41).
+Base: *Insanity System* de Zac Chaney (Lair Magazine, fev. 2022; PDF «Insanity Rules» e Google Doc «Regra de Insanidade», pasta `rules` da CotN, onde *tier* = grau e *flaw* = defeito), com os ajustes da mesa (Decidido pelo DM (2026-10-21)).
 
-**Em segredo.** O DM envia individualmente a cada jogador a descrição do que lhe acontece, para roleplay, sem eles saberem o que está a acontecer.
+**Graus.** 0–9 grau 1; 10–19 grau 2; 20–39 grau 3; 40 ou mais, risco de colapso mental permanente.
 
-**Loucura temporária.** Quando uma criatura sofre uma loucura temporária, o efeito dura **1d10 minutos**, a menos que o DM determine o contrário.
+**Fontes de pontos.** Experiências traumáticas: chegar a 0 PV, ver coisas que nenhum mortal devia ver, ver morrer um aliado ou NPC querido, visões falhadas, ser alvo do Grito do Apoteão, cada nível de corrupção, cada marca na alma, um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep; +1 por dia), conviver de perto com o Quasi (ver «A máscara do Quasi»), ou trauma que o próprio jogador declare em roleplay.
 
-| d100 | Efeito de loucura temporária |
-|---|---|
-| 01–20 | A criatura é incapaz de agir (*stunned*) e fica a gritar, chorar ou rir de forma incontrolável. |
-| 21–30 | A criatura fica assustada (*frightened*) e tenta fugir de tudo e todos que vê. |
-| 31–40 | A criatura ataca a criatura mais próxima, sem distinguir amigo de inimigo. |
-| 41–50 | A criatura é atormentada por visões e vozes horríveis, sofrendo desvantagem em *ability checks*. |
-| 51–60 | A criatura acredita que alguém ou algo a está a perseguir (paranóia total). |
-| 61–70 | A criatura sente-se convencida de que está morta, ou de que é um fantasma. |
-| 71–80 | A criatura fica muda, incapaz de falar ou emitir sons. |
-| 81–90 | A criatura entra em transe catatónico (*paralyzed*), imóvel e de olhar vazio. |
-| 91–100 | A criatura é tomada por um impulso irracional (decidido pelo DM) — por exemplo beber veneno, matar um aliado, partir o próprio espelho, ou virar a ampulheta outra vez. |
+**Quantos pontos por trauma.** Até aos 20: **1d10**, com teto de **5 de uma vez até aos 10** e de **7 de uma vez dos 10 aos 20** (anunciado na S6). Dos 20 em diante: o valor da **tabela de grau 3 de Chaney** (rola-se o d10 da tabela: 6 a 10 pontos).
 
-Por definir (não está no documento): o limiar de pontos que dispara a loucura temporária e se existe loucura prolongada/indefinida (o PDF do Drive pode ter isso).
+**Defeitos.** Um defeito por grau, com a mecânica escrita no PDF. **O grau 1 já vem com um: cada PC tem um defeito de grau 1 desde o início.** Ao **entrar** no grau 2 (10 pontos) e no grau 3 (20 pontos) ganha um defeito ao acaso da tabela desse grau. Um só defeito por grau de cada vez; se mais tarde sair outro do mesmo grau (ressurreição), o DM decide se troca. Isto substitui o «sem penalização mecânica» anunciado na S2: avisar a mesa.
 
-**À mesa (sessão 2, #83) — como foi anunciado aos jogadores:** ganham pontos ao ver coisas que nenhum mortal devia ver, ao cair a 0 PV, ou por trauma que o próprio jogador declare em roleplay («isto seria traumatizante para a minha personagem»). Aos 10, 20 e 30 pontos recebem um add-on de roleplay tirado ao acaso de uma tabela, sem penalização mecânica («começas a ficar um bocadinho mais desconfiado…»). Aos 40 a mente parte: o jogador perde o controlo da personagem, que passa a NPC — «o maluquinho da aldeia que balbucia». Recuperação: uma semana de downtime num sítio sagrado ou calmo (retiro), à Darkest Dungeon — álcool, jogo, bordel, reza, flagelação. Referência dos jogadores: o insight do Bloodborne (quanto mais sabes, mais coisas eldritch vês, e elas passam a ver-te).
+**Colapso mental permanente.** Com 40 ou mais, cada trauma tem **50%** de o provocar. A personagem deixa de beneficiar de short e long rest, só pode fazer unarmed attacks e vagueia a murmurar os horrores do mundo; passa a NPC. Só *wish* a trata.
 
-**À mesa (sessão 6, #89, 2026-10-16) — quantos pontos por evento:** cada experiência traumática (incluindo chegar a 0 PV) lança **1d10**, mas com teto: **até aos 10 pontos, no máximo 5 de uma só vez; dos 10 aos 20, no máximo 7 de uma só vez**. Os efeitos de cada nível são partilhados só com o jogador da personagem, para os outros não saberem.
+**Morte e ressurreição.** Quem é ressuscitado rola na tabela do grau **acima** do seu, fica com esse defeito e ganha o **dobro** dos pontos, mesmo que isso não o faça subir de grau. Se já estiver no grau 3, rola logo para colapso (50%). É a regra de «voltam, mas não voltam inteiros».
+
+**Tratamento (como o PDF).** Uma semana de tratamento com um sacerdote, sem fazer mais nada: grau 1, 250 gp (na maioria das vilas); grau 2, 2500 gp (grandes cidades); grau 3, 25 000 gp (muito raros, é preciso procurá-los); colapso, só *wish*. Cada semana baixa **1d6 + 1**; ao descer de grau perde-se o defeito desse grau; a 0 perdem-se todos.
+
+**Em segredo.** O DM envia a cada jogador, em privado, a descrição do que lhe acontece; os outros não sabem. Pontos e defeitos de cada PC registam-se na ficha (`insanidade:`).
+
+**Fica de fora:** a tabela d100 de loucura temporária (1d10 minutos); serve só de ferramenta do DM para efeitos que digam «loucura» (feitiços, o Netherdeep).
 
 ## Ressurreição (DM, sessão 2)
 
-Existe — há feitiços para isso —, mas «voltam, mas não voltam inteiros»: há qualquer coisa que já não regressa como era. Detalhes por definir caso a caso; vale também para NPCs («quando o Alberto voltar já lhe fizemos a perna no refogado»).
+Existe — há feitiços para isso —, mas «voltam, mas não voltam inteiros»: aplica-se a regra de ressurreição da Insanidade (defeito do grau acima e o dobro dos pontos) (Decidido pelo DM (2026-10-21)); vale também para NPCs («quando o Alberto voltar já lhe fizemos a perna no refogado»).
 
 ## Combate: flanking, terreno e vocabulário (DM, sessões 1–2)
 
