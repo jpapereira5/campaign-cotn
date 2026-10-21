@@ -44,7 +44,7 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 
 - Faz a parte 1 primeiro, se ainda não foi feita para esta sessão, e lê a coluna da próxima sessão na Grelha (planos do DM, ideias aceites, avisos).
 - Lê onde a mesa parou (`ondeParou` da última sessão), as decisões desde então, os relógios e as fichas dos NPCs que entram (CA, PV, ataques); os monstros pela skill `livro` e as regras da casa (`mesa/regras.md`).
-- Segue o formato de referência: «Sessão 06 — Preparação: O Olho na Palma», na pasta Session Prep (`AGENTS.md`, secção «Para as skills»).
+- Segue o formato de referência: «Sessão 06 — Preparação: O Olho na Palma v2», na pasta Session Prep (`AGENTS.md`, secção «Para as skills»).
 - Pergunta (interativa) o **âmbito**: até onde vai a sessão. O que estiver por decidir pergunta-se antes de escrever (skill `decidir`).
 
 ### Estrutura
