@@ -16,13 +16,13 @@ Intenção: tornar o rubídio uma tentação mecânica real para os PCs.
 
 ## Rubídio (DM)
 
-Regras próprias do DM. Substituem, na mesa, a regra de corrupção do livro (cap. de introdução) onde colidem; o DM decide o que transita.
+Regras próprias do DM, sobre a corrupção do livro (ver «Corrupção»). **Uma marca na alma no máximo por exposição:** se a falha no Constitution save já deu marca, a falha no Charisma save que se segue só dá a corrupção (Decidido pelo DM (2026-10-21)).
 
 O rubídio é um cristal avermelhado com veios pulsantes, nascido da dor do Apoteão durante a Calamidade. Leve (1 g/cm³), instável e poderoso: magia intensa em troca de um risco constante de exaustão, corrupção e marcas na alma.
 
 ### Cristal (em bruto)
 
-**Contacto** — Constitution save DC 5.
+**Contacto** — cada vez que a pele toca no cristal sem proteção (luvas, pano ou caixa evitam; carregá-lo embrulhado conta para a Exposição prolongada) (Decidido pelo DM (2026-10-21)). Constitution save DC 5.
 - Sucesso: nada.
 - Falha: 1d10 dano psíquico + 1 marca na alma.
 - Em caso de falha: Charisma save DC 20 contra corrupção.
@@ -33,7 +33,7 @@ O rubídio é um cristal avermelhado com veios pulsantes, nascido da dor do Apot
 - Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
 - Em caso de falha: Charisma save DC 20 contra corrupção.
 
-**Arma** — lâminas ou pontas de rubídio causam +2d6 de dano psíquico. Nat 1 a defender: Charisma save DC 20 contra corrupção.
+**Arma** — lâminas ou pontas de rubídio causam +2d6 de dano psíquico. **Quem é atingido** e tira nat 1 no save ou no teste para se defender desse ataque faz Charisma save DC 20 contra corrupção: a arma corrompe os alvos, não quem a usa (Decidido pelo DM (2026-10-21)).
 
 
 ### Suude Vermelho (rubídio refinado)
@@ -101,13 +101,13 @@ Após um dia inteiro de exposição contínua a rubídio (carregar o cristal, do
 
 ### Sonhos
 
-**Sonho de Tempestade** (primeira noite de quem tocou / carrega o cristal): "O som da fogueira extingue-se, e o mundo à tua volta dissolve-se. Agora estás sozinha num planalto vermelho. À tua frente estão os teus companheiros, imóveis, de costas para ti. Não se mexem. O céu escurece e uma tempestade vermelha aproxima-se, rodopiando como um vórtice. Tentas chamá-los. Gritas. Mas ninguém responde. Os olhos deles brilham, fixos em ti. O vento empurra-te para trás. A terra treme. E depois... acordas." A personagem desperta suada; o cristal está gelado ao toque. Perception DC 20: "por um momento, juras que está maior do que a última vez que o viste." (Se ninguém tocou no cristal nessa noite: Marca na Alma, Charisma DC 5 +5/dia.)
+**Sonho de Tempestade** (primeira noite de quem tocou / carrega o cristal): "O som da fogueira extingue-se, e o mundo à tua volta dissolve-se. Agora estás sozinha num planalto vermelho. À tua frente estão os teus companheiros, imóveis, de costas para ti. Não se mexem. O céu escurece e uma tempestade vermelha aproxima-se, rodopiando como um vórtice. Tentas chamá-los. Gritas. Mas ninguém responde. Os olhos deles brilham, fixos em ti. O vento empurra-te para trás. A terra treme. E depois... acordas." A personagem desperta suada; o cristal está gelado ao toque. Perception DC 20: "por um momento, juras que está maior do que a última vez que o viste."
 
 **Sonhos da Calamidade** — o jogador começa a sonhar com cenas da Calamidade: combates, conflitos, cenários diferentes (floresta antiga vs. desterros atuais), mudando consoante o sítio onde estão, sempre com um pano de fundo / céu vermelho.
 
 ### Habilidades por nível de corrupção
 
-A cada nível de corrupção os jogadores desbloqueiam ataques ou habilidades específicas de rubídio (inspiração: BG3, Dishonored). **Apenas quem tem conhecimento arcano consegue usá-las.** **Nenhuma habilidade escala com a corrupção**: os valores são fixos, para não empurrar ninguém a corromper-se mais (e a morrer) (Decidido pelo DM (2026-10-21)). **Reforço:** algumas habilidades ficam mais fortes se quem as usa aceitar **+1 nível de exhaustion**. Esse nível **não sobe o nível de corrupção**, mas dá o 1d10 psíquico como qualquer mudança de exaustão de um corrompido, **no início da habilidade, quando se ativa o reforço** (Decidido pelo DM (2026-10-21)), cura-se normalmente, e a exaustão 6 continua a matar (Decidido pelo DM (2026-10-21)).
+A cada nível de corrupção os jogadores desbloqueiam ataques ou habilidades específicas de rubídio (inspiração: BG3, Dishonored). **Só as usa quem tem conhecimento arcano ou vontade forte (*strong willed*)**; quem tem vontade forte, PC ou NPC, decide-o o DM caso a caso, e fica escrito na ficha (Decidido pelo DM (2026-10-21)). **Nenhuma habilidade escala com a corrupção**: os valores são fixos, para não empurrar ninguém a corromper-se mais (e a morrer) (Decidido pelo DM (2026-10-21)). **Reforço:** algumas habilidades ficam mais fortes se quem as usa aceitar **+1 nível de exhaustion**. Esse nível **não sobe o nível de corrupção**, mas dá o 1d10 psíquico como qualquer mudança de exaustão de um corrompido, **no início da habilidade, quando se ativa o reforço** (Decidido pelo DM (2026-10-21)), cura-se normalmente, e a exaustão 6 continua a matar (Decidido pelo DM (2026-10-21)).
 
 **1. Vínculo Mental (Kalashtar Mindlink)** — ação; ligação telepática bidireccional com uma criatura que consigas ver a até **30 ft** (Decidido pelo DM (2026-10-21)). Não precisam de partilhar língua, mas ela tem de compreender pelo menos uma. Dura 1 hora mesmo que deixem de se ver ou se afastem; comunicação à vontade; só uma criatura ligada de cada vez (ligar outra termina a anterior); podes terminar com uma ação. *At will.* **Reforço** (Decidido pelo DM (2026-10-21)): cada nível extra de exaustão compra um destes, acumuláveis: alcance ilimitado no mesmo plano (com quem já tenhas visto); duas criaturas ligadas ao mesmo tempo (que também se ouvem uma à outra); duração de 8 horas.
 
@@ -128,7 +128,7 @@ Só com o que o material diz. Caso da filha do líder dos Caminhantes-dos-Dester
 - Arcana ou Religion DC 15: os sintomas não são naturais; influência arcana, planar ou residual da Calamidade — "como rubídio, mas sem sinais externos visíveis".
 - Fritz (telepata): "Febre escarlate. Lado bom: não é letal. Lado mau: não tem cura. Mas viverá."
 - Em Jigau: crianças goblin febris nas Águas-da-Carne; um amigo "que foi para o templo e nunca mais voltou" com os mesmos sintomas; orcs no mergulho: "já é o segundo esta semana… febre vermelha".
-Assim, na mesa a febre escarlate é a forma leve da corrupção: 1 exaustão + manchas, sem cura conhecida além da regra geral (*wish* / *divine intervention*).
+**Quem a apanha** (Decidido pelo DM (2026-10-21)): qualquer criatura corrompida, em qualquer nível, sem conhecimento arcano ou de vontade fraca (*weak willed*), pode sucumbir à febre escarlate **quando o DM quiser** (sem save nem mecânica). **NPCs com febre:** não se conseguem mexer, sem energia, deprimidos, com febre, seja qual for a exaustão. Cura só a da corrupção (*wish* / *divine intervention*).
 
 ### Jóia + suude — DM (decisão)
 
