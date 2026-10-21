@@ -1,5 +1,6 @@
 ---
 id: b-8-final-confrontation
+estado: proposta
 titulo: O zénite de Ruidus
 arcos:
   - a-ruidus-year

@@ -1,5 +1,6 @@
 ---
 id: b-1-grotto-ruidium
+estado: proposta
 titulo: Rubídio no Emerald Grotto
 arcos:
   - a-ruidium

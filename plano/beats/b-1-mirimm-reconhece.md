@@ -1,7 +1,6 @@
 ---
 id: b-1-mirimm-reconhece
 titulo: Mirimm reconhece a lâmina
-estado: proposta
 arcos:
   - a-pc-lucan
   - a-kryn
@@ -37,4 +36,4 @@ Na entrega da missiva de Urzin, na antecâmara do Salão de Pedra, o Intendente 
 
 ## Notas
 
-PROPOSTA. A cena a guardar dos docs do DM: o reconhecimento vem do lado dele, sem intermediário. Mirimm não é vilão — é um homem competente que resolveu um problema logístico em 809 e esqueceu o pântano na semana seguinte; foi promovido a administrador da região que limpou. Deixar encontrável em Jigau: uma comenda, uma nota de serviço, o registo. Complicações se a mesa decidir matá-lo: é o taskhand de uma cidade Kryn (assassinato político, colide de frente com a boa vontade do cap. 1 e com os rivais) e, se for consecutado, matá-lo não o acaba — uma vingança que não pode ser concluída é o combustível perfeito para um Devorador. Terceira pista de r-pc-lucan-adaga.
+Aprovado pelo DM (Decidido pelo DM (2026-10-21)). A cena a guardar dos docs do DM: o reconhecimento vem do lado dele, sem intermediário. Mirimm não é vilão — é um homem competente que resolveu um problema logístico em 809 e esqueceu o pântano na semana seguinte; foi promovido a administrador da região que limpou. Deixar encontrável em Jigau: uma comenda, uma nota de serviço, o registo. Complicações se a mesa decidir matá-lo: é o taskhand de uma cidade Kryn (assassinato político, colide de frente com a boa vontade do cap. 1 e com os rivais) e, se for consecutado, matá-lo não o acaba — uma vingança que não pode ser concluída é o combustível perfeito para um Devorador. Terceira pista de r-pc-lucan-adaga.

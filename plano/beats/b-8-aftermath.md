@@ -1,5 +1,6 @@
 ---
 id: b-8-aftermath
+estado: proposta
 titulo: Depois do Ano de Ruidus
 arcos:
   - a-ruidus-year

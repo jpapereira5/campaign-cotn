@@ -1,5 +1,6 @@
 ---
 id: b-8-path-army
+estado: proposta
 titulo: "Caminho 2: erguer Exandria"
 arcos:
   - a-ruidus-year

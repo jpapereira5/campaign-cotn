@@ -1,7 +1,6 @@
 ---
 id: b-0-ritual-stone-lucan
 titulo: "A pedra que rebobina: a voz no escuro"
-estado: proposta
 arcos:
   - a-pc-lucan
   - a-prologue
@@ -37,4 +36,4 @@ Junto ao menhir negro o tempo abranda: uma libélula parada no ar, a lama a fech
 
 ## Notas
 
-PROPOSTA. Pista 1 de r-pc-lucan-obeliscos. Não revelar que é um obelisco: só 'a pedra faz o que o pilar do mar faz', para quem já ouviu falar do pilar do mar (cap. 2).
+Aprovado pelo DM (Decidido pelo DM (2026-10-21)). Pista 1 de r-pc-lucan-obeliscos. Não revelar que é um obelisco: só 'a pedra faz o que o pilar do mar faz', para quem já ouviu falar do pilar do mar (cap. 2).

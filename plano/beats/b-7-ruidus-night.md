@@ -1,5 +1,6 @@
 ---
 id: b-7-ruidus-night
+estado: proposta
 titulo: A Noite de Ruidus
 arcos:
   - a-ruidus-year

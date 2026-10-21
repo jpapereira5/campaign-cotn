@@ -1,5 +1,6 @@
 ---
 id: b-3-lightless-labyrinth
+estado: proposta
 titulo: "R13 Lightless Labyrinth: seguir o escuro"
 arcos:
   - a-main

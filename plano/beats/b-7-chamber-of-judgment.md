@@ -1,5 +1,6 @@
 ---
 id: b-7-chamber-of-judgment
+estado: proposta
 titulo: Chamber of Judgment
 arcos:
   - a-ruidus-year

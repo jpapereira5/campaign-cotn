@@ -1,5 +1,6 @@
 ---
 id: b-2-vision-perigee-death
+estado: proposta
 titulo: "Visão: a morte de Perigee"
 arcos:
   - a-lore

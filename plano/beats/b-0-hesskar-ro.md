@@ -1,7 +1,6 @@
 ---
 id: b-0-hesskar-ro
 titulo: "Hesskar-Ro: o velho que conheceu o rapaz"
-estado: proposta
 arcos:
   - a-pc-lucan
   - a-prologue

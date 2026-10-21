@@ -1,5 +1,6 @@
 ---
 id: b-1-festival-seeds
+estado: proposta
 titulo: Sementes no festival
 arcos:
   - a-lore

@@ -1,5 +1,6 @@
 ---
 id: b-4-choose-faction
+estado: proposta
 titulo: Escolher uma facção
 arcos:
   - a-main

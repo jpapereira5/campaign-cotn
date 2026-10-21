@@ -1,5 +1,6 @@
 ---
 id: b-3-ready-room-question
+estado: proposta
 titulo: "B7 The Ready Room: o caderno de Question"
 arcos:
   - a-main

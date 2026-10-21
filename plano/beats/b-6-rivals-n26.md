@@ -1,5 +1,6 @@
 ---
 id: b-6-rivals-n26
+estado: proposta
 titulo: "N26 Sanctuary of Despair: os rivais à porta do Heart"
 arcos:
   - a-rivals

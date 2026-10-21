@@ -1,5 +1,6 @@
 ---
 id: b-5-descent
+estado: proposta
 titulo: Descida pelo Maw
 arcos:
   - a-main

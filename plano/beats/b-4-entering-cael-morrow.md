@@ -1,5 +1,6 @@
 ---
 id: b-4-entering-cael-morrow
+estado: proposta
 titulo: Três formas de entrar em Cael Morrow
 arcos:
   - a-main

@@ -1,5 +1,6 @@
 ---
 id: b-1-moonshark-lair
+estado: proposta
 titulo: E10 Moonshark Lair — o relógio resolve-se
 arcos:
   - a-main

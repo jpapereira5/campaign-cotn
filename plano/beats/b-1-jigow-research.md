@@ -1,5 +1,6 @@
 ---
 id: b-1-jigow-research
+estado: proposta
 titulo: "Pesquisa em Jigau: a pesquisa dá uma ação, não uma resposta"
 arcos:
   - a-main

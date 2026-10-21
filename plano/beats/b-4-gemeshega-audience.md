@@ -1,5 +1,6 @@
 ---
 id: b-4-gemeshega-audience
+estado: proposta
 titulo: Audiência com Gemeshega
 arcos:
   - a-jmon

@@ -1,5 +1,6 @@
 ---
 id: b-3-researchers-in-town
+estado: proposta
 titulo: Os três investigadores como revelações
 arcos:
   - a-allegiance

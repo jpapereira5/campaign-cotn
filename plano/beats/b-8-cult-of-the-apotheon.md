@@ -1,5 +1,6 @@
 ---
 id: b-8-cult-of-the-apotheon
+estado: proposta
 titulo: Os adoradores do Apotheon
 arcos:
   - a-ruidus-year

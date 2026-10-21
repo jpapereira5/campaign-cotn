@@ -1,5 +1,6 @@
 ---
 id: b-1-disputing-destiny
+estado: proposta
 titulo: Disputing Destiny — Ayo toca na Jóia
 arcos:
   - a-rivals

@@ -1,5 +1,6 @@
 ---
 id: b-5-pointcrawl
+estado: proposta
 titulo: Cael Morrow como pointcrawl com controlo territorial
 arcos:
   - a-main

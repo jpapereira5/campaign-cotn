@@ -1,5 +1,6 @@
 ---
 id: b-8-path-pilgrimage
+estado: proposta
 titulo: "Caminho 1: os três santuários"
 arcos:
   - a-ruidus-year

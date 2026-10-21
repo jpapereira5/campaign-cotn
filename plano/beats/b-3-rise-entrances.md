@@ -1,5 +1,6 @@
 ---
 id: b-3-rise-entrances
+estado: proposta
 titulo: As várias entradas da Ascensão dos Traidores
 arcos:
   - a-main

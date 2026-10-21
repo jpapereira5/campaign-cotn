@@ -1,5 +1,6 @@
 ---
 id: b-5-palace-reacts
+estado: proposta
 titulo: O palácio reage ao rift
 arcos:
   - a-jmon

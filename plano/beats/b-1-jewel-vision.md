@@ -1,5 +1,6 @@
 ---
 id: b-1-jewel-vision
+estado: proposta
 titulo: E12 Prayer Site of Sehanine — a Jóia Dormant e a primeira visão
 arcos:
   - a-main

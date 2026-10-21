@@ -1,5 +1,6 @@
 ---
 id: b-8-path-betrayers
+estado: proposta
 titulo: "Caminho 3: os Deuses Traidores"
 arcos:
   - a-ruidus-year

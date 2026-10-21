@@ -1,5 +1,6 @@
 ---
 id: b-8-year-of-ruidus
+estado: proposta
 titulo: O Ano de Ruidus
 arcos:
   - a-ruidus-year

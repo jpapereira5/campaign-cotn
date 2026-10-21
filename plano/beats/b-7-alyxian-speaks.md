@@ -1,5 +1,6 @@
 ---
 id: b-7-alyxian-speaks
+estado: proposta
 titulo: "Alyxian fala: a entrevista"
 arcos:
   - a-main

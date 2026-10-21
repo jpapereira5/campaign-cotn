@@ -1,5 +1,6 @@
 ---
 id: b-3-bazzoxan-research
+estado: proposta
 titulo: "Pesquisa em Bazzoxan: lore avançado"
 arcos:
   - a-lore

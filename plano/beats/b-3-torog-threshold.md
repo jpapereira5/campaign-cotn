@@ -1,5 +1,6 @@
 ---
 id: b-3-torog-threshold
+estado: proposta
 titulo: "R12 Threshold of the Excoriated: a maldição de Torog"
 arcos:
   - a-main

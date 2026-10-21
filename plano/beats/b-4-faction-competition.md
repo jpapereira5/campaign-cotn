@@ -1,5 +1,6 @@
 ---
 id: b-4-faction-competition
+estado: proposta
 titulo: Missões como competição entre fações
 arcos:
   - a-allegiance

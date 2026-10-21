@@ -1,5 +1,6 @@
 ---
 id: b-3-aloysia-offer
+estado: proposta
 titulo: A oferta de Aloysia
 arcos:
   - a-main

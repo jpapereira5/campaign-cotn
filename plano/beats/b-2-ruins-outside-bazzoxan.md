@@ -1,5 +1,6 @@
 ---
 id: b-2-ruins-outside-bazzoxan
+estado: proposta
 titulo: "Ruins of Sorrow: demónios, a Vigia da Aurora e Aloysia"
 arcos:
   - a-kryn
