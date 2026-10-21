@@ -255,10 +255,24 @@ def glossario(s: str) -> str:
     return s
 
 
-def texto(s: str, gloss=True) -> str:
+def _prosa(s: str, gloss=True) -> str:
     if gloss:
         s = glossario(s)
     return grafia(s)
+
+
+# Código (blocos ``` e `inline`) fica como está: nomes de ficheiros, ids e comandos não se traduzem.
+_CODIGO = re.compile(r"```.*?```|`[^`\n]+`", re.S)
+
+
+def texto(s: str, gloss=True) -> str:
+    partes, fim = [], 0
+    for m in _CODIGO.finditer(s):
+        partes.append(_prosa(s[fim:m.start()], gloss))
+        partes.append(m.group(0))
+        fim = m.end()
+    partes.append(_prosa(s[fim:], gloss))
+    return "".join(partes)
 
 
 # ---------------------------------------------------------------- ficheiros
