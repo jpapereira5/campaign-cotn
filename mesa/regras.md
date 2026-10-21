@@ -170,7 +170,7 @@ Base: *Insanity System* de Zac Chaney (Lair Magazine, fev. 2022; PDF «Insanity 
 
 **Fontes de pontos.** Experiências traumáticas: chegar a 0 PV, ver coisas que nenhum mortal devia ver, ver morrer um aliado ou NPC querido, visões falhadas, ser alvo do Grito do Apoteão, cada nível de corrupção, cada marca na alma, um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep; +1 por dia), conviver de perto com o Quasi (ver «A máscara do Quasi»), ou trauma que o próprio jogador declare em roleplay.
 
-**Quantos pontos por trauma.** Até aos 20: **1d10**, com teto de **5 de uma vez até aos 10** e de **7 de uma vez dos 10 aos 20** (anunciado na S6). Dos 20 em diante: o valor da **tabela de grau 3 de Chaney** (rola-se o d10 da tabela: 6 a 10 pontos).
+**Quantos pontos por trauma.** Os do PDF (Decidido pelo DM (2026-10-21)): em cada trauma rola-se o d10 na tabela do grau atual e somam-se os pontos da linha que sair (grau 1: 1 a 5; grau 2: 3 a 7; grau 3: 6 a 10). O defeito dessa linha só entra se ainda não houver um desse grau, ou se o DM o quiser trocar. Substitui o 1d10 com teto anunciado na S6.
 
 **Defeitos.** Um defeito por grau, com a mecânica escrita no PDF. **O grau 1 já vem com um: cada PC tem um defeito de grau 1 desde o início.** Ao **entrar** no grau 2 (10 pontos) e no grau 3 (20 pontos) ganha um defeito ao acaso da tabela desse grau. Um só defeito por grau de cada vez; se mais tarde sair outro do mesmo grau (ressurreição), o DM decide se troca. Isto substitui o «sem penalização mecânica» anunciado na S2: avisar a mesa.
 
