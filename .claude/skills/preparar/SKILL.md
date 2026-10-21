@@ -44,6 +44,7 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 
 - Faz a parte 1 primeiro, se ainda não foi feita para esta sessão, e lê a coluna da próxima sessão na Grelha (planos do DM, ideias aceites, avisos).
 - Lê onde a mesa parou (`ondeParou` da última sessão), as decisões desde então, os relógios e as fichas dos NPCs que entram (CA, PV, ataques); os monstros pela skill `livro` e as regras da casa (`mesa/regras.md`).
+- **As fichas de tudo o que entra** (decisão 2026-10-21 #83): para cada local, NPC e objeto da sessão, lê a ficha em `mundo/` e faz `grep -rn` pela id e pelas palavras-chave em `mundo/ plano/ registo/ mesa/`; procura na Drive as preparações e documentos antigos que o mencionam (`fullText contains`, todas as sessões, não só a última) e as conversas passadas. O que lá estiver definido e não estiver na ficha entra na ficha antes de escreveres (o aprovado nas secções da `## Ficha de mesa`; o que não foi usado, em «Reserva»). Uma preparação nunca é a única casa de nada.
 - Segue o formato de referência: «Sessão 06 — Preparação: O Olho na Palma v2», na pasta `cotn_2026/session_prep` (`AGENTS.md`, secção «Para as skills»).
 - Pergunta (interativa) o **âmbito**: até onde vai a sessão. O que estiver por decidir pergunta-se antes de escrever (skill `decidir`).
 
@@ -53,6 +54,7 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 1. **A verdade (só para o DM):** o que está mesmo a acontecer fora de cena.
 2. **Abertura:** texto para ler, em citação, só sentidos, sem interpretar (ordem Mercer); falas à parte para um jogador, se houver.
 3. … **Cenas,** uma secção cada: porquê (o que a cena faz pelos PCs), como corre, NPCs em tabela (CA/PV, o que fazem), regras especiais, ritmo, e «depois de…». Um combate grande ganha folha própria (skill `batalha`), com um ponteiro aqui.
+- **Checks** (decisão 2026-10-21 #84), em cada cena e para cada local, NPC ou objeto relevante: tabela «Check | CD | O que dá | Fonte», reconciliada com o cânone atual. Os checks do livro revêem-se um a um (mantido, adaptado ao que o cânone já mudou, ou retirado); cada camada de segredo tem pelo menos um caminho para ser descoberta; o que for sugestão tua diz «sugestão». A tabela grava-se primeiro na ficha da entidade e copia-se para aqui.
 - **Decisões dos jogadores:** tabela «Quem | Quer | Porquê», o que o grupo sabe para decidir, os caminhos e o custo de cada um.
 - **Relógios:** tabela por momento da sessão.
 - **Ganchos por PC:** uma linha cada (a cena pessoal de cada PC, da parte 1).
@@ -65,8 +67,15 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 - Segredos marcados «(só DM)»; nada para os jogadores lerem no mesmo documento, salvo secção própria («Briefing para…»).
 - Lembretes de regras que favorecem um PC entram onde se usam e na checklist.
 
+### Antes de publicar: nada se perde
+
+- Compara com a versão anterior do documento e com as preparações das sessões anteriores que tocam as mesmas coisas: lista tudo o que saiu. Cada coisa que saiu vai para a «Reserva» da ficha da entidade, ou é retirada com confirmação do DM (pergunta interativa). Nunca a deixes desaparecer em silêncio.
+- Escreve de volta nas fichas (`## Ficha de mesa`) o que o DM aprovou no documento: textos para ler, sentidos, checks, falas, segredos.
+- **Compêndio da sessão:** um segundo Google Doc, «Sessão NN — Compêndio», na mesma pasta, com a `## Ficha de mesa` completa (copiada tal como está no repositório) de cada local, NPC e objeto que pode aparecer na sessão. É o que se consulta primeiro à mesa: uma só leitura. Refaz-se a cada versão nova da preparação.
+
 ### Publicar
 
 - Google Doc (Markdown convertido, **sem** cabeçalho YAML nem linha de tags) na pasta `cotn_2026/session_prep`, título «Sessão NN — Preparação: <título>». Versões novas como documento novo; a anterior que tu criaste vai para o lixo.
 - Grava nas decisões o âmbito e o que se decidiu pelo caminho (skill `decidir`); o que for plano para a sessão vai também para a Grelha como `ideia` (parte 1, passo 3).
+- Grava o repositório (`npm run gravar`) e corre a skill `copia-drive` logo a seguir.
 - Na resposta: o link e um resumo de cinco linhas do que a sessão tem.

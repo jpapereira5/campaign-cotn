@@ -34,6 +34,10 @@ O que é próprio da CotN. As skills genéricas leem esta secção.
 
 ## Regras que valem sempre
 
+- **Nada se perde de uma preparação para a outra** (decisões 2026-10-21 #83 a #85): a ficha da entidade em `mundo/` é a única casa da coisa e nunca encolhe; o que se prepara e aprova volta para a ficha (secção `## Ficha de mesa`: Ler, Sentidos, Checks, Usar, Por personagem, Segredos, O que a mesa já sabe, Discrepâncias por decidir, Reserva); o que uma preparação ou decisão corta vai para «Reserva», não se apaga. Modelo: `mundo/locais/l-ritual-stone.md`.
+- **Consulta à mesa** (o DM pede algo a meio da sessão): junta todas as fontes antes de responder, por esta ordem: o repositório (`grep -rn` pela id e pelas palavras-chave em `mundo/ plano/ registo/ mesa/`), as preparações e documentos da Drive que o mencionam (todas as sessões), e as conversas passadas; a cópia `cotn_2026/github_repo` só quando o repositório não estiver acessível. Responde completo, separando o que a mesa já sabe do que está por jogar, com as discrepâncias à vista.
+- **Depois de cada push, a cópia na Drive** (`cotn_2026/github_repo`) atualiza-se na mesma conversa pela skill `copia-drive` (decisão 2026-10-21 #86).
+
 - Nunca escrever `grelha/dm.json` (é só da app).
 - O repositório é público: não guardar tokens nem segredos de acesso em texto.
 - Decisões do DM apresentam-se como perguntas interativas, com uma recomendação, e gravam-se pela skill `decidir`.
