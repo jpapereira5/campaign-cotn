@@ -35,7 +35,7 @@ O Refúgio no Vaso do Tasha's (cilindro de 6 m de raio e 6 m de altura, com o as
 - **Luz:** quente e dourada, do próprio ouro, sem fonte; na água faz reflexos que dançam no teto, por cima do goblin.
 - **Som:** o que se passa lá fora ouve-se como se o Boblin estivesse no sítio da moeda (Tasha's); a água da piscina abafa e alonga as vozes.
 
-**Handout para o Tiago:** «Boblin — Handout: A moeda e o senhor da água v1» (Google Doc, Drive, pasta `tiago_boblin`, 2026-10-21): o interior e o Xundi, do ponto de vista do Boblin, sem dizer «génio», «marid» nem o nome.
+**Handout para o Tiago:** «Boblin — Handout: A moeda e o senhor da água v1» (Google Doc, Drive, pasta `tiago_boblin`, 2026-10-21): o interior e o Xundi, do ponto de vista do Boblin, sem dizer «génio» nem «marid»; diz o nome com que o Xundi se apresentou, Khedive Xundi.
 
 ## O lanche do dia (d20)
 
