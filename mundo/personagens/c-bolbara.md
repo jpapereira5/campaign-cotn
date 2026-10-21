@@ -63,3 +63,5 @@ Sobreviver e voltar a Urzin; manter Trush à distância.
 ## Segredo
 
 O seu patrono é um demónio-sombra do Shadowfell que só os ritos comunais mantinham controlado.
+
+**O tio Rutz.** Em criança, num Urzin antigo, tinha um tio hobgoblin, o Rutz (`c-rutz`), que lhe pegava ao colo. No sonho da Lia ela grita-lhe o nome em voz alta, «Tio Rutz!», e a mesa pode usá-lo ao falar com ela no presente. (Decidido pelo DM (2026-10-21))

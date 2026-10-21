@@ -1669,12 +1669,12 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "Ao ver a Bolbara (na visão ou em pessoa), a Lia tem um déjà vu; na noite seguinte sonha com ela, em criança, noutra vida.",
+      "text": "Ao ver a Bolbara (na visão ou em pessoa), a Lia tem um déjà vu; na noite seguinte sonha com ela, em criança, noutra vida. [substituída: o sonho com o Rutz e o bobo, decisão 2026-10-21 #50–52]",
       "suggestion": "Ao ver a Bolbara (na visão ou em pessoa), a Lia tem um déjà vu; na noite seguinte sonha com ela, em criança, noutra vida.",
       "because": [
         "registo/decisoes.md 2026-10-13 #9"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-p6-16",
@@ -5437,6 +5437,64 @@
       "suggestion": "Marcar as visitas quando o Boblin fizer algo que o divirta muito ou o aborreça muito.",
       "because": [
         "registo/decisoes.md 2026-10-21 #37"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-50",
+      "at": "2026-10-21T07:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Sonho da Lia (noite do dia 4, se viu a Bolbara): Urzin antigo, a pequena goblin com a rã; o Rutz pega-lhe ao colo («Bol'bara!»), ela grita «Tio Rutz!». No fim, só desta vez, um bobo de máscara branca na outra margem, de braços abertos, imóvel, a olhar; a sombra não anda com o sol. Em voz alta, para a mesa toda; não explicar.",
+      "suggestion": "Sonho da Lia (noite do dia 4, se viu a Bolbara): Urzin antigo, a pequena goblin com a rã; o Rutz pega-lhe ao colo («Bol'bara!»), ela grita «Tio Rutz!». No fim, só desta vez, um bobo de máscara branca na outra margem, de braços abertos, imóvel, a olhar; a sombra não anda com o sol. Em voz alta, para a mesa toda; não explicar.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #50",
+        "registo/decisoes.md 2026-10-21 #52"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-51",
+      "at": "2026-10-21T07:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Na mesma noite (lua vermelha, o clarão do flash do Isco), o Quasi vê o sonho da Lia na terceira pessoa: de longe, de braços abertos, sem se mexer; a mulher de costas na ponte, a goblin com a rã, o hobgoblin que lhe chama «Bol'bara», e ela a gritar «Tio Rutz!».",
+      "suggestion": "Na mesma noite (lua vermelha, o clarão do flash do Isco), o Quasi vê o sonho da Lia na terceira pessoa: de longe, de braços abertos, sem se mexer; a mulher de costas na ponte, a goblin com a rã, o hobgoblin que lhe chama «Bol'bara», e ela a gritar «Tio Rutz!».",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #51"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-52",
+      "at": "2026-10-21T07:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-rutz",
+        "col": "s7"
+      },
+      "factKind": "pista",
+      "text": "O Rutz, tio hobgoblin da Bolbara, diz-se no sonho da Lia e no do Quasi. A mesa pode usar o nome ao falar com a Bolbara possuída; o efeito fica por decidir.",
+      "suggestion": "O Rutz, tio hobgoblin da Bolbara, diz-se no sonho da Lia e no do Quasi. A mesa pode usar o nome ao falar com a Bolbara possuída; o efeito fica por decidir.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #52"
       ],
       "tags": [
         "so-dm"
