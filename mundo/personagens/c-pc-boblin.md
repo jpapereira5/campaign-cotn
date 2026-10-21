@@ -75,7 +75,7 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
   - **Ouve sempre** o que se passa à volta da moeda; **não vê**.
   - **Entra por uma porta:** dentro da moeda há uma porta fechada, um portal fixo para o Palácio do Lodo de Prata. O Xundi entra por ela, em corpo, quando quer, e só então fala com o Boblin.
   - **A sala está quase sempre vazia.** O Boblin vai passar quase todo o tempo cá fora; quando entrar, muitas vezes estará sozinho, com a porta fechada. **Um dia a porta estará encostada,** e o Boblin pode sentir-se tentado a explorar o palácio.
-  - **O espelho de transpondência infinita dentro da moeda fica por decidir** (Tal'Dorei Reborn: o Xundi é um dos donos possíveis do par, d8 = 6; só imagem, sem som, 10 minutos e até três vezes por dia; se ficar, é o Tiago que tem de ter a ideia de o tirar cá para fora).
+  - **Dentro da moeda está o par do espelho de transpondência infinita do Xundi** (Tal'Dorei Reborn: o Xundi é um dos donos possíveis do par, d8 = 6). Só imagem, sem som (leitura estrita de «visual link»); 10 minutos de cada vez e até três ativações por dia, contando os dois lados. **Serve para mostrar ao Xundi o que se passa fora da moeda** (o Boblin tira-o da moeda, ativa-o e aponta-o: é ele que escolhe o que o Xundi vê) **e para o chamar à moeda** (o espelho do Xundi acende-se no palácio; ele vem pela porta se quiser). Não dá voz: para falar, o Xundi entra em corpo. Fica dentro da moeda; é o Tiago que tem de ter a ideia de o usar ou de o tirar (Decidido pelo DM (2026-10-21)).
   - **Na S7 o Xundi está lá em corpo:** é a primeira visita, e é ele que empurra o Boblin para fora.
 
 **Quem o caçou: o Scylla e o capitão Vaelen Bruma, o pai do Lucan e do Isco,** contratados pelo Algar Dyomin. A Miríade não teve nada a ver com o cativeiro (Decidido pelo DM (2026-10-21)). A vingança do Xundi aponta ao Concílio (o Algar e quem estava por cima dele) e ao Scylla. O Vaelen é genasi da água, descendente de marids. Se os irmãos sabem alguma coisa e se o Xundi chega a ligar o nome «Scylla» ficam por decidir.
@@ -99,7 +99,6 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 **Por decidir:**
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
 - Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio); se o Xundi reconhece o nome «Scylla».
-- Se fica o espelho de transpondência dentro da moeda.
 - O que o Xundi quer do Boblin para além do espetáculo; os valores da liberdade junto do Bufal; os arcos dos capítulos 2 e 3.
 
 ## Ideias substituídas
