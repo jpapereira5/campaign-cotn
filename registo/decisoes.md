@@ -251,7 +251,7 @@ Continuação da conversa sobre o Boblin (o Tiago aceitou o patrono).
 3. **A S7 começa com o Boblin dentro da moeda, no corpo do Tibério, em cima da jangada,** ao lado da caixinha de cristais vermelhos. Lá dentro (o interior do Bottled Respite, com o aspeto da moeda) o Xundi aparece como um espelho de água vertical e faz de tudo para que o Boblin saia e viva a sua aventura. Sai com uma ação bónus e aparece no espaço livre mais perto da moeda; depois só volta a entrar com um descanso longo. Substitui as decisões 2026-10-18 #35 (ninguém novo na S7) e 2026-10-19 #10 (entrada no pântano, atrás da Bolbara).
 4. **O que o Boblin ouviu de dentro da moeda na noite do dia 3** (no Tasha's, ouve à volta do vaso como se lá estivesse; não vê): gritos de uma goblin, trovoada, risos da mesma goblin e depois dezenas de pessoas a combater. **Desconfia que a voz era a da Bolbara,** mas não jura. Não percebeu palavras: nem rezas nem outra língua.
 
-5. **A face humana da moeda era a do Tibério.** À mesa não interessa: quando o grupo a encontra, tem um goblin de perfil.
+5. **A face humana da moeda era a do Tibério.** À mesa não interessa: quando o grupo a encontra, tem um goblin de perfil. [substituído: decisão 2026-10-21 #23 — a face humana era a da mula]
 
 Brainstorm sobre o Quasi (lore vistani de edições anteriores, a maldição, a Besta e o atalho pelo nevoeiro).
 
@@ -338,5 +338,7 @@ Ficam em aberto: como se liberta do serviço ao Bufal (valores); o que o Xundi q
 21. **O Xundi está dentro da moeda em corpo, a ouvir as aventuras do Boblin,** e não só como um espelho de água (completa a decisão 2026-10-20 #3). O espelho de transpondência infinita não serve para isso: é só uma ligação visual (Tal'Dorei Reborn). Como lá chega fica por decidir.
 22. **Ficha nova do Khedive Xundi** (`c-khedive-xundi`) com o que dizem o Tal'Dorei Reborn, a campanha 2 de Critical Role e o Monster Manual; a ficha do Boblin foi reescrita com as regras do patrono Génio (Tasha's) e o cânone de hoje. Terminologia: «Concílio de Clóvis», como no glossário (corrigido nas decisões de 2026-10-19 e 2026-10-20, que diziam «Concórdia»).
 
-Ficam em aberto: como está o Xundi em corpo dentro da moeda (o interior ancorado a uma sala do palácio, ou o Xundi a vir por *plane shift*); a face humana anterior ao goblin (ficou a do Tibério, mas com a #19 o dono antes do Boblin é a mula); se alguém da Miríade em Urzin reconhece a moeda; se os irmãos Bruma sabem do contrato do pai e se o Xundi reconhece o nome «Scylla».
+23. **A moeda mudou para o goblin quando o Boblin pegou nela, no corpo da mula.** O Tibério só a teve no bolso, com o Boblin lá dentro, e a face não mudou. A face humana anterior era a da mula, um humano. Substitui a decisão 2026-10-20 #5.
+
+Ficam em aberto: como está o Xundi em corpo dentro da moeda (o interior ancorado a uma sala do palácio, ou o Xundi a vir por *plane shift*); se alguém da Miríade em Urzin reconhece a moeda; se os irmãos Bruma sabem do contrato do pai e se o Xundi reconhece o nome «Scylla».
 

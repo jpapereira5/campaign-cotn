@@ -76,10 +76,10 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 
 **A moeda até à jangada** (Decidido pelo DM (2026-10-21); substitui a sequência de 2026-10-20 #2 na parte do Tibério):
 1. Uma mula da Miríade que vivia em Urzin atravessa o pântano com a moeda e uma carga de cristais vermelhos e é morta por um soldado imperial (não o Tibério).
-2. O Boblin, batedor no pântano, encontra a moeda no corpo da mula e fecha o pacto com o Xundi.
+2. O Boblin, batedor no pântano, encontra a moeda no corpo da mula e fecha o pacto com o Xundi; ao pegar nela, a face humana (a da mula) passa a um goblin de perfil (Decidido pelo DM (2026-10-21)).
 3. Os cristais vão para o Forte Ventura e são confiscados pelo Padre Perestrelo.
 4. No dia 3, o Boblin quase é apanhado por uma patrulha imperial e refugia-se dentro da moeda; a patrulha leva-a para o forte.
-5. O Tibério ganha numa aposta a moeda e os cristais («Tibério ganhou», caderninho do torneio, dia 3) e fica com as duas coisas.
+5. O Tibério ganha numa aposta a moeda e os cristais («Tibério ganhou», caderninho do torneio, dia 3) e fica com as duas coisas; a face não muda, porque o Boblin está lá dentro.
 6. Na noite do dia 3, a Bolbara solta-se; o Tibério mata o padre, morre e levanta-se como lacedon, com a moeda e os cristais.
 
 **O que ouviu de dentro da moeda na noite do dia 3:** gritos de uma goblin, trovoada, risos da mesma goblin e depois dezenas de pessoas a combater. Desconfia que era a Bolbara; não percebeu palavras (Decidido pelo DM (2026-10-20)).
@@ -92,7 +92,6 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 
 **Por decidir:**
 - Como está o Xundi dentro da moeda em corpo: o interior ancorado a uma sala do Palácio do Lodo de Prata (o livro não o proíbe nem o diz), ou o Xundi a vir por *plane shift* (o Tasha's não deixa outra criatura entrar no Refúgio no Vaso antes do 10.º nível, por isso seria regra da casa).
-- A face humana anterior ao goblin: a 2026-10-20 ficou a do Tibério, mas na sequência nova o dono antes do Boblin é a mula.
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
 - Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio); se o Xundi reconhece o nome «Scylla».
 - O que o Xundi quer do Boblin para além do espetáculo; os valores da liberdade junto do Bufal; os arcos dos capítulos 2 e 3.
