@@ -53,7 +53,7 @@ Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho» (
 4. **Absorve a camada do DM**: cada entrada tratada passa a `revisao.absorbed` (`"d-…": "<id do acontecimento ou da entidade>"`) ou a `revisao.reviewed`; as notas de revisão respondidas ficam `fechada`. Nunca se apaga nada de `dm.json`: a app é a única que lá escreve.
 5. **Assinala os conflitos** com o cânone e espera pela decisão do DM antes de os escrever; o que depende do DM fica em `grelha/revisao.json` como `pergunta` ou `discrepancia`.
 6. **Valida e grava:** `python3 scripts/normalizar-texto.py`, `npm run validate` e `npm test` limpos; commit e push para `main` (o deploy leva um ou dois minutos).
-7. **Atualiza na Drive** o resumo da sessão (escrito a partir do registo, pasta «Resumo de Sessoes»), a cópia do repositório em `cotn_2026/github_repo` (`docs/copia-drive.md`, logo a seguir ao push), o documento consolidado de cada PC (na pasta de cada PC, dentro de `PCs`; ids no `AGENTS.md`; refeito a partir das fichas e dos registos em cada fecho) e as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo), e a data do último fecho, abaixo. Por fim, o registo da mesa: o «Índice de sessões» e os «Jogadores» na pasta `tabletop` (skill `registo-mesa`).
+7. **Atualiza na Drive** o resumo da sessão (escrito a partir do registo, pasta `cotn_2026/resumo_de_sessoes`), a cópia do repositório em `cotn_2026/github_repo` (`docs/copia-drive.md`, logo a seguir ao push), o documento consolidado de cada PC (na pasta de cada PC, dentro de `cotn_2026/pcs`; ids no `AGENTS.md`; refeito a partir das fichas e dos registos em cada fecho) e as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo), e a data do último fecho, abaixo. Por fim, o registo da mesa: o «Índice de sessões» e os «Jogadores» na pasta `tabletop` (skill `registo-mesa`).
 
 Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e deixa ideias e avisos nas células (`grelha/revisao.json`); durante a edição, o `/vigia` revê cada gravação do DM em tempo real. As regras estão em `.claude/skills/`.
 
@@ -61,14 +61,14 @@ Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e 
 
 | Pasta | id |
 | --- | --- |
-| Session Prep (CotN 2026) | `1WGi5hzOj2oPHEfFmvlwDmJN33X7Ed6h1` |
+| `cotn_2026/session_prep` | `1WGi5hzOj2oPHEfFmvlwDmJN33X7Ed6h1` |
 | `cotn_2026/ideias` | `1MIP9LYli1gLw7DMgz5UYruOzhkbnrP6j` |
-| Camila (Lia) | `1BjFqdDVnXiBCrDh82SwipwHegeHzGgxl` |
+| `cotn_2026/pcs/camila_lia` | `1BjFqdDVnXiBCrDh82SwipwHegeHzGgxl` |
 | Documentos para jogadores (Mundo, Panteão) | `163OGm6WCbT53Ci2aLraE5xygn5R1Z51B` |
 | `exandria` (glossário) | `1ziSnT3gXuEu_NcHzV0C5iAIFoP4tOLDc` |
-| `session_records` (transcrições: `<global>_cotn_<n>/transcript_whisperx.txt`) | `1bmnSRbTupGWiWyjzsHIwIF4_2lQYf_OZ` |
-| Resumo de Sessoes (Google Docs, escritos a partir do registo) | `1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-` |
-| PCs (uma pasta por PC, com o documento consolidado; ids no `AGENTS.md`) | `1DlPuhGA7npun4bEQ7ZD7vGm3Tka9ZJot` |
+| `session_records` (transcrições: `<global>_cotn_<nn>/transcript_whisperx.txt`) | `1bmnSRbTupGWiWyjzsHIwIF4_2lQYf_OZ` |
+| `cotn_2026/resumo_de_sessoes` (Google Docs, escritos a partir do registo) | `1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-` |
+| `cotn_2026/pcs` (uma pasta por PC, com o documento consolidado; ids no `AGENTS.md`) | `1DlPuhGA7npun4bEQ7ZD7vGm3Tka9ZJot` |
 | `cotn_2026/github_repo` (cópia de leitura do repositório; `docs/copia-drive.md`) | `1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R` |
 | `DND/skills` (cópia de leitura das skills) | `1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H` |
 

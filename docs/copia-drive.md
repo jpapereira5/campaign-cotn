@@ -26,7 +26,7 @@ Várias peças podem ir em paralelo, por agentes, cada um com um lote.
 
 ## A cópia do dnd-soundboard
 
-O repositório `jpapereira5/dnd-soundboard` (a app de som da mesa) tem também uma cópia na Drive, em `DND/dm_tools/dnd-soundboard` (`1lG6V6yb6Nu9kcQcqPCFOqkKMBa1T9N1r`), feita a 2026-10-20 (commit `2fa738e`). **Não é diária nem entra no fecho** (decidido pelo DM a 2026-10-20): refaz-se só quando o DM a pede, com os passos abaixo. Como é código, a cópia é um **espelho**: cada ficheiro do git com o mesmo caminho (subpastas `src`, `src/components`, `src/lib`, `.github/workflows`) e o mesmo conteúdo, mais o `00 LEIA-ME.md` e o `manifesto.json` (os nomes no manifesto são os caminhos).
+O repositório `jpapereira5/dnd-soundboard` (a app de som da mesa) tem também uma cópia na Drive, em `DND/dm_tools/dnd_soundboard` (`1lG6V6yb6Nu9kcQcqPCFOqkKMBa1T9N1r`), feita a 2026-10-20 (commit `2fa738e`). **Não é diária nem entra no fecho** (decidido pelo DM a 2026-10-20): refaz-se só quando o DM a pede, com os passos abaixo. Como é código, a cópia é um **espelho**: cada ficheiro do git com o mesmo caminho (subpastas `src`, `src/components`, `src/lib`, `.github/workflows`) e o mesmo conteúdo, mais o `00 LEIA-ME.md` e o `manifesto.json` (os nomes no manifesto são os caminhos).
 
 1. `git clone https://github.com/jpapereira5/dnd-soundboard` (ou `git pull`).
 2. Descarrega o `manifesto.json` da pasta, como acima.

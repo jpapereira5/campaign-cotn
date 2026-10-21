@@ -1,6 +1,6 @@
 ---
 name: preparar
-description: Preparar a próxima sessão, em duas partes. A leitura da Grelha (o que está aberto, esquecido, planeado e por preparar; ideias e avisos em grelha/revisao.json, nas células certas) e, quando o DM a pede, o documento de preparação para a mesa (Google Doc «Sessão NN — Preparação», na pasta Session Prep). Usar quando o DM diz «preparar», «prepara a sessão», «o que falta para quarta», ou pede a preparação, o runsheet ou o documento da próxima sessão.
+description: Preparar a próxima sessão, em duas partes. A leitura da Grelha (o que está aberto, esquecido, planeado e por preparar; ideias e avisos em grelha/revisao.json, nas células certas) e, quando o DM a pede, o documento de preparação para a mesa (Google Doc «Sessão NN — Preparação», na pasta `cotn_2026/session_prep`). Usar quando o DM diz «preparar», «prepara a sessão», «o que falta para quarta», ou pede a preparação, o runsheet ou o documento da próxima sessão.
 ---
 
 # /preparar: a Grelha e o documento da sessão
@@ -44,7 +44,7 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 
 - Faz a parte 1 primeiro, se ainda não foi feita para esta sessão, e lê a coluna da próxima sessão na Grelha (planos do DM, ideias aceites, avisos).
 - Lê onde a mesa parou (`ondeParou` da última sessão), as decisões desde então, os relógios e as fichas dos NPCs que entram (CA, PV, ataques); os monstros pela skill `livro` e as regras da casa (`mesa/regras.md`).
-- Segue o formato de referência: «Sessão 06 — Preparação: O Olho na Palma v2», na pasta Session Prep (`AGENTS.md`, secção «Para as skills»).
+- Segue o formato de referência: «Sessão 06 — Preparação: O Olho na Palma v2», na pasta `cotn_2026/session_prep` (`AGENTS.md`, secção «Para as skills»).
 - Pergunta (interativa) o **âmbito**: até onde vai a sessão. O que estiver por decidir pergunta-se antes de escrever (skill `decidir`).
 
 ### Estrutura
@@ -67,6 +67,6 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 
 ### Publicar
 
-- Google Doc (Markdown convertido, **sem** cabeçalho YAML nem linha de tags) na pasta Session Prep, título «Sessão NN — Preparação: <título>». Versões novas como documento novo; a anterior que tu criaste vai para o lixo.
+- Google Doc (Markdown convertido, **sem** cabeçalho YAML nem linha de tags) na pasta `cotn_2026/session_prep`, título «Sessão NN — Preparação: <título>». Versões novas como documento novo; a anterior que tu criaste vai para o lixo.
 - Grava nas decisões o âmbito e o que se decidiu pelo caminho (skill `decidir`); o que for plano para a sessão vai também para a Grelha como `ideia` (parte 1, passo 3).
 - Na resposta: o link e um resumo de cinco linhas do que a sessão tem.
