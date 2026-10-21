@@ -2,7 +2,7 @@
 
 Regras que não estão no livro. As marcadas **PROPOSTA (Remix)** vêm do *Remixing Call of the Netherdeep* (Justin Alexander); as marcadas **DM** são decisões do mestre.
 
-## Ruidium Metamagic — PROPOSTA (Remix)
+## Ruidium Metamagic (Remix, adotado com limite)
 
 O livro permite usar 1 onça de rubídio como componente material no valor de 500 gp, com um DC 20 Charisma save (falha: 1 nível de exaustão e corrupção). O Remix acrescenta:
 
@@ -11,6 +11,8 @@ O livro permite usar 1 onça de rubídio como componente material no valor de 50
 - Só uma opção de Metamagic por feitiço via rubídio; um sorcerer pode ainda aplicar uma opção sua diferente.
 
 Intenção: tornar o rubídio uma tentação mecânica real para os PCs.
+
+**Limite da mesa** (Decidido pelo DM (2026-10-21)): as opções de Metamagia que custam 1 ou 2 sorcery points também se compram com a dose de 10 g de Suude Vermelho (ver abaixo); as que custam 3 ou mais só pelo cristal em bruto, por esta regra.
 
 ## Rubídio (DM)
 
@@ -33,7 +35,6 @@ O rubídio é um cristal avermelhado com veios pulsantes, nascido da dor do Apot
 
 **Arma** — lâminas ou pontas de rubídio causam +2d6 de dano psíquico. Nat 1 a defender: Charisma save DC 20 contra corrupção.
 
-> **Versão anterior (mesa, sessão 14 — *identify* ao pó):** Constitution DC 10 (2d10 psíquico); nat 1 → Charisma DC 20; falhar ambos = 1 nível de exaustão + 1 nível de corrupção cristalina; com corrupção prévia, ganha um nível de exaustão a mais (ex.: nível 2 de corrupção e falha o Charisma = nível 3 de corrupção + exaustão nível 3). Na sessão 7: "usou rubídio 2× e ficou com 1 nível de corrupção, telepatia e palma vermelha". A tabela acima é a versão final do documento de campanha e é a que se considera atual. *(Uma variante "DC 10, +5 por uso" atribuída a um post do Reddit não aparece no material — por confirmar com o DM.)*
 
 ### Suude Vermelho (rubídio refinado)
 
@@ -45,23 +46,28 @@ Substância ilegal derivada de rubídio, vendida em doses de **5 g (5 po)** ou *
 - Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
 - Em caso de falha: Charisma save DC 20 contra corrupção.
 
-**Dose de 10 g** — tudo o da dose de 5 g e o utilizador pode aplicar **uma opção de Metamagia** à próxima magia que lançar (mesmo sem ser sorcerer). Constitution save DC 15:
+**Dose de 10 g** — tudo o da dose de 5 g e o utilizador pode aplicar **uma opção de Metamagia que custe 1 ou 2 sorcery points** à próxima magia que lançar (mesmo sem ser sorcerer) (Decidido pelo DM (2026-10-21)); as mais caras só pelo cristal (Ruidium Metamagic). Constitution save DC 15:
 - Sucesso: nada.
 - Falha: 4d10 psíquico + marca na alma.
 - Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
 - Em caso de falha: Charisma save DC 20 contra corrupção.
 
-**Componente material** — pode substituir componentes materiais com custo em ouro (**1 g = 10 po**). Charisma save DC 10:
+**Componente material** — pode substituir componentes materiais com custo em ouro (**1 g = 1 po**: vale o que custa; o ganho é tê-lo à mão, não poupar ouro) (Decidido pelo DM (2026-10-21)). Charisma save DC 10:
 - Sucesso: nada.
 - Falha: 2d10 psíquico + marca na alma.
 - Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
 - Em caso de falha: Charisma save DC 20 contra corrupção.
 
-### Corrupção = níveis de exaustão (sintomas físicos)
+### Corrupção (como o livro) (Decidido pelo DM (2026-10-21))
 
-A corrupção rubídica manifesta-se fisicamente à medida que a criatura acumula *exhaustion*. Estes sinais **não desaparecem com descanso** e **só podem ser curados com *wish* ou *divine intervention***.
+- **Ficar corrompido:** falhar um Charisma save contra corrupção dá **1 nível de exhaustion** e a criatura fica corrompida, se ainda não estava.
+- **Enquanto corrompida:** leva **1d10 de dano psíquico sempre que a exhaustion sobe ou desce 1 nível**. A exhaustion cura normalmente (long rest, *greater restoration*…).
+- **Nível de corrupção** = o nível de exhaustion mais alto que atingiu desde que ficou corrompida. Não desce quando a exhaustion desce. É este número que conta para os sinais físicos, as habilidades de rubídio e a insanidade.
+- **Fim da corrupção:** só *wish* ou *divine intervention* (ou a redenção do Apoteão, no fim do livro). Tirar a exhaustion não chega.
 
-| Nível de exhaustion | Sintoma físico |
+Sinais físicos por nível de corrupção (aparecem e não saem até a corrupção acabar):
+
+| Nível de corrupção | Sintoma físico |
 |---|---|
 | 1 | Erupção vermelha no ponto de contacto. |
 | 2 | Veias carmesim a pulsar sob a pele. |
@@ -74,19 +80,7 @@ A corrupção rubídica manifesta-se fisicamente à medida que a criatura acumul
 
 Efeitos psicológicos narrativos resultantes da presença continuada de rubídio ou do nível de corrupção. Contribuem para os pontos de insanidade (ver "Insanidade").
 
-Charisma save incremental:
-
-| Corrupção | Presença de rubídio | Charisma save DC |
-|---|---|---|
-| Nível 1 | 1 dia | 5 |
-| Nível 2 | 2 dias | 10 |
-| Nível 3 | 3 dias | 15 |
-| Nível 4 | 4 dias | 20 |
-| Nível 5 | 5 dias | 25 |
-
-(Formulação usada na viagem: "Charisma DC 5, +5 por cada dia que passa"; na mesa chegou-se a DC 20 diário.)
-
-**DM (decisão):** a marca rola-se também **ao falhar um saving throw contra corrupção**, e os efeitos **desaparecem após um long rest** (a versão anterior da mesa mantinha-as até a exaustão chegar a 0).
+**Quando se rola** (Decidido pelo DM (2026-10-21)): ao falhar um saving throw contra corrupção, e ao falhar o save diário de exposição prolongada (abaixo). Os efeitos **desaparecem após um long rest**.
 
 Ao falhar o save, rola 1d8:
 
@@ -103,7 +97,7 @@ Ao falhar o save, rola 1d8:
 
 ### Exposição prolongada
 
-**DM (decisão):** após um dia inteiro de exposição contínua a rubídio (carregar o cristal, dormir junto dele, dias na Ascensão), **Charisma save DC 5, +5 por cada dia adicional**. Falha: uma Marca na Alma temporária até ao próximo long rest. **Nat 1:** visões com impacto narrativo (flashbacks da Calamidade, memórias corrompidas). Na mesa: um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
+Após um dia inteiro de exposição contínua a rubídio (carregar o cristal, dormir junto dele, dias na Ascensão): **Charisma save DC 5, +5 por cada dia adicional**. Falha: uma Marca na Alma até ao próximo long rest. **Nat 1:** visões com impacto narrativo (flashbacks da Calamidade, memórias corrompidas). Na mesa: um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
 
 ### Sonhos
 
@@ -113,18 +107,17 @@ Ao falhar o save, rola 1d8:
 
 ### Habilidades por nível de corrupção
 
-A cada nível de exaustão os jogadores desbloqueiam ataques ou habilidades específicas de rubídio (inspiração: BG3, Dishonored). **Apenas quem tem conhecimento arcano consegue usá-las.**
+A cada nível de corrupção os jogadores desbloqueiam ataques ou habilidades específicas de rubídio (inspiração: BG3, Dishonored). **Apenas quem tem conhecimento arcano consegue usá-las.** As habilidades dos níveis anteriores ficam mais fortes à medida que a corrupção sobe: tudo o que escala, escala pelo **nível de corrupção** (o máximo atingido, que não desce), não pela exaustão atual (Decidido pelo DM (2026-10-21)).
 
 **1. Vínculo Mental (Kalashtar Mindlink)** — ação; ligação telepática bidireccional com uma criatura que consigas ver a uma distância máxima de 10 ft × o teu nível de corrupção. Não precisam de partilhar língua, mas ela tem de compreender pelo menos uma. Dura 1 hora mesmo que deixem de se ver ou se afastem; comunicação à vontade; só uma criatura ligada de cada vez (ligar outra termina a anterior); podes terminar com uma ação. *At will.*
 
 **2. Olhos de Sangue (Blood Eyes)** — ação bónus; 1 minuto; 1×/short rest; raio 30 ft. Vês criaturas e seres vivos através de superfícies sólidas até 5 ft de espessura; a forma verdadeira de criaturas ou objetos disfarçados por magia (*disguise self*, *alter self*, *illusory script*…), mesmo em escuridão total; criaturas invisíveis. Não atravessa barreiras mágicas poderosas (*wall of force*, *prismatic wall*) nem vê através do Plano Etéreo. Os olhos brilham vermelho intenso, visível no escuro.
 
-**3. Grito do Apoteão (Apotheon's Cry)** — ação; 1×/long rest; raio 30 ft. Cada criatura à tua escolha no raio faz Charisma save, DC = 8 + proficiência + mod. Charisma. Falha: 1d8 psíquico × o teu nível de corrupção e rola 1d4 — 1 Tristeza: *stunned* até ao fim do teu próximo turno; 2 Raiva: ataca imediatamente a criatura mais próxima (reação, se tiver); 3 Culpa: larga as armas e tem desvantagem no próximo ataque; 4 Medo: usa movimento e ação (Dash, se possível) para se afastar de ti. Sucesso: metade do dano, sem efeito emocional. Criaturas imunes a *frightened* são imunes.
-**DM (decisão):** usa-se a variante da ficha de Vor'zen: **Wisdom save** (DC = 8 + proficiência + mod. Charisma) e dano de **1d8 psíquico por nível de exaustão** do utilizador (a versão anterior usava Charisma save e o nível de corrupção).
+**3. Grito do Apoteão (Apotheon's Cry)** — ação; 1×/long rest; raio 30 ft. Cada criatura à tua escolha no raio faz **Wisdom save**, DC = 8 + proficiência + mod. Charisma. Falha: 1d8 psíquico × o teu nível de corrupção e rola 1d4 — 1 Tristeza: *stunned* até ao fim do teu próximo turno; 2 Raiva: ataca imediatamente a criatura mais próxima (reação, se tiver); 3 Culpa: larga as armas e tem desvantagem no próximo ataque; 4 Medo: usa movimento e ação (Dash, se possível) para se afastar de ti. Sucesso: metade do dano, sem efeito emocional. Criaturas imunes a *frightened* são imunes. (Wisdom save: variante da ficha de Vor'zen; dano pelo nível de corrupção (Decidido pelo DM (2026-10-21)).)
 
-**4. Ecos da Ruína (Echoes of Ruin)** — ação; 1 minuto; 1×/long rest. Figuras espectrais vermelhas, semi-sólidas, obedecem a ordens telepáticas (sem ação adicional). Número de figuras = nível de corrupção (4 → 5 figuras; 5 → 6). **DM (decisão):** figuras = **1 + nível de exaustão** (0 → 1 … 5 → 6), como na ficha de Vor'zen. Figura: AC 14, HP 10, speed 30 ft (hover), STR 12 DEX 14 CON 12 INT 4 WIS 10 CHA 6; resistências psychic, necrotic; imunidades charmed, frightened, poison; nunca a mais de 30 ft de ti. Cada figura faz 1 ação por turno, no início do teu turno: **Atacar** +5, alcance 5 ft, 1d8 + mod. Charisma (psychic ou necrotic); **Defender** — enquanto houver uma figura ativa, +2 AC e ataques corpo-a-corpo contra ti com desvantagem; **Agarrar** +5, alvo *restrained* (escape DC 8 + prof + mod. CHA), 1d6 psychic no início do turno da figura; **Interceptar** — quando és atingido, uma figura reduz o dano em 1d8 + o teu nível de exaustão e é destruída. No fim, dissipam-se em fumo vermelho.
+**4. Ecos da Ruína (Echoes of Ruin)** — ação; 1 minuto; 1×/long rest. Figuras espectrais vermelhas, semi-sólidas, obedecem a ordens telepáticas (sem ação adicional). Número de figuras = **1 + nível de corrupção** (4 → 5 figuras; 5 → 6) (Decidido pelo DM (2026-10-21)). Figura: AC 14, HP 10, speed 30 ft (hover), STR 12 DEX 14 CON 12 INT 4 WIS 10 CHA 6; resistências psychic, necrotic; imunidades charmed, frightened, poison; nunca a mais de 30 ft de ti. Cada figura faz 1 ação por turno, no início do teu turno: **Atacar** +5, alcance 5 ft, 1d8 + mod. Charisma (psychic ou necrotic); **Defender** — enquanto houver uma figura ativa, +2 AC e ataques corpo-a-corpo contra ti com desvantagem; **Agarrar** +5, alvo *restrained* (escape DC 8 + prof + mod. CHA), 1d6 psychic no início do turno da figura; **Interceptar** — quando és atingido, uma figura reduz o dano em 1d8 + o teu nível de corrupção e é destruída. No fim, dissipam-se em fumo vermelho.
 
-**5. Possessão (Ruidium Domination)** — ação; alcance 30 ft; 1× por alvo por dia; **no final ganhas 1 nível de exaustão**. A criatura faz Charisma save, DC = 8 + mod. Charisma + proficiência × o teu nível de exaustão. Falha: controlas o corpo por 1 turno; no início de cada turno seu, repete o save com **–2 cumulativo por cada turno adicional** sob posse; sucesso termina a posse. Enquanto dentro do corpo: usas STR/DEX/CON da criatura e manténs INT/WIS/CHA; conhecimento intuitivo de todas as capacidades do corpo; podes usar qualquer ação/magia/habilidade dela; podes tentar aceder a ecos de memória (o DM controla o que se revela); o teu corpo original fica incapacitado e paralisado (não pode ser possuído). Sucesso no save inicial: uso desperdiçado.
+**5. Possessão (Ruidium Domination)** — ação; alcance 30 ft; 1× por alvo por dia; **no final ganhas 1 nível de exaustão**. A criatura faz Charisma save, **DC = 8 + proficiência + mod. Charisma** (Decidido pelo DM (2026-10-21)). Falha: controlas o corpo por 1 turno; no início de cada turno seu, repete o save e **a CD desce 2 por cada turno que já passou possuída** (quanto mais tempo lá dentro, mais difícil manter a posse) (Decidido pelo DM (2026-10-21)); sucesso termina a posse. Enquanto dentro do corpo: usas STR/DEX/CON da criatura e manténs INT/WIS/CHA; conhecimento intuitivo de todas as capacidades do corpo; podes usar qualquer ação/magia/habilidade dela; podes tentar aceder a ecos de memória (o DM controla o que se revela); o teu corpo original fica incapacitado e paralisado (não pode ser possuído). Sucesso no save inicial: uso desperdiçado.
 **5A. Corpos recém-mortos (variante)** — corpo morto há menos de 1 minuto, cérebro intacto; sem save; ocupas o corpo 1 minuto; atributos físicos que tinha em vida, os teus mentais; consciência intuitiva das capacidades físicas; memórias residuais instáveis; não lança magias acima de 3.º nível; não regenera HP; a 0 HP colapsa definitivamente.
 
 ### Febre escarlate (forma leve)
@@ -135,7 +128,7 @@ Só com o que o material diz. Caso da filha do líder dos Caminhantes-dos-Dester
 - Arcana ou Religion DC 15: os sintomas não são naturais; influência arcana, planar ou residual da Calamidade — "como rubídio, mas sem sinais externos visíveis".
 - Fritz (telepata): "Febre escarlate. Lado bom: não é letal. Lado mau: não tem cura. Mas viverá."
 - Em Jigau: crianças goblin febris nas Águas-da-Carne; um amigo "que foi para o templo e nunca mais voltou" com os mesmos sintomas; orcs no mergulho: "já é o segundo esta semana… febre vermelha".
-Assim, na mesa a febre escarlate é a forma leve da corrupção: 1 exaustão + manchas, sem cura conhecida além da regra geral (*wish* / *divine intervention*). Isto responde ao "a definir" da secção "Febre escarlate — DM" acima.
+Assim, na mesa a febre escarlate é a forma leve da corrupção: 1 exaustão + manchas, sem cura conhecida além da regra geral (*wish* / *divine intervention*).
 
 ### Jóia + suude — DM (decisão)
 
@@ -144,10 +137,6 @@ Quem consumir Suude Vermelho e tocar na Jóia das Três Preces tem **visões na 
 ### Regra rejeitada: toque na Jóia
 
 Regra do DM (Desafio Final, E12): "Quem tocar sem estar corrompido tem de fazer um Charisma save, ou CON save DC 10 = 1d10 dano psíquico e é repelido. Falha = repelido. Sucesso = metade do dano, consegue tocar. Quem estiver corrompido consegue tocar sem dano." Na mesa: CON DC 10 → 2d10 psíquico; falha = 0 HP. O próprio DM anotou-a como *railroad* ("to ensure my players are the ones getting the Jewel… it can only be interacted / attuned by someone that is corrupted by rubídio"). **Não transita**: a nova campanha usa a visão universal do Remix (a Jóia dá a visão a quem lhe toca).
-
-### Compatibilidade com o Ruidium Metamagic (Remix, já adotado)
-
-O suude de 10 g já cobre a Metamagia (uma opção, sem ser sorcerer, com CON DC 15 e CHA DC 20 em falha), enquanto o Remix a dá por onças de rubídio em bruto (CHA DC 20 por onça). Coexistem sem contradição mecânica — uma via pelo pó refinado, outra pelo cristal — mas o DM decide se ambas ficam ou se o suude substitui a regra do Remix.
 
 ## Princípio da Oposição (rivais) — PROPOSTA (Remix)
 
@@ -520,16 +509,10 @@ Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada
 - **Wall of Thorns:** N/A
 - **Wind Walk:** N/A
 
-## Variantes e acrescentos (DM)
+## Outras notas do DM
 
-Variantes às regras acima; as quatro marcadas "DM (decisão)" nas secções respetivas ficaram em vigor (marcas no long rest, exposição prolongada, Grito com Wisdom save por exaustão e Ecos = 1 + exaustão, Jóia + suude). O resto fica aqui como fonte:
-
-- **Marcas na Alma (página "Marcas na Alma")** — acrescenta: a marca rola-se **ao falhar um saving throw contra corrupção** (1d8, mesma tabela de regras.md); os efeitos **desaparecem após um long rest**.
-- **Exposição prolongada (mesma página)** — regras.md diz que "o documento não tem regra separada"; a variante tem: após 1 dia inteiro de exposição contínua, **Charisma DC 5, +5 por cada dia**; falha = marca na alma temporária até ao próximo long rest; **nat 1** pode desencadear visões com impacto narrativo (flashbacks, memórias corrompidas).
-- **Rubídio (página "Rubídio", categoria Rubídio)** — é a tradução da regra do livro (CHA save por potência; falha = 1 nível de exaustão + corrompido; 1d10 psíquico sempre que a exaustão sobe ou desce), com a tabela de sinais físicos **desfasada de um nível face a regras.md**: 2 erupção, 3 veias, 4 bolhas/pústulas, 5 protuberâncias de cristal, 6 protuberâncias maiores, **7 morte** (regras.md: 1–6). "Rubídio 259a…" é só um título (Categoria: Regra).
-- **Grito do Abismo / Ecos da Ruína (ficha de Vorzen)** — variante da mesa: Grito com **Wisdom save** (CD 8 + prof + mod. CAR) e dano 1d8 psíquico × **nível de exaustão** (regras.md: CHA save × nível de corrupção); Ecos com **figuras = 1 + nível de exaustão** (0 → 1 … 5 → 6; regras.md: = nível de corrupção). Olhos de Sangue na ficha é **ação** (regras.md: ação bónus) e vê "vultos vermelhos" através de 5 ft de matéria.
-- **Medalhão (Jóia das 3 Preces)** — estados Dormant/Awakened/Exalted iguais ao livro. Acrescento do DM: **quem consumir suude e tocar no medalhão tem visões na primeira pessoa da vida de Alyxian, no sítio mais próximo onde estiver.**
+- **Medalhão (Jóia das 3 Preces)** — estados Dormant/Awakened/Exalted iguais ao livro; o acrescento do suude está em «Jóia + suude».
 - **Obelisco Negro** — mecânica temporal e Explosão Necromântica já no patch de `l-obelisco-negro`; acrescento: **visão com suude vermelho** junto ao obelisco (quatro figuras encapuçadas a erguê-lo; uma quinta, alta, com um único olho a brilhar — Vecna/Aeor).
-- **Funerais (categoria Regra)** — guião de DM ao estilo Matt Mercer: pausa de tom, perspetiva múltipla (cada jogador tem o seu momento), símbolos pessoais, impacto futuro, espaço para improviso; estrutura: 1 A Chegada, 2 O Ritual (Luxon / Kord / Ioun), 3 As Palavras, 4 O Símbolo Final (flores ao rio, pira, objeto enterrado, música), 5 O Silêncio. (Usado no funeral de Kiri-Kiri, S24.)
+- **Funerais** — guião de DM ao estilo Matt Mercer: pausa de tom, perspetiva múltipla (cada jogador tem o seu momento), símbolos pessoais, impacto futuro, espaço para improviso; estrutura: 1 A Chegada, 2 O Ritual (Luxon / Kord / Ioun), 3 As Palavras, 4 O Símbolo Final (flores ao rio, pira, objeto enterrado, música), 5 O Silêncio. (Usado no funeral de Kiri-Kiri, S24.)
 - **Arqueiro da Vigia da Aurora (nível 4)** — statblock da mesa (Jigau), resumido no patch de `f-aurora-watch`.
 - **Agente Volstrucker (EGtW p. 294)** — statblock canónico CR 7 guardado como referência (resumido no patch de `c-volstrucker-agent`).
