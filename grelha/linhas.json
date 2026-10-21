@@ -808,7 +808,21 @@
   {
     "id": "c-tiberio",
     "pcs": [
+      "c-pc-boblin"
+    ]
+  },
+  {
+    "id": "c-khedive-xundi",
+    "pcs": [
       "c-pc-boblin",
+      "c-pc-lucan",
+      "c-pc-isco"
+    ]
+  },
+  {
+    "id": "c-vaelen-bruma",
+    "pcs": [
+      "c-pc-lucan",
       "c-pc-isco"
     ]
   }

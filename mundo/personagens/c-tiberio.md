@@ -4,18 +4,16 @@ nome: Tibério, guarda da capela do Forte Ventura
 tipo: npc
 facoes:
   - f-dwendalian-empire
-  - f-myriad
 casa: l-fort-venture
 capitulos:
   - ch0
 quer: Ganhar.
-teme: Que o forte descubra para quem trabalha.
+teme: Perder ao jogo.
 tags:
   - dm
   - imperio
-  - myriad
   - morto
-legenda: guarda da capela; homem da Miríade no forte; morto
+legenda: guarda da capela; ganhou a moeda do Boblin; morto
 relacoes:
   - com: c-pc-boblin
     tipo: other
@@ -31,8 +29,8 @@ Guarda da capela do Forte Ventura, de farda vermelha imperial com o mocho e as e
 
 ## Objetivo
 
-Passar a carga da Miríade pelo forte.
+Ganhar o torneio do pátio.
 
 ## Segredo
 
-DM: **era o homem da Miríade dentro do Forte Ventura, nascido em Nicodranas**, a porta da rota do rubídio Urzin → Império (`r-myriad-route`) (Decidido pelo DM (2026-10-19)). **Ganhou a moeda do Boblin** (`i-moeda-do-boblin`) numa aposta no forte, depois de uma patrulha a trazer do pântano; não sabia que o Boblin estava lá dentro. Morreu e levantou-se como lacedon com ela. **No corpo, em cima da jangada, estão a moeda (com o Boblin dentro) e uma caixinha de cristais vermelhos,** que o grupo encontra quando o revistar no arranque da S7. (Decidido pelo DM (2026-10-20))
+DM: **um soldado com sorte ao jogo, não da Miríade** (Decidido pelo DM (2026-10-21); substitui a decisão 2026-10-19 #14). **Ganhou numa aposta, no forte, a moeda do Boblin e uma caixinha de cristais vermelhos** («Tibério ganhou», dia 3) e ficou com as duas coisas. A moeda veio do pântano com uma patrulha, com o Boblin lá dentro; os cristais eram a carga de uma mula da Miríade de Urzin, morta no pântano por outro soldado, e tinham sido confiscados pelo Padre Perestrelo. Morreu e levantou-se como lacedon com as duas. **No corpo, em cima da jangada, estão a moeda (com o Boblin dentro) e a caixinha,** que o grupo encontra quando o revistar no arranque da S7 (Decidido pelo DM (2026-10-20)).

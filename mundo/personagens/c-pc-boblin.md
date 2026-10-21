@@ -20,6 +20,14 @@ relacoes:
     tipo: wantsFrom
     nota: a liberdade; foi o Bufal que o mandou para o pântano pela irmã
     origem: tiago
+  - com: c-khedive-xundi
+    tipo: other
+    nota: o patrono; o Boblin não sabe que é um génio
+    origem: mesa
+  - com: c-tiberio
+    tipo: other
+    nota: ganhou-lhe a moeda numa aposta, com o Boblin lá dentro
+    origem: mesa
 tags:
   - pc
   - cotn_2026
@@ -33,35 +41,66 @@ origem:
 
 ## Resumo
 
-Personagem do Tiago Rosas. **Nome: Boblin** (os pais não ligaram ao nome; Decidido pelo DM (2026-10-19)). Goblin, Warlock 3 (Génio, Marid: o patrono é o Khedive Xundi; o Tiago decide se muda as features da ficha, que dizia Djinni; Decidido pelo DM (2026-10-20)), antecedente Charlatão; alinhamento por fechar com o DM (o jogador aponta para Neutro, a puxar para Caótico Neutro com a moeda). 10 anos, 98 cm, 23 kg; olhos amarelos que às vezes ficam azuis (o génio); pele verde; cabelo preto. Fala comum e goblin. **Fé da família: Melora** (Decidido pelo DM (2026-10-19)), a dos antigos patronos goblinoides que viajam nas tartarugas ao lado dos templos do Luxon; o Boblin não é devoto. Ficha completa no D&D Beyond (dndbeyond.com/characters/172024157). Fonte: «Ficha de perguntas sobre a personagem» (Drive, pasta Tiago Rosas, 2026-10-18), que substitui as notas da primeira conversa («Tiago Rosas», 2026-10-06).
+Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pelo DM (2026-10-19)). Goblin, Warlock 3, patrono **o Génio, de tipo Marid: o Khedive Xundi** (Decidido pelo DM (2026-10-20)); antecedente Charlatão. Alinhamento por fechar (o jogador aponta para Neutro, a puxar para Caótico Neutro com a moeda). 10 anos, 98 cm, 23 kg; olhos amarelos que às vezes ficam azuis (o génio); pele verde; cabelo preto. Fala comum e goblin. **Fé da família: Melora**, a dos antigos patronos goblinoides que viajam nas tartarugas de Urzin ao lado dos templos do Luxon; o Boblin não é devoto (Decidido pelo DM (2026-10-19)). Ficha completa no D&D Beyond (dndbeyond.com/characters/172024157). Fonte: «Ficha de perguntas sobre a personagem» (Drive, pasta do Tiago, 2026-10-18), que substitui as notas da primeira conversa (2026-10-06).
+
+**O patrono na ficha (Tasha's Cauldron of Everything, «The Genie»; regras de 2014).** A ficha do D&D Beyond diz Djinni; o Tiago aceitou o Xundi e decide se muda as features para Marid, e o DM aceita qualquer das duas (Decidido pelo DM (2026-10-20)). Com Marid:
+- **Magias extra** (entram na lista de warlock): *detect evil and good*, *phantasmal force*, *create food and water*, *phantasmal killer*, *creation* (as do Génio) e *fog cloud*, *blur*, *sleet storm*, *control water*, *cone of cold* (as do Marid); *wish* no 9.º. Com Djinni seriam *thunderwave*, *gust of wind*, *wind wall*, *greater invisibility*, *seeming*.
+- **O vaso do génio: a moeda.** Objeto Minúsculo, foco de feitiços de warlock. CA igual à CD de feitiços do Boblin; PV iguais ao nível de warlock mais o bónus de proficiência (5 ao nível 3); imune a veneno e a dano psíquico. Se se perder ou for destruída, uma cerimónia de 1 hora num descanso curto ou longo dá-lhe outra do patrono, e a anterior é destruída se ainda existir. Quando o Boblin morrer, a moeda desaparece num clarão de poder elemental.
+- **Ira do Génio:** uma vez por turno, ao acertar um ataque, dano extra igual ao bónus de proficiência (+2): frio com Marid, trovão com Djinni.
+- **Refúgio no Vaso** (Bottled Respite): com uma ação, a tocar na moeda, desaparece para dentro dela; a moeda fica onde ele estava. Por dentro, um espaço extradimensional em cilindro de 6 m de raio e 6 m de altura, com o aspeto do vaso, almofadas, mesas baixas e uma temperatura agradável. **Lá dentro ouve à volta da moeda como se estivesse no sítio dela; não vê.** Fica até o dobro do bónus de proficiência em horas (4 ao nível 3). Sai com uma ação bónus, se morrer ou se a moeda for destruída, e aparece no espaço livre mais perto dela. Os objetos que lá deixar ficam lá. Depois de entrar, só volta a entrar depois de um descanso longo. Na primeira vez (do dia 3 à S7) a duração fica por handwave (Decidido pelo DM (2026-10-20)).
+- **Mais tarde:** no 6.º, resistência a frio (trovão com Djinni) e voo de 9 m durante 10 minutos, tantas vezes como o bónus de proficiência; no 10.º, leva até cinco criaturas voluntárias para dentro da moeda e quem lá fica 10 minutos tem os benefícios de um descanso curto; no 14.º, um pequeno desejo (o efeito de um feitiço de 6.º nível ou menos, de qualquer lista), uma vez a cada 1d4 descansos longos.
 
 **Origem.** Nasceu em campos selvagens, numa família nómada de coletores, miserável: cabanas de palha e madeira desmontadas a cada migração. Memória mais antiga: as papas de larvas e terra (daí, mais tarde, o gosto de gourmet). É o 12.º de 18 irmãos (10 irmãos, 6 mais velhos; 7 irmãs, 5 mais velhas). Os pais não tinham apego aos filhos e deixavam alguns para trás nas migrações; não se lembra dos nomes deles, mas reconhecia-os. Criaram-no os irmãos, que tiraram do pouco que tinham para ele sobreviver (cresceu fraco).
 
 **Urzin e o charlatão.** Quando a família assentou em Urzin, passou dificuldades; uns irmãos especializaram-se, outros, como ele, sustentaram a família como puderam: pedinte, pequenos furtos, depois esquemas e apostas (fala, carisma, jogos, mãos rápidas).
 
-**A dívida.** Com a guerra, a família sofreu. A irmã mais nova (a 17.ª), para ajudar, seguiu-lhe os passos, tentou enganar alguém importante da sociedade goblin num esquema de apostas e foi apanhada. Para ela não ser condenada, o Boblin «voluntariou-se» para a guerra: foi mandado sozinho como batedor pelos pântanos, até cumprir um tempo, fazer um grande feito ou pagar uma soma em prata (valores por fechar com o DM).
+**A dívida.** Com a guerra, a família sofreu. A irmã mais nova (a 17.ª), para ajudar, seguiu-lhe os passos, tentou enganar o Ogre Lorde Bufal II num esquema de apostas e foi apanhada. Para ela não ser condenada, o Boblin «voluntariou-se» para a guerra: o Bufal mandou-o sozinho como batedor pelos pântanos, até cumprir um tempo, fazer um grande feito ou pagar uma soma em prata (valores por fechar) (Decidido pelo DM (2026-10-19)).
 
-**A moeda.** Encontrou uma moeda de ouro grossa num corpo nos pântanos; é o vaso do génio, e é por ela que lhe vêm os poderes. Dentro dela ouve o que se passa à volta, mas não vê. Desde então, emoções e vontades ampliadas: mais excêntrico e impulsivo; a calma, a sociabilidade, a desconfiança e a ganância multiplicadas.
+**A moeda, como o Boblin a conhece.** Uma moeda de ouro grossa que encontrou num corpo nos pântanos: numa face um goblin de perfil, na outra o brasão do Concílio de Clóvis (cunhada em Nicodranas). Por ela vêm-lhe os poderes e uma voz; não sabe que a voz é de um génio. Desde então, emoções e vontades ampliadas: mais excêntrico e impulsivo; a calma, a sociabilidade, a desconfiança e a ganância multiplicadas.
 
-**Carácter.** Calmo, sociável, desconfiado, ganancioso. Laço: os irmãos. Defeito: ganância por objetos valiosos. Confia cegamente nos irmãos; os outros têm de ganhar a confiança. Rivais: a sociedade goblin e os pais (abandonaram-no, um em sentido figurado, o outro à letra). Maior arrependimento: ter levado a irmã a quase perder a vida por seguir o exemplo dele. Aprendeu a cuidar de si e dos seus e a ver os outros como ameaças. Se não houvesse forma de corrigir: negação, raiva, negociação, depressão, vingança. Ideal: por responder (não percebeu a pergunta).
+**Carácter.** Calmo, sociável, desconfiado, ganancioso. Laço: os irmãos. Defeito: ganância por objetos valiosos. Confia cegamente nos irmãos; os outros têm de ganhar a confiança. Rivais: a sociedade goblin e os pais (abandonaram-no, um em sentido figurado, o outro à letra). Maior arrependimento: ter levado a irmã a quase perder a vida por seguir o exemplo dele. Aprendeu a cuidar de si e dos seus e a ver os outros como ameaças. Se não houvesse forma de corrigir: negação, raiva, negociação, depressão, vingança. Ideal: por responder (não percebeu a pergunta). Trinket: um pergaminho com o desenho de uma engenhoca mecânica.
 
 ## Objetivo
 
-Melhorar a vida dos irmãos; acabar o serviço com um grande feito e depois juntar o máximo de dinheiro possível.
+Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e depois juntar o máximo de dinheiro possível.
 
 ## Segredo
 
-- **O patrono é o Khedive Xundi** (Tal'Dorei Reborn, «Lesser Idols»): o marid libertado de debaixo de Nicodranas, agora no Palácio do Lodo de Prata. Acompanha as aventuras do Boblin através da moeda, como faz com a ânfora de Stilben; quer espetáculo (aventuras emocionantes) e vingança de quem o prendeu. Convida os que sobrevivem e ficam fortes para um banquete no palácio, e no fim pede-lhes a aventura mais emocionante que pensou. Mente por omissão: o Boblin não sabe que fala com um génio, nem que tem plateia. Dentro da moeda aparece como um espelho de água vertical (Decidido pelo DM (2026-10-20)).
-- **A moeda:** cunhada em Nicodranas (brasão da Concórdia de Clóvis numa face, um goblin de perfil na outra). No dia 3, o Boblin quase é apanhado por uma patrulha imperial no pântano e refugia-se nela; a patrulha leva-a para o Forte Ventura; o Tibério (guarda da capela, homem da Miríade no forte) ganha-a numa aposta; a Bolbara solta-se, o Tibério morre e levanta-se como lacedon, com a moeda (`c-tiberio`; Decidido pelo DM (2026-10-20)).
-- **O que ouviu na noite do dia 3:** gritos de uma goblin, trovoada, risos da mesma goblin, depois dezenas de pessoas a combater. Desconfia que era a Bolbara; não percebeu palavras (Decidido pelo DM (2026-10-20)).
-- **Entrada: arranque da S7,** dentro da moeda, no corpo do Tibério, em cima da jangada, ao lado da caixinha de cristais vermelhos; o Xundi faz de tudo para que saia. A duração no vaso fica por handwave nesta primeira vez (Decidido pelo DM (2026-10-20)).
-- **O credor é o Bufal II:** foi a ele que a irmã tentou enganar, e é ele quem fixa o preço da liberdade do Boblin. O exílio no pântano era para o Boblin não voltar (Decidido pelo DM (2026-10-19)).
-- **Descobertas do capítulo 0:** os Bruma reconhecem o cunho de Nicodranas (o brasão), mas a outra face é um goblin; em Urzin, sabe que o exílio era para morrer (Decidido pelo DM (2026-10-19)).
-- **A irmã com febre escarlate:** no regresso a Urzin, a irmã mais nova está doente; tentou contrabandear cristais vermelhos para pagar a dívida (Decidido pelo DM (2026-10-19)).
-- **Capítulo 1:** o Xundi empurra-o para as apostas do festival e acerta sempre; quando ganha, a moeda pesa mais (Decidido pelo DM (2026-10-19)).
-- **A face humana da moeda era a do Tibério;** quando o grupo a encontra, tem um goblin de perfil (Decidido pelo DM (2026-10-20)).
-- **Por decidir:** o que o Xundi quer dele para além do espetáculo; os valores da liberdade.
+**O patrono: o Khedive Xundi** (ficha `c-khedive-xundi`; Decidido pelo DM (2026-10-20)).
+- **Livro (Tal'Dorei Reborn, «Lesser Idols»):** génio da água (marid), caótico neutro, solto há cerca de um ano de um cativeiro debaixo de Nicodranas; voltou ao seu Palácio do Lodo de Prata, no Plano Elemental da Água, e quer vingança. Entretém-se a manipular mortais na Costa das Maravilhas e deixa iscos (uma ânfora em Stilben) por onde vê quem passa; a quem lhes pega dá poder «sem condições», com um só pedido: que viva as aventuras mais emocionantes que um pequeno mortal consegue. Aos que sobrevivem e ficam fortes convida-os, com os amigos, para um banquete no palácio, e no fim pede-lhes a aventura mais emocionante em que pensou durante o cativeiro. **A moeda do Boblin é um desses iscos.**
+- **Critical Role, campanha 2 (2x33–2x35):** estava preso na Sluice Weave, em Nicodranas, a mandar água para as fornalhas que moviam os motores do comércio da cidade, com uma coleira grossa de metal ao pescoço, às ordens de Algar Dyomin, homem do Concílio vindo de Port Zoon, que o controlava com uma pulseira. O Mighty Nein libertou-o (o Fjord cortou a mão ao Algar e tirou-lhe a pulseira). Apresenta-se com cerimónia: «Khedive Xundi».
+- **Monster Manual:** os marids são conhecidos pela vaidade e pela arrogância e julgam-se os mais nobres dos génios; falam aquano e comum, têm telepatia a 36 m e, uma vez por dia, *plane shift* e *gaseous form*. Os genasi da água descendem dos marids. O patrono Génio (Tasha's): os génios nobres adoram virar o jogo contra os mortais, que tantas vezes os prendem em servidão.
+- **Na mesa:** mente por omissão; o Boblin não sabe que fala com um génio, nem que tem plateia (Decidido pelo DM (2026-10-20)). **Está dentro da moeda em corpo**, a ouvir as aventuras do Boblin, e não só como um espelho de água (Decidido pelo DM (2026-10-21)); como lá chega fica por decidir.
+
+**Quem o caçou: o Scylla e o capitão Vaelen Bruma, o pai do Lucan e do Isco,** contratados pelo Algar Dyomin. A Miríade não teve nada a ver com o cativeiro (Decidido pelo DM (2026-10-21)). A vingança do Xundi aponta ao Concílio (o Algar e quem estava por cima dele) e ao Scylla. O Vaelen é genasi da água, descendente de marids. Se os irmãos sabem alguma coisa e se o Xundi chega a ligar o nome «Scylla» ficam por decidir.
+
+**A moeda até à jangada** (Decidido pelo DM (2026-10-21); substitui a sequência de 2026-10-20 #2 na parte do Tibério):
+1. Uma mula da Miríade que vivia em Urzin atravessa o pântano com a moeda e uma carga de cristais vermelhos e é morta por um soldado imperial (não o Tibério).
+2. O Boblin, batedor no pântano, encontra a moeda no corpo da mula e fecha o pacto com o Xundi.
+3. Os cristais vão para o Forte Ventura e são confiscados pelo Padre Perestrelo.
+4. No dia 3, o Boblin quase é apanhado por uma patrulha imperial e refugia-se dentro da moeda; a patrulha leva-a para o forte.
+5. O Tibério ganha numa aposta a moeda e os cristais («Tibério ganhou», caderninho do torneio, dia 3) e fica com as duas coisas.
+6. Na noite do dia 3, a Bolbara solta-se; o Tibério mata o padre, morre e levanta-se como lacedon, com a moeda e os cristais.
+
+**O que ouviu de dentro da moeda na noite do dia 3:** gritos de uma goblin, trovoada, risos da mesma goblin e depois dezenas de pessoas a combater. Desconfia que era a Bolbara; não percebeu palavras (Decidido pelo DM (2026-10-20)).
+
+**Entrada: arranque da S7.** Dentro da moeda, no corpo do Tibério, em cima da jangada, ao lado da caixinha de cristais vermelhos; o Xundi faz de tudo para que saia e viva a sua aventura (Decidido pelo DM (2026-10-20)). Quando o grupo encontra a moeda, tem um goblin de perfil.
+
+**Capítulo 0, depois da entrada:** os irmãos Bruma reconhecem o cunho de Nicodranas (o brasão do Concílio), mas a outra face é um goblin, o que nenhuma casa da moeda cunharia; de volta a Urzin, o Boblin sabe pela família que o exílio era para não voltar; a irmã mais nova está com febre escarlate, porque tentou contrabandear cristais vermelhos para pagar a dívida ao Bufal (Decidido pelo DM (2026-10-19)).
+
+**Capítulo 1:** o Xundi empurra-o para as apostas do Festival do Mérito e acerta sempre; quando o Boblin ganha, a moeda pesa mais (Decidido pelo DM (2026-10-19)).
+
+**Por decidir:**
+- Como está o Xundi dentro da moeda em corpo: o interior ancorado a uma sala do Palácio do Lodo de Prata (o livro não o proíbe nem o diz), ou o Xundi a vir por *plane shift* (o Tasha's não deixa outra criatura entrar no Refúgio no Vaso antes do 10.º nível, por isso seria regra da casa).
+- A face humana anterior ao goblin: a 2026-10-20 ficou a do Tibério, mas na sequência nova o dono antes do Boblin é a mula.
+- Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
+- Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio); se o Xundi reconhece o nome «Scylla».
+- O que o Xundi quer do Boblin para além do espetáculo; os valores da liberdade junto do Bufal; os arcos dos capítulos 2 e 3.
 
 ## Ideias substituídas
 
-Também sai o djinni da primeira conversa: o patrono é o Khedive Xundi (decisão 2026-10-20 #1). Das notas da primeira conversa (2026-10-06), substituídas pelo questionário do jogador (2026-10-18): os pais com a vida demasiado arranjada; saiu de Urzin por vontade própria, para se provar; o motor como vontade de reconhecimento. Fica: o desenho da moeda muda com o utilizador mais recente (hoje um goblin, antes um humano); pode entrar na moeda como refúgio e ouve o que se passa fora; magias quase todas de afetar a mente; trinket: um pergaminho com o desenho de uma engenhoca mecânica.
+- **O djinni** da primeira conversa e a aposta que o prendia ao Xundi: o patrono é o próprio Xundi (decisão 2026-10-20 #1).
+- **O espelho de água vertical** como única presença do Xundi na moeda: está lá em corpo (decisão 2026-10-21).
+- **O Tibério como homem da Miríade no forte e correio da moeda** (decisões 2026-10-19 #7 e #14): era só um soldado com sorte ao jogo; a mula da Miríade é outra pessoa (decisão 2026-10-21).
+- **A entrada no pântano, atrás da Bolbara** (decisão 2026-10-19 #10): entra na S7, de dentro da moeda.
+- **Das notas da primeira conversa** (2026-10-06), substituídas pelo questionário do jogador: os pais com a vida demasiado arranjada; saiu de Urzin por vontade própria, para se provar; o motor como vontade de reconhecimento. Fica: o desenho da moeda muda com o utilizador mais recente; pode entrar na moeda como refúgio e ouve o que se passa fora; magias quase todas de afetar a mente; o trinket.

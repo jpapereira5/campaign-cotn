@@ -5183,13 +5183,15 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "S7, arranque: no corpo do Tibério, na jangada, estão a caixinha de cristais vermelhos (rubídio; o Tibério era o homem da Miríade no forte) e a moeda do Boblin, com o Boblin lá dentro. O Xundi, um espelho de água vertical, empurra-o para fora. De dentro ouviu a noite do dia 3: gritos de uma goblin, trovoada, risos da mesma goblin, dezenas a combater; desconfia que era a Bolbara.",
+      "text": "S7, arranque: no corpo do Tibério, na jangada, estão a caixinha de cristais vermelhos (rubídio de uma mula da Miríade, confiscado pelo Perestrelo; o Tibério ganhou-a numa aposta com a moeda) e a moeda do Boblin, com o Boblin lá dentro. O Xundi, lá dentro em corpo, empurra-o para fora. De dentro ouviu a noite do dia 3: gritos de uma goblin, trovoada, risos da mesma goblin, dezenas a combater; desconfia que era a Bolbara.",
       "suggestion": "Abrir a S7 com o Boblin dentro da moeda e o Xundi a empurrá-lo; sai com ação bónus para o espaço livre mais perto. Quem revistar o Tibério acha a caixinha (contacto com o cristal: regra da febre escarlate).",
       "because": [
         "registo/decisoes.md 2026-10-19 #14",
         "registo/decisoes.md 2026-10-20 #2",
         "registo/decisoes.md 2026-10-20 #3",
-        "registo/decisoes.md 2026-10-20 #4"
+        "registo/decisoes.md 2026-10-20 #4",
+        "registo/decisoes.md 2026-10-21 #19",
+        "registo/decisoes.md 2026-10-21 #21"
       ],
       "tags": [
         "so-dm"
@@ -5296,6 +5298,44 @@
         "registo/decisoes.md 2026-10-20 #25",
         "registo/decisoes.md 2026-10-20 #26",
         "registo/decisoes.md 2026-10-20 #27"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-boblin-03",
+      "at": "2026-10-21T04:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-khedive-xundi",
+        "col": "ch0"
+      },
+      "factKind": "cena",
+      "text": "Como está o Xundi em corpo dentro da moeda? (a) o interior da moeda é uma sala do Palácio do Lodo de Prata (o livro não o proíbe nem o diz); (b) vem por plane shift (regra da casa: o Tasha's não deixa outra criatura entrar no Refúgio no Vaso antes do 10.º nível).",
+      "suggestion": "(a): o Boblin vai ter com ele; a sala tem uma porta fechada para o resto do palácio, onde é o banquete.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #21"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-boblin-04",
+      "at": "2026-10-21T04:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-vaelen-bruma",
+        "col": "ch2"
+      },
+      "factKind": "cena",
+      "text": "O Scylla caçou o Xundi para o Algar Dyomin. Os irmãos Bruma sabem alguma coisa (falar antes com a Renata e o Pedro Ropio)? O Xundi reconhece o nome «Scylla» quando o ouvir pela moeda?",
+      "suggestion": "Os irmãos não sabem de nada; a verdade guarda-se para o regresso do Scylla (cap. 2 ou 4).",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #20"
       ],
       "tags": [
         "so-dm"

@@ -9,12 +9,14 @@ origem:
 
 ## Resumo
 
-Moeda de ouro grossa, o vaso do génio do Boblin (Warlock, Génio). O Boblin encontrou-a num corpo no pântano (questionário do Tiago, 2026-10-18). Pode entrar nela como refúgio: por dentro, o interior do Bottled Respite (Tasha's) tem o aspeto da moeda, ouro por todo o lado; de lá ouve à volta como se lá estivesse, mas não vê.
+Moeda de ouro grossa, o vaso do génio do Boblin (Warlock, Génio). O Boblin encontrou-a num corpo no pântano (questionário do Tiago, 2026-10-18): o de uma mula da Miríade de Urzin, morta por um soldado imperial (Decidido pelo DM (2026-10-21)). Pode entrar nela como refúgio: por dentro, o interior do Refúgio no Vaso (Bottled Respite, Tasha's) tem o aspeto da moeda, ouro por todo o lado; de lá ouve à volta como se lá estivesse, mas não vê.
 
-**Aspeto:** numa face, um goblin de perfil; na outra, o brasão da Concórdia de Clóvis. A face muda com o utilizador mais recente: hoje um goblin, antes um humano, o Tibério (Decidido pelo DM (2026-10-20)); o brasão fica. Quando o grupo a encontra na S7, tem um goblin de perfil. Cunhada em Nicodranas. (Decidido pelo DM (2026-10-19))
+**Aspeto:** numa face, um goblin de perfil; na outra, o brasão da Concílio de Clóvis. A face muda com o utilizador mais recente: hoje um goblin, antes um humano (a 2026-10-20 ficou o Tibério; com a sequência de 2026-10-21 o dono antes do Boblin é a mula: por confirmar); o brasão fica. Quando o grupo a encontra na S7, tem um goblin de perfil. Cunhada em Nicodranas. (Decidido pelo DM (2026-10-19))
 
-**O caminho até à jangada:** no dia 3, o Boblin refugia-se nela para não ser apanhado por uma patrulha imperial no pântano; a patrulha leva-a para o Forte Ventura; o Tibério ganha-a numa aposta; o Tibério morre e levanta-se como lacedon, com ela. **No arranque da S7 está no corpo do Tibério, em cima da jangada, com o Boblin lá dentro,** ao lado da caixinha de cristais vermelhos. (Decidido pelo DM (2026-10-20))
+**O caminho até à jangada:** no dia 3, o Boblin refugia-se nela para não ser apanhado por uma patrulha imperial no pântano; a patrulha leva-a para o Forte Ventura; o Tibério ganha-a numa aposta, com a caixinha de cristais que o Padre Perestrelo confiscara à mula (Decidido pelo DM (2026-10-21)); o Tibério morre e levanta-se como lacedon, com ela. **No arranque da S7 está no corpo do Tibério, em cima da jangada, com o Boblin lá dentro,** ao lado da caixinha de cristais vermelhos. (Decidido pelo DM (2026-10-20))
+
+**Regras (Tasha's, Génio):** foco de feitiços de warlock; CA igual à CD de feitiços do Boblin, PV iguais ao nível de warlock mais o bónus de proficiência (5 ao nível 3), imune a veneno e a dano psíquico. Se se perder, uma cerimónia de 1 hora num descanso dá outra e destrói a antiga; quando o Boblin morrer, desaparece num clarão de poder elemental.
 
 ## Segredo
 
-DM: é um isco do Khedive Xundi, o marid de Tal'Dorei Reborn, como a ânfora de Stilben: o Xundi vê por ela as aventuras do Boblin e, lá dentro, aparece-lhe como um espelho de água vertical. Mente por omissão. (Decidido pelo DM (2026-10-20))
+DM: é um isco do Khedive Xundi (`c-khedive-xundi`), o marid de Tal'Dorei Reborn, como a ânfora de Stilben: o Xundi acompanha por ela as aventuras do Boblin e **está lá dentro em corpo** (Decidido pelo DM (2026-10-21); como lá chega fica por decidir). Mente por omissão. (Decidido pelo DM (2026-10-20))

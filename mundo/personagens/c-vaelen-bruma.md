@@ -19,6 +19,10 @@ relacoes:
     tipo: family
     nota: pai; não o reconheceu
     origem: pcs
+  - com: c-khedive-xundi
+    tipo: enemy
+    nota: caçou-o para o Algar Dyomin
+    origem: mesa
 origem:
   - pcs
 ---
@@ -26,3 +30,7 @@ origem:
 ## Resumo
 
 cotn_2026 (ficha do jogador + notas DM na Drive). Water genasi, capitão da caravela de caça Scylla (Nicodranas); pai do Lucan e do Isco. Não reconheceu os filhos quando voltaram do mar e expulsou-os. DM: o Scylla reaparece — no caminho marítimo de Jigau a Bazzoxan (cap. 2) ou na rota longa de Bazzoxan a Marquet por barco. Forma em aberto: precisa da ajuda dos filhos e tem de engolir o ego; ou o barco vazio à deriva; ou o pai falta; ou foi tomado pelas profundezas.
+
+## Segredo
+
+DM: **o Scylla e o capitão Vaelen caçaram o Khedive Xundi**, o marid que ficou preso na Sluice Weave de Nicodranas, contratados pelo Algar Dyomin, do Concílio de Clóvis (Critical Role, campanha 2). O Vaelen é genasi da água, e os genasi da água descendem dos marids. O Xundi, patrono do Boblin, quer vingança. Por decidir: se os filhos sabem alguma coisa (falar antes com a Renata e o Pedro Ropio) e se o Xundi reconhece o nome «Scylla». (Decidido pelo DM (2026-10-21))
