@@ -5183,7 +5183,7 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "S7, arranque: no corpo do Tibério, na jangada, estão a caixinha de cristais vermelhos (rubídio de uma mula da Miríade, confiscado pelo Perestrelo; o Tibério ganhou-a numa aposta com a moeda) e a moeda do Boblin, com o Boblin lá dentro. O Xundi está lá em corpo (entrou pela porta do palácio) e empurra-o para fora; pendurado na parede, o espelho de transpondência. De dentro ouviu a noite do dia 3: gritos de uma goblin, trovoada, risos da mesma goblin, dezenas a combater; desconfia que era a Bolbara.",
+      "text": "S7, arranque: no corpo do Tibério, na jangada, estão a caixinha de cristais vermelhos (rubídio de uma mula da Miríade, confiscado pelo Perestrelo; o Tibério ganhou-a numa aposta com a moeda) e a moeda do Boblin, com o Boblin lá dentro. O Xundi está lá em corpo (entrou pela porta do palácio) e empurra-o para fora. De dentro ouviu a noite do dia 3: gritos de uma goblin, trovoada, risos da mesma goblin, dezenas a combater; desconfia que era a Bolbara.",
       "suggestion": "Abrir a S7 com o Boblin dentro da moeda e o Xundi a empurrá-lo; sai com ação bónus para o espaço livre mais perto. Quem revistar o Tibério acha a caixinha (contacto com o cristal: regra da febre escarlate).",
       "because": [
         "registo/decisoes.md 2026-10-19 #14",
@@ -5352,10 +5352,11 @@
         "col": "ch1"
       },
       "factKind": "cena",
-      "text": "A sala da moeda vazia: quando o Boblin entrar sem o Xundi, está sozinho com a porta fechada e o espelho na parede. Um dia, a porta encostada para o Palácio do Lodo de Prata. Se o Tiago tirar o espelho cá para fora, o Xundi passa a ver e o grupo vê-o a ele (só imagem).",
+      "text": "A sala da moeda vazia: quando o Boblin entrar sem o Xundi, está sozinho com a porta fechada. Um dia, a porta encostada para o Palácio do Lodo de Prata. Por decidir: se lá dentro fica o par do espelho de transpondência do Xundi (só imagem).",
       "suggestion": "Guardar a porta encostada para uma altura em que o Boblin esteja tentado (por exemplo, depois de uma grande vitória nas apostas).",
       "because": [
-        "registo/decisoes.md 2026-10-21 #25"
+        "registo/decisoes.md 2026-10-21 #25",
+        "registo/decisoes.md 2026-10-21 #26"
       ],
       "tags": [
         "so-dm"
