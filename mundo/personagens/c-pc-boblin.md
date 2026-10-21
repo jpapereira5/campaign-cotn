@@ -107,7 +107,7 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 **Por decidir:**
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
 - Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio). O Xundi vai perceber que são filhos do capitão que o caçou (decisão 2026-10-21 #30).
-- Fios em aberto: o criado apanhado a meio de arrumar a sala ou a trocar a comida; uma ou outra visita do Xundi (sem especificar).
+- Fios em aberto: o criado apanhado a meio de arrumar a sala ou a trocar a comida; uma ou outra visita do Xundi (sem especificar); a Breathing Bubble como prenda que lhe abre o palácio (ideia). A porta da moeda tem uma barreira de água no limiar e o Boblin não respira debaixo de água (decisão 2026-10-21 #39).
 - O que acontece ao Scylla (ideias do DM, por desenvolver: sobrevive e caça o aboleto que engoliu o Isco; ou os irmãos têm outro barco; ou encontram o Scylla naufragado ou transformado, talvez pelo rubídio).
 - O que o Xundi quer do Boblin para além do espetáculo; os valores da liberdade junto do Bufal; os arcos dos capítulos 2 e 3.
 

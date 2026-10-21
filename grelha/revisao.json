@@ -5352,12 +5352,13 @@
         "col": "ch1"
       },
       "factKind": "cena",
-      "text": "A sala da moeda vazia: quando o Boblin entrar sem o Xundi, está sozinho com a porta fechada e o espelho de transpondência (só imagem), com que pode mostrar o mundo ao Xundi ou chamá-lo; o Xundi vem pela porta se quiser. Um dia, a porta encostada para o Palácio do Lodo de Prata.",
+      "text": "A sala da moeda vazia: quando o Boblin entrar sem o Xundi, está sozinho com a porta fechada e o espelho de transpondência (só imagem), com que pode mostrar o mundo ao Xundi ou chamá-lo; o Xundi vem pela porta se quiser. Um dia, a porta encostada para o Palácio do Lodo de Prata. A porta tem uma barreira de água no limiar: o Boblin vê o palácio afogado mas não respira lá dentro. Ideia: a Breathing Bubble como a prenda que lhe abre o palácio.",
       "suggestion": "Guardar a porta encostada para uma altura em que o Boblin esteja tentado (por exemplo, depois de uma grande vitória nas apostas).",
       "because": [
         "registo/decisoes.md 2026-10-21 #25",
         "registo/decisoes.md 2026-10-21 #26",
-        "registo/decisoes.md 2026-10-21 #27"
+        "registo/decisoes.md 2026-10-21 #27",
+        "registo/decisoes.md 2026-10-21 #39"
       ],
       "tags": [
         "so-dm"

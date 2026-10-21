@@ -99,7 +99,7 @@ Baixa, borbulhante, molhada (narração do Matt). Devagar, com pausas longas, co
 - **O que o acende:** risco, histórias bem contadas, lisonja à altura, alguém que lhe responde à letra.
 - **O que o apaga:** prudência, aborrecimento, ser tratado como servo, perguntas sobre o cativeiro.
 - **A máscara que cai:** se alguém lhe falar no Scylla, ou lhe mostrar uma coleira, a água das pernas fica lisa e ele deixa de sorrir.
-- **Mecânica própria:** ouve sempre pela moeda e não vê; vem em corpo pela porta de cobre, de vez em quando; nunca sai pela moeda para o Plano Material; deixa prendas raras quando se diverte; o lanche do dia (d20) na ficha da moeda.
+- **Mecânica própria:** ouve sempre pela moeda e não vê; vem em corpo pela porta de cobre, de vez em quando, atravessando a barreira de água do limiar (a água das pernas entra com ele); nunca sai pela moeda para o Plano Material; deixa prendas raras quando se diverte; o lanche do dia (d20) na ficha da moeda.
 
 ## Side quest
 
