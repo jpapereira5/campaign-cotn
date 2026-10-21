@@ -391,3 +391,5 @@ Ficam em aberto: [resolvido pela #31: porque não libertou o Xundi o parceiro el
 61. **Se alguém prestar os ritos fúnebres à Madrinha dos Corvos na pira, vê-se um corvo à distância, numa árvore.** Não se aproxima nem grasna; fica a ver até o fogo pegar.
 62. **A jangada é a base da pira fúnebre no obelisco.** Tiram de cima o que se leva às costas (mantimentos, o barril, o saco da Lia), queimam-na com o Damião, o Alex e o Tibério, e daí ao forte vão todos a pé.
 63. **O Corvelo não se engasga na pira: não sabe as palavras da Madrinha dos Corvos nem tem jeito para rezas, e entrega a tarefa à única clériga presente** («Tu és clériga. Diz tu.»). Substitui a #57 e a #53 nessa parte (o Corvelo a tentar as palavras).
+64. **O Boblin tem primos e outra família em Jigau.** Ainda por falar com o Tiago (acrescenta à backstory, não a altera). Quem são e o que fazem fica por decidir.
+

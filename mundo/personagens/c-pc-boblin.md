@@ -104,6 +104,8 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 
 **Capítulo 1:** o Xundi empurra-o para as apostas do Festival do Mérito e acerta sempre; quando o Boblin ganha, a moeda pesa mais (Decidido pelo DM (2026-10-19)).
 
+**Família em Jigau:** o Boblin tem primos e outra família em Jigau (Decidido pelo DM (2026-10-21); ainda por falar com o Tiago: acrescenta à backstory, não a altera). Quem são e o que fazem fica por decidir.
+
 **Por decidir:**
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
 - Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio). O Xundi vai perceber que são filhos do capitão que o caçou (decisão 2026-10-21 #30).
