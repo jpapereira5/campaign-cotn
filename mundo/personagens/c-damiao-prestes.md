@@ -35,3 +35,5 @@ Levar ao Padre Perestrelo o catálogo do que encontrou no pântano: a prisioneir
 Se vir o Isco transformar-se, o Lucan a comer ou o Quasi de máscara, muda de alvo à frente de toda a gente. Um nome da Assembleia num relatório chega à Assembleia.
 
 Usa um *Periapt of Proof against Poison* (`i-periapto-do-damiao`), presente do Perestrelo para manusear os espécimes: é o único da patrulha que nunca adoeceu no pântano. (Decidido pelo DM (2026-10-16))
+
+Queimado numa pira ao anoitecer do dia 4, no acampamento da patrulha, com os outros mortos da patrulha e o Tibério (S7, ainda por jogar). (Decidido pelo DM (2026-10-21))

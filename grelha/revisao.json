@@ -5072,12 +5072,12 @@
         "col": "s7"
       },
       "factKind": "consequencia",
-      "text": "O Corvelo não deixa ninguém na água: o Damião, o Alex e o Tibério vão na jangada para o forte. Fica com o livro de registos e o periapto do Damião. A trança da Lia continua no pulso do escriba.",
+      "text": "O Corvelo não deixa ninguém na água: o Damião, o Alex e o Tibério vão na jangada para o forte. Fica com o livro de registos e o periapto do Damião. A trança da Lia continua no pulso do escriba. [substituída: a pira ao anoitecer, decisão 2026-10-21 #53]",
       "suggestion": "O Corvelo não deixa ninguém na água: o Damião, o Alex e o Tibério vão na jangada para o forte. Fica com o livro de registos e o periapto do Damião. A trança da Lia continua no pulso do escriba.",
       "because": [
         "registo/decisoes.md 2026-10-18 #33"
       ],
-      "status": "aberta",
+      "status": "fechada",
       "tags": [
         "so-dm"
       ]
@@ -5518,6 +5518,22 @@
       ],
       "tags": [
         "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d21-53",
+      "at": "2026-10-21T07:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Ao anoitecer do dia 4, no acampamento: a pira do Damião, do Alex e do Tibério, para não se levantarem. O Corvelo tenta as palavras da Madrinha dos Corvos e pede à Lia: «Tu és clériga. Diz tu.» A pira arde a noite toda (a noite da lua vermelha). O Corvelo fica com o livro de registos.",
+      "suggestion": "Ao anoitecer do dia 4, no acampamento: a pira do Damião, do Alex e do Tibério, para não se levantarem. O Corvelo tenta as palavras da Madrinha dos Corvos e pede à Lia: «Tu és clériga. Diz tu.» A pira arde a noite toda (a noite da lua vermelha). O Corvelo fica com o livro de registos.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #53"
       ],
       "status": "aberta"
     }

@@ -39,3 +39,5 @@ Estão perdidos há dois dias. Perdeu três homens (o Bento Ruivo em B2, dois em
 No rescaldo do combate do obelisco (arranque da S7, ainda não jogado): reconhece o Tibério no lacedon desfeito em cima da jangada, pela cara e pela farda (vermelho imperial, o mocho com espigas de trigo): «Tibério. Estava de guarda à capela.» Na S6 não o reconheceu em combate, e ninguém disse o nome. (Decidido pelo DM (2026-10-18))
 
 No forte (dia 5): escoltou o pai da Lia há dois anos; vê o caderno de recompensas do Alberto (1500 po, vivo), fecha-o e sai; reconhece a espada do Tibério no peito do padre; não segue o grupo atrás da Bolbara, fica com os sobreviventes. (Decidido pelo DM (2026-10-16))
+
+Ao anoitecer do dia 4 queima o Damião, o Alex e o Tibério numa pira, no acampamento, para não se levantarem; tenta as palavras da Madrinha dos Corvos e acaba por pedir à Lia: «Tu és clériga. Diz tu.» (Decidido pelo DM (2026-10-21))
