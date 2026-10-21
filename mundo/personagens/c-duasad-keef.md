@@ -5,7 +5,7 @@ tipo: npc
 facoes:
   - f-sorriso-dourado
 capitulos: []
-teme: A vigilância dos marquises da Concílio de Clóvis.
+teme: A vigilância dos marquises do Concílio de Clóvis.
 tags:
   - dm
   - mesa
@@ -23,7 +23,7 @@ origem:
 
 ## Resumo
 
-Humano (homem trans), caótico bom, nobre abastado da elite da Concílio de Clóvis (Costa das Maravilhas, Monte Selvagem), herdeiro da fortuna da família Keef. Criado como mulher, recorreu à magia para fazer a transição de género, coisa relativamente simples entre os ricos da Concord. Empata e psíquico poderoso: usa os dons mentais para ajudar outros a processar traumas e a encontrar caminhos mais plenos; um dos membros mais respeitados do Sorriso Dourado (Golden Grin), onde é visto como guia e curador, conselheiro de mentes perturbadas e catalisador de "revoluções pessoais". A sua influência compara-se à de Shakaste ("Hush"). O seu trabalho atraiu a atenção da Concílio de Clóvis: sabe que os marquises e as forças da lei o vigiam de perto. (Fonte do DM: wiki de Critical Role; sem cena registada na mesa.)
+Humano (homem trans), caótico bom, nobre abastado da elite do Concílio de Clóvis (Costa das Maravilhas, Monte Selvagem), herdeiro da fortuna da família Keef. Criado como mulher, recorreu à magia para fazer a transição de género, coisa relativamente simples entre os ricos da Concord. Empata e psíquico poderoso: usa os dons mentais para ajudar outros a processar traumas e a encontrar caminhos mais plenos; um dos membros mais respeitados do Sorriso Dourado (Golden Grin), onde é visto como guia e curador, conselheiro de mentes perturbadas e catalisador de "revoluções pessoais". A sua influência compara-se à de Shakaste ("Hush"). O seu trabalho atraiu a atenção do Concílio de Clóvis: sabe que os marquises e as forças da lei o vigiam de perto. (Fonte do DM: wiki de Critical Role; sem cena registada na mesa.)
 
 ## Objetivo
 
