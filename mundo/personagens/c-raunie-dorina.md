@@ -13,7 +13,7 @@ capitulos:
 quer: Ruidusborn para o Filho; que ninguém lhe toque no zigurate.
 teme: Que a Lua se cale.
 tags:
-  - cotn_2026
+  - cotn-2026
   - vistani
   - lua-vermelha
 relacoes:

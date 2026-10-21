@@ -10,7 +10,7 @@ quer: Que o rapaz lhe dê ouvidos.
 teme: Perder os seus caçadores.
 tags:
   - visão
-  - Grottoes of Regret
+  - grottoes-of-regret
   - drow
 relacoes:
   - com: c-alyxian

@@ -1,6 +1,6 @@
 # Campanha · Call of the Netherdeep
 
-O assistente de DM da campanha *Call of the Netherdeep* (com o prólogo *Unwelcome Spirits*) da mesa Contos & Escudos: a base de dados da campanha em ficheiros Markdown, a Grelha que mostra semana a semana o que aconteceu e o que falta preparar, e o Claude a rever, a preparar e a fechar cada sessão. A arquitetura está em [`docs/arquitetura.md`](docs/arquitetura.md); o modelo da Grelha em [`docs/grelha.md`](docs/grelha.md); o método em [`docs/metodo.md`](docs/metodo.md); o fluxo de trabalho (Drive, Claude, repositório) em [`docs/fluxo.md`](docs/fluxo.md); os nomes em português em [`docs/glossario.md`](docs/glossario.md); a cópia automática do repositório na Drive em [`docs/copia-drive.md`](docs/copia-drive.md); o formato das batalhas em [`docs/batalhas.md`](docs/batalhas.md). Os documentos só de registo (a migração, a semente da Grelha, a história das fases) estão em `docs/migracao-fase-a.md`, `docs/grelha-semente.json` e [`docs/arquivo/`](docs/arquivo/).
+O assistente de DM da campanha *Call of the Netherdeep* (com o prólogo *Unwelcome Spirits*) da mesa Contos & Escudos: a base de dados da campanha em ficheiros Markdown, a Grelha que mostra semana a semana o que aconteceu e o que falta preparar, e o Claude a rever, a preparar e a fechar cada sessão. A arquitetura está em [`docs/arquitetura.md`](docs/arquitetura.md); o modelo da Grelha em [`docs/grelha.md`](docs/grelha.md); o método em [`docs/metodo.md`](docs/metodo.md); o fluxo de trabalho (Drive, Claude, repositório) em [`docs/fluxo.md`](docs/fluxo.md); os nomes em português em [`docs/glossario.md`](docs/glossario.md); a cópia automática do repositório na Drive em [`docs/copia-drive.md`](docs/copia-drive.md); o formato das batalhas em [`docs/batalhas.md`](docs/batalhas.md). Os documentos só de registo (a migração, a semente da Grelha, a história das fases) estão em `docs/arquivo/migracao-fase-a.md`, `docs/arquivo/grelha-semente.json` e [`docs/arquivo/`](docs/arquivo/).
 
 ## A base de dados
 
@@ -56,6 +56,10 @@ npm test           # testes das bibliotecas puras (estado, Grelha, camada do DM,
 npm run check      # svelte-check
 npm run build      # dist/
 npm run grelha     # a Grelha em texto (--linha <id>, --json)
+npm run gravar -- "mensagem"   # normaliza, valida, testa, commit, pull --rebase e push
+npm run normalizar # glossário pt-PT e AO90 no texto (--check no CI)
+npm run copia-drive -- gerar SAIDA   # a cópia de leitura do repositório para a Drive (docs/copia-drive.md)
+npm run escuta     # a escuta do vigia (scripts/escuta.sh)
 python3 scripts/normalizar-texto.py   # glossário pt-PT e grafia do AO90 no corpo dos ficheiros
 bash scripts/escuta.sh                # escuta as gravações da app (skill vigia)
 python3 scripts/copia-drive.py gerar SAIDA   # a cópia de leitura para a Drive (docs/copia-drive.md)

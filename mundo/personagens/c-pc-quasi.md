@@ -19,7 +19,7 @@ quer: Conhecimento, magia, quem tenha informação sobre maldições; ajudar pes
 teme: Que não haja forma de corrigir; perder-se; que descubram o que está debaixo da máscara; que a família tivesse razão.
 tags:
   - pc
-  - cotn_2026
+  - cotn-2026
   - vistani
   - lua-vermelha
 relacoes:

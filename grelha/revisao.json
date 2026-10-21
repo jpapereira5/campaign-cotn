@@ -61,7 +61,7 @@
       "target": {
         "row": "s-086"
       },
-      "text": "A sessão 4 tem dois títulos: «A Traição de Alberto» no estado de jogo e «A Patrulha do Forte Ventura» no cânone e no índice. [substituída: o título da S4 é «A Traição de Alberto» (registo e índice); «A Patrulha do Forte Ventura» era o da preparação; decisão 2026-10-21 #25]",
+      "text": "A sessão 4 tem dois títulos: «A Traição de Alberto» no estado de jogo e «A Patrulha do Forte Ventura» no cânone e no índice. [substituída: o título da S4 é «A Traição de Alberto» (registo e índice); «A Patrulha do Forte Ventura» era o da preparação; decisão 2026-10-21 #47]",
       "suggestion": "Ficar com «A Traição de Alberto», o título da mesa, e pôr o outro como subtítulo.",
       "status": "fechada"
     },
@@ -83,7 +83,7 @@
       "target": {
         "row": "docs/fluxo.md"
       },
-      "text": "O último fecho registado é o da sessão 4, mas a sessão 5 já foi fechada. [substituída: o último fecho em docs/fluxo.md é o da S6 desde 2026-10-20; decisão 2026-10-21 #25]",
+      "text": "O último fecho registado é o da sessão 4, mas a sessão 5 já foi fechada. [substituída: o último fecho em docs/fluxo.md é o da S6 desde 2026-10-20; decisão 2026-10-21 #47]",
       "suggestion": "Atualizar a data do último fecho.",
       "status": "fechada"
     },
@@ -106,7 +106,7 @@
         "row": "b-0-urzin-day",
         "col": "s1"
       },
-      "text": "O dia em Urzin foi jogado na sessão 1 mas não está marcado como jogado. [substituída: o DM confirmou que o dia em Urzin se jogou na S1 e continua no regresso a Urzin: fica «em curso»; decisão 2026-10-21 #25]",
+      "text": "O dia em Urzin foi jogado na sessão 1 mas não está marcado como jogado. [substituída: o DM confirmou que o dia em Urzin se jogou na S1 e continua no regresso a Urzin: fica «em curso»; decisão 2026-10-21 #47]",
       "suggestion": "Marcar jogado na sessão 1.",
       "status": "fechada"
     },
@@ -117,7 +117,7 @@
       "target": {
         "row": "b-0-marsh-crossing"
       },
-      "text": "A travessia do pântano está em curso desde a sessão 1, em todas as sessões. [substituída: a travessia fechou na S6 (b-0-marsh-crossing: jogado); decisão 2026-10-21 #25]",
+      "text": "A travessia do pântano está em curso desde a sessão 1, em todas as sessões. [substituída: a travessia fechou na S6 (b-0-marsh-crossing: jogado); decisão 2026-10-21 #47]",
       "suggestion": "Confirmar que fica «em curso» até à chegada ao forte.",
       "status": "fechada"
     },
@@ -161,7 +161,7 @@
       "target": {
         "row": "r-bolbara-possessed"
       },
-      "text": "A pista da sessão 5 sobre a Bolbara veio de b-0-patrulha-imperio, que não está nas pistas da revelação. [substituída: b-0-patrulha-imperio entrou nas pistas de r-bolbara-possessed; decisão 2026-10-21 #25]",
+      "text": "A pista da sessão 5 sobre a Bolbara veio de b-0-patrulha-imperio, que não está nas pistas da revelação. [substituída: b-0-patrulha-imperio entrou nas pistas de r-bolbara-possessed; decisão 2026-10-21 #47]",
       "suggestion": "Acrescentar o beat às pistas.",
       "status": "fechada"
     },
@@ -256,7 +256,7 @@
         "row": "c-morgid",
         "col": "ch0"
       },
-      "text": "Reaparece na luta com a Bolbara possuída ou no regresso a Urzin (← S4). [substituída: repetida por n-v-005; decisão 2026-10-21 #25]",
+      "text": "Reaparece na luta com a Bolbara possuída ou no regresso a Urzin (← S4). [substituída: repetida por n-v-005; decisão 2026-10-21 #47]",
       "factKind": "consequencia",
       "because": [
         "docs/grelha-semente.json"
@@ -289,7 +289,7 @@
         "row": "c-alonne-frith",
         "col": "ch0"
       },
-      "text": "No forte: «o prisioneiro que não pisca». [substituída: repetida por n-v-007; decisão 2026-10-21 #25]",
+      "text": "No forte: «o prisioneiro que não pisca». [substituída: repetida por n-v-007; decisão 2026-10-21 #47]",
       "factKind": "consequencia",
       "because": [
         "docs/grelha-semente.json"
@@ -529,7 +529,7 @@
         "row": "amb-lia-pai",
         "col": "ch0"
       },
-      "text": "No forte, o livro de registos do comandante: o pai passou por lá? [substituída: repetida por n-p6-16; decisão 2026-10-21 #25]",
+      "text": "No forte, o livro de registos do comandante: o pai passou por lá? [substituída: repetida por n-p6-16; decisão 2026-10-21 #47]",
       "tags": [
         "so-dm"
       ],
@@ -601,7 +601,7 @@
         "row": "t-agenda-baeshra-lucan",
         "col": "s7"
       },
-      "text": "Na pedra: «Ele agora também te vê.» Cada toque no obelisco paga a renda a Vecna. [substituída: repetida por n-p7-06; decisão 2026-10-21 #25]",
+      "text": "Na pedra: «Ele agora também te vê.» Cada toque no obelisco paga a renda a Vecna. [substituída: repetida por n-p7-06; decisão 2026-10-21 #47]",
       "tags": [
         "so-dm"
       ],
@@ -1261,7 +1261,7 @@
         "row": "p-tiago-rosas",
         "col": "s7"
       },
-      "text": "Entrevista de apresentação, do jogador e da personagem, antes de entrar. [passou de s6 para s7: o Boblin entra na S7; decisão 2026-10-21 #25]",
+      "text": "Entrevista de apresentação, do jogador e da personagem, antes de entrar. [passou de s6 para s7: o Boblin entra na S7; decisão 2026-10-21 #47]",
       "factKind": "consequencia",
       "because": [
         "docs/grelha-semente.json"
@@ -1535,7 +1535,7 @@
         "row": "c-durth-mirimm",
         "col": "s6"
       },
-      "text": "Esquecido desde a S3 (o olhar no sonho do Lucan). Não cabe na S6: o pagamento natural é em Jigau (b-1-mirimm-reconhece, a adaga ao cinto do Lucan). Deixar aberto. [substituída: a S6 jogou-se sem o Mirimm; o pagamento fica em n-mig-24 (Jigau); decisão 2026-10-21 #25]",
+      "text": "Esquecido desde a S3 (o olhar no sonho do Lucan). Não cabe na S6: o pagamento natural é em Jigau (b-1-mirimm-reconhece, a adaga ao cinto do Lucan). Deixar aberto. [substituída: a S6 jogou-se sem o Mirimm; o pagamento fica em n-mig-24 (Jigau); decisão 2026-10-21 #47]",
       "because": [
         "e-s3-06",
         "b-1-mirimm-reconhece"
@@ -5039,7 +5039,7 @@
         "row": "f-grupo",
         "col": "s6"
       },
-      "text": "O nome da S6 ficou por decidir à mesa (2:52:13): o registo usa «Mortos na Água» (sugestão do Pedro Silva) como provisório; o Pedro Ropio sugeriu «O Triunfo da Nália». Qual fica? [substituída: a S6 chama-se «Mortos na Água»; decisão 2026-10-21 #25]",
+      "text": "O nome da S6 ficou por decidir à mesa (2:52:13): o registo usa «Mortos na Água» (sugestão do Pedro Silva) como provisório; o Pedro Ropio sugeriu «O Triunfo da Nália». Qual fica? [substituída: a S6 chama-se «Mortos na Água»; decisão 2026-10-21 #47]",
       "suggestion": "«Mortos na Água».",
       "because": [
         "transcrição S6 (#89) 2:52:13"

@@ -17,7 +17,7 @@ quer: "O rasto do pai: ter a certeza de que passou pelo Forte Ventura (o livro d
 teme: Por definir com a Camila.
 tags:
   - pc
-  - cotn_2026
+  - cotn-2026
   - drow
   - luxon
   - typhros

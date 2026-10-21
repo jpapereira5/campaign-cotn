@@ -10,9 +10,9 @@ quer: Paz.
 teme: Os grimlocks de Torog.
 tags:
   - visão
-  - Grottoes of Regret
+  - grottoes-of-regret
   - fantasmas
-  - Torog
+  - torog
 relacoes:
   - com: c-alyxian
     tipo: protects

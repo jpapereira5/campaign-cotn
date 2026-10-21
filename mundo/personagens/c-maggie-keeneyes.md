@@ -15,7 +15,7 @@ capitulos:
   - ch7
 quer: Poesia e música com letras profundas; um adversário à altura.
 teme: Que a determinação de Ayo não chegue para vencer.
-atitude: indiferente
+atitudeAtual: indiferente
 tags:
   - rival
   - táctica

@@ -8,7 +8,7 @@ capitulos:
   - ch2
   - ch4
 tags:
-  - cotn_2026
+  - cotn-2026
   - revelry
 relacoes:
   - com: c-pc-isco

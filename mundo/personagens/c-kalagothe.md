@@ -10,7 +10,7 @@ quer: Riqueza e poder à custa dos fracos.
 teme: Ser detido por Alyxian ou pelos PCs.
 tags:
   - visão
-  - Grottoes of Regret
+  - grottoes-of-regret
   - traidor
 relacoes:
   - com: c-alyxian

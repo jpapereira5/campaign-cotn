@@ -27,7 +27,7 @@ são sugestões: só viram plano quando o DM as aceita na app. Regras completas 
    - **O cânone à frente**: os beats do capítulo que os planos do DM não tocam; os passos das frentes (`t-frente-*`) que avançariam se ninguém os travar; as pistas planeadas dos segredos que ainda não foram dadas (`r-*`, `pistas`). Uma `ideia` por coisa que valha a pena, nunca mais do que cinco no total.
    - **Os relógios** (`t-relogio-*`): se o próximo passo cai nesta sessão, `aviso`.
 4. Escreve as notas em `grelha/revisao.json` → `notes` (ids `n-…` novas, `at` de agora, `status: aberta`, `target: {row, col}` com a coluna da próxima sessão, por exemplo `s6`; nas ideias, `factKind` e `suggestion` com o texto que viraria plano). Não repitas ideias que já lá estejam, abertas ou fechadas, nem ideias rejeitadas (`dm.json`, `ideia-rejeitada`).
-5. `npm run validate` e commit: `git commit -am "preparar S<N>: <n> ideias, <m> avisos" && git push`. Se o push for recusado, `git pull --rebase` e repete.
+5. Grava: `npm run gravar -- "preparar S<N>: <n> ideias, <m> avisos"` (normaliza, valida, testa, commit, pull --rebase e push; as linhas de atribuição da sessão vão na mensagem).
 6. Na conversa, dá ao DM o resumo em três blocos curtos: **o que está em risco de se perder**, **o que sugeri** (uma linha por ideia, com a linha da Grelha) e **o que precisa de decisão dele**. Nada de listas longas: o resto está na app.
 
 ### Limites

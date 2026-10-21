@@ -6,7 +6,7 @@ facoes:
   - f-imperio-aboleto
 capitulos: []
 tags:
-  - cotn_2026
+  - cotn-2026
   - backstory
 relacoes:
   - com: c-pc-isco

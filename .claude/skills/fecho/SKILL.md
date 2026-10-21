@@ -21,8 +21,8 @@ trabalho e os cuidados.
 4. Atualiza o resto (cada facto corrigido ou novo passa pela «Propagação», abaixo): entidades novas ou corrigidas em `mundo/` (com `origem: [mesa]` ou o que for), fios novos em `plano/fios/` ou `mesa/fios/`, `grelha/linhas.json` para as ids que o DM quer acompanhar, `plano/campanha.md` (`capituloAtual`) se a mesa mudou de capítulo, `registo/decisoes.md` com o que o DM decidiu por fora do jogo. As notas rápidas viram acontecimentos, entidades ou ideias; as marcas `jogado` passam a `beats` no cabeçalho da sessão.
 5. Absorve: cada entrada de `dm.json` tratada vai para `revisao.absorbed` ou `revisao.reviewed`; as notas de revisão resolvidas ficam `status: fechada`. Nunca apagues nem edites `dm.json`.
 6. Os conflitos com o cânone (um nome diferente, uma data que não bate, um NPC que estava morto) ficam como `discrepancia` em `grelha/revisao.json` e vão para a conversa; não os resolvas sozinho.
-7. `python3 scripts/normalizar-texto.py`, `npm run validate`, `npm test`; commit por partes (`registo: sessão N`, `mundo: …`, `grelha: absorver N entradas`) e push. Atualiza a data do último fecho em `docs/fluxo.md`.
-8. **Confere antes de gravar:** relê cada acontecimento contra a marca de tempo que cita (quem fez, quem disse, números, ordem). O que a transcrição não sustenta sai ou passa a pergunta.
+7. **Confere antes de gravar:** relê cada acontecimento contra a marca de tempo que cita (quem fez, quem disse, números, ordem). O que a transcrição não sustenta sai ou passa a pergunta.
+8. Grava por partes com `npm run gravar -- "<mensagem>"` (`registo: sessão N`, `mundo: …`, `grelha: absorver N entradas`); o script normaliza, valida, testa, faz commit, `pull --rebase` e push. Atualiza a data do último fecho em `docs/fluxo.md`.
 9. **Resumo na Drive:** escreve-o a partir do registo já validado (nunca ao contrário), na pasta `cotn_2026/resumo_de_sessoes` (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`), como Google Doc criado a partir de Markdown.
 10. **Documentos dos PCs na Drive:** em cada fecho, refaz o documento consolidado de cada PC na pasta desse PC (dentro de `cotn_2026/pcs`, `1DlPuhGA7npun4bEQ7ZD7vGm3Tka9ZJot`; as ids estão no `AGENTS.md`, secção «Para as skills») a partir das fichas `mundo/personagens/c-pc-*.md` e dos registos já validados (inventário, posses, o que sabe, laços, a sessão nova), sem segredos `so-dm` de outros PCs; versão seguinte como Google Doc criado a partir de Markdown, a anterior vai para o lixo.
 11. **Cópia do repositório na Drive:** depois do push, atualiza a cópia de leitura em `cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`) pelo passo a passo de `docs/copia-drive.md` (só as peças que mudaram, manifesto no fim). Não espera pela tarefa diária.
@@ -39,7 +39,7 @@ trabalho e os cuidados.
 
 ## Propagação
 
-O mesmo facto vive em vários sítios (o registo, a ficha do NPC, a do PC, o item, o fio, o beat, as regras). Antes de dares uma correção por feita, faz `grep -rn` no repositório pelas palavras-chave do facto errado (nome, número, frase) e corrige todas as ocorrências; só depois fechas a nota. Os arquivos da migração (`docs/grelha-semente.json`, `docs/migracao-fase-a.md`) ficam como estão.
+O mesmo facto vive em vários sítios (o registo, a ficha do NPC, a do PC, o item, o fio, o beat, as regras). Antes de dares uma correção por feita, faz `grep -rn` no repositório pelas palavras-chave do facto errado (nome, número, frase) e corrige todas as ocorrências; só depois fechas a nota. Os arquivos da migração (`docs/arquivo/grelha-semente.json`, `docs/arquivo/migracao-fase-a.md`) ficam como estão.
 
 ## Cuidados
 

@@ -1,0 +1,30 @@
+name: Verificar
+
+# Corre em todos os pushes e pull requests (o deploy só corre em main). Falha se houver texto por normalizar,
+# erros na validação, testes a falhar ou se as cópias das skills genéricas divergirem do dnd-skills.
+on:
+  push:
+    paths-ignore:
+      - 'grelha/dm.json'
+  pull_request:
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Texto normalizado
+        run: python3 scripts/normalizar-texto.py --check
+      - name: Validar
+        run: npm run validate
+      - name: Testes
+        run: npm test
+      - name: Skills genéricas iguais ao dnd-skills
+        run: |
+          git clone -q --depth 1 https://github.com/jpapereira5/dnd-skills /tmp/dnd-skills
+          bash scripts/skills-conferir.sh /tmp/dnd-skills

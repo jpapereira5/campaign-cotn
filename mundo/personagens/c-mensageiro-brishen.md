@@ -7,7 +7,7 @@ capitulos:
   - ch2
   - ch3
 tags:
-  - cotn_2026
+  - cotn-2026
   - vistani
 relacoes:
   - com: c-pc-quasi

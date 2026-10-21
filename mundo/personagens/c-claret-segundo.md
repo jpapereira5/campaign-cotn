@@ -8,7 +8,7 @@ capitulos:
   - ch4
   - ch5
 tags:
-  - cotn_2026
+  - cotn-2026
   - claret-orders
 relacoes:
   - com: c-pc-isco

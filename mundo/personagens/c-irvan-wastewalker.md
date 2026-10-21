@@ -15,7 +15,7 @@ capitulos:
   - ch7
 quer: Saber o que a Jóia faz; aventura; que lhe devolvam o anel de prata e safira (250 gp).
 teme: Ficar longe dos beacons do Luxon (sem renascimento); um erro que lhe custe a vida de vez.
-atitude: indiferente
+atitudeAtual: indiferente
 tags:
   - rival
   - ladino

@@ -12,7 +12,7 @@ capitulos:
 quer: Sangue derramado, não rezas; duelos com público; que gritem o nome — o dele ou o do campeão.
 teme: Chegar tarde outra vez.
 tags:
-  - cotn_2026
+  - cotn-2026
   - patrono
   - vecna
 relacoes:

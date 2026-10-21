@@ -1,6 +1,6 @@
 ---
 id: r-consortium-funds-sentinels
-lista: Facções
+lista: Fações
 pistas:
   - b-4-a2-life-dome
   - b-4-a3-proxies-of-prolix

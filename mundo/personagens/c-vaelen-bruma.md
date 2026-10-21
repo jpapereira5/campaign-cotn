@@ -8,7 +8,7 @@ capitulos:
   - ch2
   - ch4
 tags:
-  - cotn_2026
+  - cotn-2026
   - backstory
 relacoes:
   - com: c-pc-lucan

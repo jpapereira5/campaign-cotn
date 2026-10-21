@@ -10,7 +10,7 @@ quer: Que alguém o cure a tempo.
 teme: Morrer esquecido no chão do Rise.
 tags:
   - visão
-  - Grottoes of Regret
+  - grottoes-of-regret
   - soldado
 relacoes:
   - com: c-alyxian

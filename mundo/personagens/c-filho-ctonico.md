@@ -7,7 +7,7 @@ facoes:
 casa: l-zigurate-smouldercrown
 capitulos: []
 tags:
-  - cotn_2026
+  - cotn-2026
   - lua-vermelha
 origem:
   - pcs

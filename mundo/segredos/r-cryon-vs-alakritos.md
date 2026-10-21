@@ -1,6 +1,6 @@
 ---
 id: r-cryon-vs-alakritos
-lista: Facções
+lista: Fações
 pistas:
   - b-5-a4-double-agent
   - b-5-a5-scout-rift

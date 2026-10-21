@@ -15,9 +15,9 @@ quer: Ver Alyxian em paz; no fundo quer ser libertada do Netherdeep.
 teme: Que Alyxian seja destruído ou libertado corrompido; que os seus séculos de busca tenham sido em vão.
 tags:
   - deva
-  - Sehanine
+  - sehanine
   - corrompida
-  - payoff da Lore
+  - payoff-da-lore
 estados:
   - desde: b-2-ruins-outside-bazzoxan
     estado: "PROPOSTA (Reddit). morreu aqui: matou o general dos Betrayers e caiu; a névoa e os demónios saem do sítio onde tombou"

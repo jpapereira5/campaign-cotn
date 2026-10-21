@@ -251,7 +251,7 @@ O modelo da Grelha (`docs/grelha.md`) mantém-se: linha dona, ecos, estados, cam
 A migração tem duas metades, com garantias diferentes.
 
 - **A metade mecânica** (entidades, campos, relações, beats, arcos, ambições, frentes, sessões) faz-se por script e verifica-se por script. `scripts/migrar.ts` junta as camadas exatamente como a app faz hoje e escreve um ficheiro por coisa, com as ids intactas. `scripts/verificar-migracao.ts` remonta tudo a partir dos ficheiros novos e compara com o cânone antigo: cada entidade, cada campo, cada relação, cada secção dos docs.
-- **A metade interpretativa** (transformar o `canone.md`, o «O que X sabe» do `pcs.md` e as cinco sessões em acontecimentos com efeitos) é trabalho do Claude e revisão do DM, sessão a sessão. Os textos originais ficam intactos no corpo dos ficheiros, por isso nada se perde, mesmo que a extração falhe algo. A semente da Grelha (`docs/grelha-semente.json`) já é a primeira versão dos acontecimentos das sessões 1 a 5.
+- **A metade interpretativa** (transformar o `canone.md`, o «O que X sabe» do `pcs.md` e as cinco sessões em acontecimentos com efeitos) é trabalho do Claude e revisão do DM, sessão a sessão. Os textos originais ficam intactos no corpo dos ficheiros, por isso nada se perde, mesmo que a extração falhe algo. A semente da Grelha (`docs/arquivo/grelha-semente.json`) já é a primeira versão dos acontecimentos das sessões 1 a 5.
 
 Os ficheiros antigos só saem quando a verificação passar e o DM aprovar. O histórico do git guarda-os de qualquer forma.
 
@@ -276,7 +276,7 @@ Os ficheiros antigos só saem quando a verificação passar e o DM aprovar. O hi
 | `docs/lore.md` | `mundo/lore.md`, igual. As secções de uma só coisa (Baeshra, Sess'inek, Obeliscos negros, Decrépola) passam para a ficha dela, com uma ligação |
 | `docs/handouts.md` | `mundo/itens/i-doc-*.md`, com o texto no corpo; a entrega passa a efeitos `posse`; «por escrever» passa a `estado: rascunho` |
 | teorias dos jogadores, piadas internas, confessionário (hoje só na semente da Grelha e nos resumos) | `mesa/fios/t-*.md` |
-| `docs/grelha.md` | fica, com a nota de que a base de dados é esta; `docs/grelha-semente.json` fica como semente dos acontecimentos |
+| `docs/grelha.md` | fica, com a nota de que a base de dados é esta; `docs/arquivo/grelha-semente.json` fica como semente dos acontecimentos |
 | `docs/ids.md` | esta arquitetura, no fim da fase A (as listas de ids deixam de ser precisas: as pastas são o índice) |
 | `docs/glossario.md`, `docs/metodo.md`, `docs/fluxo.md` | ficam em `docs/`; o fluxo e a secção «Como preparar com a app» são atualizados |
 | `scripts/validate-data.ts`, `scripts/normalizar-texto.py` | reescritos para as pastas novas; o normalizador nunca toca em `livro/` nem em `grelha/dm.json` |

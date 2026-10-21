@@ -15,7 +15,7 @@ capitulos:
   - ch7
 quer: Uma grande aventura; respeito; provar-se superior aos PCs.
 teme: Perder o respeito do grupo; que a sua determinação não chegue.
-atitude: indiferente
+atitudeAtual: indiferente
 tags:
   - rival
   - líder

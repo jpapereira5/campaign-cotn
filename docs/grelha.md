@@ -15,7 +15,7 @@
 >
 > **Não implementar as fases desta especificação; seguir `arquitetura.md`.**
 
-Decidido pelo DM a 2026-10-11. Implementar no Claude Code, uma fase de cada vez (secção 14), mostrando o resultado ao DM no fim de cada fase. O conteúdo do mockup feito no claude.ai está em `docs/grelha-semente.json` e é a semente da fase 1.
+Decidido pelo DM a 2026-10-11. Implementar no Claude Code, uma fase de cada vez (secção 14), mostrando o resultado ao DM no fim de cada fase. O conteúdo do mockup feito no claude.ai está em `docs/arquivo/grelha-semente.json` e é a semente da fase 1.
 
 ## 1. Para que serve
 
@@ -480,7 +480,7 @@ Cada fase acaba com `npm run validate`, `npm test` e `npm run check` limpos, e c
   - um script `npm test`, `"engines": { "node": ">=22.18" }` no `package.json` e `npm test` no `deploy.yml`;
   - `normalizePlay` e `emptyPlay` em `src/lib/play.ts`, e `validateGrid`;
   - a vista Grelha, só de leitura.
-- **Semente:** o Claude converte `docs/grelha-semente.json` em `rows.json`, `facts.json` e `review.json`.
+- **Semente:** o Claude converte `docs/arquivo/grelha-semente.json` em `rows.json`, `facts.json` e `review.json`.
   - **Linhas.** Cada linha da semente dá uma `GridRow`, com id `g-`.
     - O `ref` aponta para a entidade do cânone quando existe (ver `docs/ids.md`).
     - Os nomes em `pcs` passam para as ids das linhas `pc` (a semente traz os `ref` desses PCs, `c-pc-*`).

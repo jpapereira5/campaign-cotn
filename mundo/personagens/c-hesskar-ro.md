@@ -9,7 +9,7 @@ capitulos:
 quer: Paz; que o deixem em Urzin.
 teme: O nome do rapaz numa boca de drow.
 tags:
-  - cotn_2026
+  - cotn-2026
   - lizardfolk
   - baeshra
 relacoes:

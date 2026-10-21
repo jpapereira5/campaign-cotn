@@ -9,7 +9,7 @@ capitulos:
   - ch1
 quer: Provas. Um duelo.
 tags:
-  - cotn_2026
+  - cotn-2026
   - baeshra
 relacoes:
   - com: c-pc-lucan

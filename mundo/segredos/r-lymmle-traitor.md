@@ -1,6 +1,6 @@
 ---
 id: r-lymmle-traitor
-lista: Facções
+lista: Fações
 pistas:
   - b-4-a1-deliver-figurine
   - b-4-a2-life-dome

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Normaliza o texto da estrutura nova e dos docs: glossário pt-PT (docs/glossario.md) e grafia do AO90.
 
-Uso: python3 scripts/normalizar-texto.py [--so-grafia FICHEIRO ...]
+Uso: python3 scripts/normalizar-texto.py [--check]
+  --check: não escreve; sai com 1 e lista os ficheiros que precisariam de mudar (para o CI).
 Só toca no corpo (prosa) dos ficheiros de mundo/, plano/, registo/ e mesa/ e nos docs; nunca em livro/, em grelha/,
 nos cabeçalhos YAML (ids, tags, campos curtos) nem nas entidades que vêm do livro (origem com «livro»).
 """
@@ -277,13 +278,15 @@ def texto(s: str, gloss=True) -> str:
 
 # ---------------------------------------------------------------- ficheiros
 def main():
+    check = "--check" in sys.argv
     changed = []
     docs = sorted(glob.glob("docs/**/*.md", recursive=True)) + ["README.md"]
     for f in docs:
         raw = open(f, encoding="utf-8").read()
         new = texto(raw, gloss=not f.endswith("glossario.md"))
         if new != raw:
-            open(f, "w", encoding="utf-8").write(new)
+            if not check:
+                open(f, "w", encoding="utf-8").write(new)
             changed.append(f)
     # Estrutura nova (docs/arquitetura.md): um ficheiro por coisa. Só se normaliza o corpo (prosa); o cabeçalho
     # YAML tem ids, tags e campos curtos e fica como está. Nunca toca em livro/ nem em grelha/, e salta as
@@ -299,9 +302,13 @@ def main():
                     continue
             new = cabecalho + texto(corpo)
             if new != raw:
-                open(f, "w", encoding="utf-8").write(new)
+                if not check:
+                    open(f, "w", encoding="utf-8").write(new)
                 changed.append(f)
     print("\n".join(changed))
+    if check and changed:
+        print(f"{len(changed)} ficheiro(s) por normalizar: corre python3 scripts/normalizar-texto.py", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

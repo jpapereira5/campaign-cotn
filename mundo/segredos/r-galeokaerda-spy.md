@@ -1,6 +1,6 @@
 ---
 id: r-galeokaerda-spy
-lista: Facções
+lista: Fações
 pistas:
   - b-4-b3-elephant
   - b-4-c3-first-eclipse

@@ -12,7 +12,7 @@ capitulos:
   - ch7
 quer: Que o Quasi viva; que o Filho nasça; dados.
 tags:
-  - cotn_2026
+  - cotn-2026
   - lua-vermelha
   - weave-mind
   - consortium

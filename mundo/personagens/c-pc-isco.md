@@ -17,7 +17,7 @@ quer: Uma tripulação; louros por pescar o monstro; curar ou livrar o irmão do
 teme: Ser descartável; que não haja maneira de corrigir o irmão; acordar longe.
 tags:
   - pc
-  - cotn_2026
+  - cotn-2026
   - ruidusborn
   - licantropia
   - lua-vermelha

@@ -16,7 +16,7 @@ capitulos:
   - ch7
 quer: Gente que estude com ele e o trate com respeito; sem segredos.
 teme: Ser subqualificado para tudo o que enfrentam; que lhe escondam coisas.
-atitude: indiferente
+atitudeAtual: indiferente
 tags:
   - rival
   - mago

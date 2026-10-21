@@ -30,7 +30,7 @@ relacoes:
     origem: mesa
 tags:
   - pc
-  - cotn_2026
+  - cotn-2026
   - goblin
   - warlock
   - urzin

@@ -17,7 +17,7 @@ quer: Adrenalina; perigo real; sobrevivência dos dois; quartos sozinho para nin
 teme: Os pesadelos da própria morte; que o orgulho acabe o que o mar começou; que o irmão se descubra; que o irmão deixe de precisar dele.
 tags:
   - pc
-  - cotn_2026
+  - cotn-2026
   - baeshra
   - dhampir
 relacoes:

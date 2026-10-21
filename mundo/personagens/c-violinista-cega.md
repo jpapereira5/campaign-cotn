@@ -5,7 +5,7 @@ tipo: npc
 facoes: []
 capitulos: []
 tags:
-  - cotn_2026
+  - cotn-2026
   - backstory
 origem:
   - pcs

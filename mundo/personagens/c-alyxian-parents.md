@@ -10,7 +10,7 @@ quer: Que o filho tenha uma vida normal.
 teme: A perseguição da aldeia; o azar que rodeia o filho.
 tags:
   - visão
-  - Grottoes of Regret
+  - grottoes-of-regret
   - família
 relacoes:
   - com: c-alyxian

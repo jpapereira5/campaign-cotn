@@ -26,9 +26,9 @@ Regras completas em `docs/grelha.md` (secções 9, 10 e 12) e `docs/arquitetura.
 3. Para cada uma, aplica as regras abaixo e junta as perguntas. Responde na conversa com **três perguntas no máximo**,
    primeiro as que mexem na próxima sessão, cada uma com a resposta sugerida. As restantes ficam para a ronda seguinte.
 4. Escreve as mesmas perguntas em `grelha/revisao.json` → `notes` (`kind`: pergunta | discrepancia | efeito | aviso;
-   `target`: `{dm, row, col}`; `text`; `suggestion`; `status: aberta`), com ids `n-…` novas, e faz commit:
-   `git commit -am "revisão: <n> notas sobre <linhas>"` e `git push`. Se o push for recusado porque a app gravou
-   entretanto, `git pull --rebase` e repete: são ficheiros diferentes, não há conflito.
+   `target`: `{dm, row, col}`; `text`; `suggestion`; `status: aberta`), com ids `n-…` novas, e grava:
+   `npm run gravar -- "revisão: <n> notas sobre <linhas>"` (o script faz `pull --rebase` antes do push: a app
+   grava noutro ficheiro, não há conflito).
 5. Nunca escrevas em `grelha/dm.json`. Nunca transformes uma ideia em cânone. Escreve em português de Portugal.
 
 ## Regras por tipo de entrada (`kind`)
@@ -53,4 +53,4 @@ Regras completas em `docs/grelha.md` (secções 9, 10 e 12) e `docs/arquitetura.
 - **`resposta`** (a uma nota). Aplica a resposta à nota (`status: fechada`, e o que ela decide), e trata da entrada que a nota revia.
 - **`ideia-rejeitada`**. Marca a nota `fechada`; não voltes a sugerir a mesma ideia.
 
-Antes de cada commit que toque em `mundo/`, `plano/`, `registo/` ou `mesa/`: `python3 scripts/normalizar-texto.py` e `npm run validate`.
+Grava sempre com `npm run gravar -- "<mensagem>"`: normaliza, valida, testa, faz commit, `pull --rebase` e push, e para se algo falhar.

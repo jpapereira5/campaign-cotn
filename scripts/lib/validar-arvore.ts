@@ -3,7 +3,7 @@
 // Os erros param o deploy; os avisos são sugestões (regra das três pistas, personagens sem beats…).
 import { donaDe, TIPOS_ACONTECIMENTO, tipoLinhaDe } from '../../src/lib/grelha/dona.ts'
 import { porPasta, type Arvore, type DocArvore } from './arvore.ts'
-import { PASTAS } from '../../src/lib/arquivo/esquema.ts'
+import { PASTAS, pastaDeId } from '../../src/lib/arquivo/esquema.ts'
 
 export interface Problem {
   level: 'error' | 'warn'
@@ -15,6 +15,10 @@ const ID_RE = /^[a-z0-9][a-z0-9-]*$/
 const TIPOS_FIO = ['arco', 'ambicao', 'frente', 'relogio', 'missao', 'promessa', 'decisao', 'gatilho', 'semente', 'desfecho', 'laco', 'agenda', 'teoria', 'mesa']
 const ESTADOS_BEAT = ['jogado', 'em-curso', 'saltado']
 const EFEITOS = ['estado', 'atitude', 'posse', 'sabe', 'pista', 'relogio', 'fio', 'relacao', 'contador']
+// tags: minúsculas, palavras ligadas por hífen (acentos permitidos); nem espaços nem `_` (decisão 2026-10-21)
+const TAG_RE = /^[\p{Ll}\p{N}]+(-[\p{Ll}\p{N}]+)*$/u
+// uma nota é velha a partir deste número de sessões sem resposta
+const SESSOES_VELHO = 4
 
 const lista = (v: unknown): string[] => (Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : [])
 const obj = (v: unknown): Record<string, unknown> => (v && typeof v === 'object' && !Array.isArray(v) ? (v as Record<string, unknown>) : {})
@@ -42,6 +46,18 @@ export function validarArvore(a: Arvore): Problem[] {
     if (!d.caminho.startsWith(PASTAS.sessoes) && nome !== id) err(d.caminho, `o nome do ficheiro não é a id (${id})`)
     if (d.caminho.startsWith(PASTAS.personagens)) tipos.set(id, String(d.meta.tipo ?? 'npc'))
     else if (d.caminho.startsWith(PASTAS.fios) || d.caminho.startsWith(PASTAS.mesaFios)) tipos.set(id, String(d.meta.tipo ?? ''))
+    // o prefixo da id diz a pasta (c- em mundo/personagens, b- em plano/beats…)
+    if (!d.caminho.startsWith(PASTAS.sessoes)) {
+      let pasta = ''
+      try {
+        pasta = pastaDeId(id, typeof d.meta.tipo === 'string' ? d.meta.tipo : undefined)
+      } catch {
+        err(d.caminho, `prefixo da id sem pasta conhecida: ${id}`)
+      }
+      if (pasta && !d.caminho.startsWith(pasta + '/')) err(d.caminho, `a id ${id} pertence a ${pasta}/`)
+    }
+    for (const t of lista(d.meta.tags)) if (!TAG_RE.test(t)) warn(d.caminho, `tag fora do estilo (minúsculas, hífen): ${t}`)
+    if ('atitude' in d.meta && !d.caminho.startsWith(PASTAS.sessoes)) err(d.caminho, 'campo atitude no cabeçalho: o campo é atitudeAtual (atitude é só o efeito dos acontecimentos)')
   }
   const tipoLinha = tipoLinhaDe(tipos)
   const existe = (id: string) => ids.has(id)
@@ -96,6 +112,15 @@ export function validarArvore(a: Arvore): Problem[] {
     caps(d.caminho, d.meta.capitulos)
     for (const e of Array.isArray(d.meta.estados) ? (d.meta.estados as Record<string, unknown>[]) : []) ref(d.caminho, e.desde, 'beat em estados')
     if (!nosBeats.has(String(d.meta.id)) && tipo !== 'deity' && tipo !== 'pc') warn(d.caminho, 'não participa em nenhum beat')
+    if (tipo === 'pc') {
+      // a id de um PC é o nome da personagem (c-pc-boblin), não o do jogador: o primeiro nome ou a alcunha entre aspas
+      const id = String(d.meta.id)
+      const nome = String(d.meta.nome ?? '')
+      const base = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+      const candidatos = [...nome.split(/\s+/).map(base), ...[...nome.matchAll(/["«“]([^"»”]+)["»”]/g)].map((m) => base(m[1]))].filter(Boolean)
+      if (!id.startsWith('c-pc-')) err(d.caminho, `a id de um PC começa por c-pc- (${id})`)
+      else if (!candidatos.some((c) => id === `c-pc-${c}` || id.startsWith(`c-pc-${c}`))) err(d.caminho, `a id do PC (${id}) tem de vir do nome da personagem (${nome})`)
+    }
   }
 
   // fações
@@ -283,6 +308,14 @@ export function validarArvore(a: Arvore): Problem[] {
     }
   })
 
+  // o que ficou para trás: notas abertas com mais de SESSOES_VELHO sessões
+  const ultimaN = Math.max(0, ...p.sessoes.filter((d) => typeof d.meta.data === 'string').map((d) => Number(d.meta.n ?? 0)))
+  const nDeData = (iso: unknown): number => {
+    if (typeof iso !== 'string') return ultimaN
+    const t = Date.parse(iso)
+    if (Number.isNaN(t)) return ultimaN
+    return p.sessoes.filter((d) => typeof d.meta.data === 'string' && Date.parse(String(d.meta.data)) <= t).length
+  }
   // grelha: linhas.json e revisao.json são do Claude (erros); dm.json é da app e nunca pode partir o deploy (avisos)
   for (const l of Array.isArray(a.grelha.linhas) ? (a.grelha.linhas as Record<string, unknown>[]) : []) ref('grelha/linhas.json', l.id, 'linha')
   const DM_KINDS = ['correcao', 'verdade', 'plano', 'decisao', 'arquivo', 'linha', 'acompanhar', 'jogado', 'nota', 'resposta', 'ideia-rejeitada', 'batalha']
@@ -305,6 +338,12 @@ export function validarArvore(a: Arvore): Problem[] {
   for (const n of Array.isArray(revisao.notes) ? (revisao.notes as Record<string, unknown>[]) : []) {
     const t = obj(n.target)
     if (typeof t.row === 'string' && !existe(t.row) && !/[/.]/.test(t.row) && !eventos.has(t.row) && t.row !== 'registo') warn('grelha/revisao.json', `nota ${String(n.id)} aponta para uma linha que não existe: ${t.row}`)
+    if (n.status !== 'aberta') continue
+    const col = typeof t.col === 'string' ? t.col : ''
+    const mCol = /^s(\d+)$/.exec(col)
+    if (mCol && Number(mCol[1]) <= ultimaN) warn('grelha/revisao.json', `nota ${String(n.id)} aberta numa sessão já jogada (${col})`)
+    else if (!col) warn('grelha/revisao.json', `nota ${String(n.id)} aberta sem coluna`)
+    else if (ultimaN - nDeData(n.at) >= SESSOES_VELHO) warn('grelha/revisao.json', `nota ${String(n.id)} aberta há ${ultimaN - nDeData(n.at)} sessões (${col})`)
   }
   // mesa/batalhas: as fichas e os modelos que os combatentes referem têm de existir
   for (const [id, raw] of Object.entries(a.batalhas ?? {})) {

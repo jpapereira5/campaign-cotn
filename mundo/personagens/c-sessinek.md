@@ -9,7 +9,7 @@ capitulos:
 quer: O campeão do herege, convertido e com uma dentada no irmão às costas — e a heresia arrumada como capítulo da sua própria doutrina.
 teme: Nada que esteja nesta campanha; e não se desloca por coisa nenhuma.
 tags:
-  - demon lord
+  - demon-lord
   - lizardfolk
   - abyss
   - sessinek

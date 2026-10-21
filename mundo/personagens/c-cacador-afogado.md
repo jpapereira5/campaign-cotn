@@ -12,7 +12,7 @@ capitulos:
   - ch6
   - ch7
 tags:
-  - cotn_2026
+  - cotn-2026
   - licantropia
   - visoes
 relacoes:

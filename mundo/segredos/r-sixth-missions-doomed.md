@@ -1,6 +1,6 @@
 ---
 id: r-sixth-missions-doomed
-lista: Facções
+lista: Fações
 pistas:
   - b-6-a6-secure-netherdeep
   - b-6-b6-monopoly

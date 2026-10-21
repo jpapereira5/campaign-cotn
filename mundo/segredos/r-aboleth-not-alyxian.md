@@ -1,6 +1,6 @@
 ---
 id: r-aboleth-not-alyxian
-lista: Facções
+lista: Fações
 pistas:
   - b-4-c3-first-eclipse
   - b-5-b5-aboleth

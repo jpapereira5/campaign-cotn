@@ -16,7 +16,7 @@ capitulos:
   - ch7
 quer: Que Ayo esteja bem; que ninguém insulte os seus.
 teme: Que Ayo vacile sob o peso da liderança e se afaste dele.
-atitude: indiferente
+atitudeAtual: indiferente
 tags:
   - rival
   - curandeiro

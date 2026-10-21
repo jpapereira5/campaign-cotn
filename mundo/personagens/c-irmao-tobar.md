@@ -10,7 +10,7 @@ capitulos:
   - ch4
   - ch5
 tags:
-  - cotn_2026
+  - cotn-2026
   - vistani
   - backstory
 relacoes:
