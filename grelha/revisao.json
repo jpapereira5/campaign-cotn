@@ -5333,7 +5333,7 @@
         "col": "ch2"
       },
       "factKind": "cena",
-      "text": "O Scylla caçou o Xundi para o Algar Dyomin. Os irmãos Bruma sabem alguma coisa (falar antes com a Renata e o Pedro Ropio)? O Xundi reconhece o nome «Scylla» quando o ouvir pela moeda?",
+      "text": "O Scylla caçou o Xundi para o Algar Dyomin. Os irmãos Bruma sabem alguma coisa (falar antes com a Renata e o Pedro Ropio)? O Xundi reconhece o nome «Scylla» quando o ouvir pela moeda? [substituída: decisão 2026-10-21 #30 — o Xundi reconhece-os e pede-lhes que libertem o parceiro; fica em aberto se os irmãos sabem]",
       "suggestion": "Os irmãos não sabem de nada; a verdade guarda-se para o regresso do Scylla (cap. 2 ou 4).",
       "because": [
         "registo/decisoes.md 2026-10-21 #20"
@@ -5341,7 +5341,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-boblin-05",
@@ -5377,6 +5377,25 @@
       "suggestion": "Depois da primeira aventura que divirta o Xundi; a do festival de Jigau (as apostas que acertam sempre) é a altura natural.",
       "because": [
         "registo/decisoes.md 2026-10-21 #28"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-boblin-07",
+      "at": "2026-10-21T06:00:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-khedive-xundi",
+        "col": "ch4"
+      },
+      "factKind": "cena",
+      "text": "A primeira missão do Xundi: libertar o parceiro, preso em Port Damali. Pede-a aos irmãos Bruma pela boca do Boblin, quando perceber que são filhos do capitão que o caçou e que vão por mar (a caminho de Marquet pela Costa das Maravilhas): «Já que nos prenderam, é justo que libertem o meu parceiro. Senão, sentirão a minha ira.» Em aberto: porque não o libertou ele; o que acontece ao Scylla.",
+      "suggestion": "Desenhar a missão com a skill capitulo quando se decidir a rota para Marquet.",
+      "because": [
+        "registo/decisoes.md 2026-10-21 #30"
       ],
       "tags": [
         "so-dm"

@@ -81,6 +81,10 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 
 **Quem o caçou: o Scylla e o capitão Vaelen Bruma, o pai do Lucan e do Isco,** contratados pelo Algar Dyomin. A Miríade não teve nada a ver com o cativeiro (Decidido pelo DM (2026-10-21)). A vingança do Xundi aponta ao Concílio (o Algar e quem estava por cima dele) e ao Scylla. O Vaelen é genasi da água (em Exandria, os genasi nascem de uma influência elemental; a descendência de marids é do Monsters of the Multiverse). Se os irmãos sabem alguma coisa e se o Xundi chega a ligar o nome «Scylla» ficam por decidir.
 
+**O palácio e o quarto** (Decidido pelo DM (2026-10-21)): o Palácio do Lodo de Prata fica no Plano Elemental da Água, «nos mares sem fim» (Critical Role, 2x35; Tal'Dorei Reborn), sem sítio exato no canon. Por dentro, à maneira do Planescape (2.ª edição): os marids nobres vivem em palácios dentro de cavernas submarinas imensas; quase tudo é água, com fontes de ar para os convidados, tapetes de algas, portas de cobre, conchas gigantes e corredores largos para o marid (a Cidadela das Dez Mil Pérolas no *Secret of the Djinn*). **O espelho do Xundi está no quarto, no toucador:** cada ativação apanha-o a arranjar-se. **No toucador, ao lado do espelho, a pulseira e a coleira** com que o Algar Dyomin o prendia na Sluice Weave (o Xundi guardou-as no colete quando o Mighty Nein o libertou, 2x35). **Os criados são genasi da água** (o Explorer's Guide diz que muitos genasi vivem nos Planos Elementais).
+
+**O parceiro** (Critical Role, 2x35: «Agora vou libertar o meu parceiro»; o Matt deu a entender que estava em Port Damali): **ainda está preso em Port Damali, um ano depois** (Decidido pelo DM (2026-10-21)). Quando o Xundi perceber que o Lucan e o Isco são filhos do capitão que o caçou, pede-lhes a eles, pela boca do Boblin, que o libertem: «Já que nos prenderam, é justo que libertem o meu parceiro. Senão, sentirão a minha ira.» Só o pede quando estiverem no mar e ele perceber o caminho que levam. Por decidir: porque não o libertou ele próprio.
+
 **A moeda até à jangada** (Decidido pelo DM (2026-10-21); substitui a sequência de 2026-10-20 #2 na parte do Tibério):
 1. Uma mula da Miríade que vivia em Urzin atravessa o pântano com a moeda e uma carga de cristais vermelhos e é morta por um soldado imperial (não o Tibério).
 2. O Boblin, batedor no pântano, encontra a moeda no corpo da mula e fecha o pacto com o Xundi; ao pegar nela, a face humana (a da mula) passa a um goblin de perfil (Decidido pelo DM (2026-10-21)).
@@ -99,7 +103,9 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 
 **Por decidir:**
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
-- Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio); se o Xundi reconhece o nome «Scylla».
+- Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio). O Xundi vai perceber que são filhos do capitão que o caçou (decisão 2026-10-21 #30).
+- Porque não libertou o Xundi o parceiro ele próprio.
+- O que acontece ao Scylla (ideias do DM, por desenvolver: sobrevive e caça o aboleto que engoliu o Isco; ou os irmãos têm outro barco; ou encontram o Scylla naufragado ou transformado, talvez pelo rubídio).
 - O que o Xundi quer do Boblin para além do espetáculo; os valores da liberdade junto do Bufal; os arcos dos capítulos 2 e 3.
 
 ## Ideias substituídas
