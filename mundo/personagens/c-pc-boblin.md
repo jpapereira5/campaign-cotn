@@ -96,7 +96,7 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 5. O Tibério ganha numa aposta a moeda e os cristais («Tibério ganhou», caderninho do torneio, dia 3) e fica com as duas coisas; a face não muda, porque o Boblin está lá dentro.
 6. Na noite do dia 3, a Bolbara solta-se; o Tibério mata o padre, morre e levanta-se como lacedon, com a moeda e os cristais.
 
-**O que ouviu de dentro da moeda na noite do dia 3:** gritos de uma goblin, trovoada, risos da mesma goblin e depois dezenas de pessoas a combater. Desconfia que era a Bolbara; não percebeu palavras (Decidido pelo DM (2026-10-20)).
+**O que ouviu de dentro da moeda** (a lista completa, som a som, do dia 3 à jangada, está no handout do Tiago; decisão 2026-10-21 #46). **Na noite do dia 3:** gritos de uma goblin, trovoada, risos da mesma goblin e depois dezenas de pessoas a combater. Desconfia que era a Bolbara; não percebeu palavras (Decidido pelo DM (2026-10-20)).
 
 **Entrada: arranque da S7.** Dentro da moeda, no corpo do Tibério, em cima da jangada, ao lado da caixinha de cristais vermelhos; o Xundi faz de tudo para que saia e viva a sua aventura (Decidido pelo DM (2026-10-20)). **Aparece quando alguém pegar na moeda ou a for meter ao bolso**, ao lado de quem a tem, depois do discurso do Xundi dito à mesa para o Tiago (texto na decisão 2026-10-21 #45; Decidido pelo DM (2026-10-21)). Quando o grupo encontra a moeda, tem um goblin de perfil.
 
