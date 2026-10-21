@@ -1,0 +1,644 @@
+# Folha de batalha «Batalha — A Bolbara possuída» (Drive, session_prep). Skill batalha.
+# O estado do combate (PV, iniciativa, condições, ronda) é da app e vive em grelha/dm.json: não se escreve aqui.
+id: s07-bolbara-possuida
+nome: A Bolbara possuída
+sessao: s7
+onde: Pântano do Véu-Quebrado, no rasto da Bolbara (ou em Urzin)
+doc: https://docs.google.com/document/d/1NI7fGHZEHyK53SKWoRvKrx99URxRyfC0ZkpyyZrLVY8/edit
+resumo: 'A Bolbara possuída pelo Truche, com um ou dois lacedons atrás, no rasto de trovoada sem nuvem a caminho de Urzin. Vencer não é matá-la: é deitá-la a 0 PV e trazê-la a 1 PV em 3 rondas.'
+lembretes:
+- Vencer = 0 PV e depois 1 PV em 3 rondas (Palavra Curativa da Lia ou do Quasi, uma poção, Curar Feridas). Se não, morre, e o Truche volta à pedra.
+- 'Arcana ou Religion CD 13 quando ela cai: percebe-se que ainda há tempo. O Quasi tem a pista do livro do padre; a Lia sente-o como clériga.'
+- 'Zona de Calamidade: CD 12, como *confusion*; 7–8 no d10 = ataca alguém ao alcance, à sorte. Foi o que matou o forte.'
+- 'A zona é concentração: acertar-lhe obriga a CON save (CD 10 ou metade do dano). Desfeita, ela gasta as ações lendárias a fugir.'
+- 'O nome «Rutz»: o efeito na Bolbara possuída está por decidir. Sugestão (não decidida): a primeira vez que alguém lhe grita «Tio Rutz!» ou «Bol''bara, para casa!», faz o save de concentração com desvantagem
+  e não usa ações lendárias até ao turno dela.'
+- 'De dia: a Lia ataca com desvantagem. Os lacedons paralisam quem não é elfo (a Lia é imune).'
+terreno:
+- nome: Água pela cintura
+  texto: 'Terreno difícil para quem não nada (o Lucan e o Isco nadam). A Bolbara não se molha: a Corrida Incorpórea passa por cima.'
+- nome: Mangues e troncos
+  texto: Meia cobertura. Ela atravessa-os (Corrida Incorpórea). Os relâmpagos racham-nos.
+- nome: Montes secos
+  texto: 'Terra firme: quem lá está não tem terreno difícil. Um pode ser a carapaça de uma tartaruga-do-horizonte (não acordem).'
+- nome: Trovoada sem nuvem
+  texto: 'Sugestão (não decidida): na contagem 20 de cada ronda, 1d6; com 6, cai um relâmpago seco a até 9 m dela: DES CD 12 ou 2d6 de relâmpago. Marca o chão, não o céu.'
+- nome: Peixes mortos
+  texto: Boiam de barriga para cima à volta dela. O Isco sente o cheiro antes de a ver.
+modelos:
+  bolbara:
+    lado: inimigo
+    ca: 15 (mage armor)
+    pv: 40
+    ini: 2
+    resumo: Goblin warlock possuída pelo Truche · CR 3 (700 XP) · 9 m · visão no escuro 18 m · CD 12, +4 · 2 ações lendárias
+    notas:
+    - 'Livro: possuída, não se lhe tira a possessão em vida. A 0 PV cai inconsciente em vez de morrer; trazida a 1 PV em 3 rondas, volta a ser ela (CG, sem ações lendárias).'
+    - 'Arcana ou Religion CD 13, quando ela cai: percebe-se pela magia a desfazer-se que ainda há tempo.'
+    - Ações lendárias só no fim do turno de outra criatura; recupera-as no início do turno dela.
+    - 'Fuga Ágil: Disengage ou Hide como ação bónus. Bênção do Sombrio: quando derruba alguém a 0 PV, 6 PV temporários.'
+    - 'A Zona de Calamidade é concentração: com ela ativa, não há hex nem hold person (e vice-versa).'
+    - Já tem mage armor (CA 15) e false life (1d4+4 PV temporários) quando o combate começa.
+    acoes:
+    - nome: Adaga (×2)
+      mecanica: 'Ataque múltiplo: duas adagas, +4, 1,5 m ou 6/18 m, 1d4+2 perfurante cada.'
+      falha:
+      - A adaga risca o ar a um dedo do teu olho; ela ri-se com a voz de outra pessoa.
+      - Atira-a; espeta-se num tronco atrás de ti, a vibrar, e volta-lhe à mão por fios de sombra.
+      - Morde o metal da tua guarda e escorrega; as tatuagens dos braços dela mexem-se.
+      magoa:
+      - Uma picada rápida no antebraço, funda e fina, como de agulha de coser redes.
+      - Entra pela coxa e sai; ela lambe a lâmina com uma língua que é negra demais.
+      - Corta-te por cima da clavícula; o sangue escorre e ela inclina a cabeça a ver.
+      fere:
+      - Duas vezes no mesmo sítio, entre as costelas, depressa de mais para uma velha.
+      - Espeta-a por trás do joelho e torce; a perna deixa de te obedecer por um instante.
+      - Abre-te a mão de lado a lado quando a levantas para te proteger.
+      critico:
+      - Sobe-te ao corpo como uma criança a trepar a uma árvore e espeta-a no ombro, até ao punho.
+      - Aparece-te ao lado sem passos e a adaga entra-te pelo flanco; ela sussurra-te o teu nome.
+      - A lâmina entra e as sombras dela entram com a lâmina; sentes frio por dentro.
+      final:
+      - Cais na água rasa; ela agacha-se ao teu lado e põe-te a mão pequena na testa, quase com ternura.
+      - O mundo inclina-se; a última coisa que ouves é ela a rir com a voz de alguém que amaste.
+      - Ficas de joelhos e depois de cara; o pântano fecha-se por cima de ti como um cobertor.
+      pergunta: Como queres cair?
+    - nome: Rajada Sobrenatural
+      mecanica: +4, 36 m, 1d10+2 de força.
+      componentes: V, S · «Dolor»
+      falha:
+      - Um raio negro com faíscas verdes passa-te ao lado e abre um buraco fumegante num tronco.
+      - Rebenta na água ao teu lado; o vapor cheira a enxofre.
+      - Ela aponta com dois dedos tortos; o raio desvia no último palmo, como se alguém lhe tivesse empurrado o pulso.
+      magoa:
+      - Acerta-te no peito como um coice; o ar sai-te todo.
+      - Rasga-te o ombro; a carne fica com pequenas veias negras que se apagam.
+      - Atinge-te de raspão na cara; um zumbido nos ouvidos que não passa.
+      fere:
+      - Atira-te para trás dois passos; cais sentado na lama.
+      - Queima-te a mão da arma até largares quase tudo.
+      - Entra-te pela barriga e sai fumo das costas da tua roupa.
+      critico:
+      - O raio levanta-te do chão e larga-te na água, de costas, a fumegar.
+      - Rebenta-te no escudo, ou no peito, e a força ecoa nas falésias como um trovão sem nuvem.
+      - Ficas um instante com as sombras dela dentro dos olhos; vês o que ela vê.
+    - nome: Zona de Calamidade (ação lendária, custa 2)
+      mecanica: 'Esfera de 4,5 m de raio a até 18 m, contorna esquinas. Quem começar o turno lá dentro: como *confusion*, SAB CD 12 (d10: 1 anda à toa; 2–6 não faz nada; 7–8 ataca alguém ao alcance, à sorte;
+        9–10 age normalmente). Concentração, até 1 minuto.'
+      efeito:
+      - 'Preparação: ela para de se mexer e o riso dela multiplica-se, dez vozes, vinte, de homens e mulheres, todas dela. Execução: o ar à vossa volta dobra-se como água quente, e de repente não sabes
+        de que lado está quem. Rescaldo: as armas pesam-vos nas mãos como se quisessem ir para outro sítio.'
+      - 'Preparação: a trovoada sem nuvem ronca por cima. Execução: um círculo de lama em volta dela fica preto e as sombras das árvores apontam todas para dentro. Rescaldo: os sons chegam atrasados, e
+        a voz do teu amigo sai da boca de outro.'
+      - 'Preparação: ela estende a mão aberta e fecha-a devagar. Execução: as caras dos teus companheiros ficam erradas, de outra pessoa, de inimigos. Rescaldo: foi assim que as espadas do forte mudaram
+        de dono.'
+    - nome: Corrida Incorpórea (ação lendária)
+      mecanica: Move-se até 9 m; passa por criaturas e objetos como terreno difícil (1d10 de força se acabar o turno dentro de um objeto).
+      efeito:
+      - Ela atravessa-te. Sentes o frio de uma porta aberta no inverno, e ela está atrás de ti.
+      - Entra num tronco de mangue e sai do outro lado, inteira, a sacudir a casca.
+      - Desfaz-se em fumo baixo por cima da água e volta a ser goblin a nove metros.
+    - nome: Imobilizar Pessoa (1×/dia)
+      mecanica: SAB CD 12 ou paralisado (concentração, repete no fim de cada turno).
+      componentes: V, S · «Non movere, Ad lapidem»
+      efeito:
+      - Aponta e fecha o punho; o teu corpo fica preso a meio de um passo.
+      - A sombra dela estica-se pela água e pisa a tua; não te consegues mexer.
+      - Sentes dedos pequenos a fechar-te as articulações uma a uma.
+    - nome: Bruxaria (1×/dia)
+      mecanica: 'Ação bónus, concentração: +1d6 necrótico em cada ataque que acerte nesse alvo; desvantagem num atributo.'
+      componentes: V, S · «Maledicte es, Te exsecror»
+      efeito:
+      - Cospe para o lado e diz o teu nome em goblin; uma marca de fuligem aparece-te no pulso.
+      - Toca com a adaga numa das conchas que tem ao pescoço; sentes-te mais pesado.
+      - Olha para ti um segundo a mais. Daí em diante, cada golpe dela arde por dentro.
+    - nome: Encantar Pessoa (1×/dia)
+      mecanica: SAB CD 12 (vantagem se estiverem a lutar com ela) ou enfeitiçado 1 hora. A Lia tem vantagem (Ancestral Feérico).
+      componentes: V, S · «Impero te, Impero tibi»
+      efeito:
+      - Fala-te com a voz da tua mãe; a velha à tua frente parece-te alguém de quem gostas.
+      - Sorri como a criança da rã; baixas a arma sem dar por isso.
+      - Põe-se atrás de ti e diz «protege-me»; e tu queres.
+    - nome: Invisibilidade (1×/dia)
+      mecanica: Concentração; acaba se atacar ou lançar um feitiço. Fogo das Fadas do Quasi desfá-la de vez.
+      componentes: V, S · «Evanesco, Invisibilis»
+      efeito:
+      - Ri-se e o riso fica, ela não; a água continua a abrir-se onde ela anda.
+      - Some-se entre dois relâmpagos; ficam só as pegadas a encher-se de água.
+      - Fica o cheiro a ozono e as conchas a tilintar, sem ninguém.
+  lacedon:
+    lado: inimigo
+    ca: 12
+    pv: 22
+    ini: 2
+    resumo: Ghoul aquático goblinóide · 9 m, natação 9 m · imune a veneno, enfeitiçado, exaustão, envenenado · percebe goblin
+    notas:
+    - 'Seguem a Bolbara como cães: ficam entre ela e quem a ataca.'
+    - 'Querem comer: vão ao caído e ao paralisado.'
+    - 'Se a Bolbara cair a 0 PV, deixam de ter a quem seguir: mergulham e vão-se (moral).'
+    acoes:
+    - nome: Garras
+      mecanica: '+4, 1,5 m, 2d4+2 cortante. Alvo que não seja elfo nem morto-vivo: CON CD 10 ou paralisado 1 minuto (repete no fim de cada turno).'
+      falha:
+      - As garras riscam a água a um palmo da tua perna e levantam lodo.
+      - Unhas pretas, partidas, passam-te pela cara; sentes-lhes o frio, não o toque.
+      - Agarra a tua roupa em vez de ti e fica com um farrapo entre os dedos.
+      magoa:
+      - Três riscos no antebraço, rasos, que ardem como sal numa ferida.
+      - As unhas entram na coxa e saem; o sangue mistura-se com a água.
+      - Rasga-te o ombro por cima da roupa; um frio que não é da água sobe-te pelo braço.
+      fere:
+      - As garras afundam-se nas costelas e ficam lá; ele puxa e tu vens com elas.
+      - Abre-te a face do queixo à orelha; o mundo fica dormente desse lado.
+      - Fecha a mão no teu pulso e aperta até os dedos deixarem de responder.
+      critico:
+      - As unhas entram fundo no pescoço; o corpo esquece-se de como se mexe antes de a dor chegar.
+      - Quatro dedos atrás da clavícula, como ganchos; ele usa-os para te puxar para a boca.
+      - Arranca-te um pedaço da barriga do braço e mete-o à boca à tua frente.
+      final:
+      - Cais de costas na água rasa; o céu fica azul por cima, e as rãs calaram-se.
+      - Ele monta-te o peito e baixa a cabeça para comer; é aí que o mundo se apaga.
+      - A água entra-te na boca, morna; a última coisa que ouves é o tilintar das conchas dela.
+      pergunta: Como queres cair?
+    - nome: Mordida
+      mecanica: +2, 1,5 m, 2d6+2 perfurante.
+      falha:
+      - Os dentes fecham-se no ar com um estalo de osso.
+      - Morde o escudo, ou a arma, e parte um dente; não pára.
+      - Atira-se e cai de cara na água ao teu lado.
+      magoa:
+      - Dentes amarelos no braço, um puxão, e larga.
+      - Morde a perna por cima da bota; sente-se-lhe a língua, áspera como cortiça.
+      - Apanha-te a mão e fica com sangue nos dentes; lambe-os.
+      fere:
+      - Fecha os dentes no ombro e sacode a cabeça como um cão com um rato.
+      - Morde por baixo do braço e arranca carne; mastiga enquanto olha para ti.
+      - Os dentes chegam ao osso da canela; ouves o som antes de o sentir.
+      critico:
+      - Ferra-te o pescoço por trás e não larga; o hálito é de pântano velho.
+      - Arranca-te uma orelha, ou dois dedos (escolhe o jogador), e engole.
+      - Morde a cara de quem está paralisado; ninguém à volta consegue desviar os olhos.
+      final:
+      - Cais de costas na água rasa; o céu fica azul por cima, e as rãs calaram-se.
+      - Ele monta-te o peito e baixa a cabeça para comer; é aí que o mundo se apaga.
+      - A água entra-te na boca, morna; a última coisa que ouves é o tilintar das conchas dela.
+      pergunta: Como queres cair?
+    - nome: Paralisia (falha no save)
+      mecanica: CON CD 10; elfos e mortos-vivos imunes.
+      efeito:
+      - O frio sobe do ferimento e trava-te os músculos um a um; ficas de pé, sem poder cair.
+      - Os dedos abrem-se sozinhos e a arma cai à água; não a consegues ir buscar.
+      - Ficas com os olhos abertos; vês tudo e não pestanejas.
+combatentes:
+- id: bolbara
+  nome: Bol'bara (possuída)
+  modelo: bolbara
+  ref: c-bolbara
+  aspeto: Goblin velha, direita como nunca andou, olhos cheios de sombra, conchas brancas ao pescoço; relâmpagos secos à volta dela.
+- id: quinto-lacedon
+  nome: O quinto lacedon
+  modelo: lacedon
+  grupo: lacedons
+  aspeto: 'O que fugiu do obelisco: falta-lhe meia orelha e tem um corte de machado no ombro.'
+- id: lacedon-b
+  nome: Lacedon (opcional)
+  modelo: lacedon
+  grupo: lacedons
+  aspeto: Uma das figuras que se arrastavam atrás dela; ainda tem uma pulseira de conchas de Urzin.
+- id: lucan
+  nome: Lucan «Anzol» Bruma
+  lado: pc
+  ref: c-pc-lucan
+  ca: 15 (17 com escudo)
+  resumo: Bárbaro, Caminho da Fera · Renata · deslocamento 10,5 m
+  equipamento: Escudo de carapaça, maço de fémur, a adaga drow +1
+  notas:
+  - 'Ela é a casa do Truche: quando o Truche voltar à pedra, o Lucan sente a fome saciar-se (só ele).'
+  - 'A Fera a 0 PV: trinca o mais perto, amigo ou inimigo.'
+  acoes:
+  - nome: Fúria Tranquila (entrar)
+    efeito:
+    - Dobra-se como se lhe tivessem dado um soco no estômago; quando se endireita, os olhos estão da cor de sangue seco.
+    - Não grita. Fica muito quieto, e a pele das costas abre-se para deixar sair a cauda.
+    - A cauda bate na água uma vez e a água inteira treme; os lacedons viram a cabeça para ele.
+    mecanica: Ação bónus. Ataque Imprudente disponível.
+  - nome: Maço de fémur
+    mecanica: ficha (D&D Beyond)
+    falha:
+    - O osso desce e afunda-se no lodo onde o lacedon estava há meio segundo.
+    - Bate no ombro de raspão; o lacedon nem dá por isso.
+    - O lacedon mergulha; o maço levanta uma coluna de água.
+    magoa:
+    - 'Fémur contra crânio: um som oco, de cabaça.'
+    - Partes-lhe o braço; ele olha para o braço, depois para ti.
+    - O golpe tira-lhe três dentes, que boiam.
+    fere:
+    - A cabeça amolga-se para dentro como um ovo cozido; ele continua de pé.
+    - Afundas-lhe as costelas; sai água pela boca dele.
+    - O golpe atira-o de costas na água; levanta-se mais devagar.
+    critico:
+    - 'Osso contra osso, e o teu ganha: a cabeça dele vira-se para trás.'
+    - O maço entra-lhe no peito e fica preso; tens de o arrancar com o pé.
+    - Parte-lhe as duas pernas de um golpe; arrasta-se para ti com os braços.
+    final:
+    - O maço desce, e o que fica não volta a levantar-se; o Lucan fica a olhar para o corpo um segundo a mais.
+    - A cauda prende-o e o Lucan morde-lhe o pescoço; sabe a cinza molhada. A fome não passa.
+  - nome: Cauda
+    mecanica: Alcance 3 m, 1d8+4 perfurante (2d8+4 no crítico)
+    falha:
+    - A cauda chicoteia e corta juncos em vez de carne.
+    - Os espigões riscam a água a um palmo dele.
+    magoa:
+    - Os espigões abrem-lhe três furos no flanco; não sai sangue, sai lodo.
+    - A cauda apanha-o pelas pernas e deita-o na água.
+    - Um espigão espeta-se no ombro e sai com carne cinzenta agarrada.
+    fere:
+    - A cauda enrola-lhe o pescoço e aperta; ouve-se estalar.
+    - Os espigões entram na barriga e rasgam para o lado.
+    - Atira-o contra o lacedon do lado; caem os dois.
+    critico:
+    - A cauda atravessa-o de lado a lado e levanta-o no ar, espetado.
+    - Um espigão entra-lhe pela boca e sai pela nuca.
+    - A cauda bate-lhe na cabeça com o peso de um remo de galé; a cabeça deixa de estar lá.
+    final:
+    - O maço desce, e o que fica não volta a levantar-se; o Lucan fica a olhar para o corpo um segundo a mais.
+    - A cauda prende-o e o Lucan morde-lhe o pescoço; sabe a cinza molhada. A fome não passa.
+  - nome: Reação da cauda (+1d8 CA)
+    efeito:
+    - A cauda põe-se entre ti e as garras; as unhas raspam espigões.
+    - A cauda desvia o braço dele no último instante.
+    - A cauda enrola-se à tua frente como um escudo vivo.
+  - nome: A Fera a 0 PV
+    efeito:
+    - Devia cair, e não cai; levanta-se com a água a escorrer, procura o corpo mais perto e trinca-o.
+    - Os olhos apagam-se e voltam vermelhos; morde o que está caído ao lado dele, seja quem for. Só depois cai.
+    - 'Ao fundo, sem ninguém a gritar, ouve uma multidão: «Lucan, Lucan, Lucan!».'
+    mecanica: 'Não cai: trinca a criatura caída mais próxima, amiga ou inimiga, e só depois cai.'
+- id: isco
+  nome: Ruín «Isco» Bruma
+  lado: pc
+  ref: c-pc-isco
+  ca: ficha (17 transformado)
+  resumo: Blood Hunter 3, Ordem do Licano · Pedro Ropio · 9 m, natação
+  equipamento: Flamberge, maço de fémur, besta ligeira, 4 dardos, o colar da Bolbara, o mapa do Morgid
+  notas:
+  - O faro e o colar de conchas põem-no à frente no rasto.
+  - Não é surpreendido pelos lacedons (faro).
+  acoes:
+  - nome: Transformação (a segunda)
+    efeito:
+    - Os dentes descem em fila dupla; o pescoço engrossa e as fendas das guelras abrem-se.
+    - Cresce um palmo; a pele fica lisa e cinzenta como a de um tubarão-azul.
+    mecanica: 'Ação bónus: +7 PV temporários, CA 17.'
+  - nome: Rito Carmesim (ativar)
+    efeito:
+    - Passa a palma pela lâmina ondulada e o sangue corre pelas ondas do aço e acende-se.
+    - O sangue entra nas ondulações da lâmina como água num canal.
+    - Morde o próprio polegar e esfrega a lâmina; o metal fica quente.
+    mecanica: Conforme a ficha.
+  - nome: Greatsword (flamberge)
+    mecanica: ficha (Bait_CampaignFlat.pdf)
+    falha:
+    - A lâmina ondulada corta a água e levanta um leque de gotas.
+    - O lacedon abaixa-se; a espada corta juncos.
+    - Batida no escudo de alguém ao lado; desculpa à pressa.
+    magoa:
+    - As ondas da lâmina rasgam em vez de cortar; a carne sai aos farrapos.
+    - Corte no ombro, fundo, sem sangue.
+    - Apanha-lhe a mão das garras e leva-lhe dois dedos.
+    fere:
+    - Abre-o da clavícula ao umbigo; ele dobra-se e continua.
+    - Corta-lhe a perna pelo joelho; ajoelha-se na água.
+    - A lâmina entra no flanco e as ondas prendem-se nas costelas.
+    critico:
+    - Um arco inteiro, e a cabeça voa e cai na água a três metros.
+    - Corta-o ao meio pela cintura; as duas metades mexem-se.
+    - A lâmina entra pelo ombro e só pára na anca.
+    final:
+    - A flamberge entra e roda; o lacedon desmancha-se como pão molhado.
+    - Morde e não larga até a faísca acabar; quando abre a boca, não há nada para largar.
+    - 'Pisa-o para debaixo de água e fica em cima até as bolhas pararem. Não há bolhas: não respira.'
+  - nome: Mordida elétrica
+    mecanica: ao ativá-la (ação bónus) morde a língua e leva 3; o ataque seguinte soma dano elétrico (14 de dano num acerto)
+    falha:
+    - Os dentes fecham-se no ar e apanham a tua própria língua; sabes a cobre.
+    - A faísca salta, mas para dentro; o maxilar treme.
+    - Morde água; a descarga sobe-te pelos dentes.
+    magoa:
+    - Dentes triangulares no braço dele; uma faísca azul e cheiro a carne queimada.
+    - Morde e larga; o lacedon treme da cabeça aos pés.
+    - A descarga passa-lhe pela água à volta dos pés e faz-lhe saltar as pernas.
+    fere:
+    - Arranca-lhe a garganta; a faísca acende-lhe os olhos por dentro.
+    - Morde o ombro e sacode; o braço vem atrás.
+    - A descarga pára-lhe os músculos; fica rígido, de boca aberta.
+    critico:
+    - Morde-lhe a cara e a descarga rebenta-lhe a cabeça em vapor.
+    - Fecha os dentes no pescoço e a eletricidade corre a água à volta; os peixes mortos vêm à tona.
+    - Arranca-lhe o tronco a meio; fica com metade na boca.
+    final:
+    - A flamberge entra e roda; o lacedon desmancha-se como pão molhado.
+    - Morde e não larga até a faísca acabar; quando abre a boca, não há nada para largar.
+    - 'Pisa-o para debaixo de água e fica em cima até as bolhas pararem. Não há bolhas: não respira.'
+  - nome: Besta ligeira
+    mecanica: ficha
+    falha:
+    - O virote entra na água com um «tchac» e desaparece.
+    magoa:
+    - Virote no ombro; ele nem olha.
+    fere:
+    - Virote no olho bom; anda às voltas.
+    critico:
+    - Virote na boca aberta; sai pela nuca e espeta-se num tronco.
+- id: quasi
+  nome: Quasimodo «Quasi»
+  lado: pc
+  ref: c-pc-quasi
+  ca: ficha
+  resumo: Bardo, Colégio do Saber · Pedro Silva · 9 m
+  equipamento: Adaga +1, garra de seis dedos, varinha de osso, alaúde
+  notas:
+  - Fogo das Fadas desfaz a Invisibilidade dela.
+  - Palavra Curativa também a traz de volta a 1 PV.
+  - Sugestão e Comando resultam nela (não é imune a enfeitiçado).
+  acoes:
+  - nome: Adaga +1
+    mecanica: ficha (D&D Beyond)
+    falha:
+    - A adaga risca o ar onde a cara dele estava.
+    - O lacedon apanha-lhe o pulso; ele solta-se com um passo de dança.
+    - A lâmina bate em osso e escorrega.
+    magoa:
+    - Entra entre duas costelas, rápida, e sai.
+    - Um corte fino no pescoço, preciso como um traço de pena.
+    fere:
+    - A adaga entra no olho e ele recua a gemer sem voz.
+    - Corta-lhe os tendões do joelho; cai de lado.
+    - Três golpes rápidos no mesmo sítio; o terceiro já não encontra resistência.
+    critico:
+    - A lâmina entra por baixo do queixo até ao punho.
+    - Gira à volta dele e corta-lhe o pescoço por trás; a cabeça pende.
+    - A adaga do altar brilha um instante; o corte fecha-se em gelo à volta da lâmina.
+    final:
+    - Inclina a máscara, como quem cumprimenta um público, e enterra a adaga na nuca.
+    - Toca uma nota que não é de alaúde, e o lacedon desfaz-se na água como cera.
+    - Faz uma vénia sobre o corpo; ninguém lhe vê a cara, e toda a gente imagina.
+  - nome: Escárnio Cruel
+    efeito:
+    - «Até os teus vermes têm vergonha de ti.» O lacedon hesita, ofendido sem saber porquê.
+    - Uma gargalhada fina através da máscara; a garra que vinha pára a meio.
+    - Canta o nome dele em vida, desafinado; o lacedon leva as mãos à cabeça.
+    mecanica: SAB save, 1d4 psíquico e desvantagem no próximo ataque.
+    componentes: V · sem latim (é o insulto)
+  - nome: Sussurros Dissonantes
+    efeito:
+    - Diz «Dolor» só para ele; o lacedon foge pela água como se o chamassem de casa.
+    - O lacedon grita sem voz e mergulha para fugir de alguma coisa dentro da cabeça.
+    mecanica: SAB save, 3d6 psíquico e foge (ataque de oportunidade; usa o próprio movimento).
+    componentes: V · «Dolor»
+  - nome: Fogo das Fadas
+    efeito:
+    - «Te video.» Os lacedons debaixo de água acendem-se de violeta; vê-se onde estão.
+    - A luz pega-se-lhes como pólen; ficam desenhados contra o sol.
+    - Um deles mergulha e a luz vai com ele, a tremer debaixo da água.
+    mecanica: DES save; vantagem nos ataques contra eles, não se escondem.
+    componentes: V · «Te video, Ubi es?»
+  - nome: Palavra Curativa
+    efeito:
+    - Uma frase cantada; a ferida fecha-se com uma comichão quente.
+    - «Te curo», abafado pela máscara; quem está caído abre os olhos.
+    - Duas notas de alaúde; o sangue pára de correr.
+    mecanica: Ação bónus.
+    componentes: V · «Te curo, Vis medicatrix»
+  - nome: Silvery Barbs
+    efeito:
+    - «Fallere.» Uma palavra prateada; as garras que iam acertar resvalam.
+    - A sorte do lacedon escorrega-lhe dos dedos e cai na mão de um aliado.
+    - Um brilho de prata nos olhos dele; tropeça no próprio pé.
+    mecanica: 'Regra da mesa: o inimigo rola um terceiro d20 e usa o mais baixo entre esse e o que lhe deu o sucesso.'
+    componentes: V · «Fallere, Labere»
+  - nome: Palavras Cortantes
+    efeito:
+    - «Falhaste o pescoço por um palmo. Outra vez.» E o acerto passa a falha.
+    - Uma piada sobre a barriga dele; a garra vacila.
+    - Um acorde dissonante no instante exato; o golpe perde força.
+    mecanica: Reação.
+  - nome: 'Garra de seis dedos: Comando'
+    efeito:
+    - A garra aquece-lhe a mão por dentro da luva; «Cai!», e o lacedon cai.
+    - «Foge!» — e foge. O Quasi sente que a garra queria outra palavra.
+    - A palavra sai com uma voz que não é a dele, mais grave, mais velha.
+    mecanica: 1×/dia; resulta em goblin (e provavelmente em comum).
+    componentes: V · «Impero te, Impero tibi» + a palavra
+  - nome: Sugestão
+    efeito:
+    - Olha-te sem perceber.
+    mecanica: Resulta na Bolbara (SAB CD do Quasi; ela tem +1).
+    componentes: V, M (língua de cobra e mel ou óleo doce) · «Audi me»
+- id: lia
+  nome: Lia
+  lado: pc
+  ref: c-pc-lia
+  ca: 16
+  pv: 24
+  ini: 2
+  resumo: Clériga 3, Crepúsculo · Camila · magias CD 13, +5 · 4×1.º, 2×2.º
+  equipamento: Gibão de peles, escudo, machado de guerra, besta leve, símbolo sagrado (se os recuperou do saco)
+  notas:
+  - Palavra Curativa (ação bónus, 18 m) é a forma mais rápida de trazer a Bolbara a 1 PV.
+  - 'Ancestral Feérico: vantagem contra encantar pessoa. A Zona de Calamidade não é encantamento: apanha-a.'
+  - De dia, desvantagem nos ataques; magias de save não.
+  acoes:
+  - nome: Trazer a Bolbara de volta
+    mecanica: Palavra Curativa ou Curar Feridas na Bolbara a 0 PV, até 3 rondas depois de cair.
+    efeito:
+    - «Te curo.» A luz de crepúsculo entra-lhe no peito, e as sombras saem-lhe pela boca como fumo de candeia apagada.
+    - A velha abre os olhos, e são castanhos, de goblin, cheios de medo; a primeira coisa que diz é «Melora…».
+    - O pântano fica calado. Longe, muito longe, uma trovoada sem nuvem afasta-se para o lado do obelisco.
+  - nome: Machado de guerra
+    mecanica: +3, 1d8+1 (1d10+1 a duas mãos) · desvantagem ao sol
+    falha:
+    - O sol bate-lhe nos olhos no pior momento; o machado corta a água.
+    - Golpe largo, cego de luz, que só lhe tira um farrapo da roupa.
+    magoa:
+    - O machado entra no ombro com um som de lenha molhada.
+    - Corta-lhe a mão das garras pelo pulso.
+    - Golpe de baixo para cima no queixo; a cabeça dele vai para trás.
+    fere:
+    - Abre-lhe o peito; ele olha para baixo, sem perceber.
+    - Duas mãos no machado, e a clavícula dele fica em duas.
+    critico:
+    - O machado entra no crânio até ao olho; ela tem de pôr o pé no peito dele para o tirar.
+    final:
+    - O machado desce uma última vez, sem raiva, como quem acaba um trabalho.
+    - Pousa-lhe o símbolo sagrado na testa e diz uma palavra; a carne desfaz-se em cinza cinzenta.
+  - nome: Besta leve
+    mecanica: +4, 1d8+2 · desvantagem ao sol
+    falha:
+    - O reflexo do sol na água; o virote passa alto.
+    magoa:
+    - Virote no ombro; ele vira-se para ela.
+    fere:
+    - Virote no joelho; arrasta-se.
+    critico:
+    - Virote na testa; fica de pé um segundo e cai para trás, de braços abertos.
+  - nome: Chama Sagrada
+    efeito:
+    - «Incende.» Uma coluna de luz pálida cai do céu limpo sobre o lacedon; a pele dele estala.
+    - Aponta com dois dedos; o lacedon arde por dentro, e a luz sai-lhe pelos olhos.
+    - A luz é mais lilás do que branca (ninguém repara, a não ser a Lia).
+    mecanica: DES save, 1d8 radiante; sem desvantagem do sol.
+    componentes: V, S · «Incende»
+  - nome: Palavra Curativa
+    efeito:
+    - «Te curo.» Uma luz de crepúsculo, cinzenta e violeta, entra na ferida e fecha-a.
+    - A ferida fecha-se e deixa um frio bom, de noite de verão.
+    mecanica: Ação bónus.
+    componentes: V · «Te curo, Vis medicatrix»
+  - nome: Bênção
+    efeito:
+    - Molha os dedos na água e asperge; a água do pântano brilha um instante ao cair.
+    - «Macte virtute.» Três pessoas sentem a mão firme no punho da arma.
+    - Toca no símbolo sagrado e depois no ombro de quem está mais perto; ele endireita-se.
+    mecanica: Concentração.
+    componentes: V, S, M (aspersão de água benta) · «Macte virtute»
+  - nome: Santuário
+    efeito:
+    - Uma penumbra fina à volta do protegido; os lacedons olham através dele.
+    - As garras param a um palmo, como se batessem num vidro.
+    mecanica: Ação bónus; SAB save para o atacar.
+    componentes: V, S, M (pequeno espelho de prata) · «Macte virtute»
+  - nome: Expulsar Mortos-Vivos
+    efeito:
+    - Ergue o símbolo ao sol; os lacedons guincham e fogem pela água, todos para o mesmo lado.
+    - A voz dela muda, mais velha, como se já tivesse dito aquilo mil vezes; os mortos recuam.
+    mecanica: SAB CD 13 a 9 m; os lacedons têm SAB +0. O DM deixa acabar o combate (decisão 30).
+    componentes: Símbolo sagrado e uma oração (sem latim)
+  - nome: Santuário Crepuscular
+    efeito:
+    - 'Ao meio-dia, à volta dela, cai o crepúsculo: luz cinzenta, uma brisa fresca, o céu escurece só ali.'
+    mecanica: 'Esfera de 9 m, 1 minuto; quem acabar o turno dentro: 1d6+3 PV temporários, ou acaba enfeitiçado/amedrontado.'
+  - nome: Raio Lunar
+    efeito:
+    - O lacedon dentro do raio fumega como lenha verde ao lume.
+    - Ela move o raio com a mão; a água por onde passa fica a brilhar.
+    mecanica: Concentração; CON save, 2d10 radiante.
+    componentes: V, S, M (sementes de moonseed e feldspato opalescente) · «Ex Textura»
+- id: boblin
+  nome: Boblin
+  lado: pc
+  ref: c-pc-boblin
+  ca: ficha
+  resumo: Warlock 3, Génio (Marid) · Tiago Rosas · goblin, 9 m
+  equipamento: A moeda (vaso do génio e foco), a caixinha de cristais
+  notas:
+  - 'A Bolbara é a xamã de Urzin: percebe-lhe o goblin e as rezas a Melora.'
+  - 'Fuga Ágil, como ela: Disengage ou Hide como ação bónus.'
+  acoes:
+  - nome: Rajada Sobrenatural
+    mecanica: '+CAR+2, 36 m, 1d10 de força (+2 de frio uma vez por turno: Ira do Génio).'
+    componentes: V, S · «Dolor»
+    falha:
+    - O raio sai-lhe da moeda erguida, azul e salgado, e passa por cima da cabeça dela.
+    - Rebenta na água; levanta uma onda pequena e fria.
+    - Ela desvia-se com a mesma ligeireza dele; os dois goblins olham-se um instante.
+    magoa:
+    - Acerta-lhe no ombro e deixa geada nas tatuagens.
+    - Empurra-a um passo para trás, a fumegar de frio.
+    - As conchas do pescoço dela estalam com o gelo.
+    fere:
+    - A velha dobra-se e o riso falha-lhe.
+    - O frio prende-lhe a mão da adaga um instante.
+    - Cai sobre um joelho, e por um segundo parece só uma velha.
+    critico:
+    - A rajada leva-a pelo ar e larga-a numa poça que gela à volta dela.
+    - Uma onda inteira de água do mar, do nada, rebenta-lhe em cima.
+    - Ouve-se, dentro da moeda, um aplauso.
+  - nome: Refúgio no Vaso
+    mecanica: 'Ação, a tocar na moeda: entra nela (fora do combate, mas ouve tudo). Sai com ação bónus. Uma vez por descanso longo.'
+    efeito:
+    - Toca na moeda e já não está lá; a moeda cai na lama com um som pequeno.
+    - Some-se como água por um ralo.
+    - Fica só a moeda, de goblin para cima.
+- id: fritz
+  nome: Alone Fritz
+  lado: aliado
+  ref: c-alonne-frith
+  ca: 10
+  pv: 22
+  ini: 0
+  resumo: Só se o soltaram e veio com o grupo · Hollow One · cimitarra de lâmina preta +1
+  notas:
+  - 'Não arrisca a vida pela goblin: quer saber para onde ela vai e o que sabe.'
+  - 'Fala na cabeça de um de cada vez: «Não a matem. Ainda não.»'
+  acoes:
+  - nome: Cimitarra +1
+    mecanica: ficha (perfil do livro; dano por definir*)
+    efeito:
+    - A lâmina preta não reflete nada.
+    - Golpeia sem pressa, sem raiva, como quem corta uma corda.
+    - Não diz nada; olha para a ferida que fez com interesse.
+zonas:
+  bolbara:
+  - d: 1
+    zona: Cabeça
+    texto: O golpe abre-lhe a testa e sai fumo em vez de sangue; ela continua a rir.
+  - d: 2
+    zona: Conchas do pescoço
+    texto: O colar arrebenta; as conchas brancas caem na água e afundam devagar, como se pesassem muito.
+  - d: 3
+    zona: Braço da adaga
+    texto: As tatuagens do braço apagam-se onde o golpe passa.
+  - d: 4
+    zona: Tronco
+    texto: Um corpo de velha, magro, cede; por um instante a sombra fica para trás e ela é só uma goblin a gemer.
+  - d: 5
+    zona: Pernas
+    texto: 'Dobra-se, mas não cai: alguma coisa a segura de pé por dentro.'
+  - d: 6
+    zona: Olhos
+    texto: A sombra recua dos olhos e eles ficam castanhos um segundo; ela diz «Melora…» e a sombra volta.
+  lacedon:
+  - d: 1
+    zona: Cabeça
+    texto: O couro cabeludo descola como casca molhada; por baixo, osso verde.
+  - d: 2
+    zona: Pescoço
+    texto: Abre-se sem sangue; sai água do pântano e um cheiro a peixe podre.
+  - d: 3
+    zona: Tronco
+    texto: As costelas cedem como vime molhado; lá dentro mexem-se sanguessugas.
+  - d: 4
+    zona: Braço das garras
+    texto: O braço dobra-se no sítio errado e continua a arranhar.
+  - d: 5
+    zona: Perna
+    texto: A carne sai do osso aos farrapos; arrasta-se, mas não pára.
+  - d: 6
+    zona: Barriga
+    texto: Rebenta como um odre; sai lodo negro, enguias pequenas e um dente que não é dele.
+rondas:
+- ronda: Antes
+  texto: 'O rasto: juncos chamuscados numa linha torta, uma árvore rachada sem marca de fogo, peixes mortos de barriga para cima, cheiro a ozono. O Isco (faro, o colar) vai à frente. Passiva 14 dos lacedons
+    para a emboscada; o Isco não é surpreendido.'
+- ronda: '1'
+  texto: 'Ela vira-se para vocês com a cara de uma velha assustada que dura um segundo, e depois a sombra fecha-se. Os lacedons avançam para quem está mais perto da água. No fim do primeiro turno de um
+    PC: Zona de Calamidade sobre o maior grupo.'
+- ronda: '2'
+  texto: Bruxaria em quem mais a magoou e duas adagas; Corrida Incorpórea para sair do corpo a corpo se estiver cercada.
+- ronda: '3'
+  texto: 'Abaixo de metade: Imobilizar Pessoa no mais forte (se a zona já caiu) ou Invisibilidade e Fuga Ágil para recomeçar longe. Encantar Pessoa em quem a tiver de curar.'
+- ronda: A 0 PV
+  texto: 'Cai. Os lacedons fogem para a água. Contagem: 3 rondas para lhe dar 1 PV. Arcana ou Religion CD 13 percebe que há tempo. A trovoada para.'
+rescaldo:
+- 'Se voltar a si: velha, aterrada, a tremer de frio. A primeira palavra é «Melora…». Ao Quasi diz só «Essa maldição não se tira, abre-se. Alguém tem de olhar.» (2026-10-13 #22).'
+- 'Se morrer: o Truche volta à pedra; o Lucan sente a fome saciar-se (só ele; 2026-10-13 #8). Urzin vai culpar o grupo.'
+- 'O nome «Rutz»: se lho disserem quando voltar a si, chora (sugestão).'
+- O relógio da Bolbara (`t-relogio-bolbara-urzin`) para onde estiver.
+checklist:
+- Ela já tem mage armor (CA 15) e false life (PV temporários) quando começa.
+- 'Ações lendárias: 2 por ronda, no fim do turno de outros; a Zona custa as duas.'
+- 'Concentração: só uma entre Zona, Bruxaria, Imobilizar e Invisibilidade.'
+- 'A 0 PV: contar 3 rondas em voz alta, ou não (escolha do DM).'
+- Os lacedons fogem quando ela cai.
+- 'Perguntar a quem lhe dá o golpe final: «Como queres fazer isto?»'
