@@ -3,6 +3,7 @@ id: r-bolbara-possessed
 lista: Prólogo
 pistas:
   - b-0-return-to-urzin
+  - b-0-patrulha-imperio
   - b-0-ritual-stone
   - b-0-chapel
 origem:
