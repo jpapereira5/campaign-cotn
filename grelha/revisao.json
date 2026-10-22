@@ -5697,6 +5697,71 @@
         "registo/decisoes.md 2026-10-21 #80"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-s7-01",
+      "at": "2026-10-22T02:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-bolbara",
+        "col": "s7"
+      },
+      "factKind": "cena",
+      "text": "Na visão do menir, a goblin sussurra uma palavra. Na transcrição (2:06:48) ouve-se «Mãe»; a preparação e a ficha da pedra tinham «Melora…». Qual é o cânone? Se for «Mãe», a quem é dita — à Melora, à mãe dela, ou a quem está a ver?",
+      "suggestion": "Fixar a palavra na ficha de l-ritual-stone e em c-bolbara; o registo da S7 está marcado «por confirmar».",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s7-02",
+      "at": "2026-10-22T02:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "l-ritual-stone",
+        "col": "s7"
+      },
+      "factKind": "estado",
+      "text": "O Quasi não pegou no olho: encostou-lhe a máscara (2:02:57) e teve a visão de qualquer maneira. A ficha diz «só quem pegar no olho vê; pegar é consentir» (2026-10-12 #18) e que o olho fica aberto. Vale o mesmo para o toque com a máscara? Paga a renda a Vecna?",
+      "suggestion": "Rever a secção «Quem toca» de l-ritual-stone: ou o toque com objeto conta como consentir, ou a visão do Quasi foi uma exceção da pedra.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s7-03",
+      "at": "2026-10-22T02:00:00.000Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s7"
+      },
+      "factKind": "registo",
+      "text": "Na descrição do interrogatório do Boblin (1:37:21) o Corvelo tem «uma greatsword à cintura»; o cânone dá-lhe machado de abordagem e besta pesada.",
+      "suggestion": "Confirmar a arma: ou a ficha passa a espada grande, ou foi lapso de narração e fica o machado.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s7-04",
+      "at": "2026-10-22T02:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "f-grupo",
+        "col": "s7"
+      },
+      "factKind": "registo",
+      "text": "A sessão não teve título dito à mesa. O registo entrou com «A Mão com o Olho» como sugestão.",
+      "suggestion": "Confirmar o título ou dar outro (alternativas: «Tio Rutz», «Meia Hora por Minuto», «A Bolsa do Tibério»).",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s7-05",
+      "at": "2026-10-22T02:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s7"
+      },
+      "factKind": "pista",
+      "text": "Os cristais de rubi por lapidar da bolsa do Tibério ficaram com o Lucan, que já esfregou um (save de SAB 16). São rubídio em bruto? Carregá-los conta para a exposição prolongada das regras do rubídio (CHA save DC 5, +5 por dia)?",
+      "suggestion": "Decidir se o relógio da exposição começou a contar na noite do dia 4, e quantos cristais são.",
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
