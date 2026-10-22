@@ -162,6 +162,10 @@ Saem em sequência, como no livro (o Remix sugeria fora de ordem; rejeitado).
 
 → [[c-pc-quasi]]
 
+## Informação entre jogadores (DM, sessão 7)
+
+Informações sobre as personagens dos outros jogadores **não se partilham entre jogadores** fora do jogo: o que uma personagem sabe de outra tem de ter sido dito ou visto à mesa. Dita no arranque da sessão 7 (#90, 0:29:21), a propósito das fichas e dos segredos individuais.
+
 ## Insanidade (DM)
 
 Base: *Insanity System* de Zac Chaney (Lair Magazine, fev. 2022; PDF «Insanity Rules» e Google Doc «Regra de Insanidade», pasta `rules` da CotN, onde *tier* = grau e *flaw* = defeito), com os ajustes da mesa (Decidido pelo DM (2026-10-21)).
