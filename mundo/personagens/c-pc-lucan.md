@@ -90,7 +90,7 @@ O contexto do DM (a cidade, a cadeia do rubídio, os segredos dos contactos) est
 
 ## A Miríade (backstory)
 
-Os irmãos conhecem a Miríade do cais de Nicodranas: o Scylla não vendia só à Miríade, mas o Fausto Sardinha (`c-fausto-sardinha`), halfling velho com taberna no porto, era o comprador certo para as partes de monstro; eles levavam-lhe a carga e aprenderam com ele Halfling e o Cant; depois da expulsão, a Miríade deu-lhes trabalho sem perguntas. Sabem as regras (paga-se a horas, não se pergunta pela carga, quem vende a dois patrões não chega a velho, não se fala dela a quem usa farda), não sabem quem manda nela, e sabem que é ela que traz o rubídio do norte de Jorhas, por Asarius, até ao Óscar Lume. Está no handout `i-doc-miriade` (Drive: «Handout — Miríade (Anzol e Isco)», `session_prep`), cânone da backstory dos dois (Decidido pelo DM (2026-10-22)).
+Os irmãos conhecem a Miríade do cais de Nicodranas: o Scylla não vendia só à Miríade, mas o Fausto Sardinha (`c-fausto-sardinha`), halfling velho com taberna no porto, era o comprador certo para as partes de monstro; eles levavam-lhe a carga e aprenderam com ele Halfling e o Cant; depois da expulsão, a Miríade deu-lhes trabalho sem perguntas. Sabem as regras (paga-se a horas, não se pergunta pela carga, quem vende a dois patrões não chega a velho, não se fala dela a quem usa farda), não sabem quem manda nela, e sabem que é ela que traz o rubídio do norte de Jorhas, por Asarius, até ao Óscar Lume. Está no handout `i-doc-miriade` (Drive: «Handout — Miríade (Anzol e Isco) v2», `session_prep`), cânone da backstory dos dois (Decidido pelo DM (2026-10-22)).
 
 ## O que o DM já definiu
 
