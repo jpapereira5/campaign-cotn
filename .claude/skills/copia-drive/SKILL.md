@@ -1,6 +1,6 @@
 ---
 name: copia-drive
-description: Atualizar a cópia de leitura do repositório campaign-cotn na Drive (pasta cotn_2026/github_repo), só com as peças que mudaram, e a cópia do dnd-soundboard quando o DM a pede. Usar depois de cada push ao repositório (na mesma conversa), na tarefa agendada diária, no fim de cada fecho (passo 12 da fecho) e quando o DM diz «atualiza a cópia na Drive» ou «faz backup do repo».
+description: Atualizar a cópia de leitura do repositório campaign-cotn na Drive (pasta cotn_2026/github_repo), só com as peças que mudaram, e a cópia do dnd-soundboard quando o DM a pede. Usar depois de cada push ao repositório (na mesma conversa, sem pedir licença e sem deixar para a tarefa diária), na tarefa agendada diária, no fim de cada fecho (passo 12 da fecho) e quando o DM diz «atualiza a cópia na Drive» ou «faz backup do repo».
 ---
 
 # copia-drive: a cópia de leitura na Drive

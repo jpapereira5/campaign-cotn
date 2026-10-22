@@ -1,6 +1,6 @@
 ---
 name: ficha-pc
-description: Refazer o documento consolidado de um PC na Drive («<PC> — PC vN», na pasta do próprio PC dentro de cotn_2026/pcs) a partir da ficha do repositório, dos registos das sessões e das decisões do DM. Usar no fecho (passo 10 da fecho, para todos os PCs) e quando o DM pede o documento de um PC, a ficha consolidada ou «o que o Lucan sabe».
+description: Refazer o documento consolidado de um PC na Drive («<PC> — PC vN», na pasta do próprio PC dentro de cotn_2026/pcs) a partir da ficha do repositório, dos registos das sessões e das decisões do DM. Usar no fecho (passo 11 da fecho, para todos os PCs), sem pedir licença sempre que uma revisão, correção ou decisão muda a ficha ou os acontecimentos de um PC (só os PCs afetados), e quando o DM pede o documento de um PC, a ficha consolidada ou «o que o Lucan sabe».
 ---
 
 # ficha-pc: o documento consolidado de um PC
