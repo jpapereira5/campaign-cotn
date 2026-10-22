@@ -27,3 +27,6 @@ A mesa (sessão 4, #86, 2026-09-23): sétimo imperial da Terceira Lança, que n�
 **Morreu na sessão 6 (#89, 2026-10-16)**, depois de a Lia o ter curado da febre: os lacedons arrastaram-no inerte, com grandes cortes vermelhos no tronco, e o Lucan tirou-o da água a sangrar e sem reação (Decidido pelo DM (2026-10-17)).
 
 Queimado numa pira no obelisco, na primeira hora depois do combate do dia 4, com os outros mortos da patrulha e o Tibério (S7, ainda por jogar). (Decidido pelo DM (2026-10-21))
+
+A mesa (sessão 7, #90, 2026-10-21): A Medicina 17 do Lucan, com o corpo ainda nos braços, confirma a morte: não se mexe, não respira, não tem pulso, o coração não bate. Não tinha equipamento consigo — esteve deitado todo o tempo. Queimado na pira do acampamento, na noite do dia 4, com o Damião e o Tibério.
+

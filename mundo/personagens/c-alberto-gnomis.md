@@ -41,6 +41,8 @@ A mesa (sessão 1, #81, 2026-09-02): Gnomo velho, suíças e barba grandes e des
 
 A mesa (sessão 6, #89, 2026-10-16): na carapaça de tartaruga, em cima da jangada, escapa ao lacedon que o tenta puxar (6), grita por socorro e acaba coberto das entranhas do morto-vivo que o Isco esmagou na jangada; encolhe-se na carapaça o resto do combate.
 
+A mesa (sessão 7, #90, 2026-10-21): Passa o rescaldo encolhido, a tentar não fazer barulho, a lavar da carapaça as entranhas do morto-vivo que o Isco esmagou ao lado dele, «a tentar lavar-se da experiência que acabou de ver». O Lucan tira-o da jangada e leva-o para o acampamento. À NOITE, no primeiro turno: o Lucan afasta-o trinta pés do resto do campo, pousa-lhe a carapaça, olha-o nos olhos e ameaça separá-lo em facadas e juntá-lo à pira se achar que lhe mente. Com uma Intimidação 14 (com vantagem) CONFESSA O QUE SUSSURROU AO CORVELO no primeiro encontro: «Disse-lhe que vocês eram perigosos, e que devia ter cuidado convosco. E que vocês também queriam ir para o Forte.» Insight 19 do Lucan: está muito nervoso, a voz quebra-lhe, e escolhe as palavras com muitíssimo cuidado — demora uma fração de segundo a mais a dizê-las —, mas não parece estar a mentir. Fica a saber que ali não é intocável; arrasta a carapaça de volta para onde estava, com a Sousela de besta carregada a ver tudo.
+
 ## Objetivo
 
 Voltar ao Império e proteger a filha (fachada: ir para casa; o Forte Ventura serve).

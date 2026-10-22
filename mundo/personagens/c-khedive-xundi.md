@@ -42,6 +42,8 @@ origem:
 
 **Monster Manual (2014):** Grande, CA 17, 229 PV, voa e nada; aquano e comum, telepatia a 36 m; conhecido pela vaidade e pela arrogância, julga-se o mais nobre dos génios; *plane shift*, *gaseous form*, *invisibility*, *control water* e *conjure elemental* (só da água) uma vez por dia cada. Genasi (Explorer's Guide to Wildemount): o genasi da água é «descendente dos marids turbulentos»; em Monte Selvagem, sem fendas para os Planos Elementais, os poucos genasi costumam nascer de uma influência elemental forte no momento do nascimento; a maior parte vive com os Ashari de Tal'Dorei ou nos Planos Elementais.
 
+A mesa (sessão 7, #90, 2026-10-21): A VOZ DENTRO DA MOEDA, ouvida só pelo Boblin, a mandá-lo sair para o mundo: «Vá, não tenhas medo. Vai, explora. Afinal, o mundo é a tua ostra. E eu estarei aqui a ouvir tudo. Vá, está na hora de ires; não prolongues a tua visita, que isso é má educação. Depois quero saber tudo. Mal posso esperar.»
+
 ## Objetivo
 
 Divertir-se com as aventuras do Boblin e cobrar a vingança.

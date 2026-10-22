@@ -37,6 +37,7 @@ tags:
 origem:
   - grelha
   - tiago
+atitudeAtual: amarrado
 ---
 
 ## Resumo
@@ -59,6 +60,8 @@ Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pe
 **A moeda, como o Boblin a conhece.** Uma moeda de ouro grossa que encontrou num corpo nos pântanos: numa face um goblin de perfil, na outra o brasão do Concílio de Clóvis (cunhada em Nicodranas). Por ela vêm-lhe os poderes e uma voz; não sabe que a voz é de um génio. Desde então, emoções e vontades ampliadas: mais excêntrico e impulsivo; a calma, a sociabilidade, a desconfiança e a ganância multiplicadas.
 
 **Carácter.** Calmo, sociável, desconfiado, ganancioso. Laço: os irmãos. Defeito: ganância por objetos valiosos. Confia cegamente nos irmãos; os outros têm de ganhar a confiança. Rivais: a sociedade goblin e os pais (abandonaram-no, um em sentido figurado, o outro à letra). Maior arrependimento: ter levado a irmã a quase perder a vida por seguir o exemplo dele. Aprendeu a cuidar de si e dos seus e a ver os outros como ameaças. Se não houvesse forma de corrigir: negação, raiva, negociação, depressão, vingança. Ideal: por responder (não percebeu a pergunta). Trinket: um pergaminho com o desenho de uma engenhoca mecânica.
+
+A mesa (sessão 7, #90, 2026-10-21): ENTRADA EM JOGO (Tiago Rosas, estreia). Dentro da moeda, a figura ao lado dele manda-o sair: «Vá, não tenhas medo. Vai, explora. Afinal, o mundo é a tua ostra. E eu estarei aqui a ouvir tudo… Depois quero saber tudo. Mal posso esperar.» Aparece sentado em cima da jangada da patrulha, a olhar para uma moeda à sua frente, no início da tarde do dia 4, ao lado de três cadáveres. Descrito pelo jogador: verde, cabelo preto, OLHOS NOTORIAMENTE AMARELOS, pequeno mas não minúsculo, com roupas modestas de quem está habituado a andar pelos pântanos e pelas florestas. O Lucan trinca-o no pescoço sem lhe perguntar nada (23, 6 de dano) e segura-o com os dentes; ele falha o short sword (10); o Corvelo levanta-se — «Alto! Ninguém se mexa! Quem és tu? Eles são vossos?» — e manda amarrá-lo. O Casqueiro amarra-o com a corda da cintura, em cima da jangada, com sangue a escorrer do pescoço. No interrogatório («Responde! És um espião? Estavas a espiar-nos?») faz-se de amnésico (Deception 7) e devolve a acusação — foram eles que apareceram do nada; eles desistem e garantem só que fica amarrado. Repara (Perceção 11) que falta à patrulha a batedora que tinha passado uma noite fora. A LIA CURA-O à distância com *Healing Word* (6 PV) à frente de todos e diz ao sargento que não compactua com prisões arbitrárias. Acaba a noite amarrado e pendurado numa árvore do acampamento, sem mordaça e COM TODAS AS FACAS: ninguém se lembrou de o desarmar. A Sousela acaba a noite a vigiá-lo.
 
 ## Objetivo
 

@@ -27,6 +27,8 @@ Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obe
 
 Depois do forte (S7), vai com a Sousela à Guarnição da Cinza pedir reforços. Próxima da Marta Coelho, sobrevivente do salão (`c-marta-coelho`). (Decidido pelo DM (2026-10-21))
 
+A mesa (sessão 7, #90, 2026-10-21): Trata os três corpos na jangada e fecha-lhes os olhos sem se abalar (Insight: não parece incomodada com o que tem à frente). Nos colegas recentes não mexe; no Tibério para mais tempo, desata-lhe da cintura uma BOLSA PEQUENA, abre-a e faz a única cara de surpresa da patrulha: cristais de rubi por lapidar e uma moeda de ouro gorda. Olha para o Corvelo, que nem se vira, e deixa a bolsa ir para as mãos do Lucan. Quando o goblin aparece, saca as duas short swords e põe-se ao lado do sargento, calada, à espera da deixa; baixa-as devagar quando vê a prisioneira a curar o prisioneiro à distância. Fica de turno com a Lia.
+
 ## Objetivo
 
 Chegar ao forte antes de escurecer.

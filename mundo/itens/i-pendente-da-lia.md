@@ -22,3 +22,6 @@ Na S6 (#89) o Quasi tirou-o do saco da Lia, à frente dela: «Eu não estou a ro
 O dodecaedro é o símbolo do Luxon: a forma dos faróis e do Salão de Pedra, o edifício do «conselho dos três» no sonho do Lucan na S3. (Decidido pelo DM (2026-10-18))
 
 O emblema da Den Tasithar é uma lebre. Quando a Leylas Kryn fugiu de Lolth com os seus, os primeiros Tasithar iam à frente pelos túneis e foram os primeiros a sair para a superfície: a lebre é o bicho que corre à frente e encontra a saída. A Den ainda dá batedores à Vigia da Aurora (a Naevyn é uma delas). O olho-de-tigre é a pedra da Den, a cor da primeira luz que viram cá fora: o coelho da Naevyn é de olho-de-tigre, e em Bazzoxan a Lia reconhece nele o mesmo bicho do pendente (Decidido pelo DM (2026-10-17); o pendente não tem a pedra, decisão de 2026-10-18).
+
+A mesa (sessão 7, #90, 2026-10-21): DEVOLVIDO. Com Arcana 21, o Quasi confirma que o medalhão prateado não tem glifos nem inscrições, só as duas faces, e que não reage ao obelisco nem o obelisco a ele; devolve-o à Lia à beira da pedra. Para ela, as faces continuam a ser uma incógnita: nunca ninguém lhe explicou o que representam. Durante a paragem do tempo junto ao menir, quem estava de fora viu o medalhão a brilhar suspenso no ar, entre o Quasi e a Lia, com as mãos dela na direção dele.
+

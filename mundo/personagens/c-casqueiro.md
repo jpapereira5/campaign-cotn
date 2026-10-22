@@ -25,6 +25,8 @@ A mesa (sessão 6, #89, 2026-10-16): barra o Quasi com o escudo à frente da jan
 
 Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obelisco (S7). (Decidido pelo DM (2026-10-21))
 
+A mesa (sessão 7, #90, 2026-10-21): Tira o corpo do Damião da água, a escorrer água e sangue, e põe-no na jangada ao lado do Alex. Quando o Corvelo manda amarrar o goblin, lança a mão à corda que traz à cintura e amarra-o o mais depressa que consegue; mais tarde pendura-o numa árvore do acampamento. Fica com a caixa de madeira do livro de registos do escriba, entregue pelo sargento. Faz o segundo turno da noite com o Quasi: nunca viu uma mão esquerda com um olho, repara nos seis dedos da garra que ele lhe mostra («Isso é uma pata do quê? Tem seis dedos?»), diz que tenta evitar tudo o que é estranho — «aqui no pântano já vimos demasiadas coisas» — e, a olhar para as cinzas ainda incandescentes da pira: «Parece que temos tido uma maré de azar. Espero que amanhã se resolva tudo.»
+
 ## Objetivo
 
 Comer alguma coisa que não seja enguia salgada.

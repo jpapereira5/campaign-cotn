@@ -27,6 +27,8 @@ A mesa (sessão 6, #89, 2026-10-16): no combate dos lacedons, junto ao obelisco,
 
 Na noite da lua vermelha (S7) aparece no sonho do Isco ensanguentado da cabeça aos pés, com um peixe grande nas mãos: «Senhor Isco, o que é que se passa? Porquê essa cara? Eu estou bem. Está tudo ok. Não? Devia estar preocupado.» O Isco acorda e o Elmiro não está; de manhã volta com o peixe grande, limpo: «Olha, senhor Isco, olha o que eu consegui buscar!» No forte, o Rui Felder, amigo dele, julgava-o morto: «Trigueiro? Estás vivo?» (Decidido pelo DM (2026-10-21))
 
+A mesa (sessão 7, #90, 2026-10-21): Volta a aparecer pela positiva: quando se dividem os turnos da noite, voluntaria-se para ficar com o Lucan — «Eu gostava de ficar com ele, capitão» — e o Corvelo aprova: «Muito bem, Elmiro. É assim que se ganha coragem. Contamos contigo.»
+
 ## Objetivo
 
 Ir para casa, uma aldeia a norte do rio.

@@ -19,6 +19,8 @@ Moeda de ouro grossa, o vaso do génio do Boblin (Warlock, Génio). O Boblin enc
 
 **O chá:** há sempre chá acabado de fazer no centro da mesa redonda, e um lanche (ver abaixo). (Decidido pelo DM (2026-10-21))
 
+A mesa (sessão 7, #90, 2026-10-21): O Xundi manda o Boblin sair: «Vá, não tenhas medo. Vai, explora. Afinal, o mundo é a tua ostra. E eu estarei aqui a ouvir tudo… Depois quero saber tudo. Mal posso esperar.» O Boblin aparece do nada em cima da jangada da patrulha, sentado, a olhar para a moeda à sua frente — é assim que o Lucan o vê. A moeda fica com ele depois de ser amarrado; ninguém o desarmou nem lhe revistou nada.
+
 ## O interior
 
 O Refúgio no Vaso do Tasha's (cilindro de 6 m de raio e 6 m de altura, com o aspeto do vaso, almofadas, mesas baixas, temperatura agradável), na versão aquática da mesa (Decidido pelo DM (2026-10-21)).

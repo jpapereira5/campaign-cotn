@@ -27,6 +27,8 @@ origem:
 
 Guarda da capela do Forte Ventura, de farda vermelha imperial com o mocho e as espigas de trigo. Na noite do dia 3 matou o Padre Perestrelo (a espada dele ficou enterrada no peito do padre) e saiu da capela já morto, pela água; foi o lacedon de farda que o Isco desfez em cima da jangada na S6. O Corvelo reconhece-o no arranque da S7 («Tibério. Estava de guarda à capela.»). O caderninho do torneio do pátio acaba em «Tibério ganhou», com a data do dia 3. (Decisões do DM 2026-10-13 #30, 2026-10-16 #10 e #11, 2026-10-18 #4)
 
+A mesa (sessão 7, #90, 2026-10-21): NOMEADO À MESA. O corpo desfeito em cima da jangada veste uma tabard vermelha com as insígnias do Império, e é por ela que o Corvelo o reconhece: «Tibério. Como é que viste parar aqui?… Ele era o guarda da capela.» A Nália para mais tempo nele do que nos colegas e desata-lhe da cintura uma BOLSA com cristais de rubi por lapidar e uma moeda de ouro com perfil de goblin e o brasão do Concílio de Clóvis (`i-bolsa-do-tiberio`), que fica com o Lucan. O corpo é queimado na pira do acampamento, na noite do dia 4, com o Damião e o Alex.
+
 ## Objetivo
 
 Ganhar o torneio do pátio.

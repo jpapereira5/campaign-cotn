@@ -28,6 +28,8 @@ Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obe
 
 Na chegada ao forte (S7): vai à frente e espreita do topo da paliçada antes de a patrulha entrar; volta com o relato dos mortos e «Não há deles. São todos nossos.» Não vê o Fritz, quieto e sentado ao fundo da jaula. A desconfiança dos Kryn fica nos olhares, para a Lia e para o Boblin, quando diz que não «havia deles». Depois do forte, vai com a Nália à Guarnição da Cinza pedir reforços. (Decidido pelo DM (2026-10-21))
 
+A mesa (sessão 7, #90, 2026-10-21): Chega tarde ao rescaldo — o Corvelo pergunta por ela («Souzela, ainda não voltou?») e é a falta dela que o Boblin nota com uma Perceção 11. À noite não dorme: durante todo o primeiro turno vigia o Lucan agachada em cócoras ao lado da pira, com a besta CARREGADA nas duas mãos, nunca apontada, e garante que ele nunca lhe sai do campo de visão — se ele se afastar, ela volta a pôr-se onde o veja, e não diz uma palavra. Acompanha assim o interrogatório do Alberto a trinta pés do campo. Quando o Lucan devolve o gnomo à árvore, olha para a árvore, sente os ombros a relaxar, solta um mini suspiro e muda de alvo de preocupação: aproxima-se dos colegas a dormir e passa a vigiar o goblin amarrado.
+
 ## Objetivo
 
 Que isto acabe sem barulho.

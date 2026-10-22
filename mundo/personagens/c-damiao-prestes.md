@@ -26,6 +26,8 @@ Preparação da sessão 4 («Sessão 04 — Preparação: A Patrulha do Forte Ve
 
 **Morreu na sessão 6 (#89, 2026-10-16)**, no dia 4, junto ao obelisco: fugiu contra o «Não!» do Corvelo, levou o ataque de oportunidade e caiu de cara na água; a Medicina do Isco deu «o coração não bate» e o *Healing Word* do Quasi já não o trouxe. Com o corpo, na água, ficam a trança branca da Lia no pulso esquerdo, o periapto e o livro de registos; ninguém lhes mexeu (Decidido pelo DM (2026-10-17)).
 
+A mesa (sessão 7, #90, 2026-10-21): O corpo é retirado da água pelo Casqueiro e posto na jangada ao lado do Alex; a Medicina 11 do Quasi confirma que não há pulsação. O Corvelo tira-lhe a caixa de madeira com o livro de registos, que entrega ao Casqueiro para guardar, e tira-lhe também do pescoço o que lá estivesse pendurado (o periapto). A TRANÇA DE CABELO PLATINADO CONTINUA NO PULSO DELE, e com ela foi queimado na pira do acampamento, na noite do dia 4.
+
 ## Objetivo
 
 Levar ao Padre Perestrelo o catálogo do que encontrou no pântano: a prisioneira, objetos mágicos e «seres diferentes».

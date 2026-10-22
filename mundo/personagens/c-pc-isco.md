@@ -56,6 +56,8 @@ Trouxe do Farol Apagado a **Luneta da Alvorada** (`i-luneta-da-alvorada`) e deu-
 
 Ferramentas: a proficiência em alchemist's supplies da classe (dita à mesa na S1) foi trocada por Cook e cooking supplies (Decidido pelo DM (2026-10-18)).
 
+A mesa (sessão 7, #90, 2026-10-21): Já estava junto ao menir, em terra firme, quando a sessão abriu. A pedra não tem um centímetro maculado e cheira ligeiríssimamente a fumo; Investigação 7 nas pegadas: há dois tipos — sapato humano e pés pequenos, do tamanho dos de uma criança — e não consegue dizer se têm um dia ou uma semana, só que alguém passou por ali há pouco tempo. Apanha uma lasca negra do chão (`i-lascas-do-menir`; ficam mais duas). À segunda passagem (Investigação 6) percebe que o cheiro a fumo não é só fumo: é enxofre, ligeiríssimo, um cheiro que já conhecia de há muito tempo e de há pouco. Nada na direção dos outros em slow motion por causa do tempo da pedra e acelera à medida que chega. Ouve do irmão, em Thieves' Cant, que um dos mortos-vivos era da igreja do forte e que a bolsa de cristais é provavelmente o que andavam a procurar. Faz a Sobrevivência do acampamento (17) e garante terreno seco para todos; fica com o último turno da noite para fazer o pequeno-almoço e vai dormir ao topo de uma árvore, sozinho, como de costume. A subir, «literalmente como o Spider-Man», dá por si a olhar para a lua cheia de Catha e vê, um bocadinho ao lado e quase imperceptível, UMA PEQUENINA MANCHA VERMELHA no céu: a segunda lua de Exandria, que já não se via há algum tempo.
+
 ## Objetivo
 
 Encontrar uma tripulação a que pertença; pescar aquele Monstro; fazer do irmão o campeão escolhido do deus dele.

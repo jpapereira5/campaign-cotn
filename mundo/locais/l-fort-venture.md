@@ -17,3 +17,6 @@ Depois da possessão, na chegada da patrulha (dia 5): três sobreviventes no sal
 A farda da guarnição: vermelho imperial, com a insígnia de um mocho a segurar espigas de trigo. Foi dita à mesa na S6 (#89), quando o Lucan reparou que o lacedon desfeito em cima da jangada (o Tibério, só DM) tinha a mesma farda do escriba. (Decidido pelo DM (2026-10-18))
 
 As portas do salão principal (V5) estão escancaradas, como no livro; os sobreviventes estão atrás das mesas compridas deitadas, a servir de proteção, sem barricada à porta. O forte é recente: a madeira verde das ameias é madeira nova (livro), e o Aldo Kesh, pai adotivo da Lia, passou por lá há três meses (`i-livro-registos-forte`). Depois de vasculhado, o Corvelo segura o forte e manda a Sousela e a Nália à Guarnição da Cinza pedir reforços; o Alberto fica no forte. (Decidido pelo DM (2026-10-21))
+
+A mesa (sessão 7, #90, 2026-10-21): O guarda da capela TEM NOME à mesa: o Corvelo reconhece o Tibério no lacedon desfeito, pela cara e pela tabard, e diz, a olhar na direção do forte, que «era o guarda da capela». Na cintura dele vinha uma bolsa com cristais de rubi por lapidar e uma moeda do Concílio de Clovis. O grupo não chegou ao forte nesta sessão: ao fim da tarde do dia 4 pararam à saída do pântano, debaixo das falésias do Véu Quebrado, e o forte continua a horas de marcha.
+
