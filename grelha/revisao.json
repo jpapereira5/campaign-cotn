@@ -5759,8 +5759,24 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "Os cristais de rubi por lapidar da bolsa do Tibério ficaram com o Lucan, que já esfregou um (save de SAB 16). São rubídio em bruto? Carregá-los conta para a exposição prolongada das regras do rubídio (CHA save DC 5, +5 por dia)?",
+      "text": "Os cristais de rubi por lapidar da bolsa do Tibério ficaram com o Lucan, que já esfregou um (save de CAR 16). São rubídio em bruto? Carregá-los conta para a exposição prolongada das regras do rubídio (CHA save DC 5, +5 por dia)?",
       "suggestion": "Decidir se o relógio da exposição começou a contar na noite do dia 4, e quantos cristais são.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s7-06",
+      "at": "2026-10-22T12:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-pc-boblin",
+        "col": "s8"
+      },
+      "factKind": "regra",
+      "text": "Na fuga da S7 o Boblin chamou uma pixie com *find familiar*. A ficha dele (Warlock 3, Génio Marid, Charlatão) não tem de onde venha: nas regras de 2014 não há «pacto do génio» nem da moeda — o vaso (a moeda) é do patrono e não dá familiar. Um warlock só tem *find familiar* pelo Pacto da Corrente (Pact of the Chain) ou pelo Pacto do Tomo com a invocação Book of Ancient Secrets (ritual), ou por um talento (Magic Initiate de mago). E a pixie não é forma de familiar nas regras de 2014: o Pacto da Corrente dá imp, pseudodragão, quasit ou sprite (a pixie mais próxima).",
+      "suggestion": "Confirmar com o Tiago o pacto do nível 3 (o mais provável: Pacto da Corrente) e a forma do familiar (sprite em vez de pixie, ou aceitar a pixie como regra da casa). Registar na ficha do Boblin.",
+      "because": [
+        "registo/decisoes.md 2026-10-22 #7"
+      ],
       "status": "aberta"
     }
   ],

@@ -9,7 +9,7 @@ origem:
 
 ## Resumo
 
-A mesa (sessão 7, #90, 2026-10-21): três fragmentos de pedra negra soltos no chão, à base do menir do pântano ([[l-ritual-stone]]), onde alguém andou a retalhar a pedra ou a tentar tirar-lhe pedaços. O Isco apanhou um — pequeno, cabe na palma da mão — e o DM mandou registá-lo no inventário («pode ser importante mais tarde»); ficaram as outras duas no chão. A pedra faz o barulho que se espera de pedra e não deixa nada nos dedos.
+A mesa (sessão 7, #90, 2026-10-21): três fragmentos de pedra negra soltos no chão, à base do menir do pântano ([[l-ritual-stone]]), onde alguém andou a retalhar a pedra ou a tentar tirar-lhe pedaços. O Isco apanhou um — pequeno, cabe na palma da mão — e o DM mandou registá-lo no inventário («pode ser importante mais tarde»); as outras duas levou-as o Quasi, e não ficou nenhuma no chão (Decidido pelo DM (2026-10-22), #6). A pedra faz o barulho que se espera de pedra e não deixa nada nos dedos.
 
 ## Segredo
 
