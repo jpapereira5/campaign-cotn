@@ -16,4 +16,4 @@ Com os ritos interrompidos, o patrono de Bol'bara, o demónio-sombra Trush, est�
 
 ## À mesa (sessão 7)
 
-A mesa (sessão 7, #90, 2026-10-21): o Quasi viu-a, sem saber quem é: a goblin velhíssima ensanguentada do pescoço para baixo, com fumo a sair das órbitas e um riso que vem de todo o lado, a andar na direção dele debaixo de relâmpagos sem nuvem, a sussurrar «Mãe». Ninguém ligou a visão à xamã do livro de registos à mesa.
+A mesa (sessão 7, #90, 2026-10-21): o Quasi viu-a, sem saber quem é: a goblin velhíssima ensanguentada do pescoço para baixo e com uma concha branca ao peito (retcon, Decidido pelo DM (2026-10-22); o DM di-lo na abertura da S8), com fumo a sair das órbitas e um riso que vem de todo o lado, a andar na direção dele debaixo de relâmpagos sem nuvem, a sussurrar «Mãe». Ninguém ligou a visão à xamã do livro de registos à mesa.
