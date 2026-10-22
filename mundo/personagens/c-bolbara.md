@@ -58,6 +58,8 @@ Goblin anciã, seer e warlock de Urzin (CG; CE quando possuída). Raptada por so
 
 A mesa (sessão 7, #90, 2026-10-21): VISTA DUAS VEZES, sem nome nenhum dito. (1) Na visão do Quasi, quando encosta a máscara à mão de pedra do menir: uma criatura pequenina, meio esverdeada, de vestes feitas de remendos de várias roupas diferentes, COMPLETAMENTE ENSANGUENTADA DO PESCOÇO PARA BAIXO, com cabelos grisalhos colados à cabeça, a caminhar impávida na direção dele debaixo de relâmpagos sem nuvem (um racha uma árvore ao meio a dez metros; outro põe um arbusto a arder). Um riso que não vem dela — vem de todo o lado ao mesmo tempo — e palavras muito guturais numa língua que ele não identifica. Da cara saem duas colunas de fumo: nos olhos não há branco, há espaço negro. De perto é cheia de rugas, com mais anos do que a longevidade de um goblin, e abre um sorriso; os olhos abrem-se de todo, aparecem duas pupilas, e ela sussurra uma palavra — na transcrição ouve-se «Mãe» (a preparação tinha «Melora…»: por confirmar). Depois os olhos fecham-se e o riso passa a vir dela. (2) No sonho da Lia, CRIANÇA: uma goblin de seis ou sete anos, de nariz a escorrer, que mostra ao «Tio Rutz» uma rã verde morta apanhada no pântano, é levantada ao céu por ele e recebe a promessa de que um dia conseguirá uma concha branca como a dele; sai a correr a gritar «vou apanhar mais quatro! Ou cinco? Qual é o número que vem depois do cinco?». É ali que o nome dela é dito: «Bolbara».
 
+Na visão do Quasi tinha **uma concha branca ao peito** (retcon, Decidido pelo DM (2026-10-22)); o DM di-lo na abertura da S8.
+
 ## Objetivo
 
 Sobreviver e voltar a Urzin; manter Trush à distância.

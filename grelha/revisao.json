@@ -5778,6 +5778,22 @@
         "registo/decisoes.md 2026-10-22 #7"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-s8-01",
+      "at": "2026-10-22T19:40:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s8"
+      },
+      "factKind": "pista",
+      "text": "Abrir a S8 com o retcon da visão do Quasi na pedra: a goblin tinha uma concha branca ao peito (a mesma do Rutz no sonho da Lia e a que o Quasi apanhou junto à pedra).",
+      "suggestion": "Na abertura da S8, antes de tudo: «Uma correção à visão do Quasi: ao peito, a goblin tinha uma concha branca.»",
+      "because": [
+        "registo/decisoes.md 2026-10-22 #12"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
