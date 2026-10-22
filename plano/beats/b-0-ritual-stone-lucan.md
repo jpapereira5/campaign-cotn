@@ -1,6 +1,6 @@
 ---
 id: b-0-ritual-stone-lucan
-titulo: "A pedra que rebobina: a voz no escuro"
+titulo: "A pedra do pântano: «Tu sim» e o olho"
 arcos:
   - a-pc-lucan
   - a-prologue
@@ -17,14 +17,11 @@ revela:
 requer:
   - b-0-ritual-stone
 escolhas:
-  - opcao: Tocar
-    resultado: A memória (a voz), e o obelisco acorda um pouco — conta para o plot de Vecna.
+  - opcao: Pegar no olho
+    resultado: A visão da Bolbara possuída; a fome sobe; «Ele agora também te vê.» O obelisco acorda um pouco (a renda a Vecna).
     levaA: []
-  - opcao: Não tocar
-    resultado: Baeshra fica calado o resto do dia, ofendido.
-    levaA: []
-  - opcao: Tocar duas vezes
-    resultado: A segunda mostra o salto; Trush fala pela pedra uma frase a Bol'bara.
+  - opcao: Não pegar
+    resultado: Nada; Baeshra fica calado.
     levaA: []
 origem:
   - pcs
@@ -32,8 +29,8 @@ origem:
 
 ## Resumo
 
-Junto ao menhir negro o tempo abranda: uma libélula parada no ar, a lama a fechar-se devagar. Baeshra, pela primeira vez, pede algo que não é sangue: 'vai ver'. Se o Lucan tocar na pedra, rebobina-o por segundos — o escuro, a água, a voz ('o mar devorou-te') e a mão dele a aceitar. Quando larga, a pedra está um grau mais quente e algo lá dentro (Trush) mexeu-se; se Bol'bara já foi salva e estiver presente, olha para ele e para a pedra e não diz nada. Se já passaram pela pedra, pode ser no regresso a Urzin.
+Junto ao menir negro, à distância e sem tocar, o Lucan ouve Baeshra: «Tu sim.» (jogado na S6). Se ele pegar no olho que a mão de osso oferece, tem a mesma visão que os outros (a Bolbara possuída no pântano); a fome sobe e Baeshra diz: «Ele agora também te vê.» Cada toque paga a renda a Vecna. **Nesta pedra não há memória da noite em que morreu** (decidido pelo DM, 2026-10-22, confirmando 2026-10-12 #20): a memória (a voz, «o mar devorou-te», o salto) fica para o obelisco do mar (`b-2-sea-obelisco`). A versão anterior deste beat está na «Reserva» de `l-ritual-stone`.
 
 ## Notas
 
-Aprovado pelo DM (Decidido pelo DM (2026-10-21)). Pista 1 de r-pc-lucan-obeliscos. Não revelar que é um obelisco: só 'a pedra faz o que o pilar do mar faz', para quem já ouviu falar do pilar do mar (cap. 2).
+Aprovado pelo DM (2026-10-21 #48); conteúdo revisto a 2026-10-22. Quando o Truche voltar à pedra (Bolbara morta ou exorcizada), só o Lucan sente a fome saciar-se (2026-10-13 #8). Não revelar que é um obelisco.

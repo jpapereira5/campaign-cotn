@@ -35,6 +35,8 @@ As rãs calam-se. Depois recomeçam, graves, lentas, como uma corda de alaúde a
 
 A pedra é mais alta do que vos pareceu da margem: três, quatro metros de rocha negra, lisa como vidro, com veios de cristal a correr-lhe por dentro. Num dos lados falta-lhe um bocado, uma curva funda e irregular, como uma dentada. Não tem uma mancha de musgo. À volta dela, num círculo perfeito, o musgo está preto e seco.
 
+Na base, meio enterrado no lodo, há um cristal verde do tamanho de um punho, sem brilho nenhum. Lá dentro há uma coisa escura, quase parada. Se ficares a olhar muito tempo, mexe-se. Uma vez.
+
 À volta da pedra, a um metro, o chão está cheio de bichos mortos. Libélulas, uma rã de barriga para cima, espinhas de peixe. Nenhum cheira.
 
 A sombra da pedra estende-se pela água. Olhas para o sol, e depois outra vez para a sombra. Não aponta para o sítio certo.
@@ -77,6 +79,12 @@ Num raio de 3 m, cada teste ou toque rola 1d6: **1–3** nada; **4–6** o tempo
 | Insight, no círculo | 13 | Os ritos foram interrompidos a meio | locais narrados |
 | Perception, a inspecionar | 16 | Três fragmentos soltos: *augury* 1×/anoitecer; a mais de 10 pés perdem a magia em 1d3+1 dias (ficam frios); tirar um quarto: CHA DC 20 ou 1d6 psíquico | livro; 2026-10-07 #19 |
 | Religion, ao ver o olho | 15 | «Não é Gruumsh; Gruumsh arde, isto conta» | DM (S5) |
+
+### O cristal verde (decidido pelo DM, 2026-10-22)
+
+- Na base, meio enterrado no lodo, do tamanho de um punho, baço. Lá dentro, uma coisa escura **quase parada**: é o que se vê do Truche, a meio gás porque ele está na Bolbara. **Quando o Truche voltar à pedra**, a coisa escura mexe-se a sério (e o cristal ganha brilho).
+- É o par do cristal verde grande do pilar do mar (`l-obelisco-negro`); quem já o viu reconhece-o.
+- Tocar no cristal conta como tocar na pedra (a mão e o olho; d6 do tempo). Tentar arrancá-lo: não sai (sugestão: Explosão Necromântica a metade, como na versão da «Reserva», se insistirem).
 
 ### Usar a pedra
 
@@ -122,12 +130,12 @@ A visão (ler): Pântano, de dia. Uma goblin velha anda pela água pelos joelhos
 
 ### Discrepâncias por decidir
 
-- **A memória do Lucan nesta pedra.** A decisão 2026-10-12 #20 tira-a («cai a visão só dele»), mas o beat `b-0-ritual-stone-lucan`, aprovado a 2026-10-21 #48, mantém-na (rebobina-o, a voz, «o mar devorou-te»; ao segundo toque, o salto e uma frase do Truche). Fica por decidir qual vale.
-- **O cristal verde da base.** Duas versões, nenhuma decidida (ver «Reserva»).
+- Resolvidas a 2026-10-22: **nesta pedra o Lucan só tem a visão do olho** (vale 2026-10-12 #20; a memória da noite em que morreu fica para o obelisco do mar) e **o cristal verde é o da S5, ténue** (ver acima). Nenhuma discrepância aberta.
 
 ### Reserva (preparado e não usado; não apagar)
 
-- **Cristal verde, versão S5:** na base, meio enterrado no lodo, um cristal verde do tamanho de um punho, sem brilho; lá dentro mexe-se devagar uma coisa escura (o Truche visível).
+- **Cristal verde, versão S5 original** (adotada ténue a 2026-10-22): lá dentro «mexe-se devagar uma coisa escura»; agora está quase parada enquanto o Truche estiver fora.
+- **A memória do Lucan nesta pedra** (beat `b-0-ritual-stone-lucan`, retirada a 2026-10-22): rebobina-o por segundos (o escuro, a água, a voz «o mar devorou-te», a mão a aceitar); a pedra fica um grau mais quente e algo lá dentro mexe-se; ao segundo toque, o salto, e o Truche diz uma frase a quem estiver mais perto (o nome da pessoa, na língua dela); sem tocar, Baeshra fica ofendido o resto do dia. Fica para o obelisco do mar.
 - **Cristal verde, versão «locais narrados»:** Perception DC 18, só de noite ao luar: um cristal verde do tamanho de uma unha, baço, encaixado na base; não sai; quem o tentar tirar, Explosão Necromântica a metade (3d8 necrótico, CON DC 13, raio 30 pés). Liga ao cristal grande do pilar do mar.
 - **Aproximação «locais narrados»:** a libélula parada a dez pés; o musgo verde-vivo que não devia estar tão verde (conflita com o musgo preto e seco, cânone S5–S6); cheira a chuva antes de chover; só o vosso coração bate ao ritmo certo.
 - **Livro:** menir de ~2 m num montículo de musgo de ~3 m (a mesa jogou 3–4 m numa bacia de água).
