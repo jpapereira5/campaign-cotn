@@ -148,7 +148,7 @@ Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições re
 
 **Os obeliscos**
 - Há **três**: o obelisco negro no mar (cap. 2, já nos dados: a gaivota parada no ar), **a Ritual Stone de Bol'bara (B6) no Pântano do Véu-Quebrado** — o menhir negro é um obelisco — e **um em Ascensão dos Traidores**. Rebobinam tempo localmente. **Cada obelisco tem uma entidade planar aprisionada que o alimenta (DM, 2026-10-07): o da Ritual Stone é alimentado por Trush**, o patrono de Bol'bara (o "pacto com algo do Shadowfell" é com o prisioneiro do obelisco; os ritos dela funcionam por cima disso). Os inquilinos dos outros dois definem-se quando for preciso. O que é preciso para os ativar, ninguém sabe ainda.
-- **Ao Lucan mostram a morte dele**: tocar num obelisco rebobina-o a ele por segundos — um pedaço da noite no aboleto por obelisco (o mar: o salto; o pântano: a voz; a Ascensão: o que o corpo fez). O boon é memória, e é o que ele mais quer. Baeshra não pede nada: só diz "vai ver". Cada toque deixa o obelisco um pouco mais acordado — a renda a Vecna, sem ninguém saber.
+- **Ao Lucan mostram a morte dele**: tocar num obelisco rebobina-o a ele por segundos — um pedaço da noite no aboleto por obelisco (o mar: a voz, «o mar devorou-te», e o salto; a pedra do pântano não lhe mostra memória nenhuma, só a visão do olho (Decidido pelo DM (2026-10-22)); a Ascensão: o que o corpo fez). O boon é memória, e é o que ele mais quer. Baeshra não pede nada: só diz "vai ver". Cada toque deixa o obelisco um pouco mais acordado — a renda a Vecna, sem ninguém saber.
 
 **Objetivos**
 - **Declarado**: o rubídio e Yussa (que quer só saber o que o rubídio é, e mais nada — patrono limpo). Por cima, a influência e a dívida de Baeshra.
