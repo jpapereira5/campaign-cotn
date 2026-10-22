@@ -11,7 +11,7 @@ A cópia é só de leitura. O que se escrever lá perde-se na próxima cópia; a
 1. Repositório atualizado: `git clone https://github.com/jpapereira5/campaign-cotn` (ou `git pull` em `main`).
 2. Na Drive, lista a pasta (`parentId = '1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R'`). Se houver `manifesto.json`, descarrega-o para um ficheiro local (`manifesto-antigo.json`); se não houver, é a primeira cópia.
 3. `python3 scripts/copia-drive.py gerar SAIDA` e `python3 scripts/copia-drive.py diferencas SAIDA manifesto-antigo.json`. O segundo diz, em JSON, que peças `enviar` e que nomes `apagar`.
-4. Se `nada_a_fazer` for `true`, acaba aqui: não se envia nada.
+4. Se `nada_a_fazer` for `true`, acaba aqui: não se envia nada. Só é `true` quando não há peças para enviar nem nomes para apagar; o commit não conta, porque uma peça que falhou numa cópia anterior fica com o hash antigo no manifesto e tem de se reenviar mesmo com o commit igual (o «capítulo 3» ficou assim de 2026-10-21 a 2026-10-22).
 5. Para cada peça a enviar: lê o ficheiro local inteiro e cria-o na pasta com o mesmo nome (`text/markdown`, `disableConversionToGoogleType: true`), com o conteúdo **exatamente** igual ao do ficheiro; só depois de criado, manda para o lixo o ficheiro antigo com esse nome. Os nomes em `apagar` vão para o lixo.
 6. Depois das peças, o mesmo para o `00 LEIA-ME.md` e, por último, o `manifesto.json` (o manifesto só se troca no fim, para uma cópia interrompida se refazer no dia seguinte).
 7. Confere: lista a pasta outra vez; cada nome aparece uma só vez e o `fileSize` de cada peça enviada é igual ao tamanho do ficheiro local (`wc -c`). Uma peça com tamanho diferente reenvia-se uma vez; se voltar a falhar, fica no relatório.

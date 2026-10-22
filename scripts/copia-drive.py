@@ -227,7 +227,8 @@ def diferencas(saida, antigo):
     velho = json.load(open(antigo, encoding='utf-8')) if os.path.exists(antigo) else {'commit': None, 'pecas': {}}
     enviar = [n for n, h in novo['pecas'].items() if velho['pecas'].get(n) != h]
     apagar = [n for n in velho['pecas'] if n not in novo['pecas']]
-    igual = velho.get('commit') == novo['commit'] or (not enviar and not apagar)
+    # Só o conteúdo decide: com o mesmo commit, uma peça que falhou numa cópia anterior ainda se reenvia.
+    igual = not enviar and not apagar
     print(json.dumps({'commit_antigo': velho.get('commit'), 'commit_novo': novo['commit'], 'nada_a_fazer': igual,
                       'enviar': enviar, 'apagar': apagar}, ensure_ascii=False, indent=1))
 
