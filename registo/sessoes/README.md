@@ -4,6 +4,7 @@ Um ficheiro por sessão: cabeçalho com a mesa, o dia no mundo, os beats tocados
 
 | Sessão | Global | Data | Título | Ficheiro |
 |---|---|---|---|---|
+| 7 | #90 | 2026-10-21 | A Mão com o Olho | [s07-2026-10-21.md](s07-2026-10-21.md) |
 | 6 | #89 | 2026-10-16 | Mortos na Água | [s06-2026-10-16.md](s06-2026-10-16.md) |
 | 5 | #88 | 2026-10-07 | As Noites da Terceira Lança | [s05-2026-10-07.md](s05-2026-10-07.md) |
 | 4 | #86 | 2026-09-23 | A Traição de Alberto | [s04-2026-09-23.md](s04-2026-09-23.md) |
