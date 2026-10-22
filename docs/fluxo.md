@@ -74,6 +74,8 @@ Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e 
 
 ## Último fecho
 
+2026-10-22 (sessão 7, #90: registo a partir da transcrição inteira, o Tibério reconhecido e a bolsa de cristais, a entrada do Boblin, a pedra tocada e a mão com o olho, a marcha e a pira, o sonho do Rutz; 31 fichas e três itens novos em `mundo/`, a regra da informação entre jogadores em `mesa/regras.md`, cinco notas na Grelha; resumo v1 na Drive, documentos dos PCs refeitos (Lucan v5, Isco v6, Quasi v4, Lia v3, Boblin v2) e «Índice de sessões» e «Jogadores» atualizados em `tabletop`).
+
 2026-10-18 (sessão 6, #89: registo a partir da transcrição, mortes do Damião e do Alex, o pendente com o Quasi, o pano do culto; resumo v4 na Drive).
 
 Revisão das sessões 1 a 6 contra as transcrições: 2026-10-18 (notas `n-tr…` em `grelha/revisao.json`), feita no mesmo dia, antes do fecho da sessão 6.
