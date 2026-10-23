@@ -10,7 +10,7 @@ local: l-brokenveil-marsh
 participantes:
   - c-corvelo
   - c-casqueiro
-  - c-nalia-vasques
+  - c-nalia-thalorien
   - c-elmiro-trigueiro
   - c-lampreia
   - c-damiao-prestes

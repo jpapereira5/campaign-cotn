@@ -1,6 +1,6 @@
 ---
-id: c-nalia-vasques
-nome: Cabo Nália Vasques
+id: c-nalia-thalorien
+nome: Cabo Nália Thalorien
 tipo: npc
 facoes:
   - f-dwendalian-empire
@@ -28,6 +28,10 @@ Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obe
 Depois do forte (S7), vai com a Sousela à Guarnição da Cinza pedir reforços. Próxima da Marta Coelho, sobrevivente do salão (`c-marta-coelho`). (Decidido pelo DM (2026-10-21))
 
 A mesa (sessão 7, #90, 2026-10-21): Trata os três corpos na jangada e fecha-lhes os olhos sem se abalar (Insight: não parece incomodada com o que tem à frente). Nos colegas recentes não mexe; no Tibério para mais tempo, desata-lhe da cintura uma BOLSA PEQUENA, abre-a e faz a única cara de surpresa da patrulha: cristais de rubi por lapidar e uma moeda de ouro gorda. Olha para o Corvelo, que nem se vira, e deixa a bolsa ir para as mãos do Lucan. Quando o goblin aparece, saca as duas short swords e põe-se ao lado do sargento, calada, à espera da deixa; baixa-as devagar quando vê a prisioneira a curar o prisioneiro à distância. Fica de turno com a Lia.
+
+**A família e o irmão** (Decidido pelo DM (2026-10-23)): o apelido é **Thalorien**, élfico, verdadeiro e assumido (substitui «Vasques», da preparação da S4, nunca dito à mesa). O **irmão mais novo, Elian Thalorien**, alistou-se com ela e morreu no **ataque dos Kryn à Guarnição da Cinza**, a guarnição a sul do pântano, para onde ela vai ser mandada depois do forte (decisão 2026-10-21 #72). Não tem ligação ao Aldo. Debaixo do véu, **olhos azuis profundos**; «o meu irmão tinha os mesmos».
+
+**Na S8, no turno com a Lia** (Decidido pelo DM (2026-10-23)): fala-lhe em élfico, tira o véu, e faz-lhe as perguntas de seguida, sem esperar resposta: «Porque curaste o Alex?» · «Os teus dizem que a alma volta. É verdade? Achas que o meu irmão também voltará? Serei capaz de o reconhecer noutra pessoa?» · «Porque nos acompanhas? Porque ainda não nos tentaste matar? Porque queres ir ao forte?» Lembra-se vagamente do halfling da Alma de Cobalto que passou pelo forte (o Aldo): o pormenor está no livro do comandante.
 
 ## Objetivo
 

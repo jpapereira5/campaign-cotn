@@ -536,7 +536,7 @@ combatentes:
 - id: nalia
   nome: Nália
   lado: aliado
-  ref: c-nalia-vasques
+  ref: c-nalia-thalorien
   ca: 14
   pv: 13
   ini: 3

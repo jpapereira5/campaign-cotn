@@ -17,7 +17,7 @@ tags:
   - anao
 legenda: guarda de besta firme
 relacoes:
-  - com: c-nalia-vasques
+  - com: c-nalia-thalorien
     tipo: knows
     nota: próximas; é a única com quem fala da noite
     origem: dm

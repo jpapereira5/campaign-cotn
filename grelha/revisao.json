@@ -3333,7 +3333,7 @@
         "row": "f-dwendalian-empire",
         "col": "s4"
       },
-      "text": "[média] À mesa o DM diz da patrulha «Não, são todos humanos» (0:43:33), mas c-nalia-vasques (S5) diz «À mesa é uma ELFA»; o s04 não regista a frase. [substituída: decisão 2026-10-18 #5]",
+      "text": "[média] À mesa o DM diz da patrulha «Não, são todos humanos» (0:43:33), mas c-nalia-thalorien (S5) diz «À mesa é uma ELFA»; o s04 não regista a frase. [substituída: decisão 2026-10-18 #5]",
       "suggestion": "O DM decide (a Nália passou despercebida de capacete e véu, ou foi um olhar rápido) e acrescenta-se ao s04 a frase dita.",
       "because": [
         "transcrição S4 (#86) 0:43:33"
@@ -5966,6 +5966,23 @@
       "suggestion": "Por decidir: inspiração a quem participar com sinceridade; a atitude do Corvelo sobe um grau; uma segunda cena do Quasi pode ficar para a capela do forte (o Tibério era o guarda da capela).",
       "because": [
         "registo/decisoes.md 2026-10-23 #20"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-12",
+      "at": "2026-10-23T20:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "Turno da Lia com a Nália Thalorien: em élfico, o véu fora (olhos azuis profundos, «o meu irmão tinha os mesmos»), e as perguntas de seguida: porque curaste o Alex? A alma volta? O meu irmão (Elian, morto pelos Kryn na Guarnição da Cinza) voltará, e reconhecê-lo-ia noutra pessoa? Porque nos acompanhas, porque ainda não nos tentaste matar, porque queres ir ao forte? Lembra-se vagamente do Aldo.",
+      "suggestion": "Ramificações (proposta): se a Lia se abrir, a Nália conta como o irmão morreu e ajuda-a de manhã no forte (distrai o Corvelo ou lê o livro com ela); se defender os Kryn ou ficar fria, o véu volta e passa a vigiá-la; se mentir (Intuição +3), «Mentes como eles», e o véu volta. A pergunta da alma é semente da consecução da Lia (ela não sabe).",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #21",
+        "registo/decisoes.md 2026-10-23 #22"
       ],
       "status": "aberta"
     }
