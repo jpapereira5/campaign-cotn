@@ -5952,6 +5952,22 @@
       "tags": [
         "so-dm"
       ]
+    },
+    {
+      "id": "n-s8-11",
+      "at": "2026-10-23T19:45:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-missao-patrulha",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "Abertura da S8: concha → sonho do Isco (o Elmiro não está) → alvorada (o Elmiro volta com o peixe; save do Lucan) → ritos fúnebres junto às brasas, pedidos pelo Corvelo («Ontem ninguém disse nada por eles. Não fica assim. Quem souber palavras, que as diga.») → marcha para o forte. Dar tempo ao Quasi para as cenas em Vistani do Pedro Silva.",
+      "suggestion": "Por decidir: inspiração a quem participar com sinceridade; a atitude do Corvelo sobe um grau; uma segunda cena do Quasi pode ficar para a capela do forte (o Tibério era o guarda da capela).",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #20"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
