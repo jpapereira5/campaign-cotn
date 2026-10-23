@@ -173,6 +173,7 @@ Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições re
 4. **Cruzado com o Isco**: matar Alyxian derrete todo o rubídio — o que faz isso à licantropia rubídica do Isco? Decidir no Isco.
 5. **A adaga ficou com o Quasi** (sessão 3): foi ele que a identificou e recusou-se a entregá-la; o Lucan respondeu «não me testes». **Desde a sessão 5 está ao cinto do Lucan**: tirou-a ao Quasi enquanto ele dormia e devolveu-a; o Quasi deu-lha de livre vontade na manhã do dia 3. Decidir se o reconhecimento em Jigau (`b-1-mirimm-reconhece`) dispara em quem a traz ao cinto ou em quem a reclama — e o que acontece se a tensão entre os dois rebentar antes disso.
 6. **A fome do santuário** não passa com comida desde a sessão 3. Decidir quanto tempo dura, se tem custo mecânico, e o que quer dizer «Perto. Não aqui.» — a única coisa que a voz disse.
+7. **Ideia futura do DM (2026-10-23), por explorar: um sonho perto da Ascensão dos Traidores em que o Lucan come um braço com o anzol tatuado.** Os dois irmãos têm a tatuagem, por isso o braço pode ser do Isco ou dele; prefigura a oferta de Sess'inek (o preço é devorar uma parte do Isco). Falta escrever o sonho e decidir de quem é o braço. Reconstruído das notas da conversa: as palavras exatas do DM perderam-se.
 
 ---
 

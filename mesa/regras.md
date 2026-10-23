@@ -118,7 +118,7 @@ A **exposição** (carregar rubídio embrulhado, no bolso ou a dormir com ele; d
 
 ### Sonhos
 
-**Sonho de Tempestade** (primeira noite de quem tocou / carrega o cristal): "O som da fogueira extingue-se, e o mundo à tua volta dissolve-se. Agora estás sozinha num planalto vermelho. À tua frente estão os teus companheiros, imóveis, de costas para ti. Não se mexem. O céu escurece e uma tempestade vermelha aproxima-se, rodopiando como um vórtice. Tentas chamá-los. Gritas. Mas ninguém responde. Os olhos deles brilham, fixos em ti. O vento empurra-te para trás. A terra treme. E depois... acordas." A personagem desperta suada; o cristal está gelado ao toque. Perception DC 20: "por um momento, juras que está maior do que a última vez que o viste."
+**Sonho de Tempestade** (campanha anterior, era para a Elga; ideia futura: versão aquática para o Isco, Ruidusborn, ver `c-pc-isco`) (primeira noite de quem tocou / carrega o cristal): "O som da fogueira extingue-se, e o mundo à tua volta dissolve-se. Agora estás sozinha num planalto vermelho. À tua frente estão os teus companheiros, imóveis, de costas para ti. Não se mexem. O céu escurece e uma tempestade vermelha aproxima-se, rodopiando como um vórtice. Tentas chamá-los. Gritas. Mas ninguém responde. Os olhos deles brilham, fixos em ti. O vento empurra-te para trás. A terra treme. E depois... acordas." A personagem desperta suada; o cristal está gelado ao toque. Perception DC 20: "por um momento, juras que está maior do que a última vez que o viste."
 
 **Sonhos da Calamidade** — o jogador começa a sonhar com cenas da Calamidade: combates, conflitos, cenários diferentes (floresta antiga vs. desterros atuais), mudando consoante o sítio onde estão, sempre com um pano de fundo / céu vermelho.
 

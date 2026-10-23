@@ -5917,6 +5917,41 @@
         "registo/decisoes.md 2026-10-23 #16"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-s8-09",
+      "at": "2026-10-23T16:45:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "ch2"
+      },
+      "factKind": "cena",
+      "text": "Ideia futura: o Sonho de Tempestade (`mesa/regras.md`, «Sonhos», escrito para a Elga na campanha anterior) numa versão aquática para o Isco, por ser Ruidusborn, quando andarem no mar.",
+      "suggestion": "Escrever a versão do mar e decidir o gatilho (noite de lua vermelha, flash de Ruidus, ou a primeira noite embarcado).",
+      "because": [
+        "mundo/personagens/c-pc-isco.md, Em aberto (DM, 2026-10-23)"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-10",
+      "at": "2026-10-23T16:45:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "ch3"
+      },
+      "factKind": "cena",
+      "text": "Ideia futura: perto da Ascensão dos Traidores, o Lucan sonha que come um braço com o anzol tatuado (os dois irmãos têm a tatuagem). Prefigura a oferta de Sess'inek: o preço é devorar uma parte do Isco.",
+      "suggestion": "Escrever o sonho e decidir se o braço é do Isco ou do próprio Lucan (a ambiguidade pode ficar até à oferta).",
+      "because": [
+        "mundo/personagens/c-pc-lucan.md, Em aberto (DM, 2026-10-23)"
+      ],
+      "status": "aberta",
+      "tags": [
+        "so-dm"
+      ]
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

@@ -122,6 +122,7 @@ Fechado base a base (linha A: o mar do lado dele; linha B: Ruidus), com os ponto
 3. **Beats por capítulo** (ronda seguinte): o aboleto do mar e Belmiro, a Marisa, o Scylla, os flashes, Marquet e a caravana, Cael Morrow, o ancião.
 4. A ideia do jogador de uma missão em que acordam sem se lembrar da noite anterior: encaixa num flash.
 5. **O sangue de Skr'a S'orsk** (sessão 3): o Isco ligou-o pelo cheiro às entidades de sombra do Farol Apagado, e dos objetos do xamã só a garra de seis dedos tem o mesmo cheiro. Decidir o que um xamã de pântano tem a ver com aquilo — e se isto puxa o Farol Apagado para esta campanha.
+6. **Ideia futura do DM (2026-10-23), por explorar: o Sonho de Tempestade em versão aquática.** O sonho das regras do rubídio (`mesa/regras.md`, «Sonhos») foi escrito para a Elga na campanha anterior; o DM quer usá-lo no Isco, por ser Ruidusborn, numa versão do mar (quando andarem embarcados, cap. 2). Falta escrever a versão e decidir o gatilho.
 
 ---
 
