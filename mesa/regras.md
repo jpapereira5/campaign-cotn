@@ -311,7 +311,7 @@ Integrar no mundo (mestre-ferreiro de Jigau, bibliotecária da Alma de Cobalto, 
 
 O élfico de Monte Selvagem não tem vocabulário canónico. **À mesa, o élfico é o sindarin de Tolkien** (*O Senhor dos Anéis*): palavras e frases curtas que já existem, sem inventar gramática (Decidido pelo DM (2026-10-23)). O DM diz a frase em élfico, e depois passa para português para quem a percebe; os outros só ouviram élfico.
 
-**Como se escreve a pronúncia** (Decidido pelo DM (2026-10-23)): sempre com letras que um português lê sem pensar, e a sílaba tónica em maiúsculas.
+**Como se escreve** (Decidido pelo DM (2026-10-23)): **nos textos para o DM ler (preparações, falas, folhas de mesa), o élfico escreve-se já como se pronuncia**, com letras que um português lê sem pensar e a sílaba tónica em maiúsculas, sem a grafia sindarin nem a pronúncia entre parênteses: «Mai go-VÁ-nen. PÉ-dirr é-THÉ-len?». A grafia sindarin fica só neste glossário, para referência.
 
 | No sindarin | Escreve-se na pronúncia | Soa como |
 |---|---|---|
