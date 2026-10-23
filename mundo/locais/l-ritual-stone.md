@@ -105,12 +105,12 @@ Ler: Da pedra, ou de trás dela, estende-se uma mão. Não é carne: é osso, pr
 
 **Só quem pegar no olho vê. Pegar é consentir.** O olho é de Vecna, sem nome: está numa mão, não numa cara; é frio e paciente, não furioso, está a fazer contas; quem lhe pega sente-se lido (2026-10-12 #18).
 
-A visão (ler): Pântano, de dia. Uma goblin velha anda pela água pelos joelhos, direita como nunca andou, com os olhos cheios de sombra. Não é ela quem anda. Atrás dela, longe, arrastam-se figuras, todas na mesma direção, que é a dela. Um relâmpago cai sem nuvem e rasga uma árvore ao lado dela. Por um segundo, só um, a cara muda e é uma velha assustada que diz, em goblin: «Melora…» Depois a sombra volta a fechar-se. A mão fecha-se. O olho já não está lá.
+A visão (ler): Pântano, de dia. Uma goblin velha anda pela água pelos joelhos, direita como nunca andou, com os olhos cheios de sombra. Não é ela quem anda. Atrás dela, longe, arrastam-se figuras, todas na mesma direção, que é a dela. Um relâmpago cai sem nuvem e rasga uma árvore ao lado dela. Por um segundo, só um, a cara muda e é uma velha assustada que diz, em goblin: «Mãe…» (vago de propósito: a quem é dita fica por dizer; Decidido pelo DM (2026-10-23)) Depois a sombra volta a fechar-se. A mão fecha-se. O olho já não está lá.
 
 - **Lucan:** a fome sobe; no fim Baeshra diz «Ele agora também te vê.» Cada toque paga a renda a Vecna (2026-10-12 #20).
 - **Lia:** déjà vu, conhece aquela goblin de outra vida.
 - **Quasi:** é a xamã do livro de registos; só lhe serve viva.
-- **Boblin:** é a Bolbara, a xamã da vila dele; percebe o «Melora…», a fé da família (prep S7).
+- **Boblin:** é a Bolbara, a xamã da vila dele; ouve-lhe o «Mãe…» (a prep S7 tinha «Melora…», a fé da família: fica na Reserva).
 - **Todos:** o olho viu-os. Fica aberto.
 - **Truche, se falar:** em Abissal (o Isco percebe); a Bolbara repete por cima em Goblin, sem saber (a Lia e o Boblin percebem); o Quasi ouve duas vozes desencontradas que doem nos dentes.
 
@@ -136,10 +136,11 @@ A visão (ler): Pântano, de dia. Uma goblin velha anda pela água pelos joelhos
 ### Discrepâncias por decidir
 
 - Resolvidas a 2026-10-22: **nesta pedra o Lucan só tem a visão do olho** (vale 2026-10-12 #20; a memória da noite em que morreu fica para o obelisco do mar) e **o cristal verde é o da S5, ténue** (ver acima). Nenhuma discrepância aberta.
-- **Abertas depois da S7 (2026-10-21):** (1) a palavra sussurrada na visão ouve-se como **«Mãe»** e não «Melora…»; (2) o Quasi **não pegou no olho** — encostou-lhe a máscara — e teve a visão de qualquer maneira, pelo que o «pegar é consentir» (2026-10-12 #18) fica por rever, e também se o olho ficou aberto e se a renda a Vecna se paga igual; (3) a Arcana 21 não deu as runas de manipulação do tempo (previstas aos 20) nem a Religião 15 deu a abjuração virada para dentro.
+- **Abertas depois da S7 (2026-10-21):** (1) a palavra sussurrada na visão ouve-se como **«Mãe»** e não «Melora…» [fechada: «Mãe», vaga de propósito, decisão 2026-10-23 #19]; (2) o Quasi **não pegou no olho** — encostou-lhe a máscara — e teve a visão de qualquer maneira, pelo que o «pegar é consentir» (2026-10-12 #18) fica por rever, e também se o olho ficou aberto e se a renda a Vecna se paga igual; (3) a Arcana 21 não deu as runas de manipulação do tempo (previstas aos 20) nem a Religião 15 deu a abjuração virada para dentro.
 
 ### Reserva (preparado e não usado; não apagar)
 
+- **«Melora…»** (prep S7): a palavra que a velha dizia na visão, a fé da família do Boblin. À mesa ouviu-se «Mãe», que ficou (decisão 2026-10-23 #19).
 - **Cristal verde, versão S5 original** (adotada ténue a 2026-10-22): lá dentro «mexe-se devagar uma coisa escura»; agora está quase parada enquanto o Truche estiver fora.
 - **A memória do Lucan nesta pedra** (beat `b-0-ritual-stone-lucan`, retirada a 2026-10-22): rebobina-o por segundos (o escuro, a água, a voz «o mar devorou-te», a mão a aceitar); a pedra fica um grau mais quente e algo lá dentro mexe-se; ao segundo toque, o salto, e o Truche diz uma frase a quem estiver mais perto (o nome da pessoa, na língua dela); sem tocar, Baeshra fica ofendido o resto do dia. Fica para o obelisco do mar.
 - **Cristal verde, versão «locais narrados»:** Perception DC 18, só de noite ao luar: um cristal verde do tamanho de uma unha, baço, encaixado na base; não sai; quem o tentar tirar, Explosão Necromântica a metade (3d8 necrótico, CON DC 13, raio 30 pés). Liga ao cristal grande do pilar do mar.

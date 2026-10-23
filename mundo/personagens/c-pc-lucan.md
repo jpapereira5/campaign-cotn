@@ -160,7 +160,7 @@ Fechado base a base (linha A: o mar; linha B: Baeshra), com as contradições re
 **Regras (ver `mesa/regras.md`)**
 - **A Fera a 0 PV**: não fica inconsciente — levanta-se com a Fera, trinca o caído mais próximo (amigo ou inimigo) e só depois cai. Ao voltar, olhos de sangue e uma multidão a gritar "Lucan, Lucan, Lucan". Em Rage *quer* trincar — roleplay, sem obrigação. Sem tabelas.
 
-- **Os 7 cristais da bolsa do Tibério** (`i-bolsa-do-tiberio`) contam como exposição prolongada para quem os carrega: na manhã do dia 5 (S8), o Lucan faz o save de exposição prolongada (Charisma DC 5); falhar dá uma Marca na Alma (d8). (Decidido pelo DM (2026-10-23))
+- **Os 7 cristais da bolsa do Tibério** (`i-bolsa-do-tiberio`) contam como exposição prolongada para quem os carrega: na manhã do dia 5 (S8), o Lucan faz o save de exposição prolongada (Charisma DC 5); falhar dá uma Marca na Alma (d8); o 1 natural dá a Marca e 1 exaustão, que o corrompe; a CD sobe 5 por cada dia seguido que os carregar (Decidido pelo DM (2026-10-23))
 - **Vecna tem um olho sobre o grupo** desde o olho da pedra; o fio pode voltar ao Lucan (ou ao Quasi). (Decidido pelo DM (2026-10-23))
 
 ## Em aberto (para o DM decidir)

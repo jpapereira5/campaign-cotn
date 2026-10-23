@@ -2,67 +2,86 @@
 
 Regras que não estão no livro. As marcadas **PROPOSTA (Remix)** vêm do *Remixing Call of the Netherdeep* (Justin Alexander); as marcadas **DM** são decisões do mestre.
 
-## Ruidium Metamagic (Remix, adotado com limite)
-
-O livro permite usar 1 onça de rubídio como componente material no valor de 500 gp, com um DC 20 Charisma save (falha: 1 nível de exaustão e corrupção). O Remix acrescenta:
-
-- Qualquer conjurador pode gastar rubídio ao lançar um feitiço para reproduzir uma opção de **Metamagic** (como o sorcerer), gastando um número de onças igual aos sorcery points que a opção custaria.
-- Por cada onça usada assim, DC 20 Charisma save, com as mesmas consequências.
-- Só uma opção de Metamagic por feitiço via rubídio; um sorcerer pode ainda aplicar uma opção sua diferente.
-
-Intenção: tornar o rubídio uma tentação mecânica real para os PCs.
-
-**Limite da mesa** (Decidido pelo DM (2026-10-21)): as opções de Metamagia que custam 1 ou 2 sorcery points também se compram com a dose de 10 g de Suude Vermelho (ver abaixo); as que custam 3 ou mais só pelo cristal em bruto, por esta regra.
-
 ## Rubídio (DM)
 
-Regras próprias do DM, sobre a corrupção do livro (ver «Corrupção»). **Uma marca na alma no máximo por exposição:** se a falha no Constitution save já deu marca, a falha no Charisma save que se segue só dá a corrupção (Decidido pelo DM (2026-10-21)).
+Regras próprias do DM, revistas de ponta a ponta a 2026-10-23 (Decidido pelo DM (2026-10-23)): **cristal para a magia, suude (pó) para o corpo**, **10 po por grama**, **só saves de Carisma**. Substituem as regras do rubídio de 2026-10-21 (Constitution saves, dano psíquico nas falhas, doses de 5 po e 10 po, 1 g = 1 po no componente, a Metamagia pelo suude).
 
 O rubídio é um cristal avermelhado com veios pulsantes, nascido da dor do Apoteão durante a Calamidade. Leve (1 g/cm³), instável e poderoso: magia intensa em troca de um risco constante de exaustão, corrupção e marcas na alma.
 
-### Cristal (em bruto)
+**De onde vêm as regras.** O livro (CotN, p. 10) só tem a corrupção (save de Carisma, CD pela «virulência» do rubídio, de 15 a 20) e os itens de rubídio (arma, armadura, escudo, Ring of Red Fury), que nunca ferem quem os usa. O *Remixing Call of the Netherdeep* (Justin Alexander) cita como «mecânica existente» uma onça de rubídio = 500 gp de componente com CHA DC 20, **que não está no CotN** (procurado no PDF), e propõe o Ruidium Metamagic (onças por sorcery point, CHA DC 20 por onça). O suude e os 4d10 psíquicos vêm do suude de residuum do *Tal'Dorei Reborn*. O resto é da mesa.
 
-**Contacto** — cada vez que a pele toca no cristal sem proteção (luvas, pano ou caixa evitam; carregá-lo embrulhado conta para a Exposição prolongada) (Decidido pelo DM (2026-10-21)). Constitution save DC 5.
-- Sucesso: nada.
-- Falha: 1d10 dano psíquico + 1 marca na alma.
-- Em caso de falha: Charisma save DC 20 contra corrupção.
+### Formas, preços e usos
 
-**Foco arcano** — um cristal de 100 g ou mais amplifica a magia usada para dano / cura **máximo**. Constitution save DC 15.
-- Sucesso: nada.
-- Falha: 2d10 dano psíquico + 1 marca na alma.
-- Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
-- Em caso de falha: Charisma save DC 20 contra corrupção.
+Não há refinamento nem distinção entre puro e cortado: ou é cristal, ou é cristal moído (suude, pó inalado). **Preço de mesa: 10 po por grama.** Moer um cristal leva uns minutos, com qualquer coisa dura, de luvas ou com um pano, fora de combate e sem teste.
 
-**Arma** — lâminas ou pontas de rubídio causam +2d6 de dano psíquico. **Quem é atingido** e tira nat 1 no save ou no teste para se defender desse ataque faz Charisma save DC 20 contra corrupção: a arma corrompe os alvos, não quem a usa (Decidido pelo DM (2026-10-21)).
+| Forma | Peso | Preço | Para quê |
+|---|---|---|---|
+| Pedaço (foco) | 100 g ou mais | 1000 po | Raro: encontra-se assim. Foco arcano. |
+| Cristal | 10 g (do tamanho de um polegar) | 100 po | Componente que se gasta, Metamagia, ou moer em suude. |
+| Dose forte | 10 g de suude (um cristal moído) | 100 po | Golpe Rubro. |
+| Dose leve | 5 g de suude (meio cristal) | 50 po | Deteção e visões. |
 
+- **Componente material** (cristal; gasta-se no feitiço): substitui componentes com custo em ouro ao preço do rubídio: **1 cristal = 100 po de componente** (o diamante de 500 po = 5 cristais, 50 g).
+- **Foco arcano** (pedaço de 100 g; não se gasta): o feitiço de dano ou de cura faz o **máximo**. No máximo 3 usos por dia.
+- **Metamagia** (só cristais; qualquer classe com feitiços): **1 cristal por sorcery point** que a opção custaria; todas as opções exceto Heightened Spell. Só uma opção de Metamagia por feitiço via rubídio; um sorcerer pode ainda aplicar uma opção sua diferente (Remix).
+- **Dose leve** (5 g): os olhos brilham em vermelho por 10 minutos; deteta rubídio num raio de 9 m (30 ft) e dá visões da Calamidade no sítio. Bloqueio da deteção: 30 cm de pedra, 3 cm de metal comum, uma camada de chumbo ou 1 m de madeira ou terra. Com a Jóia das Três Preces: visões de Alyxian (ver «Jóia + suude»).
+- **Dose forte** (10 g), **Golpe Rubro:** durante 1 minuto, o primeiro ataque físico de cada turno faz o **dano máximo**; e tudo o que a dose leve dá.
+- Quem toma suude fica com os olhos raiados de sangue até ao próximo descanso longo.
 
-### Suude Vermelho (rubídio refinado)
+### Saves
 
-Substância ilegal derivada de rubídio, vendida em doses de **5 g (5 po)** ou **10 g (10 po)**. (Na mesa, sessão 14: 10 po por 2 doses; a vendedora só negociava se lhe trouxessem cristais.) O uso deixa os olhos *bloodshot* até ao próximo long rest.
+**Todos os saves de rubídio são de Carisma.** No Netherdeep e na Ascensão dos Traidores, **+5 a todas as CDs**.
 
-**Dose de 5 g** — os olhos brilham em vermelho por 10 minutos; deteta fragmentos de rubídio num raio de 10 m (30 ft) e provoca visões de estruturas ou acontecimentos da Calamidade no local. Bloqueio de deteção: 30 cm de pedra, 3 cm de metal comum, uma camada de chumbo ou 1 m de madeira/terra. Constitution save DC 10:
-- Sucesso: nada.
-- Falha: 2d10 psíquico + marca na alma.
-- Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
-- Em caso de falha: Charisma save DC 20 contra corrupção.
+**Usos (escada).** A **1.ª dose leve** entre descansos é grátis: sem save e não sobe a escada. Qualquer outro uso (a 2.ª dose leve, a dose forte, o componente, a Metamagia, o foco) faz save de **CD 15, +5 por cada uso desde o último descanso** (curto ou longo); a escada é partilhada entre todos os usos. **Vários cristais de uma vez são um só save**, mas cada cristal conta como um uso (uma Quickened com 2 cristais, como primeiro uso, é CD 20).
 
-**Dose de 10 g** — tudo o da dose de 5 g e o utilizador pode aplicar **uma opção de Metamagia que custe 1 ou 2 sorcery points** à próxima magia que lançar (mesmo sem ser sorcerer) (Decidido pelo DM (2026-10-21)); as mais caras só pelo cristal (Ruidium Metamagic). Constitution save DC 15:
-- Sucesso: nada.
-- Falha: 4d10 psíquico + marca na alma.
-- Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
-- Em caso de falha: Charisma save DC 20 contra corrupção.
+| Uso desde o descanso | CD | No Netherdeep | Falha com Carisma +0 | Falha com Carisma +5 |
+|---|---|---|---|---|
+| 1.º | 15 | 20 | 70% | 45% |
+| 2.º | 20 | 25 | 95% | 70% |
+| 3.º | 25 | 30 | 100% | 95% |
 
-**Componente material** — pode substituir componentes materiais com custo em ouro (**1 g = 1 po**: vale o que custa; o ganho é tê-lo à mão, não poupar ouro) (Decidido pelo DM (2026-10-21)). Charisma save DC 10:
-- Sucesso: nada.
-- Falha: 2d10 psíquico + marca na alma.
-- Falha por 10 ou mais: 0 HP, inconsciente e estável + marca na alma.
-- Em caso de falha: Charisma save DC 20 contra corrupção.
+**Riscos fora da escada** (CD fixa; não sobem a escada nem são subidos por ela):
 
-### Corrupção (como o livro) (Decidido pelo DM (2026-10-21))
+| Risco | CD | Quando |
+|---|---|---|
+| Toque breve (pegar, passar de mão em mão) | 5 | por episódio |
+| Exposição (carregar embrulhado, no bolso, dormir com ele) | 5, +5 por cada dia seguido | uma vez por dia, de manhã; volta a zero depois de um dia inteiro sem rubídio |
+| Contacto prolongado sem proteção (pele com rubídio mais de um ou dois minutos, encostado à pele, numa ferida) | 10 | por episódio |
+| Arma de rubídio: quem a usa tira 1 no ataque | 15 | cada vez |
+| Armadura de rubídio: quem a usa tira 1 num save; escudo: usar a Reflexão Psíquica | 15 | cada vez |
+| Arma de rubídio: quem é atingido por um crítico (20 natural) | 10 | cada vez |
 
-- **Ficar corrompido:** falhar um Charisma save contra corrupção dá **1 nível de exhaustion** e a criatura fica corrompida, se ainda não estava.
-- **Enquanto corrompida:** leva **1d10 de dano psíquico sempre que a exhaustion sobe ou desce 1 nível**. A exhaustion cura normalmente (long rest, *greater restoration*…).
-- **Nível de corrupção** = o nível de exhaustion mais alto que atingiu desde que ficou corrompida. Não desce quando a exhaustion desce. É este número que conta para os sinais físicos, as habilidades de rubídio e a insanidade.
+Moer de luvas ou com pano não pede save. Os rivais e os NPCs seguem as mesmas regras.
+
+**O efeito acontece sempre.** O save decide o preço, não o poder. A CD fixa-se no momento do uso, e o dado lança-se **no fim**: num feitiço instantâneo, num componente, na Metamagia ou no foco, no fim do turno de quem usou; num efeito com duração (doses, concentração), quando o efeito acaba ou quando o combate acaba, o que vier primeiro. Vários saves pendentes lançam-se juntos.
+
+**Falha e 1 natural.** **Toda a falha dá uma Marca na Alma.**
+
+| Caso | Falha | 1 natural |
+|---|---|---|
+| Usos, quem usa uma arma, armadura ou escudo, quem é atingido | Marca na Alma + 1 exaustão (corrompe) | o mesmo + 1 turno de emoção |
+| Contactos (toque breve, exposição, contacto prolongado) | Marca na Alma | Marca + 1 exaustão (corrompe), sem emoção |
+
+**Turno de emoção** (d4, até ao fim do próximo turno; a tabela do Grito do Apoteão): 1 Tristeza: *stunned*. 2 Raiva: ataca de imediato a criatura mais próxima, aliada ou não (com a reação, se a tiver). 3 Culpa: larga as armas e tem desvantagem no próximo ataque. 4 Medo: usa o movimento e a ação para se afastar da fonte. Imunes a *frightened* ignoram o Medo e voltam a rolar. Fora de combate, a emoção dura uma cena e o jogador interpreta-a. Não é o Apoteão a aparecer: é só a emoção.
+
+**Sem dano direto nas falhas.** Não há regra de vício: as habilidades e os poderes já são incentivo suficiente.
+
+### Corrupção (Decidido pelo DM (2026-10-21; revista a 2026-10-23))
+
+- **Ficar corrompido:** falhar um save de rubídio que dê exaustão dá **1 nível de exhaustion** e a criatura fica corrompida, se ainda não estava (como o livro).
+- **Nível de corrupção** = o nível de exhaustion mais alto que atingiu desde que ficou corrompida. Não desce quando a exhaustion desce, e **nunca é menor do que a exaustão**: num corrompido, **toda a exaustão conta, venha de onde vier** (marcha forçada, fome, feitiços). É este número que conta para os sinais físicos, as habilidades de rubídio e a insanidade.
+- **Dano:** **só quando o nível de corrupção sobe** (a exaustão bate um máximo novo), a criatura leva **tantos d10 psíquicos quantos o nível em que estava** (Decidido pelo DM (2026-10-23)). Descer a exaustão, ou voltar a subi-la sem passar o máximo, não dá dano. Regra da casa: o livro dá 1d10 sempre que a exaustão sobe ou desce.
+
+| A corrupção sobe de | Dano |
+|---|---|
+| 0 → 1 | nenhum |
+| 1 → 2 | 1d10 |
+| 2 → 3 | 2d10 |
+| 3 → 4 | 3d10 |
+| 4 → 5 | 4d10 |
+| 5 → 6 | morte |
+
+- A exhaustion cura normalmente (long rest, *greater restoration*…). Exaustão de 2014: a partir do nível 3, os saves (incluindo os de rubídio) fazem-se com desvantagem.
 - **Fim da corrupção:** só *wish* ou *divine intervention* (ou a redenção do Apoteão, no fim do livro). Tirar a exhaustion não chega.
 
 Sinais físicos por nível de corrupção (aparecem e não saem até a corrupção acabar):
@@ -78,9 +97,7 @@ Sinais físicos por nível de corrupção (aparecem e não saem até a corrupç�
 
 ### Marcas na Alma (sintomas psicológicos)
 
-Efeitos psicológicos narrativos resultantes da presença continuada de rubídio ou do nível de corrupção. Contribuem para os pontos de insanidade (ver "Insanidade").
-
-**Quando se rola** (Decidido pelo DM (2026-10-21)): ao falhar um saving throw contra corrupção, e ao falhar o save diário de exposição prolongada (abaixo). Os efeitos **desaparecem após um long rest**.
+Efeitos psicológicos narrativos da presença do rubídio. **Rolam-se em toda a falha de um save de rubídio** e **desaparecem após um long rest**. **Não dão pontos de insanidade** (Decidido pelo DM (2026-10-23)).
 
 Ao falhar o save, rola 1d8:
 
@@ -97,7 +114,7 @@ Ao falhar o save, rola 1d8:
 
 ### Exposição prolongada
 
-Após um dia inteiro de exposição contínua a rubídio (carregar o cristal, dormir junto dele, dias na Ascensão): **Charisma save DC 5, +5 por cada dia adicional**. Falha: uma Marca na Alma até ao próximo long rest. **Nat 1:** visões com impacto narrativo (flashbacks da Calamidade, memórias corrompidas). Na mesa: um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
+A **exposição** (carregar rubídio embrulhado, no bolso ou a dormir com ele; dias na Ascensão) faz-se pela tabela «Riscos fora da escada» acima: **CD 5 de manhã, +5 por cada dia seguido**, a contagem volta a zero depois de um dia inteiro sem rubídio; falha = Marca na Alma; 1 natural = Marca + 1 exaustão (Decidido pelo DM (2026-10-23)). Na mesa (campanha anterior): um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
 
 ### Sonhos
 
@@ -107,7 +124,7 @@ Após um dia inteiro de exposição contínua a rubídio (carregar o cristal, do
 
 ### Habilidades por nível de corrupção
 
-A cada nível de corrupção os jogadores desbloqueiam ataques ou habilidades específicas de rubídio (inspiração: BG3, Dishonored). **Todos os PCs as podem usar. Os NPCs só se tiverem conhecimento arcano ou vontade forte (*strong willed*), o que o DM decide caso a caso** (Decidido pelo DM (2026-10-21)). **Nenhuma habilidade escala com a corrupção**: os valores são fixos, para não empurrar ninguém a corromper-se mais (e a morrer) (Decidido pelo DM (2026-10-21)). **Reforço:** algumas habilidades ficam mais fortes se quem as usa aceitar **+1 nível de exhaustion**. Esse nível **não sobe o nível de corrupção**, mas dá o 1d10 psíquico como qualquer mudança de exaustão de um corrompido, **no início da habilidade, quando se ativa o reforço** (Decidido pelo DM (2026-10-21)), cura-se normalmente, e a exaustão 6 continua a matar (Decidido pelo DM (2026-10-21)).
+A cada nível de corrupção os jogadores desbloqueiam ataques ou habilidades específicas de rubídio (inspiração: BG3, Dishonored). **Todos os PCs as podem usar. Os NPCs só se tiverem conhecimento arcano ou vontade forte (*strong willed*), o que o DM decide caso a caso** (Decidido pelo DM (2026-10-21)). **Nenhuma habilidade escala com a corrupção**: os valores são fixos, para não empurrar ninguém a corromper-se mais (e a morrer) (Decidido pelo DM (2026-10-21)). **Reforço:** algumas habilidades ficam mais fortes se quem as usa aceitar **+1 nível de exhaustion**, ganho **no início da habilidade, quando se ativa o reforço** (Decidido pelo DM (2026-10-21)). **Essa exaustão conta para o nível de corrupção:** se levar a criatura a um máximo novo, a corrupção sobe e leva o dano da tabela da «Corrupção» (Decidido pelo DM (2026-10-23)). É o **único caso em que uma habilidade de rubídio dá exaustão**; sem reforço, as habilidades não custam nada. Cura-se normalmente, e a exaustão 6 continua a matar (Decidido pelo DM (2026-10-21)).
 
 **1. Vínculo Mental (Kalashtar Mindlink)** — ação; ligação telepática bidireccional com uma criatura que consigas ver a até **30 ft** (Decidido pelo DM (2026-10-21)). Não precisam de partilhar língua, mas ela tem de compreender pelo menos uma. Dura 1 hora mesmo que deixem de se ver ou se afastem; comunicação à vontade; só uma criatura ligada de cada vez (ligar outra termina a anterior); podes terminar com uma ação. *At will.* **Reforço** (Decidido pelo DM (2026-10-21)): cada nível extra de exaustão compra um destes, acumuláveis: alcance ilimitado no mesmo plano (com quem já tenhas visto); duas criaturas ligadas ao mesmo tempo (que também se ouvem uma à outra); duração de 8 horas.
 
@@ -172,7 +189,7 @@ Base: *Insanity System* de Zac Chaney (Lair Magazine, fev. 2022; PDF «Insanity 
 
 **Graus.** 0–9 grau 1; 10–19 grau 2; 20–39 grau 3; 40 ou mais, risco de colapso mental permanente.
 
-**Fontes de pontos.** Experiências traumáticas: chegar a 0 PV, ver coisas que nenhum mortal devia ver, ver morrer um aliado ou NPC querido, visões falhadas, ser alvo do Grito do Apoteão, cada nível de corrupção, cada marca na alma, um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep; +1 por dia), conviver de perto com o Quasi (ver «A máscara do Quasi»), ou trauma que o próprio jogador declare em roleplay.
+**Fontes de pontos.** Experiências traumáticas: chegar a 0 PV, ver coisas que nenhum mortal devia ver, ver morrer um aliado ou NPC querido, visões falhadas, ser alvo do Grito do Apoteão, cada nível de corrupção (as Marcas na Alma e o turno de emoção do rubídio não dão pontos: decisão 2026-10-23), um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep; +1 por dia), conviver de perto com o Quasi (ver «A máscara do Quasi»), ou trauma que o próprio jogador declare em roleplay.
 
 **Quantos pontos por trauma.** Os do PDF (Decidido pelo DM (2026-10-21)): em cada trauma rola-se o d10 na tabela do grau atual e somam-se os pontos da linha que sair (grau 1: 1 a 5; grau 2: 3 a 7; grau 3: 6 a 10). O defeito dessa linha só entra se ainda não houver um desse grau, ou se o DM o quiser trocar. Substitui o 1d10 com teto anunciado na S6.
 

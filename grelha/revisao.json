@@ -5707,9 +5707,9 @@
         "col": "s7"
       },
       "factKind": "cena",
-      "text": "Na visão do menir, a goblin sussurra uma palavra. Na transcrição (2:06:48) ouve-se «Mãe»; a preparação e a ficha da pedra tinham «Melora…». Qual é o cânone? Se for «Mãe», a quem é dita — à Melora, à mãe dela, ou a quem está a ver?",
+      "text": "Na visão do menir, a goblin sussurra uma palavra. Na transcrição (2:06:48) ouve-se «Mãe»; a preparação e a ficha da pedra tinham «Melora…». Qual é o cânone? Se for «Mãe», a quem é dita — à Melora, à mãe dela, ou a quem está a ver? [substituída: «Mãe», vaga de propósito, decisão 2026-10-23 #19]",
       "suggestion": "Fixar a palavra na ficha de l-ritual-stone e em c-bolbara; o registo da S7 está marcado «por confirmar».",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s7-02",
@@ -5858,10 +5858,12 @@
         "col": "s8"
       },
       "factKind": "estado",
-      "text": "Manhã do dia 5: o Lucan carrega os 7 cristais da bolsa do Tibério (exposição prolongada) e faz o save de Charisma DC 5; falhar dá uma Marca na Alma (d8).",
+      "text": "Manhã do dia 5: o Lucan carrega os 7 cristais da bolsa do Tibério (exposição) e faz o save de Charisma DC 5; falhar dá uma Marca na Alma (d8); o 1 natural dá a Marca e 1 exaustão, que o corrompe. Cada dia seguido a carregá-los sobe a CD 5.",
       "suggestion": "Save de exposição do Lucan de manhã.",
       "because": [
-        "registo/decisoes.md 2026-10-23 #7"
+        "registo/decisoes.md 2026-10-23 #7",
+        "registo/decisoes.md 2026-10-23 #12",
+        "registo/decisoes.md 2026-10-23 #13"
       ],
       "status": "aberta"
     },
@@ -5894,6 +5896,25 @@
       "suggestion": "Falar com o Tiago antes da S8.",
       "because": [
         "registo/decisoes.md 2026-10-23 #4"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-08",
+      "at": "2026-10-23T11:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-mesa-regras-da-casa",
+        "col": "s8"
+      },
+      "factKind": "estado",
+      "text": "As regras do rubídio mudaram (revistas a 2026-10-23): só saves de Carisma; usos com CD 15, +5 por cada uso desde o descanso (a 1.ª dose leve é grátis); toque breve e exposição CD 5, contacto prolongado CD 10; toda a falha dá Marca na Alma; o 1 natural dos usos dá um turno de emoção; sem dano direto nas falhas; 10 po por grama (dose leve 50 po, dose forte 100 po, cristal 100 po). Se a mesa já ouviu alguma das regras antigas (Constitution saves, dano psíquico, 5 e 10 po), corrigir.",
+      "suggestion": "Explicar à mesa no início da S8, antes do save do Lucan, e dizer as CDs em voz alta antes de cada uso. Resumo em `mesa/regras.md`, «Rubídio».",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #10",
+        "registo/decisoes.md 2026-10-23 #12",
+        "registo/decisoes.md 2026-10-23 #13",
+        "registo/decisoes.md 2026-10-23 #16"
       ],
       "status": "aberta"
     }

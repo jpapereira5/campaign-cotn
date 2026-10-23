@@ -17,7 +17,7 @@ requer:
   - b-1-festival-seeds
 escolhas:
   - opcao: Comprar suude
-    resultado: 10 po por 2 doses; regras do suude (mesa/regras.md); Ilyra fica a saber que os PCs consomem.
+    resultado: dose leve (5 g) 50 po, dose forte (10 g) 100 po (decisão 2026-10-23 #10); regras do suude (mesa/regras.md); Ilyra fica a saber que os PCs consomem.
     levaA: []
   - opcao: Trazer-lhe cristais
     resultado: abre a porta ao esquema de contrabando; Ilyra pode partilhar quem mais compra (o arcanista; "comerciantes marítimos").
@@ -32,7 +32,7 @@ origem:
 
 ## Resumo
 
-Na banca de gemas do festival (e na loja recém-aberta nas Águas-da-Carne), Ilyra Céu-Pálido, de véu, pergunta telepaticamente a quem carrega rubídio se "não tem nada para vender" ("Compreendo perfeitamente."). Vende suude vermelho: 10 po por 2 doses de 5 g; só negocia a sério com quem traga cristais ("não menos de 30 po"). Com Identify: 10 g = uma opção de Metamagia (Con CD 10, 2d10; nat 1 → Cha CD 20; falhar ambos = 1 exaustão + 1 corrupção); 5 g = 10 min de olhos vermelhos, deteta cristais a 30 ft e visões do passado do local (bloqueio: 30 cm de pedra, 3 cm de metal, chumbo, 1 m de madeira/terra). Ilyra usa o pó para detetar quem carrega o cristal (Elga). Lê a sorte: "há uma ponte no teu futuro" — a ponte do Ifolon leva a um pequeno templo de Avandra na rocha. Ace, com 5 g, encontrou um santuário antigo de Sehanine submerso nas Águas-da-Carne.
+Na banca de gemas do festival (e na loja recém-aberta nas Águas-da-Carne), Ilyra Céu-Pálido, de véu, pergunta telepaticamente a quem carrega rubídio se "não tem nada para vender" ("Compreendo perfeitamente."). Vende suude vermelho ao preço de mesa: dose leve (5 g) 50 po, dose forte (10 g) 100 po (decisão 2026-10-23 #10; na campanha anterior, 10 po por 2 doses de 5 g, "não menos de 30 po"); só negocia a sério com quem traga cristais. Com Identify: 10 g = dose forte (Golpe Rubro: 1 minuto de dano máximo no primeiro ataque físico de cada turno; a Metamagia é só com cristais); 5 g = 10 min de olhos vermelhos, deteta cristais a 30 ft e visões do passado do local (bloqueio: 30 cm de pedra, 3 cm de metal, chumbo, 1 m de madeira/terra). Ilyra usa o pó para detetar quem carrega o cristal (Elga). Lê a sorte: "há uma ponte no teu futuro" — a ponte do Ifolon leva a um pequeno templo de Avandra na rocha. Ace, com 5 g, encontrou um santuário antigo de Sehanine submerso nas Águas-da-Carne.
 
 ## Notas
 
