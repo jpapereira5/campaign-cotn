@@ -5978,11 +5978,13 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "Turno da Lia com a Nália Thalorien: em élfico, o véu fora (olhos azuis profundos, «o meu irmão tinha os mesmos»), e as perguntas de seguida: porque curaste o Alex? A alma volta? O meu irmão (Elian, morto pelos Kryn na Guarnição da Cinza) voltará, e reconhecê-lo-ia noutra pessoa? Porque nos acompanhas, porque ainda não nos tentaste matar, porque queres ir ao forte? Lembra-se vagamente do Aldo.",
-      "suggestion": "Ramificações (proposta): se a Lia se abrir, a Nália conta como o irmão morreu e ajuda-a de manhã no forte (distrai o Corvelo ou lê o livro com ela); se defender os Kryn ou ficar fria, o véu volta e passa a vigiá-la; se mentir (Intuição +3), «Mentes como eles», e o véu volta. A pergunta da alma é semente da consecução da Lia (ela não sabe).",
+      "text": "Turno da Lia com a Nália Thalorien (noite do dia 4): em élfico («Mai go-VÁ-nen. PÉ-dirr é-THÉ-len?»), o véu fora (íris dourada, como a do irmão; mistério), as três perguntas (o Alex; a alma e o Elian; porque os acompanha e porque querem o forte), a lembrança do Aldo, e o fecho («Nada a reportar»). Falas na «Ficha de mesa» de c-nalia-thalorien.",
+      "suggestion": "Usar a Ficha de mesa da Nália. Se correr bem, no forte ajuda a Lia com o livro do comandante e despede-se com «Na-VAIR».",
       "because": [
         "registo/decisoes.md 2026-10-23 #21",
-        "registo/decisoes.md 2026-10-23 #22"
+        "registo/decisoes.md 2026-10-23 #22",
+        "registo/decisoes.md 2026-10-23 #25",
+        "registo/decisoes.md 2026-10-23 #28"
       ],
       "status": "aberta"
     }
