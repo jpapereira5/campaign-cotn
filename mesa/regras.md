@@ -307,6 +307,31 @@ Disponibilidade depende do sítio (numa grande cidade há sábios para uma líng
 
 Integrar no mundo (mestre-ferreiro de Jigau, bibliotecária da Alma de Cobalto, o velho apicultor que ensina herbalismo); usar um relógio de progresso e marcos narrativos quando o dado encolhe; este módulo substitui (ou convive com) o Training de Xanathar's — escolher um método por campanha; sem as 4 h mínimas não há Training Check; 4 h num dia de marcha normal é razoável, 8 h em viagem só com veículo/animal e descanso adequados; falhar não retrocede, só não progride; opcional "progresso arriscado": aceitar uma complicação narrativa pequena para ganhar um "meio passo" (num d10, da próxima vez rola o d8 com desvantagem).
 
+## Élfico à mesa (DM)
+
+O élfico de Monte Selvagem não tem vocabulário canónico. **À mesa, o élfico é o sindarin de Tolkien** (*O Senhor dos Anéis*): palavras e frases curtas que já existem, sem inventar gramática (Decidido pelo DM (2026-10-23)). O DM diz a frase em élfico, e depois passa para português para quem a percebe; os outros só ouviram élfico.
+
+**Como se escreve a pronúncia** (Decidido pelo DM (2026-10-23)): sempre com letras que um português lê sem pensar, e a sílaba tónica em maiúsculas.
+
+| No sindarin | Escreve-se na pronúncia | Soa como |
+|---|---|---|
+| *dh* | **th** | o «th» do inglês *the* |
+| *th* | **th** | o «th» do inglês *think* |
+| *ch* | **rr** | o «rr» de «carro» (garganta) |
+| *c* | **k** | sempre «k», mesmo antes de *e* e *i* |
+| *h* no início | **(h)** | um sopro leve, como em inglês |
+| *ae* | **ai** | «pai» |
+| *e* | **é** | «pé» (aberto) |
+| *y* | **ü** | o «u» do francês |
+
+| Sindarin | Pronúncia | Quer dizer |
+|---|---|---|
+| *Mae govannen.* | mai go-VÁ-nen | Bem encontrado(a). |
+| *Pedich edhellen?* | PÉ-dirr é-THÉ-len | Falas élfico? |
+| *Hannon le.* | (H)Á-non lé | Obrigado(a). |
+| *Muindor nín* | MUIN-dor nin | O meu irmão. |
+| *Navaer.* | na-VAIR | Adeus. |
+
 ## Componentes verbais em latim (DM)
 
 Fonte do DM: "All Latin spell chants" (r/BaldursGate3) + folha de cálculo. Cada feitiço tem a(s) palavra(s) que o conjurador diz em voz alta. "N/A" = sem encantamento; "???" = por definir.
