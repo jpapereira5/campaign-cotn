@@ -43,20 +43,25 @@ Já percebeu que estão perdidos; seria a única a dizê-lo, se o sargento não 
 
 ## Ficha de mesa
 
-*Aprovada pelo DM a 2026-10-23 (decisões #21, #22, #25, #28). As falas são invenção aprovada; do EGtW: Bysaes Tyl, os elfos que voltaram há pouco ao mundo, a consecução, a hostilidade dos Kryn aos elfos imperiais. O élfico escreve-se como se pronuncia (`mesa/regras.md`, «Élfico à mesa»).*
+*Aprovada pelo DM a 2026-10-23 (decisões #21, #22, #25, #28, #30). As falas são invenção aprovada. Do EGtW: Bysaes Tyl e a floresta antiga (Molaesmyr); Lolth e os drow na Calamidade; a consecução (ligação a um farol e morte perto dele); os «grilos»; a lâmina fria dos Kryn para os elfos do Império; a religião controlada pela Coroa. Do TDR: a traição dos drow aos elfos. Do cânone: o Alex (S5, S6), o Aldo e o livro de registos, a Guarnição da Cinza, a Sousela. O élfico escreve-se como se pronuncia (`mesa/regras.md`, «Élfico à mesa»).*
 
-### Quem é e como fala
+### Cartão de mesa
 
-- Por baixo do cansaço da guerra, uma alma gentil, moldada pelo dever de proteger quem não se pode proteger; não quer que mais ninguém tenha o destino do irmão. Pensa muito e sente muito.
-- As três perguntas seguidas são triagem: quer saber depressa quem está em perigo e quem é perigo. A dureza é cansaço, não frieza.
-- Em comum: depressa, frases curtas. Em élfico: devagar, voz baixa, frases inteiras (a língua do irmão). A mudança de ritmo é a cena.
-- Tique: «Hm.» quando arruma uma resposta. Ao irmão chama «o pequeno».
-- Não sabe o nome da Lia.
+- **Quem:** cabo do Império, elfa de Bysaes Tyl. Por baixo do cansaço da guerra, uma alma gentil, que protege quem não se pode proteger. Pensa muito e sente muito.
+- **Quer (esta noite):** saber se a alma do Elian volta; saber se a drow é perigo ou alguém a proteger.
+- **Teme:** ter sido ela a levar o irmão à guerra.
+- **Esconde:** os olhos dourados (o porquê, nem ela sabe).
+- **Voz:** em comum, depressa e seco, três perguntas seguidas; em élfico, devagar e baixo, frases inteiras. «Hm.» antes de cada pergunta nova. Ao irmão chama «o pequeno».
+- **Gesto:** a besta de mão ao alcance, do lado da fogueira; pousa-a depois da resposta sobre o Alex.
+- **Âncoras:** «MUIN-dor nin… o meu irmão tinha os mesmos.» · «No Império chamam-lhe mentira de inimigo… mas à noite queria tanto que fosse verdade.» · «Nada a reportar.»
+- **Saída:** o véu volta antes de os outros acordarem.
+- **Como olha para uma drow:** a história antiga (primos que escolheram a Aranha contra Corellon); a guerra (os Kryn de quitina e «grilos», que odeiam os elfos do Império e mataram o Elian); e a Lia, que não encaixa em nenhuma das duas.
 
 ### Turno com a Lia (S8, noite do dia 4)
 
 **Abertura**
-- Em élfico: «Mai go-VÁ-nen. PÉ-dirr é-THÉ-len?» → «Bem encontrada. Falas élfico?»
+- Senta-se ao lado da Lia sem a cumprimentar, de olhos no escuro, a besta de mão ao alcance. Seco, em élfico: «PÉ-dirr é-THÉ-len?» → «Falas élfico?»
+- Se a Lia responder em élfico: «Engraçado, falas élfico como os sacerdotes do Império.»
 - Tira o véu. Ler: *Debaixo do véu, a cara é mais nova do que a voz. A íris é dourada, como metal ao lume, e apanha a pouca luz que há. Ela não desvia os olhos.*
 - «MUIN-dor nin… o meu irmão tinha os mesmos. Há anos que ninguém me olha nos olhos e vê outra coisa que não uma farda.»
 
@@ -65,33 +70,39 @@ Já percebeu que estão perdidos; seria a única a dizê-lo, se o sargento não 
 - «O véu é para os mosquitos.» *Pausa.* «E para as perguntas.»
 - «Não sei porque são assim. A minha mãe sabia, acho eu. Nunca mo disse.»
 
-**1. O Alex** (já estava doente quando encontraram a Lia)
+**Porquê agora** (se a Lia perguntar)
+- «Andei estes dias todos a tentar perceber o que eras.»
+- «Disseram-me a vida inteira que vocês escolheram a Aranha. Depois os sacerdotes do Império disseram-me que os de lá adoram uma luz herege. E depois mataram-me o irmão. Já não sei qual das histórias é a tua.»
+
+**1. O Alex** (febre do pântano; a Lia curou-o com *Lesser Restoration* e foi amarrada a sério por isso; morreu no ataque do dia seguinte)
 - «Porque é que curaste o Alex?»
-- «Eu também o teria curado. Mas eu sou do lado dele. Tu não tinhas nenhuma razão, e foi isso que me ficou na cabeça a noite toda.»
+- «Curaste-o sabendo que te iam amarrar a sério por isso. E no dia seguinte o pântano levou-o na mesma.»
 - «Na guerra ensinam-nos a contar quem é dos nossos antes de ajudar. Tu não contaste. Não sei se isso é bondade ou loucura, e já não sei bem se há diferença.»
-- «Ele chamava pela mãe, com a febre. Tu ficaste com ele. Eu fiquei à porta, porque tinha ordens. Às vezes penso em quantas vezes fiquei à porta.»
+- «Eu vi-o arder em febre dois dias e fiquei de vigia, porque tinha ordens. Às vezes penso em quantas vezes fiquei de vigia.»
+- *Depois da resposta, pousa a besta de mão.*
 
 **2. A alma** (devagar; a Lia não sabe nada da cultura dos Kryn)
 - «Os teus dizem que a alma volta. É verdade? Achas que o meu irmão também voltará? Serei capaz de o reconhecer noutra pessoa?»
 - «Não sabes. Claro que não sabes. Criaram-te longe deles.»
-- «Os Kryn dizem que quem morre não acaba. A alma volta noutro corpo, guiada por uma luz. Chamam-lhe a consecução.»
+- «Os Kryn dizem que quem se prende às luzes deles não acaba. Morre e volta noutro corpo, perto delas. Chamam-lhe a consecução.»
+- «E quem nunca viu as luzes? O meu irmão nunca as viu.»
 - «No Império chamam-lhe mentira de inimigo, e eu repito-o quando me perguntam. Mas à noite… à noite queria tanto que fosse verdade que tenho vergonha de o dizer.»
 - «Tu achas que é?»
 - Respostas: «Pois. Eu também não sei. Vivemos tanto tempo, nós, e não sabemos o que acontece no fim. É uma piada cruel.» · «Ele ria-se de boca fechada, como quem guarda um segredo. Se alguma vez vires alguém rir assim… não, esquece. É disparate.» · «Obrigada por não mentires. Toda a gente me mentiu sobre isto. O capelão, o sargento, eu própria.»
 
 **3. Porque vem com eles**
 - «Porque nos acompanhas? Porque é que ainda não nos tentaste matar? Porque queres ir ao forte?»
-- Se a Lia falar do pai: «Um halfling? Da Alma de Cobalto? Lembro-me dele. Queria escolta pelo pântano e fazia perguntas a toda a gente. Pareceu-me um homem que andava atrás de alguma coisa que perdeu.» · «Está no livro do comandante. Toda a gente que passa pelo forte fica escrita. É a única maneira que o Império tem de se lembrar das pessoas.» · «Se queres encontrá-lo, eu ajudo-te. Não por ti. Porque se fosse o meu, eu queria que alguém me ajudasse.» → No forte, leva-a à tenda ou distrai o Corvelo.
+- Se a Lia falar do pai: «Um halfling? Da Alma de Cobalto? Lembro-me dele. Queria escolta pelo pântano. Falava pouco e escrevia muito.» · «Está no livro do comandante. Toda a gente que passa pelo forte fica escrita. É a única maneira que o Império tem de se lembrar das pessoas.» · «Se queres encontrá-lo, eu ajudo-te. Não por ti. Porque se fosse o meu, eu queria que alguém me ajudasse.» → No forte, leva-a à tenda ou distrai o Corvelo. (Não diz que foi o Corvelo quem o escoltou: é dele o «Lembro-me desse».)
 - Se ficar vaga ou mentir (Intuição +3): «Não tens de me dizer. Toda a gente aqui guarda alguma coisa debaixo do véu.» → No forte não a deixa sozinha: vigia-a e protege-a da Sousela.
 - Se devolver a pergunta: «Porque o sargento manda, e porque eu prometi a mim mesma que não deixava mais ninguém para trás. Se lá dentro houver alguém à espera, quero ser eu a abrir a porta.»
 
 **Se a Lia perguntar pela Nália**
-- «O meu povo voltou ao mundo há pouco tempo, e o Império quis saber de que lado estávamos. Mandaram-nos a nós para mostrar que éramos dele.»
+- «O meu povo perdeu a floresta antiga e refez a vida no norte. Quando o Império nos engoliu, quis saber de que lado estávamos. Mandaram-nos a nós para o provar.»
 - «Eu alistei-me para proteger a minha terra. O pequeno alistou-se porque eu me alistei. Seguia-me para todo o lado desde que aprendeu a andar. Seguiu-me até à guarnição.»
 - «Na Guarnição da Cinza. Quando os vossos atacaram… desculpa. Quando os Kryn atacaram.»
 
 **Fecho**
-- Se correu bem: «Chamava-se Elian. Há muito tempo que não dizia o nome dele em voz alta.» · «E tu? Fiz-te mil perguntas e nem te perguntei o nome.» Põe o véu antes de os outros acordarem.
+- Se correu bem: «Chamava-se Elian. Há muito tempo que não dizia o nome dele em voz alta.» · «E tu? Fiz-te mil perguntas e nem te perguntei o nome.» *Pausa.* «Mai go-VÁ-nen.» (→ «Bem encontrada.») Põe o véu antes de os outros acordarem.
 - Se correu mal: «Dorme. Eu fico. Já estou habituada a ficar.»
 - Ao acordar o Isco, alto, em comum: «Nada a reportar.»
 - No forte, à despedida, se correu bem: «Na-VAIR.»
@@ -102,6 +113,8 @@ Já percebeu que estão perdidos; seria a única a dizê-lo, se o sargento não 
 
 ### Reserva (preparado e não usado; não apagar)
 
+- Primeira versão da cena (2026-10-23, antes da revisão à luz do livro): abria com «Mai go-VÁ-nen» (cumprimento caloroso; passou para o fecho); «Ele chamava pela mãe… Eu fiquei à porta»; «Falava muito e escrevia tudo» (o Aldo); «O meu povo voltou ao mundo há pouco tempo»; «Os Kryn dizem que quem morre não acaba»; «Depois disseram-me que os de lá a largaram»; «Falas élfico como quem o aprendeu nos livros».
+- O gesto da cicatriz na mão (proposta, não aprovada).
 - «Baixa e larga» (preparação da S4): retirado pelo DM a 2026-10-23.
 - Olhos azuis profundos (primeira versão da cena): substituídos pela íris dourada.
 - «Falas como quem se lembra de alguma coisa… o olhar dos velhos da minha terra quando falam de antes do gelo» (semente da consecução da Lia): retirada.
