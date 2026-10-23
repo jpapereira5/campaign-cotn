@@ -61,7 +61,7 @@ Já percebeu que estão perdidos; seria a única a dizê-lo, se o sargento não 
 
 **Abertura**
 - Senta-se ao lado da Lia sem a cumprimentar, de olhos no escuro, a besta de mão ao alcance. Seco, em élfico: «PÉ-dirr é-THÉ-len?» → «Falas élfico?»
-- Se a Lia responder em élfico: «Engraçado, falas élfico como os sacerdotes do Império.»
+- Se a Lia responder em élfico: «Engraçado, falas élfico como os sacerdotes do Império. Um élfico antigo, que já só existe nos livros. Todos os Kryn falam assim?»
 - Tira o véu. Ler: *Debaixo do véu, a cara é mais nova do que a voz. A íris é dourada, como metal ao lume, e apanha a pouca luz que há. Ela não desvia os olhos.*
 - «MUIN-dor nin… o meu irmão tinha os mesmos. Há anos que ninguém me olha nos olhos e vê outra coisa que não uma farda.»
 
