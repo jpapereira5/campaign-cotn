@@ -131,6 +131,8 @@ A visão (ler): Pântano, de dia. Uma goblin velha anda pela água pelos joelhos
 
 - **Retcon da visão do Quasi (decidido pelo DM, 2026-10-22 #12):** a goblin tinha **uma concha branca ao peito**, como a do Rutz no sonho da Lia e a que o Quasi apanhou junto à pedra. O DM di-lo na abertura da S8.
 
+- **O olho ficou aberto e conta (decidido pelo DM, 2026-10-23 #6):** o toque com a máscara do Quasi vale como tocar; **Vecna tem agora um olho sobre eles.** Como, fica por decidir; o fio volta ao Quasi ou ao Anzol.
+
 ### Discrepâncias por decidir
 
 - Resolvidas a 2026-10-22: **nesta pedra o Lucan só tem a visão do olho** (vale 2026-10-12 #20; a memória da noite em que morreu fica para o obelisco do mar) e **o cristal verde é o da S5, ténue** (ver acima). Nenhuma discrepância aberta.

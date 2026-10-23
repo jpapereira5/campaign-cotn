@@ -5720,9 +5720,9 @@
         "col": "s7"
       },
       "factKind": "estado",
-      "text": "O Quasi não pegou no olho: encostou-lhe a máscara (2:02:57) e teve a visão de qualquer maneira. A ficha diz «só quem pegar no olho vê; pegar é consentir» (2026-10-12 #18) e que o olho fica aberto. Vale o mesmo para o toque com a máscara? Paga a renda a Vecna?",
+      "text": "O Quasi não pegou no olho: encostou-lhe a máscara (2:02:57) e teve a visão de qualquer maneira. A ficha diz «só quem pegar no olho vê; pegar é consentir» (2026-10-12 #18) e que o olho fica aberto. Vale o mesmo para o toque com a máscara? Paga a renda a Vecna? [substituída: o toque com a máscara conta; Vecna tem um olho sobre eles, decisão 2026-10-23 #6]",
       "suggestion": "Rever a secção «Quem toca» de l-ritual-stone: ou o toque com objeto conta como consentir, ou a visão do Quasi foi uma exceção da pedra.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s7-03",
@@ -5733,9 +5733,9 @@
         "col": "s7"
       },
       "factKind": "registo",
-      "text": "Na descrição do interrogatório do Boblin (1:37:21) o Corvelo tem «uma greatsword à cintura»; o cânone dá-lhe machado de abordagem e besta pesada.",
+      "text": "Na descrição do interrogatório do Boblin (1:37:21) o Corvelo tem «uma greatsword à cintura»; o cânone dá-lhe machado de abordagem e besta pesada. [substituída: a arma do Corvelo passa a greatsword, decisão 2026-10-23 #8]",
       "suggestion": "Confirmar a arma: ou a ficha passa a espada grande, ou foi lapso de narração e fica o machado.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s7-04",
@@ -5746,9 +5746,9 @@
         "col": "s7"
       },
       "factKind": "registo",
-      "text": "A sessão não teve título dito à mesa. O registo entrou com «A Mão com o Olho» como sugestão.",
+      "text": "A sessão não teve título dito à mesa. O registo entrou com «A Mão com o Olho» como sugestão. [substituída: o título fica em aberto, define-o o grupo, decisão 2026-10-23 #9]",
       "suggestion": "Confirmar o título ou dar outro (alternativas: «Tio Rutz», «Meia Hora por Minuto», «A Bolsa do Tibério»).",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s7-05",
@@ -5759,9 +5759,9 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "Os cristais de rubi por lapidar da bolsa do Tibério ficaram com o Lucan, que já esfregou um (save de CAR 16). São rubídio em bruto? Carregá-los conta para a exposição prolongada das regras do rubídio (CHA save DC 5, +5 por dia)?",
+      "text": "Os cristais de rubi por lapidar da bolsa do Tibério ficaram com o Lucan, que já esfregou um (save de CAR 16). São rubídio em bruto? Carregá-los conta para a exposição prolongada das regras do rubídio (CHA save DC 5, +5 por dia)? [substituída: 7 cristais, exposição prolongada, save do Lucan na manhã do dia 5, decisão 2026-10-23 #7]",
       "suggestion": "Decidir se o relógio da exposição começou a contar na noite do dia 4, e quantos cristais são.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s7-06",
@@ -5792,6 +5792,108 @@
       "suggestion": "Na abertura da S8, antes de tudo: «Uma correção à visão do Quasi: ao peito, a goblin tinha uma concha branca.»",
       "because": [
         "registo/decisoes.md 2026-10-22 #12"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-02",
+      "at": "2026-10-23T00:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "O sonho do Isco no último turno (com o Elmiro): o turno começa normal e já é o sonho — o Elmiro ensanguentado com o peixe grande («Porquê essa cara? Eu estou bem… Não? Devia estar preocupado.»). Acorda de verdade para o turno real, com sangue na boca e nas mãos, e o Elmiro não está. De manhã volta com um peixe grande nos braços.",
+      "suggestion": "O sonho do Isco e o Elmiro desaparecido até de manhã.",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #1"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-03",
+      "at": "2026-10-23T00:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "O sonho do Quasi: vê de fora, do sítio do bobo, sem se mexer, o sonho que a Lia viveu por dentro do Rutz (as tartarugas em círculo, o hobgoblin de mãos vermelhas que levanta a goblin ao céu, a concha ao peito).",
+      "suggestion": "O sonho da Lia visto pelo Quasi.",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #2"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-04",
+      "at": "2026-10-23T00:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-laco-quasi-alberto",
+        "col": "s8"
+      },
+      "factKind": "segredo",
+      "text": "No forte, o Alberto usa *invisibility* para se separar do grupo e ir à tenda do comandante arrancar a página dele do caderno de recompensas.",
+      "suggestion": "O Alberto invisível no forte.",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #3"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-05",
+      "at": "2026-10-23T00:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-lucan",
+        "col": "s8"
+      },
+      "factKind": "estado",
+      "text": "Manhã do dia 5: o Lucan carrega os 7 cristais da bolsa do Tibério (exposição prolongada) e faz o save de Charisma DC 5; falhar dá uma Marca na Alma (d8).",
+      "suggestion": "Save de exposição do Lucan de manhã.",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #7"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-06",
+      "at": "2026-10-23T00:30:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "t-missao-patrulha",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "O grupo chega ao Forte Ventura na manhã do dia 5 (acabaram a S7 perto das falésias do Véu-Quebrado). A preparação v10 do forte (secções 6 a 10) passa para a S8, com luz de dia em vez do anoitecer.",
+      "suggestion": "Chegada ao forte de manhã.",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #5"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-07",
+      "at": "2026-10-23T00:30:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-pc-boblin",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "Como volta o Boblin ao grupo, e o que o Tiago quer? A pixie libertou-o; está escondido perto do acampamento.",
+      "suggestion": "Falar com o Tiago antes da S8.",
+      "because": [
+        "registo/decisoes.md 2026-10-23 #4"
       ],
       "status": "aberta"
     }

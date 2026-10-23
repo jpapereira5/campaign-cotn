@@ -192,6 +192,9 @@ Fechado base a base (linha A: a caravana; linha B: a maldição), depois de reso
 
 **A combinar com o Pedro: fechado** (2026-10-20). Não há nada por negociar. A fusão com o real já tinha sido negociada e não existe (o cemitério nunca sai do sítio); «só ele tira a máscara» ficou como ele o escreveu, e passa a selo mágico; a cura não custa features; e o item «o campeão a arrancar a cabeça e usar os gritos» foi cortado por ser órfão — não havia nada no cânone que o descrevesse.
 
+- **O sonho do Quasi (S8, noite do dia 4):** vê de fora, à distância, do sítio do bobo de máscara branca e sem se conseguir mexer, o sonho que a Lia viveu por dentro do Rutz: as tartarugas em círculo, o hobgoblin de mãos vermelhas que levanta a goblin ao céu, a concha ao peito dele. (Decidido pelo DM (2026-10-23))
+- **Vecna tem um olho sobre o grupo:** o olho da mão de pedra viu o Quasi quando lhe encostou a máscara; conta como tocar. O fio volta ao Quasi ou ao Anzol; como, fica por decidir. (Decidido pelo DM (2026-10-23))
+
 ## Em aberto (para o DM decidir)
 
 1. **Beats por capítulo** (ronda seguinte): onde entram Brishen, a Aloysia, a entrada cedo no demiplano (no contexto certo, nunca por acidente), a feira, o zigurate, a catedral; e as pistas para os `r-pc-quasi-*`.
