@@ -2,7 +2,7 @@
 
 O repositório tem uma cópia de leitura na Drive, na pasta `DND/cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`): um documento Markdown por peça do cânone (PCs, NPCs por letra, locais, beats por capítulo, uma sessão por documento, decisões, mesa, documentação), o `00 LEIA-ME.md` com o commit e o índice, e o `manifesto.json` (sha256 de cada peça). Cada ficha aparece sob um título com o nome e o caminho, com o cabeçalho YAML num bloco de código.
 
-Quem a mantém é o **Claude**: **depois de cada push ao repositório, na mesma conversa** (decidido pelo DM a 2026-10-21 #86: a cópia tem de estar sempre atualizada, porque também serve de consulta), numa tarefa agendada diária (decidido pelo DM a 2026-10-20) e no fim de cada fecho de sessão, logo a seguir ao push (decidido pelo DM a 2026-10-20). O Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, por isso a cópia vai em peças de até ~80 KB e só se reenviam as que mudaram. Não há zip: o repositório inteiro descarrega-se do GitHub (Code → Download ZIP).
+Quem a mantém é o **Claude**, **numa tarefa agendada diária** (decidido pelo DM a 2026-10-20), ou quando o DM a pede. Desde 2026-10-23 (#29) já não corre depois de cada push nem no fim do fecho: era lenta (cada peça junta muitas fichas) e o repositório é sempre a fonte de verdade. Substitui a 2026-10-21 #86. O Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, por isso a cópia vai em peças de até ~80 KB e só se reenviam as que mudaram. Não há zip: o repositório inteiro descarrega-se do GitHub (Code → Download ZIP).
 
 A cópia é só de leitura. O que se escrever lá perde-se na próxima cópia; a fonte de verdade é o repositório. O script `scripts/copia-drive.py` nunca escreve no repositório.
 

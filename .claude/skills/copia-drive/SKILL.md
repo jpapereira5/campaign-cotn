@@ -1,13 +1,13 @@
 ---
 name: copia-drive
-description: Atualizar a cópia de leitura do repositório campaign-cotn na Drive (pasta cotn_2026/github_repo), só com as peças que mudaram, e a cópia do dnd-soundboard quando o DM a pede. Usar depois de cada push ao repositório (na mesma conversa, sem pedir licença e sem deixar para a tarefa diária), na tarefa agendada diária, no fim de cada fecho (passo 12 da fecho) e quando o DM diz «atualiza a cópia na Drive» ou «faz backup do repo».
+description: Atualizar a cópia de leitura do repositório campaign-cotn na Drive (pasta cotn_2026/github_repo), só com as peças que mudaram, e a cópia do dnd-soundboard quando o DM a pede. Usar na tarefa agendada diária e quando o DM diz «atualiza a cópia na Drive» ou «faz backup do repo». Não corre depois de cada push nem no fecho (decisão 2026-10-23 #29); a fonte de verdade é sempre o repositório.
 ---
 
 # copia-drive: a cópia de leitura na Drive
 
 A cópia é **só de leitura** e a fonte de verdade é o repositório; o que se escreve na Drive perde-se na cópia seguinte. O procedimento completo está em `docs/copia-drive.md`; esta skill é a ordem de trabalho.
 
-## O repositório campaign-cotn (depois de cada push, diária e no fecho)
+## O repositório campaign-cotn (tarefa diária, ou a pedido do DM)
 
 1. `git pull` em `main` (ou clona `https://github.com/jpapereira5/campaign-cotn`).
 2. Lista a pasta `cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`) com `parentId = '…'` e `excludeContentSnippets`. Descarrega o `manifesto.json` para `manifesto-antigo.json`; se não existir, é a primeira cópia.

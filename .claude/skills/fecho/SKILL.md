@@ -26,9 +26,9 @@ trabalho e os cuidados.
 9. Grava por partes com `npm run gravar -- "<mensagem>"` (`registo: sessão N`, `mundo: …`, `grelha: absorver N entradas`); o script normaliza, valida, testa, faz commit, `pull --rebase` e push. Atualiza a data do último fecho em `docs/fluxo.md`.
 10. **Resumo na Drive:** escreve-o a partir do registo já validado (nunca ao contrário), na pasta `cotn_2026/resumo_de_sessoes` (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`), como Google Doc criado a partir de Markdown.
 11. **Documentos dos PCs na Drive:** em cada fecho, refaz o documento consolidado de cada PC pela skill `ficha-pc` (fontes, estrutura e publicação estão lá): um por PC, na pasta do PC, versão seguinte, a anterior para o lixo.
-12. **Cópia do repositório na Drive** (este passo e os anteriores fazem-se sem pedir licença, e valem também fora do fecho, em qualquer revisão ou correção; decisão 2026-10-22 #11): depois do push, atualiza a cópia de leitura em `cotn_2026/github_repo` pela skill `copia-drive` (só as peças que mudaram, manifesto no fim). Não espera pela tarefa diária.
+12. **Cópia do repositório na Drive:** não se faz no fecho; a cópia de leitura em `cotn_2026/github_repo` atualiza-se na tarefa agendada diária (skill `copia-drive`; decisão 2026-10-23 #29). Os passos anteriores fazem-se sem pedir licença e valem também fora do fecho, em qualquer revisão ou correção (decisão 2026-10-22 #11).
 13. **Registo da mesa:** atualiza o «Índice de sessões» e os «Jogadores» (Google Docs na pasta `tabletop` da Drive) com a sessão fechada, pela skill `registo-mesa`: o número global, a data, o título, a mesa e uma nota do que aconteceu, tudo tirado do registo.
-14. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar e quantas peças da cópia na Drive foram atualizadas, e o que mudou no registo da mesa.
+14. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar, e o que mudou no registo da mesa.
 
 ## A transcrição
 

@@ -77,5 +77,5 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 
 - Google Doc (Markdown convertido, **sem** cabeçalho YAML nem linha de tags) na pasta `cotn_2026/session_prep`, título «Sessão NN — Preparação: <título>». Versões novas como documento novo; a anterior que tu criaste vai para o lixo.
 - Grava nas decisões o âmbito e o que se decidiu pelo caminho (skill `decidir`); o que for plano para a sessão vai também para a Grelha como `ideia` (parte 1, passo 3).
-- Grava o repositório (`npm run gravar`) e corre a skill `copia-drive` logo a seguir.
+- Grava o repositório (`npm run gravar`); a cópia na Drive fica para a tarefa diária (decisão 2026-10-23 #29).
 - Na resposta: o link e um resumo de cinco linhas do que a sessão tem.

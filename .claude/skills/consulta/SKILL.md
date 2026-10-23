@@ -43,7 +43,7 @@ Marca sempre a origem: [livro], [cânone] (decisão com data), [prep SN], [conve
 ## 4. Depois de responder
 
 - Se encontraste algo definido (numa prep antiga, numa conversa) que **não está na ficha da coisa**, diz numa linha no fim: «Isto não está na ficha; meto-o lá depois da sessão?». Não interrompas o jogo para gravar.
-- Depois da sessão (ou quando o DM disser), passa-o para a `## Ficha de mesa` da entidade (o aprovado nas secções; o resto em «Reserva»), grava (`npm run gravar`) e atualiza a cópia na Drive (skill `copia-drive`).
+- Depois da sessão (ou quando o DM disser), passa-o para a `## Ficha de mesa` da entidade (o aprovado nas secções; o resto em «Reserva»), grava (`npm run gravar`); a cópia na Drive fica para a tarefa diária (decisão 2026-10-23 #29).
 
 ## Cuidados
 
