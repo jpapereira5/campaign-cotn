@@ -6005,6 +6005,38 @@
         "registo/decisoes.md 2026-10-24 #3"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-s8-14",
+      "at": "2026-10-24T05:40:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "Onde acaba a S8: por volta de 1h45, encaminhar para a tenda do comandante. Corte A: o Alberto queima a página da recompensa («Não é o que parece. É pior. Mas não para vocês.»). Corte B: o Corvelo, ao livro de registos: «Lembro-me desse.» Recurso: o Fritz.",
+      "suggestion": "A tenda apetecível sem carris: a única fechada; a Nália («O comandante guardava tudo na tenda dele»); o cheiro de óleo e vinho que o Isco apanha.",
+      "because": [
+        "registo/decisoes.md 2026-10-24 #10"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-15",
+      "at": "2026-10-24T05:40:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "O forte ao meio-dia: os mortos já cheiram a decomposição; áreas V1 a V11 com sentidos (cheiro primeiro, pelo Isco) e checks na Ficha de mesa de l-fort-venture.",
+      "suggestion": "Dar o cheiro ao Isco antes de toda a gente, sem teste.",
+      "because": [
+        "registo/decisoes.md 2026-10-24 #9"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
