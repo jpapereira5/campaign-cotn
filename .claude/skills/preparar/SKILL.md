@@ -54,6 +54,7 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 1. **A verdade (só para o DM):** o que está mesmo a acontecer fora de cena.
 2. **Abertura:** texto para ler, em citação, só sentidos, sem interpretar (ordem Mercer); falas à parte para um jogador, se houver.
 3. … **Cenas,** uma secção cada: porquê (o que a cena faz pelos PCs), como corre, NPCs em tabela (CA/PV, o que fazem), regras especiais, ritmo, e «depois de…». Um combate grande ganha folha própria (skill `batalha`), com um ponteiro aqui.
+- **Sentidos** (decisão 2026-10-24 #8): cada local, NPC e item que entra leva vista, som, **cheiro** e tato; o cheiro nunca falta (o Isco tem faro apurado, passiva 20).
 - **Checks** (decisão 2026-10-21 #84), em cada cena e para cada local, NPC ou objeto relevante: tabela «Check | CD | O que dá | Fonte», reconciliada com o cânone atual. Os checks do livro revêem-se um a um (mantido, adaptado ao que o cânone já mudou, ou retirado); cada camada de segredo tem pelo menos um caminho para ser descoberta; o que for sugestão tua diz «sugestão». A tabela grava-se primeiro na ficha da entidade e copia-se para aqui.
 - **Decisões dos jogadores:** tabela «Quem | Quer | Porquê», o que o grupo sabe para decidir, os caminhos e o custo de cada um.
 - **Relógios:** tabela por momento da sessão.
