@@ -30,5 +30,6 @@ Um Google Doc por PC, na pasta desse PC (ids no `AGENTS.md`, secção «Para as 
 
 1. Google Doc criado a partir de Markdown (`contentMimeType: text/markdown`, sem `disableConversionToGoogleType`) na pasta do PC, título «<PC> — PC v<N+1>».
 2. Confere com uma exportação em texto que os títulos todos passaram; depois manda a versão anterior (feita pelo Claude) para o lixo. Os documentos do jogador e do DM nunca se apagam.
+   - **Correção pequena fora do fecho** (um nome, uma hora, uma linha; decisão 2026-10-24 #5): em vez de versão nova, edita o Google Doc no sítio (`replaceAllText` com a ferramenta do Google Docs) e acrescenta a mudança à linha «Novidades»/«Estado». A Drive guarda o histórico.
 3. Se a ficha do repositório citar o documento antigo pelo nome, corrige a citação (`grep`).
 4. Na conversa: uma linha por PC, com a versão e o que mudou desde a anterior.
