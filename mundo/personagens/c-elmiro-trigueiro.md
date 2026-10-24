@@ -35,6 +35,8 @@ Ir para casa, uma aldeia a norte do rio.
 
 ## Ficha de mesa
 
+**O peixe da manhã do dia 5:** pescou-o com a rede do Isco, que levou sem pedir, de noite, durante o turno dos dois, para lhe fazer uma surpresa e mostrar que já não tem medo (Decidido pelo DM (2026-10-24)).
+
 ### Cartão de mesa (Decidido pelo DM (2026-10-24))
 
 - **Quem:** Recruta da Terceira Lança, o mais novo da patrulha.
@@ -42,7 +44,7 @@ Ir para casa, uma aldeia a norte do rio.
 - **Backstory:** É o mais novo de uma casa de lavradores de trigo de uma aldeia a norte do Seymir, no Marrow Valley; foi recrutado com o elmo do irmão, que não voltou da fronteira, e escreve à mãe cartas que não sabe como mandar.
 - **Quer:** Voltar a ver a família.
 - **Teme:** A drow; ser cobarde.
-- **Esconde:** Foi ele quem fez o sargento amarrar a Lia a sério; onde foi na noite do peixe.
+- **Esconde:** Foi ele quem fez o sargento amarrar a Lia a sério; que levou a rede do Isco sem pedir, na noite do peixe.
 - **Voz:** Sussurra; chama «senhor» a toda a gente.
 - **Gesto:** Endireita o elmo.
 - **Sentidos:** Mãos a tremer; cheira a peixe e a suor frio.

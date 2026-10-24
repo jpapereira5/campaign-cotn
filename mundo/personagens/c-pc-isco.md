@@ -113,7 +113,7 @@ Fechado base a base (linha A: o mar do lado dele; linha B: Ruidus), com os ponto
 
 **A combinar com o Pedro Ropio**: sabe que é Ruidusborn e o nome vem de Ruidus (acrescento); o barco é o Scylla.
 
-- **O sonho do Isco (S8, último turno):** o turno dele com o Elmiro começa normal e é já o sonho: o Elmiro ensanguentado com o peixe grande. Acorda de verdade para o turno real, com sangue na boca e nas mãos, e o Elmiro não está; volta de manhã com um peixe grande nos braços. (Decidido pelo DM (2026-10-23))
+- **O sonho do Isco (S8, último turno):** o turno dele com o Elmiro começa normal e é já o sonho: o Elmiro ensanguentado com o peixe grande. Acorda de verdade para o turno real, com sangue na boca e nas mãos, e o Elmiro não está; volta de manhã com um peixe grande nos braços. (Decidido pelo DM (2026-10-23)) **Pescou-o com a rede do Isco**, que levou sem pedir, de noite (Decidido pelo DM (2026-10-24)).
 
 ## Em aberto (para o DM decidir)
 
