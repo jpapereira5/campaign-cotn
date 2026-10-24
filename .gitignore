@@ -6,3 +6,4 @@ dist
 research/
 # Pacote de dados montado no build (scripts/montar.ts)
 src/generated/
+__pycache__/
