@@ -3,7 +3,10 @@
 
 Quem a envia é o Claude, numa tarefa agendada diária (docs/copia-drive.md). Como o
 Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, a cópia vai em
-peças pequenas (até ~65 KB cada) e só se reenviam as que mudaram.
+peças pequenas (até LIMITE, 35 KB) e só se reenviam as que mudaram. Uma peça maior
+parte-se sozinha em «<peça> · parte N», pelas fichas e, se uma ficha não couber,
+pelos títulos dentro dela: o envio copia o conteúdo em base64 para a chamada à Drive,
+e acima de ~60 KB essa cópia falha (2026-10-24: cinco peças de 69 a 82 KB falharam).
 
   python3 scripts/copia-drive.py gerar SAIDA
       Escreve em SAIDA um documento Markdown por peça, o `00 LEIA-ME.md` e o
@@ -27,7 +30,8 @@ import datetime, glob, hashlib, json, os, re, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEIA_ME = '00 LEIA-ME.md'
 MANIFESTO = 'manifesto.json'
-LIMITE = 80_000  # aviso acima disto: partir a peça
+LIMITE = 35_000  # bytes; uma peça maior parte-se em «· parte N» (partir())
+AVISO = 50_000  # uma parte que não se consegue partir (um bloco de código grande) só avisa acima disto
 
 FENCE = re.compile(r'^(```|~~~)')
 HEAD = re.compile(r'^(#{1,6})(\s)')
@@ -56,7 +60,7 @@ def ficheiros(*padroes, letras=None, exceto=None):
 
 
 # A decisoes.md parte-se por datas das secções «## Decidido pelo DM (AAAA-MM-DD)» (de..ate, inclusive);
-# o que vem antes da primeira secção vai na primeira peça. Acrescenta uma linha quando a última passar dos 80 KB.
+# o que vem antes da primeira secção vai na primeira peça. O tamanho já não obriga a mexer aqui: partir() divide o que passar do LIMITE.
 DECISOES = [
     ('09 Decisões · até 2026-10-13', '0000-00-00', '2026-10-13'),
     ('09 Decisões · 2026-10-15 a 2026-10-19', '2026-10-14', '2026-10-19'),
@@ -162,6 +166,70 @@ def documento(titulo, rels):
     return '\n'.join(partes).rstrip() + '\n'
 
 
+def _blocos(linhas, nivel):
+    """Parte uma lista de linhas antes de cada título de `nivel` (fora de blocos de código);
+    nivel 0 = antes de cada linha em branco (parágrafos)."""
+    blocos, atual, dentro = [], [], False
+    for linha in linhas:
+        corta = False
+        if FENCE.match(linha):
+            if not dentro and nivel == 0 and atual:
+                corta = True
+            dentro = not dentro
+        elif not dentro:
+            m = HEAD.match(linha)
+            corta = (len(m.group(1)) == nivel) if (m and nivel) else (nivel == 0 and linha.strip() == '')
+        if corta and atual:
+            blocos.append(atual)
+            atual = []
+        atual.append(linha)
+    if atual:
+        blocos.append(atual)
+    return blocos
+
+
+def _unidades(linhas, limite, nivel=2):
+    """Blocos que cabem no limite: por ficha (##), depois ###, ####… e, no fim, por parágrafos."""
+    out = []
+    for b in _blocos(linhas, nivel):
+        if len('\n'.join(b).encode()) + 1 <= limite or nivel == 0:
+            out.append(b)
+        else:
+            out += _unidades(b, limite, nivel + 1 if 0 < nivel < 6 else 0)
+    return out
+
+
+def partir(titulo, texto, limite=LIMITE):
+    """[(nome, texto)]: a peça inteira se couber no limite; senão «<titulo> · parte N», cada uma com o seu
+    cabeçalho, cortadas entre fichas (e, numa ficha grande, entre secções). A parte 1 começa como a peça."""
+    if len(texto.encode()) <= limite:
+        return [(titulo, texto)]
+    linhas = texto.rstrip('\n').split('\n')
+    inicio = next((i for i, l in enumerate(linhas) if l.startswith('## ')), len(linhas))
+    preambulo, resto = linhas[:inicio], linhas[inicio:]
+    margem = 600  # o cabeçalho de cada parte
+    partes, atual, tam = [], [], 0
+    for u in _unidades(resto, limite - margem):
+        t = len('\n'.join(u).encode()) + 1
+        if atual and tam + t > limite - margem:
+            partes.append(atual)
+            atual, tam = [], 0
+        atual += u
+        tam += t
+    if atual:
+        partes.append(atual)
+    out = []
+    for n, corpo in enumerate(partes, 1):
+        nome = f'{titulo} · parte {n}'
+        if n == 1:
+            cab = [f'# {nome}'] + preambulo[1:]
+        else:
+            cab = [f'# {nome}', '', f'Continuação de «{titulo} · parte {n - 1}». Cópia de leitura do repositório '
+                   '`jpapereira5/campaign-cotn`; as mudanças fazem-se no repositório.', '']
+        out.append((nome, '\n'.join(cab + corpo).rstrip() + '\n'))
+    return out
+
+
 def gerar(saida):
     os.makedirs(saida, exist_ok=True)
     for n in os.listdir(saida):
@@ -170,14 +238,15 @@ def gerar(saida):
     agora = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
     hashes, linhas = {}, []
     for titulo, rels in pecas():
-        texto = documento(titulo, rels)
-        nome = titulo + '.md'
-        open(os.path.join(saida, nome), 'w', encoding='utf-8').write(texto)
-        hashes[nome] = hashlib.sha256(texto.encode()).hexdigest()
-        tam = len(texto.encode())
-        linhas.append(f'| {titulo} | {len(rels)} | {tam // 1000} KB |')
-        if tam > LIMITE:
-            print(f'AVISO: «{nome}» tem {tam // 1000} KB; parte-a em pecas() no script', file=sys.stderr)
+        for nome_peca, texto in partir(titulo, documento(titulo, rels)):
+            nome = nome_peca + '.md'
+            open(os.path.join(saida, nome), 'w', encoding='utf-8').write(texto)
+            hashes[nome] = hashlib.sha256(texto.encode()).hexdigest()
+            tam = len(texto.encode())
+            fichas = len(re.findall(r'(?m)^## .* · `[^`]+`$', texto))
+            linhas.append(f'| {nome_peca} | {fichas} | {tam // 1000} KB |')
+            if tam > AVISO:
+                print(f'AVISO: «{nome}» tem {tam // 1000} KB e não se consegue partir mais', file=sys.stderr)
     leia = ['# Cópia do repositório da CotN', '',
             f'Cópia de leitura do repositório `jpapereira5/campaign-cotn`, commit `{commit}` ({data}), gerada a {agora}.', '',
             'A fonte de verdade é o repositório: o que se escrever aqui perde-se na próxima cópia. '

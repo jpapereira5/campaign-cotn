@@ -2,7 +2,7 @@
 
 O repositório tem uma cópia de leitura na Drive, na pasta `DND/cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`): um documento Markdown por peça do cânone (PCs, NPCs por letra, locais, beats por capítulo, uma sessão por documento, decisões, mesa, documentação), o `00 LEIA-ME.md` com o commit e o índice, e o `manifesto.json` (sha256 de cada peça). Cada ficha aparece sob um título com o nome e o caminho, com o cabeçalho YAML num bloco de código.
 
-Quem a mantém é o **Claude**, **numa tarefa agendada diária** (decidido pelo DM a 2026-10-20), ou quando o DM a pede. Desde 2026-10-23 (#29) já não corre depois de cada push nem no fim do fecho: era lenta (cada peça junta muitas fichas) e o repositório é sempre a fonte de verdade. Substitui a 2026-10-21 #86. O Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, por isso a cópia vai em peças de até ~80 KB e só se reenviam as que mudaram. Não há zip: o repositório inteiro descarrega-se do GitHub (Code → Download ZIP).
+Quem a mantém é o **Claude**, **numa tarefa agendada diária** (decidido pelo DM a 2026-10-20), ou quando o DM a pede. Desde 2026-10-23 (#29) já não corre depois de cada push nem no fim do fecho: era lenta (cada peça junta muitas fichas) e o repositório é sempre a fonte de verdade. Substitui a 2026-10-21 #86. O Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, por isso a cópia vai em peças de até 35 KB e só se reenviam as que mudaram. Não há zip: o repositório inteiro descarrega-se do GitHub (Code → Download ZIP).
 
 A cópia é só de leitura. O que se escrever lá perde-se na próxima cópia; a fonte de verdade é o repositório. O script `scripts/copia-drive.py` nunca escreve no repositório.
 
@@ -20,7 +20,9 @@ Várias peças podem ir em paralelo, por agentes, cada um com um lote.
 
 ## Limites
 
-- Uma peça acima de ~80 KB dá um aviso no `gerar`: parte-se em `pecas()`, no script (por letra, por capítulo…).
+- O envio copia o conteúdo em base64 para dentro da chamada à Drive, e essa cópia falha nas peças grandes: a 2026-10-24 falharam as cinco peças de 69 a 82 KB, e algumas de 45 a 67 KB só passaram à segunda. Por isso o `gerar` parte sozinho qualquer peça acima de 35 KB (`LIMITE` no script) em «<peça> · parte 1», «· parte 2»…, entre fichas e, numa ficha grande (uma sessão, as decisões), entre as secções dela. Não é preciso mexer em `pecas()` quando uma peça cresce.
+- Quando uma peça cresce, os cortes podem mudar e as partes seguintes dessa peça reenviam-se; os nomes que deixam de existir vão para o lixo pelo `apagar`.
+- Só um bloco de código maior do que o limite (um `.yaml` de batalha, por exemplo) fica numa parte maior; o `gerar` avisa acima de 50 KB.
 - Uma peça nova (um PC novo, uma sessão nova, um capítulo novo) entra sozinha: o script gera-a e a cópia cria-a.
 - Mudar o nome de uma peça no script faz a cópia criar a nova e apagar a antiga.
 
