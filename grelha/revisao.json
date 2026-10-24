@@ -5894,12 +5894,12 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "Como volta o Boblin ao grupo, e o que o Tiago quer? A pixie libertou-o; está escondido perto do acampamento.",
+      "text": "Como volta o Boblin ao grupo, e o que o Tiago quer? A pixie libertou-o; está escondido perto do acampamento. [substituída: o regresso do Boblin não se prepara; o Tiago decide como e quando volta, decisão 2026-10-24 #12]",
       "suggestion": "Falar com o Tiago antes da S8.",
       "because": [
         "registo/decisoes.md 2026-10-23 #4"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-08",
