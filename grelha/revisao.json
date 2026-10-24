@@ -5876,10 +5876,12 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "O grupo chega ao Forte Ventura na manhã do dia 5 (acabaram a S7 perto das falésias do Véu-Quebrado). A preparação v10 do forte (secções 6 a 10) passa para a S8, com luz de dia em vez do anoitecer.",
+      "text": "O grupo chega ao Forte Ventura ao meio-dia do dia 5 (acabaram a S7 perto das falésias do Véu-Quebrado; de manhã: o Elmiro, o save do Lucan, os ritos, a marcha). A preparação v10 do forte (secções 6 a 10) passa para a S8, à luz do meio-dia; texto de chegada na Ficha de mesa de l-fort-venture. Depois da chegada, a mesa decide o resto do dia.",
       "suggestion": "Chegada ao forte de manhã.",
       "because": [
-        "registo/decisoes.md 2026-10-23 #5"
+        "registo/decisoes.md 2026-10-23 #5",
+        "registo/decisoes.md 2026-10-24 #2",
+        "registo/decisoes.md 2026-10-24 #3"
       ],
       "status": "aberta"
     },
@@ -5985,6 +5987,22 @@
         "registo/decisoes.md 2026-10-23 #22",
         "registo/decisoes.md 2026-10-23 #25",
         "registo/decisoes.md 2026-10-23 #28"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-13",
+      "at": "2026-10-24T03:10:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "t-missao-patrulha",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "A pira dos mortos do Forte Ventura: o Corvelo manda queimá-los todos. Quem reza é decisão dos jogadores; o Quasi pode, se quiser.",
+      "suggestion": "Não guiar: perguntar à mesa se alguém quer dizer palavras.",
+      "because": [
+        "registo/decisoes.md 2026-10-24 #3"
       ],
       "status": "aberta"
     }

@@ -43,7 +43,7 @@ Por defeito, **figurante**, a não ser que o DM peça elenco ou o NPC vá voltar
 ## 4. Elenco (Mercer)
 
 - **O conceito,** 2–3 frases: o bit, o que faz na história, o tema que espelha.
-- **Aparência** num parágrafo para ler, na ordem Mercer: contexto/ação → silhueta → pele → roupa (a CA) → rosto/detalhe → movimento → som → cheiro. O diálogo vem depois. Opcional: tabela de detalhe fino (Perception/Insight com CD).
+- **Aparência** num parágrafo para ler, na ordem Mercer: contexto/ação → silhueta → pele → roupa (a CA) → rosto/detalhe → movimento → som → cheiro. O diálogo vem depois. Opcional: tabela de detalhe fino (Perception/Insight com CD). Nos textos para ler, só o que as personagens percebem de facto (o que veem, ouvem, cheiram e sentem, ou o silêncio); nada do que deviam perceber e não percebem, e nada que suponha o que aconteceu antes (decisão do DM, 2026-10-24).
 - **Personalidade** num parágrafo (temperamento, ferida, o que o move, o que o fecha, o *tell*), não em listas de traço/ideal/vínculo/defeito. **Quer / Teme** numa linha cada.
 - **Voz** num parágrafo curto: velocidade, tom, textura, volume, tiques, e como muda sob pressão.
 - **Frases:** 4 a 8 que se usam mesmo.

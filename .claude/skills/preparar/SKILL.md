@@ -63,7 +63,7 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 ### Regras de escrita
 
 - Português de Portugal; termos de regras em inglês quando a mesa os usa assim (CON save, *revivify*).
-- Textos para ler: curtos, sensoriais, sem psicologia; os nomes só quando a mesa já os sabe.
+- Textos para ler: curtos, sensoriais, sem psicologia; os nomes só quando a mesa já os sabe. Só o que as personagens percebem de facto (o que veem, ouvem, cheiram e sentem, ou o silêncio); nada do que deviam perceber e não percebem, e nada que suponha o que aconteceu antes (decisão 2026-10-24 #1).
 - Segredos marcados «(só DM)»; nada para os jogadores lerem no mesmo documento, salvo secção própria («Briefing para…»).
 - Lembretes de regras que favorecem um PC entram onde se usam e na checklist.
 

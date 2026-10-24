@@ -27,7 +27,7 @@ Um local não é um cenário parado: é um sítio onde está a acontecer alguma 
 ## 3. Secções (salta as que não se aplicam)
 
 - **O conceito:** uma frase, o que é este sítio e o papel que tem.
-- **Atmosfera:** um parágrafo para ler em voz alta à chegada, e a quebra sensorial (Vista · Som · Cheiro · O que não encaixa).
+- **Atmosfera:** um parágrafo para ler em voz alta à chegada, e a quebra sensorial (Vista · Som · Cheiro · O que não encaixa). Nos textos para ler, só o que as personagens percebem de facto (o que veem, ouvem, cheiram e sentem, ou o silêncio); nada do que deviam perceber e não percebem, e nada que suponha o que aconteceu antes (decisão do DM, 2026-10-24).
 - **Layout:** tabela de áreas (área · descrição · o que se pode fazer) e acessos.
 - **Vida do lugar:** movimento, conversas, conflitos a decorrer.
 - **NPCs presentes:** tabela (nome · papel · o que está a fazer · ficha) e uma ou duas frases de primeira impressão por NPC.

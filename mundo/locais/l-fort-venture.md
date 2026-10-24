@@ -20,3 +20,34 @@ As portas do salão principal (V5) estão escancaradas, como no livro; os sobrev
 
 A mesa (sessão 7, #90, 2026-10-21): O guarda da capela TEM NOME à mesa: o Corvelo reconhece o Tibério no lacedon desfeito, pela cara e pela tabard, e diz, a olhar na direção do forte, que «era o guarda da capela». Na cintura dele vinha uma bolsa com cristais de rubi por lapidar e uma moeda do Concílio de Clovis. O grupo não chegou ao forte nesta sessão: ao fim da tarde do dia 4 pararam à saída do pântano, debaixo das falésias do Véu Quebrado, e o forte continua a horas de marcha.
 
+## Ficha de mesa
+
+### Ler (ao avistarem o forte; meio-dia do dia 5) (Decidido pelo DM (2026-10-24))
+
+> O pântano abre-se numa margem de erva, por baixo de um promontório baixo. O sol está a pino.
+>
+> Lá em cima, um torreão de pedra pequeno, cercado por uma paliçada alta de troncos verdes. Bandeiras do Império pendem do portão, paradas, com as dobras marcadas no pano. Filas de estacas cercam a paliçada.
+>
+> Do meio do recinto sobe um fio de fumo cinzento.
+>
+> Do forte não vem som nenhum. Atrás de vocês, as rãs.
+>
+> Em cima das estacas da paliçada, três corvos. Um deles tem alguma coisa no bico.
+
+### Do livro (EGtW, «Unwelcome Spirits»), com a possessão já feita
+
+- Os guardas das torres mortos nos postos; as portas de ferro entreabertas.
+- Pátio de treino (V4): os braseiros derrubados; alvos, bonecos e fardos queimados (dia e meio depois, a fumegar). O Felmont está entre os mortos. Uma garrafa de aguardente escondida num fardo, com um carvão e um caderninho de apostas (Investigation 12).
+- Salão (V5): sobre as fundações de uma ruína anterior à Calamidade.
+- Tenda do comandante (V3): baú com agulha envenenada (Investigation 15 para a ver; ferramentas de ladrão 15 para a tirar; falha: 1 perfurante + 2d6 veneno, CON 15 ou envenenado 1 hora): 10 lingotes de prata (25 po cada), *potion of mind reading*; na mesa de cabeceira, adaga de cabo de coral (25 po), lupa, *Fabled Mutants of the Miskath Strand* (10 po).
+- Armadilhas de urso numa faixa de 12 m à volta da paliçada (passiva 12; ataque +8, 1d10; FOR 15 para soltar; ferramentas de ladrão DES 10 para desarmar). Paliçada: Athletics 12 para subir e descer; Acrobatics 12 nas estacas ou 1d6.
+
+### Discrepâncias por decidir
+
+- (Resolvida 2026-10-24) O livro diz bandeiras «gastas pelo tempo»; fica «com as dobras marcadas» (o forte é recente).
+
+### Reserva (preparado e não usado; não apagar)
+
+- Texto de chegada da v10 (ao anoitecer): o sol por trás das falésias, o céu cor de cobre, a coluna de fumo preta, as aves em círculos, «Não há luz em lado nenhum», e «um forte com trinta homens devia fazer barulho a esta hora».
+- Primeira versão do meio-dia (2026-10-23): «A esta hora um forte devia estar no meio do dia…» e «os corvos já desceram» (cortadas pela regra 2026-10-24 #1).
+
