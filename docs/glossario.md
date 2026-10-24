@@ -4,7 +4,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, as p
 
 **Princípio:** traduz-se o máximo possível, sobretudo descritivos, títulos e epítetos; nomes próprios sem significado transparente mantêm-se; termos de regras e de sistema ficam em inglês, mesmo dentro de texto em português. As ids dos dados (minúsculas, sem acentos, com hífen) ficam como nasceram: as do livro em inglês (`c-alonne-frith`, `l-fort-venture`, `l-jigow`), as criadas pela mesa em português (`l-jigau-molho`, `f-fieis-baeshra`); o glossário é para o texto (decidido pelo DM, 2026-10-20).
 
-**Mantêm-se no original:** Exandria, Rosohna, Ghor Dranas, Rexxentrum, Zadash, Nicodranas, Darktow, Eiselcross, Aeor, Marquet, Ank'Harel, Tal'Dorei, Issylra, Urzin, Asarius, Kai Malama, os nomes dos deuses (Avandra, Bahamut, Corellon…), Luxon, Umavi, Den(s), starosta, Zhelezo, Ki'Nau, dranassar, Soltryce.
+**Mantêm-se no original:** Exandria, Rosohna, Ghor Dranas, Rexxentrum, Zadash, Nicodranas, Darktow, Eiselcross, Aeor, Marquet, Ank'Harel, Tal'Dorei, Issylra, Urzin, Asarius, Kai Malama, os nomes dos deuses (Avandra, Bahamut, Corellon…), Luxon, Umavi, Den(s), starosta, Zhelezo, Ki'Nau, dranassar.
 
 **Ano da campanha:** 835 P.D.
 
@@ -80,6 +80,8 @@ Nomes de Exandria em português europeu, para consistência entre os dados, as p
 | Crownsguard | a Guarda da Coroa | |
 | Reapers (tithe collectors) | os Ceifeiros | |
 | Hall of Erudition | o Salão da Erudição | Zadash |
+| Soltryce Academy | a Academia do Solstício | Rexxentrum (decidido pelo DM, 2026-10-24) |
+| Dunrock Mountains | as Montanhas da Pedra-Parda | Grimgolir (decidido pelo DM, 2026-10-24) |
 | Fort Venture | Forte Ventura | |
 | Barren Eve | a Véspera Estéril | 2 de Duscar |
 | Zemnian | zemniano | língua |

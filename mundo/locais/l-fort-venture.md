@@ -134,7 +134,7 @@ O que fazem lá dentro e por que ordem é dos jogadores. Os mortos já cheiram a
 
 #### V8, as jaulas e o Fritz
 
-- **Vista:** os dois guardas à mesa com as cartas na mão; o Fritz ao fundo da quarta jaula [livro + v10]. **Som:** as cartas a esvoaçar; da jaula, nada: não respira [inv.]. **Cheiro:** os dois guardas; vinho barato entornado; **o Fritz não cheira a nada** (nem suor, nem medo, depois de dois dias numa jaula); o Isco repara logo [inv.; hollow one, livro]. **Tato:** quem ele ler sente um frio atrás dos olhos [cânone].
+- **Vista:** os dois guardas à mesa com as cartas na mão; o Fritz ao fundo da quarta jaula [livro + v10]. **Som:** as cartas a esvoaçar; da jaula, uma respiração lenta, mais lenta do que devia [inv.]. **Cheiro:** os dois guardas; vinho barato entornado; **o Fritz** não cheira a suor nem a medo, depois de dois dias numa jaula: cheira, ténue, a necromancia, a terra fria de cova e cera de defunto; o Isco repara logo [livro: os Hollow Ones têm «um leve fedor de necromancia» (EGtW, «Supernatural Gift: Hollow One»); inv.: a terra e a cera]. **Tato:** quem ele ler sente um frio atrás dos olhos [cânone].
 
 | Check | CD | O que dá | Fonte |
 |---|---|---|---|
