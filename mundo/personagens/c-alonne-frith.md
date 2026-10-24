@@ -83,3 +83,9 @@ Lê mentes raramente, porque pode ser apanhado: no forte, no máximo uma vez, e 
 **Reconhece o nome do Vigost.** Se os jogadores falarem dele (o Lucan e o Isco ouviram-no ao Óscar, em Decrépola), o Fritz reconhece-o: é por aí que se descobre que é (ou foi) do culto de Serratos. Como reage fica para o momento (Decidido pelo DM (2026-10-16)).
 
 **Na S7, no forte** (Decidido pelo DM (2026-10-21)): as falas mentais, uma pessoa de cada vez: a quem chegar perto, «Ela saiu há duas noites. Eu vi tudo.»; ao Quasi, «Ele não te vai ajudar a encontrá-la. Eu vou.»; à Lia, «O que procuras está na tenda grande. O comandante não deixava ninguém tocar-lhe.»; ao Boblin, «Tu também a ouviste. A rir.»; a quem o ameaçar, «Eu repensaria quem é que está aqui preso com quem.» A Sousela, da paliçada, não o vê (está quieto, sentado ao fundo da jaula). Se o deixarem na jaula, sai sozinho nessa noite e volta a cruzar-se com o grupo em Jigau.
+
+## Ficha de mesa
+
+### Reserva (preparado e não usado; não apagar)
+
+- Falas propostas a 2026-10-24 para um corte da S8, depois de ler a mente à superfície (o DM preferiu as falas de 2026-10-21): ao Isco, «Os cães ganem quando passas. Ganiam assim quando me trouxeram. Não és o único aqui que não é o que parece.»; ao Quasi, «Queres a goblin viva. Eu também. Pergunta ao teu gnomo porque é que ele não quer.»; à Lia, «Procuras o teu pai num sítio onde só há mortos. Eu procuro a minha filha no mesmo sítio.»; ao Boblin, «A xamã da tua vila não foi para casa sozinha. Vai alguém dentro dela, e esse alguém sabe o caminho.»

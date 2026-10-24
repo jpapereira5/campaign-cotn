@@ -184,7 +184,7 @@ Acaba onde a mesa chegar; por volta de 1h45 de jogo, encaminha-se para um de doi
   O Alberto: «Não é o que parece.» Pausa. «É pior. Mas não para vocês.» Corte. A mesa fica a saber que é mago e fugido; o que estava na folha fica para a S9.
 - **Corte B, o Corvelo e a Lia** (sempre que a Lia chegue ao livro de registos): o handout do Aldo; o Corvelo à entrada, a olhar para o suporte da armadura vazio, sem se virar: «Lembro-me desse.» Corte. O resto das falas dele abre a S9.
 - **Os dois:** o Alberto chega sempre primeiro. Se o apanharem, joga-se A (corte, ou segue para B se houver tempo, e B é o corte). Se não, a Lia encontra o rasgão fresco (Investigation 12) como pista e o corte é B.
-- **Se não chegarem à tenda:** não se força. Corte de recurso: o Fritz, na cabeça de quem estiver mais perto: «Ela saiu há duas noites. Eu vi tudo.» Ou uma frase do Fritz sobre um PC, depois de lhe ler a mente à superfície (por decidir; gasta a única leitura dele no forte).
+- **Se não chegarem à tenda:** não se força. Corte de recurso: o Fritz, na cabeça de quem estiver mais perto: «Ela saiu há duas noites. Eu vi tudo.» Ou uma das falas do Fritz já definidas para cada PC (decisão 2026-10-21; Ficha de `c-alonne-frith`), dita a quem ele ler: ao Quasi, «Ele não te vai ajudar a encontrá-la. Eu vou.»; à Lia, «O que procuras está na tenda grande. O comandante não deixava ninguém tocar-lhe.»; ao Boblin, «Tu também a ouviste. A rir.» (Decidido pelo DM (2026-10-24))
 
 ### Discrepâncias por decidir
 
