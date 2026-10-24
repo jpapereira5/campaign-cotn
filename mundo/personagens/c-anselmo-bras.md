@@ -37,3 +37,19 @@ Passar o forte a quem mande nele e voltar à forja.
 ## Segredo
 
 Nenhum (Decidido pelo DM (2026-10-21)).
+
+## Ficha de mesa
+
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** O ferreiro do Forte Ventura, sobrevivente da noite do dia 3.
+- **Raça e aspeto:** Anão de Grimgolir. Barba grisalha em duas tranças curtas com anéis de ferro, braços queimados de forja, avental de couro sobre a cota de malha, martelo.
+- **Backstory:** Ferreiro do clã Grimgol, desceu das Montanhas da Rocha-Parda com a Marca Justa porque o forte novo precisava de quem soubesse ferro; trocou a rütga pela cerveja de Trost há quarenta anos e nunca mais quis voltar para baixo da montanha.
+- **Quer:** Que alguém lhe tire o forte das mãos.
+- **Teme:** A capela.
+- **Esconde:** Nada.
+- **Voz:** Devagar, com sotaque das montanhas.
+- **Gesto:** A cabeça do martelo pousada no chão, as duas mãos no cabo.
+- **Sentidos:** Carvão de forja; os braços cheiram a pelo chamuscado.
+- **Âncoras:** «Corvelo. Vieste tarde.» · «Não entrem ali. Ainda se ouve.» · «As espadas é que mudaram de dono.»
+- **Saída:** Vai à forja e acende-a.

@@ -86,6 +86,20 @@ Lê mentes raramente, porque pode ser apanhado: no forte, no máximo uma vez, e 
 
 ## Ficha de mesa
 
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** O prisioneiro da quarta jaula (V8); telepata, cultista de Serratos.
+- **Raça e aspeto:** Humano, Hollow One. Pálido, rígido, olhos sem cor, casaco de caçador manchado de sangue.
+- **Backstory:** Estudioso do Reino Distante, de Decrépola, morreu uma vez e voltou oco; desde então segue o rasto de Serratos e de quem lhe levou a Elisabete, e foi a procurar relíquias no pântano que a patrulha do forte o apanhou.
+- **Quer:** Rubídio, respostas, a Elisabete.
+- **Teme:** Não chegar a tempo.
+- **Esconde:** Já morreu; a Elisabete; o culto; o rubídio em Jigau.
+- **Voz:** Na cabeça de quem ouve, lenta, como do fundo de um poço.
+- **Gesto:** Imóvel; a corrente cai-lhe sem ninguém lhe tocar.
+- **Sentidos:** Não cheira a suor nem a medo; cheira, ténue, a necromancia (terra fria de cova, cera de defunto); respira mais devagar do que devia.
+- **Âncoras:** As falas de 2026-10-21 (Segredo, «Na S7, no forte»).
+- **Saída:** Cala-se e fica a ver quem reage.
+
 ### Reserva (preparado e não usado; não apagar)
 
 - Falas propostas a 2026-10-24 para um corte da S8, depois de ler a mente à superfície (o DM preferiu as falas de 2026-10-21): ao Isco, «Os cães ganem quando passas. Ganiam assim quando me trouxeram. Não és o único aqui que não é o que parece.»; ao Quasi, «Queres a goblin viva. Eu também. Pergunta ao teu gnomo porque é que ele não quer.»; à Lia, «Procuras o teu pai num sítio onde só há mortos. Eu procuro a minha filha no mesmo sítio.»; ao Boblin, «A xamã da tua vila não foi para casa sozinha. Vai alguém dentro dela, e esse alguém sabe o caminho.»

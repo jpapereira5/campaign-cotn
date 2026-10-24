@@ -32,3 +32,19 @@ A mesa (sessão 7, #90, 2026-10-21): Volta a aparecer pela positiva: quando se d
 ## Objetivo
 
 Ir para casa, uma aldeia a norte do rio.
+
+## Ficha de mesa
+
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** Recruta da Terceira Lança, o mais novo da patrulha.
+- **Raça e aspeto:** Humano, 17 anos. Pálido, elmo grande demais que endireita a toda a hora, lança.
+- **Backstory:** É o mais novo de uma casa de lavradores de trigo de uma aldeia a norte do Seymir, no Marrow Valley; foi recrutado com o elmo do irmão, que não voltou da fronteira, e escreve à mãe cartas que não sabe como mandar.
+- **Quer:** Voltar a ver a família.
+- **Teme:** A drow; ser cobarde.
+- **Esconde:** Foi ele quem fez o sargento amarrar a Lia a sério; onde foi na noite do peixe.
+- **Voz:** Sussurra; chama «senhor» a toda a gente.
+- **Gesto:** Endireita o elmo.
+- **Sentidos:** Mãos a tremer; cheira a peixe e a suor frio.
+- **Âncoras:** «Senhor, nós não temos rede; o senhor tem uma?» · «Eu gostava de ficar com ele, capitão.» · «Olha, senhor Isco, olha o que eu consegui buscar!»
+- **Saída:** Vai dar água a alguém.

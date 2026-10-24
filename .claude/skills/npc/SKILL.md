@@ -19,7 +19,7 @@ Por defeito, **figurante**, a não ser que o DM peça elenco ou o NPC vá voltar
 ## 1. Antes de escrever
 
 - Lê a secção `## Para as skills` do `AGENTS.md` do projeto (onde vivem as fichas, o glossário, os locais, as fações, os capítulos e os PCs). Sem projeto, pergunta ao DM o sítio, a época e o papel do NPC.
-- Procura se o NPC já existe e lê a ficha, as relações e o que a mesa já viu. Nunca contradigas o que foi jogado.
+- Procura se o NPC já existe e lê a ficha, as relações e o que a mesa já viu. Nunca contradigas o que foi dito à mesa; se uma proposta o contrariar, avisa o DM à vista.
 - O contexto: o local, a fação, o capítulo e as cenas onde entra. O mundo molda tudo: clima, cultura, economia, religião da região (skill `livro`).
 - Os nomes seguem o glossário e o tom do projeto.
 - **Os PCs:** pensa que objetivo pessoal de um PC este NPC pode tocar (skill `arcos`). Um NPC de elenco deve servir pelo menos um arco.
@@ -41,6 +41,8 @@ Por defeito, **figurante**, a não ser que o DM peça elenco ou o NPC vá voltar
 - **Sabe:** no máximo dois factos. **Em combate:** uma linha («foge a 1/4 dos PV», «não luta»).
 
 ## 4. Elenco (Mercer)
+
+- **Cartão de mesa** (o que o DM tem à frente; vai sempre, também em cada NPC que entra numa preparação; decisão do DM, 2026-10-24): **Quem** (o papel numa linha) · **Raça e aspeto** (uma linha para dizer à mesa) · **Backstory** (uma frase, coerente com o livro do cenário) · **Quer** (agora) · **Teme** · **Esconde** · **Voz** · **Gesto** · **Sentidos** (vista, som, **cheiro**, tato) · **Âncoras** (três falas que mostram quem é) · **Saída** (como sai da cena). Sem marcas de fonte, se o projeto assim o pedir.
 
 - **O conceito,** 2–3 frases: o bit, o que faz na história, o tema que espelha.
 - **Aparência** num parágrafo para ler, na ordem Mercer: contexto/ação → silhueta → pele → roupa (a CA) → rosto/detalhe → movimento → som → cheiro. O diálogo vem depois. Opcional: tabela de detalhe fino (Perception/Insight com CD). Nos textos para ler, só o que as personagens percebem de facto (o que veem, ouvem, cheiram e sentem, ou o silêncio); nada do que deviam perceber e não percebem, e nada que suponha o que aconteceu antes (decisão do DM, 2026-10-24).

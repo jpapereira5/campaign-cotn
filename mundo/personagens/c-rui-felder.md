@@ -36,3 +36,19 @@ Sair do forte com o Elmiro e não voltar ao pântano.
 ## Segredo
 
 Nenhum (Decidido pelo DM (2026-10-21)).
+
+## Ficha de mesa
+
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** Guarda novo do Forte Ventura, sobrevivente da noite do dia 3; amigo do Elmiro.
+- **Raça e aspeto:** Halfling. Braço esquerdo embrulhado num pano do ombro ao pulso, besta a tremer na outra mão.
+- **Backstory:** É dos Reguengos de Felderwin, do clã que dá nome à terra; alistou-se para provar ao pai que um halfling não é só lavoura, e é o único da família que já viu um goblin.
+- **Quer:** Que alguém lhe diga que acabou.
+- **Teme:** A goblin a rir.
+- **Esconde:** Nada.
+- **Voz:** Depressa e alto.
+- **Gesto:** Aperta o braço queimado contra o peito.
+- **Sentidos:** O pano do braço cheira a carne queimada e a unguento rançoso (a fome do Lucan dá por isso).
+- **Âncoras:** «Trigueiro? Estás vivo?» · «Ela riu-se. Ria-se com a voz do comandante.» · «Sargento, isso é uma drow.»
+- **Saída:** Vai atrás do Elmiro.

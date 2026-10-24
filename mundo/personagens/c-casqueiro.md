@@ -34,3 +34,19 @@ Comer alguma coisa que não seja enguia salgada.
 ## Segredo
 
 Não quebra enquanto o sargento estiver de pé; protege o miúdo.
+
+## Ficha de mesa
+
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** Soldado da Terceira Lança, o escudo da patrulha; puxa a jangada.
+- **Raça e aspeto:** Humano. 1,80 m e entroncado, cara redonda e corada, barba castanha curta, cota de malha por baixo da túnica imperial, escudo de tábuas com chapa.
+- **Backstory:** Carregava pipas numa cervejaria de Trostenwald até a Marca Justa o levar pelo tamanho; as canções de marcha foram a única coisa da tropa que lhe soube bem, e perdeu o primo para os Kryn.
+- **Quer:** Comida; proteger o miúdo.
+- **Teme:** Ficar sem o sargento.
+- **Esconde:** Não quebra enquanto o sargento estiver de pé.
+- **Voz:** Alta e alegre; trata toda a gente por «ó amigo».
+- **Gesto:** Põe o escudo à frente de quem estiver mais fraco.
+- **Sentidos:** A cota de malha a ranger; suor e cerveja velha na barba.
+- **Âncoras:** «Ó amigo.» · «Parece que temos tido uma maré de azar. Espero que amanhã se resolva tudo.» · «Mas… o forte não cai. É um forte.»
+- **Saída:** Pega no escudo com as duas mãos.

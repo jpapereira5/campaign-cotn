@@ -50,3 +50,19 @@ Voltar ao Império e proteger a filha (fachada: ir para casa; o Forte Ventura se
 ## Segredo
 
 DM («Alberto — ficha de NPC» e «Alberto v3», Drive, 2026-09-18/23). Segredos, por ordem de profundidade: (1) não é alquimista, é mago, e bom (Mage, MM; adivinhação e abjuração; sending é a ferramenta narrativa; cortados fireball e afins); (2) não trabalhava para um feiticeiro, mas para a Arquimaga de Disologia Doolan Tversky, da Assembleia de Cerebrus, como professor da Academia do Solstício (gnomo, ~250–300 anos); (3) a investigação dele (rubídio em pequenos animais; relatórios de uma «febre» que lia como epidemiologia) alimentou testes de rubídio em pessoas, coordenados pela Tversky e o Ikithon; (4) a gnoma do medalhão é a filha; (5) a Tversky já o encontrou por sending e ele negoceia: dá informação do grupo em troca de não tocarem na filha. Fugiu com um pergaminho de teletransporte lido em pânico; Urzin foi acidente; não sabe voltar sozinho. Conhece o Padre Perestrelo de vista (o medo não é ser identificado, é ser visto). Turning point: no Forte Ventura, um caderno de recompensas com o nome dele a meio: «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.», sem a função (Decidido pelo DM (2026-10-16)). **Não se confessa e o Corvelo não vê o caderno** (Decidido pelo DM (2026-10-21)): vai com o grupo ao forte e usa *invisibility* para se separar e ir sozinho à tenda do comandante (Decidido pelo DM (2026-10-23); substitui o Stealth contra as passivas), e arranca a página, deixando um rasgão fresco; se o apanharem com ela, queima-a num instante com *prestidigitação*, e com *fire bolt* se for preciso (qualquer dos dois é confissão: é mago). À noite manda um *sending* à Tversky. **Fica no forte** à espera da coluna da Guarnição da Cinza, para ser útil ao Império, investigar o rubídio e comprar a amnistia; volta à história mais à frente (Bazzoxan), sem se juntar ao grupo. Regra anti-DMPC: nunca resolve o que os jogadores conseguem resolver, nunca em combate; lançar magia é confissão. Sessão 4: o sussurro foi um *message* ao Corvelo (na preparação, à Nália) — «o gnomo é da Assembleia». Deu o nome verdadeiro a imperiais por vontade própria: quer ser encontrado pelo Império, e o nome no relatório pode chegar à Assembleia.
+
+## Ficha de mesa
+
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** O gnomo «alquimista» que contratou o grupo; mago fugido da Assembleia.
+- **Raça e aspeto:** Gnomo, uns 250 a 300 anos. Suíças e barba brancas e despenteadas, cara vermelha de bebida, calos e sangue nos dedos, medalhão de metal pobre.
+- **Backstory:** Ensinou dois séculos na Academia do Solstício, em Rexxentrum, e estudou o rubídio em pequenos animais para a Doolan Tversky, até perceber que os relatórios de «febre» que lia eram de pessoas; fugiu com um pergaminho lido em pânico, e a filha ficou para trás.
+- **Quer:** A amnistia; a filha a salvo.
+- **Teme:** Ser visto.
+- **Esconde:** É mago; a Tversky; o *sending*; a página da recompensa.
+- **Voz:** Soluça; escolhe as palavras uma fração de segundo a mais.
+- **Gesto:** Agarra-se à roupa do Quasi; abre e fecha o medalhão.
+- **Sentidos:** Aguardente velha; a carapaça ainda cheira às entranhas do lacedon.
+- **Âncoras:** «Esta é a parte em que fugimos, não é?» · «Não é o que parece. É pior. Mas não para vocês.» · «Não te posso dizer. Se te disser, vais ter de escolher.»
+- **Saída:** Puxa a carapaça e encolhe-se.

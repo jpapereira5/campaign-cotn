@@ -45,3 +45,19 @@ No forte: escoltou o pai da Lia (o Aldo Kesh) há três meses, até à Guarniç�
 No rescaldo do obelisco (dia 4) solta a Lia com um discurso aos seus («Esta guerra colocou-nos uns contra os outros, mas neste momento precisamos de todos se queremos sobreviver ao pântano») e queima o Damião, o Alex e o Tibério numa pira ali mesmo, com a jangada por base, na primeira hora, para não se levantarem; não sabe as palavras da Madrinha dos Corvos nem tem jeito para rezas, e entrega a tarefa à Lia: «Tu és clériga. Diz tu.» (Decidido pelo DM (2026-10-21))
 
 Na chegada ao forte (S7): manda a Sousela espreitar da paliçada antes de entrar e ouve-lhe o relato («Não há deles. São todos nossos.»). Depois de vasculhar o forte, segura-o com os sobreviventes e manda a Sousela e a Nália, juntas, à Guarnição da Cinza pedir reforços (plano A). Se a Lia oferecer *Gentle Repose* para levar um morto ao forte, aceita, relutantemente. (Decidido pelo DM (2026-10-21))
+
+## Ficha de mesa
+
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** Sargento da Marca Justa; comanda a Terceira Lança porque foi o único do pelotão das falésias que ficou vivo.
+- **Raça e aspeto:** Humano, 50 anos. 1,80 m, cabeça rapada, barba grisalha com metade queimada (lisa como cera), sobretudo imperial de couro, greatsword à cintura, apito de osso ao peito.
+- **Backstory:** Nasceu num moinho do Marrow Valley e alistou-se na Marca Justa aos dezoito, no ano em que os Ceifeiros levaram o dízimo e o pai não tinha com que pagar; trinta anos depois, a família ainda recebe o soldo dele, e ele ainda não voltou a casa.
+- **Quer:** Saber quem está vivo; um relatório que possa contar.
+- **Teme:** Voltar a ser o único que sobra.
+- **Esconde:** As 800 po não existem; escoltou o Aldo; o *message* do Alberto.
+- **Voz:** Baixa; nunca repete uma ordem; fala a olhar para a água.
+- **Gesto:** Fecha a mão no apito de osso antes de decidir.
+- **Sentidos:** A meia barba queimada, lisa como cera; cheira a couro molhado e a fumo de pira.
+- **Âncoras:** «Eu disse juntos.» · «Ainda estou para descobrir se sobreviver foi a opção melhor.» · «Contem-nos. Quero nomes.»
+- **Saída:** Vira as costas e já está a dar uma ordem.

@@ -81,7 +81,7 @@ Nomes de Exandria em português europeu, para consistência entre os dados, as p
 | Reapers (tithe collectors) | os Ceifeiros | |
 | Hall of Erudition | o Salão da Erudição | Zadash |
 | Soltryce Academy | a Academia do Solstício | Rexxentrum (decidido pelo DM, 2026-10-24) |
-| Dunrock Mountains | as Montanhas da Pedra-Parda | Grimgolir (decidido pelo DM, 2026-10-24) |
+| Dunrock Mountains | as Montanhas da Rocha-Parda | Grimgolir (decidido pelo DM, 2026-10-24) |
 | Fort Venture | Forte Ventura | |
 | Barren Eve | a Véspera Estéril | 2 de Duscar |
 | Zemnian | zemniano | língua |

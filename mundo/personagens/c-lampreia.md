@@ -37,3 +37,19 @@ Que isto acabe sem barulho.
 ## Segredo
 
 Detesta o escriba.
+
+## Ficha de mesa
+
+### Cartão de mesa (Decidido pelo DM (2026-10-24))
+
+- **Quem:** Batedora da Terceira Lança; a que não está lá.
+- **Raça e aspeto:** Humana. Lama seca da cabeça aos pés, manto com juncos, besta, duas espadas curtas.
+- **Backstory:** Cresceu nas valas de rega do Marrow Valley a apanhar lampreias à mão, deitada na lama horas a fio; o irmão mais velho morreu às mãos dos Kryn numa guarnição da fronteira, e desde então ela fala menos do que caça.
+- **Quer:** Que isto acabe sem barulho.
+- **Teme:** Que o Lucan seja aquilo que ela pensa.
+- **Esconde:** Contou os mortos do forte e diz que não; o que viu do Lucan.
+- **Voz:** Frases de três palavras; quando fala, estraga a conversa.
+- **Gesto:** A besta carregada nas duas mãos, nunca apontada.
+- **Sentidos:** A lama seca na cara, que nunca limpa; cheira a lodo e a junco; o Isco cheira-a antes de a ver.
+- **Âncoras:** «Espero que desta vez consigam encontrar o caminho.» · «Não há deles. São todos nossos.» · «Espadas nossas.»
+- **Saída:** Já não está lá.
