@@ -27,7 +27,8 @@ trabalho e os cuidados.
 10. **Resumo na Drive:** escreve-o a partir do registo já validado (nunca ao contrário), na pasta `cotn_2026/resumo_de_sessoes` (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`), como Google Doc criado a partir de Markdown.
 11. **Documentos dos PCs na Drive:** em cada fecho, refaz o documento consolidado de cada PC pela skill `ficha-pc` (fontes, estrutura e publicação estão lá): um por PC, na pasta do PC, versão seguinte, a anterior para o lixo. Fora do fecho, uma correção pequena faz-se no próprio documento (decisão 2026-10-24 #5).
 12. **Cópia do repositório na Drive:** não se faz no fecho; a cópia de leitura em `cotn_2026/github_repo` atualiza-se na tarefa agendada diária (skill `copia-drive`; decisão 2026-10-23 #29). Os passos anteriores fazem-se sem pedir licença e valem também fora do fecho, em qualquer revisão ou correção (decisão 2026-10-22 #11).
-13. **Registo da mesa:** atualiza o «Índice de sessões» e os «Jogadores» (Google Docs na pasta `tabletop` da Drive) com a sessão fechada, pela skill `registo-mesa`: o número global, a data, o título, a mesa e uma nota do que aconteceu, tudo tirado do registo.
+13. **As folhas de arco** (`plano/fios/a-pc-*`, skill `arcos`; decisão 2026-10-25 #1): as Sementes recebem os momentos novos (com marca de tempo), as Crenças revêem-se contra o que cada jogador jogou, e o Estado e os estados dos golpes atualizam-se.
+14. **Registo da mesa:** atualiza o «Índice de sessões» e os «Jogadores» (Google Docs na pasta `tabletop` da Drive) com a sessão fechada, pela skill `registo-mesa`: o número global, a data, o título, a mesa e uma nota do que aconteceu, tudo tirado do registo.
 14. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar, e o que mudou no registo da mesa.
 
 ## A transcrição

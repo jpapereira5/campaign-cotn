@@ -489,3 +489,10 @@ Correções limpas da mesma revisão (transcrição da S7): o save do cristal fo
 17. **A Bol'bara não tem bengala de osso com favo de mel** (era da preparação; vai para a Reserva da ficha). O gesto dela no cartão passa a ser tocar na concha branca ao peito.
 18. **Correção ao registo da S7: o Elmiro voluntariou-se para o último turno, com o Isco** («O Elmiro voluntaria-se para ficar contigo», dito ao Isco, transcrição 2:26:43), e não para o primeiro, com o Lucan; o Lucan fez o primeiro com a Sousela. Confirma a decisão 2026-10-23 #1.
 19. **O peixe grande que o Elmiro traz na manhã do dia 5 foi pescado com a rede do Isco**, que ele levou sem pedir, de noite, durante o turno dos dois. O Rui Felder não sabe nada do Isco antes de o conhecer no salão: só o que o Elmiro lhe contar à frente deles.
+
+## Decidido pelo DM (2026-10-25)
+
+1. **Cada PC tem uma folha de arco**, no fio `plano/fios/a-pc-<pc>.md` (skill `arcos`, revista no `dnd-skills`): essencial — Pergunta, Tipo de arco, Ferida, Mentira → Verdade, Quer, Precisa; Rosto, Espelho, Laços; Gancho → golpes (quantos o arco pedir, no máximo um por capítulo; cada um uma revelação disponível, com a pergunta que responde e a que abre, janela, estado e três caminhos nos do capítulo atual e dos dois seguintes) → Escolha; Finais possíveis (com custo e o que muda na ficha); Relógio do arco; O jogador, Crenças, Contrato, Estado, Por decidir. Quando houver, preenchendo o máximo possível: Por capítulo (três descobertas), Sementes, Ritmo, O que dá Inspiração, Rima com o tema e pontos de contacto com o enredo. O Boblin leva a folha inteira, preenchida no que for possível. Substitui o documento de arcos na Drive.
+2. **As crenças e o que o jogador procura intuem-se do que os jogadores disseram e jogaram; não se lhes pergunta.**
+3. **Os golpes por preparar viram notas na Grelha**, na coluna do capítulo da janela.
+4. **O fecho alimenta as folhas de arco:** Sementes, Crenças, Estado (skill `fecho`, passo 13).
