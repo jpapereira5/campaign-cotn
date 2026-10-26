@@ -12,4 +12,4 @@ origem:
 
 A madeixa branca platinada entrançada no pulso esquerdo do Damião Prestes é da Lia.
 
-Desde a sessão 6 (#89, 2026-10-16) está com o corpo do Damião, junto ao obelisco, ainda no pulso esquerdo; ninguém lhe mexeu.
+Na sessão 6 (#89, 2026-10-16) ficou com o corpo do Damião, no pulso esquerdo. Na sessão 7 (#90, 2026-10-21) o Corvelo deixou-lha no pulso e ardeu com ele na pira do acampamento. Porque é que o Damião tinha cabelo da Lia continua por decidir.
