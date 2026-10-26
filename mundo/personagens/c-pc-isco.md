@@ -141,3 +141,5 @@ Blood Hunter 3 (Order of the Lycan), Shifter (Beasthide) na ficha, background Fi
 **À mesa (sessão 2, #83):** a 1.ª transformação (bonus action) torna as feições mais de tubarão; a 2.ª dá +7 PV temporários e +1 AC (17) e fá-lo crescer. Mordida com descarga elétrica (faíscas entre os dentes): ao ativá-la (bonus action) morde a língua e leva 3; o ataque seguinte soma dano elétrico (14 de dano num acerto). Em lama profunda pode espetar a greatsword no chão para sacar a besta ligeira sem gastar ação (decisão do DM).
 
 **A ponte para o Fritz:** se os jogadores falarem do Vigost à frente do Fritz, ele reconhece o nome. É assim que se descobre que o Fritz é (ou foi) do culto (Decidido pelo DM (2026-10-16)).
+
+**O pai renegou-os para os proteger** (Decidido pelo DM (2026-10-26)): a expulsão foi mentira; o Vaelen sabia ou suspeitava que o Scylla foi atacado por causa dos filhos e afastou-os do mar, sem lhes explicar, porque iam querer caçar um inimigo demasiado poderoso. Verdade a descobrir mais à frente (ficha `c-vaelen-bruma`).

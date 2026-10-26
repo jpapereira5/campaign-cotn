@@ -6057,6 +6057,25 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-arcos-01",
+      "at": "2026-10-26T12:15:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-vaelen-bruma",
+        "col": "ch2"
+      },
+      "factKind": "cena",
+      "text": "Semente: o Vaelen renegou os filhos para os proteger do mar (o Scylla foi atacado por causa deles; o inimigo era demasiado poderoso). A expulsão foi mentira. Verdade para os irmãos descobrirem mais à frente, no reencontro com o Scylla.",
+      "suggestion": "Plantar migalhas antes do mar: alguém de Nicodranas que diga que o capitão perguntava por eles; o Belmiro.",
+      "because": [
+        "registo/decisoes.md 2026-10-26 #9"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
