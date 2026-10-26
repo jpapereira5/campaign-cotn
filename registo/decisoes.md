@@ -514,3 +514,8 @@ Ficam de fora: a pixie como regra da casa.
 6. **A irmã do Boblin chama-se Carol Lin** (o Tiago, pelo DM, 2026-10-26): é a 17.ª filha, uma das duas irmãs mais novas (o questionário diz «uma das irmãs mais novas», não a mais nova). **O Boblin tem 17 irmãos no total**, 18 filhos com ele (10 rapazes e 7 raparigas). Corrige o «irmã mais nova» e o «18 irmãos» da ficha e da decisão 2026-10-19 #12.
 
 Ficam em aberto: os valores da dívida.
+
+## Decidido pelo DM (2026-10-26)
+
+1. **A pergunta da campanha, que todos os arcos dos PCs respondem: «O que vale um sacrifício que ninguém lembra?»** Cada PC traz uma faceta do Alyxian: o Lucan, o preço de um deus; o Quasi, a metade acorrentada; a Lia, a memória (lembra-se dele, que a esqueceu); o Isco, o descartável; o Boblin, a fama.
+2. **O mapa dos atos serve de base** (afina-se PC a PC): Ato I, Quem são (cap. 0 a 2), os ganchos e a primeira rachadura; Ato II, O que custa (cap. 3 a 5), as viragens; Ato III, O que escolhem (cap. 6 a 7), a noite escura e a escolha; Epílogo, o Ano de Ruidus (cap. 8). Picos escalonados: Lia, viragem em Bazzoxan (a mãe) e clímax no Coração (o pai); Lucan, viragem na Ascensão (Sess'inek) e clímax no Coração; Isco, viragem no mar (o Império aboleto, o Belmiro) e clímax no Ano de Ruidus; Quasi, viragem em Marquet (a raunie) e clímax no Coração (a cura, antes do Alyxian); Boblin, viragem no mar (Port Damali), clímax em aberto. Um dueto de PCs em destaque por capítulo.
