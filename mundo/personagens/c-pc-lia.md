@@ -14,7 +14,7 @@ capitulos:
   - ch7
   - ch8
 quer: "O rasto do pai: ter a certeza de que passou pelo Forte Ventura (o livro de registos), mesmo sabendo que o destino dele seria Bazzoxan."
-teme: Perder a única pessoa que tem no mundo (o pai).
+teme: Perder a única pessoa que tem no mundo (o pai); mais à frente, ser ela a razão de o perder (o pai a sacrificar-se pela cura da filha).
 tags:
   - pc
   - cotn-2026

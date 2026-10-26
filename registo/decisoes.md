@@ -523,3 +523,4 @@ Ficam em aberto: os valores da dívida.
 4. **A vida de Urzin da Lia é a do Rutz:** hobgoblin de um Urzin antigo, tio da Bolbara, clérigo do Luxon na primeira campanha da Dinastia; o conjunto de sonhos de Urzin continua a acabar no nome «Kryn», e o sonho da S7 é o primeiro dos três. Ficam de fora: duas vidas em Urzin; o Rutz não ser vida dela.
 5. **O que a Lia teme: perder a única pessoa que tem no mundo, o pai.**
 6. **O pai da Lia não a abandonou: estava disposto a sacrificar-se por ela, sem ela saber. É o arco do Alyxian visto pela filha.** (A pergunta do arco e o resto do núcleo ficam por fechar.)
+7. **O medo da Lia evolui:** primeiro, perder a única pessoa que tem no mundo; mais à frente, quando souber do typhros e da missão do pai, **ser ela a razão de perder a única família que tem**: o pai a sacrificar-se pela cura da filha.
