@@ -37,11 +37,18 @@ Ambições da Lia: encontrar o pai; o Luxon que lhe responde sem ela saber; o ty
 ### C. Percurso
 
 - **Gancho (jogado, S4):** deixou-se capturar pela patrulha para ver o livro de registos do forte.
-- **Golpes:** por fechar (passo 4). O rasto já decidido: Forte Ventura (o livro de registos, o Corvelo) → Jigau (a Belana Zolaed e o pendente; o Mirim e a adaga; a visão da Jóia) → viagem (o sonho preventivo) → Bazzoxan (a mãe; o typhros e a missão do pai; o medo vira culpa) → Ascensão (os vestígios do pai; a visão do Alyxian que a dá como morta) → Ank'Harel e o Netherdeep → o Coração.
+- **Duas linhas** (decisão 2026-10-26 #15): a do pai (os golpes) e a da alma (um sonho por vida; é o relógio do arco, o typhros a avançar). Um golpe por capítulo, no máximo.
+- **Golpes (a linha do pai):**
+  1. **Cap. 0, Forte Ventura (S8; preparado): «O pai passou por aqui, com ordem de missão.»** Responde: passou? Abre: porque é que a Sia disse «razões pessoais»? Caminhos: o livro de registos; o Corvelo («Lembro-me desse»); a Nália.
+  2. **Cap. 1, Jigau: «O pendente tem família.»** Responde: o que é o pendente? Abre: quem da Den Tasithar é do meu sangue? Caminhos: a Belana Zolaed lê a lebre; um batedor da Vigia da Aurora com a lebre na insígnia; o Galsariad reconhece-a. A seguir: Bazzoxan.
+  3. **Cap. 2:** sem golpe; a primeira marca física do typhros, que ela esconde.
+  4. **Cap. 3, Bazzoxan (a viragem): «Ele foi buscar-me a cura.»** A mãe, o typhros, a missão do pai; o medo vira culpa. Na Ascensão, os vestígios do pai e a visão em que o Alyxian a dá como morta são descobertas.
+  5. **Cap. 4, Ank'Harel: «O meu deus não é o meu.»** A crise de fé: o Luxon.
+  6. **Cap. 6, o Netherdeep (a noite escura): «Encontrá-lo.»**
+- **Relógio do arco (a linha da alma; um sonho por vida):** ✔ Mirimm (Rosohna, em casa; fez o pai partir) · ✔ o Rutz (Urzin, S7) · cap. 1, **Zolaed** (Jigau: a briga em que fez a cicatriz ao pequeno Mirim) · cap. 2, a primeira marca do typhros · cap. 3, **Hythenos** (Bazzoxan, o nome no Muro), **Thelyss** (Ascensão, a que trouxe o farol) e **primeira vida, sonho 1** (o antigo sonho preventivo: a véspera da Ascensão, «lembra-te de nós se eu cair»), o capítulo em que o selo cede · cap. 5, **primeira vida, sonho 2** (a última resistência em Cael Morrow) · cap. 7, **primeira vida, sonho 3** (ela e o Alyxian lado a lado; a memória que dá vantagem para o acalmar). O rasto já decidido: Forte Ventura (o livro de registos, o Corvelo) → Jigau (a Belana Zolaed e o pendente; o Mirim e a adaga; a visão da Jóia) → viagem (o sonho preventivo) → Bazzoxan (a mãe; o typhros e a missão do pai; o medo vira culpa) → Ascensão (os vestígios do pai; a visão do Alyxian que a dá como morta) → Ank'Harel e o Netherdeep → o Coração.
 - **Escolha (o Coração):** libertar o Alyxian e acabar com o rubídio (o melhor final do livro), sacrificando a cura possível do typhros; o mesmo gesto cura o pai. A decisão é dela. O pai luta emocionalmente contra a escolha (a corrupção) e depois aceita, resignado. As memórias da primeira vida dão vantagem nos testes para acalmar o Alyxian.
 - **Finais possíveis:** (1) **fica com a cura** — o rubídio fica no mundo, ela pode viver, o Alyxian continua a sofrer, o pai continua a arriscar; (2) **dá-se pelo mundo** — liberta o Alyxian, perde a cura, o pai é salvo e é ele quem se lembra dela. Custa também à mãe (a cura de uma vida) e à Dinastia (a Rainha tem typhros).
 - **Sonhos de vidas passadas:** Calamidade («Alyxian») → Rosohna (Mirimm) → Urzin (o Rutz; «Kryn»; o primeiro sonho jogado na S7) → Jigau (Zolaed) → Bazzoxan (Hythenos) → Ascensão (Thelyss).
-- **Relógio do arco:** por fechar.
 
 ### D. Mesa (versão neutra; a leitura completa está no documento privado «Jogadores»)
 
