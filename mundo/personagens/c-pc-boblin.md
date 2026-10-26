@@ -109,6 +109,8 @@ Melhorar a vida dos irmãos; acabar o serviço ao Bufal com um grande feito e de
 
 **Família em Jigau:** o Boblin tem primos e outra família em Jigau (Decidido pelo DM (2026-10-21); ainda por falar com o Tiago: acrescenta à backstory, não a altera). Quem são e o que fazem fica por decidir.
 
+**Depois da S7** (Decidido pelo DM (2026-10-26)): fugiu com a ajuda do familiar e está escondido perto do acampamento, **sem a moeda**, que ficou na bolsa do Tibério, com o Lucan. Na S8 volta assim: a caminho do forte, o grupo ouve-o ao longe a falar sozinho, a planear uma emboscada que parece ser para eles e é ao forte, para resgatar a xamã; sabe do forte pelo reconhecimento do familiar. Se sabe que pode refazer a moeda numa cerimónia de 1 hora fica por decidir.
+
 **Por decidir:**
 - Se alguém da Miríade em Urzin reconhece a moeda da mula (ideia do DM, 2026-10-20).
 - Se os irmãos Bruma sabem alguma coisa do contrato do pai com o Algar (falar antes com a Renata e o Pedro Ropio). O Xundi vai perceber que são filhos do capitão que o caçou (decisão 2026-10-21 #30).

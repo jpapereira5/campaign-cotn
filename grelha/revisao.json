@@ -6037,6 +6037,26 @@
         "registo/decisoes.md 2026-10-24 #9"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-boblin-11",
+      "at": "2026-10-26T02:30:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-boblin",
+        "col": "s8"
+      },
+      "factKind": "cena",
+      "text": "Regresso do Boblin (combinado com o Tiago): a caminho do forte, o grupo ouve-o ao longe a falar sozinho, a planear uma emboscada que parece para eles e é ao forte, para resgatar a xamã. Sabe do forte pelo familiar invisível. A moeda está com o Lucan.",
+      "suggestion": "Decidir o que o familiar viu do forte: se só o de fora (fumo, portão entreaberto, mortos no pátio), o forte por dentro fica para o grupo descobrir.",
+      "because": [
+        "registo/decisoes.md 2026-10-26 #1",
+        "registo/decisoes.md 2026-10-26 #2"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

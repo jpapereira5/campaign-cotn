@@ -481,7 +481,7 @@ Correções limpas da mesma revisão (transcrição da S7): o save do cristal fo
 9. **No Forte Ventura, ao meio-dia do dia 5, os mortos já cheiram a decomposição** (moscas, inchaço, o doce enjoativo; o Isco sente-o a 100 m). As áreas V1 a V11, com sentidos e checks, ficam na Ficha de mesa de `l-fort-venture`.
 10. **A S8 acaba onde a mesa chegar; por volta de 1h45 de jogo encaminha-se para um de dois cortes na tenda do comandante:** o Alberto apanhado a queimar a página da recompensa («Não é o que parece. É pior. Mas não para vocês.») ou o Corvelo ao ler da Lia o nome do Aldo («Lembro-me desse.»). O Alberto chega sempre primeiro; se não chegarem à tenda, o corte de recurso é o Fritz.
 11. **O corte de recurso da S8 pode ser uma das falas do Fritz já definidas para cada PC** (decisão 2026-10-21; ao Quasi, à Lia, ao Boblin), dita a quem ele ler. Ficam de fora: falas novas do Fritz depois de ler a mente (guardadas na Reserva de `c-alonne-frith`).
-12. **O regresso do Boblin na S8 não se prepara: o Tiago decide como e quando volta ao grupo.**
+12. **O regresso do Boblin na S8 não se prepara: o Tiago decide como e quando volta ao grupo.** [substituído: decisão 2026-10-26 #1 — o DM e o Tiago combinaram o regresso]
 13. **Glossário:** *Soltryce Academy* é **a Academia do Solstício**; as *Dunrock Mountains* são **as Montanhas da Rocha-Parda** (corrigido pelo DM no mesmo dia; antes «Pedra-Parda») (`docs/glossario.md`). O Fritz, como Hollow One, cheira ténue a necromancia (EGtW), em vez de «não cheira a nada» (corrige a Ficha de mesa de `l-fort-venture`, V8).
 14. **Os cartões de mesa dos NPCs da S8 ficam aprovados** (Corvelo, Sousela, Casqueiro, Elmiro, Alberto, Bigorna, Rui, Marta, Fritz, Bol'bara), na Ficha de mesa de cada um. O Elmiro é de uma aldeia de trigo a norte do Seymir, no Marrow Valley; o Corvelo, a Sousela, o Casqueiro e o Elmiro são humanos.
 15. **Daqui em diante, cada NPC de uma preparação leva o cartão de mesa:** Quem · Raça e aspeto · Backstory (uma frase, coerente com o EGtW e o CotN) · Quer · Teme · Esconde · Voz · Gesto · Sentidos · Âncoras · Saída (`AGENTS.md`; skills `preparar` e `npc`).
@@ -496,3 +496,13 @@ Correções limpas da mesma revisão (transcrição da S7): o save do cristal fo
 2. **As crenças e o que o jogador procura intuem-se do que os jogadores disseram e jogaram; não se lhes pergunta.**
 3. **Os golpes por preparar viram notas na Grelha**, na coluna do capítulo da janela.
 4. **O fecho alimenta as folhas de arco:** Sementes, Crenças, Estado (skill `fecho`, passo 13).
+
+## Decidido pelo DM (2026-10-26)
+
+Conversa do DM com o Tiago Rosas (WhatsApp, 2026-10-25 e 26), trazida para aqui pelo DM.
+
+1. **O regresso do Boblin na S8 (proposta do Tiago, aceite pelo DM):** a caminho do Forte Ventura, o grupo ouve ao longe alguém a falar sozinho: é o Boblin, a pensar em voz alta no que fazer. Está a planear uma emboscada que, à primeira vista, parece ser para o grupo; quem olhar de perto para os desenhos e os planos percebe que é uma emboscada ao forte, porque a missão dele é também resgatar a xamã. Dá-lhe razão para se juntar ao grupo e se ajudarem uns aos outros. **O que o Boblin sabe do forte** vem do reconhecimento com o familiar invisível; o que passa à mesa é o que o DM quiser dar aos jogadores e ao público. Substitui a decisão 2026-10-25 #12.
+2. **A moeda ficou com o grupo:** na bolsa do Tibério, que o Lucan leva. Corrige o inventário do registo da S7, que também a punha com o Boblin. O Tiago lembrou que, pelas regras do Tasha's, uma cerimónia de 1 hora num descanso dá-lhe uma moeda nova (e a antiga é destruída); **se o Boblin sabe disso fica por decidir**.
+
+Ficam em aberto: o pacto do Boblin e a forma do familiar (o DM perguntou ao Tiago; nota n-s7-06).
+
