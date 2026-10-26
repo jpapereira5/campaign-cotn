@@ -6114,6 +6114,22 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-arcos-04",
+      "at": "2026-10-26T22:26:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "t-mesa-regras-da-casa",
+        "col": "ch1"
+      },
+      "factKind": "cena",
+      "text": "TPC do DM: o que dá Inspiração a cada jogador (cada PC na sua folha de arco, ligado às crenças e ao defeito). A Lia já tem: jogar uma crença quando custa.",
+      "suggestion": "Fechar ao fazer o núcleo de cada PC (Lucan, Isco, Quasi, Boblin).",
+      "because": [
+        "registo/decisoes.md 2026-10-26 #19"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"

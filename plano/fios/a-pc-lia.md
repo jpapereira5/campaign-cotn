@@ -63,3 +63,11 @@ Ambições da Lia: encontrar o pai; o Luxon que lhe responde sem ela saber; o ty
 - **Regra de jogo:** o preconceito existe para a Lia lhe responder e ganhar com dignidade, nunca para a calar.
 - **Contrato:** a safety tool ficou em branco de propósito (nada vedado). O resto da moralidade, o traço, o ideal, o laço, o defeito e a memória mais antiga definem-se em jogo; quem é a mulher do sonho de Rosohna decide ela.
 - **Por decidir:** o nome da mãe; arcanista-mor ou sacerdotisa; a Lente no ativo ou reformada; o parentesco com a Naevyn; o templo de Rexxentrum; os nomes das vidas; porque é que o Damião tinha cabelo dela.
+
+### Quando houver (decisão 2026-10-26 #19)
+
+- **Sementes:** a cura do Alex (S5, ~0:38), que o pântano levou no dia seguinte (prepara o pai); «Eu não compactuo com vocês a prender pessoas aleatórias» (S7 2:18:58; pode voltar diante do Alyxian); a Nália a baixar as espadas quando a vê curar o Boblin (S7; os modos dela desarmam); o pendente suspenso no ar junto ao menir, com as mãos dela estendidas (S7; o selo da mãe; paga em Bazzoxan); o bobo de máscara branca no sonho do Rutz (S7; o Quasi); as cordas folgadas por baixo da água (S5; foi o Isco, ela não sabe); a trança no pulso do Damião, que ardeu na pira (S6–S7; porquê, por decidir).
+- **Ritmo:** um momento dela de duas em duas sessões, na primeira metade (sai às 23h).
+- **O que dá Inspiração:** jogar uma crença quando custa: curar quem não devia, correndo risco; responder ao preconceito com dignidade ou humor; manter os modos diante de quem está furioso.
+- **Rima com o tema:** é a memória; prometeu lembrar o Alyxian e é ela que o liberta; quem se lembra dela é o pai.
+- **Pontos de contacto com o enredo:** o rubídio (a cura e o preço); a Jóia (a visão ao lado do Alyxian); Bazzoxan (a mãe, o Muro, as Ruínas); o Netherdeep e o Coração (o pai, a escolha); a Rainha Brilhante, que tem typhros.
