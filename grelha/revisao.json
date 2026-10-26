@@ -6076,6 +6076,25 @@
         "so-dm"
       ],
       "status": "aberta"
+    },
+    {
+      "id": "n-arcos-02",
+      "at": "2026-10-26T20:25:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "i-garra-seis-dedos",
+        "col": "ch3"
+      },
+      "factKind": "cena",
+      "text": "TPC do DM: a garra de Sess'inek. O que acontece à medida que o Quasi a usa cada vez mais (o command 1x/dia, o sonho de líder, a vontade de mandar), e como ligá-la ao templo na Ascensão dos Traidores e à jornada do Lucan (a oferta de Sess'inek, a mordida no Isco).",
+      "suggestion": "Pensar com o DM depois dos núcleos dos arcos; não agora.",
+      "because": [
+        "mundo/itens/i-garra-seis-dedos.md"
+      ],
+      "tags": [
+        "so-dm"
+      ],
+      "status": "aberta"
     }
   ],
   "lastReview": "2026-10-13T01:20:00.000Z"
