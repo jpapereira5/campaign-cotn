@@ -507,4 +507,8 @@ Conversa do DM com o Tiago Rosas (WhatsApp, 2026-10-25 e 26), trazida para aqui 
 3. **A dívida do Boblin, pelo Tiago (WhatsApp, 2026-10-26):** a irmã mais nova foi sentenciada à morte ou a ser mandada como batedora; o Boblin, por culpa, ofereceu-se para trocar de castigo com ela. O serviço acaba com o fim da guerra, com uma soma grande ou com um grande feito; o Tiago deixa as quantias ao DM. Corrige o «para ela não ser condenada» e o «até cumprir um tempo» da decisão 2026-10-19 #2.
 4. **A missão do Boblin: o Bufal mandou-o sozinho pelos pântanos à procura da xamã desaparecida, a Bolbara, antes de contratar o grupo atual, como forma de pagamento.** Na cabeça do Bufal, 99% era o Boblin morrer, 1% conseguir. Confirma a decisão 2026-10-19 #8 (o credor é o Bufal) e explica o «resgatar a xamã» do regresso (#1). Sugerido pelo DM ao Tiago.
 
-Ficam em aberto: o pacto do Boblin e a forma do familiar (o DM perguntou ao Tiago; nota n-s7-06); os valores da dívida.
+5. **O familiar do Boblin é uma sprite** (Pacto da Corrente, ficha do D&D Beyond exportada a 2026-10-26, com a invocação Investment of the Chain Master). A pixie da ação escrita do Tiago na S7 passa a sprite (fey, minúscula, fica invisível): a fuga não muda. Fecha a nota n-s7-06.
+
+Ficam de fora: a pixie como regra da casa.
+
+Ficam em aberto: os valores da dívida.
