@@ -56,6 +56,10 @@ Ambições da Lia: encontrar o pai; o Luxon que lhe responde sem ela saber; o ty
 - **O jogador:** apoia os outros; brilha com o holofote dado por convite direto; humor solto quando à vontade.
 - **Como correr:** o mundo vai ter com ela (NPCs que a chamam, pedidos de ajuda, sonhos); convite pelo nome com duas ou três escolhas; as cenas dela na primeira metade da sessão (sai às 23h); uma revelação de cada vez, com uma coisa concreta a seguir; NPCs que lhe respondam à letra; não a poupar.
 - **Provas:** cura sem perguntar quem merece (o Alex, S5; o Boblin, S7 2:17:37); «Eu não compactuo com vocês a prender pessoas aleatórias» (S7 2:18:58); «Eu sou uma pessoa educada» (S5 0:28:22); «Só vim aqui porque ele tinha meu medalhão» (S7 2:10:41).
-- **Crenças:** por intuir.
-- **Contrato:** falta definir com ela o traço, o ideal, o laço, o defeito e a memória mais antiga; quem é a mulher do sonho de Rosohna decide ela.
+- **Crenças** (decisão 2026-10-26 #18; princípios postos à prova, não para partir; o que se parte é a culpa):
+  1. **«Ajudo quem precisa, seja quem for.»** Prova: o Alex (S5); o Boblin amarrado (S7 2:17:37). Testam-na: o Mirim, a Bolbara, o pai corrompido; no fim, ajudar o Alyxian custa-lhe a cura.
+  2. **«Não sou o que pensam de mim.»** Prova: «Eu não compactuo com vocês a prender pessoas aleatórias», ao sargento que a prendia (S7 2:18:58). Testam-na: a desconfiança e o preconceito (o Rui, a Marta, o Elmiro, os olhares de «não há deles»); em Jorhas, a Dinastia que a vê como imperial e depois como typhros; por dentro, as vidas passadas que a tentam definir.
+  3. **«Os bons modos não se perdem, nem com quem não os merece.»** Prova: «Eu sou uma pessoa educada» (S5 0:28:22); «Eu não gosto de pessoas mal-educadas» (S6 1:11:35). Testam-na: o desprezo, a raiva do pai corrompido, a fúria do Alyxian; paga no fim, porque o melhor final se consegue a mostrar bondade a quem está furioso.
+- **Regra de jogo:** o preconceito existe para a Lia lhe responder e ganhar com dignidade, nunca para a calar.
+- **Contrato:** a safety tool ficou em branco de propósito (nada vedado). O resto da moralidade, o traço, o ideal, o laço, o defeito e a memória mais antiga definem-se em jogo; quem é a mulher do sonho de Rosohna decide ela.
 - **Por decidir:** o nome da mãe; arcanista-mor ou sacerdotisa; a Lente no ativo ou reformada; o parentesco com a Naevyn; o templo de Rexxentrum; os nomes das vidas; porque é que o Damião tinha cabelo dela.
