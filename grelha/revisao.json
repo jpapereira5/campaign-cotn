@@ -5772,8 +5772,8 @@
         "col": "s8"
       },
       "factKind": "regra",
-      "text": "Na fuga da S7 o Boblin chamou uma pixie com *find familiar*. A ficha dele (Warlock 3, Génio Marid, Charlatão) não tem de onde venha: nas regras de 2014 não há «pacto do génio» nem da moeda — o vaso (a moeda) é do patrono e não dá familiar. Um warlock só tem *find familiar* pelo Pacto da Corrente (Pact of the Chain) ou pelo Pacto do Tomo com a invocação Book of Ancient Secrets (ritual), ou por um talento (Magic Initiate de mago). E a pixie não é forma de familiar nas regras de 2014: o Pacto da Corrente dá imp, pseudodragão, quasit ou sprite (a pixie mais próxima).",
-      "suggestion": "Confirmar com o Tiago o pacto do nível 3 (o mais provável: Pacto da Corrente) e a forma do familiar (sprite em vez de pixie, ou aceitar a pixie como regra da casa). Registar na ficha do Boblin.",
+      "text": "Na fuga da S7 o Boblin chamou uma pixie com *find familiar*. A ficha dele (Warlock 3, Génio Marid, Charlatão) não tem de onde venha: nas regras de 2014 não há «pacto do génio» nem da moeda — o vaso (a moeda) é do patrono e não dá familiar. Um warlock só tem *find familiar* pelo Pacto da Corrente (Pact of the Chain) ou pelo Pacto do Tomo com a invocação Book of Ancient Secrets (ritual), ou por um talento (Magic Initiate de mago). E a pixie não é forma de familiar nas regras de 2014: o Pacto da Corrente dá imp, pseudodragão, quasit ou sprite (a pixie mais próxima). [atualizada 2026-10-26: a ficha do D&D Beyond (PDF de 2026-10-26) tem o Pacto da Corrente e a invocação Investment of the Chain Master; o pacto está resolvido, falta a forma.]",
+      "suggestion": "Falta só a forma do familiar: sprite (fey, minúsculo, fica invisível, a mais próxima da pixie da mesa) ou a pixie como regra da casa. Registar na ficha do Boblin.",
       "because": [
         "registo/decisoes.md 2026-10-22 #7"
       ],
