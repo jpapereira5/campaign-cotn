@@ -524,3 +524,4 @@ Ficam em aberto: os valores da dívida.
 5. **O que a Lia teme: perder a única pessoa que tem no mundo, o pai.**
 6. **O pai da Lia não a abandonou: estava disposto a sacrificar-se por ela, sem ela saber. É o arco do Alyxian visto pela filha.** (A pergunta do arco e o resto do núcleo ficam por fechar.)
 7. **O medo da Lia evolui:** primeiro, perder a única pessoa que tem no mundo; mais à frente, quando souber do typhros e da missão do pai, **ser ela a razão de perder a única família que tem**: o pai a sacrificar-se pela cura da filha.
+8. **O núcleo do arco da Lia:** ferida — o pai partiu pouco depois de ela lhe dizer o nome do sonho («Mirimm»); mentira — «Sou a razão de perder quem amo» (começa como suspeita e vira certeza quando souber da cura); verdade — «Ser amada não é culpa; ele escolheu»; precisa — deixar-se amar sem se castigar por isso, e decidir o que faz com o sacrifício; tipo — positivo, com tragédia. A pergunta e os finais ficam por fechar.
