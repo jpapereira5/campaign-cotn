@@ -601,3 +601,7 @@ Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedece
 
 24. **Os componentes de rubídio continuam a poder corromper, mesmo sem toque** (confirma #19): o uso tem sempre save, com luvas ou sem elas.
 
+26. **As outras formas do Pacto da Corrente têm versões aquáticas; os números ficam os das regras, muda o ser.** Sprite → nixie; imp → **mefite de lodo prateado** (os mefites são os «diabinhos» dos Planos Elementais, e o de lodo nasce da fronteira entre a Água e a Terra, os Baixios de Lodo do palácio); quasit → **mefite de vapor**; pseudodragão → **cria de tartaruga-dragão** (o dragão do mar, e Urzin viaja às costas de tartarugas). São todas fey, nenhuma é demónio. **São a mesma nixie a mudar de pele**, como nas regras (lançar de novo muda a forma do mesmo familiar): mantém o feitio, a coleção e os segredos (o DM não teve preferência; ficou a recomendação). As formas normais do *find familiar* (caranguejo, polvo, cavalo-marinho, peixe, rã, ave…) também são ela. Não limita o Tiago. **O Tiago (WhatsApp, 2026-10-27):** por agora usa a nixie; o Bob Lin tem uma cabeça «normal» e receio de chamar demónios, por isso não quer imp nem quasit; pode também chamar um pássaro.
+
+Ficam de fora: só a nixie (regra da casa que limitava); outro criado do palácio para cada forma; o dragão-marinho folhoso, o peixe-pedra e a caravela-portuguesa; o mefite de gelo no lugar do de vapor.
+
