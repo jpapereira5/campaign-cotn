@@ -555,3 +555,6 @@ Ficam de fora: a fada do pântano (libelinha, lentilha-de-água); o criado genas
 11. **O familiar do Boblin é uma nixie: uma fada aquática, feminina, com o perfil da sprite.** A nixie não existe em 5e, por isso o nome fica como está; a relação com a pixie (a brincalhona) é a da sprite (a guarda). Aspeto: escamas prateadas e mãos com membranas, do tamanho de uma mão, com o pó do lodo de prata nas guelras (a pista do palácio do Xundi, que o Boblin não sabe de onde vem). Mantém-se da decisão #10: setas de espinhos de ouriço (a picada que adormece), fica transparente quando invisível, o *Heart Sight* é «ler a maré», desfaz-se em salpicos quando é dispensada, e a recomendação de o Tiago escolher natação na invocação. Substitui o corpo de água da ondina (#10). A propor ao Tiago.
 
 Ficam de fora: um nome próprio para a versão guerreira (nicor, nix, ondino, xana, näck).
+
+12. **A nixie do Boblin voa e nada sempre, a 12 m.** O voo é o da sprite; a natação vem da invocação Investment of the Chain Master, que fica sempre escolhida assim, sem se decidir a cada *find familiar*. Substitui a «recomendação ao Tiago» das decisões #10 e #11.
+
