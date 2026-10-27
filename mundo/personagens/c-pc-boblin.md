@@ -57,7 +57,7 @@ Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pe
 - **Sentidos:** cheira a maresia limpa com um fundo metálico, de moeda molhada; gotas a estalar quando se mexe e as barbatanas a vibrar como um leque; fria e húmida, escamas lisas num sentido e ásperas no outro.
 - **Para dizer à mesa:** «Do tamanho de uma mão, prateada como um peixe acabado de pescar. Tem olhos negros e redondos, que piscam de lado, e guelras no pescoço que largam um pó de prata a cada respiração. Cheira a mar e a moeda molhada.»
 
-**A ficha da nixie** (Decidido pelo DM (2026-10-27); a sprite do Monster Manual com seis mudanças tiradas da nixie da 3.5; cartão «A Nixie do Boblin», a_nixie_do_boblin_v4.pdf, pasta do Tiago na Drive):
+**A ficha da nixie** (Decidido pelo DM (2026-10-27); a sprite do Monster Manual com seis mudanças tiradas da nixie da 3.5; cartão «A Nixie do Boblin», a_nixie_do_boblin_v5.pdf, pasta do Tiago na Drive):
 - Fey Minúsculo, **neutra**. CA 15 (corpete de pele de raia), 2 PV (1d4). Deslocamento 3 m, voo 12 m, natação 12 m.
 - FOR 3, DES 18, CON 10, INT 14, SAB 13, CAR 11. Perception +3, Stealth +8; Perceção passiva 13. Línguas: Comum, **Aquano**, Silvano: fala-as em voz alta, com uma voz que **lhe sai pelas guelras, sem mexer a boca** (Decidido pelo DM (2026-10-27)); com o Boblin fala também por telepatia até 30 m, e ele pode, com uma ação, ver e ouvir pelos sentidos dela. Desafio 1/4.
 - **Anfíbia:** respira ar e água.
