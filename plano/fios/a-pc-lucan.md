@@ -28,3 +28,9 @@ Ambições do Lucan: perceber o que Baeshra pretende, proteger o irmão; o segre
 - **Cuidado:** afastar o irmão é distância emocional (fecha-se, mente, recusa ajuda) ou uma separação curta com fim marcado, nunca tirar um jogador de jogo.
 - **Tipo de arco** (decisão 2026-10-27 #5): aberto, pela tentação. Positivo se chegar à verdade; negativo se abraçar a mentira invertida («sou o perigo, então que seja»). Decide a jogadora no fim.
 - **Precisa** (só DM; decisão 2026-10-27 #6): largar o papel de protetor, e deixar que o irmão também cuide dele.
+
+### B. Pessoas (decisão 2026-10-27 #7)
+
+- **Rostos:** o Baeshra (a voz que oferece, empurra e cobra); Sess'inek (a oferta da Ascensão); o Mirim (o alvo em Jigau); o Vaelen (o pai, no mar).
+- **Espelhos:** o Fritz (voltou da morte e perde-se a querer mais; não se comenta à mesa); a Ayo Jabe (genasi da água, quer matar um monstro lendário; ele era caçador de monstros e virou um; o duelo de Jigau); o Vaelen (o pai que afastou o filho para o proteger; o espelho da noite escura).
+- **Laços:** o Isco (o centro; o perigo de cada um para o outro); a Lia (o Baeshra quer o Mirim morto, e é o pai dela; no Coração, o final dele pode impedir o dela, porque o melhor final pede unanimidade); o Quasi (a adaga; a garra de Sess'inek); o Boblin (a mordida; o Xundi caçado pelo Scylla).
