@@ -34,3 +34,11 @@ Ambições do Lucan: perceber o que Baeshra pretende, proteger o irmão; o segre
 - **Rostos:** o Baeshra (a voz que oferece, empurra e cobra); Sess'inek (a oferta da Ascensão); o Mirim (o alvo em Jigau); o Vaelen (o pai, no mar).
 - **Espelhos:** o Fritz (voltou da morte e perde-se a querer mais; não se comenta à mesa); a Ayo Jabe (genasi da água, quer matar um monstro lendário; ele era caçador de monstros e virou um; o duelo de Jigau); o Vaelen (o pai que afastou o filho para o proteger; o espelho da noite escura).
 - **Laços:** o Isco (o centro; o perigo de cada um para o outro); a Lia (o Baeshra quer o Mirim morto, e é o pai dela; no Coração, o final dele pode impedir o dela, porque o melhor final pede unanimidade); o Quasi (a adaga; a garra de Sess'inek); o Boblin (a mordida; o Xundi caçado pelo Scylla).
+
+### Testes da mentira (decisão 2026-10-27 #8; sem resultado marcado)
+
+1. **As Claret Orders recrutam o Isco** (cap. 4 a 5): querem-no pelo que é (Ruidusborn). O perigo é real; o Lucan pode ter razão.
+2. **Alguém escolhe o Isco por ele próprio:** a Marisa Sete-Ventos, no mar, ou uma ligação que nasça à mesa (com a Ayo ou outra pessoa; o romance fica nas mãos do Pedro Ropio; a Ayo tem um fraquinho pelo Galsariad, e uma amizade ou rivalidade de caçadores encaixa sem mexer nisso). Não há perigo: só a escolha de largar. Toca no arco do Isco (ser escolhido por ele próprio).
+3. **O Império aboleto e a caravana do Quasi caçam o Isco:** perigos verdadeiros; o Lucan é a defesa certa.
+
+A reação do Lucan é o termómetro do arco: demasiado protetor puxa para o negativo; deixá-lo trilhar o caminho puxa para o positivo. O contraste ensina a diferença entre proteger e prender.
