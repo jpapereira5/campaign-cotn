@@ -525,7 +525,7 @@ combatentes:
     mecanica: Concentração; CON save, 2d10 radiante.
     componentes: V, S, M (sementes de moonseed e feldspato opalescente) · «Ex Textura»
 - id: boblin
-  nome: Boblin
+  nome: Bob Lin
   lado: pc
   ref: c-pc-boblin
   ca: ficha

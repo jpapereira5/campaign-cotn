@@ -32,7 +32,7 @@ Ambições da Lia: encontrar o pai; o Luxon que lhe responde sem ela saber; o ty
 
 - **Rostos:** o Aldo Kesh (ausente; aparece pelo rasto); a mãe (Bazzoxan); o Duarte Mirim (Jigau).
 - **Espelhos:** o Fritz e o Alberto.
-- **Laços com outros PCs:** Isco (as cordas, `t-laco-isco-lia`); Lucan (a adaga do Mirim, `t-semente-adaga-lia`; no Coração, o final dele, devorar o Alyxian, choca com o dela); Quasi (o pendente; o bobo do sonho do Rutz); Boblin (curou-o à frente da patrulha).
+- **Laços com outros PCs:** Isco (as cordas, `t-laco-isco-lia`); Lucan (a adaga do Mirim, `t-semente-adaga-lia`; no Coração, o final dele, devorar o Alyxian, choca com o dela); Quasi (o pendente; o bobo do sonho do Rutz); Bob Lin (curou-o à frente da patrulha).
 
 ### C. Percurso
 
@@ -56,9 +56,9 @@ Ambições da Lia: encontrar o pai; o Luxon que lhe responde sem ela saber; o ty
 
 - **O jogador:** apoia os outros; brilha com o holofote dado por convite direto; humor solto quando à vontade.
 - **Como correr:** o mundo vai ter com ela (NPCs que a chamam, pedidos de ajuda, sonhos); convite pelo nome com duas ou três escolhas; as cenas dela na primeira metade da sessão (sai às 23h); uma revelação de cada vez, com uma coisa concreta a seguir; NPCs que lhe respondam à letra; não a poupar.
-- **Provas:** cura sem perguntar quem merece (o Alex, S5; o Boblin, S7 2:17:37); «Eu não compactuo com vocês a prender pessoas aleatórias» (S7 2:18:58); «Eu sou uma pessoa educada» (S5 0:28:22); «Só vim aqui porque ele tinha meu medalhão» (S7 2:10:41).
+- **Provas:** cura sem perguntar quem merece (o Alex, S5; o Bob Lin, S7 2:17:37); «Eu não compactuo com vocês a prender pessoas aleatórias» (S7 2:18:58); «Eu sou uma pessoa educada» (S5 0:28:22); «Só vim aqui porque ele tinha meu medalhão» (S7 2:10:41).
 - **Crenças** (decisão 2026-10-26 #18; princípios postos à prova, não para partir; o que se parte é a culpa):
-  1. **«Ajudo quem precisa, seja quem for.»** Prova: o Alex (S5); o Boblin amarrado (S7 2:17:37). Testam-na: o Mirim, a Bolbara, o pai corrompido; no fim, ajudar o Alyxian custa-lhe a cura.
+  1. **«Ajudo quem precisa, seja quem for.»** Prova: o Alex (S5); o Bob Lin amarrado (S7 2:17:37). Testam-na: o Mirim, a Bolbara, o pai corrompido; no fim, ajudar o Alyxian custa-lhe a cura.
   2. **«Não sou o que pensam de mim.»** Prova: «Eu não compactuo com vocês a prender pessoas aleatórias», ao sargento que a prendia (S7 2:18:58). Testam-na: a desconfiança e o preconceito (o Rui, a Marta, o Elmiro, os olhares de «não há deles»); em Jorhas, a Dinastia que a vê como imperial e depois como typhros; por dentro, as vidas passadas que a tentam definir.
   3. **«Os bons modos não se perdem, nem com quem não os merece.»** Prova: «Eu sou uma pessoa educada» (S5 0:28:22); «Eu não gosto de pessoas mal-educadas» (S6 1:11:35). Testam-na: o desprezo, a raiva do pai corrompido, a fúria do Alyxian; paga no fim, porque o melhor final se consegue a mostrar bondade a quem está furioso.
 - **Regra de jogo:** o preconceito existe para a Lia lhe responder e ganhar com dignidade, nunca para a calar.
@@ -67,7 +67,7 @@ Ambições da Lia: encontrar o pai; o Luxon que lhe responde sem ela saber; o ty
 
 ### Quando houver (decisão 2026-10-26 #19)
 
-- **Sementes:** a cura do Alex (S5, ~0:38), que o pântano levou no dia seguinte (prepara o pai); «Eu não compactuo com vocês a prender pessoas aleatórias» (S7 2:18:58; pode voltar diante do Alyxian); a Nália a baixar as espadas quando a vê curar o Boblin (S7; os modos dela desarmam); o pendente suspenso no ar junto ao menir, com as mãos dela estendidas (S7; o selo da mãe; paga em Bazzoxan); o bobo de máscara branca no sonho do Rutz (S7; o Quasi); as cordas folgadas por baixo da água (S5; foi o Isco, ela não sabe); a trança no pulso do Damião, que ardeu na pira (S6–S7; porquê, por decidir).
+- **Sementes:** a cura do Alex (S5, ~0:38), que o pântano levou no dia seguinte (prepara o pai); «Eu não compactuo com vocês a prender pessoas aleatórias» (S7 2:18:58; pode voltar diante do Alyxian); a Nália a baixar as espadas quando a vê curar o Bob Lin (S7; os modos dela desarmam); o pendente suspenso no ar junto ao menir, com as mãos dela estendidas (S7; o selo da mãe; paga em Bazzoxan); o bobo de máscara branca no sonho do Rutz (S7; o Quasi); as cordas folgadas por baixo da água (S5; foi o Isco, ela não sabe); a trança no pulso do Damião, que ardeu na pira (S6–S7; porquê, por decidir).
 - **Ritmo:** um momento dela de duas em duas sessões, na primeira metade (sai às 23h).
 - **O que dá Inspiração:** jogar uma crença quando custa: curar quem não devia, correndo risco; responder ao preconceito com dignidade ou humor; manter os modos diante de quem está furioso.
 - **Rima com o tema:** é a memória; prometeu lembrar o Alyxian e é ela que o liberta; quem se lembra dela é o pai.

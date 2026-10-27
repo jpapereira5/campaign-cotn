@@ -13,11 +13,11 @@ tags:
   - dm
   - imperio
   - morto
-legenda: guarda da capela; ganhou a moeda do Boblin; morto
+legenda: guarda da capela; ganhou a moeda do Bob Lin; morto
 relacoes:
   - com: c-pc-boblin
     tipo: other
-    nota: ganhou a moeda do Boblin numa aposta, com o Boblin lá dentro
+    nota: ganhou a moeda do Bob Lin numa aposta, com o Bob Lin lá dentro
     origem: mesa
 origem:
   - mesa
@@ -35,4 +35,4 @@ Ganhar o torneio do pátio.
 
 ## Segredo
 
-DM: **um soldado com sorte ao jogo, não da Miríade** (Decidido pelo DM (2026-10-21); substitui a decisão 2026-10-19 #14). **Ganhou numa aposta, no forte, a moeda do Boblin e uma caixinha de cristais vermelhos** («Tibério ganhou», dia 3) e ficou com as duas coisas. A moeda veio do pântano com uma patrulha, com o Boblin lá dentro; os cristais eram a carga de uma mula da Miríade de Urzin, morta no pântano por outro soldado, e tinham sido confiscados pelo Padre Perestrelo. Morreu e levantou-se como lacedon com as duas. **No corpo, em cima da jangada, estão a moeda (com o Boblin dentro) e a caixinha,** que o grupo encontra quando o revistar no arranque da S7 (Decidido pelo DM (2026-10-20)).
+DM: **um soldado com sorte ao jogo, não da Miríade** (Decidido pelo DM (2026-10-21); substitui a decisão 2026-10-19 #14). **Ganhou numa aposta, no forte, a moeda do Bob Lin e uma caixinha de cristais vermelhos** («Tibério ganhou», dia 3) e ficou com as duas coisas. A moeda veio do pântano com uma patrulha, com o Bob Lin lá dentro; os cristais eram a carga de uma mula da Miríade de Urzin, morta no pântano por outro soldado, e tinham sido confiscados pelo Padre Perestrelo. Morreu e levantou-se como lacedon com as duas. **No corpo, em cima da jangada, estão a moeda (com o Bob Lin dentro) e a caixinha,** que o grupo encontra quando o revistar no arranque da S7 (Decidido pelo DM (2026-10-20)).

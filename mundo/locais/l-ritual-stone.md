@@ -89,7 +89,7 @@ Num raio de 3 m, cada teste ou toque rola 1d6: **1–3** nada; **4–6** o tempo
 ### Usar a pedra
 
 - ***Commune*** (livro): quem passar um descanso a sintonizar-se (mãos na pedra, sem dormir) lança *commune* uma vez, depois só na próxima lua cheia. Responde a coisa que está lá dentro, não um deus; a voz fala de muito longe e de muito perto ao mesmo tempo, e a pedra fica um grau mais quente. **Com o Truche fora** (sugestão, por decidir): falha, ou responde torto.
-- **Warlock** (livro): quem fale com o patrono pela pedra ganha inspiração e *guidance* 1d2+1 dias. O Boblin é warlock (do Xundi); como reage fica para o momento.
+- **Warlock** (livro): quem fale com o patrono pela pedra ganha inspiração e *guidance* 1d2+1 dias. O Bob Lin é warlock (do Xundi); como reage fica para o momento.
 
 ### Por personagem, ao chegar perto
 
@@ -97,7 +97,7 @@ Num raio de 3 m, cada teste ou toque rola 1d6: **1–3** nada; **4–6** o tempo
 - **Isco:** primeiro o buraco no cheiro; depois, perto da base, o enxofre.
 - **Quasi:** a garra fica mais fria e a vontade de mandar cresce.
 - **Lia:** os *dancing lights* ficam parados no ar um instante a mais.
-- **Boblin:** sugestão: a moeda pesa mais na mão perto da pedra.
+- **Bob Lin:** sugestão: a moeda pesa mais na mão perto da pedra.
 
 ### Quem toca
 
@@ -110,9 +110,9 @@ A visão (ler): Pântano, de dia. Uma goblin velha anda pela água pelos joelhos
 - **Lucan:** a fome sobe; no fim Baeshra diz «Ele agora também te vê.» Cada toque paga a renda a Vecna (2026-10-12 #20).
 - **Lia:** déjà vu, conhece aquela goblin de outra vida.
 - **Quasi:** é a xamã do livro de registos; só lhe serve viva.
-- **Boblin:** é a Bolbara, a xamã da vila dele; ouve-lhe o «Mãe…» (a prep S7 tinha «Melora…», a fé da família: fica na Reserva).
+- **Bob Lin:** é a Bolbara, a xamã da vila dele; ouve-lhe o «Mãe…» (a prep S7 tinha «Melora…», a fé da família: fica na Reserva).
 - **Todos:** o olho viu-os. Fica aberto.
-- **Truche, se falar:** em Abissal (o Isco percebe); a Bolbara repete por cima em Goblin, sem saber (a Lia e o Boblin percebem); o Quasi ouve duas vozes desencontradas que doem nos dentes.
+- **Truche, se falar:** em Abissal (o Isco percebe); a Bolbara repete por cima em Goblin, sem saber (a Lia e o Bob Lin percebem); o Quasi ouve duas vozes desencontradas que doem nos dentes.
 
 ### Segredos (só DM)
 
@@ -140,7 +140,7 @@ A visão (ler): Pântano, de dia. Uma goblin velha anda pela água pelos joelhos
 
 ### Reserva (preparado e não usado; não apagar)
 
-- **«Melora…»** (prep S7): a palavra que a velha dizia na visão, a fé da família do Boblin. À mesa ouviu-se «Mãe», que ficou (decisão 2026-10-23 #19).
+- **«Melora…»** (prep S7): a palavra que a velha dizia na visão, a fé da família do Bob Lin. À mesa ouviu-se «Mãe», que ficou (decisão 2026-10-23 #19).
 - **Cristal verde, versão S5 original** (adotada ténue a 2026-10-22): lá dentro «mexe-se devagar uma coisa escura»; agora está quase parada enquanto o Truche estiver fora.
 - **A memória do Lucan nesta pedra** (beat `b-0-ritual-stone-lucan`, retirada a 2026-10-22): rebobina-o por segundos (o escuro, a água, a voz «o mar devorou-te», a mão a aceitar); a pedra fica um grau mais quente e algo lá dentro mexe-se; ao segundo toque, o salto, e o Truche diz uma frase a quem estiver mais perto (o nome da pessoa, na língua dela); sem tocar, Baeshra fica ofendido o resto do dia. Fica para o obelisco do mar.
 - **Cristal verde, versão «locais narrados»:** Perception DC 18, só de noite ao luar: um cristal verde do tamanho de uma unha, baço, encaixado na base; não sai; quem o tentar tirar, Explosão Necromântica a metade (3d8 necrótico, CON DC 13, raio 30 pés). Liga ao cristal grande do pilar do mar.

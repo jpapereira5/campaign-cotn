@@ -593,3 +593,5 @@ Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedece
 
 23. **O feitio da nixie e o gosto por metal descobrem-se a jogar:** não vão no cartão do Tiago. Ela vai **acumulando as coisas de metal dentro da moeda**. Regra da casa: quando é dispensada ou chega a 0 PV, **o que é dela vai com ela**; o resto do que leva fica para trás, como no *find familiar*. O cartão do Tiago passa a ter o aspeto num só parágrafo e deixa de ter o feitio (a_nixie_do_boblin_v3.pdf).
 
+24. **O nome formal do PC do Tiago é Bob Lin, não Boblin.** À mesa diz-se «Boblin»; nas fichas, cartões, handouts e documentos escreve-se sempre **Bob Lin** (como a irmã, Carol Lin). As ids não mudam (`c-pc-boblin`, `i-moeda-do-boblin`, `i-pedra-da-sorte-boblin`, pasta `tiago_boblin`). Os registos de sessões e as decisões já escritas ficam como estão.
+

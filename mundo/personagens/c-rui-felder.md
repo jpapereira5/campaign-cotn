@@ -27,7 +27,7 @@ origem:
 
 ## Resumo
 
-Guarda novo do Forte Ventura, sobrevivente da noite do dia 3. Halfling de Felderwin, o braço esquerdo queimado do ombro ao pulso e embrulhado num pano, besta na outra mão. Amigo do Elmiro. Fala depressa e alto, como quem ainda não parou de ter medo. Na chegada da patrulha está atrás das mesas deitadas do salão principal (V5). Ao ver o Elmiro: «Trigueiro? Estás vivo?» À Lia: «Isso é uma drow…» E ao Boblin: «E isso… isso é um goblin.» Sobre a noite: «Ela riu-se. Ria-se com a voz do comandante.» (Decidido pelo DM (2026-10-21))
+Guarda novo do Forte Ventura, sobrevivente da noite do dia 3. Halfling de Felderwin, o braço esquerdo queimado do ombro ao pulso e embrulhado num pano, besta na outra mão. Amigo do Elmiro. Fala depressa e alto, como quem ainda não parou de ter medo. Na chegada da patrulha está atrás das mesas deitadas do salão principal (V5). Ao ver o Elmiro: «Trigueiro? Estás vivo?» À Lia: «Isso é uma drow…» E ao Bob Lin: «E isso… isso é um goblin.» Sobre a noite: «Ela riu-se. Ria-se com a voz do comandante.» (Decidido pelo DM (2026-10-21))
 
 ## Objetivo
 
