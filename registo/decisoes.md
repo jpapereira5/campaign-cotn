@@ -591,3 +591,5 @@ Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedece
 
 18. **Como a nixie fala:** em voz alta, com a voz dela, que **lhe sai pelas guelras, sem mexer a boca**; e com o Boblin também por **telepatia, até 30 m** (*find familiar*). O Boblin descobre com o tempo que pode refazer a moeda; o Tiago já o sabe pelas regras.
 
+23. **O feitio da nixie e o gosto por metal descobrem-se a jogar:** não vão no cartão do Tiago. Ela vai **acumulando as coisas de metal dentro da moeda**. Regra da casa: quando é dispensada ou chega a 0 PV, **o que é dela vai com ela**; o resto do que leva fica para trás, como no *find familiar*. O cartão do Tiago passa a ter o aspeto num só parágrafo e deixa de ter o feitio (a_nixie_do_boblin_v3.pdf).
+

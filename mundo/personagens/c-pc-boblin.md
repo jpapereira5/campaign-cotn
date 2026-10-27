@@ -57,7 +57,7 @@ Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pe
 - **Sentidos:** cheira a maresia limpa com um fundo metálico, de moeda molhada; gotas a estalar quando se mexe e as barbatanas a vibrar como um leque; fria e húmida, escamas lisas num sentido e ásperas no outro.
 - **Para dizer à mesa:** «Do tamanho de uma mão, prateada como um peixe acabado de pescar. Tem olhos negros e redondos, que piscam de lado, e guelras no pescoço que largam um pó de prata a cada respiração. Cheira a mar e a moeda molhada.»
 
-**A ficha da nixie** (Decidido pelo DM (2026-10-27); a sprite do Monster Manual com seis mudanças tiradas da nixie da 3.5; cartão «A Nixie do Boblin», a_nixie_do_boblin_v2.pdf, pasta do Tiago na Drive):
+**A ficha da nixie** (Decidido pelo DM (2026-10-27); a sprite do Monster Manual com seis mudanças tiradas da nixie da 3.5; cartão «A Nixie do Boblin», a_nixie_do_boblin_v3.pdf, pasta do Tiago na Drive):
 - Fey Minúsculo, **neutra**. CA 15 (corpete de pele de raia), 2 PV (1d4). Deslocamento 3 m, voo 12 m, natação 12 m.
 - FOR 3, DES 18, CON 10, INT 14, SAB 13, CAR 11. Perception +3, Stealth +8; Perceção passiva 13. Línguas: Comum, **Aquano**, Silvano: fala-as em voz alta, com uma voz que **lhe sai pelas guelras, sem mexer a boca** (Decidido pelo DM (2026-10-27)); com o Boblin fala também por telepatia até 30 m, e ele pode, com uma ação, ver e ouvir pelos sentidos dela. Desafio 1/4.
 - **Anfíbia:** respira ar e água.
@@ -67,7 +67,7 @@ Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pe
 - **Transparente** (Invisibility): invisível até atacar, lançar um feitiço ou perder a concentração.
 - **Espinho:** +2, 1 cortante. **Arco de Espinha:** +6, 12/48 m, 1 perfurante e salvaguarda de Constituição CD 13 ou envenenado 1 minuto; com 5 ou menos, adormece.
 - **Investment of the Chain Master:** ataques mágicos; usa a CD do Boblin (13); ataca com a ação bónus dele; resistência a um dano com a reação dele.
-- **Feitio:** só defende o Boblin e o que é deles; junta coisas de metal (botões, pregos, moedas).
+- **Feitio** (o Tiago descobre-o a jogar; não vai no cartão): só defende o Boblin e o que é deles; junta coisas de metal (botões, pregos, moedas) e **vai-as acumulando dentro da moeda**. Regra da casa: quando é dispensada ou chega a 0 PV, o que é dela vai com ela; o resto fica para trás (Decidido pelo DM (2026-10-27)).
 
 **Quem é a nixie** (Decidido pelo DM (2026-10-27)): **uma criada do Xundi, emprestada ao Boblin** (a prenda do Pacto da Corrente). Obedece ao Boblin porque o Xundi lho mandou; a lealdade é do Xundi. Cumpre as ordens à letra e, quando o Boblin não manda nada, segue o que o Xundi quer. **É os olhos do Xundi**, que só ouve: vê e conta-lhe tudo. Mente por omissão, como o senhor: sabe que ele é um génio e que o Boblin tem plateia, e cala-se. **Vive na moeda, no aspeto:** a dimensão de bolso do *find familiar* é o interior da moeda; dispensada, fala, bebe o chá e conversa com o Xundi quando ele lá está; chamada, sai ao pé do Boblin (até 9 m), esteja a moeda onde estiver.
 
