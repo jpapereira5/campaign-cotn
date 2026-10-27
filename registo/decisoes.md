@@ -595,3 +595,5 @@ Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedece
 
 24. **O nome formal do PC do Tiago é Bob Lin, não Boblin.** À mesa diz-se «Boblin»; nas fichas, cartões, handouts e documentos escreve-se sempre **Bob Lin** (como a irmã, Carol Lin). As ids não mudam (`c-pc-boblin`, `i-moeda-do-boblin`, `i-pedra-da-sorte-boblin`, pasta `tiago_boblin`). Os registos de sessões e as decisões já escritas ficam como estão.
 
+25. **O cartão da nixie passa a ter só uma página, com o feitio e o gosto por metal; as regras do familiar ficam com o Tiago.** Substitui a parte da decisão #23 que tirava o feitio do cartão. O feitio e a coleção seguem a nixie da 3.5 o mais à letra possível: **neutra**, séria e desconfiada de estranhos, **só luta para se defender a si e ao que é dela**; **junta objetos de metal e de pedra, nunca moedas** (o tesouro da nixie da 3.5: «sem moedas; só bens de metal ou de pedra»), e guarda-os dentro da moeda. Substitui as «moedas» da lista das decisões #14 e #23. Cartão: a_nixie_do_bob_lin_v2.pdf.
+
