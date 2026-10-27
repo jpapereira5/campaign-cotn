@@ -42,3 +42,8 @@ Ambições do Lucan: perceber o que Baeshra pretende, proteger o irmão; o segre
 3. **O Império aboleto e a caravana do Quasi caçam o Isco:** perigos verdadeiros; o Lucan é a defesa certa.
 
 A reação do Lucan é o termómetro do arco: demasiado protetor puxa para o negativo; deixá-lo trilhar o caminho puxa para o positivo. O contraste ensina a diferença entre proteger e prender.
+
+### C. Percurso (em construção)
+
+- **A meio, a Ascensão (cap. 3): a oferta de Sess'inek** (decisão 2026-10-27 #9). Aceitar é morder o Isco e voltar à vida com um dono novo.
+- **Finais no Coração:** (1) **renega o Baeshra e volta a ser homem** — perde o Dhampir e a Fera; como se renega descobre-se à mesa; se aceitou Sess'inek, larga os dois patronos; (2) **devora o Alyxian e sobe** — abraça a mentira invertida; o rubídio acaba na mesma (o livro: matar o Alyxian derrete todo o rubídio e cura a corrupção), mas o Alyxian não é lembrado; poder divino a definir; rouba à Lia a redenção, que pede unanimidade.
