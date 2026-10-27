@@ -5858,12 +5858,13 @@
         "col": "s8"
       },
       "factKind": "estado",
-      "text": "Manhã do dia 5: o Lucan carrega os 7 cristais da bolsa do Tibério (exposição) e faz o save de Charisma DC 5; falhar dá uma Marca na Alma (d8); o 1 natural dá a Marca e 1 exaustão, que o corrompe. Cada dia seguido a carregá-los sobe a CD 5.",
+      "text": "Manhã do dia 5: o Lucan carrega os 7 cristais da bolsa do Tibério (exposição) e faz o save de Charisma DC 5; falhar dá uma Marca na Alma (d8). A exposição nunca corrompe, nem com 1 natural. Cada dia seguido a carregá-los sobe a CD 5. Se pegar neles com a pele, é contacto: toque CD 5, segundo toque ou segurar CD 10 (um save para o resto do dia); falhar por 5 ou mais, ou 1 natural, corrompe. Confirmar à mesa que os tem na bolsa e não na mão.",
       "suggestion": "Save de exposição do Lucan de manhã.",
       "because": [
         "registo/decisoes.md 2026-10-23 #7",
         "registo/decisoes.md 2026-10-23 #12",
-        "registo/decisoes.md 2026-10-23 #13"
+        "registo/decisoes.md 2026-10-23 #13",
+        "registo/decisoes.md 2026-10-27 #18"
       ],
       "status": "aberta"
     },
@@ -5910,13 +5911,15 @@
         "col": "s8"
       },
       "factKind": "estado",
-      "text": "As regras do rubídio mudaram (revistas a 2026-10-23): só saves de Carisma; usos com CD 15, +5 por cada uso desde o descanso (a 1.ª dose leve é grátis); toque breve e exposição CD 5, contacto prolongado CD 10; toda a falha dá Marca na Alma; o 1 natural dos usos dá um turno de emoção; sem dano direto nas falhas; 10 po por grama (dose leve 50 po, dose forte 100 po, cristal 100 po). Se a mesa já ouviu alguma das regras antigas (Constitution saves, dano psíquico, 5 e 10 po), corrigir.",
+      "text": "As regras do rubídio mudaram (revistas a 2026-10-23): só saves de Carisma; usos com CD 15, +5 por cada uso desde o descanso (a 1.ª dose leve é grátis); toque breve e exposição CD 5, contacto prolongado CD 10; toda a falha dá Marca na Alma; o 1 natural dos usos dá um turno de emoção; sem dano direto nas falhas; 10 po por grama (dose leve 50 po, dose forte 100 po, cristal 100 po). Se a mesa já ouviu alguma das regras antigas (Constitution saves, dano psíquico, 5 e 10 po), corrigir. Revistas a 2026-10-27: primeiro toque do dia CD 5; segundo toque ou contacto prolongado CD 10, um só save para o resto do dia; nos contactos, falhar por 5 ou mais corrompe (tal como o 1 natural); a exposição nunca corrompe; luvas tiram o save de contacto, não o dos usos; a cada 5 Marcas na Alma, 1 ponto de insanidade (avisar a mesa).",
       "suggestion": "Explicar à mesa no início da S8, antes do save do Lucan, e dizer as CDs em voz alta antes de cada uso. Resumo em `mesa/regras.md`, «Rubídio».",
       "because": [
         "registo/decisoes.md 2026-10-23 #10",
         "registo/decisoes.md 2026-10-23 #12",
         "registo/decisoes.md 2026-10-23 #13",
-        "registo/decisoes.md 2026-10-23 #16"
+        "registo/decisoes.md 2026-10-23 #16",
+        "registo/decisoes.md 2026-10-27 #16",
+        "registo/decisoes.md 2026-10-27 #20"
       ],
       "status": "aberta"
     },

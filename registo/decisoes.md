@@ -568,3 +568,16 @@ Ficam de fora: os atributos da nixie da 3.5 (INT 10, SAB 11, CAR 13, DES 16); *c
 
 15. **Escrever na Drive com o computador desligado: pelo conector da Drive, automaticamente.** Se não der para escrever pelos ficheiros do computador do DM (desligado ou sem a app), usa-se o conector da Drive sem perguntar: texto direto; PDFs e outros binários em base64, numa versão leve se for preciso, conferindo o tamanho. Regra em `AGENTS.md`, secção «Drive».
 
+16. **Contactos com rubídio: no máximo dois saves por dia.** O primeiro toque do dia (pele com rubídio) é CD 5; o segundo toque, ou o contacto prolongado, no mesmo dia, é **um único save de CD 10 que cobre o resto do dia** (se o primeiro contacto já for prolongado, é esse o único save). A CD não passa de 10. O «dia» acaba no descanso longo. Contacto é pele com rubídio; através de pano, couro, luvas ou bolsa é exposição. Substitui o toque breve e o contacto prolongado «por episódio» (2026-10-23 #12).
+
+17. **Nos contactos, falhar por 5 ou mais corrompe, tal como o 1 natural** (como a seta da sprite). A falha simples dá Marca na Alma. Com Carisma +0: o toque corrompe em 5% (só o 1 natural chega lá), o save de CD 10 em 25%. «Corrompe» quer dizer 1 exaustão e ficar corrompido; o DM usa «corrompe» como termo por defeito. Altera 2026-10-23 #13.
+
+18. **A exposição nunca corrompe, nem com 1 natural; a corrupção só vem do contacto ou do uso.** Falhar o save de exposição dá Marca na Alma. Os efeitos psicológicos próprios da exposição prolongada ficam por fazer (#21). O save do Lucan na manhã do dia 5 (S8) só arrisca uma Marca. Altera 2026-10-23 #13.
+
+19. **As luvas protegem do contacto, não do uso.** Com luvas ou pano não há save de contacto (mexer, carregar, moer, preparar); os usos (componente, Metamagia, foco, doses) têm sempre save: o preço vem de puxar o poder do Apoteão pela magia, não da pele.
+
+20. **A cada 5 Marcas na Alma, 1 ponto de insanidade.** A contagem é por personagem e acumula, mesmo depois de as Marcas desaparecerem no descanso longo. Substitui 2026-10-23 #18 na parte das Marcas (o turno de emoção continua sem dar pontos).
+
+21. **Emoções do Apoteão: duas tabelas por incorporar** (fraca: só roleplay; forte: com mecânica, por exemplo desvantagem), em espera até se saber quando aparecem; não devem aparecer sempre. Candidatas: a exposição prolongada para a fraca; um momento forte (o primeiro toque num artefacto do Apoteão, como o Talismã na campanha anterior) para a forte. Nota em `mesa/regras.md`, «Emoções do Apoteão — POR INCORPORAR».
+
+Ficam de fora: uma escada de toques por dia (CD 5, 10, 15…): era uma espiral rápida demais; a exposição a corromper com falha por 5 (com a CD a subir, corrompia quase de certeza ao dia 4 e matava em pouco mais de uma semana); as luvas a tirarem o save dos usos.

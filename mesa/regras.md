@@ -4,7 +4,7 @@ Regras que não estão no livro. As marcadas **PROPOSTA (Remix)** vêm do *Remix
 
 ## Rubídio (DM)
 
-Regras próprias do DM, revistas de ponta a ponta a 2026-10-23 (Decidido pelo DM (2026-10-23)): **cristal para a magia, suude (pó) para o corpo**, **10 po por grama**, **só saves de Carisma**. Substituem as regras do rubídio de 2026-10-21 (Constitution saves, dano psíquico nas falhas, doses de 5 po e 10 po, 1 g = 1 po no componente, a Metamagia pelo suude).
+Regras próprias do DM, revistas de ponta a ponta a 2026-10-23 (Decidido pelo DM (2026-10-23)) e, nos contactos, na exposição e nas Marcas, a 2026-10-27 (Decidido pelo DM (2026-10-27)): **cristal para a magia, suude (pó) para o corpo**, **10 po por grama**, **só saves de Carisma**. Substituem as regras do rubídio de 2026-10-21 (Constitution saves, dano psíquico nas falhas, doses de 5 po e 10 po, 1 g = 1 po no componente, a Metamagia pelo suude).
 
 O rubídio é um cristal avermelhado com veios pulsantes, nascido da dor do Apoteão durante a Calamidade. Leve (1 g/cm³), instável e poderoso: magia intensa em troca de um risco constante de exaustão, corrupção e marcas na alma.
 
@@ -44,23 +44,26 @@ Não há refinamento nem distinção entre puro e cortado: ou é cristal, ou é 
 
 | Risco | CD | Quando |
 |---|---|---|
-| Toque breve (pegar, passar de mão em mão) | 5 | por episódio |
-| Exposição (carregar embrulhado, no bolso, dormir com ele) | 5, +5 por cada dia seguido | uma vez por dia, de manhã; volta a zero depois de um dia inteiro sem rubídio |
-| Contacto prolongado sem proteção (pele com rubídio mais de um ou dois minutos, encostado à pele, numa ferida) | 10 | por episódio |
+| Primeiro toque do dia (pele com rubídio: pegar, passar de mão em mão, esfregar um cristal) | 5 | o primeiro contacto desde o último descanso longo |
+| Segundo toque, ou contacto prolongado (segurar na mão, encostado à pele, numa ferida), no mesmo dia | 10 | um único save, que cobre o resto do dia; se o primeiro contacto do dia já for prolongado, é este o único save do dia |
+| Exposição (carregar embrulhado, no bolso, na bolsa, dormir com ele) | 5, +5 por cada dia seguido | uma vez por dia, de manhã; volta a zero depois de um dia inteiro sem rubídio |
 | Arma de rubídio: quem a usa tira 1 no ataque | 15 | cada vez |
 | Armadura de rubídio: quem a usa tira 1 num save; escudo: usar a Reflexão Psíquica | 15 | cada vez |
 | Arma de rubídio: quem é atingido por um crítico (20 natural) | 10 | cada vez |
 
-Moer de luvas ou com pano não pede save. Os rivais e os NPCs seguem as mesmas regras.
+**Contactos: no máximo dois saves por dia** (Decidido pelo DM (2026-10-27)). O «dia» acaba no descanso longo, como a escada dos usos. Mexer o dia inteiro em rubídio não dá imunidade: é o resultado de o manusear um dia inteiro, e a CD não passa de 10. Contacto é **pele com rubídio**; através de pano, couro, luvas ou bolsa é exposição.
+
+**Luvas.** Com luvas ou um pano não há save de contacto (mexer, carregar, moer, preparar). **Os usos têm sempre save**, com luvas ou sem elas: o preço não vem da pele, vem de puxar o poder do Apoteão pela magia de quem usa (Decidido pelo DM (2026-10-27)). Os rivais e os NPCs seguem as mesmas regras.
 
 **O efeito acontece sempre.** O save decide o preço, não o poder. A CD fixa-se no momento do uso, e o dado lança-se **no fim**: num feitiço instantâneo, num componente, na Metamagia ou no foco, no fim do turno de quem usou; num efeito com duração (doses, concentração), quando o efeito acaba ou quando o combate acaba, o que vier primeiro. Vários saves pendentes lançam-se juntos.
 
-**Falha e 1 natural.** **Toda a falha dá uma Marca na Alma.**
+**Falha e 1 natural.** **Toda a falha dá uma Marca na Alma.** «Corrompe» quer dizer 1 nível de exaustão e ficar corrompido, se ainda não estava (ver «Corrupção»). **A corrupção só vem do contacto (pele com rubídio) ou do uso** (Decidido pelo DM (2026-10-27)).
 
 | Caso | Falha | 1 natural |
 |---|---|---|
 | Usos, quem usa uma arma, armadura ou escudo, quem é atingido | Marca na Alma + 1 exaustão (corrompe) | o mesmo + 1 turno de emoção |
-| Contactos (toque breve, exposição, contacto prolongado) | Marca na Alma | Marca + 1 exaustão (corrompe), sem emoção |
+| Contactos (toque, contacto prolongado) | Marca na Alma; **falhar por 5 ou mais corrompe** (como a seta da sprite) | corrompe, sem emoção |
+| Exposição | Marca na Alma | Marca na Alma: **a exposição nunca corrompe** |
 
 **Turno de emoção** (d4, até ao fim do próximo turno; a tabela do Grito do Apoteão): 1 Tristeza: *stunned*. 2 Raiva: ataca de imediato a criatura mais próxima, aliada ou não (com a reação, se a tiver). 3 Culpa: larga as armas e tem desvantagem no próximo ataque. 4 Medo: usa o movimento e a ação para se afastar da fonte. Imunes a *frightened* ignoram o Medo e voltam a rolar. Fora de combate, a emoção dura uma cena e o jogador interpreta-a. Não é o Apoteão a aparecer: é só a emoção.
 
@@ -97,7 +100,7 @@ Sinais físicos por nível de corrupção (aparecem e não saem até a corrupç�
 
 ### Marcas na Alma (sintomas psicológicos)
 
-Efeitos psicológicos narrativos da presença do rubídio. **Rolam-se em toda a falha de um save de rubídio** e **desaparecem após um long rest**. **Não dão pontos de insanidade** (Decidido pelo DM (2026-10-23)).
+Efeitos psicológicos narrativos da presença do rubídio. **Rolam-se em toda a falha de um save de rubídio** e **desaparecem após um long rest**. **A cada 5 Marcas na Alma, 1 ponto de insanidade** (Decidido pelo DM (2026-10-27); substitui o «não dão pontos de insanidade» de 2026-10-23): a contagem é por personagem e acumula, mesmo depois de as Marcas desaparecerem.
 
 Ao falhar o save, rola 1d8:
 
@@ -114,7 +117,11 @@ Ao falhar o save, rola 1d8:
 
 ### Exposição prolongada
 
-A **exposição** (carregar rubídio embrulhado, no bolso ou a dormir com ele; dias na Ascensão) faz-se pela tabela «Riscos fora da escada» acima: **CD 5 de manhã, +5 por cada dia seguido**, a contagem volta a zero depois de um dia inteiro sem rubídio; falha = Marca na Alma; 1 natural = Marca + 1 exaustão (Decidido pelo DM (2026-10-23)). Na mesa (campanha anterior): um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
+A **exposição** (carregar rubídio embrulhado, no bolso, na bolsa ou a dormir com ele; dias na Ascensão) faz-se pela tabela «Riscos fora da escada» acima: **CD 5 de manhã, +5 por cada dia seguido**, a contagem volta a zero depois de um dia inteiro sem rubídio; falha = Marca na Alma; **nunca corrompe, nem com 1 natural** (Decidido pelo DM (2026-10-27); substitui o 1 natural que corrompia, de 2026-10-23). Por vir: efeitos psicológicos próprios da exposição prolongada, ver «Emoções do Apoteão» abaixo. Na mesa (campanha anterior): um dia inteiro na Ascensão dos Traidores = +1 ponto de insanidade (sessão 41); o cristal brilha com Ruidus; "Maldição da Lua Vermelha" = 24 h de desvantagem em testes e saves (sessão 24).
+
+### Emoções do Apoteão — POR INCORPORAR (DM)
+
+Ideia do DM (2026-10-27), em espera até se saber quando entra: uma **tabela de emoções fraca** (só roleplay) e uma **tabela de emoções forte** (com mecânica, por exemplo desvantagem em alguma coisa), com as quatro emoções do Apoteão (a do livro: arrependimento, saudade, raiva e desespero; a mesa já usa Tristeza, Raiva, Culpa e Medo no turno de emoção). Não deve aparecer sempre: as Marcas na Alma são o efeito ligeiro e frequente; as emoções são mais raras. Candidatas: a exposição prolongada (a pessoa vai ficando mais paranoica, com as emoções à flor da pele, à maneira da tabela de insanidade) para a fraca; um momento forte, como o primeiro toque num artefacto do Apoteão, para a forte. Referência: na campanha anterior, o primeiro toque no Talismã (Prisma), na caverna, obrigou cada um a interpretar a emoção mais intensa, e foi muito marcante. O turno de emoção do 1 natural nos usos continua como está.
 
 ### Sonhos
 
@@ -189,7 +196,7 @@ Base: *Insanity System* de Zac Chaney (Lair Magazine, fev. 2022; PDF «Insanity 
 
 **Graus.** 0–9 grau 1; 10–19 grau 2; 20–39 grau 3; 40 ou mais, risco de colapso mental permanente.
 
-**Fontes de pontos.** Experiências traumáticas: chegar a 0 PV, ver coisas que nenhum mortal devia ver, ver morrer um aliado ou NPC querido, visões falhadas, ser alvo do Grito do Apoteão, cada nível de corrupção (as Marcas na Alma e o turno de emoção do rubídio não dão pontos: decisão 2026-10-23), um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep; +1 por dia), conviver de perto com o Quasi (ver «A máscara do Quasi»), ou trauma que o próprio jogador declare em roleplay.
+**Fontes de pontos.** Experiências traumáticas: chegar a 0 PV, ver coisas que nenhum mortal devia ver, ver morrer um aliado ou NPC querido, visões falhadas, ser alvo do Grito do Apoteão, cada nível de corrupção, cada 5 Marcas na Alma (decisão 2026-10-27; o turno de emoção do rubídio não dá pontos), um dia inteiro num sítio assombrado ou amaldiçoado (Ascensão dos Traidores, Netherdeep; +1 por dia), conviver de perto com o Quasi (ver «A máscara do Quasi»), ou trauma que o próprio jogador declare em roleplay.
 
 **Quantos pontos por trauma.** Os do PDF (Decidido pelo DM (2026-10-21)): em cada trauma rola-se o d10 na tabela do grau atual e somam-se os pontos da linha que sair (grau 1: 1 a 5; grau 2: 3 a 7; grau 3: 6 a 10). O defeito dessa linha só entra se ainda não houver um desse grau, ou se o DM o quiser trocar. Substitui o 1d10 com teto anunciado na S6.
 
