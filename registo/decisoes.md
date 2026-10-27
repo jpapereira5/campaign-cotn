@@ -536,3 +536,7 @@ Ficam em aberto: os valores da dívida.
 17. **Três cuidados para o Mirim em Jigau** (folha de arco da Lia): o sonho de Zolaed antes de ela o ver; a cena do triângulo (adaga, cicatriz, o sussurro do Baeshra) sem a morte no mesmo instante, com uma janela para a Lia escolher; e, se o matarem, as consequências (a Vigia da Aurora, um plano B para Jigau).
 18. **As crenças da Lia:** «Ajudo quem precisa, seja quem for»; «Não sou o que pensam de mim»; «Os bons modos não se perdem, nem com quem não os merece». São princípios postos à prova, não para partir; o que se parte é a culpa. O resto da moralidade dela define-se em jogo. A safety tool da Camila ficou em branco de propósito (nada vedado).
 19. **A folha de arco da Lia fica completa** (sementes, ritmo, o que dá Inspiração, rima com o tema, pontos de contacto), à parte o que está em «Por decidir».
+
+## Decidido pelo DM (2026-10-27)
+
+1. **A ferida do Lucan é uma só noite, com duas metades:** morreu a salvar o irmão (o afogamento; o Baeshra trouxe-o) e, quando voltou, o pai e a tripulação viram um monstro e expulsaram-no. Salvou o que mais amava e perdeu os outros todos. Cada metade tem uma verdade escondida: o aboleto (foi ele, com o Baeshra, que salvou o Isco) e o Vaelen (expulsou-o por amor, para o afastar do mar). Como irmão mais velho, o único objetivo dele é proteger o irmão mais novo.
