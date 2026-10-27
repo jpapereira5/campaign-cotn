@@ -110,3 +110,5 @@ Baixa, borbulhante, molhada (narração do Matt). Devagar, com pausas longas, co
 ## Stat block
 
 Marid (Monster Manual, 2014), sem alterações: Grande, caótico neutro, CA 17 (armadura natural), 229 PV, deslocamento 9 m, voo 18 m, natação 27 m; CR 11. Ficha completa em `dnd-library`, `core_rules/bestiary/elemental/marid.md`. O tridente é o do Monster Manual.
+
+**Port Damali no Critical Role** (Decidido pelo DM (2026-10-27)): a wiki do Critical Role diz, citando o Explorer's Guide p. 74 (por confirmar no livro), que entre 835 e 836 PD o Xundi liberta o génio preso debaixo de Port Damali, e que esse segundo marid, vingativo, invoca todos os dias mefites de vapor que fazem partidas na cidade. Na campanha, o parceiro **ainda está preso** e solta-se mais tarde nesse intervalo; mantém-se a missão do Lucan e do Isco.

@@ -605,3 +605,8 @@ Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedece
 
 Ficam de fora: só a nixie (regra da casa que limitava); outro criado do palácio para cada forma; o dragão-marinho folhoso, o peixe-pedra e a caravela-portuguesa; o mefite de gelo no lugar do de vapor.
 
+27. **Imp → mefite de vapor; quasit → mefite de gelo** (substitui essa parte da decisão #26). Pelo feitio do Monster Manual: o mefite de vapor é arrogante e leva os outros a fazer-lhe favores sem pagar o prometido (o imp dos contratos ao contrário); o de gelo gosta de congelar coisas e de enfiar gelo pela roupa abaixo (as partidas cruéis do quasit). Números do imp e do quasit; o aspeto muda (ferroada escaldante; garras geladas; *Scare* como arrepio de frio). Liga ao Critical Role: segundo a wiki (que cita o Explorer's Guide, p. 74, por confirmar no livro), o marid preso em Port Damali, já livre, invoca mefites de vapor todos os dias.
+28. **O parceiro do Xundi ainda está preso em Port Damali e solta-se mais tarde, dentro de 835–836 PD.** A wiki do Critical Role diz, citando o Explorer's Guide p. 74 (por confirmar), que o Xundi o liberta entre 835 e 836 PD; a campanha põe essa libertação mais tarde no intervalo e mantém a missão do Lucan e do Isco (decisão 2026-10-21). Depois de solto, o segundo marid, vingativo, invoca mefites de vapor que fazem partidas em Port Damali.
+
+Ficam de fora: o mefite de lodo prateado no imp; o parceiro já livre.
+
