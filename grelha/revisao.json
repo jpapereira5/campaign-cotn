@@ -5911,7 +5911,7 @@
         "col": "s8"
       },
       "factKind": "estado",
-      "text": "As regras do rubídio mudaram (revistas a 2026-10-23): só saves de Carisma; usos com CD 15, +5 por cada uso desde o descanso (a 1.ª dose leve é grátis); toque breve e exposição CD 5, contacto prolongado CD 10; toda a falha dá Marca na Alma; o 1 natural dos usos dá um turno de emoção; sem dano direto nas falhas; 10 po por grama (dose leve 50 po, dose forte 100 po, cristal 100 po). Se a mesa já ouviu alguma das regras antigas (Constitution saves, dano psíquico, 5 e 10 po), corrigir. Revistas a 2026-10-27: primeiro toque do dia CD 5; segundo toque ou contacto prolongado CD 10, um só save para o resto do dia; nos contactos, falhar por 5 ou mais corrompe (tal como o 1 natural); a exposição nunca corrompe; luvas tiram o save de contacto, não o dos usos; a cada 5 Marcas na Alma, 1 ponto de insanidade (avisar a mesa).",
+      "text": "As regras do rubídio mudaram (revistas a 2026-10-23): só saves de Carisma; usos com CD 15, +5 por cada uso desde o descanso (a 1.ª dose leve é grátis); toque breve e exposição CD 5, contacto prolongado CD 10; toda a falha dá Marca na Alma; o 1 natural dos usos dá um turno de emoção; sem dano direto nas falhas; 10 po por grama (dose leve 50 po, dose forte 100 po, cristal 100 po). Se a mesa já ouviu alguma das regras antigas (Constitution saves, dano psíquico, 5 e 10 po), corrigir. Revistas a 2026-10-27: primeiro toque do dia CD 5; segundo toque ou contacto prolongado CD 10, um só save para o resto do dia; nos contactos, falhar por 5 ou mais corrompe (tal como o 1 natural); a exposição nunca corrompe; luvas tiram o save de contacto, não o dos usos; a cada 5 Marcas na Alma, 1 ponto de insanidade (avisar a mesa). Ainda a 2026-10-27: regra única em todos os saves (menos a exposição): falha = Marca; falhar por 5 ou mais, ou 1 natural, corrompe; o 1 natural dos usos dá ainda o turno de emoção.",
       "suggestion": "Explicar à mesa no início da S8, antes do save do Lucan, e dizer as CDs em voz alta antes de cada uso. Resumo em `mesa/regras.md`, «Rubídio».",
       "because": [
         "registo/decisoes.md 2026-10-23 #10",
@@ -5919,7 +5919,8 @@
         "registo/decisoes.md 2026-10-23 #13",
         "registo/decisoes.md 2026-10-23 #16",
         "registo/decisoes.md 2026-10-27 #16",
-        "registo/decisoes.md 2026-10-27 #20"
+        "registo/decisoes.md 2026-10-27 #20",
+        "registo/decisoes.md 2026-10-27 #23"
       ],
       "status": "aberta"
     },

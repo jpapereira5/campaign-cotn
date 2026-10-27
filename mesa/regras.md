@@ -34,11 +34,11 @@ Não há refinamento nem distinção entre puro e cortado: ou é cristal, ou é 
 
 **Usos (escada).** A **1.ª dose leve** entre descansos é grátis: sem save e não sobe a escada. Qualquer outro uso (a 2.ª dose leve, a dose forte, o componente, a Metamagia, o foco) faz save de **CD 15, +5 por cada uso desde o último descanso** (curto ou longo); a escada é partilhada entre todos os usos. **Vários cristais de uma vez são um só save**, mas cada cristal conta como um uso (uma Quickened com 2 cristais, como primeiro uso, é CD 20).
 
-| Uso desde o descanso | CD | No Netherdeep | Falha com Carisma +0 | Falha com Carisma +5 |
+| Uso desde o descanso | CD | No Netherdeep | Carisma +0: falha / corrompe | Carisma +5: falha / corrompe |
 |---|---|---|---|---|
-| 1.º | 15 | 20 | 70% | 45% |
-| 2.º | 20 | 25 | 95% | 70% |
-| 3.º | 25 | 30 | 100% | 95% |
+| 1.º | 15 | 20 | 70% / 50% | 45% / 25% |
+| 2.º | 20 | 25 | 95% / 75% | 70% / 50% |
+| 3.º | 25 | 30 | 100% / 100% | 95% / 75% |
 
 **Riscos fora da escada** (CD fixa; não sobem a escada nem são subidos por ela):
 
@@ -57,13 +57,13 @@ Não há refinamento nem distinção entre puro e cortado: ou é cristal, ou é 
 
 **O efeito acontece sempre.** O save decide o preço, não o poder. A CD fixa-se no momento do uso, e o dado lança-se **no fim**: num feitiço instantâneo, num componente, na Metamagia ou no foco, no fim do turno de quem usou; num efeito com duração (doses, concentração), quando o efeito acaba ou quando o combate acaba, o que vier primeiro. Vários saves pendentes lançam-se juntos.
 
-**Falha e 1 natural.** **Toda a falha dá uma Marca na Alma.** «Corrompe» quer dizer 1 nível de exaustão e ficar corrompido, se ainda não estava (ver «Corrupção»). **A corrupção só vem do contacto (pele com rubídio) ou do uso** (Decidido pelo DM (2026-10-27)).
+**Falha e 1 natural: uma regra única** (Decidido pelo DM (2026-10-27)). **Toda a falha dá uma Marca na Alma. Falhar por 5 ou mais, ou tirar 1 natural, corrompe** (como a seta da sprite), em todos os saves de rubídio menos a exposição. «Corrompe» quer dizer 1 nível de exaustão e ficar corrompido, se ainda não estava (ver «Corrupção»). **A corrupção só vem do contacto (pele com rubídio) ou do uso** (Decidido pelo DM (2026-10-27)).
 
-| Caso | Falha | 1 natural |
-|---|---|---|
-| Usos, quem usa uma arma, armadura ou escudo, quem é atingido | Marca na Alma + 1 exaustão (corrompe) | o mesmo + 1 turno de emoção |
-| Contactos (toque, contacto prolongado) | Marca na Alma; **falhar por 5 ou mais corrompe** (como a seta da sprite) | corrompe, sem emoção |
-| Exposição | Marca na Alma | Marca na Alma: **a exposição nunca corrompe** |
+| Caso | Falha | Falha por 5 ou mais | 1 natural |
+|---|---|---|---|
+| Usos (componente, Metamagia, foco, doses), quem usa uma arma, armadura ou escudo, quem é atingido | Marca na Alma | corrompe | corrompe + 1 turno de emoção |
+| Contactos (toque, contacto prolongado) | Marca na Alma | corrompe | corrompe, sem emoção |
+| Exposição | Marca na Alma | Marca na Alma | Marca na Alma: **a exposição nunca corrompe** |
 
 **Turno de emoção** (d4, até ao fim do próximo turno; a tabela do Grito do Apoteão): 1 Tristeza: *stunned*. 2 Raiva: ataca de imediato a criatura mais próxima, aliada ou não (com a reação, se a tiver). 3 Culpa: larga as armas e tem desvantagem no próximo ataque. 4 Medo: usa o movimento e a ação para se afastar da fonte. Imunes a *frightened* ignoram o Medo e voltam a rolar. Fora de combate, a emoção dura uma cena e o jogador interpreta-a. Não é o Apoteão a aparecer: é só a emoção.
 
@@ -71,7 +71,7 @@ Não há refinamento nem distinção entre puro e cortado: ou é cristal, ou é 
 
 ### Corrupção (Decidido pelo DM (2026-10-21; revista a 2026-10-23))
 
-- **Ficar corrompido:** falhar um save de rubídio que dê exaustão dá **1 nível de exhaustion** e a criatura fica corrompida, se ainda não estava (como o livro).
+- **Ficar corrompido:** um save de rubídio que corrompa (falha por 5 ou mais, ou 1 natural) dá **1 nível de exhaustion** e a criatura fica corrompida, se ainda não estava (como o livro).
 - **Nível de corrupção** = o nível de exhaustion mais alto que atingiu desde que ficou corrompida. Não desce quando a exhaustion desce, e **nunca é menor do que a exaustão**: num corrompido, **toda a exaustão conta, venha de onde vier** (marcha forçada, fome, feitiços). É este número que conta para os sinais físicos, as habilidades de rubídio e a insanidade.
 - **Dano:** **só quando o nível de corrupção sobe** (a exaustão bate um máximo novo), a criatura leva **tantos d10 psíquicos quantos o nível em que estava** (Decidido pelo DM (2026-10-23)). Descer a exaustão, ou voltar a subi-la sem passar o máximo, não dá dano. Regra da casa: o livro dá 1d10 sempre que a exaustão sobe ou desce.
 

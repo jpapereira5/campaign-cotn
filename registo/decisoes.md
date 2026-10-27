@@ -597,3 +597,7 @@ Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedece
 
 25. **O cartão da nixie passa a ter só uma página, com o feitio e o gosto por metal; as regras do familiar ficam com o Tiago.** Substitui a parte da decisão #23 que tirava o feitio do cartão. O feitio e a coleção seguem a nixie da 3.5 o mais à letra possível: **neutra**, séria e desconfiada de estranhos, **só luta para se defender a si e ao que é dela**; **junta objetos de metal e de pedra, nunca moedas** (o tesouro da nixie da 3.5: «sem moedas; só bens de metal ou de pedra»), e guarda-os dentro da moeda. Substitui as «moedas» da lista das decisões #14 e #23. Cartão: a_nixie_do_bob_lin_v2.pdf.
 
+23. **Regra única para os saves de rubídio: a falha dá Marca na Alma; falhar por 5 ou mais, ou tirar 1 natural, corrompe**, em todos os saves menos a exposição (que nunca corrompe). Nos usos, o 1 natural dá ainda o turno de emoção. Com Carisma +0: 1.º uso corrompe em 50% (antes 70%), 2.º em 75% (antes 95%), 3.º em 100%; quem é atingido por crítico (CD 10) em 25% (antes 45%). Substitui, nos usos, nas armas e em quem é atingido, «a falha dá Marca e corrompe» (2026-10-23 #13); alarga a todos a regra dos contactos (#17).
+
+24. **Os componentes de rubídio continuam a poder corromper, mesmo sem toque** (confirma #19): o uso tem sempre save, com luvas ou sem elas.
+
