@@ -51,7 +51,7 @@ Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pe
 - **Rosto:** feições de fada com pouco nariz; olhos grandes, negros e redondos, de peixe, com uma película que pisca de lado; boca pequena, com dentes finos como agulhas quando sorri, o que é raro.
 - **Guelras:** três fendas de cada lado do pescoço; fora de água abrem-se a cada respiração e largam um fio de pó prateado que cai devagar, como neve.
 - **Cabelo:** fios de alga verde-escura.
-- **Voo:** duas barbatanas peitorais longas de peixe-voador, abertas como asas, com raios finos; plana e bate depressa.
+- **Voo:** duas barbatanas longas de peixe-voador que nascem nas costas, atrás das omoplatas, abertas como asas, com raios finos; plana e bate depressa. **Os braços são independentes das barbatanas**: usa-os normalmente, para o arco e para tudo o resto (Decidido pelo DM (2026-10-27)).
 - **Mãos e pés:** dedos compridos com membranas translúcidas; nos pés, barbatanas pequenas em leque.
 - **Equipamento:** arco de espinha de peixe atada com tripa; aljava de concha de navalha com setas de espinho de ouriço roxo; corpete de pele de raia (a armadura de couro da sprite).
 - **Sentidos:** cheira a maresia limpa com um fundo metálico, de moeda molhada; gotas a estalar quando se mexe e as barbatanas a vibrar como um leque; fria e húmida, escamas lisas num sentido e ásperas no outro.
