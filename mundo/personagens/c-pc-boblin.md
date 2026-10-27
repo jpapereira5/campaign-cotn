@@ -57,6 +57,18 @@ Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pe
 - **Sentidos:** cheira a maresia limpa com um fundo metálico, de moeda molhada; gotas a estalar quando se mexe e as barbatanas a vibrar como um leque; fria e húmida, escamas lisas num sentido e ásperas no outro.
 - **Para dizer à mesa:** «Do tamanho de uma mão, prateada como um peixe acabado de pescar. Tem olhos negros e redondos, que piscam de lado, e guelras no pescoço que largam um pó de prata a cada respiração. Cheira a mar e a moeda molhada.»
 
+**A ficha da nixie** (Decidido pelo DM (2026-10-27); a sprite do Monster Manual com seis mudanças tiradas da nixie da 3.5; cartão «A Nixie do Boblin», a_nixie_do_boblin.pdf, pasta do Tiago):
+- Fey Minúsculo, **neutra**. CA 15 (corpete de pele de raia), 2 PV (1d4). Deslocamento 3 m, voo 12 m, natação 12 m.
+- FOR 3, DES 18, CON 10, INT 14, SAB 13, CAR 11. Perception +3, Stealth +8; Perceção passiva 13. Línguas: Comum, **Aquano**, Silvano (entende-as; como familiar não fala). Desafio 1/4.
+- **Anfíbia:** respira ar e água.
+- **Fala com a Água:** comunica ideias simples com bestas que nadam (peixes, rãs, aves aquáticas) e percebe o que lhe respondem.
+- **Camuflagem na Água:** vantagem em Stealth enquanto está dentro de água.
+- **Ler a Maré** (Heart Sight): pelo toque, sabe o estado emocional; com uma salvaguarda de Carisma falhada (CD 13), o alinhamento; celestiais, demónios e mortos-vivos falham sempre.
+- **Transparente** (Invisibility): invisível até atacar, lançar um feitiço ou perder a concentração.
+- **Espinho:** +2, 1 cortante. **Arco de Espinha:** +6, 12/48 m, 1 perfurante e salvaguarda de Constituição CD 13 ou envenenado 1 minuto; com 5 ou menos, adormece.
+- **Investment of the Chain Master:** ataques mágicos; usa a CD do Boblin (13); ataca com a ação bónus dele; resistência a um dano com a reação dele.
+- **Feitio:** só defende o Boblin e o que é deles; junta coisas de metal (botões, pregos, moedas).
+
 
 **O patrono (Tasha's Cauldron of Everything, «The Genie»; regras de 2014).** O Tiago aceitou o Xundi (Decidido pelo DM (2026-10-20)) e passou as features a Marid (ficha de 2026-10-26):
 - **Magias extra** (entram na lista de warlock): *detect evil and good*, *phantasmal force*, *create food and water*, *phantasmal killer*, *creation* (as do Génio) e *fog cloud*, *blur*, *sleet storm*, *control water*, *cone of cold* (as do Marid); *wish* no 9.º.

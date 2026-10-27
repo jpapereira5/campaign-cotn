@@ -562,3 +562,7 @@ Ficam de fora: um nome próprio para a versão guerreira (nicor, nix, ondino, xa
 
 Ficam de fora: asas de sino de medusa; voar sem asas, a nadar no ar; cabelo prateado; crista de barbatana.
 
+14. **A nixie do Boblin é a sprite de 5e com seis mudanças, tiradas da diferença entre a nixie e a pixie da 3.5:** neutra (a sprite é neutra boa); **Anfíbia** (respira ar e água); **Fala com a Água** (comunica ideias simples com bestas que nadam e percebe o que respondem); **Camuflagem na Água** (vantagem em Stealth dentro de água); **aquano no lugar de élfico** (a língua do Xundi e dos criados do palácio); junta coisas de metal. **Mantém o Heart Sight** («Ler a Maré») e o resto da sprite: o Invisibility (a fuga da S7 mandou-a invisível), o arco com o veneno que adormece, CA 15, 2 PV. Com a invocação, as CD dela são as do Boblin (13). Cartão: «A Nixie do Boblin» (a_nixie_do_boblin.pdf, pasta do Tiago).
+
+Ficam de fora: os atributos da nixie da 3.5 (INT 10, SAB 11, CAR 13, DES 16); *charm person*; *water breathing* nos outros (deixaria o Boblin atravessar a barreira de água da porta da moeda).
+
