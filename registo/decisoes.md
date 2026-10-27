@@ -566,3 +566,5 @@ Ficam de fora: asas de sino de medusa; voar sem asas, a nadar no ar; cabelo prat
 
 Ficam de fora: os atributos da nixie da 3.5 (INT 10, SAB 11, CAR 13, DES 16); *charm person*; *water breathing* nos outros (deixaria o Boblin atravessar a barreira de água da porta da moeda).
 
+15. **Escrever na Drive com o computador desligado: pelo conector da Drive, automaticamente.** Se não der para escrever pelos ficheiros do computador do DM (desligado ou sem a app), usa-se o conector da Drive sem perguntar: texto direto; PDFs e outros binários em base64, numa versão leve se for preciso, conferindo o tamanho. Regra em `AGENTS.md`, secção «Drive».
+
