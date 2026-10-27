@@ -581,3 +581,5 @@ Ficam de fora: os atributos da nixie da 3.5 (INT 10, SAB 11, CAR 13, DES 16); *c
 21. **Emoções do Apoteão: duas tabelas por incorporar** (fraca: só roleplay; forte: com mecânica, por exemplo desvantagem), em espera até se saber quando aparecem; não devem aparecer sempre. Candidatas: a exposição prolongada para a fraca; um momento forte (o primeiro toque num artefacto do Apoteão, como o Talismã na campanha anterior) para a forte. Nota em `mesa/regras.md`, «Emoções do Apoteão — POR INCORPORAR».
 
 Ficam de fora: uma escada de toques por dia (CD 5, 10, 15…): era uma espiral rápida demais; a exposição a corromper com falha por 5 (com a CD a subir, corrompia quase de certeza ao dia 4 e matava em pouco mais de uma semana); as luvas a tirarem o save dos usos.
+
+22. **Na Drive, o Claude cinge-se única e exclusivamente à pasta DND** (`1-54pk4wCwjkck8LQGdmNW-N8kTOOpcLR`) e às subpastas dela: não lê, não pesquisa, não propõe nem mexe em nada fora dela. Regra em `AGENTS.md` («Só a pasta DND da Drive»). Veio de uma pesquisa que apanhou um documento da tuna.
