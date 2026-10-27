@@ -558,3 +558,7 @@ Ficam de fora: um nome próprio para a versão guerreira (nicor, nix, ondino, xa
 
 12. **A nixie do Boblin voa e nada sempre, a 12 m.** O voo é o da sprite; a natação vem da invocação Investment of the Chain Master, que fica sempre escolhida assim, sem se decidir a cada *find familiar*. Substitui a «recomendação ao Tiago» das decisões #10 e #11.
 
+13. **O aspeto da nixie do Boblin.** Esguia e de nadadora, escamas prateadas de sardinha com reflexos azul-esverdeados, barriga quase branca; olhos negros e redondos de peixe que piscam de lado; dentes de agulha, raramente à vista; três guelras de cada lado que largam pó de prata a cada respiração; **cabelo de alga verde-escura**; **voa com duas barbatanas de peixe-voador**; mãos e pés com membranas. Arco de espinha de peixe, aljava de concha de navalha, setas de espinho de ouriço, corpete de pele de raia. Cheira a maresia e a moeda molhada. Texto para a mesa e sentidos na ficha do Boblin.
+
+Ficam de fora: asas de sino de medusa; voar sem asas, a nadar no ar; cabelo prateado; crista de barbatana.
+
