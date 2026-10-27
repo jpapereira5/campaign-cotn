@@ -540,3 +540,4 @@ Ficam em aberto: os valores da dívida.
 ## Decidido pelo DM (2026-10-27)
 
 1. **A ferida do Lucan é uma só noite, com duas metades:** morreu a salvar o irmão (o afogamento; o Baeshra trouxe-o) e, quando voltou, o pai e a tripulação viram um monstro e expulsaram-no. Salvou o que mais amava e perdeu os outros todos. Cada metade tem uma verdade escondida: o aboleto (foi ele, com o Baeshra, que salvou o Isco) e o Vaelen (expulsou-o por amor, para o afastar do mar). Como irmão mais velho, o único objetivo dele é proteger o irmão mais novo.
+2. **A mentira do Lucan: «O meu irmão só está seguro comigo ao lado.»** Alimenta-a a culpa («falhei ao meu irmão uma vez; não volto a falhar», a falha que nunca existiu) e cobra um preço («sou um monstro, e o monstro é o preço de o proteger»: aceita a fome e o Baeshra por isso). Na Ascensão, a oferta de Sess'inek (voltar à vida mordendo o Isco) é o teste máximo desta mentira.
