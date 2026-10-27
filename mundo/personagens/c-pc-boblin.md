@@ -69,6 +69,8 @@ Personagem do Tiago Rosas. **Boblin** (os pais não ligaram ao nome; Decidido pe
 - **Investment of the Chain Master:** ataques mágicos; usa a CD do Boblin (13); ataca com a ação bónus dele; resistência a um dano com a reação dele.
 - **Feitio:** só defende o Boblin e o que é deles; junta coisas de metal (botões, pregos, moedas).
 
+**Quem é a nixie** (Decidido pelo DM (2026-10-27)): **uma criada do Xundi, emprestada ao Boblin** (a prenda do Pacto da Corrente). Obedece ao Boblin porque o Xundi lho mandou; a lealdade é do Xundi. Cumpre as ordens à letra e, quando o Boblin não manda nada, segue o que o Xundi quer. **É os olhos do Xundi**, que só ouve: vê e conta-lhe tudo. Mente por omissão, como o senhor: sabe que ele é um génio e que o Boblin tem plateia, e cala-se. **Vive na moeda, no aspeto:** a dimensão de bolso do *find familiar* é o interior da moeda; dispensada, fala, bebe o chá e conversa com o Xundi quando ele lá está; chamada, sai ao pé do Boblin (até 9 m), esteja a moeda onde estiver.
+
 
 **O patrono (Tasha's Cauldron of Everything, «The Genie»; regras de 2014).** O Tiago aceitou o Xundi (Decidido pelo DM (2026-10-20)) e passou as features a Marid (ficha de 2026-10-26):
 - **Magias extra** (entram na lista de warlock): *detect evil and good*, *phantasmal force*, *create food and water*, *phantasmal killer*, *creation* (as do Génio) e *fog cloud*, *blur*, *sleet storm*, *control water*, *cone of cold* (as do Marid); *wish* no 9.º.

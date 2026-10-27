@@ -583,3 +583,9 @@ Ficam de fora: os atributos da nixie da 3.5 (INT 10, SAB 11, CAR 13, DES 16); *c
 Ficam de fora: uma escada de toques por dia (CD 5, 10, 15…): era uma espiral rápida demais; a exposição a corromper com falha por 5 (com a CD a subir, corrompia quase de certeza ao dia 4 e matava em pouco mais de uma semana); as luvas a tirarem o save dos usos.
 
 22. **Na Drive, o Claude cinge-se única e exclusivamente à pasta DND** (`1-54pk4wCwjkck8LQGdmNW-N8kTOOpcLR`) e às subpastas dela: não lê, não pesquisa, não propõe nem mexe em nada fora dela. Regra em `AGENTS.md` («Só a pasta DND da Drive»). Veio de uma pesquisa que apanhou um documento da tuna.
+
+16. **A nixie do Boblin é uma criada do Xundi, emprestada ao Boblin: é a prenda do Pacto da Corrente.** Obedece ao Boblin porque o Xundi lho mandou, não por magia cega; a lealdade é do Xundi. Cumpre as ordens do Boblin à letra e, quando ele não manda nada, segue o que o Xundi quer. **É os olhos do Xundi**, que só ouve: vê e conta-lhe tudo. Mente por omissão, como o senhor: sabe que o Xundi é um génio e que o Boblin tem plateia, e não diz. O pó de prata nas guelras (decisão #11) é a pista.
+17. **A moeda é a casa da nixie, só no aspeto.** A dimensão de bolso do *find familiar* é o interior da moeda: dispensada, vive lá, fala, bebe o chá e conversa com o Xundi quando ele lá está; chamada, sai ao pé do Boblin (até 9 m), esteja a moeda onde estiver, como nas regras. Hoje a moeda está com o Lucan (decisão 2026-10-26 #2): isso não muda onde ela aparece.
+
+Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedecer cegamente ao Xundi, sem vontade própria; estar onde a moeda está, à letra.
+
