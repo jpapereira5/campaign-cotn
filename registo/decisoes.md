@@ -589,3 +589,5 @@ Ficam de fora: uma escada de toques por dia (CD 5, 10, 15…): era uma espiral r
 
 Ficam de fora: a nixie como espírito só do Boblin, sem dono por trás; obedecer cegamente ao Xundi, sem vontade própria; estar onde a moeda está, à letra.
 
+18. **Como a nixie fala:** em voz alta, com a voz dela, que **lhe sai pelas guelras, sem mexer a boca**; e com o Boblin também por **telepatia, até 30 m** (*find familiar*). O Boblin descobre com o tempo que pode refazer a moeda; o Tiago já o sabe pelas regras.
+
