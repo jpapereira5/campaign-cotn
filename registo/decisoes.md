@@ -639,3 +639,4 @@ Ficam de fora: o sopro de repulsão em pequeno; o sopro de relâmpago.
 11. **O mefite de lodo prateado fala aquano e terrano, sem comum, como o mefite de lodo do Monster Manual.** A ondina fica com aquano e comum. Ficam de fora: aquano, terrano e comum.
    (O PDF passou a o_familiar_do_bob_lin_v2.pdf com a decisão #11.)
 12. **A ondina fala só aquano.** A ficha da ondina do AD&D 2.ª edição (Monstrous Manual; Mystara Appendix) não diz que línguas fala (INT 11, lança feitiços); corrige a decisão #11, que lhe dava também comum. O PDF passou a o_familiar_do_bob_lin_v3.pdf, com os títulos só com o nome da criatura (Nixie, Ondina, Mefite de Lodo Prateado, Pseudodragão de Bronze). Ficam de fora: aquano e comum; entende mas não fala.
+13. **No cartão, o título do mefite é só «Mefite de Lodo»** (sem «prateado»); o PDF passou a o_familiar_do_bob_lin_v4.pdf. Na ficha continua mefite de lodo prateado.
