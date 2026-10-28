@@ -114,3 +114,5 @@ Marid (Monster Manual, 2014), sem alterações: Grande, caótico neutro, CA 17 (
 **Port Damali no Critical Role** (Decidido pelo DM (2026-10-27)): a wiki do Critical Role diz, citando o Explorer's Guide p. 74 (por confirmar no livro), que entre 835 e 836 PD o Xundi liberta o génio preso debaixo de Port Damali, e que esse segundo marid, vingativo, invoca todos os dias mefites de vapor que fazem partidas na cidade. Na campanha, o parceiro **ainda está preso** e solta-se mais tarde nesse intervalo; mantém-se a missão do Lucan e do Isco.
 
 **A água viva da moeda** (Decidido pelo DM (2026-10-28)): foi o Xundi que pôs na piscina da moeda o water weird que é a forma verdadeira do familiar do Bob Lin (a nixie e as outras formas são manifestações dele). O Bob Lin não sabe.
+
+**Se a moeda se partir** (Decidido pelo DM (2026-10-28)): a ordem dele à água viva é proteger o Bob Lin a todo o custo. Se ela se sacrificar, o Xundi aparece na moeda refeita, com a piscina vazia, lamenta, diz ao Bob Lin para não ficar triste e que ela o fez por iniciativa própria, porque gostava dele; põe outra água viva na moeda.
