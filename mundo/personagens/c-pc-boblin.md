@@ -75,11 +75,23 @@ Personagem do Tiago Rosas. **Bob Lin** (os pais não ligaram ao nome; Decidido p
   - **Trata o Bob Lin por «mestre».** É ele que escolhe a forma, pelo feitiço; quem a pôs na moeda, e a quem ela serve, é o Xundi.
   - **Nunca revela o que é:** fala grande e poética, mas sem génio, Marid nem água viva.
   - **Mudar de forma:** dissolve-se em água e recompõe-se na forma nova; a personalidade, as memórias e o orgulho ficam iguais.
-- **Âncoras** (as falas para a mesa; Decidido pelo DM (2026-10-28)):
-  - Quando lhe perguntam o que é: «Perguntas-me o que sou, tu, que pisas terra que a água há de levar? Sou a água que escolhe a forma. Hoje escolhi ser pequena. Não te habitues.»
-  - Quando o Bob Lin a manda recuar: (o corpo oscila, como água a perder a forma, e volta a firmar-se de braços cruzados) «A tua vontade comanda o fluxo, mestre. Se queres que eu seja poça ou vapor, sou. Mas avisa estes… secos… que a maré recua sempre antes de voltar.»
-  - A um intruso: «Vês este pó de prata? É o último fôlego de quem tocou no meu mestre. Sou do tamanho da tua mão, mas tenho água que chegue para te encher os pulmões.»
-  - Quando vê metal: «Essa fivela. Já não precisas dela, pois não?»
+
+### Cartão de mesa da nixie (Decidido pelo DM (2026-10-28))
+
+- **Quem:** o familiar do Bob Lin, na forma de nixie, que é a que usa mais.
+- **Raça e aspeto:** fey minúscula, do tamanho de uma mão, prateada como um peixe acabado de pescar; olhos negros e redondos que piscam de lado, cabelo de alga, barbatanas de peixe-voador; as guelras largam pó de prata a cada respiração.
+- **Backstory:** uma água viva que o Xundi pôs na piscina da moeda para servir, e vigiar, quem a encontrasse; desde o pacto, é a nixie do Bob Lin.
+- **Quer:** guardar o mestre e o que é deles; dar ao Xundi uma boa história; moedas e coisas brilhantes para o fundo da piscina.
+- **Teme:** o fogo; secar; que o Bob Lin descubra o que ela é.
+- **Esconde:** é água viva; o Xundi é um génio e ouve tudo; ela é os olhos dele, e a lealdade dela é dele.
+- **Voz:** sai pelas guelras, sem mexer a boca, com um sopro de pó de prata; arrogante, teatral e poética; trata o Bob Lin por «mestre» e os outros por «secos».
+- **Gesto:** cruza os braços minúsculos e vira a cabeça de lado para olhar com um olho só.
+- **Sentidos:** maresia e moeda molhada; gotas a estalar quando se mexe; ao toque, fria e húmida, escamas lisas num sentido e ásperas no outro.
+- **Âncoras:** «Sou a água que escolhe a forma. Hoje escolhi ser pequena. Não te habitues.» · «A tua vontade comanda o fluxo, mestre. Mas avisa estes… secos… que a maré recua sempre antes de voltar.» · «Sou do tamanho da tua mão, mas tenho água que chegue para te encher os pulmões.»
+- **Mais falas:** «Essa fivela. Já não precisas dela, pois não?» (2026-10-28) · «Perguntas-me o que sou, tu, que pisas terra que a água há de levar?» (2026-10-28) · «Vês este pó de prata? É o último fôlego de quem tocou no meu mestre.» (2026-10-28)
+- **Saída:** desfaz-se em salpicos, e fica uma pinta de pó de prata a cair devagar.
+
+### As outras formas do familiar
 
 **As outras formas** (Decidido pelo DM (2026-10-27); fichas próprias, adaptadas das regras do Pacto com traços da criatura canónica (abaixo; decisões 2026-10-28 #3 a #7); a nixie é fey, o mefite de lodo prateado e a ondina são elementais (como no cânone) e o pseudodragão de bronze é dragão; nenhuma é demónio; são o mesmo espírito a mudar de pele, com o feitio, a coleção e os segredos; **a forma verdadeira é um water weird (água viva) que mora na piscina da moeda, e todas as formas, a nixie incluída, são manifestações dele** (Decidido pelo DM (2026-10-28))): imp → **mefite de lodo prateado** (lodo dos Baixios de Lodo, a fronteira entre a Água e a Terra onde fica o palácio do Xundi; na 2.ª edição os mefites eram da família dos imps; a ferroada é de lodo, invisível fica-se como lodo assente no fundo); quasit → **ondina** (a serpente de água transparente do Planescape, caótica, que muda de forma com facilidade e tece teias de gelo; aliada dos marids segundo o planewalker.com, enciclopédia de fãs do Planescape, por confirmar no livro; garras geladas, o *Scare* é um arrepio de frio) (Decidido pelo DM (2026-10-28)); pseudodragão → **pseudodragão de bronze** (um dragão em miniatura com as cores e o feitio do dragão de bronze, o dragão da costa: escamas de bronze esverdeado, barbatanas nas patas, asas com membrana de peixe, cheira a maresia e a ar antes de trovoada; tudo das regras do pseudodragão, com o voo; Decidido pelo DM (2026-10-27)). As formas normais do *find familiar* (caranguejo, polvo, cavalo-marinho, peixe, rã, ave…) também são ela. **O Tiago (2026-10-27):** por agora usa a nixie; o Bob Lin tem uma cabeça «normal» e receio de chamar demónios, por isso não quer imp nem quasit (não sabe que estas versões não o são); pode também chamar um pássaro.
 

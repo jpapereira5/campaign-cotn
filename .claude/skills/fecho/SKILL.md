@@ -29,7 +29,8 @@ trabalho e os cuidados.
 12. **Cópia do repositório na Drive:** não se faz no fecho; a cópia de leitura em `cotn_2026/github_repo` atualiza-se na tarefa agendada diária (skill `copia-drive`; decisão 2026-10-23 #29). Os passos anteriores fazem-se sem pedir licença e valem também fora do fecho, em qualquer revisão ou correção (decisão 2026-10-22 #11).
 13. **As folhas de arco** (`plano/fios/a-pc-*`, skill `arcos`; decisão 2026-10-25 #1): as Sementes recebem os momentos novos (com marca de tempo), as Crenças revêem-se contra o que cada jogador jogou, e o Estado e os estados dos golpes atualizam-se.
 14. **Registo da mesa:** atualiza o «Índice de sessões» e os «Jogadores» (Google Docs na pasta `tabletop` da Drive) com a sessão fechada, pela skill `registo-mesa`: o número global, a data, o título, a mesa e uma nota do que aconteceu, tudo tirado do registo.
-14. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar, e o que mudou no registo da mesa.
+15. **As vozes dos NPCs:** as falas que o DM disse como NPC (e como a nixie) passam da transcrição para o cartão de mesa de cada um, e a «Voz» afina-se com o que se ouviu, pela skill `voz` (secção «Aprender com a mesa»; decisão 2026-10-28 #16).
+16. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar, e o que mudou no registo da mesa.
 
 ## A transcrição
 
