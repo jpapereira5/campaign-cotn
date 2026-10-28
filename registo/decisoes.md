@@ -637,3 +637,4 @@ Ficam de fora: o sopro de repulsão em pequeno; o sopro de relâmpago.
 9. **A água viva é segredo, e foi o Xundi que a pôs na moeda.** O Tiago não sabe; o Xundi sabe tudo. O criado que limpa o fio de lodo prateado e faz o chá é outro ser, um mordomo genasi da água. Ficam de fora: o Tiago saber já; o criado ser a água viva.
 10. **Os quatro cartões do familiar do Bob Lin passam a um só PDF de quatro páginas, o_familiar_do_bob_lin.pdf, na pasta do Tiago:** nixie, ondina, mefite de lodo prateado e pseudodragão de bronze, por esta ordem. Os quatro PDFs soltos (incluindo a_nixie_do_bob_lin_v2.pdf, da decisão 2026-10-27 #25) foram para o lixo.
 11. **O mefite de lodo prateado fala aquano e terrano, sem comum, como o mefite de lodo do Monster Manual.** A ondina fica com aquano e comum. Ficam de fora: aquano, terrano e comum.
+   (O PDF passou a o_familiar_do_bob_lin_v2.pdf com a decisão #11.)
