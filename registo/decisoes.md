@@ -614,3 +614,9 @@ Ficam de fora: o mefite de lodo prateado no imp; o parceiro já livre.
 
 Ficam de fora: a tartaruga-dragão, com ou sem a troca (sem voo, natação 18 m); o dragão-marinho folhoso.
 
+## Decidido pelo DM (2026-10-28)
+
+1. **Imp → mefite de lodo prateado; quasit → ondina** (substitui a decisão 2026-10-27 #27). O mefite de lodo vem dos Baixios de Lodo, a fronteira entre a Água e a Terra onde fica o palácio do Xundi (na 2.ª edição os mefites eram da família dos imps). A ondina é a do Planescape (Monstrous Compendium III; Mystara): serpente de água transparente, caótica, muda de forma com facilidade, tece teias de gelo, aliada dos marids. Números do imp e do quasit; muda o aspeto. Os mefites de vapor ficam para o parceiro do Xundi em Port Damali (decisão 2026-10-27 #28): os do Xundi são de lodo, os do outro marid de vapor. Continuam a ser a mesma nixie a mudar de pele.
+
+Ficam de fora: o mefite de vapor e o de gelo como formas; o grung; o water weird (grande, preso à água; serve para um encontro, por exemplo a guardar uma fonte do palácio); o varrdig (os marids matam-nos à vista); a sea sprite (fica a nixie).
+
