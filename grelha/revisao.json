@@ -6144,12 +6144,13 @@
         "col": "ch1"
       },
       "factKind": "cena",
-      "text": "A nixie diz ao Bob Lin, a sós, depois de ele recuperar a moeda: «Se algum dia estiveres em apuros, e eu não for suficiente nesta forma, parte a moeda e liberta-me.» Prepara o último recurso (a água viva livre, o sacrifício) sem dizer o que ela é.",
-      "suggestion": "Escolher o momento: um aperto em que a nixie não chegou (um combate quase perdido), ou uma noite calma ao pé de água. Só depois de a moeda voltar ao Bob Lin (hoje está com o Lucan).",
+      "text": "Numa noite calma, ao pé de água, a nixie diz ao Bob Lin, a sós, depois de ele recuperar a moeda: «Se algum dia estiveres em apuros, e eu não for suficiente nesta forma, parte a moeda e liberta-me.» Prepara o último recurso (a água viva livre, o sacrifício) sem dizer o que ela é.",
+      "suggestion": "Uma noite de acampamento calma, junto a um rio, lago ou mar; só depois de a moeda voltar ao Bob Lin (hoje está com o Lucan).",
       "because": [
         "registo/decisoes.md 2026-10-28 #17",
         "registo/decisoes.md 2026-10-28 #18",
-        "registo/decisoes.md 2026-10-28 #19"
+        "registo/decisoes.md 2026-10-28 #19",
+        "registo/decisoes.md 2026-10-28 #20"
       ],
       "tags": [
         "so-dm"
