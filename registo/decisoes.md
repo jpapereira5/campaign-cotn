@@ -610,3 +610,7 @@ Ficam de fora: só a nixie (regra da casa que limitava); outro criado do paláci
 
 Ficam de fora: o mefite de lodo prateado no imp; o parceiro já livre.
 
+29. **Pseudodragão → pseudodragão de bronze** (substitui a cria de tartaruga-dragão da decisão #26). Não há pseudodragão aquático oficial em 5e; este junta duas peças canónicas: o pseudodragão e o dragão de bronze, o dragão da costa, anfíbio e voador. Escamas de bronze esverdeado, barbatanas nas patas, asas com membrana de peixe; cheira a maresia e a ar antes de trovoada. Fica com tudo das regras do pseudodragão, incluindo o voo de 18 m, e com a natação da invocação.
+
+Ficam de fora: a tartaruga-dragão, com ou sem a troca (sem voo, natação 18 m); o dragão-marinho folhoso.
+
