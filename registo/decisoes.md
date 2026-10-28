@@ -629,4 +629,7 @@ Ficam de fora: a Ferroada de Lodo (o ferrão envenenado do imp); a CA 11 e os 27
 5. **Correção:** quando o imp ou o quasit mudam de forma, só muda o deslocamento; a ficha fica igual. As formas do mefite de lodo prateado: caranguejo (6 m), gaivota (6 m, voo 18 m), aranha-do-mar (6 m, trepar 6 m). As da ondina: peixe-voador (3 m, voo 12 m), polvo (12 m, trepar 12 m), rã (12 m, natação 12 m).
 
 Ficam de fora: a resistência a relâmpago e a fogo do quasit; a constrição da ondina canónica; o *Scare*.
+6. **A ficha do pseudodragão de bronze** (a forma de pseudodragão do familiar do Bob Lin): **Minúsculo, dragão, neutro bom** (exceção à decisão 2026-10-27 #26, em que as formas eram todas fey); CA 13, 7 PV (2d4+2), deslocamento 4,5 m, voo 18 m, natação 12 m (invocação); FOR 6, DES 15, CON 13, INT 10, SAB 12, CAR 10; Perception +3, Stealth +4; *blindsight* 3 m, visão no escuro 18 m; **entende dracónico e comum, não fala**. Do dragão de bronze: **imune a relâmpago** e **anfíbio**. Traços do pseudodragão: sentidos apurados, resistência mágica, telepatia limitada. *Ações:* **Mordidela** (+4, 1d4+2 perfurante); **Ferrão de Faísca** (+4, 1d4+2; CON CD 13 ou envenenado 1 hora; falha por 5 ou mais, inconsciente; o choque entorpece).
+
+Ficam de fora: o sopro de repulsão em pequeno; o sopro de relâmpago.
 
