@@ -2,23 +2,23 @@
 
 O repositório tem uma cópia de leitura na Drive, na pasta `DND/cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`): um documento Markdown por peça do cânone (PCs, NPCs por letra, locais, beats por capítulo, uma sessão por documento, decisões, mesa, documentação), o `00 LEIA-ME.md` com o commit e o índice, e o `manifesto.json` (sha256 de cada peça). Cada ficha aparece sob um título com o nome e o caminho, com o cabeçalho YAML num bloco de código.
 
-Quem a mantém é o **Claude**, **numa tarefa agendada diária** (decidido pelo DM a 2026-10-20), ou quando o DM a pede. Desde 2026-10-23 (#29) já não corre depois de cada push nem no fim do fecho: era lenta (cada peça junta muitas fichas) e o repositório é sempre a fonte de verdade. Substitui a 2026-10-21 #86. O Claude escreve na Drive reescrevendo o conteúdo de cada ficheiro, por isso a cópia vai em peças de até 35 KB e só se reenviam as que mudaram. Não há zip: o repositório inteiro descarrega-se do GitHub (Code → Download ZIP).
+Quem a mantém é o **GitHub Actions** (`.github/workflows/copia-drive.yml`; decisão 2026-10-29 #1, substitui a tarefa agendada diária do Claude de 2026-10-20 e a decisão 2026-10-23 #29): corre a cada push para `main` (menos os de `grelha/dm.json`), todos os dias às 05h47 UTC (para apanhar mudanças no `dnd-skills`) e à mão em Actions → «Cópia na Drive» → *Run workflow*. Não gasta tokens do Claude. O mesmo workflow faz também a cópia das skills para `DND/skills` (`1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H`) com `scripts/sincronizar.py gerar` do `jpapereira5/dnd-skills` (só a subpasta `drive/` e o `manifesto.json`).
 
 A cópia é só de leitura. O que se escrever lá perde-se na próxima cópia; a fonte de verdade é o repositório. O script `scripts/copia-drive.py` nunca escreve no repositório.
 
-## A cópia, passo a passo
+## Como funciona
 
-1. Repositório atualizado: `git clone https://github.com/jpapereira5/campaign-cotn` (ou `git pull` em `main`).
-2. Na Drive, lista a pasta (`parentId = '1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R'`). Se houver `manifesto.json`, descarrega-o para um ficheiro local (`manifesto-antigo.json`); se não houver, é a primeira cópia.
-3. `python3 scripts/copia-drive.py gerar SAIDA` e `python3 scripts/copia-drive.py diferencas SAIDA manifesto-antigo.json`. O segundo diz, em JSON, que peças `enviar` e que nomes `apagar`.
-4. Se `nada_a_fazer` for `true`, acaba aqui: não se envia nada. Só é `true` quando não há peças para enviar nem nomes para apagar; o commit não conta, porque uma peça que falhou numa cópia anterior fica com o hash antigo no manifesto e tem de se reenviar mesmo com o commit igual (o «capítulo 3» ficou assim de 2026-10-21 a 2026-10-22).
-5. Para cada peça a enviar: lê o ficheiro local inteiro e cria-o na pasta com o mesmo nome (`text/markdown`, `disableConversionToGoogleType: true`), com o conteúdo **exatamente** igual ao do ficheiro; só depois de criado, manda para o lixo o ficheiro antigo com esse nome. Os nomes em `apagar` vão para o lixo.
-6. Depois das peças, o mesmo para o `00 LEIA-ME.md` e, por último, o `manifesto.json` (o manifesto só se troca no fim, para uma cópia interrompida se refazer no dia seguinte).
-7. Confere: lista a pasta outra vez; cada nome aparece uma só vez e o `fileSize` de cada peça enviada é igual ao tamanho do ficheiro local (`wc -c`). Uma peça com tamanho diferente reenvia-se uma vez; se voltar a falhar, fica no relatório.
+1. O workflow clona este repositório e o `dnd-skills` e corre `scripts/copia-drive.py gerar` e `scripts/sincronizar.py gerar`.
+2. O **rclone** envia as duas pastas com `rclone sync --checksum --drive-use-trash`: compara o md5 de cada ficheiro, atualiza no próprio sítio os que mudaram (as ids e os links da Drive mantêm-se), cria os novos e manda para o lixo da Drive os que deixaram de existir. As pastas ficam iguais à cópia gerada: um ficheiro posto lá à mão vai para o lixo na cópia seguinte.
+3. No fim, `rclone check` confere as duas pastas; uma diferença faz o workflow falhar (o GitHub avisa por email).
+4. A ligação à Drive é o segredo `RCLONE_CONF` do repositório (Settings → Secrets and variables → Actions): o conteúdo do `rclone.conf` do DM, com um remote do tipo `drive` e um client OAuth próprio (projeto `rclone` na Google Cloud, app publicada para o token não expirar). O segredo nunca entra no repositório.
+5. Se o envio falhar com um erro de autorização (token revogado ou expirado), refaz-se o `rclone config reconnect drive:` no PC e atualiza-se o segredo com o novo `rclone.conf`.
 
-Várias peças podem ir em paralelo, por agentes, cada um com um lote.
+## Cópia à mão pelo conector da Drive (só se o GitHub Actions não estiver disponível)
 
-## Limites
+Os passos antigos continuam a funcionar: `python3 scripts/copia-drive.py gerar SAIDA` e `python3 scripts/copia-drive.py diferencas SAIDA manifesto-antigo.json` (com o `manifesto.json` da pasta descarregado para `manifesto-antigo.json`); cada peça em `enviar` cria-se com o mesmo nome (`text/markdown`, `disableConversionToGoogleType: true`) e o antigo vai para o lixo; os nomes em `apagar` vão para o lixo; no fim, o `00 LEIA-ME.md` e o `manifesto.json`, e a conferência dos tamanhos.
+
+## Limites (só para a cópia à mão)
 
 - O envio copia o conteúdo em base64 para dentro da chamada à Drive, e essa cópia falha nas peças grandes: a 2026-10-24 falharam as cinco peças de 69 a 82 KB, e algumas de 45 a 67 KB só passaram à segunda. Por isso o `gerar` parte sozinho qualquer peça acima de 35 KB (`LIMITE` no script) em «<peça> · parte 1», «· parte 2»…, entre fichas e, numa ficha grande (uma sessão, as decisões), entre as secções dela. Não é preciso mexer em `pecas()` quando uma peça cresce.
 - Quando uma peça cresce, os cortes podem mudar e as partes seguintes dessa peça reenviam-se; os nomes que deixam de existir vão para o lixo pelo `apagar`.

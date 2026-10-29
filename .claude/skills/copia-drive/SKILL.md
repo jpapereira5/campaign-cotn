@@ -1,21 +1,19 @@
 ---
 name: copia-drive
-description: Atualizar a cópia de leitura do repositório campaign-cotn na Drive (pasta cotn_2026/github_repo), só com as peças que mudaram, e a cópia do dnd-soundboard quando o DM a pede. Usar na tarefa agendada diária e quando o DM diz «atualiza a cópia na Drive» ou «faz backup do repo». Não corre depois de cada push nem no fecho (decisão 2026-10-23 #29); a fonte de verdade é sempre o repositório.
+description: Cópia de leitura do repositório campaign-cotn e das skills na Drive (pastas cotn_2026/github_repo e DND/skills), feita pelo GitHub Actions a cada push e todos os dias, e a cópia do dnd-soundboard quando o DM a pede. Usar quando o DM diz «atualiza a cópia na Drive», «faz backup do repo» ou quando a cópia falhar. A fonte de verdade é sempre o repositório.
 ---
 
 # copia-drive: a cópia de leitura na Drive
 
 A cópia é **só de leitura** e a fonte de verdade é o repositório; o que se escreve na Drive perde-se na cópia seguinte. O procedimento completo está em `docs/copia-drive.md`; esta skill é a ordem de trabalho.
 
-## O repositório campaign-cotn (tarefa diária, ou a pedido do DM)
+## O repositório campaign-cotn e as skills (GitHub Actions)
 
-1. `git pull` em `main` (ou clona `https://github.com/jpapereira5/campaign-cotn`).
-2. Lista a pasta `cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`) com `parentId = '…'` e `excludeContentSnippets`. Descarrega o `manifesto.json` para `manifesto-antigo.json`; se não existir, é a primeira cópia.
-3. `npm run copia-drive -- gerar SAIDA` e `npm run copia-drive -- diferencas SAIDA manifesto-antigo.json`. Se `nada_a_fazer` for `true`, acaba: diz «cópia já atualizada (commit X)» e mais nada.
-4. Para cada peça em `enviar`: lê o ficheiro local inteiro e cria-o na pasta com o mesmo nome (`text/markdown`, `disableConversionToGoogleType: true`), com o conteúdo exatamente igual; só depois manda o antigo com esse nome para o lixo. Os nomes em `apagar` vão para o lixo. Lotes grandes podem ir por agentes em paralelo, cada um com a sua lista.
-5. No fim, o `00 LEIA-ME.md` e, por último, o `manifesto.json` (só se troca depois de tudo o resto, para uma cópia interrompida se refazer da próxima vez).
-6. Confere: lista a pasta; cada nome aparece uma só vez e o `fileSize` de cada peça enviada é igual ao `wc -c` do ficheiro local. Uma peça diferente reenvia-se uma vez; se falhar outra vez, fica no relatório.
-7. Na conversa: uma linha com o commit copiado, quantas peças foram enviadas e apagadas, e o que falhou.
+Desde a decisão 2026-10-29 #1, a cópia faz-se sozinha no workflow `.github/workflows/copia-drive.yml` (rclone), a cada push para `main` e todos os dias às 05h47 UTC; o Claude já não a envia pelo conector. O que o Claude faz:
+
+1. **O DM pede a cópia agora:** `gh workflow run copia-drive.yml --ref main` e segue o resultado (`gh run list --workflow copia-drive.yml`). Se não der para disparar daqui, diz ao DM: Actions → «Cópia na Drive» → *Run workflow*.
+2. **A cópia falhou:** vê em que passo (`gh api repos/jpapereira5/campaign-cotn/actions/runs/<id>/jobs`). Se o registo não abrir daqui, pede ao DM a mensagem de erro do passo. Erro de autorização: o DM refaz `rclone config reconnect drive:` no PC e atualiza o segredo `RCLONE_CONF` com o novo `rclone.conf`. Nunca peças nem escrevas o conteúdo do segredo.
+3. **Sem GitHub Actions** (último recurso): a cópia à mão pelo conector da Drive, como em `docs/copia-drive.md` («Cópia à mão»).
 
 ## O dnd-soundboard (só a pedido)
 
@@ -25,4 +23,4 @@ A cópia em `DND/dm_tools/dnd_soundboard` (`1lG6V6yb6Nu9kcQcqPCFOqkKMBa1T9N1r`) 
 
 - Nunca escrevas no repositório a partir da cópia nem edites a cópia à mão.
 - Os nomes das peças são os do script; não os mudes na Drive (a regra de nomes da Drive não se aplica dentro de `github_repo`).
-- Se o conector da Drive falhar a meio, não troques o manifesto: a próxima cópia retoma do que ficou.
+- Na cópia à mão, se o conector da Drive falhar a meio, não troques o manifesto: a próxima cópia retoma do que ficou.
