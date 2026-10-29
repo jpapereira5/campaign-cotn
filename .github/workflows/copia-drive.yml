@@ -49,12 +49,18 @@ jobs:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
         run: |
           mkdir -p ~/.config/rclone
-          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          conf=~/.config/rclone/rclone.conf
+          # Tolera o segredo colado sem a linha "[drive]", com fins de linha do Windows ou com outro nome de remote.
+          printf '%s\n' "$RCLONE_CONF" | tr -d '\r' | sed '1s/^\xEF\xBB\xBF//' > "$conf"
+          grep -q '^\[' "$conf" || sed -i '1i [drive]' "$conf"
+          remote=$(rclone listremotes | head -n1)
+          [ -n "$remote" ] || { echo "O segredo RCLONE_CONF não tem nenhum remote"; exit 1; }
+          echo "remote=$remote" >> "$GITHUB_ENV"
           comum="--checksum --drive-use-trash --stats-one-line -v"
-          rclone sync "$RUNNER_TEMP/cotn" drive: --drive-root-folder-id 1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R $comum
-          rclone sync "$RUNNER_TEMP/skills/drive" drive: --drive-root-folder-id 1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H $comum
+          rclone sync "$RUNNER_TEMP/cotn" "$remote" --drive-root-folder-id 1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R $comum
+          rclone sync "$RUNNER_TEMP/skills/drive" "$remote" --drive-root-folder-id 1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H $comum
 
       - name: Conferir
         run: |
-          rclone check "$RUNNER_TEMP/cotn" drive: --drive-root-folder-id 1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R --one-way
-          rclone check "$RUNNER_TEMP/skills/drive" drive: --drive-root-folder-id 1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H --one-way
+          rclone check "$RUNNER_TEMP/cotn" "$remote" --drive-root-folder-id 1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R --one-way
+          rclone check "$RUNNER_TEMP/skills/drive" "$remote" --drive-root-folder-id 1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H --one-way
