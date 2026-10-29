@@ -1,6 +1,6 @@
 # Call of the Netherdeep (Contos & Escudos)
 
-Este repositório é a fonte de verdade da campanha Call of the Netherdeep do DM João Pereira (Contos & Escudos), em português de Portugal. Alimenta o DM dashboard (GitHub Pages), usado à mesa. Lê primeiro `README.md` (estrutura e app), `docs/arquitetura.md` e `docs/fluxo.md`.
+Este repositório é a fonte de verdade da campanha Call of the Netherdeep do DM João Pereira (Contos & Escudos), em português de Portugal. Alimenta o DM dashboard (GitHub Pages), usado à mesa. Para a estrutura e os passos, consulta `README.md` (estrutura e app), `docs/arquitetura.md` e `docs/fluxo.md` quando precisares; não é preciso lê-los em todas as sessões (decisão 2026-10-29 #2).
 
 ## Skills
 
@@ -45,6 +45,7 @@ O que é próprio da CotN. As skills genéricas leem esta secção.
 - **Consulta à mesa** (o DM pede algo a meio da sessão; skill `consulta`): junta todas as fontes antes de responder, por esta ordem: o repositório (`grep -rn` pela id e pelas palavras-chave em `mundo/ plano/ registo/ mesa/`), as preparações e documentos da Drive que o mencionam (todas as sessões), e as conversas passadas; a cópia `cotn_2026/github_repo` só quando o repositório não estiver acessível. Responde completo, separando o que a mesa já sabe do que está por jogar, com as discrepâncias à vista.
 - **A cópia na Drive é automática** (`cotn_2026/github_repo` e `DND/skills`; decisão 2026-10-29 #1, substitui 2026-10-23 #29): o GitHub Actions (`.github/workflows/copia-drive.yml`, rclone) fá-la a cada push para `main` e todos os dias; o Claude não a envia pelo conector, a não ser como último recurso (skill `copia-drive`). A fonte de verdade é sempre o repositório.
 
+- **Ficheiros grandes, sem perder o fio** (decisão 2026-10-29 #2): `registo/decisoes.md` e as notas de `grelha/revisao.json` não se leem inteiros. Decisões: `python3 scripts/decisoes.py --desde <data da última sessão>` (todas, por inteiro) e `python3 scripts/decisoes.py <id> <nome> <alcunhas>` (o item inteiro, de todas as datas, incluindo as secções sem data). Notas: `python3 scripts/notas.py` (abertas), `--linha <id>`, `--procura <termos>` (inclui as fechadas, que ficam no ficheiro e nunca se apagam); as chaves `reviewed`, `absorbed` e `lastReview` são pequenas e leem-se à parte. A ficha da coisa em `mundo/` continua a ser a fonte principal. Na dúvida, procura com mais termos (id, nome, alcunhas, lugares, objetos ligados), em vez de ler menos.
 - Nunca escrever `grelha/dm.json` (é só da app).
 - O repositório é público: não guardar tokens nem segredos de acesso em texto.
 - Decisões do DM apresentam-se como perguntas interativas, com uma recomendação, e gravam-se pela skill `decidir`.

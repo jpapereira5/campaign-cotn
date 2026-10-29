@@ -1,6 +1,6 @@
 ---
 name: ficha-pc
-description: Refazer o documento consolidado de um PC na Drive («<PC> — PC vN», na pasta do próprio PC dentro de cotn_2026/pcs) a partir da ficha do repositório, dos registos das sessões e das decisões do DM. Usar no fecho (passo 11 da fecho, para todos os PCs), sem pedir licença sempre que uma revisão, correção ou decisão muda a ficha ou os acontecimentos de um PC (só os PCs afetados), e quando o DM pede o documento de um PC, a ficha consolidada ou «o que o Lucan sabe».
+description: Refazer o documento consolidado de um PC na Drive («<PC> — PC vN», na pasta do próprio PC dentro de cotn_2026/pcs) a partir da ficha do repositório, dos registos das sessões e das decisões do DM. Usar no fecho (passo 11 da fecho, para os PCs afetados pela sessão e para todos quando a mesa muda de capítulo), sem pedir licença sempre que uma revisão, correção ou decisão muda a ficha ou os acontecimentos de um PC (só os PCs afetados), e quando o DM pede o documento de um PC, a ficha consolidada ou «o que o Lucan sabe».
 ---
 
 # ficha-pc: o documento consolidado de um PC
@@ -11,9 +11,9 @@ Um Google Doc por PC, na pasta desse PC (ids no `AGENTS.md`, secção «Para as 
 
 1. A ficha `mundo/personagens/c-pc-<nome>.md` (cabeçalho e secções).
 2. Os registos das sessões (`registo/sessoes/`): os acontecimentos que o envolvem, os efeitos `posse`, `sabe`, `estado`, `relacao` e `contador`, e a secção «Na mesa» de cada sessão. `node scripts/grelha.ts --linha c-pc-<nome>` dá a linha inteira.
-3. `registo/decisoes.md`: as decisões sobre o PC, com a data e o número.
+3. As decisões sobre o PC, com a data e o número: `python3 scripts/decisoes.py c-pc-<nome> <nome> <alcunhas>` e também pelo familiar, pelo patrono e pelos NPCs do arco dele.
 4. Os itens (`mundo/itens/i-*.md` com `para` ou `posse` do PC) e os segredos `r-pc-*` dele.
-5. A ambição (`plano/fios/amb-<nome>-*.md`), os fios `t-agenda-*`/`t-laco-*` em que entra e as notas abertas da Grelha na linha dele (`grelha/revisao.json`).
+5. A ambição (`plano/fios/amb-<nome>-*.md`), os fios `t-agenda-*`/`t-laco-*` em que entra e as notas abertas da Grelha na linha dele (`python3 scripts/notas.py --linha c-pc-<nome>`).
 6. Os documentos do jogador na Drive (questionário, sessão zero, notas), só para o que o repositório ainda não tem.
 
 ## Estrutura do documento

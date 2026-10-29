@@ -20,7 +20,7 @@ Regras completas em `docs/grelha.md` (secções 9, 10 e 12) e `docs/arquitetura.
 
 ## A cada aviso
 
-1. `git pull`. Lê `grelha/dm.json` e `grelha/revisao.json`; `node scripts/grelha.ts` mostra a Grelha com a camada do DM aplicada (a secção «Por rever») e `node scripts/grelha.ts --linha <id>` uma linha inteira.
+1. `git pull`. Lê `grelha/dm.json`, as chaves `reviewed`, `absorbed` e `lastReview` de `grelha/revisao.json` e as notas abertas (`python3 scripts/notas.py`; `--procura` para o histórico, com as fechadas); `node scripts/grelha.ts` mostra a Grelha com a camada do DM aplicada (a secção «Por rever») e `node scripts/grelha.ts --linha <id>` uma linha inteira.
 2. As entradas por rever são as que não estão em `revisao.reviewed` (ou cujo `at` é mais recente do que a data lá guardada)
    nem em `revisao.absorbed`, e não estão `deleted`.
 3. Para cada uma, aplica as regras abaixo e junta as perguntas. Responde na conversa com **três perguntas no máximo**,

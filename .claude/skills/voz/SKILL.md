@@ -15,7 +15,7 @@ Existe para o DM ter, numa linha, o que uma personagem diz ou faz, sempre igual 
   1. o `### Cartão de mesa`: Voz, Gesto, Âncoras, Mais falas, Falas ditas à mesa, Quer, Teme, Esconde, Saída;
   2. `atitudeAtual` e `relacoes` (sobretudo com o PC envolvido na situação);
   3. «O que a mesa já sabe» e o último registo de sessão (`registo/sessoes/`, o de maior `n`, e `ondeParou`), para a personagem só saber o que viu ou lhe contaram;
-  4. `grep` pela id em `registo/decisoes.md`, para apanhar decisões recentes que substituem outras.
+  4. `python3 scripts/decisoes.py <id> <nome> <alcunhas>`, para apanhar decisões recentes que substituem outras.
 - **A meio da sessão** lê só o repositório (`git pull` primeiro): a resposta tem de ser rápida.
 - **Sem cartão de mesa:** diz-o numa linha, escreve as falas a partir do Resumo, do `quer` e do `teme`, e oferece-te para criar o cartão (skill `npc`).
 - **PCs:** não escrevas falas de PCs, que são dos jogadores, a não ser que o DM o peça.

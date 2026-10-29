@@ -63,6 +63,8 @@ npm run escuta     # a escuta do vigia (scripts/escuta.sh)
 python3 scripts/normalizar-texto.py   # glossário pt-PT e grafia do AO90 no corpo dos ficheiros
 bash scripts/escuta.sh                # escuta as gravações da app (skill vigia)
 python3 scripts/copia-drive.py gerar SAIDA   # a cópia de leitura para a Drive (docs/copia-drive.md)
+python3 scripts/decisoes.py --desde DATA | TERMOS…   # as decisões do DM sem ler o ficheiro inteiro
+python3 scripts/notas.py [--linha ID | --procura TERMOS…]   # as notas da Grelha (abertas; --procura inclui as fechadas)
 ```
 
 Deploy automático para GitHub Pages em cada push para `main` (`.github/workflows/deploy.yml`): valida, testa, verifica e constrói.

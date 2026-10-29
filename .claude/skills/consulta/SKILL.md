@@ -17,7 +17,7 @@ Existe porque, na S7 (2026-10-21), a pergunta sobre o obelisco foi respondida s�
 1. **O Compêndio da sessão** («Sessão NN — Compêndio», Drive, `cotn_2026/session_prep`, `1WGi5hzOj2oPHEfFmvlwDmJN33X7Ed6h1`), se existir: uma só leitura com as fichas de mesa da sessão.
 2. **O repositório `jpapereira5/campaign-cotn`** (fonte de verdade): clona ou faz `git pull`, depois:
    - a ficha da coisa (`mundo/…/<id>.md`), sobretudo a `## Ficha de mesa`;
-   - `grep -rn -i` pela id e pelas palavras-chave em `mundo/ plano/ registo/ mesa/`: decisões (`registo/decisoes.md`, todas as datas, atenção às que substituem outras), beats, fios, segredos, registos das sessões (o que se jogou), `mesa/regras.md`.
+   - `grep -rn -i` pela id e pelas palavras-chave em `mundo/ plano/ registo/ mesa/`: decisões de todas as datas com `python3 scripts/decisoes.py <id> <nome> <alcunhas>` (o item inteiro; atenção às que substituem outras), beats, fios, segredos, registos das sessões (o que se jogou), `mesa/regras.md`.
    - Sem acesso ao repositório: a cópia `cotn_2026/github_repo` (`1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R`), peça a peça.
 3. **A Drive:** `fullText contains '<palavra>'` para encontrar todas as preparações, folhas de batalha, «locais narrados», ideias e handouts que o mencionam, **de todas as sessões, não só a última**. Lê as que tocam a coisa.
 4. **As conversas passadas** do Projeto (`conversation_search` pelas palavras-chave): material desenhado que nunca chegou ao repositório.
