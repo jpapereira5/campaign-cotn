@@ -54,7 +54,12 @@ jobs:
           printf '%s\n' "$RCLONE_CONF" | tr -d '\r' | sed '1s/^\xEF\xBB\xBF//' > "$conf"
           grep -q '^\[' "$conf" || sed -i '1i [drive]' "$conf"
           remote=$(rclone listremotes | head -n1)
-          [ -n "$remote" ] || { echo "O segredo RCLONE_CONF não tem nenhum remote"; exit 1; }
+          if [ -z "$remote" ]; then
+            # Diagnóstico sem mostrar valores: tamanho do segredo e nomes das chaves.
+            echo "O segredo RCLONE_CONF não tem nenhum remote (${#RCLONE_CONF} caracteres, $(wc -l < "$conf") linhas)."
+            echo "Chaves encontradas:"; sed -n 's/^\s*\(\[[^]]*\]\|[a-z_]*\)\s*=\?.*/  \1/p' "$conf" | sort -u
+            exit 1
+          fi
           echo "remote=$remote" >> "$GITHUB_ENV"
           comum="--checksum --drive-use-trash --stats-one-line -v"
           rclone sync "$RUNNER_TEMP/cotn" "$remote" --drive-root-folder-id 1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R $comum
