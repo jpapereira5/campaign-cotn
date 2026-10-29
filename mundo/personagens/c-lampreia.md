@@ -30,6 +30,8 @@ Na chegada ao forte (S7): vai à frente e espreita do topo da paliçada antes de
 
 A mesa (sessão 7, #90, 2026-10-21): Chega tarde ao rescaldo — o Corvelo pergunta por ela («Souzela, ainda não voltou?») e é a falta dela que o Lucan nota com uma Perceção 11, à procura de mais goblins. À noite não dorme: durante todo o primeiro turno vigia o Lucan agachada em cócoras ao lado da pira, com a besta CARREGADA nas duas mãos, nunca apontada, e garante que ele nunca lhe sai do campo de visão — se ele se afastar, ela volta a pôr-se onde o veja, e não diz uma palavra. Acompanha assim o interrogatório do Alberto a trinta pés do campo. Quando o Lucan devolve o gnomo e lhe aponta a árvore do goblin, olha para a árvore, sente os ombros a relaxar, solta um mini suspiro e muda de alvo de preocupação: aproxima-se dos colegas a dormir. Sabe que o Bob Lin fugiu: as cordas ficaram no chão, à base da árvore (Decidido pelo DM (2026-10-22), #8).
 
+A mesa (sessão 8, #91, 2026-10-28): Zanga-se por não a terem acordado quando o Elmiro faltou. Espreita as vozes atrás da pedra e põe o grupo em pinça. Diz que trabalha melhor sozinha, mas o Quasi convence-a e ela leva o Lucan, o Quasi e o Alberto pelas traseiras do forte, a apontar as armadilhas de urso, e sobe a paliçada primeiro. Diante dos mortos: «Vamos chegar ao fundo do que aconteceu aqui.» Aos dois sobreviventes do salão: «Então, seus medricas?»
+
 ## Objetivo
 
 Que isto acabe sem barulho.
@@ -53,3 +55,4 @@ Detesta o escriba.
 - **Sentidos:** A lama seca na cara, que nunca limpa; cheira a lodo e a junco; o Isco cheira-a antes de a ver.
 - **Âncoras:** «Espero que desta vez consigam encontrar o caminho.» · «Não há deles. São todos nossos.» · «Espadas nossas.»
 - **Saída:** Já não está lá.
+- **Falas ditas à mesa:** «Porque é que não me acordaram?» (S8, 0:43:39) · «Trabalho melhor sozinha.» (S8, 1:23:43) · «Vamos por trás. Mas tenham extremo cuidado e sigam as minhas passadas. Há armadilhas aqui à volta.» (S8, 1:24:30) · «Receio que esteja fora do meu conhecimento.» (S8, 1:25:08) · «Vamos chegar ao fundo do que aconteceu aqui.» (S8, 1:36:04) · «Então, seus medricas? Aguentaram-se este tempo todo? Ainda bem que estão vivos.» (S8, 1:58:38)

@@ -43,6 +43,8 @@ A mesa (sessão 6, #89, 2026-10-16): na carapaça de tartaruga, em cima da janga
 
 A mesa (sessão 7, #90, 2026-10-21): Passa o rescaldo encolhido, a tentar não fazer barulho, a lavar da carapaça as entranhas do morto-vivo que o Isco esmagou ao lado dele, «a tentar lavar-se da experiência que acabou de ver». O Lucan tira-o da jangada e leva-o para o acampamento. À NOITE, no primeiro turno: o Lucan afasta-o trinta pés do resto do campo, pousa-lhe a carapaça, olha-o nos olhos e ameaça separá-lo em facadas e juntá-lo à pira se achar que lhe mente. Com uma Intimidação 14 (com vantagem) CONFESSA O QUE SUSSURROU AO CORVELO no primeiro encontro: «Disse-lhe que vocês eram perigosos, e que devia ter cuidado convosco. E que vocês também queriam ir para o Forte.» Insight 19 do Lucan: está muito nervoso, a voz quebra-lhe, e escolhe as palavras com muitíssimo cuidado — demora uma fração de segundo a mais a dizê-las —, mas não parece estar a mentir. Fica a saber que ali não é intocável; arrasta a carapaça de volta para onde estava, com a Sousela de besta carregada a ver tudo.
 
+A mesa (sessão 8, #91, 2026-10-28): Fora de água já não pode ir na carapaça: vai às cavalitas do Quasi, a dar-lhe dicas. Diz que a capela do forte a ouviu nomear pela primeira vez na véspera (Insight 18 do Quasi, 21 do Lucan: nervoso, de olho no Anzol, preocupado com o que se passa à volta e não com as palavras). Pergunta ao Quasi se confia nos irmãos; agradece: «O que vocês estão a fazer por mim é, de certa forma, impagável.» «Os nossos objetivos continuam a acompanhar-se muito.» Entra no forte pelas traseiras, às costas do Quasi; não se separou dele (a página do caderno de recompensas continua por arrancar).
+
 ## Objetivo
 
 Voltar ao Império e proteger a filha (fachada: ir para casa; o Forte Ventura serve).
@@ -66,3 +68,4 @@ DM («Alberto — ficha de NPC» e «Alberto v3», Drive, 2026-09-18/23). Segred
 - **Sentidos:** Aguardente velha; a carapaça ainda cheira às entranhas do lacedon.
 - **Âncoras:** «Esta é a parte em que fugimos, não é?» · «Não é o que parece. É pior. Mas não para vocês.» · «Não te posso dizer. Se te disser, vais ter de escolher.»
 - **Saída:** Puxa a carapaça e encolhe-se.
+- **Falas ditas à mesa:** «A capela do forte? Ouvi falar dela pela primeira vez ontem, quando o Corvelo disse que aquele jovem era o guarda. Mas tens interesse na capela do forte?» (S8, 0:55:38) · «Tu confias nestas pessoas? Conhece-los há muito tempo? Não peço que confies em mim.» (S8, 0:57:14) · «O que vocês estão a fazer por mim é, de certa forma, impagável.» (S8, 0:57:32) · «Os nossos objetivos continuam a acompanhar-se muito.» (S8, 0:58:13) · «Cuidado com a pedra!» (S8, 0:59:12)

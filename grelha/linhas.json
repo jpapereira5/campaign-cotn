@@ -864,5 +864,17 @@
     "pcs": [
       "c-pc-lia"
     ]
+  },
+  {
+    "id": "i-lupa-do-comandante",
+    "pcs": [
+      "c-pc-quasi"
+    ]
+  },
+  {
+    "id": "i-livro-registos-forte",
+    "pcs": [
+      "c-pc-lia"
+    ]
   }
 ]

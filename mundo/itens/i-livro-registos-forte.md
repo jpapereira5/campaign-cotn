@@ -20,3 +20,5 @@ Sem dia nem mês: à mesa, «uma data de há uns três meses». Não fala de rub
 **Nota à margem, de outra mão** (sugestão; usa-se se o DM quiser): «Não falou com ninguém da guarnição. Pediu tinta duas vezes.»
 
 Se a Lia ler a entrada em voz alta, ou o Corvelo lhe vir a cara: «Lembro-me desse.» Pausa. «Escoltei-o até à guarnição do sul. Não falava. Escrevia à noite.» (2026-10-16 #8)
+
+A mesa (sessão 8, #91, 2026-10-28): Encontrado pela Lia na tenda do comandante: um misto entre o caderno diário de quem ocupava a tenda e o registo de todas as pessoas que alguma vez entraram no forte, incluindo prisioneiros. Procura um nome e encontra-o (a entrada do Aldo Kesh, de há uns três meses); o DM mandou-lho por mensagem, sem o dizer em voz alta. Fica com a informação; se leva o livro, está por confirmar (nota n-s8-19).

@@ -20,6 +20,8 @@ As portas do salão principal (V5) estão escancaradas, como no livro; os sobrev
 
 A mesa (sessão 7, #90, 2026-10-21): O guarda da capela TEM NOME à mesa: o Corvelo reconhece o Tibério no lacedon desfeito, pela cara e pela tabard, e diz, a olhar na direção do forte, que «era o guarda da capela». Na cintura dele vinha uma bolsa com cristais de rubi por lapidar e uma moeda do Concílio de Clovis. O grupo não chegou ao forte nesta sessão: ao fim da tarde do dia 4 pararam à saída do pântano, debaixo das falésias do Véu Quebrado, e o forte continua a horas de marcha.
 
+A mesa (sessão 8, #91, 2026-10-28): CHEGAM ao forte ao meio-dia do dia 5 e entram, em dois grupos: o Lucan, o Quasi e o Alberto pelas traseiras com a Sousela; o Isco, a Lia, o Bob Lin preso e a patrulha pela frente, com o Corvelo. Está cheio de soldados imperiais mortos à arma há um ou dois dias, e dois sobreviventes barricados no salão dizem que não foi ninguém de fora: «Fomos… nós.» Ver «O que a mesa já sabe», na Ficha de mesa.
+
 ## Ficha de mesa
 
 ### Ler (ao avistarem o forte; meio-dia do dia 5) (Decidido pelo DM (2026-10-24))
@@ -186,7 +188,24 @@ Acaba onde a mesa chegar; por volta de 1h45 de jogo, encaminha-se para um de doi
 - **Os dois:** o Alberto chega sempre primeiro. Se o apanharem, joga-se A (corte, ou segue para B se houver tempo, e B é o corte). Se não, a Lia encontra o rasgão fresco (Investigation 12) como pista e o corte é B.
 - **Se não chegarem à tenda:** não se força. Corte de recurso: o Fritz, na cabeça de quem estiver mais perto: «Ela saiu há duas noites. Eu vi tudo.» Ou uma das falas do Fritz já definidas para cada PC (decisão 2026-10-21; Ficha de `c-alonne-frith`), dita a quem ele ler: ao Quasi, «Ele não te vai ajudar a encontrá-la. Eu vou.»; à Lia, «O que procuras está na tenda grande. O comandante não deixava ninguém tocar-lhe.»; ao Bob Lin, «Tu também a ouviste. A rir.» (Decidido pelo DM (2026-10-24))
 
+### O que a mesa já sabe (S8, 2026-10-28)
+
+- **De longe** (1:02:00): encostado às falésias do Véu-Quebrado, num promontório de pedra, uma paliçada de madeira com muitos troncos e, atrás, uma estrutura de pedra; um fio de fumo **negro**. Mais perto (1:22:03): grande e comprido, várias torres de madeira ao longo da paliçada; nenhum som, nenhum vigia. O texto «Ler» não se usou tal como estava.
+- **As armadilhas de urso** enterradas na erva alta à volta (1:27:22), apontadas pela Sousela; nas traseiras não há portas.
+- **Os mortos da muralha** (1:35:06): um anão de farda vermelha com a espada ao lado, dois humanos na torre (espada curta, machado), e assim ao longo das muralhas; também no telhado do salão. Medicina 19 (Quasi): mortos em combate, só por armas, nada mágico, há um ou dois dias; só imperiais (anões, elfos, humanos), alguns sem a veste vermelha; ninguém da Dinastia. Investigação 12 (Lucan): nenhum sinal de quem foi.
+- **As portas** metálicas da frente estão abertas (1:44:57).
+- **A latrina** com um morto sentado (1:46:59); **uma tenda grande e branca intacta**, fechada do lado das traseiras.
+- **O pátio** (1:49:49): dezenas de mortos; os fardos de palha de treino ardidos, e é deles que sobe o fumo; uma tenda aberta com beliches, armários de armaduras e muitas espadas. O Corvelo para diante de um soldado morto, agachado (2:11:41).
+- **O salão** (1:54:50): ver `l-salao-de-pedra` (a barricada de mesas e os dois sobreviventes).
+- **As jaulas** (2:00:18): ver `l-fort-venture-prison` (os mastins, o hobgoblin morto, o Fritz).
+- **A tenda do comandante** (2:12:14): aba aberta; mesa pequena com três cadeiras, lanterna apagada, taça de cobre e um mapa grande do Véu-Quebrado; cama de madeira, mesa de cabeceira (um livro ou caderno e a lupa mágica, `i-lupa-do-comandante`), baú trancado aos pés da cama (magia lá dentro; não aberto, sem chave encontrada); suportes de armas e armadura, armário com plantas antigas do forte, encomendas, saídas dos homens e cartas às famílias. O registo de quem entrou no forte está com a Lia (`i-livro-registos-forte`).
+- **Por jogar:** os cortes A (o Alberto e a página) e B (o Corvelo: «Lembro-me desse»), a capela, a armaria, o armazém, o Felmont, o caderninho do torneio, o caderno de recompensas e a pira dos mortos.
+
 ### Discrepâncias por decidir
+
+- (S8) À mesa, as mesas do salão estão **encostadas à porta da frente numa barricada**; a Ficha diz «portas escancaradas… sem barricada à porta» (Resumo, decisão 2026-10-21). Nota n-s8-16.
+- (S8) Os mastins, à mesa, **ladram e comem com fome**; a Ficha tinha-os encolhidos a ganir.
+- (S8) O fumo, à mesa, é **negro** e sobe dos fardos; a Ficha dizia cinzento, do meio do recinto.
 
 - (Resolvida 2026-10-24) O livro diz bandeiras «gastas pelo tempo»; fica «com as dobras marcadas» (o forte é recente).
 

@@ -29,6 +29,8 @@ origem:
 
 Guarda novo do Forte Ventura, sobrevivente da noite do dia 3. Halfling de Felderwin, o braço esquerdo queimado do ombro ao pulso e embrulhado num pano, besta na outra mão. Amigo do Elmiro. Fala depressa e alto, como quem ainda não parou de ter medo. Na chegada da patrulha está atrás das mesas deitadas do salão principal (V5). Ao ver o Elmiro: «Trigueiro? Estás vivo?» À Lia: «Isso é uma drow…» E ao Bob Lin: «E isso… isso é um goblin.» Sobre a noite: «Ela riu-se. Ria-se com a voz do comandante.» (Decidido pelo DM (2026-10-21))
 
+A mesa (sessão 8, #91, 2026-10-28): Provavelmente ele: um dos dois sobreviventes atrás da barricada do salão, de braço queimado e lança, descrito à mesa como «parece humano» (nota n-s8-17).
+
 ## Objetivo
 
 Sair do forte com o Elmiro e não voltar ao pântano.

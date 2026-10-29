@@ -29,6 +29,8 @@ No último turno da noite do dia 4 (jogado na S8; decisão 2026-10-23 #1) aparec
 
 A mesa (sessão 7, #90, 2026-10-21): Volta a aparecer pela positiva: quando se dividem os turnos da noite, voluntaria-se para ficar com o Isco, no último turno — «Eu gostava de ficar com ele, capitão» — e o Corvelo aprova: «Muito bem, Elmiro. É assim que se ganha coragem. Contamos contigo.»
 
+A mesa (sessão 8, #91, 2026-10-28): Leva a rede do Isco de noite (no sonho do Isco, pede-lha e volta ensanguentado; acordado, o Isco já não o encontra) e volta à alvorada, sujo de lama, com a rede cheia de peixes: «Achei melhor fazer uma surpresa.» O sargento fulmina-o com o olhar. No forte, guia o Isco entre as armadilhas: «Senhor Isco, acompanhe-me. Armadilhas no chão.»
+
 ## Objetivo
 
 Ir para casa, uma aldeia a norte do rio.
@@ -50,3 +52,4 @@ Ir para casa, uma aldeia a norte do rio.
 - **Sentidos:** Mãos a tremer; cheira a peixe e a suor frio.
 - **Âncoras:** «Senhor, nós não temos rede; o senhor tem uma?» · «Eu gostava de ficar com ele, capitão.» · «Olha, senhor Isco, olha o que eu consegui buscar!»
 - **Saída:** Vai dar água a alguém.
+- **Falas ditas à mesa:** «Senhor Isco… posso usar a sua rede para pescar? Gostava de ser eu, desta vez.» (S8, 0:33:43, no sonho do Isco) · «Senhor Isco, olhe o que eu consegui apanhar!» (S8, 0:35:00, no sonho) · «Bom dia! Achei melhor fazer uma surpresa. Esta comida vai dar-nos pelo menos para o dia inteiro.» (S8, 0:44:38) · «Senhor Isco, acompanhe-me. Armadilhas no chão.» (S8, 1:44:17)

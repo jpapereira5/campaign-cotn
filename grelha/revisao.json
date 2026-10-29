@@ -5785,10 +5785,10 @@
       "kind": "aviso",
       "target": {
         "row": "c-pc-quasi",
-        "col": "s8"
+        "col": "s9"
       },
       "factKind": "pista",
-      "text": "Abrir a S8 com o retcon da visão do Quasi na pedra: a goblin tinha uma concha branca ao peito (a mesma do Rutz no sonho da Lia e a que o Quasi apanhou junto à pedra).",
+      "text": "Abrir a S8 com o retcon da visão do Quasi na pedra: a goblin tinha uma concha branca ao peito (a mesma do Rutz no sonho da Lia e a que o Quasi apanhou junto à pedra). (Não jogado na S8; passa para a S9.)",
       "suggestion": "Na abertura da S8, antes de tudo: «Uma correção à visão do Quasi: ao peito, a goblin tinha uma concha branca.»",
       "because": [
         "registo/decisoes.md 2026-10-22 #12"
@@ -5804,7 +5804,7 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "O sonho do Isco no último turno (com o Elmiro): o turno começa normal e já é o sonho — o Elmiro ensanguentado com o peixe grande («Porquê essa cara? Eu estou bem… Não? Devia estar preocupado.»). Acorda de verdade para o turno real, com sangue na boca e nas mãos, e o Elmiro não está. De manhã volta com um peixe grande nos braços.",
+      "text": "O sonho do Isco no último turno (com o Elmiro): o turno começa normal e já é o sonho — o Elmiro ensanguentado com o peixe grande («Porquê essa cara? Eu estou bem… Não? Devia estar preocupado.»). Acorda de verdade para o turno real, com sangue na boca e nas mãos, e o Elmiro não está. De manhã volta com um peixe grande nos braços. [substituída: jogado na S8 (#91), registo s08 e-s8-05 e e-s8-06]",
       "suggestion": "O sonho do Isco e o Elmiro desaparecido até de manhã. O peixe: o Elmiro pescou-o com a rede do Isco, que levou sem pedir (decisão 2026-10-24 #19).",
       "because": [
         "registo/decisoes.md 2026-10-23 #1"
@@ -5812,7 +5812,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-03",
@@ -5823,12 +5823,12 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "O sonho do Quasi: vê de fora, do sítio do bobo, sem se mexer, o sonho que a Lia viveu por dentro do Rutz (as tartarugas em círculo, o hobgoblin de mãos vermelhas que levanta a goblin ao céu, a concha ao peito).",
+      "text": "O sonho do Quasi: vê de fora, do sítio do bobo, sem se mexer, o sonho que a Lia viveu por dentro do Rutz (as tartarugas em círculo, o hobgoblin de mãos vermelhas que levanta a goblin ao céu, a concha ao peito). [substituída: jogado na S8 (#91), registo s08 e-s8-04]",
       "suggestion": "O sonho da Lia visto pelo Quasi.",
       "because": [
         "registo/decisoes.md 2026-10-23 #2"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-04",
@@ -5836,10 +5836,10 @@
       "kind": "ideia",
       "target": {
         "row": "t-laco-quasi-alberto",
-        "col": "s8"
+        "col": "s9"
       },
       "factKind": "segredo",
-      "text": "No forte, o Alberto usa *invisibility* para se separar do grupo e ir à tenda do comandante arrancar a página dele do caderno de recompensas.",
+      "text": "No forte, o Alberto usa *invisibility* para se separar do grupo e ir à tenda do comandante arrancar a página dele do caderno de recompensas. (Não jogado na S8; passa para a S9.)",
       "suggestion": "O Alberto invisível no forte.",
       "because": [
         "registo/decisoes.md 2026-10-23 #3"
@@ -5855,10 +5855,10 @@
       "kind": "aviso",
       "target": {
         "row": "c-pc-lucan",
-        "col": "s8"
+        "col": "s9"
       },
       "factKind": "estado",
-      "text": "Manhã do dia 5: o Lucan carrega os 7 cristais da bolsa do Tibério (exposição) e faz o save de Charisma DC 5; falhar dá uma Marca na Alma (d8). A exposição nunca corrompe, nem com 1 natural. Cada dia seguido a carregá-los sobe a CD 5. Se pegar neles com a pele, é contacto: toque CD 5, segundo toque ou segurar CD 10 (um save para o resto do dia); falhar por 5 ou mais, ou 1 natural, corrompe. Confirmar à mesa que os tem na bolsa e não na mão.",
+      "text": "Manhã do dia 5: o Lucan carrega os 7 cristais da bolsa do Tibério (exposição) e faz o save de Charisma DC 5; falhar dá uma Marca na Alma (d8). A exposição nunca corrompe, nem com 1 natural. Cada dia seguido a carregá-los sobe a CD 5. Se pegar neles com a pele, é contacto: toque CD 5, segundo toque ou segurar CD 10 (um save para o resto do dia); falhar por 5 ou mais, ou 1 natural, corrompe. Confirmar à mesa que os tem na bolsa e não na mão. (Não jogado na S8; passa para a S9.)",
       "suggestion": "Save de exposição do Lucan de manhã.",
       "because": [
         "registo/decisoes.md 2026-10-23 #7",
@@ -5877,14 +5877,14 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "O grupo chega ao Forte Ventura ao meio-dia do dia 5 (acabaram a S7 perto das falésias do Véu-Quebrado; de manhã: o Elmiro, o save do Lucan, os ritos, a marcha). A preparação v10 do forte (secções 6 a 10) passa para a S8, à luz do meio-dia; texto de chegada na Ficha de mesa de l-fort-venture. Depois da chegada, a mesa decide o resto do dia.",
+      "text": "O grupo chega ao Forte Ventura ao meio-dia do dia 5 (acabaram a S7 perto das falésias do Véu-Quebrado; de manhã: o Elmiro, o save do Lucan, os ritos, a marcha). A preparação v10 do forte (secções 6 a 10) passa para a S8, à luz do meio-dia; texto de chegada na Ficha de mesa de l-fort-venture. Depois da chegada, a mesa decide o resto do dia. [substituída: jogado na S8 (#91), registo s08 e-s8-12 a e-s8-19]",
       "suggestion": "Chegada ao forte de manhã.",
       "because": [
         "registo/decisoes.md 2026-10-23 #5",
         "registo/decisoes.md 2026-10-24 #2",
         "registo/decisoes.md 2026-10-24 #3"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-07",
@@ -5968,12 +5968,12 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "Abertura da S8: concha → sonho do Isco (o Elmiro não está) → alvorada (o Elmiro volta com o peixe; save do Lucan) → ritos fúnebres junto às brasas, pedidos pelo Corvelo («Ontem ninguém disse nada por eles. Não fica assim. Quem souber palavras, que as diga.») → marcha para o forte. Dar tempo ao Quasi para as cenas em Vistani do Pedro Silva.",
+      "text": "Abertura da S8: concha → sonho do Isco (o Elmiro não está) → alvorada (o Elmiro volta com o peixe; save do Lucan) → ritos fúnebres junto às brasas, pedidos pelo Corvelo («Ontem ninguém disse nada por eles. Não fica assim. Quem souber palavras, que as diga.») → marcha para o forte. Dar tempo ao Quasi para as cenas em Vistani do Pedro Silva. [substituída: jogado na S8 (#91), registo s08 e-s8-07 e e-s8-08; a concha e o save do Lucan não se jogaram]",
       "suggestion": "Por decidir: inspiração a quem participar com sinceridade; a atitude do Corvelo sobe um grau; uma segunda cena do Quasi pode ficar para a capela do forte (o Tibério era o guarda da capela).",
       "because": [
         "registo/decisoes.md 2026-10-23 #20"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-12",
@@ -5984,7 +5984,7 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "Turno da Lia com a Nália Thalorien (noite do dia 4): em élfico («Mai go-VÁ-nen. PÉ-dirr é-THÉ-len?»), o véu fora (íris dourada, como a do irmão; mistério), as três perguntas (o Alex; a alma e o Elian; porque os acompanha e porque querem o forte), a lembrança do Aldo, e o fecho («Nada a reportar»). Falas na «Ficha de mesa» de c-nalia-thalorien.",
+      "text": "Turno da Lia com a Nália Thalorien (noite do dia 4): em élfico («Mai go-VÁ-nen. PÉ-dirr é-THÉ-len?»), o véu fora (íris dourada, como a do irmão; mistério), as três perguntas (o Alex; a alma e o Elian; porque os acompanha e porque querem o forte), a lembrança do Aldo, e o fecho («Nada a reportar»). Falas na «Ficha de mesa» de c-nalia-thalorien. [substituída: jogado na S8 (#91), registo s08 e-s8-01 e e-s8-02; sem a terceira pergunta nem o nome do Elian]",
       "suggestion": "Usar a Ficha de mesa da Nália. Se correr bem, no forte ajuda a Lia com o livro do comandante e despede-se com «Na-VAIR».",
       "because": [
         "registo/decisoes.md 2026-10-23 #21",
@@ -5992,7 +5992,7 @@
         "registo/decisoes.md 2026-10-23 #25",
         "registo/decisoes.md 2026-10-23 #28"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-13",
@@ -6000,10 +6000,10 @@
       "kind": "ideia",
       "target": {
         "row": "t-missao-patrulha",
-        "col": "s8"
+        "col": "s9"
       },
       "factKind": "cena",
-      "text": "A pira dos mortos do Forte Ventura: o Corvelo manda queimá-los todos. Quem reza é decisão dos jogadores; o Quasi pode, se quiser.",
+      "text": "A pira dos mortos do Forte Ventura: o Corvelo manda queimá-los todos. Quem reza é decisão dos jogadores; o Quasi pode, se quiser. (Não jogado na S8; passa para a S9.)",
       "suggestion": "Não guiar: perguntar à mesa se alguém quer dizer palavras.",
       "because": [
         "registo/decisoes.md 2026-10-24 #3"
@@ -6016,10 +6016,10 @@
       "kind": "ideia",
       "target": {
         "row": "l-fort-venture",
-        "col": "s8"
+        "col": "s9"
       },
       "factKind": "cena",
-      "text": "Onde acaba a S8: por volta de 1h45, encaminhar para a tenda do comandante. Corte A: o Alberto queima a página da recompensa («Não é o que parece. É pior. Mas não para vocês.»). Corte B: o Corvelo, ao livro de registos: «Lembro-me desse.» Recurso: o Fritz.",
+      "text": "Onde acaba a S8: por volta de 1h45, encaminhar para a tenda do comandante. Corte A: o Alberto queima a página da recompensa («Não é o que parece. É pior. Mas não para vocês.»). Corte B: o Corvelo, ao livro de registos: «Lembro-me desse.» Recurso: o Fritz. (Não jogado na S8; passa para a S9.)",
       "suggestion": "A tenda apetecível sem carris: a única fechada; a Nália («O comandante guardava tudo na tenda dele»); o cheiro de óleo e vinho que o Isco apanha.",
       "because": [
         "registo/decisoes.md 2026-10-24 #10"
@@ -6035,12 +6035,12 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "O forte ao meio-dia: os mortos já cheiram a decomposição; áreas V1 a V11 com sentidos (cheiro primeiro, pelo Isco) e checks na Ficha de mesa de l-fort-venture.",
+      "text": "O forte ao meio-dia: os mortos já cheiram a decomposição; áreas V1 a V11 com sentidos (cheiro primeiro, pelo Isco) e checks na Ficha de mesa de l-fort-venture. [substituída: jogado na S8 (#91), registo s08 e-s8-19 a e-s8-31 e Ficha de l-fort-venture]",
       "suggestion": "Dar o cheiro ao Isco antes de toda a gente, sem teste.",
       "because": [
         "registo/decisoes.md 2026-10-24 #9"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-boblin-11",
@@ -6051,7 +6051,7 @@
         "col": "s8"
       },
       "factKind": "cena",
-      "text": "Regresso do Boblin (combinado com o Tiago): a caminho do forte, o grupo ouve-o ao longe a falar sozinho, a planear uma emboscada que parece para eles e é ao forte, para resgatar a xamã. Sabe do forte pelo familiar invisível. A moeda está com o Lucan.",
+      "text": "Regresso do Boblin (combinado com o Tiago): a caminho do forte, o grupo ouve-o ao longe a falar sozinho, a planear uma emboscada que parece para eles e é ao forte, para resgatar a xamã. Sabe do forte pelo familiar invisível. A moeda está com o Lucan. [substituída: jogado na S8 (#91), de outra maneira: registo s08 e-s8-13 a e-s8-16]",
       "suggestion": "Decidir o que o familiar viu do forte: se só o de fora (fumo, portão entreaberto, mortos no pátio), o forte por dentro fica para o grupo descobrir.",
       "because": [
         "registo/decisoes.md 2026-10-26 #1",
@@ -6060,7 +6060,7 @@
       "tags": [
         "so-dm"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-arcos-01",
@@ -6157,6 +6157,123 @@
       "tags": [
         "so-dm"
       ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-16",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "discrepancia",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "À mesa (S8, 1:55:11) as mesas do salão estão encostadas contra a porta da frente, numa barricada, e os sobreviventes atrás delas. A Ficha de l-fort-venture (decisão 2026-10-21) diz «portas escancaradas, mesas deitadas a servir de proteção, sem barricada à porta».",
+      "suggestion": "Vale o que se jogou (barricada); corrigir a Ficha e o Resumo de l-fort-venture.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-17",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-rui-felder",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "Os dois sobreviventes vistos à mesa (S8, 1:55:32): um «parece ser um humano», de braço queimado e lança; o outro um anão de espada. A preparação tinha o Rui Felder (halfling, braço queimado, besta), o Bigorna (anão, martelo) e a Marta Coelho (anã, besta). Quem são, e onde está o terceiro?",
+      "suggestion": "O de braço queimado é o Rui (halfling visto de cima; a lança em vez da besta); o anão de espada é o Bigorna; a Marta está mais para dentro.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-18",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "l-fort-venture",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "Numa das quatro jaulas grandes há um hobgoblin morto, algemado, «há algum tempo» (S8, 2:01:50). Não estava preparado. Quem é?",
+      "suggestion": "Um prisioneiro da Dinastia apanhado antes da possessão (morreu de fome ou de feridas, não da noite do dia 3); sem nome até alguém perguntar.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-19",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "i-livro-registos-forte",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "A Lia encontrou o registo do forte e o nome do pai (S8, 2:14:22–2:17:12). Levou o livro com ela? (O DM disse que «a informação está nas mãos de outra pessoa».)",
+      "suggestion": "Sim, a Lia leva o livro.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-20",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-corvelo",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "No pátio, o Corvelo fica parado a olhar para um soldado específico, agachado, morto (S8, 2:11:41). Quem é?",
+      "suggestion": "O Felmont, o comandante (o livro põe-no entre os mortos do pátio).",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-21",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "i-lupa-do-comandante",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "A lupa mágica da mesa de cabeceira do comandante ficou com o Quasi; o DM prometeu-lhe a ficha (S8, 2:13:54). O livro só diz «uma lupa». Que faz?",
+      "suggestion": "Propor uma ficha (incomum) a partir da lupa do livro, para o DM aprovar.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-22",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "f-grupo",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "Título da S8 (especial de Halloween).",
+      "suggestion": "«O Forte dos Mortos» ou «Fomos Nós».",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-23",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "pergunta",
+      "target": {
+        "row": "c-pc-isco",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "O Isco senta-se à porta da jaula do Bob Lin com a espada pousada ao lado e diz-lhe que a pode usar para se soltar (S8, 2:21:01–2:21:23). Deu-lhe a espada, ou só a pousou do lado de fora?",
+      "suggestion": "Só a pousou do lado de fora; o Bob Lin continua amarrado.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-s8-24",
+      "at": "2026-10-29T21:00:00.000Z",
+      "kind": "aviso",
+      "target": {
+        "row": "c-pc-boblin",
+        "col": "s9"
+      },
+      "factKind": "registo",
+      "text": "A nixie caiu sob o *Hold Person* do Quasi e desfez-se em água (S8, 1:12:42). Familiar a 0 PV desaparece; volta com *find familiar* (ritual de 1 hora, 10 po de materiais). O Bob Lin está amarrado numa jaula.",
+      "suggestion": "Decidir se o Bob Lin consegue refazer o ritual dentro da jaula e o que o Xundi sabe da queda.",
       "status": "aberta"
     }
   ],

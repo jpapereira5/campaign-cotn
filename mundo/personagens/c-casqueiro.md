@@ -27,6 +27,8 @@ Perdeu familiares para os Kryn, na guerra; o Corvelo lembra-o no rescaldo do obe
 
 A mesa (sessão 7, #90, 2026-10-21): Tira o corpo do Damião da água, a escorrer água e sangue, e põe-no na jangada ao lado do Alex. Quando o Corvelo manda amarrar o goblin, lança a mão à corda que traz à cintura e amarra-o o mais depressa que consegue; mais tarde pendura-o numa árvore do acampamento. Fica com a caixa de madeira do livro de registos do escriba, entregue pelo sargento. Faz o segundo turno da noite com o Quasi: nunca viu uma mão esquerda com um olho, repara nos seis dedos da garra que ele lhe mostra («Isso é uma pata do quê? Tem seis dedos?»), diz que tenta evitar tudo o que é estranho — «aqui no pântano já vimos demasiadas coisas» — e, a olhar para as cinzas ainda incandescentes da pira: «Parece que temos tido uma maré de azar. Espero que amanhã se resolva tudo.» Sabe que o Bob Lin fugiu da árvore onde o amarrou (Decidido pelo DM (2026-10-22), #8).
 
+A mesa (sessão 8, #91, 2026-10-28): Dorme encostado a uma árvore, com o escudo pousado. Leva o Bob Lin ao ombro como um fardo de palha, tira as chaves a um morto junto às jaulas, mete-o numa jaula («Eu teria cuidado com ele. Não foi fácil trazê-lo para cá») e fica com as chaves.
+
 ## Objetivo
 
 Comer alguma coisa que não seja enguia salgada.
@@ -50,3 +52,4 @@ Não quebra enquanto o sargento estiver de pé; protege o miúdo.
 - **Sentidos:** A cota de malha a ranger; suor e cerveja velha na barba.
 - **Âncoras:** «Ó amigo.» · «Parece que temos tido uma maré de azar. Espero que amanhã se resolva tudo.» · «Mas… o forte não cai. É um forte.»
 - **Saída:** Pega no escudo com as duas mãos.
+- **Falas ditas à mesa:** «Eu teria cuidado com ele. Não foi fácil trazê-lo para cá.» (S8, 2:09:54)

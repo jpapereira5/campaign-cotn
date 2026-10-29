@@ -74,7 +74,7 @@ Antes da sessão seguinte, o `/preparar-cotn` lê a Grelha para a próxima sess�
 
 ## Último fecho
 
-2026-10-22 (sessão 7, #90: registo a partir da transcrição inteira, o Tibério reconhecido e a bolsa de cristais, a entrada do Boblin, a pedra tocada e a mão com o olho, a marcha e a pira, o sonho do Rutz; 31 fichas e três itens novos em `mundo/`, a regra da informação entre jogadores em `mesa/regras.md`, cinco notas na Grelha; resumo v1 na Drive, documentos dos PCs refeitos (Lucan v5, Isco v6, Quasi v4, Lia v3, Boblin v2) e «Índice de sessões» e «Jogadores» atualizados em `tabletop`).
+2026-10-29 (sessão 8, #91, especial de Halloween: registo a partir da transcrição inteira, o turno da Lia com a Nália, os sonhos do Quasi e do Isco, o Elmiro e a rede, as palavras do Quasi pelos mortos, o Bob Lin e a nixie apanhados à porta, o Forte Ventura cheio de mortos, os dois sobreviventes, o Fritz, a lupa e o registo; Fichas de mesa do forte e dos NPCs com as falas ditas à mesa).
 
 2026-10-18 (sessão 6, #89: registo a partir da transcrição, mortes do Damião e do Alex, o pendente com o Quasi, o pano do culto; resumo v4 na Drive).
 

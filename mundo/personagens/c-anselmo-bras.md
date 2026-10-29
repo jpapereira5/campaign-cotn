@@ -30,6 +30,8 @@ origem:
 
 O ferreiro do Forte Ventura (livro, V7: o veterano que trabalha na armaria; usa o perfil de *veteran*), sobrevivente da noite do dia 3. Anão de Grimgolir, mais velho do que o Corvelo, barba grisalha atada em duas tranças curtas com anéis de ferro, braços queimados de forja, avental de couro por cima da cota de malha, **martelo** na mão. Fala pouco e devagar, com sotaque das montanhas. Na chegada da patrulha está atrás das mesas compridas deitadas, no salão principal (V5), com os outros dois sobreviventes. «Corvelo. Vieste tarde.» Sobre a capela: «Não entrem ali. Ainda se ouve.» (Decidido pelo DM (2026-10-21))
 
+A mesa (sessão 8, #91, 2026-10-28): Provavelmente ele: o anão de espada atrás da barricada do salão, que pergunta ao Lucan «Onde é que ele está?» (nota n-s8-17).
+
 ## Objetivo
 
 Passar o forte a quem mande nele e voltar à forja.

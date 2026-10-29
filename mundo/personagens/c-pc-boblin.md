@@ -37,7 +37,7 @@ tags:
 origem:
   - grelha
   - tiago
-atitudeAtual: fugido
+atitudeAtual: preso
 ---
 
 ## Resumo
@@ -90,6 +90,7 @@ Personagem do Tiago Rosas. **Bob Lin** (os pais não ligaram ao nome; Decidido p
 - **Âncoras:** «Sou a água que escolhe a forma. Hoje escolhi ser pequena. Não te habitues.» · «A tua vontade comanda o fluxo, mestre. Mas avisa estes… secos… que a maré recua sempre antes de voltar.» · «Sou do tamanho da tua mão, mas tenho água que chegue para te encher os pulmões.»
 - **Mais falas:** «Essa fivela. Já não precisas dela, pois não?» (2026-10-28) · «Perguntas-me o que sou, tu, que pisas terra que a água há de levar?» (2026-10-28) · «Vês este pó de prata? É o último fôlego de quem tocou no meu mestre.» (2026-10-28)
 - **Saída:** desfaz-se em salpicos, e fica uma pinta de pó de prata a cair devagar.
+- **Falas ditas à mesa:** «Sim, mas é como eu te disse. Estão todos mortos. Não há perigo. Podemos ir, mestre. Mestre, a entrada está livre. As portas estão abertas.» (S8, 1:05:18) · «Bem, se confiar em mim, eu levo-o lá.» (S8, 1:05:40) · «O meu mestre caminha sobre a terra, mas o vosso destino pode muito bem terminar no fundo do pântano. Mais um passo e garanto-vos que a vossa última memória será o reflexo das minhas águas nos vossos pulmões.» (S8, 1:08:35) · «Afastem-se, estão na presença do escolhido das marés.» (S8, 1:10:57, mal ouvida)
 
 ### As outras formas do familiar
 
@@ -122,6 +123,8 @@ Personagem do Tiago Rosas. **Bob Lin** (os pais não ligaram ao nome; Decidido p
 **Carácter.** Calmo, sociável, desconfiado, ganancioso. Laço: os irmãos. Defeito: ganância por objetos valiosos. Confia cegamente nos irmãos; os outros têm de ganhar a confiança. Rivais: a sociedade goblin e os pais (abandonaram-no, um em sentido figurado, o outro à letra). Maior arrependimento: ter levado a irmã a quase perder a vida por seguir o exemplo dele. Aprendeu a cuidar de si e dos seus e a ver os outros como ameaças. Se não houvesse forma de corrigir: negação, raiva, negociação, depressão, vingança. Ideal: por responder (não percebeu a pergunta). Trinket: um pergaminho com o desenho de uma engenhoca mecânica.
 
 A mesa (sessão 7, #90, 2026-10-21): ENTRADA EM JOGO (Tiago Rosas, estreia). Dentro da moeda, a figura ao lado dele manda-o sair: «Vá, não tenhas medo. Vai, explora. Afinal, o mundo é a tua ostra. E eu estarei aqui a ouvir tudo… Depois quero saber tudo. Mal posso esperar.» Aparece sentado em cima da jangada da patrulha, a olhar para uma moeda à sua frente, no início da tarde do dia 4, ao lado de três cadáveres. Descrito pelo jogador: verde, cabelo preto, OLHOS NOTORIAMENTE AMARELOS, pequeno mas não minúsculo, com roupas modestas de quem está habituado a andar pelos pântanos e pelas florestas. O Lucan trinca-o no pescoço sem lhe perguntar nada (23, 6 de dano) e segura-o com os dentes; ele falha o short sword (10); o Corvelo levanta-se — «Alto! Ninguém se mexa! Quem és tu? Eles são vossos?» — e manda amarrá-lo. O Casqueiro amarra-o com a corda da cintura, em cima da jangada, com sangue a escorrer do pescoço. No interrogatório («Responde! És um espião? Estavas a espiar-nos?») faz-se de amnésico (Deception 10 (Decidido pelo DM (2026-10-22), #5)) e devolve a acusação — foram eles que apareceram do nada; eles desistem e garantem só que fica amarrado.  A LIA CURA-O à distância com *Healing Word* (6 PV) à frente de todos e diz ao sargento que não compactua com prisões arbitrárias. Fica amarrado e pendurado numa árvore do acampamento, sem mordaça e COM TODAS AS FACAS: ninguém se lembrou de o desarmar. E FOGE: no turno do Lucan, enquanto ele leva o Alberto para o escuro, sozinho e no máximo silêncio, chama uma sprite (*find familiar*; o Tiago escreveu pixie) que o ajuda a cortar as cordas, manda-a invisível para longe, esconde-se e foge; as cordas ficam no chão, à base da árvore, e ele acaba a noite escondido perto do acampamento. Sabem-no a Sousela, o Lucan, o Casqueiro e o Quasi; o Isco e a Lia não (Decidido pelo DM (2026-10-22), #7 a #9). O *find familiar* vem do Pacto da Corrente (ficha de 2026-10-26); a pixie passa a sprite (Decidido pelo DM (2026-10-26)). A Sousela acaba a noite a vigiá-lo.
+
+A mesa (sessão 8, #91, 2026-10-28): Escondido perto do forte, atrás de uma pedra, fala com a nixie, que lhe diz que estão todos mortos e que a entrada está livre; ele quer saber «onde é que está» (a xamã). Apanhado em pinça pela patrulha e pelo grupo: a nixie ameaça-os, atira um espinho ao Isco e desfaz-se em água sob o *Hold Person* do Quasi. Foge, leva com o javelin do Lucan (8) e a rede do Isco, atira escorpiões de bolso que falham, é curado pela Lia (6) e rende-se: «Eu rendo-me. Eu nem sei muito bem o que vocês querem de mim. E não me toquem. Não me toquem mais.» Ao ombro do Casqueiro, avisa que no forte estão todos mortos, «disse-mo aquele que se desfez em água». O Quasi pinta-o de halfling, «filho do Alberto». No forte, o Casqueiro mete-o numa jaula, ainda amarrado, ao lado da do Fritz. O Isco fala-lhe da Bolbara; ele pede para ficar na jaula.
 
 ## Objetivo
 
