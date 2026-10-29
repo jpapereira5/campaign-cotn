@@ -47,3 +47,10 @@ A reação do Lucan é o termómetro do arco: demasiado protetor puxa para o neg
 
 - **A meio, a Ascensão (cap. 3): a oferta de Sess'inek** (decisão 2026-10-27 #9). Aceitar é morder o Isco e voltar à vida com um dono novo.
 - **Finais no Coração:** (1) **renega o Baeshra e volta a ser homem** — perde o Dhampir e a Fera; como se renega descobre-se à mesa; se aceitou Sess'inek, larga os dois patronos; (2) **devora o Alyxian e sobe** — abraça a mentira invertida; o rubídio acaba na mesma (o livro: matar o Alyxian derrete todo o rubídio e cura a corrupção), mas o Alyxian não é lembrado; poder divino a definir; rouba à Lia a redenção, que pede unanimidade.
+
+### Sementes (fecho da S8)
+
+- «Se ele voltar a aparecer, para a próxima terminamos o serviço» (S8 0:46:42) e o javelin às pernas do Bob Lin, «tem sorte que eu ainda não estou saciado» (S8 1:13:56): a fome à vista.
+- À nixie que atira ao Isco: «Ninguém se mete com o meu irmão» (S8 1:09:09, dito pela Renata à mesa): o termómetro dos testes da mentira.
+- A mão no ombro da Sousela diante dos mortos do forte (S8 1:36:00).
+- O Fritz cheira ao Isco como o Lucan (S8 2:07:48): o primeiro espelho de quem voltou.
