@@ -1,6 +1,7 @@
 ---
 name: livro
 description: Consultar os livros de D&D de um projeto (aventuras, guias de cenário, manuais) e dizer o que o livro diz, com a referência, separado do que o projeto mudou. Usar quando o DM pergunta o que o livro diz, quer um stat block, uma regra, uma área, um NPC ou lore canónica, ou antes de propor algo que o livro já resolve.
+model: sonnet
 ---
 
 # livro: o que o livro diz, e o que mudámos

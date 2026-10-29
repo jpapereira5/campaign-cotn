@@ -1,6 +1,7 @@
 ---
 name: registo-mesa
 description: Manter o registo da mesa do DM, os Google Docs «Índice de sessões» e «Jogadores» na pasta tabletop da Drive, sempre atualizados. Usar no fim de cada fecho de sessão de uma campanha, sempre que o DM diz que mestrou uma sessão (one-shot, minicampanha, outro grupo), e quando muda quem joga (alguém entra, sai, é convidado ou falta).
+model: sonnet
 ---
 
 # registo-mesa: o índice de sessões e os jogadores

@@ -1,6 +1,7 @@
 ---
 name: batalha
 description: "Folha de batalha de D&D para a mesa: combatentes, terreno, táticas, descrições narrativas pt-PT de ataques, feitiços e habilidades, por resultado; equilíbrio do encontro (orçamento de XP) e CR de monstros próprios. Usar quando o DM prepara um combate, pede descrições de combate, quer saber se um encontro é difícil ou cria um monstro."
+model: sonnet
 ---
 
 # batalha: um combate pronto para a mesa

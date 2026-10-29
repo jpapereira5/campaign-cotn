@@ -1,6 +1,7 @@
 ---
 name: voz-cotn
 description: Falas e reações de personagens da CotN para o DM dizer à mesa (NPCs, rivais, o familiar do Bob Lin), no tom do cartão de mesa e sem revelar segredos; e aprender com as falas que o DM disse à mesa para as personagens ficarem coerentes. Usar quando o DM pede «voz: <personagem>, <situação>», «o que diria X», «como reage a nixie a…», falas de NPCs ou reações a algo que aconteceu, durante a sessão ou na preparação, e no fecho.
+model: sonnet
 ---
 
 # voz-cotn: falas de personagem para a mesa

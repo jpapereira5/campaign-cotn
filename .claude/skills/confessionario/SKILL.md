@@ -1,6 +1,7 @@
 ---
 name: confessionario
 description: Perguntas de confessionário, à maneira de um reality show, para os jogadores responderem em personagem depois de uma sessão de D&D, e um bloco final de perguntas ao próprio DM. Usar quando o DM quer perguntas para gravar sobre uma sessão já jogada.
+model: sonnet
 ---
 
 # confessionario: a reação da personagem, em câmara

@@ -1,6 +1,7 @@
 ---
 name: consulta-cotn
 description: Responder a meio de uma sessão de CotN (ou fora dela) sobre qualquer coisa já definida na campanha — um local, NPC, objeto, segredo, check, regra da casa ou o que a mesa já sabe — juntando todas as fontes e não só a preparação mais recente. Usar quando o DM pergunta por algo durante o jogo («obelisco», «ficha do Alberto», «arcana check», «o que se sente na pedra»), quando um chat «serve para correr a sessão», e sempre que a resposta depende de algo definido antes.
+model: sonnet
 ---
 
 # consulta-cotn: responder à mesa com tudo o que já foi definido

@@ -1,6 +1,7 @@
 ---
 name: copia-drive-cotn
 description: Cópia de leitura do repositório campaign-cotn e das skills na Drive (pastas cotn_2026/github_repo e DND/skills), feita pelo GitHub Actions a cada push e todos os dias, e a cópia do dnd-soundboard quando o DM a pede. Usar quando o DM diz «atualiza a cópia na Drive», «faz backup do repo» ou quando a cópia falhar. A fonte de verdade é sempre o repositório.
+model: sonnet
 ---
 
 # copia-drive-cotn: a cópia de leitura na Drive
