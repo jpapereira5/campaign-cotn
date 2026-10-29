@@ -1,9 +1,9 @@
 ---
-name: preparar
+name: preparar-cotn
 description: Preparar a próxima sessão, em duas partes. A leitura da Grelha (o que está aberto, esquecido, planeado e por preparar; ideias e avisos em grelha/revisao.json, nas células certas) e, quando o DM a pede, o documento de preparação para a mesa (Google Doc «Sessão NN — Preparação», na pasta `cotn_2026/session_prep`). Usar quando o DM diz «preparar», «prepara a sessão», «o que falta para quarta», ou pede a preparação, o runsheet ou o documento da próxima sessão.
 ---
 
-# /preparar: a Grelha e o documento da sessão
+# /preparar-cotn: a Grelha e o documento da sessão
 
 Duas partes. A **parte 1** (a leitura da Grelha) faz-se sempre que o DM diz «preparar». A **parte 2** (o documento para a mesa) faz-se quando ele pede a preparação, o runsheet ou o documento da sessão, e parte sempre da parte 1: o que a leitura deixou na Grelha é o que o documento usa.
 

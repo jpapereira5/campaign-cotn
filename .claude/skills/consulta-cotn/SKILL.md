@@ -1,9 +1,9 @@
 ---
-name: consulta
+name: consulta-cotn
 description: Responder a meio de uma sessão de CotN (ou fora dela) sobre qualquer coisa já definida na campanha — um local, NPC, objeto, segredo, check, regra da casa ou o que a mesa já sabe — juntando todas as fontes e não só a preparação mais recente. Usar quando o DM pergunta por algo durante o jogo («obelisco», «ficha do Alberto», «arcana check», «o que se sente na pedra»), quando um chat «serve para correr a sessão», e sempre que a resposta depende de algo definido antes.
 ---
 
-# consulta: responder à mesa com tudo o que já foi definido
+# consulta-cotn: responder à mesa com tudo o que já foi definido
 
 Existe porque, na S7 (2026-10-21), a pergunta sobre o obelisco foi respondida só com a preparação mais recente e perdeu-se o que estava nas anteriores (decisões 2026-10-21 #83 a #85). A regra: **nunca responder a partir de uma só fonte.** A meio do jogo, a resposta tem de ser rápida, mas completa.
 

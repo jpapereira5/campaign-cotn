@@ -45,7 +45,7 @@ O chat não guarda nada: no fim de cada conversa, tudo o que vale a pena tem de 
 
 ## O fecho
 
-Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho» (skill `/fecho`), o Claude:
+Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho» (skill `/fecho-cotn`), o Claude:
 
 1. **Lê o que a mesa deixou.** A transcrição inteira (a fonte do registo) e a preparação (só para separar o jogado do planeado) na Drive, desde o último fecho; o resumo da Drive não é fonte, escreve-se depois a partir do registo; e, no repositório, a camada do DM em `grelha/dm.json`: os beats marcados «jogado à mesa» (`jogado`), as notas rápidas (`nota`), os planos da sessão que se jogou (`plano`, na coluna dessa sessão) e as correções e decisões ainda por absorver (`revisao.absorbed`).
 2. **Escreve a sessão** em `registo/sessoes/sNN-AAAA-MM-DD.md`: o cabeçalho (`n`, `global`, `data`, `titulo`, `capitulo`, `mesa`, `nivel`, `mundo`, `resumo`, `ondeParou`, `beats`), o resumo no corpo e os **acontecimentos com efeitos** (`docs/arquitetura.md`, secção 5), cada um com `fonte: transcrição S<n> (#<global>) <marca de tempo>`: cada plano jogado vira acontecimento com `origem`, cada plano que caiu fica apagado (`deleted`) em `dm.json`.
@@ -55,7 +55,7 @@ Faz-se depois de cada sessão ou bloco de preparação. Com o pedido «fecho» (
 6. **Valida e grava:** `npm run gravar -- "<mensagem>"` (normaliza, valida, testa, commit, `pull --rebase` e push para `main`; o deploy leva um ou dois minutos).
 7. **Atualiza na Drive** o resumo da sessão (escrito a partir do registo, pasta `cotn_2026/resumo_de_sessoes`),  o documento consolidado de cada PC (na pasta de cada PC, dentro de `cotn_2026/pcs`; ids no `AGENTS.md`; refeito a partir das fichas e dos registos em cada fecho) e as saídas que o cânone novo tornou desatualizadas (versão nova, a antiga vai para o lixo), e a data do último fecho, abaixo. Por fim, o registo da mesa: o «Índice de sessões» e os «Jogadores» na pasta `tabletop` (skill `registo-mesa`). O mesmo vale fora do fecho: qualquer mudança ao cânone (revisão de uma sessão, correção, decisão) atualiza tudo o que depende dela na mesma conversa, sem pedir licença (`AGENTS.md`, «Tudo atualizado, sem pedir licença»; decisão 2026-10-22 #11).
 
-Antes da sessão seguinte, o `/preparar` lê a Grelha para a próxima sessão e deixa ideias e avisos nas células (`grelha/revisao.json`); durante a edição, o `/vigia` revê cada gravação do DM em tempo real. As regras estão em `.claude/skills/`.
+Antes da sessão seguinte, o `/preparar-cotn` lê a Grelha para a próxima sessão e deixa ideias e avisos nas células (`grelha/revisao.json`); durante a edição, o `/vigia-cotn` revê cada gravação do DM em tempo real. As regras estão em `.claude/skills/`.
 
 ## Pastas da Drive que o fecho lê
 

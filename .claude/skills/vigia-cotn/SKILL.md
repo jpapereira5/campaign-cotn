@@ -1,9 +1,9 @@
 ---
-name: vigia
+name: vigia-cotn
 description: Revisão em tempo real da Grelha. Liga a escuta ao repositório e, sempre que o DM guarda uma edição na app (grelha/dm.json), revê-a na conversa, pergunta o que falta e escreve as notas em grelha/revisao.json. Usar quando o DM diz «vigia», «fica à escuta» ou está a editar a Grelha.
 ---
 
-# /vigia: revisão em tempo real da Grelha
+# /vigia-cotn: revisão em tempo real da Grelha
 
 O DM edita a Grelha na app; cada «Guardar» faz um commit só de `grelha/dm.json`. Esta skill fica à escuta e revê cada
 edição na conversa, com perguntas curtas e respostas sugeridas, e deixa as mesmas perguntas em `grelha/revisao.json`

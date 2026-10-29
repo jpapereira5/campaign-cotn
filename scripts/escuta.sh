@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Escuta da Grelha (docs/grelha.md, secção 12; skill /vigia): avisa quando a app guarda, isto é, quando há commits
+# Escuta da Grelha (docs/grelha.md, secção 12; skill /vigia-cotn): avisa quando a app guarda, isto é, quando há commits
 # novos em origin/main. Espera que o DM pare de guardar (o ramo fica igual entre duas verificações) e junta tudo num aviso.
 # Uso: a partir da raiz do repositório, num Monitor: bash scripts/escuta.sh
 cd "$(dirname "$0")/.." || exit 1

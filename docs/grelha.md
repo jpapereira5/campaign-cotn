@@ -375,11 +375,11 @@ Na app:
 
 ## 12. O Claude: vigia, preparar e fecho
 
-Há três skills no repositório só para a Grelha (`vigia`, `preparar` e `fecho`, em `.claude/skills/`). Carregam numa conversa do Claude com o repositório, que é a forma que o DM prefere. Os passos completos estão nas skills; esta secção dá as regras.
+Há três skills no repositório só para a Grelha (`vigia-cotn`, `preparar-cotn` e `fecho-cotn`, em `.claude/skills/`). Carregam numa conversa do Claude com o repositório, que é a forma que o DM prefere. Os passos completos estão nas skills; esta secção dá as regras.
 
-### `/vigia`: revisão em tempo real
+### `/vigia-cotn`: revisão em tempo real
 
-Ficheiros: `.claude/skills/vigia/SKILL.md` e `scripts/escuta.sh` (anexo B).
+Ficheiros: `.claude/skills/vigia-cotn/SKILL.md` e `scripts/escuta.sh` (anexo B).
 
 1. **Acesso.** A skill precisa de acesso de escrita ao repositório. Numa conversa do Claude, esse acesso pede-se no início.
 2. **Escuta.** O Claude liga um Monitor com `bash scripts/escuta.sh`.
@@ -417,9 +417,9 @@ Regras da revisão, por tipo de entrada:
 
 Em todos os casos, o Claude nunca escreve em `dm.json` e nunca transforma uma ideia em cânone. Escreve em português de Portugal, com perguntas curtas.
 
-### `/preparar`: na véspera da sessão
+### `/preparar-cotn`: na véspera da sessão
 
-Ficheiro: `.claude/skills/preparar/SKILL.md`. Corre a pedido do DM ou numa tarefa agendada e percorre a Grelha inteira.
+Ficheiro: `.claude/skills/preparar-cotn/SKILL.md`. Corre a pedido do DM ou numa tarefa agendada e percorre a Grelha inteira.
 
 - Lista:
   - os esquecidos;
@@ -433,7 +433,7 @@ Ficheiro: `.claude/skills/preparar/SKILL.md`. Corre a pedido do DM ou numa taref
 
 ### Fecho
 
-Ficheiro: `.claude/skills/fecho/SKILL.md` (os passos em `docs/fluxo.md`). Na parte da Grelha:
+Ficheiro: `.claude/skills/fecho-cotn/SKILL.md` (os passos em `docs/fluxo.md`). Na parte da Grelha:
 
 1. escreve os acontecimentos da sessão no registo (`registo/sessoes/`), com `tipo`, `envolve` e `origem`, e pergunta quando a dona é ambígua;
 2. para cada plano da sessão jogada:
@@ -528,7 +528,7 @@ Cada fase acaba com `npm run validate`, `npm test` e `npm run check` limpos, e c
   - as notas na célula, com «Aceitar sugestão» e a resposta;
   - as ideias tracejadas, com «Aceitar» e «Rejeitar»;
   - a contagem «Por responder» e a atualização de 30 em 30 segundos;
-  - a skill `/vigia` e `scripts/escuta.sh`.
+  - a skill `/vigia-cotn` e `scripts/escuta.sh`.
 - **Aceitação:**
   - numa conversa do Claude com «vigia», guardar uma célula faz aparecer, em cerca de um minuto, as perguntas na conversa e «?» na célula;
   - responder fecha a nota;
@@ -536,7 +536,7 @@ Cada fase acaba com `npm run validate`, `npm test` e `npm run check` limpos, e c
 
 ### Fase 4: preparar e fechar
 
-- **O que se faz:** a skill `/preparar` e os passos novos do fecho em `docs/fluxo.md`.
+- **O que se faz:** a skill `/preparar-cotn` e os passos novos do fecho em `docs/fluxo.md`.
 - **Aceitação:** depois do fecho da S6, os planos jogados viram factos com `origin` e os que não se jogaram aparecem com os três botões.
 
 ## 15. Escolhas por defeito (o DM pode mudar)
@@ -595,7 +595,7 @@ Cada fase acaba com `npm run validate`, `npm test` e `npm run check` limpos, e c
 #!/usr/bin/env bash
 # Escuta da Grelha: avisa quando a app guarda (commits novos em origin/main).
 # Espera que o DM pare de guardar (o ramo fica igual entre duas verificações) e junta tudo num aviso.
-# Uso: Monitor com `bash scripts/escuta.sh` (skill /vigia).
+# Uso: Monitor com `bash scripts/escuta.sh` (skill /vigia-cotn).
 cd "$(dirname "$0")/.." || exit 1
 
 remote_sha() { timeout 20 git ls-remote origin refs/heads/main 2>/dev/null | cut -f1; }

@@ -1,4 +1,4 @@
-// A Grelha em texto, para o Claude preparar a sessão (skill /preparar) e rever (skill /vigia):
+// A Grelha em texto, para o Claude preparar a sessão (skill /preparar-cotn) e rever (skill /vigia-cotn):
 //   node scripts/grelha.ts            o que a próxima sessão tem: contagens, planos, falta preparar, esquecidos, abertos, ideias, notas
 //   node scripts/grelha.ts --linha ID uma linha, célula a célula
 //   node scripts/grelha.ts --json     o mesmo em JSON (o que a app mostra, sem o HTML)

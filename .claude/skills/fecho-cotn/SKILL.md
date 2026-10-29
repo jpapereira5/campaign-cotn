@@ -1,12 +1,12 @@
 ---
-name: fecho
+name: fecho-cotn
 description: O fecho de uma sessão ou de um bloco de preparação, segundo docs/fluxo.md. Lê a Drive e a camada do DM, escreve a sessão no registo com acontecimentos e efeitos, atualiza as entidades e as decisões, absorve a camada do DM, valida e grava. Usar quando o DM diz «fecho» ou «fecha a sessão».
 ---
 
-# /fecho: passar o que se jogou para o registo
+# /fecho-cotn: passar o que se jogou para o registo
 
 Os passos estão em `docs/fluxo.md` («O fecho»); o modelo dos acontecimentos e dos efeitos em `docs/arquitetura.md`
-(secções 4, 5 e 6); as regras de absorção da camada do DM na skill `vigia`. O que esta skill acrescenta é a ordem de
+(secções 4, 5 e 6); as regras de absorção da camada do DM na skill `vigia-cotn`. O que esta skill acrescenta é a ordem de
 trabalho e os cuidados.
 
 ## Ordem de trabalho
@@ -25,11 +25,11 @@ trabalho e os cuidados.
 8. **Confere antes de gravar:** relê cada acontecimento contra a marca de tempo que cita (quem fez, quem disse, números, ordem). O que a transcrição não sustenta sai ou passa a pergunta.
 9. Grava por partes com `npm run gravar -- "<mensagem>"` (`registo: sessão N`, `mundo: …`, `grelha: absorver N entradas`); o script normaliza, valida, testa, faz commit, `pull --rebase` e push. Atualiza a data do último fecho em `docs/fluxo.md`.
 10. **Resumo na Drive:** escreve-o a partir do registo já validado (nunca ao contrário), na pasta `cotn_2026/resumo_de_sessoes` (`1qSNp-FrEsp0k0J2ijMLUJ0XLlAqy5mn-`), como Google Doc criado a partir de Markdown.
-11. **Documentos dos PCs na Drive:** em cada fecho, refaz pela skill `ficha-pc` (fontes, estrutura e publicação estão lá) o documento consolidado de cada PC afetado: com acontecimentos na sessão, ou com uma decisão, um NPC, um segredo ou um fio do arco dele que mudou; quando a mesa muda de capítulo, refaz os de todos os PCs (decisão 2026-10-29 #2). Um por PC, na pasta do PC, versão seguinte, a anterior para o lixo. Fora do fecho, uma correção pequena faz-se no próprio documento (decisão 2026-10-24 #5).
-12. **Cópia do repositório na Drive:** não se faz no fecho; a cópia de leitura em `cotn_2026/github_repo` atualiza-se sozinha no GitHub Actions depois do push (skill `copia-drive`; decisão 2026-10-29 #1). Os passos anteriores fazem-se sem pedir licença e valem também fora do fecho, em qualquer revisão ou correção (decisão 2026-10-22 #11).
+11. **Documentos dos PCs na Drive:** em cada fecho, refaz pela skill `ficha-pc-cotn` (fontes, estrutura e publicação estão lá) o documento consolidado de cada PC afetado: com acontecimentos na sessão, ou com uma decisão, um NPC, um segredo ou um fio do arco dele que mudou; quando a mesa muda de capítulo, refaz os de todos os PCs (decisão 2026-10-29 #2). Um por PC, na pasta do PC, versão seguinte, a anterior para o lixo. Fora do fecho, uma correção pequena faz-se no próprio documento (decisão 2026-10-24 #5).
+12. **Cópia do repositório na Drive:** não se faz no fecho; a cópia de leitura em `cotn_2026/github_repo` atualiza-se sozinha no GitHub Actions depois do push (skill `copia-drive-cotn`; decisão 2026-10-29 #1). Os passos anteriores fazem-se sem pedir licença e valem também fora do fecho, em qualquer revisão ou correção (decisão 2026-10-22 #11).
 13. **As folhas de arco** (`plano/fios/a-pc-*`, skill `arcos`; decisão 2026-10-25 #1): as Sementes recebem os momentos novos (com marca de tempo), as Crenças revêem-se contra o que cada jogador jogou, e o Estado e os estados dos golpes atualizam-se.
 14. **Registo da mesa:** atualiza o «Índice de sessões» e os «Jogadores» (Google Docs na pasta `tabletop` da Drive) com a sessão fechada, pela skill `registo-mesa`: o número global, a data, o título, a mesa e uma nota do que aconteceu, tudo tirado do registo.
-15. **As vozes dos NPCs:** as falas que o DM disse como NPC (e como a nixie) passam da transcrição para o cartão de mesa de cada um, e a «Voz» afina-se com o que se ouviu, pela skill `voz` (secção «Aprender com a mesa»; decisão 2026-10-28 #16).
+15. **As vozes dos NPCs:** as falas que o DM disse como NPC (e como a nixie) passam da transcrição para o cartão de mesa de cada um, e a «Voz» afina-se com o que se ouviu, pela skill `voz-cotn` (secção «Aprender com a mesa»; decisão 2026-10-28 #16).
 16. Na conversa: o resumo em cinco linhas, o que entrou (sessão, entidades, decisões), o que ficou por decidir, se o deploy já está no ar, e o que mudou no registo da mesa.
 
 ## A transcrição

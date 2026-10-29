@@ -1,6 +1,6 @@
 # Arquitetura do repositório
 
-Decidido pelo DM a 2026-10-11, a partir da proposta e da revisão do mesmo dia. Substitui a base de dados de `docs/grelha.md` (as secções dessa especificação sobre a linha dona, os ecos, os estados, a camada do DM, a revisão, `/vigia` e `/preparar` continuam válidas) e substitui `docs/ids.md` quando a migração (fase A) terminar.
+Decidido pelo DM a 2026-10-11, a partir da proposta e da revisão do mesmo dia. Substitui a base de dados de `docs/grelha.md` (as secções dessa especificação sobre a linha dona, os ecos, os estados, a camada do DM, a revisão, `/vigia-cotn` e `/preparar-cotn` continuam válidas) e substitui `docs/ids.md` quando a migração (fase A) terminar.
 
 ## 1. Porquê mudar
 
@@ -194,7 +194,7 @@ Os beats tocados na sessão ficam no cabeçalho (`beats`), com um de três estad
 
 ## 7. A Grelha sobre esta base
 
-O modelo da Grelha (`docs/grelha.md`) mantém-se: linha dona, ecos, estados, camada do DM, revisão, `/vigia` e `/preparar`. Muda a base:
+O modelo da Grelha (`docs/grelha.md`) mantém-se: linha dona, ecos, estados, camada do DM, revisão, `/vigia-cotn` e `/preparar-cotn`. Muda a base:
 
 - **Linhas:** são as ids listadas em `grelha/linhas.json`, de qualquer pasta. Não são cópias.
   - O tipo da linha vem da entidade. `personagens` dá PC, NPC ou Rival; `facoes`, Fação; `locais`, Local; `itens`, Item; `segredos`, Revelação. Os `fios` dão o seu tipo (Ambição, Agenda, Laço, Missão, Decisão, Promessa, Relógio, Gatilho, Semente, Desfecho, Teoria, Mesa) e `jogadores` dá Jogador.
@@ -292,8 +292,8 @@ Cada fase deixa a app a funcionar e acaba com `npm run validate`, `npm test` e `
 | A. Migração | `migrar.ts`, `verificar-migracao.ts`, `montar.ts` com o adaptador; os acontecimentos das sessões 0 a 5, revistos pelo DM | a app de hoje, igual, a ler da estrutura nova |
 | B. Estado e Ficha | `estado.ts` e a vista Ficha | fichas com história, estado atual e plano |
 | C. Grelha (ler) | linhas por id, acontecimentos, plano do cânone nas colunas futuras, modo Plano | a Grelha com as cinco sessões |
-| D. Escrever e rever | camada do DM, revisão, `/vigia` | edita uma célula e recebe perguntas |
-| E. Preparar e arrumar | `/preparar`, fluxo do fecho novo; saem as vistas antigas, o adaptador e os ficheiros antigos | a app final |
+| D. Escrever e rever | camada do DM, revisão, `/vigia-cotn` | edita uma célula e recebe perguntas |
+| E. Preparar e arrumar | `/preparar-cotn`, fluxo do fecho novo; saem as vistas antigas, o adaptador e os ficheiros antigos | a app final |
 
 ## 12. Decisões
 
@@ -325,5 +325,5 @@ A app segue o desenho do mockup da Grelha feito no claude.ai («Grelha CotN · m
 - **Cabeçalhos por tipo na Grelha:** dentro de cada grupo há uma sub-faixa por tipo (PC, NPC, Rival, Fação; Laço; Local, Item; …), com contagem; faixas e sub-faixas abrem e fecham com um clique, um grupo fechado mostra o resumo dos tipos, e o que está recolhido fica no browser («Mostrar todos os grupos» reabre).
 - **As ambições e as agendas vivem na linha do PC ou do NPC** (secção 7): deixaram de ser linhas do grupo «Arcos pessoais», que ficou só com os laços. A Grelha passou de 112 para 100 linhas sem perder nada: os itens estão nas células dos PCs com a etiqueta do fio.
 - **Acesso sem colar o token em cada browser** (`src/lib/acesso.ts`): nas Definições, com o token ligado, define-se uma palavra-passe da mesa; a app cifra o token (PBKDF2-SHA256, 600 000 iterações, AES-GCM, WebCrypto) e grava `grelha/acesso.json`. Num browser novo, a Grelha e as Definições mostram «Palavra-passe da mesa → Desbloquear»; é um formulário de login a sério, por isso o gestor de palavras-passe do browser guarda-a e sincroniza-a entre dispositivos. O repositório é público, por isso a segurança está na palavra-passe (a app exige 20 caracteres e quatro palavras) e no token só dar acesso a este repositório. Alternativa sem palavra-passe: «Copiar link de ligação» (`…#ligar=<token>`, no fragmento, que não vai para o servidor; a app guarda-o e limpa o endereço).
-- **Candidatos à próxima sessão** (`src/lib/grelha/candidatos.ts`): as linhas que, vindas de trás, valem a pena pensar para a sessão a preparar. Pesa só o que já existe: esquecidos (4 cada), abertos (2 cada), última oportunidade (3), ter estado na última sessão (2 como dona, 1 como eco), o estado ter mudado nela (2), o beat em curso na última sessão (3; um que ficou em curso há mais tempo, 1), beats do capítulo por jogar (1), PC sem cena (2), relógio a correr (2), pista planeada no capítulo (1), notas por responder (1). Quem morreu fica de fora. A partir de 4 pontos é candidato, a partir de 7 é forte. Na Grelha, o botão «Candidatos à S…» filtra-os, ordena-os por pontos e põe na célula da próxima sessão uma caixa «Pensar aqui» com as razões (ou «Já tem plano»). `npm run grelha` tem a mesma lista, que o `/preparar` lê primeiro.
+- **Candidatos à próxima sessão** (`src/lib/grelha/candidatos.ts`): as linhas que, vindas de trás, valem a pena pensar para a sessão a preparar. Pesa só o que já existe: esquecidos (4 cada), abertos (2 cada), última oportunidade (3), ter estado na última sessão (2 como dona, 1 como eco), o estado ter mudado nela (2), o beat em curso na última sessão (3; um que ficou em curso há mais tempo, 1), beats do capítulo por jogar (1), PC sem cena (2), relógio a correr (2), pista planeada no capítulo (1), notas por responder (1). Quem morreu fica de fora. A partir de 4 pontos é candidato, a partir de 7 é forte. Na Grelha, o botão «Candidatos à S…» filtra-os, ordena-os por pontos e põe na célula da próxima sessão uma caixa «Pensar aqui» com as razões (ou «Já tem plano»). `npm run grelha` tem a mesma lista, que o `/preparar-cotn` lê primeiro.
 - **Etapas entre capítulos** (`plano/campanha.md` → `etapas`, com `id`, `nome`, `sub` e `entre: [capítulo, capítulo]`): cada etapa ganha uma coluna futura própria na Grelha, logo a seguir à do primeiro capítulo. A primeira é `viagem-urzin-jigau` («Viagem · Urzin → Jigau», entre o prólogo e o capítulo 1). Um beat com `etapa: <id>` aparece nessa coluna em vez da do capítulo. A validação confere as ids e os capítulos.

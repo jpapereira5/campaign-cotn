@@ -1,9 +1,9 @@
 ---
-name: voz
+name: voz-cotn
 description: Falas e reações de personagens da CotN para o DM dizer à mesa (NPCs, rivais, o familiar do Bob Lin), no tom do cartão de mesa e sem revelar segredos; e aprender com as falas que o DM disse à mesa para as personagens ficarem coerentes. Usar quando o DM pede «voz: <personagem>, <situação>», «o que diria X», «como reage a nixie a…», falas de NPCs ou reações a algo que aconteceu, durante a sessão ou na preparação, e no fecho.
 ---
 
-# voz: falas de personagem para a mesa
+# voz-cotn: falas de personagem para a mesa
 
 Existe para o DM ter, numa linha, o que uma personagem diz ou faz, sempre igual a si mesma de sessão para sessão (decisão 2026-10-28 #16). O que a torna coerente é o **cartão de mesa** de cada personagem e as **falas que o DM já disse à mesa**, que esta skill vai juntando.
 
@@ -55,7 +55,7 @@ Uma linha de sentidos, se ajudar. Uma linha «Atenção», se houver.
 
 O DM quer que as personagens fiquem cada vez mais iguais a si mesmas (decisão 2026-10-28 #16). Por isso, **as falas que o DM disse à mesa como NPC entram na ficha do NPC**, e a voz afina-se com elas.
 
-- **Quando:** no fecho de cada sessão (skill `fecho`, passo «As vozes dos NPCs»), e sempre que o DM conta o que disse ou pede para rever uma sessão.
+- **Quando:** no fecho de cada sessão (skill `fecho-cotn`, passo «As vozes dos NPCs»), e sempre que o DM conta o que disse ou pede para rever uma sessão.
 - **De onde:** da transcrição da sessão (`session_records/<global>_cotn_<nn>/transcript_whisperx.txt`), nunca do resumo. Só as falas que o DM disse **em personagem**: o NPC a falar, não a narração nem as regras.
 - **Para onde:** no cartão de mesa do NPC, a lista `- **Falas ditas à mesa:**`, com a sessão e a marca de tempo («…» (S8, 01:23:45)). Escolhe as falas que mostram a voz (as frases que só aquela personagem diria), não todas. Se a ficha ainda não tem cartão, cria a lista na `## Ficha de mesa` e avisa o DM.
 - **Afinar a voz:** quando as falas ditas mostram um padrão que o cartão não tem (um tique, uma palavra repetida, um tratamento, um tom), acrescenta-o à «Voz» com a marca «(observado à mesa, Sn)». Quando contrariam o cartão, o que se disse à mesa ganha: muda a «Voz» e mostra ao DM a mudança, com o antes e o depois. Uma fala de que o DM se desdiz não conta.
