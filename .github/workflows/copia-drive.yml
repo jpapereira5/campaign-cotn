@@ -1,0 +1,60 @@
+name: Cópia na Drive
+
+# Cópias de leitura na Drive do DM, sem passar pelo Claude (substitui a tarefa agendada de 2026-10-20).
+# 1. Este repositório → DND/cotn_2026/github_repo (scripts/copia-drive.py gerar).
+# 2. Skills do jpapereira5/dnd-skills → DND/skills (scripts/sincronizar.py gerar, só a subpasta drive/).
+# O rclone envia só o que mudou (compara md5) e manda para o lixo da Drive o que deixou de existir.
+# Precisa do segredo RCLONE_CONF: a configuração do rclone com um remote "drive" ligado à conta do DM.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'grelha/dm.json'
+  schedule:
+    - cron: '47 5 * * *'   # todos os dias, para apanhar mudanças no dnd-skills
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: copia-drive
+  cancel-in-progress: false
+
+jobs:
+  copia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: campaign-cotn
+      - uses: actions/checkout@v4
+        with:
+          repository: jpapereira5/dnd-skills
+          path: dnd-skills
+
+      - name: Gerar as cópias
+        run: |
+          python3 campaign-cotn/scripts/copia-drive.py gerar "$RUNNER_TEMP/cotn"
+          cd dnd-skills
+          python3 scripts/sincronizar.py gerar "$RUNNER_TEMP/skills" ../campaign-cotn
+          cp "$RUNNER_TEMP/skills/manifesto.json" "$RUNNER_TEMP/skills/drive/"
+
+      - name: Instalar o rclone
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Enviar para a Drive
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          comum="--checksum --drive-use-trash --stats-one-line -v"
+          rclone sync "$RUNNER_TEMP/cotn" drive: --drive-root-folder-id 1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R $comum
+          rclone sync "$RUNNER_TEMP/skills/drive" drive: --drive-root-folder-id 1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H $comum
+
+      - name: Conferir
+        run: |
+          rclone check "$RUNNER_TEMP/cotn" drive: --drive-root-folder-id 1z1HPx3iNHSlvnyDiJfEelVZcKxfQGr0R --one-way
+          rclone check "$RUNNER_TEMP/skills/drive" drive: --drive-root-folder-id 1gM_AotFxw0zPAjFV14XwDVRAZcRe7A6H --one-way
