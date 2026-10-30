@@ -2,7 +2,7 @@
 id: i-lupa-do-comandante
 nome: Lupa do comandante
 tipoItem: maravilhoso
-legenda: lupa mágica do comandante; Eyes of Minute Seeing em lupa (DMG 2014) que mostra tinta invisível e escrita arcana, com o Quasi
+legenda: lupa mágica do comandante que mostra tinta invisível e escrita arcana, com o Quasi
 origem:
   - livro
   - mesa
@@ -14,7 +14,7 @@ Do livro (EGtW, «Unwelcome Spirits», V3, Tesouro): na gaveta da mesa de cabece
 
 A mesa (sessão 8, #91, 2026-10-28): na gaveta da mesa de cabeceira, ao lado de um livro ou caderno, uma lupa que brilha ao *Detect Magic* da varinha do Quasi. É mágica; o DM disse que dá a ficha depois («não te esqueças desta lupa»). Fica com o Quasi (2:13:51).
 
-A ficha (Decidido pelo DM (2026-10-30)): a lupa é mágica, como se disse à mesa, com o efeito dos *Eyes of Minute Seeing* (DMG 2014) numa lupa de mão. A *potion of mind reading* continua no baú, como no livro.
+A ficha (Decidido pelo DM (2026-10-30)): a lupa é mágica, como se disse à mesa: uma lupa comum que mostra tinta invisível e escrita arcana. A *potion of mind reading* continua no baú, como no livro.
 
 ## Ficha de mesa
 
@@ -24,12 +24,11 @@ A ficha (Decidido pelo DM (2026-10-30)): a lupa é mágica, como se disse à mes
 
 Uma lente de cristal num aro de latão gasto, com o cabo de madeira escura polido pela mão de quem a usou anos a fio.
 
-- **Ver o pormenor.** Enquanto seguras a lupa e olhas por ela, vês muito melhor do que o normal até 30 cm (1 pé). Tens vantagem nos testes de Inteligência (Investigação) que dependam da vista, a vasculhar uma área ou a estudar um objeto dentro desse alcance.
 - **Ver o escrito escondido.** Pela lupa, até 30 cm, vês tinta invisível e escrita ou marcas escondidas por magia como se estivessem à vista: a mensagem verdadeira de um *Illusory Script*, o glifo quase invisível de um *Glyph of Warding*, uma marca arcana. Não traduz uma língua que não conheces nem desarma o que vês. (Decidido pelo DM (2026-10-30))
 - **Lupa.** Funciona também como uma lupa comum (PHB): vantagem em qualquer teste para avaliar ou examinar um objeto pequeno ou muito detalhado; com sol forte, material inflamável e 5 minutos, acende uma fogueira.
 - Ocupa uma mão. Peso: desprezável.
 
-Base: *Eyes of Minute Seeing* (DMG 2014, p. 168), lentes que se põem sobre os olhos; aqui na forma da lupa do livro (EGtW, V3).
+Base: a lupa do livro (EGtW, V3) e do PHB, com a magia de ver o escrito escondido (homebrew da mesa).
 
 ### Sentidos (proposta, por aprovar)
 
