@@ -8,21 +8,24 @@
 titulo: Sessão 09 — Fichas de itens
 itens:
   # --- O Forte Ventura (por encontrar) ---
-  - nome: Poção de Leitura da Mente
+  - id: pocao-leitura-mente-forte
+    nome: Poção de Leitura da Mente
     original: Potion of Mind Reading
     tipo: Poção, rara
     aspeto: Um líquido roxo e espesso, com uma nuvem cor-de-rosa ovalada a flutuar lá dentro.
     propriedades:
       - Quando a bebes, ficas sob o efeito do feitiço *detetar pensamentos* (*detect thoughts*), com CD de resistência 13 (save DC).
     rodape: Forte Ventura · o baú da tenda do comandante
-  - nome: Cimitarra +1
+  - id: cimitarra-frith
+    nome: Cimitarra +1
     original: +1 Scimitar
     tipo: Arma (cimitarra), incomum
     aspeto: Uma cimitarra de lâmina negra, sem um risco, que não reflete a luz do fogo.
     propriedades:
       - Tens +1 nas jogadas de ataque e de dano feitas com esta arma mágica.
     rodape: Forte Ventura · as jaulas
-  - nome: Casaco do Caçador
+  - id: casaco-cacador-frith
+    nome: Casaco do Caçador
     original: Hunter's Coat
     tipo: Armadura (couro), muito rara, requer sintonização (attunement)
     aspeto: Um casaco de caçador de couro castanho, comprido, manchado de sangue velho.
@@ -31,7 +34,8 @@ itens:
       - titulo: Cargas
         texto: O casaco tem 3 cargas. Quando acertas numa criatura com um ataque e ela não tem todos os pontos de vida, podes gastar 1 carga para lhe causar mais 1d10 de dano necrótico (necrotic). Recupera 1d3 cargas gastas todos os dias ao amanhecer.
     rodape: Forte Ventura · o prisioneiro da jaula
-  - nome: Prótese de Mão
+  - id: protese-perestrelo
+    nome: Prótese de Mão
     original: Prosthetic Limb
     tipo: Item maravilhoso, comum
     aspeto: Uma mão direita artificial, articulada, que encaixa no pulso.
@@ -39,7 +43,8 @@ itens:
       - Substitui uma mão perdida. Enquanto está posta, funciona como a mão que substitui. Pões ou tiras com uma ação, e não ta podem tirar contra a tua vontade. Solta-se se morreres.
     rodape: Forte Ventura · a capela
   # --- Com o grupo ---
-  - nome: Lupa das Entrelinhas
+  - id: i-lupa-do-comandante
+    nome: Lupa das Entrelinhas
     tipo: Item maravilhoso, incomum; não precisa de sintonização (attunement)
     aspeto: Uma lente de cristal num aro de latão gasto, com o cabo de madeira escura polido pelo uso.
     propriedades:
@@ -49,27 +54,31 @@ itens:
         texto: Vantagem (advantage) em qualquer teste para avaliar ou examinar um objeto pequeno ou muito detalhado. Com sol forte, material inflamável e 5 minutos, acende uma fogueira.
       - Ocupa uma mão.
     rodape: Forte Ventura · a tenda do comandante
-  - nome: Varinha de Deteção de Magia
+  - id: varinha-detecao-ossario
+    nome: Varinha de Deteção de Magia
     original: Wand of Magic Detection
     tipo: Varinha, incomum
     aspeto: Uma varinha de osso, de ponta enegrecida.
     propriedades:
       - A varinha tem 3 cargas. Com uma ação, gastas 1 carga para lançar *detetar magia* (*detect magic*); a esfera que se expande só a vê quem a usa. Recupera todas as cargas num descanso longo (long rest).
     rodape: O ossário do pântano
-  - nome: Garra de seis dedos
+  - id: i-garra-seis-dedos
+    nome: Garra de seis dedos
     tipo: Item maravilhoso
     aspeto: Uma garra de réptil de seis dedos, cortada pelo pulso, quase preta, mais fria do que o ar; cheira a enxofre.
     propriedades:
       - Uma vez por dia, podes lançar *comando* (*command*) com ela.
     rodape: O ossário do pântano
-  - nome: Adaga +1
+  - id: i-adaga-drow
+    nome: Adaga +1
     original: +1 Dagger
     tipo: Arma (adaga), incomum
     aspeto: Lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas como mandíbulas de inseto; cabo de couro escuro ressequido.
     propriedades:
       - Tens +1 nas jogadas de ataque e de dano feitas com esta arma mágica.
     rodape: O ossário do pântano · o altar
-  - nome: Luneta da Alvorada
+  - id: i-luneta-da-alvorada
+    nome: Luneta da Alvorada
     tipo: Item maravilhoso, incomum
     aspeto: Uma luneta de latão; a lente é de cristal de altar, e cheira levemente a cera e a sal.
     propriedades:
@@ -78,14 +87,16 @@ itens:
       - titulo: Vista longa
         texto: Vantagem (advantage) em testes de Perceção (Perception) baseados na vista, à distância, enquanto olhas por ela.
     rodape: O Farol Apagado
-  - nome: Poção de Cura ×2
+  - id: pocoes-cura-ossario
+    nome: Poção de Cura ×2
     original: Potion of Healing
     tipo: Poção, comum
     aspeto: Dois frascos de osso; o líquido vermelho cintila quando se agita.
     propriedades:
       - Quando a bebes, recuperas 2d4 + 2 pontos de vida (hit points).
     rodape: O ossário do pântano
-  - nome: Amuleto à Prova de Veneno
+  - id: i-periapto-do-damiao
+    nome: Amuleto à Prova de Veneno
     original: Periapt of Proof against Poison
     tipo: Item maravilhoso, raro
     aspeto: Uma corrente fina de prata com uma pedra negra de lapidação brilhante.

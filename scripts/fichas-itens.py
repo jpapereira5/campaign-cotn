@@ -4,10 +4,16 @@
 Uso:
   python3 scripts/fichas-itens.py <itens.yaml> <saida.pdf>
   python3 scripts/fichas-itens.py --modelo <saida.pdf>   # página de fichas em branco
+  python3 scripts/fichas-itens.py <sNN.yaml> <saida.pdf> --todos   # inclui os já impressos
+
+Itens já impressos numa folha de uma sessão anterior (mesa/fichas-itens/sMM.yaml, MM < NN)
+ficam de fora; a identidade é o campo `id` (a id do item em mundo/itens/, ou uma id curta) ou,
+sem ele, o nome. `reimprimir: true` força a reimpressão (o item mudou ou a ficha perdeu-se).
 
 Formato do YAML (uma lista; só `nome` é obrigatório):
 
-  - nome: Lupa das Entrelinhas
+  - id: i-lupa-do-comandante      (id do item em mundo/itens/, ou uma id curta)
+    nome: Lupa das Entrelinhas
     original: nome inglês, entre parênteses a seguir ao nome (opcional)
     tipo: Item maravilhoso, incomum (não precisa de sintonização)
     aspeto: Uma lente de cristal num aro de latão gasto...
@@ -21,6 +27,7 @@ Texto em pt-PT com o termo inglês entre parênteses (feitiços, perícias, cond
 nunca se parte; o que não cabe passa à coluna ou à página seguinte. As linhas
 tracejadas são as de corte.
 """
+import os
 import re
 import sys
 
@@ -202,15 +209,59 @@ def modelo(saida):
     c.save()
 
 
+def chave(item):
+    """A identidade de um item entre folhas: o campo `id` ou, sem ele, o nome normalizado."""
+    if item.get('id'):
+        return str(item['id']).strip().lower()
+    import unicodedata
+    n = unicodedata.normalize('NFKD', str(item['nome']).lower())
+    return ''.join(ch for ch in n if ch.isalnum())
+
+
+def ler(caminho):
+    with open(caminho, encoding='utf-8') as f:
+        dados = yaml.safe_load(f)
+    itens = dados['itens'] if isinstance(dados, dict) else dados
+    titulo = dados.get('titulo', 'Fichas de itens') if isinstance(dados, dict) else 'Fichas de itens'
+    return itens, titulo
+
+
+def impressos_antes(caminho):
+    """Os itens das folhas de sessões anteriores (sMM.yaml com MM menor), na mesma pasta:
+    já foram impressos e entregues, por isso não se repetem (decisão 2026-10-30 #12)."""
+    pasta = os.path.dirname(os.path.abspath(caminho))
+    m = re.match(r's(\d+)\.ya?ml$', os.path.basename(caminho))
+    if not m:
+        return {}
+    atual = int(m.group(1))
+    vistos = {}
+    for nome in sorted(os.listdir(pasta)):
+        mm = re.match(r's(\d+)\.ya?ml$', nome)
+        if mm and int(mm.group(1)) < atual:
+            itens, _ = ler(os.path.join(pasta, nome))
+            for it in itens or []:
+                vistos.setdefault(chave(it), f's{int(mm.group(1)):02d}')
+    return vistos
+
+
 if __name__ == '__main__':
     args = sys.argv[1:]
     if len(args) == 2 and args[0] == '--modelo':
         modelo(args[1])
-    elif len(args) == 2:
-        with open(args[0], encoding='utf-8') as f:
-            dados = yaml.safe_load(f)
-        itens = dados['itens'] if isinstance(dados, dict) else dados
-        titulo = dados.get('titulo', 'Fichas de itens') if isinstance(dados, dict) else 'Fichas de itens'
-        gerar(itens, args[1], titulo)
+    elif len(args) in (2, 3) and args[0] != '--modelo':
+        todos = '--todos' in args
+        args = [a for a in args if a != '--todos']
+        itens, titulo = ler(args[0])
+        vistos = {} if todos else impressos_antes(args[0])
+        novos = []
+        for it in itens:
+            if chave(it) in vistos and not it.get('reimprimir'):
+                print(f'já impresso ({vistos[chave(it)]}), fica de fora: {it["nome"]}', file=sys.stderr)
+            else:
+                novos.append(it)
+        if not novos:
+            sys.exit('Nenhum item novo para imprimir.')
+        gerar(novos, args[1], titulo)
+        print(f'{len(novos)} fichas em {args[1]}', file=sys.stderr)
     else:
         sys.exit(__doc__)

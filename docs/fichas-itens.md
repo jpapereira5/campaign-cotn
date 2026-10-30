@@ -13,6 +13,8 @@ Os itens mágicos entregam-se à mesa em fichas impressas, recortadas e dadas ao
 
 ## Como se faz
 
+Os passos completos estão na skill `fichas-itens-cotn`. **Uma ficha imprime-se uma vez** (decisão 2026-10-30 #12): cada item leva um `id` (a id em `mundo/itens/` ou uma id curta e estável), e o script deixa de fora o que já saiu numa folha de uma sessão anterior (`sMM.yaml`, MM menor); `reimprimir: true` força, `--todos` imprime tudo.
+
 1. Os itens de uma sessão vão para `mesa/fichas-itens/sNN.yaml` (formato no cabeçalho de `scripts/fichas-itens.py`). O texto mecânico copia-se do livro (skill `livro`) ou da ficha do item em `mundo/itens/`, e as fichas da casa (como a Lupa das Entrelinhas) seguem o que o DM decidiu.
 2. `python3 scripts/fichas-itens.py mesa/fichas-itens/sNN.yaml sessao_NN_fichas_itens.pdf` gera o PDF.
 3. O PDF vai para `cotn_2026/session_prep` na Drive (`sessao_NN_fichas_itens.pdf`, versões `_v2`…).
