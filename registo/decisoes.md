@@ -669,3 +669,4 @@ Ficam de fora: o sopro de repulsão em pequeno; o sopro de relâmpago.
 ## Decidido pelo DM (2026-10-30)
 
 1. **A lupa do comandante é mágica, como se disse à mesa, com o efeito dos *Eyes of Minute Seeing* (DMG 2014) numa lupa de mão** (`i-lupa-do-comandante`): incomum, sem sintonização; vantagem em Investigação com a vista até 30 cm, e as propriedades de uma lupa comum. A *potion of mind reading* continua no baú, como no livro. Ficam de fora: os *Goggles of Object Reading* (EGtW); a lupa comum; a poção na gaveta.
+2. **A lupa do comandante também mostra tinta invisível e escrita arcana:** pela lupa, até 30 cm, vê-se tinta invisível e escrita ou marcas escondidas por magia (a mensagem verdadeira de um *Illusory Script*, o glifo de um *Glyph of Warding*, uma marca arcana) como se estivessem à vista; não traduz línguas nem desarma. Continua incomum e sem sintonização. Acrescenta à decisão 2026-10-30 #1.
