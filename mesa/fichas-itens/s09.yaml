@@ -1,6 +1,6 @@
 # Fichas de itens mágicos da sessão 9 (para imprimir e recortar).
 # Gerar: python3 scripts/fichas-itens.py mesa/fichas-itens/s09.yaml <saida.pdf>
-# Texto em pt-PT com o nome inglês entre parênteses (decisão 2026-10-30 #6).
+# Texto em pt-PT com o nome inglês entre parênteses (decisão 2026-10-30 #6). Item que já existe num livro: o nome é a tradução do nome oficial; o que este tem de próprio vai no aspeto (decisão 2026-10-30 #8).
 # Só o que a personagem sabe quando recebe o item: nada de segredos (só DM) nem de origens por revelar.
 # Fora, por agora: o pendente da Lia (efeito por revelar), a moeda do Bob Lin (vaso do génio, vai na ficha do jogador),
 # a Pedra da Sorte (o Xundi ainda não a deu), os cristais do Tibério (rubídio: regra da casa) e as lascas do menir (não são mágicas à vista).
@@ -14,7 +14,7 @@ itens:
     propriedades:
       - Quando a bebes, ficas sob o efeito do feitiço *detetar pensamentos* (*detect thoughts*), com CD de resistência 13 (save DC).
     rodape: Forte Ventura · o baú da tenda do comandante
-  - nome: Cimitarra de lâmina negra
+  - nome: Cimitarra +1
     original: +1 Scimitar
     tipo: Arma (cimitarra), incomum
     aspeto: Uma cimitarra de lâmina negra, sem um risco, que não reflete a luz do fogo.
@@ -30,7 +30,7 @@ itens:
       - titulo: Cargas
         texto: O casaco tem 3 cargas. Quando acertas numa criatura com um ataque e ela não tem todos os pontos de vida, podes gastar 1 carga para lhe causar mais 1d10 de dano necrótico (necrotic). Recupera 1d3 cargas gastas todos os dias ao amanhecer.
     rodape: Forte Ventura · o prisioneiro da jaula
-  - nome: Prótese (mão direita)
+  - nome: Membro Protético
     original: Prosthetic Limb
     tipo: Item maravilhoso, comum
     aspeto: Uma mão direita artificial, articulada, que se encaixa no pulso.
@@ -48,8 +48,9 @@ itens:
         texto: Vantagem (advantage) em qualquer teste para avaliar ou examinar um objeto pequeno ou muito detalhado. Com sol forte, material inflamável e 5 minutos, acende uma fogueira.
       - Ocupa uma mão.
     rodape: Com o Quasi · a tenda do comandante
-  - nome: Varinha de osso
-    tipo: Varinha
+  - nome: Varinha de Deteção de Magia
+    original: Wand of Magic Detection
+    tipo: Varinha, incomum
     aspeto: Uma varinha de osso, de ponta enegrecida.
     propriedades:
       - A varinha tem 3 cargas. Com uma ação, gastas 1 carga para lançar *detetar magia* (*detect magic*); a esfera que se expande só a vê quem a usa. Recupera todas as cargas num descanso longo (long rest).
@@ -60,7 +61,7 @@ itens:
     propriedades:
       - Uma vez por dia, podes lançar *comando* (*command*) com ela.
     rodape: Com o Quasi · o ossário
-  - nome: Adaga negra +1
+  - nome: Adaga +1
     original: +1 Dagger
     tipo: Arma (adaga), incomum
     aspeto: Lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas como mandíbulas de inseto; cabo de couro escuro ressequido.
