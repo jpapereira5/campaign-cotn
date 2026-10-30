@@ -1,8 +1,8 @@
 ---
 id: i-lupa-do-comandante
-nome: Lupa do comandante
+nome: Lupa das Entrelinhas
 tipoItem: maravilhoso
-legenda: lupa mágica do comandante que mostra tinta invisível e escrita arcana, com o Quasi
+legenda: a lupa do comandante do Forte Ventura, que mostra tinta invisível e escrita arcana, com o Quasi
 origem:
   - livro
   - mesa
@@ -14,13 +14,13 @@ Do livro (EGtW, «Unwelcome Spirits», V3, Tesouro): na gaveta da mesa de cabece
 
 A mesa (sessão 8, #91, 2026-10-28): na gaveta da mesa de cabeceira, ao lado de um livro ou caderno, uma lupa que brilha ao *Detect Magic* da varinha do Quasi. É mágica; o DM disse que dá a ficha depois («não te esqueças desta lupa»). Fica com o Quasi (2:13:51).
 
-A ficha (Decidido pelo DM (2026-10-30)): a lupa é mágica, como se disse à mesa: uma lupa comum que mostra tinta invisível e escrita arcana. A *potion of mind reading* continua no baú, como no livro.
+A ficha (Decidido pelo DM (2026-10-30)): chama-se Lupa das Entrelinhas; a lupa é mágica, como se disse à mesa: uma lupa comum que mostra tinta invisível e escrita arcana. A *potion of mind reading* continua no baú, como no livro.
 
 ## Ficha de mesa
 
 ### Ficha (regras de 2014)
 
-**Lupa do comandante.** *Item maravilhoso, incomum (não precisa de sintonização).*
+**Lupa das Entrelinhas.** *Item maravilhoso, incomum (não precisa de sintonização).*
 
 Uma lente de cristal num aro de latão gasto, com o cabo de madeira escura polido pela mão de quem a usou anos a fio.
 
