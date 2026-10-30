@@ -30,10 +30,10 @@ itens:
       - titulo: Cargas
         texto: O casaco tem 3 cargas. Quando acertas numa criatura com um ataque e ela não tem todos os pontos de vida, podes gastar 1 carga para lhe causar mais 1d10 de dano necrótico (necrotic). Recupera 1d3 cargas gastas todos os dias ao amanhecer.
     rodape: Forte Ventura · o prisioneiro da jaula
-  - nome: Membro Protético
+  - nome: Prótese de Mão
     original: Prosthetic Limb
     tipo: Item maravilhoso, comum
-    aspeto: Uma mão direita artificial, articulada, que se encaixa no pulso.
+    aspeto: Uma mão direita artificial, articulada, que encaixa no pulso.
     propriedades:
       - Substitui uma mão perdida. Enquanto está posta, funciona como a mão que substitui. Pões ou tiras com uma ação, e não ta podem tirar contra a tua vontade. Solta-se se morreres.
     rodape: Forte Ventura · a capela
