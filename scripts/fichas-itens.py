@@ -62,9 +62,27 @@ def marcar(texto):
     return texto.replace('\n', '<br/>')
 
 
+MINUSCULAS = {'a', 'à', 'ao', 'aos', 'as', 'às', 'com', 'contra', 'da', 'das', 'de', 'do', 'dos', 'e',
+              'em', 'na', 'nas', 'no', 'nos', 'o', 'os', 'para', 'pela', 'pelo', 'por', 'sem', 'sob', 'sobre'}
+
+
+def capitalizar(nome):
+    """Maiúscula no início de cada palavra, preposições, artigos e conjunções em minúsculas
+    (menos a primeira palavra): «Cimitarra de Lâmina Negra», «Periapto contra Veneno»."""
+    def palavra(i, p):
+        m = re.match(r'^([(«"]*)(.*)$', p)
+        pre, resto = m.group(1), m.group(2)
+        if not resto or not resto[0].isalpha():
+            return p
+        if i > 0 and resto.lower() in MINUSCULAS:
+            return pre + resto.lower()
+        return pre + resto[0].upper() + resto[1:]
+    return ' '.join(palavra(i, p) for i, p in enumerate(str(nome).split(' ')))
+
+
 def blocos(item):
     """A lista de (tipo, Paragraph) de uma ficha, por ordem."""
-    nome = marcar(item['nome'])
+    nome = marcar(capitalizar(item["nome"]))
     if item.get('original'):
         nome += f' <font name="{FONTE}" size="8.5">({marcar(item["original"])})</font>'
     out = [('nome', Paragraph(nome, E_NOME))]
