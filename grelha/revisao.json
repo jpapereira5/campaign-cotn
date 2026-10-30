@@ -6236,9 +6236,9 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "A lupa mágica da mesa de cabeceira do comandante ficou com o Quasi; o DM prometeu-lhe a ficha (S8, 2:13:54). O livro só diz «uma lupa». Que faz? No livro é uma lupa comum (decisão 2026-10-29 #10); a mesa viu-a brilhar.",
+      "text": "A lupa mágica da mesa de cabeceira do comandante ficou com o Quasi; o DM prometeu-lhe a ficha (S8, 2:13:54). O livro só diz «uma lupa». Que faz? No livro é uma lupa comum (decisão 2026-10-29 #10); a mesa viu-a brilhar. [substituída: Eyes of Minute Seeing em lupa, decisão 2026-10-30 #1]",
       "suggestion": "Propor uma ficha (incomum) a partir da lupa do livro, para o DM aprovar.",
-      "status": "aberta",
+      "status": "fechada",
       "because": [
         "registo/decisoes.md 2026-10-29 #10"
       ]

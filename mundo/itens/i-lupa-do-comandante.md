@@ -2,7 +2,7 @@
 id: i-lupa-do-comandante
 nome: Lupa do comandante
 tipoItem: maravilhoso
-legenda: lupa mágica da tenda do comandante do Forte Ventura
+legenda: lupa mágica do comandante; Eyes of Minute Seeing em lupa (DMG 2014), com o Quasi
 origem:
   - livro
   - mesa
@@ -14,6 +14,37 @@ Do livro (EGtW, «Unwelcome Spirits», V3, Tesouro): na gaveta da mesa de cabece
 
 A mesa (sessão 8, #91, 2026-10-28): na gaveta da mesa de cabeceira, ao lado de um livro ou caderno, uma lupa que brilha ao *Detect Magic* da varinha do Quasi. É mágica; o DM disse que dá a ficha depois («não te esqueças desta lupa»). Fica com o Quasi (2:13:51).
 
+A ficha (Decidido pelo DM (2026-10-30)): a lupa é mágica, como se disse à mesa, com o efeito dos *Eyes of Minute Seeing* (DMG 2014) numa lupa de mão. A *potion of mind reading* continua no baú, como no livro.
+
+## Ficha de mesa
+
+### Ficha (regras de 2014)
+
+**Lupa do comandante.** *Item maravilhoso, incomum (não precisa de sintonização).*
+
+Uma lente de cristal num aro de latão gasto, com o cabo de madeira escura polido pela mão de quem a usou anos a fio.
+
+- **Ver o pormenor.** Enquanto seguras a lupa e olhas por ela, vês muito melhor do que o normal até 30 cm (1 pé). Tens vantagem nos testes de Inteligência (Investigação) que dependam da vista, a vasculhar uma área ou a estudar um objeto dentro desse alcance.
+- **Lupa.** Funciona também como uma lupa comum (PHB): vantagem em qualquer teste para avaliar ou examinar um objeto pequeno ou muito detalhado; com sol forte, material inflamável e 5 minutos, acende uma fogueira.
+- Ocupa uma mão. Peso: desprezável.
+
+Base: *Eyes of Minute Seeing* (DMG 2014, p. 168), lentes que se põem sobre os olhos; aqui na forma da lupa do livro (EGtW, V3).
+
+### Sentidos (proposta, por aprovar)
+
+- **Vista:** o cristal tem um brilho ténue, quase azul, que só se nota no escuro; por ele, as fibras do papel parecem cordas.
+- **Som:** o aro de latão tilinta contra os anéis.
+- **Cheiro:** óleo de lamparina e tabaco de cachimbo, do comandante, entranhados no cabo (o Isco dá por isso).
+- **Tato:** fria, sempre um pouco mais fria do que a mão.
+
+### Checks (proposta, por aprovar)
+
+| Check | CD | O que dá |
+|---|---|---|
+| Arcana (ou *Identify*) | 12 | a magia é de adivinhação, presa ao cristal; não precisa de sintonização |
+| História | 13 | latão de oficina de Rexxentrum; uma lupa assim é de oficial ou de escriba do Império |
+| Investigação (com a lupa) | 15 | gravado no aro, quase apagado: «S. F.» (Struther Felmont) |
+
 ## Segredo
 
-Por decidir: o que faz de mágico (a ficha prometida à mesa). O livro só lhe dá as propriedades de uma lupa comum; o brilho ao *Detect Magic* é da mesa (nota n-s8-21).
+Proposta, por aprovar: era do Felmont (as iniciais «S. F.» no aro); a mesa não sabe que o comandante está morto no pátio.
