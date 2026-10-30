@@ -1,0 +1,84 @@
+# Fichas de itens mágicos da sessão 9 (para imprimir e recortar).
+# Gerar: python3 scripts/fichas-itens.py mesa/fichas-itens/s09.yaml <saida.pdf>
+# Só o que a personagem sabe quando recebe o item: nada de segredos (só DM) nem de origens por revelar.
+# Fora, por agora: o pendente da Lia (efeito por revelar), a moeda do Bob Lin (vaso do génio, vai na ficha do jogador),
+# a Pedra da Sorte (o Xundi ainda não a deu), os cristais do Tibério (rubídio: regra da casa) e as lascas do menir (não são mágicas à vista).
+titulo: Sessão 09 — Fichas de itens
+itens:
+  # --- O Forte Ventura (por encontrar) ---
+  - nome: Potion of Mind Reading
+    tipo: Poção, rara
+    aspeto: Um líquido roxo e espesso, com uma nuvem cor-de-rosa ovalada a flutuar lá dentro.
+    propriedades:
+      - Quando a bebes, ficas sob o efeito do feitiço *detect thoughts* (CD de resistência 13).
+    rodape: Forte Ventura · o baú da tenda do comandante
+  - nome: Cimitarra de lâmina negra
+    tipo: Arma (scimitar), incomum
+    aspeto: Uma cimitarra de lâmina negra, sem um risco, que não reflete a luz do fogo.
+    propriedades:
+      - Tens +1 nas jogadas de ataque e de dano feitas com esta arma mágica.
+    rodape: Forte Ventura · as jaulas
+  - nome: Hunter's Coat
+    tipo: Armadura (leather), muito rara (requer sintonização)
+    aspeto: Um casaco de caçador de couro castanho, comprido, manchado de sangue velho.
+    propriedades:
+      - Tens +1 de CA enquanto vestes esta armadura.
+      - titulo: Cargas
+        texto: O casaco tem 3 cargas. Quando acertas numa criatura com um ataque e ela não tem todos os pontos de vida, podes gastar 1 carga para lhe causar mais 1d10 de dano necrótico. Recupera 1d3 cargas gastas todos os dias ao amanhecer.
+    rodape: Forte Ventura · o prisioneiro da jaula
+  - nome: Prosthetic Limb (mão direita)
+    tipo: Item maravilhoso, comum
+    aspeto: Uma mão direita artificial, articulada, que se encaixa no pulso.
+    propriedades:
+      - Substitui uma mão perdida. Enquanto está posta, funciona como a mão que substitui. Pões ou tiras com uma ação, e não ta podem tirar contra a tua vontade. Solta-se se morreres.
+    rodape: Forte Ventura · a capela
+  # --- Com o grupo ---
+  - nome: Lupa das Entrelinhas
+    tipo: Item maravilhoso, incomum (não precisa de sintonização)
+    aspeto: Uma lente de cristal num aro de latão gasto, com o cabo de madeira escura polido pelo uso.
+    propriedades:
+      - titulo: Ver o escrito escondido
+        texto: Pela lupa, até 30 cm, vês tinta invisível e escrita ou marcas escondidas por magia como se estivessem à vista (a mensagem verdadeira de um *Illusory Script*, o glifo de um *Glyph of Warding*, uma marca arcana). Não traduz uma língua que não conheces, nem desarma o que vês.
+      - titulo: Lupa
+        texto: Vantagem em qualquer teste para avaliar ou examinar um objeto pequeno ou muito detalhado. Com sol forte, material inflamável e 5 minutos, acende uma fogueira.
+      - Ocupa uma mão.
+    rodape: Com o Quasi · a tenda do comandante
+  - nome: Varinha de osso
+    tipo: Varinha
+    aspeto: Uma varinha de osso, de ponta enegrecida.
+    propriedades:
+      - A varinha tem 3 cargas. Com uma ação, gastas 1 carga para lançar *detect magic*; a esfera que se expande só a vê quem a usa. Recupera todas as cargas num long rest.
+    rodape: Com o Quasi · o ossário
+  - nome: Garra de seis dedos
+    tipo: Item maravilhoso
+    aspeto: Uma garra de réptil de seis dedos, cortada pelo pulso, quase preta, mais fria do que o ar; cheira a enxofre.
+    propriedades:
+      - Uma vez por dia, podes lançar *command* com ela.
+    rodape: Com o Quasi · o ossário
+  - nome: Adaga negra (dagger +1)
+    tipo: Arma (dagger), incomum
+    aspeto: Lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas como mandíbulas de inseto; cabo de couro escuro ressequido.
+    propriedades:
+      - Tens +1 nas jogadas de ataque e de dano feitas com esta arma mágica.
+    rodape: Com o Lucan · o altar do ossário
+  - nome: Luneta da Alvorada
+    tipo: Item maravilhoso, incomum
+    aspeto: Uma luneta de latão; a lente é de cristal de altar, e cheira levemente a cera e a sal.
+    propriedades:
+      - titulo: Alvorada
+        texto: Com uma ação, lanças *daylight* num ponto até 60 pés. Uma vez por alvorada.
+      - titulo: Vista longa
+        texto: Vantagem em testes de Perception baseados na vista, à distância, enquanto olhas por ela.
+    rodape: Com o Lucan · o Farol Apagado
+  - nome: Potion of Healing ×2
+    tipo: Poção, comum
+    aspeto: Dois frascos de osso; o líquido vermelho cintila quando se agita.
+    propriedades:
+      - Quando a bebes, recuperas 2d4 + 2 pontos de vida.
+    rodape: Com o Alberto · o ossário
+  - nome: Periapt of Proof against Poison
+    tipo: Item maravilhoso, raro
+    aspeto: Uma corrente fina de prata com uma pedra negra de lapidação brilhante.
+    propriedades:
+      - Enquanto o usas, és imune à condição de envenenado e a dano de veneno.
+    rodape: Com o Corvelo · o pescoço do Damião

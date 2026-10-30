@@ -74,11 +74,12 @@ O documento transforma o que o DM decidiu (e o que está planeado na Grelha) num
 
 - Compara com a versão anterior do documento e com as preparações das sessões anteriores que tocam as mesmas coisas: lista tudo o que saiu. Cada coisa que saiu vai para a «Reserva» da ficha da entidade, ou é retirada com confirmação do DM (pergunta interativa). Nunca a deixes desaparecer em silêncio.
 - Escreve de volta nas fichas (`## Ficha de mesa`) o que o DM aprovou no documento: textos para ler, sentidos, checks, falas, segredos.
+- **Fichas de itens mágicos** (decisão 2026-10-30 #5; `docs/fichas-itens.md`): faz o inventário de todas as coisas mágicas que podem aparecer na sessão — as que se encontram nos locais da sessão (livro e cânone), as que os NPCs que entram trazem e podem passar ao grupo, e as que o grupo já leva — e escreve-as em `mesa/fichas-itens/sNN.yaml` (texto pelas regras de 2014, só o que a personagem sabe; o que tem efeito por revelar fica de fora, com o porquê no cabeçalho). Gera a folha com `python3 scripts/fichas-itens.py` (A4, 3 colunas, para recortar) e põe-na na `session_prep` como `sessao_NN_fichas_itens.pdf`; o documento de preparação e a checklist de mesa apontam para ela.
 - **Compêndio da sessão:** um segundo Google Doc, «Sessão NN — Compêndio», na mesma pasta, com a `## Ficha de mesa` completa (copiada tal como está no repositório) de cada local, NPC e objeto que pode aparecer na sessão. É o que se consulta primeiro à mesa: uma só leitura. Refaz-se a cada versão nova da preparação.
 
 ### Publicar
 
-- Google Doc (Markdown convertido, **sem** cabeçalho YAML nem linha de tags) na pasta `cotn_2026/session_prep`, título «Sessão NN — Preparação: <título>». Versões novas como documento novo; a anterior que tu criaste vai para o lixo.
+- Google Doc (Markdown convertido, **sem** cabeçalho YAML nem linha de tags) na pasta `cotn_2026/session_prep`, título «Sessão NN — Preparação: <título>». Versões novas como documento novo; a anterior que tu criaste vai para o lixo. Ao lado, a folha `sessao_NN_fichas_itens.pdf` (PDF por base64, `disableConversionToGoogleType`).
 - Grava nas decisões o âmbito e o que se decidiu pelo caminho (skill `decidir`); o que for plano para a sessão vai também para a Grelha como `ideia` (parte 1, passo 3).
-- Grava o repositório (`npm run gravar`); a cópia na Drive fica para a tarefa diária (decisão 2026-10-23 #29).
+- Grava o repositório (`npm run gravar`); a cópia na Drive faz-se no GitHub Actions depois do push (decisão 2026-10-29 #1).
 - Na resposta: o link e um resumo de cinco linhas do que a sessão tem.
