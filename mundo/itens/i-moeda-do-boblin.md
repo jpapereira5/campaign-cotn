@@ -2,7 +2,7 @@
 id: i-moeda-do-boblin
 nome: Moeda do Bob Lin (o vaso do Xundi)
 tipoItem: equipamento
-legenda: vaso do génio do Bob Lin; cunhada em Nicodranas; isco do Khedive Xundi; no corpo do Tibério
+legenda: vaso do génio do Bob Lin; cunhada em Nicodranas; isco do Khedive Xundi; na bolsa do Tibério, com o Lucan
 origem:
   - tiago
 ---

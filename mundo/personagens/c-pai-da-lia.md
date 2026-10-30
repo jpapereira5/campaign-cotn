@@ -34,7 +34,11 @@ relacoes:
     origem: dm
   - com: c-corvelo
     tipo: knows
-    nota: o Corvelo escoltou-o do forte até à Guarnição da Cinza
+    nota: o Corvelo lembra-se dele; mandou a Sousela e dois homens escoltá-lo até à Guarnição da Cinza
+    origem: dm
+  - com: c-lampreia
+    tipo: knows
+    nota: a Sousela e dois homens escoltaram-no do forte até à Guarnição da Cinza
     origem: dm
 origem:
   - lia
@@ -56,6 +60,6 @@ Salvar a filha do typhros.
 
 Percurso: Bazzoxan (a mãe conta-lhe que a Dinastia estuda o rubídio como cura; oferece-se para arranjar mais) → atravessa a Ascensão (pouco rubídio ali) → Ank'Harel (a Alma de Cobalto diz-lhe que a fonte passa por lá) → Heart of Despair, puxado pelo Alyxian, corrupção 5 ou 6. Procura a cura no rubídio, e é o rubídio que acorda a alma dela. Os vestígios dele podem aparecer perto do final do Fritz na Ascensão («havia outro… não parou»).
 
-Foi o Corvelo que o escoltou do forte até à guarnição a sul do pântano, a Guarnição da Cinza, então em mãos imperiais: «Não falava. Escrevia à noite.» (Decidido pelo DM (2026-10-16); três meses, não dois anos: 2026-10-21)
+Foi a batedora Sousela, com dois homens, que o escoltou do forte até à guarnição a sul do pântano, a Guarnição da Cinza, então em mãos imperiais: «Não falava. Escrevia. À noite.» O Corvelo, já no forte, lembra-se dele e foi quem a mandou. (Decidido pelo DM (2026-10-16); três meses, não dois anos: 2026-10-21; a Sousela e não o Corvelo: 2026-10-30)
 
 O selo de expositor que deixou à Lia é um anel azul-escuro com o sinal da Alma de Cobalto: três círculos nos vértices de um triângulo, cada um com um pequeno cristal de água-marinha (`i-selo-expositor`). (Decidido pelo DM (2026-10-17))

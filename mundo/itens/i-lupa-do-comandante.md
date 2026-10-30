@@ -48,3 +48,5 @@ Base: a lupa do livro (EGtW, V3) e do PHB, com a magia de ver o escrito escondid
 ## Segredo
 
 Proposta, por aprovar: era do Felmont (as iniciais «S. F.» no aro); a mesa não sabe que o comandante está morto no pátio.
+
+Nas notas cifradas do Padre Perestrelo (capela), a lupa mostra uma segunda camada em tinta invisível: as entregas de rubídio à Doolan Tversky, com o selo dela (Decidido pelo DM (2026-10-30)); ver `c-padre-perestrelo`.

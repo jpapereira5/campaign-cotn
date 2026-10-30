@@ -95,7 +95,7 @@ Já percebeu que estão perdidos; seria a única a dizê-lo, se o sargento não 
 
 **3. Porque vem com eles**
 - «Porque nos acompanhas? Porque é que ainda não nos tentaste matar? Porque queres ir ao forte?»
-- Se a Lia falar do pai: «Um halfling? Da Alma de Cobalto? Lembro-me dele. Queria escolta pelo pântano. Falava pouco e escrevia muito.» · «Está no livro do comandante. Toda a gente que passa pelo forte fica escrita. É a única maneira que o Império tem de se lembrar das pessoas.» · «Se queres encontrá-lo, eu ajudo-te. Não por ti. Porque se fosse o meu, eu queria que alguém me ajudasse.» → No forte, leva-a à tenda ou distrai o Corvelo. (Não diz que foi o Corvelo quem o escoltou: é dele o «Lembro-me desse».)
+- Se a Lia falar do pai: «Um halfling? Da Alma de Cobalto? Lembro-me dele. Queria escolta pelo pântano. Falava pouco e escrevia muito.» · «Está no livro do comandante. Toda a gente que passa pelo forte fica escrita. É a única maneira que o Império tem de se lembrar das pessoas.» · «Se queres encontrá-lo, eu ajudo-te. Não por ti. Porque se fosse o meu, eu queria que alguém me ajudasse.» → No forte, leva-a à tenda ou distrai o Corvelo. (Não diz que foi a Sousela quem o escoltou; o «Lembro-me desse» é do Corvelo: decisão 2026-10-30 #13.)
 - Se ficar vaga ou mentir (Intuição +3): «Não tens de me dizer. Toda a gente aqui guarda alguma coisa debaixo do véu.» → No forte não a deixa sozinha: vigia-a e protege-a da Sousela.
 - Se devolver a pergunta: «Porque o sargento manda, e porque eu prometi a mim mesma que não deixava mais ninguém para trás. Se lá dentro houver alguém à espera, quero ser eu a abrir a porta.»
 

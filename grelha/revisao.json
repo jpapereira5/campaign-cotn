@@ -5568,14 +5568,14 @@
         "col": "s7"
       },
       "factKind": "pista",
-      "text": "No livro de registos do forte (tenda do comandante, debaixo do mapa): «835 P.D. Aldo Kesh, halfling, Expositor da Alma de Cobalto (Rexxentrum). Ordem de missão assinada pela Alta Curadora Yudala Fon… Destino declarado: Jigau… Escolta: Sgt. V. Corvelo e dois homens, até à guarnição do sul.» Há três meses. O Corvelo: «Lembro-me desse.»",
+      "text": "No livro de registos do forte (tenda do comandante, debaixo do mapa): «835 P.D. Aldo Kesh, halfling, Expositor da Alma de Cobalto (Rexxentrum). Ordem de missão assinada pela Alta Curadora Yudala Fon… Destino declarado: Jigau… Escolta: Sgt. V. Corvelo e dois homens, até à guarnição do sul.» Há três meses. O Corvelo: «Lembro-me desse.» [substituída: escolta da Sousela e dois homens, decisão 2026-10-30 #13]",
       "suggestion": "A entrada do Aldo no livro de registos do forte, há três meses; o Corvelo lembra-se.",
       "because": [
         "registo/decisoes.md 2026-10-21 #65",
         "registo/decisoes.md 2026-10-21 #67",
         "registo/decisoes.md 2026-10-21 #68"
       ],
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-d21-71",
@@ -6280,6 +6280,41 @@
       "factKind": "registo",
       "text": "A nixie caiu sob o *Hold Person* do Quasi e desfez-se em água (S8, 1:12:42). Familiar a 0 PV desaparece; volta com *find familiar* (ritual de 1 hora, 10 po de materiais). O Bob Lin está amarrado numa jaula.",
       "suggestion": "Decidir se o Bob Lin consegue refazer o ritual dentro da jaula e o que o Xundi sabe da queda.",
+      "status": "aberta"
+    },
+    {
+      "id": "n-d30-13",
+      "at": "2026-10-30T05:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-lia",
+        "col": "s9"
+      },
+      "factKind": "pista",
+      "text": "No livro de registos do forte: «… Escolta: Sousela e dois homens, até à guarnição do sul.» O Corvelo: «Lembro-me desse. Mandei a Sousela com ele.» A Sousela: «Não falava. Escrevia. À noite.»",
+      "suggestion": "A Lia pode perguntar à Sousela pelo pai (B5 da preparação da S9).",
+      "because": [
+        "registo/decisoes.md 2026-10-30 #13"
+      ],
+      "status": "aberta"
+    },
+    {
+      "id": "n-d30-15",
+      "at": "2026-10-30T05:20:00.000Z",
+      "kind": "ideia",
+      "target": {
+        "row": "c-pc-quasi",
+        "col": "s9"
+      },
+      "factKind": "pista",
+      "text": "Pela Lupa das Entrelinhas, as notas cifradas do Perestrelo mostram as entregas de rubídio à Doolan Tversky, com o selo dela. Se o Alberto vir o selo, fica muito quieto.",
+      "suggestion": "Na capela (B7), se o Quasi usar a lupa nas notas.",
+      "because": [
+        "registo/decisoes.md 2026-10-30 #15"
+      ],
+      "tags": [
+        "so-dm"
+      ],
       "status": "aberta"
     }
   ],

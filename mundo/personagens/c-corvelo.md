@@ -42,7 +42,7 @@ Estão perdidos há dois dias. Perdeu três homens (o Bento Ruivo em B2, dois em
 
 No rescaldo do combate do obelisco (arranque da S7, ainda não jogado): reconhece o Tibério no lacedon desfeito em cima da jangada, pela cara e pela farda (vermelho imperial, o mocho com espigas de trigo): «Tibério. Estava de guarda à capela.» Na S6 não o reconheceu em combate, e ninguém disse o nome. (Decidido pelo DM (2026-10-18))
 
-No forte: escoltou o pai da Lia (o Aldo Kesh) há três meses, até à Guarnição da Cinza (Decidido pelo DM (2026-10-21); antes «há dois anos»); reconhece a espada do Tibério no peito do padre; não segue o grupo atrás da Bolbara, fica com os sobreviventes (Decidido pelo DM (2026-10-16)). Não vê o caderno de recompensas do Alberto: o Alberto arranca a página antes (Decidido pelo DM (2026-10-21)).
+No forte: lembra-se do pai da Lia (o Aldo Kesh), que passou há três meses, e mandou a Sousela e dois homens escoltá-lo até à Guarnição da Cinza (Decidido pelo DM (2026-10-21); a escolta é da Sousela, não dele: Decidido pelo DM (2026-10-30)); reconhece a espada do Tibério no peito do padre; não segue o grupo atrás da Bolbara, fica com os sobreviventes (Decidido pelo DM (2026-10-16)). Não vê o caderno de recompensas do Alberto: o Alberto arranca a página antes (Decidido pelo DM (2026-10-21)).
 
 No rescaldo do obelisco (dia 4) solta a Lia com um discurso aos seus («Esta guerra colocou-nos uns contra os outros, mas neste momento precisamos de todos se queremos sobreviver ao pântano») e queima o Damião, o Alex e o Tibério numa pira ali mesmo, com a jangada por base, na primeira hora, para não se levantarem; não sabe as palavras da Madrinha dos Corvos nem tem jeito para rezas, e entrega a tarefa à Lia: «Tu és clériga. Diz tu.» (Decidido pelo DM (2026-10-21))
 
@@ -57,7 +57,7 @@ Na chegada ao forte (S7): manda a Sousela espreitar da paliçada antes de entrar
 - **Backstory:** Nasceu num moinho do Marrow Valley e alistou-se na Marca Justa aos dezoito, no ano em que os Ceifeiros levaram o dízimo e o pai não tinha com que pagar; trinta anos depois, a família ainda recebe o soldo dele, e ele ainda não voltou a casa.
 - **Quer:** Saber quem está vivo; um relatório que possa contar.
 - **Teme:** Voltar a ser o único que sobra.
-- **Esconde:** As 800 po não existem; escoltou o Aldo; o *message* do Alberto.
+- **Esconde:** As 800 po não existem; o *message* do Alberto.
 - **Voz:** Baixa; nunca repete uma ordem; fala a olhar para a água.
 - **Gesto:** Fecha a mão no apito de osso antes de decidir.
 - **Sentidos:** A meia barba queimada, lisa como cera; cheira a couro molhado e a fumo de pira.

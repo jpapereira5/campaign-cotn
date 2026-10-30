@@ -13,6 +13,8 @@ A mesa (sessão 7, #90, 2026-10-21): uma bolsa pequena, atada à cintura do Tib�
 
 São **7 cristais**; carregá-los conta como exposição prolongada: na manhã do dia 5 o Lucan faz o save (Charisma DC 5), e falhar dá uma Marca na Alma; a exposição nunca corrompe, nem com 1 natural; a CD sobe 5 por cada dia seguido que os carregar (Decidido pelo DM (2026-10-23); revisto a 2026-10-27). Pegar nos cristais com a pele é contacto e pode corromper (ver `mesa/regras.md`, «Rubídio») (Decidido pelo DM (2026-10-27))
 
+No início da S9, a bolsa, com os 7 cristais e a moeda do Bob Lin, continua com o Lucan (Decidido pelo DM (2026-10-30)).
+
 ## Segredo
 
 Os cristais são rubídio em bruto (ver [[r-ruidium-properties]] e [[t-missao-rubidio]]); o grupo ainda não lhes sabe o nome. Porque é que o guarda da capela de um forte imperial os tinha à cintura, e o que fazia ali uma moeda do Concílio de Clóvis, liga-se ao contrabando que o Padre Perestrelo fornecia à Doolan Tversky ([[c-doolan-tversky]]). Por decidir pelo DM.

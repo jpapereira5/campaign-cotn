@@ -70,6 +70,7 @@ DM: a mãe entregou-a ao pai em mão (não houve resgate). A mãe é arcanista e
 - **O Fritz é o espelho do pai.** A Ascensão é do Fritz (o final dele); o pai atravessa-a e segue. Opção: os vestígios do pai aparecem perto do Fritz, ou uma sala à frente, e o Fritz diz «havia outro… não parou».
 - **O Alberto** conhece as experiências da Assembleia por dentro e pode ser quem percebe que a história do resgate não bate certo.
 - **O rasto:** Jigau (a Belana Zolaed reconhece no pendente o símbolo da Den Tasithar, a da mãe, e aponta para Bazzoxan; `i-pendente-da-lia` (Decidido pelo DM (2026-10-16))) → Bazzoxan (a mãe, a Alma de Cobalto de Ank'Harel, o Muro) → Ascensão (os vestígios do pai, o final do Fritz, a exploradora) → Ank'Harel e o Netherdeep → Heart of Despair.
+- **A maquilhagem de elfa do Império** (S8, do Quasi): aguenta sempre, mesmo de perto e sem teste; só cai se a Lia a tirar ou usar magia drow à frente de alguém (Decidido pelo DM (2026-10-30)). Fica de fora: Perception CD 13 de perto.
 
 ## Em aberto (para o DM decidir)
 
