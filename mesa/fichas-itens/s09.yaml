@@ -1,6 +1,7 @@
 # Fichas de itens mágicos da sessão 9 (para imprimir e recortar).
 # Gerar: python3 scripts/fichas-itens.py mesa/fichas-itens/s09.yaml <saida.pdf>
 # Texto em pt-PT com o nome inglês entre parênteses (decisão 2026-10-30 #6). Item que já existe num livro: o nome é a tradução do nome oficial; o que este tem de próprio vai no aspeto (decisão 2026-10-30 #8).
+# Rodapé: só a origem (local, NPC, contexto), nunca quem tem o item: depois de impressa, a ficha muda de dono (decisão 2026-10-30 #11).
 # Só o que a personagem sabe quando recebe o item: nada de segredos (só DM) nem de origens por revelar.
 # Fora, por agora: o pendente da Lia (efeito por revelar), a moeda do Bob Lin (vaso do génio, vai na ficha do jogador),
 # a Pedra da Sorte (o Xundi ainda não a deu), os cristais do Tibério (rubídio: regra da casa) e as lascas do menir (não são mágicas à vista).
@@ -47,27 +48,27 @@ itens:
       - titulo: Lupa
         texto: Vantagem (advantage) em qualquer teste para avaliar ou examinar um objeto pequeno ou muito detalhado. Com sol forte, material inflamável e 5 minutos, acende uma fogueira.
       - Ocupa uma mão.
-    rodape: Com o Quasi · a tenda do comandante
+    rodape: Forte Ventura · a tenda do comandante
   - nome: Varinha de Deteção de Magia
     original: Wand of Magic Detection
     tipo: Varinha, incomum
     aspeto: Uma varinha de osso, de ponta enegrecida.
     propriedades:
       - A varinha tem 3 cargas. Com uma ação, gastas 1 carga para lançar *detetar magia* (*detect magic*); a esfera que se expande só a vê quem a usa. Recupera todas as cargas num descanso longo (long rest).
-    rodape: Com o Quasi · o ossário
+    rodape: O ossário do pântano
   - nome: Garra de seis dedos
     tipo: Item maravilhoso
     aspeto: Uma garra de réptil de seis dedos, cortada pelo pulso, quase preta, mais fria do que o ar; cheira a enxofre.
     propriedades:
       - Uma vez por dia, podes lançar *comando* (*command*) com ela.
-    rodape: Com o Quasi · o ossário
+    rodape: O ossário do pântano
   - nome: Adaga +1
     original: +1 Dagger
     tipo: Arma (adaga), incomum
     aspeto: Lâmina preta com brilho azul-acinzentado, imaculada apesar do tempo; guarda curta, curvada para cima nas duas pontas como mandíbulas de inseto; cabo de couro escuro ressequido.
     propriedades:
       - Tens +1 nas jogadas de ataque e de dano feitas com esta arma mágica.
-    rodape: Com o Lucan · o altar do ossário
+    rodape: O ossário do pântano · o altar
   - nome: Luneta da Alvorada
     tipo: Item maravilhoso, incomum
     aspeto: Uma luneta de latão; a lente é de cristal de altar, e cheira levemente a cera e a sal.
@@ -76,18 +77,18 @@ itens:
         texto: Com uma ação, lanças *luz do dia* (*daylight*) num ponto até 60 pés. Uma vez por alvorada.
       - titulo: Vista longa
         texto: Vantagem (advantage) em testes de Perceção (Perception) baseados na vista, à distância, enquanto olhas por ela.
-    rodape: Com o Lucan · o Farol Apagado
+    rodape: O Farol Apagado
   - nome: Poção de Cura ×2
     original: Potion of Healing
     tipo: Poção, comum
     aspeto: Dois frascos de osso; o líquido vermelho cintila quando se agita.
     propriedades:
       - Quando a bebes, recuperas 2d4 + 2 pontos de vida (hit points).
-    rodape: Com o Alberto · o ossário
+    rodape: O ossário do pântano
   - nome: Amuleto à Prova de Veneno
     original: Periapt of Proof against Poison
     tipo: Item maravilhoso, raro
     aspeto: Uma corrente fina de prata com uma pedra negra de lapidação brilhante.
     propriedades:
       - Enquanto o usas, és imune à condição de envenenado (poisoned) e a dano de veneno (poison).
-    rodape: Com o Corvelo · o pescoço do Damião
+    rodape: O escriba Damião Prestes

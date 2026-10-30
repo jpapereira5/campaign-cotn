@@ -15,7 +15,7 @@ Formato do YAML (uma lista; só `nome` é obrigatório):
       - titulo: Ver o escrito escondido
         texto: Pela lupa, até 30 cm, vês tinta invisível...
       - texto: Ocupa uma mão.
-    rodape: Forte Ventura · S8
+    rodape: Forte Ventura · a tenda do comandante   (só a origem, nunca quem o tem)
 
 Texto em pt-PT com o termo inglês entre parênteses (feitiços, perícias, condições, tipos de dano, regras), para quem não lê inglês: *detetar magia* (*detect magic*). No texto, *itálico* e **negrito**. Cada ficha ocupa a largura de uma coluna e
 nunca se parte; o que não cabe passa à coluna ou à página seguinte. As linhas
@@ -68,7 +68,7 @@ MINUSCULAS = {'a', 'à', 'ao', 'aos', 'as', 'às', 'com', 'contra', 'da', 'das',
 
 def capitalizar(nome):
     """Maiúscula no início de cada palavra, preposições, artigos e conjunções em minúsculas
-    (menos a primeira palavra): «Cimitarra de Lâmina Negra», «Periapto contra Veneno»."""
+    (menos a primeira palavra): «Cimitarra de Lâmina Negra», «Amuleto à Prova de Veneno»."""
     def palavra(i, p):
         m = re.match(r'^([(«"]*)(.*)$', p)
         pre, resto = m.group(1), m.group(2)
