@@ -8,6 +8,7 @@ Uso:
 Formato do YAML (uma lista; só `nome` é obrigatório):
 
   - nome: Lupa das Entrelinhas
+    original: nome inglês, entre parênteses a seguir ao nome (opcional)
     tipo: Item maravilhoso, incomum (não precisa de sintonização)
     aspeto: Uma lente de cristal num aro de latão gasto...
     propriedades:
@@ -16,7 +17,7 @@ Formato do YAML (uma lista; só `nome` é obrigatório):
       - texto: Ocupa uma mão.
     rodape: Forte Ventura · S8
 
-No texto, *itálico* e **negrito**. Cada ficha ocupa a largura de uma coluna e
+Texto em pt-PT com o termo inglês entre parênteses (feitiços, perícias, condições, tipos de dano, regras), para quem não lê inglês: *detetar magia* (*detect magic*). No texto, *itálico* e **negrito**. Cada ficha ocupa a largura de uma coluna e
 nunca se parte; o que não cabe passa à coluna ou à página seguinte. As linhas
 tracejadas são as de corte.
 """
@@ -63,7 +64,10 @@ def marcar(texto):
 
 def blocos(item):
     """A lista de (tipo, Paragraph) de uma ficha, por ordem."""
-    out = [('nome', Paragraph(marcar(item['nome']), E_NOME))]
+    nome = marcar(item['nome'])
+    if item.get('original'):
+        nome += f' <font name="{FONTE}" size="8.5">({marcar(item["original"])})</font>'
+    out = [('nome', Paragraph(nome, E_NOME))]
     if item.get('tipo'):
         out.append(('tipo', Paragraph(marcar(item['tipo']), E_TIPO)))
     out.append(('regua', None))
