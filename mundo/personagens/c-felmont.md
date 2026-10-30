@@ -15,6 +15,8 @@ tags:
 estados:
   - desde: b-0-fort-venture
     estado: Comanda o forte; negociável
+  - desde: s-091
+    estado: Morto no pátio do forte, na noite da possessão da Bolbara (como no livro)
 relacoes:
   - com: f-dwendalian-empire
     tipo: memberOf
@@ -31,6 +33,8 @@ origem:
 ## Resumo
 
 Humano veterano, comandante do Fort Venture (LN). Rígido e assustado com o que se passa na capela, mas não é mau; pode ser convencido a olhar para o lado.
+
+A mesa (sessão 8, #91, 2026-10-28): Morto no pátio (V4), entre os guardas, como no livro quando a Bol'bara já foi possuída. É o soldado agachado diante do qual o Corvelo fica parado a olhar; a mesa ainda não sabe que é o comandante. (Decidido pelo DM (2026-10-29))
 
 ## Objetivo
 

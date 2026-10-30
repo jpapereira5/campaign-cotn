@@ -12,11 +12,11 @@ origem:
 
 Forte do Império Dwendaliano à beira do pântano (V1-V11). Comandado por Felmont; Pellinost interroga Bol'bara na capela. A mesa (sessão 5, #88, 2026-10-07): O que o livro de registos do escriba diz do forte, lido pelo Quasi: é dali que saiu a expedição a catalogar tudo o que o pântano tem, e é para lá que vão os prisioneiros — drow, homens-lagarto e pessoas, ao longo de dias, semanas e meses. Há uma goblin velha capturada há pouco, sob estudo do Padre Perestrelo (que está na CAPELA e que o padre «não a deixa morrer» disse-o o Damião, na conversa); e há um homem, encontrado perdido no pântano, que o padre quer guardar para mais investigação. Há notas pessoais do escriba a dar a entender que a patrulha está perdida e que ninguém o quer admitir.
 
-Depois da possessão, na chegada da patrulha (dia 5): três sobreviventes no salão (o ferreiro veterano, que trata o Corvelo pelo nome, e dois guardas novos, um com o braço queimado: o Anselmo Brás «Bigorna», o Rui Felder e a Marta Coelho, `c-anselmo-bras`, `c-rui-felder`, `c-marta-coelho`; Decidido pelo DM (2026-10-21)). Na tenda do comandante, além do livro de registos, o caderno de recompensas com «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» No pátio, o caderninho do torneio termina em «Tibério ganhou». Ninguém da patrulha segue o grupo atrás da Bolbara. (Decidido pelo DM (2026-10-16))
+Depois da possessão, na chegada da patrulha (dia 5): só dois sobreviventes no salão, barricados atrás das mesas: o ferreiro, anão de espada, que trata o Corvelo pelo nome, e um guarda novo de braço queimado e lança, que parece humano (o Anselmo Brás «Bigorna» e o Rui Felder, `c-anselmo-bras`, `c-rui-felder`; Decidido pelo DM (2026-10-21), afinado à mesa e Decidido pelo DM (2026-10-29)). A Marta Coelho (`c-marta-coelho`) não está entre eles. Na tenda do comandante, além do livro de registos, o caderno de recompensas com «Alberto Pé-Leve. Gnomo. Fugido. 1500 po, vivo.» No pátio, o caderninho do torneio termina em «Tibério ganhou». Ninguém da patrulha segue o grupo atrás da Bolbara. (Decidido pelo DM (2026-10-16))
 
 A farda da guarnição: vermelho imperial, com a insígnia de um mocho a segurar espigas de trigo. Foi dita à mesa na S6 (#89), quando o Lucan reparou que o lacedon desfeito em cima da jangada (o Tibério, só DM) tinha a mesma farda do escriba. (Decidido pelo DM (2026-10-18))
 
-As portas do salão principal (V5) estão escancaradas, como no livro; os sobreviventes estão atrás das mesas compridas deitadas, a servir de proteção, sem barricada à porta. O forte é recente: a madeira verde das ameias é madeira nova (livro), e o Aldo Kesh, pai adotivo da Lia, passou por lá há três meses (`i-livro-registos-forte`). Depois de vasculhado, o Corvelo segura o forte e manda a Sousela e a Nália à Guarnição da Cinza pedir reforços; o Alberto fica no forte. (Decidido pelo DM (2026-10-21))
+Os sobreviventes estão no salão principal (V5) atrás das mesas compridas, encostadas à porta da frente numa barricada (à mesa, S8; Decidido pelo DM (2026-10-29)). O forte é recente: a madeira verde das ameias é madeira nova (livro), e o Aldo Kesh, pai adotivo da Lia, passou por lá há três meses (`i-livro-registos-forte`). Depois de vasculhado, o Corvelo segura o forte e manda a Sousela e a Nália à Guarnição da Cinza pedir reforços; o Alberto fica no forte. (Decidido pelo DM (2026-10-21))
 
 A mesa (sessão 7, #90, 2026-10-21): O guarda da capela TEM NOME à mesa: o Corvelo reconhece o Tibério no lacedon desfeito, pela cara e pela tabard, e diz, a olhar na direção do forte, que «era o guarda da capela». Na cintura dele vinha uma bolsa com cristais de rubi por lapidar e uma moeda do Concílio de Clovis. O grupo não chegou ao forte nesta sessão: ao fim da tarde do dia 4 pararam à saída do pântano, debaixo das falésias do Véu Quebrado, e o forte continua a horas de marcha.
 
@@ -104,13 +104,12 @@ O que fazem lá dentro e por que ordem é dos jogadores. Os mortos já cheiram a
 
 #### V5, o salão e os sobreviventes
 
-- **Vista:** porta escancarada, os dois mortos à porta da capela, as mesas deitadas [livro + #70]. **Som:** o clique de duas bestas; uma respiração com chiado (o Rui) [v10 + inv.]. **Cheiro:** dois dias fechados: suor, urina num canto, pano encharcado; a queimadura do braço do Rui (a fome do Lucan dá por ela) [inv.]. **Tato:** pedra fria, muito mais velha do que o forte [livro: fundações pré-Calamidade; inv.: o tato].
+- **Vista:** as mesas compridas encostadas à porta da frente, em barricada (S8; decisão 2026-10-29 #6), os dois mortos à porta da capela [livro + mesa]. **Som:** a lança do Rui e a espada do Bigorna a levantarem-se (à mesa, S8); uma respiração com chiado (o Rui) [v10 + inv.]. **Cheiro:** dois dias fechados: suor, urina num canto, pano encharcado; a queimadura do braço do Rui (a fome do Lucan dá por ela) [inv.]. **Tato:** pedra fria, muito mais velha do que o forte [livro: fundações pré-Calamidade; inv.: o tato].
 
 | Check | CD | O que dá | Fonte |
 |---|---|---|---|
 | Investigation / Medicine | 18 / 16 | os dois da porta da capela mataram-se um ao outro | livro |
 | Medicine | 12 | o braço do Rui: queimadura funda, relâmpago seco | v10 |
-| Insight | 13 | a Marta esconde alguma coisa | inv. (o segredo é da v10) |
 | History / Arcana | 15 | marcas de canteiro pré-Calamidade nas fundações | inv. |
 
 #### V6, a capela
@@ -195,22 +194,25 @@ Acaba onde a mesa chegar; por volta de 1h45 de jogo, encaminha-se para um de doi
 - **Os mortos da muralha** (1:35:06): um anão de farda vermelha com a espada ao lado, dois humanos na torre (espada curta, machado), e assim ao longo das muralhas; também no telhado do salão. Medicina 19 (Quasi): mortos em combate, só por armas, nada mágico, há um ou dois dias; só imperiais (anões, elfos, humanos), alguns sem a veste vermelha; ninguém da Dinastia. Investigação 12 (Lucan): nenhum sinal de quem foi.
 - **As portas** metálicas da frente estão abertas (1:44:57).
 - **A latrina** com um morto sentado (1:46:59); **uma tenda grande e branca intacta**, fechada do lado das traseiras.
-- **O pátio** (1:49:49): dezenas de mortos; os fardos de palha de treino ardidos, e é deles que sobe o fumo; uma tenda aberta com beliches, armários de armaduras e muitas espadas. O Corvelo para diante de um soldado morto, agachado (2:11:41).
+- **O pátio** (1:49:49): dezenas de mortos; os fardos de palha de treino ardidos, e é deles que sobe o fumo; uma tenda aberta com beliches, armários de armaduras e muitas espadas. O Corvelo para diante de um soldado morto, agachado (2:11:41): é o comandante Felmont, morto no pátio como no livro (só DM; a mesa não sabe quem é; decisão 2026-10-29 #8).
 - **O salão** (1:54:50): ver `l-salao-de-pedra` (a barricada de mesas e os dois sobreviventes).
 - **As jaulas** (2:00:18): ver `l-fort-venture-prison` (os mastins, o hobgoblin morto, o Fritz).
-- **A tenda do comandante** (2:12:14): aba aberta; mesa pequena com três cadeiras, lanterna apagada, taça de cobre e um mapa grande do Véu-Quebrado; cama de madeira, mesa de cabeceira (um livro ou caderno e a lupa mágica, `i-lupa-do-comandante`), baú trancado aos pés da cama (magia lá dentro; não aberto, sem chave encontrada); suportes de armas e armadura, armário com plantas antigas do forte, encomendas, saídas dos homens e cartas às famílias. O registo de quem entrou no forte está com a Lia (`i-livro-registos-forte`).
-- **Por jogar:** os cortes A (o Alberto e a página) e B (o Corvelo: «Lembro-me desse»), a capela, a armaria, o armazém, o Felmont, o caderninho do torneio, o caderno de recompensas e a pira dos mortos.
+- **A tenda do comandante** (2:12:14): aba aberta; mesa pequena com três cadeiras, lanterna apagada, taça de cobre e um mapa grande do Véu-Quebrado; cama de madeira, mesa de cabeceira (um livro ou caderno e a lupa mágica, que ficou com o Quasi, `i-lupa-do-comandante`), baú trancado aos pés da cama (magia lá dentro; não aberto, sem chave encontrada); suportes de armas e armadura, armário com plantas antigas do forte, encomendas, saídas dos homens e cartas às famílias. O registo de quem entrou no forte levou-o a Lia (`i-livro-registos-forte`).
+- **Por jogar:** os cortes A (o Alberto e a página) e B (o Corvelo: «Lembro-me desse»), a capela, a armaria, o armazém, o caderninho do torneio, o caderno de recompensas e a pira dos mortos.
 
 ### Discrepâncias por decidir
 
-- (S8) À mesa, as mesas do salão estão **encostadas à porta da frente numa barricada**; a Ficha diz «portas escancaradas… sem barricada à porta» (Resumo, decisão 2026-10-21). Nota n-s8-16.
 - (S8) Os mastins, à mesa, **ladram e comem com fome**; a Ficha tinha-os encolhidos a ganir.
 - (S8) O fumo, à mesa, é **negro** e sobe dos fardos; a Ficha dizia cinzento, do meio do recinto.
 
+- (Resolvida 2026-10-29) A barricada de mesas encostadas à porta do salão fica (decisão 2026-10-29 #6); a porta escancarada sem barricada da decisão 2026-10-21 vai para a Reserva.
 - (Resolvida 2026-10-24) O livro diz bandeiras «gastas pelo tempo»; fica «com as dobras marcadas» (o forte é recente).
 
 ### Reserva (preparado e não usado; não apagar)
 
+- As portas do salão escancaradas, como no livro, com os sobreviventes atrás das mesas deitadas e sem barricada à porta (decisão 2026-10-21); à mesa ficou a barricada.
+- Três sobreviventes no salão, com a Marta Coelho (decisão 2026-10-21 #69); à mesa foram dois.
+- V5: o check «Insight 13: a Marta esconde alguma coisa» (inv., segredo da v10), e «o clique de duas bestas» no som do salão.
 - Texto de chegada da v10 (ao anoitecer): o sol por trás das falésias, o céu cor de cobre, a coluna de fumo preta, as aves em círculos, «Não há luz em lado nenhum», e «um forte com trinta homens devia fazer barulho a esta hora».
 - Primeira versão do meio-dia (2026-10-23): «A esta hora um forte devia estar no meio do dia…» e «os corvos já desceram» (cortadas pela regra 2026-10-24 #1).
 

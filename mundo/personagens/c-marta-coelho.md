@@ -12,7 +12,7 @@ teme: A espada que tem à cintura.
 tags:
   - dm
   - forte-ventura
-  - sobrevivente
+  - reserva
   - imperio
   - anao
 legenda: guarda de besta firme
@@ -30,6 +30,8 @@ origem:
 ---
 
 ## Resumo
+
+**Não entrou em jogo:** à mesa (S8) só sobreviveram o Rui Felder e o Bigorna; a Marta não está entre os sobreviventes do salão. Fica de reserva, com o que tinha preparado (Decidido pelo DM (2026-10-29)).
 
 Guarda nova do Forte Ventura, sobrevivente da noite do dia 3. Anã, cabelo ruivo rapado dos lados com uma trança de soldado atrás, sangue seco no pescoço que não é dela. A besta não lhe treme. Na chegada da patrulha está atrás das mesas deitadas do salão principal (V5); quando vê o Corvelo, é a besta dela que não desce. Próxima da Nália. «Quem fechou a porta da capela?» «As espadas mudaram de dono. A minha também quis.» (Decidido pelo DM (2026-10-21))
 

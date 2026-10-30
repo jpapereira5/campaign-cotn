@@ -11,4 +11,4 @@ origem:
 
 Celas do forte; Alonne Frith está aqui preso.
 
-A mesa (sessão 8, #91, 2026-10-28): As jaulas pequenas com mastins grandes e treinados, a ladrar, que comem as rações do Isco; quatro jaulas grandes: numa, um hobgoblin morto e algemado, há algum tempo; noutra, o Fritz, vivo. Dois mortos junto às mesinhas ao pé das jaulas, um com as chaves à cintura. O Casqueiro mete o Bob Lin numa jaula e fica com as chaves.
+A mesa (sessão 8, #91, 2026-10-28): As jaulas pequenas com mastins grandes e treinados, a ladrar, que comem as rações do Isco; quatro jaulas grandes: numa, um hobgoblin morto e algemado, há algum tempo (alguém de Urzin; quem, está por decidir; Decidido pelo DM (2026-10-29)); noutra, o Fritz, vivo. Dois mortos junto às mesinhas ao pé das jaulas, um com as chaves à cintura. O Casqueiro mete o Bob Lin numa jaula e fica com as chaves.

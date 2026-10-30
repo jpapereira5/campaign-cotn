@@ -6168,9 +6168,9 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "À mesa (S8, 1:55:11) as mesas do salão estão encostadas contra a porta da frente, numa barricada, e os sobreviventes atrás delas. A Ficha de l-fort-venture (decisão 2026-10-21) diz «portas escancaradas, mesas deitadas a servir de proteção, sem barricada à porta».",
+      "text": "À mesa (S8, 1:55:11) as mesas do salão estão encostadas contra a porta da frente, numa barricada, e os sobreviventes atrás delas. A Ficha de l-fort-venture (decisão 2026-10-21) diz «portas escancaradas, mesas deitadas a servir de proteção, sem barricada à porta». [substituída: Fica a barricada, decisão 2026-10-29 #6]",
       "suggestion": "Vale o que se jogou (barricada); corrigir a Ficha e o Resumo de l-fort-venture.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-17",
@@ -6181,9 +6181,9 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "Os dois sobreviventes vistos à mesa (S8, 1:55:32): um «parece ser um humano», de braço queimado e lança; o outro um anão de espada. A preparação tinha o Rui Felder (halfling, braço queimado, besta), o Bigorna (anão, martelo) e a Marta Coelho (anã, besta). Quem são, e onde está o terceiro?",
+      "text": "Os dois sobreviventes vistos à mesa (S8, 1:55:32): um «parece ser um humano», de braço queimado e lança; o outro um anão de espada. A preparação tinha o Rui Felder (halfling, braço queimado, besta), o Bigorna (anão, martelo) e a Marta Coelho (anã, besta). Quem são, e onde está o terceiro? [substituída: Só o Rui Felder (humano, lança) e o Bigorna (espada); a Marta não sobreviveu à vista, decisão 2026-10-29 #5]",
       "suggestion": "O de braço queimado é o Rui (halfling visto de cima; a lança em vez da besta); o anão de espada é o Bigorna; a Marta está mais para dentro.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-18",
@@ -6194,9 +6194,12 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "Numa das quatro jaulas grandes há um hobgoblin morto, algemado, «há algum tempo» (S8, 2:01:50). Não estava preparado. Quem é?",
-      "suggestion": "Um prisioneiro da Dinastia apanhado antes da possessão (morreu de fome ou de feridas, não da noite do dia 3); sem nome até alguém perguntar.",
-      "status": "aberta"
+      "text": "Numa das quatro jaulas grandes há um hobgoblin morto, algemado, «há algum tempo» (S8, 2:01:50). Não estava preparado. Quem é? O DM: é alguém de Urzin (decisão 2026-10-29 #9); falta quem.",
+      "suggestion": "Um batedor de Urzin apanhado antes da possessão (morreu de feridas, não da noite do dia 3); sem nome até alguém perguntar.",
+      "status": "aberta",
+      "because": [
+        "registo/decisoes.md 2026-10-29 #9"
+      ]
     },
     {
       "id": "n-s8-19",
@@ -6207,9 +6210,9 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "A Lia encontrou o registo do forte e o nome do pai (S8, 2:14:22–2:17:12). Levou o livro com ela? (O DM disse que «a informação está nas mãos de outra pessoa».)",
+      "text": "A Lia encontrou o registo do forte e o nome do pai (S8, 2:14:22–2:17:12). Levou o livro com ela? (O DM disse que «a informação está nas mãos de outra pessoa».) [substituída: A Lia levou o livro, decisão 2026-10-29 #7]",
       "suggestion": "Sim, a Lia leva o livro.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-20",
@@ -6220,9 +6223,9 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "No pátio, o Corvelo fica parado a olhar para um soldado específico, agachado, morto (S8, 2:11:41). Quem é?",
+      "text": "No pátio, o Corvelo fica parado a olhar para um soldado específico, agachado, morto (S8, 2:11:41). Quem é? [substituída: É o Felmont, decisão 2026-10-29 #8]",
       "suggestion": "O Felmont, o comandante (o livro põe-no entre os mortos do pátio).",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-21",
@@ -6233,9 +6236,12 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "A lupa mágica da mesa de cabeceira do comandante ficou com o Quasi; o DM prometeu-lhe a ficha (S8, 2:13:54). O livro só diz «uma lupa». Que faz?",
+      "text": "A lupa mágica da mesa de cabeceira do comandante ficou com o Quasi; o DM prometeu-lhe a ficha (S8, 2:13:54). O livro só diz «uma lupa». Que faz? No livro é uma lupa comum (decisão 2026-10-29 #10); a mesa viu-a brilhar.",
       "suggestion": "Propor uma ficha (incomum) a partir da lupa do livro, para o DM aprovar.",
-      "status": "aberta"
+      "status": "aberta",
+      "because": [
+        "registo/decisoes.md 2026-10-29 #10"
+      ]
     },
     {
       "id": "n-s8-22",
@@ -6246,9 +6252,9 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "Título da S8 (especial de Halloween).",
+      "text": "Título da S8 (especial de Halloween). [substituída: O título fica por definir, decisão 2026-10-29 #11]",
       "suggestion": "«O Forte dos Mortos» ou «Fomos Nós».",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-23",
@@ -6259,9 +6265,9 @@
         "col": "s9"
       },
       "factKind": "registo",
-      "text": "O Isco senta-se à porta da jaula do Bob Lin com a espada pousada ao lado e diz-lhe que a pode usar para se soltar (S8, 2:21:01–2:21:23). Deu-lhe a espada, ou só a pousou do lado de fora?",
+      "text": "O Isco senta-se à porta da jaula do Bob Lin com a espada pousada ao lado e diz-lhe que a pode usar para se soltar (S8, 2:21:01–2:21:23). Deu-lhe a espada, ou só a pousou do lado de fora? [substituída: A espada ficou com o Isco, decisão 2026-10-29 #12]",
       "suggestion": "Só a pousou do lado de fora; o Bob Lin continua amarrado.",
-      "status": "aberta"
+      "status": "fechada"
     },
     {
       "id": "n-s8-24",
