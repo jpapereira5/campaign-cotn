@@ -685,3 +685,8 @@ Ficam de fora: o sopro de repulsão em pequeno; o sopro de relâmpago.
 15. **Pela Lupa das Entrelinhas, as notas cifradas do Padre Perestrelo mostram uma segunda camada em tinta invisível, com as entregas de rubídio à Doolan Tversky e o selo dela em cada linha** (`c-padre-perestrelo`, `i-lupa-do-comandante`). Liga o padre ao segredo do Alberto. Ficam de fora: uma marca arcana sobre Urzin no mapa; a lupa não mostrar nada.
 16. **A maquilhagem de elfa do Império da Lia aguenta sempre, mesmo de perto e sem teste; só cai se ela a tirar ou usar magia drow à frente de alguém** (`c-pc-lia`). Ficam de fora: Perception CD 13 de perto; cair logo de perto.
 17. **No início da S9, a bolsa do Tibério, com os 7 cristais de rubídio e a moeda do Bob Lin, continua com o Lucan** (confirmado pelo DM; `i-bolsa-do-tiberio`, `i-moeda-do-boblin`).
+
+## Decidido pelo DM (2026-10-31)
+
+1. **Correções de combate da S2, verificadas frase a frase na transcrição:** a primeira trinca foi do xamã ao Lucan, ao passar por ele (com a desvantagem do Vicious Mockery, 15 para acertar, 5 piercing reduzidos a 2 pela Rage), e foi o primeiro dano do Lucan; os golpes 3 e 8 (2:42:51–2:43:50) foram no Isco, que gastou aí os PV temporários e acabou com 7 de dano real; ao Lucan, nessa volta, foram 5, 7, 6, 4 e 6. Substitui a parte «a primeira trinca fica como está» da decisão 2026-10-18 #23 e a leitura da revisão de 2026-10-18 sobre os golpes «3, 8, 5, 7, 6, 4, 6». O javelin de 3 reduzido a 1 mantém-se, mas já não é o primeiro dano.
+
